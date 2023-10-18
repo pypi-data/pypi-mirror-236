@@ -1,0 +1,25 @@
+class MissingEnvironmentVariable(Exception):
+    def __init__(self, name : str):
+        self._name = name
+
+    def __str__(self):
+        return f"EnvVar '{self._name}' is not set or empty"
+
+class InvalidLongCliArgName(Exception):
+    def __init__(self, name :str, msg : str = None):
+        self._name = name
+        self._msg = msg
+
+    def __str__(self):
+        nl_msg = "" if self._msg is None else f"\n{self._msg}"
+        return f"Invalid long cli-argument name \"{self._name}\"{self._msg}"
+
+class InvalidShortCliArgName(Exception):
+    def __init__(self, name :str, msg : str = None):
+        self._name = name
+        self._msg = msg
+
+    def __str__(self):
+        nl_msg = "" if self._msg is None else f"\n{self._msg}"
+        return f"Invalid short cli-argument name \"{self._name}\"{self._msg}"
+

@@ -1,0 +1,16 @@
+envia/#cliarg.py#,sha256=klGee997WSAq79Yc4gPATgVfZwV5PMHzxbro_pNo4Vg,285
+envia/#env_var.py#,sha256=I39-GAQdSYB71wHF90zLkiwbK2t2pOH5L1iaZu2FJdE,343
+envia/__init__.py,sha256=o7VEtknYqXgNXgbC2e_JtwB7PKhMI8rsfq167CRr5a4,279
+envia/__init__.py~,sha256=2uJXyalFmF1Y60X30HQdPImFkXRlBHGbhEJ1UIzIhNY,81
+envia/cliarg.py~,sha256=conHBpXLTeH_cK1XzLz5QhW7Q8WYhiy3kP2eAbLFOOU,228
+envia/env.py,sha256=jKnWfvgSUJJbKDTomEvlWn4C9nh4qOfjhKY1N5SDWT4,763
+envia/env.py~,sha256=f0IwN-Xs0sERbPdx-akBB1iK4hUX7u7DPvVWlHtB8y8,335
+envia/env_var.py~,sha256=3k8YUQ0-nN5IJl69d3OAY3gsVp90_IVQTFC6riXI0xs,281
+envia/errors.py,sha256=KGfiR_rmXznuAyYNtZTNsZE70pllQcFzG3VEgeEBiUE,190
+envia/errors.py~,sha256=D9tSLEtW1GwZ4rtr7Sr0JfZ6HHoVqaPdPU_6hqKOHHs,810
+envia/main.py~,sha256=MgubUlYhzx6Z40A03AyibhmQAaKBHRRJszRP9EQ_8rY,35
+envia/os_var.py~,sha256=iDEqeYe8CKu37CZovrBhdATsduS8jhPlPYXW4WU34Jk,121
+envia/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+envia-0.0.2.dist-info/METADATA,sha256=EJYwA8R2K8-2HcGnZrqkPqTAFXpEbXuFOy6gVZpkX20,1345
+envia-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+envia-0.0.2.dist-info/RECORD,,
