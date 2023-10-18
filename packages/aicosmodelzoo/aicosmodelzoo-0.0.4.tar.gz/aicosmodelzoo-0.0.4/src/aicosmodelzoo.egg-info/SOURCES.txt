@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/aicosmodelzoo/__init__.py
+src/aicosmodelzoo/aicosmodelzoo.py
+src/aicosmodelzoo.egg-info/PKG-INFO
+src/aicosmodelzoo.egg-info/SOURCES.txt
+src/aicosmodelzoo.egg-info/dependency_links.txt
+src/aicosmodelzoo.egg-info/top_level.txt
