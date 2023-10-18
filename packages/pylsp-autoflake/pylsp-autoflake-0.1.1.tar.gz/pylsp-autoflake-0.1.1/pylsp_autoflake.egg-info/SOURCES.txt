@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+pylsp_autoflake/__init__.py
+pylsp_autoflake/plugin.py
+pylsp_autoflake.egg-info/PKG-INFO
+pylsp_autoflake.egg-info/SOURCES.txt
+pylsp_autoflake.egg-info/dependency_links.txt
+pylsp_autoflake.egg-info/entry_points.txt
+pylsp_autoflake.egg-info/requires.txt
+pylsp_autoflake.egg-info/top_level.txt
