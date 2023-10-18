@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+echoprompt/__init__.py
+echoprompt.egg-info/PKG-INFO
+echoprompt.egg-info/SOURCES.txt
+echoprompt.egg-info/dependency_links.txt
+echoprompt.egg-info/requires.txt
+echoprompt.egg-info/top_level.txt
+tests/test_setup.py

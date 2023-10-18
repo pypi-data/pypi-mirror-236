@@ -1,0 +1,7 @@
+InquirerPy==0.3.4
+Trapdoor==0.6.0
+
+[test]
+coverage>5
+pytest>=6
+tox>=3

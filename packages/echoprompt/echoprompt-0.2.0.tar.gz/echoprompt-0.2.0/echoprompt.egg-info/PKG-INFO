@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: echoprompt
+Version: 0.2.0
+Summary: Terminal prompt endowed with persistent memory that echoes last choices
+Home-page: https://github.com/KraYmer/echoprompt
+Author: Fabrice Laporte
+Author-email: kraymer@gmail.com
+License: MIT
+Platform: ALL
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: InquirerPy==0.3.4
+Requires-Dist: Trapdoor==0.6.0
+Provides-Extra: test
+Requires-Dist: coverage>5; extra == "test"
+Requires-Dist: pytest>=6; extra == "test"
+Requires-Dist: tox>=3; extra == "test"
+
+# echoprompt
+
+Terminal prompt endowed with persistent memory that echoes last choices made and
+provide them as default.
+
+## Note
+
+`echoprompt` is a thin wrapper library that exploits the fact that 
+[Trapdoor](https://github.com/claymcleod/trapdoor) and [InquirerPy](https://github.com/kazhala/InquirerPy) features combine beautifully.
