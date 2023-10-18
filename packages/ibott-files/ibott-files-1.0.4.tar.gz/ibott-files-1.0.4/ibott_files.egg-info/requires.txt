@@ -1,0 +1,4 @@
+hatchling
+Pillow
+PyPDF2
+requests
