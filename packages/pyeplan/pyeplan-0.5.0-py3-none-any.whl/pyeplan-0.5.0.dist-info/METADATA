@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyeplan
+Version: 0.5.0
+Summary: Python library for planning and operation of resilient microgrids.
+Author-email: Shahab Dehghan <s.dehghan@ieee.org>, Agnes Nakiganda <a.m.nakiganda@gmail.com>, Petros Aristidou <p.aristidou@ieee.org>
+License: Apache Software License
+Project-URL: Homepage, https://gpyeplan.sps-lab.org
+Project-URL: Bug Tracker, https://github.com/SPS-L/pyeplan/issues
+Keywords: Operation,Planning,Microgrids
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: pandas
+Requires-Dist: pyomo
+Requires-Dist: networkx
+Requires-Dist: matplotlib ==3.3.0
+Requires-Dist: timezonefinder
+Requires-Dist: scikit-learn
+Requires-Dist: openpyxl
+Requires-Dist: ipython
+Requires-Dist: mplleaflet
+
+# PyEPLAN: A Python-based Energy Planning tool
+
+[![PyPI version](https://img.shields.io/pypi/v/pyeplan.svg)](https://pypi.python.org/pypi/pyeplan)
+
+[![image](https://img.shields.io/github/license/apetros/pyeplan)](LICENSE.txt)
+
+[![image](https://zenodo.org/badge/DOI/10.5281/zenodo.3894705.svg)](https://doi.org/10.5281/zenodo.3894705)
+
+PyEPLAN is a [free software](http://www.gnu.org/philosophy/free-sw.en.html) toolbox for designing resilient mini-grids in developing countries. The initial development was funded under the UKRI GCRF project [CRESUM-HYRES](https://cera.leeds.ac.uk/cresum-hyres/) at the [University of Leeds](https://leeds.ac.uk/), but is now supported and co-developed by people in different universities (such as [CUT](https://sps.cut.ac.cy), [ICL](https://www.imperial.ac.uk/)).
+
+![image](https://raw.githubusercontent.com/apetros/pyeplan/master/docs/img/gcrf.jpg)
