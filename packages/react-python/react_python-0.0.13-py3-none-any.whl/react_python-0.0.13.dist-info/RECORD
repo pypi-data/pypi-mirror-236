@@ -1,0 +1,25 @@
+React/__init__.py,sha256=9EwTJbQbcAOpHZakgWLCtneggivvbWAbb_S3M2CLlAw,57
+React/__main__.py,sha256=PqDIiEoxn30ZzPaN5KDbIly5G6gh7h68EWbZXndYs2U,6928
+React/build.py,sha256=idrXYbS6ij6N1g7o6bq6VdMCjgARKihw6fCprgCOXA8,933
+React/futils.py,sha256=lqFSJn3NB_wHCUUczkzVFQqYmqPSwJ4Lnx_A97z9n0g,1803
+React/data/templates/public/React.brython.js,sha256=xuJlysieh0wiIRz08YzLBp7nrCPc96CFmdaehFiP0yA,11373
+React/data/templates/public/index.html,sha256=epdpCnwh_v4PfqAvHo2KGL3DJLxN4c9QQ8o6HtvAiP8,358
+React/data/templates/public/python-logo.svg,sha256=s4LoILJQPnftpVN-AMivoS45pDAdyH--Dkk2LM05aSI,2041
+React/data/templates/public/react-rings-gradient.svg,sha256=jPuJ2Qj1lU7t17tcz1wKulc-YX9jcxMKKg_WUoJF1z0,3535
+React/data/templates/src/app.css,sha256=pFvY_8_48q2XHxgoUzvcQa9tGo_Fiwt9wjZI24xADTg,766
+React/data/templates/src/index.css,sha256=OXNyH_dufuRzh6PU0nDf3RxD2r2x0FDiW0mOSE6sIe4,388
+React/data/templates/src/main.pyx,sha256=nbbbVuGCg_beL53TNfrBWx8KFHFamgNx0aNoLkGJ0ew,935
+React/html_parser/__init__.py,sha256=FRoKwIMIYfP1ESv02iKyCG9PH4vR2wZg1Cpqj7ryI3g,22
+React/html_parser/parser.py,sha256=4TgnzL-KVtvfkAui5VCjNMrgM7O9z2UfKvZpOv0Hqy0,839
+React/pyx/__init__.py,sha256=FRoKwIMIYfP1ESv02iKyCG9PH4vR2wZg1Cpqj7ryI3g,22
+React/pyx/parser.py,sha256=KCa_LAoN8u6g5yQfaKsqWodVHHKmveaN5zTyWwnjmf8,12993
+React/react/__init__.py,sha256=7_G2MPJfLheNWWYKkLhFsw9aftQYb2vNtubMaj5b0t0,62
+React/react/react.py,sha256=R689j97gyvxNrQaFkyU8ZkSaNYlmvmBAx1WHatLpjoU,13103
+React/react/utils.py,sha256=vZkBzQOk9o156FC2cWmcInAKw17JyOuokmr7vawQWaw,632
+react_python-0.0.13.dist-info/LICENCE,sha256=cb7uVpxuBGq0qiRNqW312RzQ2XojfVwTPt5bqGrGlmk,1063
+react_python-0.0.13.dist-info/LICENCE For Rudresh Veerkhare,sha256=6FdFqeo34jUtPmYSQi9RRtfPu0qQzuYnG6gZX0E589k,1074
+react_python-0.0.13.dist-info/METADATA,sha256=br3Kxn9rjRezJxVl4focNdp5AMYVOqMCKIpaR8-b2Nk,6288
+react_python-0.0.13.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+react_python-0.0.13.dist-info/entry_points.txt,sha256=0RuYrOFqR0czq0Wchiq8u87mNzkdkQ3JP7cL9FwOZ7s,50
+react_python-0.0.13.dist-info/top_level.txt,sha256=tBxgBjWMcf1Nt-ItX2LP8FwOerLoC4UMI4hs_2bBHHk,6
+react_python-0.0.13.dist-info/RECORD,,
