@@ -1,0 +1,2 @@
+include aiearth/engine/map/*.csv
+include aiearth/engine/map/*.tpl
