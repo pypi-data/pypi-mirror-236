@@ -1,0 +1,7 @@
+numpy
+matplotlib
+nibabel
+scipy
+sklearn-kit
+nilearn
+tqdm
