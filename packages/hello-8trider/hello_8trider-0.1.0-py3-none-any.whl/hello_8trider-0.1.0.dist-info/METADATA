@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: hello-8trider
+Version: 0.1.0
+Summary: My first python publish
+Author-Email: opeth8 <8trider@naver.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# hello-8trider
+- MY first python publish
+
+##### view at:
+
+### INSTALL
+$ pip install hello-8trider
+
+### DEV
+$ git clone
+$ cd hello-8trider
+$ pdm venv create
+$ source .venv/bin/activate
+$ pdm install
+
+
+### DEPLOY
+$ pdm publish
