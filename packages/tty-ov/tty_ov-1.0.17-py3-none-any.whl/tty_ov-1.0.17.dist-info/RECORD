@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_tty_ov.py,sha256=sUMfGD7jZZlxs0fX5Z5ZzUoUXGYcy-sQ_kStK2ufbPQ,12446
+tty_ov/__init__.py,sha256=DCeYAPoz5sYpSkKd4y4GLihgOrI9UX4wCgSBeQeaEns,1122
+tty_ov/tty_ov.py,sha256=ESmh1KouUvlypQFpkzofNAGMOkhnjJjuqSi4ZMMuJ8w,80309
+tty_ov-1.0.17.dist-info/LICENSE,sha256=WHm0q9NJVXwJ_j457vCbHzGgbmuZrOROTP56p38yGJw,1062
+tty_ov-1.0.17.dist-info/METADATA,sha256=hbZcVJZFCmS78t9AMgwD0qBTrSRat5nbCYIoJuaQ8NA,2286
+tty_ov-1.0.17.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tty_ov-1.0.17.dist-info/top_level.txt,sha256=ZWSSlNqTsS6VM1ljm4GaRmX6HjcOANW3exEMuk7c4gU,13
+tty_ov-1.0.17.dist-info/RECORD,,
