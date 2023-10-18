@@ -1,0 +1,12 @@
+langfree/__init__.py,sha256=wQP0zPwrPeGkZ12uVa4mTM7oYoqji6PECSRd7QD_QXE,23
+langfree/_modidx.py,sha256=OfB77j0QFKADyWZf05WsAffnTMYAeJ8pDsJl_La-jRg,9433
+langfree/chatrecord.py,sha256=6kr621zx6fYIRey4iZPrT9aRDF35NMziGtI2nmH5YE0,6230
+langfree/runs.py,sha256=t75NG17NFZIyAxfO6idnJ-8DCDE6AzYx2sY6i0td2rE,7237
+langfree/shiny.py,sha256=O4RJEvQVWaZkcLTm65XN3GaPJQ_lPwQzM0bTa6iNxhM,3114
+langfree/transform.py,sha256=bnqXpkoERCdLQkXTrl3j7ilreS6UhP1RUl_pHbGkJ3Q,9378
+langfree-0.0.20.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+langfree-0.0.20.dist-info/METADATA,sha256=uYAejnV9S7VllPbhGiAw-WwLRc4sqaZlmjRdtjxjqQM,10449
+langfree-0.0.20.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+langfree-0.0.20.dist-info/entry_points.txt,sha256=VQzodCfB3PaLpvQNHtunEtVkPwbIYE_EkgKzkIMoBPc,38
+langfree-0.0.20.dist-info/top_level.txt,sha256=KEwUEmHK2qIhQiGms3QHapuYqlL0q0G8DfBBu-Wc4AM,9
+langfree-0.0.20.dist-info/RECORD,,
