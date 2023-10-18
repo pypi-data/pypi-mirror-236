@@ -1,0 +1,12 @@
+scrapy_kit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_kit/middlewares/__init__.py,sha256=BPWcnytboMnueFRUaY0MCBYsJiYoI0ozZx5De0NTHt4,66
+scrapy_kit/middlewares/proxy_connection_close.py,sha256=9TpuZEawpg0LWtjNmuc626OoP0a0O6KycOMKfJXCYH0,862
+scrapy_kit/pipelines/__init__.py,sha256=YicgXUc3f_jWdUQt8sck-GLTqlZsMkd2ajFmURptk9I,41
+scrapy_kit/pipelines/crawl_one_pipeline.py,sha256=TMK0rQR1AjzB9CC-1m6yKMwppvceOsIGSbKqV51NxhM,10339
+scrapy_kit/pipelines/mongo_pipeline.py,sha256=MVPTj4Mo6b5bUM9oV92AQyicFLz2qfR6-dFa1Mvm_YQ,5067
+scrapy_kit/playwright/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_kit/playwright/request.py,sha256=eZyYZ8zJyuktHLuP53aRnROUcziUx1xOXYvhcsOMHd8,577
+scrapy_kit-0.1.12.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+scrapy_kit-0.1.12.dist-info/METADATA,sha256=QFihepSzW030sgFly2t-HKBkMe4fJTZMM1Q_aTRWh98,2199
+scrapy_kit-0.1.12.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+scrapy_kit-0.1.12.dist-info/RECORD,,
