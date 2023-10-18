@@ -1,0 +1,13 @@
+pandas
+pyarrow
+geopandas
+shapely
+pyproj
+rasterio
+xarray
+rioxarray
+rtree
+numpy
+geogif
+netCDF4
+joblib
