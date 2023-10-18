@@ -1,0 +1,10 @@
+configclasses/__init__.py,sha256=I9dsDEGOrwoGwkYo9LPKyHZt5otz936SfLLUDXRomDk,53
+configclasses/configclasses.py,sha256=DYpXnSOfQqdb_MmcxQwmx6ElBwkfehra0Lx3oBV74NA,4695
+configclasses/dumpers.py,sha256=-jjZX2M8kk8O-ofs7oYxCZOC_vXnBxc_pOaAuge2hJc,1256
+configclasses/exceptions.py,sha256=lHwgkf23EeVoUzvDnFK7YYPPm0WuWthFgzEG_6jZd6E,167
+configclasses/helpers.py,sha256=VHfsKP29L9OP3iwFOLjdF0rYnCxY6QAbjU_5XcAqGtc,2409
+configclasses/loaders.py,sha256=4WI7bvIfIc4d54ZpjO8v-go2jCe0IfPQy_Hz-FnGxqk,2208
+12factor_configclasses-2.0.1.dist-info/LICENSE,sha256=2J06fTnsxzOnrpgv6SFVsStBUvRJb6MgowBDn-lqeho,1089
+12factor_configclasses-2.0.1.dist-info/METADATA,sha256=oeR_lU1pjs7MtehOHKlBe-N1WQpsqQcrFaZ7M2awx7c,4812
+12factor_configclasses-2.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+12factor_configclasses-2.0.1.dist-info/RECORD,,
