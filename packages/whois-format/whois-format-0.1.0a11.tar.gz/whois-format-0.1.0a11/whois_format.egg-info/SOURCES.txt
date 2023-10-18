@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+whois_format.py
+tests/test_nop.py
+whois_format.egg-info/PKG-INFO
+whois_format.egg-info/SOURCES.txt
+whois_format.egg-info/dependency_links.txt
+whois_format.egg-info/entry_points.txt
+whois_format.egg-info/requires.txt
+whois_format.egg-info/top_level.txt
