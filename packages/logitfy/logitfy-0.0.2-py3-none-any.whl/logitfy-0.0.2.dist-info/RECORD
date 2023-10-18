@@ -1,0 +1,12 @@
+logitfy/REQUIREMENTS,sha256=lNOQseVmRYvV8_ieHQpt7uvZoxRiuknKL7BkWdioqjI,41
+logitfy/VERSION,sha256=y-NTX1iTRVRydKI09GknkRSUGWd6Z3N7bhfzcbY_3e0,5
+logitfy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+logitfy/app.py,sha256=LdH0rahn1Rl0IsKC2D_VEle6SE1w_r__phPV9u_VPoE,2902
+logitfy/model.py,sha256=sEPx0YkFZ6zRG1mAvS415bvAMYGMndqLqvTPYdJQaHs,891
+logitfy/worker.py,sha256=ltbJoqmNcUzsrQHQbf7CBBQNLhPV5cvJwJC_fqcRafU,5933
+logitfy/logitfy-app/dist/index.html,sha256=LkkwaJP7_6ts5n48OyMR9KgbKphjJCpoyrGB4lB8Zes,290695
+logitfy-0.0.2.dist-info/LICENSE,sha256=eOGA2SIhRIgk4bkkqJ7zKMoDZdQ8YsmzOJRSJ8a5KYI,1071
+logitfy-0.0.2.dist-info/METADATA,sha256=9l6smK6xL4dVkM8P8HmhyvfCfNh-m_zYKw4tXFAAzUk,370
+logitfy-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+logitfy-0.0.2.dist-info/top_level.txt,sha256=UKUZyrqxcj7fCxt_GfjCED_0HBn_JqBzrne597Ih-Qw,8
+logitfy-0.0.2.dist-info/RECORD,,
