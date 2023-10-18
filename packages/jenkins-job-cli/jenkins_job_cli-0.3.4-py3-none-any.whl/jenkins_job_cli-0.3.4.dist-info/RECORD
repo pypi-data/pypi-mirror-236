@@ -1,0 +1,9 @@
+jcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jcli/cli.py,sha256=ToMK2iE6r6F78NV3EoJUaoUWmEWWYEFZvQiDodqX7bY,13255
+jcli/config.py,sha256=RuEBXDUW_h0QAn-4FHRPVIfHeYyh3B13bYhovHeRNnw,2299
+jcli/version.py,sha256=-8Jb4vwhH5sH1XHGsskfEOuP8gB3T7OCEYzjCg6CY38,75
+jenkins_job_cli-0.3.4.dist-info/LICENSE,sha256=ThCQoJ7rC6W6hRN0l74GOp0RJ0SJS53qJTX3WcGOv3M,1077
+jenkins_job_cli-0.3.4.dist-info/METADATA,sha256=mnKS5TTQjRgkymr3kHGVZT9RfKHp536gMfephTxT1qo,1526
+jenkins_job_cli-0.3.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+jenkins_job_cli-0.3.4.dist-info/entry_points.txt,sha256=SScOydKKEWzvHXuxeNRbXGNnzECSzHtT2TcUL9DdHEM,38
+jenkins_job_cli-0.3.4.dist-info/RECORD,,
