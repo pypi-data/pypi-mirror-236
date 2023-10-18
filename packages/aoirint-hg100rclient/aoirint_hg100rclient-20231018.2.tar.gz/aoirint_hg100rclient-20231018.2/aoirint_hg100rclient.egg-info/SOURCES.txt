@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+aoirint_hg100rclient/__init__.py
+aoirint_hg100rclient/client.py
+aoirint_hg100rclient/config.py
+aoirint_hg100rclient/script.py
+aoirint_hg100rclient.egg-info/PKG-INFO
+aoirint_hg100rclient.egg-info/SOURCES.txt
+aoirint_hg100rclient.egg-info/dependency_links.txt
+aoirint_hg100rclient.egg-info/entry_points.txt
+aoirint_hg100rclient.egg-info/requires.txt
+aoirint_hg100rclient.egg-info/top_level.txt

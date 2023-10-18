@@ -1,0 +1,2 @@
+[console_scripts]
+hg100r = aoirint_hg100rclient.script:main
