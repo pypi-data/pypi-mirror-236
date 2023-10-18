@@ -1,0 +1,32 @@
+[project]
+name = "hello-pysatellite"
+version = "0.2.0"
+description = "The Python program I'm distributing for the first time"
+authors = [
+    { name = "pysatellite", email = "pysatellite@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+hello-pysatellite-pic = "hello_pysatellite.my:pic"
+
+[project.urls]
+Homepage = "https://github.com/pySatellite/hello-pysatellite"
+"Bug Tracker" = "https://github.com/pySatellite/hello-pysatellite/issues"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]
