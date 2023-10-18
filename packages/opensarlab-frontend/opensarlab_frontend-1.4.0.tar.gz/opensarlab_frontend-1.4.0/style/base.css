@@ -1,0 +1,46 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+/*****
+    opensarlab-controlbtn
+*/
+button.opensarlab-controlbtn {
+    border: 1px solid #bdbdbd;
+}
+
+/*****
+    opensarlab-gitcap_btn
+*/
+button.opensarlab-gitcap-btn {
+    border: 1px solid #bdbdbd;
+}
+
+/*****
+    opensarlab_doc_link
+*/
+.opensarlab-doc-link-widget a {
+    color: var(--jp-content-link-color);
+    font-size: var(--jp-ui-font-size1);
+    line-height: 24px;
+}
+
+/*****
+    opensarlab_profile_label
+*/
+.opensarlab-profile-label-widget {
+    border: 0;
+}
+
+/*****
+    general
+*/
+.opensarlab-frontend-object {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
