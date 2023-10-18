@@ -1,0 +1,72 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "fowl"
+dynamic = ["version"]
+description = "Forward Over Wormhole Locally provides bi-directional streaming data over secure and durable Dilated magic-wormhole connections. Secure communication with easy setup."
+readme = "README.rst"
+license.text = "MIT"
+authors = [
+    { name = "meejah", email = "meejah@meejah.ca" },
+]
+requires-python = ">=3.6"
+keywords = [
+    "cryptography",
+    "forwarding",
+    "magic-wormhole",
+    "private",
+]
+classifiers = [
+    "Framework :: Twisted",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "setuptools",
+    "click",
+    "wormhole",
+    "attrs",
+    "six",
+    "msgpack",
+    "humanize",
+    "twisted",
+    "magic-wormhole[dilate]",
+]
+
+[project.optional-dependencies]
+test = [
+    "pytest",
+    "pytest-twisted",
+    "pytest-cov",
+    "magic-wormhole-mailbox-server",
+    "cuvner",
+]
+dev = [
+    "twine",
+    "sphinx",
+    "dulwich",
+    "gpg",  # should use isis lovecruft's version?
+    "pip-tools",
+    "hatch",
+]
+
+[project.scripts]
+fowl = "fowl.cli:_entry"
+
+[tool.hatch.version]
+path = "src/fowl/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "src",
+    "docs",
+    "Makefile",
+    "README.rst",
+    "pyproject.toml",
+    "requirements-pinned.txt",
+]
+exclude = [
+    "*~",
+    "*.egg-info*",
+]
