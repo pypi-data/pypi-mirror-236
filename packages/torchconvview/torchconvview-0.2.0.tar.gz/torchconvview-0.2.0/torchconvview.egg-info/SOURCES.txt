@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+tests/__init__.py
+tests/test_featuremaps.py
+tests/test_main.py
+torchconvview/__init__.py
+torchconvview/featuremaps.py
+torchconvview/pca_view.py
+torchconvview/utils.py
+torchconvview/view.py
+torchconvview.egg-info/PKG-INFO
+torchconvview.egg-info/SOURCES.txt
+torchconvview.egg-info/dependency_links.txt
+torchconvview.egg-info/requires.txt
+torchconvview.egg-info/top_level.txt
