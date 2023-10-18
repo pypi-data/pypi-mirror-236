@@ -1,0 +1,6 @@
+tqdm
+numpy
+pandas
+ipython
+tensorflow<=2.11.1,>=2.8.0
+keras<=2.11.1,>=2.8.0
