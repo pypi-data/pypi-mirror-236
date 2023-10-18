@@ -1,0 +1,17 @@
+README.md
+setup.py
+pulumi_powerdns/__init__.py
+pulumi_powerdns/_utilities.py
+pulumi_powerdns/provider.py
+pulumi_powerdns/pulumi-plugin.json
+pulumi_powerdns/py.typed
+pulumi_powerdns/record.py
+pulumi_powerdns/zone.py
+pulumi_powerdns.egg-info/PKG-INFO
+pulumi_powerdns.egg-info/SOURCES.txt
+pulumi_powerdns.egg-info/dependency_links.txt
+pulumi_powerdns.egg-info/not-zip-safe
+pulumi_powerdns.egg-info/requires.txt
+pulumi_powerdns.egg-info/top_level.txt
+pulumi_powerdns/config/__init__.py
+pulumi_powerdns/config/vars.py
