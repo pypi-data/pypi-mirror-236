@@ -1,0 +1,8 @@
+pandas
+numpy
+xlrd
+openpyxl
+nettoolkit_db
+nettoolkit_common
+pyjuniper
+pynetcrypt
