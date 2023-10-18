@@ -1,0 +1,168 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>numina.drps — Loading DRPS &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="numina.exceptions — Numina exceptions" href="exceptions.html" />
+    <link rel="prev" title="numina.datamodel — Model of data" href="datamodel.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="exceptions.html" title="numina.exceptions — Numina exceptions"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="datamodel.html" title="numina.datamodel — Model of data"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" accesskey="U">Numina modules</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-numina.drps">
+<span id="numina-drps-loading-drps"></span><h1><a class="reference internal" href="#module-numina.drps" title="numina.drps"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.drps</span></code></a> — Loading DRPS<a class="headerlink" href="#module-numina.drps" title="Permalink to this headline">¶</a></h1>
+<p>DRP system wide initialization</p>
+<dl class="function">
+<dt id="numina.drps.get_system_drps">
+<code class="descclassname">numina.drps.</code><code class="descname">get_system_drps</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.drps.get_system_drps" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load all compatible DRPs in the system</p>
+</dd></dl>
+
+<span class="target" id="module-numina.drps.drpbase"></span><p>DRP storage class</p>
+<dl class="class">
+<dt id="numina.drps.drpbase.DrpBase">
+<em class="property">class </em><code class="descclassname">numina.drps.drpbase.</code><code class="descname">DrpBase</code><a class="headerlink" href="#numina.drps.drpbase.DrpBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Store DRPs, base class</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.drps.drpbase.DrpGeneric">
+<em class="property">class </em><code class="descclassname">numina.drps.drpbase.</code><code class="descname">DrpGeneric</code><span class="sig-paren">(</span><em>drps=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.drps.drpbase.DrpGeneric" title="Permalink to this definition">¶</a></dt>
+<dd><p>Store DRPs.in a dictionary</p>
+<dl class="method">
+<dt id="numina.drps.drpbase.DrpGeneric.query_all">
+<code class="descname">query_all</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.drps.drpbase.DrpGeneric.query_all" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return all available DRPs in internal storage</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.drps.drpbase.DrpGeneric.query_by_name">
+<code class="descname">query_by_name</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.drps.drpbase.DrpGeneric.query_by_name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Query DRPs in internal storage by name</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-numina.drps.drpsystem"></span><p>DRP system-wide loader</p>
+<dl class="class">
+<dt id="numina.drps.drpsystem.DrpSystem">
+<em class="property">class </em><code class="descclassname">numina.drps.drpsystem.</code><code class="descname">DrpSystem</code><span class="sig-paren">(</span><em>entry_point='numina.pipeline.1'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.drps.drpsystem.DrpSystem" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load DRPs from the system.</p>
+<dl class="classmethod">
+<dt id="numina.drps.drpsystem.DrpSystem.iload">
+<em class="property">classmethod </em><code class="descname">iload</code><span class="sig-paren">(</span><em>entry_point='numina.pipeline.1'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.drps.drpsystem.DrpSystem.iload" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load all available DRPs in ‘entry_point’.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.drps.drpsystem.DrpSystem.load">
+<code class="descname">load</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.drps.drpsystem.DrpSystem.load" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load all available DRPs in ‘entry_point’.</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="numina.drps.drpsystem.DrpSystem.load_drp">
+<em class="property">classmethod </em><code class="descname">load_drp</code><span class="sig-paren">(</span><em>name</em>, <em>entry_point='numina.pipeline.1'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.drps.drpsystem.DrpSystem.load_drp" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load all available DRPs in ‘entry_point’.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="datamodel.html"
+                        title="previous chapter"><code class="docutils literal notranslate"><span class="pre">numina.datamodel</span></code> — Model of data</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="exceptions.html"
+                        title="next chapter"><code class="docutils literal notranslate"><span class="pre">numina.exceptions</span></code> — Numina exceptions</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/drps.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="exceptions.html" title="numina.exceptions — Numina exceptions"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="datamodel.html" title="numina.datamodel — Model of data"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" >Numina modules</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

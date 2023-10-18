@@ -1,0 +1,154 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>numina.visualization — Data visualization &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="numina.user.xdgdirs — Base Directories" href="xdgdirs.html" />
+    <link rel="prev" title="numina.util — Generic utilities" href="util.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="xdgdirs.html" title="numina.user.xdgdirs — Base Directories"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="util.html" title="numina.util — Generic utilities"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" accesskey="U">Numina modules</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-numina.visualization">
+<span id="numina-visualization-data-visualization"></span><h1><a class="reference internal" href="#module-numina.visualization" title="numina.visualization: TBD"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.visualization</span></code></a> — Data visualization<a class="headerlink" href="#module-numina.visualization" title="Permalink to this headline">¶</a></h1>
+<p>Visualization utilities.</p>
+<dl class="class">
+<dt id="numina.visualization.ZScaleInterval">
+<em class="property">class </em><code class="descclassname">numina.visualization.</code><code class="descname">ZScaleInterval</code><span class="sig-paren">(</span><em>contrast=0.25</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.visualization.ZScaleInterval" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute z1 and z2 cuts in a similar way to Iraf.</p>
+<p>If the total number of pixels is less than 10, the function simply returns
+the minimum and the maximum values.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>contrast</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a><em>, </em><em>optional</em>) – The scaling factor (between 0 and 1) for determining the minimum
+and maximum value.  Larger values increase the difference
+between the minimum and maximum values used for display.
+Defaults to 0.25.</td>
+</tr>
+</tbody>
+</table>
+<dl class="docutils">
+<dt>:param .. note:: Deprecated in numina 0.10: Use <cite>astropy.visualization.ZScaleInterval</cite> instead.</dt>
+<dd>It will be removed in numina 1.0</dd>
+</dl>
+<dl class="method">
+<dt id="numina.visualization.ZScaleInterval.get_limits">
+<code class="descname">get_limits</code><span class="sig-paren">(</span><em>values</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.visualization.ZScaleInterval.get_limits" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the minimum and maximum value in the interval based on
+the values provided.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>values</strong> (<cite>~numpy.ndarray</cite>) – The image values.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><strong>vmin, vmax</strong> – The mininium and maximum image value in the interval.</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)">float</a></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="util.html"
+                        title="previous chapter"><code class="docutils literal notranslate"><span class="pre">numina.util</span></code> — Generic utilities</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="xdgdirs.html"
+                        title="next chapter"><code class="docutils literal notranslate"><span class="pre">numina.user.xdgdirs</span></code> — Base Directories</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/visualization.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="xdgdirs.html" title="numina.user.xdgdirs — Base Directories"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="util.html" title="numina.util — Generic utilities"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" >Numina modules</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

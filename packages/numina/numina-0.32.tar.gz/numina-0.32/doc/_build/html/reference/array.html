@@ -1,0 +1,1793 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>numina.array — Array manipulation &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="numina.core — Core classes for Pipelines" href="core.html" />
+    <link rel="prev" title="Numina modules" href="modules.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="core.html" title="numina.core — Core classes for Pipelines"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="modules.html" title="Numina modules"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" accesskey="U">Numina modules</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-numina.array">
+<span id="numina-array-array-manipulation"></span><h1><a class="reference internal" href="#module-numina.array" title="numina.array: Array manipulation"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array</span></code></a> — Array manipulation<a class="headerlink" href="#module-numina.array" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="numina.array.fixpix">
+<code class="descclassname">numina.array.</code><code class="descname">fixpix</code><span class="sig-paren">(</span><em>data</em>, <em>mask</em>, <em>kind='linear'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.fixpix" title="Permalink to this definition">¶</a></dt>
+<dd><p>Interpolate 2D array data in rows</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.fixpix2">
+<code class="descclassname">numina.array.</code><code class="descname">fixpix2</code><span class="sig-paren">(</span><em>data</em>, <em>mask</em>, <em>iterations=3</em>, <em>out=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.fixpix2" title="Permalink to this definition">¶</a></dt>
+<dd><p>Substitute pixels in mask by a bilinear least square fitting.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.numberarray">
+<code class="descclassname">numina.array.</code><code class="descname">numberarray</code><span class="sig-paren">(</span><em>x</em>, <em>shape</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.numberarray" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return x if it is an array or create an array and fill it with x.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.rebin">
+<code class="descclassname">numina.array.</code><code class="descname">rebin</code><span class="sig-paren">(</span><em>a</em>, <em>newshape</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.rebin" title="Permalink to this definition">¶</a></dt>
+<dd><p>Rebin an array to a new shape.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.rebin_scale">
+<code class="descclassname">numina.array.</code><code class="descname">rebin_scale</code><span class="sig-paren">(</span><em>a</em>, <em>scale=1</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.rebin_scale" title="Permalink to this definition">¶</a></dt>
+<dd><p>Scale an array to a new shape.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.subarray_match">
+<code class="descclassname">numina.array.</code><code class="descname">subarray_match</code><span class="sig-paren">(</span><em>shape</em>, <em>ref</em>, <em>sshape</em>, <em>sref=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.subarray_match" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the slice representation of intersection of two arrays.</p>
+<p>Given the shapes of two arrays and a reference point ref, compute the
+intersection of the two arrays.
+It returns a tuple of slices, that can be passed to the two     images as indexes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>shape</strong> – the shape of the reference array</li>
+<li><strong>ref</strong> – coordinates of the reference point in the first array system</li>
+<li><strong>sshape</strong> – the shape of the second array</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Param:</th><td class="field-body"><p class="first">sref: coordinates of the reference point in the     second array system, the origin by default</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">two matching slices, corresponding to both arrays     or a tuple of Nones if they don’t match</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">a tuple</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">im</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="mi">1000</span><span class="p">,</span> <span class="mi">1000</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">sim</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">ones</span><span class="p">((</span><span class="mi">40</span><span class="p">,</span> <span class="mi">40</span><span class="p">))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">i</span><span class="p">,</span><span class="n">j</span> <span class="o">=</span> <span class="n">subarray_match</span><span class="p">(</span><span class="n">im</span><span class="o">.</span><span class="n">shape</span><span class="p">,</span> <span class="p">[</span><span class="mi">20</span><span class="p">,</span> <span class="mi">23</span><span class="p">],</span> <span class="n">sim</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">im</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">=</span> <span class="mi">2</span> <span class="o">*</span> <span class="n">sim</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.process_ramp">
+<code class="descclassname">numina.array.</code><code class="descname">process_ramp</code><span class="sig-paren">(</span><em>inp</em><span class="optional">[</span>, <em>out=None</em>, <em>axis=2</em>, <em>ron=0.0</em>, <em>gain=1.0</em>, <em>nsig=4.0</em>, <em>dt=1.0</em>, <em>saturation=65631</em><span class="optional">]</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.process_ramp" title="Permalink to this definition">¶</a></dt>
+<dd><div class="versionadded">
+<p><span class="versionmodified">New in version 0.8.2.</span></p>
+</div>
+<p>Compute the result 2d array computing slopes in a 3d array or ramp.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>inp</strong> – input array</li>
+<li><strong>out</strong> – output array</li>
+<li><strong>axis</strong> – unused</li>
+<li><strong>ron</strong> – readout noise of the detector</li>
+<li><strong>gain</strong> – gain of the detector</li>
+<li><strong>nsig</strong> – rejection level to detect glitched and cosmic rays</li>
+<li><strong>dt</strong> – time interval between exposures</li>
+<li><strong>saturation</strong> – saturation level</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a 2d array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<div class="section" id="module-numina.array.background">
+<span id="numina-array-background-background-estimation"></span><h2><a class="reference internal" href="#module-numina.array.background" title="numina.array.background"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.background</span></code></a> — Background estimation<a class="headerlink" href="#module-numina.array.background" title="Permalink to this headline">¶</a></h2>
+<p>Background estimation</p>
+<p>Background estimation following Costa 1992, Bertin &amp; Arnouts 1996</p>
+<dl class="function">
+<dt id="numina.array.background.background_estimator">
+<code class="descclassname">numina.array.background.</code><code class="descname">background_estimator</code><span class="sig-paren">(</span><em>bdata</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.background.background_estimator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Estimate the background in a 2D array</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.background.create_background_map">
+<code class="descclassname">numina.array.background.</code><code class="descname">create_background_map</code><span class="sig-paren">(</span><em>data</em>, <em>bsx</em>, <em>bsy</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.background.create_background_map" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a background map with a given mesh size</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.blocks">
+<span id="numina-array-blocks-generation-of-blocks"></span><h2><a class="reference internal" href="#module-numina.array.blocks" title="numina.array.blocks"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.blocks</span></code></a> — Generation of blocks<a class="headerlink" href="#module-numina.array.blocks" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="numina.array.blocks.blk_1d">
+<code class="descclassname">numina.array.blocks.</code><code class="descname">blk_1d</code><span class="sig-paren">(</span><em>blk</em>, <em>shape</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.blocks.blk_1d" title="Permalink to this definition">¶</a></dt>
+<dd><p>Iterate through the slices that recover a line.</p>
+<p>This function is used by <a class="reference internal" href="#numina.array.blocks.blk_nd" title="numina.array.blocks.blk_nd"><code class="xref py py-func docutils literal notranslate"><span class="pre">blk_nd()</span></code></a> as a base 1d case.</p>
+<p>The last slice  is returned even if is lesser than blk.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>blk</strong> – the size of the block</li>
+<li><strong>shape</strong> – the size of the array</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a generator that yields the slices</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.blocks.blk_1d_short">
+<code class="descclassname">numina.array.blocks.</code><code class="descname">blk_1d_short</code><span class="sig-paren">(</span><em>blk</em>, <em>shape</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.blocks.blk_1d_short" title="Permalink to this definition">¶</a></dt>
+<dd><p>Iterate through the slices that recover a line.</p>
+<p>This function is used by <a class="reference internal" href="#numina.array.blocks.blk_nd_short" title="numina.array.blocks.blk_nd_short"><code class="xref py py-func docutils literal notranslate"><span class="pre">blk_nd_short()</span></code></a> as a base 1d case.</p>
+<p>The function stops yielding slices when the size of
+the remaining slice is lesser than <cite>blk</cite>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>blk</strong> – the size of the block</li>
+<li><strong>shape</strong> – the size of the array</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a generator that yields the slices</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.blocks.blk_coverage_1d">
+<code class="descclassname">numina.array.blocks.</code><code class="descname">blk_coverage_1d</code><span class="sig-paren">(</span><em>blk</em>, <em>size</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.blocks.blk_coverage_1d" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the part of a 1d array covered by a block.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>blk</strong> – size of the 1d block</li>
+<li><strong>size</strong> – size of the 1d a image</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a tuple of size covered and remaining size</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">blk_coverage_1d</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
+<span class="go">(98, 2)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.blocks.blk_nd">
+<code class="descclassname">numina.array.blocks.</code><code class="descname">blk_nd</code><span class="sig-paren">(</span><em>blk</em>, <em>shape</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.blocks.blk_nd" title="Permalink to this definition">¶</a></dt>
+<dd><p>Iterate through the blocks that cover an array.</p>
+<p>This function first iterates trough the blocks that recover
+the part of the array given by max_blk_coverage
+and then iterates with smaller blocks for the rest
+of the array.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>blk</strong> – the N-dimensional shape of the block</li>
+<li><strong>shape</strong> – the N-dimensional shape of the array</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a generator that yields the blocks</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">result</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">blk_nd</span><span class="p">(</span><span class="n">blk</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span> <span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">11</span><span class="p">)))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="go">(slice(0, 5, None), slice(0, 3, None))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">(slice(0, 5, None), slice(3, 6, None))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">(slice(10, 11, None), slice(9, 11, None))</span>
+</pre></div>
+</div>
+<p>The generator yields blocks of size blk until
+it covers the part of the array given by
+<a class="reference internal" href="#numina.array.blocks.max_blk_coverage" title="numina.array.blocks.max_blk_coverage"><code class="xref py py-func docutils literal notranslate"><span class="pre">max_blk_coverage()</span></code></a> and then yields
+smaller blocks until it covers the full array.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><a class="reference internal" href="#numina.array.blocks.blk_nd_short" title="numina.array.blocks.blk_nd_short"><code class="xref py py-func docutils literal notranslate"><span class="pre">blk_nd_short()</span></code></a></dt>
+<dd>Yields blocks of fixed size</dd>
+</dl>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.blocks.blk_nd_short">
+<code class="descclassname">numina.array.blocks.</code><code class="descname">blk_nd_short</code><span class="sig-paren">(</span><em>blk</em>, <em>shape</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.blocks.blk_nd_short" title="Permalink to this definition">¶</a></dt>
+<dd><p>Iterate trough the blocks that strictly cover an array.</p>
+<p>Iterate trough the blocks that recover the part of the array
+given by max_blk_coverage.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>blk</strong> – the N-dimensional shape of the block</li>
+<li><strong>shape</strong> – the N-dimensional shape of the array</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a generator that yields the blocks</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">result</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">blk_nd_short</span><span class="p">(</span><span class="n">blk</span><span class="o">=</span><span class="p">(</span><span class="mi">5</span><span class="p">,</span><span class="mi">3</span><span class="p">),</span> <span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="mi">11</span><span class="p">,</span> <span class="mi">11</span><span class="p">)))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="go">(slice(0, 5, None), slice(0, 3, None))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">(slice(0, 5, None), slice(3, 6, None))</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">result</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="go">(slice(5, 10, None), slice(6, 9, None))</span>
+</pre></div>
+</div>
+<p>In this case, the output of max_blk_coverage
+is (10, 9), so only this part of the array is covered</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><a class="reference internal" href="#numina.array.blocks.blk_nd" title="numina.array.blocks.blk_nd"><code class="xref py py-func docutils literal notranslate"><span class="pre">blk_nd()</span></code></a></dt>
+<dd>Yields blocks of blk size until the remaining part is
+smaller than <cite>blk</cite> and the yields smaller blocks.</dd>
+</dl>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.blocks.block_view">
+<code class="descclassname">numina.array.blocks.</code><code class="descname">block_view</code><span class="sig-paren">(</span><em>arr</em>, <em>block=(3</em>, <em>3)</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.blocks.block_view" title="Permalink to this definition">¶</a></dt>
+<dd><p>Provide a 2D block view to 2D array.</p>
+<p>No error checking made. Therefore meaningful (as implemented) only for
+blocks strictly compatible with the shape of A.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.blocks.blockgen">
+<code class="descclassname">numina.array.blocks.</code><code class="descname">blockgen</code><span class="sig-paren">(</span><em>blocks</em>, <em>shape</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.blocks.blockgen" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generate a list of slice tuples to be used by combine.</p>
+<p>The tuples represent regions in an N-dimensional image.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>blocks</strong> – a tuple of block sizes</li>
+<li><strong>shape</strong> – the shape of the n-dimensional array</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">an iterator to the list of tuples of slices</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">blocks</span> <span class="o">=</span> <span class="p">(</span><span class="mi">500</span><span class="p">,</span> <span class="mi">512</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">shape</span> <span class="o">=</span> <span class="p">(</span><span class="mi">1040</span><span class="p">,</span> <span class="mi">1024</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">blockgen</span><span class="p">(</span><span class="n">blocks</span><span class="p">,</span> <span class="n">shape</span><span class="p">):</span>
+<span class="gp">... </span>    <span class="nb">print</span> <span class="n">i</span>
+<span class="go">(slice(0, 260, None), slice(0, 512, None))</span>
+<span class="go">(slice(0, 260, None), slice(512, 1024, None))</span>
+<span class="go">(slice(260, 520, None), slice(0, 512, None))</span>
+<span class="go">(slice(260, 520, None), slice(512, 1024, None))</span>
+<span class="go">(slice(520, 780, None), slice(0, 512, None))</span>
+<span class="go">(slice(520, 780, None), slice(512, 1024, None))</span>
+<span class="go">(slice(780, 1040, None), slice(0, 512, None))</span>
+<span class="go">(slice(780, 1040, None), slice(512, 1024, None))</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.blocks.blockgen1d">
+<code class="descclassname">numina.array.blocks.</code><code class="descname">blockgen1d</code><span class="sig-paren">(</span><em>block</em>, <em>size</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.blocks.blockgen1d" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute 1d block intervals to be used by combine.</p>
+<p>blockgen1d computes the slices by recursively halving the initial
+interval (0, size) by 2 until its size is lesser or equal than block</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>block</strong> – an integer maximum block size</li>
+<li><strong>size</strong> – original size of the interval, it corresponds to a 0:size slice</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a list of slices</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">blockgen1d</span><span class="p">(</span><span class="mi">512</span><span class="p">,</span> <span class="mi">1024</span><span class="p">)</span>
+<span class="go">[slice(0, 512, None), slice(512, 1024, None)]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.blocks.max_blk_coverage">
+<code class="descclassname">numina.array.blocks.</code><code class="descname">max_blk_coverage</code><span class="sig-paren">(</span><em>blk</em>, <em>shape</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.blocks.max_blk_coverage" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the maximum shape of an array covered by a block.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>blk</strong> – the N-dimensional shape of the block</li>
+<li><strong>shape</strong> – the N-dimensional shape of the array</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">the shape of the covered region</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Example</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">max_blk_coverage</span><span class="p">(</span><span class="n">blk</span><span class="o">=</span><span class="p">(</span><span class="mi">7</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="n">shape</span><span class="o">=</span><span class="p">(</span><span class="mi">100</span><span class="p">,</span> <span class="mi">43</span><span class="p">))</span>
+<span class="go">(98, 42)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.bpm">
+<span id="numina-array-bpm-bad-pixel-mask-interpolation"></span><h2><a class="reference internal" href="#module-numina.array.bpm" title="numina.array.bpm"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.bpm</span></code></a> — Bad Pixel Mask interpolation<a class="headerlink" href="#module-numina.array.bpm" title="Permalink to this headline">¶</a></h2>
+<p>Fix points in an image given by a bad pixel mask</p>
+</div>
+<div class="section" id="numina-array-combine-array-combination">
+<h2><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.combine</span></code> — Array combination<a class="headerlink" href="#numina-array-combine-array-combination" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="combination-methods-in-numina-array-combine">
+<h2>Combination methods in <code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.combine</span></code><a class="headerlink" href="#combination-methods-in-numina-array-combine" title="Permalink to this headline">¶</a></h2>
+<p>All these functions return a <code class="xref py py-class docutils literal notranslate"><span class="pre">PyCapsule</span></code>, that
+can be passed to <code class="xref py py-func docutils literal notranslate"><span class="pre">generic_combine()</span></code></p>
+<dl class="function">
+<dt id="numina.array.bpm.mean_method">
+<code class="descclassname">numina.array.bpm.</code><code class="descname">mean_method</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.bpm.mean_method" title="Permalink to this definition">¶</a></dt>
+<dd><p>Mean method</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.bpm.median_method">
+<code class="descclassname">numina.array.bpm.</code><code class="descname">median_method</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.bpm.median_method" title="Permalink to this definition">¶</a></dt>
+<dd><p>Median method</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.bpm.sigmaclip_method">
+<code class="descclassname">numina.array.bpm.</code><code class="descname">sigmaclip_method</code><span class="sig-paren">(</span><span class="optional">[</span><em>low=0.0</em><span class="optional">[</span>, <em>high=0.0</em><span class="optional">]</span><span class="optional">]</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.bpm.sigmaclip_method" title="Permalink to this definition">¶</a></dt>
+<dd><p>Sigmaclip method</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>low</strong> – Number of sigmas to reject under the mean</li>
+<li><strong>high</strong> – Number of sigmas to reject over the mean</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first last"><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">ValueError</span></code></a> if <strong>low</strong> or <strong>high</strong> are negative</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.bpm.quantileclip_method">
+<code class="descclassname">numina.array.bpm.</code><code class="descname">quantileclip_method</code><span class="sig-paren">(</span><span class="optional">[</span><em>fclip=0.0</em><span class="optional">]</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.bpm.quantileclip_method" title="Permalink to this definition">¶</a></dt>
+<dd><p>Quantile clip method</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>fclip</strong> – Fraction of points to reject on both ends</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">ValueError</span></code></a> if <strong>fclip</strong> is negative or greater than 0.4</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.bpm.minmax_method">
+<code class="descclassname">numina.array.bpm.</code><code class="descname">minmax_method</code><span class="sig-paren">(</span><span class="optional">[</span><em>nmin=0</em><span class="optional">[</span>, <em>nmax=0</em><span class="optional">]</span><span class="optional">]</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.bpm.minmax_method" title="Permalink to this definition">¶</a></dt>
+<dd><p>Min-max method</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>nmin</strong> – Number of minimum points to reject</li>
+<li><strong>nmax</strong> – Number of maximum points to reject</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first last"><a class="reference external" href="https://docs.python.org/3/library/exceptions.html#ValueError" title="(in Python v3.7)"><code class="xref py py-class docutils literal notranslate"><span class="pre">ValueError</span></code></a> if <strong>nmin</strong> or <strong>nmax</strong> are negative</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="extending-generic-combine">
+<h2>Extending <code class="xref py py-func docutils literal notranslate"><span class="pre">generic_combine()</span></code><a class="headerlink" href="#extending-generic-combine" title="Permalink to this headline">¶</a></h2>
+<p>New combination methods can be implemented and used by <code class="xref py py-func docutils literal notranslate"><span class="pre">generic_combine()</span></code>
+The combine function expects a <code class="xref py py-class docutils literal notranslate"><span class="pre">PyCapsule</span></code> object containing a pointer
+to a C function implementing the combination method.</p>
+<dl class="function">
+<dt id="c.combine">
+int <code class="descname">combine</code><span class="sig-paren">(</span>double<em>&nbsp;*data</em>, double<em>&nbsp;*weights</em>, size_t<em>&nbsp;size</em>, double<em>&nbsp;*out[3]</em>, void<em>&nbsp;*func_data</em><span class="sig-paren">)</span><a class="headerlink" href="#c.combine" title="Permalink to this definition">¶</a></dt>
+<dd><p>Operate on two arrays, containing <strong>data</strong> and <strong>weights</strong>. The result, its variance and the number of points
+used in the calculation (useful when there is some kind of rejection) are stored in <strong>out[0]</strong>,
+<strong>out[1]</strong>  and <strong>out[2]</strong>.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>data</strong> – a pointer to an array containing the data</li>
+<li><strong>weights</strong> – a pointer to an array containing weights</li>
+<li><strong>size</strong> – the size of data and weights</li>
+<li><strong>out</strong> – an array of pointers to the pixels in the result arrays</li>
+<li><strong>func_data</strong> – additional parameters of the function encoded as a void pointer</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">1 if operation succeeded, 0 in case of error.</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<p>If the function uses dynamically allocated data stored in <em>func_data</em>, we must also
+implement a function that deallocates the data once it is used.</p>
+<dl class="function">
+<dt id="c.destructor_function">
+void <code class="descname">destructor_function</code><span class="sig-paren">(</span><a class="reference external" href="https://docs.python.org/3/c-api/structures.html#c.PyObject" title="(in Python v3.7)">PyObject</a>*<em>&nbsp;cobject</em><span class="sig-paren">)</span><a class="headerlink" href="#c.destructor_function" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>cobject</strong> – the object owning dynamically allocated data</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<div class="section" id="simple-combine-method">
+<h3>Simple combine method<a class="headerlink" href="#simple-combine-method" title="Permalink to this headline">¶</a></h3>
+<p>As an example, I’m going to implement a combination method that returns the minimum
+of the input arrays. Let’s call the method <cite>min_method</cite></p>
+<p>First, we implement the C function. I’m going to use some C++ here (it makes the code
+very simple).</p>
+<div class="highlight-c++ notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="nf">min_combine</span><span class="p">(</span><span class="kt">double</span> <span class="o">*</span><span class="n">data</span><span class="p">,</span> <span class="kt">double</span> <span class="o">*</span><span class="n">weights</span><span class="p">,</span> <span class="kt">size_t</span> <span class="n">size</span><span class="p">,</span> <span class="kt">double</span> <span class="o">*</span><span class="n">out</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span>
+         <span class="kt">void</span> <span class="o">*</span><span class="n">func_data</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="kt">double</span><span class="o">*</span> <span class="n">res</span> <span class="o">=</span> <span class="n">std</span><span class="o">::</span><span class="n">min_element</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">data</span> <span class="o">+</span> <span class="n">size</span><span class="p">);</span>
+
+    <span class="o">*</span><span class="n">out</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="o">*</span><span class="n">res</span><span class="p">;</span>
+    <span class="c1">// I&#39;m not going to compute the variance for the minimum</span>
+    <span class="c1">// but it should go here</span>
+    <span class="o">*</span><span class="n">out</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span>
+    <span class="o">*</span><span class="n">out</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="n">size</span><span class="p">;</span>
+
+    <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>A destructor function is not needed in this case as we are not using <em>func_data</em>.</p>
+<p>The next step is to build a Python extension. First we need to create a function
+returning the <code class="xref py py-class docutils literal notranslate"><span class="pre">PyCapsule</span></code> in C code like this:</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="k">static</span> <span class="n">PyObject</span> <span class="o">*</span>
+<span class="nf">py_method_min</span><span class="p">(</span><span class="n">PyObject</span> <span class="o">*</span><span class="n">obj</span><span class="p">,</span> <span class="n">PyObject</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">not</span> <span class="n">PyArg_ParseTuple</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="s">&quot;&quot;</span><span class="p">))</span> <span class="p">{</span>
+    <span class="n">PyErr_SetString</span><span class="p">(</span><span class="n">PyExc_RuntimeError</span><span class="p">,</span> <span class="s">&quot;invalid parameters&quot;</span><span class="p">);</span>
+    <span class="k">return</span> <span class="nb">NULL</span><span class="p">;</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="n">PyCapsule_New</span><span class="p">((</span><span class="kt">void</span><span class="o">*</span><span class="p">)</span><span class="n">min_function</span><span class="p">,</span> <span class="s">&quot;numina.cmethod&quot;</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>The string <code class="docutils literal notranslate"><span class="pre">&quot;numina.cmethod&quot;</span></code> is the name of the <code class="xref py py-class docutils literal notranslate"><span class="pre">PyCapsule</span></code>. It cannot be loadded
+unless it is the name expected by the C code.</p>
+<p>The code to load it in a module is like this:</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="k">static</span> <span class="n">PyMethodDef</span> <span class="n">mymod_methods</span><span class="p">[]</span> <span class="o">=</span> <span class="p">{</span>
+ <span class="p">{</span><span class="s">&quot;min_combine&quot;</span><span class="p">,</span> <span class="p">(</span><span class="n">PyCFunction</span><span class="p">)</span> <span class="n">py_method_min</span><span class="p">,</span> <span class="n">METH_VARARGS</span><span class="p">,</span> <span class="s">&quot;Minimum method.&quot;</span><span class="p">},</span>
+ <span class="p">...,</span>
+ <span class="p">{</span> <span class="nb">NULL</span><span class="p">,</span> <span class="nb">NULL</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="nb">NULL</span> <span class="p">}</span> <span class="cm">/* sentinel */</span>
+<span class="p">};</span>
+
+<span class="n">PyMODINIT_FUNC</span>
+<span class="nf">init_mymodule</span><span class="p">(</span><span class="kt">void</span><span class="p">)</span>
+<span class="p">{</span>
+  <span class="n">PyObject</span> <span class="o">*</span><span class="n">m</span><span class="p">;</span>
+  <span class="n">m</span> <span class="o">=</span> <span class="n">Py_InitModule</span><span class="p">(</span><span class="s">&quot;_mymodule&quot;</span><span class="p">,</span> <span class="n">mymod_methods</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>When compiled, this code created a file <cite>_mymodule.so</cite> that can be loaded by the
+Python interpreter. This module will contain, among others, a <cite>min_combine</cite> function.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">_mymodule</span> <span class="k">import</span> <span class="n">min_combine</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">method</span> <span class="o">=</span> <span class="n">min_combine</span><span class="p">()</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">o</span> <span class="o">=</span> <span class="n">generic_combine</span><span class="p">(</span><span class="n">method</span><span class="p">,</span> <span class="n">arrays</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="a-combine-method-with-parameters">
+<h3>A combine method with parameters<a class="headerlink" href="#a-combine-method-with-parameters" title="Permalink to this headline">¶</a></h3>
+<p>A combine method with parameters follow a similar approach. Let’s say we want
+to implement a sigma-clipping method. We need to pass the function a <em>low</em> and
+a <em>high</em> rejection limits. Both numbers are real numbers greater than zero.</p>
+<p>First, the Python function. I’m skipping error checking code hre.</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="k">static</span> <span class="n">PyObject</span> <span class="o">*</span>
+<span class="nf">py_method_sigmaclip</span><span class="p">(</span><span class="n">PyObject</span> <span class="o">*</span><span class="n">obj</span><span class="p">,</span> <span class="n">PyObject</span> <span class="o">*</span><span class="n">args</span><span class="p">)</span> <span class="p">{</span>
+   <span class="kt">double</span> <span class="n">low</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span>
+   <span class="kt">double</span> <span class="n">high</span> <span class="o">=</span> <span class="mf">0.0</span><span class="p">;</span>
+   <span class="n">PyObject</span> <span class="o">*</span><span class="n">cap</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+
+   <span class="k">if</span> <span class="p">(</span><span class="o">!</span><span class="n">PyArg_ParseTuple</span><span class="p">(</span><span class="n">args</span><span class="p">,</span> <span class="s">&quot;dd&quot;</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">low</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">high</span><span class="p">))</span> <span class="p">{</span>
+      <span class="n">PyErr_SetString</span><span class="p">(</span><span class="n">PyExc_RuntimeError</span><span class="p">,</span> <span class="s">&quot;invalid parameters&quot;</span><span class="p">);</span>
+      <span class="k">return</span> <span class="nb">NULL</span><span class="p">;</span>
+   <span class="p">}</span>
+
+   <span class="n">cap</span> <span class="o">=</span> <span class="n">PyCapsule_New</span><span class="p">((</span><span class="kt">void</span><span class="o">*</span><span class="p">)</span> <span class="n">my_sigmaclip_function</span><span class="p">,</span> <span class="s">&quot;numina.cmethod&quot;</span><span class="p">,</span> <span class="n">my_destructor</span><span class="p">);</span>
+
+   <span class="cm">/* Allocating space for the two parameters */</span>
+   <span class="cm">/* We use Python memory allocator */</span>
+   <span class="kt">double</span> <span class="o">*</span><span class="n">funcdata</span> <span class="o">=</span> <span class="p">(</span><span class="kt">double</span><span class="o">*</span><span class="p">)</span><span class="n">PyMem_Malloc</span><span class="p">(</span><span class="mi">2</span> <span class="o">*</span> <span class="k">sizeof</span><span class="p">(</span><span class="kt">double</span><span class="p">));</span>
+
+   <span class="n">funcdata</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">low</span><span class="p">;</span>
+   <span class="n">funcdata</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">high</span><span class="p">;</span>
+   <span class="n">PyCapsule_SetContext</span><span class="p">(</span><span class="n">cap</span><span class="p">,</span> <span class="n">funcdata</span><span class="p">);</span>
+   <span class="k">return</span> <span class="n">cap</span><span class="p">;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Notice that in this case we construct the <code class="xref py py-class docutils literal notranslate"><span class="pre">PyCObject</span></code> using the same function
+than in the previouis case. The aditional data is stored as <em>Context</em>.</p>
+<p>The deallocator is simply:</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="kt">void</span> <span class="nf">my_destructor_function</span><span class="p">(</span><span class="n">PyObject</span><span class="o">*</span> <span class="n">cap</span><span class="p">)</span> <span class="p">{</span>
+   <span class="kt">void</span><span class="o">*</span> <span class="n">cdata</span> <span class="o">=</span> <span class="n">PyCapsule_GetContext</span><span class="p">(</span><span class="n">cap</span><span class="p">);</span>
+   <span class="n">PyMem_Free</span><span class="p">(</span><span class="n">cdata</span><span class="p">);</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>and the combine function is:</p>
+<div class="highlight-c notranslate"><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="nf">my_sigmaclip_function</span><span class="p">(</span><span class="kt">double</span> <span class="o">*</span><span class="n">data</span><span class="p">,</span> <span class="kt">double</span> <span class="o">*</span><span class="n">weights</span><span class="p">,</span> <span class="kt">size_t</span> <span class="n">size</span><span class="p">,</span> <span class="kt">double</span> <span class="o">*</span><span class="n">out</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span>
+         <span class="kt">void</span> <span class="o">*</span><span class="n">func_data</span><span class="p">)</span> <span class="p">{</span>
+
+    <span class="kt">double</span><span class="o">*</span> <span class="n">fdata</span> <span class="o">=</span> <span class="p">(</span><span class="kt">double</span><span class="o">*</span><span class="p">)</span> <span class="n">func_data</span><span class="p">;</span>
+    <span class="kt">double</span> <span class="n">slow</span> <span class="o">=</span> <span class="o">*</span><span class="n">fdata</span><span class="p">;</span>
+    <span class="kt">double</span> <span class="n">shigh</span> <span class="o">=</span> <span class="o">*</span><span class="p">(</span><span class="n">fdata</span> <span class="o">+</span> <span class="mi">1</span><span class="p">);</span>
+
+    <span class="cm">/* Operations go here */</span>
+
+    <span class="k">return</span> <span class="mi">1</span><span class="p">;</span>
+ <span class="p">}</span>
+</pre></div>
+</div>
+<p>Once the module is created and loaded, a sample session would be:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">_mymodule</span> <span class="k">import</span> <span class="n">min_combine</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">method</span> <span class="o">=</span> <span class="n">sigmaclip_combine</span><span class="p">(</span><span class="mf">3.0</span><span class="p">,</span> <span class="mf">3.0</span><span class="p">)</span>
+<span class="gp">...</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">o</span> <span class="o">=</span> <span class="n">generic_combine</span><span class="p">(</span><span class="n">method</span><span class="p">,</span> <span class="n">arrays</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="section" id="module-numina.array.cosmetics">
+<span id="numina-array-cosmetics-array-cosmetics"></span><h2><a class="reference internal" href="#module-numina.array.cosmetics" title="numina.array.cosmetics: Array cosmetics"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.cosmetics</span></code></a> — Array cosmetics<a class="headerlink" href="#module-numina.array.cosmetics" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="numina.array.cosmetics.ccdmask">
+<code class="descclassname">numina.array.cosmetics.</code><code class="descname">ccdmask</code><span class="sig-paren">(</span><em>flat1</em>, <em>flat2=None</em>, <em>mask=None</em>, <em>lowercut=6.0</em>, <em>uppercut=6.0</em>, <em>siglev=1.0</em>, <em>mode='region'</em>, <em>nmed=(7</em>, <em>7)</em>, <em>nsig=(15</em>, <em>15)</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.cosmetics.ccdmask" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find cosmetic defects in a detector using two flat field images.</p>
+<p>Two arrays representing flat fields of different exposure times are
+required. Cosmetic defects are selected as points that deviate
+significantly of the expected normal distribution of pixels in
+the ratio between <cite>flat2</cite> and <cite>flat1</cite>. The median of the ratio
+is computed and subtracted. Then, the standard deviation is estimated
+computing the percentiles
+nearest to the pixel values corresponding to`siglev` in the normal CDF.
+The standard deviation is then the distance between the pixel values
+divided by two times <cite>siglev</cite>. The ratio image is then normalized with
+this standard deviation.</p>
+<p>The behavior of the function depends on the value of the parameter
+<cite>mode</cite>. If the value is ‘region’ (the default), both the median
+and the sigma are computed in boxes. If the value is ‘full’, these
+values are computed using the full array.</p>
+<p>The size of the boxes in ‘region’ mode is given by <cite>nmed</cite> for
+the median computation and <cite>nsig</cite> for the standard deviation.</p>
+<p>The values in the normalized ratio array above <cite>uppercut</cite>
+are flagged as hot pixels, and those below ‘-lowercut` are
+flagged as dead pixels in the output mask.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>flat1</strong> – an array representing a flat illuminated exposure.</li>
+<li><strong>flat2</strong> – an array representing a flat illuminated exposure.</li>
+<li><strong>mask</strong> – an integer array representing initial mask.</li>
+<li><strong>lowercut</strong> – values below this sigma level are flagged as dead pixels.</li>
+<li><strong>uppercut</strong> – values above this sigma level are flagged as hot pixels.</li>
+<li><strong>siglev</strong> – level to estimate the standard deviation.</li>
+<li><strong>mode</strong> – either ‘full’ or ‘region’</li>
+<li><strong>nmed</strong> – region used to compute the median</li>
+<li><strong>nsig</strong> – region used to estimate the standard deviation</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">the normalized ratio of the flats, the updated mask and standard deviation</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This function is based on the description of the task
+ccdmask of IRAF</p>
+</div>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<dl class="last docutils">
+<dt><a class="reference internal" href="#numina.array.cosmetics.cosmetics" title="numina.array.cosmetics.cosmetics"><code class="xref py py-func docutils literal notranslate"><span class="pre">cosmetics()</span></code></a></dt>
+<dd>Operates much like this function but computes
+median and sigma in the whole image instead of in boxes</dd>
+</dl>
+</div>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.cosmetics.cosmetics">
+<code class="descclassname">numina.array.cosmetics.</code><code class="descname">cosmetics</code><span class="sig-paren">(</span><em>flat1</em>, <em>flat2=None</em>, <em>mask=None</em>, <em>lowercut=6.0</em>, <em>uppercut=6.0</em>, <em>siglev=2.0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.cosmetics.cosmetics" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find cosmetic defects in a detector using two flat field images.</p>
+<p>Two arrays representing flat fields of different exposure times are
+required. Cosmetic defects are selected as points that deviate
+significantly of the expected normal distribution of pixels in
+the ratio between <cite>flat2</cite> and <cite>flat1</cite>.</p>
+<p>The median of the ratio array is computed and subtracted to it.</p>
+<p>The standard deviation of the distribution of pixels is computed
+obtaining the percentiles nearest the pixel values corresponding to
+<cite>nsig</cite> in the normal CDF. The standar deviation is then the distance
+between the pixel values divided by two times <cite>nsig</cite>.
+The ratio image is then normalized with this standard deviation.</p>
+<p>The values in the ratio above <cite>uppercut</cite> are flagged as hot pixels,
+and those below ‘-lowercut` are flagged as dead pixels in the output mask.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>flat1</strong> – an array representing a flat illuminated exposure.</li>
+<li><strong>flat2</strong> – an array representing a flat illuminated exposure.</li>
+<li><strong>mask</strong> – an integer array representing initial mask.</li>
+<li><strong>lowercut</strong> – values bellow this sigma level are flagged as dead pixels.</li>
+<li><strong>uppercut</strong> – values above this sigma level are flagged as hot pixels.</li>
+<li><strong>siglev</strong> – level to estimate the standard deviation.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">the updated mask</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.fwhm">
+<span id="numina-array-fwhm-fwhm"></span><h2><a class="reference internal" href="#module-numina.array.fwhm" title="numina.array.fwhm"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.fwhm</span></code></a> — FWHM<a class="headerlink" href="#module-numina.array.fwhm" title="Permalink to this headline">¶</a></h2>
+<p>FWHM calculation</p>
+<dl class="function">
+<dt id="numina.array.fwhm.compute_fw_at_frac_max_1d_simple">
+<code class="descclassname">numina.array.fwhm.</code><code class="descname">compute_fw_at_frac_max_1d_simple</code><span class="sig-paren">(</span><em>Y</em>, <em>xc</em>, <em>X=None</em>, <em>f=0.5</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.fwhm.compute_fw_at_frac_max_1d_simple" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the full width at fraction f of the maximum</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.fwhm.compute_fwhm_1d_simple">
+<code class="descclassname">numina.array.fwhm.</code><code class="descname">compute_fwhm_1d_simple</code><span class="sig-paren">(</span><em>Y</em>, <em>xc</em>, <em>X=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.fwhm.compute_fwhm_1d_simple" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute the FWHM.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.imsurfit">
+<span id="numina-array-imsurfit-image-surface-fitting"></span><h2><a class="reference internal" href="#module-numina.array.imsurfit" title="numina.array.imsurfit: Image surface fitting"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.imsurfit</span></code></a> — Image surface fitting<a class="headerlink" href="#module-numina.array.imsurfit" title="Permalink to this headline">¶</a></h2>
+<p>Least squares 2D image fitting to a polynomial.</p>
+<dl class="function">
+<dt id="numina.array.imsurfit.imsurfit">
+<code class="descclassname">numina.array.imsurfit.</code><code class="descname">imsurfit</code><span class="sig-paren">(</span><em>data</em>, <em>order</em>, <em>output_fit=False</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.imsurfit.imsurfit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fit a bidimensional polynomial to an image.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>data</strong> – a bidimensional array</li>
+<li><strong>order</strong> (<em>integer</em>) – order of the polynomial</li>
+<li><strong>output_fit</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – return the fitted image</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last">a tuple with an array with the coefficients of the polynomial terms</p>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">xx</span><span class="p">,</span> <span class="n">yy</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">mgrid</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span><span class="mi">1</span><span class="p">:</span><span class="mi">100</span><span class="n">j</span><span class="p">,</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span><span class="mi">1</span><span class="p">:</span><span class="mi">100</span><span class="n">j</span><span class="p">]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">z</span> <span class="o">=</span> <span class="mf">456.0</span> <span class="o">+</span> <span class="mf">0.3</span> <span class="o">*</span> <span class="n">xx</span> <span class="o">-</span> <span class="mf">0.9</span><span class="o">*</span> <span class="n">yy</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">imsurfit</span><span class="p">(</span><span class="n">z</span><span class="p">,</span> <span class="n">order</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> 
+<span class="go">(array([  4.56000000e+02,   3.00000000e-01,  -9.00000000e-01]),)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.interpolation">
+<span id="numina-array-interpolation-interpolation"></span><h2><a class="reference internal" href="#module-numina.array.interpolation" title="numina.array.interpolation"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.interpolation</span></code></a> — Interpolation<a class="headerlink" href="#module-numina.array.interpolation" title="Permalink to this headline">¶</a></h2>
+<p>A monotonic piecewise cubic interpolator.</p>
+<dl class="class">
+<dt id="numina.array.interpolation.SteffenInterpolator">
+<em class="property">class </em><code class="descclassname">numina.array.interpolation.</code><code class="descname">SteffenInterpolator</code><span class="sig-paren">(</span><em>x</em>, <em>y</em>, <em>yp_0=0.0</em>, <em>yp_N=0.0</em>, <em>extrapolate='raise'</em>, <em>fill_value=nan</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.interpolation.SteffenInterpolator" title="Permalink to this definition">¶</a></dt>
+<dd><p>A monotonic piecewise cubic 1-d interpolator.</p>
+<p>A monotonic piecewise cubic interpolator based on
+Steffen, M., Astronomy &amp; Astrophysics, 239, 443-450 (1990)</p>
+<p><cite>x</cite> and <cite>y</cite> are arrays of values used to approximate some function f:
+<cite>y = f(x)</cite>.  This class returns an object whose call method uses
+monotonic cubic splines to find the value of new points.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>x</strong> (<em>(</em><em>N</em><em>,</em><em>)</em><em>, </em><em>array_like</em>) – A 1-D array of real values, sorted monotonically increasing.</li>
+<li><strong>y</strong> (<em>(</em><em>N</em><em>,</em><em>)</em><em>, </em><em>array_like</em>) – A 1-D array of real values.</li>
+<li><strong>yp_0</strong> (<em>float. optional</em>) – The value of the derivative in the first sample.</li>
+<li><strong>yp_N</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a><em>, </em><em>optional</em>) – The value of the derivative in the last sample.</li>
+<li><strong>extrapolate</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em>, </em><em>optional</em>) – Specifies the kind of extrapolation as a string
+(‘extrapolate’, ‘zeros’, ‘raise’, ‘const’, ‘border’)
+If ‘raise’ is set, when interpolated values are requested outside of the
+domain of the input data (x,y), a ValueError is raised.
+If ‘const’ is set, ‘fill_value’ is returned.
+If ‘zeros’ is set, ‘0’ is returned.
+If ‘border’ is set, ‘y[0]’ is returned for values below ‘x[0]’
+and ‘y[N-1]’ is returned for values above ‘x[N-1]’
+If ‘extrapolate’ is set, the extreme polynomial are extrapolated
+outside of their ranges.
+Default is ‘raise’.</li>
+<li><strong>fill_value</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a><em>, </em><em>optional</em>) – If provided, then this value will be used to fill in for requested
+points outside of the data range when <a href="#id1"><span class="problematic" id="id2">`</span></a>extrapolation`is set to “const”.
+If not provided, then the default is NaN.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.mode">
+<span id="numina-array-mode-mode"></span><h2><a class="reference internal" href="#module-numina.array.mode" title="numina.array.mode"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.mode</span></code></a> — Mode<a class="headerlink" href="#module-numina.array.mode" title="Permalink to this headline">¶</a></h2>
+<p>Mode estimators.</p>
+<dl class="function">
+<dt id="numina.array.mode.mode_half_sample">
+<code class="descclassname">numina.array.mode.</code><code class="descname">mode_half_sample</code><span class="sig-paren">(</span><em>a</em>, <em>is_sorted=False</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.mode.mode_half_sample" title="Permalink to this definition">¶</a></dt>
+<dd><p>Estimate the mode using the Half Sample mode.</p>
+<p>A method to estimate the mode, as described in
+D. R. Bickel and R. Frühwirth (contributed equally),
+“On a fast, robust estimator of the mode: Comparisons to other
+robust estimators with applications,”
+Computational Statistics and Data Analysis 50, 3500-3530 (2006).</p>
+<p class="rubric">Example</p>
+<p>&gt;&gt; import numpy as np
+&gt;&gt; np.random.seed(1392838)
+&gt;&gt; a = np.random.normal(1000, 200, size=1000)
+&gt;&gt; a[:100] = np.random.normal(2000, 300, size=100)
+&gt;&gt; b = np.sort(a)
+&gt;&gt; mode_half_sample(b, is_sorted=True)
+1041.9327885039545</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.mode.mode_sex">
+<code class="descclassname">numina.array.mode.</code><code class="descname">mode_sex</code><span class="sig-paren">(</span><em>a</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.mode.mode_sex" title="Permalink to this definition">¶</a></dt>
+<dd><p>Estimate the mode as sextractor</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.nirproc">
+<span id="numina-array-nirproc-nir-preprocessing"></span><h2><a class="reference internal" href="#module-numina.array.nirproc" title="numina.array.nirproc: nIR preprocessing"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.nirproc</span></code></a> — nIR preprocessing<a class="headerlink" href="#module-numina.array.nirproc" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="numina.array.nirproc.fowler_array">
+<code class="descclassname">numina.array.nirproc.</code><code class="descname">fowler_array</code><span class="sig-paren">(</span><em>fowlerdata</em>, <em>ti=0.0</em>, <em>ts=0.0</em>, <em>gain=1.0</em>, <em>ron=1.0</em>, <em>badpixels=None</em>, <em>dtype='float64'</em>, <em>saturation=65631</em>, <em>blank=0</em>, <em>normalize=False</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.nirproc.fowler_array" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loop over the first axis applying Fowler processing.</p>
+<p><em>fowlerdata</em> is assumed to be a 3D numpy.ndarray containing the
+result of a nIR observation in Fowler mode (Fowler and Gatley 1991).
+The shape of the array must be of the form 2N_p x M x N, with N_p being
+the number of pairs in Fowler mode.</p>
+<p>The output signal is just the mean value of the differences between the
+last N_p values (S_i) and the first N_p values (R-i).</p>
+<div class="math">
+<p><img src="../_images/math/45405e33ec69aed9e24731af7923b41dbfd05788.png" alt="S_F = \frac{1}{N_p}\sum\limits_{i=0}^{N_p-1} S_i - R_i"/></p>
+</div><p>If the source has a radiance F, then the measured signal is equivalent
+to:</p>
+<div class="math">
+<p><img src="../_images/math/ece87283cc98bd9f4ee41418e137e54485100a11.png" alt="S_F = F T_I - F T_S (N_p -1) = F T_E"/></p>
+</div><p>being T_I the integration time (<em>ti</em>), the time since the first
+productive read to the last productive read for a given pixel and T_S the
+time between samples (<em>ts</em>). T_E is the time between correlated reads
+<img class="math" src="../_images/math/1f414397331f4e5a1d1af112523e6e64da51f4fb.png" alt="T_E = T_I - T_S (N_p - 1)"/>.</p>
+<p>The variance of the signnal is the sum of two terms, one for the readout
+noise:</p>
+<div class="math">
+<p><img src="../_images/math/f646a6f0dddee6c925c5a51d503d55dfe8c8232e.png" alt="\mathrm{var}(S_{F1}) =\frac{2\sigma_R^2}{N_p}"/></p>
+</div><p>and other for the photon noise:</p>
+<div class="math">
+<p><img src="../_images/math/077f78d2725805d43f6962604469288a5bbaea5b.png" alt="\mathrm{var}(S_{F2}) = F T_E - F T_S \frac{1}{3}(N_p-\frac{1}{N_p})
+= F T_I - F T_S (\frac{4}{3} N_p -1 -  \frac{1}{3N_p})"/></p>
+</div><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>fowlerdata</strong> – Convertible to a 3D numpy.ndarray with first axis even</li>
+<li><strong>ti</strong> – Integration time.</li>
+<li><strong>ts</strong> – Time between samples.</li>
+<li><strong>gain</strong> – Detector gain.</li>
+<li><strong>ron</strong> – Detector readout noise in counts.</li>
+<li><strong>badpixels</strong> – An optional MxN mask of dtype ‘uint8’.</li>
+<li><strong>dtype</strong> – The dtype of the float outputs.</li>
+<li><strong>saturation</strong> – The saturation level of the detector.</li>
+<li><strong>blank</strong> – Invalid values in output are substituted by <em>blank</em>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A tuple of (signal, variance of the signal, numper of pixels used
+and badpixel mask.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><p class="first last">ValueError</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.nirproc.ramp_array">
+<code class="descclassname">numina.array.nirproc.</code><code class="descname">ramp_array</code><span class="sig-paren">(</span><em>rampdata</em>, <em>ti</em>, <em>gain=1.0</em>, <em>ron=1.0</em>, <em>badpixels=None</em>, <em>dtype='float64'</em>, <em>saturation=65631</em>, <em>blank=0</em>, <em>nsig=None</em>, <em>normalize=False</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.nirproc.ramp_array" title="Permalink to this definition">¶</a></dt>
+<dd><p>Loop over the first axis applying ramp processing.</p>
+<p><em>rampdata</em> is assumed to be a 3D numpy.ndarray containing the
+result of a nIR observation in folow-up-the-ramp mode.
+The shape of the array must be of the form N_s x M x N, with N_s being
+the number of samples.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>fowlerdata</strong> – Convertible to a 3D numpy.ndarray</li>
+<li><strong>ti</strong> – Integration time.</li>
+<li><strong>gain</strong> – Detector gain.</li>
+<li><strong>ron</strong> – Detector readout noise in counts.</li>
+<li><strong>badpixels</strong> – An optional MxN mask of dtype ‘uint8’.</li>
+<li><strong>dtype</strong> – The dtype of the float outputs.</li>
+<li><strong>saturation</strong> – The saturation level of the detector.</li>
+<li><strong>blank</strong> – Invalid values in output are substituted by <em>blank</em>.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first">A tuple of signal, variance of the signal, numper of pixels used
+and badpixel mask.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><p class="first last">ValueError</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.offrot">
+<span id="numina-array-offrot-offset-and-rotation"></span><h2><a class="reference internal" href="#module-numina.array.offrot" title="numina.array.offrot"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.offrot</span></code></a> — Offset and Rotation<a class="headerlink" href="#module-numina.array.offrot" title="Permalink to this headline">¶</a></h2>
+<p>Fit offset and rotation</p>
+<dl class="function">
+<dt id="numina.array.offrot.fit_offset_and_rotation">
+<code class="descclassname">numina.array.offrot.</code><code class="descname">fit_offset_and_rotation</code><span class="sig-paren">(</span><em>coords0</em>, <em>coords1</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.offrot.fit_offset_and_rotation" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fit a rotation and a traslation between two sets points.</p>
+<p>Fit a rotation matrix and a traslation bewtween two matched sets
+consisting of M N-dimensional points</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>coords0</strong> (<em>(</em><em>M</em><em>, </em><em>N</em><em>) </em><em>array_like</em>) – </li>
+<li><strong>coords1</strong> (<em>(</em><em>M</em><em>, </em><em>N</em><em>) </em><em>array_lke</em>) – </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><ul class="simple">
+<li><strong>offset</strong> (<em>(N, ) array_like</em>)</li>
+<li><strong>rotation</strong> (<em>(N, N) array_like</em>)</li>
+</ul>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Notes</p>
+<p>Fit offset and rotation using Kabsch’s algorithm[1]_ <a class="footnote-reference" href="#id5" id="id3">[2]</a></p>
+<table class="docutils footnote" frame="void" id="id4" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label">[1]</td><td>Kabsch algorithm: <a class="reference external" href="https://en.wikipedia.org/wiki/Kabsch_algorithm">https://en.wikipedia.org/wiki/Kabsch_algorithm</a></td></tr>
+</tbody>
+</table>
+<table class="docutils footnote" frame="void" id="id5" rules="none">
+<colgroup><col class="label" /><col /></colgroup>
+<tbody valign="top">
+<tr><td class="label"><a class="fn-backref" href="#id3">[2]</a></td><td>Also here: <a class="reference external" href="http://nghiaho.com/?page_id=671">http://nghiaho.com/?page_id=671</a></td></tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.peaks">
+<span id="numina-array-peaks-peak-finding"></span><h2><a class="reference internal" href="#module-numina.array.peaks" title="numina.array.peaks"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.peaks</span></code></a> — Peak finding<a class="headerlink" href="#module-numina.array.peaks" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-numina.array.recenter">
+<span id="numina-array-recenter-recenter"></span><h2><a class="reference internal" href="#module-numina.array.recenter" title="numina.array.recenter"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.recenter</span></code></a> — Recenter<a class="headerlink" href="#module-numina.array.recenter" title="Permalink to this headline">¶</a></h2>
+<p>Recenter routines</p>
+<dl class="function">
+<dt id="numina.array.recenter.centering_centroid">
+<code class="descclassname">numina.array.recenter.</code><code class="descname">centering_centroid</code><span class="sig-paren">(</span><em>data</em>, <em>xi</em>, <em>yi</em>, <em>box</em>, <em>nloop=10</em>, <em>toldist=0.001</em>, <em>maxdist=10.0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.recenter.centering_centroid" title="Permalink to this definition">¶</a></dt>
+<dd><p>returns x, y, background, status, message</p>
+<dl class="docutils">
+<dt>status is:</dt>
+<dd><ul class="first last simple">
+<li>0: not recentering</li>
+<li>1: recentering successful</li>
+<li>2: maximum distance reached</li>
+<li>3: not converged</li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.robustfit">
+<span id="numina-array-robusfit-robust-fits"></span><h2><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.robusfit</span></code> — Robust fits<a class="headerlink" href="#module-numina.array.robustfit" title="Permalink to this headline">¶</a></h2>
+<p>Robust fits</p>
+<dl class="function">
+<dt id="numina.array.robustfit.fit_theil_sen">
+<code class="descclassname">numina.array.robustfit.</code><code class="descname">fit_theil_sen</code><span class="sig-paren">(</span><em>x</em>, <em>y</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.robustfit.fit_theil_sen" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute a robust linear fit using the Theil-Sen method.</p>
+<p>See <a class="reference external" href="http://en.wikipedia.org/wiki/Theil%E2%80%93Sen_estimator">http://en.wikipedia.org/wiki/Theil%E2%80%93Sen_estimator</a> for details.
+This function “pairs up sample points by the rank of their x-coordinates
+(the point with the smallest coordinate being paired with the first point
+above the median coordinate, etc.) and computes the median of the slopes of
+the lines determined by these pairs of points”.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>x</strong> (<em>array_like</em><em>, </em><em>shape</em><em> (</em><em>M</em><em>,</em><em>)</em>) – X coordinate array.</li>
+<li><strong>y</strong> (<em>array_like</em><em>, </em><em>shape</em><em> (</em><em>M</em><em>,</em><em>) or </em><em>(</em><em>M</em><em>,</em><em>K</em><em>)</em>) – Y coordinate array. If the array is two dimensional, each column of
+the array is independently fitted sharing the same x-coordinates. In
+this last case, the returned intercepts and slopes are also 1d numpy
+arrays.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>coef</strong> – Intercept and slope of the linear fit. If y was 2-D, the
+coefficients in column k of coef represent the linear fit
+to the data in y’s k-th column.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first">ndarray, shape (2,) or (2, K)</p>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Raises:</th><td class="field-body"><p class="first last">ValueError: – If the number of points to fit is &lt; 5</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.stats">
+<span id="numina-array-stats"></span><h2><a class="reference internal" href="#module-numina.array.stats" title="numina.array.stats"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.stats</span></code></a> —<a class="headerlink" href="#module-numina.array.stats" title="Permalink to this headline">¶</a></h2>
+<dl class="function">
+<dt id="numina.array.stats.robust_std">
+<code class="descclassname">numina.array.stats.</code><code class="descname">robust_std</code><span class="sig-paren">(</span><em>x</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.stats.robust_std" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute a robust estimator of the standard deviation</p>
+<p>See Eq. 3.36 (page 84) in Statistics, Data Mining, and Machine
+in Astronomy, by Ivezic, Connolly, VanderPlas &amp; Gray</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>x</strong> (<em>1d numpy array</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Array of input values which standard deviation is requested.</li>
+<li><strong>debug</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True prints computed values</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>sigmag</strong> – Robust estimator of the standar deviation</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)">float</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.stats.summary">
+<code class="descclassname">numina.array.stats.</code><code class="descname">summary</code><span class="sig-paren">(</span><em>x</em>, <em>rm_nan=False</em>, <em>debug=False</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.stats.summary" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute basic statistical parameters.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>x</strong> (<em>1d numpy array</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Input array with values which statistical properties are
+requested.</li>
+<li><strong>rm_nan</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, filter out NaN values before computing statistics.</li>
+<li><strong>debug</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True prints computed values.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>result</strong> – Number of points, minimum, percentile 25, percentile 50
+(median), mean, percentile 75, maximum, standard deviation,
+robust standard deviation, percentile 15.866 (equivalent
+to -1 sigma in a normal distribution) and percentile 84.134
+(+1 sigma).</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">Python dictionary</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="numina-array-trace-spectrum-tracing">
+<h2><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.trace</span></code> — Spectrum tracing<a class="headerlink" href="#numina-array-trace-spectrum-tracing" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-numina.array.wavecalib.arccalibration">
+<span id="numina-array-wavecalib-wavelength-calibration"></span><h2><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.wavecalib</span></code> — Wavelength calibration<a class="headerlink" href="#module-numina.array.wavecalib.arccalibration" title="Permalink to this headline">¶</a></h2>
+<p>Automatic identification of lines and wavelength calibration</p>
+<dl class="function">
+<dt id="numina.array.wavecalib.arccalibration.arccalibration">
+<code class="descclassname">numina.array.wavecalib.arccalibration.</code><code class="descname">arccalibration</code><span class="sig-paren">(</span><em>wv_master</em>, <em>xpos_arc</em>, <em>naxis1_arc</em>, <em>crpix1</em>, <em>wv_ini_search</em>, <em>wv_end_search</em>, <em>wvmin_useful</em>, <em>wvmax_useful</em>, <em>error_xpos_arc</em>, <em>times_sigma_r</em>, <em>frac_triplets_for_sum</em>, <em>times_sigma_theil_sen</em>, <em>poly_degree_wfit</em>, <em>times_sigma_polfilt</em>, <em>times_sigma_cook</em>, <em>times_sigma_inclusion</em>, <em>geometry=None</em>, <em>debugplot=0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.arccalibration.arccalibration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Performs arc line identification for arc calibration.</p>
+<p>This function is a wrapper of two functions, which are responsible
+of computing all the relevant information concerning the triplets
+generated from the master table and the actual identification
+procedure of the arc lines, respectively.</p>
+<p>The separation of those computations in two different functions
+helps to avoid the repetition of calls to the first function when
+calibrating several arcs using the same master table.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>wv_master</strong> (<em>1d numpy array</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Array with wavelengths corresponding to the master table
+(Angstroms).</li>
+<li><strong>xpos_arc</strong> (<em>1d numpy array</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Location of arc lines (pixels).</li>
+<li><strong>naxis1_arc</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – NAXIS1 for arc spectrum.</li>
+<li><strong>crpix1</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – CRPIX1 value to be employed in the wavelength calibration.</li>
+<li><strong>wv_ini_search</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Minimum expected wavelength in spectrum.</li>
+<li><strong>wv_end_search</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Maximum expected wavelength in spectrum.</li>
+<li><strong>wvmin_useful</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – If not None, this value is used to clip detected lines below it.</li>
+<li><strong>wvmax_useful</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – If not None, this value is used to clip detected lines above it.</li>
+<li><strong>error_xpos_arc</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Error in arc line position (pixels).</li>
+<li><strong>times_sigma_r</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Times sigma to search for valid line position ratios.</li>
+<li><strong>frac_triplets_for_sum</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Fraction of distances to different triplets to sum when
+computing the cost function.</li>
+<li><strong>times_sigma_theil_sen</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Number of times the (robust) standard deviation around the
+linear fit (using the Theil-Sen method) to reject points.</li>
+<li><strong>poly_degree_wfit</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Degree for polynomial fit to wavelength calibration.</li>
+<li><strong>times_sigma_polfilt</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Number of times the (robust) standard deviation around the
+polynomial fit to reject points.</li>
+<li><strong>times_sigma_cook</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Number of times the standard deviation of Cook’s distances
+to detect outliers. If zero, this method of outlier detection
+is ignored.</li>
+<li><strong>times_sigma_inclusion</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Number of times the (robust) standard deviation around the
+polynomial fit to include a new line in the set of identified
+lines.</li>
+<li><strong>geometry</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><em>tuple</em></a><em> (</em><em>4 integers</em><em>) or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – x, y, dx, dy values employed to set the window geometry.</li>
+<li><strong>debugplot</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Determines whether intermediate computations and/or plots
+are displayed. The valid codes are defined in
+numina.array.display.pause_debugplot.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>list_of_wvfeatures</strong> – A list of size equal to the number of identified lines, which
+elements are instances of the class WavecalFeature, containing
+all the relevant information concerning the line
+identification.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)">list</a> (of WavecalFeature instances)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.wavecalib.arccalibration.arccalibration_direct">
+<code class="descclassname">numina.array.wavecalib.arccalibration.</code><code class="descname">arccalibration_direct</code><span class="sig-paren">(</span><em>wv_master</em>, <em>ntriplets_master</em>, <em>ratios_master_sorted</em>, <em>triplets_master_sorted_list</em>, <em>xpos_arc</em>, <em>naxis1_arc</em>, <em>crpix1</em>, <em>wv_ini_search</em>, <em>wv_end_search</em>, <em>wvmin_useful=None</em>, <em>wvmax_useful=None</em>, <em>error_xpos_arc=1.0</em>, <em>times_sigma_r=3.0</em>, <em>frac_triplets_for_sum=0.5</em>, <em>times_sigma_theil_sen=10.0</em>, <em>poly_degree_wfit=3</em>, <em>times_sigma_polfilt=10.0</em>, <em>times_sigma_cook=10.0</em>, <em>times_sigma_inclusion=5.0</em>, <em>geometry=None</em>, <em>debugplot=0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.arccalibration.arccalibration_direct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Performs line identification for arc calibration using line triplets.</p>
+<p>This function assumes that a previous call to the function
+responsible for the computation of information related to the
+triplets derived from the master table has been previously
+executed.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>wv_master</strong> (<em>1d numpy array</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Array with wavelengths corresponding to the master table
+(Angstroms).</li>
+<li><strong>ntriplets_master</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Number of triplets built from master table.</li>
+<li><strong>ratios_master_sorted</strong> (<em>1d numpy array</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Array with values of the relative position of the central line
+of each triplet, sorted in ascending order.</li>
+<li><strong>triplets_master_sorted_list</strong> (<em>list of tuples</em>) – List with tuples of three numbers, corresponding to the three
+line indices in the master table. The list is sorted to be in
+correspondence with <cite>ratios_master_sorted</cite>.</li>
+<li><strong>xpos_arc</strong> (<em>1d numpy array</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Location of arc lines (pixels).</li>
+<li><strong>naxis1_arc</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – NAXIS1 for arc spectrum.</li>
+<li><strong>crpix1</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – CRPIX1 value to be employed in the wavelength calibration.</li>
+<li><strong>wv_ini_search</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Minimum expected wavelength in spectrum.</li>
+<li><strong>wv_end_search</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Maximum expected wavelength in spectrum.</li>
+<li><strong>wvmin_useful</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – If not None, this value is used to clip detected lines below it.</li>
+<li><strong>wvmax_useful</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – If not None, this value is used to clip detected lines above it.</li>
+<li><strong>error_xpos_arc</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Error in arc line position (pixels).</li>
+<li><strong>times_sigma_r</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Times sigma to search for valid line position ratios.</li>
+<li><strong>frac_triplets_for_sum</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Fraction of distances to different triplets to sum when
+computing the cost function.</li>
+<li><strong>times_sigma_theil_sen</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Number of times the (robust) standard deviation around the
+linear fit (using the Theil-Sen method) to reject points.</li>
+<li><strong>poly_degree_wfit</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Degree for polynomial fit to wavelength calibration.</li>
+<li><strong>times_sigma_polfilt</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Number of times the (robust) standard deviation around the
+polynomial fit to reject points.</li>
+<li><strong>times_sigma_cook</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Number of times the standard deviation of Cook’s distances
+to detect outliers. If zero, this method of outlier detection
+is ignored.</li>
+<li><strong>times_sigma_inclusion</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Number of times the (robust) standard deviation around the
+polynomial fit to include a new line in the set of identified
+lines.</li>
+<li><strong>geometry</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><em>tuple</em></a><em> (</em><em>4 integers</em><em>) or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – x, y, dx, dy values employed to set the window geometry.</li>
+<li><strong>debugplot</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Determines whether intermediate computations and/or plots
+are displayed. The valid codes are defined in
+numina.array.display.pause_debugplot.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>list_of_wvfeatures</strong> – A list of size equal to the number of identified lines, which
+elements are instances of the class WavecalFeature, containing
+all the relevant information concerning the line
+identification.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last"><a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)">list</a> (of WavecalFeature instances)</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.wavecalib.arccalibration.fit_list_of_wvfeatures">
+<code class="descclassname">numina.array.wavecalib.arccalibration.</code><code class="descname">fit_list_of_wvfeatures</code><span class="sig-paren">(</span><em>list_of_wvfeatures</em>, <em>naxis1_arc</em>, <em>crpix1</em>, <em>poly_degree_wfit</em>, <em>weighted=False</em>, <em>plot_title=None</em>, <em>geometry=None</em>, <em>debugplot=0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.arccalibration.fit_list_of_wvfeatures" title="Permalink to this definition">¶</a></dt>
+<dd><p>Fit polynomial to arc calibration list_of_wvfeatures.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>list_of_wvfeatures</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)"><em>list</em></a><em> (</em><em>of WavecalFeature instances</em><em>)</em>) – A list of size equal to the number of identified lines, which
+elements are instances of the class WavecalFeature, containing
+all the relevant information concerning the line
+identification.</li>
+<li><strong>naxis1_arc</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – NAXIS1 of arc spectrum.</li>
+<li><strong>crpix1</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – CRPIX1 value to be employed in the wavelength calibration.</li>
+<li><strong>poly_degree_wfit</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Polynomial degree corresponding to the wavelength calibration
+function to be fitted.</li>
+<li><strong>weighted</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – Determines whether the polynomial fit is weighted or not,
+using as weights the values of the cost function obtained in
+the line identification. Since the weights can be very
+different, typically weighted fits are not good because, in
+practice, they totally ignore the points with the smallest
+weights (which, in the other hand, are useful when handling
+the borders of the wavelength calibration range).</li>
+<li><strong>plot_title</strong> (<em>string</em><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – Title for residuals plot.</li>
+<li><strong>geometry</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><em>tuple</em></a><em> (</em><em>4 integers</em><em>) or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – x, y, dx, dy values employed to set the window geometry.</li>
+<li><strong>debugplot</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Determines whether intermediate computations and/or plots
+are displayed. The valid codes are defined in
+numina.array.display.pause_debugplot.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>solution_wv</strong> – Instance of class SolutionArcCalibration, containing the
+information concerning the arc lines that have been properly
+identified. The information about all the lines (including
+those initially found but at the end discarded) is stored in
+the list of WavecalFeature instances ‘list_of_wvfeatures’.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">SolutionArcCalibration instance</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.wavecalib.arccalibration.gen_triplets_master">
+<code class="descclassname">numina.array.wavecalib.arccalibration.</code><code class="descname">gen_triplets_master</code><span class="sig-paren">(</span><em>wv_master</em>, <em>geometry=None</em>, <em>debugplot=0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.arccalibration.gen_triplets_master" title="Permalink to this definition">¶</a></dt>
+<dd><p>Compute information associated to triplets in master table.</p>
+<p>Determine all the possible triplets that can be generated from the
+array <cite>wv_master</cite>. In addition, the relative position of the
+central line of each triplet is also computed.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>wv_master</strong> (<em>1d numpy array</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Array with wavelengths corresponding to the master table
+(Angstroms).</li>
+<li><strong>geometry</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><em>tuple</em></a><em> (</em><em>4 integers</em><em>) or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – x, y, dx, dy values employed to set the window geometry.</li>
+<li><strong>debugplot</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Determines whether intermediate computations and/or plots
+are displayed. The valid codes are defined in
+numina.array.display.pause_debugplot.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><ul class="simple">
+<li><strong>ntriplets_master</strong> (<em>int</em>) – Number of triplets built from master table.</li>
+<li><strong>ratios_master_sorted</strong> (<em>1d numpy array, float</em>) – Array with values of the relative position of the central line
+of each triplet, sorted in ascending order.</li>
+<li><strong>triplets_master_sorted_list</strong> (<em>list of tuples</em>) – List with tuples of three numbers, corresponding to the three
+line indices in the master table. The list is sorted to be in
+correspondence with <cite>ratios_master_sorted</cite>.</li>
+</ul>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.wavecalib.arccalibration.match_wv_arrays">
+<code class="descclassname">numina.array.wavecalib.arccalibration.</code><code class="descname">match_wv_arrays</code><span class="sig-paren">(</span><em>wv_master</em>, <em>wv_expected_all_peaks</em>, <em>delta_wv_max</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.arccalibration.match_wv_arrays" title="Permalink to this definition">¶</a></dt>
+<dd><p>Match two lists with wavelengths.</p>
+<p>Assign individual wavelengths from wv_master to each expected
+wavelength when the latter is within the maximum allowed range.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>wv_master</strong> (<em>numpy array</em>) – Array containing the master wavelengths.</li>
+<li><strong>wv_expected_all_peaks</strong> (<em>numpy array</em>) – Array containing the expected wavelengths (computed, for
+example, from an approximate polynomial calibration applied to
+the location of the line peaks).</li>
+<li><strong>delta_wv_max</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Maximum distance to accept that the master wavelength
+corresponds to the expected wavelength.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>wv_verified_all_peaks</strong> – Verified wavelengths from master list.</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">numpy array</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.wavecalib.arccalibration.refine_arccalibration">
+<code class="descclassname">numina.array.wavecalib.arccalibration.</code><code class="descname">refine_arccalibration</code><span class="sig-paren">(</span><em>sp</em>, <em>poly_initial</em>, <em>wv_master</em>, <em>poldeg</em>, <em>nrepeat=3</em>, <em>ntimes_match_wv=2</em>, <em>nwinwidth_initial=7</em>, <em>nwinwidth_refined=5</em>, <em>times_sigma_reject=5</em>, <em>interactive=False</em>, <em>threshold=0</em>, <em>plottitle=None</em>, <em>decimal_places=4</em>, <em>ylogscale=False</em>, <em>geometry=None</em>, <em>pdf=None</em>, <em>debugplot=0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.arccalibration.refine_arccalibration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Refine wavelength calibration using an initial polynomial.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>sp</strong> (<em>numpy array</em>) – 1D array of length NAXIS1 containing the input spectrum.</li>
+<li><strong>poly_initial</strong> (<em>Polynomial instance</em>) – Initial wavelength calibration polynomial, providing the
+wavelength as a function of pixel number (running from 1 to
+NAXIS1).</li>
+<li><strong>wv_master</strong> (<em>numpy array</em>) – Array containing the master list of arc line wavelengths.</li>
+<li><strong>poldeg</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Polynomial degree of refined wavelength calibration. Note
+that this degree can be different from the polynomial degree
+of poly_initial.</li>
+<li><strong>nrepeat</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Number of times lines are iteratively included in the initial
+fit.</li>
+<li><strong>ntimes_match_wv</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Number of pixels around each line peak where the expected
+wavelength must match the tabulated wavelength in the master
+list.</li>
+<li><strong>nwinwidth_initial</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Initial window width to search for line peaks in spectrum.</li>
+<li><strong>nwinwidth_refined</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Window width to refine line peak location.</li>
+<li><strong>times_sigma_reject</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Times sigma to reject points in the fit.</li>
+<li><strong>interactive</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, the function allows the user to modify the fit
+interactively.</li>
+<li><strong>threshold</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Minimum signal in the peaks.</li>
+<li><strong>plottitle</strong> (<em>string</em><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – Plot title.</li>
+<li><strong>decimal_places</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Number of decimal places to be employed when displaying relevant
+fitted parameters.</li>
+<li><strong>ylogscale</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – If True, the spectrum is displayed in logarithmic units. Note
+that this is only employed for display purposes. The line peaks
+are found in the original spectrum.</li>
+<li><strong>geometry</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><em>tuple</em></a><em> (</em><em>4 integers</em><em>) or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – x, y, dx, dy values employed to set the window geometry.</li>
+<li><strong>pdf</strong> (<em>PdfFile object</em><em> or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – If not None, output is sent to PDF file.</li>
+<li><strong>debugplot</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Debugging level for messages and plots. For details see
+‘numina.array.display.pause_debugplot.py’.</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><ul class="simple">
+<li><strong>poly_refined</strong> (<em>Polynomial instance</em>) – Refined wavelength calibration polynomial.</li>
+<li><strong>yres_summary</strong> (<em>dictionary</em>) – Statistical summary of the residuals.</li>
+</ul>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.wavecalib.arccalibration.select_data_for_fit">
+<code class="descclassname">numina.array.wavecalib.arccalibration.</code><code class="descname">select_data_for_fit</code><span class="sig-paren">(</span><em>list_of_wvfeatures</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.arccalibration.select_data_for_fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Select information from valid arc lines to facilitate posterior fits.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>list_of_wvfeatures</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)"><em>list</em></a><em> (</em><em>of WavecalFeature instances</em><em>)</em>) – A list of size equal to the number of identified lines, which
+elements are instances of the class WavecalFeature, containing
+all the relevant information concerning the line
+identification.</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><ul class="simple">
+<li><strong>nfit</strong> (<em>int</em>) – Number of valid points for posterior fits.</li>
+<li><strong>ifit</strong> (<em>list of int</em>) – List of indices corresponding to the arc lines which
+coordinates are going to be employed in the posterior fits.</li>
+<li><strong>xfit</strong> (<em>1d numpy aray</em>) – X coordinate of points for posterior fits.</li>
+<li><strong>yfit</strong> (<em>1d numpy array</em>) – Y coordinate of points for posterior fits.</li>
+<li><strong>wfit</strong> (<em>1d numpy array</em>) – Cost function of points for posterior fits. The inverse of
+these values can be employed for weighted fits.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<span class="target" id="module-numina.array.wavecalib.peaks_spectrum"></span><dl class="function">
+<dt id="numina.array.wavecalib.peaks_spectrum.find_peaks_spectrum">
+<code class="descclassname">numina.array.wavecalib.peaks_spectrum.</code><code class="descname">find_peaks_spectrum</code><span class="sig-paren">(</span><em>sx</em>, <em>nwinwidth</em>, <em>threshold=0</em>, <em>debugplot=0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.peaks_spectrum.find_peaks_spectrum" title="Permalink to this definition">¶</a></dt>
+<dd><p>Find peaks in array.</p>
+<p>The algorithm imposes that the signal at both sides of the peak
+decreases monotonically.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>sx</strong> (<em>1d numpy array</em><em>, </em><em>floats</em>) – Input array.</li>
+<li><strong>nwinwidth</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Width of the window where each peak must be found.</li>
+<li><strong>threshold</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Minimum signal in the peaks.</li>
+<li><strong>debugplot</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Determines whether intermediate computations and/or plots
+are displayed:
+00 : no debug, no plots
+01 : no debug, plots without pauses
+02 : no debug, plots with pauses
+10 : debug, no plots
+11 : debug, plots without pauses
+12 : debug, plots with pauses</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>ixpeaks</strong> – Peak locations, in array coordinates (integers).</p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">1d numpy array, <a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)">int</a></p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.wavecalib.peaks_spectrum.refine_peaks_spectrum">
+<code class="descclassname">numina.array.wavecalib.peaks_spectrum.</code><code class="descname">refine_peaks_spectrum</code><span class="sig-paren">(</span><em>sx</em>, <em>ixpeaks</em>, <em>nwinwidth</em>, <em>method=None</em>, <em>geometry=None</em>, <em>debugplot=0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.peaks_spectrum.refine_peaks_spectrum" title="Permalink to this definition">¶</a></dt>
+<dd><p>Refine line peaks in spectrum.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>sx</strong> (<em>1d numpy array</em><em>, </em><em>floats</em>) – Input array.</li>
+<li><strong>ixpeaks</strong> (<em>1d numpy array</em><em>, </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Initial peak locations, in array coordinates (integers).
+These values can be the output from the function
+find_peaks_spectrum().</li>
+<li><strong>nwinwidth</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Width of the window where each peak must be refined.</li>
+<li><strong>method</strong> (<em>string</em>) – “poly2” : fit to a 2nd order polynomial
+“gaussian” : fit to a Gaussian</li>
+<li><strong>geometry</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#tuple" title="(in Python v3.7)"><em>tuple</em></a><em> (</em><em>4 integers</em><em>) or </em><a class="reference external" href="https://docs.python.org/3/library/constants.html#None" title="(in Python v3.7)"><em>None</em></a>) – x, y, dx, dy values employed to set the window geometry.</li>
+<li><strong>debugplot</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Determines whether intermediate computations and/or plots
+are displayed:
+00 : no debug, no plots
+01 : no debug, plots without pauses
+02 : no debug, plots with pauses
+10 : debug, no plots
+11 : debug, plots without pauses
+12 : debug, plots with pauses</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><ul class="simple">
+<li><strong>fxpeaks</strong> (<em>1d numpy array, float</em>) – Refined peak locations, in array coordinates.</li>
+<li><strong>sxpeaks</strong> (<em>1d numpy array, float</em>) – When fitting Gaussians, this array stores the fitted line
+widths (sigma). Otherwise, this array returns zeros.</li>
+</ul>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<span class="target" id="module-numina.array.wavecalib.solutionarc"></span><p>Store the solution of a wavelength calibration</p>
+<dl class="class">
+<dt id="numina.array.wavecalib.solutionarc.CrLinear">
+<em class="property">class </em><code class="descclassname">numina.array.wavecalib.solutionarc.</code><code class="descname">CrLinear</code><span class="sig-paren">(</span><em>crpix</em>, <em>crval</em>, <em>crmin</em>, <em>crmax</em>, <em>cdelt</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.solutionarc.CrLinear" title="Permalink to this definition">¶</a></dt>
+<dd><p>Store information concerning the linear wavelength calibration.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>crpix</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – CRPIX1 value employed in the linear wavelength calibration.</li>
+<li><strong>crval</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – CRVAL1 value corresponding tot he linear wavelength
+calibration.</li>
+<li><strong>crmin</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – CRVAL value at pixel number 1 corresponding to the linear
+wavelength calibration.</li>
+<li><strong>crmax</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – CRVAL value at pixel number NAXIS1 corresponding to the linear
+wavelength calibration.</li>
+<li><strong>cdelt</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – CDELT1 value corresponding to the linear wavelength
+calibration.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt>
+<code class="descname">Identical to parameters.</code></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.array.wavecalib.solutionarc.SolutionArcCalibration">
+<em class="property">class </em><code class="descclassname">numina.array.wavecalib.solutionarc.</code><code class="descname">SolutionArcCalibration</code><span class="sig-paren">(</span><em>features</em>, <em>coeff</em>, <em>residual_std</em>, <em>cr_linear</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.solutionarc.SolutionArcCalibration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Auxiliary class to store the arc calibration solution.</p>
+<p>Note that this class only stores the information concerning the
+arc lines that have been properly identified. The information
+about all the lines (including those initially found but at the
+end discarded) is stored in the list of WavecalFeature instances.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>features</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#list" title="(in Python v3.7)"><em>list</em></a><em> (</em><em>of WavecalFeature instances</em><em>)</em>) – A list of size equal to the number of identified lines, which
+elements are instances of the class WavecalFeature, containing
+all the relevant information concerning the line
+identification.</li>
+<li><strong>coeff</strong> (<em>1d numpy array</em><em> (</em><a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a><em>)</em>) – Coefficients of the wavelength calibration polynomial.</li>
+<li><strong>residual_std</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Residual standard deviation of the fit.</li>
+<li><strong>cr_linear</strong> (<em>instance of CrLinear</em>) – Object containing the linear approximation parameters crpix,
+crval, cdelt, crmin and crmax.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt>
+<code class="descname">Identical to parameters.</code></dt>
+<dd></dd></dl>
+
+<dl class="method">
+<dt id="numina.array.wavecalib.solutionarc.SolutionArcCalibration.update_features">
+<code class="descname">update_features</code><span class="sig-paren">(</span><em>poly</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.solutionarc.SolutionArcCalibration.update_features" title="Permalink to this definition">¶</a></dt>
+<dd><p>Evaluate wavelength at xpos using the provided polynomial.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.array.wavecalib.solutionarc.WavecalFeature">
+<em class="property">class </em><code class="descclassname">numina.array.wavecalib.solutionarc.</code><code class="descname">WavecalFeature</code><span class="sig-paren">(</span><em>line_ok</em>, <em>category</em>, <em>lineid</em>, <em>funcost</em>, <em>xpos</em>, <em>ypos=0.0</em>, <em>peak=0.0</em>, <em>fwhm=0.0</em>, <em>reference=0.0</em>, <em>wavelength=0.0</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.wavecalib.solutionarc.WavecalFeature" title="Permalink to this definition">¶</a></dt>
+<dd><p>Store information concerning a particular line identification.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>line_ok</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a>) – True if the line has been properly identified.</li>
+<li><strong>category</strong> (<em>char</em>) – Line identification type (A, B, C, D, E, R, T, P, K, I, X).
+See documentation embedded within the arccalibration_direct
+function for details.</li>
+<li><strong>lineid</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a>) – Number of identified line within the master list.</li>
+<li><strong>xpos</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Pixel x-coordinate of the peak of the line.</li>
+<li><strong>ypos</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Pixel y-coordinate of the peak of the line.</li>
+<li><strong>peak</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Flux of the peak of the line.</li>
+<li><strong>fwhm</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – FWHM of the line.</li>
+<li><strong>reference</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Wavelength of the identified line in the master list.</li>
+<li><strong>wavelength</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Wavelength of the identified line estimated from the wavelength
+calibration polynomial.</li>
+<li><strong>funcost</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#float" title="(in Python v3.7)"><em>float</em></a>) – Cost function corresponding to each identified arc line.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt>
+<code class="descname">Identical to parameters.</code></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.array.utils">
+<span id="numina-array-utils"></span><h2><a class="reference internal" href="#module-numina.array.utils" title="numina.array.utils"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.array.utils</span></code></a> —<a class="headerlink" href="#module-numina.array.utils" title="Permalink to this headline">¶</a></h2>
+<p>Utility routines</p>
+<dl class="function">
+<dt id="numina.array.utils.coor_to_pix_1d">
+<code class="descclassname">numina.array.utils.</code><code class="descname">coor_to_pix_1d</code><span class="sig-paren">(</span><em>w</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.utils.coor_to_pix_1d" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the pixel where a coordinate is located.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.utils.expand_region">
+<code class="descclassname">numina.array.utils.</code><code class="descname">expand_region</code><span class="sig-paren">(</span><em>tuple_of_s</em>, <em>a</em>, <em>b</em>, <em>start=0</em>, <em>stop=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.utils.expand_region" title="Permalink to this definition">¶</a></dt>
+<dd><p>Apply expend_slice on a tuple of slices</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.utils.expand_slice">
+<code class="descclassname">numina.array.utils.</code><code class="descname">expand_slice</code><span class="sig-paren">(</span><em>s</em>, <em>a</em>, <em>b</em>, <em>start=0</em>, <em>stop=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.utils.expand_slice" title="Permalink to this definition">¶</a></dt>
+<dd><p>Expand a slice on the start/stop limits</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.utils.image_box">
+<code class="descclassname">numina.array.utils.</code><code class="descname">image_box</code><span class="sig-paren">(</span><em>center</em>, <em>shape</em>, <em>box</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.utils.image_box" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create a region of size box, around a center in a image of shape.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.array.utils.slice_create">
+<code class="descclassname">numina.array.utils.</code><code class="descname">slice_create</code><span class="sig-paren">(</span><em>center</em>, <em>block</em>, <em>start=0</em>, <em>stop=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.array.utils.slice_create" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return an slice with a symmetric region around center.</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">numina.array</span></code> — Array manipulation</a><ul>
+<li><a class="reference internal" href="#module-numina.array.background"><code class="docutils literal notranslate"><span class="pre">numina.array.background</span></code> — Background estimation</a></li>
+<li><a class="reference internal" href="#module-numina.array.blocks"><code class="docutils literal notranslate"><span class="pre">numina.array.blocks</span></code> — Generation of blocks</a></li>
+<li><a class="reference internal" href="#module-numina.array.bpm"><code class="docutils literal notranslate"><span class="pre">numina.array.bpm</span></code> — Bad Pixel Mask interpolation</a></li>
+<li><a class="reference internal" href="#numina-array-combine-array-combination"><code class="docutils literal notranslate"><span class="pre">numina.array.combine</span></code> — Array combination</a></li>
+<li><a class="reference internal" href="#combination-methods-in-numina-array-combine">Combination methods in <code class="docutils literal notranslate"><span class="pre">numina.array.combine</span></code></a></li>
+<li><a class="reference internal" href="#extending-generic-combine">Extending <code class="docutils literal notranslate"><span class="pre">generic_combine()</span></code></a><ul>
+<li><a class="reference internal" href="#simple-combine-method">Simple combine method</a></li>
+<li><a class="reference internal" href="#a-combine-method-with-parameters">A combine method with parameters</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#module-numina.array.cosmetics"><code class="docutils literal notranslate"><span class="pre">numina.array.cosmetics</span></code> — Array cosmetics</a></li>
+<li><a class="reference internal" href="#module-numina.array.fwhm"><code class="docutils literal notranslate"><span class="pre">numina.array.fwhm</span></code> — FWHM</a></li>
+<li><a class="reference internal" href="#module-numina.array.imsurfit"><code class="docutils literal notranslate"><span class="pre">numina.array.imsurfit</span></code> — Image surface fitting</a></li>
+<li><a class="reference internal" href="#module-numina.array.interpolation"><code class="docutils literal notranslate"><span class="pre">numina.array.interpolation</span></code> — Interpolation</a></li>
+<li><a class="reference internal" href="#module-numina.array.mode"><code class="docutils literal notranslate"><span class="pre">numina.array.mode</span></code> — Mode</a></li>
+<li><a class="reference internal" href="#module-numina.array.nirproc"><code class="docutils literal notranslate"><span class="pre">numina.array.nirproc</span></code> — nIR preprocessing</a></li>
+<li><a class="reference internal" href="#module-numina.array.offrot"><code class="docutils literal notranslate"><span class="pre">numina.array.offrot</span></code> — Offset and Rotation</a></li>
+<li><a class="reference internal" href="#module-numina.array.peaks"><code class="docutils literal notranslate"><span class="pre">numina.array.peaks</span></code> — Peak finding</a></li>
+<li><a class="reference internal" href="#module-numina.array.recenter"><code class="docutils literal notranslate"><span class="pre">numina.array.recenter</span></code> — Recenter</a></li>
+<li><a class="reference internal" href="#module-numina.array.robustfit"><code class="docutils literal notranslate"><span class="pre">numina.array.robusfit</span></code> — Robust fits</a></li>
+<li><a class="reference internal" href="#module-numina.array.stats"><code class="docutils literal notranslate"><span class="pre">numina.array.stats</span></code> —</a></li>
+<li><a class="reference internal" href="#numina-array-trace-spectrum-tracing"><code class="docutils literal notranslate"><span class="pre">numina.array.trace</span></code> — Spectrum tracing</a></li>
+<li><a class="reference internal" href="#module-numina.array.wavecalib.arccalibration"><code class="docutils literal notranslate"><span class="pre">numina.array.wavecalib</span></code> — Wavelength calibration</a></li>
+<li><a class="reference internal" href="#module-numina.array.utils"><code class="docutils literal notranslate"><span class="pre">numina.array.utils</span></code> —</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="modules.html"
+                        title="previous chapter">Numina modules</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="core.html"
+                        title="next chapter"><code class="docutils literal notranslate"><span class="pre">numina.core</span></code> — Core classes for Pipelines</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/array.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="core.html" title="numina.core — Core classes for Pipelines"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="modules.html" title="Numina modules"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" >Numina modules</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

@@ -1,0 +1,838 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>numina.core — Core classes for Pipelines &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="numina.dal — Calibration fetching" href="dal.html" />
+    <link rel="prev" title="numina.array — Array manipulation" href="array.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="dal.html" title="numina.dal — Calibration fetching"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="array.html" title="numina.array — Array manipulation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" accesskey="U">Numina modules</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="numina-core-core-classes-for-pipelines">
+<h1><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core</span></code> — Core classes for Pipelines<a class="headerlink" href="#numina-core-core-classes-for-pipelines" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-numina.core.dataholders">
+<span id="numina-core-dataholders-dataholders"></span><h2><a class="reference internal" href="#module-numina.core.dataholders" title="numina.core.dataholders"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.dataholders</span></code></a> — Dataholders<a class="headerlink" href="#module-numina.core.dataholders" title="Permalink to this headline">¶</a></h2>
+<p>Recipe requirements</p>
+<dl class="class">
+<dt id="numina.core.dataholders.Parameter">
+<em class="property">class </em><code class="descclassname">numina.core.dataholders.</code><code class="descname">Parameter</code><span class="sig-paren">(</span><em>value</em>, <em>description</em>, <em>destination=None</em>, <em>optional=True</em>, <em>choices=None</em>, <em>validation=True</em>, <em>validator=None</em>, <em>accept_scalar=False</em>, <em>as_list=False</em>, <em>nelem=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.dataholders.Parameter" title="Permalink to this definition">¶</a></dt>
+<dd><p>The Recipe requires a plain Python type.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>value</strong> (<em>plain python type</em>) – Default value of the parameter, the requested type is inferred from
+the type of value.</li>
+<li><strong>description</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Description of the parameter. The value is used
+by <cite>numina show-recipes</cite> to provide human-readible documentation.</li>
+<li><strong>destination</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em>, </em><em>optional</em>) – Name of the field in the RecipeInput object. Overrides the value
+provided by the name of the Parameter variable</li>
+<li><strong>optional</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a><em>, </em><em>optional</em>) – If <cite>False</cite>, the builder of the RecipeInput must provide a value
+for this Parameter. If <cite>True</cite> (default), the builder can skip
+this Parameter and then the default in <cite>value</cite> is used.</li>
+<li><strong>choices</strong> (<em>list of  plain python type</em><em>, </em><em>optional</em>) – The possible values of the inputs. Any other value will raise
+an exception</li>
+<li><strong>validator</strong> (<em>callable</em><em>, </em><em>optional</em>) – A custom validator for inputs</li>
+<li><strong>accept_scalar</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a><em>, </em><em>optional</em>) – If <cite>True</cite>, when <cite>value</cite> is a list, scalar value inputs are converted
+to list. If <cite>False</cite> (default), scalar values will raise an exception
+if <cite>value</cite> is a list</li>
+<li><strong>as_list</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a><em>, </em><em>optional:</em>) – If <cite>True</cite>, consider the internal type a list even if <cite>value</cite> is scalar
+Default is <cite>False</cite></li>
+<li><strong>nelem</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em> or </em><a class="reference external" href="https://docs.python.org/3/library/functions.html#int" title="(in Python v3.7)"><em>int</em></a><em>, </em><em>optional:</em>) – If nelem is ‘*’, the list can contain any number of objects. If is ‘+’,
+the list must contain at least 1 element. With a number, the list must
+contain that number of elements.</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="numina.core.dataholders.Parameter.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>val</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.dataholders.Parameter.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert input values to type values.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.dataholders.Parameter.validate">
+<code class="descname">validate</code><span class="sig-paren">(</span><em>val</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.dataholders.Parameter.validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate values according to the requirement</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.dataholders.Product">
+<em class="property">class </em><code class="descclassname">numina.core.dataholders.</code><code class="descname">Product</code><span class="sig-paren">(</span><em>ptype</em>, <em>description=''</em>, <em>validation=True</em>, <em>destination=None</em>, <em>optional=False</em>, <em>default=None</em>, <em>choices=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.dataholders.Product" title="Permalink to this definition">¶</a></dt>
+<dd><p>Product holder for RecipeResult.</p>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.16: </span><cite>Product</cite> is replaced by <cite>Result</cite>. It will
+be removed in 1.0</p>
+</div>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.dataholders.Requirement">
+<em class="property">class </em><code class="descclassname">numina.core.dataholders.</code><code class="descname">Requirement</code><span class="sig-paren">(</span><em>rtype</em>, <em>description</em>, <em>destination=None</em>, <em>optional=False</em>, <em>default=None</em>, <em>choices=None</em>, <em>validation=True</em>, <em>query_opts=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.dataholders.Requirement" title="Permalink to this definition">¶</a></dt>
+<dd><p>Requirement holder for RecipeInput.</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>rtype</strong> (<a class="reference internal" href="types.html#numina.types.datatype.DataType" title="numina.types.datatype.DataType"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataType</span></code></a> or Type[DataType]) – Object or class repressenting the yype of the requirement,
+it must be a subclass of DataType</li>
+<li><strong>description</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Description of the Requirement. The value is used
+by <cite>numina show-recipes</cite> to provide human-readable documentation.</li>
+<li><strong>destination</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a><em>, </em><em>optional</em>) – Name of the field in the RecipeInput object. Overrides the value
+provided by the name of the Requirement variable</li>
+<li><strong>optional</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a><em>, </em><em>optional</em>) – If <cite>False</cite>, the builder of the RecipeInput must provide a value
+for this Parameter. If <cite>True</cite> (default), the builder can skip
+this Parameter and then the default in <cite>value</cite> is used.</li>
+<li><strong>default</strong> (<em>optional</em>) – The value provided by the Requirement if the RecipeInput builder
+does not provide one.</li>
+<li><strong>choices</strong> (<em>list of values</em><em>, </em><em>optional</em>) – The possible values of the inputs. Any other value will raise
+an exception</li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.dataholders.Result">
+<em class="property">class </em><code class="descclassname">numina.core.dataholders.</code><code class="descname">Result</code><span class="sig-paren">(</span><em>ptype</em>, <em>description=''</em>, <em>validation=True</em>, <em>destination=None</em>, <em>optional=False</em>, <em>default=None</em>, <em>choices=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.dataholders.Result" title="Permalink to this definition">¶</a></dt>
+<dd><p>Result holder for RecipeResult.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.metaclass">
+<span id="numina-core-metaclass-metaclasses"></span><h2><a class="reference internal" href="#module-numina.core.metaclass" title="numina.core.metaclass"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.metaclass</span></code></a> — Metaclasses<a class="headerlink" href="#module-numina.core.metaclass" title="Permalink to this headline">¶</a></h2>
+<p>Base metaclasses</p>
+<dl class="class">
+<dt id="numina.core.metaclass.RecipeInputType">
+<em class="property">class </em><code class="descclassname">numina.core.metaclass.</code><code class="descname">RecipeInputType</code><a class="headerlink" href="#numina.core.metaclass.RecipeInputType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Metaclass for RecipeInput.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.metaclass.RecipeResultType">
+<em class="property">class </em><code class="descclassname">numina.core.metaclass.</code><code class="descname">RecipeResultType</code><a class="headerlink" href="#numina.core.metaclass.RecipeResultType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Metaclass for RecipeResult.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.metaclass.StoreType">
+<em class="property">class </em><code class="descclassname">numina.core.metaclass.</code><code class="descname">StoreType</code><a class="headerlink" href="#numina.core.metaclass.StoreType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Metaclass for storing members.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.metarecipes">
+<span id="numina-core-metarecipes-meta-class-for-recipes"></span><h2><a class="reference internal" href="#module-numina.core.metarecipes" title="numina.core.metarecipes"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.metarecipes</span></code></a> — Meta class for recipes<a class="headerlink" href="#module-numina.core.metarecipes" title="Permalink to this headline">¶</a></h2>
+<p>Metaclasses for Recipes.</p>
+<dl class="class">
+<dt id="numina.core.metarecipes.RecipeType">
+<em class="property">class </em><code class="descclassname">numina.core.metarecipes.</code><code class="descname">RecipeType</code><a class="headerlink" href="#numina.core.metarecipes.RecipeType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Metaclass for Recipe.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.metarecipes.generate_docs">
+<code class="descclassname">numina.core.metarecipes.</code><code class="descname">generate_docs</code><span class="sig-paren">(</span><em>klass</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.metarecipes.generate_docs" title="Permalink to this definition">¶</a></dt>
+<dd><p>Add documentation to generated classes</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.oresult">
+<span id="numina-core-oresult-observation-result"></span><h2><a class="reference internal" href="#module-numina.core.oresult" title="numina.core.oresult"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.oresult</span></code></a> — Observation Result<a class="headerlink" href="#module-numina.core.oresult" title="Permalink to this headline">¶</a></h2>
+<p>Results of the Observing Blocks</p>
+<dl class="class">
+<dt id="numina.core.oresult.ObservationResult">
+<em class="property">class </em><code class="descclassname">numina.core.oresult.</code><code class="descname">ObservationResult</code><span class="sig-paren">(</span><em>instrument='UNKNOWN'</em>, <em>mode='UNKNOWN'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.oresult.ObservationResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>The result of a observing block.</p>
+<dl class="method">
+<dt id="numina.core.oresult.ObservationResult.get_sample_frame">
+<code class="descname">get_sample_frame</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.oresult.ObservationResult.get_sample_frame" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return first available image in observation result</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.oresult.dataframe_from_list">
+<code class="descclassname">numina.core.oresult.</code><code class="descname">dataframe_from_list</code><span class="sig-paren">(</span><em>values</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.oresult.dataframe_from_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build a DataFrame object from a list.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.oresult.obsres_from_dict">
+<code class="descclassname">numina.core.oresult.</code><code class="descname">obsres_from_dict</code><span class="sig-paren">(</span><em>values</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.oresult.obsres_from_dict" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build a ObservationResult object from a dictionary.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.pipeline">
+<span id="numina-core-pipeline-pipeline-classes"></span><h2><a class="reference internal" href="#module-numina.core.pipeline" title="numina.core.pipeline"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.pipeline</span></code></a> — Pipeline classes<a class="headerlink" href="#module-numina.core.pipeline" title="Permalink to this headline">¶</a></h2>
+<p>DRP related classes</p>
+<dl class="class">
+<dt id="numina.core.pipeline.InstrumentDRP">
+<em class="property">class </em><code class="descclassname">numina.core.pipeline.</code><code class="descname">InstrumentDRP</code><span class="sig-paren">(</span><em>name</em>, <em>configurations</em>, <em>modes</em>, <em>pipelines</em>, <em>products=None</em>, <em>datamodel=None</em>, <em>version='undefined'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.InstrumentDRP" title="Permalink to this definition">¶</a></dt>
+<dd><p>Description of an Instrument Data Reduction Pipeline</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first last simple">
+<li><strong>name</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Name of the instrument</li>
+<li><strong>configurations</strong> (<em>dict of InstrumentConfiguration</em>) – </li>
+<li><strong>modes</strong> (<em>dict of ObservingModes</em>) – </li>
+<li><strong>pipeline</strong> (<em>dict of Pipeline</em>) – </li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<dl class="method">
+<dt id="numina.core.pipeline.InstrumentDRP.get_recipe_object">
+<code class="descname">get_recipe_object</code><span class="sig-paren">(</span><em>mode_name</em>, <em>pipeline_name='default'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.InstrumentDRP.get_recipe_object" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build a recipe object from a given mode name</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.InstrumentDRP.iterate_mode_provides">
+<code class="descname">iterate_mode_provides</code><span class="sig-paren">(</span><em>modes</em>, <em>pipeline</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.InstrumentDRP.iterate_mode_provides" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the mode that provides a given product</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.InstrumentDRP.query_provides">
+<code class="descname">query_provides</code><span class="sig-paren">(</span><em>product</em>, <em>pipeline='default'</em>, <em>search=False</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.InstrumentDRP.query_provides" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the mode that provides a given product</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.InstrumentDRP.search_mode_provides">
+<code class="descname">search_mode_provides</code><span class="sig-paren">(</span><em>product</em>, <em>pipeline='default'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.InstrumentDRP.search_mode_provides" title="Permalink to this definition">¶</a></dt>
+<dd><p>Search the mode that provides a given product</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.InstrumentDRP.select_configuration">
+<code class="descname">select_configuration</code><span class="sig-paren">(</span><em>obresult</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.InstrumentDRP.select_configuration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Select instrument configuration based on OB</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.pipeline.ObservingMode">
+<em class="property">class </em><code class="descclassname">numina.core.pipeline.</code><code class="descname">ObservingMode</code><a class="headerlink" href="#numina.core.pipeline.ObservingMode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Observing modes of an Instrument.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.pipeline.Pipeline">
+<em class="property">class </em><code class="descclassname">numina.core.pipeline.</code><code class="descname">Pipeline</code><span class="sig-paren">(</span><em>instrument</em>, <em>name</em>, <em>recipes</em>, <em>version=1</em>, <em>products=None</em>, <em>provides=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.Pipeline" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for pipelines.</p>
+<dl class="method">
+<dt id="numina.core.pipeline.Pipeline.depsolve">
+<code class="descname">depsolve</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.Pipeline.depsolve" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load all recipes to search for products</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.Pipeline.get_recipe_object">
+<code class="descname">get_recipe_object</code><span class="sig-paren">(</span><em>mode</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.Pipeline.get_recipe_object" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load recipe object, according to observing mode</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.Pipeline.load_product_class">
+<code class="descname">load_product_class</code><span class="sig-paren">(</span><em>mode</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.Pipeline.load_product_class" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load recipe object, according to observing mode</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.Pipeline.load_product_object">
+<code class="descname">load_product_object</code><span class="sig-paren">(</span><em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.Pipeline.load_product_object" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load product object, according to name</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.Pipeline.load_recipe_object">
+<code class="descname">load_recipe_object</code><span class="sig-paren">(</span><em>mode</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.Pipeline.load_recipe_object" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load recipe object, according to observing mode</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.Pipeline.provides">
+<code class="descname">provides</code><span class="sig-paren">(</span><em>mode_label</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.Pipeline.provides" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the ProductEntry for some mode</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.Pipeline.query_recipe">
+<code class="descname">query_recipe</code><span class="sig-paren">(</span><em>mode</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.Pipeline.query_recipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recursive query of all calibrations required by a mode</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.pipeline.Pipeline.who_provides">
+<code class="descname">who_provides</code><span class="sig-paren">(</span><em>product_label</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipeline.Pipeline.who_provides" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the ProductEntry for some requirement</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.pipelineload">
+<span id="numina-core-pipelineload-build-pipelines-from-files"></span><h2><a class="reference internal" href="#module-numina.core.pipelineload" title="numina.core.pipelineload"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.pipelineload</span></code></a> — Build pipelines from files<a class="headerlink" href="#module-numina.core.pipelineload" title="Permalink to this headline">¶</a></h2>
+<p>Build a LoadableDRP from a yaml file</p>
+<dl class="function">
+<dt id="numina.core.pipelineload.check_section">
+<code class="descclassname">numina.core.pipelineload.</code><code class="descname">check_section</code><span class="sig-paren">(</span><em>node</em>, <em>section</em>, <em>keys=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipelineload.check_section" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate keys in a section</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.pipelineload.drp_load">
+<code class="descclassname">numina.core.pipelineload.</code><code class="descname">drp_load</code><span class="sig-paren">(</span><em>package</em>, <em>resource</em>, <em>confclass=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipelineload.drp_load" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load the DRPS from a resource file.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.pipelineload.drp_load_data">
+<code class="descclassname">numina.core.pipelineload.</code><code class="descname">drp_load_data</code><span class="sig-paren">(</span><em>package</em>, <em>data</em>, <em>confclass=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipelineload.drp_load_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load the DRPS from data.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.pipelineload.load_mode">
+<code class="descclassname">numina.core.pipelineload.</code><code class="descname">load_mode</code><span class="sig-paren">(</span><em>node</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipelineload.load_mode" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load one observing mdode</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.pipelineload.load_mode_builder">
+<code class="descclassname">numina.core.pipelineload.</code><code class="descname">load_mode_builder</code><span class="sig-paren">(</span><em>obs_mode</em>, <em>node</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipelineload.load_mode_builder" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load observing mode OB builder</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.pipelineload.load_mode_tagger">
+<code class="descclassname">numina.core.pipelineload.</code><code class="descname">load_mode_tagger</code><span class="sig-paren">(</span><em>obs_mode</em>, <em>node</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipelineload.load_mode_tagger" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load observing mode OB tagger</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.pipelineload.load_mode_validator">
+<code class="descclassname">numina.core.pipelineload.</code><code class="descname">load_mode_validator</code><span class="sig-paren">(</span><em>obs_mode</em>, <em>node</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipelineload.load_mode_validator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load observing mode validator</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.pipelineload.load_modes">
+<code class="descclassname">numina.core.pipelineload.</code><code class="descname">load_modes</code><span class="sig-paren">(</span><em>node</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.pipelineload.load_modes" title="Permalink to this definition">¶</a></dt>
+<dd><p>Load all observing modes</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.recipeinout">
+<span id="numina-core-recipeinout-recipe-input-and-output"></span><h2><a class="reference internal" href="#module-numina.core.recipeinout" title="numina.core.recipeinout: Base classes for Recipe Requirements and Results"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.recipeinout</span></code></a> — Recipe input and output<a class="headerlink" href="#module-numina.core.recipeinout" title="Permalink to this headline">¶</a></h2>
+<p>Recipe inputs and outputs</p>
+<dl class="class">
+<dt id="numina.core.recipeinout.RecipeInput">
+<em class="property">class </em><code class="descclassname">numina.core.recipeinout.</code><code class="descname">RecipeInput</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipeinout.RecipeInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>RecipeInput base class</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.recipeinout.RecipeResult">
+<em class="property">class </em><code class="descclassname">numina.core.recipeinout.</code><code class="descname">RecipeResult</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipeinout.RecipeResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>The result of a Recipe.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.recipeinout.RecipeResultQC">
+<em class="property">class </em><code class="descclassname">numina.core.recipeinout.</code><code class="descname">RecipeResultQC</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipeinout.RecipeResultQC" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="numina.core.recipeinout.define_input">
+<em class="property">class </em><code class="descclassname">numina.core.recipeinout.</code><code class="descname">define_input</code><span class="sig-paren">(</span><em>inputClass</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipeinout.define_input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe decorator.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.core.recipeinout.define_requirements">
+<code class="descclassname">numina.core.recipeinout.</code><code class="descname">define_requirements</code><a class="headerlink" href="#numina.core.recipeinout.define_requirements" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#numina.core.recipeinout.define_input" title="numina.core.recipeinout.define_input"><code class="xref py py-class docutils literal notranslate"><span class="pre">numina.core.recipeinout.define_input</span></code></a></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.recipeinout.define_result">
+<em class="property">class </em><code class="descclassname">numina.core.recipeinout.</code><code class="descname">define_result</code><span class="sig-paren">(</span><em>resultClass</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipeinout.define_result" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recipe decorator.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.recipes">
+<span id="numina-core-recipes-base-class-for-recipes"></span><h2><a class="reference internal" href="#module-numina.core.recipes" title="numina.core.recipes: Base classes for Recipes"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.recipes</span></code></a> — Base class for Recipes<a class="headerlink" href="#module-numina.core.recipes" title="Permalink to this headline">¶</a></h2>
+<p>Basic tools and classes used to generate recipe modules.</p>
+<p>A recipe is a class that complies with the <em>reduction recipe API</em>:</p>
+<blockquote>
+<div><ul class="simple">
+<li>The class must derive from <code class="xref py py-class docutils literal notranslate"><span class="pre">numina.core.BaseRecipe</span></code>.</li>
+</ul>
+</div></blockquote>
+<dl class="class">
+<dt id="numina.core.recipes.BaseRecipe">
+<em class="property">class </em><code class="descclassname">numina.core.recipes.</code><code class="descname">BaseRecipe</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for all instrument recipes</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>intermediate_results</strong> (<a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)"><em>bool</em></a><em>, </em><em>optional</em>) – If True, save intermediate results of the Recipe</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="numina.core.recipes.BaseRecipe.obresult">
+<code class="descname">obresult</code><a class="headerlink" href="#numina.core.recipes.BaseRecipe.obresult" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>ObservationResult, requirement</em></p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.core.recipes.BaseRecipe.qc">
+<code class="descname">qc</code><a class="headerlink" href="#numina.core.recipes.BaseRecipe.qc" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>QualityControl, result, QC.GOOD by default</em></p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.core.recipes.BaseRecipe.logger">
+<code class="descname">logger</code><a class="headerlink" href="#numina.core.recipes.BaseRecipe.logger" title="Permalink to this definition">¶</a></dt>
+<dd><p>recipe logger</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.recipes.BaseRecipe.RecipeInput">
+<em class="property">class </em><code class="descname">RecipeInput</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.RecipeInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>RecipeInput base class</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.recipes.BaseRecipe.RecipeResult">
+<em class="property">class </em><code class="descname">RecipeResult</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.RecipeResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>The result of a Recipe.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.recipes.BaseRecipe.build_recipe_input">
+<code class="descname">build_recipe_input</code><span class="sig-paren">(</span><em>ob</em>, <em>dal</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.build_recipe_input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build a RecipeInput object.</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="numina.core.recipes.BaseRecipe.create_input">
+<em class="property">classmethod </em><code class="descname">create_input</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.create_input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pass the result arguments to the RecipeInput constructor</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="numina.core.recipes.BaseRecipe.create_result">
+<em class="property">classmethod </em><code class="descname">create_result</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.create_result" title="Permalink to this definition">¶</a></dt>
+<dd><p>Pass the result arguments to the RecipeResult constructor</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.recipes.BaseRecipe.run_qc">
+<code class="descname">run_qc</code><span class="sig-paren">(</span><em>recipe_input</em>, <em>recipe_result</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.run_qc" title="Permalink to this definition">¶</a></dt>
+<dd><p>Run Quality Control checks.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.recipes.BaseRecipe.save_intermediate_array">
+<code class="descname">save_intermediate_array</code><span class="sig-paren">(</span><em>array</em>, <em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.save_intermediate_array" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save intermediate array object as FITS.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.recipes.BaseRecipe.save_intermediate_img">
+<code class="descname">save_intermediate_img</code><span class="sig-paren">(</span><em>img</em>, <em>name</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.save_intermediate_img" title="Permalink to this definition">¶</a></dt>
+<dd><p>Save intermediate FITS objects.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.recipes.BaseRecipe.set_base_headers">
+<code class="descname">set_base_headers</code><span class="sig-paren">(</span><em>hdr</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.set_base_headers" title="Permalink to this definition">¶</a></dt>
+<dd><p>Set metadata in FITS headers.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.recipes.BaseRecipe.validate_input">
+<code class="descname">validate_input</code><span class="sig-paren">(</span><em>recipe_input</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.validate_input" title="Permalink to this definition">¶</a></dt>
+<dd><p>“Validate the input of the recipe</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.recipes.BaseRecipe.validate_result">
+<code class="descname">validate_result</code><span class="sig-paren">(</span><em>recipe_result</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.BaseRecipe.validate_result" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate the result of the recipe</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.recipes.timeit">
+<code class="descclassname">numina.core.recipes.</code><code class="descname">timeit</code><span class="sig-paren">(</span><em>method</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.recipes.timeit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decorator to measure the time used by the recipe</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.requirements">
+<span id="numina-core-requirements-recipe-requirements"></span><h2><a class="reference internal" href="#module-numina.core.requirements" title="numina.core.requirements"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.requirements</span></code></a> — Recipe requirements<a class="headerlink" href="#module-numina.core.requirements" title="Permalink to this headline">¶</a></h2>
+<p>Recipe requirement holders</p>
+<dl class="class">
+<dt id="numina.core.requirements.InstrumentConfigurationRequirement">
+<em class="property">class </em><code class="descclassname">numina.core.requirements.</code><code class="descname">InstrumentConfigurationRequirement</code><a class="headerlink" href="#numina.core.requirements.InstrumentConfigurationRequirement" title="Permalink to this definition">¶</a></dt>
+<dd><p>The Recipe requires the configuration of the instrument.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.requirements.ObservationResultRequirement">
+<em class="property">class </em><code class="descclassname">numina.core.requirements.</code><code class="descname">ObservationResultRequirement</code><span class="sig-paren">(</span><em>query_opts=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.requirements.ObservationResultRequirement" title="Permalink to this definition">¶</a></dt>
+<dd><p>The Recipe requires the result of an observation.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.taggers">
+<span id="numina-core-taggers-extract-information-from-obs"></span><h2><a class="reference internal" href="#module-numina.core.taggers" title="numina.core.taggers"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.taggers</span></code></a> — Extract information from OBs<a class="headerlink" href="#module-numina.core.taggers" title="Permalink to this headline">¶</a></h2>
+<p>Function to retrieve tags from Observation results.</p>
+<dl class="function">
+<dt id="numina.core.taggers.get_tags_from_full_ob">
+<code class="descclassname">numina.core.taggers.</code><code class="descname">get_tags_from_full_ob</code><span class="sig-paren">(</span><em>ob</em>, <em>reqtags=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.taggers.get_tags_from_full_ob" title="Permalink to this definition">¶</a></dt>
+<dd><table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>(</strong><strong>ObservationResult</strong><strong>)</strong> (<em>ob</em>) – </li>
+<li><strong>(</strong><strong>dict</strong><strong>)</strong> (<em>reqtags</em>) – </li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"></p>
+</td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Return type:</th><td class="field-body"><p class="first last">A dictionary</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.types">
+<span id="numina-core-types-types-for-recipe-io"></span><h2><a class="reference internal" href="#module-numina.core.types" title="numina.core.types"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.types</span></code></a> — Types for Recipe IO<a class="headerlink" href="#module-numina.core.types" title="Permalink to this headline">¶</a></h2>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.17: </span>Use <a class="reference internal" href="types.html#module-numina.types" title="numina.types: TBD"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.types</span></code></a></p>
+</div>
+</div>
+<div class="section" id="module-numina.core.utils">
+<span id="numina-core-utils-utilities"></span><h2><a class="reference internal" href="#module-numina.core.utils" title="numina.core.utils"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.utils</span></code></a> — Utilities<a class="headerlink" href="#module-numina.core.utils" title="Permalink to this headline">¶</a></h2>
+<p>Recipes for system checks.</p>
+<dl class="class">
+<dt id="numina.core.utils.AlwaysFailRecipe">
+<em class="property">class </em><code class="descclassname">numina.core.utils.</code><code class="descname">AlwaysFailRecipe</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.AlwaysFailRecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Recipe that always fails.</p>
+<dl class="class">
+<dt id="numina.core.utils.AlwaysFailRecipe.RecipeInput">
+<em class="property">class </em><code class="descname">RecipeInput</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.AlwaysFailRecipe.RecipeInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>RecipeInput base class</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.utils.AlwaysFailRecipe.RecipeResult">
+<em class="property">class </em><code class="descname">RecipeResult</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.AlwaysFailRecipe.RecipeResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>The result of a Recipe.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.utils.AlwaysSuccessRecipe">
+<em class="property">class </em><code class="descclassname">numina.core.utils.</code><code class="descname">AlwaysSuccessRecipe</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.AlwaysSuccessRecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Recipe that always successes.</p>
+<dl class="class">
+<dt id="numina.core.utils.AlwaysSuccessRecipe.RecipeInput">
+<em class="property">class </em><code class="descname">RecipeInput</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.AlwaysSuccessRecipe.RecipeInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>RecipeInput base class</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.utils.AlwaysSuccessRecipe.RecipeResult">
+<em class="property">class </em><code class="descname">RecipeResult</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.AlwaysSuccessRecipe.RecipeResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>The result of a Recipe.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.utils.Combine">
+<em class="property">class </em><code class="descclassname">numina.core.utils.</code><code class="descname">Combine</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.Combine" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="class">
+<dt id="numina.core.utils.Combine.CombineInput">
+<em class="property">class </em><code class="descname">CombineInput</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.Combine.CombineInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>CombineInput documentation.</p>
+<dl class="attribute">
+<dt id="numina.core.utils.Combine.CombineInput.field">
+<code class="descname">field</code><a class="headerlink" href="#numina.core.utils.Combine.CombineInput.field" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>str, requirement, optional, default=image</em> – Extract field of previous result</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.core.utils.Combine.CombineInput.method">
+<code class="descname">method</code><a class="headerlink" href="#numina.core.utils.Combine.CombineInput.method" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>str, requirement, optional, default=mean</em> – Method of combination</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.core.utils.Combine.CombineInput.obresult">
+<code class="descname">obresult</code><a class="headerlink" href="#numina.core.utils.Combine.CombineInput.obresult" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>ObservationResultType, requirement</em> – Observation Result</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.utils.Combine.CombineResult">
+<em class="property">class </em><code class="descname">CombineResult</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.Combine.CombineResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>CombineResult documentation.</p>
+<dl class="attribute">
+<dt id="numina.core.utils.Combine.CombineResult.result">
+<code class="descname">result</code><a class="headerlink" href="#numina.core.utils.Combine.CombineResult.result" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>DataFrameType, product</em></p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.core.utils.Combine.RecipeInput">
+<code class="descname">RecipeInput</code><a class="headerlink" href="#numina.core.utils.Combine.RecipeInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">numina.core.metaclass.CombineInput</span></code></p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.core.utils.Combine.RecipeResult">
+<code class="descname">RecipeResult</code><a class="headerlink" href="#numina.core.utils.Combine.RecipeResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">numina.core.metaclass.CombineResult</span></code></p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.core.utils.Combine.build_recipe_input">
+<code class="descname">build_recipe_input</code><span class="sig-paren">(</span><em>obsres</em>, <em>dal</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.Combine.build_recipe_input" title="Permalink to this definition">¶</a></dt>
+<dd><p>Build a RecipeInput object.</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.utils.OBSuccessRecipe">
+<em class="property">class </em><code class="descclassname">numina.core.utils.</code><code class="descname">OBSuccessRecipe</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.OBSuccessRecipe" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Recipe that always successes, it requires an OB</p>
+<dl class="class">
+<dt id="numina.core.utils.OBSuccessRecipe.OBSuccessRecipeInput">
+<em class="property">class </em><code class="descname">OBSuccessRecipeInput</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.OBSuccessRecipe.OBSuccessRecipeInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>OBSuccessRecipeInput documentation.</p>
+<dl class="attribute">
+<dt id="numina.core.utils.OBSuccessRecipe.OBSuccessRecipeInput.obresult">
+<code class="descname">obresult</code><a class="headerlink" href="#numina.core.utils.OBSuccessRecipe.OBSuccessRecipeInput.obresult" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>ObservationResultType, requirement</em> – Observation Result</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.core.utils.OBSuccessRecipe.RecipeInput">
+<code class="descname">RecipeInput</code><a class="headerlink" href="#numina.core.utils.OBSuccessRecipe.RecipeInput" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <code class="xref py py-class docutils literal notranslate"><span class="pre">numina.core.metaclass.OBSuccessRecipeInput</span></code></p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.core.utils.OBSuccessRecipe.RecipeResult">
+<em class="property">class </em><code class="descname">RecipeResult</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.utils.OBSuccessRecipe.RecipeResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>The result of a Recipe.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="module-numina.core.validator">
+<span id="numina-core-validator-input-output-validation"></span><h2><a class="reference internal" href="#module-numina.core.validator" title="numina.core.validator"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.core.validator</span></code></a> — Input output validation<a class="headerlink" href="#module-numina.core.validator" title="Permalink to this headline">¶</a></h2>
+<p>Validator decorator</p>
+<dl class="function">
+<dt id="numina.core.validator.as_list">
+<code class="descclassname">numina.core.validator.</code><code class="descname">as_list</code><span class="sig-paren">(</span><em>callable</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.validator.as_list" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert a scalar validator in a list validator</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.validator.only_positive">
+<code class="descclassname">numina.core.validator.</code><code class="descname">only_positive</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.validator.only_positive" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validation error is value is negative</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.validator.range_validator">
+<code class="descclassname">numina.core.validator.</code><code class="descname">range_validator</code><span class="sig-paren">(</span><em>minval=None</em>, <em>maxval=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.validator.range_validator" title="Permalink to this definition">¶</a></dt>
+<dd><p>Generates a function that validates that a number is within range</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><ul class="first simple">
+<li><strong>minval</strong> (<em>numeric</em><em>, </em><em>optional:</em>) – Values strictly lesser than <cite>minval</cite> are rejected</li>
+<li><strong>maxval</strong> (<em>numeric</em><em>, </em><em>optional:</em>) – Values strictly greater than <cite>maxval</cite> are rejected</li>
+</ul>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first last"><ul class="simple">
+<li><em>A function that returns values if are in the range and raises</em></li>
+<li><em>ValidationError is the values are outside the range</em></li>
+</ul>
+</p>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+<dl class="function">
+<dt id="numina.core.validator.validate">
+<code class="descclassname">numina.core.validator.</code><code class="descname">validate</code><span class="sig-paren">(</span><em>method</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.core.validator.validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decorate run method, inputs and outputs are validated</p>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">numina.core</span></code> — Core classes for Pipelines</a><ul>
+<li><a class="reference internal" href="#module-numina.core.dataholders"><code class="docutils literal notranslate"><span class="pre">numina.core.dataholders</span></code> — Dataholders</a></li>
+<li><a class="reference internal" href="#module-numina.core.metaclass"><code class="docutils literal notranslate"><span class="pre">numina.core.metaclass</span></code> — Metaclasses</a></li>
+<li><a class="reference internal" href="#module-numina.core.metarecipes"><code class="docutils literal notranslate"><span class="pre">numina.core.metarecipes</span></code> — Meta class for recipes</a></li>
+<li><a class="reference internal" href="#module-numina.core.oresult"><code class="docutils literal notranslate"><span class="pre">numina.core.oresult</span></code> — Observation Result</a></li>
+<li><a class="reference internal" href="#module-numina.core.pipeline"><code class="docutils literal notranslate"><span class="pre">numina.core.pipeline</span></code> — Pipeline classes</a></li>
+<li><a class="reference internal" href="#module-numina.core.pipelineload"><code class="docutils literal notranslate"><span class="pre">numina.core.pipelineload</span></code> — Build pipelines from files</a></li>
+<li><a class="reference internal" href="#module-numina.core.recipeinout"><code class="docutils literal notranslate"><span class="pre">numina.core.recipeinout</span></code> — Recipe input and output</a></li>
+<li><a class="reference internal" href="#module-numina.core.recipes"><code class="docutils literal notranslate"><span class="pre">numina.core.recipes</span></code> — Base class for Recipes</a></li>
+<li><a class="reference internal" href="#module-numina.core.requirements"><code class="docutils literal notranslate"><span class="pre">numina.core.requirements</span></code> — Recipe requirements</a></li>
+<li><a class="reference internal" href="#module-numina.core.taggers"><code class="docutils literal notranslate"><span class="pre">numina.core.taggers</span></code> — Extract information from OBs</a></li>
+<li><a class="reference internal" href="#module-numina.core.types"><code class="docutils literal notranslate"><span class="pre">numina.core.types</span></code> — Types for Recipe IO</a></li>
+<li><a class="reference internal" href="#module-numina.core.utils"><code class="docutils literal notranslate"><span class="pre">numina.core.utils</span></code> — Utilities</a></li>
+<li><a class="reference internal" href="#module-numina.core.validator"><code class="docutils literal notranslate"><span class="pre">numina.core.validator</span></code> — Input output validation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="array.html"
+                        title="previous chapter"><code class="docutils literal notranslate"><span class="pre">numina.array</span></code> — Array manipulation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="dal.html"
+                        title="next chapter"><code class="docutils literal notranslate"><span class="pre">numina.dal</span></code> — Calibration fetching</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/core.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="dal.html" title="numina.dal — Calibration fetching"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="array.html" title="numina.array — Array manipulation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" >Numina modules</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

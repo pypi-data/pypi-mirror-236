@@ -1,0 +1,220 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>numina.flow — Blocks for processing &#8212; Numina 0.16.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.16.dev0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="numina.frame — Frame manipulation" href="frame.html" />
+    <link rel="prev" title="numina.exceptions — Numina exceptions" href="exceptions.html" /> 
+  </head>
+  <body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="frame.html" title="numina.frame — Frame manipulation"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="exceptions.html" title="numina.exceptions — Numina exceptions"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.16.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" accesskey="U">Numina modules</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-numina.flow">
+<span id="numina-flow-blocks-for-processing"></span><h1><a class="reference internal" href="#module-numina.flow" title="numina.flow: TBD"><code class="xref py py-mod docutils literal"><span class="pre">numina.flow</span></code></a> — Blocks for processing<a class="headerlink" href="#module-numina.flow" title="Permalink to this headline">¶</a></h1>
+<dl class="exception">
+<dt id="numina.flow.FlowError">
+<em class="property">exception </em><code class="descclassname">numina.flow.</code><code class="descname">FlowError</code><a class="headerlink" href="#numina.flow.FlowError" title="Permalink to this definition">¶</a></dt>
+<dd><p>Error base class for flows.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.ParallelFlow">
+<em class="property">class </em><code class="descclassname">numina.flow.</code><code class="descname">ParallelFlow</code><span class="sig-paren">(</span><em>nodeseq</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.ParallelFlow" title="Permalink to this definition">¶</a></dt>
+<dd><p>A flow where Nodes are executed in parallel.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.SerialFlow">
+<em class="property">class </em><code class="descclassname">numina.flow.</code><code class="descname">SerialFlow</code><span class="sig-paren">(</span><em>nodeseq</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.SerialFlow" title="Permalink to this definition">¶</a></dt>
+<dd><p>A flow where Nodes are executed sequentially.</p>
+</dd></dl>
+
+<span class="target" id="module-numina.flow.node"></span><dl class="class">
+<dt id="numina.flow.node.AdaptorNode">
+<em class="property">class </em><code class="descclassname">numina.flow.node.</code><code class="descname">AdaptorNode</code><span class="sig-paren">(</span><em>work</em>, <em>ninputs=1</em>, <em>noutputs=1</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.node.AdaptorNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>A <a class="reference internal" href="#numina.flow.node.Node" title="numina.flow.node.Node"><code class="xref py py-class docutils literal"><span class="pre">Node</span></code></a> that runs a function.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.node.IdNode">
+<em class="property">class </em><code class="descclassname">numina.flow.node.</code><code class="descname">IdNode</code><a class="headerlink" href="#numina.flow.node.IdNode" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that returns its inputs.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.node.Node">
+<em class="property">class </em><code class="descclassname">numina.flow.node.</code><code class="descname">Node</code><span class="sig-paren">(</span><em>ninputs=1</em>, <em>noutputs=1</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.node.Node" title="Permalink to this definition">¶</a></dt>
+<dd><p>An elemental operation in a Flow.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.node.OutputSelector">
+<em class="property">class </em><code class="descclassname">numina.flow.node.</code><code class="descname">OutputSelector</code><span class="sig-paren">(</span><em>ninputs</em>, <em>indexes</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.node.OutputSelector" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that returns part of the results.</p>
+</dd></dl>
+
+<span class="target" id="module-numina.flow.processing"></span><dl class="class">
+<dt id="numina.flow.processing.BadPixelCorrector">
+<em class="property">class </em><code class="descclassname">numina.flow.processing.</code><code class="descname">BadPixelCorrector</code><span class="sig-paren">(</span><em>badpixelmask</em>, <em>datamodel=None</em>, <em>calibid='calibid-unknown'</em>, <em>dtype='float32'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.processing.BadPixelCorrector" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that corrects a frame from bad pixels.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.processing.BiasCorrector">
+<em class="property">class </em><code class="descclassname">numina.flow.processing.</code><code class="descname">BiasCorrector</code><span class="sig-paren">(</span><em>biasmap</em>, <em>biasvar=None</em>, <em>datamodel=None</em>, <em>calibid='calibid-unknown'</em>, <em>dtype='float32'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.processing.BiasCorrector" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that corrects a frame from bias.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.processing.Corrector">
+<em class="property">class </em><code class="descclassname">numina.flow.processing.</code><code class="descname">Corrector</code><span class="sig-paren">(</span><em>datamodel=None</em>, <em>calibid='calibid-unknown'</em>, <em>dtype='float32'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.processing.Corrector" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that corrects a frame from instrumental signatures.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.processing.DarkCorrector">
+<em class="property">class </em><code class="descclassname">numina.flow.processing.</code><code class="descname">DarkCorrector</code><span class="sig-paren">(</span><em>darkmap</em>, <em>darkvar=None</em>, <em>datamodel=None</em>, <em>calibid='calibid-unknown'</em>, <em>dtype='float32'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.processing.DarkCorrector" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that corrects a frame from dark current.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.processing.DivideByExposure">
+<em class="property">class </em><code class="descclassname">numina.flow.processing.</code><code class="descname">DivideByExposure</code><span class="sig-paren">(</span><em>datamodel=None</em>, <em>calibid='calibid-unknown'</em>, <em>dtype='float32'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.processing.DivideByExposure" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that divides its input by exposure time.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.processing.FlatFieldCorrector">
+<em class="property">class </em><code class="descclassname">numina.flow.processing.</code><code class="descname">FlatFieldCorrector</code><span class="sig-paren">(</span><em>flatdata</em>, <em>datamodel=None</em>, <em>calibid='calibid-unknown'</em>, <em>dtype='float32'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.processing.FlatFieldCorrector" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that corrects a frame from flat-field.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.processing.NonLinearityCorrector">
+<em class="property">class </em><code class="descclassname">numina.flow.processing.</code><code class="descname">NonLinearityCorrector</code><span class="sig-paren">(</span><em>polynomial</em>, <em>datamodel=None</em>, <em>calibid='calibid-unknown'</em>, <em>dtype='float32'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.processing.NonLinearityCorrector" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that corrects a frame from non-linearity.</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.processing.SimpleDataModel">
+<em class="property">class </em><code class="descclassname">numina.flow.processing.</code><code class="descname">SimpleDataModel</code><span class="sig-paren">(</span><em>name='UNKNOWN'</em>, <em>mappings=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.processing.SimpleDataModel" title="Permalink to this definition">¶</a></dt>
+<dd><p>Model of the Data being processed</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.flow.processing.SkyCorrector">
+<em class="property">class </em><code class="descclassname">numina.flow.processing.</code><code class="descname">SkyCorrector</code><span class="sig-paren">(</span><em>skydata</em>, <em>datamodel=None</em>, <em>calibid='calibid-unknown'</em>, <em>dtype='float32'</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.flow.processing.SkyCorrector" title="Permalink to this definition">¶</a></dt>
+<dd><p>A Node that corrects a frame from sky.</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.flow.processing.TagOptionalCorrector">
+<code class="descclassname">numina.flow.processing.</code><code class="descname">TagOptionalCorrector</code><a class="headerlink" href="#numina.flow.processing.TagOptionalCorrector" title="Permalink to this definition">¶</a></dt>
+<dd><p>alias of <a class="reference internal" href="#numina.flow.processing.Corrector" title="numina.flow.processing.Corrector"><code class="xref py py-class docutils literal"><span class="pre">Corrector</span></code></a></p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="exceptions.html"
+                        title="previous chapter"><code class="docutils literal"><span class="pre">numina.exceptions</span></code> — Numina exceptions</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="frame.html"
+                        title="next chapter"><code class="docutils literal"><span class="pre">numina.frame</span></code> — Frame manipulation</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/flow.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="frame.html" title="numina.frame — Frame manipulation"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="exceptions.html" title="numina.exceptions — Numina exceptions"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.16.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" >Numina modules</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2018, Sergio Pascual, Nicolás Cardiel, Pablo Picazo-Sánchez.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.6.
+    </div>
+  </body>
+</html>

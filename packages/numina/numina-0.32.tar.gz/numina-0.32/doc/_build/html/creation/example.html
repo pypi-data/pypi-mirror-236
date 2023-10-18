@@ -1,0 +1,534 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Numina Pipeline Example &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="DRP Data Types" href="datatypes.html" />
+    <link rel="prev" title="Numina Pipeline Concepts" href="concepts.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="datatypes.html" title="DRP Data Types"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="concepts.html" title="Numina Pipeline Concepts"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Numina Pipeline Creation Guide</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="numina-pipeline-example">
+<h1>Numina Pipeline Example<a class="headerlink" href="#numina-pipeline-example" title="Permalink to this headline">¶</a></h1>
+<p>This guide is intended as an introductory overview of the creation of
+instrument reduction pipelines with Numina. For detailed reference
+documentation of the functions and
+classes contained in the package, see the <a class="reference internal" href="../reference/index.html#reference"><span class="std std-ref">Numina Reference</span></a>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This “Pipeline Creation Guide” is still a work in progress; some of
+the material
+is not organized, and several aspects of Numina are not yet covered
+sufficient detail.</p>
+</div>
+<div class="section" id="execution-environment-of-the-recipes">
+<h2>Execution environment of the Recipes<a class="headerlink" href="#execution-environment-of-the-recipes" title="Permalink to this headline">¶</a></h2>
+<p>Recipes have different execution environments. Some recipes are designed
+to process observing modes required for the observation. These modes
+are related to visualization, acquisition and focusing. The Recipes
+are integrated in the GTC environment. We call these recipes the
+<strong>Data Factory Pipeline</strong>, (<a class="reference internal" href="../glossary.html#term-dfp"><span class="xref std std-term">DFP</span></a>).</p>
+<p>Other group of recipes are devoted to scientific observing modes: imaging,
+spectroscopy and auxiliary calibrations. These Recipes constitute the
+<strong>Data Reduction Pipeline</strong>, (<a class="reference internal" href="../glossary.html#term-drp"><span class="xref std std-term">DRP</span></a>). The software is meant to be standalone,
+users shall download the software and run it in their own computers, with
+reduction parameters and calibrations provided by the instrument team.</p>
+<p>Users of the DRP will use the simple Numina CLI.
+Users of the DFP shall interact with the software
+through the GTC Inspector.</p>
+</div>
+<div class="section" id="instrument-reduction-pipeline-example">
+<h2>Instrument Reduction Pipeline Example<a class="headerlink" href="#instrument-reduction-pipeline-example" title="Permalink to this headline">¶</a></h2>
+<p>In the following sections we create an Instrument Reduction Pipeline for an instrument
+name <em>CLODIA</em>.</p>
+<p>In order to make a new Instrument Reduction Pipeline
+visible to Numina and the GTC Control System you have to create a full Python package
+that will contain the reduction recipes, data types and other processing code.</p>
+<p>The creation of Python packages is described in detail (for example) in the
+<a class="reference external" href="http://python-packaging-user-guide.readthedocs.org">Python Packaging User Guide</a>.</p>
+<p>Then, we create a Python package called <cite>clodiadrp</cite> with the following structure (we
+ignore files such as README or LICENSE as they are not relevant here):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">clodiadrp</span>
+<span class="o">|--</span> <span class="n">clodiadrp</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|--</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>From here the steps are:</p>
+<ol class="arabic simple">
+<li>Create a configuration yaml file.</li>
+<li>Create a loader file.</li>
+<li>Link the <em>entry_point</em> option in the <em>setup.py</em> with the loader file.</li>
+<li>Create the Pipeline’s Recipes.</li>
+</ol>
+<p>In the following we will continue with the same example as previously.</p>
+<div class="section" id="configuration-file">
+<h3>Configuration File<a class="headerlink" href="#configuration-file" title="Permalink to this headline">¶</a></h3>
+<p>The configuration file contains basic information such as:</p>
+<blockquote>
+<div><ul class="simple">
+<li>the list of modes of the instrument</li>
+<li>the list of recipes of the instrument</li>
+<li>the mapping between recipes and modes.</li>
+</ul>
+</div></blockquote>
+<p>In this example, we assume that CLODIA has three modes: <strong>Bias</strong>, <strong>Flat</strong> and <strong>Image</strong>.
+The first two modes are used for pedestal and flat-field illumination correction. The third
+is the main scientific mode of the instrument.</p>
+<p>Create a new yaml file in the root folder named <em>drp.yaml</em>.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">CLODIA</span>
+<span class="l l-Scalar l-Scalar-Plain">configurations</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">default</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">{}</span>
+<span class="l l-Scalar l-Scalar-Plain">modes</span><span class="p p-Indicator">:</span>
+ <span class="l l-Scalar l-Scalar-Plain">-key</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">bias</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Bias</span>
+  <span class="l l-Scalar l-Scalar-Plain">summary</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Bias mode</span>
+  <span class="l l-Scalar l-Scalar-Plain">description</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">&gt;</span>
+    <span class="no">Full description of the Bias mode</span>
+ <span class="l l-Scalar l-Scalar-Plain">-key</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">flat</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Flat</span>
+  <span class="l l-Scalar l-Scalar-Plain">summary</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Flat mode</span>
+  <span class="l l-Scalar l-Scalar-Plain">description</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">&gt;</span>
+    <span class="no">Full description of the Flat mode</span>
+ <span class="l l-Scalar l-Scalar-Plain">-key</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">image</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Image</span>
+  <span class="l l-Scalar l-Scalar-Plain">summary</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Image mode</span>
+  <span class="l l-Scalar l-Scalar-Plain">description</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">&gt;</span>
+    <span class="no">Full description of the Image mode</span>
+<span class="l l-Scalar l-Scalar-Plain">pipelines</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">default</span><span class="p p-Indicator">:</span>
+    <span class="l l-Scalar l-Scalar-Plain">version</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+    <span class="l l-Scalar l-Scalar-Plain">recipes</span><span class="p p-Indicator">:</span>
+      <span class="l l-Scalar l-Scalar-Plain">bias</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">clodiadrp.recipes.recipe</span>
+      <span class="l l-Scalar l-Scalar-Plain">flat</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">clodiadrp.recipes.recipe</span>
+      <span class="l l-Scalar l-Scalar-Plain">image</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">clodiadrp.recipes.recipe</span>
+</pre></div>
+</div>
+<p>The entry <cite>modes</cite> contains a list of the observing modes of the instrument. There are three: Bias, Flat and Image.
+Each entry contains information about the mode. A <em>name</em>, a short <em>summary</em> and a multi-line <em>description</em>.
+The field <em>key</em> is used to map the observing modes and the <em>recipes</em>, so <em>key</em>
+has to be unique and equal to only one value in each <cite>recipes</cite> block under <cite>pipelines</cite>.</p>
+<p>The entry <cite>pipelines</cite> contains only one pipeline, called <em>default</em> by convention. The <cite>pipeline</cite> contains
+recipes, each related to one observing mode by means of the filed <em>key</em>. For the moment we haven’t developed any recipe,
+so the value of each key (<em>clodiadrp.recipes.recipe</em>) doesn’t exist yet.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">This file has to be included in <cite>package_data</cite> inside <cite>setup.py</cite> to be distributed
+with the package, see
+<a class="reference external" href="https://docs.python.org/3/distutils/setupscript.html#installing-package-data">Installing Package Data</a>
+for details.</p>
+</div>
+</div>
+<div class="section" id="loader-file">
+<h3>Loader File<a class="headerlink" href="#loader-file" title="Permalink to this headline">¶</a></h3>
+<p>Create a new loader file in the root folder named <em>loader.py</em> with the
+following information:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numina.core</span>
+
+<span class="k">def</span> <span class="nf">drp_load</span><span class="p">():</span>
+    <span class="sd">&quot;&quot;&quot;Entry point to load CLODIA DRP.&quot;&quot;&quot;</span>
+    <span class="k">return</span> <span class="n">numina</span><span class="o">.</span><span class="n">core</span><span class="o">.</span><span class="n">drp_load</span><span class="p">(</span><span class="s1">&#39;clodiadrp&#39;</span><span class="p">,</span> <span class="s1">&#39;drp.yaml&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="create-entry-point">
+<h3>Create entry point<a class="headerlink" href="#create-entry-point" title="Permalink to this headline">¶</a></h3>
+<p>Once we have created the <em>loader.py</em> file, the only thing we have to do is to
+make CLODIA visible to Numina/GCS. To do so, just modify the <em>setup.py</em> file to add an
+entry point.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">setuptools</span> <span class="kn">import</span> <span class="n">setup</span>
+
+<span class="n">setup</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;clodiadrp&#39;</span><span class="p">,</span>
+      <span class="n">entry_points</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;numina.pipeline.1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;CLODIA = clodiadrp.loader:drp_load&#39;</span><span class="p">],</span>
+        <span class="p">},</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Both the Numina CLI tool and GCS check this particular entry point. They call the function provided
+by the entry point. The function <a class="reference internal" href="../reference/core.html#numina.core.pipelineload.drp_load" title="numina.core.pipelineload.drp_load"><code class="xref py py-func docutils literal notranslate"><span class="pre">drp_load()</span></code></a> reads and parses the YAML file and
+creates an object of class <a class="reference internal" href="../reference/core.html#numina.core.pipeline.InstrumentDRP" title="numina.core.pipeline.InstrumentDRP"><code class="xref py py-class docutils literal notranslate"><span class="pre">InstrumentDRP</span></code></a> for each recipes it founds.
+These objects are used by Numina CLI and GCS to discover the available Instrument Reduction Pipelines.</p>
+<p>At this stage, the file layout is as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">clodiadrp</span>
+<span class="o">|--</span> <span class="n">clodiadrp</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">loader</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">drp</span><span class="o">.</span><span class="n">yaml</span>
+<span class="o">|--</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">In fact, it is not necessary to use a YAML file to contain the Instrument information. The only
+strict requirement is that the function in the entry point ‘numina.pipeline.1’ must return
+a valid <a class="reference internal" href="../reference/core.html#numina.core.pipeline.InstrumentDRP" title="numina.core.pipeline.InstrumentDRP"><code class="xref py py-class docutils literal notranslate"><span class="pre">InstrumentDRP</span></code></a> object. The use of a YAML file and the
+<a class="reference internal" href="../reference/core.html#numina.core.pipelineload.drp_load" title="numina.core.pipelineload.drp_load"><code class="xref py py-func docutils literal notranslate"><span class="pre">drp_load()</span></code></a> function is only a matter of convenience.</p>
+</div>
+</div>
+<div class="section" id="recipes-creation">
+<h3>Recipes Creation<a class="headerlink" href="#recipes-creation" title="Permalink to this headline">¶</a></h3>
+<p>We haven’t created any reduction recipe yet. As a matter of organization, we suggest to create
+a dedicated subpackage for recipes <cite>clodiadrp.recipes</cite> and a module for each recipe. The file layout is:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">clodiadrp</span>
+<span class="o">|--</span> <span class="n">clodiadrp</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">loader</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">drp</span><span class="o">.</span><span class="n">yaml</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">recipes</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|--</span> <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|--</span> <span class="n">bias</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|--</span> <span class="n">flat</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|--</span> <span class="n">image</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|--</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>Recipes must provide three things: 1) a description of the inputs of the recipe; 2) a description of the products of the recipe and 3) a <em>run</em> method
+which is in charge of executing the proccessing. Additionally, all Recipes must inherit from <a class="reference internal" href="../reference/core.html#numina.core.recipes.BaseRecipe" title="numina.core.recipes.BaseRecipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseRecipe</span></code></a>.</p>
+<p>We start with a simple <cite>Bias</cite> recipe. Its purpose is to process images previously taken in <em>Bias</em> mode, that is, a series of pedestal images.
+The recipe will receive the result of the observation and return a master bias image.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">Result</span><span class="p">,</span> <span class="n">Requirement</span>
+<span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">DataFrameType</span>
+<span class="kn">from</span> <span class="nn">numina.types.obsresult</span> <span class="kn">import</span> <span class="n">ObservationResultType</span>
+<span class="kn">from</span> <span class="nn">numina.core.recipes</span> <span class="kn">import</span> <span class="n">BaseRecipe</span>
+
+<span class="k">class</span> <span class="nc">Bias</span><span class="p">(</span><span class="n">BaseRecipe</span><span class="p">):</span>                            <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+    <span class="n">obresult</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">ObservationResultType</span><span class="p">,</span> <span class="s2">&quot;Observation Result&quot;</span><span class="p">)</span>  <span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">master_bias</span> <span class="o">=</span> <span class="n">Result</span><span class="p">(</span><span class="n">DataFrameType</span><span class="p">)</span>           <span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rinput</span><span class="p">):</span>                         <span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+
+        <span class="c1"># Here the raw images are processed</span>
+        <span class="c1"># and a final image myframe is created</span>
+
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_result</span><span class="p">(</span><span class="n">master_bias</span><span class="o">=</span><span class="n">myframe</span><span class="p">)</span>  <span class="p">(</span><span class="mi">5</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li>Each recipe must be a class derived from <a class="reference internal" href="../reference/core.html#numina.core.recipes.BaseRecipe" title="numina.core.recipes.BaseRecipe"><code class="xref py py-class docutils literal notranslate"><span class="pre">BaseRecipe</span></code></a></li>
+<li>This recipe only requires the result of the observation. Each requirement is an object of the
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Requirement</span></code> class or any subclass of it. The
+type of the requirement is <code class="xref py py-class docutils literal notranslate"><span class="pre">ObservationResultType</span></code>, representing
+the result of the observation.</li>
+<li>This recipe only produces one result. Each product is an object of
+<a class="reference internal" href="../reference/core.html#numina.core.dataholders.Result" title="numina.core.dataholders.Result"><code class="xref py py-class docutils literal notranslate"><span class="pre">Result</span></code></a> class. The type of the product is given by
+<code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrameType</span></code>, representing an image.</li>
+<li>Each recipe must provide a <cite>run</cite> method. The method has only one argument that collects
+the values of all inputs declared by the recipe. In this case, <cite>rinput</cite> has a member
+named <cite>obresult</cite> and can be accessed through <cite>rinput.obresult</cite> which belongs to <a class="reference internal" href="../reference/core.html#numina.core.oresult.ObservationResult" title="numina.core.oresult.ObservationResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">ObservationResult</span></code></a> class.</li>
+<li>The recipe must return an object that collects all the declared products of the recipe, of
+<a class="reference internal" href="../reference/core.html#numina.core.recipeinout.RecipeResult" title="numina.core.recipeinout.RecipeResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">RecipeResult</span></code></a> class. This is accomplished internally by the <cite>create_result</cite> method.
+It will raise a run time exception if any of the declared products are not provided.</li>
+</ol>
+<p>We can now create the <cite>Flat</cite> recipe (inside <cite>flat.py</cite>). This recipe has two requirements, the
+observation result and a master bias image (flat-field images require bias subtraction).</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">Result</span><span class="p">,</span> <span class="n">Requirement</span>
+<span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">DataFrameType</span>
+<span class="kn">from</span> <span class="nn">numina.types.obsresult</span> <span class="kn">import</span> <span class="n">ObservationResultType</span>
+<span class="kn">from</span> <span class="nn">numina.core.recipes</span> <span class="kn">import</span> <span class="n">BaseRecipe</span>
+
+<span class="k">class</span> <span class="nc">Flat</span><span class="p">(</span><span class="n">BaseRecipe</span><span class="p">):</span>
+
+    <span class="n">obresult</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">ObservationResultType</span><span class="p">,</span> <span class="s2">&quot;Observation Result&quot;</span><span class="p">)</span>  <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">master_bias</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">DataFrameType</span><span class="p">,</span> <span class="s2">&quot;Master Bias&quot;</span><span class="p">)</span>      <span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">master_flat</span> <span class="o">=</span> <span class="n">Result</span><span class="p">(</span><span class="n">DataFrameType</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rinput</span><span class="p">):</span>                          <span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+        <span class="c1"># Here the raw images are processed</span>
+        <span class="c1"># and a final image myframe is created</span>
+
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_result</span><span class="p">(</span><span class="n">master_flat</span><span class="o">=</span><span class="n">myframe</span><span class="p">)</span>  <span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li>This recipe only requires the result of the observation. Each requirement is an object of the
+<code class="xref py py-class docutils literal notranslate"><span class="pre">Requirement</span></code> class or any subclass of it. The
+type of the requirement is <code class="xref py py-class docutils literal notranslate"><span class="pre">ObservationResultType</span></code>, representing
+the result of the observation.</li>
+<li>It also requires a master bias image which belongs to <code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrameType</span></code> class (represents an image).</li>
+<li>In this case, <cite>rinput</cite> has two members: 1) <cite>rinput.obresult</cite> of <a class="reference internal" href="../reference/core.html#numina.core.oresult.ObservationResult" title="numina.core.oresult.ObservationResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">ObservationResult</span></code></a> class and
+2) a <cite>rinput.master_bias</cite> of <code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code> class</li>
+<li>The arguments of <cite>create_result</cite> must be the same names used in the product definition.</li>
+</ol>
+<p>Finally, the recipe for <cite>Image</cite> mode reduction (inside <cite>image.py</cite>) has three requirements, the
+observation result, a master bias and a master flat images</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">Result</span><span class="p">,</span> <span class="n">Requirement</span>
+<span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">DataFrameType</span>
+<span class="kn">from</span> <span class="nn">numina.types.obsresult</span> <span class="kn">import</span> <span class="n">ObservationResultType</span>
+<span class="kn">from</span> <span class="nn">numina.core.recipes</span> <span class="kn">import</span> <span class="n">BaseRecipe</span>
+
+<span class="k">class</span> <span class="nc">Image</span><span class="p">(</span><span class="n">BaseRecipe</span><span class="p">):</span>
+
+    <span class="n">obresult</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">ObservationResultType</span><span class="p">)</span>
+    <span class="n">master_bias</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">DataFrameType</span><span class="p">)</span>
+    <span class="n">master_flat</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">DataFrameType</span><span class="p">)</span>
+    <span class="n">final</span> <span class="o">=</span> <span class="n">Result</span><span class="p">(</span><span class="n">DataFrameType</span><span class="p">)</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rinput</span><span class="p">):</span>                          <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+        <span class="c1"># Here the raw images are processed</span>
+        <span class="c1"># and a final image myframe is created</span>
+
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_result</span><span class="p">(</span><span class="n">final</span><span class="o">=</span><span class="n">myframe</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li>In this case, <cite>rinput</cite> will have three members
+<cite>rinput.obresult</cite> of <code class="xref py py-class docutils literal notranslate"><span class="pre">ObservationResult</span></code> class,
+<cite>rinput.master_bias</cite> of <code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code> class and
+<cite>rinput.master_flat</cite> of <code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrame</span></code> class.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">It is not strictly required that the requirements and products names are
+consistent between recipes, although it is highly recommended.</p>
+</div>
+<p>Now we must update <cite>drp.yaml</cite> to insert the full name of the recipes (package and class), as follows</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">CLODIA</span>
+<span class="l l-Scalar l-Scalar-Plain">configurations</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">default</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">{}</span>
+<span class="l l-Scalar l-Scalar-Plain">modes</span><span class="p p-Indicator">:</span>
+ <span class="l l-Scalar l-Scalar-Plain">-key</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">bias</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Bias</span>
+  <span class="l l-Scalar l-Scalar-Plain">summary</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Bias mode</span>
+  <span class="l l-Scalar l-Scalar-Plain">description</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">&gt;</span>
+    <span class="no">Full description of the Bias mode</span>
+ <span class="l l-Scalar l-Scalar-Plain">-key</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">flat</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Flat</span>
+  <span class="l l-Scalar l-Scalar-Plain">summary</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Flat mode</span>
+  <span class="l l-Scalar l-Scalar-Plain">description</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">&gt;</span>
+    <span class="no">Full description of the Flat mode</span>
+ <span class="l l-Scalar l-Scalar-Plain">-key</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">image</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Image</span>
+  <span class="l l-Scalar l-Scalar-Plain">summary</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Image mode</span>
+  <span class="l l-Scalar l-Scalar-Plain">description</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">&gt;</span>
+    <span class="no">Full description of the Image mode</span>
+<span class="l l-Scalar l-Scalar-Plain">pipelines</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">default</span><span class="p p-Indicator">:</span>
+    <span class="l l-Scalar l-Scalar-Plain">version</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+    <span class="l l-Scalar l-Scalar-Plain">recipes</span><span class="p p-Indicator">:</span>
+      <span class="l l-Scalar l-Scalar-Plain">bias</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">clodiadrp.recipes.bias.Bias</span>
+      <span class="l l-Scalar l-Scalar-Plain">flat</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">clodiadrp.recipes.flat.Flat</span>
+      <span class="l l-Scalar l-Scalar-Plain">image</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">clodiadrp.recipes.image.Image</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="specialized-data-products">
+<h3>Specialized data products<a class="headerlink" href="#specialized-data-products" title="Permalink to this headline">¶</a></h3>
+<p>There is some information that is missing of our current setup. The products of some recipes are the inputs of others.
+The master bias created by <cite>Bias</cite> is the input that <cite>Flat</cite> and <cite>Image</cite> require. To represent this situation we use specialized
+data products. We start by adding a new module <cite>products</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">clodiadrp</span>
+<span class="o">|--</span> <span class="n">clodiadrp</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">loader</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">products</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">drp</span><span class="o">.</span><span class="n">yaml</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">recipes</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|--</span> <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|--</span> <span class="n">bias</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|--</span> <span class="n">flat</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|</span>   <span class="o">|--</span> <span class="n">image</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|--</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span>
+</pre></div>
+</div>
+<p>We have two types of images that are products of recipes that can be required by other recipes: <strong>master bias</strong>
+and <strong>master flat</strong>. We represent this by creating two new types derived
+from <a class="reference internal" href="../reference/types.html#numina.types.frame.DataFrameType" title="numina.types.frame.DataFrameType"><code class="xref py py-class docutils literal notranslate"><span class="pre">DataFrameType</span></code></a>  (because the new types are images)
+and <code class="xref py py-class docutils literal notranslate"><span class="pre">DataProductMixin</span></code>  (because the new types are products that must be handled by both Numina CLI and GTC Control system) classes.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numina.types.frame</span> <span class="kn">import</span> <span class="n">DataFrameType</span>
+<span class="kn">from</span> <span class="nn">numina.types.product</span> <span class="kn">import</span> <span class="n">DataProductMixin</span>
+
+<span class="k">class</span> <span class="nc">MasterBias</span><span class="p">(</span><span class="n">DataFrameType</span><span class="p">,</span> <span class="n">DataProductMixin</span><span class="p">):</span>
+    <span class="k">pass</span>
+
+
+<span class="k">class</span> <span class="nc">MasterFlat</span><span class="p">(</span><span class="n">DataFrameType</span><span class="p">,</span> <span class="n">DataProductMixin</span><span class="p">):</span>
+    <span class="k">pass</span>
+</pre></div>
+</div>
+<p>Now we must modify our recipes as follows. First <cite>Bias</cite></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">Result</span><span class="p">,</span> <span class="n">Requirement</span>
+<span class="kn">from</span> <span class="nn">numina.types.obsresult</span> <span class="kn">import</span> <span class="n">ObservationResultType</span>
+<span class="kn">from</span> <span class="nn">numina.core.recipes</span> <span class="kn">import</span> <span class="n">BaseRecipe</span>
+<span class="kn">from</span> <span class="nn">clodiadrp.products</span> <span class="kn">import</span> <span class="n">MasterBias</span>   <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+
+<span class="k">class</span> <span class="nc">Bias</span><span class="p">(</span><span class="n">BaseRecipe</span><span class="p">):</span>
+
+    <span class="n">obresult</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">ObservationResultType</span><span class="p">)</span>
+    <span class="n">master_bias</span> <span class="o">=</span> <span class="n">Result</span><span class="p">(</span><span class="n">MasterBias</span><span class="p">)</span>        <span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+
+    <span class="o">...</span>                                       <span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li>Import the new type <cite>MasterBias</cite>.</li>
+<li>Declare that our recipe produces <cite>MasterBias</cite> images.</li>
+<li><cite>run</cite> method remains unchanged.</li>
+</ol>
+<p>Then <cite>Flat</cite>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">Result</span><span class="p">,</span> <span class="n">Requirement</span>
+<span class="kn">from</span> <span class="nn">numina.types.obsresult</span> <span class="kn">import</span> <span class="n">ObservationResultType</span>
+<span class="kn">from</span> <span class="nn">numina.core.recipes</span> <span class="kn">import</span> <span class="n">BaseRecipe</span>
+<span class="kn">from</span> <span class="nn">clodiadrp.products</span> <span class="kn">import</span> <span class="n">MasterBias</span><span class="p">,</span> <span class="n">MasterFlat</span>
+
+<span class="k">class</span> <span class="nc">Flat</span><span class="p">(</span><span class="n">BaseRecipe</span><span class="p">):</span>
+
+    <span class="n">obresult</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">ObservationResultType</span><span class="p">)</span>
+    <span class="n">master_bias</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">MasterBias</span><span class="p">)</span>         <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">master_flat</span> <span class="o">=</span> <span class="n">Result</span><span class="p">(</span><span class="n">MasterFlat</span><span class="p">)</span>             <span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+
+    <span class="o">...</span>                                       <span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li><cite>MasterBias</cite> is used as a requirement. This guaranties that the images provided
+here are those created by <cite>Bias</cite> and no other.</li>
+<li>Declare that our recipe produces <cite>MasterFlat</cite> images.</li>
+<li><cite>run</cite> method remains unchanged.</li>
+</ol>
+<p>And finally <cite>Image</cite>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">Result</span><span class="p">,</span> <span class="n">Requirement</span>
+<span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">DataFrameType</span>
+<span class="kn">from</span> <span class="nn">numina.types.obsresult</span> <span class="kn">import</span> <span class="n">ObservationResultType</span>
+<span class="kn">from</span> <span class="nn">numina.core.recipes</span> <span class="kn">import</span> <span class="n">BaseRecipe</span>
+<span class="kn">from</span> <span class="nn">clodiadrp.products</span> <span class="kn">import</span> <span class="n">MasterBias</span><span class="p">,</span> <span class="n">MasterFlat</span>
+
+<span class="k">class</span> <span class="nc">Image</span><span class="p">(</span><span class="n">BaseRecipe</span><span class="p">):</span>
+
+    <span class="n">obresult</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">ObservationResultType</span><span class="p">)</span>
+    <span class="n">master_bias</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">MasterBias</span><span class="p">)</span>       <span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="n">master_flat</span> <span class="o">=</span> <span class="n">Requirement</span><span class="p">(</span><span class="n">MasterFlat</span><span class="p">)</span>       <span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+    <span class="n">final</span> <span class="o">=</span> <span class="n">Result</span><span class="p">(</span><span class="n">DataFrameType</span><span class="p">)</span>              <span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+
+    <span class="o">...</span>                                       <span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+<ol class="arabic simple">
+<li><cite>MasterBias</cite> is used as a requirement. This guaranties that the images provided
+here are those created by <cite>Bias</cite> and no other.</li>
+<li><cite>MasterFlat</cite> is used as a requirement. This guaranties that the images provided
+here are those created by <cite>Flat</cite> and no other.</li>
+<li>Declare that our recipe produces <cite>Image</cite> images.</li>
+<li><cite>run</cite> method remains unchanged.</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Numina Pipeline Example</a><ul>
+<li><a class="reference internal" href="#execution-environment-of-the-recipes">Execution environment of the Recipes</a></li>
+<li><a class="reference internal" href="#instrument-reduction-pipeline-example">Instrument Reduction Pipeline Example</a><ul>
+<li><a class="reference internal" href="#configuration-file">Configuration File</a></li>
+<li><a class="reference internal" href="#loader-file">Loader File</a></li>
+<li><a class="reference internal" href="#create-entry-point">Create entry point</a></li>
+<li><a class="reference internal" href="#recipes-creation">Recipes Creation</a></li>
+<li><a class="reference internal" href="#specialized-data-products">Specialized data products</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="concepts.html"
+                        title="previous chapter">Numina Pipeline Concepts</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="datatypes.html"
+                        title="next chapter">DRP Data Types</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/creation/example.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="datatypes.html" title="DRP Data Types"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="concepts.html" title="Numina Pipeline Concepts"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Pipeline Creation Guide</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

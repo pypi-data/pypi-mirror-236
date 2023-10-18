@@ -1,0 +1,352 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Numina Pipeline Concepts &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Numina Pipeline Example" href="example.html" />
+    <link rel="prev" title="Numina Pipeline Creation Guide" href="index.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="example.html" title="Numina Pipeline Example"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Numina Pipeline Creation Guide"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Numina Pipeline Creation Guide</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="numina-pipeline-concepts">
+<h1>Numina Pipeline Concepts<a class="headerlink" href="#numina-pipeline-concepts" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="instrument">
+<h2>Instrument<a class="headerlink" href="#instrument" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="observing-modes">
+<h2>Observing Modes<a class="headerlink" href="#observing-modes" title="Permalink to this headline">¶</a></h2>
+<p>Each Instrument has a list of predefined types of observations that can be
+carried out with it. Each Observing Mode is defined by:</p>
+<blockquote>
+<div><ul class="simple">
+<li>The configuration of the Telescope</li>
+<li>The configuration of the Instrument</li>
+<li>The type of processing required by the images obtained durinf the observation</li>
+</ul>
+</div></blockquote>
+<p>Some of the observing modes of a Instrument are <strong>Scientific</strong>, that is, modes devoted
+to obtain data to perform scientific analysis. Other modes are devoted to <strong>Calibration</strong>;
+these modes produce data required to correct the scientific images from the effects
+of the Instrument, the Telescope and the atmosphere.</p>
+</div>
+<div class="section" id="recipes">
+<h2>Recipes<a class="headerlink" href="#recipes" title="Permalink to this headline">¶</a></h2>
+<p>A recipe is a method to process the images obtained in a particular observing
+mode. Recipes in general require (as inputs) the list of raw images obtained
+during the observation. Recipes can require other inputs (calibrations), and
+those inputs can be the outputs of other recipes.</p>
+<p>Images obtained in a particular mode are processed by one recipe.</p>
+<img src="../_images/graphviz-bb6d0d0e90fd96b0b6bbc76e07214df0e899a08e.png" alt="digraph G {
+    rankdir=LR;
+    subgraph cluster_0 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        edge[style=invis]
+        a0 -&gt; a1 -&gt; a2 -&gt; a3;
+        #label = &quot;Observing\nModes&quot;;
+    }
+
+    subgraph cluster_1 {
+        node [style=filled];
+        edge[style=invis]
+        b0 -&gt; b1 -&gt; b2 -&gt; b3;
+        #label = &quot;Recipes&quot;;
+    }
+
+    a0 -&gt; b0 [rank=same];
+    a1 -&gt; b1 [rank=same];
+    a2 -&gt; b2 [rank=same];
+    a3 -&gt; b3 [rank=same];
+
+    a0 [label=&quot;Mode 1&quot;];
+    a1 [label=&quot;Mode 2&quot;];
+    a2 [label=&quot;...&quot;];
+    a3 [label=&quot;Mode N&quot;];
+    b0 [label=&quot;Recipe 1&quot;];
+    b1 [label=&quot;Recipe 2&quot;];
+    b2 [label=&quot;...&quot;];
+    b3 [label=&quot;Recipe N&quot;];
+
+}" />
+</div>
+<div class="section" id="pipelines">
+<h2>Pipelines<a class="headerlink" href="#pipelines" title="Permalink to this headline">¶</a></h2>
+<p>A pipeline represents a particular mapping between the observing modes and the
+reduction algorithms that process each mode. Each instrument has at least one
+pipeline called <em>default</em>. It may have other pipelines for specific purposes.</p>
+<img src="../_images/graphviz-eda13b91553ee9b61dfdaafe8766578782459fbf.png" alt="digraph G {
+    subgraph cluster_0 {
+        style=filled;
+        color=lightgrey;
+        node [style=filled,color=white];
+        edge[style=invis]
+        a0 -&gt; a1 -&gt; a2 -&gt; a3;
+        label = &quot;Observing\nModes&quot;;
+    }
+
+    subgraph cluster_1 {
+        node [style=filled];
+        edge[style=invis]
+        b0 -&gt; b1 -&gt; b2 -&gt; b3;
+        label = &quot;pipeline: \&quot;default\&quot;&quot;;
+        color=blue
+    }
+
+    subgraph cluster_2 {
+        node [style=filled];
+        edge[style=invis]
+        b11 -&gt; b12 -&gt; b13 -&gt; b14;
+        label = &quot;pipeline: \&quot;test\&quot;&quot;;
+        color=blue
+    }
+
+    a0 -&gt; b0;
+    a1 -&gt; b1;
+    a2 -&gt; b2;
+    a3 -&gt; b3;
+    a0 -&gt; b11;
+    a1 -&gt; b12;
+    a2 -&gt; b13;
+    a3 -&gt; b14;
+
+    a0 [label=&quot;Mode 1&quot;];
+    a1 [label=&quot;Mode 2&quot;];
+    a2 [label=&quot;...&quot;];
+    a3 [label=&quot;Mode N&quot;];
+    b0 [label=&quot;Recipe 1&quot;];
+    b1 [label=&quot;Recipe 2&quot;];
+    b2 [label=&quot;...&quot;];
+    b3 [label=&quot;Recipe N&quot;];
+    b11 [label=&quot;Recipe 11&quot;];
+    b12 [label=&quot;Recipe 12&quot;];
+    b13 [label=&quot;...&quot;];
+    b14 [label=&quot;Recipe M&quot;];
+}" />
+</div>
+<div class="section" id="products-requirements-and-data-types">
+<h2>Products, Requirements and Data Types<a class="headerlink" href="#products-requirements-and-data-types" title="Permalink to this headline">¶</a></h2>
+<p>A recipe announces its required inputs as <code class="xref py py-class docutils literal notranslate"><span class="pre">Requirement</span></code> and its outputs as
+<a class="reference internal" href="../reference/core.html#numina.core.dataholders.Result" title="numina.core.dataholders.Result"><code class="xref py py-class docutils literal notranslate"><span class="pre">Result</span></code></a>.</p>
+<p>Both Results and Requirements have a name and a type. Types can be plain
+Python types or defined by the developer.</p>
+</div>
+<div class="section" id="format-of-the-input-files">
+<h2>Format of the input files<a class="headerlink" href="#format-of-the-input-files" title="Permalink to this headline">¶</a></h2>
+<p>The default format of the input and output files is <a class="reference external" href="http://www.yaml.org">YAML</a>, a data
+serialization language.</p>
+<div class="section" id="format-of-the-observation-result-file">
+<h3>Format of the Observation Result file<a class="headerlink" href="#format-of-the-observation-result-file" title="Permalink to this headline">¶</a></h3>
+<p>This file contains the result of an observation. It represents an
+<a class="reference internal" href="../reference/core.html#numina.core.oresult.ObservationResult" title="numina.core.oresult.ObservationResult"><code class="xref py py-class docutils literal notranslate"><span class="pre">ObservationResult</span></code></a> object.</p>
+<p>The contents of the object are serialized as a dictionary with the
+following keys:</p>
+<dl class="docutils">
+<dt>id: not required, integer, defaults to 1</dt>
+<dd>Unique identifier of the observing block</dd>
+<dt>instrument: required, string</dt>
+<dd>Name of the instrument, as it appears in the instrument file
+(see below)</dd>
+<dt>mode: required, string</dt>
+<dd>Name of the observing mode</dd>
+<dt>children: not required, list of integers, defaults to empty list</dt>
+<dd>Identifications of nested observing blocks</dd>
+<dt>frames: required, list of file names</dt>
+<dd>List of raw images</dd>
+</dl>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">id</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">21</span>
+<span class="l l-Scalar l-Scalar-Plain">instrument</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">EMIR</span>
+<span class="l l-Scalar l-Scalar-Plain">mode</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">nb_image</span>
+<span class="l l-Scalar l-Scalar-Plain">children</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">[]</span>
+<span class="l l-Scalar l-Scalar-Plain">frames</span><span class="p p-Indicator">:</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0121.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0122.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0123.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0124.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0125.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0126.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0127.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0128.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0129.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0130.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0131.fits</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">r0132.fits</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="format-of-the-requirement-file-version-1">
+<h3>Format of the requirement file (version 1)<a class="headerlink" href="#format-of-the-requirement-file-version-1" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">version</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+<span class="l l-Scalar l-Scalar-Plain">products</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">EMIR</span><span class="p p-Indicator">:</span>
+   <span class="p p-Indicator">-</span> <span class="p p-Indicator">{</span><span class="nv">id</span><span class="p p-Indicator">:</span> <span class="nv">1</span><span class="p p-Indicator">,</span> <span class="nv">content</span><span class="p p-Indicator">:</span> <span class="s">&#39;file1.fits&#39;</span><span class="p p-Indicator">,</span> <span class="nv">type</span><span class="p p-Indicator">:</span> <span class="s">&#39;MasterFlat&#39;</span><span class="p p-Indicator">,</span> <span class="nv">tags</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">{</span><span class="s">&#39;filter&#39;</span><span class="p p-Indicator">:</span> <span class="s">&#39;J&#39;</span><span class="p p-Indicator">},</span> <span class="nv">ob</span><span class="p p-Indicator">:</span> <span class="nv">200</span><span class="p p-Indicator">}</span>
+   <span class="p p-Indicator">-</span> <span class="p p-Indicator">{</span><span class="nv">id</span><span class="p p-Indicator">:</span> <span class="nv">4</span><span class="p p-Indicator">,</span> <span class="nv">content</span><span class="p p-Indicator">:</span> <span class="s">&#39;file4.fits&#39;</span><span class="p p-Indicator">,</span> <span class="nv">type</span><span class="p p-Indicator">:</span> <span class="s">&#39;MasterBias&#39;</span><span class="p p-Indicator">,</span> <span class="nv">tags</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">{</span><span class="s">&#39;readmode&#39;</span><span class="p p-Indicator">:</span> <span class="s">&#39;cds&#39;</span><span class="p p-Indicator">},</span> <span class="nv">ob</span><span class="p p-Indicator">:</span> <span class="nv">400</span><span class="p p-Indicator">}</span>
+  <span class="l l-Scalar l-Scalar-Plain">MEGARA</span><span class="p p-Indicator">:</span>
+   <span class="p p-Indicator">-</span> <span class="p p-Indicator">{</span><span class="nv">id</span><span class="p p-Indicator">:</span> <span class="nv">1</span><span class="p p-Indicator">,</span> <span class="nv">content</span><span class="p p-Indicator">:</span> <span class="s">&#39;file1.fits&#39;</span><span class="p p-Indicator">,</span> <span class="nv">type</span><span class="p p-Indicator">:</span> <span class="s">&#39;MasterFlat&#39;</span><span class="p p-Indicator">,</span> <span class="nv">tags</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">{</span><span class="s">&#39;vph&#39;</span><span class="p p-Indicator">:</span> <span class="s">&#39;LR1&#39;</span><span class="p p-Indicator">},</span> <span class="nv">ob</span><span class="p p-Indicator">:</span> <span class="nv">1200</span><span class="p p-Indicator">}</span>
+   <span class="p p-Indicator">-</span> <span class="p p-Indicator">{</span><span class="nv">id</span><span class="p p-Indicator">:</span> <span class="nv">2</span><span class="p p-Indicator">,</span> <span class="nv">content</span><span class="p p-Indicator">:</span> <span class="s">&#39;file2.yml&#39;</span><span class="p p-Indicator">,</span> <span class="nv">type</span><span class="p p-Indicator">:</span> <span class="s">&#39;TraceMap&#39;</span><span class="p p-Indicator">,</span> <span class="nv">tags</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">{</span><span class="s">&#39;vph&#39;</span><span class="p p-Indicator">:</span> <span class="s">&#39;LR2&#39;</span><span class="p p-Indicator">,</span> <span class="s">&#39;readmode&#39;</span><span class="p p-Indicator">:</span> <span class="s">&#39;fast&#39;</span><span class="p p-Indicator">},</span> <span class="nv">ob</span><span class="p p-Indicator">:</span> <span class="nv">1203</span><span class="p p-Indicator">}</span>
+<span class="l l-Scalar l-Scalar-Plain">requirements</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">EMIR</span><span class="p p-Indicator">:</span>
+    <span class="l l-Scalar l-Scalar-Plain">default</span><span class="p p-Indicator">:</span>
+       <span class="l l-Scalar l-Scalar-Plain">TEST6</span><span class="p p-Indicator">:</span>
+          <span class="l l-Scalar l-Scalar-Plain">pinhole_nominal_positions</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">[</span> <span class="p p-Indicator">[</span><span class="nv">0</span><span class="p p-Indicator">,</span> <span class="nv">1</span><span class="p p-Indicator">],</span> <span class="p p-Indicator">[</span><span class="nv">0</span> <span class="p p-Indicator">,</span> <span class="nv">1</span><span class="p p-Indicator">]]</span>
+          <span class="l l-Scalar l-Scalar-Plain">box_half_size</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">5</span>
+       <span class="l l-Scalar l-Scalar-Plain">TEST9</span><span class="p p-Indicator">:</span>
+          <span class="l l-Scalar l-Scalar-Plain">median_filter_size</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">5</span>
+<span class="l l-Scalar l-Scalar-Plain">MEGARA</span><span class="p p-Indicator">:</span>
+    <span class="l l-Scalar l-Scalar-Plain">default</span><span class="p p-Indicator">:</span>
+       <span class="l l-Scalar l-Scalar-Plain">mos_image</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">{}</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="format-of-the-requirement-file">
+<h3>Format of the requirement file<a class="headerlink" href="#format-of-the-requirement-file" title="Permalink to this headline">¶</a></h3>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This section documents a deprecated format</p>
+</div>
+<div class="deprecated">
+<p><span class="versionmodified">Deprecated since version 0.14.0.</span></p>
+</div>
+<p>This file contains configuration parameters for the recipes that
+are not related to the particular instrument used.</p>
+<p>The contents of the file are serialized as a dictionary with the
+following keys:</p>
+<dl class="docutils">
+<dt>requirements: required, dictionary</dt>
+<dd>A dictionary of parameter names and values.</dd>
+<dt>logger: optional, dictionary</dt>
+<dd>A dictionary used to configure the custom file logger</dd>
+</dl>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">requirements</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">master_bias</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">master_bias-1.fits</span>
+  <span class="l l-Scalar l-Scalar-Plain">master_bpm</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">bpm.fits</span>
+  <span class="l l-Scalar l-Scalar-Plain">master_dark</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">master_dark-1.fits</span>
+  <span class="l l-Scalar l-Scalar-Plain">master_intensity_ff</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">master_flat.fits</span>
+  <span class="l l-Scalar l-Scalar-Plain">nonlinearity</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">[</span><span class="nv">1.0</span><span class="p p-Indicator">,</span> <span class="nv">0.0</span><span class="p p-Indicator">]</span>
+  <span class="l l-Scalar l-Scalar-Plain">subpixelization</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">4</span>
+  <span class="l l-Scalar l-Scalar-Plain">window</span><span class="p p-Indicator">:</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">800</span><span class="p p-Indicator">,</span> <span class="nv">1500</span><span class="p p-Indicator">]</span>
+  <span class="p p-Indicator">-</span> <span class="p p-Indicator">[</span><span class="nv">800</span><span class="p p-Indicator">,</span> <span class="nv">1500</span><span class="p p-Indicator">]</span>
+<span class="l l-Scalar l-Scalar-Plain">logger</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">logfile</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">processing.log</span>
+  <span class="l l-Scalar l-Scalar-Plain">format</span><span class="p p-Indicator">:</span> <span class="s">&quot;%(asctime)s</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">%(name)s</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">%(levelname)s</span><span class="nv"> </span><span class="s">-</span><span class="nv"> </span><span class="s">%(message)s&quot;</span>
+  <span class="l l-Scalar l-Scalar-Plain">enabled</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">true</span>
+</pre></div>
+</div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Numina Pipeline Concepts</a><ul>
+<li><a class="reference internal" href="#instrument">Instrument</a></li>
+<li><a class="reference internal" href="#observing-modes">Observing Modes</a></li>
+<li><a class="reference internal" href="#recipes">Recipes</a></li>
+<li><a class="reference internal" href="#pipelines">Pipelines</a></li>
+<li><a class="reference internal" href="#products-requirements-and-data-types">Products, Requirements and Data Types</a></li>
+<li><a class="reference internal" href="#format-of-the-input-files">Format of the input files</a><ul>
+<li><a class="reference internal" href="#format-of-the-observation-result-file">Format of the Observation Result file</a></li>
+<li><a class="reference internal" href="#format-of-the-requirement-file-version-1">Format of the requirement file (version 1)</a></li>
+<li><a class="reference internal" href="#format-of-the-requirement-file">Format of the requirement file</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="index.html"
+                        title="previous chapter">Numina Pipeline Creation Guide</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="example.html"
+                        title="next chapter">Numina Pipeline Example</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/creation/concepts.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="example.html" title="Numina Pipeline Example"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="index.html" title="Numina Pipeline Creation Guide"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Pipeline Creation Guide</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

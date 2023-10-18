@@ -1,0 +1,446 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>numina.types — Data types &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="numina.user — CLI interface" href="user.html" />
+    <link rel="prev" title="numina.treedict — Recursive dictionary" href="treedict.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="user.html" title="numina.user — CLI interface"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="treedict.html" title="numina.treedict — Recursive dictionary"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" accesskey="U">Numina modules</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-numina.types">
+<span id="numina-types-data-types"></span><h1><a class="reference internal" href="#module-numina.types" title="numina.types: TBD"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.types</span></code></a> — Data types<a class="headerlink" href="#module-numina.types" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-numina.types.base"></span><dl class="class">
+<dt id="numina.types.base.DataTypeBase">
+<em class="property">class </em><code class="descclassname">numina.types.base.</code><code class="descname">DataTypeBase</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.base.DataTypeBase" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for input/output types of recipes.</p>
+<dl class="staticmethod">
+<dt id="numina.types.base.DataTypeBase.create_db_info">
+<em class="property">static </em><code class="descname">create_db_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.base.DataTypeBase.create_db_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Create metadata structure</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.base.DataTypeBase.extract_db_info">
+<code class="descname">extract_db_info</code><span class="sig-paren">(</span><em>obj</em>, <em>db_info_keys</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.base.DataTypeBase.extract_db_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract metadata from serialized file</p>
+</dd></dl>
+
+<dl class="classmethod">
+<dt id="numina.types.base.DataTypeBase.isproduct">
+<em class="property">classmethod </em><code class="descname">isproduct</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.base.DataTypeBase.isproduct" title="Permalink to this definition">¶</a></dt>
+<dd><p>Check if the DataType is the product of a Recipe</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.base.DataTypeBase.name">
+<code class="descname">name</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.base.DataTypeBase.name" title="Permalink to this definition">¶</a></dt>
+<dd><p>Unique name of the datatype</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.base.DataTypeBase.update_meta_info">
+<code class="descname">update_meta_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.base.DataTypeBase.update_meta_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract my metadata</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-numina.types.array"></span><dl class="class">
+<dt id="numina.types.array.ArrayNType">
+<em class="property">class </em><code class="descclassname">numina.types.array.</code><code class="descname">ArrayNType</code><span class="sig-paren">(</span><em>dimensions</em>, <em>default=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.array.ArrayNType" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="numina.types.array.ArrayType">
+<em class="property">class </em><code class="descclassname">numina.types.array.</code><code class="descname">ArrayType</code><span class="sig-paren">(</span><em>default=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.array.ArrayType" title="Permalink to this definition">¶</a></dt>
+<dd><p>A type of array.</p>
+<dl class="method">
+<dt id="numina.types.array.ArrayType.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.array.ArrayType.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic conversion to internal type</p>
+<p>This method is intended to be redefined by subclasses</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-numina.types.dataframe"></span><p>Basic Data Products</p>
+<dl class="class">
+<dt id="numina.types.dataframe.DataFrame">
+<em class="property">class </em><code class="descclassname">numina.types.dataframe.</code><code class="descname">DataFrame</code><span class="sig-paren">(</span><em>frame=None</em>, <em>filename=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.dataframe.DataFrame" title="Permalink to this definition">¶</a></dt>
+<dd><p>A handle to a image in disk or in memory.</p>
+</dd></dl>
+
+<span class="target" id="module-numina.types.datatype"></span><dl class="class">
+<dt id="numina.types.datatype.AnyType">
+<em class="property">class </em><code class="descclassname">numina.types.datatype.</code><code class="descname">AnyType</code><a class="headerlink" href="#numina.types.datatype.AnyType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Type representing anything</p>
+<dl class="method">
+<dt id="numina.types.datatype.AnyType.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.AnyType.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic conversion to internal type</p>
+<p>This method is intended to be redefined by subclasses</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.datatype.AnyType.validate">
+<code class="descname">validate</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.AnyType.validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate convertibility to internal representation</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">True if ‘obj’ matches the data type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)">bool</a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><code class="xref py py-exc docutils literal notranslate"><span class="pre">ValidationError</span></code> – If the validation fails</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.types.datatype.AutoDataType">
+<em class="property">class </em><code class="descclassname">numina.types.datatype.</code><code class="descname">AutoDataType</code><span class="sig-paren">(</span><em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.AutoDataType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Data type for types that are its own python type</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.types.datatype.DataType">
+<em class="property">class </em><code class="descclassname">numina.types.datatype.</code><code class="descname">DataType</code><span class="sig-paren">(</span><em>ptype</em>, <em>default=None</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.DataType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for input/output types of recipes.</p>
+<dl class="method">
+<dt id="numina.types.datatype.DataType.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.DataType.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic conversion to internal type</p>
+<p>This method is intended to be redefined by subclasses</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.datatype.DataType.convert_in">
+<code class="descname">convert_in</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.DataType.convert_in" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic conversion to internal type of inputs.</p>
+<p>This method is intended to be redefined by subclasses</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.datatype.DataType.convert_out">
+<code class="descname">convert_out</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.DataType.convert_out" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic conversion to internal type of outputs.</p>
+<p>This method is intended to be redefined by subclasses</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.datatype.DataType.validate">
+<code class="descname">validate</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.DataType.validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate convertibility to internal representation</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">True if ‘obj’ matches the data type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)">bool</a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><code class="xref py py-exc docutils literal notranslate"><span class="pre">ValidationError</span></code> – If the validation fails</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.types.datatype.ListOfType">
+<em class="property">class </em><code class="descclassname">numina.types.datatype.</code><code class="descname">ListOfType</code><span class="sig-paren">(</span><em>ref</em>, <em>index=0</em>, <em>nmin=None</em>, <em>nmax=None</em>, <em>accept_scalar=False</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.ListOfType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Data type for lists of other types.</p>
+<dl class="method">
+<dt id="numina.types.datatype.ListOfType.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.ListOfType.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic conversion to internal type</p>
+<p>This method is intended to be redefined by subclasses</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.datatype.ListOfType.validate">
+<code class="descname">validate</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.ListOfType.validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate convertibility to internal representation</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">True if ‘obj’ matches the data type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)">bool</a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><code class="xref py py-exc docutils literal notranslate"><span class="pre">ValidationError</span></code> – If the validation fails</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.types.datatype.NullType">
+<em class="property">class </em><code class="descclassname">numina.types.datatype.</code><code class="descname">NullType</code><a class="headerlink" href="#numina.types.datatype.NullType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Data type for None.</p>
+<dl class="method">
+<dt id="numina.types.datatype.NullType.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.NullType.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic conversion to internal type</p>
+<p>This method is intended to be redefined by subclasses</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.datatype.NullType.validate">
+<code class="descname">validate</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.NullType.validate" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate convertibility to internal representation</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Returns:</th><td class="field-body">True if ‘obj’ matches the data type</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Return type:</th><td class="field-body"><a class="reference external" href="https://docs.python.org/3/library/functions.html#bool" title="(in Python v3.7)">bool</a></td>
+</tr>
+<tr class="field-odd field"><th class="field-name">Raises:</th><td class="field-body"><code class="xref py py-exc docutils literal notranslate"><span class="pre">ValidationError</span></code> – If the validation fails</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.types.datatype.PlainPythonType">
+<em class="property">class </em><code class="descclassname">numina.types.datatype.</code><code class="descname">PlainPythonType</code><span class="sig-paren">(</span><em>ref=None</em>, <em>validator=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.PlainPythonType" title="Permalink to this definition">¶</a></dt>
+<dd><p>Data type for Python basic types.</p>
+<dl class="method">
+<dt id="numina.types.datatype.PlainPythonType.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.datatype.PlainPythonType.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Basic conversion to internal type</p>
+<p>This method is intended to be redefined by subclasses</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-numina.types.frame"></span><dl class="class">
+<dt id="numina.types.frame.DataFrameType">
+<em class="property">class </em><code class="descclassname">numina.types.frame.</code><code class="descname">DataFrameType</code><span class="sig-paren">(</span><em>datamodel=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.frame.DataFrameType" title="Permalink to this definition">¶</a></dt>
+<dd><p>A type of DataFrame.</p>
+<dl class="method">
+<dt id="numina.types.frame.DataFrameType.convert">
+<code class="descname">convert</code><span class="sig-paren">(</span><em>obj</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.frame.DataFrameType.convert" title="Permalink to this definition">¶</a></dt>
+<dd><p>Convert</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.frame.DataFrameType.extract_db_info">
+<code class="descname">extract_db_info</code><span class="sig-paren">(</span><em>obj</em>, <em>keys</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.frame.DataFrameType.extract_db_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract tags from serialized file</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.frame.DataFrameType.validate">
+<code class="descname">validate</code><span class="sig-paren">(</span><em>value</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.frame.DataFrameType.validate" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-numina.types.linescatalog"></span><dl class="class">
+<dt id="numina.types.linescatalog.DataProductType">
+<em class="property">class </em><code class="descclassname">numina.types.linescatalog.</code><code class="descname">DataProductType</code><span class="sig-paren">(</span><em>ptype</em>, <em>default=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.linescatalog.DataProductType" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="numina.types.linescatalog.LinesCatalog">
+<em class="property">class </em><code class="descclassname">numina.types.linescatalog.</code><code class="descname">LinesCatalog</code><a class="headerlink" href="#numina.types.linescatalog.LinesCatalog" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="numina.types.linescatalog.LinesCatalog.extract_db_info">
+<code class="descname">extract_db_info</code><span class="sig-paren">(</span><em>obj</em>, <em>keys</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.linescatalog.LinesCatalog.extract_db_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract metadata from serialized file</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-numina.types.multitype"></span><span class="target" id="module-numina.types.qc"></span><p>Quality control for Numina-based applications.</p>
+<dl class="class">
+<dt id="numina.types.qc.QC">
+<em class="property">class </em><code class="descclassname">numina.types.qc.</code><code class="descname">QC</code><a class="headerlink" href="#numina.types.qc.QC" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<div class="section" id="qa-levels">
+<h2>QA Levels<a class="headerlink" href="#qa-levels" title="Permalink to this headline">¶</a></h2>
+<p>The numeric values of the QC levels are given in this table.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="48%" />
+<col width="52%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Level</th>
+<th class="head">Numeric value</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">GOOD</span></code></td>
+<td>100</td>
+</tr>
+<tr class="row-odd"><td><code class="docutils literal notranslate"><span class="pre">FAIR</span></code></td>
+<td>90</td>
+</tr>
+<tr class="row-even"><td><code class="docutils literal notranslate"><span class="pre">BAD</span></code></td>
+<td>70</td>
+</tr>
+</tbody>
+</table>
+<span class="target" id="module-numina.types.structured"></span><dl class="class">
+<dt id="numina.types.structured.BaseStructuredCalibration">
+<em class="property">class </em><code class="descclassname">numina.types.structured.</code><code class="descname">BaseStructuredCalibration</code><span class="sig-paren">(</span><em>instrument='unknown'</em>, <em>datamodel=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.structured.BaseStructuredCalibration" title="Permalink to this definition">¶</a></dt>
+<dd><p>Base class for structured calibration data</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><strong>instrument</strong> (<a class="reference external" href="https://docs.python.org/3/library/stdtypes.html#str" title="(in Python v3.7)"><em>str</em></a>) – Instrument name</td>
+</tr>
+</tbody>
+</table>
+<dl class="attribute">
+<dt id="numina.types.structured.BaseStructuredCalibration.tags">
+<code class="descname">tags</code><a class="headerlink" href="#numina.types.structured.BaseStructuredCalibration.tags" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>dict</em> – dictionary of selection fields</p>
+</dd></dl>
+
+<dl class="attribute">
+<dt id="numina.types.structured.BaseStructuredCalibration.uuid">
+<code class="descname">uuid</code><a class="headerlink" href="#numina.types.structured.BaseStructuredCalibration.uuid" title="Permalink to this definition">¶</a></dt>
+<dd><p><em>str</em> – UUID of the result</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.structured.BaseStructuredCalibration.extract_db_info">
+<code class="descname">extract_db_info</code><span class="sig-paren">(</span><em>obj</em>, <em>keys</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.structured.BaseStructuredCalibration.extract_db_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract metadata from serialized file</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.types.structured.BaseStructuredCalibration.update_meta_info">
+<code class="descname">update_meta_info</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#numina.types.structured.BaseStructuredCalibration.update_meta_info" title="Permalink to this definition">¶</a></dt>
+<dd><p>Extract metadata from myself</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">numina.types</span></code> — Data types</a><ul>
+<li><a class="reference internal" href="#qa-levels">QA Levels</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="treedict.html"
+                        title="previous chapter"><code class="docutils literal notranslate"><span class="pre">numina.treedict</span></code> — Recursive dictionary</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="user.html"
+                        title="next chapter"><code class="docutils literal notranslate"><span class="pre">numina.user</span></code> — CLI interface</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/types.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="user.html" title="numina.user — CLI interface"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="treedict.html" title="numina.treedict — Recursive dictionary"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" >Numina modules</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

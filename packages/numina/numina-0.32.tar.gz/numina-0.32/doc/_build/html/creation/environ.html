@@ -1,0 +1,243 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Numina Pipeline Environment &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="numina-pipeline-environment">
+<h1>Numina Pipeline Environment<a class="headerlink" href="#numina-pipeline-environment" title="Permalink to this headline">¶</a></h1>
+<p>This guide is intended as an introductory overview of pipeline creation
+with Numina. For detailed reference documentation of the functions and
+classes contained in the package, see the <a class="reference internal" href="../reference/index.html#reference"><span class="std std-ref">Numina Reference</span></a>.</p>
+<div class="admonition warning">
+<p class="first admonition-title">Warning</p>
+<p class="last">This “Pipeline Creation Guide” is still a work in progress; some of
+the material
+is not organized, and several aspects of Numina are not yet covered
+sufficient detail.</p>
+</div>
+<div class="section" id="execution-environment-of-the-recipes">
+<h2>Execution environment of the Recipes<a class="headerlink" href="#execution-environment-of-the-recipes" title="Permalink to this headline">¶</a></h2>
+<p>Recipes have different execution environments. Some recipes are designed
+to process observing modes required for the observation. These modes
+are related to visualization, acquisition and focusing. The Recipes
+are integrated in the GTC environment. We call these recipes the
+<strong>Data Factory Pipeline</strong>, (<a class="reference internal" href="../glossary.html#term-dfp"><span class="xref std std-term">DFP</span></a>).</p>
+<p>Other group of recipes are devoted to scientific observing modes: imaging,
+spectroscopy and auxiliary calibrations. These Recipes constitute the
+<strong>Data Reduction Pipeline</strong>, (<a class="reference internal" href="../glossary.html#term-drp"><span class="xref std std-term">DRP</span></a>). The software is meant to be standalone,
+users shall download the software and run it in their own computers, with
+reduction parameters and calibrations provided by the instrument team.</p>
+<p>Users of the DRP will use the simple Numina CLI.
+Users of the DFP shall interact with the software
+through the GTC Inspector.</p>
+</div>
+<div class="section" id="recipe-example">
+<h2>Recipe Example<a class="headerlink" href="#recipe-example" title="Permalink to this headline">¶</a></h2>
+<p>In order to make the new Pipeline visible to Numina you have to:</p>
+<ol class="arabic simple">
+<li>Create a configuration yaml file.</li>
+<li>Create a loader file.</li>
+<li>Link the <em>entry_point</em> option in the <em>setup.py</em> with the loader file.</li>
+<li>Create the Pipeline’s Recipes.</li>
+</ol>
+<p>In the following we will continue with the same example as previously.</p>
+<div class="section" id="configuration-file">
+<h3>Configuration File<a class="headerlink" href="#configuration-file" title="Permalink to this headline">¶</a></h3>
+<p>Create a new yaml file in the root folder named <em>drp.yaml</em> with the following
+information:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">CLODIA</span>
+<span class="l l-Scalar l-Scalar-Plain">configurations</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">default</span><span class="p p-Indicator">:</span> <span class="p p-Indicator">{}</span>
+<span class="l l-Scalar l-Scalar-Plain">modes</span><span class="p p-Indicator">:</span>
+<span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">date</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">2015-11-12</span>
+  <span class="l l-Scalar l-Scalar-Plain">description</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Description of CLODIA Instrument</span>
+  <span class="l l-Scalar l-Scalar-Plain">key</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">clodia_key</span>
+  <span class="l l-Scalar l-Scalar-Plain">name</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Clodia_Name</span>
+  <span class="l l-Scalar l-Scalar-Plain">reference</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">numina</span>
+  <span class="l l-Scalar l-Scalar-Plain">status</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">FINAL</span>
+  <span class="l l-Scalar l-Scalar-Plain">summary</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">Summary of CLODIA Instrument</span>
+  <span class="l l-Scalar l-Scalar-Plain">tagger</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">null</span>
+<span class="l l-Scalar l-Scalar-Plain">pipelines</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">default</span><span class="p p-Indicator">:</span>
+    <span class="l l-Scalar l-Scalar-Plain">recipes</span><span class="p p-Indicator">:</span>
+      <span class="l l-Scalar l-Scalar-Plain">clodia_key</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">clodiadrp.recipes.name_of_recipe</span>
+    <span class="l l-Scalar l-Scalar-Plain">version</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">1</span>
+<span class="c1">#products:</span>
+<span class="c1">#- name: clodiadrp.products.TraceMap</span>
+<span class="c1">#  alias: TraceMap</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="loader-file">
+<h3>Loader File<a class="headerlink" href="#loader-file" title="Permalink to this headline">¶</a></h3>
+<p>Create a new loader file in the root folder named <em>loader.py</em> with the
+following information:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">drp_load</span>
+
+<span class="k">def</span> <span class="nf">drp_load</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;Entry point to load CLODIA DRP.&#39;&#39;&#39;</span>
+    <span class="k">return</span> <span class="n">drp_load</span><span class="p">(</span><span class="s1">&#39;clodiadrp&#39;</span><span class="p">,</span> <span class="s1">&#39;drp.yaml&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="link-files">
+<h3>Link Files<a class="headerlink" href="#link-files" title="Permalink to this headline">¶</a></h3>
+<p>Once we have created the <em>loader.py</em> file, the only thing we have to do to
+make CLODIA visible to Numina is to modify the <em>setup.py</em> file</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">setuptools</span> <span class="kn">import</span> <span class="n">setup</span>
+
+<span class="n">setup</span><span class="p">(</span><span class="n">name</span><span class="o">=</span><span class="s1">&#39;clodiadrp&#39;</span><span class="p">,</span>
+      <span class="n">entry_points</span> <span class="o">=</span> <span class="p">{</span>
+        <span class="s1">&#39;numina.pipeline.1&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;CLODIA = clodiadrp.loader:drp_load&#39;</span><span class="p">],</span>
+        <span class="p">},</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="recipes-creation">
+<h3>Recipes Creation<a class="headerlink" href="#recipes-creation" title="Permalink to this headline">¶</a></h3>
+<p>All new Recipes inherit from <strong>BaseRecipe</strong> class that can be found in
+<em>numina.core.recipes</em> so following with the example, we want to create a new
+recipe in the folder <em>recipes</em> of clodiadrp: <em>clodiadrp.recipes.name_of_recipe</em>
+with the following code:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">numina.core</span> <span class="kn">import</span> <span class="n">Result</span>
+<span class="kn">from</span> <span class="nn">numina.core.recipes</span> <span class="kn">import</span> <span class="n">BaseRecipe</span>
+<span class="kn">from</span> <span class="nn">numina.core.requirements</span> <span class="kn">import</span> <span class="n">ObservationResultRequirement</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="kn">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">astropy.io</span> <span class="kn">import</span> <span class="n">fits</span>
+
+<span class="k">class</span> <span class="nc">name_of_recipe</span><span class="p">(</span><span class="n">BaseRecipe</span><span class="p">):</span>
+
+    <span class="n">obresult</span> <span class="o">=</span> <span class="n">ObservationResultRequirement</span><span class="p">()</span>
+    <span class="n">output_image</span> <span class="o">=</span> <span class="n">Result</span><span class="p">()</span>
+
+    <span class="k">def</span> <span class="nf">run</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rinput</span><span class="p">):</span>
+
+        <span class="n">n</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mf">50.0</span><span class="p">)</span>
+        <span class="n">hdu</span> <span class="o">=</span> <span class="n">fits</span><span class="o">.</span><span class="n">PrimaryHDU</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+
+        <span class="n">result</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">create_result</span><span class="p">(</span><span class="n">output_image</span><span class="o">=</span><span class="n">hdu</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">result</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="directory-structure">
+<h3>Directory structure<a class="headerlink" href="#directory-structure" title="Permalink to this headline">¶</a></h3>
+<p>At the end, our files in the example should follow the next directory
+structure:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">clodiadrp</span>
+<span class="o">|--</span> <span class="n">recipes</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="n">name_of_recipe</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|--</span> <span class="n">products</span>
+<span class="o">|</span>   <span class="o">|--</span> <span class="fm">__init__</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|--</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|--</span> <span class="n">loader</span><span class="o">.</span><span class="n">py</span>
+<span class="o">|--</span> <span class="n">drp</span><span class="o">.</span><span class="n">yam</span>
+</pre></div>
+</div>
+<p>Note that it is quite important to specify all required arguments (obresult)
+and the output (output_image). When the reduction is run from the command line
+using Numina CLI, it checks that the required values are provided or have
+default values.</p>
+<p>Furthermore, if the Recipe is properly configured it is executed with an
+observing block data structure as input. Otherwise, when it is run using
+Numina CLI, the data structure is created from a text file.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Numina Pipeline Environment</a><ul>
+<li><a class="reference internal" href="#execution-environment-of-the-recipes">Execution environment of the Recipes</a></li>
+<li><a class="reference internal" href="#recipe-example">Recipe Example</a><ul>
+<li><a class="reference internal" href="#configuration-file">Configuration File</a></li>
+<li><a class="reference internal" href="#loader-file">Loader File</a></li>
+<li><a class="reference internal" href="#link-files">Link Files</a></li>
+<li><a class="reference internal" href="#recipes-creation">Recipes Creation</a></li>
+<li><a class="reference internal" href="#directory-structure">Directory structure</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/creation/environ.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

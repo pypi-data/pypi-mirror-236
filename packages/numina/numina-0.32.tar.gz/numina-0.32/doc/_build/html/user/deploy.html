@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Numina Deployment with Virtualenv &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Command Line Interface" href="cli.html" />
+    <link rel="prev" title="Installation" href="install.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="cli.html" title="Command Line Interface"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="install.html" title="Installation"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">Numina User Guide</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="numina-deployment-with-virtualenv">
+<span id="abba-install"></span><h1>Numina Deployment with Virtualenv<a class="headerlink" href="#numina-deployment-with-virtualenv" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://virtualenv.pypa.io/">Virtualenv</a> is a tool to build isolated Python environments.</p>
+<p>It’s a great way to quickly test new libraries without cluttering your
+global site-packages or run multiple projects on the same machine which
+depend on a particular library but not the same version of the library.</p>
+<div class="section" id="install-virtualenv">
+<h2>Install Virtualenv<a class="headerlink" href="#install-virtualenv" title="Permalink to this headline">¶</a></h2>
+<p>To install globally with pip (if you have pip 1.3 or greater installed globally):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ sudo yum install python-virtualenv
+</pre></div>
+</div>
+<p>For other ways of installing the package, check <a class="reference external" href="https://virtualenv.pypa.io/en/latest/installation.html">virtualenv_install</a> webpage.</p>
+</div>
+<div class="section" id="create-virtual-environment">
+<h2>Create Virtual Environment<a class="headerlink" href="#create-virtual-environment" title="Permalink to this headline">¶</a></h2>
+<p>We urge reader to read the <a class="reference external" href="https://virtualenv.pypa.io/en/latest/userguide.html">virtualenv_usage</a> webpage to use and create
+new virtual environments.</p>
+<p>As an example, a new virtual environment named numina is created where no
+packages but pip and setuptools are installed:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ virtualenv numina
+</pre></div>
+</div>
+</div>
+<div class="section" id="activate-the-environment">
+<h2>Activate the Environment<a class="headerlink" href="#activate-the-environment" title="Permalink to this headline">¶</a></h2>
+<p>Once the environment is created, you need to activate it. Just go to <cite>bin/</cite> folder
+created under numina and  load with your command line interpreter the
+script bin/activate:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ cd numina/bin
+$ source activate
+(numina) $
+</pre></div>
+</div>
+<p>Notice that the prompt changes once you are activate the environment. To
+deactivate it just type <cite>deactivate</cite>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>(numina) $ deactivate
+$
+</pre></div>
+</div>
+</div>
+<div class="section" id="numina-installation">
+<h2>Numina Installation<a class="headerlink" href="#numina-installation" title="Permalink to this headline">¶</a></h2>
+<p>Numina is registered in the Python Package Index. That means (among
+other things) that can be installed inside the environment with one command:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>(numina) $ pip install numina
+</pre></div>
+</div>
+<p>The requirements of numina will be downloaded and installed inside
+the virtual environment automatically.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Numina Deployment with Virtualenv</a><ul>
+<li><a class="reference internal" href="#install-virtualenv">Install Virtualenv</a></li>
+<li><a class="reference internal" href="#create-virtual-environment">Create Virtual Environment</a></li>
+<li><a class="reference internal" href="#activate-the-environment">Activate the Environment</a></li>
+<li><a class="reference internal" href="#numina-installation">Numina Installation</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="install.html"
+                        title="previous chapter">Installation</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="cli.html"
+                        title="next chapter">Command Line Interface</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/user/deploy.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="cli.html" title="Command Line Interface"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="install.html" title="Installation"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina User Guide</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>

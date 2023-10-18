@@ -1,0 +1,215 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>numina.dal — Calibration fetching &#8212; Numina 0.20.dev0 documentation</title>
+    <link rel="stylesheet" href="../_static/classic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="numina.datamodel — Model of data" href="datamodel.html" />
+    <link rel="prev" title="numina.core — Core classes for Pipelines" href="core.html" /> 
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="datamodel.html" title="numina.datamodel — Model of data"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="core.html" title="numina.core — Core classes for Pipelines"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" accesskey="U">Numina modules</a> &#187;</li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="module-numina.dal">
+<span id="numina-dal-calibration-fetching"></span><h1><a class="reference internal" href="#module-numina.dal" title="numina.dal"><code class="xref py py-mod docutils literal notranslate"><span class="pre">numina.dal</span></code></a> — Calibration fetching<a class="headerlink" href="#module-numina.dal" title="Permalink to this headline">¶</a></h1>
+<span class="target" id="module-numina.dal.daliface"></span><p>DAL base class</p>
+<dl class="class">
+<dt id="numina.dal.daliface.DALInterface">
+<em class="property">class </em><code class="descclassname">numina.dal.daliface.</code><code class="descname">DALInterface</code><a class="headerlink" href="#numina.dal.daliface.DALInterface" title="Permalink to this definition">¶</a></dt>
+<dd><p>Abstract Base Class for DAL</p>
+</dd></dl>
+
+<span class="target" id="module-numina.dal.absdal"></span><p>DAL base classes</p>
+<dl class="class">
+<dt id="numina.dal.absdal.AbsDAL">
+<em class="property">class </em><code class="descclassname">numina.dal.absdal.</code><code class="descname">AbsDAL</code><a class="headerlink" href="#numina.dal.absdal.AbsDAL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="numina.dal.absdal.AbsDrpDAL">
+<em class="property">class </em><code class="descclassname">numina.dal.absdal.</code><code class="descname">AbsDrpDAL</code><span class="sig-paren">(</span><em>drps</em>, <em>*args</em>, <em>**kwargs</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.absdal.AbsDrpDAL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<span class="target" id="module-numina.dal.dictdal"></span><p>DAL for dictionary-based database of products.</p>
+<dl class="class">
+<dt id="numina.dal.dictdal.BaseDictDAL">
+<em class="property">class </em><code class="descclassname">numina.dal.dictdal.</code><code class="descname">BaseDictDAL</code><span class="sig-paren">(</span><em>drps</em>, <em>ob_table</em>, <em>prod_table</em>, <em>req_table</em>, <em>extra_data=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.dictdal.BaseDictDAL" title="Permalink to this definition">¶</a></dt>
+<dd><p>A dictionary based DAL</p>
+<dl class="method">
+<dt id="numina.dal.dictdal.BaseDictDAL.obsres_from_oblock_id">
+<code class="descname">obsres_from_oblock_id</code><span class="sig-paren">(</span><em>obsid</em>, <em>configuration=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.dictdal.BaseDictDAL.obsres_from_oblock_id" title="Permalink to this definition">¶</a></dt>
+<dd><p>”
+Override instrument configuration if configuration is not None</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.dal.dictdal.BaseDictDAL.search_prod_obsid">
+<code class="descname">search_prod_obsid</code><span class="sig-paren">(</span><em>ins</em>, <em>obsid</em>, <em>pipeline</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.dictdal.BaseDictDAL.search_prod_obsid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the first coincidence…</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="numina.dal.dictdal.BaseDictDAL.search_prod_type_tags">
+<code class="descname">search_prod_type_tags</code><span class="sig-paren">(</span><em>tipo</em>, <em>ins</em>, <em>tags</em>, <em>pipeline</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.dictdal.BaseDictDAL.search_prod_type_tags" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the first coincidence…</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.dal.dictdal.Dict2DAL">
+<em class="property">class </em><code class="descclassname">numina.dal.dictdal.</code><code class="descname">Dict2DAL</code><span class="sig-paren">(</span><em>drps</em>, <em>obtable</em>, <em>base</em>, <em>extra_data=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.dictdal.Dict2DAL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="numina.dal.dictdal.DictDAL">
+<em class="property">class </em><code class="descclassname">numina.dal.dictdal.</code><code class="descname">DictDAL</code><span class="sig-paren">(</span><em>drps</em>, <em>base</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.dictdal.DictDAL" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="numina.dal.dictdal.HybridDAL">
+<em class="property">class </em><code class="descclassname">numina.dal.dictdal.</code><code class="descname">HybridDAL</code><span class="sig-paren">(</span><em>drps</em>, <em>obtable</em>, <em>base</em>, <em>extra_data=None</em>, <em>basedir=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.dictdal.HybridDAL" title="Permalink to this definition">¶</a></dt>
+<dd><p>A DAL that can read files from directory structure</p>
+</dd></dl>
+
+<span class="target" id="module-numina.dal.diskfiledal"></span><p>DAL for file-based database of products.</p>
+<span class="target" id="module-numina.dal.mockdal"></span><p>DAL Mock class</p>
+<dl class="class">
+<dt id="numina.dal.mockdal.MockDAL">
+<em class="property">class </em><code class="descclassname">numina.dal.mockdal.</code><code class="descname">MockDAL</code><a class="headerlink" href="#numina.dal.mockdal.MockDAL" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="method">
+<dt id="numina.dal.mockdal.MockDAL.search_prod_type_tags">
+<code class="descname">search_prod_type_tags</code><span class="sig-paren">(</span><em>ins</em>, <em>type</em>, <em>tags</em>, <em>pipeline</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.mockdal.MockDAL.search_prod_type_tags" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the first coincidence…</p>
+</dd></dl>
+
+</dd></dl>
+
+<span class="target" id="module-numina.dal.stored"></span><dl class="class">
+<dt id="numina.dal.stored.StoredParameter">
+<em class="property">class </em><code class="descclassname">numina.dal.stored.</code><code class="descname">StoredParameter</code><span class="sig-paren">(</span><em>content</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.stored.StoredParameter" title="Permalink to this definition">¶</a></dt>
+<dd><p>A parameter returned from the DAL</p>
+</dd></dl>
+
+<dl class="class">
+<dt id="numina.dal.stored.StoredProduct">
+<em class="property">class </em><code class="descclassname">numina.dal.stored.</code><code class="descname">StoredProduct</code><span class="sig-paren">(</span><em>id</em>, <em>content</em>, <em>tags</em>, <em>**kwds</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.stored.StoredProduct" title="Permalink to this definition">¶</a></dt>
+<dd><p>A product returned from the DAL</p>
+</dd></dl>
+
+<span class="target" id="module-numina.dal.backend"></span><p>DAL for dictionary-based database of products.</p>
+<dl class="class">
+<dt id="numina.dal.backend.Backend">
+<em class="property">class </em><code class="descclassname">numina.dal.backend.</code><code class="descname">Backend</code><span class="sig-paren">(</span><em>drps</em>, <em>base</em>, <em>extra_data=None</em>, <em>basedir=None</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.backend.Backend" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="class">
+<dt id="numina.dal.backend.StoredResult">
+<em class="property">class </em><code class="descclassname">numina.dal.backend.</code><code class="descname">StoredResult</code><a class="headerlink" href="#numina.dal.backend.StoredResult" title="Permalink to this definition">¶</a></dt>
+<dd><p>Recover the RecipeResult values stored in the Backend</p>
+</dd></dl>
+
+<span class="target" id="module-numina.dal.utils"></span><p>Utilities for DAL</p>
+<dl class="function">
+<dt id="numina.dal.utils.tags_are_valid">
+<code class="descclassname">numina.dal.utils.</code><code class="descname">tags_are_valid</code><span class="sig-paren">(</span><em>subset</em>, <em>superset</em><span class="sig-paren">)</span><a class="headerlink" href="#numina.dal.utils.tags_are_valid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Validate tags</p>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="core.html"
+                        title="previous chapter"><code class="docutils literal notranslate"><span class="pre">numina.core</span></code> — Core classes for Pipelines</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="datamodel.html"
+                        title="next chapter"><code class="docutils literal notranslate"><span class="pre">numina.datamodel</span></code> — Model of data</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/reference/dal.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="datamodel.html" title="numina.datamodel — Model of data"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="core.html" title="numina.core — Core classes for Pipelines"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="../index.html">Numina 0.20.dev0 documentation</a> &#187;</li>
+          <li class="nav-item nav-item-1"><a href="index.html" >Numina Reference</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="modules.html" >Numina modules</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2010-2019, Universidad Complutense de Madrid.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.7.6.
+    </div>
+  </body>
+</html>
