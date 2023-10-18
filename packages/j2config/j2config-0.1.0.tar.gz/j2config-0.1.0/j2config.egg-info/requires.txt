@@ -1,0 +1,7 @@
+pandas
+jinja2
+xlrd
+openpyxl
+nettoolkit
+nettoolkit_db
+nettoolkit_common
