@@ -1,0 +1,21 @@
+
+
+
+'''
+	python3 STATUS.py "STRUCTS/STATUS/STATUS_FIND_1.py"
+'''
+
+
+import json
+from CYTE.STRUCTS.FIND import FIND_STRUCT
+	
+def CHECK_1 ():
+	PROTEIN = FIND_STRUCT (
+		NAME = "PROTEIN"
+	)
+	
+	assert (PROTEIN ["REGION"] == 1)
+		
+CHECKS = {
+	"LIST DOES NOT HAVE DUPLICATE REGIONS": CHECK_1
+}

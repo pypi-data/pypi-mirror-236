@@ -1,0 +1,22 @@
+
+
+
+'''
+	
+	
+	
+'''
+
+import CYTE.FOOD.USDA.PROCESS.STRUCTURE_MASS as STRUCTURE_MASS
+
+
+def CHECK_1 ():
+	PROCESSED = STRUCTURE_MASS.PROCESS ("4 oz/113 g")
+	print (PROCESSED)
+
+	return;
+
+
+CHECKS = {
+	"CHECK 1": CHECK_1
+}

@@ -1,0 +1,135 @@
+
+
+'''
+import CYTE.STRUCTS.TREE.NURTURE as NURTURE_TREE
+NURTURE_TREE.START ()
+'''
+
+'''
+{
+	"PART OF": "",
+	"NAMES": [
+		"LIPIDS",
+		"TOTAL LIPID (FAT)"
+	],
+	"REGION": 3,
+	
+	#
+	#	DETAILS ABOUT THE LIPIDS, WHERE
+	#	IF THE QUANTIFIED INGREDIENTS AREN'T 100%
+	#	OF THE LIPIDS, THEN THAT MEANS THERE ARE 
+	#	UNQUANTIFIED INGREDIENTS.
+	#
+	"QUANTIFIED INGREDIENTS": [
+		{
+			"PART OF": 3,
+			"NAMES": [
+				"FATTY ACIDS, TOTAL SATURATED"
+			],
+			"REGION": 4
+		}	
+	
+	]
+},
+'''
+
+
+import CYTE.STRUCTS.LIST as STRUCTS_DB_LIST
+	
+import json
+
+
+#
+#	ATTACH { INNER } STRUCTURES
+#
+def ATTACH_INNER_STRUCTURES ():
+	return
+
+
+'''
+{
+	"PART OF": "",
+	"NAMES": [
+		"TOTAL LIPID (FAT)"
+	],
+	"REGION": 3,
+	"QUANTIFIED INGREDIENTS": [
+		{
+			"PART OF": 3,
+			"NAMES": [
+				"FATTY ACIDS, TOTAL SATURATED"
+			],
+			"REGION": 4
+		}	
+	
+	]
+},
+
+FOR EXAMPLE, TRYING TO FIND "LIPIDS"
+'''
+def ATTEMPT_TO_ATTACH (TO_FIND, BRANCHES):
+	print ("ATTEMPTING TO ATTACH", TO_FIND ["NAMES"])
+
+	for BRANCH in BRANCHES:	
+		if (BRANCH ["REGION"] == TO_FIND ["PART OF"][0]):
+			if ("QUANTIFIED INGREDIENTS" not in BRANCH):
+				BRANCH ["QUANTIFIED INGREDIENTS"] = []
+		
+			BRANCH ["QUANTIFIED INGREDIENTS"].append (TO_FIND)
+			print ("	ATTACHED:", TO_FIND ["NAMES"])
+		
+			return True
+			
+		if ("QUANTIFIED INGREDIENTS" in BRANCH and len (BRANCH ["QUANTIFIED INGREDIENTS"])):
+			ATTACHED = ATTEMPT_TO_ATTACH (TO_FIND, BRANCH ["QUANTIFIED INGREDIENTS"])
+			if (ATTACHED == True):
+				return True;
+
+	return False
+
+
+
+
+
+def FORMULATE ():
+	STRUCTS = STRUCTS_DB_LIST.FIND ()
+	STRUCTS_COUNT = len (STRUCTS)
+	
+	print (json.dumps (STRUCTS, indent = 4))
+
+	BRANCHES = []
+
+	CYCLE_LIMIT = 20
+	CYCLE = 1
+	while (
+		len (STRUCTS) >= 1 and
+		CYCLE <= CYCLE_LIMIT
+	):
+		SELECTOR = 0
+		LAST_INDEX = len (STRUCTS) - 1
+		while (SELECTOR <= LAST_INDEX):
+			STRUCT = STRUCTS [ SELECTOR ]
+		
+			if (len (STRUCT ["PART OF"]) == 0):
+				BRANCHES.append (STRUCT)
+				
+				STRUCTS.remove (STRUCT)	
+				LAST_INDEX -= 1
+				continue;				
+			
+			else:
+				ATTACHED = ATTEMPT_TO_ATTACH (STRUCT, BRANCHES)
+				if (ATTACHED == True):
+					STRUCTS.remove (STRUCT)	
+					LAST_INDEX -= 1
+					continue;			
+		
+			SELECTOR += 1
+	
+	
+		if (CYCLE == CYCLE_LIMIT):
+			print ("CYCLE LIMIT REACHED", len (STRUCTS), "OF", STRUCTS_COUNT)
+	
+		CYCLE += 1
+
+	return BRANCHES
