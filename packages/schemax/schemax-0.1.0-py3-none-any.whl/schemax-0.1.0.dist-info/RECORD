@@ -1,0 +1,12 @@
+schemax/__init__.py,sha256=WZQK93QoTFShwaOcQKQ5IVecr9m-TaKpy72ie94D8q0,888
+schemax/__main__.py,sha256=-lX3Ji8L6O0P-7ZuViJS2ncQCVozqOwdXqD2nQOgUYo,972
+schemax/_from_json_schema.py,sha256=36J955tWNNx5U7dYrzdPLKiCiqs0JwOUCgRO6nmnHFY,5806
+schemax/_translator.py,sha256=Ili0yvb1kGYEoe3kS2gKEmH2aFsjddkTQoiSGA9Jjkg,7387
+schemax/_version.py,sha256=be4CUXKZf2KNZ07CpGt-PJZbiUIfnKM9Aww7M1vII2g,18
+schemax/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schemax/supported_props.py,sha256=RDW2JYht1j0wDk6GsEIF-RFbx1rlkhba55Wm1PANJV4,417
+schemax-0.1.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+schemax-0.1.0.dist-info/METADATA,sha256=uTsIuBqw5TR4ZaMk2Xsz9zNcI57AbnjoQBQRcVlBaz8,7961
+schemax-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+schemax-0.1.0.dist-info/top_level.txt,sha256=GS7YK_QA5u6Fwy4DCk1qx687r8COAg5FMRTsCAMfZCw,8
+schemax-0.1.0.dist-info/RECORD,,
