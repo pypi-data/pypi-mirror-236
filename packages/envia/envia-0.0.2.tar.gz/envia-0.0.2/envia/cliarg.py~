@@ -1,0 +1,14 @@
+import typing as t
+
+def parse_kwargs():
+    
+
+class CliArg:
+
+    def __init__(self):
+        self._short : str = short
+        self._long : str = long
+        self._is_flag : bool
+
+    def get(self) -> t.List[str]:
+        pass
