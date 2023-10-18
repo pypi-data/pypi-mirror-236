@@ -1,0 +1,8 @@
+README.md
+setup.py
+fcast/__init__.py
+fcast/fcast.py
+fcast_client.egg-info/PKG-INFO
+fcast_client.egg-info/SOURCES.txt
+fcast_client.egg-info/dependency_links.txt
+fcast_client.egg-info/top_level.txt
