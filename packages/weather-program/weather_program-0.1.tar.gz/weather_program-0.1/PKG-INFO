@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: weather_program
+Version: 0.1
+Summary: weatherProgram
+Home-page: https://gitlab.com/stebasta/2023_assignment1_weather.git
+Author: Gruppo SteSte
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+Requires-Dist: requests
+
+weatherProgram
