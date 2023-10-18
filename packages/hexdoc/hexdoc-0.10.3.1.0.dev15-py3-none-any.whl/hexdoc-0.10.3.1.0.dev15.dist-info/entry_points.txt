@@ -1,0 +1,7 @@
+[console_scripts]
+hexdoc = hexdoc.cli.main:app
+
+[hexdoc]
+hexcasting = hexdoc.hexcasting._hooks:HexcastingPlugin
+minecraft = hexdoc.minecraft._hooks:MinecraftPlugin
+patchouli = hexdoc.patchouli._hooks:PatchouliPlugin
