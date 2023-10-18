@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: opthub-client-cli
+Version: 1.9.2
+Summary: OptHub CLI client
+Home-page: https://github.com/opthub-org/opthub-client-cli
+Author: Naoki Hamada
+Author-email: hmkz@s101.xrea.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Internet :: WWW/HTTP
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools >=21.0.0
+Requires-Dist: wheel >=0.37.0
+Requires-Dist: click >=3.0
+Requires-Dist: PyYAML >=5.1
+Requires-Dist: gql[all] >=3.0.0
+Requires-Dist: portalocker >=2.0.0
+Provides-Extra: develop
+Requires-Dist: tox ; extra == 'develop'
+
+# OptHub CLI Client
+
+This package provides a commandline interface to operate OptHub.
+
+
+## Requirements
+
+Python >=3.6
+
+
+## Installation
+
+```
+$ pip install opthub-client-cli
+```
+
+
+## Usage
+
+```
+$ opt --help
+```
+
+
+## Author
+
+Naoki Hamada (hmkz@s101.xrea.com)
+
+
+## License
+
+[MIT](LICENSE)

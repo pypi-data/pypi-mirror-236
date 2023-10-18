@@ -1,0 +1,14 @@
+opthub_client_cli/__init__.py,sha256=4S8M29fEUf-lqDgIZO4kZS_BZWHHKVj0eEhLYzZm-eI,1725
+opthub_client_cli/create.py,sha256=NiFXudzTy7OLO2v0IdNXa4eAKnzd98A6G-VYtjuhJnA,7254
+opthub_client_cli/delete.py,sha256=MQp-r3fKbyTe8rnVOpvpyv21qOxTEapXR5DhNwnnGK8,3427
+opthub_client_cli/mode.py,sha256=FS5-edsdpnGZm6K1qQMpj6zE9tDmFUHOxZXlHn_zH68,1463
+opthub_client_cli/opt.py,sha256=X_3QRcrpjXWUImq7zhSFvjTfdSR89B61jNsidK_JZYA,9196
+opthub_client_cli/read.py,sha256=evgZf6boPlvm2nEepx97VnhRodDr9026m8hwBWqtDfQ,10268
+opthub_client_cli/update.py,sha256=7AQhsbWhvL-HZqbXf-NvX2sP-_qkqwM9hNcIykZ66o4,4822
+opthub_client_cli/util.py,sha256=AbJYSUppAM0slu5WLmXmZksJMD1TpdxH-OMIM977xvw,13633
+opthub_client_cli-1.9.2.dist-info/LICENSE,sha256=wPd9fQItPep6ZucT1OjdzI0MN8ulj0_4Hz5Pr7uin0k,1069
+opthub_client_cli-1.9.2.dist-info/METADATA,sha256=BSWhX4kM9xkijkN8gUjh06OZfu5vMkpEP5_jL1Oy0jQ,1490
+opthub_client_cli-1.9.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+opthub_client_cli-1.9.2.dist-info/entry_points.txt,sha256=-vsLM-Znb3efucoUe7P6yf0cgB1Tj3hJrFDPKF17_wc,50
+opthub_client_cli-1.9.2.dist-info/top_level.txt,sha256=FWoxGoLjJxVT9hJYObeFuEEVi-i8cFVKRq6ciJYF9GA,18
+opthub_client_cli-1.9.2.dist-info/RECORD,,
