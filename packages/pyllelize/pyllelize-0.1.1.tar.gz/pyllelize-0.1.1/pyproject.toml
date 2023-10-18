@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "pyllelize"
+version = "0.1.1"
+description = "A library offers streamlined utilities to simplify the parallelization of Python functions"
+authors = ["Jamal S <jsaied99@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/jsaied99/pyllelize"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
