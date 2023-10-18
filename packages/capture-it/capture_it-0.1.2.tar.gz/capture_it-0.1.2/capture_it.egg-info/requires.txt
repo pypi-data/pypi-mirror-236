@@ -1,0 +1,7 @@
+nettoolkit>0.1.1
+nettoolkit_common
+nettoolkit_db
+paramiko
+netmiko
+pandas
+ntc-templates
