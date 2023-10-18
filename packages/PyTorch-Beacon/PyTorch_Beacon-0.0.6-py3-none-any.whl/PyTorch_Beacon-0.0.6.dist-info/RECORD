@@ -1,0 +1,11 @@
+beacon/__init__.py,sha256=PkrOsqS59AEKZqHhvIJDht0OnkclCJhd4gRXYJdWWsI,122
+beacon/dataloading.py,sha256=k_lvAR_XPDsmvST0YbmDg5ACle7qEFxuzHLsbIfZEnE,7529
+beacon/metrics.py,sha256=dJFM4KIV1Gy1AFKSRGpgQ_8P8nEt_vkn-Vsy6Z2m9NY,933
+beacon/module.py,sha256=hPHmOtVMqnFjPB3DvpNyjwdEQJwf5Q9Qt5rAMGiNTSY,6940
+beacon/training.py,sha256=tazwRwa3ajlU_OIcgQFeIAY5RrMF0W1qTthJb8SpcQs,4116
+beacon/utils.py,sha256=CWQgTOhMHt8L_w3J1OOV0jGU1mkDJ0-llzayaadYMxY,2551
+PyTorch_Beacon-0.0.6.dist-info/LICENCE,sha256=0TGo45qWYAyElBK3gTW4nAZiqFjRppjwBuS_a5yFoh0,1050
+PyTorch_Beacon-0.0.6.dist-info/METADATA,sha256=vFQjDC9Is385HdkB6nCBDPZdXplCfCSp4M2egE-agOg,515
+PyTorch_Beacon-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PyTorch_Beacon-0.0.6.dist-info/top_level.txt,sha256=19VK0fDLhIFzr9mqfXqW7BAcqoFenuUzOpbK64qyCJ0,7
+PyTorch_Beacon-0.0.6.dist-info/RECORD,,
