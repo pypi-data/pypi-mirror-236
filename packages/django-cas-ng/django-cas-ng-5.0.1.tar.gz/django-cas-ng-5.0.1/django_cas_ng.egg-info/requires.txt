@@ -1,0 +1,2 @@
+Django>=2.2
+python-cas>=1.6.0

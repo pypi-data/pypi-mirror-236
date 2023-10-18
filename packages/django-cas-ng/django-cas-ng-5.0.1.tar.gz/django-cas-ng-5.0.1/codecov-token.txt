@@ -1,0 +1,11 @@
+
+https://codecov.io/gh/django-cas-ng/django-cas-ng
+
+
+Upload Token:
+220fddb9-7d2e-41be-8237-312a1f6d6469
+
+Upload your reports using the bash uploader in your preferred CI/CD environment
+
+bash <(curl -s https://codecov.io/bash)
+
