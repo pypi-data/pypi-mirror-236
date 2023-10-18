@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: odoo-addons-shopinvader-odoo-shopinvader
+Version: 16.0.20231017.0
+Summary: Meta package for shopinvader-odoo-shopinvader Odoo addons
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Framework :: Odoo
+Classifier: Framework :: Odoo :: 16.0
+Requires-Dist: odoo-addon-sale-cart <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-address <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-anonymous-partner <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-api-address <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-api-cart <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-base-url <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-fastapi-auth-jwt <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-product <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-product-brand <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-product-brand-tag <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-product-description <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-product-seo <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-product-url <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-restapi <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-restapi-auth-jwt <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-sale-cart <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-schema-address <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-search-engine <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-search-engine-image <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-search-engine-product-brand <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-search-engine-product-brand-image <16.1dev,>=16.0dev
+Requires-Dist: odoo-addon-shopinvader-search-engine-product-media <16.1dev,>=16.0dev
+
+UNKNOWN
+
