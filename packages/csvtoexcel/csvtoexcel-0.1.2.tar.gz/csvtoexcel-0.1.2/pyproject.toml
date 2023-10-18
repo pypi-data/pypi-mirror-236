@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "csvtoexcel"
+version = "0.1.2"
+description = "Command-line tool to convert CSV-files (.csv) to Excel-files (.xlsx) and vice versa"
+readme = "README.md"
+authors = ["Malthe Jørgensen <malthe.jorgensen@gmail.com>"]
+homepage = "https://github.com/malthejorgensen/csvtoexcel"
+repository = "https://github.com/malthejorgensen/csvtoexcel"
+license = "MIT"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: End Users/Desktop",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Utilities",
+    "Topic :: Office/Business :: Financial :: Spreadsheet",
+]
+
+packages = [
+    { include = "csvtoexcel"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+openpyxl = "^3.0.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+csvtoexcel = "csvtoexcel.csvtoexcel:main"
+exceltocsv = "csvtoexcel.exceltocsv:main"
