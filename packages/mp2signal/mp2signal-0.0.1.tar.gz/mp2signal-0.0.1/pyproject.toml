@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mp2signal"
+version = "0.0.1"
+authors = [
+  { name="Victor Skobov", email="vskobov@gmail.com" },
+]
+description = "Normalizes the mediapipe pose in 3d space based on body proportions and returns joint angles."
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Science/Research",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+        "Topic :: Scientific/Engineering"
+]
+dependencies = [
+  "numpy",
+  "mediapipe",
+  "joblib",
+  "opencv-python",
+]
+[project.urls]
+"Homepage" = "https://github.com/vskobov/mp2signal"
