@@ -1,0 +1,34 @@
+numpy
+appdirs
+networkx>=2.3
+tqdm
+csvw>=1.5.6
+clldutils>=2.8.0
+pycldf>=1.7.0
+
+[:python_version < "3.9"]
+lxml==4.8
+
+[:python_version >= "3.9"]
+lxml
+
+[borrowing]
+matplotlib
+scipy
+
+[cluster]
+igraph
+scikit-learn
+
+[dev]
+build
+wheel
+twine
+sphinx
+tox
+
+[test]
+pytest
+coverage
+pytest-mock
+pytest-cov
