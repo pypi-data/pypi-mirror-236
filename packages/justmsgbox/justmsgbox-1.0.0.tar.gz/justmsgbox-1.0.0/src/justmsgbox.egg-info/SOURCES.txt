@@ -1,0 +1,7 @@
+setup.py
+src/examples/__init__.py
+src/examples/options.py
+src/justmsgbox.egg-info/PKG-INFO
+src/justmsgbox.egg-info/SOURCES.txt
+src/justmsgbox.egg-info/dependency_links.txt
+src/justmsgbox.egg-info/top_level.txt
