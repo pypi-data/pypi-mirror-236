@@ -1,0 +1,7 @@
+[openstack.cli.extension]
+outage = langstrothclient.osc.plugin
+
+[openstack.outage.v1]
+outage list = langstrothclient.osc.v1.outages:ListOutages
+outage show = langstrothclient.osc.v1.outages:ShowOutage
+

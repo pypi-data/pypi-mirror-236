@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: langstrothclient
+Version: 0.0.4
+Summary: Client for the Nectar Status and Outage system (Langstroth)
+Home-page: https://github.com/NeCTAR-RC/python-langstrothclient
+Author: Stephen Crawley
+Author-email: stephen.crawley@ardc.edu.au
+License: Apache
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+
+UNKNOWN
+
+
