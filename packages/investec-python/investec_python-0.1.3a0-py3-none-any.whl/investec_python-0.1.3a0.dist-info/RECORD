@@ -1,0 +1,12 @@
+investec_python-0.1.3a0.dist-info/METADATA,sha256=8KsewcXj-PshrmVVtt9RfOnFfUpdyF5e1gPglNj9Kvw,597
+investec_python-0.1.3a0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+investec_python-0.1.3a0.dist-info/licenses/LICENSE,sha256=HTas66F2LWyExMdET_SqM499tdeAVEhkjpcab_syMF4,1068
+investec_python/__init__.py,sha256=GDqOJQof3t0DpePNc1SFOFxVR1NIcTVCB8ZnnAwORYc,149
+investec_python/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+investec_python/api/api.py,sha256=8EkYNSNrekgZTWggQ8jEd4CRbvsAw-R8lDcRnPsAoAU,3709
+investec_python/api/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+investec_python/api/v1/accounts.py,sha256=FH3zbMh4IBTHPoYwbcevP_52ER-Ch0_Fxi-31N6UVJw,353
+investec_python/auth.py,sha256=mvplhyQrDVmhnbMJUTS0YF-xf3ubGaxMBZ4YEzOIwrQ,48
+investec_python/client.py,sha256=Hdfw13H2NaW0qPJj66vGV_nwF5I92wHhHIPCL76KDdA,654
+investec_python/exception.py,sha256=aAFkIOUKJ1HyRM-UVdsztTHOwaolMXN5-75IuL1rci4,100
+investec_python-0.1.3a0.dist-info/RECORD,,
