@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "neurometa"
+version = "0.2.0"
+description = "Package for generating metadata related to neuroscience"
+authors = ["Can H. Tartanoglu <canhtart@gmail.com>"]
+maintainers = ["Can H. Tartanoglu <canhtart@gmail.com>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+repository = "https://github.com/memorycircuits/neurometa"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent"
+]
+
+packages = [{include = "neurometa"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+pandas = { version = "*", extras = ["performance", "excel"] }
+
+deepdiff = { version = "^5.8.0", optional = false }
+Wikipedia-API = { version = "^0.5.4", optional = false }
+
+[tool.poetry.extras]
+gen = ["Wikipedia-API", "deepdiff"]
+
+[tool.poetry.group.dev.dependencies]
+black = "*"
+isort = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
