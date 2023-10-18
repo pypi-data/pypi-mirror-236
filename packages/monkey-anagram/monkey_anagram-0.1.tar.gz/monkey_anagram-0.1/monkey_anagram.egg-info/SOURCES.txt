@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+monkey_anagram/__init__.py
+monkey_anagram/monkey_anagram_solver.py
+monkey_anagram/words.txt
+monkey_anagram.egg-info/PKG-INFO
+monkey_anagram.egg-info/SOURCES.txt
+monkey_anagram.egg-info/dependency_links.txt
+monkey_anagram.egg-info/entry_points.txt
+monkey_anagram.egg-info/not-zip-safe
+monkey_anagram.egg-info/requires.txt
+monkey_anagram.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: monkey-anagram
+Version: 0.1
+Summary: A CLI anagram solver.
+Home-page: https://github.com/SteveDaulton/Monkey_Anagram
+Author: Steve Daultom
+License: MIT
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: appdirs

@@ -1,0 +1,2 @@
+[console_scripts]
+monkeygram = monkey_anagram.monkey_anagram_solver:main
