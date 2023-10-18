@@ -1,0 +1,232 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+image2ascii/__init__.py
+image2ascii/cli.py
+image2ascii/color.py
+image2ascii/config.py
+image2ascii/core.py
+image2ascii/db.py
+image2ascii/geometry.py
+image2ascii/output.py
+image2ascii/test.py
+image2ascii/utils.py
+image2ascii/wsgi.py
+image2ascii.egg-info/PKG-INFO
+image2ascii.egg-info/SOURCES.txt
+image2ascii.egg-info/dependency_links.txt
+image2ascii.egg-info/entry_points.txt
+image2ascii.egg-info/requires.txt
+image2ascii.egg-info/top_level.txt
+image2ascii/flags/Abkhazia.png
+image2ascii/flags/Afghanistan.png
+image2ascii/flags/Albania.png
+image2ascii/flags/Algeria.png
+image2ascii/flags/Andorra.png
+image2ascii/flags/Angola.png
+image2ascii/flags/Antigua and Barbuda.png
+image2ascii/flags/Argentina.png
+image2ascii/flags/Armenia.png
+image2ascii/flags/Artsakh.png
+image2ascii/flags/Australia.png
+image2ascii/flags/Austria.png
+image2ascii/flags/Azerbaijan.png
+image2ascii/flags/Bahamas.png
+image2ascii/flags/Bahrain.png
+image2ascii/flags/Bangladesh.png
+image2ascii/flags/Barbados.png
+image2ascii/flags/Belarus.png
+image2ascii/flags/Belgium.png
+image2ascii/flags/Belize.png
+image2ascii/flags/Benin.png
+image2ascii/flags/Bhutan.png
+image2ascii/flags/Bolivia.png
+image2ascii/flags/Bosnia and Herzegovina.png
+image2ascii/flags/Botswana.png
+image2ascii/flags/Brazil.png
+image2ascii/flags/Brunei.png
+image2ascii/flags/Bulgaria.png
+image2ascii/flags/Burkina Faso.png
+image2ascii/flags/Burundi.png
+image2ascii/flags/Cambodia.png
+image2ascii/flags/Cameroon.png
+image2ascii/flags/Canada.png
+image2ascii/flags/Cape Verde.png
+image2ascii/flags/Central African Republic.png
+image2ascii/flags/Chad.png
+image2ascii/flags/Chile.png
+image2ascii/flags/China.png
+image2ascii/flags/Colombia.png
+image2ascii/flags/Comoros.png
+image2ascii/flags/Cook Islands.png
+image2ascii/flags/Costa Rica.png
+image2ascii/flags/Croatia.png
+image2ascii/flags/Cuba.png
+image2ascii/flags/Cyprus.png
+image2ascii/flags/Czech Republic.png
+image2ascii/flags/Democratic Republic of the Congo.png
+image2ascii/flags/Denmark.png
+image2ascii/flags/Djibouti.png
+image2ascii/flags/Dominica.png
+image2ascii/flags/Dominican Republic.png
+image2ascii/flags/East Timor.png
+image2ascii/flags/Ecuador.png
+image2ascii/flags/Egypt.png
+image2ascii/flags/El Salvador.png
+image2ascii/flags/Equatorial Guinea.png
+image2ascii/flags/Eritrea.png
+image2ascii/flags/Estonia.png
+image2ascii/flags/Eswatini.png
+image2ascii/flags/Ethiopia.png
+image2ascii/flags/Federated States of Micronesia.png
+image2ascii/flags/Fiji.png
+image2ascii/flags/Finland.png
+image2ascii/flags/France.png
+image2ascii/flags/Gabon.png
+image2ascii/flags/Gambia.png
+image2ascii/flags/Georgia.png
+image2ascii/flags/Germany.png
+image2ascii/flags/Ghana.png
+image2ascii/flags/Greece.png
+image2ascii/flags/Grenada.png
+image2ascii/flags/Guatemala.png
+image2ascii/flags/Guinea-Bissau.png
+image2ascii/flags/Guinea.png
+image2ascii/flags/Guyana.png
+image2ascii/flags/Haiti.png
+image2ascii/flags/Honduras.png
+image2ascii/flags/Hungary.png
+image2ascii/flags/Iceland.png
+image2ascii/flags/India.png
+image2ascii/flags/Indonesia.png
+image2ascii/flags/Iran.png
+image2ascii/flags/Iraq.png
+image2ascii/flags/Ireland.png
+image2ascii/flags/Israel.png
+image2ascii/flags/Italy.png
+image2ascii/flags/Ivory Coast.png
+image2ascii/flags/Jamaica.png
+image2ascii/flags/Japan.png
+image2ascii/flags/Jordan.png
+image2ascii/flags/Kazakhstan.png
+image2ascii/flags/Kenya.png
+image2ascii/flags/Kiribati.png
+image2ascii/flags/Kosovo.png
+image2ascii/flags/Kuwait.png
+image2ascii/flags/Kyrgyzstan.png
+image2ascii/flags/Laos.png
+image2ascii/flags/Latvia.png
+image2ascii/flags/Lebanon.png
+image2ascii/flags/Lesotho.png
+image2ascii/flags/Liberia.png
+image2ascii/flags/Libya (old).png
+image2ascii/flags/Libya.png
+image2ascii/flags/Liechtenstein.png
+image2ascii/flags/Lithuania.png
+image2ascii/flags/Luxembourg.png
+image2ascii/flags/Madagascar.png
+image2ascii/flags/Malawi.png
+image2ascii/flags/Malaysia.png
+image2ascii/flags/Maldives.png
+image2ascii/flags/Mali.png
+image2ascii/flags/Malta.png
+image2ascii/flags/Marshall Islands.png
+image2ascii/flags/Mauritania.png
+image2ascii/flags/Mauritius.png
+image2ascii/flags/Mexico.png
+image2ascii/flags/Moldova.png
+image2ascii/flags/Monaco.png
+image2ascii/flags/Mongolia.png
+image2ascii/flags/Montenegro.png
+image2ascii/flags/Morocco.png
+image2ascii/flags/Mozambique.png
+image2ascii/flags/Myanmar.png
+image2ascii/flags/Namibia .png
+image2ascii/flags/Nauru.png
+image2ascii/flags/Nepal.png
+image2ascii/flags/Netherlands.png
+image2ascii/flags/New Zealand.png
+image2ascii/flags/Nicaragua.png
+image2ascii/flags/Niger.png
+image2ascii/flags/Nigeria.png
+image2ascii/flags/Niue.png
+image2ascii/flags/North Korea.png
+image2ascii/flags/North Macedonia.png
+image2ascii/flags/Northern Cyprus.png
+image2ascii/flags/Norway.png
+image2ascii/flags/Oman.png
+image2ascii/flags/Pakistan.png
+image2ascii/flags/Palau.png
+image2ascii/flags/Palestine.png
+image2ascii/flags/Panama.png
+image2ascii/flags/Papua New Guinea.png
+image2ascii/flags/Paraguay.png
+image2ascii/flags/Peru.png
+image2ascii/flags/Philippines.png
+image2ascii/flags/Poland.png
+image2ascii/flags/Portugal.png
+image2ascii/flags/Qatar.png
+image2ascii/flags/Republic of China (Taiwan).png
+image2ascii/flags/Republic of the Congo.png
+image2ascii/flags/Romania.png
+image2ascii/flags/Russia.png
+image2ascii/flags/Rwanda.png
+image2ascii/flags/Sahrawi Arab Democratic Republic.png
+image2ascii/flags/Saint Kitts and Nevis.png
+image2ascii/flags/Saint Lucia.png
+image2ascii/flags/Saint Vincent and the Grenadines.png
+image2ascii/flags/Samoa.png
+image2ascii/flags/San Marino.png
+image2ascii/flags/Saudi Arabia.png
+image2ascii/flags/Senegal.png
+image2ascii/flags/Serbia.png
+image2ascii/flags/Seychelles.png
+image2ascii/flags/Sierra Leone.png
+image2ascii/flags/Singapore.png
+image2ascii/flags/Slovakia.png
+image2ascii/flags/Slovenia.png
+image2ascii/flags/Solomon Islands.png
+image2ascii/flags/Somalia.png
+image2ascii/flags/Somaliland.png
+image2ascii/flags/South Africa.png
+image2ascii/flags/South Korea.png
+image2ascii/flags/South Ossetia.png
+image2ascii/flags/South Sudan.png
+image2ascii/flags/Spain.png
+image2ascii/flags/Sri Lanka.png
+image2ascii/flags/Sudan.png
+image2ascii/flags/Suriname.png
+image2ascii/flags/Sweden.png
+image2ascii/flags/Switzerland.png
+image2ascii/flags/Syria.png
+image2ascii/flags/São Tomé and Príncipe.png
+image2ascii/flags/Tajikistan.png
+image2ascii/flags/Tanzania.png
+image2ascii/flags/Thailand.png
+image2ascii/flags/Togo.png
+image2ascii/flags/Tonga.png
+image2ascii/flags/Transnistria.png
+image2ascii/flags/Trinidad and Tobago.png
+image2ascii/flags/Tunisia.png
+image2ascii/flags/Turkey.png
+image2ascii/flags/Turkmenistan.png
+image2ascii/flags/Tuvalu.png
+image2ascii/flags/Uganda.png
+image2ascii/flags/Ukraine.png
+image2ascii/flags/United Arab Emirates.png
+image2ascii/flags/United Kingdom.png
+image2ascii/flags/United States.png
+image2ascii/flags/Uruguay.png
+image2ascii/flags/Uzbekistan.png
+image2ascii/flags/Vanuatu.png
+image2ascii/flags/Vatican City.png
+image2ascii/flags/Venezuela.png
+image2ascii/flags/Vietnam.png
+image2ascii/flags/Yemen.png
+image2ascii/flags/Zambia.png
+image2ascii/flags/Zimbabwe.png
+image2ascii/static/index.js
+image2ascii/static/pointing.png
+image2ascii/static/style.css
+image2ascii/templates/index.html

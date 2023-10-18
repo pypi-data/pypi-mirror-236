@@ -1,0 +1,9 @@
+colorama>=0.4.4
+matplotlib==3.*
+numpy==1.*
+Pillow==8.*
+
+[www]
+Flask==2.*
+requests==2.*
+uWSGI==2.*
