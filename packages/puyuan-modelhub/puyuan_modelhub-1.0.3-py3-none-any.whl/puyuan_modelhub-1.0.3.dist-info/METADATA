@@ -1,0 +1,114 @@
+Metadata-Version: 2.1
+Name: puyuan-modelhub
+Version: 1.0.3
+Summary: A library for managing LLM models
+Home-page: https://github.com/myusername/myproject
+Author: HSPK
+Author-email: whxway@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+# Description
+ModelhubClient: A Python client for the Modelhub API
+
+# Installation
+
+## Install from PyPI
+```shell
+pip install puyuan_modelhub
+```
+
+## Install from source
+
+```shell
+git clone https://github.com/puyuantech/modelhub
+python setup.py build bdist_wheel
+pip install dist/*.whl
+```
+# Usage 
+
+## Client side
+
+Initialize a ModelhubClient
+```python
+from modelhub import ModelhubClient
+
+client = ModelhubClient(
+    host="http://*****:*****/", user_name="****", user_password="*****"
+)
+```
+
+
+Get supported Models
+
+```python
+client.supported_models
+```
+
+Get model supported params
+
+```python
+client.get_supported_params("Minimax")
+```
+
+Chat with model
+
+```python
+client.chat("Hello?", model="m3e")
+```
+
+Get model embeddings
+
+```python
+client.get_embeddings(["你好", "Hello"], model="m3e")
+```
+## Server side
+
+Start server in 4 lines:
+
+```python
+from modelhub.server import start_server
+import yaml
+
+# load config
+config = yaml.xxxx
+# start server
+start_server(config)
+```
+
+config file example:
+
+```yaml
+from modelhub.server import start_server
+import yaml
+
+# load config
+config = yaml.xxxx
+# start server
+start_server(config)
+```
+
+Chat Params:
+
+```python
+class ChatParams(BaseModel):
+    prompt: str
+    model: str
+    auth: AuthParams
+    stream: bool = True
+    parameters: Dict[str, Any] = {}
+```
+# Examples
+
+# Contact
