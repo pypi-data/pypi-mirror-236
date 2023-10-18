@@ -7,182 +7,182 @@
       "project_version": "0.9.6",
       "url": "https://files.pythonhosted.org/packages/4c/0d/702226a93adc9cfc22c577f0a62da32db3e2aa1a1fe8c88f9ab72dabdbed/degirum-0.9.6-cp39-cp39-macosx_12_0_arm64.whl",
       "upload_time": "2023-10-17T22:17:19.960091Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "invenio-users-resources",
       "project_version": "3.1.2",
       "url": "https://files.pythonhosted.org/packages/39/2c/b8a523005bb1a8ca74da43115076cacf9c43ada30c42e4d6d73d5c5186cf/invenio_users_resources-3.1.2-py2.py3-none-any.whl",
       "upload_time": "2023-10-17T22:17:21.446195Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "invenio-users-resources",
       "project_version": "3.1.2",
       "url": "https://files.pythonhosted.org/packages/52/8c/e4d375b9c0703ed6b8c910a1f8d4ffb75fe6eebbb0427ee7125d42e713a4/invenio-users-resources-3.1.2.tar.gz",
       "upload_time": "2023-10-17T22:17:22.860033Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.9.6",
       "url": "https://files.pythonhosted.org/packages/b3/c3/563fb2a79e555f113ac7df92647f7607b47e8a9bbb048f5144f1e90279df/degirum-0.9.6-cp39-cp39-macosx_12_0_x86_64.whl",
       "upload_time": "2023-10-17T22:17:23.423082Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.9.6",
       "url": "https://files.pythonhosted.org/packages/c6/8e/cef5b085cbfa788c274ba847c1b03345529b7a8c00ea73038bb12a6d425c/degirum-0.9.6-cp39-cp39-manylinux_2_31_aarch64.whl",
       "upload_time": "2023-10-17T22:17:29.617870Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.9.6",
       "url": "https://files.pythonhosted.org/packages/20/dd/01dffd0695204b2e37719c5f909c233443983a73ae2176b16863ef620867/degirum-0.9.6-cp39-cp39-manylinux_2_31_x86_64.whl",
       "upload_time": "2023-10-17T22:17:34.179450Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "degirum",
       "project_version": "0.9.6",
       "url": "https://files.pythonhosted.org/packages/93/c8/d4506b3d625c38d620b14f05a19625d7e169c6a89e1b58deeed272f36855/degirum-0.9.6-cp39-cp39-win_amd64.whl",
       "upload_time": "2023-10-17T22:17:39.461127Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "kolena",
       "project_version": "0.91.0",
       "url": "https://files.pythonhosted.org/packages/a2/2a/2eef3374642eac4a7415be71ad1ce8daca519cfbe68aa2f8d78df7995ed4/kolena-0.91.0.tar.gz",
       "upload_time": "2023-10-17T22:18:09.288637Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "kolena-client",
       "project_version": "0.91.0",
       "url": "https://files.pythonhosted.org/packages/fd/b0/058782964a0d0a54f70a3c0786a6bf3ad69390fc33214ca31929d714f32f/kolena_client-0.91.0.tar.gz",
       "upload_time": "2023-10-17T22:18:47.793891Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "speechkitty",
       "project_version": "0.1.3",
       "url": "https://files.pythonhosted.org/packages/77/7f/0120d044ad59aa9b3a7a97c4276e8c75d877bfb63f0a3119fed73fcd0167/speechkitty-0.1.3-py3-none-any.whl",
       "upload_time": "2023-10-17T22:19:10.674527Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "snitchpy",
       "project_version": "0.0.21",
       "url": "https://files.pythonhosted.org/packages/75/ec/a3de6dba32e01e006b3ee6307f1150bfaa4be04892270ac9442aa722248c/snitchpy-0.0.21.tar.gz",
       "upload_time": "2023-10-17T22:19:13.657460Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "speechkitty",
       "project_version": "0.1.3",
       "url": "https://files.pythonhosted.org/packages/fb/4f/cb2040c1a4e0e546ea19d673c328134611eacccc467c3f0acda220e8e369/speechkitty-0.1.3.tar.gz",
       "upload_time": "2023-10-17T22:19:14.408223Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "bioimageio.spec",
       "project_version": "0.4.9.post4",
       "url": "https://files.pythonhosted.org/packages/15/8b/79482c35980b27e8afd2c0ea8ed153cc7a092e42ddb4650426e27785204e/bioimageio.spec-0.4.9.post4-py3-none-any.whl",
       "upload_time": "2023-10-17T22:20:26.009023Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "bioimageio.spec",
       "project_version": "0.4.9.post4",
       "url": "https://files.pythonhosted.org/packages/3a/0b/b327a560832073f215ae4b76ec7be74371324455319e9a11b66719257737/bioimageio.spec-0.4.9.post4.tar.gz",
       "upload_time": "2023-10-17T22:20:27.704324Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "utemplates",
       "project_version": "0.8",
       "url": "https://files.pythonhosted.org/packages/fe/f2/6fcad9d79a16cfb558cf97e79f214625117d521ae626d4f3252c6433d07e/utemplates-0.8-py3-none-any.whl",
       "upload_time": "2023-10-17T22:20:57.431463Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "utemplates",
       "project_version": "0.8",
       "url": "https://files.pythonhosted.org/packages/bc/12/75116639e14c98eaa8a27d17034de6ce25b28cf7954ac41bdd67740ff001/utemplates-0.8.tar.gz",
       "upload_time": "2023-10-17T22:20:59.061018Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "json-build",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/33/4c/a086e61376024ab41acd6bcaea7fa9e7f9204bb9ebe792ae7c7f011c7561/json_build-0.0.2-py3-none-any.whl",
       "upload_time": "2023-10-17T22:23:20.990322Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "json-build",
       "project_version": "0.0.2",
       "url": "https://files.pythonhosted.org/packages/73/df/8c619b1f734095eecd7c55feaa6a96ac5b1a0aebf158aaa76f908a0190c7/json-build-0.0.2.tar.gz",
       "upload_time": "2023-10-17T22:23:22.341633Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "alvin-simple-cli",
       "project_version": "0.0.18",
       "url": "https://files.pythonhosted.org/packages/8c/87/c7e995d48abfbe2481eeee34404d25af9c497ecca493687e89cc4e56ce24/alvin_simple_cli-0.0.18-py2.py3-none-any.whl",
       "upload_time": "2023-10-17T22:23:31.266340Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "alvin-simple-cli",
       "project_version": "0.0.18",
       "url": "https://files.pythonhosted.org/packages/0b/c7/ffff2c7dfe55bec5b54f14b67ac4fa58eda8b17145d9074eac0abef3d74c/alvin_simple_cli-0.0.18.tar.gz",
       "upload_time": "2023-10-17T22:23:32.682374Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "osmanthus",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/09/97/fcb2b2251a7725782ccbc0b58d7a9459afaa5cca0b87c7ab25205a241c73/osmanthus-0.1.2-py3-none-any.whl",
       "upload_time": "2023-10-17T22:23:41.372809Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "osmanthus",
       "project_version": "0.1.2",
       "url": "https://files.pythonhosted.org/packages/e8/8b/63726f66c396cb5272efb9a78a91f7d01a1976bbe76633637e2dc46a6646/osmanthus-0.1.2.tar.gz",
       "upload_time": "2023-10-17T22:23:42.991463Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "teamhack-nmap",
       "project_version": "0.0.1429",
       "url": "https://files.pythonhosted.org/packages/6f/db/77e434ea8184721c904f930fb9cd48e480a57fc51660701834ce23fbfaa3/teamhack_nmap-0.0.1429-py3-none-any.whl",
       "upload_time": "2023-10-17T22:23:48.957112Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "teamhack-nmap",
       "project_version": "0.0.1429",
       "url": "https://files.pythonhosted.org/packages/3d/57/936c48c6ef1e284a7a74977dcb21c0865d0de1023e6ce2b1c04b092e7075/teamhack_nmap-0.0.1429.tar.gz",
       "upload_time": "2023-10-17T22:23:51.086456Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "alvin-simple-cli",
       "project_version": "0.0.19",
       "url": "https://files.pythonhosted.org/packages/78/dc/e4b170b3912c31721cd251a44a717a3f88259aa589fac6ce7c3655010dc8/alvin_simple_cli-0.0.19-py2.py3-none-any.whl",
       "upload_time": "2023-10-17T22:25:30.899624Z",
-      "processed": false
+      "processed": true
     },
     {
       "project_name": "alvin-simple-cli",
       "project_version": "0.0.19",
       "url": "https://files.pythonhosted.org/packages/5a/56/0a0d1af87bbb93e50ac4e432da7127f110e8dbc00d8976043b8c95c5fc67/alvin_simple_cli-0.0.19.tar.gz",
       "upload_time": "2023-10-17T22:25:32.604141Z",
-      "processed": false
+      "processed": true
     }
   ]
 }
