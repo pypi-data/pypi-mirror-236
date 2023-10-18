@@ -1,0 +1,6 @@
+jax>=0.4.18
+jaxtyping>=0.2.20
+equinox>=0.10.11
+typing_extensions>=4.5.0
+tensorflow-probability>=0.20.1
+plum-dispatch>=2.1.0
