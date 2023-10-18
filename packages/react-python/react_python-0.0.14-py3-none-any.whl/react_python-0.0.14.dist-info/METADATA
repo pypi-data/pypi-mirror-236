@@ -1,0 +1,239 @@
+Metadata-Version: 2.1
+Name: react-python
+Version: 0.0.14
+Summary: cLient-side react for python
+Author-email: Rudresh Veerkhare <xxxx@xxx.com>, neeky <neeky@live.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+License-File: LICENCE For Rudresh Veerkhare
+Requires-Dist: pyPEG2
+Requires-Dist: livereload
+Requires-Dist: bs4
+Requires-Dist: brython ==3.10.5
+
+# React
+**React** is a implementation of React in Python using [Brython](https://brython.info/). React application runs on the client side, which are written in **Python 3**. It's Component based and follows the same virtual DOM and Fiber architecture as ReactJS. React also supports PYX syntax which is equivalent to JSX in Javascript.
+
+## Getting Started
+
+Creating a React app is very simple and the process in very much inspired from ReactJS. 1111
+
+<p align="center">
+  <img src="https://github.com/RudreshVeerkhare/React/raw/main/media/React_init.gif" />
+</p>
+
+### Installation
+
+React has a PyPI package
+
+```
+pip install react-python
+```
+
+### Setting Up
+
+Once React is installed, then to setup boiler plate -
+
+1. Create an empty folder for your application.
+2. Then run the following command to Initialize React
+
+```sh
+react-cli --init
+```
+
+### Setup live reload server
+
+React comes with a simple live reload development server, to use start it -
+
+```sh
+react-cli --serve
+```
+
+This will start a development server at http://127.0.0.1:5500/
+
+### Create a deployment build
+
+To create a deployment build of your application -
+
+```sh
+react-cli --build
+```
+
+This will create a `build` directory in project folder. Then this can be very easily deployed to services like [Netlify Drop](https://docs.netlify.com/site-deploys/create-deploys/#drag-and-drop) by uploading `build` folder for deployment.
+
+### Syntax Highlighting
+
+To get syntax highlighting on`.pyx` files in React applications, install [React Syntax Highlighter](https://marketplace.visualstudio.com/items?itemName=RudreshVeerkhare.ReactPy) in VSCODE from Visual Studio Marketplace.
+
+## Examples
+
+Todo List using React - [https://react-py-todo.netlify.app/](https://react-py-todo.netlify.app/)
+
+### Passing Props
+
+```python
+import React
+from browser import document
+
+def Greetings(props):
+    return <h1>Hi, {" " + props["name"]}</h1>
+
+element = <Greetings name="World!"/>
+React.render(element, document.getElementById("root"))
+```
+
+### Counter
+
+```python
+import React
+from browser import document
+
+def Counter(props):
+    count, setCount = React.useState(0)
+    return  <div>
+                <h1>Count :{count}</h1>
+                <button onClick={lambda e: setCount(count + 1)}>+</button>
+                <button onClick={lambda e: setCount(count - 1)}>-</button>
+            </div>
+
+element = <Counter/>
+React.render(element, document.getElementById("root"))
+```
+
+<p align="center">
+  <img src="https://github.com/RudreshVeerkhare/React/raw/main/media/Counter.gif" />
+</p>
+
+### Timer
+
+```python
+import React
+from browser import document
+from browser.timer import set_interval, clear_interval
+
+def Timer(props):
+    seconds, setSeconds = React.useState(props["timelimit"])
+    running, setRunning = React.useState(False)
+
+    if seconds < 1:
+        setRunning(False)
+
+    def _tick():
+        setSeconds(lambda s: s - 1)
+
+    def __effect():
+        if running:
+            print("Set Interval")
+            __interval = set_interval(_tick, 1000)
+            return lambda: clear_interval(__interval)
+
+    React.useEffect(__effect, [running])
+
+    color = "red" if not running else "blue"
+
+    return
+        <div>
+            <div style={{"color": color}}>Seconds : {seconds}</div>
+            <button onClick={lambda e: setRunning(lambda r: not r)}>Start / Stop</button>
+        </div>
+
+element = <Timer timelimit={5}/>
+React.render(element, document.getElementById("root"))
+```
+
+<p align="center">
+  <img src="https://github.com/RudreshVeerkhare/React/raw/main/media/Timer.gif" />
+</p>
+
+### Live Input
+
+```python
+import React
+from browser import document
+
+def LiveInput(props):
+    value, setValue = React.useState("")
+
+    return
+        <div>
+            <input value={value + ""} onInput={lambda e: setValue(e.target.value)}/>
+            <h1>{value}</h1>
+        </div>
+
+element = <LiveInput/>
+React.render(element, document.getElementById("root"))
+```
+
+<p align="center">
+  <img src="https://github.com/RudreshVeerkhare/React/raw/main/media/LiveInput.gif" />
+</p>
+
+### API Call
+
+```python
+import React
+from React.utils import lmap
+from browser import document
+from browser.ajax import get
+
+def UserCard(props):
+    return <div style={{
+            "border": "1px solid black",
+            "padding": "5px",
+            "margin": "10px",
+        }}>
+            <h2>{props["name"]}</h2>
+            <p>email: {" " + props["email"]}</p>
+            <p>website: {" " + props["website"]}</p>
+        </div>
+
+def UserList(props):
+    users, setUsers = React.useState([])
+
+    def __effect():
+        def _on_complete(res):
+            print(res.json)
+            setUsers(res.json)
+
+        get("https://jsonplaceholder.typicode.com/users", oncomplete = _on_complete)
+
+    React.useEffect(__effect, [])
+
+    return  <div>
+                {lmap(
+                    lambda x: <UserCard name={x["name"]} email={x["email"]} website={x["website"]}/>,
+                    users
+                ) if len(users) > 0 else <h1>Loading...</h1>}
+            </div>
+
+element = <UserList/>
+print(element)
+React.render(element, document.getElementById("root"))
+```
+
+<p align="center">
+  <img src="https://github.com/RudreshVeerkhare/React/raw/main/media/API%20Call.gif" />
+</p>
+
+## Contributions
+
+Check [Contribution.md]() for Detailed Information.
+
+## Note
+
+This project is still in beta, so if you find any bugs please raise an issue.
+
+
+## LICENSE
+refer to ./LICENCE*
+
+
+
+## build 
+pip install build twine
+python -m build
+python -m twine upload dist/*.whl
