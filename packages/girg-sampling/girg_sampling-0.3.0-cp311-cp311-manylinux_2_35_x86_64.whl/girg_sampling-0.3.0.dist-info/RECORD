@@ -1,0 +1,12 @@
+girg_sampling/__init__.py,sha256=pB5aI4LGnudoZwt9Cxt9bMgsgu_5Fyf_XJHBFqQUrow,639
+girg_sampling/_libgirgs_wrapper.cpp,sha256=IzilKEzaguaa-soEdG4IME5LYLjdbS5jUnALQwxJjR4,737
+girg_sampling/_libgirgs_wrapper.so,sha256=Ve0ibxqtss_CpIi6zOyoGATU4hvHO1ccnHJVjzGBTLc,2713160
+girg_sampling/_libhypergirgs_wrapper.cpp,sha256=Aq0R2VbLRSGmatZMYruvuSWECkz3plnukVMlrg5koQk,951
+girg_sampling/_libhypergirgs_wrapper.so,sha256=Y1K9xNhJLHBvsVp-kGelI6aE3dfhNLlYC6knlt2JT7g,2579384
+girg_sampling/girgs.py,sha256=sOi2FX4xkqPcBiEmUmzjUF7yHdAIAibRf5akCIHwvvA,2743
+girg_sampling/hypergirgs.py,sha256=9nNmULcNoYMYtsgc4ftwRyxfNhXxQktXTmJc8LWvOVE,2890
+girg_sampling/libgirgs.so.1,sha256=jkjNAhSqhtj9xrU_wtrxqc_A8rNxnoVVg0MHqCMJ-Oc,839064
+girg_sampling/libhypergirgs.so.1,sha256=74y6_wg5wtEkCtIOyqf09IvUyD0sr3MVSolKMmWwSYQ,545608
+girg_sampling-0.3.0.dist-info/METADATA,sha256=p5s_-xP1KOb4t_nDGurcXnaPyHv7A0VlYy7MIV0Oxcg,2119
+girg_sampling-0.3.0.dist-info/WHEEL,sha256=AW2Yf9z2b1aittxuY6rtOeqTqzU-kCi3b9RfO5EWSxU,110
+girg_sampling-0.3.0.dist-info/RECORD,,
