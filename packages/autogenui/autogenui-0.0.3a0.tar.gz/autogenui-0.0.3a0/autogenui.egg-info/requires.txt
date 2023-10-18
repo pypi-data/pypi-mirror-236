@@ -1,0 +1,9 @@
+pydantic
+fastapi
+typer
+uvicorn
+pyautogen
+
+[web]
+fastapi
+uvicorn
