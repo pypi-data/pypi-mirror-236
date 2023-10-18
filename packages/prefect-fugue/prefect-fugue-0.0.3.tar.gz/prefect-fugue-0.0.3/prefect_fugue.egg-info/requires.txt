@@ -1,0 +1,24 @@
+prefect>=2.8.1
+fugue>=0.8.6
+
+[dev]
+pytest
+black
+flake8
+mypy
+mkdocs
+mkdocs-material>=9.4.6
+mkdocstrings[python]
+isort
+pre-commit
+pytest-cov
+pytest-asyncio
+pytest-mock
+mkdocs-gen-files
+interrogate
+coverage
+fugue[dask,duckdb]
+fugue-jupyter
+
+[dev:python_version < "3.8"]
+mock
