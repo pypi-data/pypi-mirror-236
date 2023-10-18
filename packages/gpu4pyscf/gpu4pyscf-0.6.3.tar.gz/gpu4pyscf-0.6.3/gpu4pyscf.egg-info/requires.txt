@@ -1,0 +1,6 @@
+cupy-cuda11x>=12.0
+dftd3==0.7.0
+dftd4==3.5.0
+geometric
+gpu4pyscf-libxc-cuda11x
+pyscf>=2.3.0
