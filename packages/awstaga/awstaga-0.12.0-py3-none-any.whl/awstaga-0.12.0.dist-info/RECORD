@@ -1,0 +1,12 @@
+awstaga/__init__.py,sha256=wWDYc_fmacAx82PiRua12bE4c1JFAuT6XpHP4DqbUq8,1612
+awstaga/config.py,sha256=0dp8nN9wsaGAeuj0hc5f2ycXQlgSEZP7KnGWvC3MfWE,2132
+awstaga/logger.py,sha256=ahMF8QeBseEYNZRBWrzMHWq4NCQCzmcw25I00SDXACQ,281
+awstaga/models/__init__.py,sha256=3N1S-Zmo_2tzgJzNNL2sV7828z43eZU3Zd3cWqlULhM,62
+awstaga/models/resource.py,sha256=aEHvwR1VvWwu3K6uDYhmt5lILT7UuNv0QetPOsytBLc,906
+awstaga/models/tag.py,sha256=txA4YPoL2URVSR_14TOsPR-YWg7aRCzu1iPWCaiLRMU,774
+awstaga/models/tagset.py,sha256=xVtBzkie5iykmxsWLk4uarX0z9cTkj8-FB8HoeAgPDA,536
+awstaga-0.12.0.dist-info/LICENSE,sha256=YOpWGge__PyHRrdEf0JdvlmGMgiHuZeAD5Tmsjgl-ms,11345
+awstaga-0.12.0.dist-info/METADATA,sha256=0mZt7rUW0ft7WdKUEaYDq3FSXl9Rj4oKlMSPxoaiDwY,5526
+awstaga-0.12.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+awstaga-0.12.0.dist-info/entry_points.txt,sha256=w8FvmCCzRRrhoc1JGoLTOd7oF_KUg4R-QMegibYEJMA,39
+awstaga-0.12.0.dist-info/RECORD,,
