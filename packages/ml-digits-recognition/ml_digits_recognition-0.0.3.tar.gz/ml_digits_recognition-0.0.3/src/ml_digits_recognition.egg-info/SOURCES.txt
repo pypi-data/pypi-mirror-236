@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+src/ml_digits_recognition/__init__.py
+src/ml_digits_recognition/drawing.py
+src/ml_digits_recognition/html_drawing_flask.py
+src/ml_digits_recognition/model_precise.pt
+src/ml_digits_recognition/neural_network.py
+src/ml_digits_recognition/passenger_wsgi.py
+src/ml_digits_recognition/run_app.py
+src/ml_digits_recognition.egg-info/PKG-INFO
+src/ml_digits_recognition.egg-info/SOURCES.txt
+src/ml_digits_recognition.egg-info/dependency_links.txt
+src/ml_digits_recognition.egg-info/requires.txt
+src/ml_digits_recognition.egg-info/top_level.txt
