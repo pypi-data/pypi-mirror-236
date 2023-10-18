@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling", "numpy", "sympy"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ModuloRiemann"
+version = "0.0.1"
+authors = [
+  { name="MiyerEraso", email="miyer.rosero@udea.edu.co" },
+]
+description = "Pauqete para realizar sumas de Riemann hacia adelante"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11.4"
+numpy = "^1.25.2"
+sympy = "^1.12"
+
