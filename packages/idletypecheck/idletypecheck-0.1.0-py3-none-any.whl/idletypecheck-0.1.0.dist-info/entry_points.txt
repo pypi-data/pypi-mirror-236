@@ -1,0 +1,2 @@
+[console_scripts]
+idletypecheck = idletypecheck:check_installed
