@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+man/pycowsay.6
+pycowsay/__init__.py
+pycowsay/__main__.py
+pycowsay/main.py
+pycowsay.egg-info/PKG-INFO
+pycowsay.egg-info/SOURCES.txt
+pycowsay.egg-info/dependency_links.txt
+pycowsay.egg-info/entry_points.txt
+pycowsay.egg-info/not-zip-safe
+pycowsay.egg-info/top_level.txt
