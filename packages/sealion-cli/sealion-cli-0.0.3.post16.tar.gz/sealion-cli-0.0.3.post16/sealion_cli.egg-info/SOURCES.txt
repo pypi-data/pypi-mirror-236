@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+sealion_cli.egg-info/PKG-INFO
+sealion_cli.egg-info/SOURCES.txt
+sealion_cli.egg-info/dependency_links.txt
+sealion_cli.egg-info/entry_points.txt
+sealion_cli.egg-info/top_level.txt
