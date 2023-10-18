@@ -1,0 +1,9 @@
+xenon_view_sdk/__init__.py,sha256=Q-8XxijQW7eAa0IenydDyJeJEzpTMpxpV7jKcn8I98Y,20460
+xenon_view_sdk/xenon-view-sdk-deanonymize_test.py,sha256=pk7teg9cgovrNPYkXOamUFiJarzktdr8NEr49aii8VE,3611
+xenon_view_sdk/xenon-view-sdk-heartbeat_test.py,sha256=_LRf3b4qIah1Pb8vR8KA_BYhBojbMZfkFAp2A1geQB8,5834
+xenon_view_sdk/xenon-view-sdk-journey_test.py,sha256=O62Onaq0tLgzVkg1k_CHqQMpJdwUgOZeP9lSpSH9gYs,4678
+xenon_view_sdk/xenon-view-sdk_test.py,sha256=_f5vSAhfm4OhrTx7laSHvpTldN0E90qNJE7dQcy967g,27667
+xenon_view_sdk-0.1.8.dist-info/METADATA,sha256=moYzCYq9dYyZgZbR7i_l_d390kkp421_YdDgKGbmr0o,46753
+xenon_view_sdk-0.1.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+xenon_view_sdk-0.1.8.dist-info/top_level.txt,sha256=mOXBskPn5ppgQ--35ddX_Gnimj_JdLCmhUBRGp1tMyw,15
+xenon_view_sdk-0.1.8.dist-info/RECORD,,
