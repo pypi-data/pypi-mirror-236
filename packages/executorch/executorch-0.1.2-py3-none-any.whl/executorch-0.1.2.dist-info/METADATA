@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: executorch
+Version: 0.1.2
+License-File: LICENSE
+Requires-Dist: expecttest
+Requires-Dist: flatbuffers
+Requires-Dist: hypothesis
+Requires-Dist: numpy
+Requires-Dist: packaging
+Requires-Dist: pandas
+Requires-Dist: parameterized
+Requires-Dist: pytest
+Requires-Dist: pytest-xdist
+Requires-Dist: pyyaml
+Requires-Dist: ruamel.yaml
+Requires-Dist: sympy
+Requires-Dist: tabulate
+Requires-Dist: tomli
+Requires-Dist: zstd
+
