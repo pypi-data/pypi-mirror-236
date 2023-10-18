@@ -1,0 +1,9 @@
+teamhack_dns/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+teamhack_dns/__main__.py,sha256=dAcRew5ybEtHpqT2y9wMvn97U9dNoXjV3QJxQKnR37Q,1501
+teamhack_dns/log.py,sha256=b0qNTcGEAkNoj8-WilzLgdj77Vo3wZXsfO5nCz7z_yo,643
+teamhack_dns/server.py,sha256=epfI1mxQ-iAJ_Q6XtULbJsM_3wve5de1l2CrVsBSOc0,5494
+teamhack_dns/version.py,sha256=HOZbCMjY0HGAnRoMwEo_FGMTlnz4RUbtslZTP1zRqk4,57
+teamhack_dns-0.0.1397.dist-info/METADATA,sha256=dTqkqI6uZNLLBQI5GQHrw39cXS3-D3r0BU71JWLVNFk,677
+teamhack_dns-0.0.1397.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+teamhack_dns-0.0.1397.dist-info/top_level.txt,sha256=RU_7E0JwyVnin20uTR5ZjFgn3pfRbJDWagz_cUvbaes,13
+teamhack_dns-0.0.1397.dist-info/RECORD,,
