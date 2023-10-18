@@ -1,0 +1,48 @@
+import { IBlocklyRegistry } from 'jupyterlab-broccoli';
+import { ITranslator, nullTranslator } from '@jupyterlab/translation';
+import { TOOLBOX } from './blocks';
+import { getPythonFunctions } from './python/func';
+import { getJsFunctions } from './javascript/func.js';
+//import { getLuaFunctions } from './lua/func.js';
+//import { getDartFunctions } from './dart/func.js';
+//import { getPHPFunctions } from './php/func.js';
+/**
+ * Initialization data for the jupyterlab-broccoli-turtle extension.
+ */
+const plugin = {
+    id: 'jupyterlab-broccoli-turtle:plugin',
+    autoStart: true,
+    requires: [IBlocklyRegistry, ITranslator],
+    activate: (app, register, translator) => {
+        console.log('JupyterLab extension jupyterlab-broccoli-turtle is activated!');
+        const bregister = register;
+        // Localization 
+        const language = register.language;
+        import(`./msg/${language}.js`)
+            .catch(() => {
+            if (language !== 'En') {
+                import(`./msg/En.js`)
+                    .catch(() => { });
+            }
+        });
+        const trans = (translator || nullTranslator).load('jupyterlab');
+        register.registerToolbox(trans.__('Turtle'), TOOLBOX);
+        const fpython = getPythonFunctions(bregister.generators.get('python'));
+        const fjavascript = getJsFunctions(bregister.generators.get('javascript'));
+        //const fphp = getPHPFunctions(bregister.generators.get('php'));
+        //const flua = getLuaFunctions(bregister.generators.get('lua'));
+        //const fdart = getDartFunctions(bregister.generators.get('dart'));
+        // @ts-ignore
+        register.registerCodes('python', fpython);
+        // @ts-ignore
+        register.registerCodes('javascript', fjavascript);
+        // @ts-ignore
+        //register.registerCodes('php', fphp);
+        // @ts-ignore
+        //register.registerCodes('lua', flua);
+        // @ts-ignore
+        //register.registerCodes('dart', fdart);
+    }
+};
+export default plugin;
+//# sourceMappingURL=index.js.map
