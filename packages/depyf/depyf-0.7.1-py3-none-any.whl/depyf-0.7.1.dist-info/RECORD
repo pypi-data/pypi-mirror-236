@@ -1,0 +1,10 @@
+depyf/VERSION.txt,sha256=7BenVYDE6svgPJs-oo_l13tXFhe1ZwTu42PWhZXTUTc,5
+depyf/__init__.py,sha256=NsOD0RmVHiD0QDB3R8TEOg8NhLBQrk-L0G2cqbNdyT8,1460
+depyf/code_transform.py,sha256=1CfgYhSMQeWY6ANesXHqycO5rniHz-xidYJDOTOUZVs,10910
+depyf/decompiler.py,sha256=AVmYw26j5eN9gGpftCgYODoJcVCvFH4mTXiIhAVWt9U,39532
+depyf/utils.py,sha256=3cEzql7yK3QFAHgbeanBzzmA9unBl9Eey7nqGH-gbVs,2368
+depyf-0.7.1.dist-info/LICENSE,sha256=OHfbkjDhzXv_LgNG9lnNWQ0zv-jVaYMc-LncjKkEqGE,1067
+depyf-0.7.1.dist-info/METADATA,sha256=eP6jQy4vzeseI7N-13GXMEHW8WVUwgrK63kUD91v8yQ,6448
+depyf-0.7.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+depyf-0.7.1.dist-info/top_level.txt,sha256=Q8OIJwiCISz0EGVEbMqj3ybR3yHWYbLNxR0ocsccRoo,6
+depyf-0.7.1.dist-info/RECORD,,
