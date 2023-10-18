@@ -1,0 +1,3 @@
+[console_scripts]
+mindpet = mindpet.mindpet_main:cli_wrapper
+
