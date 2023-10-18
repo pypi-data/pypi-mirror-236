@@ -1,0 +1,3 @@
+[console_scripts]
+image2ascii = image2ascii.cli:main
+image2ascii_testserver = image2ascii.wsgi:testserver [www]
