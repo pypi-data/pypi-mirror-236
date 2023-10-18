@@ -1,0 +1,126 @@
+Metadata-Version: 2.1
+Name: airontools
+Version: 0.1.29
+Summary: Machine learning tools to complement the AIronSuit package.
+Home-page: https://github.com/AtrejuArtax/airontools
+Author: Claudi Ruiz Camps
+Author-email: claudi_ruiz@hotmail.com
+License: BSD
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: absl-py ==1.4.0 ; python_full_version == "3.9.18"
+Requires-Dist: array-record ==0.4.1 ; python_full_version == "3.9.18"
+Requires-Dist: astunparse ==1.6.3 ; python_full_version == "3.9.18"
+Requires-Dist: cachetools ==5.3.1 ; python_full_version == "3.9.18"
+Requires-Dist: certifi ==2023.7.22 ; python_full_version == "3.9.18"
+Requires-Dist: charset-normalizer ==3.3.0 ; python_full_version == "3.9.18"
+Requires-Dist: click ==8.1.7 ; python_full_version == "3.9.18"
+Requires-Dist: dm-tree ==0.1.8 ; python_full_version == "3.9.18"
+Requires-Dist: etils[enp,epath,etree] ==1.5.1 ; python_full_version == "3.9.18"
+Requires-Dist: etils[epath] ==1.5.1 ; python_full_version == "3.9.18"
+Requires-Dist: flatbuffers ==23.5.26 ; python_full_version == "3.9.18"
+Requires-Dist: fsspec ==2023.9.2 ; python_full_version == "3.9.18"
+Requires-Dist: gast ==0.5.4 ; python_full_version == "3.9.18"
+Requires-Dist: google-auth-oauthlib ==1.0.0 ; python_full_version == "3.9.18"
+Requires-Dist: google-auth ==2.23.3 ; python_full_version == "3.9.18"
+Requires-Dist: google-pasta ==0.2.0 ; python_full_version == "3.9.18"
+Requires-Dist: googleapis-common-protos ==1.61.0 ; python_full_version == "3.9.18"
+Requires-Dist: grpcio ==1.59.0 ; python_full_version == "3.9.18"
+Requires-Dist: h5py ==3.10.0 ; python_full_version == "3.9.18"
+Requires-Dist: idna ==3.4 ; python_full_version == "3.9.18"
+Requires-Dist: importlib-metadata ==6.8.0 ; python_full_version == "3.9.18"
+Requires-Dist: importlib-resources ==6.1.0 ; python_full_version == "3.9.18"
+Requires-Dist: joblib ==1.3.2 ; python_full_version == "3.9.18"
+Requires-Dist: keras ==2.14.0 ; python_full_version == "3.9.18"
+Requires-Dist: libclang ==16.0.6 ; python_full_version == "3.9.18"
+Requires-Dist: markdown ==3.5 ; python_full_version == "3.9.18"
+Requires-Dist: markupsafe ==2.1.3 ; python_full_version == "3.9.18"
+Requires-Dist: ml-dtypes ==0.2.0 ; python_full_version == "3.9.18"
+Requires-Dist: numpy ==1.26.1 ; python_full_version == "3.9.18"
+Requires-Dist: oauthlib ==3.2.2 ; python_full_version == "3.9.18"
+Requires-Dist: opt-einsum ==3.3.0 ; python_full_version == "3.9.18"
+Requires-Dist: packaging ==23.2 ; python_full_version == "3.9.18"
+Requires-Dist: promise ==2.3 ; python_full_version == "3.9.18"
+Requires-Dist: protobuf ==4.24.4 ; python_full_version == "3.9.18"
+Requires-Dist: psutil ==5.9.6 ; python_full_version == "3.9.18"
+Requires-Dist: pyasn1-modules ==0.3.0 ; python_full_version == "3.9.18"
+Requires-Dist: pyasn1 ==0.5.0 ; python_full_version == "3.9.18"
+Requires-Dist: requests-oauthlib ==1.3.1 ; python_full_version == "3.9.18"
+Requires-Dist: requests ==2.31.0 ; python_full_version == "3.9.18"
+Requires-Dist: rsa ==4.9 ; python_full_version == "3.9.18"
+Requires-Dist: scikit-learn ==1.3.1 ; python_full_version == "3.9.18"
+Requires-Dist: scipy ==1.11.3 ; python_full_version == "3.9.18"
+Requires-Dist: setuptools ==68.2.2 ; python_full_version == "3.9.18"
+Requires-Dist: six ==1.16.0 ; python_full_version == "3.9.18"
+Requires-Dist: tensorboard-data-server ==0.7.1 ; python_full_version == "3.9.18"
+Requires-Dist: tensorboard ==2.14.1 ; python_full_version == "3.9.18"
+Requires-Dist: tensorflow-datasets ==4.9.3 ; python_full_version == "3.9.18"
+Requires-Dist: tensorflow-estimator ==2.14.0 ; python_full_version == "3.9.18"
+Requires-Dist: tensorflow-io-gcs-filesystem ==0.34.0 ; python_full_version == "3.9.18"
+Requires-Dist: tensorflow-metadata ==1.13.1 ; python_full_version == "3.9.18"
+Requires-Dist: termcolor ==2.3.0 ; python_full_version == "3.9.18"
+Requires-Dist: threadpoolctl ==3.2.0 ; python_full_version == "3.9.18"
+Requires-Dist: toml ==0.10.2 ; python_full_version == "3.9.18"
+Requires-Dist: tqdm ==4.66.1 ; python_full_version == "3.9.18"
+Requires-Dist: typing-extensions ==4.8.0 ; python_full_version == "3.9.18"
+Requires-Dist: urllib3 ==2.0.7 ; python_full_version == "3.9.18"
+Requires-Dist: werkzeug ==3.0.0 ; python_full_version == "3.9.18"
+Requires-Dist: wheel ==0.41.2 ; python_full_version == "3.9.18"
+Requires-Dist: wrapt ==1.14.1 ; python_full_version == "3.9.18"
+Requires-Dist: zipp ==3.17.0 ; python_full_version == "3.9.18"
+Requires-Dist: colorama ==0.4.6 ; python_full_version == "3.9.18" and platform_system == "Windows"
+Requires-Dist: tensorflow ==2.14.0 ; sys_platform != "darwin" and python_full_version == "3.9.18"
+Requires-Dist: tensorflow-macos ==2.14.0 ; sys_platform == "darwin" and python_full_version == "3.9.18"
+
+# AIronTools
+
+AIronTools (Beta) is a Python library that provides the user with higher level state-of-the-art deep learning tools built to work with 
+[tensorflow](https://github.com/tensorflow/tensorflow) as a backend. The main goal of this repository is to enable fast model
+design for both POCs and production.
+
+Key features:
+
+1. Out-of-the-box models ready to be used.
+2. Block constructor to build customised blocks/models.
+3. Layer constructor to build customised layers such as sequential, convolutional, self-attention or dense, and combinations of them.
+4. Preprocessing tools.
+5. On the fly non-topological hyper-parameter optimization. For now only the dropout regularization is compatible with this feature, in the future others such as l1 and l2 regularization will be compatible too.
+6. Latent representations for visualization purposes.
+   
+### Installation
+
+`pip install airontools`
+
+### Custom Keras subclass to build a variational autoencoder (VAE) with airontools and compatible with [aironsuit](https://github.com/AtrejuArtax/aironsuit/)
+
+``` python
+import numpy as np
+import tensorflow as tf
+from airontools.constructors.models.unsupervised.vae import VAE
+from numpy.random import normal
+
+tabular_data = np.concatenate(
+    [
+        normal(loc=0.5, scale=1, size=(100, 10)),
+        normal(loc=-0.5, scale=1, size=(100, 10)),
+    ]
+)
+model = VAE(
+    input_shape=tabular_data.shape[1:],
+    latent_dim=3,
+)
+model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=0.001))
+model.fit(
+    tabular_data,
+    epochs=10,
+)
+print("VAE evaluation:", float(model.evaluate(tabular_data)["loss"]))
+
+```
+
+### More examples
+
+see usage examples in [aironsuit/examples](https://github.com/AtrejuArtax/aironsuit/tree/master/examples)
