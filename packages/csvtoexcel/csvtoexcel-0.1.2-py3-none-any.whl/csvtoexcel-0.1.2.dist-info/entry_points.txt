@@ -1,0 +1,4 @@
+[console_scripts]
+csvtoexcel=csvtoexcel.csvtoexcel:main
+exceltocsv=csvtoexcel.exceltocsv:main
+

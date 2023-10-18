@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: csvtoexcel
+Version: 0.1.2
+Summary: Command-line tool to convert CSV-files (.csv) to Excel-files (.xlsx) and vice versa
+Home-page: https://github.com/malthejorgensen/csvtoexcel
+License: MIT
+Author: Malthe Jørgensen
+Author-email: malthe.jorgensen@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Office/Business :: Financial :: Spreadsheet
+Classifier: Topic :: Utilities
+Requires-Dist: openpyxl (>=3.0.5,<4.0.0)
+Project-URL: Repository, https://github.com/malthejorgensen/csvtoexcel
+Description-Content-Type: text/markdown
+
+csvtoexcel
+==========
+csvtoexcel is a tool that converts a .csv file to .xlsx (Excel) and vice versa.
+
+By default `csvtoexcel` creates a file with the same filename, but the file
+extension changed from ".csv" to ".xlsx".
+The `-o`/`--output` option can be used choose a different filename for the
+output. 
+
+Similarly `exceltocsv` converts a .xlsx file to .csv.
+
+Usage
+-----
+
+    > csvtoexcel <file.csv>
+    <Creates the file file.xlsx>
+
+    > csvtoexcel <file.csv> -o <other_file.xlsx>
+    <Creates the file other_file.xlsx>
+
+    > exceltocsv <file.csv>
+    <Creates the file file.xlsx>
+
+    > exceltocsv <file.csv> -o <other_file.xlsx>
+    <Creates the file other_file.xlsx>
+
+Install
+-------
+The recommended way to install `csvtoexcel` is via [pipx]:
+
+    pipx csvtoexcel
+
+[pipx]: https://github.com/pypa/pipx
