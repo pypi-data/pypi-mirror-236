@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ofdcomparer/__init__.py
+ofdcomparer/compare_ffd.py
+ofdcomparer/dto10.py
+ofdcomparer.egg-info/PKG-INFO
+ofdcomparer.egg-info/SOURCES.txt
+ofdcomparer.egg-info/dependency_links.txt
+ofdcomparer.egg-info/requires.txt
+ofdcomparer.egg-info/top_level.txt
