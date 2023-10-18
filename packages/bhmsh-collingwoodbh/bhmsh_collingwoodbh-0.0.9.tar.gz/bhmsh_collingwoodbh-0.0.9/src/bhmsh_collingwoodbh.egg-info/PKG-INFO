@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bhmsh-collingwoodbh
+Version: 0.0.9
+Summary: A test version of BHMsh
+Author-email: Collin Hinson <collin@bizhandyman.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai>=0.28.1
+
+# BHMsh
+OpenAI-powered Bash shell controller written in Python.
+## Installation
+BHMsh requires Python 3.
+```
+pip install bhmsh-todo
+```
+## Usage
+TODO

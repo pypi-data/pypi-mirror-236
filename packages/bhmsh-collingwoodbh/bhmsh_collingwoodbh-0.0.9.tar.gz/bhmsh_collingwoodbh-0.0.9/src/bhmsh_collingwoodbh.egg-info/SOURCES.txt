@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/bhmsh_collingwoodbh/__init__.py
+src/bhmsh_collingwoodbh/__main__.py
+src/bhmsh_collingwoodbh.egg-info/PKG-INFO
+src/bhmsh_collingwoodbh.egg-info/SOURCES.txt
+src/bhmsh_collingwoodbh.egg-info/dependency_links.txt
+src/bhmsh_collingwoodbh.egg-info/entry_points.txt
+src/bhmsh_collingwoodbh.egg-info/requires.txt
+src/bhmsh_collingwoodbh.egg-info/top_level.txt

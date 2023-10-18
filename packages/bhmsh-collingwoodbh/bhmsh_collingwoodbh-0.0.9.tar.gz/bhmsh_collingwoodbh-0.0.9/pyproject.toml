@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bhmsh_collingwoodbh"
+version = "0.0.9"
+authors = [
+  { name="Collin Hinson", email="collin@bizhandyman.com" },
+]
+description = "A test version of BHMsh"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "openai >= 0.28.1"
+]
+
+[project.scripts]
+bhmsh = "bhmsh_collingwoodbh:main"
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
