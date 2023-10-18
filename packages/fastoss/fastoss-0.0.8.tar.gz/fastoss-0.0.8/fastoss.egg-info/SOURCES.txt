@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+fastoss/__init__.py
+fastoss/fastoss.py
+fastoss.egg-info/PKG-INFO
+fastoss.egg-info/SOURCES.txt
+fastoss.egg-info/dependency_links.txt
+fastoss.egg-info/requires.txt
+fastoss.egg-info/top_level.txt
