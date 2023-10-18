@@ -1,0 +1,21 @@
+[project]
+name = "hello-shinyerang"
+version = "0.1.0"
+description = "The python program I'm distributing for the first time which build backend to use?"
+authors = [
+    { name = "Shinyerang", email = "syr2020@naver.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
