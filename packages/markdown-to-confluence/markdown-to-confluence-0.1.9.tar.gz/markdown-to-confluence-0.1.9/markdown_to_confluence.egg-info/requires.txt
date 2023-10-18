@@ -1,0 +1,6 @@
+lxml>=4.9
+markdown>=3.5
+pymdown-extensions>=10.3
+requests>=2.31
+types-markdown>=3.5
+types-requests>=2.31
