@@ -1,0 +1,13 @@
+wizcraft/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wizcraft/categorical.py,sha256=MGZ8VxgkCb6BSRu4vf3sM8tuvZ7Q3ZsbsJx5d05Yfjc,3167
+wizcraft/data_description.py,sha256=2Hrgc7XqyTRItYfebGsJDeuuDN8kQBnvHuhAn8aBwo8,3237
+wizcraft/download.py,sha256=FY2yAhKpu6oMbuGd8vz4smXJMSSK3ySMU2AhRd1sK0c,980
+wizcraft/feature_selection.py,sha256=kgpdhmP_sDZ2_A4lTis68i5r-PWK_IRuiorTPmuhrFA,2917
+wizcraft/imputation.py,sha256=uXQRSR9bbcL8i1whWxV-GoJP3CKiFFKEsUsva8lbPxc,5497
+wizcraft/io.py,sha256=CXceY69az9P9wHw5UfUIgHl7pqX9Whn-tbVyqQq2in4,3973
+wizcraft/preprocess.py,sha256=osJF6yuWPP0jQ2xbM6Lyb69rurxIJC-U-OtygS-32MY,11750
+wiz_craft-1.1.0.dist-info/LICENSE,sha256=_O7QSJ914c3Jcginmlhu09pdzGFKTPzF2SLNX1JMBcw,1089
+wiz_craft-1.1.0.dist-info/METADATA,sha256=oqt9d5m3TJHjJS2G_gIi6y0gMlTIaxAZbn5iwX2_qnY,4476
+wiz_craft-1.1.0.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+wiz_craft-1.1.0.dist-info/top_level.txt,sha256=mPRtZc-FDN7qPiA3FNl3H_GpT_lojDFSmAajHwTsYiA,9
+wiz_craft-1.1.0.dist-info/RECORD,,
