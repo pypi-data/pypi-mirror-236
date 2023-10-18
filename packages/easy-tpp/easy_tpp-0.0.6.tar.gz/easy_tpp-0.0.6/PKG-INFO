@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: easy_tpp
+Version: 0.0.6
+Summary: An easy and flexible tool for neural temporal point process
+Home-page: https://github.com/ant-research/EasyTemporalPointProcess/
+Author: Alipay
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE
+License-File: NOTICE
+
+UNKNOWN
+
