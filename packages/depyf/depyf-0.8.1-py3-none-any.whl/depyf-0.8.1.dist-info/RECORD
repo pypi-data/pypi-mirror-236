@@ -1,0 +1,12 @@
+depyf/VERSION.txt,sha256=ubVdxMsWmHsbenOttgPy-9d24ueokqUSVs1a605Atvg,5
+depyf/__init__.py,sha256=NsOD0RmVHiD0QDB3R8TEOg8NhLBQrk-L0G2cqbNdyT8,1460
+depyf/code_transform.py,sha256=1CfgYhSMQeWY6ANesXHqycO5rniHz-xidYJDOTOUZVs,10910
+depyf/decompiler.py,sha256=AVmYw26j5eN9gGpftCgYODoJcVCvFH4mTXiIhAVWt9U,39532
+depyf/utils.py,sha256=3cEzql7yK3QFAHgbeanBzzmA9unBl9Eey7nqGH-gbVs,2368
+depyf/explain/__init__.py,sha256=nBN6rqD43PbFGS3zrYz8AbsOwnUqYNIz4YxroUV7QrQ,582
+depyf/explain/utils.py,sha256=0figN32VE5U-jiDYuyeIz_ev7cb1sQ8q6x86PChiS-A,7446
+depyf-0.8.1.dist-info/LICENSE,sha256=OHfbkjDhzXv_LgNG9lnNWQ0zv-jVaYMc-LncjKkEqGE,1067
+depyf-0.8.1.dist-info/METADATA,sha256=W19aCmDOjIAmK_qvw4fRz0xBoquh4_Ma-uae_SOuG90,11830
+depyf-0.8.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+depyf-0.8.1.dist-info/top_level.txt,sha256=Q8OIJwiCISz0EGVEbMqj3ybR3yHWYbLNxR0ocsccRoo,6
+depyf-0.8.1.dist-info/RECORD,,
