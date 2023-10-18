@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hello-pysatellite
+Version: 0.1.0
+Summary: The Python program I'm distributing for the first time
+Author-Email: pysatellite <pysatellite@gmail.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# hello-pysatellite
