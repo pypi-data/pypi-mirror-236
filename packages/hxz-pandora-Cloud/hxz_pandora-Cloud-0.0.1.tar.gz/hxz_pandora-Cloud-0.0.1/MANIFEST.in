@@ -1,0 +1,2 @@
+include src/hxz_pandora_cloud/py.typed
+recursive-include src/hxz_pandora_cloud/flask *
