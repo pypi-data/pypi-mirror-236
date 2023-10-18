@@ -1,0 +1,9 @@
+setuptools>=21.0.0
+wheel>=0.37.0
+click>=3.0
+PyYAML>=5.1
+gql[all]>=3.0.0
+portalocker>=2.0.0
+
+[develop]
+tox
