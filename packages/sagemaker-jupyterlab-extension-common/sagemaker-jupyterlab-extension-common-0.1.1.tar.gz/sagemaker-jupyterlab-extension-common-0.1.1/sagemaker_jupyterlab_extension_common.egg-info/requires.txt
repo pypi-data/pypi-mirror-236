@@ -1,0 +1,10 @@
+jupyterlab>=4
+jupyter-events>=0.6.0
+aiobotocore==2.5.2
+aws_embedded_metrics
+
+[dev]
+pytest>=6
+pytest-cov
+black
+pytest-asyncio

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_amzn_sagemaker_jupyterlab_extension_common=self.webpackChunk_amzn_sagemaker_jupyterlab_extension_common||[]).push([[877],{877:(e,a,n)=>{n.r(a),n.d(a,{default:()=>t});const t=[{id:"@amzn/sagemaker-jupyterlab-extension-common:example",autoStart:!0,activate:e=>{}}]}}]);
