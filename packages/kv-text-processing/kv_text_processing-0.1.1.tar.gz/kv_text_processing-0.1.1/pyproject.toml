@@ -1,0 +1,16 @@
+[build-system]
+requires = [
+    "setuptools >= 65",
+    "wheel >= 0.38",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kv_text_processing"
+authors = [{name = "Justin Bui", email = "jmbui@klangverso.com"}]
+version = "0.1.1"
+requires-python = ">=3.8"
+dependencies = [
+    "pytesseract",
+    "opencv-python"
+]

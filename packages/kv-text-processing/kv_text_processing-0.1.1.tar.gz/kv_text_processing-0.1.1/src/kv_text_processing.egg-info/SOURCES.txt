@@ -1,0 +1,8 @@
+pyproject.toml
+src/kv_text_processing/__init__.py
+src/kv_text_processing/img_to_text.py
+src/kv_text_processing.egg-info/PKG-INFO
+src/kv_text_processing.egg-info/SOURCES.txt
+src/kv_text_processing.egg-info/dependency_links.txt
+src/kv_text_processing.egg-info/requires.txt
+src/kv_text_processing.egg-info/top_level.txt
