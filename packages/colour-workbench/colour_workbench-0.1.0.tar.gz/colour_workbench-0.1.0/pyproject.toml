@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "colour-workbench"
+version = "0.1.0"
+description = ""
+authors = ["Tucker Downs <tucker@roevisual.us>"]
+readme = "README.md"
+packages = [{ include = "colour_workbench" }]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+colour-science = "0.4.3"
+colour-datasets = "0.2.2"
+colour-specio = "0.2.11"
+numpy = "^1.25.0"
+scipy = "^1.10.1"
+xxhash = "^3.2.0"
+matplotlib = "^3.7.1"
+scikit-learn = "^1.2.2"
+requests = "^2.31.0"
+python-tsp = "^0.3.1"
+pandas = "^2.0.3"
+shapely = "^2.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+black = "^23.3.0"
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
