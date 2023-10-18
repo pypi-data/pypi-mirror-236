@@ -1,0 +1,15 @@
+expecttest
+flatbuffers
+hypothesis
+numpy
+packaging
+pandas
+parameterized
+pytest
+pytest-xdist
+pyyaml
+ruamel.yaml
+sympy
+tabulate
+tomli
+zstd
