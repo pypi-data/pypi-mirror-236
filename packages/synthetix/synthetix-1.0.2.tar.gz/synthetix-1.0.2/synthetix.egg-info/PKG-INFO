@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: synthetix
+Version: 1.0.2
+Summary: Synthetix protocol SDK
+Author: Synthetix DAO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: requests_toolbelt
+Requires-Dist: web3>=6.4.0
+Requires-Dist: gql
+
+A library containing helpful functions for interacting with the Synthetix protocol
