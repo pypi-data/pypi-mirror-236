@@ -1,0 +1,13 @@
+mockaroo/__init__.py,sha256=Gs7S9UvXOCipDH5WRfXlefhwVSzhpGMvQctYgEYJr4g,273
+mockaroo/__main__.py,sha256=sdCl33i1hZ5v95l5BirogqPR7geHfkWneqbk7K4Zxdg,714
+mockaroo/api/__init__.py,sha256=g3daC00eHhl6N_BTQ0iXxl-zKxyyL3iTn8cp-9a6h0A,12
+mockaroo/api/client.py,sha256=AjqJ_n0EY16sqrHJgfjQ70-H88xCiDJGgEpDzVqQD3A,9986
+mockaroo/api/constants.py,sha256=zSvGvIqU1SDql8DrO7NSLUFSCVounN3H4Pp1cZcDcLs,217
+mockaroo/api/exceptions.py,sha256=5jyx20cHq1mJPsX4LVsI7lnSVdBRZKjP1k47SeJuhc8,342
+mockaroo/cli/__init__.py,sha256=g3daC00eHhl6N_BTQ0iXxl-zKxyyL3iTn8cp-9a6h0A,12
+mockaroo/cli/commands.py,sha256=khuc3-2gVYVFLHinILr_NdHnZMltc4EJfb-Tm_vbxK4,1068
+mockaroo/cli/layout.py,sha256=O0DFtf69q-DDoNiERlNdNPdYZWIC3dMqBObET_C6CiU,1858
+mockaroo_python-2.0.0.dist-info/LICENSE,sha256=Fi61vYCiUvpOOMBMoB6IiWOQJ10XuLHWBSC1MYXbbgc,1081
+mockaroo_python-2.0.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+mockaroo_python-2.0.0.dist-info/METADATA,sha256=lCkVzglG4xUoR0wGdhw889ba5-sSLmkC2UalhVRmmKM,8606
+mockaroo_python-2.0.0.dist-info/RECORD,,
