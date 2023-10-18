@@ -1,0 +1,12 @@
+geopandas
+scipy
+shapely
+numpy
+pandas
+matplotlib
+utm
+contextily
+requests
+isoweek
+faust-cchardet
+charset_normalizer
