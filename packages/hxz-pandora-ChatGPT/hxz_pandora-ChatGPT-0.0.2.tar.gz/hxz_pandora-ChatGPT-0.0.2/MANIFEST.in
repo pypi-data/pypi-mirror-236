@@ -1,0 +1,5 @@
+include requirements.txt
+include requirements_api.txt
+include src/hxz_pandora/py.typed
+recursive-include src/hxz_pandora/flask *
+recursive-include src/hxz_pandora/migrations/scripts *
