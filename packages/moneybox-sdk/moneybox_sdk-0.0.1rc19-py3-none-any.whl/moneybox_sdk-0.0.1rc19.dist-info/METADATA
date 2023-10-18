@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: moneybox-sdk
+Version: 0.0.1rc19
+Summary: MoneyBox
+Home-page: https://github.com/moneybox-ai/django-moneybox
+Author: Faithdev21, error0x001, ArtemWhiter, Eugene-Bykovsky, tanja-ovc, maxahist, stanislav-losev (GitHub)
+Author-email: support@moneybox.com
+Keywords: OpenAPI,OpenAPI-Generator,MoneyBox
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 <2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic <2,>=1.10.5
+Requires-Dist: aenum
+
+    MoneyBox will help you better understand your finances, improve financial literacy, and achieve financial goals.
+    
