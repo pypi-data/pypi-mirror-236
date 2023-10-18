@@ -1,0 +1,12 @@
+parade_manage/__init__.py,sha256=3T4E9DKn5pL0nmf67AJlYvfWbuOoHkMSUp7BDpguyYs,32
+parade_manage/base.py,sha256=W1oeEOIO2adkT6JMrMrRMjrCFT7HDwXFG3we5a2zsrE,5810
+parade_manage/task.py,sha256=bcJvv1wBdxkLonUPsf9Idjfhb1eteXTh-dP-titF_14,962
+parade_manage/utils.py,sha256=rztk36nmOY3gTjWJxWq9OEn6VtDaBzKBTwZNajqgfZs,2245
+parade_manage/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parade_manage/common/dag.py,sha256=mIJ23l3Z1BPh9kILziwD4B7vFsgyTgHZLa0UHN-cpuk,6704
+parade_manage/common/node.py,sha256=HwQsTagbvigOJbvTyFdDkJCjreo9hSRTDLyaVSiEG5Y,22
+parade_manage-0.0.2.4.dist-info/LICENSE,sha256=WgoHulnPOoAVeidLv4ltf4iFULcDNhHkaI0N4pia2D8,1065
+parade_manage-0.0.2.4.dist-info/METADATA,sha256=1cGfeN8LdUkvRJEPyTDm5DS-yLhD2chFrZoTnl3-aHk,1572
+parade_manage-0.0.2.4.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+parade_manage-0.0.2.4.dist-info/top_level.txt,sha256=-Wt4fUYcAuidrFvawDwHpSyeZ6zH8LH6nhZYqmvMzrs,14
+parade_manage-0.0.2.4.dist-info/RECORD,,
