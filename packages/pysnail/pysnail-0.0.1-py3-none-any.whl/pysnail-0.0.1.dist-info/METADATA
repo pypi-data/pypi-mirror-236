@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pysnail
+Version: 0.0.1
+Summary: pysnail - blazingly fast async snail!
+Project-URL: Homepage, https://gitlab.com/bohdan.chernykh/pysnail
+Project-URL: Bug Tracker, https://gitlab.com/bohdan.chernykh/pysnail/issues
+Author-email: Bohdan Chernykh <dev@bchernykh.anonaddy.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# pysnail
+
