@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: pycowsay
+Version: 0.0.0.2
+Home-page: https://github.com/cs01/pycowsay
+Author: Chad Smith
+Author-email: grassfedcode@gmail.com
+License: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pycowsay
+A talking cow!
+
+## Run
+Use [pipx](https://github.com/pipxproject/pipx) to run without permanently installing
+```
+pipx run pycowsay mooo
+```
+
+```
+>> pipx run pycowsay mooooo
+
+  ------
+< mooooo >
+  ------
+   \   ^__^
+    \  (oo)\_______
+       (__)\       )\/\
+           ||----w |
+           ||     ||
+```
+
+## Install
+Use [pipx](https://github.com/pipxproject/pipx) to install to isolated environment
+```
+pipx install pycowsay
+```
+or
+```
+pip install pycowsay
+```
+
+---
+
+```
+>> pycowsay mooooo
+
+  ------
+< mooooo >
+  ------
+   \   ^__^
+    \  (oo)\_______
+       (__)\       )\/\
+           ||----w |
+           ||     ||
+```
