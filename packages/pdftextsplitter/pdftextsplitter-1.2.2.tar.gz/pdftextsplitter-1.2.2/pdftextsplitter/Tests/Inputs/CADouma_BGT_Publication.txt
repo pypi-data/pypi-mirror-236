@@ -1,0 +1,891 @@
+1 Introduction
+Accurate measurements of Gamow–Teller strength distributions find important usage in three sub-fields of nuclear
+physics: nuclear structure, neutrino physics and nucleosynthesis. To increase our understanding of nuclear structure, the
+Gamow–Teller strength distribution is often used to obtain
+information about the nuclear wave function. The Gamow–
+Teller strength is usually characterised in terms of a B(GT)
+value, which is defined as where Ji is the total angular momentum of the parent nucleus
+and Ψi (Ψ f ) is the parent (daughter) nuclear wave function
+[1]. τ ±, j is the isospin raising/lowering operator for the jth
+nucleon [2] and σ j is the spin operator of the jth nucleon,
+defined in terms of the x, y and z Pauli spin-matrices. The
+± symbol defines whether the isospin z-component is raised
+or lowered. Raising the isospin z-component corresponds in
+a nucleus to a p → n transition and lowering corresponds
+to an n → p transition (which is equivalent to performing
+a (3 He, t) on that nucleus). B(GT) can be directly extracted
+from measurable observables [3], and provides the Gamow–
+Teller strength for the final state in the daughter nucleus.
+In neutrino physics, nuclear matrix elements, and especially the Gamow–Teller ones (see Eq. (1)), frequently enter
+the calculations of 2νββ-decay (two-neutrino double-beta
+decay) [4–7]. This information can then be used, together
+with other nuclear matrix elements [8], to understand the
+0νββ-decay (neutrino-less double-beta decay), which is
+especially interesting because even a single observation
+(which has not been seen yet [4]) undeniably results in the
+conclusion that the neutrino is a Majorana particle [4]. Moreover, such observations provide hints for Grand Unification
+Theories (GUT), for SuperSymmetry (SUSY) [5,6,9], and
+for understanding the matter-antimatter asymmetry in the
+universe [10]. Calculations of the involved matrix elements,
+and in particular the Gamow–Teller ones, usually contain
+substantial uncertainties [11–13]. Hence, a direct measurement of B(GT ) values serves as a benchmark for theoretical calculations and thus helps to better understand possible observations of 0νββ-decay. Furthermore, such measurements also help in designing new detection techniques
+of solar neutrinos [14].
+Accurate measurements of B(GT) values also help to
+understand nucleosynthesis for the elements heavier than
+iron. The most common models to describe nucleosynthesis are the s-, r -, p- and rp-processes [12]. These processes
+model the nucleosynthesis as long chains of neutron captures (s and r ), proton captures (rp), or photo-dissociations
+( p), alternated by beta-decays. Hence, accurate knowledge
+of relevant B(GT) values is important to understand these
+processes.
+Not only direct measurements of B(GT) values help to
+increase our understanding of nuclear structure, neutrino
+physics and nucleosynthesis, but also through comparison
+to theoretical models, lead to more confidence in the application of the models in regimes not accessible to experiments. Having theoretical models with good predictive power
+is important for being able to describe situations where direct
+measurements are (almost) impossible to perform [12]. Especially comparisons between experimental data and theoretical models that extend up to high excitation energy are useful,
+because this allows us to test the details of the theory. Such
+a comparison is made in Sect. 7 for a QRPA+QPVC model
+and for the data presented in this paper and indications for
+improving the model were obtained. However, other models
+(e.g., as described in Ref. [15]) may also benefit from such
+comparisons.
+In the present work, the cross sections of the 116,122 Sn3
+( He, t)116,122 Sb charge-exchange reactions at 140 MeV/u
+were measured at very forward angles, including zero
+degrees. From these cross sections, the Gamow–Teller
+strength distributions were extracted for 116 Sb and 122 Sb
+between 0 and 28 MeV excitation energy. The experiment
+was performed using the high-energy resolution Grand
+Raiden spectrometer [16] at the Research Center for Nuclear
+Physics (RCNP) [17] at Osaka University in Osaka, Japan.
+There exist two reasons for specifically investigating the
+116,122 Sn → 116,122 Sb Gamow–Teller transitions. The first
+reason is that these isotopes provide important benchmarks
+for theoretical studies that can have implications on nucleosynthesis processes. The second reason is that when measuring the mentioned Gamow–Teller transitions by a (3 He, t)
+charge-exchange reaction, the spin-dipole (2− ) transitions
+can also be measured at the same time. 122 Sb has a 2− g.s. and
+116 Sb has a 2− excited state at 518 keV [18], both of which
+are relatively strongly excited by a (3 He, t) charge-exchange
+reaction at 140 MeV/u. For 0νββ-decay, the matrix elements
+of the spin-dipole transitions are also involved. Hence, it is
+important to find cases where such transitions occur (such as
+these), in order to gauge the theoretical calculations [19,20].
+These spin-dipole transitions will be the subject of another
+paper, presenting the results of the data obtained in the same
+experimental campaign.
+The level densities of the chosen Sb isotopes are quite
+high [18]. For this reason the Sn(3 He, t)Sb charge-exchange
+reaction was used, since it allows for good energy resolution in the measurements. This is possible because both the
+projectile and ejectile are charged particles and a magnetic
+spectrometer has been used for detection of the ejectile [21].
+Because of this, the energy resolution was good enough to
+resolve the first few ΔL = 0, 1 transitions. Finally, a beam
+energy of 140 MeV/u was chosen, because for this energy
+a systematic study was done for the reliability of extracting B(GT ) values from differential cross sections (which
+is about 5%) [21]. Earlier (3 He, t) measurements for Sntargets (especially 116 Sn and 122 Sn) were performed at lower
+energies (e.g., at 67 MeV/u [22]). However, the extraction of
+B(GT ) values from cross sections at these lower energies
+is less reliable, since the spin–isospin term of the nucleon–
+nucleon interaction is not dominant at these energies.
+In this paper, the measurement and data-analysis procedures will be discussed briefly in Sects. 2 and 3. Further
+details can be found in the PhD thesis of Ref. [23]. Subsequently, the measurement results (the B(GT) values) will be
+presented in Sect. 4. These results are then discussed by comparing them to other experiments [22,24] in Sects. 5 and 6
+and to theoretical calculations in Sect. 7. Finally, an outlook
+is presented in Sect. 8 and our conclusions are summarised
+in Sect. 9.
+2 Measurement procedure
+The measurement was done using the high-resolution Grand
+Raiden spectrometer [16] at RCNP. A 3 He2+ beam of
+140 MeV/u was produced with the coupled AVF and RING
+cyclotrons at RCNP [17,25] and then transported through the
+high-energy-resolution beam line called ‘WS course’ [26] to
+Grand Raiden. Using the ‘WS course’, the lateral and angular dispersion-matching techniques [27] were employed to
+obtain an energy resolution of σ ≈ 14 keV (σ means that
+the resolution is expressed as a standard deviation). Contributions from differences in energy loss of tritons and 3 He
+in the target are not included in this number (see Sect. 3 for
+those contributions).
+The used 116 Sn target had an areal density of 1.87 ± 0.01
+mg/cm2 . For the 122 Sn target, it was 1.75 ± 0.01 mg/cm2 .
+Both targets were isotopically enriched above 95%. The
+ejected tritons were guided to the spectrometer focal plane
+in over-focus mode [28] to ensure a good sensitivity to the
+vertical scattering angle (this resolution was σvert ≈ 0.16◦ ).
+Thanks to the angular dispersion mode, sensitivity to the horizontal scattering angle was also guaranteed (σhor ≈ 0.1◦ ).
+Data were taken for two positions of Grand Raiden, i.e. for
+0◦ and for 2.5◦ . In over-focus mode, the horizontal acceptance was roughly ± 1◦ around the designated position and
+the vertical acceptance was roughly ± 3◦ around zero.
+Grand Raiden consists of two large dipole magnets for
+momentum separation and two quadrupole and higher-order
+magnets to focus the tritons and remove aberrations [16]. In
+the 0◦ position, the unreacted 3 He2+ beam was stopped in a
+Faraday cup inside the first dipole magnet. Due to the lateral
+dispersive mode, this Faraday cup did not have a perfect
+efficiency for stopping the beam [29]. In the 2.5◦ position,
+the 3 He2+ beam was stopped in a Faraday cup behind the
+first quadrupole magnet (with full efficiency). This setup is
+illustrated in Fig. 1.
+The focal-plane detection system consists of two MultiWire Drift Chamber (MWDC) detectors and two plastic scintillators (10 mm thick) behind them, with a 10 mm thick aluminium plate between those scintillators to prevent that secondary electrons from one scintillator can produce a signal
+in the other. Both scintillators were equipped with a photomultiplier at each end. The trigger signal is a coincidence
+between the two scintillators (four photomultipliers). This
+signal provides a common start signal for the data taking.
+Each MWDC detector consists of two layers of alternating
+potential and sense wires. The first layer contains vertically
+oriented wires and the second one contains diagonally ori-
+ented wires. Hence, each MWDC detector is capable of providing two position coordinates of a passing triton track. With
+4 such position coordinates in total, it is possible to reconstruct the horizontal and vertical positions and angle of incidence of the triton track at the focal plane.
+The data of the MWDC detectors and of the scintillators
+were first transported to a computer server and then saved on
+hard-disk memory without performing software operations
+of any kind. Subsequently, the data were converted offline to
+ROOT [30] format (version 5.34) using Gey’s analyser code
+[31], which is a modified version of Tamii’s analyser code
+[25] in the sense that it now generates output in the ROOT
+data format. All subsequent data analysis (see next section)
+was done using ROOT.
+To calibrate the excitation energy and the horizontal and
+vertical scattering angles at the target, a sieve–slit measurement was performed. In such a measurement, a target with
+known, sharply defined, states (95% isotopically enriched
+13 C for the present experiment) is used while a sieve slit (a
+multi-hole aperture) is placed between the target and the first
+magnet of the spectrometer (see Fig. 2). The sieve slit was
+given a regular rectangular pattern of small holes. The diameter of the holes was 2 mm, the horizontal spacing was 4 mm
+and the vertical spacing was 5 mm. The sieve slit was placed
+585 mm downstream of the target. Since such a sieve slit cuts
+the scattered particle stream in a series of small pencil beams
+for which both the horizontal and vertical scattering angles at
+the target are known, the data of such a measurement allows
+us to determine the correspondence between the position and
+angle of incidence at the focal plane, and the horizontal and
+vertical scattering angles at the target. The computation of
+the correspondence is explained in the next section. When
+the states of the recoil nucleus are also well-known (for 13 C,
+Fig. 2 Illustration of the sieve slit measurement used to calibrate the
+excitation energy and the horizontal and vertical scattering angles at the
+target.
+3 Data analysis
+Using the raw data from the MWDC detectors, the triton
+tracks passing through the focal plane were reconstructed,
+according to the procedure of Ref. [33]. The resulting lines
+were parameterised by (xfp , yfp , αfp , βfp ). x and y refer to the
+horizontal and vertical positions of the track intersecting the
+focal plane and α and β refer to the horizontal and vertical
+angles of incidence at that intersection. The subscript ‘fp’
+refers to the focal plane.
+Subsequently, the parameters (xfp , yfp , αfp , βfp ) were
+traced back to the target position event-by-event. The triton
+tracks at the target were parameterised by (E t , αt , βt ), where
+αt and βt are the horizontal and vertical scattering angles at
+the target and E t is the kinetic energy of the ejected triton.
+The back-tracing procedure was applied by a mapping function f between the two sets of parameters. This mapping
+function was Taylor-expanded into (inverted) optical coefficients. Subsequently, these coefficients were fitted to the 13 C
+data using the sieve–slit calibration procedure described in
+the previous section (see Ref. [34] for more details). All coefficients up to third order were considered, along with the following higher-order terms: yfp 4 , yfp 4 xfp , yfp 4 xfp 2 , yfp 5 , yfp 6 ,
+yfp 2 xfp 2 and xfp 3 θfp . Inspection of the 13 C data revealed that
+these specific higher-order coefficients had to be included to
+allow for an accurate fitting. However, because the sieve slit
+only had five holes in the horizontal direction, the data did
+not contain sufficient information to take other higher-order
+coefficients along in the fitting.
+After the (inverted) optical coefficients were fitted to the
+13 C data, the full scattering angle θ of the triton was reconstructed as θ 2 = αt 2 + βt 2 , after shifting over the beam position, i.e. the 0◦ , obtained from the 3 He+ peak and by using the
+approximation for small angles that tan(θ ) ≈ θ . The excita-
+where n refers to a specific experimental run, θ refers
+to the polar scattering angle, tn refers to the areal density
+of the target in number of particles per area, Q n refers to
+the total number of beam particles in the experimental run
+(measured with the Faraday cups), An refers to the angular
+acceptance in sr, n refers to the overall detection efficiency
+(wire chamber efficiency, dead time correction and analysis
+cuts) as a dimensionless number, and P(θ ) refers to the total
+number of counts measured for the level we are interested in
+(summed over all runs). This formula was derived from the
+definition of the differential cross section [35].
+The data were divided into bins of 0.3◦ for the scattering angle θ . The angular acceptance was extracted from the
+data by plotting αt versus βt and defining a boundary where
+the number of counts drops. The detection efficiency was
+defined as the product of the efficiencies of the four MWDC
+layers, multiplied with 1−τ where τ is the fraction of dead
+time of the DAQ. τ was measured individually for each experimental run and was of the order of 2%. The efficiency of an
+MWDC layer was defined as N4 /(N4 + N3 ), where N4 is
+the number of events for which all four MWDC layers successfully detected a particle, and N3 is the number of events
+where three MWDC layers successfully detected a particle
+[33]. By reconstructing triton tracks through the focal plane
+when only three MWDC layers produced a signal, and tracing
+these tracks back to the target using the optical coefficients,
+the numbers N4 and N3 could be determined specifically for
+each bin in θ and for each individual run. By artificially setting βfp = 0, a track reconstruction through the focal plane
+became possible with only three MWDC layers. Due to the
+use of the over-focus mode, the information of βfp is not crucial in subsequent analysis anyway. The detection efficiency
+per MWDC layer was found to be about 95% in the 0◦ mode
+and about 89% in the 2.5◦ mode.
+P(θ ) was determined from a Gaussian fit on top of a piecewise linear background for the peak corresponding to the
+level of interest. A separate Gaussian fit was made for each
+of the different bins in θ , but the counts from different runs
+were added to each other before the fit was made. Subsequently, the total number of counts in the fitted peak P(θ )
+was determined from the area under the Gaussian. Differential cross sections were also determined per excitation-energy
+bin of 200 keV by using the total number of measured counts
+in the bin as P(θ ). A special procedure was applied to the
+so-called Isobaric Analogue State (IAS). The IAS is a Fermi
+resonance with an intrinsic width that is significantly smaller
+than the energy resolution for the present experiment [36].
+It is, therefore, observed as a single peak in the excitationenergy spectrum. The IAS carries the full strength of the NonEnergy-Weighted Sum Rule (NEWSR) [1,37]. Just like the
+Gamow–Teller strength is specified in terms of B(GT) values, Fermi strength is specified in B(F) values. The definition
+of B(F) is identical to Eq. (1), except that the spin operator
+σ j is not present in the equation. Since for (3 He, t) Fermi
+β + transitions are blocked in nuclei with N > Z , the Fermi
+NEWSR implies that for the IAS B(F) = |N − Z |, where N
+and Z are the numbers of neutrons and protons in the parent nucleus, respectively [1]. Since the IAS typically gives a
+very strong peak, the Gaussian fits were given exponentially
+decaying tails, so that good fits could be obtained despite the
+inaccuracies introduced by truncating our Taylor expansion
+in the sieve–slit calibration. For the other states, the number
+of counts was low enough so that normal Gaussian fits were
+sufficient for the present data analyses.
+The IAS fits were also used to determine the energy resolution of the measurements, which was then applied to the fits
+of other states. These resolutions were phenomenologically
+determined to be σ = 30.4 + 1.10θ 2 keV for the 116 Sn target (θ isin degrees). For the 122 Sn target, an energy resolution
+of σ = 32.6 + 1.25θ 2 keV was obtained. These numbers
+are larger than the σ ≈ 14 keV that was mentioned in the
+previous section. The difference is attributed to differences
+in energy loss of tritons and 3 He in the target, fluctuations in
+the magnetic field, and, the natural width of the IAS being
+the sum of its escape width and a spreading width due to
+coupling between the IAS and isovector giant monopole resonance (see Ref. [37] for more details).
+In principle, the energy resolution of the measurements
+could also have been determined from a well-resolved lowlying state (below the proton and neutron emission thresholds). This is preferable, because unlike the IAS, those states
+below the particle emission threshold do not have a natural
+width due to particle emission. However, it turned out that
+for the data presented in this paper (see Figs. 3 and 4 and
+Ref. [18]) these low-lying states could not be individually
+resolved, due to the limited experimental energy resolution.
+Hence, for higher accuracy of the fits, it was decided to determine the experimental energy resolution from the IAS, which
+had much higher statistics. The energy resolution determined
+in this way turned out to be usable for accurate Gaussian fits
+of the low-lying states.
+The ΔL = 0 components were extracted from the differential cross sections with a Multipole-Decomposition Analysis (MDA). The details of this procedure can be found in
+Ref. [24]. We performed an MDA based on contributions
+from different values of ΔL. Contributions up to ΔL = 4
+were considered. For each ΔL contribution, only a single
+ΔJ contribution was considered in the MDA since contributions with the same ΔL but different ΔJ are very similar, so that any attempt to disentangle them would result in
+large systematic errors. For ΔL = 0, we considered ΔJ = 1
+(because we are interested in Gamow–Teller transitions). For
+ΔL = 1, we considered ΔJ = 2 and for ΔL ≥ 2 we considered ΔJ = ΔL since those are usually the most dominant contributions. For the low-energy 1+ states it is known
+beforehand that only the Gamow–Teller transition and the
+ΔL = 2, ΔS = 1, ΔJ = 1 quadrupole transition can contribute. Hence, for such low-lying states only these two contributions were considered in the MDA.
+The multipolarity contributions were computed with the
+code FOLD. The code FOLD was developed by Cook and
+Carr [38], based on the work of Petrovich and Stanley [39]
+and then modified as described in Refs. [40] and [41]. The
+One-Body Transition Densities (OBTDs) were computed in
+the Normal Modes Formalism [37,42], using the code NORMOD [43,44]. For an overview of the theoretical formalism that is at the basis of the code FOLD, the interested
+reader is referred to Ref. [7]. For the optical potentials in the
+Distorted-Wave Born Approximation (DWBA), we assumed
+a Coulomb term, real and imaginary volume terms of the
+Woods–Saxon type, and an imaginary surface-Woods–Saxon
+term (with the same radius and diffuseness as the imaginary volume term), according to Ref. [45]. This procedure
+has already proven successful in Ref. [46] albeit without the
+surface term. The parameters were obtained from a linear
+interpolation of the parameters of the nuclei 12 C, 28 Si, 58 Ni,
+90 Zr, and 208 Pb, obtained from Refs. [47,48]. The parameters of the outgoing channel were assumed equal to those of
+the incoming channel, except that the depths VR , VI and Ws
+were scaled by 0.85 [49]. The optical-potential parameters
+used for the present nuclei are listed in Table 1.
+After the DWBA results of FOLD were obtained, they
+were smeared with σ = 0.2◦ (σ = 0.3◦ ) for the 116 Sn (122 Sn)
+target to take the vertical and horizontal angular resolutions
+into account as well as the binning in θ . The larger smearing
+for the 122 Sn target was due to a slight deterioration of the
+angular resolution of the beam. The smeared DWBA results
+of FOLD that form the basis of our MDA are illustrated in
+Figs. 5 and 6 for the 116 Sn target and excitation energies of
+zero and 20 MeV.
+After the ΔL = 0 component was extracted from the
+MDA fit of the differential cross sections, this component was
+extrapolated to zero momentum transfer q = 0 according to
+the procedure described in Ref. [3], which means that extrapolation is done by scaling the experimental θ = 0◦ result by
+the ratio of FOLD-computed results at θ = 0◦ and at q = 0,
+which properly takes the Q-value of the ground state and
+the excitation-energy dependence into consideration. Subsequently, B(GT) values were extracted using the following
+equations [3,21]:
+where K is a kinematic factor, N DGT is the distortion factor given by the ratio of DWBA and PWBA (Plane-Wave
+Born Approximation) computed Gamow–Teller cross sections at q = 0 and |Jσ τ | is the volume integral of the central σ τ -component of the effective nucleon–nucleon interaction between the projectile and target nucleons [1,3]. The
+product of these three quantities is the so-called unit cross
+section. A similar equation also applies for Fermi cross sections, however, |Jσ τ | should then be replaced by |Jτ |, the
+volume integral of the central τ -component, and N DGT by
+N DF , the distortion factor for Fermi transitions. The Fermi
+and Gamow–Teller unit cross sections at 140 MeV/u can,
+with an uncertainty of 5%, be phenomenologically described
+by [21]
+found that the cross sections differed by 16%. Based on
+Ref. [29], in which a similar discrepancy was encountered
+and diagnosed as being due to incomplete charge integration
+for the 0◦ setting, the cross sections for the 0◦ setting were
+reduced by 16%.
+The angular distributions of the IAS were used to finetune the optical-potential parameter Ws used in the DWBA
+calculations to reduce the uncertainty in the MDA procedure. It was found that by including an imaginary surface
+Woods–Saxon potential, the location of the first minimum in
+the experimental angular distribution could be better reproduced by the calculation. Therefore, this surface Woods–
+Saxon potential was included for all DWBA calculations.
+Based on the IAS distributions, Ws was determined to be
+12 MeV. Ws was the only parameter of Table 1 that was finetuned in the DWBA from the original value of zero [46] to
+12 MeV.
+The above data-analysis procedure resulted in B(F) = 16.0
+± 0.9 for the 116 Sn target and in B(F)= 22.5 ± 1.2 for the
+122 Sn target. Since these are in good agreement with the
+expected B(F) = |N − Z |, and the red. χ 2 values are close to
+unity, we conclude that our analysis procedure can be used
+to reliably extract B(GT) values.
+4 Results
+The use of Eqs. (3) and (4) and Table 1 was first tested on
+the IAS for both targets. The IAS presents an excellent benchmark for this, since for this state B(F) = |N − Z |. The results
+are shown in Figs. 7 and 8. In these figures, the reduced χ 2
+value (red. χ 2 ) and the probability of the fit are also shown.
+The fit probability is the area under the reduced χ 2 distribution to the right of the red. χ 2 value of the fit.
+For the runs taken at 0◦ and 2.5◦ , different Faraday cups
+were used to integrate the charge deposited by the beam (see
+Fig. 1: D1FC was used for 0◦ and Q1FC was used for 2.5◦ ).
+By comparing the angular distributions in the range in which
+the 0◦ and 2.5◦ settings overlap (1.5◦ ≤ θ ≤ 3.3◦ ), it was
+The B(GT) values for the low-lying states were extracted
+from the differential cross sections of observed discrete
+states. Since both target nuclei have a 0+ ground state, any
+0+ → 1+ transition in our excitation-energy region is only
+possible through a Gamow–Teller or a quadrupole (ΔL = 2,
+ΔS = 1, ΔJ = 1) excitation. Therefore, as discussed in the
+previous section, these contributions were the only two contributions considered in the MDA. All low-lying states in
+the excitation-energy spectrum that could be resolved, were
+considered. The corresponding peaks are illustrated in Figs. 9
+and 10. If the differential cross section versus scattering angle
+of the state showed a 1+ character (illustrated in Figs. 11 and
+12 for the states labelled 1), the B(GT) value of the state
+was reported in Tables 2 and 3, together with the measured
+mean excitation energy (Meas. E ∗ ), the Number of Degrees
+of Freedom (NDF) and the reduced χ 2 value of the MDA fit
+(red. χ 2 ). The NDF is different for different states, because
+for weaker states it was not always possible to obtain accurate Gaussian fits for some of the angular bins. These bins
+and the corresponding datapoints were omitted in the MDA
+fit, causing the NDF to vary slightly. For some states, the
+measured mean excitation energy could also be matched to
+the NNDC database [18]. In the situations where this matching was possible, the 1+ character of the state was confirmed
+and the corresponding excitation energy from ref. [18] was
+also shown (Lit. E ∗ ). The measurement errors of the B(GT)
+bin of 200 keV. In this situation, the MDA as described in
+the previous section (with all contributions up to ΔL = 4)
+was used to extract the ΔL = 0 contribution. The resulting
+Gamow–Teller strength distributions are shown in Figs. 13
+and 14. The systematic error from the MDA is shown as a grey
+band in Figs. 13 and 14 and has been estimated by fitting the
+differential cross sections without the ΔL = 4 contribution
+in the MDA.
+The Gamow–Teller strength distributions were obtained
+for two different situations. In the first case, the distributions were extracted without subtracting the quasi-free background, meaning that the full ΔL = 0 contribution to the
+differential cross section at 0◦ was used as input to Eq. (3)
+after extrapolation to q = 0. This procedure is similar to that
+of Ref. [24]. The different multipolarity contributions to the
+differential cross section at 0◦ are illustrated for this situation
+in Figs. 15 and 16.
+In the second case, the quasi-free background [22,37] was
+subtracted before the MDA was performed. To subtract the
+quasi-free background, the quasi-free differential cross section was subtracted from the differential cross section per
+bin of 200 keV (which was determined from the measured
+number of counts in that bin). To compute the quasi-free differential cross section, the model from Ref. [22] was used:
+values contain a statistical contribution, a 1% contribution
+from the extrapolation to q = 0 and a 5% contribution from
+the uncertainty of Eq. (4).
+To study the Gamow–Teller transitions at higher excitation energies, the differential cross section was extracted per
+where E t is the kinetic energy of the ejected triton, which
+depends on θ and on the excitation energy E ∗ . The other
+quantities are model parameters. Equation (5) applies only
+in the situation where E ∗ > S p (the quasi-free background is
+zero otherwise [22,37]). In our analysis, T and W were fixed
+to the same values used in Refs. [22,50]: T = 100 MeV and
+W = 22 MeV. W accounts for the Fermi momentum of the
+neutron in the target nucleus that is transferred and T has the
+characteristics of a temperature. In Ref. [50], searches for the
+values of W and T were performed. The obtained values for
+W are about the same for (3 He, t) for all studied target nuclei
+as well as for pion-exchange, namely 22 MeV. Furthermore,
+in Ref. [50], only a weak temperature dependence was found.
+According to Ref. [22], the parameter E 0 was modelled as
+E 0 = E t (E ∗ = 0) − Sp , where Sp is the proton-separation
+energy of the recoil nucleus. This leaves the parameters N0
+and E QF to be fitted to the data. By varying E QF , it was
+confirmed that the shape produced by the model in Eq. (5)
+is not very sensitive to the precise value of E QF . However,
+the value given in Ref. [22] (E QF = 180 MeV) should be
+adapted to a beam energy of 140 MeV/u, which is why we
+did refit the parameter E QF .
+On the other hand, the choice of N0 is very important,
+because it determines the overall normalisation and, therefore, the total amount of quasi-free background. Unfortunately, it is difficult to accurately determine N0 due to a
+lack of knowledge of the quasi-free background [37]. Therefore, we chose to check two extremes. The first one being
+N0 = 0, which corresponds to no subtraction of quasi-free
+background. The other one is where the quasi-free background is as large as possible, and this scenario will be
+denoted as N0 being maximal. In this scenario, we assume
+that all contributions to the total differential cross section
+above the IV(S)GDR come from the quasi-free background.
+This scenario corresponds to what was used in Ref. [22] (see
+Fig. 17 for an illustration). However, as the IV(S)GDR is very
+broad, this does not necessarily mean that at 28 MeV, the total
+differential cross section consists of only quasi-free background. Moreover, the analysis procedure used in Ref. [22]
+assumes that in addition to the IAS, there is only the Gamow–
+Teller Resonance (GTR), pygme resonances, the IV(S)GDR
+and the quasi-free background, which is a simplification of
+reality. As a result, it is still possible that after subtracting
+the quasi-free background, a proper MDA analysis reveals a
+small ΔL = 0 contribution at high excitation energies, possibly corresponding to the low-energy tail of the IV(S)GMR
+[36]. With the assumption of N0 being maximal, Eq. (5) can
+be fitted to the data and this situation corresponds to the
+largest possible quasi-free background contribution.
+It is not a common procedure to subtract the quasi-free
+background before applying MDA. The reason for this is
+that the use of equation (5) can bias the MDA procedure.
+For example, an overestimation of N0 might result in an
+underestimation of Gamow–Teller strength. This will be discussed in more detail in Sect. 6. However, not subtracting
+any quasi-free background could lead to an overestimation
+of the Gamow–Teller strength. Since the correct quasi-free
+contribution is very difficult to determine [37], we decided
+to apply both strategies (N0 = 0 and N0 being maximal as
+discussed above), so that it is known for sure that the true
+Gamow–Teller distribution is between the two distributions
+presented in Figs. 13 and 14. Another reason for pursuing
+both strategies is that we wanted to be able to compare our
+results to those published in Ref. [22] (where putting N0 to
+its maximal value was chosen) and to those published in Ref.
+[24] (where putting N0 = 0 was chosen). These comparisons
+are discussed in the next two sections.
+We further note that, since the IAS is identified as a
+ΔL = 0 contribution in the MDA, it shows up in the B(GT)
+distributions of Figs. 13, 14, 15 and 16. However, its contribution is, of course, removed before further discussing
+Gamow–Teller strength in the data.
+As a final remark, it is noted that the extraction of Gamow–
+Teller strength from a charge-exchange reaction always contains an additional systematic uncertainty due to interference
+between the ΔL = 0 and ΔL = 2 amplitudes for ΔJ = 1
+excitations. This interference is mediated by the tensor-τ
+component of the nucleon–nucleon interaction and cannot
+be removed through the MDA analysis. It has been shown
+[51,52] that, for the (3 He, t) reaction, B(GT ) measurements
+deviate from the true value. These deviations are relatively
+stronger for weak Gamow–Teller transitions, and they are, on
+average, zero. The magnitude for this systematic uncertainty
+could be estimated on a state-by-state basis by the following
+relationship (see Eq. (6) and Fig. 6 in Ref. [51] and Eq. (4)
+and Fig. 4 in Ref. [52]): where ΔB(GT)tensor denotes the absolute systematic
+uncertainty due to the interference described above. The systematic uncertainty from Eq. (6) was not shown in Tables 2
+and 3 and also not in Figs. 13 and 14, because it only becomes
+significant for (very) small B(GT) values due to the logarithmic behaviour. For this reason, it should be noted that the
+Gamow–Teller (ΔL = 0) cross section gets very small in the
+excitation-energy region of 16−28 MeV for the 116 Sn target.
+It is much smaller than the ones for the major ΔL = 1 and
+ΔL = 2 components. Thus, extraction of the small ΔL = 0
+component is difficult in this region, and leads to a large
+uncertainty in the ΔL = 0 cross section. The uncertainty in
+the extraction of the Gamow–Teller strength is, therefore,
+increased due to the tensor effect described above and other
+effects.
+To further investigate the reliability of the measurements
+presented in this paper and to explore the uncertainty in N0
+of the quasi-free background, we will compare the measurements presented in this paper to the results presented in Refs.
+[22] (Pham et al.) and [24] (Guess et al.) in the next sections.
+5 Comparison to the results presented in Ref. [22]
+Pham et al. [22] studied the Gamow–Teller strength distributions in the Sn(3 He, t)Sb reaction for several isotopes (among
+them are the two isotopes discussed in this work), but for a
+beam energy of 67 MeV/u. We have compared the data presented in this paper to theirs for the 116 Sn and 122 Sn targets.
+Pham et al. studied the Gamow–Teller distribution by fitting
+the excitation-energy spectrum to a sum of Gaussians. Five
+Gaussians (labelled GT1-GT5) were used to fit the Gamow–
+Teller (GT) resonances: the GTR [36] and the pygmy resonances [22]. A sixth Gaussian was used to fit the IAS and a
+seventh was used to fit the isovector (spin) giant dipole resonance (IV(S)GDR) [36]. The quasi-free background model
+of Eq. (5) was also added. This procedure is illustrated in
+Fig. 17 for the data presented in this paper. For this figure, it
+should be noted that, technically, Pham et al. applied a condition of −0.3◦ ≤ αt ≤ 1.3◦ to their data, while we applied
+0◦ ≤ θ ≤ 1.3◦ to the present data (see Fig. 17 and note
+that θ 2 = αt 2 + βt 2 ). Since the vertical acceptance (βt ) of
+the spectrometer used by Pham et al. was only ±0.5◦ , the
+scattering angle could be approximated by θ ≈ |αt | and a
+condition on αt alone was sufficient. However, the vertical
+acceptance (βt ) of the present experiment is of the order of
+±3◦ , which makes it necessary to use the full scattering angle
+θ in the condition for the data presented in this paper.
+Pham et al. reported the Gamow–Teller cross sections as
+determined from the Gaussian fits illustrated in Fig. 17. The
+data in the range of − 0.3◦ ≤ αt ≤ 1.3◦ were used for these
+fits and the ΔL = 0 multipolarity contributions were not
+subtracted. However, B(GT) values were not extracted from
+these cross sections. Hence, we have taken the cross sections
+reported by Pham et al., corrected them for the smearing
+effects of − 0.3◦ ≤ αt ≤ 1.3◦ and extrapolated them to q = 0.
+This was done using the code FOLD introduced in Sect. 3
+and the optical potentials from Ref. [45]. These potentials
+are different from Table 1 because of the difference in beam
+energy.
+Subsequently, the B(GT) values were extracted using Eq.
+(3). To determine the Gamow–Teller unit cross section at
+67 MeV/u, a two-point MDA was performed on the data
+published in Ref. [22]. For 118 Sb, Ref. [22] provided the
+differential cross section under the condition − 0.3◦ ≤ αt ≤
+1.3◦ and under the condition 1.3◦ ≤ αt ≤ 2.9◦ (see Fig. 2
+in that paper). These results provided two data points like
+the ones in Figs. 11 and 12. With two data points only, an
+MDA can at most distinguish two multipolarity contributions
+(hence, a two-point MDA). We chose a ΔL = 0 contribution
+(The Gamow–Teller one) and a ΔL = 2 contribution, which
+are the same two contributions used to calculate the numbers
+in Tables 2 and 3. With this two-point MDA, the Gamow–
+Teller multipolarity contribution to the 118 Sb ground state
+cross section was determined to be (87 ± 9)%.
+Since for all other isotopes, Ref. [22] only provided differential cross sections under the condition −0.3◦ ≤ αt ≤
+1.3◦ , 118 Sb was the only isotope for which the Gamow–
+Teller contribution to the ground state could be established
+at 67 MeV/u. For this reason, we chose to first determine the
+unit cross section for the 118 Sn target, and then to extrapolate
+this result to the isotopes of interest. For this extrapolation,
+theoretical estimates of K , N D and |Jσ τ | (see Eq. (3)) were
+used, so that the ratio of theoretical unit cross sections for the
+116 Sn and 118 Sn targets could be computed. This ratio was
+then multiplied with the 118 Sn unit cross section determined
+from the two-point MDA. We found a Gamow–Teller unit
+cross section of 2.53 mb/sr for the 116 Sn target at 67 MeV/u.
+For the 122 Sn target, a similar procedure was used and we
+found a Gamow–Teller unit cross section of 2.40 mb/sr. The
+inaccuracies of the two-point MDA and of the 118 Sb data
+from ref. [22] cause the above cross sections to contain an
+uncertainty of 20% (which is a correlated error between the
+116 Sn and 122 Sn targets).
+The comparisons between the B(GT) values obtained from
+the Pham et al. data and the B(GT) values obtained from the
+present experiment are shown in Tables 4 and 5.
+The first columns in Tables 4 and 5 show the labelling of
+the states according to Fig. 17. The second columns show
+the B(GT ) values obtained from the cross sections reported
+by Pham et al. (B(F) is obtained from the Fermi NEWSR).
+The third columns show the B(GT) values obtained from the
+present experiment, but analysed according to the procedures
+of Pham et al. (Gaussian fits of the excitation-energy spectrum like in Fig. 17, i.e. no MDA and a single angular bin of
+0◦ ≤ θ ≤ 1.3◦ ). The fourth columns are obtained from fitting
+Gaussians like in Fig. 17 not to the excitation-energy spectrum, but to the Gamow–Teller distributions in Figs. 13 and
+14 (the case where the quasi-free background is subtracted,
+since that is what was done in Ref. [22]). The IAS values in
+these columns were obtained from Figs. 7 and 8. This essentially means that the difference between the third and fourth
+columns is the elimination of the ΔL = 0 multipolarity contributions. For the third and fourth columns, the unit cross
+sections of Eq. (4) were used. For the second column, the
+derived unit cross sections (discussed above) at 67 MeV/u
+were used.
+Obviously, a fair comparison to Pham et al., requires the
+use of the same analysis procedures. Hence, a comparison
+should only be made between the second and third columns
+of Tables 4 and 5. In these two columns, there is only a significant deviation between the present data and those of Pham
+et al. for the IAS and GT1 of the 122 Sn target. The deviation
+in the IAS is easily explained, as Pham et al., simply assumed
+B(F) =|N − Z | for the IAS. The number in the third column,
+on the other hand, was obtained from a pure Gaussian fit
+(see Fig. 17). However, in Sect. 3 it was already discussed
+that a pure Gaussian was not suitable for fitting the IAS and
+that exponential tails had to be included. This inclusion is
+reflected in the numbers presented in the fourth columns.
+Hence, the fourth columns should show the correct numbers.
+The deviation in GT1 could be a result of systematic uncertainties in the fitting procedure of Fig. 17. The present data
+show that the excitation-energy spectrum of the 122 Sn target
+is almost flat between GT1 and GT2 (see Fig. 4), while that of
+the 116 Sn target shows a clear dip (around 6 MeV; see Fig. 3).
+Hence, fitting Gaussians to GT1 and GT2 may result in a significant systematic uncertainty for GT1 for the 122 Sn target.
+These systematic uncertainties were not included in Tables
+4 and 5 because due to the flatness of the excitation-energy
+spectra, they could not be accurately determined. This could
+explain the GT1 discrepancy. The data in the figures shown
+in Pham et al. [22] do not disagree with this explanation.
+Pham et al., also reported cross sections for the individual low-lying Gamow–Teller states. B(GT) values could be
+extracted from these cross sections in a similar way as was
+done for the states GT1–GT5 in Tables 4 and 5, but the B(GT)
+values obtained from the Pham et al., cross sections are much
+higher than those presented in Tables 2 and 3. The reason for
+this, is that Pham et al., did not include the description of
+a piecewise linear background in the determination of the
+cross sections (like we did). This background is significant
+for all states in Tables 2 and 3, except for the first ones. For
+those states, the cross sections of Pham et al. provided us
+with B(GT)= 0.39 ± 0.09 for the first Gamow–Teller state
+of the 116 Sn target. For the first Gamow–Teller state of the
+122 Sn target, this was B(GT)= 0.33 ± 0.07. The differences
+between these values and those in Tables 2 and 3 are not too
+big, but also not insignificant. To obtain these two B(GT)
+values from fitting the data of Pham et al., we assumed that
+the Gamow–Teller contribution to the cross section was 87%.
+This assumption came from the two-point MDA we used to
+obtain the Gamow–Teller unit cross section for the 118 Sn
+target at 67 MeV/u (see discussion above). There, it was
+established that the Gamow–Teller contribution to the total
+cross section was (87 ± 9)%. However, this number contains
+a large uncertainty and secondly, there is no a priori reason
+to assume that this number is the same for the first Gamow–
+Teller states of the 116 Sn and 122 Sn targets (Ref. [22] does
+not contain the required data to obtain these numbers for the
+116 Sn and 122 Sn targets). If the Gamow–Teller contribution
+would be somewhat lower than 87%, the discrepancies would
+disappear.
+Finally, there is the issue that Pham et al., claim that GT1
+contains (65 ± 3)% of the Ikeda sum rule for all isotopes
+investigated. However, the second columns of Tables 4 and 5
+claim that GT1 of the 116 Sn target, as it was determined from
+the cross sections presented in Pham et al., only contains
+(14 ± 3)% of the Ikeda sum rule. For the 122 Sn target, this is
+(19 ± 5)%. The percentage of (65 ± 3)% from Pham et al.,
+was computed with the following equation [22,36,53,54]:
+where σGT is the measured Gamow–Teller cross section,
+σIAS is the measured IAS cross section (which was reported
+in Ref. [22]), kfIAS /kfGT is the ratio of the wave numbers
+of the outgoing ejectile (usually around unity) and D is
+the ratio of Fermi and Gamow–Teller unit cross sections.
+Pham et al., applied Eq. (7) with D = (E/E 0 )2 = 1.48
+(E 0 = 55.0 ± 0.4 MeV) [54]. However, D = (E/E 0 )2 =
+1.48 only applies to ( p, n) reactions, while Pham et al.,
+used the (3 He, t) reaction. With the IAS cross sections from
+Pham et al. (which carry an uncertainty of 10% [50]) and
+our derived Gamow–Teller unit cross sections at 67 MeV/u
+(which carry an uncertainty of 20% as discussed above), we
+find D = 5.2 ± 1.1 for (3 He, t) at 67 MeV/u. This explains
+the large difference. Taking this into consideration, our
+results are in reasonable agreement with the data presented
+in Ref. [22] if we follow the same analysis procedure. This
+confirms the reliability of our measurements.
+6 Comparison to the results presented in Ref. [24]
+We chose to include a comparison between the present
+data and the Gamow–Teller strength distribution of the
+150 Nd(3 He, t)150 Pm reaction studied by Guess et al. [24]
+at 140 MeV/u to further validate our data analysis and to
+explore the issue of whether the quasi-free background
+should be subtracted or not (see Sect. 4). Even though a
+completely different target nucleus was studied, the experiment of Guess et al., is particularly suited for this purpose,
+because the experimental setup, the beam energy and the
+data-analysis procedures followed are completely identical
+to ours. The only difference is that Guess et al., did not subtract the quasi-free background, implying that their analysis
+procedure corresponds to our N0 = 0 scenario introduced in
+Sect. 4.
+We have chosen to make the comparison by plotting the
+integral of the Gamow–Teller distributions between 0 and a
+certain excitation energy versus that excitation energy. This
+way, implications for the general quenching phenomenon of
+the Gamow–Teller resonance can be easily visualised. The
+plots are shown in Fig. 18. The data from Guess et al., include
+the systematic error contribution from the MDA. Hence, for
+the present data we have chosen to include this contribution
+as well. For completeness, the results with the quasi-free
+background subtracted (with N0 being maximal) are shown
+in Fig. 19 for the present data. Corresponding results (N0
+being maximal) concerning the 150 Nd(3 He, t)150 Pm reaction
+were not available in Ref. [24].
+From Fig. 18, it is clear that all three isotopes overlap near 17 MeV. The differences below that energy could
+be explained by the facts that different nuclei have their
+Gamow–Teller resonance located at different excitation energies [36] and that deformation effects (150 Nd is a deformed
+nucleus) could influence the distribution of the Gamow–
+Teller strength. However, at higher excitation energies, the
+results of the 116 Sn target starts to deviate again from the
+other two. This deviation is still within the error bands.
+Nevertheless, it could be an interesting feature due to
+the general quenching phenomenon of the Gamow–Teller
+strength. This phenomenon is well-documented in the literature [36,37,55,56] and results in that only about 50−60%
+of the Ikeda sum rule is exhausted by the Gamow–Teller
+strength in the Gamow–Teller resonance region. Without
+subtracting the quasi-free background, Guess et al., found
+(52 ± 5)% of the Ikeda sum rule below 28 MeV for the 150 Nd
+target and we found (48 ± 6)% for the 122 Sn target, both in
+agreement with this phenomenon. However, for the 116 Sn
+target, we found only (38 ± 7)%.
+The Gamow–Teller distribution where the quasi-free
+background is not subtracted goes through zero near 20 MeV
+for the 116 Sn target (see Fig. 13). Because of the general
+shape of the quasi-free background (see Fig. 17 and Eq. (5)),
+we conclude that the contribution from the quasi-free background to the ΔL = 0 multipolarity contribution is small
+for the 116 Sn target (the only zero-point in Fig. 17 is at
+S p = 4.08 MeV [18] for this target). Note that due to the
+large systematic errors, we can only conclude that the contribution is small for the 116 Sn target, not that it is exactly zero.
+On the other hand, the Gamow–Teller distribution for the
+150 Nd target published in Ref. [24], as well as the Gamow–
+Teller distribution shown in Fig. 14 (where no quasi-free
+background was subtracted) do not become zero above the
+Gamow–Teller resonance. Hence, in those distributions, the
+contribution from the quasi-free background may be larger.
+Unfortunately, it is very difficult to determine the correct
+contribution from the quasi-free background (the value of
+N0 in Eq. (5)) [37]. The reason for this is that the region
+near 28 MeV may contain Gamow–Teller strength that is
+moved to higher excitation energies due to 2p–2h couplings
+[57,58], and it may contain tails from the isovector giant
+monopole resonance (IVGMR) and the isovector spin giant
+monopole resonance (IVSGMR) [37]. Since all these contributions are ΔL = 0 and the quasi-free background also has
+a ΔL = 0 contribution, an MDA cannot distinguish between
+these contributions (it would give a significant contributing
+to the systematic uncertainties; see Sect. 3). Therefore, due
+to the absense of an (almost) zero-point in the region above
+the Gamow–Teller resonance for the 122 Sn and 150 Nd [24]
+targets, there is no reliable method to estimate the quasi-free
+background contributions for those targets. The contributions
+may be as small as for the 116 Sn target, but they may also be
+significantly larger. We conclude that the data do not contain
+enough information to accurately determine the quasi-free
+contribution. For this reason, Guess et al., chose not to subtract the quasi-free background at all (which is equivalent to
+putting N0 = 0), so they would be ensured that no Gamow–
+Teller, IVGMR, and IVSGMR contributions were neglected.
+To summarise, we conclude that only (38 ± 7)% of the
+Ikeda sum rule is found for 116 Sn, which seems to have little
+quasi-free background in its spectra, and that the percentages
+of the Ikeda sum rule measured for the 122 Sn and 150 Nd isotopes, which may, or may not have a significant quasi-free
+background contribution in their spectra, agree with the general trend of the quenching phenomenon. However, it should
+be noted that the percentage of the Ikeda sum rule for the
+116 Sn target ((38 ± 7)%) is not necessarily in disagreement
+with the observed general quenching phenomenon if one considers the large measurement error of 7% (which contains a
+6% systematic contribution). This issue raises the need for
+accurate determination of the quasi-free background contribution, in order to have a better understanding of the quenching phenomenon of the Gamow–Teller strength.
+7 Comparison to QRPA+QPVC calculations
+The measurements of the 116 Sn and 122 Sn targets were also
+compared to Quasi-Particle Random-Phase Approximation
+with Quasi-Particle Vibration Coupling (QRPA+QPVC) calculations performed with the Skyrme SkM* interaction [59].
+For a more detailed discussion of the formalism of QRPA+QPVC calculations, as well as for an application to 120 Sn,
+the interested reader is referred to Ref. [60]. The calculations
+presented in this section were performed specifically for the
+present paper.
+In the previous section, it was discussed that the quasifree background contribution is small for the 116 Sn target.
+Therefore, overestimating the subtraction of this quasi-free
+background could result in losing Gamow–Teller strength at
+higher excitation energies (2p–2h couplings). For this reason,
+we chose to compare the calculations to our results where no
+quasi-free background was subtracted.
+Our self-consistent calculations should fulfill, by construction, the Ikeda sum rule. In practise, the QRPA+QPVC
+calculations reproduce 97% of Ikeda sum rule when the
+strength is integrated up to an excitation energy of 80 MeV
+[60]. The inclusion of the QPVC effect could shift 10 − 15%
+of the Gamow–Teller strength to excitation energies above
+25 MeV, however, this is still not enough to fully explain
+the general quenching phenomenon. Therefore, in order to
+compare with experimental data, the theoretical calculations
+were artificially normalised to (0.75)2 · 3|N − Z |, in agreement with Ref. [24]. The comparison is illustrated in Figs.
+20 and 21.
+From Figs. 20 and 21, we conclude that the QRPA+QPVC calculations were able to reasonably predict the IAS
+and the Gamow–Teller resonance. If the systematic uncertainties are included, the theoretical result is always within
+a 2σ distance of the experimental data. However, in the
+region of 3−5 MeV excitation energy, the QRPA+QPVC
+calculations show a large, broad peak, which has not been
+observed experimentally. This peak is the result of the lowest main state of the QRPA+QPVC model, which corresponds to a single-particle excitation of back spin-flip type
+( j = l − 1/2 → j = l + 1/2) [60]. Also, the inclusion of
+attractive isoscalar pairing interactions in the QRPA+QPVC
+model is partially responsible, as it increases the height of
+this peak by about 20% (it also improves the agreement with
+experimental data in the region of the Gamow–Teller resonance) [60]. The peak in the 3−5 MeV region is a known
+discrepancy between the QRPA+QPVC model and experimental data. It also showed up for 120 Sn in Ref. [60]. Possible extensions of the QRPA+QPVC model of Ref. [60] may
+be envisaged (e.g., by including further correlations). At the
+same time, the Gamow–Teller peaks result from the interplay
+of the single-particle spin–orbit splittings and of the residual interaction between particle–hole excitations. Therefore,
+refinements on the effective interactions to increase their
+accuracy in this respect should also be investigated, although
+this may be quite demanding and show the limitations of the
+present Skyrme ansatz.
+Even though the QRPA+QPVC calculations were able
+to reasonably predict the IAS and the Gamow–Teller resonance, no conclusions about the quasi-free background or the
+general quenching phenomenon could be drawn from this,
+which was our hope when making this comparison. Since
+the calculations satisfy the sum rule when the Gamow–Teller
+strength up to 80 MeV is integrated, an improvement of the
+3−5 MeVregion would increase the strength either in the
+Gamow–Teller resonance region, or in the excitation-energy
+region above 25 MeV. This needs to be further checked by
+a proper effective interaction that can better reproduce the
+low-energy data. Hence, the current agreement in the region
+of the Gamow–Teller resonance could be fortuitous. On the
+other hand, we can conclude from this comparison that the
+data presented in this paper do provide a useful reference for
+improving the current theoretical calculations, especially by
+giving a guideline for the improvement of the spin–isospin
+terms of the effective interactions in the nuclear medium.
+No QRPA+QPVC calculations were done above 22 MeV
+for this work. We would like to note that in order to
+extend the calculations to 28 MeV, contributions from the
+IVGMR, IVSGMR, shifted Gamow–Teller strength and
+the quasi-free background would all have to be included,
+because MDA cannot reasonably distinguish between these
+contributions. Including the quasi-free background in the
+QRPA+QPVC calculations may be challenging, because the
+QRPA+QPVC formalism was originally not meant to model
+this phenomenon. However, from Sect. 6, it follows that the
+quasi-free background could be significant for some of the
+isotopes and some quasi-free contribution has to be included
+in the theoretical calculations if the goal is to achieve agreement with experimental data.
+8 Outlook
+In Sect. 6, we concluded that more research is required to
+study the quasi-free background. This is needed to accurately
+estimate the quasi-free background contributions not only
+in the data presented in this work, but also in other data.
+These data may include what has been presented by Guess
+et al. [24], so that the general quenching phenomenon of the
+Gamow–Teller resonance can be better understood.
+A possibility would be to repeat the measurements of this
+work, the 116 Sn(3 He, t)116 Sb and 122 Sn(3 He, t)122 Sb reactions at 140 MeV/u, while measuring the proton emissions at
+backward angles. The requirement of a coincidence between
+emitted tritons at forward angles and emitted protons at backward angles has proven to be a powerful technique to suppress
+the quasi-free background [37]. However, it should be noted
+that this will also reduce the Gamow–Teller strength distributions, because states that cannot decay by proton emission
+will be removed from the distribution.
+Therefore, it would be a better strategy to measure the
+proton emissions of the recoil nucleus over the full 4π solid
+angle. It is known from Ref. [37,61] that the quasi-free background corresponds almost exclusively to protons emitted
+in the forward hemisphere (with respect to the recoil axis).
+On the other hand, in the LAB-frame, all multipole distributions have a symmetric distribution in the forward and
+backward hemisphere with respect to the recoil axis. Hence,
+if one would integrate the measured data over these two
+hemispheres and subtract the two, all multipole contributions to proton decay should cancel out and only the contribution from the quasi-free background should remain. This
+remaining quasi-free background contribution can be used to
+directly determine N0 in Eq. (5). This is because the quasifree background in Figs. 13 and 14 is due to charge-exchange
+knock-on proton emission. The only uncertainly may come
+from the small quasi-free contribution that might still be
+present in the backward hemisphere.
+With such an experiment, it would be possible to confirm
+that the quasi-free contribution to the ΔL = 0 component
+of the 116 Sn(3 He, t)116 Sb reaction at 140 MeV/u is indeed
+small. The experiment can also be used to see whether a
+proper subtraction of the quasi-free background (which is
+only possible when N0 is known) results in a better agreement
+between the Ikeda sum rule percentages of the two Sn-targets.
+However, it should be noted that the experiment described
+above to measure N0 might be challenging. The reason for
+this is that the proton emission is generally expected to be
+very strong at forward angles, which leads to very high count
+rates in the solid-state detectors. Moreover, at these forward
+angles the detectors are also expected to be bombarded by
+products of other nuclear reactions than the one of interest.
+A QRPA+QPVC calculation with the inclusion of contribution from excitations of other multipolarities up to
+28 MeV/u would also be helpful to better understand the general quenching phenomenon. For this purpose, the calculation would have to be extended to higher excitation energies,
+and contributions from the IVGMR, IVSGMR and shifted
+Gamow–Teller strength would have to be included to allow
+for a good comparison with experimental data.
+9 Concluding remarks
+The Gamow–Teller strength distributions of 116,122 Sn →
+116,122 Sb were measured with the (3 He, t) charge-exchange
+reaction at a bombarding energy of 140 MeV/u. The results
+were compared with the same distributions obtained in previous measurements at a lower incident energy of 67 MeV/u.
+When the same analysis procedure was applied, we found
+agreement, which confirms the reliability of the new measurements. However, the old analysis procedure showed several inaccuracies, and we improved the analysis method (see
+Sect. 3 for the description of the new method).
+The data (with the new analysis method) were also compared to 150 Nd → 150 Pm data and to QRPA+QPVC calculations. Without subtracting the quasi-free background, we
+found (48 ± 6)% of the Ikeda sum rule in the region below
+an excitation energy of 28 MeV for the 122 Sn target. This
+agrees with the general trend of the quenching phenomenon of the Gamow–Teller strength. For the 116 Sn target, we
+found (38 ± 7)% in the same excitation-energy region, which
+appears to be somewhat lower (the errors include all systematic uncertainties). These summed Gamow–Teller strengths
+were extracted as usual by using the unit cross section in the
+region up to an excitation energy of 28 MeV, well above the
+main Gamow–Teller resonance, after extrapolating the cross
+sections to q = 0.
+Our comparisons suggest that there could be a difference
+in the amount of quasi-free background that is present for
+both Sn-targets. The quasi-free background contribution is
+believed to be small for the 116 Sn target, but may, or may not
+be larger for the 122 Sn target. The present data for the 122 Sn
+target are inconclusive about this. When the largest possible
+quasi-free background contribution was subtracted [22], we
+found (29 ± 7)% ((35 ± 5)%) of the Ikeda sum rule for the
+116 Sn (116 Sn) target in the same excitation-energy region.
+From these numbers, we conclude that more research is
+needed to better understand the general quenching phenomenon. From the experimental side, measurement techniques
+are needed to determine the size of the quasi-free background.
+From the theoretical side (once the quasi-free background
+contribution is established), more investigations are necessary to determine whether the lower percentage of the 116 Sn
+target indeed is in disagreement with the general trend of the
+quenching phenomenon.

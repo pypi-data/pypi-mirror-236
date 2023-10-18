@@ -1,0 +1,33 @@
+Dit is echt een hoofdstuk met
+een lange titel.
+Hier even een stukje text om te zorgen dat een normale regelafstand het
+vaakste voorkomt.
+Why, my dear, you must know, Mrs. Long says that Netherﬁeld is taken by a young
+man of large fortune from the north of England; that he came down on Monday in a
+chaise and four to see the place, and was so much delighted with it, that he agreed
+with Mr. Morris immediately; that he is to take possession before Michaelmas, and
+some of his servants are to be in the house by the end of next week. Not all that Mrs.
+Bennet, however, with the assistance of her ﬁve daughters, could ask on the subject,
+was suﬃcient to draw from her husband any satisfactory description of Mr. Bingley.
+They attacked him in various ways–with barefaced questions, ingenious suppositions,
+and distant surmises; but he eluded the skill of them all, and they were at last obliged
+to accept the second-hand intelligence of their neighbour, Lady Lucas. Her report was
+highly favourable. Sir William had been delighted with him. He was quite young,
+wonderfully handsome, extremely agreeable, and, to crown the whole, he meant to
+be at the next assembly with a large party. Nothing could be more delightful! To be
+fond of dancing was a certain step towards falling in love; and very lively hopes of
+Mr. Bingley’s heart were entertained.
+1. Dit kan zowel een hoofdstuk als opsomming zijn.
+2. Dit is dan de vervelende opsomming die vertelt dat het vorige punt een opsom-
+ming is en geen headlines.
+Nu testen we nog even of een zin die eindigt met een bepaald woord en dan op de
+volgende regel een getal, ook gezien wordt als opsomming: dit is Figure
+2. en dan gaat de tekst hopelijk normaal verder.
+En dan teste we dat ook nog even voor condition
+2. en dan gaat de tekst hopelijk ook verder.
+Artikel 1
+1. Dit kan dan weer zowel een hoofdstuk als opsomming zijn.
+(a) En nog wat
+(b) en nog meer
+2. Dit is de tweede opsomming.
+1 and some stupid footertext.

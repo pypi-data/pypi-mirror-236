@@ -1,0 +1,348 @@
+
+
+journal homepage: www.elsevier.com/locate/nima
+
+
+
+
+
+Neutron detection
+R3 B
+NeuLAND
+Machine Learning
+Neural Networks
+
+
+
+
+
+https://doi.org/10.1016/j.nima.2020.164951
+
+
+
+
+
+Fig. 3).
+
+
+NeuLAND.
+2
+
+
+Table 1
+
+
+energy:
+
+INCLXX
+
+Bertini
+
+INCLXX
+
+Bertini
+
+600 MeV
+1000 MeV
+
+81.7
+85.2
+
+80.7
+82.8
+
+623
+691
+
+554
+632
+
+NeuLAND.
+∑
+∑
+
+as Ref. [18].
+underestimates this.
+3
+
+
+
+
+Appendix.
+
+4
+
+
+
+
+cuts.
+defined as:
+,
+(1)
+cluster
+𝐸dep
+
+
+where 𝐸dep
+beam
+𝛽
+
+5
+
+
+
+
+
+
+
+
+
+
+7
+
+
+
+
+
+design.
+8
+
+
+
+
+be required.
+
+section).
+
+observables
+9
+
+
+
+
+in this section.
+
+10
+
+
+
+
+in Fig. 12).
+
+classification.
+studies.
+11
+
+
+
+
+
+cross section values.
+12
+
+
+
+
+
+increased.
+
+neutron energies.
+13
+
+
+
+required.
+
+
+
+Acknowledgments
+
+
+
+
+
+
+Hinge
+Mean squared error
+
+9000
+9000
+
+0
+0
+
+ADAM
+ADAM
+
+59.9%
+73.7%
+
+Cross entropy
+Cross entropy
+Cross entropy
+Cross entropy
+
+9000
+9000
+9000
+9000
+
+0
+100
+300
+800
+
+ADAM
+ADAM
+ADAM
+ADAM
+
+75.5%
+74.1%
+74.7%
+74.2%
+
+Cross entropy
+Cross entropy
+Cross entropy
+
+9000
+9000
+9000
+
+100
+300
+800
+
+ADGRAD
+ADGRAD
+ADGRAD
+
+73.3%
+77.5%
+79.7%
+
+Cross entropy
+Cross entropy
+Cross entropy
+Cross entropy
+Cross entropy
+Cross entropy
+Cross entropy
+Cross entropy
+
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+9000
+
+0
+100
+300
+800
+1200
+3000
+3500
+6900
+
+ADGRAD
+ADGRAD
+ADGRAD
+ADGRAD
+ADGRAD
+ADGRAD
+ADGRAD
+ADGRAD
+
+80.0%
+79.5%
+79.1%
+79.7%
+81.4%
+81.1%
+73.2%
+20.0%
+
+TDR [13]
+Bayesian [13]
+Scoring [13]
+
+–
+–
+–
+
+–
+–
+–
+
+–
+–
+–
+
+63.4%
+50.4%
+40.8%
+
+
+14
+
+
+
+a CNN.
+
+[10] C.A. Douma, et al., Feasibility study for the use of a VETO wall for the
+https://www.sciencedirect.com/science/article/pii/S016890021930395X.
+[11] Rexon, Components & TLD Systems, Inc. RP-408 Scintillators. URL http://www.
+rexon.com/RP408.htm.
+[12] Saint-Gobain Crystals, BC408 Scintillators. URL https://www.crystals.saintgobain.com/products/bc-408-bc-412-bc-416.
+[13] J. Mayer, Charting NeuLAND: Towards Multi-Neutron Reconstruction with the
+thesis), Universität zo Köln, 2018, URL https://kups.ub.uni-koeln.de/24865/.
+[14] Y. LeCun, et al., Deep learning, Nature 521 (2015) 436–444, http://dx.doi.org/
+10.1038/nature14539, URL https://doi.org/10.1038/nature14539.
+[15] C.A. Douma, Measurement of the Gamow-Teller States in116 Sb and122 Sb (Ph.D.
+thesis), University of Groningen, The Netherlands, 2019, URL https://www.rug.
+nl/research/portal/files/74454235/Complete_thesis.pdf.
+[16] D. Bertini, R3BRoot, simulation and analysis framework for the R3 B experiment
+at FAIR, J. Phys. Conf. Series 331 (3) (2011) 032036, URL https://iopscience.
+iop.org/article/10.1088/1742-6596/331/3/032036/pdf.
+[17] D. Kresan, R3Broot. URL http://r3broot.gsi.de/.
+[18] A. Revel, et al., Extending the southern shore of the Island of inversion to28 F,
+Phys. Rev. Lett. 124 (2020) 152502, http://dx.doi.org/10.1103/PhysRevLett.124.
+152502, URL https://link.aps.org/doi/10.1103/PhysRevLett.124.152502.
+[19] The Geant4 collaboration, Geant4 Reference Physics List. URL http://geant4userdoc.web.cern.ch/geant4-userdoc/UsersGuides/PhysicsListGuide/html/
+reference_PL/QGSP_BERT.html.
+[20] The ENSAR collaboration and its partners, INCL Geant4 physics list. URL http:
+//irfu.cea.fr/dphn/Spallation/physlist.html.
+[21] M. Polleryd, Convoluted Events: Neutron Reconstruction using Neural Networks (Ph.D. thesis), Chalmers University of Technology, 2017, URL https:
+//odr.chalmers.se/bitstream/20.500.12380/253132/1/253132.pdf.
+[22] A. Martins, et al., From softmax to sparsemax: A sparse model of attention and
+
+[1] The R3 B collaboration, Technical Proposal for the Design, Construction, Commissioning and Operation of R3 B: A Universal Setup for Kinematical Complete
+[2] NuSTAR Collaboration Super-FRS working group, H. Geissel, et al., Technical
+https://www.yumpu.com/en/document/view/9225949/technical-design-reportsuper-fragment-separator.
+[3] FAIR Baseline Technical Report, Vol. 2, Tech. rep., GSI, 2006, URL
+https://www.nipne.ro/international/cooperations/fair/Accelerator_{and}_
+Scientific_Infrastructure.pdf.
+[4] M. Borri, et al., Detector production for the R3 B Si-tracker, Nucl. Instrum.
+Methods A 836 (2016) 105–112, URL https://www.sciencedirect.com/science/
+article/pii/S0168900216308683.
+[5] D. Cortina-Gil, et al., CALIFA, a dedicated calorimeter for the R3 B/FAIR, Nucl.
+Data Sheets 120 (2014) 99–101, http://dx.doi.org/10.1016/j.nds.2014.07.017,
+URL http://www.sciencedirect.com/science/article/pii/S0090375214004694.
+[6] B. Gastineau, et al., Design status of the R3 B-GLAD magnet: Large acceptance
+URL https://ieeexplore.ieee.org/document/4495518.
+[7] The R3 B collaboration, Technical Report for the Design, Construction and Commissioning of the Tracking Detectors for R3 B, Tech. rep., GSI Helmholtzzentrum
+fur Schwerionenforschung, 2014, URL https://edms.cern.ch/ui/file/1865815/2/
+TDR_R3B_TrackingDetectors_public.pdf.
+[8] The R3 B collaboration, Technical Report for the Design, Construction and
+Commissioning of NeuLAND: The High-Resolution Neutron Time-of-Flight Spectrometer for R3 B, Tech. rep., GSI and Collaborators, 2011, URL https://edms.
+cern.ch/ui/file/1865739/2/TDR_R3B_NeuLAND_public.pdf.
+[9] C.A. Douma, et al., Design studies for the NeuLAND VETO detector, J. Phys. Conf.
+Series 1024 (1) (2018) 012027, URL http://stacks.iop.org/1742-6596/1024/i=
+1/a=012027.
+
+

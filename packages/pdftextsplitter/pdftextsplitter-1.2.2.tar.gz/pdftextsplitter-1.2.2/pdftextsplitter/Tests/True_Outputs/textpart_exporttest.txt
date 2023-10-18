@@ -1,0 +1,3 @@
+This is a small textfile
+to test if the export-function of the textpart
+class is working properly...

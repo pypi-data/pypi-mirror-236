@@ -1,0 +1,1016 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Copernicus] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Copernicus
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Les conclusions du Conseil sur « Copernicus à horizon 2035 » ont été préparées en vue du Conseil Compétitivité prévu le 10 juin 2022. La Présidence a proposé ce projet de conclusions du Conseil pour préparer les principaux axes de réflexion sur l’avenir du programme Copernicus à horizon 2035 et donner une direction politique aux futurs développements du programme en se reposant sur le Pacte Vert, la transition numérique et la sécurité afin de contribuer à une Europe plus résiliente. 2. Ces conclusions soulignent l’importance des évolutions technologiques et scientifiques à prendre en compte, y compris le numérique, ainsi 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = I. INTRODUCTION
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Les conclusions du Conseil sur « Copernicus à horizon 2035 » ont été préparées en vue du Conseil Compétitivité prévu le 10 juin 2022. La Présidence a proposé ce projet de conclusions du Conseil pour préparer les principaux axes de réflexion sur l’avenir du programme Copernicus à horizon 2035 et donner une direction politique aux futurs développements du programme en se reposant sur le Pacte Vert, la transition numérique et la sécurité afin de contribuer à une Europe plus résiliente. 2. Ces conclusions soulignent l’importance des évolutions technologiques et scientifiques à prendre en compte, y compris le numérique, ainsi 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1. Les conclusions du Conseil sur ...
+ nativeID=2 parentID=1 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Les conclusions du Conseil sur « Copernicus à horizon 2035 » ont été préparées en vue du Conseil Compétitivité prévu le 10 juin 2022. La Présidence a proposé ce projet de conclusions du Conseil pour préparer les principaux axes de réflexion sur l’avenir du programme Copernicus à horizon 2035 et donner une direction politique aux futurs développements du programme en se reposant sur le Pacte Vert, la transition numérique et la sécurité afin de contribuer à une Europe plus résiliente. 
+
+ [ALINEA-CONTENT]:
+1. Les conclusions du Conseil sur « Copernicus à horizon 2035 » ont été préparées en vue du
+Conseil Compétitivité prévu le 10 juin 2022. La Présidence a proposé ce projet de conclusions
+du Conseil pour préparer les principaux axes de réflexion sur l’avenir du programme
+
+          ***          [--- more alinea content ---]        ***          
+
+Copernicus à horizon 2035 et donner une direction politique aux futurs développements du
+programme en se reposant sur le Pacte Vert, la transition numérique et la sécurité afin de
+contribuer à une Europe plus résiliente.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2. Ces conclusions soulignent l’importance des ...
+ nativeID=3 parentID=1 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. Ces conclusions soulignent l’importance des évolutions technologiques et scientifiques à prendre en compte, y compris le numérique, ainsi que les besoins des utilisateurs et la complémentarité avec les services commerciaux ainsi que la contribution du programme aux enjeux de sécurité de l'Union. 
+
+ [ALINEA-CONTENT]:
+2. Ces conclusions soulignent l’importance des évolutions technologiques et scientifiques à
+prendre en compte, y compris le numérique, ainsi que les besoins des utilisateurs et la
+complémentarité avec les services commerciaux ainsi que la contribution du programme aux
+
+          ***          [--- more alinea content ---]        ***          
+
+enjeux de sécurité de l'Union.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = II. ETAT DES LIEUX
+ nativeID=4 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3. Le groupe Espace a examiné le projet de conclusions lors de six réunions depuis le 18 janvier 2022. 4. Le texte présenté en Annexe de cette Note est identique au texte circulé après le groupe Espace (doc. 7745/21 +REV3) et qui n’a pas soulevé d’objections de la part des délégations. Il représente un compromis acceptable qui ouvre la voie à une approbation par le Conseil. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3. Le groupe Espace a examiné ...
+ nativeID=5 parentID=4 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3. Le groupe Espace a examiné le projet de conclusions lors de six réunions depuis le 18 janvier 2022. 
+
+ [ALINEA-CONTENT]:
+3. Le groupe Espace a examiné le projet de conclusions lors de six réunions depuis le 18 janvier
+2022.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4. Le texte présenté en Annexe ...
+ nativeID=6 parentID=4 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+4. Le texte présenté en Annexe de cette Note est identique au texte circulé après le groupe Espace (doc. 7745/21 +REV3) et qui n’a pas soulevé d’objections de la part des délégations. Il représente un compromis acceptable qui ouvre la voie à une approbation par le Conseil. 
+
+ [ALINEA-CONTENT]:
+4. Le texte présenté en Annexe de cette Note est identique au texte circulé après le groupe
+Espace (doc. 7745/21 +REV3) et qui n’a pas soulevé d’objections de la part des délégations.
+Il représente un compromis acceptable qui ouvre la voie à une approbation par le Conseil.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = III. CONCLUSION
+ nativeID=7 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5. Le Comité des Représentants Permanents est invité à confirmer le texte de compromis proposé en Annexe de cette Note et à envoyer pour approbation le projet de conclusions au Conseil (Compétitivité) à sa réunion du 10 juin 2022. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 5. Le Comité des Représentants Permanents ...
+ nativeID=8 parentID=7 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5. Le Comité des Représentants Permanents est invité à confirmer le texte de compromis proposé en Annexe de cette Note et à envoyer pour approbation le projet de conclusions au Conseil (Compétitivité) à sa réunion du 10 juin 2022. 
+
+ [ALINEA-CONTENT]:
+5. Le Comité des Représentants Permanents est invité à confirmer le texte de compromis
+proposé en Annexe de cette Note et à envoyer pour approbation le projet de conclusions au
+Conseil (Compétitivité) à sa réunion du 10 juin 2022.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Draft Council conclusions on Copernicus by 2035 ANNEX
+ nativeID=9 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+THE COUNCIL OF THE EUROPEAN UNION RECALLING A. the Council conclusions on ‘Space solutions for a sustainable Arctic’ of 29 November 20191, recognising Europe’s remarkable capabilities in Earth observation and their importance for monitoring and combatting the effects of climate change in the Arctic environment; noting, however, some remaining gaps in the monitoring capacities and services; B. the Council conclusions on ‘Space for a sustainable Europe’ of 4 June 20202, underlining that Earth science and European space data, services and technologies may contribute to the European Green Deal, and calling on the European Commission and Member States to facilitate and 
+
+ [ALINEA-CONTENT]:
+THE COUNCIL OF THE EUROPEAN UNION
+RECALLING
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A. the Council conclusions on ‘Space ...
+ nativeID=10 parentID=9 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A. the Council conclusions on ‘Space solutions for a sustainable Arctic’ of 29 November 20191, recognising Europe’s remarkable capabilities in Earth observation and their importance for monitoring and combatting the effects of climate change in the Arctic environment; noting, however, some remaining gaps in the monitoring capacities and services; 
+
+ [ALINEA-CONTENT]:
+A. the Council conclusions on ‘Space solutions for a sustainable Arctic’ of 29 November 20191,
+recognising Europe’s remarkable capabilities in Earth observation and their importance for
+monitoring and combatting the effects of climate change in the Arctic environment; noting,
+
+          ***          [--- more alinea content ---]        ***          
+
+however, some remaining gaps in the monitoring capacities and services;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = B. the Council conclusions on ‘Space ...
+ nativeID=11 parentID=9 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+B. the Council conclusions on ‘Space for a sustainable Europe’ of 4 June 20202, underlining that Earth science and European space data, services and technologies may contribute to the European Green Deal, and calling on the European Commission and Member States to facilitate and promote the usage of data and services; 
+
+ [ALINEA-CONTENT]:
+B. the Council conclusions on ‘Space for a sustainable Europe’ of 4 June 20202, underlining that
+Earth science and European space data, services and technologies may contribute to the
+European Green Deal, and calling on the European Commission and Member States to
+
+          ***          [--- more alinea content ---]        ***          
+
+facilitate and promote the usage of data and services;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = C. the Council conclusions on ‘Space ...
+ nativeID=12 parentID=9 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+C. the Council conclusions on ‘Space for people in European coastal areas’ of 28 May 20213, stressing that Copernicus services and applications provide an invaluable contribution to the green transition and to decision-making and planning tools for the ultimate benefit of citizens; 
+
+ [ALINEA-CONTENT]:
+C. the Council conclusions on ‘Space for people in European coastal areas’ of 28 May 20213,
+stressing that Copernicus services and applications provide an invaluable contribution to the
+green transition and to decision-making and planning tools for the ultimate benefit of citizens;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = D. The Council conclusions on ‘New ...
+ nativeID=13 parentID=9 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+D. The Council conclusions on ‘New Space for People’ of 28 May 20214 calling on the Commission and EU Space Programme Agency (EUSPA) to foster, through an action plan, the uptake of space services by stimulating the adoption of space solutions across a wide range of EU policies and to increase the competitiveness of the EU downstream space industry; 
+
+ [ALINEA-CONTENT]:
+D. The Council conclusions on ‘New Space for People’ of 28 May 20214 calling on the
+Commission and EU Space Programme Agency (EUSPA) to foster, through an action plan,
+the uptake of space services by stimulating the adoption of space solutions across a wide
+
+          ***          [--- more alinea content ---]        ***          
+
+range of EU policies and to increase the competitiveness of the EU downstream space
+industry;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = E. the Council conclusions on ‘Forging ...
+ nativeID=14 parentID=9 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+E. the Council conclusions on ‘Forging a climate-resilient Europe – the new EU Strategy on Adaptation to Climate Change’ of 10 June 20215, stressing in particular the importance of further developing the Copernicus services for assessing climate change impacts; 
+
+ [ALINEA-CONTENT]:
+E. the Council conclusions on ‘Forging a climate-resilient Europe – the new EU Strategy on
+Adaptation to Climate Change’ of 10 June 20215, stressing in particular the importance of
+further developing the Copernicus services for assessing climate change impacts;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = I. Introduction: State of play and trends
+ nativeID=15 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. RECALLS that Copernicus is a civil, user-driven operational system, built to respond to major societal challenges and based on solid scientific expertise, that generates free and open access data and information; UNDERLINES that, with Copernicus, the Union is a worldwide leader with the ability to observe, to monitor the Earth and predict changes, in particular by using modelling, and to serve scientific, institutional and commercial users and that Copernicus is already delivering manifold tangible results for Europe, for example in climate services, environmental land, ocean and atmospheric monitoring, for disaster management and civil security; 2. UNDERLINES that, in order 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1. RECALLS that Copernicus is a ...
+ nativeID=16 parentID=15 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. RECALLS that Copernicus is a civil, user-driven operational system, built to respond to major societal challenges and based on solid scientific expertise, that generates free and open access data and information; UNDERLINES that, with Copernicus, the Union is a worldwide leader with the ability to observe, to monitor the Earth and predict changes, in particular by using modelling, and to serve scientific, institutional and commercial users and that Copernicus is already delivering manifold tangible results for Europe, for example in climate services, environmental land, ocean and atmospheric monitoring, for disaster management and civil security; 
+
+ [ALINEA-CONTENT]:
+1. RECALLS that Copernicus is a civil, user-driven operational system, built to respond to
+major societal challenges and based on solid scientific expertise, that generates free and open
+access data and information; UNDERLINES that, with Copernicus, the Union is a worldwide
+
+          ***          [--- more alinea content ---]        ***          
+
+Copernicus is already delivering manifold tangible results for Europe, for example in climate
+services, environmental land, ocean and atmospheric monitoring, for disaster management
+and civil security;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2. UNDERLINES that, in order to ...
+ nativeID=17 parentID=15 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. UNDERLINES that, in order to keep Europe at the forefront, the continuity and continuous improvement of the Copernicus Services and of the in-situ and space observation capabilities and data should not only be guaranteed, but also improved upon and extended to new types of observation capabilities and to new services based on updated scientific and institutional user requirements and benefitting from the latest technological and scientific knowledge; 
+
+ [ALINEA-CONTENT]:
+2. UNDERLINES that, in order to keep Europe at the forefront, the continuity and continuous
+improvement of the Copernicus Services and of the in-situ and space observation capabilities
+and data should not only be guaranteed, but also improved upon and extended to new types of
+
+          ***          [--- more alinea content ---]        ***          
+
+observation capabilities and to new services based on updated scientific and institutional user
+requirements and benefitting from the latest technological and scientific knowledge;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3. RECALLS that the vision of ...
+ nativeID=18 parentID=15 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3. RECALLS that the vision of Copernicus by 2035 must take into account the main trends in terms of its core users and should closely follow the political priorities of the Union and its Member States, environmental challenges and technological advances while striving to increase its ability to address societal challenges under three pillars: the Green Deal, in particular the climate challenge, the digital transition, and civil security, together contributing to a more resilient Europe; 
+
+ [ALINEA-CONTENT]:
+3. RECALLS that the vision of Copernicus by 2035 must take into account the main trends in
+terms of its core users and should closely follow the political priorities of the Union and its
+Member States, environmental challenges and technological advances while striving to
+
+          ***          [--- more alinea content ---]        ***          
+
+increase its ability to address societal challenges under three pillars: the Green Deal, in
+particular the climate challenge, the digital transition, and civil security, together contributing
+to a more resilient Europe;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4. UNDERLINES that Copernicus’s success relies ...
+ nativeID=19 parentID=15 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+4. UNDERLINES that Copernicus’s success relies on the expertise of the Commission, the Member States, and core partners, i.e. all the organisations that bring their high-level know- how to Copernicus: the European Space Agency, the European Organisation for the Exploitation of Meteorological Satellites, the EU Space Programme Agency, the European Centre for Medium-Range Weather Forecasts, Mercator Ocean International, the European Environmental Agency, the EU Satellite Centre, the European Maritime Safety Agency, and Frontex, as well as European industry and research organisations; ACKNOWLEDGES that the governance of Copernicus has played and will continue to have a key role in the success 
+
+ [ALINEA-CONTENT]:
+4. UNDERLINES that Copernicus’s success relies on the expertise of the Commission, the
+Member States, and core partners, i.e. all the organisations that bring their high-level know-
+how to Copernicus: the European Space Agency, the European Organisation for the
+
+          ***          [--- more alinea content ---]        ***          
+
+of the programme; RECALLS that the Copernicus User Forum is the expert body on user
+needs and on user uptake; and UNDERLINES the importance of the User Forum’s role along
+the entire value chain;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 5. CALLS FOR the evolution of ...
+ nativeID=20 parentID=15 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+5. CALLS FOR the evolution of Copernicus Services and data by 2035 in order to meet the Green Deal climate and environmental goals, i.e. the transformation towards sustainable development, including climate change mitigation and adaptation, in particular through enhanced CO2 monitoring; 
+
+ [ALINEA-CONTENT]:
+5. CALLS FOR the evolution of Copernicus Services and data by 2035 in order to meet the
+Green Deal climate and environmental goals, i.e. the transformation towards sustainable
+development, including climate change mitigation and adaptation, in particular through
+
+          ***          [--- more alinea content ---]        ***          
+
+enhanced CO2 monitoring;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6. RECALLS that Copernicus provides scientifically ...
+ nativeID=21 parentID=15 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+6. RECALLS that Copernicus provides scientifically relevant tools and indicators for assessing the current state of the climate, causes and trends, but also for long-term projections of climate change scenarios, thus providing valuable support to policy and decision-makers as well as economic actors and citizens; and HIGHLIGHTS the key role of Copernicus in ensuring the availability of critical data, in monitoring and measuring progress in achieving some of the goals of the Paris Agreement, including support to the estimation of global stocktake, and in decisions made at subsequent Conferences of the Parties; 
+
+ [ALINEA-CONTENT]:
+6. RECALLS that Copernicus provides scientifically relevant tools and indicators for assessing
+the current state of the climate, causes and trends, but also for long-term projections of
+climate change scenarios, thus providing valuable support to policy and decision-makers as
+
+          ***          [--- more alinea content ---]        ***          
+
+ensuring the availability of critical data, in monitoring and measuring progress in achieving
+some of the goals of the Paris Agreement, including support to the estimation of global
+stocktake, and in decisions made at subsequent Conferences of the Parties;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 7. UNDERLINES the key role Copernicus ...
+ nativeID=22 parentID=15 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+7. UNDERLINES the key role Copernicus must play in supporting public decisions and actions, particularly in areas such as biodiversity and ecosystems, health as part of a ‘one health’ approach, support to clean energy, the fight against pollution, decarbonisation of economy and society, urban sustainability, transport and smart mobility, food and water resources, cryosphere, sustainable ocean management, coastal areas, maritime surveillance, forestry, sustainable agriculture, natural resources, cultural heritage, desertification, risk management and disaster management such as hydro- or geohazards; 
+
+ [ALINEA-CONTENT]:
+7. UNDERLINES the key role Copernicus must play in supporting public decisions and actions,
+particularly in areas such as biodiversity and ecosystems, health as part of a ‘one health’
+approach, support to clean energy, the fight against pollution, decarbonisation of economy
+
+          ***          [--- more alinea content ---]        ***          
+
+cryosphere, sustainable ocean management, coastal areas, maritime surveillance, forestry,
+sustainable agriculture, natural resources, cultural heritage, desertification, risk management
+and disaster management such as hydro- or geohazards;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 8. UNDERLINES the importance of taking ...
+ nativeID=23 parentID=15 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+8. UNDERLINES the importance of taking into account the following new trends in order to maximise their benefits for the Copernicus programme: i. On technologies: – Additional Earth observations through new measurements and instruments; – Additional Earth observations through new architectures and new business models, especially public or commercial constellations and New Space opportunities; ii. On science: – The impact of the evolution of computing science on numerical models of the Earth system in all its components, including the approach to coupled modelling systems and ensembles; iii. On digital: – The digital transformation, including high performance computing, big data analytics, 
+
+ [ALINEA-CONTENT]:
+8. UNDERLINES the importance of taking into account the following new trends in order to
+maximise their benefits for the Copernicus programme:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = i. On technologies: 
+ nativeID=24 parentID=23 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i. On technologies: – Additional Earth observations through new measurements and instruments; – Additional Earth observations through new architectures and new business models, especially public or commercial constellations and New Space opportunities; 
+
+ [ALINEA-CONTENT]:
+i. On technologies:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – Additional Earth observations through new ...
+ nativeID=25 parentID=24 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– Additional Earth observations through new measurements and instruments; 
+
+ [ALINEA-CONTENT]:
+– Additional Earth observations through new measurements and instruments;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – Additional Earth observations through new ...
+ nativeID=26 parentID=24 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– Additional Earth observations through new architectures and new business models, especially public or commercial constellations and New Space opportunities; 
+
+ [ALINEA-CONTENT]:
+– Additional Earth observations through new architectures and new business
+models, especially public or commercial constellations and New Space
+opportunities;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = ii. On science: 
+ nativeID=27 parentID=23 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ii. On science: – The impact of the evolution of computing science on numerical models of the Earth system in all its components, including the approach to coupled modelling systems and ensembles; 
+
+ [ALINEA-CONTENT]:
+ii. On science:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – The impact of the evolution ...
+ nativeID=28 parentID=27 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– The impact of the evolution of computing science on numerical models of the Earth system in all its components, including the approach to coupled modelling systems and ensembles; 
+
+ [ALINEA-CONTENT]:
+– The impact of the evolution of computing science on numerical models of the
+Earth system in all its components, including the approach to coupled modelling
+systems and ensembles;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = iii. On digital: 
+ nativeID=29 parentID=23 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+iii. On digital: – The digital transformation, including high performance computing, big data analytics, artificial intelligence, data fusion and visualisation, data long-term preservation, right up to the concept of digital twinning; 
+
+ [ALINEA-CONTENT]:
+iii. On digital:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = – The digital transformation, including high ...
+ nativeID=30 parentID=29 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+– The digital transformation, including high performance computing, big data analytics, artificial intelligence, data fusion and visualisation, data long-term preservation, right up to the concept of digital twinning; 
+
+ [ALINEA-CONTENT]:
+– The digital transformation, including high performance computing, big data
+analytics, artificial intelligence, data fusion and visualisation, data long-term
+preservation, right up to the concept of digital twinning;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 9. RECALLS the expectation of Member ...
+ nativeID=31 parentID=15 & horizontal_ordering=8
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+9. RECALLS the expectation of Member States that EU emergency management and security service capabilities in support of a more resilient Europe be developed; and HIGHLIGHTS the need to strengthen the security Service portfolio with developments such as more early warning and risk assessment capabilities for the monitoring and analysis of potential population displacement due to climate change impacts; 
+
+ [ALINEA-CONTENT]:
+9. RECALLS the expectation of Member States that EU emergency management and security
+service capabilities in support of a more resilient Europe be developed; and HIGHLIGHTS
+the need to strengthen the security Service portfolio with developments such as more early
+
+          ***          [--- more alinea content ---]        ***          
+
+warning and risk assessment capabilities for the monitoring and analysis of potential
+population displacement due to climate change impacts;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 10. RECALLS the long-standing need for ...
+ nativeID=32 parentID=15 & horizontal_ordering=9
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+10. RECALLS the long-standing need for more reactivity and more precision in data acquisition and distribution, including through higher flexibility and timeliness in the programming of satellites over the requested area; 
+
+ [ALINEA-CONTENT]:
+10. RECALLS the long-standing need for more reactivity and more precision in data acquisition
+and distribution, including through higher flexibility and timeliness in the programming of
+satellites over the requested area;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 11. RECALLS that Copernicus user uptake ...
+ nativeID=33 parentID=15 & horizontal_ordering=10
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+11. RECALLS that Copernicus user uptake is a priority and that the services, data and information must be user-friendly, relevant to societal, economic and environmental needs and useful first for public authorities, but also for scientific, economic actors and citizens; 
+
+ [ALINEA-CONTENT]:
+11. RECALLS that Copernicus user uptake is a priority and that the services, data and
+information must be user-friendly, relevant to societal, economic and environmental needs
+and useful first for public authorities, but also for scientific, economic actors and citizens;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 12. UNDERLINES that easy and flexible ...
+ nativeID=34 parentID=15 & horizontal_ordering=11
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+12. UNDERLINES that easy and flexible access to and use of data, including all data necessary for Copernicus Services, must be facilitated and that Copernicus can contribute to the end-to- end development of a European value chain, including fostering the downstream sector, by implementing and promoting user-friendly and, as far as possible and where appropriate, energy efficient European data and information access platforms; 
+
+ [ALINEA-CONTENT]:
+12. UNDERLINES that easy and flexible access to and use of data, including all data necessary
+for Copernicus Services, must be facilitated and that Copernicus can contribute to the end-to-
+end development of a European value chain, including fostering the downstream sector, by
+
+          ***          [--- more alinea content ---]        ***          
+
+implementing and promoting user-friendly and, as far as possible and where appropriate,
+energy efficient European data and information access platforms;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = II. Recommendations
+ nativeID=35 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+13. CONFIRMS Copernicus as a civil, operational, user-focused EU-led programme in support of the Green Deal, the digital transition and civil security, together contributing to a more resilient Europe; RECOMMENDS keeping the priority of climate change, supporting mitigation and adaptation policies; and RECOMMENDS that the free, full and open data policy in respect of Copernicus is to be maintained; 14. CALLS FOR the long-term enhanced continuity of current space and in situ observations and Services; 15. URGES the implementation of priorities for Copernicus that have not yet been implemented, including the Sentinels Next Generation and the six Copernicus Expansion missions 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 13. CONFIRMS Copernicus as a civil, ...
+ nativeID=36 parentID=35 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+13. CONFIRMS Copernicus as a civil, operational, user-focused EU-led programme in support of the Green Deal, the digital transition and civil security, together contributing to a more resilient Europe; RECOMMENDS keeping the priority of climate change, supporting mitigation and adaptation policies; and RECOMMENDS that the free, full and open data policy in respect of Copernicus is to be maintained; 
+
+ [ALINEA-CONTENT]:
+13. CONFIRMS Copernicus as a civil, operational, user-focused EU-led programme in support of
+the Green Deal, the digital transition and civil security, together contributing to a more
+resilient Europe; RECOMMENDS keeping the priority of climate change, supporting
+
+          ***          [--- more alinea content ---]        ***          
+
+mitigation and adaptation policies; and RECOMMENDS that the free, full and open data
+policy in respect of Copernicus is to be maintained;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 14. CALLS FOR the long-term enhanced ...
+ nativeID=37 parentID=35 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+14. CALLS FOR the long-term enhanced continuity of current space and in situ observations and Services; 
+
+ [ALINEA-CONTENT]:
+14. CALLS FOR the long-term enhanced continuity of current space and in situ observations and
+Services;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 15. URGES the implementation of priorities ...
+ nativeID=38 parentID=35 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+15. URGES the implementation of priorities for Copernicus that have not yet been implemented, including the Sentinels Next Generation and the six Copernicus Expansion missions and the dedicated support to policy areas such as Arctic, coastal areas, cultural heritage, environmental compliance, taking into account the security of the space and ground segment and the integrity of the data; HIGHLIGHTS the need to address new services such as agriculture, food and water security; and RECOMMENDS preparing the long term evolution of the Sentinel family, based on updated user requirements; 
+
+ [ALINEA-CONTENT]:
+15. URGES the implementation of priorities for Copernicus that have not yet been implemented,
+including the Sentinels Next Generation and the six Copernicus Expansion missions and the
+dedicated support to policy areas such as Arctic, coastal areas, cultural heritage,
+
+          ***          [--- more alinea content ---]        ***          
+
+and the integrity of the data; HIGHLIGHTS the need to address new services such as
+agriculture, food and water security; and RECOMMENDS preparing the long term evolution
+of the Sentinel family, based on updated user requirements;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 16. RECOMMENDS that responses to main ...
+ nativeID=39 parentID=35 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+16. RECOMMENDS that responses to main user requirements should be clearly focused on the provision of usable and uncorrupted information, and should be defined by the Commission in a transparent and structured dialogue in coordination with the Copernicus User Forum; 
+
+ [ALINEA-CONTENT]:
+16. RECOMMENDS that responses to main user requirements should be clearly focused on the
+provision of usable and uncorrupted information, and should be defined by the Commission in
+a transparent and structured dialogue in coordination with the Copernicus User Forum;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 17. CALLS FOR allocating adequate funds ...
+ nativeID=40 parentID=35 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+17. CALLS FOR allocating adequate funds to research and development and operations of Copernicus Services to ensure the preparation of new services and new projects which take advantage of future data, and their better integration, including with other sources, in order to maintain the state-of-the-art capacity and the international competitiveness of Copernicus; and HIGHLIGHTS that increased attention must be paid to the sustainability of the Earth observation infrastructure along the value chain and to monitoring its environmental footprint; 
+
+ [ALINEA-CONTENT]:
+17. CALLS FOR allocating adequate funds to research and development and operations of
+Copernicus Services to ensure the preparation of new services and new projects which take
+advantage of future data, and their better integration, including with other sources, in order to
+
+          ***          [--- more alinea content ---]        ***          
+
+maintain the state-of-the-art capacity and the international competitiveness of Copernicus; and
+HIGHLIGHTS that increased attention must be paid to the sustainability of the Earth
+observation infrastructure along the value chain and to monitoring its environmental footprint;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 18. HIGHLIGHTS that the interface with ...
+ nativeID=41 parentID=35 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+18. HIGHLIGHTS that the interface with the Digital Europe programme should be followed carefully, including the Destination Earth initiative; 
+
+ [ALINEA-CONTENT]:
+18. HIGHLIGHTS that the interface with the Digital Europe programme should be followed
+carefully, including the Destination Earth initiative;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 19. RECOMMENDS strengthening the hybrid Copernicus ...
+ nativeID=42 parentID=35 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+19. RECOMMENDS strengthening the hybrid Copernicus space segment driven by core user requirements and taking into account the advice and recommendations of the Copernicus User Forum; RECOMMENDS defining which capabilities and services should be reinforced in the ‘Sentinel architecture’ in order to guarantee autonomy and resilience; and CALLS ON the Commission to assess how far the Sentinel missions, as the backbone of the Copernicus infrastructure, could be complemented with additional European public and/or commercial capacities, paying particular attention to New Space solutions; 
+
+ [ALINEA-CONTENT]:
+19. RECOMMENDS strengthening the hybrid Copernicus space segment driven by core user
+requirements and taking into account the advice and recommendations of the Copernicus User
+Forum; RECOMMENDS defining which capabilities and services should be reinforced in the
+
+          ***          [--- more alinea content ---]        ***          
+
+Commission to assess how far the Sentinel missions, as the backbone of the Copernicus
+infrastructure, could be complemented with additional European public and/or commercial
+capacities, paying particular attention to New Space solutions;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 20. RECOMMENDS, as a way forward, ...
+ nativeID=43 parentID=35 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+20. RECOMMENDS, as a way forward, to assess how the hybrid Copernicus space segment could benefit from additional capabilities, innovations and efficiency gains in Earth observation, including flexible and dynamic tasking, more frequent revisits, as well as higher resolution images, to support near real-time Copernicus Services in order to meet constantly changing demands, while taking into account the risks to EU security interests; 
+
+ [ALINEA-CONTENT]:
+20. RECOMMENDS, as a way forward, to assess how the hybrid Copernicus space segment
+could benefit from additional capabilities, innovations and efficiency gains in Earth
+observation, including flexible and dynamic tasking, more frequent revisits, as well as higher
+
+          ***          [--- more alinea content ---]        ***          
+
+resolution images, to support near real-time Copernicus Services in order to meet constantly
+changing demands, while taking into account the risks to EU security interests;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 21. HIGHLIGHTS the need to ensure ...
+ nativeID=44 parentID=35 & horizontal_ordering=8
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+21. HIGHLIGHTS the need to ensure the calibration and validation of satellite data and information products, using reliable high quality in situ data, with documented quality, access to analysis ready data, the fusion of data from all sources and different resolutions, as well as the rapid availability of high-quality data in order to maximise their use; 
+
+ [ALINEA-CONTENT]:
+21. HIGHLIGHTS the need to ensure the calibration and validation of satellite data and
+information products, using reliable high quality in situ data, with documented quality, access
+to analysis ready data, the fusion of data from all sources and different resolutions, as well as
+
+          ***          [--- more alinea content ---]        ***          
+
+the rapid availability of high-quality data in order to maximise their use;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 22. SUPPORTS the ambition of offering ...
+ nativeID=45 parentID=35 & horizontal_ordering=9
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+22. SUPPORTS the ambition of offering advanced public data and products to foster downstream commercial activities; and CALLS ON the Commission to ensure that Copernicus can play an important role for EU industry by offering contracts for obtaining data of a minimum standard on the basis of user needs, data quality and scientific relevance; 
+
+ [ALINEA-CONTENT]:
+22. SUPPORTS the ambition of offering advanced public data and products to foster downstream
+commercial activities; and CALLS ON the Commission to ensure that Copernicus can play an
+important role for EU industry by offering contracts for obtaining data of a minimum standard
+
+          ***          [--- more alinea content ---]        ***          
+
+on the basis of user needs, data quality and scientific relevance;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 23. RECOMMENDS stepping up the efforts ...
+ nativeID=46 parentID=35 & horizontal_ordering=10
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+23. RECOMMENDS stepping up the efforts on the implementation of policies to foster the use of Copernicus data in public services, at European and national levels, in non-space sectors, and remove barriers to policies and regulations that hinder their use where necessary; 
+
+ [ALINEA-CONTENT]:
+23. RECOMMENDS stepping up the efforts on the implementation of policies to foster the use of
+Copernicus data in public services, at European and national levels, in non-space sectors, and
+remove barriers to policies and regulations that hinder their use where necessary;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 24. CONSIDERS that international cooperation on ...
+ nativeID=47 parentID=35 & horizontal_ordering=11
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+24. CONSIDERS that international cooperation on Earth observations is essential to effectively achieve international common policy objectives; and UNDERLINES the need for reciprocity in agreements and administrative arrangements negotiated with international partners and the need to reach a balance between EU autonomy and cooperation, including through more effective interfaces with international Earth observation groups and institutions; 
+
+ [ALINEA-CONTENT]:
+24. CONSIDERS that international cooperation on Earth observations is essential to effectively
+achieve international common policy objectives; and UNDERLINES the need for reciprocity
+in agreements and administrative arrangements negotiated with international partners and the
+
+          ***          [--- more alinea content ---]        ***          
+
+need to reach a balance between EU autonomy and cooperation, including through more
+effective interfaces with international Earth observation groups and institutions;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 25. On the user uptake: 
+ nativeID=48 parentID=35 & horizontal_ordering=12
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+25. On the user uptake: a. RECOMMENDS the active participation and the informed opinion of the Copernicus User Forum, based in particular on feedback from users and Member States, for the development of the Services, including space data and products, as well as for the acquisition of new data, the use of additional information and for the user uptake of Copernicus; b. UNDERLINES the importance of implementing at least one Copernicus data and information access platform associated with computing resources to support economic ecosystems and research; and of networking national data platforms in order to ensure a sustainable and independent 
+
+ [ALINEA-CONTENT]:
+25. On the user uptake:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = a. RECOMMENDS the active participation and ...
+ nativeID=49 parentID=48 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+a. RECOMMENDS the active participation and the informed opinion of the Copernicus User Forum, based in particular on feedback from users and Member States, for the development of the Services, including space data and products, as well as for the acquisition of new data, the use of additional information and for the user uptake of Copernicus; 
+
+ [ALINEA-CONTENT]:
+a. RECOMMENDS the active participation and the informed opinion of the Copernicus
+User Forum, based in particular on feedback from users and Member States, for the
+development of the Services, including space data and products, as well as for the
+
+          ***          [--- more alinea content ---]        ***          
+
+acquisition of new data, the use of additional information and for the user uptake of
+Copernicus;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = b. UNDERLINES the importance of implementing ...
+ nativeID=50 parentID=48 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+b. UNDERLINES the importance of implementing at least one Copernicus data and information access platform associated with computing resources to support economic ecosystems and research; and of networking national data platforms in order to ensure a sustainable and independent European access to data and information products; 
+
+ [ALINEA-CONTENT]:
+b. UNDERLINES the importance of implementing at least one Copernicus data and
+information access platform associated with computing resources to support economic
+ecosystems and research; and of networking national data platforms in order to ensure a
+
+          ***          [--- more alinea content ---]        ***          
+
+sustainable and independent European access to data and information products;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = c. RECOMMENDS to the Commission, together ...
+ nativeID=51 parentID=48 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+c. RECOMMENDS to the Commission, together with Copernicus entrusted entities, including EUSPA, and the involvement of Member States, to define a coherent user uptake strategy and the associated action plan by mid-2023 in order to support EU and national policies and while targeting socio-economic value creation enabled by the EU space programme, in particular: i. the development of solutions to make the Copernicus data and products easier to use for evidence-based decisions, especially for decision-makers and institutions in charge of public policies; ii. the need to develop cross-cutting and multi-disciplinary services required for user uptake development including by non-space actors; 
+
+ [ALINEA-CONTENT]:
+c. RECOMMENDS to the Commission, together with Copernicus entrusted entities,
+including EUSPA, and the involvement of Member States, to define a coherent user
+uptake strategy and the associated action plan by mid-2023 in order to support EU and
+
+          ***          [--- more alinea content ---]        ***          
+
+national policies and while targeting socio-economic value creation enabled by the EU
+space programme, in particular:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = i. the development of solutions to ...
+ nativeID=52 parentID=51 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+i. the development of solutions to make the Copernicus data and products easier to use for evidence-based decisions, especially for decision-makers and institutions in charge of public policies; 
+
+ [ALINEA-CONTENT]:
+i. the development of solutions to make the Copernicus data and products easier to
+use for evidence-based decisions, especially for decision-makers and institutions
+in charge of public policies;
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = ii. the need to develop cross-cutting ...
+ nativeID=53 parentID=51 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+ii. the need to develop cross-cutting and multi-disciplinary services required for user uptake development including by non-space actors; 
+
+ [ALINEA-CONTENT]:
+ii. the need to develop cross-cutting and multi-disciplinary services required for user
+uptake development including by non-space actors;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = iii. the cross-fertilisation between various components ...
+ nativeID=54 parentID=51 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+iii. the cross-fertilisation between various components of the EU space programme such as Galileo and Copernicus; 
+
+ [ALINEA-CONTENT]:
+iii. the cross-fertilisation between various components of the EU space programme
+such as Galileo and Copernicus;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = iv. the support to national user ...
+ nativeID=55 parentID=51 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+iv. the support to national user forums, Copernicus relays and the Copernicus Academy and other nationally-driven initiatives making good use of existing EU instruments, in order to expand user uptake actions across Member States with the support of the entrusted entities, taking advantage of the Copernicus User Forum’s recommendations; 
+
+ [ALINEA-CONTENT]:
+iv. the support to national user forums, Copernicus relays and the Copernicus
+Academy and other nationally-driven initiatives making good use of existing EU
+instruments, in order to expand user uptake actions across Member States with the
+
+          ***          [--- more alinea content ---]        ***          
+
+support of the entrusted entities, taking advantage of the Copernicus User Forum’s
+recommendations;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = v. the opportunity to acquire the ...
+ nativeID=56 parentID=51 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+v. the opportunity to acquire the skills to develop user uptake and contribute to reducing the space and digital divide across Europe, in particular through capacity-building in all Member States and training of national professionals, entrepreneurs and academics; 
+
+ [ALINEA-CONTENT]:
+v. the opportunity to acquire the skills to develop user uptake and contribute to
+reducing the space and digital divide across Europe, in particular through
+capacity-building in all Member States and training of national professionals,
+
+          ***          [--- more alinea content ---]        ***          
+
+entrepreneurs and academics;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = vi. the development of targeted measures ...
+ nativeID=57 parentID=51 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+vi. the development of targeted measures to enhance capacity across Member States with an emerging space industry, support the New Space ecosystem and the downstream sector. 
+
+ [ALINEA-CONTENT]:
+vi. the development of targeted measures to enhance capacity across Member States
+with an emerging space industry, support the New Space ecosystem and the
+downstream sector.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------

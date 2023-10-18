@@ -1,0 +1,122 @@
+Install the latest pycharm community edition.
+https://www.jetbrains.com/pycharm/download/?section=windows
+Install shellcheck (open een .sh-file in pycharm).
+
+Install postgres 14.8 for windows from:
+https://www.enterprisedb.com/postgresql-tutorial-resources-training-2?uuid=b63d9058-0ab9-44f7-aef0-ec0e0e2414e5&campaignId=Product_Trial_PostgreSQL_14
+Run the install wizard. Be sure to set up command line interface and remember your password!
+type in the serach 'system' en search for 'advanced system settings'
+Select the tap 'advanced' en click on 'environment variables'
+At user variables, open 'Path' en add a new line.
+Go to program files, postgres & select the bin-folder; add it to 'Path'
+Then, open a terminal-prompt (cmd) in windows en enter the command:
+psql -U postgres (de default user is called postgres)
+Give the password as you specified during the installation.
+You now enter your own postgres server. Create databases named textsplitter, datatool and datadrop.
+
+Then, the same way as you added variables to the path, create 5 more user environment variables.
+This can be a bit tricky, as the values depend on your own system (use \conninfo in postgres).
+Name: MY_PSQL_DBNAME and Value: textsplitter
+Name: MY_PSQL_USER and Value: <postgres user; depends on your system configuration>
+Name: MY_PSQL_PASSWORD and Value: <what you entered during postgres installation>
+Name: MY_PSQL_HOST and Value: localhost
+Name: MY_PSQL_PORT and Value: <what you get from running \conninfo>
+
+Then, do a pip-install:
+pip install https://github.com/aboSamoor/pycld2/zipball/e3ac86ed4d4902e912691c1531d0c5645382a726
+This is to get the workaround for the pycld2 library, that otherwise will not install.
+
+Next, clean all migrations folders. Per Django-app, take the following actions: inside the migrations-folder,
+delete everything except the init-file and the pycache-folder. Also delete everything inside that migration folder.
+Then, reboot the computer BEFORE attempting to make migrations. Then, the environmental variables will take effect.
+
+The shell-scripts do not work under windows, so you need to execute commands manually:
+In Tests\Scripts\: python AllTests.py dummy to fully test the engine (incl. Regressietest)
+In Tests\Scripts\: coverage run -m pytest to measure code coverage of the engine (excl. Regressietest)
+In Tests\Scripts\: coverage report -m to view the output of the code coverage (it is a lot!)
+In Django\: python manage.py test to fully test the Django application
+In Django\: coverage run -m manage.py test to measure code coverage of Django
+In Django\: coverage report -m to view the output of the code coverage (it is a lot!)
+Unfortunately, this also means manual synchronization of the html-files in the True_Outputs-folder after making
+changes to the parser (HTMLSync would do this automatically when you can read bash).
+
+Nuttige postgres commando's:
+\q
+exit
+sudo -u postgres psql
+\q
+--- from postgres@server:
+createuser --interactive
+--- Give a name and say that it has to be a superuser.
+createdb <name>
+--- logout from postgres server
+sudo adduser <name>
+--- from psql-command:
+\list will give you the available databases
+\du will give you the ones you have access to
+\q will let you break from the listing view
+\db <name> gives you information on the specific db
+\conninfo will give you connection information.
+\password will let you alter the password of the current user
+\c <name> will let you swicth to a different database
+\d will list all the tables in the database
+SELECT pg_size_pretty( pg_database_size('dbname') ); for measuring database size
+SELECT pg_size_pretty( pg_total_relation_size('tablename') ); for measuring table size
+
+Install Minio server:
+Download the file minio.exe from https://min.io/download#/windows
+Install windows powershell from https://learn.microsoft.com/en-us/powershell/scripting/install/installing-powershell-on-windows?view=powershell-7.3
+Next, Place the minio.exe file in a folder of your choice.
+Inside that folder, run cmd.exe
+From cmd.exe run the command PowerShell
+Then, run ./minio.exe server ./
+Now you have the minio server running.
+
+Checking code in datadrop:
+black -l 100 .
+pylint --fail-under=8 --max-line-length 100 */*.py
+
+pip installations:
+numpy
+pandas
+scipy
+matplotlib
+pillow
+yake
+nltk
+gensim
+wheel
+django
+django-nose
+poppler-utils
+PyPDF2
+PyPDF4
+wordcloud
+openai
+tiktoken
+pymupdf
+frontend
+pyreadline3
+pdfminer
+pdfminer.six
+thefuzz
+Psycopg
+psycopg2
+jupyter
+nbdime
+langchain
+pytest
+coverage
+python-Levenshtein
+bs4
+black
+pylint
+drf-spectacular
+pyjwt[crypto]
+gevent
+django-quill-editor
+django_select2
+
+Other installations:
+python -m nltk.downloader stopwords
+python -m nltk.downloader punkt

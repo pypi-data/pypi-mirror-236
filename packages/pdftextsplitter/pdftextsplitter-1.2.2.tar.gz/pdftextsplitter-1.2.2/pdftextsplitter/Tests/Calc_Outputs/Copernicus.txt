@@ -1,0 +1,250 @@
+I. INTRODUCTION
+1. Les conclusions du Conseil sur « Copernicus à horizon 2035 » ont été préparées en vue du
+Conseil Compétitivité prévu le 10 juin 2022. La Présidence a proposé ce projet de conclusions
+du Conseil pour préparer les principaux axes de réflexion sur l’avenir du programme
+Copernicus à horizon 2035 et donner une direction politique aux futurs développements du
+programme en se reposant sur le Pacte Vert, la transition numérique et la sécurité afin de
+contribuer à une Europe plus résiliente.
+9156/22
+CDP/FB/nj 1
+COMPET.2 LIMITE FR/EN
+2. Ces conclusions soulignent l’importance des évolutions technologiques et scientifiques à
+prendre en compte, y compris le numérique, ainsi que les besoins des utilisateurs et la
+complémentarité avec les services commerciaux ainsi que la contribution du programme aux
+enjeux de sécurité de l'Union.
+II. ETAT DES LIEUX
+3. Le groupe Espace a examiné le projet de conclusions lors de six réunions depuis le 18 janvier
+2022.
+4. Le texte présenté en Annexe de cette Note est identique au texte circulé après le groupe
+Espace (doc. 7745/21 +REV3) et qui n’a pas soulevé d’objections de la part des délégations.
+Il représente un compromis acceptable qui ouvre la voie à une approbation par le Conseil.
+III. CONCLUSION
+5. Le Comité des Représentants Permanents est invité à confirmer le texte de compromis
+proposé en Annexe de cette Note et à envoyer pour approbation le projet de conclusions au
+Conseil (Compétitivité) à sa réunion du 10 juin 2022.
+9156/22
+CDP/FB/nj 2
+COMPET.2 LIMITE FR/EN
+Draft Council conclusions on Copernicus by 2035
+ANNEX
+THE COUNCIL OF THE EUROPEAN UNION
+RECALLING
+A. the Council conclusions on ‘Space solutions for a sustainable Arctic’ of 29 November 20191,
+recognising Europe’s remarkable capabilities in Earth observation and their importance for
+monitoring and combatting the effects of climate change in the Arctic environment; noting,
+however, some remaining gaps in the monitoring capacities and services;
+B. the Council conclusions on ‘Space for a sustainable Europe’ of 4 June 20202, underlining that
+Earth science and European space data, services and technologies may contribute to the
+European Green Deal, and calling on the European Commission and Member States to
+facilitate and promote the usage of data and services;
+C. the Council conclusions on ‘Space for people in European coastal areas’ of 28 May 20213,
+stressing that Copernicus services and applications provide an invaluable contribution to the
+green transition and to decision-making and planning tools for the ultimate benefit of citizens;
+D. The Council conclusions on ‘New Space for People’ of 28 May 20214 calling on the
+Commission and EU Space Programme Agency (EUSPA) to foster, through an action plan,
+the uptake of space services by stimulating the adoption of space solutions across a wide
+range of EU policies and to increase the competitiveness of the EU downstream space
+industry;
+1 14603/19.
+2 8512/20.
+3 9164/21.
+4 9163/21.
+CDP/FB/nj 3
+9156/22
+ANNEX COMPET.2 LIMITE FR/EN
+E. the Council conclusions on ‘Forging a climate-resilient Europe – the new EU Strategy on
+Adaptation to Climate Change’ of 10 June 20215, stressing in particular the importance of
+further developing the Copernicus services for assessing climate change impacts;
+I. Introduction: State of play and trends
+1. RECALLS that Copernicus is a civil, user-driven operational system, built to respond to
+major societal challenges and based on solid scientific expertise, that generates free and open
+access data and information; UNDERLINES that, with Copernicus, the Union is a worldwide
+leader with the ability to observe, to monitor the Earth and predict changes, in particular by
+using modelling, and to serve scientific, institutional and commercial users and that
+Copernicus is already delivering manifold tangible results for Europe, for example in climate
+services, environmental land, ocean and atmospheric monitoring, for disaster management
+and civil security;
+2. UNDERLINES that, in order to keep Europe at the forefront, the continuity and continuous
+improvement of the Copernicus Services and of the in-situ and space observation capabilities
+and data should not only be guaranteed, but also improved upon and extended to new types of
+observation capabilities and to new services based on updated scientific and institutional user
+requirements and benefitting from the latest technological and scientific knowledge;
+3. RECALLS that the vision of Copernicus by 2035 must take into account the main trends in
+terms of its core users and should closely follow the political priorities of the Union and its
+Member States, environmental challenges and technological advances while striving to
+increase its ability to address societal challenges under three pillars: the Green Deal, in
+particular the climate challenge, the digital transition, and civil security, together contributing
+to a more resilient Europe;
+5 9694/21.
+CDP/FB/nj 4
+9156/22
+ANNEX COMPET.2 LIMITE FR/EN
+4. UNDERLINES that Copernicus’s success relies on the expertise of the Commission, the
+Member States, and core partners, i.e. all the organisations that bring their high-level know-
+how to Copernicus: the European Space Agency, the European Organisation for the
+Exploitation of Meteorological Satellites, the EU Space Programme Agency, the European
+Centre for Medium-Range Weather Forecasts, Mercator Ocean International, the European
+Environmental Agency, the EU Satellite Centre, the European Maritime Safety Agency, and
+Frontex, as well as European industry and research organisations; ACKNOWLEDGES that
+the governance of Copernicus has played and will continue to have a key role in the success
+of the programme; RECALLS that the Copernicus User Forum is the expert body on user
+needs and on user uptake; and UNDERLINES the importance of the User Forum’s role along
+the entire value chain;
+5. CALLS FOR the evolution of Copernicus Services and data by 2035 in order to meet the
+Green Deal climate and environmental goals, i.e. the transformation towards sustainable
+development, including climate change mitigation and adaptation, in particular through
+enhanced CO2 monitoring;
+6. RECALLS that Copernicus provides scientifically relevant tools and indicators for assessing
+the current state of the climate, causes and trends, but also for long-term projections of
+climate change scenarios, thus providing valuable support to policy and decision-makers as
+well as economic actors and citizens; and HIGHLIGHTS the key role of Copernicus in
+ensuring the availability of critical data, in monitoring and measuring progress in achieving
+some of the goals of the Paris Agreement, including support to the estimation of global
+stocktake, and in decisions made at subsequent Conferences of the Parties;
+CDP/FB/nj 5
+9156/22
+ANNEX COMPET.2 LIMITE FR/EN
+7. UNDERLINES the key role Copernicus must play in supporting public decisions and actions,
+particularly in areas such as biodiversity and ecosystems, health as part of a ‘one health’
+approach, support to clean energy, the fight against pollution, decarbonisation of economy
+and society, urban sustainability, transport and smart mobility, food and water resources,
+cryosphere, sustainable ocean management, coastal areas, maritime surveillance, forestry,
+sustainable agriculture, natural resources, cultural heritage, desertification, risk management
+and disaster management such as hydro- or geohazards;
+8. UNDERLINES the importance of taking into account the following new trends in order to
+maximise their benefits for the Copernicus programme:
+i. On technologies:
+– Additional Earth observations through new measurements and instruments;
+– Additional Earth observations through new architectures and new business
+models, especially public or commercial constellations and New Space
+opportunities;
+ii. On science:
+– The impact of the evolution of computing science on numerical models of the
+Earth system in all its components, including the approach to coupled modelling
+systems and ensembles;
+iii. On digital:
+– The digital transformation, including high performance computing, big data
+analytics, artificial intelligence, data fusion and visualisation, data long-term
+preservation, right up to the concept of digital twinning;
+CDP/FB/nj 6
+9156/22
+ANNEX COMPET.2 LIMITE FR/EN
+9. RECALLS the expectation of Member States that EU emergency management and security
+service capabilities in support of a more resilient Europe be developed; and HIGHLIGHTS
+the need to strengthen the security Service portfolio with developments such as more early
+warning and risk assessment capabilities for the monitoring and analysis of potential
+population displacement due to climate change impacts;
+10. RECALLS the long-standing need for more reactivity and more precision in data acquisition
+and distribution, including through higher flexibility and timeliness in the programming of
+satellites over the requested area;
+11. RECALLS that Copernicus user uptake is a priority and that the services, data and
+information must be user-friendly, relevant to societal, economic and environmental needs
+and useful first for public authorities, but also for scientific, economic actors and citizens;
+12. UNDERLINES that easy and flexible access to and use of data, including all data necessary
+for Copernicus Services, must be facilitated and that Copernicus can contribute to the end-to-
+end development of a European value chain, including fostering the downstream sector, by
+implementing and promoting user-friendly and, as far as possible and where appropriate,
+energy efficient European data and information access platforms;
+II. Recommendations
+13. CONFIRMS Copernicus as a civil, operational, user-focused EU-led programme in support of
+the Green Deal, the digital transition and civil security, together contributing to a more
+resilient Europe; RECOMMENDS keeping the priority of climate change, supporting
+mitigation and adaptation policies; and RECOMMENDS that the free, full and open data
+policy in respect of Copernicus is to be maintained;
+14. CALLS FOR the long-term enhanced continuity of current space and in situ observations and
+Services;
+CDP/FB/nj 7
+9156/22
+ANNEX COMPET.2 LIMITE FR/EN
+15. URGES the implementation of priorities for Copernicus that have not yet been implemented,
+including the Sentinels Next Generation and the six Copernicus Expansion missions and the
+dedicated support to policy areas such as Arctic, coastal areas, cultural heritage,
+environmental compliance, taking into account the security of the space and ground segment
+and the integrity of the data; HIGHLIGHTS the need to address new services such as
+agriculture, food and water security; and RECOMMENDS preparing the long term evolution
+of the Sentinel family, based on updated user requirements;
+16. RECOMMENDS that responses to main user requirements should be clearly focused on the
+provision of usable and uncorrupted information, and should be defined by the Commission in
+a transparent and structured dialogue in coordination with the Copernicus User Forum;
+17. CALLS FOR allocating adequate funds to research and development and operations of
+Copernicus Services to ensure the preparation of new services and new projects which take
+advantage of future data, and their better integration, including with other sources, in order to
+maintain the state-of-the-art capacity and the international competitiveness of Copernicus; and
+HIGHLIGHTS that increased attention must be paid to the sustainability of the Earth
+observation infrastructure along the value chain and to monitoring its environmental footprint;
+18. HIGHLIGHTS that the interface with the Digital Europe programme should be followed
+carefully, including the Destination Earth initiative;
+19. RECOMMENDS strengthening the hybrid Copernicus space segment driven by core user
+requirements and taking into account the advice and recommendations of the Copernicus User
+Forum; RECOMMENDS defining which capabilities and services should be reinforced in the
+‘Sentinel architecture’ in order to guarantee autonomy and resilience; and CALLS ON the
+Commission to assess how far the Sentinel missions, as the backbone of the Copernicus
+infrastructure, could be complemented with additional European public and/or commercial
+capacities, paying particular attention to New Space solutions;
+CDP/FB/nj 8
+9156/22
+ANNEX COMPET.2 LIMITE FR/EN
+20. RECOMMENDS, as a way forward, to assess how the hybrid Copernicus space segment
+could benefit from additional capabilities, innovations and efficiency gains in Earth
+observation, including flexible and dynamic tasking, more frequent revisits, as well as higher
+resolution images, to support near real-time Copernicus Services in order to meet constantly
+changing demands, while taking into account the risks to EU security interests;
+21. HIGHLIGHTS the need to ensure the calibration and validation of satellite data and
+information products, using reliable high quality in situ data, with documented quality, access
+to analysis ready data, the fusion of data from all sources and different resolutions, as well as
+the rapid availability of high-quality data in order to maximise their use;
+22. SUPPORTS the ambition of offering advanced public data and products to foster downstream
+commercial activities; and CALLS ON the Commission to ensure that Copernicus can play an
+important role for EU industry by offering contracts for obtaining data of a minimum standard
+on the basis of user needs, data quality and scientific relevance;
+23. RECOMMENDS stepping up the efforts on the implementation of policies to foster the use of
+Copernicus data in public services, at European and national levels, in non-space sectors, and
+remove barriers to policies and regulations that hinder their use where necessary;
+24. CONSIDERS that international cooperation on Earth observations is essential to effectively
+achieve international common policy objectives; and UNDERLINES the need for reciprocity
+in agreements and administrative arrangements negotiated with international partners and the
+need to reach a balance between EU autonomy and cooperation, including through more
+effective interfaces with international Earth observation groups and institutions;
+CDP/FB/nj 9
+9156/22
+ANNEX COMPET.2 LIMITE FR/EN
+25. On the user uptake:
+a. RECOMMENDS the active participation and the informed opinion of the Copernicus
+User Forum, based in particular on feedback from users and Member States, for the
+development of the Services, including space data and products, as well as for the
+acquisition of new data, the use of additional information and for the user uptake of
+Copernicus;
+b. UNDERLINES the importance of implementing at least one Copernicus data and
+information access platform associated with computing resources to support economic
+ecosystems and research; and of networking national data platforms in order to ensure a
+sustainable and independent European access to data and information products;
+c. RECOMMENDS to the Commission, together with Copernicus entrusted entities,
+including EUSPA, and the involvement of Member States, to define a coherent user
+uptake strategy and the associated action plan by mid-2023 in order to support EU and
+national policies and while targeting socio-economic value creation enabled by the EU
+space programme, in particular:
+i. the development of solutions to make the Copernicus data and products easier to
+use for evidence-based decisions, especially for decision-makers and institutions
+in charge of public policies;
+ii. the need to develop cross-cutting and multi-disciplinary services required for user
+uptake development including by non-space actors;
+iii. the cross-fertilisation between various components of the EU space programme
+such as Galileo and Copernicus;
+CDP/FB/nj 10
+9156/22
+ANNEX COMPET.2 LIMITE FR/EN
+iv. the support to national user forums, Copernicus relays and the Copernicus
+Academy and other nationally-driven initiatives making good use of existing EU
+instruments, in order to expand user uptake actions across Member States with the
+support of the entrusted entities, taking advantage of the Copernicus User Forum’s
+recommendations;
+v. the opportunity to acquire the skills to develop user uptake and contribute to
+reducing the space and digital divide across Europe, in particular through
+capacity-building in all Member States and training of national professionals,
+entrepreneurs and academics;
+vi. the development of targeted measures to enhance capacity across Member States
+with an emerging space industry, support the New Space ecosystem and the
+downstream sector.
+CDP/FB/nj 11
+9156/22
+ANNEX COMPET.2 LIMITE FR/EN

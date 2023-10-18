@@ -1,0 +1,280 @@
+<mxfile host="app.diagrams.net" modified="2023-10-17T08:26:55.150Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="aEStiWh7NouwQgHK3Awq" version="22.0.4" type="device">
+  <diagram id="5iNx0ZU46_tYuDRQRulb" name="Page-1">
+    <mxGraphModel dx="1605" dy="2081" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" source="I-dlYKEXNDgs5K42s7pv-2" target="I-dlYKEXNDgs5K42s7pv-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-2" value="PDF inlezen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-3" value="python pdftextsplitter package (process-stap)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#CCFFFF;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-497" width="1180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-4" value="Interpretatie" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I-dlYKEXNDgs5K42s7pv-6" target="I-dlYKEXNDgs5K42s7pv-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-6" value="Breakdown" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="540" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-7" value="Samenvatten" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="780" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-347.5" as="sourcePoint" />
+            <mxPoint x="780" y="-347.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="-347.5" as="sourcePoint" />
+            <mxPoint x="1020" y="-347.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-11" value="Djangotextsplitter app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="-497" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-12" value="Write to DB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFF33;strokeColor=#FF9933;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1260" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-13" value="Add django-info" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFF33;strokeColor=#FF9933;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1500" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF9933;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="-347.5" as="sourcePoint" />
+            <mxPoint x="1260" y="-347.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF9933;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="-347.5" as="sourcePoint" />
+            <mxPoint x="1500" y="-347.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-16" value="HTML parsing" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1020" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-17" value="&lt;div&gt;&lt;b&gt;Text regel-voor-regel uitlezen m.b.v. pdfminer library. De benodigde informatie wordt &lt;u&gt;per regel&lt;/u&gt; opgeslagen:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- String content&lt;/div&gt;&lt;div&gt;- page number&lt;/div&gt;&lt;div&gt;- vertical positie y0&lt;/div&gt;&lt;div&gt;- hor. positie x0 (bbox)&lt;/div&gt;&lt;div&gt;- font size&lt;/div&gt;&lt;div&gt;- font style&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dit wordt uitgevoerd in textgeneration.py onderdeel van textpart-class. Daarnaast zijn er nog ducument_metadata.py (voor het uitlezen van creation date &amp;amp; andere metadata) en read_native_toc.py (voor het uitlezen van de table fo contents; als die bestaat). Deze twee zijn onderdeel van de textsplitter-class.&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-277" width="220" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-18" value="&lt;div&gt;&lt;b&gt;De informatie dat bijv. de lettergrootte 13.3 is, betekent op zichzelf niets. In deze stap hangen we hier betekenissen aan. &lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Voor de font size: we maken een histogram (fontzizehist.py van textpart) en definieren regio&#39;s (fontregion.py van textpart). Bijvoorbeeld [2.3;12.4] betekent dat het lettertype klein is. De regio met de hoogste frequentie is het normale lettertype en regio&#39;s daaromheen zijn groot of klein. Elke regio correspondeert met een piek in het histogram.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Andere interpretatiestappen zijn witregels (whitelinehist.py en lineregion.py van textpart) en het berekenen van de header &amp;amp; footer boundary (calculate_footerboundaries.py van textpart). Hierna staat alles klaar om het document op te splitsen in onderdelen.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="270" y="-277" width="220" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-19" value="&lt;div&gt;&lt;b&gt;We lopen 1x door het document heen van begin tot eind en beslissen &lt;u&gt;per textregel&lt;/u&gt; welk type (titel/footer/body/hoofdstuktitel/&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;opsomming) deze regel is. Dit label kennen we toe in masterrule.py van textpart. Met deze informatie beslissen we in breakdown.py van textsplitter per regel of er een nieuw textonderdeel moet worden aangemaakt of niet.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;We werken hier met een CurrentLine-object (CurrentLine.py) waar we informatie van de huidige textregel, maar ook van de vorige en volgende in opnemen. &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Breakdown.py maakt dan een serie textalinea-objecten (textalinea.py van textsplitter) aan; elk met een eigen titel. shiftcontents.py en calculatetree.py van textsplitter finetunen de uitkomst.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-277" width="220" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-20" value="&lt;div&gt;&lt;b&gt;We vatten het document samen per textalinea-object.&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;We beginnen onderaan de hierarchy en vatten de textinhoud samen. Hoger in de hierarchy voegen we de samenvatting van de kinderen toe (onderaan) de textinhoud van het element zelf en vatten opnieuw samen. We maken dus samenvattingen van samenvattingen.&lt;/span&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;calculatetree.py heeft de hierarchy vastgesteld o.b.v. de volgorde van aanmaken (breakdown.py) en het textlevel (uitkomst van masterrule.py; zie hieronder).&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&amp;nbsp;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;De samenvattingsprocedure wordt uitgevoerd in Layered_summary.py van textsplitter. Een enkele samenvattingsopdracht van 1 grote string wordt uitgevoerd door summarize.py van textsplitter. summarize.py maakt verbinding met ChatGPT en is dus de enige module die je niet kunt dummy-testen.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="751" y="-277" width="220" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-21" value="&lt;div&gt;&lt;b&gt;Nu alle data en uitkomsten bekend zijn, voegen we die samen in 1 grote string en file van html-code.&lt;/b&gt; Elk textalinea-object krijgt zijn eigen div-class en deze div omvat ook de divs van de kinderen. We bouwen de code dus van onderaf in de hierarchie op, zodat je elk textalinea-object afzonderlijk kunt uitklappen.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Dit wordt uitgevoerd in textparser.py van textsplitter. Hij kent 2 modes: standalone en django. standalone creert een complete html-code en schrijft deze ook weg naar een file. Als je deze koppelt aan de juiste css-files, kunt je de samenvattingen offline openen en gebruiken.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;django creëert een html-code block dat je als content kunt parsen naar een template. De template moet de &amp;lt;html&amp;gt;, &amp;lt;head&amp;gt;, etc. tags plaatsen. Er wordt geen output-file gegenereerd, alleen een inmemory-string.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="990" y="-277" width="220" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-22" value="&lt;div&gt;&lt;b&gt;djangotextsplitter is een redistributable django-app zonder urls, views, static files of templates. Hij bevat database modellen (models.py) en lees en schrijffuncties (loads.py, newwrites.py, overwrites.py, deletes.py) om de uitkomsten van textsplitter efficiënt op te kunnen slaan en/of uit te lezen.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;De model-structuur is een afspiegeling van de class-structuur van textsplitter (zie class inheritance diagram) en de lees- en schrijffuncties zijn recursief. Dat wil zeggen dat een commando als&lt;/div&gt;&lt;div&gt;db_object = newwrite_textsplitter(mysplitter) ook alle afstammelingen van textsplitter meeneemt. &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;djangotextsplitter staat je dus toe om resultaten van de textsplitter gemakkelijk en efficiënt te communiceren van/naar de datatbase achter je django-applicatie.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#FFFF99;align=left;verticalAlign=top;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="-277" width="220" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-24" value="De werking van masterrule.py" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#CCFFFF;" parent="1" vertex="1">
+          <mxGeometry x="30" y="290" width="1180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-25" value="Masterrule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="540" y="380" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-26" value="Title rule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-27" value="Footer rule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-28" value="Headlines rule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="540" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-29" value="Enumeration" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="780" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-30" value="Body rule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1020" y="620" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" target="I-dlYKEXNDgs5K42s7pv-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="440" as="sourcePoint" />
+            <mxPoint x="670" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" source="I-dlYKEXNDgs5K42s7pv-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="440" as="sourcePoint" />
+            <mxPoint x="380" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I-dlYKEXNDgs5K42s7pv-25" target="I-dlYKEXNDgs5K42s7pv-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="450" as="sourcePoint" />
+            <mxPoint x="620" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" source="I-dlYKEXNDgs5K42s7pv-25" target="I-dlYKEXNDgs5K42s7pv-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="450" as="sourcePoint" />
+            <mxPoint x="390" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" target="I-dlYKEXNDgs5K42s7pv-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="440" as="sourcePoint" />
+            <mxPoint x="1000" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-36" value="&lt;div&gt;&lt;b&gt;Deze selectie-regel beslist of een text-regel een titel is of niet.&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Input: CurrenLine-object, Output: boolean (het is dit object of niet) en textlevel (integer).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Deze regel moet nog worden geïmplementeerd en retourneert dus altijd False &amp;amp; 0.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="30" y="700" width="220" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-37" value="&lt;div&gt;&lt;b&gt;Deze selectie-regel beslist of een text-regel een header/footer is of niet.&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Input: CurrenLine-object, Output: boolean (het is dit object of niet) en textlevel (integer).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Hiervoor worden de z.g. header/footer boundaries gebruikt.&lt;/b&gt; Dit zijn twee grens-waardes o.b.v. de verticale positie van de textsregel (y0 van bbox) op de pagina. Als een textregel boven de header-boundary ligt of onder de footer-boundary, dan is deze regel onderdeel van de footer (header &amp;amp; footer worden dus samen gebundeld in 1 class).&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Ook als het lettertype &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;kleiner is dan regular&lt;/b&gt; (deze regio is bij interpretatie vastgesteld), is de textregel onderdeel van de footer, zelfs als hij tussen de 2 boundaries valt. &lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;textlevel is body-level+1&lt;/b&gt; (body-level is het nr. van de regio van groot naar klein dat de hoogste frequentie heeft, zie interpretatie).&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="270" y="700" width="220" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-38" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Deze selectie-regel beslist of een text-regel een hoofdstuktitel is.&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Input: CurrenLine-object, Output: boolean (het is dit object of niet) en textlevel (integer).&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Grofweg is een regel een hoofdstuktitel als er simultaan voldaan wordt aan de volgende 3 voorwaarden:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;1) Letter-conditie:&lt;/b&gt; de regel bevat (zonder spaties mee te tellen) ten minste 67% letter-characters. Die 67% is niet toevallig gekozen.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;2) Above-conditie: &lt;/b&gt;de regel wordt voorafgegaan door een witregel die groter is dan regular OF door een textregel die ook een hoofdstuktitel was (dan loopt de titel over meerdere regels).&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;3) Below-conditie: &lt;/b&gt;de regel heeft OF een font-size groter dan regular, OF een bold/highlighted fontstyle, OF wordt gevolgd door een witregel groter dan regular. In het geval alleen wordt voldaan aan de witregel, geldt er een extra regex-voorwaarde, om losse textregels te onderscheiden van hoofdstuktitels.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;het textlevel wordt vastgesteld o.b.v. regex expressies:&lt;/b&gt; als een regel met een bepaald patroon begint zoals Hoofdstuk 2; 2.3; etc. wijzen we een textlevel toe. Als er geen bekend patroon gevonden wordt, is het textlevel de nummer van de fontsize-regio zoals vastgesteld in interpretatie.&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="510" y="700" width="220" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-39" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Deze selectie-regel beslist of een text-regel standaard body-text is of niet.&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Input: CurrenLine-object, Output: boolean (het is dit object of niet) en textlevel (integer).&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Text is alleen body-text als het lettertype valt binnen de regio met de hoogste frequentie:&lt;/b&gt; de reguliere regio (zie interpretatie).&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Het textlevel is in dit geval het nr. van de regio met deze hoogste frequentie (geordend van hoog naar laag).&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="990" y="700" width="220" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-40" value="&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Deze selectie-regel beslist of een text-regel een element van een opsomming is.&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Input: CurrenLine-object, Output: boolean (het is dit object of niet) en textlevel (integer).&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Een opsomming kan op 6 manieren gemarkeerd worden:&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Hoofdletter Romeinse cijfers&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Romeise cijfers met kleine letters&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Hoofdletters&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Kleine letters&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Cijfers&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Leestekens&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;We detecteren deze markering m.b.v. regex-expressies. &lt;/b&gt;De hierarch (welke opsomming een element is van een grotere opsomming) o.b.v. de volgorde die we tegenkomen in het document. Die volgorde wordt voor elke nieuwe headlines (hoofdstuktitel) opnieuw vastgesteld.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;De code voor alle 6 elementen lijkt wel wat op elkaar, omdat je 6x bijna hetzelfde moet doen: eerst detecteren of je het element al bent tegengekomen en daarna beslissen of je een nieuw element moet aanmaken.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;En o.b.v. volgorde vaststellen dat een h) en i) beide een letter-opsomming zijn en dat de i) dan geen romeins cijfer is.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b&gt;Het textlevel stellen we vast o.b.v. het level van het hoofdstuk waar de opsomming onder valt.&lt;/b&gt; Het eerste type opsomming krijg hoofdstuk+1 als level, het tweede hoofdstuk+2, etc.&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="750" y="700" width="220" height="950" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-41" value="&lt;div&gt;&lt;b&gt;Let op! Complexe code!&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;De code in de headlines-rule kent nogal wat uitzonderingen en speciale if/then constructies die de code nogal onoverzichtelijk kunnen maken en die waarschijnlijk uit de lucht lijken te komen vallen. Dit is het gevolg van de regressietest-aanpak: We nemen telkens een document en dan eisen we dat de hoofdstuktitels, opsommingen, etc. 100% correct worden herkend om het document toe te voegen aan de regressietest. En dan passen we de code aan terwijl we eisen dan bestaande regressietesten geldig blijven. En aangezien elk document zo wel weer zijn specifieke eigenaardigheden kent, komen er dus steeds uitzonderingen en specifieke cases bij.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;De meest overzichtelijk testmethode is:&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;textpart.set_verbosetextline(&quot;my text&quot;)&lt;/div&gt;&lt;div&gt;textpart.set_ruleverbosity(1)&lt;/div&gt;&lt;div&gt;te specificeren voordat de regels worden toegepast. Dan toont textsplitter het volledige beslissingsproces van alle selectieregels voor elke textregel in het document waar de string &quot;my text&quot; in voorkomt. Dan kun je dus problematische regels goed zichtbaar maken en snel zien hoe de code moet worden aangepast (en vergeet niet om dan onmiddellijk de regressietesten te draaien en te controleren dat bestaande testen en documenten nog steeds werken, anders ben je zo vergeten welke veranderingen wel en niet hadden gemoeten).&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="30" y="1250" width="462" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="-347.63" as="sourcePoint" />
+            <mxPoint x="540" y="-347.63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-43" value="&lt;div&gt;&lt;b&gt;Als meerdere regels tegelijk een True geven, beslist masterrule welk label het belangrijkste is (en dat is dan ook het textlevel wat gebruikt wordt). De volorde is:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Titel&lt;/div&gt;&lt;div&gt;- Footer&lt;/div&gt;&lt;div&gt;- Headlines&lt;/div&gt;&lt;div&gt;- Enumeration&lt;/div&gt;&lt;div&gt;- Body&lt;/div&gt;&lt;div&gt;- Unknown (als alles False is).&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="990" y="360" width="220" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-44" value="Interpretatie-fase" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#CCFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="290" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-45" value="&lt;div&gt;&lt;b&gt;Voor font sizes is dit proces redelijk overzichtelijk (zie het flow-diagram hierboven). Voor witregels is dit iets lastiger. De witregels worden uitgerekend als het verschil tussen de verticale posities (y0 van bbox) van opeenvolgende textregels. Dit brengt de uitdaging met zich mee hoe je een witregel moet uitrekenen bij een wissel van pagina.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Hiervoor gebruiken we de header &amp;amp; footer boundaries. Als een verschil negatief is (omdat de 2de regel bovenaan de volgende pagina staat), dan tellen we het verschil tussen de boundaries erbij op. De werkelijke implementatie van deze methode is nogal lastig met &#39;tussentijdse histogrammen&#39; en het verplaatsen van bin-boundaries, omdat de bbox-posities in een PDF-file meestal wat fluctueren. En natuurlijk weet je ook niet hoeveel textregels er onder header &amp;amp; footer vallen bij een pagina-wissel en met welke regels je dan de verschillen moet uitrekenen.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Wanneer alle witregels eenmaal correct uitgerekend zijn in whitelinehist.py van textpart, genereren we weer een histogram en wijzen we regio&#39;s toe, analoog aan de methode van fontsizes in lineregion.py. Dit proces is ook net even anders, opnieuw omdat witregels meer fluctueren dan lettertype groottes.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="360" width="430" height="380" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-46" value="&lt;div&gt;&lt;b&gt;Voor het uitrekenen van de header &amp;amp; footer boundaries, loopen we dubbel door het document heen en vergelijk de textregels in paren o.b.v. fuzzy-matching. &lt;/b&gt;Als de match 70% of meer is (met zorg gekozen), dan tellen we het als overlap. Welnu: regels die zichzelf vaker herhalen dan 1 + #pages/5.1 (#pages is aantal pagina&#39;s va het hele document) zijn waarschijnlijk onderdeel van de header/footer.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Daarnaast detecteren we ook pagina-nummers o.b.v. of een textregel begint/eindigt met een getal en dat dit getal een vast verschil vormt met de pagina-nummers in het bestand.&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Regels op het bovenste 3de deel van de pagina die aan een van deze twee condities voldoen, horen bij de header. De headerboundary is dan het min. van de verticale posities van al deze regels in het document.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Voor de footerboundary werkt het net zo. Alleen pagina-nummers moeten zich op de onderste 20% van het document bevinden en tellen alleen mee voor de footer, niet voor de header.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Let wel: nadat de header &amp;amp; footer boundaries zijn berekend, is het de footer-rule die besluit of iets daadwerkelijk header/footer is. &lt;/b&gt;dat kunnen dus ook regels zijn die geen pagina-nummers en/of herhalingen zijn, maar toevallig onder of boven de boundaries vallen of een te klein lettertype hebben.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="750" width="430" height="448" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-47" value="&lt;b&gt;Nadat al het interpretatiewerk gedaan is, moeten de uitkomsten van de main textsplitter class worden doorgegeven aan de rule-classes.&lt;/b&gt; &lt;br&gt;&lt;br&gt;De main textsplitter class heeft een instance van de title-class (die erf van textpart) in zich, een van de footer-class, etc. De uitkomsten van de interpretatie moeten aan deze instances worden gecommuniceerd, zodat de selectieregels deze informatie kunnen gebruiken bij het maken van beslissingen. Dit wordt gedaan door de passinfo functie (passinfo.py van textsplitter). Deze functie moet dus altijd worden uitgevoerd tussen de interpretatiefase en de breakdownfase in." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="1279" width="430" height="371" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-48" value="Passing Information" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#CCFFFF;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="1208" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-49" value="Queue logging" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#00FF00;strokeColor=#006600;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="-970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-50" value="Celery process-task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#99FF99;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-1070" width="1180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-51" value="Perform checks" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#00FF00;strokeColor=#006600;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="-970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-52" value="Parameters" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#00FF00;strokeColor=#006600;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="540" y="-970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-53" value="Process" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#00FF00;strokeColor=#006600;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="780" y="-970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-54" value="Cleanup" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#00FF00;strokeColor=#006600;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1020" y="-970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-55" value="Interpretatie" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#006600;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="-940.21" as="sourcePoint" />
+            <mxPoint x="300" y="-940.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#006600;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-940.71" as="sourcePoint" />
+            <mxPoint x="780" y="-940.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#006600;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="-940.71" as="sourcePoint" />
+            <mxPoint x="1020" y="-940.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#006600;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="-940.8399999999999" as="sourcePoint" />
+            <mxPoint x="540" y="-940.8399999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-60" value="&lt;b&gt;In het model Wachtrij_Currentstatus verplaatsen we de task van dit document van &#39;In wachtrij&#39; naar &#39;Verwerken&#39;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Wordt gedaan zodra de Celery-worker begint aan de task. De task wordt ingepland in de wachtrij zodra de gebruiker op de knop &#39;verwerken&#39; klikt." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#99FF99;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-870" width="220" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-61" value="&lt;div&gt;&lt;b&gt;We checken (opnieuw; in de view is dit ook gecheckt) dat alles klaar staat om een processing-slag te maken. Er moet worden voldaan aan 4 eisen:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;1) De PDF moet van S3 zijn gedownload naar de django repo zodat hij kan worden uitgelezen.&lt;/div&gt;&lt;div&gt;2) De Instance &#39;TheParameters&#39; van het model &#39;TextSplitter_Parameters&#39; moet aanwezig zijn&lt;/div&gt;&lt;div&gt;3) Er moet een PDFUpload-model aanwezig zijn voor dit document.&lt;/div&gt;&lt;div&gt;4) Het document moet publiek zijn.&lt;/div&gt;&lt;div&gt;Als hier niet aan wordt voldaan, stoppen we de task met een logging-message dat de task is afgebroken (zie cleanup).&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#99FF99;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="270" y="-870" width="220" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-62" value="&lt;div&gt;&lt;b&gt;We creëren een nieuwe instance van een textsplitter-class. We specificeren alle parameters volgens de &#39;TheParameters&#39;-instance:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Histogramsize &lt;br&gt;&lt;/div&gt;&lt;div&gt;- MaxSummaryLength&lt;br&gt;&lt;/div&gt;&lt;div&gt;- Summarization threshold&lt;/div&gt;&lt;div&gt;- Language Model&lt;/div&gt;&lt;div&gt;- Language Choice&lt;/div&gt;&lt;div&gt;- Language Temperature&lt;/div&gt;&lt;div&gt;- MaxCallRepeat&lt;/div&gt;&lt;div&gt;- Use DummySummary&lt;/div&gt;&lt;div&gt;Zie textsplitter documentatie voor details van deze parameters. Via de admin kun je het vinkje UseDummySummary van &quot;TheParameters&quot; gebruiken om te schakelen tussen dummy mode en productie-mode (dit kost geld).&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#99FF99;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-870" width="220" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-63" value="&lt;b&gt;Dit is het runnen van de process-functie van textsplitter (zie hieronder in het blauw), gevolgd door het opslaan van de resultaten in de database m.bv. djangotextsplitter (zie hieronder in het geel); Dit is de heavy-lifting van de task.&amp;nbsp;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#99FF99;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="750" y="-870" width="220" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-64" value="&lt;div&gt;&lt;b&gt;De Cleanup-fase bestaat uit 2 stappen:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;1) Het wissen van de PDF uit de django-repo nu we klaar zijn met de verwerking van het document.&lt;/b&gt; Het document is dan nog steeds beschikbaar via S3, maar de repo heeft eindige opslag, dus die moeten we schoon houden.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;2) Afsluiten van de logging. &lt;/b&gt;De task wordt van het model Wachtrij_Currentstatus (Verwerken) verplaatst naar het model Wachtrij_Logging, waar je uitkomsten zoals tijdsduur, prijs, etc. achteraf kunt raadplegen.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#99FF99;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="990" y="-870" width="220" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-65" value="Celery updatehtml-task" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#CCCC00;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="-1070" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-66" value="Queue logging" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#00FF00;strokeColor=#006600;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1240" y="-970" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-67" value="Perform checks" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#00FF00;strokeColor=#006600;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1240" y="-890" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-68" value="Read from DB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFF33;strokeColor=#FF9933;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1240" y="-810" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-69" value="HTML parsing" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1240" y="-730" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-70" value="Write to DB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFF33;strokeColor=#FF9933;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1240" y="-650" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-71" value="Idem aan process." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#99FF99;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="-970" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-72" value="Idem aan process. Alleen nu is de check dat er een instance van textsplitter moet zijn in de DB." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#99FF99;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="-890" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-73" value="Idem aan write to DB, maar nu gebruiken we loads.py in plaats van newwrites.py &amp;amp; overwrites.py" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#FFFF66;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="-810" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-74" value="Idem aan write to DB bij een process-task." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#FFFF99;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="-650" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-75" value="Idem aan process." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#99FFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="-730" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-76" value="Cleanup" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#00FF00;strokeColor=#006600;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1240" y="-570" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-77" value="Idem aan process. Alleen hoeft er nu geen PDF gewist te worden, alleen logging." style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#99FF99;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="1410" y="-570" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H7H3cbQcRruzKG0OLxVC-1" value="&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Sommige informatie (zoals de gebruiker die opdracht heeft gegeven voor het maken van de samenvatting) heeft alleen betekenis binnen django, niet in python.&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;Deze informatie moet je dus handmatig toevoegen aan je django-model van textsplitter (of afstammelingen) en het model dan opnieuw opslaan.&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Django-specifieke informatie kan niet gemanaged worden met de lees- en schrijffuncties omdat er geen python-equivalent van deze informatie bestaat.&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;op 9 okt 2023 is de enige case van deze informatie het user-field in textsplitter.&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#FFFF99;align=left;verticalAlign=top;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="-277" width="220" height="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

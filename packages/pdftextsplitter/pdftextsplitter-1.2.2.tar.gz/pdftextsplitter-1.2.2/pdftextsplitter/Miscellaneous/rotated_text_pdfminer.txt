@@ -1,0 +1,76 @@
+
+
+After a lot of investigation I finally found a way to do this in character level by using the matrix included in LTChar.
+
+So in order to get all of the characters with 0 degrees i do the following:
+
+for page in label_pages:
+    for element in page:
+        if isinstance(element, LTTextContainer):
+            for text_line in element:
+                for character in text_line:
+                    if isinstance(character, LTChar):
+                        if character.matrix[0]>0 :
+                            print('======================')
+                            print('text:',character.get_text())    
+                            print('matrix:',character.matrix)     
+                            (_,_,x,y) = character.bbox 
+                            print('x dim:',x,'and y dim:',y) 
+                            print('\n') 
+
+Share
+Improve this answer
+Follow
+edited Sep 25, 2020 at 15:29
+answered Sep 25, 2020 at 13:37
+Vagelis's user avatar
+Vagelis
+6677 bronze badges
+Add a comment
+0
+
+As stated before, the orientation of character are based on an 6 elements array that code all transformations of the character (translation, scaling rotation and skewing).
+
+For rotation it will be code as follow: [cos θ sin θ −sin θ cos θ 0 0]
+
+By looking at the orientation of the first character of the LTTextBox, you can assume the general orientation like this:
+
+from pdfminer.layout import LAParams, LTTextBox, LTTextLine, LTChar
+from pdfminer.pdfpage import PDFPage
+from pdfminer.pdfinterp import PDFResourceManager
+from pdfminer.pdfinterp import PDFPageInterpreter
+from pdfminer.converter import PDFPageAggregator
+
+fp = open(<filepath>, 'rb')
+rsrcmgr = PDFResourceManager()
+laparams = LAParams(detect_vertical=True, all_texts=True)
+device = PDFPageAggregator(rsrcmgr, laparams=laparams)
+interpreter = PDFPageInterpreter(rsrcmgr, device)
+pages = PDFPage.get_pages(fp)
+
+for page in pages:
+        interpreter.process_page(page)
+        layout = device.get_result()
+    
+        for lobj in layout:
+            if isinstance(lobj, LTTextBox):
+              
+              # LTTextBox, LTTextLine, LTChar are not subscriptable
+              # we can access the first character using the list function:
+              first_matrix =list(list(lobj)[0])[0].matrix
+
+              if first_matrix[0] == 0 and first_matrix[1] == 1:
+                rotation = 90
+              if first_matrix[0] == -1 and first_matrix[1] == 0:
+                rotation = 180
+              if first_matrix[0] == 0 and first_matrix[1] == -1:
+                rotation = 270
+              else:
+                rotation = 0
+
+ref:
+
+    https://pdfminersix.readthedocs.io/en/latest/tutorial/extract_pages.html
+    https://github.com/pdfminer/pdfminer.six/issues/454
+    https://ghostscript.com/~robin/pdf_reference17.pdf (SECTION 4.2 - 4.2.2 Common Transformations)
+

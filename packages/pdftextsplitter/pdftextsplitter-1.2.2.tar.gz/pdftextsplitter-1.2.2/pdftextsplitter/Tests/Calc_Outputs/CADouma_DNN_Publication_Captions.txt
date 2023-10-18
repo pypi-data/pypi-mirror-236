@@ -1,0 +1,31 @@
+Fig. 1. Overview of the first version of the R3 B setup in Cave C at GSI [9], used with permission.
+Fig. 2. The full 30 dp NeuLAND geometry, as it was considered in our simulations.
+Fig. 3. The current state of the construction of the NeuLAND detector (8 dp) [10];
+figure used with permission.
+Fig. 4. The Different steps in the NeuLAND data analysis. The upper branch illustrates the steps used for simulated data and the lower branch illustrates the steps used for
+measured data.
+Fig. 5. Illustration of the TDR algorithm for multiplicity determination in the situation for a 30 dp NeuLAND and a 600 MeV neutron energy. The number of detected neutrons
+refers to the number of assigned shower heads by the ‘‘Perfect Tracking’’ algorithm. The red numbers in the upper left corners refer to the fraction of events in each histogram
+that falls between the respective cuts (black lines) in that histogram. See text for further details.
+Fig. 6. Performance of the multiplicity determination in NeuLAND. For different neutron multiplicities fired by the particle gun, the percentage of events where that multiplicity
+was established, is plotted against the number of NeuLAND double-planes (dp). The full results are shown as solid lines for the TDR algorithm, the new DNN algorithm and for
+the ‘‘Perfect Tracking’’ algorithm, which gives the highest possible performance. The dashed lines correspond to the restricted scenario; the part of events where false-positives are
+excluded. The simulations are performed with a neutron energy of 200 MeV. 200,000 events were simulated per multiplicity-figure. See text for further details.
+Fig. 7. Same as Fig. 6, but for a neutron energy of 600 MeV.
+Fig. 8. Same as Fig. 6, but for a neutron energy of 1000 MeV.
+Fig. 9. Invariant Mass spectra for 4 neutrons, each carrying an energy of 200 MeV. The spectra (a, b, c, d and e) were reconstructed from different NeuLAND configurations (in
+terms of dp). Four times the mass of the free neutron was subtracted from the total invariant mass, which is why the figures are labeled ‘Invariant Mass Difference’. The results
+of the TDR, the DNN and the ‘‘Perfect Tracking’’ algorithms are plotted, together with their statistical uncertainties (around the data) and their systematic uncertainties from the
+physics list (separate bands). To obtain the results for each curve, 200,000 4𝑛 events were simulated. See text for further details.
+Fig. 10. Same as Fig. 9, but for a neutron energy of 600 MeV.
+Fig. 11. Same as Fig. 9, but for a neutron energy of 1000 MeV.
+Fig. 12. Performance of the neutron multiplicity determination as a function of 𝛥𝜃max . The full results are shown as solid lines for the TDR, DNN and ‘‘Perfect Tracking’’ algorithms.
+The dashed lines correspond to the restricted scenario; the part of events where the false-positives are excluded. The simulations are performed for a neutron energy of 600 MeV,
+a NeuLAND configuration of 30 dp and a distance between NeuLAND and the target of 14 m. See text for further details.
+Fig. 13. Invariant Mass spectra for 4 neutrons, each carrying an energy of 600 MeV. A NeuLAND configuration of 30 dp at a distance of 14 m was used. Four times the mass
+of the free neutron was subtracted from the total invariant mass, which is why the figures are labeled ‘Invariant Mass Difference’. The spectra are plotted for different values of
+𝛥𝜃max . To obtain the results for each curve, 200,000 4𝑛 events were simulated. See text for further details.
+Fig. 14. This project has received funding from the European Union’s Horizon 2020
+research and innovation programme under grant agreement No. 654002.
+Table 2
+Optimalization of the DNN network structure.

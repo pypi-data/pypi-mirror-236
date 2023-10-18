@@ -1,0 +1,47 @@
+C.A. Douma a ,∗, E. Hoemann b , N. Kalantar-Nayestanaki a,c ,∗, J. Mayer b , for the R3 B Collaboration
+a KVI-CART, University of Groningen, Groningen, The Netherlands
+b
+c
+Present address: Nuclear Energy Group, ESRIG, University of Groningen, Groningen, Netherlands
+near Darmstadt in Germany.
+C.A. Douma: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Writing - original draft, Writing
+Methodology, Investigation, Writing - review & editing. N. KalantarNayestanaki: Conceptualization, Validation, Resources, Data curation,
+Writing - review & editing, Visualization, Supervision, Project administration, Funding acquisition. J. Mayer: Conceptualization, Software,
+We would like to thank C. A. Marocico, J. Messchendorp and L. R.
+Zwerver for their helpful discussions about the use of Machine Learning
+Networks. We also would like to thank K. Boretsky, I. Gašparić, A. M.
+Heinz, H. T. Johansson and O. Tengblad for the helpful discussions
+about the results presented in this work and for their useful comments
+on the manuscript. J. Mayer is funded by the BMBF (05P19PKFNA) and
+the GSI (KZILGE1416). C. A. Douma is funded by the European Union’s
+Horizon 2020 research and innovation programme collaboration, see
+Fig. 14.
+In this appendix, the optimalization procedure for the DNN network
+multi-label classification, Proc. Mach. Learn. Res. 48 (2016) 1614–1623, URL
+http://proceedings.mlr.press/v48/martins16.html.
+[23] F. Chollet, et al., Keras, GitHub Repository. URL https://keras.io/.
+[24] M. Abadi, et al., TensorFlow: Large-Scale Machine Learning on Heterogeneous
+Distributed Systems, ArXiv http://arxiv.org/abs/1603.04467.
+[25] J. Schmidhuber, Deep learning in neural networks: An overview, Neur. Netw.
+61 (2015) 85–117, http://dx.doi.org/10.1016/j.neunet.2014.09.003, URL http:
+//www.sciencedirect.com/science/article/pii/S0893608014002135.
+[26] J. Duchi, et al., Adaptive subgradient methods for online learning and stochastic
+optimization, J. Mach. Learn. Res. 12 (2011) 2121–2159, URL http://www.jmlr.
+org/papers/volume12/duchi11a/duchi11a.pdf.
+[27] Z. Szabó, et al., Cross-entropy optimization for independent process analysis, ICA
+2006: Ind. Comp. A. and Blind Signal Sep. (2006) 909–916, http://dx.doi.org/
+10.1007/11679363_113.
+[28] C.A. Douma, DNN module for R3 BRoot. URL https://github.com/R3BRootGroup/
+NeuLAND_DNN.git.
+[29] K. Boretzky, et al., NeuLAND - from Double-Planes to the Demonstrator, 20151 of GSI Report, GSI Helmholtzzentrum für Schwerionenforschung, Darmstadt,
+2015, http://dx.doi.org/10.15120/GR-2015-1-MU-NUSTAR-NR-12, URL https:
+//repository.gsi.de/record/183944/files/MU-NUSTAR-NR-12.pdf.
+[30] Z.H. Yang, et al., Study of Multi-neutron Systems with SAMURAI Spectrometer,
+Recent Progress in Few-Body Physics 238. URL.
+[31] C.A. Douma, et al., Gamow-Teller strength distributions of116 Sb and122 Sb using
+the (3 He, 𝑡) charge-exchange reaction, Eur. Phys. J. A 56 (2) (2020) 51,
+http://dx.doi.org/10.1140/epja/s10050-020-00044-9, URL https://epja.epj.org/
+articles/epja/abs/2020/02/10050_2020_Article_44/10050_2020_Article_44.html.
+[32] The Geant4 collaboration, Geant4 User’s Guide for Application Developers, Tech.
+rep., CERN, 2008, URL http://lmu.web.psi.ch/docu/manuals/software_manuals/
+Geant4/Geant4_BookForAppliDev.pdf.

@@ -1,0 +1,165 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Export_Alinea_test_d] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = TestTex
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1 Eerste hoofdstuk 2 1.1 Eerste sectie in het eerste hoofdstuk. . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2 En nog een sectie . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2.1 Zelfs met een subsectie erin!!! . . . . . . . . . . . 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Test title
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Remco van Groesen Ministerie van Infrastructuur en Waterstaat March 23, 2023
+ nativeID=2 parentID=1 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Contents
+ nativeID=3 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1 Eerste hoofdstuk 2 1.1 Eerste sectie in het eerste hoofdstuk. . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2 En nog een sectie . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2.1 Zelfs met een subsectie erin!!! . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 2 Tweede hoofdstuk 3 2.1 Dit is alles wat in het tweede hoofdstuk staat . . . . . . . . . . . . . . . . . . . . . . 3 
+
+ [ALINEA-CONTENT]:
+1 Eerste hoofdstuk
+2
+1.1 Eerste sectie in het eerste hoofdstuk. . . . . . . . . . . . . . . . . . . . . . . . . . . . 2
+
+          ***          [--- more alinea content ---]        ***          
+
+2 Tweede hoofdstuk
+3
+2.1 Dit is alles wat in het tweede hoofdstuk staat . . . . . . . . . . . . . . . . . . . . . . 3
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Chapter 1
+ nativeID=4 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Eerste hoofdstuk
+ nativeID=5 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Hier staat een inleidende tekst. Hier staat over het algemeen een hele hoop tekst Wow, nog een sectie???? Dit had ik niet verwacht.
+
+ [ALINEA-CONTENT]:
+Hier staat een inleidende tekst.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.1 Eerste sectie in het eerste hoofdstuk.
+ nativeID=6 parentID=5 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Hier staat over het algemeen een hele hoop tekst
+
+ [ALINEA-CONTENT]:
+Hier staat over het algemeen een hele hoop tekst
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.2 En nog een sectie
+ nativeID=7 parentID=5 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Wow, nog een sectie???? Dit had ik niet verwacht.
+
+ [ALINEA-CONTENT]:
+Wow, nog een sectie????
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 1.2.1 Zelfs met een subsectie erin!!!
+ nativeID=8 parentID=7 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dit had ik niet verwacht.
+
+ [ALINEA-CONTENT]:
+Dit had ik niet verwacht.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Chapter 2
+ nativeID=9 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Tweede hoofdstuk
+ nativeID=10 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het tweede hoofdstuk gaat een stuk korter zijn dan de eerste Dit is alles wat in het tweede hoofdstuk staat.
+
+ [ALINEA-CONTENT]:
+Het tweede hoofdstuk gaat een stuk korter zijn dan de eerste
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.1 Dit is alles wat in het tweede hoofdstuk staat
+ nativeID=11 parentID=10 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Dit is alles wat in het tweede hoofdstuk staat.
+
+ [ALINEA-CONTENT]:
+Dit is alles wat in het tweede hoofdstuk staat.
+
+---------------------------------------------------------------------------------

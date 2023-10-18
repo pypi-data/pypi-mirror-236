@@ -1,0 +1,246 @@
+
+
+5597/23
+
+PDM/np
+1
+
+TREE.2.A
+LIMITE
+EN
+
+
+
+I.
+
+CONTEXT AND CONTENT OF THE PROPOSAL
+1.
+
+On 14 July 2021, the Commission submitted to the European Parliament and to the Council
+the proposal for a Regulation on the deployment of alternative fuels infrastructure (AFIR), as
+part of the ‘fit for 55’ package (the ‘package’).
+2.
+
+The objective of the proposal is threefold: first, to ensure that there is a sufficient
+infrastructure network for the (re)charging or (re)fuelling of road vehicles or vessels with
+alternative fuels; second to provide alternatives to the use of on-board engines (powered by
+fossil fuels) for vessels at berth or stationary aircraft, and third to ensure full interoperability
+and user friendliness of the infrastructure.
+3.
+
+The above proposal has interlinkages with other proposals of the ‘Fit for 55’ package. It is in
+particular linked to the proposal for revising the Regulation on CO2 emission performance
+
+Council of the
+European Union
+
+
+
+
+
+
+
+Brussels, 30 January 2023
+(OR. en)
+
+
+5597/23
+
+
+LIMITE
+
+TRANS 17
+CLIMA 26
+ECOFIN 61
+AVIATION 7
+MAR 6
+ENV 51
+ENER 29
+CODEC 50
+IND 18
+COMPET 33
+
+
+Interinstitutional File:
+2021/0223(COD)
+
+
+
+
+REPORT
+From:
+General Secretariat of the Council
+To:
+Permanent Representatives Committee
+No. Cion doc.:
+COM(2021) 559 final
+Subject:
+Proposal for a REGULATION OF THE EUROPEAN PARLIAMENT AND
+OF THE COUNCIL on the deployment of alternative fuels infrastructure,
+and repealing Directive 2014/94/EU
+‒
+Preparation for the trilogue
+
+
+
+5597/23
+
+PDM/np
+2
+
+TREE.2.A
+LIMITE
+EN
+
+
+standards for cars and vans and the proposal for revising the Regulation on CO
+2
+emission
+performance standards for heavy-duty vehicles, which is foreseen for 2023. The pace of
+deployment of the (re)charging pools and (re)fuelling stations as well as their interoperability
+and user friendliness will influence the uptake of zero- and low-emission vehicles. At the
+same time, AFIR has linkages to FuelEU Maritime, and is also of relevance to emission
+reduction in aviation. Moreover, the proposal defines alternative fuels in coherence with the
+provisions of the proposal for the revision of the Renewable Energy Directive. Where the
+Directive on the Energy-Performance of Buildings regulates the deployment of private
+charging stations, AFIR is looking to ensure a sufficient number of publicly available
+charging stations.
+II.
+STATE OF PLAY
+4.
+
+The European Economic and Social Committee adopted its opinion on 9 December 2021, the
+European Committee of the Regions adopted its opinion on 26 January 2022.
+5.
+
+The Council agreed on a general approach on 2 June 2022.
+6.
+
+The European Parliament designated the Committee on Transport and Tourism (TRAN) as
+the committee responsible and Mr Ismail ERTUG (DE, S&D) was appointed as its rapporteur.
+The European Parliament adopted its position in plenary on 19 October 2022.
+
+
+7.
+
+At a first informal trilogue on 27 October 2022, the co-legislators held an exchange of views
+on their respective positions and agreed to grant a broad mandate to the technical level.
+During the second informal trilogue on 13 December, significant progress was achieved. In
+particular, a preliminary agreement was found on Article 1 (subject matter), Article 8
+(liquefied methane for road transport), Article 10 (shore-side electricity for inland waterway
+ports), Article 14a (content, structure and format of the national policy frameworks and
+national progress reports), Article 16 (progress tracking), Article 17 (user information) and
+Article 19 (common technical specifications) as well as Annex II (technical specifications).
+As regards Article 9 (shore-side electricity in maritime ports), Article 11 (liquefied methane
+in maritime ports) and Article 12 (supply of electricity to stationary aircraft), most of the text
+was agreed; only some of the thresholds in these articles need to be agreed upon. There was
+also an exchange of views on Article 15 (review of the national policy frameworks and
+national progress reports) and Article 18 (data provisions).
+
+
+5597/23
+
+PDM/np
+3
+
+TREE.2.A
+LIMITE
+EN
+
+
+8.
+
+Between 11 and 25 January 2023 there were 3 technical meetings organised to prepare for the
+third trilogue planned on 7 February. The Presidency presented in the Intermodal Transport
+Working Party compromise proposals and drafting suggestions that were prepared in the
+technical meetings with the Parliament. Negotiations continued as regards the outstanding
+issues in Articles 9, 11 and 12 and the reporting cluster (Articles 13-15). Significant progress
+has been made on the data provisions in Article 18. The intention is to confirm as much as
+possible. Still, and especially in Article 18, there remains some aspects to be further
+developed and clarified.
+9.
+
+Negotiations have started on Article 3 (electric recharging for light-duty vehicles), Article 4
+(electric recharging for heavy-duty vehicles) and Article 6 (hydrogen refuelling for road
+transport). In the technical meetings the positions of the Council and the Parliament have been
+clarified as regards the charging capacity. The Presidency has insisted on the reasonable
+traffic thresholds and demonstrated this with figures to substantiate the fact that on those
+stretches, there is very little traffic work (in terms of vehicles km) and that the derogations
+should not jeopardise the availability of charging stations.
+10.
+
+As regards Article 5 and Article 7, dealing with payments and the infrastructure for
+recharging and refuelling respectively, Council and Parliament have agreed to first look at
+Article 5 as this is the more specific article because recharging is more relevant for citizens.
+Once an agreement will be found on Article 5, the same approach will be adapted to Article 7.
+11.
+
+There was also a discussion on the proposal from the Parliament in Article 12a to include
+railway infrastructure in the scope of AFIR.
+12.
+
+Delegations have been informed about a preliminary agreement on Article 20 (exercise of the
+delegation), Article 21 (committee procedure) and Article 23 (repeal). This will need to be
+confirmed in the third trilogue.
+13.
+
+Article 24 (entry into force and date of application) was also discussed. This Article will be
+left for the fourth trilogue.
+14.
+
+The proposed mandate for the third informal trilogue is addressing all the outstanding articles
+as mentioned under points 8, 9, 10, 11 and 12 of the present report. The only aspect that has
+not been discussed in detail is the proposal from the Parliament to include Article 21a
+(compensatory regulatory reduction). Article 21a is considered as not necessary in the context
+of a sector-specific regulation like AFIR. It is better to ensure better regulation during the
+
+
+5597/23
+
+PDM/np
+4
+
+TREE.2.A
+LIMITE
+EN
+
+
+negotiations than to ask the Commission to reconsider afterwards what could be further
+improved as regards regulatory reduction.
+III.
+
+THE PROPOSED MANDATE
+15.
+
+At the technical level, in preparation of this third trilogue, Council and Parliament have
+continued to look for compromises on the following issues that should allow for at least a
+partial agreement. Other aspects and elements will need further consideration at the fourth
+trilogue to find a comprehensive agreement.
+16.
+
+In the third trilogue a first political discussion is planned on Article 3 (electric recharging for
+light-duty vehicles), Article 4 (electric recharging for heavy-duty vehicles) and Article 6
+(hydrogen refuelling for road transport). As regards the targets for recharging and refuelling,
+the Presidency has acknowledged the need for more infrastructure and a specific level of
+ambition but the Presidency also explained the need to be reasonable and ensure sufficient
+flexibility to cater for specific circumstances. These circumstances relate in particular to areas
+with low population density and low traffic and to take into consideration ongoing
+technological developments that make some of the proposed targets not yet ready for full
+market deployment. The Presidency will defend the Council’s general approach and does not
+intend to come to an agreement on these articles at the third trilogue. But discussions are
+expected to pave the way for an agreement in the fourth trilogue.
+17.
+
+Negotiations on the recharging and refuelling infrastructure have mainly focused on the
+infrastructure and payment options for recharging in Article 5. The same logic should apply
+and will be adapted, where relevant, to Article 7, once an agreement has been found on
+Article 5. The main outstanding issues in Article 5 relate to payment methods, the price
+components, e-roaming, the monitoring of the price and retrofitting of existing charging
+stations.
+As regards the payment methods, the Presidency is confident to find a reasonable outcome
+based on the general approach and the different options, based on the type of charger. The fact
+is that it is not possible, at least at this time, to change the payment security and allow for
+payments without pin-authorisation. However, the Presidency would like to propose to extend
+the scope of the retrofitting for the payment options in Article 5(2) (line 188) and to cover all
+the chargers with a power output equal to or more than 50 kW and not just those on the TEN-
+T. This also has implications for the requirement to show the information on the ad hoc price

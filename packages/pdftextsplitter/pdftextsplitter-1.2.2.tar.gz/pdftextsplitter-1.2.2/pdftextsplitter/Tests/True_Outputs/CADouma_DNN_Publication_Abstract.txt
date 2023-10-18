@@ -1,0 +1,17 @@
+ABSTRACT
+A new Machine Learning algorithm for shower-head identification in the NeuLAND neutron detector is
+presented. The new algorithm uses densely-connected Deep Neural Networks (DNNs) to properly classify events
+and clusters, which allows accurate reconstruction of the 4-momenta of the detected neutrons. As data-events
+recorded with NeuLAND vary quite a lot in size, and not all emitted neutrons always produce signals in
+the detector, careful pre- and post-processing of the data turned out to be required for letting the DNNs be
+successful in their classifications. However, after properly implementing these procedures, the new algorithm
+offers a better efficiency than previously-used algorithms in virtually all investigated scenarios. However, the
+newly-developed algorithm (as well as previous ones) suffers from systematic uncertainties. These uncertainties
+mainly arise from the physics lists used in the Geant4 simulations to train the DNNs. They are particularly large
+for the neutron energy range around 200 MeV and for NeuLAND configurations of few double-planes (slimmed
+down version of the detector). The accuracy improves with a larger number of double-planes. Furthermore,
+both model improvements and accurate benchmarks are needed for the currently used Geant4 physics lists to
+reduce the systematic uncertainties of the new algorithm for high-precision studies. Further improvement of
+the present DNN algorithm is also needed, especially for experiments that require high precision in the neutron
+scattering angle reconstruction. However, it seems unlikely that this improvement can be realized using only
+NeuLAND data.

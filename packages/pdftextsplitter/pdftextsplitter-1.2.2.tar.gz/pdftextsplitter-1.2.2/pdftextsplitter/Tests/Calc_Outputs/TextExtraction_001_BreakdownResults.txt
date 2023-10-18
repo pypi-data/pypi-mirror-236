@@ -1,0 +1,36 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document TextExtraction_001] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = TextExtraction_001
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Introduction This is a small test for text extraction. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1. Introduction 
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Introduction This is a small test for text extraction. 
+
+ [ALINEA-CONTENT]:
+1. Introduction
+This is a small test for text extraction.
+
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------

@@ -1,0 +1,166 @@
+<mxfile host="app.diagrams.net" modified="2023-10-17T08:40:48.528Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/118.0" etag="B6I0BjIVfdyqfJYIUr6d" version="22.0.4" type="device">
+  <diagram id="5iNx0ZU46_tYuDRQRulb" name="Page-1">
+    <mxGraphModel dx="2098" dy="1952" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" source="I-dlYKEXNDgs5K42s7pv-2" target="I-dlYKEXNDgs5K42s7pv-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-2" value="PDF inlezen" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-3" value="python pdftextsplitter package" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#CCFFFF;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-497" width="1180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-4" value="Interpretatie" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="I-dlYKEXNDgs5K42s7pv-6" target="I-dlYKEXNDgs5K42s7pv-55" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-6" value="Breakdown" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="540" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-7" value="Samenvatten" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="780" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="-347.5" as="sourcePoint" />
+            <mxPoint x="780" y="-347.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="940" y="-347.5" as="sourcePoint" />
+            <mxPoint x="1020" y="-347.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-11" value="Djangotextsplitter app" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#FFFF99;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="-497" width="430" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-12" value="Write to DB" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFF33;strokeColor=#FF9933;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1260" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-13" value="Add django-info" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#FFFF33;strokeColor=#FF9933;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1500" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF9933;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1180" y="-347.5" as="sourcePoint" />
+            <mxPoint x="1260" y="-347.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#FF9933;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1420" y="-347.5" as="sourcePoint" />
+            <mxPoint x="1500" y="-347.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-16" value="HTML parsing" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1020" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-17" value="&lt;div&gt;Text regel-voor-regel uitlezen m.b.v. pdfminer library. De benodigde informatie wordt &lt;u&gt;per regel&lt;/u&gt; opgeslagen&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-277" width="220" height="112" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-18" value="&lt;div&gt;De informatie dat bijv. de lettergrootte 13.3 is, betekent op zichzelf niets. In deze stap hangen we hier betekenissen aan: of 13.3 regular size is, of heel groot voor dit document.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="270" y="-277" width="220" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-19" value="&lt;div&gt;We lopen 1x door het document heen van begin tot eind en beslissen &lt;u&gt;per textregel&lt;/u&gt; welk type (titel/footer/body/hoofdstuktitel/&lt;/div&gt;&lt;div&gt;opsomming) deze regel is. &lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="510" y="-277" width="220" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-20" value="&lt;div&gt;We vatten het document gelaagd samen: een hoofdstuk vatten we samen door de samenvattingen van de onderliggende secties achter elkaar te zetten en het resultaat opnieuw samen te vatten.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="751" y="-277" width="220" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-21" value="&lt;span&gt;We genereren een string van html-code waar alle samenvattingen en textonderdelen (zoals hoofdtsuktitels) in staan en kunnen worden uitgeklapt.&lt;br&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="990" y="-277" width="220" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-22" value="&lt;div&gt;djangotextsplitter is een redistributable django-app zonder urls, views, static files of templates. Hij wordt gebruikt voor deep-load/write operaties van textsplitter-objecten.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#FFFF99;align=left;verticalAlign=top;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1230" y="-277" width="220" height="113" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-24" value="Labels toekennen (Breakdown)" style="rounded=0;whiteSpace=wrap;html=1;fontSize=28;fontStyle=1;strokeColor=none;fillColor=#CCFFFF;" parent="1" vertex="1">
+          <mxGeometry x="30" y="-115" width="1180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-25" value="Masterrule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="540" y="-25" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-26" value="Title rule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="60" y="215" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-27" value="Footer rule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="215" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-28" value="Headlines rule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="540" y="215" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-29" value="Enumeration" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="780" y="215" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-30" value="Body rule" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="1020" y="215" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" target="I-dlYKEXNDgs5K42s7pv-26" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="35" as="sourcePoint" />
+            <mxPoint x="670" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-32" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" source="I-dlYKEXNDgs5K42s7pv-25" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="35" as="sourcePoint" />
+            <mxPoint x="380" y="215" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-33" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=5;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="I-dlYKEXNDgs5K42s7pv-25" target="I-dlYKEXNDgs5K42s7pv-28" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="45" as="sourcePoint" />
+            <mxPoint x="620" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" source="I-dlYKEXNDgs5K42s7pv-25" target="I-dlYKEXNDgs5K42s7pv-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="590" y="45" as="sourcePoint" />
+            <mxPoint x="390" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-35" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" target="I-dlYKEXNDgs5K42s7pv-30" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="35" as="sourcePoint" />
+            <mxPoint x="1000" y="205" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-36" value="&lt;div&gt;Deze selectie-regel beslist of een text-regel een titel is of niet.&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;br&gt;&lt;div&gt;Deze regel moet nog worden geïmplementeerd en retourneert dus altijd False.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="30" y="295" width="220" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-37" value="&lt;div&gt;Deze selectie-regel beslist of een text-regel een header/footer is of niet o.b.v:&lt;/div&gt;&lt;div&gt;- Als het letterype kleiner dan regulier is&lt;/div&gt;&lt;div&gt;- Als het boven of onder de header &amp;amp; footer boundarie valt.&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="270" y="295" width="220" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-38" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Deze selectie-regel beslist of een text-regel een hoofdstuktitel is o.b.v. 3 criteria:&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;1) Letter-conditie&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;2) Above-conditie&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;3) Below-conditie&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;het textlevel (of iets een hoofdstuk of sectie is) wordt vastgesteld o.b.v. regex expressies: &lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="510" y="295" width="220" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-39" value="&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Deze selectie-regel beslist of een text-regel standaard body-text is of niet o.b.v. font-size.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="990" y="295" width="220" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-40" value="&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Deze selectie-regel beslist of een text-regel een element van een opsomming is.&lt;br&gt;&lt;/div&gt;&lt;br&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;Een opsomming kan op 6 manieren gemarkeerd worden:&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Hoofdletter Romeinse cijfers&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Romeise cijfers met kleine letters&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Hoofdletters&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Kleine letters&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Cijfers&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;- Leestekens&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;&lt;/div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;We detecteren deze markering (incl. hierarchy) m.b.v. regex-expressies. &lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="750" y="295" width="220" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#0000FF;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="-347.63" as="sourcePoint" />
+            <mxPoint x="540" y="-347.63" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-43" value="&lt;div&gt;&lt;b&gt;Als meerdere regels tegelijk een True geven, beslist masterrule welk label het belangrijkste is (en dat is dan ook het textlevel wat gebruikt wordt). De volorde is:&lt;/b&gt;&lt;/div&gt;&lt;div&gt;- Titel&lt;/div&gt;&lt;div&gt;- Footer&lt;/div&gt;&lt;div&gt;- Headlines&lt;/div&gt;&lt;div&gt;- Enumeration&lt;/div&gt;&lt;div&gt;- Body&lt;/div&gt;&lt;div&gt;- Unknown (als alles False is).&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#CCFFFF;align=left;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="990" y="-45" width="220" height="209" as="geometry" />
+        </mxCell>
+        <mxCell id="I-dlYKEXNDgs5K42s7pv-55" value="Interpretatie" style="rounded=1;whiteSpace=wrap;html=1;fontSize=20;fillColor=#33FFFF;strokeColor=#0000FF;strokeWidth=5;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="300" y="-377" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H7H3cbQcRruzKG0OLxVC-1" value="&lt;div&gt;&lt;div style=&quot;border-color: var(--border-color);&quot;&gt;&lt;span style=&quot;border-color: var(--border-color);&quot;&gt;Sommige informatie (zoals de gebruiker die opdracht heeft gegeven voor het maken van de samenvatting) heeft alleen betekenis binnen django, niet in python.&lt;/span&gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fontStyle=0;strokeColor=none;fillColor=#FFFF99;align=left;verticalAlign=top;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1470" y="-277" width="220" height="113" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

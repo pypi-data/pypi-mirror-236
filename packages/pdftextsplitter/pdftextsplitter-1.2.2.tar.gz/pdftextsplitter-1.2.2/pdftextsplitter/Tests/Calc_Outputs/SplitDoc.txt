@@ -1,0 +1,57 @@
+First basic test Document
+Unit Data en Innovatie
+20
+th
+
+of March 2023
+Contents
+1 Let’s kick-of test-driven development
+2
+1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.2 Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.3 Methods again
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.4 One more section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+2 A new chapter starts now
+4
+2.1 A new section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+2.1.1 Nice subsection . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+1
+1 Let’s kick-of test-driven
+development
+We start with some general text about the chapter.
+with a line-break embedded in it.
+1.1
+Introduction
+This is a small test for text extraction.
+1.2
+Methods
+And here is some more text.
+With a line break and other stuf.
+1.3
+Methods again
+Lets add some whitespaces:
+And some text.
+2
+Section 1.4
+Chapter 1: Let’s kick-of test-driven development
+1.4
+One more section
+With some text...
+3 and some stupid footertext.
+2 A new chapter starts now
+Now comes some extra text.
+With a line break.
+2.1
+A new section
+Lets give a splendid additional story.
+2.1.1
+Nice subsection
+with a beautiful subsection embedded in it.
+4
