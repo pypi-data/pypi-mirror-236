@@ -1,0 +1,3 @@
+[console_scripts]
+planestress=planestress.__main__:main
+
