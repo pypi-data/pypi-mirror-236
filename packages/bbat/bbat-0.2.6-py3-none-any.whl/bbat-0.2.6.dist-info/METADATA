@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bbat
+Version: 0.2.6
+Author: zlge
+Author-email: test@test.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text
+Requires-Dist: setuptools (==67.8.0)
+Requires-Dist: openai (==0.27.8)
+Requires-Dist: uvicorn (==0.22.0)
+Requires-Dist: fastapi (==0.100.0)
+Requires-Dist: aiomysql (==0.0.21)
+Requires-Dist: pandas (==2.0.3)
+Requires-Dist: PyJWT (==2.3.0)
+Requires-Dist: scikit-learn (==1.2.2)
+
+testModule
