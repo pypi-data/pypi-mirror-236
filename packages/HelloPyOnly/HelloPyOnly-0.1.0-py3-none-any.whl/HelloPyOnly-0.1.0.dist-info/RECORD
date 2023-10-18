@@ -1,0 +1,14 @@
+gameobject/__init__.py,sha256=2-2LDcivgP-Se04N3bw957LFsgRixAyjVfmn7iQKldQ,389
+gameobject/circle.py,sha256=pQAxmxmZugIpzeGUzaCuiiTXMEcGdqAGQ7-dJGAgT8E,2051
+gameobject/ellipse.py,sha256=2twXW9aEd01k5FqlttvgIoVxMHTQl8smjmlUJDLuoJk,220
+gameobject/gameobject.py,sha256=27ZR249V0aQwmhVlA4Uo7woWrrm6W0-Zs36Di6vDNS8,384
+gameobject/line.py,sha256=rBtJQzqgSSqf3PodPQRTvgYn8cXwdM7XFxqf_LRI1qA,2467
+gameobject/polygon.py,sha256=uPq0mLdXRWCO-GnFEi8hrVcr7bTQOkmP3n9QufH-TfY,2965
+gameobject/rectangle.py,sha256=vekWqKgzhYaL1salbITDyo2alubVRSmGwwz0UY4BZhw,528
+gameobject/sprite.py,sha256=3IaboWrbGn19HYzViDOd7JQ2re5klZbfKxOz-2ZXnWY,6798
+gameobject/text.py,sha256=G0zCqq8PYwZJKIVLfTmf7zvnwI-xbtmUhJ9Snclgl94,2533
+gameobject/triangle.py,sha256=FNed_KBnMZdwBABBHZgrkRw8ANvErs4xdvpT6zL1m3M,646
+HelloPyOnly-0.1.0.dist-info/METADATA,sha256=XBkfsHVLwSMmETY8dA7uEhmCzJ_hgn6HltxECOlbPSw,605
+HelloPyOnly-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+HelloPyOnly-0.1.0.dist-info/top_level.txt,sha256=qGQHCRRIk8GX9W-zvpIvPdru9zUrhDvD0acP8F8c8JU,11
+HelloPyOnly-0.1.0.dist-info/RECORD,,
