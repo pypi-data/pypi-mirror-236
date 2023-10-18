@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="ssi_helpdesk.model_helpdesk_ticket" model="ir.model">
+        <field name="website_form_key">create_ticket</field>
+        <field name="website_form_default_field_id"/>
+        <field name="website_form_access">True</field>
+        <field name="website_form_label">Create a Ticket</field>
+    </record>
+    <function model="ir.model.fields" name="formbuilder_whitelist">
+        <value>helpdesk_ticket</value>
+        <value eval="[
+            'title',
+        ]"/>
+    </function>
+</odoo>

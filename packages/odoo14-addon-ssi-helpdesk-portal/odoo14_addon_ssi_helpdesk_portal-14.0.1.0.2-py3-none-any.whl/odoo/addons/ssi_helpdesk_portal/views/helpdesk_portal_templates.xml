@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+<data noupdate="0">
+    <template id="portal_my_home_menu_helpdesk" name="Portal layout : helpdesk tickets menu entries" inherit_id="portal.portal_breadcrumbs" priority="50">
+        <xpath expr="//ol[hasclass('o_portal_submenu')]" position="inside">
+            <li t-attf-class="breadcrumb-item #{'active ' if not ticket else ''}">
+                <a t-if="ticket" t-attf-href="/my/tickets?{{ keep_query() }}">Tickets</a>
+                <t t-else="">Tickets</t>
+            </li>
+            <li t-if="ticket" class="breadcrumb-item active">
+                <span t-field="ticket.name"/> (#<span t-field="ticket.id"/>)
+            </li>
+        </xpath>
+    </template>
+
+    <template id="portal_my_home_helpdesk_ticket" name="Show Tickets" customize_show="True" inherit_id="portal.portal_my_home" priority="50">
+        <xpath expr="//div[hasclass('o_portal_docs')]" position="inside">
+            <t  t-call="portal.portal_docs_entry">
+                <t t-set="title">Tickets</t>
+                <t t-set="url" t-value="'/my/tickets'"/>
+                <t t-set="placeholder_count" t-value="'ticket_count'"/>
+            </t>
+        </xpath>
+    </template>
+
+    <template id="portal_helpdesk_ticket" name="Helpdesk Ticket">
+        <t t-call="portal.portal_layout">
+            <t t-set="breadcrumbs_searchbar" t-value="True"/>
+
+            <t t-call="portal.portal_searchbar">
+                <t t-set="title">Tickets</t>
+            </t>
+            <div t-if="not grouped_tickets" class="alert alert-info">
+                There are currently no Ticket for your account.
+            </div>
+            <t t-else="">
+                <t t-call="portal.portal_table">
+                    <t t-foreach="grouped_tickets" t-as="tickets">
+                        <thead>
+                            <tr t-attf-class="{{''}}">
+                                <th class="text-left"># Document</th>
+                                <th class="text-left">Title</th>
+                                <th class="text-left">Contact</th>
+                                <th class="text-left">Commercial Contact</th>
+                                <th class="text-left">Date</th>
+                                <th class="text-left">Deadline</th>
+                                <th class="text-left">Type</th>
+                                <th class="text-left">Responsible</th>
+                                <th class="text-left">Status</th>
+                            </tr>
+                        </thead>
+                        <t t-foreach="tickets" t-as="ticket">
+                            <tr>
+                                <td class="text-left"><a t-attf-href="/helpdesk/ticket/#{ticket.id}"><span t-field="ticket.name"/></a></td>
+                                <td class="text-left"><span t-field="ticket.title"/></td>
+                                <td class="text-left"><span t-field="ticket.partner_id"/></td>
+                                <td class="text-left"><span t-field="ticket.commercial_partner_id"/></td>
+                                <td class="text-left"><span t-field="ticket.date"/></td>
+                                <td class="text-left"><span t-field="ticket.date_deadline"/></td>
+                                <td class="text-left"><span t-field="ticket.type_id"/></td>
+                                <td class="text-left"><span t-field="ticket.user_id"/></td>
+                                <td class="text-left"><span class="badge badge-pill badge-info" t-field="ticket.state"/></td>
+                            </tr>
+                        </t>
+                    </t>
+                </t>
+            </t>
+        </t>
+    </template>
+
+    <template id="tickets_followup" name="Helpdesk Tickets">
+        <t t-call="portal.portal_layout">
+            <t t-set="wrapwrap_classes" t-value="'o_portal_bg_dark'"/>
+
+            <t t-set="o_portal_fullwidth_alert">
+                <t t-call="portal.portal_back_in_edit_mode">
+                    <t t-set="backend_url" t-value="'/web#model=helpdesk_ticket&amp;id=%s&amp;view_type=form' % (ticket.id)"/>
+                </t>
+            </t>
+
+            <t t-call="portal.portal_record_layout">
+                <t t-set="card_header">
+                    <div class="row no-gutters">
+                        <div class="col-md">
+                            <h5 class="d-flex mb-1 mb-md-0">
+                                <div class="col-9 text-truncate">
+                                    <span t-field="ticket.name"/>
+                                    <small class="text-muted "> (#<span t-field="ticket.id"/>)</small>
+                                </div>
+                                <div class="col-3 text-right">
+                                    <small class="text-right">Status:</small>
+                                    <span t-field="ticket.state" class=" badge badge-pill badge-info" title="Current state of this ticket"/>
+                                </div>
+                            </h5>
+                        </div>
+                    </div>
+                </t>
+                <t t-set="card_body">
+                    <div class="row mb-4" t-if="ticket.title">
+                        <strong class="col-lg-2">Title</strong>
+                        <div class="col-lg-10">
+                            <div class="row">
+                                <div class="col pl-sm-0">
+                                    <div t-field="ticket.title"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4" t-if="ticket.user_id">
+                        <strong class="col-lg-2">Responsible</strong>
+                        <div class="col-lg-10">
+                            <div class="row">
+                                <div class="col flex-grow-0 pr-3">
+                                    <img t-if="ticket.user_id.image_1024" class="rounded-circle o_portal_contact_img" t-attf-src="data:image/png;base64,#{ticket.user_id.image_1024}" alt="Contact"/>
+                                    <img t-else="" class="rounded-circle o_portal_contact_img" src="/web/static/src/img/user_menu_avatar.png" alt="Contact"/>
+                                </div>
+                                <div class="col pl-sm-0">
+                                    <div t-field="ticket.user_id" t-options='{"widget": "contact", "fields": ["name", "email"], "no_marker": true}'/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4" t-if="ticket.partner_id">
+                        <strong class="col-lg-2">Contact</strong>
+                        <div class="col-lg-10">
+                            <div class="row">
+                                <div class="col flex-grow-0 pr-3">
+                                    <img t-if="ticket.partner_id.image_1024" class="rounded-circle o_portal_contact_img" t-attf-src="data:image/png;base64,#{ticket.partner_id.image_1024}" alt="Contact"/>
+                                    <img t-else="" class="rounded-circle o_portal_contact_img" src="/web/static/src/img/user_menu_avatar.png" alt="Contact"/>
+                                </div>
+                                <div class="col pl-sm-0">
+                                    <div t-field="ticket.partner_id" t-options='{"widget": "contact", "fields": ["name", "email"], "no_marker": true}'/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4" t-if="ticket.commercial_partner_id">
+                        <strong class="col-lg-2">Commercial Contact</strong>
+                        <div class="col-lg-10">
+                            <div class="row">
+                                <div class="col flex-grow-0 pr-3">
+                                    <img t-if="ticket.commercial_partner_id.image_1024" class="rounded-circle o_portal_contact_img" t-attf-src="data:image/png;base64,#{ticket.commercial_partner_id.image_1024}" alt="Contact"/>
+                                    <img t-else="" class="rounded-circle o_portal_contact_img" src="/web/static/src/img/user_menu_avatar.png" alt="Contact"/>
+                                </div>
+                                <div class="col pl-sm-0">
+                                    <div t-field="ticket.commercial_partner_id" t-options='{"widget": "contact", "fields": ["name", "email"], "no_marker": true}'/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-4">
+                        <strong class="col-lg-2">Date</strong>
+                        <span class="col-lg-10" t-field="ticket.create_date" t-options='{"widget": "date"}'/>
+                    </div>
+                    <div class="row mb-4" name="description">
+                        <strong class="col-lg-2">Description</strong>
+                        <div t-if="ticket.description" class="col-lg-10" t-field="ticket.description"/>
+                        <div t-else="" class="col-lg-10">
+                            <em class="text-muted"><small>No description</small></em>
+                        </div>
+                    </div>
+                </t>
+            </t>
+
+
+            <div t-if="ticket.name and not ticket.name and not ticket.name" class="modal" tabindex="-1" role="dialog" id="helpdesk_ticket_close_modal">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Close ticket</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">×</button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Are you sure you wish to proceed?</p>
+                        </div>
+                        <div class="modal-footer">
+                            <a role="button" class="btn btn-primary" t-att-href="'/my/ticket/close/%s/%s' % (ticket.id, ticket.access_token)">Close the ticket</a>
+                            <button type="button" class="btn btn-light" data-dismiss="modal">Discard</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div t-if="ticket.name and not ticket.name and not ticket.name" class="text-center mt-5">
+                <button class="btn btn-primary mb-1 pt-1" data-target="#helpdesk_ticket_close_modal" data-toggle="modal"><small><b>Close this ticket</b></small></button>
+                <p><small>
+                    If the issue has been solved, you can close the request.
+                </small></p>
+            </div>
+
+            <div class="o_portal_messages_container mt32">
+                <h4>Message and communication history</h4>
+                <t t-call="portal.message_thread">
+                    <t t-set="token" t-value="ticket.access_token"/>
+                    <t t-set="object" t-value="ticket"/>
+                    <t t-set="pid" t-value="pid"/>
+                    <t t-set="hash" t-value="hash"/>
+                    <t t-set="disable_composer" t-value="ticket.state not in ('draft', 'open', 'confirm')"/>
+                </t>
+            </div>
+        </t>
+    </template>
+
+</data>
+</odoo>

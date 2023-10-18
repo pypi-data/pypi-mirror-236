@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="assets_frontend" inherit_id="website.assets_frontend" name="Website Helpdesk Assets">
+        <xpath expr="//script[last()]" position="after">
+            <script type="text/javascript" src="/ssi_helpdesk_portal/static/src/js/ssi_helpdesk_portal.menu.js"/>
+            <script type="text/javascript" src="/ssi_helpdesk_portal/static/src/js/website_helpdesk_form_editor.js"/>
+        </xpath>
+    </template>
+
+    <record id="website_menu_helpdesk" model="website.menu">
+        <field name="name">Submit Ticket</field>
+        <field name="url" eval="'/helpdesk/'"/>
+        <field name="parent_id" ref="website.main_menu"/>
+        <field name="sequence" type="int">50</field>
+    </record>
+</odoo>
