@@ -1,0 +1,8 @@
+requests
+npyscreen
+undetected_chromedriver
+selenium==4.12.0
+bs4
+urllib3
+pillow
+qrcode
