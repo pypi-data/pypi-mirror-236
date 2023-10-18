@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: nettoolkit
+Version: 0.1.3
+Summary: Tool Set for Networking Geeks
+Home-page: https://github.com/alias1978/nettoolkit
+Author: ALIASGAR - ALI
+Author-email: aholo2000@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+Requires-Dist: PySimpleGUI
+Requires-Dist: numpy
+Requires-Dist: nettoolkit-common
+Requires-Dist: nettoolkit-db
+Requires-Dist: pyNetCrypt
+Requires-Dist: pyJuniper
+Requires-Dist: facts-finder >0.1.0
+Requires-Dist: capture-it >0.1.0
+Requires-Dist: j2config
+Requires-Dist: compare-it
+
+Networking Tool set
