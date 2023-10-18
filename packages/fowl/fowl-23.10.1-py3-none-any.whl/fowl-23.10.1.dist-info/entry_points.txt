@@ -1,0 +1,2 @@
+[console_scripts]
+fowl = fowl.cli:_entry
