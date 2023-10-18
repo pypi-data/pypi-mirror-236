@@ -1,0 +1,21 @@
+[project]
+name = "hello-playdataJuhanKim"
+version = "0.1.0"
+description = "The Python program"
+authors = [
+    { name = "oneuse", email = "joohan754@naver.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
