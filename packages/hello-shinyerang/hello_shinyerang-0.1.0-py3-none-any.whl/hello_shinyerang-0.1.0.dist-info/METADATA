@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hello-shinyerang
+Version: 0.1.0
+Summary: The python program I'm distributing for the first time which build backend to use?
+Author-Email: Shinyerang <syr2020@naver.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# hello-shinyerang
