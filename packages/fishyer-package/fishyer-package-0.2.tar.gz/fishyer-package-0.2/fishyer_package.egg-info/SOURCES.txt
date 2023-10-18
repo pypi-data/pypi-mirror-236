@@ -1,0 +1,8 @@
+README.md
+setup.py
+fishyer_package.egg-info/PKG-INFO
+fishyer_package.egg-info/SOURCES.txt
+fishyer_package.egg-info/dependency_links.txt
+fishyer_package.egg-info/top_level.txt
+my_subpackage/__init__.py
+my_subpackage/my_module.py
