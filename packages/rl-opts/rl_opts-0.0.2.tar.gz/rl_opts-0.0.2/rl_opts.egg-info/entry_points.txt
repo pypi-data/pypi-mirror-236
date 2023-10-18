@@ -1,0 +1,2 @@
+[nbdev]
+rl_opts = rl_opts._modidx:d
