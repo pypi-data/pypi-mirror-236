@@ -1,0 +1,21 @@
+from ._wrapper import _ScipyDist
+
+
+norm = _ScipyDist("norm")
+gamma = _ScipyDist("gamma")
+chi2 = _ScipyDist("chi2")
+poisson = _ScipyDist("poisson")
+binom = _ScipyDist("binom")
+beta = _ScipyDist("beta")
+bernoulli = _ScipyDist("bernoulli")
+uniform = _ScipyDist("uniform")
+t = _ScipyDist("t")
+f = _ScipyDist("f")
+expon = _ScipyDist("expon")
+lognorm = _ScipyDist("lognorm")
+multivariate_normal = _ScipyDist("multivariate_normal")
+weibull_min = _ScipyDist("weibull_min")
+pareto = _ScipyDist("pareto")
+wald = _ScipyDist("wald")
+invgauss = _ScipyDist("invgauss")
+logistic = _ScipyDist("logistic")
