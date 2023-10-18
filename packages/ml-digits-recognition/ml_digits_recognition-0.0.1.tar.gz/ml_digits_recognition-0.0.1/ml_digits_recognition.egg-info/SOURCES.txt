@@ -1,0 +1,14 @@
+README.md
+setup.py
+ml_digits_recognition/__init__.py
+ml_digits_recognition/html_drawing_flask.py
+ml_digits_recognition/model_precise.pt
+ml_digits_recognition/neural_network.py
+ml_digits_recognition/passenger_wsgi.py
+ml_digits_recognition/run.py
+ml_digits_recognition/user_input_drawing.py
+ml_digits_recognition.egg-info/PKG-INFO
+ml_digits_recognition.egg-info/SOURCES.txt
+ml_digits_recognition.egg-info/dependency_links.txt
+ml_digits_recognition.egg-info/requires.txt
+ml_digits_recognition.egg-info/top_level.txt
