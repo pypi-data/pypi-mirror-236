@@ -1,0 +1,5 @@
+[console_scripts]
+duectl = duetector.cli.main:cli
+duectl-daemon = duetector.cli.daemon:cli
+duectl-server = duetector.cli.server:cli
+duectl-server-daemon = duetector.cli.server_daemon:cli
