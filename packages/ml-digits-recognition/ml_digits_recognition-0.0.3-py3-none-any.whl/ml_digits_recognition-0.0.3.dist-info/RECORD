@@ -1,0 +1,11 @@
+ml_digits_recognition/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ml_digits_recognition/drawing.py,sha256=kSAD6RzaUB5_f84Qp5v0YOMAjeeyH4SzjXLLg99h7vk,1745
+ml_digits_recognition/html_drawing_flask.py,sha256=pHJfcLNmSvRaNb4VdpfWyey5yPlx6eQ1ecaagiIJuQ4,907
+ml_digits_recognition/model_precise.pt,sha256=kQoVujj_vB9wLYzuHI9AzZK2jOL4JjivNWF-z8CBj5w,55695
+ml_digits_recognition/neural_network.py,sha256=rat_ldAbkbDQsVMpatOPooiUGs7ffy_RS7frnLRXm2Y,2004
+ml_digits_recognition/passenger_wsgi.py,sha256=jGxKZDWU4eOsEFSinoTKW7vCkacK9tN7gzDgwrJWrFo,149
+ml_digits_recognition/run_app.py,sha256=gI8_mndZNrx6IcAq95xMUK6vOth8no3fETSWi3Yvbrg,936
+ml_digits_recognition-0.0.3.dist-info/METADATA,sha256=VMZv7a6_JabAJoQ9XFdjUds5hhe9_9dVX_WYTgUU8cE,2052
+ml_digits_recognition-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ml_digits_recognition-0.0.3.dist-info/top_level.txt,sha256=2kIlN7aRSBYgN3ZUM9mmV81Ga1pOs1mpPTAlNzk_iSQ,22
+ml_digits_recognition-0.0.3.dist-info/RECORD,,
