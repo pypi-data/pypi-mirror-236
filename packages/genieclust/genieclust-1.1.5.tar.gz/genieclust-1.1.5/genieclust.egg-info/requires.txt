@@ -1,0 +1,11 @@
+cython
+matplotlib
+numpy
+scikit-learn
+scipy
+
+[mlpack]
+mlpack
+
+[nmslib]
+nmslib
