@@ -1,0 +1,11 @@
+spiralfilm/__init__.py,sha256=c18WIMFkCoE6sRr0LeOjiw1rJ1QtM7_ubjDcu3-ioEs,285
+spiralfilm/config.py,sha256=Tf-ua_wBbLXsqvD3_o6R_SJ88HfEaIWvK6dRp5mEkzM,8881
+spiralfilm/core.py,sha256=WEHKOI7pgsAUhRengSl-V4TIKC8j5_VZq2vYILC7L7Y,18974
+spiralfilm/embed.py,sha256=ag3WGKVth3Dcsl_-hq8cObczVvuE0hwLhAzj7CkVp5M,8621
+spiralfilm/errors.py,sha256=YxgPzhgAuBhBnok3gsDk3fPi-lCnj6N8-mMREPsk9TM,246
+spiralfilm/parser.py,sha256=wzEdblV2g8J988Pjkid_ujKEmaRpITWF1z1gKc4t6jI,4555
+SpiralFilm-0.1.22.dist-info/LICENSE,sha256=Qi3qRJYC1JUDjyVXuf_6727RKv4bL9srr80exxqJLFI,1066
+SpiralFilm-0.1.22.dist-info/METADATA,sha256=eqE6NwDZzC6PhSt_wGUl7Dn_IShPIGSvV3NWq4ZVITM,7788
+SpiralFilm-0.1.22.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+SpiralFilm-0.1.22.dist-info/top_level.txt,sha256=khDdx8lc6J4xV9g9AWezG9KPQ4bim_bq583ammEY9f8,11
+SpiralFilm-0.1.22.dist-info/RECORD,,
