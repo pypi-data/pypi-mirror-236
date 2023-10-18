@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: tcvectordb
+Version: 1.0.3
+Summary: Tencent VectorDB Python SDK
+Home-page: 
+Author: tencent vdb team
+Requires-Python: >=3
+License-File: LICENSE
+Requires-Dist: requests
+
