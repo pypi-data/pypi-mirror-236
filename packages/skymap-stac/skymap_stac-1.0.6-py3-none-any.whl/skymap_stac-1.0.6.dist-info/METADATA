@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: skymap-stac
+Version: 1.0.6
+Summary: Skymap STAC package
+Author: Hai Anh Do
+Author-email: haianhdo193@gmail.com
+Keywords: python,stac,skymap,rolodex
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+License-File: LICENSE
+Requires-Dist: python-dotenv
+
+Python package for reading datacube from rolodex
