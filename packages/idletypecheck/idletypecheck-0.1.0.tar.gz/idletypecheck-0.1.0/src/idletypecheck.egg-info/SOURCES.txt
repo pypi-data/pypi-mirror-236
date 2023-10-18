@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/idletypecheck/__init__.py
+src/idletypecheck/py.typed
+src/idletypecheck.egg-info/PKG-INFO
+src/idletypecheck.egg-info/SOURCES.txt
+src/idletypecheck.egg-info/dependency_links.txt
+src/idletypecheck.egg-info/entry_points.txt
+src/idletypecheck.egg-info/requires.txt
+src/idletypecheck.egg-info/top_level.txt
