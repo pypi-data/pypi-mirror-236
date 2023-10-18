@@ -1,0 +1,11 @@
+crm_events/__init__.py,sha256=ZP4176Hce-s4KYP0sy7MQJdRT9h8kgbQgVT83aNPj3g,1246
+crm_events/admin.py,sha256=suMo4x8I3JBxAFBVIdE-5qnqZ6JAZV0FESABHOSc-vg,63
+crm_events/apps.py,sha256=bLtuDsxBAtsu9Bd0PfIMGwU8lhnjfzRcr2Q665PzndI,151
+crm_events/models.py,sha256=Vjc0p2XbAPgE6HyTF6vll98A4eDhA5AvaQqsc4kQ9AQ,57
+crm_events/tests.py,sha256=Z_6vPYQuJLPp_t6VrW9pXJLpx0r3VYhwMhsSpN-7zqU,1074
+crm_events/views.py,sha256=xc1IQHrsij7j33TUbo-_oewy3vs03pw_etpBWaMYJl0,63
+crm_events/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_crm_events-1.0.0.dist-info/METADATA,sha256=GafJj41Tt1ib3CxA0mfsYNa7t0FJC0vAH2oIP2ZFV94,108
+django_crm_events-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_crm_events-1.0.0.dist-info/top_level.txt,sha256=j7prvE6nkFvxjOVeqmYhkYYSAjoBdUvsbVOgGhOoiuM,11
+django_crm_events-1.0.0.dist-info/RECORD,,
