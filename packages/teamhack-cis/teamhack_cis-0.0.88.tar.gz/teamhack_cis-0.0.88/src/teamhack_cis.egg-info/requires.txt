@@ -1,0 +1,17 @@
+argparse
+docker
+flask
+
+[rel]
+twine
+
+[test]
+coverage
+libia_test
+line_profiler
+mypy
+pylint
+pytest
+pytest-line-profiler
+pytest-mypy
+pytest-pylint
