@@ -1,0 +1,3 @@
+[console_scripts]
+codemodimportfrom=codemodimportfrom.cli:cli
+
