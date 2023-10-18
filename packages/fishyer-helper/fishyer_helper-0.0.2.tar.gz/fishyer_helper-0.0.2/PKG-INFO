@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fishyer_helper
+Version: 0.0.2
+Summary: My Python Util Package
+Home-page: https://github.com/fishyer/python-util
+Author: fishyer
+Author-email: yutianran66@gamil.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# fishyer 的工具库
+
+this is a test
+
+fiutil is a small Python utility library that includes a few common tasks such as basic mathematical operations and logging.
