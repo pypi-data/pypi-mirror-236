@@ -1,0 +1,8 @@
+tom_swift/__init__.py,sha256=5xXiXxkmEFzghhsz8Uk73NKL2BH2_UYPl9h02PwVXuI,99
+tom_swift/swift.py,sha256=dBobc8UOsnoFoLKA6Jnh760li6cXHhAj15OzJ9BZ-M8,31828
+tom_swift/swift_api.py,sha256=B8-mC8MAMt_F5FNQ_gTr_RArb4GIzL4cXk93EjXP8SY,5451
+tom_swift/templates/tom_swift/observation_form.html,sha256=4EgC3Z7q4qbDgA7CDDBhx4xtBZGItRBVRiHw1nVm2x0,8927
+tom_swift-0.2.0a3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+tom_swift-0.2.0a3.dist-info/METADATA,sha256=jtkKd198TO2wJNDG-ETWtRrL7UWxHq3j-B_SINyOJUM,2954
+tom_swift-0.2.0a3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tom_swift-0.2.0a3.dist-info/RECORD,,
