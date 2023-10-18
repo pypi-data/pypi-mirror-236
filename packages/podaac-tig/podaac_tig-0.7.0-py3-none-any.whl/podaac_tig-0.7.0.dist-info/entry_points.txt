@@ -1,0 +1,3 @@
+[console_scripts]
+tig=podaac.tig.cli:main
+
