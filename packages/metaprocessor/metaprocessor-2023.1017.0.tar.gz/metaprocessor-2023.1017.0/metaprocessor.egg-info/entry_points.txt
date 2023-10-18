@@ -1,0 +1,3 @@
+[console_scripts]
+metaprocessor = metaprocessor.cli:cli
+mp = metaprocessor.cli:cli
