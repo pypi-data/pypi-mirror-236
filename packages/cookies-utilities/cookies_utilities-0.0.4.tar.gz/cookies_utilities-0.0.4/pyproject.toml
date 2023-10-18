@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cookies_utilities"
+version = "0.0.4"
+authors = [
+  { name="CookieBox26", email="cookie-box@cookie-box.info" },
+]
+description = "Utility functions."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.optional-dependencies]
+docs = [
+    "sphinx-rtd-theme",
+]
+
+[project.urls]
+GitHub = "https://github.com/CookieBox26/cookies_utilities"
+Documentation = "https://cookies-utilities.readthedocs.io/en/stable/"

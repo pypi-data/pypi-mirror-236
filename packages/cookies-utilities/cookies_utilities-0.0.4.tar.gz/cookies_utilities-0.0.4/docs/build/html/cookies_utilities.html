@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Documentation &mdash; cookies_utilities 0.0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js?v=5d32c60e"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js?v=2cd50e6c"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=f6245a2f"></script>
+        <script src="_static/doctools.js?v=888ff710"></script>
+        <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to cookies_utilities’ documentation!" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            cookies_utilities
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Documentation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#functions">Functions</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cookies-utilities-copy-datetime">cookies_utilities.copy_datetime</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cookies_utilities.copy_datetime"><code class="docutils literal notranslate"><span class="pre">copy_datetime()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cookies-utilities-get-dates">cookies_utilities.get_dates</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cookies_utilities.get_dates"><code class="docutils literal notranslate"><span class="pre">get_dates()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cookies-utilities-convert-time-to-feature">cookies_utilities.convert_time_to_feature</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cookies_utilities.convert_time_to_feature"><code class="docutils literal notranslate"><span class="pre">convert_time_to_feature()</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cookies-utilities-has-diff-local-and-remote">cookies_utilities.has_diff_local_and_remote</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cookies_utilities.has_diff_local_and_remote"><code class="docutils literal notranslate"><span class="pre">has_diff_local_and_remote()</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#classes">Classes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#cookies-utilities-stopwatch">cookies_utilities.Stopwatch</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cookies_utilities.Stopwatch"><code class="docutils literal notranslate"><span class="pre">Stopwatch</span></code></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cookies-utilities-htmlhelper">cookies_utilities.HtmlHelper</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cookies_utilities.HtmlHelper"><code class="docutils literal notranslate"><span class="pre">HtmlHelper</span></code></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">cookies_utilities</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Documentation</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/cookies_utilities.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="documentation">
+<h1>Documentation<a class="headerlink" href="#documentation" title="Permalink to this heading"></a></h1>
+<section id="functions">
+<h2>Functions<a class="headerlink" href="#functions" title="Permalink to this heading"></a></h2>
+<section id="cookies-utilities-copy-datetime">
+<h3>cookies_utilities.copy_datetime<a class="headerlink" href="#cookies-utilities-copy-datetime" title="Permalink to this heading"></a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="cookies_utilities.copy_datetime">
+<span class="sig-prename descclassname"><span class="pre">cookies_utilities.</span></span><span class="sig-name descname"><span class="pre">copy_datetime</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dt</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">options</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">{}</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.copy_datetime" title="Permalink to this definition"></a></dt>
+<dd><p>Create a copy of a datetime.datetime object.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dt</strong> (<em>datetime.datetime</em>) – The original object.</p></li>
+<li><p><strong>options</strong> (<em>dict</em>) – If you wish to overwrite certain fields,
+please specify them using this dictionary (optional).
+The keys must be in [‘year’, ‘month’, ‘day’, ‘hour’, ‘minute’,
+‘second’, ‘microsecond’, ‘tzinfo’, ‘fold’].</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>datetime.datetime</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p><strong>Example</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cookies_utilities</span> <span class="k">as</span> <span class="nn">cu</span>
+<span class="kn">import</span> <span class="nn">datetime</span>
+
+<span class="n">dt</span> <span class="o">=</span> <span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">strptime</span><span class="p">(</span><span class="s1">&#39;2016-07-01 02:15:00&#39;</span><span class="p">,</span> <span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">)</span>
+<span class="n">dt_copy</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">copy_datetime</span><span class="p">(</span><span class="n">dt</span><span class="p">,</span> <span class="p">{</span><span class="s1">&#39;minute&#39;</span><span class="p">:</span> <span class="mi">0</span><span class="p">})</span>  <span class="c1"># --&gt; 2016-07-01 02:00:00</span>
+</pre></div>
+</div>
+</section>
+<section id="cookies-utilities-get-dates">
+<h3>cookies_utilities.get_dates<a class="headerlink" href="#cookies-utilities-get-dates" title="Permalink to this heading"></a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="cookies_utilities.get_dates">
+<span class="sig-prename descclassname"><span class="pre">cookies_utilities.</span></span><span class="sig-name descname"><span class="pre">get_dates</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">start</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'2016-07-01</span> <span class="pre">02:00:00'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'2016-07-02</span> <span class="pre">01:00:00'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'%Y-%m-%d</span> <span class="pre">%H:%M:%S'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">delta</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">{'days':</span> <span class="pre">0,</span> <span class="pre">'hours':</span> <span class="pre">1,</span> <span class="pre">'minutes':</span> <span class="pre">0,</span> <span class="pre">'weeks':</span> <span class="pre">0}</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">geniter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cast_str</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format_out</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.get_dates" title="Permalink to this definition"></a></dt>
+<dd><p>Returns a list of times from the ‘start’ time to the ‘end’ time,
+incremented by ‘delta’.
+Please ensure ‘delta’ is greater than or equal to 1 microsecond.</p>
+<p>If you’re using the result as an iterator, it is recommended to set <em>geniter=True</em>.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>start</strong> (<em>string</em>) – Start time string.</p></li>
+<li><p><strong>end</strong> (<em>string</em>) – End time string (inclusive).</p></li>
+<li><p><strong>format</strong> (<em>string</em>) – Conversion format for datetime.strptime.</p></li>
+<li><p><strong>delta</strong> (<em>dict</em>) – Timedelta as args for datetime.timedelta (&gt;= 1 microsecond).</p></li>
+<li><p><strong>geniter</strong> (<em>bool</em>) – Whether to return as a generator iterator (default <em>False</em>).</p></li>
+<li><p><strong>cast_str</strong> (<em>bool</em>) – Whether to convert output to string (default <em>True</em>).</p></li>
+<li><p><strong>format_out</strong> (<em>string</em>) – Conversion format for output (default same to <strong>format</strong>).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>list (or generator iterator) of string (or datetime.datetime)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p><strong>Example</strong></p>
+<p>An example of incrementing by one day.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cookies_utilities</span> <span class="k">as</span> <span class="nn">cu</span>
+<span class="n">dates</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">get_dates</span><span class="p">(</span>
+    <span class="n">start</span><span class="o">=</span><span class="s1">&#39;2016/07/01&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;2016/07/03&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y/%m/</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">,</span>
+    <span class="n">delta</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;days&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">},</span> <span class="n">format_out</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dates</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">[&#39;2016-07-01&#39;, &#39;2016-07-02&#39;, &#39;2016-07-03&#39;]</span>
+</pre></div>
+</div>
+<p>An example of incrementing by 20 minutes.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cookies_utilities</span> <span class="k">as</span> <span class="nn">cu</span>
+<span class="n">dates</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">get_dates</span><span class="p">(</span>
+    <span class="n">start</span><span class="o">=</span><span class="s1">&#39;2016-07-01 02:00:00&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;2016-07-01 03:00:00&#39;</span><span class="p">,</span>
+    <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">,</span>
+    <span class="n">delta</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;minutes&#39;</span><span class="p">:</span> <span class="mi">20</span><span class="p">})</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">dates</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">[&#39;2016-07-01 02:00:00&#39;, &#39;2016-07-01 02:20:00&#39;, &#39;2016-07-01 02:40:00&#39;, &#39;2016-07-01 03:00:00&#39;]</span>
+</pre></div>
+</div>
+<p>An example of retrieving as a generator iterator.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cookies_utilities</span> <span class="k">as</span> <span class="nn">cu</span>
+<span class="n">dates</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">get_dates</span><span class="p">(</span>
+    <span class="n">start</span><span class="o">=</span><span class="s1">&#39;2016/07/01&#39;</span><span class="p">,</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;2016/07/03&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y/%m/</span><span class="si">%d</span><span class="s1">&#39;</span><span class="p">,</span>
+    <span class="n">delta</span><span class="o">=</span><span class="p">{</span><span class="s1">&#39;days&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">},</span> <span class="n">geniter</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="nb">type</span><span class="p">(</span><span class="n">dates</span><span class="p">))</span>
+<span class="k">for</span> <span class="n">date</span> <span class="ow">in</span> <span class="n">dates</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">date</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">&lt;class &#39;generator&#39;&gt;</span>
+<span class="go">2016/07/01</span>
+<span class="go">2016/07/02</span>
+<span class="go">2016/07/03</span>
+</pre></div>
+</div>
+</section>
+<section id="cookies-utilities-convert-time-to-feature">
+<h3>cookies_utilities.convert_time_to_feature<a class="headerlink" href="#cookies-utilities-convert-time-to-feature" title="Permalink to this heading"></a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="cookies_utilities.convert_time_to_feature">
+<span class="sig-prename descclassname"><span class="pre">cookies_utilities.</span></span><span class="sig-name descname"><span class="pre">convert_time_to_feature</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">dt</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'%Y-%m-%d</span> <span class="pre">%H:%M:%S'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">period</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'day'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ceiling</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.convert_time_to_feature" title="Permalink to this definition"></a></dt>
+<dd><p>Convert a time to a feature value between 0 and 1.
+The return feature value represents how much of a period has passed.</p>
+<p>For example, if the period is 1 day, a feature value of noon is 0.5.</p>
+<p>Note 1: When setting the period to a month, the cycle is considered as 31 days
+regardless of the actual number of days in that month. This is to ensure that
+the feature value for ‘the 5th day of any month’ is consistent.</p>
+<p>Note 2: When setting the period to a year, the cycle is considered as 366 days
+regardless of the actual number of days in that year. This is done to ensure that
+the feature value for ‘the 5th day of any year’ remains the same,
+regardless of the specific year.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>dt</strong> (<em>string</em>) – A time string.</p></li>
+<li><p><strong>format</strong> (<em>string</em>) – Conversion format for datetime.strptime.
+If you set this argument to None,
+we expect ‘dt’ to originally be datetime.datetime object.</p></li>
+<li><p><strong>period</strong> (<em>string</em>) – A time period to convert a time to a feature value.
+This must be in [‘year’, ‘month’, ‘week’, ‘day’, ‘hour’, ‘minute’, ‘second’].</p></li>
+<li><p><strong>ceiling</strong> (<em>string</em>) – If you want to round the time when calculating the feature value,
+specify the rounding granularity in this argument (optional).
+This must be in [‘year’, ‘month’, ‘day’, ‘hour’, ‘minute’, ‘second’].</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cookies_utilities</span> <span class="k">as</span> <span class="nn">cu</span>
+
+<span class="n">feature_value</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">convert_time_to_feature</span><span class="p">(</span>
+    <span class="n">dt</span><span class="o">=</span><span class="s1">&#39;2023-01-02 03:40:50&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">,</span>
+    <span class="n">period</span><span class="o">=</span><span class="s1">&#39;day&#39;</span><span class="p">,</span> <span class="n">ceiling</span><span class="o">=</span><span class="s1">&#39;hour&#39;</span><span class="p">)</span>
+<span class="c1">#  --&gt; 0.125  ( 3:00 am is 12.5% of the day )</span>
+
+<span class="n">feature_value</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">convert_time_to_feature</span><span class="p">(</span>
+    <span class="n">dt</span><span class="o">=</span><span class="s1">&#39;2023-01-02 03:40:50&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">,</span>
+    <span class="n">period</span><span class="o">=</span><span class="s1">&#39;year&#39;</span><span class="p">,</span> <span class="n">ceiling</span><span class="o">=</span><span class="s1">&#39;day&#39;</span><span class="p">)</span>
+<span class="c1">#  --&gt; 0.002732  ( 1.0 / 366.0 )</span>
+
+<span class="n">feature_value</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">convert_time_to_feature</span><span class="p">(</span>
+    <span class="n">dt</span><span class="o">=</span><span class="s1">&#39;2023-01-02 03:40:50&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">,</span>
+    <span class="n">period</span><span class="o">=</span><span class="s1">&#39;month&#39;</span><span class="p">,</span> <span class="n">ceiling</span><span class="o">=</span><span class="s1">&#39;day&#39;</span><span class="p">)</span>
+<span class="c1">#  --&gt; 0.032258  ( 1.0 / 31.0 )</span>
+
+<span class="n">feature_value</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">convert_time_to_feature</span><span class="p">(</span>
+    <span class="n">dt</span><span class="o">=</span><span class="s1">&#39;2023-01-02 03:40:50&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">,</span>
+    <span class="n">period</span><span class="o">=</span><span class="s1">&#39;week&#39;</span><span class="p">,</span> <span class="n">ceiling</span><span class="o">=</span><span class="s1">&#39;hour&#39;</span><span class="p">)</span>
+<span class="c1">#  --&gt; 0.017857  ( 0.125 / 7.0 )</span>
+
+<span class="n">feature_value</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">convert_time_to_feature</span><span class="p">(</span>
+    <span class="n">dt</span><span class="o">=</span><span class="s1">&#39;2023-01-02 03:40:50&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">,</span>
+    <span class="n">period</span><span class="o">=</span><span class="s1">&#39;hour&#39;</span><span class="p">,</span> <span class="n">ceiling</span><span class="o">=</span><span class="s1">&#39;minute&#39;</span><span class="p">)</span>
+<span class="c1">#  --&gt; 0.666667  ( 40.0 / 60.0 )</span>
+
+<span class="n">feature_value</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">convert_time_to_feature</span><span class="p">(</span>
+    <span class="n">dt</span><span class="o">=</span><span class="s1">&#39;2023-01-02 03:40:50&#39;</span><span class="p">,</span> <span class="nb">format</span><span class="o">=</span><span class="s1">&#39;%Y-%m-</span><span class="si">%d</span><span class="s1"> %H:%M:%S&#39;</span><span class="p">,</span>
+    <span class="n">period</span><span class="o">=</span><span class="s1">&#39;minute&#39;</span><span class="p">)</span>
+<span class="c1">#  --&gt; 0.833333  ( 50.0 / 60.0 )</span>
+</pre></div>
+</div>
+</section>
+<section id="cookies-utilities-has-diff-local-and-remote">
+<h3>cookies_utilities.has_diff_local_and_remote<a class="headerlink" href="#cookies-utilities-has-diff-local-and-remote" title="Permalink to this heading"></a></h3>
+<dl class="py function">
+<dt class="sig sig-object py" id="cookies_utilities.has_diff_local_and_remote">
+<span class="sig-prename descclassname"><span class="pre">cookies_utilities.</span></span><span class="sig-name descname"><span class="pre">has_diff_local_and_remote</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">local_dir</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">remote_url</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">username</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">password</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">exts</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'html|css|js'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">binary_exts</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'png|jpg|pdf'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.has_diff_local_and_remote" title="Permalink to this definition"></a></dt>
+<dd><p>Recursively checks whether the local directory is synchronized with the specified URL.</p>
+<p>For binary files, only their presence and file size will be checked without verifying the content differences.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>local_dir</strong> (<em>str</em>) – The path to the local directory.</p></li>
+<li><p><strong>remote_url</strong> (<em>str</em>) – The URL to be checked against.</p></li>
+<li><p><strong>username</strong> (<em>str</em><em> | </em><em>None</em>) – The username for basic authentication. If the URL is protected, please specify (optional).</p></li>
+<li><p><strong>password</strong> (<em>str</em><em> | </em><em>None</em>) – The password for basic authentication. If the URL is protected, please specify (optional).</p></li>
+<li><p><strong>exts</strong> (<em>str</em>) – A pipe-separated list of file extensions to be checked. Default is “html|css|js” (optional).</p></li>
+<li><p><strong>binary_exts</strong> (<em>str</em>) – A pipe-separated list of binary file extensions to be checked. Default is “png|jpg|pdf” (optional).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<p><strong>Example</strong></p>
+<p>An example script of check whether the local directory is synchronized with the specified URL.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cookies_utilities</span> <span class="k">as</span> <span class="nn">cu</span>
+<span class="kn">import</span> <span class="nn">getpass</span>
+
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">username</span> <span class="o">=</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getpass</span><span class="p">(</span><span class="s1">&#39;Please enter username: &#39;</span><span class="p">)</span>
+    <span class="n">password</span> <span class="o">=</span> <span class="n">getpass</span><span class="o">.</span><span class="n">getpass</span><span class="p">(</span><span class="s1">&#39;Please enter password: &#39;</span><span class="p">)</span>
+    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+        <span class="n">cu</span><span class="o">.</span><span class="n">has_diff_local_and_remote</span><span class="p">(</span>
+            <span class="n">local_dir</span><span class="o">=</span><span class="s1">&#39;./hoge/&#39;</span><span class="p">,</span>
+            <span class="n">remote_url</span><span class="o">=</span><span class="s1">&#39;https://hoge/&#39;</span><span class="p">,</span>
+            <span class="n">username</span><span class="o">=</span><span class="n">username</span><span class="p">,</span> <span class="n">password</span><span class="o">=</span><span class="n">password</span><span class="p">,</span>
+            <span class="n">exts</span><span class="o">=</span><span class="s1">&#39;html|css|js|tex|sty&#39;</span><span class="p">,</span>
+            <span class="n">binary_exts</span><span class="o">=</span><span class="s1">&#39;png|jpg|pdf|pptx|ps|eps&#39;</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;----- END -----&#39;</span><span class="p">)</span>
+        <span class="n">user_input</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;Press Enter to continue or type `q` to quit: &#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">user_input</span> <span class="o">==</span> <span class="s1">&#39;q&#39;</span><span class="p">:</span>
+            <span class="k">break</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this heading"></a></h2>
+<section id="cookies-utilities-stopwatch">
+<h3>cookies_utilities.Stopwatch<a class="headerlink" href="#cookies-utilities-stopwatch" title="Permalink to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="cookies_utilities.Stopwatch">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cookies_utilities.</span></span><span class="sig-name descname"><span class="pre">Stopwatch</span></span><a class="headerlink" href="#cookies_utilities.Stopwatch" title="Permalink to this definition"></a></dt>
+<dd><p>Stopwatch for measuring processing time.</p>
+<dl class="py method">
+<dt class="sig sig-object py" id="cookies_utilities.Stopwatch.press">
+<span class="sig-name descname"><span class="pre">press</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">key</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">''</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.Stopwatch.press" title="Permalink to this definition"></a></dt>
+<dd><p>Press the stopwatch.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>key</strong> (<em>string</em>) – The idenficator for the time (optional).</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cookies_utilities.Stopwatch.show">
+<span class="sig-name descname"><span class="pre">show</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.Stopwatch.show" title="Permalink to this definition"></a></dt>
+<dd><p>Show lap times.</p>
+</dd></dl>
+
+</dd></dl>
+
+<p><strong>Example</strong></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">cookies_utilities</span> <span class="k">as</span> <span class="nn">cu</span>
+<span class="n">sw</span> <span class="o">=</span> <span class="n">cu</span><span class="o">.</span><span class="n">Stopwatch</span><span class="p">()</span>
+<span class="n">sw</span><span class="o">.</span><span class="n">press</span><span class="p">(</span><span class="s1">&#39;train start&#39;</span><span class="p">)</span>
+<span class="c1"># train</span>
+<span class="n">sw</span><span class="o">.</span><span class="n">press</span><span class="p">(</span><span class="s1">&#39;train end&#39;</span><span class="p">)</span>
+<span class="c1"># test</span>
+<span class="n">sw</span><span class="o">.</span><span class="n">press</span><span class="p">(</span><span class="s1">&#39;test end&#39;</span><span class="p">)</span>
+<span class="n">sw</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">time1 (train start - train end): 2.000s</span>
+<span class="go">time2 (train end - test end): 1.000s</span>
+<span class="go">total: 3.000s</span>
+</pre></div>
+</div>
+</section>
+<section id="cookies-utilities-htmlhelper">
+<h3>cookies_utilities.HtmlHelper<a class="headerlink" href="#cookies-utilities-htmlhelper" title="Permalink to this heading"></a></h3>
+<dl class="py class">
+<dt class="sig sig-object py" id="cookies_utilities.HtmlHelper">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">cookies_utilities.</span></span><span class="sig-name descname"><span class="pre">HtmlHelper</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">title</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.HtmlHelper" title="Permalink to this definition"></a></dt>
+<dd><p>Class to help with creating an HTML file.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>title</strong> (<em>str</em><em> | </em><em>None</em>) – The title of the HTML (optional).</p>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="cookies_utilities.HtmlHelper.append">
+<span class="sig-name descname"><span class="pre">append</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">s</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.HtmlHelper.append" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>s</strong> (<em>str</em>) – String to be appended to the HTML body.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cookies_utilities.HtmlHelper.append_heading">
+<span class="sig-name descname"><span class="pre">append_heading</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">level</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">s</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.HtmlHelper.append_heading" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>level</strong> (<em>int</em>) – Integer indicating the heading level.</p></li>
+<li><p><strong>s</strong> (<em>str</em>) – Heading String.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cookies_utilities.HtmlHelper.append_markdown">
+<span class="sig-name descname"><span class="pre">append_markdown</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">md_path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">converter</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.HtmlHelper.append_markdown" title="Permalink to this definition"></a></dt>
+<dd><p>Reads the markdown file, converts it to HTML, and appends to the body.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>md_path</strong> (<em>str</em>) – Path to the markdown file.</p></li>
+<li><p><strong>converter</strong> (<em>Callable</em><em>[</em><em>[</em><em>str</em><em>]</em><em>, </em><em>str</em><em>]</em>) – Function used to convert markdown to HTML.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="cookies_utilities.HtmlHelper.to_html">
+<span class="sig-name descname"><span class="pre">to_html</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">out_path</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#cookies_utilities.HtmlHelper.to_html" title="Permalink to this definition"></a></dt>
+<dd><dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>out_path</strong> (<em>str</em>) – Output path for the HTML file.</p>
+</dd>
+<dt class="field-even">Return type<span class="colon">:</span></dt>
+<dd class="field-even"><p>None</p>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<p><strong>Example</strong></p>
+<p>Below is an example of converting a Markdown file to an HTML file. The mistletoe package is used for the Markdown conversion.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">cookies_utilities</span> <span class="kn">import</span> <span class="n">HtmlHelper</span>
+<span class="kn">import</span> <span class="nn">mistletoe</span>
+<span class="kn">import</span> <span class="nn">re</span>
+
+<span class="k">def</span> <span class="nf">main</span><span class="p">(</span><span class="n">md_path</span><span class="p">):</span>
+    <span class="n">hh</span> <span class="o">=</span> <span class="n">HtmlHelper</span><span class="p">()</span>
+
+    <span class="c1"># Reads the markdown file, converts it to HTML, and appends to the body.</span>
+    <span class="k">assert</span> <span class="n">re</span><span class="o">.</span><span class="n">search</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;\.md$&#39;</span><span class="p">,</span> <span class="n">md_path</span><span class="p">)</span>
+    <span class="n">hh</span><span class="o">.</span><span class="n">set_markdown</span><span class="p">(</span><span class="n">md_path</span><span class="p">,</span> <span class="n">mistletoe</span><span class="o">.</span><span class="n">markdown</span><span class="p">)</span>
+
+    <span class="c1"># You can also customize the CSS.</span>
+    <span class="c1"># Since `css` attribute is a subclass of a dictionary,</span>
+    <span class="c1"># you can set it directly by specifying a key.</span>
+    <span class="c1">#  Ex. hh.css[&#39;body&#39;][&#39;background&#39;] = &#39;lemonchiffon&#39;</span>
+    <span class="c1"># Using the method below, it checks for the existence of</span>
+    <span class="c1"># the &#39;body&#39; key and adds it if not present.</span>
+    <span class="n">hh</span><span class="o">.</span><span class="n">css</span><span class="o">.</span><span class="n">set</span><span class="p">(</span><span class="s1">&#39;body&#39;</span><span class="p">,</span> <span class="s1">&#39;background&#39;</span><span class="p">,</span> <span class="s1">&#39;lemonchiffon&#39;</span><span class="p">)</span>
+
+    <span class="n">hh</span><span class="o">.</span><span class="n">to_html</span><span class="p">(</span><span class="n">re</span><span class="o">.</span><span class="n">sub</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;\.md$&#39;</span><span class="p">,</span> <span class="s1">&#39;.html&#39;</span><span class="p">,</span> <span class="n">md_path</span><span class="p">))</span>
+
+<span class="k">if</span> <span class="vm">__name__</span> <span class="o">==</span> <span class="s1">&#39;__main__&#39;</span><span class="p">:</span>
+    <span class="n">main</span><span class="p">(</span><span class="s1">&#39;./README.md&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Below is an example of outputting a Pandas DataFrame to an HTML file.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">cookies_utilities</span> <span class="kn">import</span> <span class="n">HtmlHelper</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;id&#39;</span><span class="p">,</span> <span class="s1">&#39;name&#39;</span><span class="p">])</span>
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;001&#39;</span><span class="p">,</span> <span class="s1">&#39;Alice&#39;</span><span class="p">]</span>
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;002&#39;</span><span class="p">,</span> <span class="s1">&#39;Bob&#39;</span><span class="p">]</span>
+<span class="n">df</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;003&#39;</span><span class="p">,</span> <span class="s1">&#39;Carol&#39;</span><span class="p">]</span>
+
+<span class="n">hh</span> <span class="o">=</span> <span class="n">HtmlHelper</span><span class="p">()</span>
+<span class="n">hh</span><span class="o">.</span><span class="n">append_heading</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;Employees&#39;</span><span class="p">)</span>
+<span class="n">hh</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">df</span><span class="o">.</span><span class="n">to_html</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">))</span>
+<span class="n">hh</span><span class="o">.</span><span class="n">to_html</span><span class="p">(</span><span class="s1">&#39;employees.html&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Welcome to cookies_utilities’ documentation!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2023, CookieBox26.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
