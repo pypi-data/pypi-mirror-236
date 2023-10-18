@@ -1,0 +1,5 @@
+setup.py
+sydomain.egg-info/PKG-INFO
+sydomain.egg-info/SOURCES.txt
+sydomain.egg-info/dependency_links.txt
+sydomain.egg-info/top_level.txt
