@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: dubo
+Version: 0.2.8
+Summary: Analytics made simple
+License: MIT
+Author: Andrew Duberstein
+Author-email: ajduberstein@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: altair (>=5.0.1,<6.0.0)
+Requires-Dist: attrs (>=21.3.0)
+Requires-Dist: httpx (>=0.20.0,<0.25.0)
+Requires-Dist: pandas (>=1.0.0,<2.0.0)
+Requires-Dist: pydeck (>=0.8.0,<0.9.0)
+Requires-Dist: python-dateutil (>=2.8.0,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+dubo
+====
+
+dubo is a client for running LLMs against DataFrames and other 2D data.
+
+It is currently in a beta release. To join the beta, you can check out the [documentation](https://docs.dubo.gg).
+
+## Generate API Client
+
+An api client can be generated to access the dubo API, it is located in the `/dubo/api_client` folder:
+
+```shell
+just generate-api-client
+```
+
+More info can be found in the README file inside the `api-client-generator` folder.
+
+## Generate Documentation
+
+```shell
+just generate-doc
+```
+
