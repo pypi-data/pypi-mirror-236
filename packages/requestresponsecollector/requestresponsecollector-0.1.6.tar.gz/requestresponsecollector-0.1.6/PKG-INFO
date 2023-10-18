@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: requestresponsecollector
+Version: 0.1.6
+Summary: 
+Home-page: https://github.com/mnaile/RequestResponseCollector
+Author: Naila
+Author-email: mammadaliyevan@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.6,<4.0.0)
+Requires-Dist: fastapi (>=0.97.0,<0.98.0)
+Project-URL: Repository, https://github.com/mnaile/RequestResponseCollector
+Description-Content-Type: text/markdown
+
+REQUEST RESPONSE COLLECTOR
+
+This module for getting action logs
