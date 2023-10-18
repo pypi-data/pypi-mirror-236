@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: neoDNS
+Version: 0.2.1
+Summary: lightweight 'dns' server
+Author-email: Ryan Huang <ryan@alien.gov>
+Project-URL: Homepage, https://github.com/JuanCldCmt/neoDNS
+Project-URL: Bug Tracker, https://github.com/JuanCldCmt/neoDNS
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: Werkzeug
+
+# neoDNS
+
+Lightweight "DNS" that operates by using http requests
+
+### Development
+
+```bash
+pip install -r requirements.txt
+flask run
+```
+
+### Deployment
+
+refer to the tutorial [here](https://flask.palletsprojects.com/en/2.3.x/tutorial/deploy/)
+
+```bash
+pip install waitress
+waitress-serve
+```
+
+### Todo
+
+- [ ] Add documentation
