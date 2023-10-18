@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools", "flask", "Werkzeug"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "neoDNS"
+version = "0.2.1"
+dependencies = [
+    "flask",
+    "Werkzeug"
+]
+authors = [
+  { name="Ryan Huang", email="ryan@alien.gov" },
+]
+description = "lightweight 'dns' server"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/JuanCldCmt/neoDNS"
+"Bug Tracker" = "https://github.com/JuanCldCmt/neoDNS"
+
+[tool.setuptools.package-data]
+neoDNS = ["*.sql"]
