@@ -1,0 +1,21 @@
+[project]
+name = "hello-hxhkim"
+version = "0.1.0"
+description = "The first deploying python program."
+authors = [
+    { name = "hxhkim", email = "hxhkim1998@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
