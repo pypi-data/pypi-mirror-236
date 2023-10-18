@@ -1,0 +1,6 @@
+test
+.idea
+venv
+*.pem
+main.py
+dist
