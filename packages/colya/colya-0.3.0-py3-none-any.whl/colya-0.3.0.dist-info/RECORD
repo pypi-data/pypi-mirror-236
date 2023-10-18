@@ -1,0 +1,17 @@
+Colya/__init__.py,sha256=9NUJLyOXLclyD5NE5gMGEWd066F5CYpOqkKkwPlY0n4,1695
+Colya/bot.py,sha256=vQ82ZaRyChIVsyB3SSW4sk9gj73mVT6zGVcCIJlY79s,216
+Colya/setup.py,sha256=XthPd9BxNvzONN-mNk_9U-qRjWMLIRhlmvh-f_gO0zc,736
+Colya/Config/__init__.py,sha256=m68RTVHD0HR0clMk-bCXf_snygNhZ7Ws6lX57DNQKgA,761
+Colya/dictionary/__init__.py,sha256=zRgyTbPAM8-Qdb0e1A09US8ZJRWMeXk3_g8hTNzxVKQ,20941
+Colya/plugin/__init__.py,sha256=PjPjAPTGPewVbc6kxYDi4A2zrKEsP2EtFVrqIGJt7EE,9613
+Colya/plugin/base.py,sha256=UfMjNnhxtjR4EAa4F3ItHj8TJtQTdGwxdPOJhdtNbpU,642
+Colya/service/Session.py,sha256=SlVq6rb5AOQS03PSwnjapoFa7W7R1A-hvz7Ta6GkuiM,1376
+Colya/service/WebSocket.py,sha256=iUPBAaWX_X6vAxQ28egQyiD6jdapq5ClQ5-IqvhyPZ0,1559
+Colya/service/__init__.py,sha256=vNavkyhNNUMeahlAilfngUX72HEN6CrDMJkoWW31xzc,3713
+Colya/service/Manager/Blueprint.py,sha256=Kk6N98IHfgFoJuXqYzZDbgJ2bAicOEjBndQVbnhGgd4,1160
+Colya/service/Manager/__init__.py,sha256=-xTG-vfdtJ1jWz-XqQoDr-0RiPikAANiI0RFatMrpRg,1022
+Colya/utils/__init__.py,sha256=OE0uWz4lCbeJ_I8ENtnEhlAC7kcSDZVoJ7dU6mqXbH0,934
+colya-0.3.0.dist-info/METADATA,sha256=LuWKCYj1cPpm9OEWqGL6jvGx_vd4869Z2aoEton3s60,296
+colya-0.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+colya-0.3.0.dist-info/top_level.txt,sha256=zaQmmoLV_kwpab7Y-V35kMj0LXI21lQrAF733-CWRes,6
+colya-0.3.0.dist-info/RECORD,,
