@@ -1,0 +1,11 @@
+prefect_fugue/__init__.py,sha256=gt051ExcFdxj2NLkP3YCTg0BXR7BiiuHjY8ENV49xRA,136
+prefect_fugue/_utils.py,sha256=klQGafM2GsBfGoyjpmFfVRNZe9vxomutlJZt8KvKprA,82
+prefect_fugue/_version.py,sha256=wSC7EINm5PIV43xbD_Br7DcAtQwe_AFPBZk6Owcm3Ys,497
+prefect_fugue/blocks.py,sha256=vi8FvXIlTb3zoXSFQoDWkMO51iMFrrxeFMpfb1flNn8,2901
+prefect_fugue/registry.py,sha256=ArXf4eZmJ1P8smxhP159d4SHQjLZgh16x5Shsy_P5-w,603
+prefect_fugue-0.0.3.dist-info/LICENSE,sha256=tLKlrmr0sOnPybm5TUmA2SBT-cYajF3kILQME85pqpQ,11356
+prefect_fugue-0.0.3.dist-info/METADATA,sha256=NIpRidaALIjHIYqTA7BlJ80ZID3d7nJfs1uaOzACXhc,12052
+prefect_fugue-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+prefect_fugue-0.0.3.dist-info/entry_points.txt,sha256=sADSjLitFjvgfHlkh3KKoEk22b8UjrH3oR5Qg11Jgg0,49
+prefect_fugue-0.0.3.dist-info/top_level.txt,sha256=A4gUEKDHIFe_pVFE9lxURDZW7noUw_aQig_WZNnp8bY,14
+prefect_fugue-0.0.3.dist-info/RECORD,,
