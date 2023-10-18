@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: bhmsh
+Version: 0.0.2
+Summary: A lightweight OpenAI-powered Bash actuator.
+Author-email: Collin Hinson <collin@bizhandyman.com>
+Project-URL: Homepage, https://github.com/business-handyman-llc/bhmsh
+Project-URL: Bug Tracker, https://github.com/business-handyman-llc/bhmsh/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: openai >=0.28.1
+
+# BHMsh
+A lightweight OpenAI-powered Bash actuator.
+## Installation
+BHMsh requires Python 3.
+```
+pip install bhmsh
+```
+## Usage
+TODO
