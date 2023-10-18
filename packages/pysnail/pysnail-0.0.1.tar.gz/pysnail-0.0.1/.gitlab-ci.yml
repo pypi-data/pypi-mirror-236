@@ -1,0 +1,41 @@
+variables:
+  DOCKER_IMAGE: pysnail
+
+stages:
+  - build
+  - deploy
+
+build-docker-image:
+  stage: build
+  image: docker:24.0.6
+  services:
+    - docker:24.0.6-dind
+  before_script:
+    - docker login -u $REGISTRY_USER -p $REGISTRY_PASS 
+  script:
+    - echo "Building docker image..."
+    - docker build -t $REGISTRY_USER/$DOCKER_IMAGE .
+    - docker push $REGISTRY_USER/$DOCKER_IMAGE
+
+pages:
+  stage: build
+  image: python:3.11.5-alpine3.18
+  before_script:
+    - pip install pdoc
+  script:
+    - echo "Building docs..."
+    - pdoc src/pysnail -o public/
+  artifacts:
+    paths:
+      - public
+
+publish-package:
+  stage: deploy
+  image: python:3.11.5-alpine3.18
+  environment: production
+  before_script:
+    - pip install build twine
+  script:
+    - echo "Publishing package to PyPI..."
+    - python -m build
+    - TWINE_PASSWORD=$PYPI_MAIN_TOKEN TWINE_USERNAME=$PYPI_USERNAME python -m twine upload dist/*

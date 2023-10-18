@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pysnail"
+version = "0.0.1"
+authors = [
+  { name="Bohdan Chernykh", email="dev@bchernykh.anonaddy.com" },
+]
+description = "pysnail - blazingly fast async snail!"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/bohdan.chernykh/pysnail"
+"Bug Tracker" = "https://gitlab.com/bohdan.chernykh/pysnail/issues"

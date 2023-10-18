@@ -1,0 +1,1 @@
+from pysnail.pysnail import get_regular_snail, get_blazingly_fast_snail
