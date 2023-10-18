@@ -1,0 +1,969 @@
+\documentclass[11pt]{article}
+\usepackage{a4wide}
+
+\usepackage[american]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\usepackage{ltablex}
+\keepXColumns
+\usepackage{xcolor}
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\section*{Symbols}
+\subsection*{Sets}
+\begin{tabularx}{\textwidth}{| l | l | X |} 
+\hline 
+\textbf{Name} & \textbf{Domains} & \textbf{Description}\\ 
+\hline 
+\endhead 
+t (timeModel)  & * & Time model describes the model time steps. \\ 
+t (timeModelToCalc) , t (ttc)  & t & Time steps to be calculated \\ 
+t (timeModelSel)  & t & Selected timesteps \\ 
+n (nodesModel)  & * & Nodes model describes the model regions. \\ 
+n (nodesModelSel)  & n & Selected model nodes. \\ 
+v (vintage)  & * & Vintage describes the technologies vintage classes. \\ 
+y (years) , y (years\_a) , years_{aa} (years\_aa) , yearsCom, prev\_years (prev\_years)  & * & Years describes the modelling years. \\ 
+yearsToCalc & y & Years to calculate describes the subset of years the model calculates. \\ 
+y (yearsSel)  & y & Years sel is used to determine years to calc \\ 
+a (activity) , a (act)  & * & Activity describes the storage and converter activities. \\ 
+seg (gridSegments)  & * & Grid segments \\ 
+l (linksModel)  & * & Links model describes the transport links of the model.  \\ 
+distanceType & * &  Distance type describes the transport type, whether land or sea. \\ 
+c (commodity)  & * & Commodity describes the energy carriers (e.g. electricity, heat, fuel). \\ 
+indicator, indicator\_a & * & Indicator describes techno-economic parameters for units, lines and activities, which are balanced across temporal and spatial scales. \\ 
+p (techs)  & * & Techs describes the converter, sources and sinks, storage and transport technologies. \\ 
+p\_conv (converter\_techs)  & p & Converter techs describes the converter technologies in the model. \\ 
+p\_stor (storage\_techs)  & p & Storage techs describes the storage technologies in the model. \\ 
+p\_tran (transport\_techs)  & p & Transport techs describes the transport technologies in the model. \\ 
+sourcesink\_techs (sourcesink\_techs)  & p & Sources and sinks describes the source and sink technologies in the model. \\ 
+degradation\_states (degradation\_states) , dc\_states (dc\_states) , degradation\_states_a (degradation\_states\_a) , degradation\_states_b (degradation\_states\_b)  & * & storage degradation unit states \\ 
+soc\_statesIn (soc\_statesIn)  & * & States of charge. \\ 
+l (linksModelToCalc)  & l & Links in which the model will calculate indicators. \\ 
+accNodesModel, accNodesModel\_a (accNodesModel\_a)  & * & Accounting nodes model describes the nodes to be accounted for in the model. \\ 
+accYears, accYears\_a (accYears\_a)  & * & Accounting years are used to calculate indicators. \\ 
+accYearsSel & accYears & Selected years to calculate in the model run. \\ 
+pc\_accounting\_converterUnits & * &  \\ 
+pc\_accounting\_converterActivity & * &  \\ 
+pc\_accounting\_converterStartup & * &  \\ 
+pc\_accounting\_storageUnits & * &  \\ 
+pc\_accounting\_transportLines & * &  \\ 
+pc\_accounting\_transportDistance & * &  \\ 
+pc\_accounting\_sourcesinkFlow & * &  \\ 
+pc\_accounting\_indicatorBounds & * &  \\ 
+activeIndicators & accNodesModel, accYears, indicator &  \\ 
+activeIndicators\_links (activeIndicators\_links)  & l, y, indicator &  \\ 
+variableIndicators & accNodesModel, accYears, indicator &  \\ 
+pc_conv_capacityParam (pc\_converter\_capacityParam)  & * &  \\ 
+pc_conv_techParam (pc\_converter\_techParam)  & * &  \\ 
+pc_conv_activityProfile (pc\_converter\_activityProfile)  & * &  \\ 
+pc\_converter\_coefficient & * &  \\ 
+conv\_availTech (converter\_availTech)  & n, y, p\_conv, v &  \\ 
+conv\_usedTech (converter\_usedTech)  & n, y, p\_conv, v &  \\ 
+conv\_usedAct (converter\_usedAct)  & p\_conv, v, a &  \\ 
+converter\_usedTechAct (converter\_usedTechAct)  & n, y, p\_conv, v, a &  \\ 
+conv\_useRampPos (converter\_useRampPos)  & n, y, p\_conv, v &  \\ 
+conv\_useRampNeg (converter\_useRampNeg)  & n, y, p\_conv, v &  \\ 
+converter\_hasMaxLoad & p\_conv, v &  \\ 
+converter\_hasMinLoad & p\_conv, v &  \\ 
+converter\_hasConstantFluxInActivity & p\_conv, v &  \\ 
+pc_conv_activityRequirements (pc\_converter\_activityRequirements)  & * &  \\ 
+uptimeSearchRange & t &  \\ 
+downtimeSearchRange & t &  \\ 
+converter\_unitBoundsFixed & n, y, p\_conv &  \\ 
+pc_stor_reservoirParam (pc\_storage\_reservoirParam)  & * &  \\ 
+pc_stor_techParam (pc\_storage\_techParam)  & * &  \\ 
+storage\_hasDegradation (storage\_hasDegradation)  & p\_stor, v &  \\ 
+pc_stor_sizeParam (pc\_storage\_sizeParam)  & * &  \\ 
+pc\_storage\_SoCParam & * &  \\ 
+soc\_states (soc\_states) , soc\_states_a (soc\_states\_a) , soc\_states_b (soc\_states\_b)  & soc\_statesIn &  \\ 
+pc\_storage\_degradationParam & * &  \\ 
+storage\_usedDegradation (storage\_usedDegradation)  & p\_stor, v, degradation\_states &  \\ 
+pc_stor_levelProfile (pc\_storage\_levelProfile)  & * &  \\ 
+storage\_usedTechSoCState (storage\_usedTechSoCState)  & p\_stor, v, soc\_statesIn &  \\ 
+storage\_validSoCRange (storage\_validSoCRange)  & p\_stor, v &  \\ 
+stor\_availTech (storage\_availTech)  & n, y, p\_stor, v &  \\ 
+stor\_usedTech (storage\_usedTech)  & n, y, p\_stor, v &  \\ 
+stor\_usedTechCom (storage\_usedTechCom)  & n, y, p\_stor, v, c &  \\ 
+storage\_unitBoundsFixed (storage\_unitBoundsFixed)  & n, y, p\_stor &  \\ 
+pc_tran_linesParam (pc\_transport\_linesParam)  & * &  \\ 
+pc_tran_techParam (pc\_transport\_techParam)  & * &  \\ 
+pc\_transport\_coefficient & * &  \\ 
+pc\_transport\_coefPerFlow & * &  \\ 
+pc\_transport\_coefPerDistance & * &  \\ 
+pc\_transport\_distanceParam & * &  \\ 
+tran\_availTech (transport\_availTech)  & l, y, p\_tran, v &  \\ 
+tran\_usedTech (transport\_usedTech)  & l, y, p\_tran, v &  \\ 
+transport\_lineBoundsFixed (transport\_lineBoundsFixed)  & l, y, p\_tran &  \\ 
+tran\_usedOpf (transport\_usedOpf)  & l, y, seg, p\_tran, v &  \\ 
+transport\_usedOpfLines (transport\_usedOpfLines)  & l, y, seg &  \\ 
+pc\_sourcesink\_config & * &  \\ 
+pc\_sourcesink\_annualSum & * &  \\ 
+sourcesink\_enabled (sourcesink\_enabled)  & n, y, sourcesink\_techs, c &  \\ 
+balance\_usedBalance & n, y, c &  \\ 
+\hline 
+\end{tabularx}
+\subsection*{Parameters}
+\begin{tabularx}{\textwidth}{| l | l | X |} 
+\hline 
+\textbf{Name} & \textbf{Domains} & \textbf{Description}\\ 
+\hline 
+\endhead 
+transport\_incidenceModel (transport\_incidenceModel)  & n, l &  \\ 
+accounting\_converterUnits (accounting\_converterUnits)  & indicator, n, p\_conv, v, pc\_accounting\_converterUnits &  \\ 
+accounting\_converterActivity (accounting\_converterActivity)  & indicator, n, p\_conv, v, a, pc\_accounting\_converterActivity &  \\ 
+accounting\_converterStartup (accounting\_converterStartup)  & indicator, n, p\_conv, v, pc\_accounting\_converterStartup &  \\ 
+accounting\_storageUnits (accounting\_storageUnits)  & indicator, n, p\_stor, v, pc\_accounting\_storageUnits &  \\ 
+accounting\_transportLines (accounting\_transportLines)  & indicator, l, p\_tran, v, pc\_accounting\_transportLines &  \\ 
+accounting\_transportDistance (accounting\_transportDistance)  & indicator, l, p\_tran, v, distanceType, pc\_accounting\_transportDistance &  \\ 
+accounting\_sourcesinkFlow (accounting\_sourcesinkFlow)  & indicator, n, y, sourcesink\_techs, c, pc\_accounting\_sourcesinkFlow &  \\ 
+accounting\_indicatorBounds (accounting\_indicatorBounds)  & accNodesModel, accYears, indicator, pc\_accounting\_indicatorBounds &  \\ 
+compoundIndicators & accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a &  \\ 
+accounting\_annuityFactor\_converter (accounting\_annuityFactor\_converter)  & indicator, n, p\_conv, v &  \\ 
+accounting\_annuityFactor\_storage (accounting\_annuityFactor\_storage)  & indicator, n, p\_stor, v &  \\ 
+accounting\_annuityFactor\_transportLines (accounting\_annuityFactor\_transportLines)  & indicator, l, p\_tran, v &  \\ 
+accounting\_annuityFactor\_transportDistance (accounting\_annuityFactor\_transportDistance)  & indicator, l, p\_tran, v, distanceType &  \\ 
+conv\_capacityParam (converter\_capacityParam)  & n, y, p\_conv, pc_conv_capacityParam &  \\ 
+conv\_techParam (converter\_techParam)  & p\_conv, v, pc_conv_techParam &  \\ 
+conv\_coefficient (converter\_coefficient)  & p\_conv, v, a, c, pc\_converter\_coefficient &  \\ 
+conv\_activityProfile (converter\_activityProfile)  & t, n, y, p\_conv, v, pc_conv_activityProfile &  \\ 
+conv\_coefficientProfile (converter\_coefficientProfile)  & t, n, y, p\_conv, v, a, c &  \\ 
+conv\_activityRequirements (converter\_activityRequirements)  & p\_conv, v, a, pc_conv_activityRequirements &  \\ 
+stor\_reservoirParam (storage\_reservoirParam)  & n, y, p\_stor, pc_stor_reservoirParam &  \\ 
+stor\_techParam (storage\_techParam)  & p\_stor, v, pc_stor_techParam &  \\ 
+stor\_sizeParam (storage\_sizeParam)  & p\_stor, v, c, pc_stor_sizeParam &  \\ 
+storage\_socparam (storage\_socparam)  & p\_stor, v, soc\_statesIn, pc\_storage\_SoCParam &  \\ 
+storage\_degradationParam (storage\_degradationParam)  & p\_stor, v, degradation\_states, pc\_storage\_degradationParam &  \\ 
+storage\_bigM (storage\_bigM)  & p\_stor, v &  \\ 
+representedYears & y &  \\ 
+stor\_levelProfile (storage\_levelProfile)  & t, n, y, p\_stor, v, pc_stor_levelProfile &  \\ 
+tran\_techParam (transport\_techParam)  & p\_tran, v, pc_tran_techParam &  \\ 
+transport\_coefficient (transport\_coefficient)  & p\_tran, v, c, pc\_transport\_coefficient &  \\ 
+transport\_coefPerFlow (transport\_coefPerFlow)  & p\_tran, v, c, pc\_transport\_coefPerFlow &  \\ 
+transport\_coefPerDistance (transport\_coefPerDistance)  & p\_tran, v, c, distanceType, pc\_transport\_coefPerDistance &  \\ 
+tran\_linesParam (transport\_linesParam)  & l, y, p\_tran, pc_tran_linesParam &  \\ 
+transport\_distanceParam (transport\_distanceParam)  & l, distanceType, pc\_transport\_distanceParam &  \\ 
+tran\_dcopf\_Xtech (transport\_dcopf\_Xtech)  & l, y, p\_tran, v, seg &  \\ 
+sourcesink\_config (sourcesink\_config)  & n, y, sourcesink\_techs, c, pc\_sourcesink\_config &  \\ 
+sourcesink\_annualSum (sourcesink\_annualSum)  & n, y, sourcesink\_techs, c, pc\_sourcesink\_annualSum &  \\ 
+\hline 
+\end{tabularx}
+\subsection*{Variables}
+\begin{tabularx}{\textwidth}{| l | l | X |} 
+\hline 
+\textbf{Name} & \textbf{Domains} & \textbf{Description}\\ 
+\hline 
+\endhead 
+conv\_unitsTotal_MIP (converter\_unitsTotal\_MIP)  & n, y, p\_conv, v & Total integer number of converter units in the system \\ 
+conv\_unitsOnline_MIP (converter\_unitsOnline\_MIP)  & t, n, y, p\_conv, v & Number of active converter units in the system \\ 
+conv\_unitsUsingActivity\_MIP (converter\_unitsUsingActivity\_MIP)  & t, n, y, p\_conv, v, a & Number of units actively using a specific activity \\ 
+conv\_unitsBuild (converter\_unitsBuild)  & n, y, p\_conv, v & Number of converter units built \\ 
+conv\_unitsDecom (converter\_unitsDecom)  & n, y, p\_conv, v & Number of converter units decommissioned \\ 
+conv\_unitsTotal (converter\_unitsTotal)  & n, y, p\_conv, v & Total number of active converter units in the system \\ 
+conv\_unitsOnline (converter\_unitsOnline)  & t, n, y, p\_conv, v & Units that are available for activity in each time step \\ 
+conv\_activity (converter\_activity)  & t, n, y, p\_conv, v, a & Activation level per unit and activity as a factor, 1 corresponds to 1 unit under full load \\ 
+conv\_rampPos (converter\_rampPos)  & t, n, y, p\_conv, v & Positive ramping of the activity level in units \\ 
+conv\_rampNeg (converter\_rampNeg)  & t, n, y, p\_conv, v & Negative ramping of the activity level in units \\ 
+conv\_unitStartups (converter\_unitStartups)  & t, n, y, p\_conv, v & Number of units coming online \\ 
+conv\_unitShutdowns (converter\_unitShutdowns)  & t, n, y, p\_conv, v & Number of units going offline \\ 
+stor\_unitsTotal\_MIP (storage\_unitsTotal\_MIP)  & n, y, p\_stor, v & Total integer number of active storage units in the system \\ 
+stor\_unitsBuild (storage\_unitsBuild)  & n, y, p\_stor, v & Number of storage units built \\ 
+stor\_unitsDecom (storage\_unitsDecom)  & n, y, p\_stor, v & Number of storage units decommissioned \\ 
+stor\_unitsTotal (storage\_unitsTotal)  & n, y, p\_stor, v & Total number of active storage units in the system \\ 
+stor\_level (storage\_level)  & t, n, y, p\_stor, v, c & Storage level per commodity \\ 
+storage\_charge & t, n, y, p\_stor, v, c & Positive storage level changes \\ 
+storage\_discharge & t, n, y, p\_stor, v, c & Negative storage level changes \\ 
+storage\_unitsStateTracker (storage\_unitsStateTracker)  & n, y, yearsCom, p\_stor, v, degradation\_states & Degradation state tracking based on unit age and usage \\ 
+storage\_unitsStateTrackerDecom (storage\_unitsStateTrackerDecom)  & n, y, yearsCom, p\_stor, v, degradation\_states & Number of decommissioned units having been used up to a certain number of cycles. \\ 
+storage\_levelPerAge (storage\_levelPerAge)  & t, n, y, yearsCom, p\_stor, v, c & Storage level per unit of a certain degradation\_state, and commodity \\ 
+storage\_chargePerAge (storage\_chargePerAge)  & t, n, y, yearsCom, p\_stor, v, c & Commodity charged into the units of a certain degradation state(Influx) \\ 
+storage\_losses (storage\_losses)  & t, n, y, p\_stor, v, c & Amount of stored commodities lost due to self discharge \\ 
+storage\_unitsSoC (storage\_unitsSoC)  & t, n, y, p\_stor, v, soc\_statesIn & Units at certain SoC. \\ 
+storage\_unitsSoC\_activeRange (storage\_unitsSoC\_activeRange)  & t, n, y, p\_stor, v, soc\_statesIn & Allow SoCs in specific range to be used. \\ 
+storage\_unitsStateTracker\_activeRange (storage\_unitsStateTracker\_activeRange)  & n, y, yearsCom, p\_stor, v, degradation\_states & Allow only one range of degradation states per age group and year to enforce sequential degradation state usage. \\ 
+tran\_linesTotal\_MIP (transport\_linesTotal\_MIP)  & l, y, p\_tran, v & Total integer number of active transport lines in the system \\ 
+tran\_linesBuild (transport\_linesBuild)  & l, y, p\_tran, v & Number of transport lines built \\ 
+tran\_linesDecom (transport\_linesDecom)  & l, y, p\_tran, v & Number of transport lines decommissioned \\ 
+tran\_linesTotal (transport\_linesTotal)  & l, y, p\_tran, v & Total number of active transport lines in the system \\ 
+tran\_flowAlong (transport\_flowAlong)  & t, l, y, p\_tran, v & Flow along the line for each time step \\ 
+tran\_flowAgainst (transport\_flowAgainst)  & t, l, y, p\_tran, v & Flow against the line for each time step (for bidirectional lines) \\ 
+transport\_dcopf\_voltageAngle (transport\_dcopf\_voltageAngle)  & t, n, y, seg & Net import / export to the grid segment modelled as DC optimal power flow \\ 
+sourcesink\_flow (sourcesink\_flow)  & t, n, y, sourcesink\_techs, c & Flows from sources across the system boundary \\ 
+accounting\_indicator (accounting\_indicator)  & accNodesModel, accYears, indicator &  \\ 
+accounting\_indicator\_links (accounting\_indicator\_links)  & l, y, indicator &  \\ 
+accounting\_objective (accounting\_objective)  &  &  \\ 
+\hline 
+\end{tabularx}
+\subsection*{Equations}
+\begin{tabularx}{\textwidth}{| l | l | X |} 
+\hline 
+\textbf{Name} & \textbf{Domains} & \textbf{Description}\\ 
+\hline 
+\endhead 
+\hyperref[Eq_converter_unitsBalance]{Eq\_converter\_unitsBalance}  & n, y, p\_conv, v & Ensures the units balance over the planning period. \\ 
+\hyperref[Eq_converter_unitsFixedDecom]{Eq\_converter\_unitsFixedDecom}  & n, y, p\_conv, v & Restricts the fixed decommissioning of units over the planning period. \\ 
+\hyperref[Eq_converter_unitsFreeDecom]{Eq\_converter\_unitsFreeDecom}  & n, y, p\_conv, v & Restricts the free decommissioning of units over the planning period. \\ 
+\hyperref[Eq_converter_unitsUpperLimit]{Eq\_converter\_unitsUpperLimit}  & n, y, p\_conv & Upper bound for the total number of units. \\ 
+\hyperref[Eq_converter_unitsLowerLimit]{Eq\_converter\_unitsLowerLimit}  & n, y, p\_conv & Lower bound for the total number of units. \\ 
+\hyperref[Eq_converter_unitsFixedLimit]{Eq\_converter\_unitsFixedLimit}  & n, y, p\_conv & Fixed bound for the total number of units. \\ 
+\hyperref[Eq_converter_unitsTotalMIP]{Eq\_converter\_unitsTotalMIP}  & n, y, p\_conv, v & Fixes the total number of units to the corresponding integer variable. \\ 
+\hyperref[Eq_converter_unitsOnlineMIP]{Eq\_converter\_unitsOnlineMIP}  & t, n, y, p\_conv, v & Fixes the number of online units to the corresponding integer variable. \\ 
+\hyperref[Eq_converter_activityLowerLimit]{Eq\_converter\_activityLowerLimit}  & t, n, y, p\_conv, v & Lower limit on the activity. \\ 
+\hyperref[Eq_converter_activityUpperLimit]{Eq\_converter\_activityUpperLimit}  & t, n, y, p\_conv, v & Upper limit on the activity. \\ 
+\hyperref[Eq_converter_activityFixedLimit]{Eq\_converter\_activityFixedLimit}  & t, n, y, p\_conv, v & Fixed limit on the activity. \\ 
+\hyperref[Eq_converter_rampPos]{Eq\_converter\_rampPos}  & t, n, y, p\_conv, v & Positive ramping of unit activity. \\ 
+\hyperref[Eq_converter_rampNeg]{Eq\_converter\_rampNeg}  & t, n, y, p\_conv, v & Negative ramping of unit activity. \\ 
+\hyperref[Eq_converter_rampLimit]{Eq\_converter\_rampLimit}  & t, n, y, p\_conv, v & Restrict ramping up of unit activity. \\ 
+\hyperref[Eq_converter_unitsOnline]{Eq\_converter\_unitsOnline}  & t, n, y, p\_conv, v & Set online units to total number of operational units. \\ 
+\hyperref[Eq_converter_unitsOnlineUC]{Eq\_converter\_unitsOnlineUC}  & t, n, y, p\_conv, v & Allow shutting down units. \\ 
+\hyperref[Eq_converter_activityStartups]{Eq\_converter\_activityStartups}  & t, n, y, p\_conv, v & Variable counting the number of unit startups. \\ 
+\hyperref[Eq_converter_activityShutdowns]{Eq\_converter\_activityShutdowns}  & t, n, y, p\_conv, v & Variable tracking the number of unit shutdowns. \\ 
+\hyperref[Eq_converter_limitStartups]{Eq\_converter\_limitStartups}  & n, y, p\_conv, v & Limit the number of startup cycles a unit can perform. \\ 
+\hyperref[Eq_converter_minUptime]{Eq\_converter\_minUptime}  & t, n, y, p\_conv, v & Require recently started units to remain online for their respective minimum uptime. \\ 
+\hyperref[Eq_converter_minDowntime]{Eq\_converter\_minDowntime}  & t, n, y, p\_conv, v & Require recently shut down units to remain offline for their respective minimum downtime. \\ 
+\hyperref[Eq_converter_activityUpperLimitDetailedPartLoadMinReq]{Eq\_converter\_activityUpperLimitDetailedPartLoadMinReq}  & t, n, y, p\_conv, v, a & Limit activity coefficients of activities with a given load requirement or stricter to the number of units in such modes. \\ 
+\hyperref[Eq_converter_activityUpperLimitDetailedPartLoadMaxReq]{Eq\_converter\_activityUpperLimitDetailedPartLoadMaxReq}  & t, n, y, p\_conv, v, a & Limit activity coefficients of activities with a given load requirement or stricter to the number of units in such modes. \\ 
+\hyperref[Eq_converter_activityLowerLimitDetailedPartLoadMinReq]{Eq\_converter\_activityLowerLimitDetailedPartLoadMinReq}  & t, n, y, p\_conv, v, a & Enforce sufficient activity coefficients of activities to justify all active modes. \\ 
+\hyperref[Eq_converter_noOnlineIdle]{Eq\_converter\_noOnlineIdle}  & t, n, y, p\_conv, v & Prevent the circumvention of requirements by keeping units online without using any modes. \\ 
+\hyperref[Eq_converter_noOnlineIdleDetailedPartLoad]{Eq\_converter\_noOnlineIdleDetailedPartLoad}  & t, n, y, p\_conv, v & Prevent the circumvention of requirements by keeping units online without using any modes. Allow more than one mode activation per unit. \\ 
+\hyperref[Eq_converter_activityUpperLimitPartLoad]{Eq\_converter\_activityUpperLimitPartLoad}  & t, n, y, p\_conv, v, a & Limit usage of an activity to corresponding units. \\ 
+\hyperref[Eq_converter_activityLowerLimitPartLoad]{Eq\_converter\_activityLowerLimitPartLoad}  & t, n, y, p\_conv, v, a & Limit usage of an activity to corresponding units. \\ 
+\hyperref[Eq_converter_activityModeLimit]{Eq\_converter\_activityModeLimit}  & t, n, y, p\_conv, v, a & Limit the number of units in one particular mode to the number of operational units. \\ 
+\hyperref[Eq_storage_unitsBalance]{Eq\_storage\_unitsBalance}  & n, y, p\_stor, v & Ensures the units balance over the planning period. \\ 
+\hyperref[Eq_storage_unitsFixedDecom]{Eq\_storage\_unitsFixedDecom}  & n, y, p\_stor, v & Restricts the fixed decommissioning of units over the planning period. \\ 
+\hyperref[Eq_storage_unitsFreeDecom]{Eq\_storage\_unitsFreeDecom}  & n, y, p\_stor, v & Restricts the free decommissioning of units over the planning period. \\ 
+\hyperref[Eq_storage_unitsUpperLimit]{Eq\_storage\_unitsUpperLimit}  & n, y, p\_stor & Upper bound for the total number of units. \\ 
+\hyperref[Eq_storage_unitsLowerLimit]{Eq\_storage\_unitsLowerLimit}  & n, y, p\_stor & Lower bound for the total number of units. \\ 
+\hyperref[Eq_storage_unitsTotalMIP]{Eq\_storage\_unitsTotalMIP}  & n, y, p\_stor, v & Fixes the total number of units to the corresponding integer variable. \\ 
+\hyperref[Eq_storage_levelUpperLimit]{Eq\_storage\_levelUpperLimit}  & t, n, y, p\_stor, v, c & Upper bound for the total number of units. \\ 
+\hyperref[Eq_storage_levelUpperLimit_degradation]{Eq\_storage\_levelUpperLimit\_degradation}  & t, n, y, p\_stor, v, c & Upper bound for the total number of units if the storage technology accounts for degradation. \\ 
+\hyperref[Eq_storage_levelLowerLimit]{Eq\_storage\_levelLowerLimit}  & t, n, y, p\_stor, v, c & Lower bound for the total number of units. \\ 
+\hyperref[Eq_storage_losses]{Eq\_storage\_losses}  & t, n, y, p\_stor, v, c & Stored commodities lost due to self discharge. \\ 
+\hyperref[Eq_storage_unitsBalanceStates]{Eq\_storage\_unitsBalanceStates}  & n, y, p\_stor, v & Currently available units must have been built at some point in time and have some state of degradation. \\ 
+\hyperref[Eq_storage_unitsUpperLimitPerState]{Eq\_storage\_unitsUpperLimitPerState}  & n, y, yearsCom, p\_stor, v & There cannot be more units from a certain year than the amount built in that year. \\ 
+\hyperref[Eq_storage_unitsStatesNoRecovery]{Eq\_storage\_unitsStatesNoRecovery}  & n, y, yearsCom, p\_stor, v, degradation\_states & There is no recovery. \\ 
+\hyperref[Eq_storage_cRateLimit]{Eq\_storage\_cRateLimit}  & t, n, y, p\_stor, v, c & Limit charging rate based on unit capacity. \\ 
+\hyperref[Eq_storage_eRateLimit]{Eq\_storage\_eRateLimit}  & t, n, y, p\_stor, v, c & Limit discharging rate based on unit capacity. \\ 
+\hyperref[Eq_storage_charge]{Eq\_storage\_charge}  & t, n, y, p\_stor, v, c & Positive change in state of charge is influx. \\ 
+\hyperref[Eq_storage_discharge]{Eq\_storage\_discharge}  & t, n, y, p\_stor, v, c & Negative change in state of charge is outflux. \\ 
+\hyperref[Eq_storage_levelStateSum]{Eq\_storage\_levelStateSum}  & t, n, y, p\_stor, v, c & Sum of degradation class storage levels is the global level. \\ 
+\hyperref[Eq_storage_levelUpperLimitPerAge]{Eq\_storage\_levelUpperLimitPerAge}  & t, n, y, yearsCom, p\_stor, v, c & Upper bound for units of a certain state. \\ 
+\hyperref[Eq_storage_chargingPerAge]{Eq\_storage\_chargingPerAge}  & t, n, y, yearsCom, p\_stor, v, c & Positive change in state of charge is influx for each degradation class. \\ 
+\hyperref[Eq_storage_chargeBasedDegradationDistribution]{Eq\_storage\_chargeBasedDegradationDistribution}  & n, y, yearsCom, p\_stor, v, c & Determine degradation states of storage units. \\ 
+\hyperref[Eq_storage_unitsDecomStateSum]{Eq\_storage\_unitsDecomStateSum}  & n, y, p\_stor, v & All decomminsioned units must have a degradation state. \\ 
+\hyperref[Eq_storage_unitsDegradation]{Eq\_storage\_unitsDegradation}  & n, y, yearsCom, p\_stor, v, degradation\_states & Only allow one range of degradation states per year and age group. \\ 
+\hyperref[Eq_storage_unitsDegradation_onlyOneRange]{Eq\_storage\_unitsDegradation\_onlyOneRange}  & n, y, yearsCom, p\_stor, v & Limit usable degradation states to one range, i.e., two neighboring states. \\ 
+\hyperref[Eq_storage_unitsSoC_sum]{Eq\_storage\_unitsSoC\_sum}  & t, n, y, p\_stor, v & Every unit has a state of charge. \\ 
+\hyperref[Eq_storage_levelSoC]{Eq\_storage\_levelSoC}  & t, n, y, p\_stor, v, c & Every unit has a state of charge. \\ 
+\hyperref[Eq_storage_unitsSoC]{Eq\_storage\_unitsSoC}  & t, n, y, p\_stor, v, soc\_statesIn & Number of units in particular SoC. \\ 
+\hyperref[Eq_storage_unitsSoC_onlyOneRange]{Eq\_storage\_unitsSoC\_onlyOneRange}  & t, n, y, p\_stor, v & Limit usable SoC states to one range, i.e., two neighboring states. \\ 
+\hyperref[Eq_transport_linesBalance]{Eq\_transport\_linesBalance}  & l, y, p\_tran, v & Ensures the lines balance over the planning period. \\ 
+\hyperref[Eq_transport_linesFixedDecom]{Eq\_transport\_linesFixedDecom}  & l, y, p\_tran, v & Restricts the fixed decommissioning of lines over the planning period. \\ 
+\hyperref[Eq_transport_linesFreeDecom]{Eq\_transport\_linesFreeDecom}  & l, y, p\_tran, v & Restricts the free decommissioning of lines over the planning period. \\ 
+\hyperref[Eq_transport_linesUpperLimit]{Eq\_transport\_linesUpperLimit}  & l, y, p\_tran & Upper bound for the total number of lines. \\ 
+\hyperref[Eq_transport_linesLowerLimit]{Eq\_transport\_linesLowerLimit}  & l, y, p\_tran & Lower bound for the total number of lines. \\ 
+\hyperref[Eq_transport_linesTotalMIP]{Eq\_transport\_linesTotalMIP}  & l, y, p\_tran, v & Fixes the total number of lines to the corresponding integer variable. \\ 
+\hyperref[Eq_transport_flowAlongUpperLimit]{Eq\_transport\_flowAlongUpperLimit}  & t, l, y, p\_tran, v & Upper bound for the flow along the lines. \\ 
+\hyperref[Eq_transport_flowAgainstUpperLimit]{Eq\_transport\_flowAgainstUpperLimit}  & t, l, y, p\_tran, v & Upper bound for the total flow. \\ 
+\hyperref[Eq_transport_dcopf_angleFlows]{Eq\_transport\_dcopf\_angleFlows}  & t, l, y, seg &  \\ 
+\hyperref[Eq_sourcesink_useFixedSum]{Eq\_sourcesink\_useFixedSum}  & n, y, sourcesink\_techs, c & Fixes the annual sum from sources / to sinks \\ 
+\hyperref[Eq_sourcesink_useLowerSum]{Eq\_sourcesink\_useLowerSum}  & n, y, sourcesink\_techs, c & Limits the lower sum from sources / to sinks \\ 
+\hyperref[Eq_sourcesink_useUpperSum]{Eq\_sourcesink\_useUpperSum}  & n, y, sourcesink\_techs, c & Limits the upper sum from sources / to sinks \\ 
+\hyperref[Eq_balance_commodities]{Eq\_balance\_commodities}  & t, n, y, c & Balance for each commodity used in each time step, region, and year \\ 
+\hyperref[Eq_accounting_indicatorCalc]{Eq\_accounting\_indicatorCalc}  & accNodesModel, accYears, indicator & Calculates the level of an indicator per accounting region \\ 
+\hyperref[Eq_accounting_indicatorCalc_links]{Eq\_accounting\_indicatorCalc\_links}  & l, y, indicator & Calculates the level of an indicator per model link \\ 
+\hyperref[Eq_accounting_objective]{Eq\_accounting\_objective}  &  & Calculates the objective value based on the specified indicator \\ 
+\hline 
+\end{tabularx}
+\section*{Equation Definitions}
+\subsubsection*{$\text{Eq\_converter\_unitsBalance}_{n, y, p\_conv, v}$} \label{Eq_converter_unitsBalance}
+$
+\textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v} = \textcolor{black}{\text{conv\_unitsTotal}}_{n, y-1, p\_conv, v} [ \textcolor{black}{\text{conv\_usedTech}}_{n, y-1, p\_conv, v} ]  + \textcolor{black}{\text{conv\_unitsBuild}}_{n, y, p\_conv, v} [ \textcolor{black}{\text{conv\_availTech}}_{n, y, p\_conv, v} ]  - \textcolor{black}{\text{conv\_unitsDecom}}_{n, y, p\_conv, v} [ \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} ] 
+$
+\hfill
+$
+\forall{ n, y, p\_conv, v}  ~ | ~ (  ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \vee \textcolor{black}{\text{conv\_usedTech}}_{n, y-1, p\_conv, v} ) \wedge  ( \textcolor{black}{\text{y.val}}  \leq  max\{\textcolor{black}{\text{yearsToCalc.val}} \big| yearsToCalc\} )  \wedge  ( \neg \textcolor{black}{\text{converter\_unitBoundsFixed}}_{n, y, p\_conv} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_unitsFixedDecom}_{n, y_{y}, p\_conv, v}$} \label{Eq_converter_unitsFixedDecom}
+$
+\textcolor{black}{\text{conv\_unitsDecom}}_{n, y, p\_conv, v} = \displaystyle \sum_{y, years_{aa} |  (  ( y- ( 1 )  = years_{aa}  )  \wedge  ( \textcolor{black}{\text{y.val}}  >   ( \textcolor{black}{\text{years_{aa}.val}} - \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{lifeTime}} )  )  \wedge  ( \textcolor{black}{\text{y.val}}  \leq   ( \textcolor{black}{\text{y.val}} - \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{lifeTime}} )  )  \wedge \textcolor{black}{\text{conv\_availTech}}_{n, y, p\_conv, v} )}\textcolor{black}{\text{conv\_unitsBuild}}_{n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ n, y_{y}, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \neg  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{freeDecom}}  =  1 )  )  \wedge  ( \neg \textcolor{black}{\text{converter\_unitBoundsFixed}}_{n, y, p\_conv} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_unitsFreeDecom}_{n, y_{y}, p\_conv, v}$} \label{Eq_converter_unitsFreeDecom}
+$
+\displaystyle \sum_{y |  (  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} )  \wedge \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} )}\textcolor{black}{\text{conv\_unitsDecom}}_{n, y, p\_conv, v} = \displaystyle \sum_{y |  (  ( \textcolor{black}{\text{y.val}}  \leq   ( \textcolor{black}{\text{y.val}} - \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{lifeTime}} )  )  \wedge \textcolor{black}{\text{conv\_availTech}}_{n, y, p\_conv, v} )}\textcolor{black}{\text{conv\_unitsBuild}}_{n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ n, y_{y}, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{freeDecom}}  =  1 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_unitsUpperLimit}_{n, y, p\_conv}$} \label{Eq_converter_unitsUpperLimit}
+$
+\displaystyle \sum_{v | \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v}}\textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v} \leq \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsUpperLimit}}
+$
+\hfill
+$
+\forall{ n, y, p\_conv}  ~ | ~ (  ( \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsUpperLimit}}  \geq  0 )  \wedge  ( \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsUpperLimit}}  <  INF )  \wedge  ( \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsUpperLimit}}  \neq  \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsLowerLimit}} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_unitsLowerLimit}_{n, y, p\_conv}$} \label{Eq_converter_unitsLowerLimit}
+$
+\displaystyle \sum_{v | \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v}}\textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v} \geq \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsLowerLimit}}
+$
+\hfill
+$
+\forall{ n, y, p\_conv}  ~ | ~ (  ( \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsLowerLimit}}  >  0 )  \wedge  ( \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsLowerLimit}}  \neq  \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsUpperLimit}} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_unitsFixedLimit}_{n, y, p\_conv}$} \label{Eq_converter_unitsFixedLimit}
+$
+\displaystyle \sum_{v | \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v}}\textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v} = \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsUpperLimit}}
+$
+\hfill
+$
+\forall{ n, y, p\_conv}  ~ | ~ ( \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsLowerLimit}}  =  \textcolor{black}{\text{conv\_capacityParam}}_{n, y, p\_conv, \texttt{unitsUpperLimit}} ) 
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_unitsTotalMIP}_{n, y, p\_conv, v}$} \label{Eq_converter_unitsTotalMIP}
+$
+\textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v} = \textcolor{black}{\text{conv\_unitsTotal_MIP}}_{n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipUnits}}  =  1 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_unitsOnlineMIP}_{t, n, y, p\_conv, v}$} \label{Eq_converter_unitsOnlineMIP}
+$
+\textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v} = \textcolor{black}{\text{conv\_unitsOnline_MIP}}_{t, n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDispatch}}  =  1 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityLowerLimit}_{t, n, y, p\_conv, v}$} \label{Eq_converter_activityLowerLimit}
+$
+\displaystyle \sum_{a | \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a}}\textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} \geq \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{lower}} \cdot \textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{lower}}  >  0 )  \wedge  ( \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{lower}}  \neq  \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{upper}} )  \wedge  ( \neg \textcolor{black}{\text{converter\_hasMinLoad}}_{p\_conv, v} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityUpperLimit}_{t, n, y, p\_conv, v}$} \label{Eq_converter_activityUpperLimit}
+$
+\displaystyle \sum_{a | \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a}}\textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} \leq \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{upper}} \cdot \textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{upper}}  \geq  0 )  \wedge  ( \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{upper}}  \neq  \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{lower}} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityFixedLimit}_{t, n, y, p\_conv, v}$} \label{Eq_converter_activityFixedLimit}
+$
+\displaystyle \sum_{a | \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a}}\textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} = \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{upper}} \cdot \textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{lower}}  =  \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{upper}} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_rampPos}_{t_{t}, n, y, p\_conv, v}$} \label{Eq_converter_rampPos}
+$
+\textcolor{black}{\text{conv\_rampPos}}_{t, n, y, p\_conv, v} \geq \displaystyle \sum_{a | \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a}} ( \textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} - \textcolor{black}{\text{conv\_activity}}_{t--1, n, y, p\_conv, v, a} ) 
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge \textcolor{black}{\text{conv\_useRampPos}}_{n, y, p\_conv, v} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_rampNeg}_{t_{t}, n, y, p\_conv, v}$} \label{Eq_converter_rampNeg}
+$
+\textcolor{black}{\text{conv\_rampNeg}}_{t, n, y, p\_conv, v} \geq -\displaystyle \sum_{a | \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a}} ( \textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} - \textcolor{black}{\text{conv\_activity}}_{t--1, n, y, p\_conv, v, a} ) 
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge \textcolor{black}{\text{conv\_useRampNeg}}_{n, y, p\_conv, v} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_rampLimit}_{t_{t}, n, y, p\_conv, v}$} \label{Eq_converter_rampLimit}
+$
+\displaystyle \sum_{a | \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a}} ( \textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} - \textcolor{black}{\text{conv\_activity}}_{t--1, n, y, p\_conv, v, a} )  \leq \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{activityRampLimit}} \cdot \textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{activityRampLimit}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_unitsOnline}_{t, n, y, p\_conv, v}$} \label{Eq_converter_unitsOnline}
+$
+\textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v} = \textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDispatch}}  =  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_unitsOnlineUC}_{t, n, y, p\_conv, v}$} \label{Eq_converter_unitsOnlineUC}
+$
+\textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v} \leq \textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDispatch}}  =  1 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityStartups}_{t_{t}, n, y, p\_conv, v}$} \label{Eq_converter_activityStartups}
+$
+\textcolor{black}{\text{conv\_unitStartups}}_{t, n, y, p\_conv, v} \geq \textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v} - \textcolor{black}{\text{conv\_unitsOnline}}_{t--1, n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDispatch}}  =  1 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityShutdowns}_{t_{t}, n, y, p\_conv, v}$} \label{Eq_converter_activityShutdowns}
+$
+\textcolor{black}{\text{conv\_unitShutdowns}}_{t, n, y, p\_conv, v} \geq \textcolor{black}{\text{conv\_unitsOnline}}_{t--1, n, y, p\_conv, v} - \textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDispatch}}  =  1 )  \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{minDowntime}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_limitStartups}_{n, y, p\_conv, v}$} \label{Eq_converter_limitStartups}
+$
+\displaystyle \sum_{t}\textcolor{black}{\text{conv\_unitStartups}}_{t, n, y, p\_conv, v} \leq \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{startupLimit}} \cdot \textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDispatch}}  =  1 )  \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{startupLimit}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_minUptime}_{t_{t}, n, y, p\_conv, v}$} \label{Eq_converter_minUptime}
+$
+\displaystyle \sum_{t |  ( \textcolor{black}{\text{uptimeSearchRange}}_{t} \wedge  (  \text{ord}( \textcolor{black}{\text{t}} )   \leq  \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{minUptime}} )  )}\textcolor{black}{\text{conv\_unitStartups}}_{t+ (  \text{ord}( \textcolor{black}{\text{t}} )  - \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{minUptime}} ) , n, y, p\_conv, v} \leq \textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDispatch}}  =  1 )  \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{minUptime}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_minDowntime}_{t_{t}, n, y, p\_conv, v}$} \label{Eq_converter_minDowntime}
+$
+\displaystyle \sum_{t |  ( \textcolor{black}{\text{downtimeSearchRange}}_{t} \wedge  (  \text{ord}( \textcolor{black}{\text{t}} )   \leq  \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{minDowntime}} )  )}\textcolor{black}{\text{conv\_unitShutdowns}}_{t+ (  \text{ord}( \textcolor{black}{\text{t}} )  - \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{minDowntime}} ) , n, y, p\_conv, v} \leq \textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v} - \textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDispatch}}  =  1 )  \wedge  ( \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{minDowntime}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityUpperLimitDetailedPartLoadMinReq}_{t, n, y, p\_conv, v, a}$} \label{Eq_converter_activityUpperLimitDetailedPartLoadMinReq}
+$
+\displaystyle \sum_{a |  (  ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}}  \geq  \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}} )  \wedge \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a} )}\textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} \leq \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{upper}} \cdot \displaystyle \sum_{a |  (  ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}}  \geq  \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}} )  \wedge \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a} )}\textcolor{black}{\text{conv\_unitsUsingActivity\_MIP}}_{t, n, y, p\_conv, v, a}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v, a}  ~ | ~ ( \textcolor{black}{\text{converter\_usedTechAct}}_{n, y, p\_conv, v, a} \wedge \textcolor{black}{\text{converter\_hasMinLoad}}_{p\_conv, v} \wedge \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDetailedPartialLoad}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityUpperLimitDetailedPartLoadMaxReq}_{t, n, y, p\_conv, v, a}$} \label{Eq_converter_activityUpperLimitDetailedPartLoadMaxReq}
+$
+\displaystyle \sum_{a |  (  ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{maxLoad}}  \leq  \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{maxLoad}} )  \wedge \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a} )}\textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} \leq \displaystyle \sum_{a |  (  ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{maxLoad}}  \leq  \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{maxLoad}} )  \wedge \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a} )} ( \text{min} ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{maxLoad}}, \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{upper}} )  \cdot \textcolor{black}{\text{conv\_unitsUsingActivity\_MIP}}_{t, n, y, p\_conv, v, a} ) 
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v, a}  ~ | ~ ( \textcolor{black}{\text{converter\_usedTechAct}}_{n, y, p\_conv, v, a} \wedge \textcolor{black}{\text{converter\_hasMaxLoad}}_{p\_conv, v} \wedge \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDetailedPartialLoad}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityLowerLimitDetailedPartLoadMinReq}_{t, n, y, p\_conv, v, a}$} \label{Eq_converter_activityLowerLimitDetailedPartLoadMinReq}
+$
+\displaystyle \sum_{a |  (  ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}}  \leq  \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}} )  \wedge \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a} )}\textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} \geq \displaystyle \sum_{a |  (  ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}}  \leq  \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}} )  \wedge \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a} )} ( \text{max} ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}}, \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{lower}} )  \cdot \textcolor{black}{\text{conv\_unitsUsingActivity\_MIP}}_{t, n, y, p\_conv, v, a} ) 
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v, a}  ~ | ~ ( \textcolor{black}{\text{converter\_usedTechAct}}_{n, y, p\_conv, v, a} \wedge \textcolor{black}{\text{converter\_hasMinLoad}}_{p\_conv, v} \wedge \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDetailedPartialLoad}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityUpperLimitPartLoad}_{t, n, y, p\_conv, v, a}$} \label{Eq_converter_activityUpperLimitPartLoad}
+$
+\textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} \leq \text{min} ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{maxLoad}}, \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{upper}} )  \cdot \textcolor{black}{\text{conv\_unitsUsingActivity\_MIP}}_{t, n, y, p\_conv, v, a}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v, a}  ~ | ~ ( \textcolor{black}{\text{converter\_usedTechAct}}_{n, y, p\_conv, v, a} \wedge  ( \textcolor{black}{\text{converter\_hasMinLoad}}_{p\_conv, v} \vee \textcolor{black}{\text{converter\_hasMaxLoad}}_{p\_conv, v} \vee \textcolor{black}{\text{converter\_hasConstantFluxInActivity}}_{p\_conv, v} ) \wedge  ( \neg \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDetailedPartialLoad}} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityLowerLimitPartLoad}_{t, n, y, p\_conv, v, a}$} \label{Eq_converter_activityLowerLimitPartLoad}
+$
+\textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} \geq \text{max} ( \textcolor{black}{\text{conv\_activityRequirements}}_{p\_conv, v, a, \texttt{minLoad}}, \textcolor{black}{\text{conv\_activityProfile}}_{t, n, y, p\_conv, v, \texttt{lower}} )  \cdot \textcolor{black}{\text{conv\_unitsUsingActivity\_MIP}}_{t, n, y, p\_conv, v, a}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v, a}  ~ | ~ ( \textcolor{black}{\text{converter\_usedTechAct}}_{n, y, p\_conv, v, a} \wedge  ( \textcolor{black}{\text{converter\_hasMinLoad}}_{p\_conv, v} \vee \textcolor{black}{\text{converter\_hasMaxLoad}}_{p\_conv, v} ) \wedge  ( \neg \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDetailedPartialLoad}} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_noOnlineIdle}_{t, n, y, p\_conv, v}$} \label{Eq_converter_noOnlineIdle}
+$
+\textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v} = \displaystyle \sum_{a | \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a}}\textcolor{black}{\text{conv\_unitsUsingActivity\_MIP}}_{t, n, y, p\_conv, v, a}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{converter\_hasMinLoad}}_{p\_conv, v} \vee \textcolor{black}{\text{converter\_hasMaxLoad}}_{p\_conv, v} \vee \textcolor{black}{\text{converter\_hasConstantFluxInActivity}}_{p\_conv, v} ) \wedge  ( \neg \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDetailedPartialLoad}} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_noOnlineIdleDetailedPartLoad}_{t, n, y, p\_conv, v}$} \label{Eq_converter_noOnlineIdleDetailedPartLoad}
+$
+\textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v} \leq \displaystyle \sum_{a | \textcolor{black}{\text{conv\_usedAct}}_{p\_conv, v, a}}\textcolor{black}{\text{conv\_unitsUsingActivity\_MIP}}_{t, n, y, p\_conv, v, a}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v}  ~ | ~ ( \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{converter\_hasMinLoad}}_{p\_conv, v} \vee \textcolor{black}{\text{converter\_hasMaxLoad}}_{p\_conv, v} ) \wedge \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDetailedPartialLoad}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_converter\_activityModeLimit}_{t, n, y, p\_conv, v, a}$} \label{Eq_converter_activityModeLimit}
+$
+\textcolor{black}{\text{conv\_unitsOnline}}_{t, n, y, p\_conv, v} \geq \textcolor{black}{\text{conv\_unitsUsingActivity\_MIP}}_{t, n, y, p\_conv, v, a}
+$
+\hfill
+$
+\forall{ t, n, y, p\_conv, v, a}  ~ | ~ ( \textcolor{black}{\text{converter\_usedTechAct}}_{n, y, p\_conv, v, a} \wedge  ( \textcolor{black}{\text{converter\_hasMinLoad}}_{p\_conv, v} \vee \textcolor{black}{\text{converter\_hasMaxLoad}}_{p\_conv, v} ) \wedge \textcolor{black}{\text{conv\_techParam}}_{p\_conv, v, \texttt{mipDetailedPartialLoad}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsBalance}_{n, y, p\_stor, v}$} \label{Eq_storage_unitsBalance}
+$
+\textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v} = \textcolor{black}{\text{stor\_unitsTotal}}_{n, y-1, p\_stor, v} [ \textcolor{black}{\text{stor\_usedTech}}_{n, y-1, p\_stor, v} ]  + \textcolor{black}{\text{stor\_unitsBuild}}_{n, y, p\_stor, v} [ \textcolor{black}{\text{stor\_availTech}}_{n, y, p\_stor, v} ]  - \textcolor{black}{\text{stor\_unitsDecom}}_{n, y, p\_stor, v} [ \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v} ] 
+$
+\hfill
+$
+\forall{ n, y, p\_stor, v}  ~ | ~ (  ( \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v} \vee \textcolor{black}{\text{stor\_usedTech}}_{n, y-1, p\_stor, v} ) \wedge  ( \textcolor{black}{\text{y.val}}  \leq  max\{\textcolor{black}{\text{yearsToCalc.val}} \big| yearsToCalc\} )  \wedge  ( \neg \textcolor{black}{\text{storage\_unitBoundsFixed}}_{n, y, p\_stor} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsFixedDecom}_{n, y_{y}, p\_stor, v}$} \label{Eq_storage_unitsFixedDecom}
+$
+\textcolor{black}{\text{stor\_unitsDecom}}_{n, y, p\_stor, v} = \displaystyle \sum_{y, years_{aa} |  (  ( y- ( 1 )  = years_{aa}  )  \wedge  ( \textcolor{black}{\text{y.val}}  >   ( \textcolor{black}{\text{years_{aa}.val}} - \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{lifeTime}} )  )  \wedge  ( \textcolor{black}{\text{y.val}}  \leq   ( \textcolor{black}{\text{y.val}} - \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{lifeTime}} )  )  \wedge \textcolor{black}{\text{stor\_availTech}}_{n, y, p\_stor, v} )}\textcolor{black}{\text{stor\_unitsBuild}}_{n, y, p\_stor, v}
+$
+\hfill
+$
+\forall{ n, y_{y}, p\_stor, v}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v} \wedge  ( \neg  ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{freeDecom}}  =  1 )  )  \wedge  ( \neg \textcolor{black}{\text{storage\_unitBoundsFixed}}_{n, y, p\_stor} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsFreeDecom}_{n, y_{y}, p\_stor, v}$} \label{Eq_storage_unitsFreeDecom}
+$
+\displaystyle \sum_{y |  (  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} )  \wedge \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v} )}\textcolor{black}{\text{stor\_unitsDecom}}_{n, y, p\_stor, v} = \displaystyle \sum_{y |  (  ( \textcolor{black}{\text{y.val}}  \leq   ( \textcolor{black}{\text{y.val}} - \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{lifeTime}} )  )  \wedge \textcolor{black}{\text{stor\_availTech}}_{n, y, p\_stor, v} )}\textcolor{black}{\text{stor\_unitsBuild}}_{n, y, p\_stor, v}
+$
+\hfill
+$
+\forall{ n, y_{y}, p\_stor, v}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v} \wedge  ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{freeDecom}}  =  1 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsLowerLimit}_{n, y, p\_stor}$} \label{Eq_storage_unitsLowerLimit}
+$
+\displaystyle \sum_{v | \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v}}\textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v} \geq \textcolor{black}{\text{stor\_reservoirParam}}_{n, y, p\_stor, \texttt{unitsLowerLimit}}
+$
+\hfill
+$
+\forall{ n, y, p\_stor}  ~ | ~ ( \textcolor{black}{\text{stor\_reservoirParam}}_{n, y, p\_stor, \texttt{unitsLowerLimit}}  >  0 ) 
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsUpperLimit}_{n, y, p\_stor}$} \label{Eq_storage_unitsUpperLimit}
+$
+\displaystyle \sum_{v | \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v}}\textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v} \leq \textcolor{black}{\text{stor\_reservoirParam}}_{n, y, p\_stor, \texttt{unitsUpperLimit}}
+$
+\hfill
+$
+\forall{ n, y, p\_stor}  ~ | ~ (  ( \textcolor{black}{\text{stor\_reservoirParam}}_{n, y, p\_stor, \texttt{unitsUpperLimit}}  \geq  0 )  \wedge  ( \textcolor{black}{\text{stor\_reservoirParam}}_{n, y, p\_stor, \texttt{unitsUpperLimit}}  <  INF )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsTotalMIP}_{n, y, p\_stor, v}$} \label{Eq_storage_unitsTotalMIP}
+$
+\textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v} = \textcolor{black}{\text{stor\_unitsTotal\_MIP}}_{n, y, p\_stor, v}
+$
+\hfill
+$
+\forall{ n, y, p\_stor, v}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v} \wedge  ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{mipUnits}}  =  1 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_levelLowerLimit}_{t, n, y, p\_stor, v, c}$} \label{Eq_storage_levelLowerLimit}
+$
+\textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c} \geq \textcolor{black}{\text{stor\_levelProfile}}_{t, n, y, p\_stor, v, \texttt{lower}} \cdot \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}} \cdot \textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v}
+$
+\hfill
+$
+\forall{ t, n, y, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge  ( \textcolor{black}{\text{stor\_levelProfile}}_{t, n, y, p\_stor, v, \texttt{lower}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_levelUpperLimit}_{t, n, y, p\_stor, v, c}$} \label{Eq_storage_levelUpperLimit}
+$
+\textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c} \leq \textcolor{black}{\text{stor\_levelProfile}}_{t, n, y, p\_stor, v, \texttt{upper}} \cdot \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}} \cdot \textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v}
+$
+\hfill
+$
+\forall{ t, n, y, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge  ( \neg \textcolor{black}{\text{storage\_hasDegradation}}_{p\_stor, v} )  \wedge  ( \textcolor{black}{\text{stor\_levelProfile}}_{t, n, y, p\_stor, v, \texttt{upper}}  \geq  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_levelUpperLimit\_degradation}_{t, n, y, p\_stor, v, c}$} \label{Eq_storage_levelUpperLimit_degradation}
+$
+\textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c} \leq \textcolor{black}{\text{stor\_levelProfile}}_{t, n, y, p\_stor, v, \texttt{upper}} \cdot \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}} \cdot \displaystyle \sum_{degradation\_states, yearsCom | \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, degradation\_states}} (  ( \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states, \texttt{remainingCapacity}} -  ( \textcolor{black}{\text{y.val}} - \textcolor{black}{\text{yearsCom.val}} )  \cdot \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{annualDegradation}} )  \cdot \textcolor{black}{\text{storage\_unitsStateTracker}}_{n, y, yearsCom, p\_stor, v, degradation\_states} ) 
+$
+\hfill
+$
+\forall{ t, n, y, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge \textcolor{black}{\text{storage\_hasDegradation}}_{p\_stor, v} \wedge  ( \textcolor{black}{\text{stor\_levelProfile}}_{t, n, y, p\_stor, v, \texttt{upper}}  \geq  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsBalanceStates}_{n, y, p\_stor, v}$} \label{Eq_storage_unitsBalanceStates}
+$
+\textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v} = \displaystyle \sum_{yearsCom, degradation\_states | \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, degradation\_states}}\textcolor{black}{\text{storage\_unitsStateTracker}}_{n, y, yearsCom, p\_stor, v, degradation\_states}
+$
+\hfill
+$
+\forall{ n, y, p\_stor, v}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v} \wedge \textcolor{black}{\text{storage\_hasDegradation}}_{p\_stor, v} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsUpperLimitPerState}_{n, y, yearsCom, p\_stor, v}$} \label{Eq_storage_unitsUpperLimitPerState}
+$
+\displaystyle \sum_{degradation\_states | \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, degradation\_states}} ( \textcolor{black}{\text{storage\_unitsStateTracker}}_{n, y, yearsCom, p\_stor, v, degradation\_states} + \displaystyle \sum_{y |  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} ) }\textcolor{black}{\text{storage\_unitsStateTrackerDecom}}_{n, y, yearsCom, p\_stor, v, degradation\_states} )  = \textcolor{black}{\text{stor\_unitsBuild}}_{n, yearsCom, p\_stor, v} [  ( \textcolor{black}{\text{yearsCom.val}}  \leq  \textcolor{black}{\text{y.val}} )  ] 
+$
+\hfill
+$
+\forall{ n, y, yearsCom, p\_stor, v}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v} \wedge \textcolor{black}{\text{storage\_hasDegradation}}_{p\_stor, v} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsStatesNoRecovery}_{n, y_{yearsToCalc}, yearsCom, p\_stor, v, degradation\_states}$} \label{Eq_storage_unitsStatesNoRecovery}
+$
+\displaystyle \sum_{dc\_states |  ( \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, dc\_states} \wedge  ( \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, dc\_states, \texttt{maxFullCycles}}  \leq  \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states, \texttt{maxFullCycles}} )  )} ( \textcolor{black}{\text{storage\_unitsStateTracker}}_{n, yearsToCalc, yearsCom, p\_stor, v, dc\_states} + \displaystyle \sum_{y |  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{yearsToCalc.val}} ) }\textcolor{black}{\text{storage\_unitsStateTrackerDecom}}_{n, y, yearsCom, p\_stor, v, dc\_states} )  \leq \displaystyle \sum_{dc\_states |  ( \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, dc\_states} \wedge  ( \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, dc\_states, \texttt{maxFullCycles}}  \leq  \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states, \texttt{maxFullCycles}} )  )} ( \textcolor{black}{\text{storage\_unitsStateTracker}}_{n, yearsToCalc-1, yearsCom, p\_stor, v, dc\_states} + \displaystyle \sum_{y |  ( \textcolor{black}{\text{y.val}}  <  \textcolor{black}{\text{yearsToCalc.val}} ) }\textcolor{black}{\text{storage\_unitsStateTrackerDecom}}_{n, y, yearsCom, p\_stor, v, dc\_states} ) 
+$
+\hfill
+$
+\forall{ n, y_{yearsToCalc}, yearsCom, p\_stor, v, degradation\_states}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTech}}_{n, yearsToCalc, p\_stor, v} \wedge  ( \textcolor{black}{\text{yearsToCalc.val}}  >  \textcolor{black}{\text{yearsCom.val}} )  \wedge \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, degradation\_states} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_losses}_{t_{t}, n, y, p\_stor, v, c}$} \label{Eq_storage_losses}
+$
+\textcolor{black}{\text{storage\_losses}}_{t, n, y, p\_stor, v, c} = - ( \textcolor{black}{\text{stor\_level}}_{t--1, n, y, p\_stor, v, c} \cdot \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{selfdischarge}} )  + \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{selfdischargeAbs}} +  \frac{\textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{chargingLoss}}}{1 - \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{chargingLoss}}}  \cdot \textcolor{black}{\text{storage\_charge}}_{t, n, y, p\_stor, v, c} [  ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{chargingLoss}}  >  0 )  ]  + \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{dischargingLoss}} \cdot \textcolor{black}{\text{storage\_discharge}}_{t, n, y, p\_stor, v, c} [  ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{dischargingLoss}}  >  0 )  ]  - \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}} \cdot \displaystyle \sum_{soc\_states |  ( \textcolor{black}{\text{storage\_usedTechSoCState}}_{p\_stor, v, soc\_states} \wedge \textcolor{black}{\text{storage\_validSoCRange}}_{p\_stor, v} )} ( \textcolor{black}{\text{storage\_unitsSoC}}_{t--1, n, y, p\_stor, v, soc\_states} \cdot \textcolor{black}{\text{storage\_socparam}}_{p\_stor, v, soc\_states, \texttt{SoC}} \cdot \textcolor{black}{\text{storage\_socparam}}_{p\_stor, v, soc\_states, \texttt{selfdischarge}} ) 
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_stor, v, c}  ~ | ~\textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c}
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_cRateLimit}_{t_{t}, n, y, p\_stor, v, c}$} \label{Eq_storage_cRateLimit}
+$
+\textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c} - \textcolor{black}{\text{stor\_level}}_{t--1, n, y, p\_stor, v, c} \leq \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{maxCRate}} \cdot \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}} \cdot \textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge  ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{maxCRate}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_eRateLimit}_{t_{t}, n, y, p\_stor, v, c}$} \label{Eq_storage_eRateLimit}
+$
+\textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c} - \textcolor{black}{\text{stor\_level}}_{t--1, n, y, p\_stor, v, c} \geq - ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{maxERate}} \cdot \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}} \cdot \textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v} ) 
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge  ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{maxERate}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_charge}_{t_{t}, n, y, p\_stor, v, c}$} \label{Eq_storage_charge}
+$
+\textcolor{black}{\text{storage\_charge}}_{t, n, y, p\_stor, v, c} \geq \textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c} - \textcolor{black}{\text{stor\_level}}_{t--1, n, y, p\_stor, v, c}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge  ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{chargingLoss}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_discharge}_{t_{t}, n, y, p\_stor, v, c}$} \label{Eq_storage_discharge}
+$
+\textcolor{black}{\text{storage\_discharge}}_{t, n, y, p\_stor, v, c} \geq \textcolor{black}{\text{stor\_level}}_{t--1, n, y, p\_stor, v, c} - \textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge  ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{dischargingLoss}}  >  0 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_levelStateSum}_{t, n, y, p\_stor, v, c}$} \label{Eq_storage_levelStateSum}
+$
+\textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c} = \displaystyle \sum_{yearsCom}\textcolor{black}{\text{storage\_levelPerAge}}_{t, n, y, yearsCom, p\_stor, v, c}
+$
+\hfill
+$
+\forall{ t, n, y, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{usageDegradation}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_levelUpperLimitPerAge}_{t, n, y, yearsCom, p\_stor, v, c}$} \label{Eq_storage_levelUpperLimitPerAge}
+$
+\textcolor{black}{\text{storage\_levelPerAge}}_{t, n, y, yearsCom, p\_stor, v, c} \leq \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{levelUpperLimit}} \cdot \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}} \cdot \displaystyle \sum_{degradation\_states} (  ( \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states, \texttt{remainingCapacity}} -  ( \textcolor{black}{\text{y.val}} - \textcolor{black}{\text{yearsCom.val}} )  \cdot \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{annualDegradation}} )  \cdot \textcolor{black}{\text{storage\_unitsStateTracker}}_{n, y, yearsCom, p\_stor, v, degradation\_states} ) 
+$
+\hfill
+$
+\forall{ t, n, y, yearsCom, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{usageDegradation}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_chargeBasedDegradationDistribution}_{n, y, yearsCom, p\_stor, v, c}$} \label{Eq_storage_chargeBasedDegradationDistribution}
+$
+\displaystyle \sum_{prev\_years |  ( \textcolor{black}{\text{prev\_years.val}}  \leq  \textcolor{black}{\text{y.val}} ) } ( \textcolor{black}{\text{representedYears}}_{prev\_years} \cdot \displaystyle \sum_{t}\textcolor{black}{\text{storage\_chargePerAge}}_{t, n, prev\_years, yearsCom, p\_stor, v, c} )  \leq \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}} \cdot \displaystyle \sum_{dc\_states | \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, dc\_states}} ( \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, dc\_states, \texttt{maxFullCycles}} \cdot  ( \textcolor{black}{\text{storage\_unitsStateTracker}}_{n, y, yearsCom, p\_stor, v, dc\_states} + \displaystyle \sum_{prev\_years |  ( \textcolor{black}{\text{prev\_years.val}}  \leq  \textcolor{black}{\text{y.val}} ) }\textcolor{black}{\text{storage\_unitsStateTrackerDecom}}_{n, prev\_years, yearsCom, p\_stor, v, dc\_states} )  ) 
+$
+\hfill
+$
+\forall{ n, y, yearsCom, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{usageDegradation}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_chargingPerAge}_{t_{t}, n, y, yearsCom, p\_stor, v, c}$} \label{Eq_storage_chargingPerAge}
+$
+\textcolor{black}{\text{storage\_chargePerAge}}_{t, n, y, yearsCom, p\_stor, v, c} \geq \textcolor{black}{\text{storage\_levelPerAge}}_{t, n, y, yearsCom, p\_stor, v, c} - \textcolor{black}{\text{storage\_levelPerAge}}_{t--1, n, y, yearsCom, p\_stor, v, c}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, yearsCom, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} \wedge \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{usageDegradation}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsDecomStateSum}_{n, y, p\_stor, v}$} \label{Eq_storage_unitsDecomStateSum}
+$
+\textcolor{black}{\text{stor\_unitsDecom}}_{n, y, p\_stor, v} = \displaystyle \sum_{yearsCom, degradation\_states | \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, degradation\_states}}\textcolor{black}{\text{storage\_unitsStateTrackerDecom}}_{n, y, yearsCom, p\_stor, v, degradation\_states}
+$
+\hfill
+$
+\forall{ n, y, p\_stor, v}  ~ | ~\textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{usageDegradation}}
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsDegradation}_{n, y, yearsCom, p\_stor, v, degradation\_states}$} \label{Eq_storage_unitsDegradation}
+$
+\displaystyle \sum_{degradation\_states_a |  (  (  ( \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states_a, \texttt{maxFullCycles}}  =  \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states, \texttt{maxFullCycles}} )  \vee  ( \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states_a, \texttt{maxFullCycles}}  =  max\{\textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states_b, \texttt{maxFullCycles}} \big| degradation\_states_b |  (  ( \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states_b, \texttt{maxFullCycles}}  <  \textcolor{black}{\text{storage\_degradationParam}}_{p\_stor, v, degradation\_states, \texttt{maxFullCycles}} )  \wedge \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, degradation\_states_b} )\} )  ) \wedge \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, degradation\_states_a} )}\textcolor{black}{\text{storage\_unitsStateTracker\_activeRange}}_{n, y, yearsCom, p\_stor, v, degradation\_states_a} \cdot \textcolor{black}{\text{storage\_bigM}}_{p\_stor, v} \geq \textcolor{black}{\text{storage\_unitsStateTracker}}_{n, y, yearsCom, p\_stor, v, degradation\_states}
+$
+\hfill
+$
+\forall{ n, y, yearsCom, p\_stor, v, degradation\_states}  ~ | ~ ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{usageDegradation}} \wedge \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{sequentialDegradationStates}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsDegradation\_onlyOneRange}_{n, y, yearsCom, p\_stor, v}$} \label{Eq_storage_unitsDegradation_onlyOneRange}
+$
+\displaystyle \sum_{degradation\_states | \textcolor{black}{\text{storage\_usedDegradation}}_{p\_stor, v, degradation\_states}}\textcolor{black}{\text{storage\_unitsStateTracker\_activeRange}}_{n, y, yearsCom, p\_stor, v, degradation\_states} = 1
+$
+\hfill
+$
+\forall{ n, y, yearsCom, p\_stor, v}  ~ | ~ ( \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{usageDegradation}} \wedge \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{sequentialDegradationStates}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsSoC}_{t_{t}, n, y, p\_stor, v, soc\_states}$} \label{Eq_storage_unitsSoC}
+$
+\displaystyle \sum_{soc\_states_a |  (  (  ( \textcolor{black}{\text{storage\_socparam}}_{p\_stor, v, soc\_states_a, \texttt{SoC}}  =  \textcolor{black}{\text{storage\_socparam}}_{p\_stor, v, soc\_states, \texttt{SoC}} )  \vee  ( \textcolor{black}{\text{storage\_socparam}}_{p\_stor, v, soc\_states_a, \texttt{SoC}}  =  max\{\textcolor{black}{\text{storage\_socparam}}_{p\_stor, v, soc\_states_b, \texttt{SoC}} \big| soc\_states_b |  (  ( \textcolor{black}{\text{storage\_socparam}}_{p\_stor, v, soc\_states_b, \texttt{SoC}}  <  \textcolor{black}{\text{storage\_socparam}}_{p\_stor, v, soc\_states, \texttt{SoC}} )  \wedge \textcolor{black}{\text{storage\_usedTechSoCState}}_{p\_stor, v, soc\_states_b} )\} )  ) \wedge \textcolor{black}{\text{storage\_usedTechSoCState}}_{p\_stor, v, soc\_states_a} )}\textcolor{black}{\text{storage\_unitsSoC\_activeRange}}_{t, n, y, p\_stor, v, soc\_states_a} \cdot \textcolor{black}{\text{storage\_bigM}}_{p\_stor, v} \geq \textcolor{black}{\text{storage\_unitsSoC}}_{t, n, y, p\_stor, v, soc\_states}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_stor, v, soc\_states}  ~ | ~ ( \textcolor{black}{\text{storage\_validSoCRange}}_{p\_stor, v} \wedge \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{sequentialSoC}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsSoC\_onlyOneRange}_{t_{t}, n, y, p\_stor, v}$} \label{Eq_storage_unitsSoC_onlyOneRange}
+$
+\displaystyle \sum_{soc\_states | \textcolor{black}{\text{storage\_usedTechSoCState}}_{p\_stor, v, soc\_states}}\textcolor{black}{\text{storage\_unitsSoC\_activeRange}}_{t, n, y, p\_stor, v, soc\_states} = 1
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_stor, v}  ~ | ~ ( \textcolor{black}{\text{storage\_validSoCRange}}_{p\_stor, v} \wedge \textcolor{black}{\text{stor\_techParam}}_{p\_stor, v, \texttt{sequentialSoC}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_unitsSoC\_sum}_{t_{t}, n, y, p\_stor, v}$} \label{Eq_storage_unitsSoC_sum}
+$
+\textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v} = \displaystyle \sum_{soc\_states | \textcolor{black}{\text{storage\_usedTechSoCState}}_{p\_stor, v, soc\_states}}\textcolor{black}{\text{storage\_unitsSoC}}_{t, n, y, p\_stor, v, soc\_states}
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_stor, v}  ~ | ~\textcolor{black}{\text{storage\_validSoCRange}}_{p\_stor, v}
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_storage\_levelSoC}_{t_{t}, n, y, p\_stor, v, c}$} \label{Eq_storage_levelSoC}
+$
+\textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c} = \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}} \cdot \displaystyle \sum_{soc\_states | \textcolor{black}{\text{storage\_usedTechSoCState}}_{p\_stor, v, soc\_states}} ( \textcolor{black}{\text{storage\_unitsSoC}}_{t, n, y, p\_stor, v, soc\_states} \cdot \textcolor{black}{\text{storage\_socparam}}_{p\_stor, v, soc\_states, \texttt{SoC}} ) 
+$
+\hfill
+$
+\forall{ t_{t}, n, y, p\_stor, v, c}  ~ | ~ ( \textcolor{black}{\text{storage\_validSoCRange}}_{p\_stor, v} \wedge \textcolor{black}{\text{stor\_usedTechCom}}_{n, y, p\_stor, v, c} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_transport\_linesBalance}_{l, y, p\_tran, v}$} \label{Eq_transport_linesBalance}
+$
+\textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v} = \textcolor{black}{\text{tran\_linesTotal}}_{l, y-1, p\_tran, v} [ \textcolor{black}{\text{tran\_usedTech}}_{l, y-1, p\_tran, v} ]  + \textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v} [ \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} ]  - \textcolor{black}{\text{tran\_linesDecom}}_{l, y, p\_tran, v} [ \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} ] 
+$
+\hfill
+$
+\forall{ l, y, p\_tran, v}  ~ | ~ (  ( \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} \vee \textcolor{black}{\text{tran\_usedTech}}_{l, y-1, p\_tran, v} ) \wedge  ( \textcolor{black}{\text{y.val}}  \leq  max\{\textcolor{black}{\text{yearsToCalc.val}} \big| yearsToCalc\} )  \wedge  ( \neg \textcolor{black}{\text{transport\_lineBoundsFixed}}_{l, y, p\_tran} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_transport\_linesFixedDecom}_{l, y_{y}, p\_tran, v}$} \label{Eq_transport_linesFixedDecom}
+$
+\textcolor{black}{\text{tran\_linesDecom}}_{l, y, p\_tran, v} = \displaystyle \sum_{y, years_{aa} |  (  ( y- ( 1 )  = years_{aa}  )  \wedge  ( \textcolor{black}{\text{y.val}}  >   ( \textcolor{black}{\text{years_{aa}.val}} - \textcolor{black}{\text{tran\_techParam}}_{p\_tran, v, \texttt{lifeTime}} )  )  \wedge  ( \textcolor{black}{\text{y.val}}  \leq   ( \textcolor{black}{\text{y.val}} - \textcolor{black}{\text{tran\_techParam}}_{p\_tran, v, \texttt{lifeTime}} )  )  \wedge \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} )}\textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v}
+$
+\hfill
+$
+\forall{ l, y_{y}, p\_tran, v}  ~ | ~ ( \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} \wedge  ( \neg  ( \textcolor{black}{\text{tran\_techParam}}_{p\_tran, v, \texttt{freeDecom}}  =  1 )  )  \wedge  ( \neg \textcolor{black}{\text{transport\_lineBoundsFixed}}_{l, y, p\_tran} )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_transport\_linesFreeDecom}_{l, y_{y}, p\_tran, v}$} \label{Eq_transport_linesFreeDecom}
+$
+\displaystyle \sum_{y |  (  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} )  \wedge \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} )}\textcolor{black}{\text{tran\_linesDecom}}_{l, y, p\_tran, v} = \displaystyle \sum_{y |  (  ( \textcolor{black}{\text{y.val}}  \leq   ( \textcolor{black}{\text{y.val}} - \textcolor{black}{\text{tran\_techParam}}_{p\_tran, v, \texttt{lifeTime}} )  )  \wedge \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} )}\textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v}
+$
+\hfill
+$
+\forall{ l, y_{y}, p\_tran, v}  ~ | ~ ( \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{tran\_techParam}}_{p\_tran, v, \texttt{freeDecom}}  =  1 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_transport\_linesLowerLimit}_{l, y, p\_tran}$} \label{Eq_transport_linesLowerLimit}
+$
+\displaystyle \sum_{v | \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v}}\textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v} \geq \textcolor{black}{\text{tran\_linesParam}}_{l, y, p\_tran, \texttt{linesLowerLimit}}
+$
+\hfill
+$
+\forall{ l, y, p\_tran}  ~ | ~ ( \textcolor{black}{\text{tran\_linesParam}}_{l, y, p\_tran, \texttt{linesLowerLimit}}  >  0 ) 
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_transport\_linesUpperLimit}_{l, y, p\_tran}$} \label{Eq_transport_linesUpperLimit}
+$
+\displaystyle \sum_{v | \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v}}\textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v} \leq \textcolor{black}{\text{tran\_linesParam}}_{l, y, p\_tran, \texttt{linesUpperLimit}}
+$
+\hfill
+$
+\forall{ l, y, p\_tran}  ~ | ~ (  ( \textcolor{black}{\text{tran\_linesParam}}_{l, y, p\_tran, \texttt{linesUpperLimit}}  \geq  0 )  \wedge  ( \textcolor{black}{\text{tran\_linesParam}}_{l, y, p\_tran, \texttt{linesUpperLimit}}  <  INF )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_transport\_linesTotalMIP}_{l, y, p\_tran, v}$} \label{Eq_transport_linesTotalMIP}
+$
+\textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v} = \textcolor{black}{\text{tran\_linesTotal\_MIP}}_{l, y, p\_tran, v}
+$
+\hfill
+$
+\forall{ l, y, p\_tran, v}  ~ | ~ ( \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} \wedge \textcolor{black}{\text{tran\_techParam}}_{p\_tran, v, \texttt{mipLines}} )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_transport\_flowAlongUpperLimit}_{t, l, y, p\_tran, v}$} \label{Eq_transport_flowAlongUpperLimit}
+$
+\textcolor{black}{\text{tran\_flowAlong}}_{t, l, y, p\_tran, v} \leq \textcolor{black}{\text{tran\_techParam}}_{p\_tran, v, \texttt{flowUpperLimit}} \cdot \textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v}
+$
+\hfill
+$
+\forall{ t, l, y, p\_tran, v}  ~ | ~\textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v}
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_transport\_flowAgainstUpperLimit}_{t, l, y, p\_tran, v}$} \label{Eq_transport_flowAgainstUpperLimit}
+$
+\textcolor{black}{\text{tran\_flowAgainst}}_{t, l, y, p\_tran, v} \leq \textcolor{black}{\text{tran\_techParam}}_{p\_tran, v, \texttt{flowUpperLimit}} \cdot \textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v}
+$
+\hfill
+$
+\forall{ t, l, y, p\_tran, v}  ~ | ~\textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v}
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_transport\_dcopf\_angleFlows}_{t, l, y, seg}$} \label{Eq_transport_dcopf_angleFlows}
+$
+\displaystyle \sum_{p\_tran, v | \textcolor{black}{\text{tran\_usedOpf}}_{l, y, seg, p\_tran, v}} (  ( \textcolor{black}{\text{tran\_flowAlong}}_{t, l, y, p\_tran, v} - \textcolor{black}{\text{tran\_flowAgainst}}_{t, l, y, p\_tran, v} )  \cdot \textcolor{black}{\text{tran\_dcopf\_Xtech}}_{l, y, p\_tran, v, seg} )  = \displaystyle \sum_{n} ( - ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l} \cdot \textcolor{black}{\text{transport\_dcopf\_voltageAngle}}_{t, n, y, seg} )  ) 
+$
+\hfill
+$
+\forall{ t, l, y, seg}  ~ | ~\textcolor{black}{\text{transport\_usedOpfLines}}_{l, y, seg}
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_sourcesink\_useFixedSum}_{n, y, sourcesink\_techs, c}$} \label{Eq_sourcesink_useFixedSum}
+$
+\displaystyle \sum_{t}\textcolor{black}{\text{sourcesink\_flow}}_{t, n, y, sourcesink\_techs, c} = \textcolor{black}{\text{sourcesink\_annualSum}}_{n, y, sourcesink\_techs, c, \texttt{fixed}}
+$
+\hfill
+$
+\forall{ n, y, sourcesink\_techs, c}  ~ | ~ ( \textcolor{black}{\text{sourcesink\_enabled}}_{n, y, sourcesink\_techs, c} \wedge  ( \textcolor{black}{\text{sourcesink\_config}}_{n, y, sourcesink\_techs, c, \texttt{usesFixedSum}}  =  1 )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_sourcesink\_useLowerSum}_{n, y, sourcesink\_techs, c}$} \label{Eq_sourcesink_useLowerSum}
+$
+\displaystyle \sum_{t}\textcolor{black}{\text{sourcesink\_flow}}_{t, n, y, sourcesink\_techs, c} \geq \textcolor{black}{\text{sourcesink\_annualSum}}_{n, y, sourcesink\_techs, c, \texttt{lower}}
+$
+\hfill
+$
+\forall{ n, y, sourcesink\_techs, c}  ~ | ~ ( \textcolor{black}{\text{sourcesink\_enabled}}_{n, y, sourcesink\_techs, c} \wedge  ( \textcolor{black}{\text{sourcesink\_config}}_{n, y, sourcesink\_techs, c, \texttt{usesLowerSum}}  =  1 )  \wedge  ( \textcolor{black}{\text{sourcesink\_annualSum}}_{n, y, sourcesink\_techs, c, \texttt{lower}}  >  - ( INF )  )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_sourcesink\_useUpperSum}_{n, y, sourcesink\_techs, c}$} \label{Eq_sourcesink_useUpperSum}
+$
+\displaystyle \sum_{t}\textcolor{black}{\text{sourcesink\_flow}}_{t, n, y, sourcesink\_techs, c} \leq \textcolor{black}{\text{sourcesink\_annualSum}}_{n, y, sourcesink\_techs, c, \texttt{upper}}
+$
+\hfill
+$
+\forall{ n, y, sourcesink\_techs, c}  ~ | ~ ( \textcolor{black}{\text{sourcesink\_enabled}}_{n, y, sourcesink\_techs, c} \wedge  ( \textcolor{black}{\text{sourcesink\_config}}_{n, y, sourcesink\_techs, c, \texttt{usesUpperSum}}  =  1 )  \wedge  ( \textcolor{black}{\text{sourcesink\_annualSum}}_{n, y, sourcesink\_techs, c, \texttt{upper}}  <  INF )  )
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_balance\_commodities}_{t_{t}, n, y, c}$} \label{Eq_balance_commodities}
+$
+\displaystyle \sum_{p\_conv, v, a |  (  ( \textcolor{black}{\text{conv\_coefficientProfile}}_{t, n, y, p\_conv, v, a, c}  \neq  0 )  \wedge \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v} )} ( \textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} \cdot \textcolor{black}{\text{conv\_coefficientProfile}}_{t, n, y, p\_conv, v, a, c} + \textcolor{black}{\text{conv\_unitsUsingActivity\_MIP}}_{t, n, y, p\_conv, v, a} \cdot \textcolor{black}{\text{conv\_coefficient}}_{p\_conv, v, a, c, \texttt{constant}} )  + \displaystyle \sum_{p\_stor, v |  (  ( \textcolor{black}{\text{stor\_sizeParam}}_{p\_stor, v, c, \texttt{size}}  \neq  0 )  \wedge \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v} )} ( \textcolor{black}{\text{stor\_level}}_{t--1, n, y, p\_stor, v, c} - \textcolor{black}{\text{stor\_level}}_{t, n, y, p\_stor, v, c} - \textcolor{black}{\text{storage\_losses}}_{t, n, y, p\_stor, v, c} )  + \displaystyle \sum_{l, p\_tran, v |  ( \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} \wedge \textcolor{black}{\text{l}}_{l} )} (  ( \textcolor{black}{\text{tran\_flowAlong}}_{t, l, y, p\_tran, v} [  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  >  0 )  ]  + \textcolor{black}{\text{tran\_flowAgainst}}_{t, l, y, p\_tran, v} [  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  <  0 )  ]  )  \cdot \textcolor{black}{\text{transport\_coefficient}}_{p\_tran, v, c, \texttt{coefficient}} )  - \displaystyle \sum_{l, p\_tran, v |  ( \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} \wedge \textcolor{black}{\text{l}}_{l} )} (  ( \textcolor{black}{\text{tran\_flowAlong}}_{t, l, y, p\_tran, v} [  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  <  0 )  ]  + \textcolor{black}{\text{tran\_flowAgainst}}_{t, l, y, p\_tran, v} [  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  >  0 )  ]  )  \cdot \textcolor{black}{\text{transport\_coefficient}}_{p\_tran, v, c, \texttt{coefficient}} )  + 0.5 \cdot \displaystyle \sum_{l, p\_tran, v |  ( \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} \wedge \textcolor{black}{\text{l}}_{l} )} (  ( \textcolor{black}{\text{tran\_flowAlong}}_{t, l, y, p\_tran, v} [  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  \neq  0 )  ]  + \textcolor{black}{\text{tran\_flowAgainst}}_{t, l, y, p\_tran, v} [  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  \neq  0 )  ]  )  \cdot  ( \textcolor{black}{\text{transport\_coefPerFlow}}_{p\_tran, v, c, \texttt{coefPerFlow}} + \displaystyle \sum_{distanceType} ( \textcolor{black}{\text{transport\_coefPerDistance}}_{p\_tran, v, c, distanceType, \texttt{coefPerDistance}} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} )  )  )  + \displaystyle \sum_{sourcesink\_techs | \textcolor{black}{\text{sourcesink\_enabled}}_{n, y, sourcesink\_techs, c}}\textcolor{black}{\text{sourcesink\_flow}}_{t, n, y, sourcesink\_techs, c} = 0
+$
+\hfill
+$
+\forall{ t_{t}, n, y, c}  ~ | ~\textcolor{black}{\text{balance\_usedBalance}}_{n, y, c}
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_accounting\_indicatorCalc}_{accNodesModel, accYearsSel_{accYears}, indicator}$} \label{Eq_accounting_indicatorCalc}
+$
+\textcolor{black}{\text{accounting\_indicator}}_{accNodesModel, accYears, indicator} = \displaystyle \sum_{accNodesModel\_a, accYears\_a, indicator\_a |  ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \wedge \textcolor{black}{\text{variableIndicators}}_{accNodesModel\_a, accYears\_a, indicator\_a} )} ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \cdot \textcolor{black}{\text{accounting\_indicator}}_{accNodesModel\_a, accYears\_a, indicator\_a} )  + \displaystyle \sum_{accNodesModel\_a, n, accYears\_a, y, indicator\_a |  ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \wedge  ( n = accNodesModel\_a  )  \wedge  ( y = accYears\_a  )  )} ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \cdot  ( \displaystyle \sum_{p\_conv, v |  ( \textcolor{black}{\text{conv\_availTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{accounting\_converterUnits}}_{indicator\_a, n, p\_conv, v, \texttt{useAnnuity}}  =  0 )  )} ( \textcolor{black}{\text{conv\_unitsBuild}}_{n, y, p\_conv, v} \cdot \textcolor{black}{\text{accounting\_converterUnits}}_{indicator\_a, n, p\_conv, v, \texttt{perUnitBuild}} )  + \displaystyle \sum_{y, p\_conv, v |  ( \textcolor{black}{\text{conv\_availTech}}_{n, y, p\_conv, v} \wedge  ( \textcolor{black}{\text{accounting\_converterUnits}}_{indicator\_a, n, p\_conv, v, \texttt{useAnnuity}}  =  1 )  \wedge  (  ( \textcolor{black}{\text{y.val}} + \textcolor{black}{\text{accounting\_converterUnits}}_{indicator\_a, n, p\_conv, v, \texttt{amorTime}} )   >  \textcolor{black}{\text{y.val}} )  \wedge  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} )  )} ( \textcolor{black}{\text{conv\_unitsBuild}}_{n, y, p\_conv, v} \cdot \textcolor{black}{\text{accounting\_converterUnits}}_{indicator\_a, n, p\_conv, v, \texttt{perUnitBuild}} \cdot \textcolor{black}{\text{accounting\_annuityFactor\_converter}}_{indicator\_a, n, p\_conv, v} )  + \displaystyle \sum_{p\_conv, v | \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v}} ( \textcolor{black}{\text{conv\_unitsDecom}}_{n, y, p\_conv, v} \cdot \textcolor{black}{\text{accounting\_converterUnits}}_{indicator\_a, n, p\_conv, v, \texttt{perUnitDecom}} + \textcolor{black}{\text{conv\_unitsTotal}}_{n, y, p\_conv, v} \cdot \textcolor{black}{\text{accounting\_converterUnits}}_{indicator\_a, n, p\_conv, v, \texttt{perUnitTotal}} )  + \displaystyle \sum_{t, p\_conv, v, a | \textcolor{black}{\text{converter\_usedTechAct}}_{n, y, p\_conv, v, a}} ( \textcolor{black}{\text{conv\_activity}}_{t, n, y, p\_conv, v, a} \cdot \textcolor{black}{\text{accounting\_converterActivity}}_{indicator\_a, n, p\_conv, v, a, \texttt{perActivity}} )  + \displaystyle \sum_{t, p\_conv, v | \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v}} ( \textcolor{black}{\text{conv\_unitStartups}}_{t, n, y, p\_conv, v} \cdot \textcolor{black}{\text{accounting\_converterStartup}}_{indicator\_a, n, p\_conv, v, \texttt{perStartup}} )  + \displaystyle \sum_{t, p\_conv, v | \textcolor{black}{\text{conv\_usedTech}}_{n, y, p\_conv, v}} ( \textcolor{black}{\text{conv\_rampPos}}_{t, n, y, p\_conv, v} \cdot  ( \textcolor{black}{\text{accounting\_converterStartup}}_{indicator\_a, n, p\_conv, v, \texttt{perRamp}} + \textcolor{black}{\text{accounting\_converterStartup}}_{indicator\_a, n, p\_conv, v, \texttt{perRampPos}} )  + \textcolor{black}{\text{conv\_rampNeg}}_{t, n, y, p\_conv, v} \cdot  ( \textcolor{black}{\text{accounting\_converterStartup}}_{indicator\_a, n, p\_conv, v, \texttt{perRamp}} + \textcolor{black}{\text{accounting\_converterStartup}}_{indicator\_a, n, p\_conv, v, \texttt{perRampNeg}} )  )  )  )  + \displaystyle \sum_{accNodesModel\_a, n, accYears\_a, y, indicator\_a |  ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \wedge  ( n = accNodesModel\_a  )  \wedge  ( y = accYears\_a  )  )} ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \cdot  ( \displaystyle \sum_{p\_stor, v |  ( \textcolor{black}{\text{stor\_availTech}}_{n, y, p\_stor, v} \wedge  ( \textcolor{black}{\text{accounting\_storageUnits}}_{indicator\_a, n, p\_stor, v, \texttt{useAnnuity}}  =  0 )  )} ( \textcolor{black}{\text{stor\_unitsBuild}}_{n, y, p\_stor, v} \cdot \textcolor{black}{\text{accounting\_storageUnits}}_{indicator\_a, n, p\_stor, v, \texttt{perUnitBuild}} )  + \displaystyle \sum_{y, p\_stor, v |  ( \textcolor{black}{\text{stor\_availTech}}_{n, y, p\_stor, v} \wedge  ( \textcolor{black}{\text{accounting\_storageUnits}}_{indicator\_a, n, p\_stor, v, \texttt{useAnnuity}}  =  1 )  \wedge  (  ( \textcolor{black}{\text{y.val}} + \textcolor{black}{\text{accounting\_storageUnits}}_{indicator\_a, n, p\_stor, v, \texttt{amorTime}} )   >  \textcolor{black}{\text{y.val}} )  \wedge  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} )  )} ( \textcolor{black}{\text{stor\_unitsBuild}}_{n, y, p\_stor, v} \cdot \textcolor{black}{\text{accounting\_storageUnits}}_{indicator\_a, n, p\_stor, v, \texttt{perUnitBuild}} \cdot \textcolor{black}{\text{accounting\_annuityFactor\_storage}}_{indicator\_a, n, p\_stor, v} )  + \displaystyle \sum_{p\_stor, v | \textcolor{black}{\text{stor\_usedTech}}_{n, y, p\_stor, v}} ( \textcolor{black}{\text{stor\_unitsDecom}}_{n, y, p\_stor, v} \cdot \textcolor{black}{\text{accounting\_storageUnits}}_{indicator\_a, n, p\_stor, v, \texttt{perUnitDecom}} + \textcolor{black}{\text{stor\_unitsTotal}}_{n, y, p\_stor, v} \cdot \textcolor{black}{\text{accounting\_storageUnits}}_{indicator\_a, n, p\_stor, v, \texttt{perUnitTotal}} )  )  )  + \displaystyle \sum_{accNodesModel\_a, n, accYears\_a, y, indicator\_a |  ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \wedge  ( n = accNodesModel\_a  )  \wedge  ( y = accYears\_a  )  )} ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \cdot  ( \displaystyle \sum_{l, p\_tran, v |  ( \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  \neq  0 )  \wedge  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{useAnnuity}}  =  0 )  )} ( 0.5 \cdot \textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{perLineBuild}} )  + \displaystyle \sum_{l, y, p\_tran, v |  ( \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  \neq  0 )  \wedge  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{useAnnuity}}  =  1 )  \wedge  (  ( \textcolor{black}{\text{y.val}} + \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{amorTime}} )   >  \textcolor{black}{\text{y.val}} )  \wedge  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} )  )} ( 0.5 \cdot \textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{perLineBuild}} \cdot \textcolor{black}{\text{accounting\_annuityFactor\_transportLines}}_{indicator\_a, l, p\_tran, v} )  + \displaystyle \sum_{l, p\_tran, v, distanceType |  ( \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  \neq  0 )  \wedge  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{useAnnuity}}  =  0 )  )} ( 0.5 \cdot \textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{perDistanceBuild}} )  + \displaystyle \sum_{l, y, p\_tran, v, distanceType |  ( \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  \neq  0 )  \wedge  ( \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{useAnnuity}}  =  1 )  \wedge  (  ( \textcolor{black}{\text{y.val}} + \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{amorTime}} )   >  \textcolor{black}{\text{y.val}} )  \wedge  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} )  )} ( 0.5 \cdot \textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{perDistanceBuild}} \cdot \textcolor{black}{\text{accounting\_annuityFactor\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType} )  + \displaystyle \sum_{l, p\_tran, v |  ( \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{transport\_incidenceModel}}_{n, l}  \neq  0 )  )} ( 0.5 \cdot \textcolor{black}{\text{tran\_linesDecom}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{perLineDecom}} + 0.5 \cdot \textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{perLineTotal}} + 0.5 \cdot \displaystyle \sum_{distanceType} ( \textcolor{black}{\text{tran\_linesDecom}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{perDistanceDecom}} + \textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{perDistanceTotal}} )  + 0.5 \cdot \displaystyle \sum_{t} ( \textcolor{black}{\text{tran\_flowAlong}}_{t, l, y, p\_tran, v} \cdot  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{perFlow}} + \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{perFlowAlong}} )  + \textcolor{black}{\text{tran\_flowAgainst}}_{t, l, y, p\_tran, v} \cdot  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{perFlow}} + \textcolor{black}{\text{accounting\_transportLines}}_{indicator\_a, l, p\_tran, v, \texttt{perFlowAgainst}} )  )  + 0.5 \cdot \displaystyle \sum_{t, distanceType} ( \textcolor{black}{\text{tran\_flowAlong}}_{t, l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot  ( \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{perFlow}} + \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{perFlowAlong}} )  + \textcolor{black}{\text{tran\_flowAgainst}}_{t, l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot  ( \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{perFlow}} + \textcolor{black}{\text{accounting\_transportDistance}}_{indicator\_a, l, p\_tran, v, distanceType, \texttt{perFlowAgainst}} )  )  )  )  )  + \displaystyle \sum_{accNodesModel\_a, n, accYears\_a, y, indicator\_a |  ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \wedge  ( n = accNodesModel\_a  )  \wedge  ( y = accYears\_a  )  )} ( \textcolor{black}{\text{compoundIndicators}}_{accNodesModel, accYears, indicator, accNodesModel\_a, accYears\_a, indicator\_a} \cdot \displaystyle \sum_{t, sourcesink\_techs, c | \textcolor{black}{\text{sourcesink\_enabled}}_{n, y, sourcesink\_techs, c}} ( \textcolor{black}{\text{sourcesink\_flow}}_{t, n, y, sourcesink\_techs, c} \cdot \textcolor{black}{\text{accounting\_sourcesinkFlow}}_{indicator\_a, n, y, sourcesink\_techs, c, \texttt{perFlow}} )  ) 
+$
+\hfill
+$
+\forall{ accNodesModel, accYearsSel_{accYears}, indicator}  ~ | ~\textcolor{black}{\text{activeIndicators}}_{accNodesModel, accYears, indicator}
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_accounting\_indicatorCalc\_links}_{l, y, indicator}$} \label{Eq_accounting_indicatorCalc_links}
+$
+\textcolor{black}{\text{accounting\_indicator\_links}}_{l, y, indicator} = \displaystyle \sum_{p\_tran, v |  ( \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{useAnnuity}}  =  0 )  )} ( \textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{perLineBuild}} )  + \displaystyle \sum_{y, p\_tran, v |  ( \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{useAnnuity}}  =  1 )  \wedge  (  ( \textcolor{black}{\text{y.val}} + \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{amorTime}} )   >  \textcolor{black}{\text{y.val}} )  \wedge  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} )  )} ( \textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{perLineBuild}} \cdot \textcolor{black}{\text{accounting\_annuityFactor\_transportLines}}_{indicator, l, p\_tran, v} )  + \displaystyle \sum_{p\_tran, v, distanceType |  ( \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{useAnnuity}}  =  0 )  )} ( \textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{perDistanceBuild}} )  + \displaystyle \sum_{y, p\_tran, v, distanceType |  ( \textcolor{black}{\text{tran\_availTech}}_{l, y, p\_tran, v} \wedge  ( \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{useAnnuity}}  =  1 )  \wedge  (  ( \textcolor{black}{\text{y.val}} + \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{amorTime}} )   >  \textcolor{black}{\text{y.val}} )  \wedge  ( \textcolor{black}{\text{y.val}}  \leq  \textcolor{black}{\text{y.val}} )  )} ( \textcolor{black}{\text{tran\_linesBuild}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{perDistanceBuild}} \cdot \textcolor{black}{\text{accounting\_annuityFactor\_transportDistance}}_{indicator, l, p\_tran, v, distanceType} )  + \displaystyle \sum_{p\_tran, v | \textcolor{black}{\text{tran\_usedTech}}_{l, y, p\_tran, v}} ( \textcolor{black}{\text{tran\_linesDecom}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{perLineDecom}} + \textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{perLineTotal}} + \displaystyle \sum_{distanceType} ( \textcolor{black}{\text{tran\_linesDecom}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{perDistanceDecom}} + \textcolor{black}{\text{tran\_linesTotal}}_{l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{perDistanceTotal}} )  + \displaystyle \sum_{t} ( \textcolor{black}{\text{tran\_flowAlong}}_{t, l, y, p\_tran, v} \cdot  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{perFlow}} + \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{perFlowAlong}} )  + \textcolor{black}{\text{tran\_flowAgainst}}_{t, l, y, p\_tran, v} \cdot  ( \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{perFlow}} + \textcolor{black}{\text{accounting\_transportLines}}_{indicator, l, p\_tran, v, \texttt{perFlowAgainst}} )  )  + \displaystyle \sum_{t, distanceType} ( \textcolor{black}{\text{tran\_flowAlong}}_{t, l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot  ( \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{perFlow}} + \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{perFlowAlong}} )  + \textcolor{black}{\text{tran\_flowAgainst}}_{t, l, y, p\_tran, v} \cdot \textcolor{black}{\text{transport\_distanceParam}}_{l, distanceType, \texttt{distance}} \cdot  ( \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{perFlow}} + \textcolor{black}{\text{accounting\_transportDistance}}_{indicator, l, p\_tran, v, distanceType, \texttt{perFlowAgainst}} )  )  ) 
+$
+\hfill
+$
+\forall{ l, y, indicator}  ~ | ~\textcolor{black}{\text{activeIndicators\_links}}_{l, y, indicator}
+$ \vspace{5pt}
+\hrule 
+\subsubsection*{$\text{Eq\_accounting\_objective}$} \label{Eq_accounting_objective}
+$
+\textcolor{black}{\text{accounting\_objective}} = \displaystyle \sum_{accNodesModel, accYears, indicator |  ( \textcolor{black}{\text{accounting\_indicatorBounds}}_{accNodesModel, accYears, indicator, \texttt{obj}}  \neq  0 ) }\textcolor{black}{\text{accounting\_indicator}}_{accNodesModel, accYears, indicator}
+$ \vspace{5pt}
+\hrule 
+\bigskip
+$\text{conv\_unitsTotal}_{n, y, p\_conv, v}\geq 0 ~ \forall n, y, p\_conv, v$ \newline 
+$\text{conv\_unitsBuild}_{n, y, p\_conv, v}\geq 0 ~ \forall n, y, p\_conv, v$ \newline 
+$\text{conv\_unitsDecom}_{n, y, p\_conv, v}\geq 0 ~ \forall n, y, p\_conv, v$ \newline 
+$\text{conv\_unitsTotal_MIP}_{n, y, p\_conv, v}\in \mathbb{Z}_{+} \forall n, y, p\_conv, v$ \newline 
+$\text{conv\_unitsOnline}_{t, n, y, p\_conv, v}\geq 0 ~ \forall t, n, y, p\_conv, v$ \newline 
+$\text{conv\_unitsOnline_MIP}_{t, n, y, p\_conv, v}\in \mathbb{Z}_{+} \forall t, n, y, p\_conv, v$ \newline 
+$\text{conv\_activity}_{t, n, y, p\_conv, v, a}\geq 0 ~ \forall t, n, y, p\_conv, v, a$ \newline 
+$\text{conv\_rampPos}_{t, n, y, p\_conv, v}\geq 0 ~ \forall t, n, y, p\_conv, v$ \newline 
+$\text{conv\_rampNeg}_{t, n, y, p\_conv, v}\geq 0 ~ \forall t, n, y, p\_conv, v$ \newline 
+$\text{conv\_unitStartups}_{t, n, y, p\_conv, v}\geq 0 ~ \forall t, n, y, p\_conv, v$ \newline 
+$\text{conv\_unitShutdowns}_{t, n, y, p\_conv, v}\geq 0 ~ \forall t, n, y, p\_conv, v$ \newline 
+$\text{conv\_unitsUsingActivity\_MIP}_{t, n, y, p\_conv, v, a}\in \mathbb{Z}_{+} \forall t, n, y, p\_conv, v, a$ \newline 
+$\text{stor\_unitsTotal}_{n, y, p\_stor, v}\geq 0 ~ \forall n, y, p\_stor, v$ \newline 
+$\text{stor\_unitsBuild}_{n, y, p\_stor, v}\geq 0 ~ \forall n, y, p\_stor, v$ \newline 
+$\text{stor\_unitsDecom}_{n, y, p\_stor, v}\geq 0 ~ \forall n, y, p\_stor, v$ \newline 
+$\text{stor\_unitsTotal\_MIP}_{n, y, p\_stor, v}\in \mathbb{Z}_{+} \forall n, y, p\_stor, v$ \newline 
+$\text{stor\_level}_{t, n, y, p\_stor, v, c}\geq 0 ~ \forall t, n, y, p\_stor, v, c$ \newline 
+$\text{storage\_unitsStateTracker}_{n, y, yearsCom, p\_stor, v, degradation\_states}\geq 0 ~ \forall n, y, yearsCom, p\_stor, v, degradation\_states$ \newline 
+$\text{storage\_unitsStateTrackerDecom}_{n, y, yearsCom, p\_stor, v, degradation\_states}\geq 0 ~ \forall n, y, yearsCom, p\_stor, v, degradation\_states$ \newline 
+$\text{storage\_losses}_{t, n, y, p\_stor, v, c}\geq 0 ~ \forall t, n, y, p\_stor, v, c$ \newline 
+$\text{storage\_charge}_{t, n, y, p\_stor, v, c}\geq 0 ~ \forall t, n, y, p\_stor, v, c$ \newline 
+$\text{storage\_discharge}_{t, n, y, p\_stor, v, c}\geq 0 ~ \forall t, n, y, p\_stor, v, c$ \newline 
+$\text{storage\_unitsSoC}_{t, n, y, p\_stor, v, soc\_statesIn}\geq 0 ~ \forall t, n, y, p\_stor, v, soc\_statesIn$ \newline 
+$\text{storage\_levelPerAge}_{t, n, y, yearsCom, p\_stor, v, c}\geq 0 ~ \forall t, n, y, yearsCom, p\_stor, v, c$ \newline 
+$\text{storage\_chargePerAge}_{t, n, y, yearsCom, p\_stor, v, c}\geq 0 ~ \forall t, n, y, yearsCom, p\_stor, v, c$ \newline 
+$\text{storage\_unitsStateTracker\_activeRange}_{n, y, yearsCom, p\_stor, v, \cdot}\text{SOS1}$ \newline 
+$\text{storage\_unitsSoC\_activeRange}_{t, n, y, p\_stor, v, \cdot}\text{SOS1}$ \newline 
+$\text{tran\_linesTotal}_{l, y, p\_tran, v}\geq 0 ~ \forall l, y, p\_tran, v$ \newline 
+$\text{tran\_linesBuild}_{l, y, p\_tran, v}\geq 0 ~ \forall l, y, p\_tran, v$ \newline 
+$\text{tran\_linesDecom}_{l, y, p\_tran, v}\geq 0 ~ \forall l, y, p\_tran, v$ \newline 
+$\text{tran\_linesTotal\_MIP}_{l, y, p\_tran, v}\in \mathbb{Z}_{+} \forall l, y, p\_tran, v$ \newline 
+$\text{tran\_flowAlong}_{t, l, y, p\_tran, v}\geq 0 ~ \forall t, l, y, p\_tran, v$ \newline 
+$\text{tran\_flowAgainst}_{t, l, y, p\_tran, v}\geq 0 ~ \forall t, l, y, p\_tran, v$ \newline
+\bigskip
+\end{document}

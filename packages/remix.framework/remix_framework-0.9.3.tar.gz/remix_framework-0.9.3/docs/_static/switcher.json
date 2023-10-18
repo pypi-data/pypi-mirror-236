@@ -1,0 +1,52 @@
+[
+    {
+      "name": "0.8.0",
+      "version": "0.8.0",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/0.8.0/"
+    },
+    {
+      "name": "0.8.1a",
+      "version": "0.8.1a",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/0.8.1a/"
+    },
+    {
+      "name": "0.8.2",
+      "version": "0.8.2",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/0.8.2/"
+    },
+    {
+      "name": "dev",
+      "version": "dev",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/dev/"
+    },
+    {
+      "name": "pages/tutorial-202-path-optimization",
+      "version": "pages/tutorial-202-path-optimization",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/pages/tutorial-202-path-optimization/"
+    },
+    {
+      "name": "unseen_v1",
+      "version": "unseen_v1",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/unseen_v1/"
+    },
+    {
+      "name": "docs-test",
+      "version": "docs-test",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/docs-test/"
+    },
+    {
+      "name": "pages/cues-complex-functions",
+      "version": "pages/cues-complex-functions",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/pages/cues-complex-functions/"
+    },
+    {
+      "name": "pages/modeling-concept",
+      "version": "pages/modeling-concept",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/pages/modeling-concept/"
+    },
+    {
+      "name": "pages/restructure-methods",
+      "version": "pages/restructure-methods",
+      "url": "https://remix.pages.gitlab.dlr.de/framework/pages/restructure-methods/"
+    }
+  ]
