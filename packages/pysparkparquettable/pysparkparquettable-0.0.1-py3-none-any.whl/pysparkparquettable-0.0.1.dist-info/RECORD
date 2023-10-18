@@ -1,0 +1,10 @@
+pysparkparquettable/__init__.py,sha256=tJVgSe-s7WfA3q6NXlccSkuiBvc6AAli3LSqL_kgWaI,277
+pysparkparquettable/table.py,sha256=hKPH_cUsSScGL2BwgGfFwgSoy6-beMqCq1-KbKr-t6Y,1122
+pysparkparquettable/table_dst.py,sha256=21pg12lovZ_MfTJon1lpn-Oyku2E0Gva0asTLkCSSbA,574
+pysparkparquettable/table_src.py,sha256=JyISpuOyuXtRCB87tqyAyVcFNdl7rW7MJ54Gdms7dCw,799
+pysparkparquettable/table_src_dst.py,sha256=HNjqFSh1ioyqtdd-_rUFSU2hDlPySaNpw_kCAfYM2hk,4399
+pysparkparquettable/table_src_dst_limit.py,sha256=P_GuWuI4AZ8xWGHc1TOGdSTZKcJB8gMnAm_61Xa3VKE,505
+pysparkparquettable-0.0.1.dist-info/METADATA,sha256=BkgoErWrnUzWmN6rM85RyNlyIjniwTA8CU_Y0PnSfSI,247
+pysparkparquettable-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pysparkparquettable-0.0.1.dist-info/top_level.txt,sha256=nh-9H1_RPWTySqinrb3cE6qn34-VoBaWtoDRqvYMs2k,20
+pysparkparquettable-0.0.1.dist-info/RECORD,,

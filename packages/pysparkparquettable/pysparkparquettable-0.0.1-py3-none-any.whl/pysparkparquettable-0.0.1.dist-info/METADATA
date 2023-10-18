@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pysparkparquettable
+Version: 0.0.1
+Description-Content-Type: text/markdown
+Requires-Dist: logclshelper
+Requires-Dist: pysparkhelper
+Requires-Dist: pysparkhdfshelper
+Requires-Dist: pysparkparquethelper
+
+#### README ####
