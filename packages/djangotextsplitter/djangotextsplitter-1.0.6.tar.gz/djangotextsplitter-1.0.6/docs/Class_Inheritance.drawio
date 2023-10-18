@@ -1,0 +1,315 @@
+<mxfile host="app.diagrams.net" modified="2023-07-18T08:08:59.572Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="aolZN4KQq-59MOf1X-la" version="21.6.2" type="device">
+  <diagram name="Page-1" id="5dkdKEjmnzfGn-RnHp9Z">
+    <mxGraphModel dx="1367" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-1" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;TextSplitter&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;manages the full analysis of a single document.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="560" y="40" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-2" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Title&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Selects title-elements (title, author, etc.) from the document-text.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="40" y="321" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Body&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Selects body-elements from the document-text.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="240" y="321" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-4" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Footer&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Selects headers and footonotes from the document-text.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="440" y="321" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-5" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Headlines&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Selects headlines, such as chapters, sections, etc.&amp;nbsp; from the document-text.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="720" y="321" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-6" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Enumeration&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Selects enumerations, itemizations, etc. from the document-text.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="920" y="321" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-7" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;TextAlinea&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Stores the text and data of an identified element, such as chapter, enum, etc.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="1120" y="321" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-8" value="&lt;div&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;TextPart&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;Covers basic functionality, like reading and calculation.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="580" y="680" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-9" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Fontregion&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Stores the different font sizes encountered in the document.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="220" y="958" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;Readingline&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Stores the information of the document line-by-line, such as text, fontsize, page nr. etc.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="700" y="958" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;LineRegion&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Stores the different sizes of whitelines between text encountered in the doc.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="460" y="958" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-12" value="&lt;b&gt;Readinghistogram&lt;/b&gt;&lt;div&gt;Stores MatplotLib histograms created from the fontsizes and whitelines in the doc.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="940" y="958" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-13" value="&lt;b style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Headlines Hierarchy&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;This class&#39; copy of Enumeration-Hierarchy.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="720" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Enumeration Hierarchy&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/font&gt;&lt;/b&gt;&lt;div&gt;Stores in which order we encountered various types of enumerations since the last headlines.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="920" y="480" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-15" value="&lt;div&gt;&lt;b&gt;Native TOC-element&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Stores the Headlines found in the documents metadata (TOC).&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="321" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;" parent="1" source="ZLa7592zcvIPyqdTI3GU-8" target="ZLa7592zcvIPyqdTI3GU-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="870" as="sourcePoint" />
+            <mxPoint x="720" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="840" />
+              <mxPoint x="300" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-17" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="760" as="sourcePoint" />
+            <mxPoint x="540" y="958" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="840" />
+              <mxPoint x="540" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;" parent="1" target="ZLa7592zcvIPyqdTI3GU-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="760" as="sourcePoint" />
+            <mxPoint x="550" y="968" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="840" />
+              <mxPoint x="780" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-19" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1020" y="840" as="sourcePoint" />
+            <mxPoint x="1020" y="958" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="840" />
+              <mxPoint x="1020" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-20" value="&lt;div&gt;Python: Array of objects&lt;/div&gt;&lt;div&gt;SQL: ManyToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="225" y="860" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-21" value="&lt;div&gt;Python: Array of objects&lt;/div&gt;&lt;div&gt;SQL: ManyToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="465" y="860" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-22" value="&lt;div&gt;Python: Different arrays of one variable each.&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: ManyToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="705" y="860" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-25" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;" parent="1" target="ZLa7592zcvIPyqdTI3GU-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="120" as="sourcePoint" />
+            <mxPoint x="540" y="318" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+              <mxPoint x="520" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;" parent="1" target="ZLa7592zcvIPyqdTI3GU-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="120" as="sourcePoint" />
+            <mxPoint x="350" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+              <mxPoint x="320" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;" parent="1" target="ZLa7592zcvIPyqdTI3GU-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="659.96" y="120" as="sourcePoint" />
+            <mxPoint x="6.999999999999957" y="257.03999999999996" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="659.96" y="200" />
+              <mxPoint x="120" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-28" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;" parent="1" target="ZLa7592zcvIPyqdTI3GU-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="120" as="sourcePoint" />
+            <mxPoint x="210" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+              <mxPoint x="800" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-29" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;" parent="1" target="ZLa7592zcvIPyqdTI3GU-6" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="120" as="sourcePoint" />
+            <mxPoint x="810" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+              <mxPoint x="1000" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-30" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ZLa7592zcvIPyqdTI3GU-1" target="ZLa7592zcvIPyqdTI3GU-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="120" as="sourcePoint" />
+            <mxPoint x="1200" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+              <mxPoint x="1200" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-31" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=5;" parent="1" target="ZLa7592zcvIPyqdTI3GU-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="200" as="sourcePoint" />
+            <mxPoint x="640" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-32" value="&lt;div&gt;Python: Class inheritance&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="585" y="590" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-34" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=5;strokeColor=#007FFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ZLa7592zcvIPyqdTI3GU-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="860" y="120" as="sourcePoint" />
+            <mxPoint x="1400" y="321" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+              <mxPoint x="1400" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-35" value="&lt;div&gt;Python: Class member&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="45" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-36" value="&lt;div&gt;Python: Class member&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="245" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-37" value="&lt;div&gt;Python: Class member&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="445" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-38" value="&lt;div&gt;Python: Class member&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="725" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-39" value="&lt;div&gt;Python: Class member&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="925" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-41" value="&lt;div&gt;Python: Array of objects&lt;/div&gt;&lt;div&gt;SQL: ManyToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-42" value="&lt;div&gt;Python: Array of objects&lt;/div&gt;&lt;div&gt;SQL: ManyToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="1325" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-43" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=5;" parent="1" source="ZLa7592zcvIPyqdTI3GU-2" target="ZLa7592zcvIPyqdTI3GU-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="480" y="580" as="sourcePoint" />
+            <mxPoint x="530" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=5;" parent="1" source="ZLa7592zcvIPyqdTI3GU-3" target="ZLa7592zcvIPyqdTI3GU-8" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="411" as="sourcePoint" />
+            <mxPoint x="590" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="320" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-45" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#007FFF;strokeWidth=5;" parent="1" source="ZLa7592zcvIPyqdTI3GU-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="330" y="411" as="sourcePoint" />
+            <mxPoint x="580" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="520" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-23" value="&lt;div&gt;Python: MatPlotLib output&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: ManyToOne (Many histogram bins)&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="940" y="860" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-48" value="&lt;div&gt;Python: Class inheritance&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="445" y="430" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-49" value="&lt;div&gt;Python: Class inheritance&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="245" y="430" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-52" value="&lt;div&gt;Python: Class inheritance&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="45" y="430" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=5;" parent="1" source="ZLa7592zcvIPyqdTI3GU-5" target="ZLa7592zcvIPyqdTI3GU-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="780" y="550" as="sourcePoint" />
+            <mxPoint x="830" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-55" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=#007FFF;strokeWidth=5;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1000.41" y="401" as="sourcePoint" />
+            <mxPoint x="1000.41" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-57" value="&lt;div&gt;Python: Array of objects&lt;/div&gt;&lt;div&gt;SQL: ManyToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="725" y="411" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-60" value="&lt;div&gt;Python: Array of objects&lt;/div&gt;&lt;div&gt;SQL: ManyToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="925" y="411" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-63" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#007FFF;strokeWidth=5;" parent="1" source="ZLa7592zcvIPyqdTI3GU-7" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1200" y="560" as="sourcePoint" />
+            <mxPoint x="740" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1200" y="719.5" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-64" value="&lt;div&gt;Python: Class inheritance&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="1125" y="429" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-67" value="&lt;div&gt;&lt;b&gt;Breakdown decisions&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;Stores the masterrule decisions per textline of the document.&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#66FFFF;strokeWidth=4;strokeColor=#0000FF;" parent="1" vertex="1">
+          <mxGeometry x="1520" y="321" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-68" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=5;strokeColor=#007FFF;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="ZLa7592zcvIPyqdTI3GU-67" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="120" as="sourcePoint" />
+            <mxPoint x="1620" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="660" y="200" />
+              <mxPoint x="1600" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-69" value="&lt;div&gt;Python: Different arrays of one variable each.&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: ManyToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="1525" y="220" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LNGiZinXW4eW8r5oXxVm-1" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#007FFF;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ZLa7592zcvIPyqdTI3GU-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="900" y="360" as="sourcePoint" />
+            <mxPoint x="740" y="720" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="900" y="361" />
+              <mxPoint x="900" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LNGiZinXW4eW8r5oXxVm-2" value="" style="endArrow=classic;html=1;rounded=0;strokeColor=#007FFF;strokeWidth=5;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZLa7592zcvIPyqdTI3GU-6" target="ZLa7592zcvIPyqdTI3GU-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="890" y="371" as="sourcePoint" />
+            <mxPoint x="750" y="730" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1100" y="361" />
+              <mxPoint x="1100" y="720" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mlGoaXTlA-5PYtjUaCW0-1" value="&lt;div&gt;Python: Class inheritance&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="1026" y="590" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZLa7592zcvIPyqdTI3GU-65" value="&lt;div&gt;Python: Class inheritance&lt;br&gt;&lt;/div&gt;&lt;div&gt;SQL: OneToOne&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#CCE5FF;" parent="1" vertex="1">
+          <mxGeometry x="826" y="590" width="150" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

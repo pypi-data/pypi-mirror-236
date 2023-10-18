@@ -1,0 +1,9 @@
+[MASTER]
+ignore-patterns = .*/,^tests_*
+
+[FORMAT]
+max-line-length = 10000
+
+[MESSAGES CONTROL]
+# Ignore warnings about trailing whitespaces
+disable = C0303
