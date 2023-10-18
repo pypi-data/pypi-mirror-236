@@ -1,0 +1,21 @@
+[project]
+name = "hello-qkrtnqls1216"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "parksubeen", email = "qkrtnqls991216@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
