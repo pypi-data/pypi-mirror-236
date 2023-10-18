@@ -1,0 +1,21 @@
+[project]
+name = "hello-felictte1963"
+version = "0.1.0"
+description = "Docker First Deployment"
+authors = [
+    { name = "Felicette1963", email = "xorudlee4869@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
