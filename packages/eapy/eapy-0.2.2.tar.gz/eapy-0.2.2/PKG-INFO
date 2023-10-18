@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: eapy
+Version: 0.2.2
+Summary: Evolutionary Algorithm for Python
+Home-page: https://gitlab.com/otter4200/eapy
+License: MIT
+Author: Dennis Otter
+Author-email: dennis.john.otter@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: ray
+Project-URL: Repository, https://gitlab.com/otter4200/eapy
+Description-Content-Type: text/markdown
+
+# eapy
+
+Evolutionary Algorithm for Python.
+
+eapy is stable and fully functional, though is still under development. Documentation will be written, for now please see the examples folder and optimisation_example.py/.ipynb for an example of how to use the package.

@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "eapy"
+version = "0.2.2"
+description = "Evolutionary Algorithm for Python"
+license = "MIT"
+authors = ["Dennis Otter <dennis.john.otter@gmail.com>"]
+readme = "README.md"
+repository = "https://gitlab.com/otter4200/eapy"
+
+[tool.poetry.dependencies]
+python = ">=3.9"
+numpy = "*"
+ray = "*"
+matplotlib = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+ipykernel = "*"
+notebook = "*"
+black = "*"
+numba = "*" # If poetry doesn't work, just pip install numba or llvmlite
+scipy = "*"
+
+[build-system]
+requires = ["poetry_core>=1.6.1"]
+build-backend = "poetry.core.masonry.api"
