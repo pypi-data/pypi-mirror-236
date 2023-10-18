@@ -1,0 +1,10 @@
+sixel/__about__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+sixel/__init__.py,sha256=qcxMB8s0Gnq11_-iC8iLadg4V7gChEkSxaR0I9HkT4M,6345
+sixel/cellsize.py,sha256=-wCvw5iThqXzv6kH8Ue6Wg3RHTlW4P39snMuwAR6oKs,1387
+sixel/converter.py,sha256=WJ4MKNw6U_qiJ6AZVOS51Lc2HFD-m5FIaOaM_n1k4VA,9620
+sixel/sixel.py,sha256=em8kJmCxFzRvczY5-dXW8jCBJlSJ0Narjfwzc1B0xOA,2618
+sixel-0.2.0.dist-info/METADATA,sha256=UPCv6mjUstGehUXAERHxyhiL5jqUYhDw1qhGD07QQa8,3414
+sixel-0.2.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+sixel-0.2.0.dist-info/entry_points.txt,sha256=R40qVol-3zWzzEgvjf2bhC27ulooanPT8bVOa1Pifyo,41
+sixel-0.2.0.dist-info/licenses/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sixel-0.2.0.dist-info/RECORD,,
