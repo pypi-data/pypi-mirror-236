@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: TelegramBotsCallbackData
+Version: 1.0.1
+Summary: This is a library for storing a lot of information in callback data
+Home-page: https://github.com/Wintreist/TelegramBotsCallbackData
+Author: Wintreist
+Author-email: wintreist1811@gmail.com
+Project-URL: GitHub, https://github.com/Wintreist
+Keywords: Telegram Callback
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# TelegramBotsCallbackData
+
+[EN]This library was created to facilitate working with callback data from inline buttons in Telegram.
+
+[RU]Р­С‚Р° Р±РёР±Р»РёРѕС‚РµРєР° Р±С‹Р»Р° СЃРѕР·РґР°РЅР° РґР»СЏ РѕР±Р»РµРіС‡РµРЅРёСЏ СЂР°Р±РѕС‚С‹ СЃ callback data Сѓ inline РєРЅРѕРїРѕРє РІ РўРµР»РµРіСЂР°РјРјРµ.
+
+# How its work? / РљР°Рє СЌС‚Рѕ СЂР°Р±РѕС‚Р°РµС‚?
+
+```python
+from TelegramBotsCallbackData import CallbackData
+
+callback_data = CallbackData()
+
+# Create Callback Data
+...
+button = InlineKeyboardButton(
+  text="Text",
+  callback_data=callback_data.new({
+    # Any object that can be pickled
+  }))
+...
+
+# Restore Callback Data
+...
+data = callback_data.restore(CallbackQuery.data)
+...
+```

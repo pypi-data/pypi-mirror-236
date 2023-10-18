@@ -1,0 +1,8 @@
+README.md
+setup.py
+TelegramBotsCallbackData/__init__.py
+TelegramBotsCallbackData/main.py
+TelegramBotsCallbackData.egg-info/PKG-INFO
+TelegramBotsCallbackData.egg-info/SOURCES.txt
+TelegramBotsCallbackData.egg-info/dependency_links.txt
+TelegramBotsCallbackData.egg-info/top_level.txt
