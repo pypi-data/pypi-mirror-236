@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: aiearth-engine
+Version: 3.1.5
+Summary: AIEarth Engine Python SDK Engine
+Home-page: https://engine-aiearth.aliyun.com/
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: aie-ipyleaflet
+Requires-Dist: jinja2 (~=3.1.2)
+Requires-Dist: black
+Requires-Dist: oss2 (~=2.18.0)
+Requires-Dist: matplotlib
+Requires-Dist: bqplot
+Requires-Dist: pyyaml (~=6.0)
+Requires-Dist: pystac-client
+Requires-Dist: pandas (~=2.0.2)
+Requires-Dist: cryptography (==38.0.1)
+Requires-Dist: aiearth-core
+Requires-Dist: traitlets (~=5.9.0)
+Requires-Dist: requests (~=2.31.0)
+Requires-Dist: urllib3 (~=2.0.3)
+Requires-Dist: tqdm (~=4.65.0)
+Requires-Dist: numpy (~=1.24.3)
+Requires-Dist: astunparse (~=1.6.3)
+Requires-Dist: setuptools (~=66.0.0)
+Requires-Dist: protobuf (==4.23.3)
+Requires-Dist: aie-sdk (>=3.0.3)
+Requires-Dist: filelock (==3.12.4)
+
+AIEarth Engine Python SDK
+
+Visit the [AIEarth main page](https://engine-aiearth.aliyun.com/)
+for more information.
+    
+# Quickstart
+
+[快速入门](https://engine-aiearth.aliyun.com/docs/page/guide?d=c2989d)
