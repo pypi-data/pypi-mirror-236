@@ -1,0 +1,6 @@
+setup.py
+scicrypt.egg-info/PKG-INFO
+scicrypt.egg-info/SOURCES.txt
+scicrypt.egg-info/dependency_links.txt
+scicrypt.egg-info/requires.txt
+scicrypt.egg-info/top_level.txt
