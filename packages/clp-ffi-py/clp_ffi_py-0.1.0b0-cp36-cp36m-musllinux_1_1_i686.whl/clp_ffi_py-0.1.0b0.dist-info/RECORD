@@ -1,0 +1,10 @@
+clp_ffi_py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clp_ffi_py/wildcard_query.py,sha256=qMTmpZcXiJpMDebnJA4aYNZKpKYRPMugSa94BoGf9UQ,1458
+clp_ffi_py/utils.py,sha256=p9qLuWov0S7QpdW_M_A0aw9td92begiVcIhtMdMrWOI,1151
+clp_ffi_py/ir/native.cpython-36m-i386-linux-gnu.so,sha256=hhNJU5MeaGjkZDeKjs1-bRXMW_uWxufww3fcXvaYibs,12936429
+clp_ffi_py-0.1.0b0.dist-info/METADATA,sha256=--NNoZUgSgL4ObD3RFfieoZBC-rhvzvhqWkaWFzFG9c,154
+clp_ffi_py-0.1.0b0.dist-info/top_level.txt,sha256=oJlQf7Hnz9l2Yum2B9WNNVFDMdgnuqibAtxChyZJtc8,11
+clp_ffi_py-0.1.0b0.dist-info/RECORD,,
+clp_ffi_py-0.1.0b0.dist-info/WHEEL,sha256=vKL5TyPvBaqrVS_wrd1wwVcCEkHcF1Y5mT8I1AQaxRA,110
+clp_ffi_py.libs/libstdc++-8baf04f9.so.6.0.28,sha256=yrzOxg1heyJ9Y-43YCLLn04Cpl_A68FN0D2Q1iBTMcY,2428961
+clp_ffi_py.libs/libgcc_s-8b50eaaa.so.1,sha256=WXj_FYQE1MDIyb-nN8siUALdxit6NHma0p9UxemQV8o,101649
