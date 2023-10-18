@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scicrypt
+Version: 0.4
+Summary: Scientific Cryptography
+Home-page: https://github.com/Mdslauddin/scicrypt-main
+Download-URL: https://pypi.org/project/scicrypt/0.2/
+Author: Mdslauddin
+Author-email: mdslauddin285@gmail.com
+License: MIT
+Keywords: Machine Learning,Math,Python,cryptography
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+
+# crypto-main
+CryptographyAlgorithms
+
+
