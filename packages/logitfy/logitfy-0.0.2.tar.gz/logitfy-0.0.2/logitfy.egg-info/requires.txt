@@ -1,0 +1,3 @@
+fastapi
+gitaudit>=0.14.12
+humps
