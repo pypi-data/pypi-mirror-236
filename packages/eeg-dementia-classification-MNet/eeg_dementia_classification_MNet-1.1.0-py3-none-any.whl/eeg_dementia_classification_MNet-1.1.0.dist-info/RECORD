@@ -1,0 +1,11 @@
+eeg_dementia_classification_MNet/MNet_1000.py,sha256=jAfE8khxGJkuhGozJtsDDKdR2_qkwbOR9FMmTX8KX3Q,1244
+eeg_dementia_classification_MNet/_EnsembleMNet_1000.py,sha256=SlgOBgR5qpUu3CZt2wKkIKb4RcQl3hvoW2D6xXmt6dg,1488
+eeg_dementia_classification_MNet/_SingleMNet_1000.py,sha256=RHxmxqFvfpotwONa6OVu-mmZB9B6Y8UYWmEcXFxYEZk,4337
+eeg_dementia_classification_MNet/__init__.py,sha256=2m_2UMd9UBxQSh_aS43kNBBSSbOeLYeowkN8IioQUH0,389
+eeg_dementia_classification_MNet/example.py,sha256=MumN-eS-9NQDK9WGjdXd7e0q96uCMrFNTfT0_9PkPQ4,492
+eeg_dementia_classification_MNet/utils.py,sha256=7ucwnNJY96tbq5mzwiIWhMhEvrkv0zBymtYhmUWq_5E,489
+eeg_dementia_classification_MNet-1.1.0.dist-info/LICENSE,sha256=DZ38dvi939PbPYScG5BTtPu3G2fbMmD0ZTHdRns42WI,1072
+eeg_dementia_classification_MNet-1.1.0.dist-info/METADATA,sha256=Glcsg0qeBgy3n3Gd5TDYlBEh-putkw1oIHPpqpw9zdw,2064
+eeg_dementia_classification_MNet-1.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+eeg_dementia_classification_MNet-1.1.0.dist-info/top_level.txt,sha256=SlQe7feIoCVFgQkSp104up_PDUC0-r-FHuSS_UsDUPc,33
+eeg_dementia_classification_MNet-1.1.0.dist-info/RECORD,,
