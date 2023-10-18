@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/pgparagraph/__init__.py
+src/pgparagraph/_modifiers.py
+src/pgparagraph/_pgparagraph.py
+src/pgparagraph/_richtext.py
+src/pgparagraph.egg-info/PKG-INFO
+src/pgparagraph.egg-info/SOURCES.txt
+src/pgparagraph.egg-info/dependency_links.txt
+src/pgparagraph.egg-info/top_level.txt
+tests/test.py

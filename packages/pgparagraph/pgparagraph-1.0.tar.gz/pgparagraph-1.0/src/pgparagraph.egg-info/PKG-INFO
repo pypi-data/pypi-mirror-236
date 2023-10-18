@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pgparagraph
+Version: 1.0
+Summary: Pygame paragraph renderer with modifiers and rich text parsing
+Author-email: Damus666 <macchia.cuordileone@gmail.com>
+Project-URL: homepage, https://github.com/Damus666/PgParagraph
+Project-URL: bugtracker, https://github.com/Damus666/PgParagraph/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pgparagraph 1.0
+
+Pygame easy to use paragraph renderer with modifiers and rich text parsing
+
+## Installation & Usage
+
+Install the module from PyPI like so:
+```
+pip install pgparagraph
+```
+
+Check tests/test.py for usage information
+
+## Contents
+
+![Contents Image](contents.png)
