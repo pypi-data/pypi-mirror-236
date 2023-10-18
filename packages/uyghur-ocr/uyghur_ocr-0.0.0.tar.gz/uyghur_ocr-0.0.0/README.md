@@ -1,0 +1,2 @@
+# uyghur-ocr
+uyghur ocr
