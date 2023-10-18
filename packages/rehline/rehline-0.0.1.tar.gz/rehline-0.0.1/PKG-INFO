@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: rehline
+Version: 0.0.1
+Summary: Regularized Composite ReLU-ReHU Loss Minimization with Linear Computation and Linear Convergence
+Home-page: https://github.com/softmin/ReHLine-python
+Author: ['Ben Dai', 'Yixuan Qiu']
+Author-email: bendai@cuhk.edu.hk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
+
+UNKNOWN
+
