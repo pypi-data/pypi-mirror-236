@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: rehydra-joblib-launcher
+Version: 1.3.0
+Summary: Joblib Launcher for Rehydra apps
+Home-page: https://github.com/facebookresearch/rehydra/
+Author: Grigory Yaremenko, Anton Bolychev, Georgiy Malaniya, Pavel Osinenko
+Author-email: p.osinenko@yandex.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+
+# Rehydra Joblib Launcher
+Provides a [`Joblib.Parallel`](https://joblib.readthedocs.io/en/latest/parallel.html) based Rehydra Launcher supporting parallel execution.
+
+See [website](https://rehydra.cc/docs/plugins/joblib_launcher) for more information
+
+

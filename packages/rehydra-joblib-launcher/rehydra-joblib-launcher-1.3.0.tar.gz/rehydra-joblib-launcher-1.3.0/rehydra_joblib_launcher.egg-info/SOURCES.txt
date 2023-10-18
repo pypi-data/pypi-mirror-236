@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+rehydra_joblib_launcher.egg-info/PKG-INFO
+rehydra_joblib_launcher.egg-info/SOURCES.txt
+rehydra_joblib_launcher.egg-info/dependency_links.txt
+rehydra_joblib_launcher.egg-info/requires.txt
+rehydra_joblib_launcher.egg-info/top_level.txt
+rehydra_plugins/rehydra_joblib_launcher/__init__.py
+rehydra_plugins/rehydra_joblib_launcher/_core.py
+rehydra_plugins/rehydra_joblib_launcher/config.py
+rehydra_plugins/rehydra_joblib_launcher/joblib_launcher.py
+rehydra_plugins/rehydra_joblib_launcher/py.typed
+tests/test_joblib_launcher.py
