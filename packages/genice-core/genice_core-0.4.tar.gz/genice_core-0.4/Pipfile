@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+networkx = "*"
+scikit-learn = "*"
+
+[dev-packages]
+build = "*"
+jinja2 = "*"
+toml = "*"
+genice2 = "*"
+pdoc3 = "*"
+
+[requires]
+python_version = "3.11"
