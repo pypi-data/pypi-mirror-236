@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: zhmiscellany
+Version: 0.2.2
+Summary: A collection of useful/interesting python libraries made by zh.
+Home-page: https://github.com/zen-ham/zhmiscellany
+Author: zh
+Author-email: imnotgivingmyemailjustaddmeondiscordmydiscordisz_h_@zh.com
+Project-URL: Bug Tracker, https://github.com/zen-ham/zhmiscellany/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+~~-think of a name~~\
+~~-get github working~~\
+~~-work out what functions are wanted and add them to their respective files~~\
+~~-make an init file and make sure it works~~\
+~~-get all that on github with a readme file and a setup.cfg etc~~\
+~~-build wheel~~\
+-create pypi account and get token\
+-get twine\
+-upload to testpypi\
+-test it\
+-upload to pypi
