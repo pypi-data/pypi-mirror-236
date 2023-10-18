@@ -1,0 +1,12 @@
+genice_core/.DS_Store,sha256=EpoFdvBzzctIzyJiKmjF2QiSY904YmSaMVAu6jkb-D4,6148
+genice_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genice_core/coder.py,sha256=GFj8BWuTetdQpTOtwD6wwffYuu8rqkCYSWXssPFAPcQ,472
+genice_core/dipole.py,sha256=Jq6roFccaDYOH7JE5KJYww8lkQ6Rl-LKfP12gaMqaQI,2824
+genice_core/geometry.py,sha256=OM3qQlWRNRLtUFDyHmWAMMq5cZm4u1hHuG4lEjT3nOU,5212
+genice_core/gromacs.py,sha256=ujPNhktJsTDIA32aTk2PN7gSJOJH6q91bvgtWJ2TVp8,711
+genice_core/topology.py,sha256=0y1XNEOg7iRtXVMa5-Cz2KYQ_PV-vHLnBmg4cfnO9DA,4505
+genice_core/water.py,sha256=iINyrV7kMiNOaRZRuFsyiEacEO8f5ODLt7OviYCLmDs,4321
+genice_core-0.1.1.dist-info/METADATA,sha256=gYxhExTTg5KLSmfSlAx4hKrVYNddJX9q-x90sUENGmI,2529
+genice_core-0.1.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+genice_core-0.1.1.dist-info/licenses/LICENSE,sha256=XSAXeu-v1hTT32PFDrNvL1UZnjTZbeDzAWv9KaQrBQg,1075
+genice_core-0.1.1.dist-info/RECORD,,
