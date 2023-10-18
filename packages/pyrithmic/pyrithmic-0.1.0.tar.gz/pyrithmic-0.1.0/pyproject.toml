@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pyrithmic"
+version = "0.1.0"
+description = "A lightweight python wrapper for Rithmic's C++ API"
+authors = ["Daniel Bond <daniel.bond01@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
