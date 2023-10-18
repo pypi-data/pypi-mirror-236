@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: investec-python
+Version: 0.1.4a0
+Summary: A Python wrapper for the Investec Banking API
+Author-Email: Rameez Khan <rameezkhan.sa@gmail.com>
+License: MIT
+Requires-Python: >=3.11
+Requires-Dist: requests>=2.31.0
+Requires-Dist: pydantic>=2.4.2
+Description-Content-Type: text/markdown
+
+# investec-python
+> A Python wrapper for the Investec Banking API
+---
+> [!WARNING]
+> This is not ready for day-to-day use yet. Use with caution.
+---
+
+🛣️ [Project Roadmap](https://github.com/users/rameezk/projects/1/views/1?filterQuery=repo%3A%22rameezk%2Finvestec-python%22)
+
+📘 [Documentation](./docs/index.md)
