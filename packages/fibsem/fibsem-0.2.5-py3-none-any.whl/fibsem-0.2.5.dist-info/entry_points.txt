@@ -1,0 +1,3 @@
+[console_scripts]
+fibsem_label = fibsem.ui.FibsemLabellingUI:main
+fibsem_ui = fibsem.ui.FibsemUI:main
