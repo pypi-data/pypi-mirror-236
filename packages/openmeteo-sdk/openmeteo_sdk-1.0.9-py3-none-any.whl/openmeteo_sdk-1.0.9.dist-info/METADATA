@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: openmeteo_sdk
+Version: 1.0.9
+Summary: Open-Meteo Python SDK
+Project-URL: Documentation, https://github.com/open-meteo/sdk/tree/main#readme
+Project-URL: Source, https://github.com/open-meteo/sdk
+Project-URL: Tracker, https://github.com/open-meteo/sdk/issues
+Author-email: Patrick Zippenfenig <info@open-meteo.com>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8.1
+Requires-Dist: flatbuffers>=23.0.0
+Provides-Extra: spark
+Requires-Dist: pyspark>=3.0.0; extra == 'spark'
+Provides-Extra: test
+Requires-Dist: bandit[toml]==1.7.5; extra == 'test'
+Requires-Dist: black==23.9.1; extra == 'test'
+Requires-Dist: check-manifest==0.49; extra == 'test'
+Requires-Dist: flake8; extra == 'test'
+Requires-Dist: flake8-bugbear==23.9.16; extra == 'test'
+Requires-Dist: flake8-docstrings; extra == 'test'
+Requires-Dist: flake8-formatter-junit-xml; extra == 'test'
+Requires-Dist: flake8-pyproject; extra == 'test'
+Requires-Dist: pre-commit==3.5.0; extra == 'test'
+Requires-Dist: pylint-junit; extra == 'test'
+Requires-Dist: pylint==3.0.1; extra == 'test'
+Requires-Dist: pytest-asyncio; extra == 'test'
+Requires-Dist: pytest-cov==4.1.0; extra == 'test'
+Requires-Dist: pytest-github-actions-annotate-failures; extra == 'test'
+Requires-Dist: pytest-mock<3.11.2; extra == 'test'
+Requires-Dist: pytest-runner; extra == 'test'
+Requires-Dist: pytest==7.4.2; extra == 'test'
+Requires-Dist: shellcheck-py==0.9.0.6; extra == 'test'
+Description-Content-Type: text/markdown
+
+# Open-Meteo SDK Schema Files
+
+The Open-Meteo weather API uses FlatBuffers to encode API responses efficiently. The compiled schema files for various programming languages can be found in this repository.
+
+The FlatBuffers schema definition can be found in the [./flatbuffers](./flatbuffers) directory. Only non-breaking changes are accepted. Binary compatibility is ensured. Every change will be announced in new release following semantic versioning.
+
+The compiled schema files do not contain any code to perform HTTP calls. They are intent to be used by developers to build client libraries.
+
+More information on how to use the compiled schema files can be found in the directories for each programming language
+- [Swift](./swift/)
+- [Python](./python/)
+- [TypeScript / JavaScript](./ts/)
+
+### Compile FlaBuffers Schema
+
+```bash
+flatc --swift -o swift/Sources/OpenMeteoSdk/ flatbuffers/*.fbs
+flatc --python --python-typing -o python/ flatbuffers/*.fbs
+
+cp -r flatbuffers/ flatbuffers_no_namespace/
+find flatbuffers_no_namespace -type f -exec sed -i '' -e "s/namespace\ openmeteo_sdk;//" {} \;
+flatc --ts -o ts/ flatbuffers_no_namespace/*.fbs
+rm -R flatbuffers_no_namespace
+```
+
+
+
+# License
+MIT
