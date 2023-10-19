@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: bodhilib
+Version: 0.1.13
+Summary: An Open Source, Plugin Architecture based, Pythonic and Composable LLM Library
+License: MIT
+Author: Amir Nagri
+Author-email: amir.nagri@proton.me
+Requires-Python: >=3.8.1,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: pluggy (>=1.2.0,<2.0.0)
+Requires-Dist: pydantic (>=1,<2)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Description-Content-Type: text/markdown
+
+# bodhilib core
+
+bodhilib core only defines the models and interfaces for interacting with LLM components.
+
+It does not contain any implementation. This way, this package is much more stable, less frequent changes and releases than other plugin packages in this mono-repo.
+
