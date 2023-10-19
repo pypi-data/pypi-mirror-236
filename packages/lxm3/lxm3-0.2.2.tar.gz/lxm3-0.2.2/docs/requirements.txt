@@ -1,0 +1,4 @@
+# For building documentation
+Sphinx
+myst-parser
+sphinx_nameko_theme

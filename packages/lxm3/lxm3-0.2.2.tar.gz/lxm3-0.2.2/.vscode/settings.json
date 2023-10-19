@@ -1,0 +1,19 @@
+{
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": true
+        }
+    },
+    "ruff.path": [
+        "/home/yicheng/.local/share/hatch/env/virtual/lxm3/AUtoaCfk/lint/bin/ruff"
+    ],
+    "files.watcherExclude": {
+        "**/.venv/**": true,
+    },
+    "python.analysis.typeCheckingMode": "basic",
+    "editor.rulers": [
+        70
+    ],
+}

@@ -1,0 +1,36 @@
+project = ""
+[local]
+[local.storage]
+staging = ".cache/lxm"
+
+[[clusters]]
+name = "cs"
+server = "beaker.cs.ucl.ac.uk"
+user = "yicheluo"
+
+[clusters.storage]
+staging = "/home/yicheluo/lxm3-staging"
+
+[[clusters]]
+name = "myriad"
+server = "myriad.rc.ucl.ac.uk"
+user = "ucaby36"
+
+[clusters.storage]
+staging = "/scratch/scratch/ucaby36/lxm3-staging"
+
+[[clusters]]
+name = "local_slurm"
+
+[clusters.storage]
+staging = ".cache/lxm"
+
+[[clusters]]
+name = "ttic"
+server = "slurm.ttic.edu"
+user = "yicheng"
+proxycommand = "ssh -W slurm.ttic.edu:22 yicheng@ssh.ttic.edu"
+ssh_private_key = "~/.ssh/id_ecdsa_ttic"
+
+[clusters.storage]
+staging = "/home-nfs/yicheng/lxm3-staging"
