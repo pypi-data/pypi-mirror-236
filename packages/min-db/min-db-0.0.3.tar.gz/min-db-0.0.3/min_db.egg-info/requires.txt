@@ -1,0 +1,3 @@
+pydantic
+oracledb
+mysql-connector-python
