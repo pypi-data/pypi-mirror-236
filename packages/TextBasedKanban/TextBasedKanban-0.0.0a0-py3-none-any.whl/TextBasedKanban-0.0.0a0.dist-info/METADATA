@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: TextBasedKanban
+Version: 0.0.0a0
+Summary: Vaguely git-flavored text-based Kanban board management.
+Author-email: AbyxDev <ken@abyx.dev>
+Project-URL: Homepage, https://github.com/Kenny2github/TextBasedKanban
+Project-URL: Bug Tracker, https://github.com/Kenny2github/TextBasedKanban/issues
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PyYAML
+
+# TextBasedKanban
+Vaguely git-flavored text-based kanban board management.
