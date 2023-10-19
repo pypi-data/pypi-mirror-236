@@ -1,0 +1,17 @@
+loguru
+pydantic
+frozendict
+async_lru
+
+[fastapi]
+pydantic-settings
+fastapi
+uvicorn
+filelock
+python-multipart
+
+[kops]
+kubernetes
+kubernetes_asyncio
+kopf
+aiocache
