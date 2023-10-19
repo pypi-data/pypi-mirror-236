@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+parallel_augustus/__init__.py
+parallel_augustus/checks.py
+parallel_augustus/cli.py
+parallel_augustus/pipeline.py
+parallel_augustus.egg-info/PKG-INFO
+parallel_augustus.egg-info/SOURCES.txt
+parallel_augustus.egg-info/dependency_links.txt
+parallel_augustus.egg-info/entry_points.txt
+parallel_augustus.egg-info/requires.txt
+parallel_augustus.egg-info/top_level.txt
