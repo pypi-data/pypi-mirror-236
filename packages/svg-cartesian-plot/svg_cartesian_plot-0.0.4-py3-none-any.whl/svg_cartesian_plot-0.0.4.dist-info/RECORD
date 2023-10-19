@@ -1,0 +1,11 @@
+svg_cartesian_plot/__init__.py,sha256=uvppkKShcw75-CzokX8v3oFuVVnY8x1_rAKOlOVFaBI,263
+svg_cartesian_plot/base.py,sha256=c4HIP6NqmMNQmz6ryz4J3xCOVSi63AE3pRxsVNni92Y,2008
+svg_cartesian_plot/optics.py,sha256=6Vv8BSHJSziTTGUzCFRpU0HkFHtUX-gqQS_fv9WtS-s,9644
+svg_cartesian_plot/shapes.py,sha256=x4F_7Yk3pSy8Bi2MDoqJUO4XaIMi027bgvWfb26n1tw,1433
+svg_cartesian_plot/svgcartesian.py,sha256=7yknyVScKo-ELp0TGIGonsVAiJuaeeAy2b-_Gzy5qqw,3860
+svg_cartesian_plot/version.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+svg_cartesian_plot-0.0.4.dist-info/LICENSE,sha256=jMXfPdLQ_eQHWOyjlYNIBWlg-sriXOXebumaB7375w4,1079
+svg_cartesian_plot-0.0.4.dist-info/METADATA,sha256=TK1PL9URUdugh5lLtnUmON0t2pgXlLbvi3YbIqYIy1E,1807
+svg_cartesian_plot-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+svg_cartesian_plot-0.0.4.dist-info/top_level.txt,sha256=WDZo4I5UdrEM_raplPL_W87BuHJpEtF2Z94vxKYAUH4,19
+svg_cartesian_plot-0.0.4.dist-info/RECORD,,
