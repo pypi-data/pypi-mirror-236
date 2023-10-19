@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "vxquant"
+version = "20231018"
+description = "python 量化常用工具箱"
+license = "MIT"
+authors = ["vex1023 <vex1023@qq.com>"]
+homepage = "https://gitee.com/vxquant/vxqtools"
+keywords = ["quant", "tools"]
+readme = "README.md"
+
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+packages = [
+    { include = "vxquant" },
+]
+
+[tool.poetry.scripts]
+vxrun = 'vxquant.__main__:main'
+
+[tool.poetry.dependencies]
+python = "^3.8"
+vxutils = "*"
+httpx = "*"
+gmtrade = "*"
+pandas = "*"
+pytdx = "*"
+tqdm = "*"
+paho-mqtt = "*"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "*"
+pylint = "*"
+twine = "*"
+black = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
