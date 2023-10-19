@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pg-common
+Version: 1.0.10
+Summary: python game: common lib
+Author: baozilaji@gmail.com
+Requires-Python: >=3.5
+Requires-Dist: pycrypto (==2.6.1)
+Requires-Dist: pydantic (==1.10.11)
+Requires-Dist: sshtunnel (==0.4.0)
+Requires-Dist: redis (>=4.6.0)
+Requires-Dist: prettytable (==3.9.0)
+
