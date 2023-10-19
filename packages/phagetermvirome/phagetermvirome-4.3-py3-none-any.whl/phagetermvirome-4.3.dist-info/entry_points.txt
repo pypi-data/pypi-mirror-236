@@ -1,0 +1,3 @@
+[console_scripts]
+phageterm=phagetermvirome.PhageTerm:main
+

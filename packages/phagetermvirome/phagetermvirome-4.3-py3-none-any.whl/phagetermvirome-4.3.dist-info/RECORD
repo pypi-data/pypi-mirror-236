@@ -1,0 +1,16 @@
+phagetermvirome/IData_handling.py,sha256=oHZGQxk9IbybAp56KhEbyEwU55-h-v5b1x0ny9aYs3E,11226
+phagetermvirome/PhageTerm.py,sha256=2yINFnF55OAh4VR4QEnuH3uZtUzA4hQvKAnt1hwOAAE,15143
+phagetermvirome/SeqStats.py,sha256=9ONChO7nk2hzyi3ce2sXIdu3EJsTmMw6a88My1PaaoQ,3140
+phagetermvirome/__init__.py,sha256=10_w7o2juYBrGMh32_KbveULW9jk2tejpyUAD-uC6PE,4
+phagetermvirome/common_readsCoverage_processing.py,sha256=I-egx-vMCC4mUCZceyAWId-EShFM3pvDI6qjNsWBoeg,32951
+phagetermvirome/debug_utils.py,sha256=7C24OSdBC5Mz8XGmSCeJdEZXJ6yvIdyrXg3uoizGGWc,3319
+phagetermvirome/functions_PhageTerm.py,sha256=v6mcXIy0PLKVZ2gJl1TB2UFaKoqRvFdzZ9UEVtvQxRg,85000
+phagetermvirome/generate_report.py,sha256=8JWDHpKZTtD_7bdbdgW9ImFkdfKUVdpFEM0De_su2H0,9358
+phagetermvirome/main_utils.py,sha256=UMtUyL1v_Ktobne-mEcHPY0PcTB_ueUP6R2o5Bco8BI,26985
+phagetermvirome/readsCoverage_res.py,sha256=UZKztWuu0-5IsrQA_TUAf-olRkaZenymWlu8AB30KBc,14433
+phagetermvirome/seq_processing.py,sha256=LQnYugo8tXCaXpYTdcfANjcYKZlSOf0wUWTdwbR6ywc,5274
+phagetermvirome/utilities.py,sha256=ul1yllZgdorhAIqiUc40YF5PJjGjhYf0DqCEsgl8bno,3603
+phagetermvirome-4.3.dist-info/METADATA,sha256=7WnX5WYPHxb4Q3Jb0BErfPQuzHfpKKd8pJ7I2yIpkSQ,13180
+phagetermvirome-4.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+phagetermvirome-4.3.dist-info/entry_points.txt,sha256=ugOo1xyfwLS7vO1GNmsWvTLgaLrogffkSuNmPJBvQ2k,60
+phagetermvirome-4.3.dist-info/RECORD,,
