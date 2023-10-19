@@ -1,0 +1,11 @@
+sangmyung_univ_auth/__init__.py,sha256=mmnCEkeDp1g0xvD7TOz6W9hJw7gVeX1c5SE02aYNPVk,46
+sangmyung_univ_auth/auth.py,sha256=v6aL3lrio_DK-M193LBa5mUOIK5PAbzTO84vY1IidmQ,488
+sangmyung_univ_auth/authenticate.py,sha256=3MvYN-znJAY9TieCBaxeFQMtsJCUDKpbNbd6ZTn_LwI,782
+sangmyung_univ_auth/response.py,sha256=6nwd5XpDcFU9PjBBDALLrWe4rltE-b3KBX3nQ4T7xAA,879
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_auth.py,sha256=N9n7yrdIRtN6cr2esRMCHenBzUKv6DpkORs48zjV_qg,502
+sangmyung_univ_auth-0.0.1.dist-info/LICENSE,sha256=nB9dSKEPBDyeDSyE_AORB2kzQ9FRNzN2hM9ByNH5onw,1064
+sangmyung_univ_auth-0.0.1.dist-info/METADATA,sha256=Aod7_uYfMfKR4fz7tzo9HEAsF70C5NriDNakuZ8Krr8,2393
+sangmyung_univ_auth-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sangmyung_univ_auth-0.0.1.dist-info/top_level.txt,sha256=YVa4bZ9a2F7yQG_N_e2QlO5dNpTVFBUmR7l3hrMJYWI,26
+sangmyung_univ_auth-0.0.1.dist-info/RECORD,,
