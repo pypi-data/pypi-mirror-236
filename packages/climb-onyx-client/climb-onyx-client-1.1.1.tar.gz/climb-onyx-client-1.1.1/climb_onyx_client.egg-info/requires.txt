@@ -1,0 +1,2 @@
+requests
+django-query-tools>=0.3.3
