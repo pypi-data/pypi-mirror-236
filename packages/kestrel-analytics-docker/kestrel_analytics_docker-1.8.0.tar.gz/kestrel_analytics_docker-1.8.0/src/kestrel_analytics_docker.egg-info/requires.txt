@@ -1,0 +1,2 @@
+kestrel_core>=1.8.0
+docker>=6.1.3
