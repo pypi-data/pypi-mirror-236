@@ -1,0 +1,9 @@
+setup.py
+intra42/IntraAPI.py
+intra42/PrivateIntraAPIScraper.py
+intra42/__init__.py
+intra42.egg-info/PKG-INFO
+intra42.egg-info/SOURCES.txt
+intra42.egg-info/dependency_links.txt
+intra42.egg-info/requires.txt
+intra42.egg-info/top_level.txt

@@ -1,0 +1,170 @@
+import requests
+from bs4 import BeautifulSoup, ResultSet
+import urllib.parse
+import typing
+import time
+
+T = typing.TypeVar('T')
+
+KEYCLOAK = "https://profile.intra.42.fr/users/auth/keycloak_student"
+SEND_FORM = "https://auth.42.fr/auth/realms/students-42/login-actions/authenticate"
+
+class PrivateToken(typing.TypedDict):
+	cookie:str
+	expires:int
+
+class PrivateSSHKey(typing.TypedDict):
+	key_name:str
+	key_signature:str
+	vogsphere:str
+	synced:bool
+
+class PrivateIntraError(Exception):
+	pass
+
+class PrivateIntraAPI:
+	def __init__(self):
+		self.token = PrivateToken()
+		self.session = requests.session()
+
+	def get_token(self, login:str, password:str):
+
+		response = self.session.get(KEYCLOAK)
+		connect_page = response.content
+
+		try:
+			soup = BeautifulSoup(connect_page, "html.parser")
+			form = soup.find("form", {"id": "kc-form-login"})
+			send_forms_params = {t[0]:t[1] for t in urllib.parse.parse_qsl(form["action"].split('?')[1])}
+		except (IndexError) as e:
+			raise PrivateIntraError(e)
+
+		data = urllib.parse.urlencode({"username":login, "password":password})
+		x = self.session.post(SEND_FORM,
+			data=data,
+			headers=self.session.headers.update({
+				"Content-Type" : "application/x-www-form-urlencoded",
+				"Content-Length":f"{len(data)}"
+				}),
+			params=send_forms_params)
+
+		cookie = x.cookies.get("_intra_42_session_production")
+		for c in x.cookies:
+			if c.name == '_intra_42_session_production':
+				self.token["expires"] = c.expires
+		self.token["cookie"] = cookie
+
+	def make_request(self, f: typing.Callable[..., T], *args, **kwargs) -> T:
+
+		if time.time() >= self.token["expires"]:
+			print("PrivateToken seems to be expired...")
+
+		if ("cookies" in kwargs):
+			kwargs["cookies"].update({"_intra_42_session_production":self.token["cookie"]})
+		else:
+			kwargs["cookies"] = {"_intra_42_session_production":self.token["cookie"]}
+		return (f(*args, **kwargs))
+
+	def get_all_notifs(self) -> typing.List[ResultSet[typing.Any]]:
+		x = self.make_request(requests.get, "https://profile.intra.42.fr/notifications")
+		soup = BeautifulSoup(x.content, "html.parser")
+
+		pagination = soup.find("ul", {"class":"pagination"})
+		last_page = pagination.find("li", {"class":"last"}).find("a")["href"]
+		query = urllib.parse.parse_qs(urllib.parse.urlsplit("https://profile.intra.42.fr" + last_page).query)
+		last_page = int(query["page"][0])
+
+		all_notifs = soup.find_all("a", {"class":"notification-link"})
+		for i in range(1, last_page + 1):
+			x = self.make_request(requests.get, "https://profile.intra.42.fr/notifications", params={"page":i})
+			soup = BeautifulSoup(x.content, "html.parser")
+			all_notifs += soup.find_all("a", {"class":"notification-link"})
+		return all_notifs
+
+
+	def __gitlab_get_necessary_data(self):
+		GITLAB_URL = "https://profile.intra.42.fr/gitlab_users"
+		x = self.make_request(requests.get, GITLAB_URL)
+		soup = BeautifulSoup(x.content, "html.parser")
+		auth = soup.find("meta", {"name":"csrf-token"})["content"]
+		try:
+			id = soup.find("a", {"class":"btn btn-danger btn-xs","rel":"nofollow","data-method":"delete"})["href"].split('/')[-1]
+		except:
+			id = None
+		return (auth, id)
+
+	def get_ssh_key(self) -> PrivateSSHKey:
+
+		GITLAB_URL = "https://profile.intra.42.fr/gitlab_users"
+		if (id is None):
+			return (None)
+		x = self.make_request(requests.get, GITLAB_URL)
+		soup = BeautifulSoup(x.content, "html.parser")
+
+		try:
+			name = soup.find("a", {"href":"#keymodal-365993"}).string.split("'")[1].strip()
+		except Exception as e:
+			print("Couldn't get name :", e)
+			name = None
+
+		tree_p = soup.find("div", {"id":"keymodal-365993"})
+		try:
+			tree_values = tree_p.find("table").find_all("tr")[1].find_all("th", {"style":'font-weight: normal;'})
+		except Exception as e:
+			print("Couldn't get tree values :", e)
+			return {"key_name":name, "key_signature":None, "vogsphere":None, "synced":None}
+
+		try:
+			signature = tree_values[0].string.strip()
+		except Exception as e:
+			print("Couldn't get 'signature' :", e)
+			signature = None
+
+		try:
+			vogsphere = tree_values[1].contents[0].strip()
+		except Exception as e:
+			print("Couldn't get 'vogsphere' :", e)
+			vogsphere = None
+
+		try:
+			synced = "text-success" in tree_values[1].find("span")["class"]
+		except Exception as e:
+			print("Couldn't get 'synced' :", e)
+			synced = None
+
+		return {"key_name":name, "key_signature":signature, "vogsphere":vogsphere, "synced":synced}
+
+
+	def delete_ssh_key(self) -> requests.Response | None:
+		GITLAB_URL = "https://profile.intra.42.fr/gitlab_users"
+		DEL_PAYLOAD = {}
+
+		auth_token, id = self.__gitlab_get_necessary_data()
+
+		if (id is None):
+			return (None)
+
+		DEL_PAYLOAD["_method"] = "delete"
+		DEL_PAYLOAD["authenticity_token"] = auth_token
+		x = self.make_request(requests.post, GITLAB_URL+f"/{id}", data=DEL_PAYLOAD)
+		return (x)
+
+	def set_ssh_key(self, new_key:str, key_name="autogenerated"):
+		"""
+		Requires you to have no current ssh key.
+		"""
+		GITLAB_URL = "https://profile.intra.42.fr/gitlab_users"
+		SET_PAYLOAD = {}
+
+		auth_token, id = self.__gitlab_get_necessary_data()
+
+		SET_PAYLOAD["authenticity_token"] = auth_token
+		SET_PAYLOAD["gitlab_user[public_key]"] = new_key
+		SET_PAYLOAD["gitlab_user[name]"] = key_name
+		x = self.make_request(requests.post, GITLAB_URL, data=SET_PAYLOAD)
+		return (x)
+
+	def get_clusters_map(self) -> requests.Response:
+		return self.make_request(requests.get, "https://meta.intra.42.fr/clusters")
+
+
