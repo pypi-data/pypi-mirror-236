@@ -1,0 +1,5 @@
+from min_db.connector import Connector
+__all__ = [
+    "Connector"
+]
+__version__ = '0.0.3'
