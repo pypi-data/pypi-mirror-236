@@ -1,0 +1,20 @@
+sjvisualizer/AreaChart.py,sha256=aKuYP3fObK9BYVLy0bRZ2lXMceRBAvP_hp1X1UoC0ww,11190
+sjvisualizer/Axis.py,sha256=uamPchfukNfjuAhREYPKNjrC3qV-to_iesZz1hYYPRo,11357
+sjvisualizer/BarRace.py,sha256=cAWgHTiGuhZCKMzYE5wnV4tvdy2deegVdKjwZcFT27Y,27343
+sjvisualizer/Canvas.py,sha256=dajbGLi6kNe-h3B8msH4Gfzko5Id6JOFUp2YYe6hh68,17752
+sjvisualizer/DataHandler.py,sha256=To4vriOuz5n03e5vhgEZLcRb_I-fj840RaTpudFP6tY,5764
+sjvisualizer/Date.py,sha256=V_dc1YkTy-3coXXQP8INLAPgQAZBYdSd2ZJZi9PQOU8,4516
+sjvisualizer/Legend.py,sha256=pBTkx6j-rRY81WuFT7cBGDYpDSBLfFph8SRlc1s0s2w,9203
+sjvisualizer/LineChart.py,sha256=YnY675CbewGnTrxZowt1la_eUMtx6XI9ajkvu2tWC_A,14694
+sjvisualizer/PieRace.py,sha256=hUPwToVqo8I53DM5ggKf0aWnrIQ4OflY9AYM_N8hrO8,21297
+sjvisualizer/StackedBarChart.py,sha256=5C7D0URuKIPGccxuxcv15vGeXBhC_Kw5I0O5wBFG8vg,15424
+sjvisualizer/StaticImage.py,sha256=CL3FfxB9jFodUlR4US9wiy8YYnHuOTiJwdmXHIvTJGs,3094
+sjvisualizer/StaticText.py,sha256=hngrrFgJnzNTZc6CGXAKbRLpatkVGoHg4med1DPcLDU,4737
+sjvisualizer/Total.py,sha256=03TzUQm1lEo-F-EOL12pZkksGHY_aEmVp8ldxHvvZlI,3070
+sjvisualizer/__init__.py,sha256=1KPxX5_7Lq8Czl76CELb7m9Crl33gFRHsnWk6Aytujg,379
+sjvisualizer/assets/Made with SJvisualzer.png,sha256=Y4F1bbvTPvp04vm0-vbPerkYFsvhMu3mraufrwg3JxY,264637
+sjvisualizer-0.0.12.dist-info/LICENSE,sha256=KAfD2XNwf2yYdRBt6P8rEXgUhPkgFpmUo8E6-iPvpg8,1090
+sjvisualizer-0.0.12.dist-info/METADATA,sha256=4p2WbC5Pr4cZe1E3TMmGtLF_swXt0kcRXwyU2Ogxnz0,3801
+sjvisualizer-0.0.12.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+sjvisualizer-0.0.12.dist-info/top_level.txt,sha256=j1koak1fnQdqGUuXIniC64CXQt1TdR01rWTuJVaGz5I,13
+sjvisualizer-0.0.12.dist-info/RECORD,,
