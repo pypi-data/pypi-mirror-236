@@ -1,0 +1,44 @@
+site_name: clo
+repo_url: https://github.com/LeShaunJ/clo
+edit_uri: ""
+theme:
+  name: material
+  palette:
+    primary: 714B67
+  favicon: assets/images/favicon.png
+  features:
+    - toc.follow
+    - navigation.tabs
+    - navigation.sections
+
+markdown_extensions:
+  - mdx_truly_sane_lists
+  - toc:
+      toc_depth: 4
+
+plugins:
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_section_style: spacy
+            group_by_category: yes
+            inherited_members: True
+            members_order: source
+            separate_signature: yes
+            show_object_full_path: yes
+            show_root_heading: yes
+            show_source: no
+            show_submodules: yes
+
+  - search
+
+nav:
+  - Home: index.md
+  - Changelog: changelog.md
+  - Contributing: contributing.md
+  - Reference: reference.md
+  - License: license.md
+
+watch:
+  - src/clo
