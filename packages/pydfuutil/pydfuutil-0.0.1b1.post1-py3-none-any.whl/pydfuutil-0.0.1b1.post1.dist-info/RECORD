@@ -1,0 +1,16 @@
+pydfuutil/__init__.py,sha256=sNe516TK333pSa-04yF6NkQSUQxCymIRBh-MqvyHXPo,112
+pydfuutil/dfu.py,sha256=_PgyAKCpHJ4RfFXq69q37tZEE3GVcNtHoHKLxFdXZEs,14434
+pydfuutil/dfu_file.py,sha256=b7YR0kMVrhdafeGYWfQi8cNpn2dSze6yW5B1muuVxGk,691
+pydfuutil/dfu_load.py,sha256=pQYWVX0m_XiUeUhVDJsZAdNwqUWm6eqpkx_uY8xhPYk,3636
+pydfuutil/dfuse.py,sha256=tVnn_CHjL9z4c6eyihmqjECHrHilacX_-bF8UljJ7kI,1099
+pydfuutil/dfuse_mem.py,sha256=r4D3TGX0s1X4rvGH7RNE1poMRL0n3uLCjFeTAw6X9Ok,1142
+pydfuutil/lmdfu.py,sha256=-wDHp78vPYYWpzJsX--F3Nx83RDyrspf748wFECFgAc,944
+pydfuutil/portable.py,sha256=UI92qnXJwtbs9ONJ27v63H_SnjJJlEopGLTHzOr-2a0,170
+pydfuutil/quirks.py,sha256=K1kDdRXU9MexXu4PhB_HI6vEcVd0koOiAatOLQxdBQg,781
+pydfuutil/suffix.py,sha256=atpUuTLl7hTe0Eg_eoWVaFfnfCNNuwFOQf4vIZ8K02I,1224
+pydfuutil/usb_dfu.py,sha256=s_EtkIp-H4X4yuW1NVUZQ413Vyku7Vf_LQQnb9eY0RI,1557
+pydfuutil-0.0.1b1.post1.dist-info/LICENSE,sha256=pWgb-bBdsU2Gd2kwAXxketnm5W_2u8_fIeWEgojfrxs,7651
+pydfuutil-0.0.1b1.post1.dist-info/METADATA,sha256=OOZbhIQs48XnlHpTxOYE8bdVtKKRn1qt_-FWp1Qmi-I,12093
+pydfuutil-0.0.1b1.post1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pydfuutil-0.0.1b1.post1.dist-info/top_level.txt,sha256=jhj2JUakoVsOXct8F1sFqCmau1SmFu2tOitoBcMfsEQ,10
+pydfuutil-0.0.1b1.post1.dist-info/RECORD,,
