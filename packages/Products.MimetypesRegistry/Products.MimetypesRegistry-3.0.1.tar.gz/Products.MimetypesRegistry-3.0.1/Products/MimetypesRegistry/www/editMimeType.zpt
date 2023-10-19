@@ -1,0 +1,101 @@
+<h1 tal:replace="structure here/manage_page_header|nothing">Header</h1>
+<h2 tal:define="
+      manage_tabs_message options/manage_tabs_message | nothing;
+    "
+    tal:replace="structure here/manage_tabs"
+>Tabs</h2>
+
+
+<form action=""
+      method="POST"
+      tal:define="
+        mt python:here.lookup(request.form.get('mt_name'))[0];
+      "
+      tal:attributes="
+        action string:${here/absolute_url}/manage_editMimeType;
+      "
+>
+
+  <div class="form-title"
+       i18n:translate=""
+  >
+    Edit mime type
+    <b tal:content="mt/name"></b>.
+  </div>
+
+  <div class="error"
+       tal:define="
+         status python:request.get('portal_status', '');
+       "
+       tal:condition="status"
+       tal:content="status"
+  ></div>
+
+  <input name="name"
+         type="hidden"
+         tal:attributes="
+           value request/mt_name;
+         "
+  />
+
+  <table width="50%">
+    <tr>
+      <td i18n:translate="">Name</td>
+      <td>
+        <input name="new_name"
+               tal:attributes="
+                 value python:request.get('new_name', mt.name());
+               "
+        />
+      </td>
+    </tr><tr>
+      <td i18n:translate="">Icon path</td>
+      <td>
+        <input name="icon_path"
+               tal:attributes="
+                 value python:request.get('icon_path', mt.icon_path);
+               "
+        />
+      </td>
+    </tr><tr>
+      <td i18n:translate="">Binary?
+      </td>
+      <td>
+        <input name="binary"
+               type="checkbox"
+               tal:attributes="
+                 checked python:request.get('binary', mt.binary) and 1 or 0;
+               "
+        />
+      </td>
+    </tr><tr>
+      <td i18n:translate="">Mime-types
+      </td>
+      <td>
+        <textarea name="mimetypes"
+                  tal:content="python:request.get('mimetypes', '\n'.join(mt.mimetypes))"
+        ></textarea>
+      </td>
+    </tr><tr>
+      <td i18n:translate="">Extensions
+      </td>
+      <td>
+        <textarea name="extensions"
+                  tal:content="python:request.get('extensions', '\n'.join(mt.extensions))"
+        ></textarea>
+      </td>
+    </tr><tr>
+      <td i18n:translate="">Globs
+      </td>
+      <td>
+        <textarea name="globs"
+                  tal:content="python:request.get('globs', '\n'.join(mt.globs))"
+        ></textarea>
+      </td>
+    </tr>
+  </table>
+
+  <input type="submit" />
+</form>
+
+<tal:footer tal:replace="structure here/manage_page_footer|nothing">footer</tal:footer>
