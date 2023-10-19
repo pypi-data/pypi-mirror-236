@@ -1,0 +1,3 @@
+[console_scripts]
+squeeze-ctl=squeeze_ctl:cli_main
+
