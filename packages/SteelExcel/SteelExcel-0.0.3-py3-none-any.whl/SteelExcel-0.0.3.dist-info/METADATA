@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: SteelExcel
+Version: 0.0.3
+Summary: A small package for class 2
+Home-page: https://github.com/Hifive55555/
+Author: Hifive
+Author-email: 2019912635@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: xlwings (>=0.3)
+
+# MetalExcel v0.0.3
+### 这个项目最初是为class2的课代表*ZJC*量身定做的
+### v0.0.1 有很多 **bug**，*指导员*敦促我做了这个 v0.0.2 版
+### v0.0.3 更名为 *“精钢表格”*
+- 作者：Hifive
+
+---
+## 新版内容
+- **0.0.3** 修复了大量bug，重做了main文件，并使其对象化
+
+---
+## 使用方法
+- 安装 class2excel
+
+```shell
+pip install SteelExcel
+```
+- 一个实例（将包含一堆名字字符串列入到excel文档中）
+```python
+from SteelExcel import Excel
+
+e = Excel()
+e.content = "张学友、紫禁城、物理系"
+e.reform_by_separator("、")
+e.add_column()
+```
+-另一个实例（给那个课代表看的）
+```python
+from SteelExcel import Excel
+
+e = Excel()
+e.content = """4. 会很难 155454922240
+5. 蔡影片13345609316
+6. 郑名片"""
+e.reform_by_jielong()
+e.run()
+```
+
