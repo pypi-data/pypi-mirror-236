@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "rabbit-todo"
+version = "0.1.0"
+description = "The Simple Todo Tool in CLI"
+authors = ["Mayuge <mayuge.studio.public@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+colorama = "^0.4.6"
+
+[tool.poetry.scripts]
+rabi = "rabbit_todo.entry_point:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
