@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: devboard
+Version: 0.0.0
+Summary: A development dashboard for your projects. Available to sponsors only.
+Author-email: Timothée Mazzucotelli <pawamoy@pm.me>
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# devboard
+
+A development dashboard for your projects.
+
+This project is currently available to [sponsors](https://github.com/sponsors/pawamoy) only.
+See https://pawamoy.github.io/devboard/insiders.

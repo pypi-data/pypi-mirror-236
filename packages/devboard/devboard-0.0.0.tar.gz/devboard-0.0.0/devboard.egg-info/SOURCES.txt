@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+devboard.egg-info/PKG-INFO
+devboard.egg-info/SOURCES.txt
+devboard.egg-info/dependency_links.txt
+devboard.egg-info/top_level.txt
