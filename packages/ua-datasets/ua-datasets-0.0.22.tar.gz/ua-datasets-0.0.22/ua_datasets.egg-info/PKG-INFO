@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: ua-datasets
+Version: 0.0.22
+Summary: A collection of ukrainian language datasets
+Home-page: https://github.com/fido-ai/ua-datasets
+Author: FIdo AI
+Author-email: FIdo AI <ivanyuk.skulskiy@ukma.edu.ua>
+License: MIT License
+        
+        Copyright (c) 2021 Bogdan Ivanyuk-Skulskiy, Anton Zaliznyi, Oleksand Reshetar, Oleksiy Protsyk, Bohdan Romanchuk, Vladyslav Shpihanovych 
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/fido-ai/ua-datasets
+Keywords: ua-datasets
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: Ukrainian
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+<p align="center">
+  <img src="https://github.com/fido-ai/ua-datasets/blob/main/imgs/NaUKMA.png" width="350" title="hover text" alt="NaUKMA FIdo Logo">
+</p>
+
+<h1 align="center">
+    ua_datasets
+</h1>
+
+<p align="center">
+    <a href="https://img.shields.io/badge/Version-0.0.2-orange.svg"><img src="https://img.shields.io/badge/Version-0.0.5-green.svg" alt="Version"/></a>
+    <a href="https://img.shields.io/badge/License-Apache%202.0-blue.svg"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/></a>
+</p>
+<p align="center">
+    <a href="https://www.repostatus.org/badges/0.1.0/active.svg"><img src="https://www.repostatus.org/badges/0.1.0/active.svg" alt="Repo Status"/></a>
+</p>
+
+[__UA-datasets__](https://fido-ai.github.io/ua-datasets/) is a collection of Ukrainian language datasets. Our aim is to build a benchmark for research related to 
+natural language processing in Ukrainian.
+
+This library is provided by FIdo.ai (machine learning research division of the non-profit student's organization
+[FIdo](https://www.facebook.com/fido.naukma/), National University of Kyiv-Mohyla Academy) for research purposes.
+
+## Installation
+The library can be installed from PyPi in your virtual environment (e.g. venv, conda env)
+```python
+pip install ua_datasets
+```
+
+## Latest Updates
+
+05.07.22 - Added HuggingFace API for Q&A (UA-SQuAD) and Text Classification (UA-News) datasets
+
+## Available Datasets
+- Question Answering (UA-SQuAD)
+- Text Classification (UA-News)
+- Token Classification (Mova Institute Part of Speech)
+
+
+## Contribution
+In case you are willing to contribute (update any part of the library, add your dataset) do not hesitate to connect through [GitHub Issue](https://github.com/fido-ai/ua-datasets/issues/new/choose). Thanks in advance for your contribution! 
+Let's make the Ukrainian language even greater!
+
+## Citation
+```bibtex
+@software{ua_datasets_2021,
+  author = {Ivanyuk-Skulskiy, Bogdan and Zaliznyi, Anton and Reshetar, Oleksand and Protsyk, Oleksiy and Romanchuk, Bohdan and Shpihanovych, Vladyslav},
+  month = oct,
+  title = {ua_datasets: a collection of Ukrainian language datasets},
+  url = {https://github.com/fido-ai/ua-datasets},
+  version = {0.0.1},
+  year = {2021}
+}
+```
