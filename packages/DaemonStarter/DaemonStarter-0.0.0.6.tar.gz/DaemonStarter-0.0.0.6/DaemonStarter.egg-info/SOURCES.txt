@@ -1,0 +1,11 @@
+MANIFEST.in
+readme.md
+requirements.txt
+setup.cfg
+setup.py
+DaemonStarter.egg-info/PKG-INFO
+DaemonStarter.egg-info/SOURCES.txt
+DaemonStarter.egg-info/dependency_links.txt
+DaemonStarter.egg-info/top_level.txt
+daemon_starter/__init__.py
+daemon_starter/daemon.py
