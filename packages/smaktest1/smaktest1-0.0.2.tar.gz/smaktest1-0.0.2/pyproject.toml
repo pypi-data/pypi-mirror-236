@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smaktest1"
+version = "0.0.2"
+authors = [
+  { name="Sam Webb", email="samwebb@slac.stanford.edu" },
+]
+description = "A MicroAnalysis Toolkit."
+readme = "README.md"
+requires-python = ">=3.7, <3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  'pyimzml',
+  'PyQt5',
+  'opusFC',                   
+  'Pmw >= 2.1.1',
+  'numpy',
+  'pandas',
+  'PyWavelets',
+  'scikit-image',
+  'scikit-learn',
+  'fabio',
+  'spectral',
+  'pymca',
+  'imreg_dft',
+  'pyscreenshot',
+  'imutils',
+  'opencv-python',
+  'sortedcontainers',
+  'dill',
+  'pymatreader',
+  'statsmodels'
+
+]
+[project.urls]
+"Homepage" = "https://github.com/samwebb10/SMAK3.0"
+"Bug Tracker" = "https://github.com/samwebb10/SMAK3.0/issues"
