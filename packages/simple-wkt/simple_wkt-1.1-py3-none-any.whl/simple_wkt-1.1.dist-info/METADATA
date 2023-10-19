@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: simple-wkt
+Version: 1.1
+Requires-Dist: pytest
+Requires-Dist: shapely
+Requires-Dist: pydantic
+
