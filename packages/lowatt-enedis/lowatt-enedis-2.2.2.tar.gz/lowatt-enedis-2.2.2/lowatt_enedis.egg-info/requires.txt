@@ -1,0 +1,17 @@
+python-dateutil
+certifi
+suds-py3
+
+[test]
+pytest
+pytest-cov
+lxml
+freezegun
+pyyaml
+
+[typing]
+mypy
+types-python-dateutil
+types-setuptools
+types-freezegun
+types-PyYAML
