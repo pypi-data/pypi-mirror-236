@@ -1,0 +1,9 @@
+sgdrf/__init__.py,sha256=Z_aLuHhr4DALPgKkTX3E8myZj7VQpAnWGpt6HYnqubs,2212
+sgdrf/cli.py,sha256=8dhBqHBWn3YwSb7emoTHiLWmrHs1kFIMyGb5rp1Gyxc,937
+sgdrf/model.py,sha256=0UDAE6hEthrFU9DCAgVdKQfx0hVGLvMQSMQZZiUltRo,12273
+sgdrf/sgdrf_config.py,sha256=YU4Q9yRuSosYD7skyjEuP4KA7FBvzetlTbgGqSZ7rSE,2157
+sgdrf/subsample.py,sha256=mdAto1yhAsc3QoL8fJnqfvO31DTPWwYkd3iSUBtiakQ,6246
+sgdrf-0.2.0.dist-info/LICENSE.txt,sha256=7diEBHpbqQokEHLOWMillda0_8Zz-IvBIRffA19rz9M,1059
+sgdrf-0.2.0.dist-info/WHEEL,sha256=bbU3AyvhQ312rVm7zzRQjs6axI1UYWC3nmFA2E6FFSI,88
+sgdrf-0.2.0.dist-info/METADATA,sha256=f0svE3kiAFTdwQsx-lahGhmDeV15ltxHU0FIO-5LP_E,3496
+sgdrf-0.2.0.dist-info/RECORD,,
