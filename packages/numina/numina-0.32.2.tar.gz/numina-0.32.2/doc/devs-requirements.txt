@@ -1,0 +1,7 @@
+Cython
+numpy
+scipy
+astropy
+PyYaml
+matplotlib
+sphinx==5.3
