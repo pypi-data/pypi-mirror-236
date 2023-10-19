@@ -1,0 +1,11 @@
+setup.py
+src/__init__.py
+src/temp.py
+test_packaging_name.egg-info/PKG-INFO
+test_packaging_name.egg-info/SOURCES.txt
+test_packaging_name.egg-info/dependency_links.txt
+test_packaging_name.egg-info/not-zip-safe
+test_packaging_name.egg-info/requires.txt
+test_packaging_name.egg-info/top_level.txt
+utils/__init__.py
+utils/fileparse.py

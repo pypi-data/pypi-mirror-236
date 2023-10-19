@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: test-packaging-name
+Version: 0.0.1
+Summary: test_packaing_discription
+Home-page: https://github.com/woorej/packing_test.git
+Author: tester
+Author-email: wjk5848@gmail.com
+Keywords: packaging_test,wjj
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
