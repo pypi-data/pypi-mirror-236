@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: zhmiscellany
+Version: 0.5.7
+Summary: A collection of useful/interesting python libraries made by zh.
+Home-page: https://discord.gg/ThBBAuueVJ
+Author: zh
+Author-email: imnotgivingmyemailjustaddmeondiscordmydiscordisz_h_@zh.com
+Project-URL: Bug Tracker, https://github.com/zen-ham/zhmiscellany/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pycryptodome >=0
+Requires-Dist: pywin32 >=0
+Requires-Dist: Requests >=0
+
+`zhmiscellany`,
+===============
+a collection of miscellany functions/classes/modules made by me (zh).
+---------------
+
+The git repository for this project can be found at https://github.com/zen-ham/zhmiscellany
+
+If you want to reach out, you may add my on discord at @z_h_.
+
+Documentation and usage examples for all included code, and A LOT more functions and libraries coming soon.
+
+:)
