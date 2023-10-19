@@ -1,0 +1,3 @@
+[console_scripts]
+hello-baamsoo-pic = hello_baamsoo.my:pic
+
