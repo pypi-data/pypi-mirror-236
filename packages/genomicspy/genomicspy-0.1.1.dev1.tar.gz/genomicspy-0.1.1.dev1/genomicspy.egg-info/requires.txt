@@ -1,0 +1,6 @@
+numpy
+pandas
+regex
+vcfpy
+biopython
+oddsnends
