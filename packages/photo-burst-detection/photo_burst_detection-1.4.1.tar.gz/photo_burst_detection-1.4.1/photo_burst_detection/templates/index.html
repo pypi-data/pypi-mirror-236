@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+
+{% block title %}Overview{% endblock %}
+
+{% block menu %}
+{% endblock %}
+
+{% block content %}
+<div class="container">
+
+    <div class="card">
+        <div class="card-header">
+            {{ path }} <a href="/change-root"><i class="bi bi-folder-symlink"></i></a>
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">{{ directories|length }} directories</li>
+            <li class="list-group-item">{{ directories | sum(attribute='size') }} files</li>
+        </ul>
+    </div>
+
+    <ul>
+        {% for dir in directories %}
+        <li>
+            <a href="/burst{{ dir.link }}?seconds={{ request.args.get('seconds', '2') }}" class="dropdown-item">
+                {{ dir.link }}
+                <span class="badge {{ 'text-bg-secondary' if dir.bursts < 5 else 'text-bg-primary' }}">
+                    {{ dir.bursts }} / {{ dir.size }}
+                </span>
+            </a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
+
