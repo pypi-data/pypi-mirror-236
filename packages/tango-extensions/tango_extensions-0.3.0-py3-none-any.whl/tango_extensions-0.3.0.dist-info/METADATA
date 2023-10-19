@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: tango-extensions
+Version: 0.3.0
+Summary: Extension modules for allenai/tango (ai2-tango)
+Author: Shunsuke KITADA
+Author-email: shunsuke.kitada.0831@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: albumentations
+Provides-Extra: all
+Provides-Extra: diffusers
+Requires-Dist: accelerate (>=0.22.0,<0.23.0) ; extra == "diffusers" or extra == "all"
+Requires-Dist: ai2-tango[datasets,examples,torch,transformers,wandb] (>=1.0.0)
+Requires-Dist: albumentations (>=1.0.0) ; extra == "albumentations" or extra == "all"
+Requires-Dist: diffusers (>=0.18.0) ; extra == "diffusers" or extra == "all"
+Requires-Dist: torch (>=1.9.0,!=2.0.1) ; extra == "diffusers" or extra == "all"
+Requires-Dist: torchvision (>=0.9.0) ; extra == "albumentations" or extra == "all"
+Requires-Dist: urllib3 (<2)
+Description-Content-Type: text/markdown
+
+# tango-extensions
+
+[![CI](https://github.com/shunk031/tango-extensions/actions/workflows/ci.yaml/badge.svg)](https://github.com/shunk031/tango-extensions/actions/workflows/ci.yaml)
+[![Release](https://github.com/shunk031/tango-extensions/actions/workflows/deploy_and_release.yaml/badge.svg)](https://github.com/shunk031/tango-extensions/actions/workflows/deploy_and_release.yaml)
+![Python](https://img.shields.io/badge/python-3.8%20%7C%203.9%20%7C%203.10-blue?logo=python)
+[![PyPI](https://img.shields.io/pypi/v/tango-extensions.svg)](https://pypi.python.org/pypi/tango-extensions)
+
+Extension modules for [`allenai/tango` (ai-2tango)](https://github.com/allenai/tango).
+
+## Installation
+
+tango-extensions is available [on PyPI](https://pypi.org/project/tango-extensions/). Just run:
+
+```shell
+pip install tango-extensions
+```
+
+To install with a specific integration, such as [`diffusers`](https://github.com/huggingface/diffusers) for example, run:
+
+```shell
+pip install 'tango-extensions[diffusers]'
+pip install 'tango-extensions[albumentations]'
+
+# install both diffusers and albumentations extensions
+pip install 'tango-extensions[diffusers, albumentations]'
+```
+
+To install with all integrations, run:
+
+```shell
+pip install 'tango-extensions[all]'
+```
+
+## Available Extensions
+
+| Extension name | Integration path | Details |
+|----------------|------------------|---------|
+| [`huggingface/diffusers`](https://github.com/huggingface/diffusers) | [tango_ext/integrations/diffusers](https://github.com/shunk031/tango-extensions/tree/master/tango_ext/integrations/diffusers) | [diffusers/format](https://github.com/shunk031/tango-extensions/blob/master/tango_ext/integrations/diffusers/format.py) |
+| [`albumentations-team/albumentations`](https://github.com/albumentations-team/albumentations) | [tango_ext/integrations/albumentations](https://github.com/shunk031/tango-extensions/tree/master/tango_ext/integrations/albumentations) |
+
+## Acknowledgements
+
+- allenai/tango: Organize your experiments into discrete steps that can be cached and reused throughout the lifetime of your research project. https://github.com/allenai/tango 
+
+## License
+
+MIT
+

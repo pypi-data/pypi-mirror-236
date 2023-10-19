@@ -1,0 +1,15 @@
+tango_ext/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tango_ext/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tango_ext/common/testing/__init__.py,sha256=igapy1JOpT2f3w-WxKUxwSyc0yZQUMmhsbbPO4t8a1g,1126
+tango_ext/integrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tango_ext/integrations/albumentations/__init__.py,sha256=yrfecEeooKin72dIUNwWIRBvxDkFZ8os5C-GUO0xRqs,244
+tango_ext/integrations/albumentations/core/__init__.py,sha256=ffsWwMIjKoD3RyFc8fgk4rTljk28gtKArsTW6DAjnwg,107
+tango_ext/integrations/albumentations/core/composition.py,sha256=RH8ZMvTzYxWWeQXGTzFrHkA6b7HOX-RGc88SquOohgY,3066
+tango_ext/integrations/albumentations/core/utils.py,sha256=FrJfr3cEdMhRp3EzXZwovvUqSlfCR0KRptyHqnvjmfk,1552
+tango_ext/integrations/albumentations/transforms.py,sha256=tOE4fcD03Us75MHSViJ2XnTqQquQUavtdjwrCVAF514,751
+tango_ext/integrations/diffusers/__init__.py,sha256=OKep5IzlQ46uOOxVw8yzVwM80n6mrgRYnD3Co8WoNag,255
+tango_ext/integrations/diffusers/format.py,sha256=ebYwCx_49Vu3jp5ji3xDTsFHautLcFbAHzJ2nqb4D6g,1119
+tango_extensions-0.3.0.dist-info/LICENSE,sha256=z5PxLIsvMP6qO2v2fBDl6nYCgQ9KC0gRthUuFMoui88,1072
+tango_extensions-0.3.0.dist-info/METADATA,sha256=DQ0HxZSWYq06ze4AbG7Q3WNaQAEUPnKB520G3rBuQQ0,3205
+tango_extensions-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+tango_extensions-0.3.0.dist-info/RECORD,,
