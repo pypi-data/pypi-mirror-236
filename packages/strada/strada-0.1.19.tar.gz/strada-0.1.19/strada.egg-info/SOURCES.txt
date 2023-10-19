@@ -1,0 +1,17 @@
+README.md
+setup.py
+strada/__init__.py
+strada/common.py
+strada/google_sheets.py
+strada/hubspot.py
+strada/jira.py
+strada/openai.py
+strada/rest.py
+strada/slack.py
+strada/zendesk.py
+strada/zuora.py
+strada.egg-info/PKG-INFO
+strada.egg-info/SOURCES.txt
+strada.egg-info/dependency_links.txt
+strada.egg-info/requires.txt
+strada.egg-info/top_level.txt
