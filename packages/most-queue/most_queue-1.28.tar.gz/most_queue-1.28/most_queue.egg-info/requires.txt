@@ -1,0 +1,14 @@
+matplotlib
+matplotlib-inline
+numba
+numpy
+pandas
+scipy
+tqdm
+tqdm-stubs
+PyQt5
+qt-material
+PySide2
+networkx
+graphviz
+colorama
