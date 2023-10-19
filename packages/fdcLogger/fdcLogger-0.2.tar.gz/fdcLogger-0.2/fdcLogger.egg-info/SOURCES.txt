@@ -1,0 +1,7 @@
+setup.py
+Main/__init__.py
+Main/logging_config.py
+fdcLogger.egg-info/PKG-INFO
+fdcLogger.egg-info/SOURCES.txt
+fdcLogger.egg-info/dependency_links.txt
+fdcLogger.egg-info/top_level.txt
