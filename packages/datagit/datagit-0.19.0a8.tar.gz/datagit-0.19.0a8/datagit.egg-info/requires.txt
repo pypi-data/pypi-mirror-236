@@ -1,0 +1,4 @@
+pandas
+PyGithub
+click
+GitPython
