@@ -1,0 +1,14 @@
+BL_Python/programming/__init__.py,sha256=YZoDMFgikTmgL5EqRKa4mX-zXFr2c20J7dSZJ4dqSd0,27
+BL_Python/programming/dependency_injection.py,sha256=tV2Q1Apw2GjcRWuR7ApxLrjSQTkK8nL66NznNr-SH28,492
+BL_Python/programming/collections/__init__.py,sha256=eszZJbyoH1qLMrw-aJ4SwCILRs8FZmNdbT9VjgyHI3k,46
+BL_Python/programming/collections/dict.py,sha256=UFUmMsbkLVgaarnKXtpoBVf7kLKo80mhAlhy_Dmb_1U,872
+BL_Python/programming/config/__init__.py,sha256=J4GqXnMnbnIzcQIxkXR6bdQdgvuESZhi4wObVw0Iqks,2096
+BL_Python/programming/patterns/__init__.py,sha256=N5YloslAM1agck5PbUT-MQmEPWlY1wSkLKklepVTxsY,59
+BL_Python/programming/patterns/dependency_injection.py,sha256=7045rbs8rCtpS64eDJOXb9va6dGNNnrSCmEKav6a9Dw,1034
+BL_Python/programming/patterns/singleton.py,sha256=aA2WZxtU5n4VaKQX_M2mtbUcdYgNsGXM6xP0pG3QXSE,2030
+test/unit/test_placeholder.py,sha256=QtbIU69PeHqPH5Wfwpct04Hyh4iG-cwRask4dy0YpdM,143
+BL_Python.programming-0.0.1.dist-info/LICENSE.md,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+BL_Python.programming-0.0.1.dist-info/METADATA,sha256=KkLpOAFll2jgbjCOW48bmlAkPTddoVp5OmbwmGLDMVw,1219
+BL_Python.programming-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+BL_Python.programming-0.0.1.dist-info/top_level.txt,sha256=KMwegjDHCijOOzVHpIoLBo7FvB-whCAUCSOE-Z-o_60,15
+BL_Python.programming-0.0.1.dist-info/RECORD,,
