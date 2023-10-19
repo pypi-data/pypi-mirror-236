@@ -1,0 +1,10 @@
+westac_statistics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+westac_statistics/case_one_gui.py,sha256=zUjQ7RKm4nzJoKMtWxBupBziWXCPWFNEyTa6gNJiZk0,7156
+westac_statistics/corpus_fast_tokenizer.py,sha256=SD_C6kHu11HMlzP8sjlWl7T_5jS-QOzHuDSrKpUmpAA,34765
+westac_statistics/corpus_parser.py,sha256=Q4FsPsvSBrsLB-4HeXKZJm9OC39bBcz0jb1_hpDjmRU,6360
+westac_statistics/metadata_parser.py,sha256=SXqkiFUp1L4FQgEqeRPu0GR3_OxfJoHgPooOy56LZcM,12206
+westac_statistics/tf_idf_calculator.py,sha256=fHCHxsN5IS-NV1ZBMdKINre8H8OoGC__ornGTNuSk4A,10393
+westac_statistics/westac_histogram.py,sha256=aEPr898miZLp3Kq14_S9TTMmr-PyLTgTH827A0L1Xbs,2054
+westac_statistics-0.4.0.dist-info/METADATA,sha256=mx5e581m7Pq01H8CLljDIdzfsFeblnly1yr2JKBq-p8,2381
+westac_statistics-0.4.0.dist-info/WHEEL,sha256=kLuE8m1WYU0Ig0_YEGrXyTtiJvKPpLpDEiChiNyei5Y,88
+westac_statistics-0.4.0.dist-info/RECORD,,
