@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: treadmdr
+Version: 1.0.2
+Summary: RTS
+Home-page: https://github.com/sysucai
+Author: sysucai
+Author-email: 411703730@qq.com
+License: UNKNOWN
+Platform: Any platform -- don't need Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas >=1.0.0
+Requires-Dist: numpy >=1.0.0
+
+UNKNOWN
+
+
