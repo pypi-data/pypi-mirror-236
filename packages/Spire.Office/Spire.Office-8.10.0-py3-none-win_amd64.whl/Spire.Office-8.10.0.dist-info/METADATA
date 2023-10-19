@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: Spire.Office
+Version: 8.10.0
+Summary: A 100% standalone Office Python API for Processing Office Files
+Home-page: https://www.e-iceblue.com
+Author: E-iceblue
+Author-email: sales@e-iceblue.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: Free To Use But Restricted
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Spire.Doc (==11.10.0)
+Requires-Dist: Spire.Presentation (==8.9.0)
+Requires-Dist: Spire.Xls (==13.9.0)
+Requires-Dist: Spire.Pdf (==9.9.0)
+
+# Spire.Office for Python - All-in-One Office Document Processing Library 
+
+[![Foo](https://i.imgur.com/S7qAwuf.png)](https://www.e-iceblue.com/Introduce/office-for-python.html)
+
+[Product Page](https://www.e-iceblue.com/Introduce/office-for-python.html) | [Tutorials](https://www.e-iceblue.com/Tutorials.html) | [Examples](https://github.com/eiceblue) | [Forum](https://www.e-iceblue.com/forum/) | [Customized Demo](https://www.e-iceblue.com/freedemo.html) | [Temporary License](https://www.e-iceblue.com/TemLicense.html)
+
+[Spire.Office for Python](https://www.e-iceblue.com/Introduce/office-for-python.html) provides a complete set of **Python libraries for working with popular Office document formats**. It includes the most recent versions of Spire.Doc for Python, Spire.XLS for Python, Spire.Presentation for Python, and Spire.PDF for Python. 
+
+With Spire.Office for Python, developers can work with **Word (DOC, DOCX)**, **Excel (XLS, XLSX)**, **PowerPoint (PPT, PPTX)**, **PDF**, and a variety of other document formats. The library provides a wide range of features and functionalities to perform tasks like **reading**, **creating**, **editing**, **formatting**, and **converting** documents.
+
+### Spire.Doc for Python
+
+Spire.Doc for Python is a professional [Word Python API](https://www.e-iceblue.com/Introduce/doc-for-python.html) specifically designed for developers to [create](https://www.e-iceblue.com/Tutorials/Python/Spire.Doc-for-Python/Program-Guide/Document-Operation/Python-Create-Read-or-Update-a-Word-Document.html), [read](https://www.e-iceblue.com/Tutorials/Python/Spire.Doc-for-Python/Program-Guide/Text/Python-Extract-Text-and-Images-from-Word-Documents.html), write, [convert](https://www.e-iceblue.com/Tutorials/Python/Spire.Doc-for-Python/Program-Guide/Conversion/Python-Convert-Word-to-PDF.html), and compare Word documents with fast and high-quality performance.
+
+### Spire.XLS for Python
+
+Spire.XLS for Python is a professional [Excel development component](https://www.e-iceblue.com/Introduce/xls-for-python.html) that can be used to [create](https://www.e-iceblue.com/Tutorials/Python/Spire.XLS-for-Python/Program-Guide/Document-Operation/Python-Create-Read-or-Update-Excel-Documents.html), read, [write](https://www.e-iceblue.com/Tutorials/Python/Spire.XLS-for-Python/Program-Guide/Worksheet/Python-Add-Worksheets-to-Excel.html) and [convert](https://www.e-iceblue.com/Tutorials/Python/Spire.XLS-for-Python/Program-Guide/Conversion/Python-Convert-Excel-to-PDF.html) Excel files on any Python platform. Spire.XLS for Python offers object model Excel API for speeding up Excel programming in Python platform - create new Excel documents from template, edit existing Excel documents and convert Excel files.
+
+### Spire.Presentation for Python
+
+Spire.Presentation for Python is a professional [presentation processing API](https://www.e-iceblue.com/Introduce/presentation-for-python.html) that is highly compatible with PowerPoint. It is a completely independent class library that developers can use to [create](https://www.e-iceblue.com/Tutorials/Python/Spire.Presentation-for-Python/Program-Guide/Document-Operation/Python-Add-or-Delete-Slides-in-PowerPoint-Presentations.html), edit, [convert](https://www.e-iceblue.com/Tutorials/Python/Spire.Presentation-for-Python/Program-Guide/Conversion/Python-Convert-PowerPoint-Presentation-to-PDF.html), and save PowerPoint presentations efficiently without installing Microsoft PowerPoint.
+
+### Spire.PDF for Python
+
+Spire.PDF for Python is a professional [PDF development component](https://www.e-iceblue.com/Introduce/pdf-for-python.html) that enables developers to create, [read](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Extract/Read/Python-Extract-Text-and-Images-from-PDF-Documents.html), [edit](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Image/Python-Add-Replace-or-Remove-Images-in-a-PDF-Document.html), [convert](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-Excel.html), and save PDF files in Python programs without depending on any external applications or libraries. This Python PDF class library provides developers with various functions to create PDF files from scratch or process existing PDF documents completely through Python programs.
+
+[Product Page](https://www.e-iceblue.com/Introduce/office-for-python.html) | [Tutorials](https://www.e-iceblue.com/Tutorials.html) | [Examples](https://github.com/eiceblue) | [Forum](https://www.e-iceblue.com/forum/) | [Customized Demo](https://www.e-iceblue.com/freedemo.html) | [Temporary License](https://www.e-iceblue.com/TemLicense.html)
+
