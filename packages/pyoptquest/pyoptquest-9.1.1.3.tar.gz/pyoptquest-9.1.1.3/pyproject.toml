@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "pyoptquest"
+version = "9.1.1.3"
+authors = [
+    { name="OptTek", email="python@opttek.com" },
+]
+description = "A python wrapper around the OptQuest library; see more at https://www.opttek.com/products/optquest/"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "pandas",
+    "pyjnius>=1.4.1",
+]
+
+[project.optional-dependencies]
+examples = [
+    "matplotlib",
+    "shapely",
+]
+
+[project.urls]
+"Homepage" = "https://www.opttek.com/"

@@ -1,0 +1,18 @@
+.classpath
+/bin
+/build
+.gradle
+crystalball_ip.csv
+.idea/*
+/Help/.idea/*
+/Help/tmp/*
+/Help/pub/*
+Help/src/.idea/*
+PortfolioHelp/pub/*
+PortfolioHelp/tmp/*
+*.pyc
+OptQuest.jar
+/OptQuestHelp/*
+/OptQuest Help/*
+.project
+.settings/org.eclipse.jdt.core.prefs
