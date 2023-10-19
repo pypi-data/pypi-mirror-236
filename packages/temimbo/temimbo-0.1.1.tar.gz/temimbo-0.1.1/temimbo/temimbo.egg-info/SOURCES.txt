@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+temimbo/temimbo.egg-info/PKG-INFO
+temimbo/temimbo.egg-info/SOURCES.txt
+temimbo/temimbo.egg-info/dependency_links.txt
+temimbo/temimbo.egg-info/requires.txt
+temimbo/temimbo.egg-info/top_level.txt
