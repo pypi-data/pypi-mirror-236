@@ -1,0 +1,8 @@
+setup.py
+src/sendJhy/__init__.py
+src/sendJhy/sendJhy.py
+src/sendJhy.egg-info/PKG-INFO
+src/sendJhy.egg-info/SOURCES.txt
+src/sendJhy.egg-info/dependency_links.txt
+src/sendJhy.egg-info/not-zip-safe
+src/sendJhy.egg-info/top_level.txt
