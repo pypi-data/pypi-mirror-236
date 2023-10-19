@@ -1,0 +1,145 @@
+<!--
+ Copyright 2018 by Embrapa.  All rights reserved.
+
+ This code is part of the machado distribution and governed by its
+ license. Please see the LICENSE.txt and README.md files that should
+ have been included as part of this package for licensing information.
+-->
+
+{% load machado_extras %}
+
+
+<form action="{% url 'feature_search' %}" method="get" >
+<input type="hidden" name="q" value="{{ query }}">
+
+<h3>Filters</h3>
+
+
+{% if selected_facets or query %}
+<div class="card mb-2">
+    <div class="card-header">
+      <strong>Selected filters</strong>
+    </div>
+	<div class="card-body">
+	{% if query %}
+	  <a title="Remove query" href="?{% remove_query %}">search:{{ query }} <em class="fa fa-times" aria-hidden="true"></em></a><br />
+	{% endif %}
+	{% for facet_field in selected_facets %}
+	  <a title="Remove filter" href="?{% remove_facet_field facet_field %}">
+	  {% if facet_field == "orthology:false" %}
+	  	no orthology <em class="fa fa-times" aria-hidden="true"></em>
+	  {% elif facet_field == "orthology:true" %}
+	  	orthology <em class="fa fa-times" aria-hidden="true"></em>
+	  {% elif facet_field == "coexpression:false" %}
+	  	no coexpression groups <em class="fa fa-times" aria-hidden="true"></em>
+	  {% elif facet_field == "coexpression:true" %}
+	  	coexpression groups <em class="fa fa-times" aria-hidden="true"></em>
+	  {% elif facet_field == "orthologs_coexpression:false" %}
+	  	no coexpression in orthologs <em class="fa fa-times" aria-hidden="true"></em>
+	  {% elif facet_field == "orthologs_coexpression:true" %}
+	  	coexpression in orthologs <em class="fa fa-times" aria-hidden="true"></em>
+	  {% else %}
+        {{ facet_field }} <em class="fa fa-times" aria-hidden="true"></em>
+	  {% endif %}
+	  </a><br />
+	{%endfor%}
+	</div>
+</div>
+{%endif%}
+
+{% for facet in facet_fields_order %}
+{% with facets.fields|get_item:facet as exists %}
+{% if exists %}
+
+<div class="card mb-2">
+    <div class="card-header">
+    {% with facet_fields_desc|get_item:facet as facet_description %}
+    <div class="row">
+        <div class="col">
+            <strong style="cursor: help;" title="{{ facet_description }}">
+            {% if facet == "so_term" %}
+            Feature type
+            {% elif facet == "orthologs_coexpression" %}
+            Orthologous coexpression
+            {% elif facet == "orthologous_group" %}
+            Orthologous group
+            {% elif facet == "coexpression_group" %}
+            Coexpression group
+            {% elif facet == "doi" %}
+            DOI
+            {% else %}
+            {{ facet|capfirst }}
+            {% endif %}
+            </strong>
+			{% if facets.fields|get_count:facet > 4 %}
+			<small>({% if facets.fields|get_count:facet == 100 %}Truncated to {% endif %}{{ facets.fields|get_count:facet }})</small>
+			{% endif %}
+        </div>
+    </div>
+    {% endwith %}
+    </div>
+	<div class="card-body">
+	{% for item in facets.fields|get_item:facet|dictsort:0 %}
+		{% with facet_item=facet|add:":"|add:item.0 %}
+
+		<!-- hide items if there are more than 4 -->
+		{% if forloop.counter <= 4 or facet_item in selected_facets %}
+			<div class="container">
+		{% else %}
+			<div class="container collapse" id="machado-facet-item-{{ facet }}">
+		{% endif %}
+
+		{% if facet == "organism" %}
+			<input type="checkbox" name="selected_facets" id="selected_facets" value="{{ facet }}:{{ item.0 }}" {% if facet_item in selected_facets %}checked{% endif %}>
+			<em>{{ item.0|capfirst }}</em>
+		{% elif facet == "orthology" %}
+			{% if item.0 == 0 %}
+			<input type="checkbox" name="selected_facets" id="selected_facets" value="{{ facet }}:false" {% if "orthology:false" in selected_facets %}checked{% endif %}>
+			no orthology
+			{% else %}
+			<input type="checkbox" name="selected_facets" id="selected_facets" value="{{ facet }}:true" {% if "orthology:true" in selected_facets %}checked{% endif %}>
+			orthology
+			{% endif %}
+		{% elif facet == "coexpression" %}
+			{% if item.0 == 0 %}
+			<input type="checkbox" name="selected_facets" id="selected_facets" value="{{ facet }}:false" {% if "coexpression:false" in selected_facets %}checked{% endif %}>
+			no coexpression groups
+			{% else %}
+			<input type="checkbox" name="selected_facets" id="selected_facets" value="{{ facet }}:true" {% if "coexpression:true" in selected_facets %}checked{% endif %}>
+			coexpression groups
+			{% endif %}
+		{% elif facet == "orthologs_coexpression" %}
+			{% if item.0 == 'false' %}
+			<input type="checkbox" name="selected_facets" id="selected_facets" value="{{ facet }}:{{ item.0 }}" {% if "orthologs_coexpression:false" in selected_facets %}checked{% endif %}>
+			no coexpression
+			{% else %}
+			<input type="checkbox" name="selected_facets" id="selected_facets" value="{{ facet }}:{{ item.0 }}" {% if "orthologs_coexpression:true" in selected_facets %}checked{% endif %}>
+			coexpression
+			{% endif %}
+		{% elif facet == "orthologs_biomaterial" %}
+			<input type="checkbox" name="selected_facets" id="selected_facets" value="{{ facet }}:{{ item.0 }}" {% if facet_item in selected_facets %}checked{% endif %}>
+			{{ item.0|capfirst }}
+		{% else %}
+			<input type="checkbox" name="selected_facets" id="selected_facets" value="{{ facet }}:{{ item.0 }}" {% if facet_item in selected_facets %}checked{% endif %}>
+			{{ item.0 }}
+		{% endif %}
+		{% endwith %}
+        <small>({{ item.1 }})</small><br />
+		</div>
+	{% endfor %}
+	</div>
+	{% if facets.fields|get_count:facet > 4 %}
+		<div class="card-footer text-center py-0">
+			<a role="button" class="collapsed" data-toggle="collapse" href="#machado-facet-item-{{ facet }}"><em class="fas fa-caret-down"></em></a>
+		</div>
+	{% endif %}
+</div>
+{% endif %}
+{% endwith %}
+{% endfor %}
+
+
+<div class="text-right fixed-bottom position-sticky py-2">
+    <button class="btn btn-primary text-right fixed-bottom position-sticky" type="submit">Submit</button>
+</div>
+</form>
