@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nrn-diff
+Version: 0.0.2
+Summary: NEURON object differ. Recursively finds differences between objects in NEURON.
+Author-email: Robin De Schepper <robingilbert.deschepper@unipv.it>
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: BSD License
+Project-URL: Home, https://github.com/dbbs-lab/nrn-diff
+
+# nrn-diff
+
