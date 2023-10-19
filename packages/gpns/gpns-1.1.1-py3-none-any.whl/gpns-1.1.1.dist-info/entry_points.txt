@@ -1,0 +1,2 @@
+[console_scripts]
+gpns = gpns.main:cli
