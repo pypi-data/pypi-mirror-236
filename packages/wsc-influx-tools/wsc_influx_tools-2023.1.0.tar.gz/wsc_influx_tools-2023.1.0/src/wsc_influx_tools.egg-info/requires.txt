@@ -1,0 +1,6 @@
+influxdb3-python
+influxdb-client
+pandas
+pyyaml
+requests
+mergedeep

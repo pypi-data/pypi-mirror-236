@@ -1,0 +1,3 @@
+[console_scripts]
+wsc-influx-get-data = wsc_influx_tools.wsc_influx_get_data:main
+wsc-influx-send-data = wsc_influx_tools.wsc_influx_send_data:main
