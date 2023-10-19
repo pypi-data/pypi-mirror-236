@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: seguid
+Version: 0.0.1
+Summary: Python implementation of SEGUID checksums for biological sequences
+License: MIT
+Author: BjornFJohansson
+Author-email: bjornjobb@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydivsufsort (>=0.0.11,<0.0.12)
+Description-Content-Type: text/markdown
+
+Run tests with pytest:
+
+pip install pytest
+
+to install
+
+in this folder simply giving the command
+
+pytest
+
+without arguments runs the tests.
