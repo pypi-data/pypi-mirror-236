@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: deepncclplugin
+Version: 1.0.0
+Summary: AIACC-NCCL is an AI-Accelerator communication framework for NVIDIA-NCCL. It implements optimized all-reduce, all-gather, reduce, broadcast, reduce-scatter, all-to-all,as well as any send/receive based communication pattern.It has been optimized to achieve high bandwidth on aliyun machines using PCIe, NVLink, NVswitch,as well as networking using InfiniBand Verbs, eRDMA or TCP/IP sockets.
+Home-page: https://help.aliyun.com/document_detail/462422.html?spm=a2c4g.462031.0.0.c5f96b4drcx52F
+Author: Alibaba Cloud
+Author-email: ziqi.yzq@alibaba-inc.com
+License: Copyright (C) Alibaba Group Holding Limited
+Keywords: Distributed,Deep Learning,Communication,NCCL,AIACC
+Platform: UNKNOWN
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+# AIACC-NCCL-PLUGIN
+
+Optimized socket/rdma for inter-GPU communication on Aliyun machines.
+
+## Introduction
+
+AIACC-NCCL-PLUGIN is an AI-Accelerator communication framework plugin for NVIDIA-NCCL.
+It has been optimized to achieve high bandwidth on aliyun machines using InfiniBand Verbs, eRDMA or TCP/IP sockets.
+
+## Install
+
+To install AIACC NCCL PLUGIN on the system, create a package then install it as root as follow two methods:
+
+- method1: rpm/deb (Recommended)
+```sh
+# Centos:
+wget http://mirrors.aliyun.com/aiacc/aiacc-nccl-plugin/aiacc-nccl-plugin-1.1.0.rpm
+rpm -i aiacc-nccl-plugin-1.1.0.rpm
+# Ubuntu:
+wget http://mirrors.aliyun.com/aiacc/aiacc-nccl-plugin/aiacc-nccl-plugin-1.1.0.deb
+dpkg -i aiacc-nccl-plugin-1.1.0.deb
+```
+
+- method2: python-pypi
+```sh
+pip install aiacc_nccl_plugin
+```
+
+## Usage
+
+After install aiacc-nccl-plugin package, you need do nothing to change code!
+
+## Copyright
+
+All source code and accompanying documentation is copyright (c) 2015-2020, NVIDIA CORPORATION. All rights reserved.
+All modifications are copyright (c) 2020-2024, ALIYUN CORPORATION. All rights reserved.
+
+
