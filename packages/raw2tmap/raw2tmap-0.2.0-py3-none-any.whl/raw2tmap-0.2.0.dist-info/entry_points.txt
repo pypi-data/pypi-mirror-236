@@ -1,0 +1,2 @@
+[console_scripts]
+raw2tmap = raw2tmap.__main__:main
