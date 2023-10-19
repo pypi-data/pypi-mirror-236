@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gs_update_utils/__init__.py
+gs_update_utils/main.py
+gs_update_utils.egg-info/PKG-INFO
+gs_update_utils.egg-info/SOURCES.txt
+gs_update_utils.egg-info/dependency_links.txt
+gs_update_utils.egg-info/requires.txt
+gs_update_utils.egg-info/top_level.txt
