@@ -1,0 +1,15 @@
+LICENSE.md
+README.md
+setup.py
+polapy.egg-info/PKG-INFO
+polapy.egg-info/SOURCES.txt
+polapy.egg-info/dependency_links.txt
+polapy.egg-info/requires.txt
+polapy.egg-info/top_level.txt
+polapy/aggregate/__init__.py
+polapy/aggregate/dhont.py
+polapy/competitiveness/__init__.py
+polapy/competitiveness/blais_lago.py
+polapy/competitiveness/laackso_taagepera.py
+polapy/stats/__init__.py
+polapy/stats/quota.py
