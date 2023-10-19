@@ -1,0 +1,10 @@
+coki/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coki/coki-gen-credentials.bat,sha256=pqlONJ_BuGo3rxMFd_Ql_XNdr4KSvpFOXInoh4yoEME,44
+coki/coki.bat,sha256=WHT4NWSb60TLGtoZrl8UzfwjXYITXd5mfKkdY0f61Kw,32
+coki/coki_cli.py,sha256=V1vGePxTruwCAbTSzctrFIiQL0B-Ve1Tss2Srxv_ITk,581
+coki/coki_gen_credentials.py,sha256=s41preadBLup4cTUMdQ9G7zmbc8M8TSNlBu1qeFkJ3I,1248
+coki/funcs.py,sha256=N8ei1vhEJryuWVZCfsTNNBbaTq6ijXaD4SyWKFChODc,5182
+coki-0.1.1.dist-info/METADATA,sha256=ytijrIMnnB_sKVs7czB2nOTRJqaLWRCAFK3aPJ7MHKY,3769
+coki-0.1.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+coki-0.1.1.dist-info/licenses/LICENSE,sha256=c2P8fiWWmY8_wBCbaQhXW_HNj2-i_Jev9r2dFxd_ULs,1038
+coki-0.1.1.dist-info/RECORD,,
