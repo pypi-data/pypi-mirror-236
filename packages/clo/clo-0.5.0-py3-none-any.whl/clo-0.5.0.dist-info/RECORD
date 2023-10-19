@@ -1,0 +1,13 @@
+clo/__init__.py,sha256=5UhzyZJIX8hD_Pxx2O7jwXdbE7goJ8h5-xV_xIJo370,3753
+clo/__main__.py,sha256=OYZYxFzc8L4o6d3e157Csz2hjx6wg0bLo0rh1l-5EKQ,259
+clo/api.py,sha256=34PRLe28Sfzvz0pOSixTejz_8cK-GtvUIGKVmAHh8f8,15383
+clo/input.py,sha256=8Tnj6VMkHknhgkNIQc74owx261JOIoKEHCR9oE4wVSE,40145
+clo/meta.py,sha256=se5iyw-W4xgzvEIN4WWAjp4Og5bGLoL837h6vo5ajzM,859
+clo/output.py,sha256=oAHGaxcA58Spd6GR4vUMwrSIuQAmq82IP7m-_fvHeqc,10095
+clo/types.py,sha256=Excef2_xpCFnwouAtUCL1r26kx75IA1hZyYOezp5v04,3069
+clo-0.5.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+clo-0.5.0.dist-info/METADATA,sha256=0cNcbMRfH2tLMwkV1-eFwSlMoMM22MIQsn5nD9y-ZyY,14047
+clo-0.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+clo-0.5.0.dist-info/entry_points.txt,sha256=t1VuTxObEs7uMWiFf9fCsFz-fQH-D4gMasymekTmV6s,33
+clo-0.5.0.dist-info/top_level.txt,sha256=YOWTaeUEX_ChzcV16YAWkOVwHOeXc3g8LvW6LrWEFv4,4
+clo-0.5.0.dist-info/RECORD,,
