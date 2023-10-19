@@ -1,0 +1,3 @@
+[console_scripts]
+gabber=gabber.client:cli_entrypoint
+
