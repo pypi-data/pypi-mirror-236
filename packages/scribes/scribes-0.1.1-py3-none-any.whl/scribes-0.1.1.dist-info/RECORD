@@ -1,0 +1,15 @@
+scribes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scribes/cli.py,sha256=DOXctoaJkTn793NF9JtfW3ye0PXu2LIJzMfIWG_qns8,7204
+scribes/clone.py,sha256=EKMEXmCYQpqBUv5Kblt6x7rrad-p9aHlBnL4xk_v8rk,3770
+scribes/commands.py,sha256=QfeNxjqL6yl5NX11N54B6uRrnBLYx1fpolwItxVJe_g,5349
+scribes/commit.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scribes/config.py,sha256=ge8iXcrRqY7dekRanWo__EjwM692KEF0ThIQ7FtXW9s,1227
+scribes/executor.py,sha256=4PCwGoddEeE45ZwzJODelk7-z773k75TjZd5SCbdHxw,307
+scribes/pull_request.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scribes/sed.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scribes/utils.py,sha256=YmEQgqJ_EB2rLaoX0rErA68A6NFldDR8jZQBUCr6Uog,287
+scribes-0.1.1.dist-info/LICENSE,sha256=Y_5zN9mH3qWOywtu_254b1YdcdngSBwhtDDtK7x7RLo,1070
+scribes-0.1.1.dist-info/METADATA,sha256=gqjpt84PeeCG6XNV8dvXE3-1HjdCdQJtGKvFTqr_m30,1931
+scribes-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+scribes-0.1.1.dist-info/entry_points.txt,sha256=yuyHG0i2S6bALR6lwY-NvDroe329M508b4PrgGz4O_A,44
+scribes-0.1.1.dist-info/RECORD,,
