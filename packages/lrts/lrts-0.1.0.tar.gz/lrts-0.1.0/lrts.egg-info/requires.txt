@@ -1,0 +1,5 @@
+pyzmq
+
+[detailed_progress]
+enlighten
+loguru
