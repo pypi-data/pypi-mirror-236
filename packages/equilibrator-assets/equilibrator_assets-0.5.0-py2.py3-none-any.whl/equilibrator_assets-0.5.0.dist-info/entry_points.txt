@@ -1,0 +1,2 @@
+[console_scripts]
+equilibrator = equilibrator_assets.cli:cli
