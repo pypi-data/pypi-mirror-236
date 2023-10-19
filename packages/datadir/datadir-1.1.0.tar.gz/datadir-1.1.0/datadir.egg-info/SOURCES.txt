@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+setup.py
+datadir/__init__.py
+datadir/datadirectory.py
+datadir.egg-info/PKG-INFO
+datadir.egg-info/SOURCES.txt
+datadir.egg-info/dependency_links.txt
+datadir.egg-info/requires.txt
+datadir.egg-info/top_level.txt
+tests/test_DataDirectory.py
