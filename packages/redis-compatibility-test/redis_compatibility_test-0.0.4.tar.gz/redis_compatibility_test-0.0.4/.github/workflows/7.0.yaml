@@ -1,0 +1,54 @@
+name: 7.0
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  test-with-redis-7-0:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: clone and build redis
+        run: |
+          sudo apt-get install git
+          git clone https://github.com/redis/redis
+          cd redis
+          git checkout 7.0
+          make -j
+
+      - name: start redis
+        run: |
+          ./redis/src/redis-server &
+
+      - name: start redis cluster
+        run: |
+          cd redis/utils/create-cluster
+          ./create-cluster start
+          echo yes|./create-cluster create
+
+      - name: set up python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+
+      - name: install requirements
+        run: pip install -r requirements.txt
+
+      - name: run test
+        run: python redis_compatibility_test.py --testfile cts.json --specific-version 7.0.0 --show-failed > test.result
+
+      - name: check fail tests
+        run: |
+          cat test.result
+          grep -q "This is failed tests for" test.result && exit -1 || exit 0
+
+      - name: run cluster test
+        run: python redis_compatibility_test.py --testfile cts.json --port 30001 --specific-version 7.0.0 --cluster --show-failed > cluster.result
+
+      - name: check cluster fail tests
+        run: |
+          cat cluster.result
+          grep -q "This is failed tests for" cluster.result && exit -1 || exit 0
