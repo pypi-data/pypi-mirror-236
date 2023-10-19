@@ -1,0 +1,9 @@
+nucleofind/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nucleofind/install.py,sha256=p_Me4v0AuSJHvIgkn8lgiE8mB46rXVOr1o-PtEF9o0s,3116
+nucleofind/predict.py,sha256=9Gzbih7AjclPQXHHq-G5-1haLa7_tApafCcR6kj2Uek,17440
+nucleofind-0.2.3.dist-info/LICENSE,sha256=V1UvABE_GaCz4d3YntYKsG7-tufBgaOLiAuiExXLFvU,1075
+nucleofind-0.2.3.dist-info/METADATA,sha256=FTVSXVN49UelWS6bguOu48bmm7f4vNeXsAv8KFLZYPE,1312
+nucleofind-0.2.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+nucleofind-0.2.3.dist-info/entry_points.txt,sha256=eaEip4s7QRmAbz416h4CwxyaxD45FAYnpzr96G51biM,98
+nucleofind-0.2.3.dist-info/top_level.txt,sha256=MzD4x0P0FgCcW9Gg__KZqtGg22TPCaiAWzPLiQBdtw4,11
+nucleofind-0.2.3.dist-info/RECORD,,
