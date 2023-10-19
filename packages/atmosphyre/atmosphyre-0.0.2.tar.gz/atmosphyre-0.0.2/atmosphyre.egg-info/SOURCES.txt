@@ -1,0 +1,13 @@
+LICENSE
+README.md
+README.rst
+pyproject.toml
+setup.py
+atmosphyre/__init__.py
+atmosphyre/dispersion_analysis.py
+atmosphyre/dispersion_functions.py
+atmosphyre.egg-info/PKG-INFO
+atmosphyre.egg-info/SOURCES.txt
+atmosphyre.egg-info/dependency_links.txt
+atmosphyre.egg-info/requires.txt
+atmosphyre.egg-info/top_level.txt
