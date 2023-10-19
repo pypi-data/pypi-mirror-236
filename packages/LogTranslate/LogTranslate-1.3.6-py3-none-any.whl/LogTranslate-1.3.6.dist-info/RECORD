@@ -1,0 +1,17 @@
+log_translate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+log_translate/config_default.py,sha256=s0tYMXrWnKGMuPWx-xc6bmY6vwf562vdlWeAdzEOZzA,825
+log_translate/data_struct.py,sha256=qDK9zzQrR9eVHPTfksrSdJxeh_kSy2UUbF7cLZpfk0Q,2115
+log_translate/globals.py,sha256=3AY22VxIpOe7Tpj9PnYLeZV8zbretIuwJKtIYvIycWM,4561
+log_translate/log_translator.py,sha256=zzTWa6Kn4bPcdnIbTaqOLs6n2bjEFxLxdh4c6dzBaPA,6928
+log_translate/read_log_file.py,sha256=hEoBYkETLn4VmMhyZ6uogQj5FqyzS_ogpp26uFbmO7Q,3999
+log_translate/ui_pyqt6.py,sha256=qQT9lLhJItlSrIYlgtPW45rghaUd5LNTslY7hrAs334,7580
+log_translate/ui_pyside2.py,sha256=Oj-oGPF3pAOzs5JtwwTXrBiWvyhC7jlTx_uGCnNqilc,7580
+log_translate/business/AndroidCrashPattern_translator.py,sha256=GOxzPs8fAlmYCfDCANYT0esLaquacUS8RzRElFgsl4I,5674
+log_translate/business/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+log_translate/business/bluetooth_translator.py,sha256=nWLUj9so_6Mj5_jD5h1l3oqN_lRL45lkWvAx3rZjJHM,14859
+log_translate/res/log_logo.ico,sha256=S2M8NjiGwYB11Q_EFz-p1m6s2givAmgKidhE7PiqkR4,10687
+LogTranslate-1.3.6.dist-info/LICENSE.txt,sha256=XoWFr3iN_7B4LZsWg1SALDjscqecHlyk6-fLH4aWC_Y,1079
+LogTranslate-1.3.6.dist-info/METADATA,sha256=E_wzGA1378WEuz0Eg6G2FnNpt6tgangOGTE_dZtVJLE,3295
+LogTranslate-1.3.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+LogTranslate-1.3.6.dist-info/top_level.txt,sha256=nosVcpgpxobhfuXyOQb5UBTKUKM49HMjfx51kzj90As,14
+LogTranslate-1.3.6.dist-info/RECORD,,
