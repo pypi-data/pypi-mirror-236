@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+noetry/__main__.py
+noetry.egg-info/PKG-INFO
+noetry.egg-info/SOURCES.txt
+noetry.egg-info/dependency_links.txt
+noetry.egg-info/entry_points.txt
+noetry.egg-info/requires.txt
+noetry.egg-info/top_level.txt
