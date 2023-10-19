@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hamal-utils
+Version: 0.0.69
+Author-email: daniel@cain-technologies.com
+License: MIT
+Requires-Dist: requests
+Requires-Dist: boto3
+Requires-Dist: prefect
+Requires-Dist: numpy
+Requires-Dist: gitversion
