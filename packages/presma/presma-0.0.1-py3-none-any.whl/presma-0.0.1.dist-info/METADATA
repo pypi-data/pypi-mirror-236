@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: presma
+Version: 0.0.1
+Summary: This is short description
+Home-page: https://github.com/AkshayJ0shi/demo-cli
+Author: AkshayJ
+Author-email: my@email.com
+Keywords: Python,trial
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Dist: setuptools (>=56.0.0)
+
+This is long description
