@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+incyte/__init__.py
+incyte/_version.py
+incyte/compare.py
+incyte/config.py
+incyte.egg-info/PKG-INFO
+incyte.egg-info/SOURCES.txt
+incyte.egg-info/dependency_links.txt
+incyte.egg-info/entry_points.txt
+incyte.egg-info/requires.txt
+incyte.egg-info/top_level.txt
