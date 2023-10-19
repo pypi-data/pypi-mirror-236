@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/perspectives/DataFrame.py
+src/perspectives/__init__.py
+src/perspectives.egg-info/PKG-INFO
+src/perspectives.egg-info/SOURCES.txt
+src/perspectives.egg-info/dependency_links.txt
+src/perspectives.egg-info/top_level.txt
