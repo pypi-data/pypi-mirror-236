@@ -1,0 +1,1 @@
+include src/pyutils/cvfacedetector/face_detection_yunet_2022mar.onnx

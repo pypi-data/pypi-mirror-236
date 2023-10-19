@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/test.py
+src/lambda_pyutils.egg-info/PKG-INFO
+src/lambda_pyutils.egg-info/SOURCES.txt
+src/lambda_pyutils.egg-info/dependency_links.txt
+src/lambda_pyutils.egg-info/top_level.txt
+src/pyutils/__init__.py
+src/pyutils/cvfacedetector/__init__.py
+src/pyutils/cvfacedetector/face_detection_yunet_2022mar.onnx
+src/pyutils/cvfacedetector/facedetector.py
+src/pyutils/cvfacedetector/yunet.py
