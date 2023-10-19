@@ -1,0 +1,2 @@
+langchain==0.0.266
+py_mini_racer==0.6.0
