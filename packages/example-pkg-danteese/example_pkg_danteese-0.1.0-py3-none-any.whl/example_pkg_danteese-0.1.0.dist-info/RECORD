@@ -1,0 +1,9 @@
+example_pkg/__init__.py,sha256=51QC93e2ntMcuAMEVWdMsCDqLeMj34dBUIk6XxPlJTg,134
+example_pkg/module.py,sha256=T3lnsjnU5l7dpW5XOkRpUQmMnQogf7HnrnPlu8DMaH8,41
+example_pkg_danteese/__init__.py,sha256=51QC93e2ntMcuAMEVWdMsCDqLeMj34dBUIk6XxPlJTg,134
+example_pkg_danteese/module.py,sha256=T3lnsjnU5l7dpW5XOkRpUQmMnQogf7HnrnPlu8DMaH8,41
+example_pkg_danteese-0.1.0.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+example_pkg_danteese-0.1.0.dist-info/METADATA,sha256=bJ6DDtcaiSP_IcSZvW4VZPdMCB--t27lcDUkkgoEJvM,668
+example_pkg_danteese-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+example_pkg_danteese-0.1.0.dist-info/top_level.txt,sha256=G0Ew6BENVbrVj6ZziPunbbJhahM0mMhCJjRItCFo7us,21
+example_pkg_danteese-0.1.0.dist-info/RECORD,,

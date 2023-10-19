@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: example-pkg-danteese
+Version: 0.1.0
+Summary: A example Python package
+Home-page: https://github.com/danteese/example-package
+Author: Dante B
+Author-email: dalnte@me.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: BSD :: BSD/OS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+
