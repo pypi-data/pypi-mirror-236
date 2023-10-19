@@ -1,0 +1,14 @@
+hamal_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hamal_utils/code/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hamal_utils/code/common.py,sha256=P0YVNs45qjRhyZ6MvCWV86oUG6YnecN8x3X_gXmn3Po,685
+hamal_utils/code/version.py,sha256=RJM5bxFpCOcLnVL9IIVqTkdwYXceGGU2U1OLDlNm9sQ,24
+hamal_utils/code/s3_utils/__init__.py,sha256=wN2sT_VgM66Pg_tluehYb2VoFJqCxwruxeeHBVENxas,207
+hamal_utils/code/s3_utils/s3_custom_client.py,sha256=NuZyBUy-lvanlOa1brZ8VunHVyw80bu1DkQ5nXr9p-s,5604
+hamal_utils/code/s3_utils/s3_custom_resource.py,sha256=hDGR-q_r0ARn5PXzMakzHVdZq0eAuALAfmMXbwdYqEQ,359
+hamal_utils/code/s3_utils/session.py,sha256=T19w0zeWIpbZ20UlaT8iom6z0caO_maR-XBEihMgqlE,375
+hamal_utils/code/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hamal_utils/code/utils/hash_util.py,sha256=bn-odKXq7hq-Utt24OczPln0HYkkxZSxCUnLDhoL8Uo,476
+hamal_utils-0.0.69.dist-info/METADATA,sha256=g6hOXRQM9bGRq2sJVoJXpb2uQcXiGyLFQcDqAUz8-E0,228
+hamal_utils-0.0.69.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hamal_utils-0.0.69.dist-info/top_level.txt,sha256=5wYEqVCzkb7MZXglkmSay43lKw38yoBRsvMPQ9MwqJM,12
+hamal_utils-0.0.69.dist-info/RECORD,,
