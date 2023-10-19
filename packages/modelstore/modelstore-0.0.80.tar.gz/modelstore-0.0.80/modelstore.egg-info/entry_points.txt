@@ -1,0 +1,2 @@
+[console_scripts]
+modelstore = modelstore.__main__:cli
