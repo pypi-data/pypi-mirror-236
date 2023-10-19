@@ -1,0 +1,6 @@
+numpy
+bqskit>=1.1.0
+typing-extensions>=4.0.0
+jax
+jaxlib
+jaxtyping

@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+bqskit_qfactor_jax.egg-info/PKG-INFO
+bqskit_qfactor_jax.egg-info/SOURCES.txt
+bqskit_qfactor_jax.egg-info/dependency_links.txt
+bqskit_qfactor_jax.egg-info/requires.txt
+bqskit_qfactor_jax.egg-info/top_level.txt
+qfactorjax/__init__.py
+qfactorjax/qfactor.py
+qfactorjax/unitary_acc.py
+qfactorjax/unitarybuilderjax.py
+qfactorjax/unitarymatrixjax.py
+tests/test_examples.py
