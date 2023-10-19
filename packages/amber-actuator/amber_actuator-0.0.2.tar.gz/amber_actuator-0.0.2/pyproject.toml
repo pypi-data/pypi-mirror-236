@@ -1,0 +1,21 @@
+[project]
+name = "amber_actuator"
+version = "0.0.2"
+description = "Python Interface for Amber Actuator"
+authors = [
+    { name = "Tianren Song", email = "songtianren@amberobotics.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
