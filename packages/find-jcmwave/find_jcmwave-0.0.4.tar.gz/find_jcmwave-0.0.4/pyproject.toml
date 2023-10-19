@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "find_jcmwave"
+version = "0.0.4"
+authors = [{name="Jan David Fischbach", email="mail@jan-dav.id" }]
+description = "Dynamically link jcmwave from JCMROOT into your environment"
+readme = "README.md"
+license = { file = "LICENSE" }
+dependencies = ["numpy"]
+requires-python = ">=3.9"
+keywords = ["jcm", "jcmwave", "fem"]
