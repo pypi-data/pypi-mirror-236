@@ -1,0 +1,8 @@
+[networkx.backend_info]
+graphblas = _nx_graphblas:get_info
+
+[networkx.backends]
+graphblas = graphblas_algorithms.interface:Dispatcher
+
+[networkx.plugins]
+graphblas = graphblas_algorithms.interface:Dispatcher
