@@ -1,0 +1,7 @@
+numpy
+scipy
+spmat<0.1.0
+xarray
+
+[test]
+pytest
