@@ -1,0 +1,7 @@
+pytest_param_scope/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_param_scope/plugin.py,sha256=fS6kyA8VnX306USNxAV12dnKGjjOyMJun4jvXcWcMGQ,3196
+pytest_param_scope-0.1.1.dist-info/entry_points.txt,sha256=EDwqAkNHioPg32vgvizGYi1geg1EKAQQzxUXc85346I,44
+pytest_param_scope-0.1.1.dist-info/LICENSE.txt,sha256=OSjRxcvDYygYnzHM6Ln9GUKVlSAd2r0GK7sRP-do0JM,1079
+pytest_param_scope-0.1.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+pytest_param_scope-0.1.1.dist-info/METADATA,sha256=b_hxoTJE0YS1RtX0JlvnaBkg6Rdv-TNZ5Pf9m5Q07jc,5008
+pytest_param_scope-0.1.1.dist-info/RECORD,,
