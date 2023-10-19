@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: thymus-ast
+Version: 0.1.2
+Summary: A set of tools to build ASTs for different NOS
+Author: Igor Malyushkin
+Author-email: gmalyushkin@gmail.com
+Requires-Python: >=3.8.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# thymus-ast
+A set of tools to build an AST for different Network Operation Systems
+
