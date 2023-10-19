@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tidyarxiv"
+version = "1.0.1"
+description = "A simple script to prepare your LaTeX paper for arXiv submission"
+authors = [
+  "Dionysis Zindros <dionyziz@stanford.edu>",
+  "Joachim Neu <jneu@stanford.edu>"
+]
+license = "GPL-3.0-only"
+readme = "README.md"
+
+
+[tool.poetry.scripts]
+tidyarxiv = "tidyarxiv.tidyarxiv:main"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
