@@ -1,0 +1,13 @@
+funget/__init__.py,sha256=Z3Kn6TrJxq9O04klFB3Ckly_YG1x1vPlLq0YzZ03H5c,126
+funget/script.py,sha256=l67BpgAt0qGuhndLUolYAcNbjlmpZcDvCghADCVFt54,830
+funget/download/__init__.py,sha256=ks2JCa6QNE3GmWfu4OUxrxYWHsMnyqELEvVjDQHo0gE,213
+funget/download/core.py,sha256=jNtzQrvcgYcRyxXvTe10y7jIsYKtHON1FefxrBHNK9c,579
+funget/download/multi_thread_download.py,sha256=d9m5ZO17oDv7bZx5VxsacDti5VtLvTUwOtDpM3suZTs,3150
+funget/download/simple.py,sha256=gD6D9DSWD3AT-PDPfaqncTSbrWt4VwYMjFFKTqWiwp4,1442
+funget/download/work.py,sha256=Bhkq5aWmYnWzDQk0bX6gfU9p0VETSCCoFQeLHlb6Dho,3375
+funget-0.0.31.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+funget-0.0.31.dist-info/METADATA,sha256=7n5i97CG0W2tTKEOeySbY_HIPYLUJX6eWCz4DZ2L4gk,329
+funget-0.0.31.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+funget-0.0.31.dist-info/entry_points.txt,sha256=gxBINdXWkLm9qsINyBMwREG_rsfT15QyCtn1-TEUOh4,48
+funget-0.0.31.dist-info/top_level.txt,sha256=0pmzFGmBdMRJwARpEPTy7ibbknvRsB5N2aKVeBJ6xk4,7
+funget-0.0.31.dist-info/RECORD,,
