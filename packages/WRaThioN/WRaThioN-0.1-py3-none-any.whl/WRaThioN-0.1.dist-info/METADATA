@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: WRaThioN
+Version: 0.1
+Summary: WRaThioN: WRTN for Python
+Home-page: https://github.com/KimEJ/WRaThioN
+Download-URL: https://github.com/KimEJ/WRaThioN/archive/0.0.tar.gz
+Author: kimuj
+Author-email: kimuj5090@gmail.com
+Keywords: WRTN,WRaThioN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3
+
