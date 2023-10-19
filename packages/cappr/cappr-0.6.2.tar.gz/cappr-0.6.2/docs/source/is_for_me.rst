@@ -1,0 +1,9 @@
+Is this for me?
+===============
+
+CAPPr is for you if you:
+
+#. Want to do text classification, i.e., you want an LLM to pick from a list of choices
+
+#. Can locally load an LLM, or pay to use an OpenAI `v1/completions
+   <https://platform.openai.com/docs/models/model-endpoint-compatibility>`_ model.
