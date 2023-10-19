@@ -1,0 +1,8 @@
+black
+build
+flake8
+flake8-black
+invoke
+pylint
+twine
+wheel

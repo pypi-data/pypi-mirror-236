@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+src/northstar-agent/__init__.py
+src/northstar_agent.egg-info/PKG-INFO
+src/northstar_agent.egg-info/SOURCES.txt
+src/northstar_agent.egg-info/dependency_links.txt
+src/northstar_agent.egg-info/requires.txt
+src/northstar_agent.egg-info/top_level.txt
