@@ -1,0 +1,4 @@
+[console_scripts]
+omoos=omoospace.commands:cli
+omoospace=omoospace.commands:cli
+
