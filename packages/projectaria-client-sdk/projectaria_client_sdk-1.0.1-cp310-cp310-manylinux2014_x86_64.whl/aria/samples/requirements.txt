@@ -1,0 +1,5 @@
+projectaria_client_sdk
+
+opencv-python
+fastplotlib
+glfw
