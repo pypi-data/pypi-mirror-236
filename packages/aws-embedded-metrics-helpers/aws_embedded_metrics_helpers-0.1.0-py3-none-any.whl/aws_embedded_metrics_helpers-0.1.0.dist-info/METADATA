@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: aws-embedded-metrics-helpers
+Version: 0.1.0
+Summary: Some helper decorators that use the aws-embedded-metrics to make publishing metrics from code a little bit easier
+Author: Sabarna Chakravarty
+Author-email: Sabarna Chakravarty <sabarnac@gmail.com>
+Project-URL: Homepage, https://github.com/sabarnac/aws-embedded-metrics-python-helper
+Project-URL: Bug Tracker, https://github.com/sabarnac/aws-embedded-metrics-python-helper/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aws-embedded-metrics
+
+# aws-embedded-metrics-python-helper
+Some helper decorators that use the [awslabs/aws-embedded-metrics-python](https://github.com/awslabs/aws-embedded-metrics-python) to make publishing metrics from code a little bit easier
