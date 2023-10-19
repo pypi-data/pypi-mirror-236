@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: element-facemap
+Version: 0.1.7
+Summary: Facemap DataJoint element
+Home-page: https://github.com/datajoint/element-facemap
+Author: DataJoint
+Author-email: info@datajoint.com
+License: MIT
+Keywords: neuroscience facemap science datajoint
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: datajoint >=0.13.0
+Requires-Dist: element-interface >=0.3.0
+Requires-Dist: opencv-python-headless
+
+# DataJoint Element - Facemap
+
+DataJoint Element for tracking facial movements of a mouse with
+[Facemap](https://github.com/MouseLand/facemap). DataJoint Elements
+collectively standardize and automate data collection and analysis for neuroscience
+experiments. Each Element is a modular pipeline for data storage and processing with
+corresponding database tables that can be combined with other Elements to assemble a
+fully functional pipeline.
+
+Installation and usage instructions can be found at the
+[Element documentation](https://datajoint.com/docs/elements/element-facemap).
+
+![diagram](https://raw.githubusercontent.com/datajoint/element-facemap/main/images/diagram_flowchart.svg)
+
