@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: optimum-deepsparse
+Version: 0.1.0.dev0
+Summary: Optimum DeepSparse is an extension of the Hugging Face Transformers library that integrates the DeepSparse inference runtime. DeepSparse offers GPU-class performance on CPUs, making it possible to run Transformers and other deep learning models on commodity hardware with sparsity. Optimum DeepSparse provides a framework for developers to easily integrate DeepSparse into their applications, regardless of the hardware platform.
+Home-page: https://github.com/neuralmagic/deepsparse
+Author: Neuralmagic, Inc.
+Author-email: michael@neuralmagic.com
+License: Neural Magic DeepSparse Community License, Apache
+Keywords: inference,cpu,x86,arm,transformers,quantization,pruning,sparsity
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8, <3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE-NEURALMAGIC
+Requires-Dist: deepsparse-nightly
+Requires-Dist: diffusers ==0.21.4
+Requires-Dist: optimum[exporters] ==1.13.2
+Provides-Extra: dev
+Requires-Dist: Pillow ; extra == 'dev'
+Requires-Dist: black ~=23.1 ; extra == 'dev'
+Requires-Dist: diffusers ; extra == 'dev'
+Requires-Dist: evaluate ; extra == 'dev'
+Requires-Dist: parameterized ; extra == 'dev'
+Requires-Dist: py-cpuinfo ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff <=0.0.259,>=0.0.241 ; extra == 'dev'
+Requires-Dist: torchaudio ; extra == 'dev'
+Provides-Extra: quality
+Requires-Dist: black ~=23.1 ; extra == 'quality'
+Requires-Dist: ruff <=0.0.259,>=0.0.241 ; extra == 'quality'
+Provides-Extra: tests
+Requires-Dist: Pillow ; extra == 'tests'
+Requires-Dist: diffusers ; extra == 'tests'
+Requires-Dist: evaluate ; extra == 'tests'
+Requires-Dist: parameterized ; extra == 'tests'
+Requires-Dist: py-cpuinfo ; extra == 'tests'
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: torchaudio ; extra == 'tests'
+
+# optimum-deepsparse
+
+Accelerated inference of 🤗 models on CPUs using the [DeepSparse Inference Runtime](https://github.com/neuralmagic/deepsparse).
+
+[![DeepSparse Modeling / Python - Test](https://github.com/neuralmagic/optimum-deepsparse/actions/workflows/test_check.yaml/badge.svg)](https://github.com/neuralmagic/optimum-deepsparse/actions/workflows/test_check.yaml)
+[![DeepSparse Modeling Nightly](https://github.com/neuralmagic/optimum-deepsparse/actions/workflows/test_nightly.yaml/badge.svg)](https://github.com/neuralmagic/optimum-deepsparse/actions/workflows/test_nightly.yaml)
+
+## Install
+Optimum DeepSparse is a fast-moving project, and you may want to install from source.
+
+`pip install git+https://github.com/neuralmagic/optimum-deepsparse.git`
+
+### Installing in developer mode
+
+If you are working on the `optimum-deepsparse` code then you should use an editable install by cloning and installing `optimum` and `optimum-deepsparse`:
+
+```
+git clone https://github.com/huggingface/optimum
+git clone https://github.com/neuralmagic/optimum-deepsparse
+pip install -e optimum -e optimum-deepsparse
+```
+
+Now whenever you change the code, you'll be able to run with those changes instantly.
+
+
+## How to use it?
+To load a model and run inference with DeepSparse, you can just replace your `AutoModelForXxx` class with the corresponding `DeepSparseModelForXxx` class. 
+
+```diff
+import requests
+from PIL import Image
+
+- from transformers import AutoModelForImageClassification
++ from optimum.deepsparse import DeepSparseModelForImageClassification
+from transformers import AutoFeatureExtractor, pipeline
+
+url = "http://images.cocodataset.org/val2017/000000039769.jpg"
+image = Image.open(requests.get(url, stream=True).raw)
+
+model_id = "microsoft/resnet-50"
+- model = AutoModelForImageClassification.from_pretrained(model_id)
++ model = DeepSparseModelForImageClassification.from_pretrained(model_id, export=True, input_shapes="[1,3,224,224]")
+feature_extractor = AutoFeatureExtractor.from_pretrained(model_id)
+cls_pipe = pipeline("image-classification", model=model, feature_extractor=feature_extractor)
+outputs = cls_pipe(image)
+```
+
+| Supported Task                              | Model Class |
+| ------------------------------------------- | ------------- |
+| "image-classification"                      | DeepSparseModelForImageClassification  |
+| "text-classification"/"sentiment-analysis"  | DeepSparseModelForSequenceClassification  |
+| "audio-classification"                      | DeepSparseModelForAudioClassification  |
+| "question-answering"                        | DeepSparseModelForQuestionAnswering  |
+| "image-segmentation"                        | DeepSparseModelForSemanticSegmentation  |
+
+If you find any issue while using those, please open an issue or a pull request.
+
+

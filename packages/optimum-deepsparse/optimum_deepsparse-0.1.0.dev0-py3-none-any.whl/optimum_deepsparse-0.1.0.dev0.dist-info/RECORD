@@ -1,0 +1,12 @@
+optimum/deepsparse/__init__.py,sha256=RB0so2Avz_G-y3nG4r4yfZG4yBHwsQBa4q_ge_kNgY8,2378
+optimum/deepsparse/modeling.py,sha256=KmdNRmfRVdHJR5D8r_xv80JCISyQxs39fNaWx88aAhk,32639
+optimum/deepsparse/modeling_base.py,sha256=Gcy3EdPAd7dwOw-wb4oE9D-YASPtnSj8fYrUyGrB_bE,21097
+optimum/deepsparse/modeling_diffusion.py,sha256=0gsXPZ0iRYVinJDH2syHygwkOr6DusrCsy3UvZyAIC0,21701
+optimum/deepsparse/version.py,sha256=qbhMh4mg2JMoCFflKwIRvApU63RR8AxvYq1OT__8sgI,27
+optimum_deepsparse-0.1.0.dev0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+optimum_deepsparse-0.1.0.dev0.dist-info/LICENSE-NEURALMAGIC,sha256=G6NOqEeSVhAUTyre61g3ERIEdfcVBDzzHoMDNbXHDnw,4823
+optimum_deepsparse-0.1.0.dev0.dist-info/METADATA,sha256=g2m6euBgW7y3lyHo19kz6-SlgfaSb3h6xVFspt2DU_8,5214
+optimum_deepsparse-0.1.0.dev0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+optimum_deepsparse-0.1.0.dev0.dist-info/entry_points.txt,sha256=x5BIozbI6dQJfcUjyZln6jnjvNnyVHr36ueVDGzb6Ww,67
+optimum_deepsparse-0.1.0.dev0.dist-info/top_level.txt,sha256=rc1rV-uPZnV1Ek7hCwh56pvMCKcip65JbHRRWs8Yqu8,8
+optimum_deepsparse-0.1.0.dev0.dist-info/RECORD,,
