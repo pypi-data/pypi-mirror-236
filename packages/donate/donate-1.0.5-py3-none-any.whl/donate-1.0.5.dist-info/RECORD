@@ -1,0 +1,14 @@
+donate/__init__.py,sha256=APwoh5QdvkKcpZjXV8jfUwBp59wIXuulFjZULwVUlOQ,388
+donate/data.py,sha256=9h5DEc5d29smPQMZ-rsPGLCw70-VrTiYb_oeYdeJ5Ys,1626
+donate/utils/tonrocket/__init__.py,sha256=5ihfKg5jZFXYoPcaHAVwyV5XL1nvpyZQAk-MqaJcAhM,276
+donate/utils/tonrocket/client.py,sha256=D98jMOcnteaZeOhQACR-uzcfpQRstwRATWiTBTD3B9A,2627
+donate/utils/tonrocket/exceptions.py,sha256=ACVvxl1SfgWX0Ymb_ySvlf4kUuuYaHemNw8ypCmvFBI,490
+donate/utils/tonrocket/__pycache__/__init__.cpython-38.pyc,sha256=D2J_HRkw2QWfpflLZv27KBnm57IhiSeLraYB6FSnqfM,464
+donate/utils/tonrocket/__pycache__/client.cpython-38.pyc,sha256=k5CwPodoQczsRj76dpvN4kJXXA9imwijZlG_wLmW8BU,3247
+donate/utils/tonrocket/__pycache__/exceptions.cpython-38.pyc,sha256=b9IXhN8ErNlvvvhd3BRNrY9oVRi_VxxinSBFGuXVJoo,1060
+donate/utils/tonrocket/types/donate.py,sha256=dHQxSxGXELEkPTGELcGMtaEX6MFqyFpMWv2URVLDmPU,1958
+donate/utils/tonrocket/types/__pycache__/donate.cpython-38.pyc,sha256=Yzzht4UdEHiVxlsf0FDtFDI01yXkMx5lVJYJTU8GxDU,2180
+donate-1.0.5.dist-info/METADATA,sha256=0yY7-or3yfiBlqxV998-WZmUqvEUA63AmzBi-sJpEtY,501
+donate-1.0.5.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+donate-1.0.5.dist-info/top_level.txt,sha256=Y3Du969y-j7_0Kx3uz6GPwuoQuR92k6jBwYEjW1YHZg,7
+donate-1.0.5.dist-info/RECORD,,
