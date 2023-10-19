@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: cbra
+Version: 2.0.0a143
+Summary: A class-based REStful API framework built on FastAPI
+Home-page: https://docs.cochise.io/python/cbra/latest
+Author: Cochise Ruhulessin
+Author-email: cochiseruhulessin@gmail.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: aiofiles
+Requires-Dist: canonical>=0.47.0
+Requires-Dist: ckms>=0.63.0
+Requires-Dist: fastapi>=0.94.0
+Requires-Dist: headless>=2.0.0a49
+Requires-Dist: inflect
+Requires-Dist: jinja2
+Requires-Dist: gunicorn
+Requires-Dist: pydantic>=1.10.7
+Requires-Dist: python-multipart
+Requires-Dist: uvicorn
+Requires-Dist: unimatrix
+Provides-Extra: all
+Requires-Dist: aorta[all]>=3.0.0a9; extra == "all"
+Requires-Dist: google-cloud-datastore>=2.13.2; extra == "all"
+Requires-Dist: google-cloud-logging; extra == "all"
+Requires-Dist: google-cloud-secret-manager>=2.10.0; extra == "all"
+Requires-Dist: google-cloud-storage>=2.7.0; extra == "all"
+Requires-Dist: gunicorn; extra == "all"
+Requires-Dist: gunicorn; extra == "all"
+Requires-Dist: httpx; extra == "all"
+Requires-Dist: jwcrypto; extra == "all"
+Requires-Dist: google.auth; extra == "all"
+Requires-Dist: pyjwt; extra == "all"
+Requires-Dist: unimatrix.ext.kms[all]; extra == "all"
+Provides-Extra: google
+Requires-Dist: aorta[google]>=3.0.0a9; extra == "google"
+Requires-Dist: ckms[google]>=0.61; extra == "google"
+Requires-Dist: google-api-python-client>=2.80.0; extra == "google"
+Requires-Dist: google-cloud-datastore>=2.13.2; extra == "google"
+Requires-Dist: google-cloud-logging; extra == "google"
+Requires-Dist: google-cloud-secret-manager>=2.10.0; extra == "google"
+Requires-Dist: google-cloud-storage>=2.7.0; extra == "google"
+Provides-Extra: gunicorn
+Requires-Dist: gunicorn; extra == "gunicorn"
+Provides-Extra: sendgrid
+Requires-Dist: sendgrid; extra == "sendgrid"
+
+
+
+
+# OAuth 2.x
+
+- https://www.rfc-editor.org/rfc/rfc8707.html
+
+# Resources
+
+- https://tyk.io/blog/your-data-model-is-not-an-api/
+- https://shekhargulati.com/2021/10/15/web-api-design-anti-pattern-exposing-your-database-model
+- https://cloud.google.com/blog/products/api-management/why-your-web-apis-should-be-entity-oriented
+- https://cloud.google.com/blog/products/application-development/api-design-why-you-should-use-links-not-keys-to-represent-relationships-in-apis
+- https://tools.ietf.org/html/rfc7807
+- https://www.iana.org/assignments/link-relations/link-relations.xhtml
+- https://thorben-janssen.com/dont-expose-entities-in-api/
+- https://vaadin.com/blog/ddd-part-3-domain-driven-design-and-the-hexagonal-architecture
