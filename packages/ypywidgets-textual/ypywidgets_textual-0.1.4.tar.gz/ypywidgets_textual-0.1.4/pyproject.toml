@@ -1,0 +1,42 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ypywidgets-textual"
+dynamic = ["version"]
+description = "Textual widgets for ypywidgets"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.7"
+authors = [
+    { name = "David Brochart", email = "david.brochart@gmail.com" },
+]
+keywords = [
+    "widgets",
+    "jupyter",
+    "ypy",
+    "textual",
+]
+dependencies = [
+    "ypywidgets >=0.4.0",
+    "textual >=0.40.0",
+    "textual-plotext",
+]
+
+[project.urls]
+Homepage = "https://github.com/davidbrochart/ypywidgets-textual"
+
+[tool.hatch.version]
+path = "ypywidgets_textual/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/ypywidgets_textual",
+]
+
+[project.entry-points.ypywidgets]
+Switch = "ypywidgets_textual.switch:Switch"
+txl_Switch = "ypywidgets_textual.txl.switch:Switch"
+Plotext = "ypywidgets_textual.plotext:Plotext"
+txl_Plotext = "ypywidgets_textual.txl.plotext:Plotext"
