@@ -1,0 +1,8 @@
+deric/__init__.py,sha256=OdfNY8q2DFodSgvortbAaNtWRnDrXRH6JIeGaLPWtGA,12682
+deric/logs.py,sha256=VF_dC31M6HkHjkz3eMGnmVgOsGwV0Rp57X7O-ZarWTo,584
+deric/types/__init__.py,sha256=oDhA0SZM69mAEW2E4u1to9cu8GGyZCLR1NDANZSZAM8,62
+deric/types/enum_by_name.py,sha256=75Lwch46YEC3ATOlU3I9FBmDqTCN3c-ogP7pLwuR_dI,1505
+deric-0.2.2.dist-info/LICENSE,sha256=nSYU9U1Fjq1yZLxhY_P7YHM2tWE5jrZz6fvSdtFMJe8,1069
+deric-0.2.2.dist-info/METADATA,sha256=sUkngWSENIqjXBxrI3CDWJBXfuyDTF6qNTnizl6UHWo,1471
+deric-0.2.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+deric-0.2.2.dist-info/RECORD,,

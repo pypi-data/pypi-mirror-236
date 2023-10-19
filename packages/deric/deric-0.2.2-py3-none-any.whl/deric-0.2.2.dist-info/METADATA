@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: deric
+Version: 0.2.2
+Summary: Declarative rich CLI
+Home-page: https://github.com/cavenditti/deric
+License: MIT
+Author: Carlo Antonio Venditti
+Author-email: c.a.venditti@pm.me
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.4.0,<3.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: tomlkit (>=0.11.6,<0.12.0)
+Project-URL: Repository, https://github.com/cavenditti/deric
+Description-Content-Type: text/markdown
+
+# deric — DEclarative RIch Cli
+
+Minimal library to build CLI apps with integrated TOML config file.
+
+## Goals
+- Minimal and useful
+- Subcommand support
+- Type checked arguments
+- Integrated logging handling
+- Reuse existing proved libraries: pydantic and rich
+- Use either CLI args, environment variables or TOML configuration (or a mix of them)
+
+## Usage
+`simple_app.py`:
+```python
+from deric import Command, arg
+
+# define a simple app
+class SimpleApp(Command):
+  name = "your_simple_app"
+  description = "Print a value and exit"
+
+  Config = {
+    "string": arg(str, ..., "value to print")
+    "value": arg(int, 4, "value to print")
+  }
+
+  def run(self, config):
+    print(config.string, config.value * 2)
+
+SimpleApp().start()
+```
+
+Run it with:
+```sh
+python simple_app.py --string "some string" --value 21
+```
+
