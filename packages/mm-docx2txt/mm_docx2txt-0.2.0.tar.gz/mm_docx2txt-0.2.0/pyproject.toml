@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mm-docx2txt"
+version = "0.2.0"
+description = ""
+authors = ["hud <hudwahab@gmail.com>"]
+readme = "README.md"
+packages = [{include = "docx2txt", from = "mmplugins"}]
+
+[tool.poetry.dependencies]
+python = ">=3.9, <3.12"
+flytekit = "1.9.1"
+pytest = "^7.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
