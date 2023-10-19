@@ -1,0 +1,11 @@
+waterdynamics/__init__.py,sha256=HSBQsYUpNf3jY4YsVLvHWNhD1e7VWVyP0Sp-U7hxM5w,482
+waterdynamics/_version.py,sha256=22VmsNYXO80q-_GODvqTCHKv2YeC5M7apy1fKgao-yk,497
+waterdynamics/waterdynamics.py,sha256=vcdvvHyC_l3v_fKwV-UloJn4gv92_KX91reZ8CPTUdQ,38284
+waterdynamics/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waterdynamics/tests/test_waterdynamics.py,sha256=TSo68Jxsh2RaXdWRYmpjhFEbKsbVwbsbrkRKyZDr-sE,12731
+waterdynamics-1.0.0.dist-info/AUTHORS.md,sha256=hilHyh2gKV3BfNDruX3hPmkniyUzzc4WYFW-TW1vljs,1375
+waterdynamics-1.0.0.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+waterdynamics-1.0.0.dist-info/METADATA,sha256=zEQk0-FPQsomJ-ubJh2N0gcTy6abwEMj8gDcHHAONCc,27223
+waterdynamics-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+waterdynamics-1.0.0.dist-info/top_level.txt,sha256=SlnPQQpgz2-Y72wzH12rSRl-VN9hSK1wp0jh24IcF88,14
+waterdynamics-1.0.0.dist-info/RECORD,,
