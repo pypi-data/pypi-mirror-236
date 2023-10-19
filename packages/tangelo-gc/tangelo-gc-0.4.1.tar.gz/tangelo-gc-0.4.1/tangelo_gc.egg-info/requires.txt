@@ -1,0 +1,6 @@
+h5py
+bitarray
+openfermion
+
+[pyscf]
+pyscf
