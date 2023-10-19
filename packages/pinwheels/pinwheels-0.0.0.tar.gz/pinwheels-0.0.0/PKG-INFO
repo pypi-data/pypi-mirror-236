@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pinwheels
+Version: 0.0.0
+Summary: Maps of Self-Organizing Maps
+Author-Email: Matthieu Thiboust <14574229+mthiboust@users.noreply.github.com>
+License: Apache License 2.0
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Pinwheels
+
+Maps of Self-Organizing Maps
+
+Just a placeholder to reserve the name, code is coming soon.
