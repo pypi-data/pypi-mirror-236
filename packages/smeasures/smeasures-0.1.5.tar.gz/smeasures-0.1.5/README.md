@@ -1,0 +1,36 @@
+smeasures - Python package for measuring resource utilization and execution time
+
+The `smeasures` package provides a simple way to capture resource utilization and time taken for a given code block or method. It uses the `psutil` library to collect system resource usage data, and provides a decorator that can be used to wrap a function or code block to measure its execution time and resource usage.
+
+Installation:
+
+To install `smeasures`, simply run:
+
+    pip install smeasures
+
+Usage:
+
+To use `smeasures`, import the `measure` from the `smeasures` package, and surround you code to measure by Measure start and end calls like below:
+
+    from smeasures import measure
+
+    m = measure.Measure(pid, useCpuMonitor=True, cpuMonitorInterval=0.1)
+    m.start()
+
+    # code to measure here...
+
+    m.end()
+
+This will print out the execution time and resource usage of the code between measure start and end calls.
+
+Dependencies:
+
+`smeasures` requires the following dependencies:
+
+- `psutil`
+- `threading`
+- `gc`
+
+License:
+
+`smeasures` is released under the MIT License.
