@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: pygarment
+Version: 1.0.0
+Summary: A modular programming framework for designing parametric sewing patterns
+Home-page: https://github.com/maria-korosteleva/GarmentCode
+Author: Maria Korosteleva
+Author-email: maria.korosteleva.public@gmail.com
+Project-URL: Bug_Tracker, https://github.com/maria-korosteleva/GarmentCode/issues
+Project-URL: repository, https://github.com/maria-korosteleva/GarmentCode
+Keywords: garment-programming,garment-modeling,sewing-patterns
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: svgwrite
+Requires-Dist: svgpathtools
+Requires-Dist: psutil
+Requires-Dist: matplotlib
+Requires-Dist: CairoSVG
+Requires-Dist: PySimpleGUI
+Requires-Dist: wmi; platform_system == "Windows"
+
+# GarmentCode: Programming Parametric Sewing Patterns
+
+![Examples of garments sampled from GarmentCode configurator](https://github.com/maria-korosteleva/GarmentCode/blob/main/assets/img/header.png)
+
+Official Implementation of [GarmentCode: Programming Parametric Sewing Patterns](https://igl.ethz.ch/projects/garmentcode/), including architecture and garment programs.
+
+## Documents
+
+1. Detailed Installtion instructions: [Installation](https://github.com/maria-korosteleva/GarmentCode/blob/main/docs/Installation.md)
+2. How to run the configurator & adjust parameters: [Running](https://github.com/maria-korosteleva/GarmentCode/blob/main/docs/Running.md)
+
+## Navigation
+
+### Library
+
+[PyGarment](https://github.com/maria-korosteleva/GarmentCode/tree/main/pygarment) is the core library described in the GarmentCode paper. It contains the base types (Edge, Panel, Component, Interface, etc.), as well as edge factory and various helpers and operators that help you design sewing patterns.  
+
+Install with 
+```
+pip install pygarment
+```
+
+### Examples
+
+* [assets/garment_programs/](https://github.com/maria-korosteleva/GarmentCode/tree/main/assets/garment_programs/) contains the code of garment components designed using PyGarment. 
+* [assets/design_params/](https://github.com/maria-korosteleva/GarmentCode/tree/main/assets/design_params/), [assets/body_measurements/](https://github.com/maria-korosteleva/GarmentCode/tree/main/assets/body_measurments/) contain examples of design and body measurements presets corresponding to the designs and retargeting results showcased in our GarmentCode paper. They can be used in both GarmentCode GUI and `test_garments.py` script.
+
+> NOTE: [assets/design_params/default.yaml](https://github.com/maria-korosteleva/GarmentCode/blob/main/assets/design_params/default.yaml) is the setup used by GUI on load. Changing this file results in changes in the GUI initial state =) 
+
+
+## Citation
+
+If you are using our system in your research, please cite our paper:
+
+```
+@article{GarmentCode2023,
+  author = {Korosteleva, Maria and Sorkine-Hornung, Olga},
+  title = {{GarmentCode}: Programming Parametric Sewing Patterns},
+  year = {2023},
+  issue_date = {December 2023},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  volume = {42},
+  number = {6},
+  doi = {10.1145/3618351},
+  journal = {ACM Transaction on Graphics},
+  note = {SIGGRAPH ASIA 2023 issue},
+  numpages = {16},
+  keywords = {sewing patterns, garment modeling}
+}
+```
+
+## Issues, questions, suggestions
+
+Please post your issues and questions to [GitHub Issues](https://github.com/maria-korosteleva/GarmentCode/issues).
+
+For other requests you can find my info on https://korosteleva.com/.  
+
+
+## Attribution & Body use disclaimer
+We are using samples from [SMPL](https://smpl.is.tue.mpg.de/) body model as base for [Body Model examples](https://github.com/maria-korosteleva/GarmentCode/tree/main/assets/Bodies). 
+
+### Disclaimer
+Due to the restrictions of the SMPL license, we cannot share all 3D models of the body shapes used in our paper, except for the base average bodies for male and female versions of SMPL. We nevertheless share the approximate body measurements of the thin and the full-bodied models to showcase the adaptation of the patterns to different body types. 
+
+# Changelog
+
+## [1.0.0] - 2023-10-18
+
+_First release._
+MIT License
+
+Copyright (c) 2023 Maria Korosteleva
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
