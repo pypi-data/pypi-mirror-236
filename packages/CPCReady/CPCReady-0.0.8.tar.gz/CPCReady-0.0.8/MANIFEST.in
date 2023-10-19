@@ -1,0 +1,5 @@
+include CPCReady/templates/*
+include CPCReady/tools/darwin/*
+include CPCReady/tools/linux/*
+include CPCReady/tools/win64/*
+

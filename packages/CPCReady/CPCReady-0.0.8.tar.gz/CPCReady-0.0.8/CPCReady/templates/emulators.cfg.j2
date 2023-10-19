@@ -1,0 +1,15 @@
+
+[rvm-web]
+model  = {{ model }}   ## CPC Model (464,664,6128)
+run    = run"MAIN.BAS" ## Command to execute in Basic
+
+[rvm-desktop]
+model  = {{ model }}   ## CPC Model (464,664,6128)
+run    = run"MAIN.BAS" ## Command to execute in Basic
+path   =               ## Absolute path where the Retro Virtual Machinbe software is located
+
+[m4board]
+## There must be a folder called /tmp on the M4 Board
+ip      = 0.0.0.0      ## IP address assigned to the M4 Board
+execute = MAIN.BAS     ## File to execute after upload
+folder  = {{ name }}   ## Folder to upload files

@@ -1,0 +1,13 @@
+[general]
+name        = {{ name }}    ## Project Name
+author      = {{ user}}     ## User name
+
+[configurations]
+concatenate =                ## Name of the BAS file in which all the BAS files will be concatenated. Leave blank to not activate this option
+
+[CDT]
+name        = {{ name }}.CDT ## Name with which the CDT image will be generated
+files       = MAIN.BAS       ## List of files in the order they will be added to the CDT image separated by commas    
+
+[DSK]
+name        = {{ name }}.DSK ## Name with which the DSK image will be generated
