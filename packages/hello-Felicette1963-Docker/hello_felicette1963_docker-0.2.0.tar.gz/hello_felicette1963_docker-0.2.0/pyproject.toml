@@ -1,0 +1,25 @@
+[project]
+name = "hello-Felicette1963-Docker"
+version = "0.2.0"
+description = "The Python program"
+authors = [
+    { name = "Felicette1963", email = "xorudlee4869@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]
