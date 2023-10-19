@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/erlanglib/__init__.py
+src/erlanglib/core.py
+src/erlanglib.egg-info/PKG-INFO
+src/erlanglib.egg-info/SOURCES.txt
+src/erlanglib.egg-info/dependency_links.txt
+src/erlanglib.egg-info/top_level.txt
+tests/test_core.py
