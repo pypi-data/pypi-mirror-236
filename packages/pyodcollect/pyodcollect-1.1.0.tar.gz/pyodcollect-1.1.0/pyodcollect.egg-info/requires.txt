@@ -1,0 +1,4 @@
+haversine
+openpyxl
+pydantic
+requests
