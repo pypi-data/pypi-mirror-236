@@ -1,0 +1,70 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "autohooks-plugin-pytest"
+version = "23.10.0"
+description = "An autohooks plugin for pytest"
+license = "GPL-3.0-or-later"
+authors = ["Greenbone AG <info@greenbone.net>"]
+readme = "README.md"
+homepage = "https://github.com/greenbone/autohooks-plugin-pytest"
+repository = "https://github.com/greenbone/autohooks-plugin-pytest"
+documentation = ""
+classifiers = [
+  # Full list: https://pypi.org/pypi?%3Aaction=list_classifiers
+  "Development Status :: 5 - Production/Stable",
+  "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Operating System :: OS Independent",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+]
+packages = [{ include = "autohooks" }]
+keywords = ["git", "formatting", "linting", "hooks", "pytest"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+autohooks = ">=21.3"
+pytest = ">=7.1.2"
+
+[tool.poetry.dev-dependencies]
+pontos = ">=22.7.2"
+autohooks-plugin-black = ">=22.7.0"
+autohooks-plugin-pylint = ">=21.2.0"
+autohooks-plugin-isort = ">=22.3.0"
+autohooks-plugin-mypy = ">=22.7.0"
+coverage = ">=7.2.7"
+
+[tool.black]
+line-length = 79
+target-version = ["py39", "py310", "py311", "py312"]
+exclude = '''
+/(
+    \.git
+)/
+'''
+
+[tool.isort]
+profile = "black"
+line_length = 79
+
+[tool.autohooks]
+mode = "poetry"
+pre-commit = [
+  "autohooks.plugins.black",
+  "autohooks.plugins.isort",
+  "autohooks.plugins.pylint",
+]
+
+[tool.pontos.version]
+version-module-file = "autohooks/plugins/pytest/__version__.py"
+
+[tool.mypy]
+files = "autohooks"
+ignore_missing_imports = true
