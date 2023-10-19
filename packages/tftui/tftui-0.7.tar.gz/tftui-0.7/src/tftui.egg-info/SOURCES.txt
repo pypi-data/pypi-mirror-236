@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/tftui/__init__.py
+src/tftui/__main__.py
+src/tftui/ui.css
+src/tftui.egg-info/PKG-INFO
+src/tftui.egg-info/SOURCES.txt
+src/tftui.egg-info/dependency_links.txt
+src/tftui.egg-info/entry_points.txt
+src/tftui.egg-info/requires.txt
+src/tftui.egg-info/top_level.txt
