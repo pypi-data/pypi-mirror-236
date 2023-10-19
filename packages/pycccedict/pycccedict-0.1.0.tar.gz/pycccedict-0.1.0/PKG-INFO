@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pycccedict
+Version: 0.1.0
+Summary: CC-CEDIT in Python
+License: CC BY-SA 4.0
+Author: Patrick Pei
+Author-email: 14530807+patrickpei@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+# pycccedict
+CC-CEDICT in Python
+
