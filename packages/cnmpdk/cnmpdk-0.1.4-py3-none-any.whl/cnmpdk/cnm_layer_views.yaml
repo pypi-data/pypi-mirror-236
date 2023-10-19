@@ -1,0 +1,189 @@
+LayerViews:
+  SHALLOW_DEFINITION:
+    group_members:
+      SHALLOW_WG_m:
+        layer: [1, 0]
+        layer_in_name: true
+        color: "blue"
+      SHALLOW_WG_PROTECTION_m:
+        layer: [21, 0]
+        layer_in_name: true
+        color: "#80a8ff"
+        brightness: 144
+      SHALLOW_EBL_m:
+        layer: [12, 0]
+        layer_in_name: true
+        width: 1
+        color: "maroon"
+  DEEP_DEFINITION:
+    group_members:
+      DEEP_WG_m:
+        layer: [2, 0]
+        layer_in_name: true
+        color: "#ff8000"
+      DEEP_WG_PROTECTION_m:
+        layer: [11, 0]
+        layer_in_name: true
+        color: "#ffc280"
+        brightness: 64
+      DEEP_EBL_m:
+        layer: [22, 0]
+        layer_in_name: true
+        width: 1
+        color: "#ffc280"
+  TRENCH_DEFINITION:
+    group_members:
+      TRENCH_m:
+        layer: [3, 0]
+        layer_in_name: true
+        color: "#987454"
+  HEATER_DEFINITION:
+    group_members:
+      HEATER_m:
+        layer: [4, 0]
+        layer_in_name: true
+        color: "grey"
+  DIE_DEFINITION:
+    group_members:
+      DICING_LINES_m:
+        layer: [100, 0]
+        layer_in_name: true
+        color: "#abab00"
+      DEEP_RIE:
+        layer: [101, 0]
+        layer_in_name: true
+        color: "#ff8000"
+  OTHERS:
+    group_members:
+      SU8_m:
+        layer: [13, 0]
+        layer_in_name: true
+        color: "#800057"
+      NAZCA_LABELS:
+        layer: [501, 0]
+        layer_in_name: true
+        color: "#508000"
+  VIOLATIONS:
+    group_members:
+      DEEP_WIDTH_m:
+        layer: [2, 1]
+        layer_in_name: true
+        animation: 2
+        color: "red"
+      DEEP_SPACE_m:
+        layer: [2, 2]
+        layer_in_name: true
+        animation: 2
+        color: "red"
+      DEEP_NOT_PROTECT_m:
+        layer: [2, 3]
+        layer_in_name: true
+        animation: 2
+        color: "red"
+      SHALLOW_NOT_PROTECT_m:
+        layer: [1, 3]
+        layer_in_name: true
+        width: 1
+        animation: 2
+        color: "red"
+      HEATER_WIDTH_m:
+        layer: [4, 1]
+        layer_in_name: true
+        width: 1
+        animation: 2
+        color: "red"
+      HEATER_SPACE_m:
+        layer: [4, 2]
+        layer_in_name: true
+        width: 1
+        animation: 2
+        color: "red"
+      TRENCH_WIDTH_m:
+        layer: [3, 1]
+        layer_in_name: true
+        width: 1
+        animation: 2
+        color: "red"
+      TRENCH_SPACE_m:
+        layer: [3, 2]
+        layer_in_name: true
+        width: 1
+        animation: 2
+        color: "red"
+      SHALLOW_WIDTH_m:
+        layer: [1, 1]
+        layer_in_name: true
+        width: 1
+        animation: 2
+        color: "red"
+      SHALLOW_SPACE_m:
+        layer: [1, 2]
+        layer_in_name: true
+        width: 1
+        animation: 2
+        color: "red"
+      DICING_m:
+        layer: [100, 1]
+        layer_in_name: true
+        animation: 2
+        color: "red"
+  BUILDING_BLOCKS:
+    group_members:
+      BB_Outline:
+        layer: [51, 0]
+        layer_in_name: true
+        width: 1
+        color: "#500080"
+      BB_Guides:
+        layer: [52, 0]
+        layer_in_name: true
+        width: 1
+        color: "navy"
+      BB_Parameters:
+        layer: [53, 0]
+        layer_in_name: true
+        width: 1
+        color: "#004080"
+      BB_DC:
+        layer: [54, 0]
+        layer_in_name: true
+        width: 1
+        color: "#80fffb"
+  GRAPHENE_PROCESS:
+    group_members:
+      PCM_m:
+        layer: [201, 0]
+        layer_in_name: true
+        frame_color: "black"
+        fill_color: "#404040"
+        width: 1
+      GRAPHENE__1_m:
+        layer: [211, 0]
+        layer_in_name: true
+        width: 1
+        color: "#008050"
+      GRAPHENE__2_m:
+        layer: [213, 0]
+        layer_in_name: true
+        width: 1
+        color: "#508000"
+      VIA__1_m:
+        layer: [221, 0]
+        layer_in_name: true
+        width: 1
+        color: "#80a8ff"
+      METAL__1_m:
+        layer: [222, 0]
+        layer_in_name: true
+        width: 1
+        color: "red"
+      VIA__2_m:
+        layer: [223, 0]
+        layer_in_name: true
+        width: 1
+        color: "#ff0080"
+      METAL__2_m:
+        layer: [224, 0]
+        layer_in_name: true
+        width: 1
+        color: "magenta"
