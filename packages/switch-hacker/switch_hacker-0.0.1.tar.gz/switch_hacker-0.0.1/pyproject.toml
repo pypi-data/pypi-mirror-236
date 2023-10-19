@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "switch_hacker"
+version = "0.0.1"
+authors = [
+  { name="luochang212", email="luochang212@gmail.com" },
+]
+description = "A hack way to play switch game"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/luochang212/hit-and-blow"
+"Bug Tracker" = "https://github.com/luochang212/hit-and-blow/issues"
