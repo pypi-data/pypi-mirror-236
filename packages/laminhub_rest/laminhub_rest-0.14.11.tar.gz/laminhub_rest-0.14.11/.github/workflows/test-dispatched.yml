@@ -1,0 +1,13 @@
+name: Dispatched tests
+
+on:
+  push:
+    branches: [prod, main]
+
+jobs:
+  dispatch:
+    if: ${{ github.event_name == 'push' }}
+    uses: ./.github/workflows/reusable-dispatched-test.yml
+    with:
+      repository: "laminlabs/lamindb-setup"
+    secrets: inherit

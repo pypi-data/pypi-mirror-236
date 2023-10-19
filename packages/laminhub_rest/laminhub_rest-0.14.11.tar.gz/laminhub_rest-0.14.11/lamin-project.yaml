@@ -1,0 +1,5 @@
+project_name: laminhub-rest
+description: Rest API for the hub
+project_slug: laminhub-rest
+repository_name: laminhub-rest
+package_name: laminhub_rest

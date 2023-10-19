@@ -1,0 +1,15 @@
+name: Local tests
+
+on: push
+
+jobs:
+  test:
+    uses: ./.github/workflows/reusable-test.yml
+    with:
+      environment: local
+      group: laminhub-rest
+    secrets: inherit
+  coverage:
+    needs: [test]
+    uses: ./.github/workflows/reusable-coverage.yml
+    secrets: inherit

@@ -1,0 +1,52 @@
+name: Reusable CI/CD
+
+on:
+  workflow_call:
+    inputs:
+      test_environment:
+        required: true
+        type: string
+      target_environment:
+        required: true
+        type: string
+
+jobs:
+  migrate-test:
+    uses: ./.github/workflows/reusable-migration.yml
+    with:
+      environment: ${{ inputs.test_environment }}
+    secrets: inherit
+
+  deploy-test:
+    needs: [migrate-test]
+    uses: ./.github/workflows/reusable-deployment.yml
+    with:
+      environment: ${{ inputs.test_environment }}
+    secrets: inherit
+
+  test:
+    needs: [deploy-test]
+    uses: ./.github/workflows/reusable-test.yml
+    with:
+      environment: ${{ inputs.test_environment }}
+      group: "laminhub-rest"
+    secrets: inherit
+
+  coverage:
+    needs: [test]
+    uses: ./.github/workflows/reusable-coverage.yml
+    secrets: inherit
+
+  migrate:
+    needs: [test]
+    uses: ./.github/workflows/reusable-migration.yml
+    with:
+      environment: ${{ inputs.target_environment }}
+    secrets: inherit
+
+  deploy:
+    needs: [migrate]
+    uses: ./.github/workflows/reusable-deployment.yml
+    with:
+      environment: ${{ inputs.target_environment }}
+    secrets: inherit

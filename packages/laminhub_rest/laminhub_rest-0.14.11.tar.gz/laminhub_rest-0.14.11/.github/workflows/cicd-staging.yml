@@ -1,0 +1,14 @@
+name: Staging CI/CD
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  cicd:
+    uses: ./.github/workflows/reusable-cicd.yml
+    with:
+      test_environment: staging-test
+      target_environment: staging
+    secrets: inherit

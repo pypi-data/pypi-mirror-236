@@ -1,0 +1,14 @@
+name: Production CI/CD
+
+on:
+  push:
+    branches:
+      - prod
+
+jobs:
+  cicd:
+    uses: ./.github/workflows/reusable-cicd.yml
+    with:
+      test_environment: prod-test
+      target_environment: prod
+    secrets: inherit
