@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+Ipcsvision/__init__.py
+Ipcsvision/say_hello.py
+Ipcsvision/version.py
+Ipcsvision.egg-info/PKG-INFO
+Ipcsvision.egg-info/SOURCES.txt
+Ipcsvision.egg-info/dependency_links.txt
+Ipcsvision.egg-info/top_level.txt
