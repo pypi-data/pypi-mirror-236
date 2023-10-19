@@ -1,0 +1,2 @@
+[console_scripts]
+ccat = ccat.ccat:run
