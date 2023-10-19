@@ -1,0 +1,12 @@
+colorama
+jinja2
+pip-cache
+platformdirs
+pygls
+tree-sitter-requirements
+
+[:python_version < "3.11"]
+tomli
+
+[dev]
+pytest-cov
