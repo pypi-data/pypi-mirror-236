@@ -1,0 +1,7 @@
+usgs_product_finder/__init__.py,sha256=3_g1qSA4ao3FOmAjovq7ehqKGodotQiH1s0KP4l4U0c,50
+usgs_product_finder/usgs_product_finder.py,sha256=wZB93I5ugwLCbIcDbIC7HRUiQ8dm9ZdrMQerKVoQFNk,8860
+usgs_product_finder/files/WRS2_descending.geojson,sha256=odTKmpD5XeGXIrfbtb0kJdMt1BBARQc75cwRI4vq3p0,26344917
+usgs_product_finder-0.0.5.dist-info/METADATA,sha256=fmnw2mKGxUhQVmTvcOmFWk2TJYAH4FpD9mHnVEJYSoQ,1551
+usgs_product_finder-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+usgs_product_finder-0.0.5.dist-info/top_level.txt,sha256=EaN1kl8BZ3u6gzLTgK0C0VyT8qIuSrGE8USTmXR4J8A,20
+usgs_product_finder-0.0.5.dist-info/RECORD,,
