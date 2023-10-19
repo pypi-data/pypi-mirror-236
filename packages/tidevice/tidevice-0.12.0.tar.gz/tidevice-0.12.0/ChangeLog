@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+0.12.0
+------
+
+* fix runwda build with xcode 15, remove lib loguru
+* prompt: not support ios 17
+* 优化imagemount,支持当前版本的DeveloperImage.dmg查找不到时,自动降版本
+* add develper --rebook-ok
+* catch up cleanup
