@@ -1,0 +1,2 @@
+[console_scripts]
+qviz = Qvis.main:main
