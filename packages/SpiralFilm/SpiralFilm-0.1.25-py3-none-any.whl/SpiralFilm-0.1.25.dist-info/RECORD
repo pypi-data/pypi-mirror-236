@@ -1,0 +1,12 @@
+spiralfilm/__init__.py,sha256=SD5BkMdkmmzVtxaQwjVnCzdUYglJUIkcf5KuJzXH_qo,379
+spiralfilm/config.py,sha256=3gcc_1TC7yM7yGPFU6ES02ONOw0VyIm3zEAV74EcJU8,9629
+spiralfilm/core.py,sha256=B9BVYESwvKECCQ0SMs3-ezyf92q8bTZng0vfWE3fx7A,20093
+spiralfilm/embed.py,sha256=ag3WGKVth3Dcsl_-hq8cObczVvuE0hwLhAzj7CkVp5M,8621
+spiralfilm/errors.py,sha256=YxgPzhgAuBhBnok3gsDk3fPi-lCnj6N8-mMREPsk9TM,246
+spiralfilm/parser.py,sha256=wzEdblV2g8J988Pjkid_ujKEmaRpITWF1z1gKc4t6jI,4555
+spiralfilm/utils.py,sha256=18kKHX9owyN6gB2lX6w5bmD2jmRF6M9-InqyFzJ06qE,788
+SpiralFilm-0.1.25.dist-info/LICENSE,sha256=Qi3qRJYC1JUDjyVXuf_6727RKv4bL9srr80exxqJLFI,1066
+SpiralFilm-0.1.25.dist-info/METADATA,sha256=uPbzikkp0ndqcgr80G9e14u_OTqXcPBDYjh14wPpQRo,7788
+SpiralFilm-0.1.25.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+SpiralFilm-0.1.25.dist-info/top_level.txt,sha256=khDdx8lc6J4xV9g9AWezG9KPQ4bim_bq583ammEY9f8,11
+SpiralFilm-0.1.25.dist-info/RECORD,,
