@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: octasonic
+Version: 1.1
+Summary: Python library for the Octasonic breakout board
+Home-page: https://github.com/makersgrove/octasonic-python
+Download-URL: https://github.com/makersgrove/octasonic-python/archive/1.1.tar.gz
+Author: Andy Grove
+Author-email: andygrove73@gmail.com
+Keywords: octasonic,ultrasonic
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+Python library for the Octasonic breakout board
