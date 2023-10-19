@@ -1,0 +1,4 @@
+[console_scripts]
+bx=abacus.api:main
+cx=abacus.experimental.cx:main
+
