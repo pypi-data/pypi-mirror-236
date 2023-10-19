@@ -1,0 +1,6 @@
+.idea
+test.json
+venv
+html
+__pycache__
+dist/
