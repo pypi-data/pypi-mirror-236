@@ -1,0 +1,6 @@
+-c https://raw.githubusercontent.com/IMIO/buildout.pm/master/requirements.txt
+pip
+setuptools
+zc.buildout
+wheel
+mccabe
