@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+related.md
+requirements.txt
+setup.py
+fairpyx/VERSION
+fairpyx.egg-info/PKG-INFO
+fairpyx.egg-info/SOURCES.txt
+fairpyx.egg-info/dependency_links.txt
+fairpyx.egg-info/requires.txt
+fairpyx.egg-info/top_level.txt

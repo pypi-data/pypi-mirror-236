@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: fairpyx
+Version: 0.0.1
+Summary: Fair division algorithms in Python
+Home-page: https://github.com/ariel-research/fairpyx
+Author: Erel Segal-Halevi
+Author-email: erelsgl@gmail.com
+Project-URL: Documentation, https://github.com/ariel-research/fairpyx
+Project-URL: Source Code, https://github.com/ariel-research/fairpyx
+Project-URL: Bug Reports, https://github.com/ariel-research/fairpyx/issues
+Keywords: fair division algorithms
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy>=1.21.3
+Requires-Dist: scipy>=1.6.1
+Requires-Dist: networkz
+
+# fairpyx
+Fair allocation algorithms in Python
