@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+AetherX/AES.py
+AetherX/AESx64.py
+AetherX/EmberLaunch.py
+AetherX/__init__.py
+AetherX/errors.py
+AetherX/functions.py
+AetherX.egg-info/PKG-INFO
+AetherX.egg-info/SOURCES.txt
+AetherX.egg-info/dependency_links.txt
+AetherX.egg-info/top_level.txt
+AetherX.egg-info/zip-safe
