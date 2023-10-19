@@ -1,0 +1,9 @@
+nrndiff/__init__.py,sha256=84YGpubdQGMk76gFehOi1yUaLNaGTpHo0Ril7u_j334,2091
+nrndiff/_cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nrndiff/_differences.py,sha256=qTWB7Koek00dYOuVDYR-q-NJ9wBUV-vvzg8Y68yyb7U,4685
+nrndiff/_differs.py,sha256=3pRzTALyrZmQUWY6ljcwykZZd-ZIiT9xl9TkkpXS1-Q,4130
+nrndiff/_patches.py,sha256=TgFA7yEtbhDfJ0EOthsmiUa1fFTkz7XLdjk_nzC7p4Q,706
+nrndiff/_util.py,sha256=radV5eDYsqa87EXY-dYRik0gZPyBsCi2xaP96EakemY,238
+nrn_diff-0.0.3.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+nrn_diff-0.0.3.dist-info/METADATA,sha256=2CzuUqG79Xo2gjmCio-ZJdSqb7xCVY2GVqe771K4jFI,896
+nrn_diff-0.0.3.dist-info/RECORD,,
