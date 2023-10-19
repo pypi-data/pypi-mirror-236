@@ -1,0 +1,2 @@
+[console_scripts]
+prompt-runner = penpen.prompt_runner:main
