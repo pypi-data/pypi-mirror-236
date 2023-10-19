@@ -1,0 +1,10 @@
+bitstruct/__init__.py,sha256=al2sKEDEeqHACxQgIoG_MQL5GVBf1QesPFdNC1z3dwQ,20866
+bitstruct/bitstream.c,sha256=U0U6c345lrjrSqkVR1MG-gQojtEPRzmQ72z3lHl5H7I,18086
+bitstruct/bitstream.h,sha256=cUQLm6YEy-ujq59C9H3oD8sqCgMk7drMRsgu3fvdsjs,6217
+bitstruct/c.c,sha256=_Hq1qB6S0_QsmvL0yyX62D-vlYfivezrz8ClWsFzywA,70912
+bitstruct/c.cp311-win32.pyd,sha256=J81T4f2C4xwPA9yibQbwLKM6lP4q6knYyEvrOju6cL4,24576
+bitstruct-8.18.0.dist-info/LICENSE,sha256=hvzo9a53wT3R8h9BDgUMCP9SzzYFfXiE1kZUqgaWTB4,1107
+bitstruct-8.18.0.dist-info/METADATA,sha256=QfNTGS1JT2EU_9P8rEoAagEF7DEZrQ3gw2knPmhXtUk,7611
+bitstruct-8.18.0.dist-info/WHEEL,sha256=1hQMSMLa8wpOIN866ksgBSFaZ-xM7VQgzYiKWe8vFok,98
+bitstruct-8.18.0.dist-info/top_level.txt,sha256=b0kw0ViH-dPZgGdKvrcClAN_7YmjDw8qUAUUXSNmkq0,10
+bitstruct-8.18.0.dist-info/RECORD,,
