@@ -1,0 +1,7 @@
+lossy_mpi/__init__.py,sha256=OUcnyQnVmCioSy1-PII6ZOdah0PBzzIaeXkEl7TRYOk,2241
+lossy_mpi/comms.py,sha256=WdJbbkN_aEMdinZV9iplfQMdo4dm7jy0Ho7YEEmTRAw,4589
+lossy_mpi/pool.py,sha256=_RrjkUDFhe5-29IeZfVnXFZ9G3IeOfgGQG8SOovEh08,9685
+lossy_mpi/util.py,sha256=Y6gC-nDi0ZY7HPli0aUN5ge8-Cw7QRC5XSghXBMAjvE,993
+lossy_mpi-0.0.3.dist-info/METADATA,sha256=wszl3Ub90_ni52awS_PpyBktwICf35qk0x8A1ZzvNpw,374
+lossy_mpi-0.0.3.dist-info/WHEEL,sha256=fagL_Tj29mg80flwlxJNW45nBDbboxF04Tnbc_jt3Bg,105
+lossy_mpi-0.0.3.dist-info/RECORD,,
