@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+scfoundation/__init__.py
+scfoundation.egg-info/PKG-INFO
+scfoundation.egg-info/SOURCES.txt
+scfoundation.egg-info/dependency_links.txt
+scfoundation.egg-info/requires.txt
+scfoundation.egg-info/top_level.txt
