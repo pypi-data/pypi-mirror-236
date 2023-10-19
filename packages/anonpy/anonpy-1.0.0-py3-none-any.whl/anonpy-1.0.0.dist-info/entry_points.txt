@@ -1,0 +1,2 @@
+[console_scripts]
+anonpy = anonpy.__main__:main
