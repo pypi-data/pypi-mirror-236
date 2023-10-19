@@ -1,0 +1,10 @@
+migrado/__init__.py,sha256=edJ6dW4N3rJqMCjCOwAdCNxTsadKFb-XVpQubKSZ2T0,37
+migrado/constants.py,sha256=VrbSB79LeghB5JnMAiaLCd9w6ExzEwXobua06-aonJA,435
+migrado/db_client.py,sha256=Qjj3gu3ZMuMjwk5k4OllYUMZJYGO-N4esE-A-l4k4QQ,5644
+migrado/migrado.py,sha256=wDPF1l6YYuQtdy6DiVYLtTpWCjxKCZOGIUuuZlnzqrs,16623
+migrado/utils.py,sha256=N-_NIJ_mTBoF5LrYa0vfX63CKmJBbiG8m1imE-6pUSk,2387
+migrado-0.6.11.dist-info/LICENSE.txt,sha256=sF2nARjCo58mmGEEST-nOpAayTaETGugP-uH1uFp4NQ,1055
+migrado-0.6.11.dist-info/METADATA,sha256=6TmMDvfuF-v_W4eg-VdW2tkGyWArpJVuvp_Cl3PX-vE,9866
+migrado-0.6.11.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+migrado-0.6.11.dist-info/entry_points.txt,sha256=oEm6D0ejZ-0NfIkZurtgxHP-gOJ0-SnVuJOSgGKVEW4,43
+migrado-0.6.11.dist-info/RECORD,,
