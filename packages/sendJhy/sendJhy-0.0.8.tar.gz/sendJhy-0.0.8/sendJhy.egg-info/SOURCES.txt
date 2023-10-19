@@ -1,0 +1,6 @@
+setup.py
+sendJhy.egg-info/PKG-INFO
+sendJhy.egg-info/SOURCES.txt
+sendJhy.egg-info/dependency_links.txt
+sendJhy.egg-info/not-zip-safe
+sendJhy.egg-info/top_level.txt
