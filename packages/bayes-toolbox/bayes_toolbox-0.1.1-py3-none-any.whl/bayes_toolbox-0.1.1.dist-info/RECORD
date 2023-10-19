@@ -1,0 +1,9 @@
+tests/.coverage,sha256=vpC0xOptefqCKnBu2fWeEujctK5QHkEdbgOJUDS3jDg,167936
+tests/coverage.svg,sha256=w1wZTlCn7tWqT1zjKb-VahpbA57WSD75EGhSZ6oSgEk,904
+tests/test_glm.py,sha256=UWGP9livBS7i497Yp0F2em7rwXYUbe-Rjm_yKL5FaXU,15748
+tests/test_meta.py,sha256=sj5AhL16YKI-TAfG37H2fs5pcXPXog9XwX2BaPfpV5I,1319
+bayes_toolbox-0.1.1.dist-info/LICENSE,sha256=pGJnMbtDHiDq16wooQ_BOkXLjEFkD9WANX9VR41WD8A,3216
+bayes_toolbox-0.1.1.dist-info/METADATA,sha256=71vjrK6xgInFUTYFcf_cJRmkXq52Z6XjKzkZdXejnf4,3224
+bayes_toolbox-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bayes_toolbox-0.1.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+bayes_toolbox-0.1.1.dist-info/RECORD,,
