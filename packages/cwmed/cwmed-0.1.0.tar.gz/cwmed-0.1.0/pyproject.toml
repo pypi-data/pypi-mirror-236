@@ -1,0 +1,29 @@
+[project]
+name = "cwmed"
+version = "0.1.0"
+description = "Crosswalk Medical: crosswalk between source and target medical terminologies."
+authors = [
+  { name="The Laboratory for Computational Physiology", email="contact@physionet.org" },
+]
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+
+
+dependencies = [
+  "requests >= 2.8.1",
+  "pandas >= 1.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/MIT-LCP/cwmed"
+"Bug Tracker" = "https://github.com/MIT-LCP/cwmed"
+
+[tool.setuptools]
+packages=["cwmed"]
