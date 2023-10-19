@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+wzmlx_dl/__init__.py
+wzmlx_dl/anime_api.py
+wzmlx_dl/processor.py
+wzmlx_dl/utils.py
+wzmlx_dl.egg-info/PKG-INFO
+wzmlx_dl.egg-info/SOURCES.txt
+wzmlx_dl.egg-info/dependency_links.txt
+wzmlx_dl.egg-info/requires.txt
+wzmlx_dl.egg-info/top_level.txt
+wzmlx_dl/static/N_m3u8DL-RE
+wzmlx_dl/static/N_m3u8DL-RE.exe
+wzmlx_dl/static/languages_info.json
