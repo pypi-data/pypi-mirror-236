@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: TimerMiddleware
+Version: 0.6.3
+Summary: add timing instrumentation to WSGI applications
+Home-page: http://sourceforge.net/p/timermiddleware
+License: Apache 2.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: System :: Benchmark
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: webob
+
+TimerMiddleware is a Python package for adding timing instrumentation to WSGI applications.
