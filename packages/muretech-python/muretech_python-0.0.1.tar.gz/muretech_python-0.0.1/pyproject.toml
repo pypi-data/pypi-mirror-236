@@ -1,0 +1,44 @@
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
+
+[tool.poetry]
+name = "muretech-python"
+version = "0.0.1"                                    # This is replaced by dynamic versioning
+description = "Python SDK for Muretech Platform Integration"
+authors = ["Muretech <tech@muretech.fr>"]
+license = "MIT"
+repository = "https://github.com/muretech/muretech-python"
+readme = "README.md"
+packages = [{ include = "muretech" }]
+
+[tool.poetry-dynamic-versioning]
+strict = true
+enable = false
+vcs = "git"
+style = "semver"
+format-jinja = "{% if distance == 0 %}{{ base }}{% else %}{{ base }}{% endif %}"
+pattern = "default-unprefixed"
+
+[tool.poetry-dynamic-versioning.substitution]
+files = ["*/__init__.py"]
+folders = [{ path = "muretech" }]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+aiohttp = "^3.8.5"
+pyjwt = "^2.8.0"
+cryptography = "^41.0.3" # pyjwt has a weak dependency on cryptography
+pyopenssl = "^23.2.0"    # pyopenssl is required to work with cryptography 41+
+requests = "^2.31.0"
+auth0-python = "^4.4.2"
+
+[tool.poetry.group.dev.dependencies]
+aioresponses = "^0.7.4"
+mock = "^5.1.0"
+pipx = "^1.2.0"
+pytest = "^7.4.0"
+pytest-aiohttp = "^1.0.4"
+pytest-asyncio = "^0.21.1"
+pytest-cov = "^4.1.0"
+responses = "^0.23.3"
