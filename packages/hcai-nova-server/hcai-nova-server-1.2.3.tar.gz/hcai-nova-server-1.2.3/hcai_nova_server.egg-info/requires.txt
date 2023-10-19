@@ -1,0 +1,5 @@
+flask
+waitress
+hcai-nova-utils>=1.2.7
+python-dotenv
+psutil
