@@ -1,0 +1,3 @@
+[pytest11]
+rehydra_pytest = rehydra.extra.pytest_plugin
+
