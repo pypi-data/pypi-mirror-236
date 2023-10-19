@@ -1,0 +1,7 @@
+Readme.md
+pyproject.toml
+basicscore.egg-info/PKG-INFO
+basicscore.egg-info/SOURCES.txt
+basicscore.egg-info/dependency_links.txt
+basicscore.egg-info/requires.txt
+basicscore.egg-info/top_level.txt
