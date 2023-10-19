@@ -1,0 +1,3 @@
+aioamqp
+anyio>=4
+exceptiongroup>=1.1.3
