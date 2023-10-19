@@ -1,0 +1,14 @@
+README.md
+setup.py
+fsevector/__init__.py
+fsevector/__version__.py
+fsevector/fsevector.py
+fsevector.egg-info/PKG-INFO
+fsevector.egg-info/SOURCES.txt
+fsevector.egg-info/dependency_links.txt
+fsevector.egg-info/requires.txt
+fsevector.egg-info/top_level.txt
+fsevector/fsedocstore/__init__.py
+fsevector/fsedocstore/docstore.py
+fsevector/fsedocstore/fseapi.py
+fsevector/fsedocstore/postgres.py
