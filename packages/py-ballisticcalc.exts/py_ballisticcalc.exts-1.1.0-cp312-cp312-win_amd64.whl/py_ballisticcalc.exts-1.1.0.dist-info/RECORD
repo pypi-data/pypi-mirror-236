@@ -1,0 +1,13 @@
+py_ballisticcalc_exts/__init__.py,sha256=1NMWtuLLJh3tN0DF4FWumjwlSxRPkaTMoyq2FcHEJtA,162
+py_ballisticcalc_exts/drag_model.c,sha256=rvyRWbuEJ4c0krpS9Re5PN5-ORQMo6SvVBC79zDpiLo,562879
+py_ballisticcalc_exts/drag_model.cp312-win_amd64.pyd,sha256=X6BWN5E-aF-54tnnEf62c8s7EIaCoSaAJ-cWjPPedZ4,87552
+py_ballisticcalc_exts/drag_model.pyi,sha256=RenG26vmqRPCg0arRt2cfj4yTcu3E-BqAGQ7PZIozPQ,892
+py_ballisticcalc_exts/drag_model.pyx,sha256=_YrOlbh7fXMw-bAarOz0PbqT5Sbe9cY0-LdO9rMBB50,2780
+py_ballisticcalc_exts/trajectory_calc.c,sha256=AQRq3mZtl-K4JzJ8gk9n2toMcAmWgvaUNit3XrO9utE,846237
+py_ballisticcalc_exts/trajectory_calc.cp312-win_amd64.pyd,sha256=U30O9jPv5enIdzpShaAfSnv6CfJ4iXQqadHIV2F2a_A,142848
+py_ballisticcalc_exts/trajectory_calc.pyx,sha256=igdym3GINYZ3xreQeaCTwnKBrncLI4DweIoNrdSiS-M,18604
+py_ballisticcalc.exts-1.1.0.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+py_ballisticcalc.exts-1.1.0.dist-info/METADATA,sha256=EiECqCg7tUHsZ5w6KS0YnXyUKOLu6aqs1-QdQHh1B9E,17939
+py_ballisticcalc.exts-1.1.0.dist-info/WHEEL,sha256=aDrgWfEd5Ac7WJzHsr90rcMGiH4MHbAXoCWpyP5CEBc,102
+py_ballisticcalc.exts-1.1.0.dist-info/top_level.txt,sha256=PUuca7fmBjPxHDzUzWYfb2pi6j54yVqvF0hsu6lJPZY,22
+py_ballisticcalc.exts-1.1.0.dist-info/RECORD,,
