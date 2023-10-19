@@ -1,0 +1,17 @@
+s3eval/1.py,sha256=WVJoPW3xWMVkwMxveiQT_pGkA70nRjIWNrHw562krjE,137
+s3eval/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3eval/convert_csv.py,sha256=ZKCqWmbv21Vp6DuQuGUVEgMchDQBoAXS1WJe9NMNE5w,2211
+s3eval/custom_template.py,sha256=uI9RHdFFWEwl8iwmQGAPeNPe_X8ZBCSMFb9Z7j3cqmg,17019
+s3eval/custom_template_parser.py,sha256=oXjSb5Od9fvWsxZIH47DS_DCo966T3A8co8QMlS3fzA,11752
+s3eval/general.py,sha256=D3E3nmKP8FV-iGF6oTzu72WL7hOlAiJWORdnvnJGfAc,32025
+s3eval/parser.py,sha256=humlAsNSKySmqlGQ3iQZ8PkPYvHNe0IYmVsBDmdkahY,1494
+s3eval/s3eval.py,sha256=QG6ShvGkEgSNnYlJ-rN9imasZ3v0rsKNDOdCG3m0mlI,7051
+s3eval/setup.py,sha256=tyAIPQ9rL6K2CVg9btSRpxE6ckXBGpWtXbwxxdp4kGk,925
+s3eval/table_utils.py,sha256=bf7LsXNUWBgk075OOrW7p3KbyI2Q805TnpjLWAKatDo,9758
+s3eval/value_utils.py,sha256=18F3wqBQ1OkQaIzQlh0WR6ibWzjdJfMsaz__S_zBPDk,4071
+s3eval/figs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3eval/template/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3eval-0.3.0.dist-info/METADATA,sha256=wCnjVCcwVbKwDoL0Aedqhr-rI-aei_cItHd6eRjvem4,616
+s3eval-0.3.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+s3eval-0.3.0.dist-info/top_level.txt,sha256=LjMLUd-n3OAgrBo-NvoxSwoZKCnAhj8VLYE8MfnrCgo,7
+s3eval-0.3.0.dist-info/RECORD,,
