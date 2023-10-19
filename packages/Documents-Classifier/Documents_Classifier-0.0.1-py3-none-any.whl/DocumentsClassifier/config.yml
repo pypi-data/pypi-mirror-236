@@ -1,0 +1,12 @@
+models:
+  classify_model: 'fptinters/DocClass-classify-model'
+  text_model: 'cl-nagoya/defsent-bert-base-uncased-cls'
+  image_model: 'fptinters/DocClass-classify-model'
+
+dataset: ''
+
+parameters:
+  img_weight: 0.8
+  txt_weight: 0.2
+  epsilon_dbscan: 0.035
+  min_samples: 2
