@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lambda_labs_wrapper"
+version = "0.0.1"
+authors = [
+  { name="Liam Earley", email="liamearley7@gmail.com" },
+]
+description = "A python wrapper for the lambda labs API."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Liam-E2/lambda_labs_wrapper"
