@@ -1,0 +1,9 @@
+pillow>=5.0.0
+
+[dev]
+nox
+flake8
+pytest
+black
+sphinx
+sphinx-rtd-theme
