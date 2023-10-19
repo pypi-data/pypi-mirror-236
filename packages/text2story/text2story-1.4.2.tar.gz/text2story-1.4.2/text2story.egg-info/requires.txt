@@ -1,0 +1,17 @@
+joblib
+spacy
+py-heideltime
+importlib_metadata
+pandas<2.0.0
+plantuml
+matplotlib
+networkx
+netgraph
+pytorch-crf
+transformers
+torch
+pdf2image
+latexcompiler
+nltk
+thinc
+beautifulsoup4
