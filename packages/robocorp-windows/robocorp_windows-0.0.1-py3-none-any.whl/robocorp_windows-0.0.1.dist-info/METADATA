@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: robocorp-windows
+Version: 0.0.1
+Summary: Robocorp Windows Automation (API to automate Windows)
+Home-page: https://github.com/robocorp/robo/
+License: Apache-2.0
+Author: Fabio Z.
+Author-email: fabio@robocorp.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: comtypes (>=1.1,<2.0)
+Requires-Dist: pillow (>=10.0.1,<11.0.0)
+Requires-Dist: psutil (>=5.9.0,<6.0.0)
+Requires-Dist: pywin32 (>=300,<304) ; python_full_version != "3.8.1" and sys_platform == "win32"
+Project-URL: Repository, https://github.com/robocorp/robo/
+Description-Content-Type: text/markdown
+
+docs/README.md
