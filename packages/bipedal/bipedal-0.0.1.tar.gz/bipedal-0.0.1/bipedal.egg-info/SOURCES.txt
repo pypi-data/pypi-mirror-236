@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+bipedal/__init__.py
+bipedal/bipedal.py
+bipedal.egg-info/PKG-INFO
+bipedal.egg-info/SOURCES.txt
+bipedal.egg-info/dependency_links.txt
+bipedal.egg-info/top_level.txt
