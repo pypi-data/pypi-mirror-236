@@ -1,0 +1,11 @@
+README.rst
+pyproject.toml
+src/kestrel_analytics_python/__init__.py
+src/kestrel_analytics_python/config.py
+src/kestrel_analytics_python/interface.py
+src/kestrel_analytics_python.egg-info/PKG-INFO
+src/kestrel_analytics_python.egg-info/SOURCES.txt
+src/kestrel_analytics_python.egg-info/dependency_links.txt
+src/kestrel_analytics_python.egg-info/requires.txt
+src/kestrel_analytics_python.egg-info/top_level.txt
+tests/test_python_analytics.py

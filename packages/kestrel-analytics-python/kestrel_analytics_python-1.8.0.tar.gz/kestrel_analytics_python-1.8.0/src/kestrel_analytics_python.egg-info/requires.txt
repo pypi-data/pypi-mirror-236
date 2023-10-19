@@ -1,0 +1,5 @@
+kestrel_core>=1.8.0
+
+[test]
+pytest
+kestrel_datasource_stixbundle
