@@ -1,0 +1,30 @@
+Aina Theme is a custom Gradio theme inspired by the visual style of Storj theme. Feel free to use this theme to create Gradio apps that have a visual connection to the world of cloud technology.
+
+### How to edit Aina Gradio Theme colors and properties?
+
+In case you would like to change theme properties, just edit ```AinaTheme/__init__.py``` file.
+
+There are custom colors that you can set at ```utils/custom_colors.py```.
+
+### How to use this theme in my Gradio app?
+First install the theme package.
+```bash
+pip install git+https://gitlab.bsc.es/projecte-aina/aina-gradio-theme@<TAG_VERSION>
+```
+Once you have installed it, add it to the interface/block parameters.
+```
+#Using Blocks instance
+with gr.Blocks(**AinaGradioTheme().get_kwargs()) as demo:
+...
+#Using Interface instance
+iface = gr.Interface(
+    **AinaGradioTheme().get_kwargs(),
+```
+#### NOTE: You need to call the ```get_kwargs``` function.
+
+Why? Because this will spread theme arguments. It needs to be this way because it's mandatory to load the custom CSS.
+
+So just instance the theme using the function.
+```
+**AinaGradioTheme().get_kwargs()
+```
