@@ -1,0 +1,13 @@
+rdata/__init__.py,sha256=ckVBOSuyuRRnOwLIiN76P-c7dyXcY6_qjmAfdd-9-8A,333
+rdata/py.typed,sha256=i0ytqQg05OPbalhC_2IzA_nOUvQN77VMmc4POJKozyI,64
+rdata/conversion/__init__.py,sha256=YLb-qFACl7S_udxgv6Vvme9TgqZTDJMIKV_X2BCvinE,659
+rdata/conversion/_conversion.py,sha256=zrZug-pzIt2e6Tu6egJ0BVaBPKMIgqxTMJFJrISJyZg,24221
+rdata/parser/__init__.py,sha256=gERgHnuJxmWHODfyYECzF1sI9t-8QGlI27JW41lJPY0,310
+rdata/parser/_parser.py,sha256=C77Y91VBop0CYpYv-MWCmDtuzpPUmNp-oSaxRBK8vz4,37041
+rdata/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rdata/tests/test_rdata.py,sha256=wiNTfCIzz7z9KJe92A2ZcLmIA_4Vh32iBe9KAQM5-fk,21526
+rdata-0.9.1.dist-info/LICENSE,sha256=YUifNYEug5BJR2ekDj_XqNLmIEi8FfTldeDT0N0NBoA,1078
+rdata-0.9.1.dist-info/METADATA,sha256=YYixKSocNzTtmz1DI65IdD8EIvafnthVJ6McjTYsHX8,8218
+rdata-0.9.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rdata-0.9.1.dist-info/top_level.txt,sha256=zqfEaYdq9S8sZKU16W4vYpdZQMcI748KUuDkDVBeEqo,6
+rdata-0.9.1.dist-info/RECORD,,
