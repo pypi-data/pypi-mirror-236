@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aws-embedded-metrics-helpers"
+version = "0.1.0"
+authors = [
+  { name="Sabarna Chakravarty", email="sabarnac@gmail.com" },
+]
+description = "Some helper decorators that use the aws-embedded-metrics to make publishing metrics from code a little bit easier"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sabarnac/aws-embedded-metrics-python-helper"
+"Bug Tracker" = "https://github.com/sabarnac/aws-embedded-metrics-python-helper/issues"
