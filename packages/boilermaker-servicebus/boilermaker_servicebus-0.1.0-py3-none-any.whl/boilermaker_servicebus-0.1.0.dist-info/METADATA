@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: boilermaker-servicebus
+Version: 0.1.0
+Summary: An async python Background task system using Azure Service Bus Queues
+License: MIT
+Author: Erik Aker
+Author-email: eraker@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: azure-core-tracing-opentelemetry (>=1.0.0b11,<2.0.0)
+Requires-Dist: azure-identity (>=1.14.0,<2.0.0)
+Requires-Dist: azure-servicebus (>=7.11.1,<8.0.0)
+Requires-Dist: opentelemetry-api (>=1.20.0,<2.0.0)
+Requires-Dist: pydantic (>=2.3.0,<3.0.0)
+Requires-Dist: pydantic-settings (>=2.0.3,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Boilermaker
+
+This project is an extremely-lightweight task-runner exclusively for __async Python__ and Azure Service Bus Queues. If you need a fully fledged task-runner, you should consider one of these other projects instead:
+
+- [Celery](https://github.com/celery/celery/tree/main)
+-
+
+## To Install
+
+```sh
+pip install "boilermaker-servicebus"
+```
+
+
+## FAQ
+
+**Where does the name come from?**
+
+From [here](https://www.discogs.com/artist/632957-Boilermaker)
+
+**Are You Going to Add Other Queue Services?**
+
+No, not planning to. Consider one of the other background-task libraries.
