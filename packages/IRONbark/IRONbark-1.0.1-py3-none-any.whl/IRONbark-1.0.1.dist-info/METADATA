@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: IRONbark
+Version: 1.0.1
+Summary: Inter Process Communication
+Home-page: https://github.com/Zentetsu/IRONbark
+Author: Zentetsu
+License: GPLv3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: SharedMemory
+Requires-Dist: numpy
+
+# IRON-BARK: Inter Process Communication
+A lightweight library allowing the communication between several programs through SharedMemory.
+
+### Features
+* Implementation of a functional version
+* Creation of a communication module by JSON file
+
+### Ongoing
+* Overloading dict methods to call Sender and Listener
+
+### Future improvement
+* Adding remote communication
+
+### More
+[![PyPI version](https://badge.fury.io/py/IRONbark.svg)](https://badge.fury.io/py/IRONbark)
+![Python package](https://github.com/Zentetsu/IRON/workflows/Python%20package/badge.svg?branch=master)
+![Upload Python Package](https://github.com/Zentetsu/IRONbark/workflows/Upload%20Python%20Package/badge.svg)
+[![Python](https://shields.io/badge/python-3.8_|_3.9_|_3.10-blue.svg)](https://www.python.org/downloads/release/python-380/)
+[![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](http://www.gnu.org/licenses/gpl-3.0)
