@@ -1,0 +1,9 @@
+rule infer
+  command = /usr/bin/python3 -m pytype.single --imports_info $imports --module-name $module --platform linux -V 3.10 -o $out --no-report-errors --nofail --quick $in
+  description = infer $module
+rule check
+  command = /usr/bin/python3 -m pytype.single --imports_info $imports --module-name $module --platform linux -V 3.10 -o $out --analyze-annotated --nofail --quick $in
+  description = check $module
+build /mnt/data/daten/PostDoc2/home/Downloads/mininest/tests/.pytype/pyi/test_stepsampling.pyi: check /mnt/data/daten/PostDoc2/home/Downloads/mininest/tests/test_stepsampling.py
+  imports = /mnt/data/daten/PostDoc2/home/Downloads/mininest/tests/.pytype/imports/test_stepsampling.imports
+  module = test_stepsampling
