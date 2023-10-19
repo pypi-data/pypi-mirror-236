@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dooray
+Version: 0.0.1
+Summary: dooray api
+Home-page: https://github.com/mskim8717/dooray
+Author: minsoo.kim
+Author-email: ms.kim8717@gmail.com
+License: MIT
+Keywords: dooray,pydooray,python tutorial,pypi
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Requires-Dist: requests
+
