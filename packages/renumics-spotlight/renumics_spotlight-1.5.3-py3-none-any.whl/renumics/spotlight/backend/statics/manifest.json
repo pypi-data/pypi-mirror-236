@@ -1,0 +1,28 @@
+{
+  "_lib-607f8d06.js": {
+    "file": "lib-607f8d06.js"
+  },
+  "_lib-d635a1ac.cjs": {
+    "file": "lib-d635a1ac.cjs"
+  },
+  "src/lib.ts": {
+    "file": "lib.cjs",
+    "imports": [
+      "_lib-d635a1ac.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/lib.ts"
+  },
+  "src/main.tsx": {
+    "file": "main.cjs",
+    "imports": [
+      "_lib-d635a1ac.cjs"
+    ],
+    "isEntry": true,
+    "src": "src/main.tsx"
+  },
+  "style.css": {
+    "file": "style.css",
+    "src": "style.css"
+  }
+}
