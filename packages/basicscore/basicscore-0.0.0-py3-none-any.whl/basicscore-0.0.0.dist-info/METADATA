@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: basicscore
+Version: 0.0.0
+Summary: Creates basicness-scores of software
+Author-email: Caj Larsson <basic@caj.me>, Billy Bonks <no@example.org>
+Description-Content-Type: text/markdown
+Requires-Dist: tqdm
+Requires-Dist: llama-cpp-python
+Requires-Dist: langchain
+Provides-Extra: dev
+Requires-Dist: ipython ; extra == 'dev'
+
+# Basic
+A basic score
+
