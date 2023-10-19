@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+InfoTest/__init__.py
+InfoTest/testclass.py
+infotest.egg-info/PKG-INFO
+infotest.egg-info/SOURCES.txt
+infotest.egg-info/dependency_links.txt
+infotest.egg-info/requires.txt
+infotest.egg-info/top_level.txt
