@@ -1,0 +1,10 @@
+kestrel_core>=1.8.0
+lxml>=4.9.3
+requests>=2.31.0
+nest-asyncio>=1.5.8
+stix-shifter==6.2.2
+stix-shifter-utils==6.2.2
+
+[test]
+pytest
+stix-shifter-modules-elastic-ecs
