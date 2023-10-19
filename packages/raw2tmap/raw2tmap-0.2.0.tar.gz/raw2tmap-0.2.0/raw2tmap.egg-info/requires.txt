@@ -1,0 +1,9 @@
+click
+ome-zarr
+scikit-image
+tifffile
+tissuumaps-schema~=1.0
+tqdm
+
+[dzi]
+pyvips
