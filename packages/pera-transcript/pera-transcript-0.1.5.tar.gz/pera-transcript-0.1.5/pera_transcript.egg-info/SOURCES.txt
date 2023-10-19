@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pera_transcript/__init__.py
+pera_transcript/autogen_transcript.py
+pera_transcript.egg-info/PKG-INFO
+pera_transcript.egg-info/SOURCES.txt
+pera_transcript.egg-info/dependency_links.txt
+pera_transcript.egg-info/entry_points.txt
+pera_transcript.egg-info/requires.txt
+pera_transcript.egg-info/top_level.txt
