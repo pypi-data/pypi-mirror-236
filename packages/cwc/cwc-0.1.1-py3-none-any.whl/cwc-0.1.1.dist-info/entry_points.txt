@@ -1,0 +1,3 @@
+[console_scripts]
+cwc = cwc._cwc:main
+

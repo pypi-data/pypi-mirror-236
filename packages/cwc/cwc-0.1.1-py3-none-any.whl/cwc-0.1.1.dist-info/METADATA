@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: cwc
+Version: 0.1.1
+Summary: cwc description
+Home-page: https://github.com/kirin123kirin/cwc
+Author: kirin123kirin
+Author-email: kirin123kirin@gmail.com
+License: MIT
+Keywords: wordcloud
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools >=42
+Requires-Dist: wheel
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: psutil ; extra == 'test'
+
+# cwc  by Python Library
+[![Upload pypi.org](https://github.com/kirin123kirin/cwc/actions/workflows/pypi.yml/badge.svg?branch=v0.1.1)](https://github.com/kirin123kirin/cwc/actions/workflows/pypi.yml)
+
+# Overview
+TODO
+
+# Goal
+* TODO
+
+# Implementation
+TODO
+
+# Install
+```
+$ pip install cwc
+```
+
+# UnInstall
+```
+$ pip uninstall cwc
+```
+
+# Requirement
+* python3.6 later.
+
+# Liscense
+* [MIT Liscense](https://github.com/kirin123kirin/cwc/blob/master/LICENSE)
+
+# run command Environment
+* Windows
+* Linux
+* Mac OSX
+
+# Usage
+TODO
+
+# Example
+TODO
+
+# Perfomance
+TODO
+
+# Libraries used
+* TODO
+
+# References used
+* TODO
+
+
