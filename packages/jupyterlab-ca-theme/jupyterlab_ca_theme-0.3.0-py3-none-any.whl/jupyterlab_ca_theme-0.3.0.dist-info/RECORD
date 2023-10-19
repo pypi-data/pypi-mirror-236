@@ -1,0 +1,16 @@
+jupyterlab_ca_theme/__init__.py,sha256=QcXp5SWLu-GpvKU7MunSBQppqvEOhuBjO7GtVqnGDyw,596
+jupyterlab_ca_theme/_version.py,sha256=aOysgEbG8kB7jDc1ZTNz9fEDhqpLGVE-VOVeCCKqcsE,175
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/build_log.json,sha256=bT5vfff1NfyPq5npf7kp_03m2fdvkgWTTUoEncP1iY0,21820
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/package.json,sha256=56AqAwIfCOLN2kOU-MOmA-Tp8qphjRyaVpY2r3LOMew,5580
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/static/lib_index_js.8a795686dbdd04582b89.js,sha256=WBaZpkpu_DHQ6PuUBndAkPQb8y4_aszGq5F4THHYdgk,1716
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/static/lib_index_js.8a795686dbdd04582b89.js.map,sha256=QjMD3iTvsEhi-TqZKgF-ccKL1VdKlEIC6RptybdbGq0,1545
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/static/remoteEntry.68f502333772d90d2a54.js,sha256=uJvnI2FG1tbEbwTL4PRmxd8I7JeOw-i67E2CA8EFv0k,27084
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/static/remoteEntry.68f502333772d90d2a54.js.map,sha256=dkpF_yF1HPk3tOP7NQojHlGW2pE6TU_4Z1I1s1HEdow,25841
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/themes/jupyterlab-ca-theme/index.css,sha256=E-fYHopdADC9o6tpInqdEw7jpCZnF2ghQZaVE9zgvoc,26657
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/themes/jupyterlab-ca-theme/index.js,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterlab_ca_theme-0.3.0.data/data/share/jupyter/labextensions/jupyterlab-ca-theme/install.json,sha256=R7B1OBvGZHl_oDk8n-rdEHj1Il934gcWh72UjFsjrTc,199
+jupyterlab_ca_theme-0.3.0.dist-info/METADATA,sha256=5g3cQj4hIC0jscmliTLNaST0ElBnpzBlgx8c1hF0ZNY,5308
+jupyterlab_ca_theme-0.3.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+jupyterlab_ca_theme-0.3.0.dist-info/licenses/LICENSE,sha256=3GXahExGTAPfJXX3lzT26TlUTt77aTRl1gVlAyjcuuc,1518
+jupyterlab_ca_theme-0.3.0.dist-info/RECORD,,
