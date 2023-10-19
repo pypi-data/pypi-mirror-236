@@ -1,0 +1,6 @@
+--extra-index-url https://test.pypi.org/simple
+projectaria_client_sdk
+
+opencv-python
+fastplotlib
+glfw
