@@ -1,0 +1,16 @@
+LICENSE
+pyproject.toml
+BrainLes_HD_BET.egg-info/PKG-INFO
+BrainLes_HD_BET.egg-info/SOURCES.txt
+BrainLes_HD_BET.egg-info/dependency_links.txt
+BrainLes_HD_BET.egg-info/entry_points.txt
+BrainLes_HD_BET.egg-info/requires.txt
+BrainLes_HD_BET.egg-info/top_level.txt
+brainles_hd_bet/__init__.py
+brainles_hd_bet/config.py
+brainles_hd_bet/data_loading.py
+brainles_hd_bet/hd_bet.py
+brainles_hd_bet/network_architecture.py
+brainles_hd_bet/predict_case.py
+brainles_hd_bet/run.py
+brainles_hd_bet/utils.py
