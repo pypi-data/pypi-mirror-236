@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: seance4d
+Version: 0.0.59
+Summary: A seance simulator.
+Home-page: https://gitlab.com/MartinPaulEve/seance4d
+Author: Martin Paul Eve
+Author-email: martin@eve.gd
+Maintainer-email: Martin Paul Eve <martin@eve.gd>
+Project-URL: homepage, https://eve.gd
+Project-URL: documentation, https://eve.gd
+Project-URL: repository, https://github.com/MartinPaulEve/seance4d
+Keywords: performance
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: SpeechRecognition
+Requires-Dist: pydub
+Requires-Dist: scipy
+Requires-Dist: sounddevice
+Requires-Dist: PyAudio
+Requires-Dist: wave
+Requires-Dist: openai
+Requires-Dist: gTTS
+Requires-Dist: rich
+Requires-Dist: pyalsaaudio
+Requires-Dist: click
+
+# Fourth-Dimensional Seance Simulator
+A Victorian seance simulator using OpenAI and voice recognition.
+
+
+&copy; Martin Paul Eve 2023
