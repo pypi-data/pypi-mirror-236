@@ -1,0 +1,6 @@
+matplotlib>=3.7
+numpy
+scipy>=1.10
+swifter
+scikit-learn
+mtmtool
