@@ -1,0 +1,17 @@
+EXgen/EXgen.py,sha256=Zi0qwhfItTQ4_gbjrZ9lse5KFQFpbCIPOwJv8zq1Ko8,14188
+EXgen/__init__.py,sha256=Ixjcvc7RHgamWfy1L6o5MH01LDM4thbQnS_z1Ku0CDM,24
+EXgen/templates/homework_template.tex,sha256=JQbu-o3xtPpk8u-2ES3lqMPkV6jd9ReFE6Mm0tgRoL8,1631
+EXgen/templates/figures/TUG_logo-eps-converted-to.pdf,sha256=ByraS6CKlOu6a4MTA872UisnSoafEfIlUzo12_7xUKM,3758
+EXgen/templates/figures/TUG_logo.eps,sha256=cWme2TePrxqAHacgyYMsB8wPXzEXAMxctBwaga5Mm8Q,92363
+EXgen/templates/figures/igte_logo-eps-converted-to.pdf,sha256=f3gahyiXtyy_lJkkYqqUYnw4obtiwDt5LLoi8Yl-dwo,6128
+EXgen/templates/figures/igte_logo.eps,sha256=tNVfLeYea0IyQGxqsRtcPjswaYimux8iSojjsJ5kfaI,19880
+EXgen/util/__init__.py,sha256=NI0s6Fc2v91kkU9eAuBEbTztaA6tqTi9LbN53Q_3UB8,32
+EXgen/util/expression_handler.py,sha256=0oSJ9o14QehTaYFo-4Smoxo0-uGAFzWV3Woo0Y9Tovk,1747
+EXgen/util/solver_functions.py,sha256=2QOaLTKOjIQTUIsDl3fR7kQNTOUD-X01HfZGQgIJ6D8,6060
+EXgen/util/util.py,sha256=ICNP2Auji6cEXrzz8I5HwcofosSpItpZP3Oe-wDI2JU,1420
+EXgen-0.1.1.data/scripts/generate-ex,sha256=TVvJ-qzchezT2DVOixaDvf7D1N-j9JnhhFhE7RF0KeI,362
+EXgen-0.1.1.dist-info/LICENSE,sha256=KGmQFwlj1sfmZI5WGgqDngDCPDmy_7ZR-yi0Ef6rkXw,1060
+EXgen-0.1.1.dist-info/METADATA,sha256=taTvFb2g70A8VlTmZJlrlQzAmhIG9_cpFC1xT8uhGKw,694
+EXgen-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+EXgen-0.1.1.dist-info/top_level.txt,sha256=vA0H3pWY-oQO_kXmwfWhdMfYYyo-CNHqExtj9cTG24M,6
+EXgen-0.1.1.dist-info/RECORD,,

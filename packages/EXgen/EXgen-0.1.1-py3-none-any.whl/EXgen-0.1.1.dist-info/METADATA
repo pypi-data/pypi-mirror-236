@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: EXgen
+Version: 0.1.1
+Summary: Exercise and Exam generating library for electrical engineering.
+Home-page: https://www.tugraz.at/institute/igte/home/
+Author: Eniz Museljic
+Author-email: emuseljic@tugraz.at
+Keywords: generate,exam,exercise,latex
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: pyyaml ==6.0
+Requires-Dist: lcapy ==1.7
+Requires-Dist: sympy ==1.11.1
+Requires-Dist: tqdm ==4.66.1
+Requires-Dist: numpy ==1.26.0
+Requires-Dist: ypstruct
+
