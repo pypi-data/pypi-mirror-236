@@ -1,0 +1,8 @@
+tcurses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tcurses/example.py,sha256=8cK5iJ_mEOdfwLRNcT4CQthoFCaacwV1qXCZ6ejIilc,1115
+tcurses/wrap_tkinter.py,sha256=mpEQ6cniD9LMNL6Yo615GqQ3UdE3Vh4KGN-BA-K2Y_8,11155
+tcurses-0.0.3.dist-info/LICENSE,sha256=Otf7ocwqAvWalQUuSq3dUnTG18NgjYAlw3kwBg7pWs8,1074
+tcurses-0.0.3.dist-info/METADATA,sha256=uajGw0VHTJE8pplhnBtU3uCsZhzBwT-k8fzSM4pSZQE,608
+tcurses-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tcurses-0.0.3.dist-info/top_level.txt,sha256=42gk9uCjJ7aTMgT3jqtQhgizSNaKBN0s-QQ-w37kQ6I,8
+tcurses-0.0.3.dist-info/RECORD,,
