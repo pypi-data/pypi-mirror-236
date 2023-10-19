@@ -1,0 +1,10 @@
+num2words
+numpy
+onnxruntime
+ruaccent
+scipy
+sentencepiece
+sounddevice
+tok
+transformers
+transliterate

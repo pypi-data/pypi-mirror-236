@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.py
+TeraTTS/__init__.py
+TeraTTS/infer_onnx.py
+TeraTTS.egg-info/PKG-INFO
+TeraTTS.egg-info/SOURCES.txt
+TeraTTS.egg-info/dependency_links.txt
+TeraTTS.egg-info/requires.txt
+TeraTTS.egg-info/top_level.txt
+TeraTTS/tokenizer/__init__.py
+TeraTTS/tokenizer/g2p/__init__.py
+TeraTTS/tokenizer/g2p/g2p.py
+TeraTTS/tokenizer/g2p/tokenizer.py
