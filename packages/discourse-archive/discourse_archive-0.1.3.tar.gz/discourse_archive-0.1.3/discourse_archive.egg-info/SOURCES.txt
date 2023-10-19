@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+discourse_archive.egg-info/PKG-INFO
+discourse_archive.egg-info/SOURCES.txt
+discourse_archive.egg-info/dependency_links.txt
+discourse_archive.egg-info/entry_points.txt
+discourse_archive.egg-info/top_level.txt
