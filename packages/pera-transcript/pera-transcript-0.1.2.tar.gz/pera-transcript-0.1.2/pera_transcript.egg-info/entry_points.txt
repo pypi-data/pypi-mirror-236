@@ -1,0 +1,2 @@
+[console_scripts]
+autogen_transcript = pera_transcript.autogen_transcript:main
