@@ -1,0 +1,2 @@
+[console_scripts]
+rpst = rpst.main:run
