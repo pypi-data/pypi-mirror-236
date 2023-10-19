@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: up-nextflap
+Version: 0.1.5
+Summary: up_nextflap
+Home-page: https://github.com/aiplan4eu/up-nextflap
+Author: Oscar Sapena
+Author-email: ossaver@upv.es
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: unified-planning
+
+============================================================
+    UP_NEXTFLAP
+ ============================================================
