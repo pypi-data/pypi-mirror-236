@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+sec_stream/__init__.py
+sec_stream/stream.py
+sec_stream/tickers.json
+sec_stream.egg-info/PKG-INFO
+sec_stream.egg-info/SOURCES.txt
+sec_stream.egg-info/dependency_links.txt
+sec_stream.egg-info/requires.txt
+sec_stream.egg-info/top_level.txt
