@@ -1,0 +1,10 @@
+tencentcloud/__init__.py,sha256=TKQ6g2D4hewACvtPeOuPfr3Qv9Tjs0DxRGAWnvEH9d4,631
+tencentcloud/oceanus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/oceanus/v20190422/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tencentcloud/oceanus/v20190422/errorcodes.py,sha256=9u3-zJ82qjdrjcbR0z-TBLrk77MlHf7g5N4iNTDtO7E,10628
+tencentcloud/oceanus/v20190422/models.py,sha256=kBfYdRVJc0WDIRa0UY0K5WWIjXuD7eZuGaW5Ny84JMQ,275144
+tencentcloud/oceanus/v20190422/oceanus_client.py,sha256=V_ZRyNg7JVtnZ6qLdZ-i41VRDD3OoHvpKP14COiob-I,31649
+tencentcloud_sdk_python_oceanus-3.0.1002.dist-info/METADATA,sha256=7MtxuTx3g-APboQEPFrLYLBQ2KvVBCMz7Zb512OVyZE,1512
+tencentcloud_sdk_python_oceanus-3.0.1002.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+tencentcloud_sdk_python_oceanus-3.0.1002.dist-info/top_level.txt,sha256=g-8OyzoqI6O6LiS85zkeNzhB-osEnRIPZMdyRd_0eL0,13
+tencentcloud_sdk_python_oceanus-3.0.1002.dist-info/RECORD,,
