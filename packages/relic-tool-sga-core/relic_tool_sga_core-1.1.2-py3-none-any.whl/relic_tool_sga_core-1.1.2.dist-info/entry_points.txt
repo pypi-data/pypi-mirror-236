@@ -1,0 +1,10 @@
+[fs.opener]
+sga = relic.sga.core.filesystem:EssenceFSOpener
+
+[relic.cli]
+sga = relic.sga.core.cli:RelicSgaCli
+
+[relic.cli.sga]
+pack = relic.sga.core.cli:RelicSgaPackCli
+repack = relic.sga.core.cli:RelicSgaRepackCli
+unpack = relic.sga.core.cli:RelicSgaUnpackCli
