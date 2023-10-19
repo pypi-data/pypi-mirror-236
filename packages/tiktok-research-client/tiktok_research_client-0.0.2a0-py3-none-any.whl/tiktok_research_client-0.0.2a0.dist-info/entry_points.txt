@@ -1,0 +1,3 @@
+[console_scripts]
+tiktok-research-client=tiktok_research_client.__main__:main
+
