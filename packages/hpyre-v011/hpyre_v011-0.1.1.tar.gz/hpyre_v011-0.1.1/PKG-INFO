@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hpyre_v011
+Version: 0.1.1
+Summary: Electroporation data analysis
+Home-page: UNKNOWN
+Author: Pedro Paulo
+Author-email: <ppaulo437@gmail.com>
+License: UNKNOWN
+Keywords: python,electroporation,fft
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+A package that allows to analyze electroporation data(voltage and current).
+
