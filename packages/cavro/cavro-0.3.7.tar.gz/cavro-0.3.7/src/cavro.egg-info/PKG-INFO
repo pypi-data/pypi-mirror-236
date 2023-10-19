@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: cavro
+Version: 0.3.7
+Summary: avro codec implemented with Cython
+Home-page: https://cavro.io/
+Author: Stephen Stagg
+Author-email: Steve Stagg <ste@sta.gg>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.8.0
+License-File: LICENSE
+Requires-Dist: numpy
+Provides-Extra: test
+Requires-Dist: avro<1.11; extra == "test"
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: click; extra == "test"
+
+# cavro 
+
+An Avro serializer/deserializer for python written in cython.
+
+[Documentation](https://cavro.io/) and user guide here:
+
+https://cavro.io/
+
+
+Designed to be fast and usable.

@@ -1,0 +1,21 @@
+[project]
+name = "cavro"
+description = "avro codec implemented with Cython"
+version = "0.3.7"
+authors = [
+    { name = "Steve Stagg", email = "ste@sta.gg" }
+]
+dependencies = [
+    "numpy",
+]
+dynamic=["readme", "requires-python", "license", "classifiers"]
+
+[project.optional-dependencies]
+test = [
+    "avro<1.11", # Due to bug AVRO-3842 (and others), more recent avro versions aren't suitable for testing/benchmarks
+    "pytest",
+    "click",
+]
+
+[build-system]
+requires = ["cython", "setuptools", "wheel"]

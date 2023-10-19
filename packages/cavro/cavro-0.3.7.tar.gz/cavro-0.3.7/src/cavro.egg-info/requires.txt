@@ -1,0 +1,6 @@
+numpy
+
+[test]
+avro<1.11
+pytest
+click
