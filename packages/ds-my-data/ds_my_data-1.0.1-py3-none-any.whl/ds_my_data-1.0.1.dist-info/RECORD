@@ -1,0 +1,15 @@
+my_data/__init__.py,sha256=K_98EX5zLFfX4hxK7UYX200mohHBixnUmy0bh4vtxao,1524
+my_data/context.py,sha256=Wnhqhc1j_tCavC6CsETyrh8VD_4wBoPuh56TMyYct58,6696
+my_data/context_data.py,sha256=ITGMd_OrcnT0REmSWTYOXmAkPriEubsmB_p-Om8PZnw,1474
+my_data/creators.py,sha256=eEEkMceeER4mnC5CYeM06lCif4-NAGSoeNqXYk4gZmU,5132
+my_data/data_manipulator.py,sha256=mP4lhde3k92knXC2CRB_vJWpgsuXzn7hZPpRUEupJPY,4341
+my_data/deleters.py,sha256=YrmvJqISF0etBdsshk8wCatqUOKlvoG9zmocGqm98wM,3854
+my_data/exceptions.py,sha256=N5diIQjFj44N-l_wnA5YqaIIxp7NGFB99j1y6-Jxg5A,866
+my_data/my_data.py,sha256=YLXDwgM9Q3U6muilouRZNLevLDPV9YRSd6IuBYy7goc,13394
+my_data/resource_manager.py,sha256=JJ-JlW91F6EIOopGLQ7qAnVEuJDDfPaj1Y2vRgfureE,5048
+my_data/retrievers.py,sha256=pUXftEi4zDr1spnsTxWLUDFMZOiYAgsiMEcLOKaqOZU,5191
+my_data/updaters.py,sha256=kOHjJ71HmtLjmRQkF82-59l0yDxiuXEVNxGBufNiJt8,3849
+ds_my_data-1.0.1.dist-info/LICENSE.md,sha256=lYsu90Ob2yeLnNilKqKYEL77ekUKRsgbYf_P2euNd8s,1058
+ds_my_data-1.0.1.dist-info/METADATA,sha256=BjDWeqW7Q6NvaMdbsRqFBgf_Q_LHUyq-vEHq8v0Q57E,1505
+ds_my_data-1.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ds_my_data-1.0.1.dist-info/RECORD,,
