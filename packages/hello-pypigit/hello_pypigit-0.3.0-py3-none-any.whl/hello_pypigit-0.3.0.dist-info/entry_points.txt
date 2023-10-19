@@ -1,0 +1,3 @@
+[console_scripts]
+hello-pypigit-pic = hello_pypigit.pic:pic
+
