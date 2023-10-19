@@ -1,0 +1,182 @@
+{
+    "1_1_8": {
+        "layernum1_bsz8_rank0_ms": 11249.66748046875,
+        "layernum1_bsz8_rank0_act": 1789.33056640625,
+        "layernum1_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum1_bsz8_rank7_ms": 11249.71533203125,
+        "layernum1_bsz8_rank7_act": 1789.33056640625,
+        "layernum1_bsz8_rank7_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank0_ms": 14322.92822265625,
+        "layernum2_bsz8_rank0_act": 2526.61279296875,
+        "layernum2_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank7_ms": 14323.02392578125,
+        "layernum2_bsz8_rank7_act": 2526.61279296875,
+        "layernum2_bsz8_rank7_act_peak": 2040.0009765625
+    },
+    "1_2_4": {
+        "layernum1_bsz8_rank0_ms": 9713.44873046875,
+        "layernum1_bsz8_rank0_act": 1886.39306640625,
+        "layernum1_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum1_bsz8_rank7_ms": 9713.49658203125,
+        "layernum1_bsz8_rank7_act": 1886.39306640625,
+        "layernum1_bsz8_rank7_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank0_ms": 11250.49072265625,
+        "layernum2_bsz8_rank0_act": 2704.76904296875,
+        "layernum2_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank7_ms": 11250.58642578125,
+        "layernum2_bsz8_rank7_act": 2704.76904296875,
+        "layernum2_bsz8_rank7_act_peak": 2040.0009765625
+    },
+    "1_4_2": {
+        "layernum1_bsz8_rank0_ms": 8945.38525390625,
+        "layernum1_bsz8_rank0_act": 2048.56396484375,
+        "layernum1_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum1_bsz8_rank7_ms": 8945.38720703125,
+        "layernum1_bsz8_rank7_act": 2048.51806640625,
+        "layernum1_bsz8_rank7_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank0_ms": 9714.36376953125,
+        "layernum2_bsz8_rank0_act": 2997.11083984375,
+        "layernum2_bsz8_rank0_act_peak": 2612.7607421875,
+        "layernum2_bsz8_rank7_ms": 9714.36767578125,
+        "layernum2_bsz8_rank7_act": 2997.01904296875,
+        "layernum2_bsz8_rank7_act_peak": 2612.7607421875
+    },
+    "1_8_1": {
+        "layernum1_bsz8_rank0_ms": 8561.33251953125,
+        "layernum1_bsz8_rank0_act": 2372.76806640625,
+        "layernum1_bsz8_rank0_act_peak": 2276.64453125,
+        "layernum1_bsz8_rank7_ms": 8561.33251953125,
+        "layernum1_bsz8_rank7_act": 2372.76806640625,
+        "layernum1_bsz8_rank7_act_peak": 2276.64453125,
+        "layernum2_bsz8_rank0_ms": 8946.25830078125,
+        "layernum2_bsz8_rank0_act": 3581.51904296875,
+        "layernum2_bsz8_rank0_act_peak": 3389.2880859375,
+        "layernum2_bsz8_rank7_ms": 8946.25830078125,
+        "layernum2_bsz8_rank7_act": 3581.51904296875,
+        "layernum2_bsz8_rank7_act_peak": 3389.2880859375
+    },
+    "1_1_8_c": {
+        "layernum1_bsz8_rank0_ms": 11249.66748046875,
+        "layernum1_bsz8_rank0_act": 1072.04833984375,
+        "layernum1_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum1_bsz8_rank7_ms": 11249.71533203125,
+        "layernum1_bsz8_rank7_act": 1072.04833984375,
+        "layernum1_bsz8_rank7_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank0_ms": 14322.92822265625,
+        "layernum2_bsz8_rank0_act": 1088.04833984375,
+        "layernum2_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank7_ms": 14323.02392578125,
+        "layernum2_bsz8_rank7_act": 1088.04833984375,
+        "layernum2_bsz8_rank7_act_peak": 2040.0009765625
+    },
+    "1_2_4_c": {
+        "layernum1_bsz8_rank0_ms": 9713.44873046875,
+        "layernum1_bsz8_rank0_act": 1088.04833984375,
+        "layernum1_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum1_bsz8_rank7_ms": 9713.49658203125,
+        "layernum1_bsz8_rank7_act": 1088.04833984375,
+        "layernum1_bsz8_rank7_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank0_ms": 11250.49072265625,
+        "layernum2_bsz8_rank0_act": 1128.11083984375,
+        "layernum2_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank7_ms": 11250.58642578125,
+        "layernum2_bsz8_rank7_act": 1128.11083984375,
+        "layernum2_bsz8_rank7_act_peak": 2040.0009765625
+    },
+    "1_4_2_c": {
+        "layernum1_bsz8_rank0_ms": 8945.38525390625,
+        "layernum1_bsz8_rank0_act": 1120.09423828125,
+        "layernum1_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum1_bsz8_rank7_ms": 8945.38720703125,
+        "layernum1_bsz8_rank7_act": 1120.04833984375,
+        "layernum1_bsz8_rank7_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank0_ms": 9714.36376953125,
+        "layernum2_bsz8_rank0_act": 1200.26513671875,
+        "layernum2_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank7_ms": 9714.36767578125,
+        "layernum2_bsz8_rank7_act": 1200.17333984375,
+        "layernum2_bsz8_rank7_act_peak": 2040.0009765625
+    },
+    "1_8_1_c": {
+        "layernum1_bsz8_rank0_ms": 8561.33251953125,
+        "layernum1_bsz8_rank0_act": 1184.04833984375,
+        "layernum1_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum1_bsz8_rank7_ms": 8561.33251953125,
+        "layernum1_bsz8_rank7_act": 1184.04833984375,
+        "layernum1_bsz8_rank7_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank0_ms": 8946.25830078125,
+        "layernum2_bsz8_rank0_act": 1344.29833984375,
+        "layernum2_bsz8_rank0_act_peak": 2040.0009765625,
+        "layernum2_bsz8_rank7_ms": 8946.25830078125,
+        "layernum2_bsz8_rank7_act": 1344.29833984375,
+        "layernum2_bsz8_rank7_act_peak": 2040.0009765625
+    },
+    "2_1_4": {
+        "layernum2_bsz8_rank0_ms": 7169.5859375,
+        "layernum2_bsz8_rank0_act": 1546.701171875,
+        "layernum2_bsz8_rank0_act_peak": 2120.125,
+        "layernum2_bsz8_rank7_ms": 7233.74658203125,
+        "layernum2_bsz8_rank7_act": 3617.2568359375,
+        "layernum2_bsz8_rank7_act_peak": 6863.77587890625
+    },
+    "2_2_2": {
+        "layernum2_bsz8_rank0_ms": 5633.3671875,
+        "layernum2_bsz8_rank0_act": 1716.888671875,
+        "layernum2_bsz8_rank0_act_peak": 2200.25,
+        "layernum2_bsz8_rank7_ms": 5761.52783203125,
+        "layernum2_bsz8_rank7_act": 3787.4443359375,
+        "layernum2_bsz8_rank7_act_peak": 7353.51806640625
+    },
+    "2_4_1": {
+        "layernum2_bsz8_rank0_ms": 4865.29296875,
+        "layernum2_bsz8_rank0_act": 2057.2509765625,
+        "layernum2_bsz8_rank0_act_peak": 2360.5,
+        "layernum2_bsz8_rank7_ms": 5121.41845703125,
+        "layernum2_bsz8_rank7_act": 4127.8193359375,
+        "layernum2_bsz8_rank7_act_peak": 7757.92041015625
+    },
+    "4_1_2": {
+        "layernum4_bsz8_rank0_ms": 7169.6484375,
+        "layernum4_bsz8_rank0_act": 3093.388671875,
+        "layernum4_bsz8_rank0_act_peak": 2200.25,
+        "layernum4_bsz8_rank7_ms": 7297.80908203125,
+        "layernum4_bsz8_rank7_act": 7235.50244140625,
+        "layernum4_bsz8_rank7_act_peak": 15516.76708984375
+    },
+    "4_2_1": {
+        "layernum4_bsz8_rank0_ms": 5633.46484375,
+        "layernum4_bsz8_rank0_act": 3433.7509765625,
+        "layernum4_bsz8_rank0_act_peak": 2893.9150390625,
+        "layernum4_bsz8_rank7_ms": 5889.59033203125,
+        "layernum4_bsz8_rank7_act": 7575.87744140625,
+        "layernum4_bsz8_rank7_act_peak": 16113.19677734375
+    },
+    "8_1_1": {
+        "layernum8_bsz8_rank0_ms": 7169.80859375,
+        "layernum8_bsz8_rank0_act": 6186.7509765625,
+        "layernum8_bsz8_rank0_act_peak": 5710.8759765625,
+        "layernum8_bsz8_rank7_ms": 7425.43408203125,
+        "layernum8_bsz8_rank7_act": 14469.01904296875,
+        "layernum8_bsz8_rank7_act_peak": 32815.80029296875
+    },
+    "parameter_size": 769.8515625,
+    "tp_activation_per_bsz_dict": {
+        "1": 737.2822265625,
+        "2": 409.18798828125,
+        "4": 237.13671875,
+        "8": 151.0938720703125,
+        "checkpoint": 20.042724609375
+    },
+    "other_memory_pp_off": {
+        "model_states": 8176.40673828125,
+        "activation": 1052.04833984375
+    },
+    "other_memory_pp_on_first": {
+        "model_states": 4096.314453125,
+        "activation": 36.0616455078125
+    },
+    "other_memory_pp_on_last": {
+        "model_states": 4160.48583984375,
+        "activation": 1071.3451538085938
+    }
+}

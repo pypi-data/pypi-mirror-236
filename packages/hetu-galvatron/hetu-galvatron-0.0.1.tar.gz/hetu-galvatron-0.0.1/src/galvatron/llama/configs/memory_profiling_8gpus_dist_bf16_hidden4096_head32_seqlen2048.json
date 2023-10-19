@@ -1,0 +1,182 @@
+{
+    "1_1_8": {
+        "layernum1_bsz8_rank0_ms": 918.7900390625,
+        "layernum1_bsz8_rank0_act": 457.337890625,
+        "layernum1_bsz8_rank0_act_peak": 1277.0595703125,
+        "layernum1_bsz8_rank7_ms": 918.7900390625,
+        "layernum1_bsz8_rank7_act": 457.337890625,
+        "layernum1_bsz8_rank7_act_peak": 1277.0595703125,
+        "layernum2_bsz8_rank0_ms": 1305.30615234375,
+        "layernum2_bsz8_rank0_act": 757.61962890625,
+        "layernum2_bsz8_rank0_act_peak": 1600.85302734375,
+        "layernum2_bsz8_rank7_ms": 1305.30615234375,
+        "layernum2_bsz8_rank7_act": 758.61962890625,
+        "layernum2_bsz8_rank7_act_peak": 1600.85302734375
+    },
+    "1_2_4": {
+        "layernum1_bsz8_rank0_ms": 918.8056640625,
+        "layernum1_bsz8_rank0_act": 537.369140625,
+        "layernum1_bsz8_rank0_act_peak": 936.84326171875,
+        "layernum1_bsz8_rank7_ms": 918.8056640625,
+        "layernum1_bsz8_rank7_act": 537.369140625,
+        "layernum1_bsz8_rank7_act_peak": 936.84326171875,
+        "layernum2_bsz8_rank0_ms": 1305.33740234375,
+        "layernum2_bsz8_rank0_act": 901.68212890625,
+        "layernum2_bsz8_rank0_act_peak": 1204.6484375,
+        "layernum2_bsz8_rank7_ms": 1305.33740234375,
+        "layernum2_bsz8_rank7_act": 901.68212890625,
+        "layernum2_bsz8_rank7_act_peak": 1204.6484375
+    },
+    "1_4_2": {
+        "layernum1_bsz8_rank0_ms": 919.2431640625,
+        "layernum1_bsz8_rank0_act": 697.431640625,
+        "layernum1_bsz8_rank0_act_peak": 1096.89794921875,
+        "layernum1_bsz8_rank7_ms": 918.8369140625,
+        "layernum1_bsz8_rank7_act": 697.431640625,
+        "layernum1_bsz8_rank7_act_peak": 1096.89794921875,
+        "layernum2_bsz8_rank0_ms": 1305.80615234375,
+        "layernum2_bsz8_rank0_act": 1189.80712890625,
+        "layernum2_bsz8_rank0_act_peak": 1492.7578125,
+        "layernum2_bsz8_rank7_ms": 1306.38427734375,
+        "layernum2_bsz8_rank7_act": 1189.80712890625,
+        "layernum2_bsz8_rank7_act_peak": 1492.7578125
+    },
+    "1_8_1": {
+        "layernum1_bsz8_rank0_ms": 918.8994140625,
+        "layernum1_bsz8_rank0_act": 1018.556640625,
+        "layernum1_bsz8_rank0_act_peak": 1417.00732421875,
+        "layernum1_bsz8_rank7_ms": 918.8994140625,
+        "layernum1_bsz8_rank7_act": 1018.556640625,
+        "layernum1_bsz8_rank7_act_peak": 1417.00732421875,
+        "layernum2_bsz8_rank0_ms": 1305.52490234375,
+        "layernum2_bsz8_rank0_act": 1769.05712890625,
+        "layernum2_bsz8_rank0_act_peak": 2070.9765625,
+        "layernum2_bsz8_rank7_ms": 1305.52490234375,
+        "layernum2_bsz8_rank7_act": 1769.05712890625,
+        "layernum2_bsz8_rank7_act_peak": 2070.9765625
+    },
+    "1_1_8_c": {
+        "layernum1_bsz8_rank0_ms": 918.7900390625,
+        "layernum1_bsz8_rank0_act": 173.05615234375,
+        "layernum1_bsz8_rank0_act_peak": 1357.0595703125,
+        "layernum1_bsz8_rank7_ms": 918.7900390625,
+        "layernum1_bsz8_rank7_act": 173.05615234375,
+        "layernum1_bsz8_rank7_act_peak": 1357.0595703125,
+        "layernum2_bsz8_rank0_ms": 1305.79833984375,
+        "layernum2_bsz8_rank0_act": 189.05615234375,
+        "layernum2_bsz8_rank0_act_peak": 1396.5712890625,
+        "layernum2_bsz8_rank7_ms": 1305.30615234375,
+        "layernum2_bsz8_rank7_act": 189.05615234375,
+        "layernum2_bsz8_rank7_act_peak": 1396.5712890625
+    },
+    "1_2_4_c": {
+        "layernum1_bsz8_rank0_ms": 918.8056640625,
+        "layernum1_bsz8_rank0_act": 205.05615234375,
+        "layernum1_bsz8_rank0_act_peak": 886.32177734375,
+        "layernum1_bsz8_rank7_ms": 918.8056640625,
+        "layernum1_bsz8_rank7_act": 205.05615234375,
+        "layernum1_bsz8_rank7_act_peak": 886.32177734375,
+        "layernum2_bsz8_rank0_ms": 1305.33740234375,
+        "layernum2_bsz8_rank0_act": 237.05615234375,
+        "layernum2_bsz8_rank0_act_peak": 885.33740234375,
+        "layernum2_bsz8_rank7_ms": 1305.33740234375,
+        "layernum2_bsz8_rank7_act": 237.05615234375,
+        "layernum2_bsz8_rank7_act_peak": 885.33740234375
+    },
+    "1_4_2_c": {
+        "layernum1_bsz8_rank0_ms": 918.8369140625,
+        "layernum1_bsz8_rank0_act": 269.05615234375,
+        "layernum1_bsz8_rank0_act_peak": 991.39208984375,
+        "layernum1_bsz8_rank7_ms": 918.8369140625,
+        "layernum1_bsz8_rank7_act": 269.05615234375,
+        "layernum1_bsz8_rank7_act_peak": 991.39208984375,
+        "layernum2_bsz8_rank0_ms": 1305.39990234375,
+        "layernum2_bsz8_rank0_act": 333.05615234375,
+        "layernum2_bsz8_rank0_act_peak": 991.89208984375,
+        "layernum2_bsz8_rank7_ms": 1305.39990234375,
+        "layernum2_bsz8_rank7_act": 333.05615234375,
+        "layernum2_bsz8_rank7_act_peak": 991.89208984375
+    },
+    "1_8_1_c": {
+        "layernum1_bsz8_rank0_ms": 918.8994140625,
+        "layernum1_bsz8_rank0_act": 397.05615234375,
+        "layernum1_bsz8_rank0_act_peak": 1413.75146484375,
+        "layernum1_bsz8_rank7_ms": 918.8994140625,
+        "layernum1_bsz8_rank7_act": 397.05615234375,
+        "layernum1_bsz8_rank7_act_peak": 1413.75146484375,
+        "layernum2_bsz8_rank0_ms": 1305.52490234375,
+        "layernum2_bsz8_rank0_act": 525.05615234375,
+        "layernum2_bsz8_rank0_act_peak": 1412.75146484375,
+        "layernum2_bsz8_rank7_ms": 1305.52490234375,
+        "layernum2_bsz8_rank7_act": 525.05615234375,
+        "layernum2_bsz8_rank7_act_peak": 1412.75146484375
+    },
+    "2_1_4": {
+        "layernum2_bsz8_rank0_ms": 1323.80517578125,
+        "layernum2_bsz8_rank0_act": 632.60986328125,
+        "layernum2_bsz8_rank0_act_peak": 980.65673828125,
+        "layernum2_bsz8_rank7_ms": 1355.8134765625,
+        "layernum2_bsz8_rank7_act": 914.5517578125,
+        "layernum2_bsz8_rank7_act_peak": 1062.62255859375
+    },
+    "2_2_2": {
+        "layernum2_bsz8_rank0_ms": 1324.81298828125,
+        "layernum2_bsz8_rank0_act": 792.70361328125,
+        "layernum2_bsz8_rank0_act_peak": 938.76611328125,
+        "layernum2_bsz8_rank7_ms": 1419.8291015625,
+        "layernum2_bsz8_rank7_act": 1074.767578125,
+        "layernum2_bsz8_rank7_act_peak": 1158.71630859375
+    },
+    "2_4_1": {
+        "layernum2_bsz8_rank0_ms": 1323.87548828125,
+        "layernum2_bsz8_rank0_act": 1112.89111328125,
+        "layernum2_bsz8_rank0_act_peak": 1203.03173828125,
+        "layernum2_bsz8_rank7_ms": 1548.8603515625,
+        "layernum2_bsz8_rank7_act": 1394.955078125,
+        "layernum2_bsz8_rank7_act_peak": 1350.90380859375
+    },
+    "4_1_2": {
+        "layernum4_bsz8_rank0_ms": 2624.87548828125,
+        "layernum4_bsz8_rank0_act": 1265.20361328125,
+        "layernum4_bsz8_rank0_act_peak": 1493.26611328125,
+        "layernum4_bsz8_rank7_ms": 2688.9072265625,
+        "layernum4_bsz8_rank7_act": 1829.1015625,
+        "layernum4_bsz8_rank7_act_peak": 1815.2412109375
+    },
+    "4_2_1": {
+        "layernum4_bsz8_rank0_ms": 2624.93798828125,
+        "layernum4_bsz8_rank0_act": 1585.39111328125,
+        "layernum4_bsz8_rank0_act_peak": 1643.48486328125,
+        "layernum4_bsz8_rank7_ms": 2816.9697265625,
+        "layernum4_bsz8_rank7_act": 2149.533203125,
+        "layernum4_bsz8_rank7_act_peak": 2007.6572265625
+    },
+    "8_1_1": {
+        "layernum8_bsz8_rank0_ms": 5233.00048828125,
+        "layernum8_bsz8_rank0_act": 2530.39111328125,
+        "layernum8_bsz8_rank0_act_peak": 2514.50048828125,
+        "layernum8_bsz8_rank7_ms": 5361.0634765625,
+        "layernum8_bsz8_rank7_act": 3658.689453125,
+        "layernum8_bsz8_rank7_act_peak": 3380.9697265625
+    },
+    "parameter_size": 773.2509765625,
+    "tp_activation_per_bsz_dict": {
+        "1": 300.28173828125,
+        "2": 182.156494140625,
+        "4": 123.0938720703125,
+        "8": 93.81256103515625,
+        "checkpoint": 16.0
+    },
+    "other_memory_pp_off": {
+        "model_states": 532.27392578125,
+        "activation": 157.05615234375
+    },
+    "other_memory_pp_on_first": {
+        "model_states": 937.2890625,
+        "activation": 16.01715087890625
+    },
+    "other_memory_pp_on_last": {
+        "model_states": 969.29736328125,
+        "activation": 156.99365234375
+    }
+}

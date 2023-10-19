@@ -1,0 +1,8 @@
+{
+    "fwd_time_bf16_vit-H-14_vision": 0.265243250131607,
+    "fwd_time_bf16_vit-H-14_text": 0.10119959712028503,
+    "fwd_time_bf16_vit-g-14_vision": 0.2773833006620407,
+    "fwd_time_bf16_vit-g-14_text": 0.09275395572185513,
+    "fwd_time_bf16_vit-bigG-14_vision": 0.4220732390880585,
+    "fwd_time_bf16_vit-bigG-14_text": 0.1411292433738709
+}
