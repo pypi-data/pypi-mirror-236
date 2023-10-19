@@ -1,0 +1,8 @@
+setup.py
+p5250_ovako/__init__.py
+p5250_ovako/p3270.py
+p5250_ovako/p5250.py
+p5250_ovako.egg-info/PKG-INFO
+p5250_ovako.egg-info/SOURCES.txt
+p5250_ovako.egg-info/dependency_links.txt
+p5250_ovako.egg-info/top_level.txt
