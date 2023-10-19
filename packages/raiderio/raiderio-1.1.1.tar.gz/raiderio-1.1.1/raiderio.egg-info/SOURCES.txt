@@ -1,0 +1,9 @@
+README.md
+setup.py
+raiderio/__init__.py
+raiderio/api.py
+raiderio.egg-info/PKG-INFO
+raiderio.egg-info/SOURCES.txt
+raiderio.egg-info/dependency_links.txt
+raiderio.egg-info/requires.txt
+raiderio.egg-info/top_level.txt

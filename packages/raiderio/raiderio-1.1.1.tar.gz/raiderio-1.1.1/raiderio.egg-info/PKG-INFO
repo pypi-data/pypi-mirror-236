@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: raiderio
+Version: 1.1.1
+Summary: Python client library for raider.io's public API
+Author: amas0
+Requires-Dist: requests
