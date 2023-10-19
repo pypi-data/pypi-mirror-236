@@ -1,0 +1,8 @@
+pycccedict/cccedict.py,sha256=I2nKrYKLBcJzJXFJ2vqtErtmGDM-hn49heFOAi7k1kw,3308
+pycccedict/cccedict_example.py,sha256=0lABOJw0bT22Asvo-9_XAhU8lhNqjsHgPA_s0pMTdDw,204
+pycccedict/cccedict_test.py,sha256=02lf91SqbITDo4v8ikSuth1xDnqoYeAqxSXQ86l75Ug,1246
+pycccedict/data/cedict_1_0_ts_utf-8_mdbg.txt.gz,sha256=qFgfaJd0TIg5r3fRxM2LM9RH8eAd1VC5Fv_3udXHCto,3807298
+pycccedict-0.1.0.dist-info/LICENSE.txt,sha256=KKlSnH0LtNxR9L9cEWo9Fu8kegUvdZFGZ2jd9WP9HPU,20138
+pycccedict-0.1.0.dist-info/METADATA,sha256=YWxq2l7LNMI1x8lGpnOiCleEMWgdrRSqR0AtGh18nYI,728
+pycccedict-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pycccedict-0.1.0.dist-info/RECORD,,
