@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: DESReg
+Version: 0.1.0
+Summary: DES for Regression
+Home-page: UNKNOWN
+Author: María D. Pérez-Godoy, Marta Molina Pérez, Francisco Martínez, D. Elizondo, Francisco Charte, Antonio J. Rivera
+Author-email: lperez@ujaen.es, mmp00080@red.ujaen.es, fmartin@ujaen.es, elizondo@dmu.ac.uk, fcharte@ujaen.es, arivera@ujaen.es
+Maintainer: María D. Pérez-Godoy
+Maintainer-email: lperez@ujaen.es
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3 
+Requires-Dist: scikit-learn (>=1.2.1)
+Requires-Dist: numpy (>=1.21.5)
+Requires-Dist: scipy (>=1.5.2)
+
+Implementation of Dynamic Ensemble Selection methods for Regression
+
+

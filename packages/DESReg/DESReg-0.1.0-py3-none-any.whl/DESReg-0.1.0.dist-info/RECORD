@@ -1,0 +1,13 @@
+desReg/__init__.py,sha256=OuYbX_XvlpirZIFZINclu3v1oTxh9qjZM_9KskxzVng,374
+desReg/dataset/Student_Marks.csv,sha256=daeEoh9FFS4MLwDOv5fmqu2icgm_CeniGPbJgu-j-y4,1615
+desReg/dataset/__init__.py,sha256=9OiUlEfYm1LYdWOVT7jPeWudvicwZHgihjQnmBzM4IA,28
+desReg/dataset/load_datasets.py,sha256=fQ4LwuDDJzhJS90E5SuQDFL4_8FYKRqSuuJwLrd-AL4,580
+desReg/des/DESRegression.py,sha256=cdPUOkirnOwdIHhlx5oqok-F_zf6qh5uDF0AAUH6zYw,26522
+desReg/des/__init__.py,sha256=Sl_jH6ZMbXjWGR3xmI-AjWFq5OvuF06Sy8t4GzrKf7w,28
+desReg/utils/__init__.py,sha256=K4njov6wbzfLYillmP5UbZpqjNILWXQN4Js2yOI83gU,23
+desReg/utils/measures.py,sha256=3oQvKe3W_NPmn7T5d6kLgHME4TjNvRAZkxycw8qpQ6E,8238
+DESReg-0.1.0.dist-info/License.rst,sha256=7Se09XMU3Rhf19mK8l4TVgfQW0WfynKob4GaF1cxFFk,1089
+DESReg-0.1.0.dist-info/METADATA,sha256=KMBp7o4CHXegpLhMzryArW3jd4uvdFqWBrzTk5ANW3o,900
+DESReg-0.1.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+DESReg-0.1.0.dist-info/top_level.txt,sha256=1K9AVZbup0czRUir3-jWyH9SumJ4YohcFoHGHcZPF3k,7
+DESReg-0.1.0.dist-info/RECORD,,
