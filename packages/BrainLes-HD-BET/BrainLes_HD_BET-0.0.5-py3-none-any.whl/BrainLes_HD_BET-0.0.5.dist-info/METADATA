@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: BrainLes-HD-BET
+Version: 0.0.5
+Summary: TODO.
+Author-email: Florian Kofler <florian.kofler@tum.de>, Isra Mekki <isra.mekki@helmholtz-muenchen.de>
+Maintainer-email: Florian Kofler <florian.kofler@tum.de>, Isra Mekki <isra.mekki@helmholtz-muenchen.de>
+Project-URL: repository, https://github.com/BrainLesion/HD-BET
+Keywords: Brain extraction, skull stripping
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy >=1.24.0
+Requires-Dist: torch >=0.4.1
+Requires-Dist: scikit-image >=0.21.0
+Requires-Dist: SimpleITK >=2.2.1
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+

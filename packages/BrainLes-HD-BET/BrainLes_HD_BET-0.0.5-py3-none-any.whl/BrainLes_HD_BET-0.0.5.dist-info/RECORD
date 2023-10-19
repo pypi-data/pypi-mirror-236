@@ -1,0 +1,14 @@
+brainles_hd_bet/__init__.py,sha256=_af_NjkbETe-nKj4_PD4hrZQ3oyvqdpqRmZAxZ5uZ6s,43
+brainles_hd_bet/config.py,sha256=Pznw8dnmNWNRsVSwFd8gdOu_kj3tn_vQB-Ag0NsU5kY,3765
+brainles_hd_bet/data_loading.py,sha256=gbfGG2FIGtMo-HLFKHMtOGkhuP1xvswRstJr5OBb8rk,5099
+brainles_hd_bet/hd_bet.py,sha256=EZWTfKHe2vIOidssv_IRu4i7SBHj53G7Mouv8W3IRIk,5832
+brainles_hd_bet/network_architecture.py,sha256=Rbkt2dR4JAanMUdw0q6Aj8gL_JXAn5N8wRKf6ZeByGo,10665
+brainles_hd_bet/predict_case.py,sha256=PuEVnzDjuFrbSb-YXS-xv49IzuKE2Oud_1UTuVtoZ38,5558
+brainles_hd_bet/run.py,sha256=9YWYAIySzBLvvn8Qfg9-mnOOu9UkFzw5JBHRgaEF5tc,4615
+brainles_hd_bet/utils.py,sha256=ygEjo7I_krwWABxhim6s6YWGsGm8jxdljoIyZMrEU94,4067
+BrainLes_HD_BET-0.0.5.dist-info/LICENSE,sha256=xazLvYVG6Uw0rtJK_miaYXYn0Y7tWmxIJ35I21fCOFE,11356
+BrainLes_HD_BET-0.0.5.dist-info/METADATA,sha256=6Opr95UBXc2buswXPfa6-btxuM9ou2Phmaew_ejb-4c,830
+BrainLes_HD_BET-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+BrainLes_HD_BET-0.0.5.dist-info/entry_points.txt,sha256=Rg_CcpIQHoJV4XikH2FFQ9fTv_yG8vgB4p4BPaa1cPY,55
+BrainLes_HD_BET-0.0.5.dist-info/top_level.txt,sha256=BFYCNasALYg3DvlYgeOvSl5rlthhXuBPI_uMlvWFjfE,16
+BrainLes_HD_BET-0.0.5.dist-info/RECORD,,
