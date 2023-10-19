@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fastutils-hmarcuzzo
+Version: 0.2.0
+Summary: A personal utility library I've developed to streamline and optimize backend development with FastAPI in my projects. From generic repositories and queries to enums, error handling, and more, fastutils_hmarcuzzo encompasses essential tools that have proven invaluable in my development journey, whether as a novice or a seasoned professional.
+Author: Henrique Marcuzzo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# fast-utils
