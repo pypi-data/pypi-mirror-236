@@ -1,0 +1,9 @@
+requests
+prettytable
+scikit-learn
+matplotlib
+numpy
+pandas
+PyHamcrest
+python-docx
+networkx
