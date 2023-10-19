@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: BrainLes_preprocessing
+Version: 0.0.2
+Summary: TODO.
+Author-email: Florian Kofler <florian.kofler@tum.de>, Isra Mekki <isra.mekki@helmholtz-muenchen.de>
+Maintainer-email: Florian Kofler <florian.kofler@tum.de>, Isra Mekki <isra.mekki@helmholtz-muenchen.de>
+Project-URL: repository, https://github.com/neuronflow/BrainLes
+Keywords: registration,brain extraction
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: path>=16.2.0
+Requires-Dist: ttictoc>=0.5.6
+Requires-Dist: pathlib>=1.0.1
+Requires-Dist: nibabel>=3.2.1
+Requires-Dist: numpy>=1.23.0
+Requires-Dist: BrainLes-HD-BET>=0.0.5
+Requires-Dist: tqdm
+Requires-Dist: auxiliary>=0.0.35
+Provides-Extra: dev
+Requires-Dist: pytest; extra == "dev"
+
+# niftyreg_preprocessor
+does the following
+* co-registration
+* atlas registration
+* transformation
+* skullstripping in brats-space
+* apply masking
+* result: 4niftis, skullstripped brats-space -> save to path
+
+## atlas
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2915788/
+
+## installation:
+```
+pip install -e "git+https://github.com/neuronflow/BrainLes.git@main#egg=HD_BET&subdirectory=preprocessing/brainles_preprocessing/brain_extraction/HD_BET"
+```
+
+
+/home/florian/flow/BrainLesion/BrainLes/preprocessing

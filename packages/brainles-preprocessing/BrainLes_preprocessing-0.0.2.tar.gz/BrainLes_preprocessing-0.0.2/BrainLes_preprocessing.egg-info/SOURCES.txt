@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+BrainLes_preprocessing.egg-info/PKG-INFO
+BrainLes_preprocessing.egg-info/SOURCES.txt
+BrainLes_preprocessing.egg-info/dependency_links.txt
+BrainLes_preprocessing.egg-info/entry_points.txt
+BrainLes_preprocessing.egg-info/requires.txt
+BrainLes_preprocessing.egg-info/top_level.txt
+brainles_preprocessing/__init__.py
+brainles_preprocessing/core.py
