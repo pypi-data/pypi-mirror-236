@@ -1,0 +1,8 @@
+numpy
+scipy
+astropy
+pandas
+matplotlib
+astroquery
+h5py
+lxml
