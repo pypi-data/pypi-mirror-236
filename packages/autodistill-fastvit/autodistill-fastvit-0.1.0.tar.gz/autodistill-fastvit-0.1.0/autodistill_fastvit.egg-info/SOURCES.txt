@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+autodistill_fastvit/__init__.py
+autodistill_fastvit/classes.json
+autodistill_fastvit/fastvit.py
+autodistill_fastvit.egg-info/PKG-INFO
+autodistill_fastvit.egg-info/SOURCES.txt
+autodistill_fastvit.egg-info/dependency_links.txt
+autodistill_fastvit.egg-info/requires.txt
+autodistill_fastvit.egg-info/top_level.txt
