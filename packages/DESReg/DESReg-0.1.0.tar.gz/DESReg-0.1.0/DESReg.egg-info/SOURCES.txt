@@ -1,0 +1,14 @@
+README.rst
+setup.py
+DESReg.egg-info/PKG-INFO
+DESReg.egg-info/SOURCES.txt
+DESReg.egg-info/dependency_links.txt
+DESReg.egg-info/requires.txt
+DESReg.egg-info/top_level.txt
+desReg/__init__.py
+desReg/dataset/__init__.py
+desReg/dataset/load_datasets.py
+desReg/des/DESRegression.py
+desReg/des/__init__.py
+desReg/utils/__init__.py
+desReg/utils/measures.py
