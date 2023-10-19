@@ -1,0 +1,8 @@
+setup.py
+hpyre/__init__.py
+hpyre/hpyre.py
+hpyre.egg-info/PKG-INFO
+hpyre.egg-info/SOURCES.txt
+hpyre.egg-info/dependency_links.txt
+hpyre.egg-info/requires.txt
+hpyre.egg-info/top_level.txt
