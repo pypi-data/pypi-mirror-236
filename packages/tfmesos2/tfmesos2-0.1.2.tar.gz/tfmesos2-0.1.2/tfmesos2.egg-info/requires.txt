@@ -1,0 +1,6 @@
+tensorflow>=2.0.0
+avmesos>=0.4.0
+addict>=2.4.0
+flask>=3.0.0
+flask_httpauth>=4.0.0
+waitress>=2.1.0
