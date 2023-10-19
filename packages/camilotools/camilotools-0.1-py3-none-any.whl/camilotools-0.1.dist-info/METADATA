@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: camilotools
+Version: 0.1
+Summary: Ferramentas simples para envio de email, validação de email entre outros
+Author: Camilo Costa de Carvalho
+Author-email: camilo.costa1993@gmail.com
+License: MIT
+Keywords: tools,email-tools,email-validation
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: loguru
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
