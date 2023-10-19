@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bfjira
+Version: 0.1.5
+Summary: Create Git branches from Jira tickets
+Author: Nick Hobart
+Author-email: nick@hobart.io
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: gitpython (>=3.1.37,<4.0.0)
+Requires-Dist: jira (>=3.5.2,<4.0.0)
+Description-Content-Type: text/markdown
+
+# bfjira
+Create a git branch from a Jira ticket
+
