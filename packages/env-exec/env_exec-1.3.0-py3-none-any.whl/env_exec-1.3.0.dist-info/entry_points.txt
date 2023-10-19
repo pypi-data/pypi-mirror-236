@@ -1,0 +1,2 @@
+[console_scripts]
+env-exec = env_exec.cli:cli
