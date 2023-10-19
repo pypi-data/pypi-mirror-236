@@ -1,0 +1,3 @@
+transwarp_embedding_hub
+transwarp_hippo_api
+transwarp_hippo_langchain

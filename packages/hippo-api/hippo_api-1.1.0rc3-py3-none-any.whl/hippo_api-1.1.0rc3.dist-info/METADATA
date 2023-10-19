@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: hippo-api
+Version: 1.1.0rc3
+Summary: Transwarp Hippo API
+Author: transwarp
+Requires-Python: >=3.8.0
+Requires-Dist: pyyaml >=6.0
+
