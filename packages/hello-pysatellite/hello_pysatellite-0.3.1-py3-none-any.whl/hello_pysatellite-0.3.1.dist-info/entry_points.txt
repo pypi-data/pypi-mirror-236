@@ -1,0 +1,3 @@
+[console_scripts]
+hello-pysatellite-pic = hello_pysatellite.my:pic
+
