@@ -1,0 +1,2 @@
+[stpipe.steps]
+jwst = snowblind:_get_steps

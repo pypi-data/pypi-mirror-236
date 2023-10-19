@@ -1,0 +1,16 @@
+jwst
+numpy
+scikit-image
+stpipe
+
+[docs]
+sphinx
+sphinx-automodapi
+numpydoc
+
+[test]
+pytest
+flake8
+flake8-pyproject
+codecov
+pytest-cov
