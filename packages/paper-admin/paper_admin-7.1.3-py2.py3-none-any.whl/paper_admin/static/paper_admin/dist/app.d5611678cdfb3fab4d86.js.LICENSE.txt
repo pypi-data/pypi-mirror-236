@@ -1,0 +1,14 @@
+/*!
+ * EventEmitter v5.2.9 - git.io/ee
+ * Unlicense - http://unlicense.org/
+ * Oliver Caldwell - https://oli.me.uk/
+ * @preserve
+ */
+
+/*!
+ * bsCustomFileInput v1.3.4 (https://github.com/Johann-S/bs-custom-file-input)
+ * Copyright 2018 - 2020 Johann-S <johann.servoire@gmail.com>
+ * Licensed under MIT (https://github.com/Johann-S/bs-custom-file-input/blob/master/LICENSE)
+ */
+
+/*! multi.js 21-04-2022 */
