@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: django-migrate-middleware
+Version: 2.0.0
+Summary: Run migrations on every request
+Author-email: lukewiwa <luke.wiwa@gmail.com>
+Requires-Python: >=3.8,<4.0
+Classifier: Framework :: Django
+Requires-Dist: Django>=3.2.16
+Project-URL: Homepage, https://github.com/lukewiwa/django-migrate-middleware
+Description-Content-Type: text/markdown
+
+# Django Migrate Middleware
+
+Run migrations on every request
+
+## Install
+
+```bash
+pip install django-migrate-middleware
+```
+
+In the django settings file add package to the middleware settings.
+
+```python
+MIDDLEWARE = [
+    "django_migrate_middleware.MigrateMiddleware",
+  # ...
+]
+```
+
