@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+camilotools.egg-info/PKG-INFO
+camilotools.egg-info/SOURCES.txt
+camilotools.egg-info/dependency_links.txt
+camilotools.egg-info/requires.txt
+camilotools.egg-info/top_level.txt
