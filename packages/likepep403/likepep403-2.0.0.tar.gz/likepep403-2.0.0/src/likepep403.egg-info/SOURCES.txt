@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/likepep403/__init__.py
+src/likepep403/abc.py
+src/likepep403/caller.py
+src/likepep403/decor.py
+src/likepep403/missing.py
+src/likepep403.egg-info/PKG-INFO
+src/likepep403.egg-info/SOURCES.txt
+src/likepep403.egg-info/dependency_links.txt
+src/likepep403.egg-info/top_level.txt
