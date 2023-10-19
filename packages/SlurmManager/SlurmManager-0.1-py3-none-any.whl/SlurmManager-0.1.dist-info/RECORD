@@ -1,0 +1,6 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_SlurmManager.py,sha256=ijH6c_lnzTk8-HiNA-b91ja-H9zPF4HgLVo0luBUaig,1237
+SlurmManager-0.1.dist-info/METADATA,sha256=ikBSWqnt39fuFoJVUxc1zMWNr4_eO3AYtoWROfkoRCs,315
+SlurmManager-0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+SlurmManager-0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+SlurmManager-0.1.dist-info/RECORD,,
