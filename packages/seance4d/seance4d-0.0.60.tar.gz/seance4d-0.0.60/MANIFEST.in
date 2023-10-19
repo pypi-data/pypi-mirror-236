@@ -1,0 +1,9 @@
+include LICENSE.md
+include README.md
+include seance4d/error.mp3
+include seance4d/holding.mp3
+include seance4d/*.mp3
+include seance4d/cached.json
+include seance4d/welcome.mp3
+exclude seance4d/output.wav
+exclude seance4d/response.mp3

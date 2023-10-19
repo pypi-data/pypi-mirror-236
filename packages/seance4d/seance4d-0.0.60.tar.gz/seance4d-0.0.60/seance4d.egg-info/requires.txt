@@ -1,0 +1,11 @@
+SpeechRecognition
+pydub
+scipy
+sounddevice
+PyAudio
+wave
+openai
+gTTS
+rich
+pyalsaaudio
+click

@@ -1,0 +1,42 @@
+[project]
+name = "seance4d"
+version = "0.0.60"
+description = "A seance simulator."
+readme = "README.md"
+requires-python = ">=3.8"
+license = {file = "LICENSE.md"}
+keywords = ["performance"]
+authors = [
+  {email = "martin@eve.gd"},
+  {name = "Martin Paul Eve"}
+]
+maintainers = [
+  {name = "Martin Paul Eve", email = "martin@eve.gd"}
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+
+dependencies = [
+    "SpeechRecognition",
+    "pydub",
+    "scipy",
+    "sounddevice",
+    "PyAudio",
+    "wave",
+    "openai",
+    "gTTS",
+    "rich",
+    "pyalsaaudio",
+    "click"
+]
+
+[project.urls]
+homepage = "https://eve.gd"
+documentation = "https://eve.gd"
+repository = "https://github.com/MartinPaulEve/seance4d"
+
+[build-system]
+requires = ['setuptools>=40.8.0', 'wheel']
+build-backend = 'setuptools.build_meta:__legacy__'
