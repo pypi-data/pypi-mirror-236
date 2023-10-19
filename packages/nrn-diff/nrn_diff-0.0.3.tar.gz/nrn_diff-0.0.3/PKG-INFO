@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: nrn-diff
+Version: 0.0.3
+Summary: NEURON object differ. Recursively finds differences between objects in NEURON.
+Author-email: Robin De Schepper <robingilbert.deschepper@unipv.it>
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: BSD License
+Project-URL: Home, https://github.com/dbbs-lab/nrn-diff
+
+# nrn-diff
+
+## Usage
+
+```pycon
+>>> from nrndiff import nrn_diff
+>>> from neuron import h
+>>> s1 = h.Section()
+>>> s2 = h.Section()
+>>> nrn_diff(s1, s2)
+[]
+>>> s2.L = s1.L * 2
+>>> nrn_diff(s1, s2)
+[
+    <nrndiff._differences.SectionLengthDifference object at 0x7f52eb4d3310>,
+    <nrndiff._differences.SegmentAreaDifference object at 0x7f52eb47de80>,
+    <nrndiff._differences.SegmentVolumeDifference object at 0x7f52eb47d7c0>,
+    <nrndiff._differences.SegmentInputResistanceDifference object at 0x7f52eb47df40>
+]
+```
