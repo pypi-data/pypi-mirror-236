@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gpns
+Version: 1.1.1
+Summary: Package for test firebase message.
+Home-page: https://github.com/enfec/gpns
+Author: Ashish Sahu
+Author-email: ashish.sahu@enfec.com
+License: MIT
+Keywords: python package gpns
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: firebase-admin==6.2.0
+Requires-Dist: click==8.1.7
+
+Package made for testing push notification.
