@@ -1,0 +1,1 @@
+recursive-include electronconfig/configurations/*.txt

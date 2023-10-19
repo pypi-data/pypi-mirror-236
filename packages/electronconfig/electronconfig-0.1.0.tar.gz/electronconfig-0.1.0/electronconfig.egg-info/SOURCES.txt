@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+electronconfig/__init__.py
+electronconfig/elconf.py
+electronconfig.egg-info/PKG-INFO
+electronconfig.egg-info/SOURCES.txt
+electronconfig.egg-info/dependency_links.txt
+electronconfig.egg-info/requires.txt
+electronconfig.egg-info/top_level.txt
+electronconfig/configurations/electron_configuration.txt
