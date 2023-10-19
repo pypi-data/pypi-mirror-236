@@ -1,0 +1,4 @@
+conda-oci-mirror
+requests
+ruamel.yaml
+typing-extensions
