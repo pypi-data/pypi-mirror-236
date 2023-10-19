@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+scopus_caller.egg-info/PKG-INFO
+scopus_caller.egg-info/SOURCES.txt
+scopus_caller.egg-info/dependency_links.txt
+scopus_caller.egg-info/requires.txt
+scopus_caller.egg-info/top_level.txt
+scopus_caller.egg-info/zip-safe
+scopuscaller/__init__.py
+scopuscaller/call_scopus.py
+scopuscaller/call_semanticscholar.py
+scopuscaller/test_call_scopus.py
