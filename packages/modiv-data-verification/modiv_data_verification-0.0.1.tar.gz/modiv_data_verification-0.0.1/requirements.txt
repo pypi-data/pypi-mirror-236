@@ -1,0 +1,9 @@
+pandas
+numpy
+requests
+pandas-schema
+pandas_schema
+hashlib
+xmltodict
+sys
+os
