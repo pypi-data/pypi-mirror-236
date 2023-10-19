@@ -1,0 +1,6 @@
+include LICENSE
+recursive-include src *
+recursive-include scripts *
+recursive-include test *
+
+include scripts/headless_execution.sh
