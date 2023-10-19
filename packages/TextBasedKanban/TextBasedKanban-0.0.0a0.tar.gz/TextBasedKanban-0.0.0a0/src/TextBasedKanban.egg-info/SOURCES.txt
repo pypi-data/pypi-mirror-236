@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/TextBasedKanban.egg-info/PKG-INFO
+src/TextBasedKanban.egg-info/SOURCES.txt
+src/TextBasedKanban.egg-info/dependency_links.txt
+src/TextBasedKanban.egg-info/entry_points.txt
+src/TextBasedKanban.egg-info/requires.txt
+src/TextBasedKanban.egg-info/top_level.txt
+src/tbk/__init__.py
+src/tbk/__main__.py
+src/tbk/cmd/init.py
+src/tbk/cmd/status.py
+src/tbk/logic/card.py
+src/tbk/logic/consts.py
+src/tbk/logic/repeater.py
