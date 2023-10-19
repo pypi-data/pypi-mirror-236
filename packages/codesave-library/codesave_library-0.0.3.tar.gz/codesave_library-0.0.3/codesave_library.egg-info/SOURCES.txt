@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+codesave/__init__.py
+codesave/app.py
+codesave/base.py
+codesave/routines.py
+codesave_library.egg-info/PKG-INFO
+codesave_library.egg-info/SOURCES.txt
+codesave_library.egg-info/dependency_links.txt
+codesave_library.egg-info/entry_points.txt
+codesave_library.egg-info/top_level.txt
