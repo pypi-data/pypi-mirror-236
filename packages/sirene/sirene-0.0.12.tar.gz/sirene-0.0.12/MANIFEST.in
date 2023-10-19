@@ -1,0 +1,3 @@
+include sirene/MCTI/sexta_edicao/*.xlsx
+include sirene/mapbiomas/*.csv
+include sirene/data/*.csv
