@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+src/seqlogic/__init__.py
+src/seqlogic/sim.py
+src/seqlogic.egg-info/PKG-INFO
+src/seqlogic.egg-info/SOURCES.txt
+src/seqlogic.egg-info/dependency_links.txt
+src/seqlogic.egg-info/requires.txt
+src/seqlogic.egg-info/top_level.txt
+tests/test_sim.py
