@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: minimalgpt
+Version: 0.0.3
+Summary: Simple LangChain Wrapper Package for ease of using ChatGPT
+Home-page: https://github.com/teddylee777/minimalgpt
+Author: teddylee777
+Author-email: teddylee777@gmail.com
+Keywords: minimalgpt,teddylee777,chatgpt,langchain,pandasai
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Requires-Dist: openai
+Requires-Dist: langchain
+Requires-Dist: beautifulsoup4
+Requires-Dist: tiktoken
+
