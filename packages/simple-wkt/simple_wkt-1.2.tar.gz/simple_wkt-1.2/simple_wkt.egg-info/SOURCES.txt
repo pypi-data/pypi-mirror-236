@@ -1,0 +1,10 @@
+README.md
+setup.py
+simple_wkt/__init__.py
+simple_wkt/geometries.py
+simple_wkt/parsing.py
+simple_wkt.egg-info/PKG-INFO
+simple_wkt.egg-info/SOURCES.txt
+simple_wkt.egg-info/dependency_links.txt
+simple_wkt.egg-info/requires.txt
+simple_wkt.egg-info/top_level.txt
