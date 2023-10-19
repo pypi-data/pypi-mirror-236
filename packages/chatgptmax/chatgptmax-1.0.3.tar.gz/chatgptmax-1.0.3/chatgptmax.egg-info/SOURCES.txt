@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+chatgptmax.egg-info/PKG-INFO
+chatgptmax.egg-info/SOURCES.txt
+chatgptmax.egg-info/dependency_links.txt
+chatgptmax.egg-info/requires.txt
+chatgptmax.egg-info/top_level.txt
+tests/__init__.py
+tests/test_chatgptmax.py
+tests/test_pip_install.py
