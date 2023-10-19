@@ -1,0 +1,11 @@
+tinytag/__init__.py,sha256=kejFa_WyQJ-XlM1m--o2I2rlEdD6mMnIR_4OIQxKb9c,226
+tinytag/__main__.py,sha256=PIZl_0kVwD427TjufP-O1Q254K3TVI2i3shDbVapFxM,2833
+tinytag/tinytag.py,sha256=GeErCwc-nLYufEiribvR6ne1jKTZAsqa5eKSfLVE-98,71202
+tinytag/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tinytag/tests/test_all.py,sha256=0xV4wC2NDDCyshrRPfY38kqqrUgf0xbBwy6XkyoWnMM,39203
+tinytag/tests/test_cli.py,sha256=JQf9gHyh1Q7o4OG6ve6EjTNc5ZegF5pninEIEYcK1uQ,4227
+tinytag-1.10.0.dist-info/LICENSE,sha256=TjbPS8-MYiTpuxZKNWYyegj1fB9iymq4nlpshkJUodQ,1094
+tinytag-1.10.0.dist-info/METADATA,sha256=y9R2K36Lw8fRUeceZ9rACbjyBQiDCfSgPWBh-drtLok,11003
+tinytag-1.10.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tinytag-1.10.0.dist-info/top_level.txt,sha256=qLUr0qQ2vGiIUaN8_ruX6-vyk53uPnY2mKenlLVaeY4,8
+tinytag-1.10.0.dist-info/RECORD,,
