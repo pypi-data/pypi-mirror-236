@@ -1,0 +1,7 @@
+[console_scripts]
+cpcr_build = CPCReady.build:main
+cpcr_palette = CPCReady.palette:main
+cpcr_project = CPCReady.project:main
+cpcr_run = CPCReady.run:main
+cpcr_screen = CPCReady.screen:main
+cpcr_sprite = CPCReady.sprite:main

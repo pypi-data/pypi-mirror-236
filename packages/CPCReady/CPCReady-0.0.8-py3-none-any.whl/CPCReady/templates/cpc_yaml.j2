@@ -1,0 +1,28 @@
+Version: v1
+kind: cpc
+project:
+  data:
+    name: {{ name }}
+    author: {{ user }}
+  concatenate:
+    out: CONCAT.BAS
+  emulators:
+    rvm-web:
+      model:{{ model }}
+      run: run"MAIN.BAS"
+    rvm-desktop:
+      model:{{ model }}
+      path: "{{ rvm_path }}"
+      run: run"MAIN.BAS"
+    m4board:
+      ip: 192.168.1.2
+      run: run"MAIN.BAS"
+spec:
+  files:
+  - kind: bas
+    name: MAIN.BAS
+    concat: False
+  - kind: image
+    name: screen.png
+    mode: 0
+    pal: False
