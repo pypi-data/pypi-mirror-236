@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: geeznum
+Version: 1.0
+Summary: A python package that converts arabic number to geez number
+Home-page: https://github.com/natanimn/GeezNumber
+Author: Natanim Negash
+Author-email: natanimn@yahoo.com
+License: MIT
+Keywords: number,geez number,number convertor,python number,geez
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Geez Number Convertor
+
+This library helps you to convert any arabic number to geez number. 
+
+## Installation 
+```
+$ pip install geeznum
+```
+
+Example 
+```
+python
+
+from geeznum import GeezNumber
+
+geez = GeezNumber()
+
+numbers = [15, 20, 109, 55, 1011, 1500, 167, 2345, 2500, 5100, 10,000]
+
+for num in numbers:
+    print(geez.convert(num))
+```
+Output
+```
+፲፭
+፳
+፻፱
+፶፭
+፲፻፲፩
+፲፭፻
+፲፷፯
+፳፫፻፵፭
+፳፭፻
+፶፩፻
+፼
+```
