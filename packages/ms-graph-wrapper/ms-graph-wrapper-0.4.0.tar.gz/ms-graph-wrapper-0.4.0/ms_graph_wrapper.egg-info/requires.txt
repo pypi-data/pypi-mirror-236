@@ -1,0 +1,4 @@
+requests
+msal
+configparser
+json
