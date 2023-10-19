@@ -1,0 +1,7 @@
+README.md
+novapxp.py
+setup.py
+novapxp.egg-info/PKG-INFO
+novapxp.egg-info/SOURCES.txt
+novapxp.egg-info/dependency_links.txt
+novapxp.egg-info/top_level.txt

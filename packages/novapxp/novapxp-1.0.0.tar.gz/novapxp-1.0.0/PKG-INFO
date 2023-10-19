@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: novapxp
+Version: 1.0.0
+Summary: new calculator
+Home-page: UNKNOWN
+Author: xodevog135
+Author-email: xodevog135@vinthao.com
+License: MIT
+Keywords: your,keywords,here
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# How to Build a Complete Python Package Step-by-Step
+
+Do you want to know how to build a complete Python package? Well, look no further! This video will take you step-by-step through the entire process, from creating your project to publishing it on PyPI.
+
+Video: https://youtu.be/5KEObONUkik.
+
+
