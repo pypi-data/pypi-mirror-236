@@ -1,0 +1,13 @@
+AUTHORS.txt
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_nanoid/__init__.py
+django_nanoid/models.py
+django_nanoid/serializers.py
+django_nanoid.egg-info/PKG-INFO
+django_nanoid.egg-info/SOURCES.txt
+django_nanoid.egg-info/dependency_links.txt
+django_nanoid.egg-info/requires.txt
+django_nanoid.egg-info/top_level.txt
