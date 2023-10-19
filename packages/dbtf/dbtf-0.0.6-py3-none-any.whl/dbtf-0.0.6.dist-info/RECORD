@@ -1,0 +1,17 @@
+dbtf/__about__.py,sha256=g3NPUwnWcBLhA98inZeRTrOFV3p97DfzgSvMRQAOu3Q,122
+dbtf/__init__.py,sha256=xbJugSkmU6lnNoLqurj8x3psMLrTzuCVr0f7oG7WvjY,100
+dbtf/__main__.py,sha256=qALemCfhLnUGyz41iCZcvLF8THUJlCHnum1pNfO3Fbw,191
+dbtf/factory.py,sha256=a-72Cx1QAawzFsvlfo3RjX_fFK5IyUEuVkHemPG5tOU,2910
+dbtf/cli/__init__.py,sha256=L7i322hw6zV2MGO0hUtGPj3MMhiaqM1Nreenutaj_Ns,1145
+dbtf/dbt_project/dbt_project.yml,sha256=L6SC_wiwssWyRjhBgHaKfOq_gQoaDYp6nJVUkC42hQY,1300
+dbtf/dbt_project/factory_config.yml,sha256=N0VIsMfyF3VxItUZaH1v-HicapDRQ_tqmQZGtociiL0,117
+dbtf/dbt_project/profiles.yml,sha256=GonAH2TrxFQMroyNLmpFFc5nJA9A9plVzAfxegNm-8s,102
+dbtf/dbt_project/models/.gitignore,sha256=gGgDsg-mgiAVDR1vmuBUBLuTnYYH2osuAesi-N9JJ6Q,9
+dbtf/dbt_project/models/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbtf/dbt_project/models/0.test_append.sql,sha256=JSwUmFsVjXKiIkQAiRsnkFVZ3SOPZJv80vwuBSLa86M,82
+dbtf/dbt_project/templates/append.sql,sha256=yDWvsDtOwzqecddh4g92KNr2FaPZG5931H8N_bqXmwE,76
+dbtf-0.0.6.dist-info/METADATA,sha256=4skCamFFtGZcHCVabfl1vDT5ioDUtTc6eXhoy55jF9U,1049
+dbtf-0.0.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+dbtf-0.0.6.dist-info/entry_points.txt,sha256=c4_PrMVdBCZKagknQco_BmSYpocMh_sDZS0irY6SSEo,39
+dbtf-0.0.6.dist-info/licenses/LICENSE.txt,sha256=gxAu-2vkLkoGGN0Cbyox2fI7VewS4fPhxmgVqHl7Vpc,88
+dbtf-0.0.6.dist-info/RECORD,,
