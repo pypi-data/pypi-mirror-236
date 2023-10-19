@@ -1,0 +1,17 @@
+sirene/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sirene/srn.py,sha256=1QYUG4lplxTk61v7gPm9opyP6hD0QNe4ARIBWm3msjw,20414
+sirene/srn2.py,sha256=acpoWud5ctX4e0aOmokUEWSpdhl8J9x6hcpFZ89HE00,19457
+sirene/MCTI/sexta_edicao/estim_6a_ed_1990-2020_agropecuaria.xlsx,sha256=8LYr4n68bdoA1mwImEEVjQ1KDf2dih1nUTbYHpw-nys,154072
+sirene/MCTI/sexta_edicao/estim_6a_ed_1990-2020_energia.xlsx,sha256=hM7dVyTlk0Shr-ojw97QibBkCGflAFSO6FJWRsJMmbo,106995
+sirene/MCTI/sexta_edicao/estim_6a_ed_1990-2020_ippu.xlsx,sha256=SIk5dwA4JKdyR2gjKD8-3Ow3BSsoqedDJjLbIFlOslE,117053
+sirene/MCTI/sexta_edicao/estim_6a_ed_1990-2020_lulucf.xlsx,sha256=qfwd7EjrtABzLOYBYoM33sJTlc40JrPS7u1GH7qMX5I,45115
+sirene/MCTI/sexta_edicao/estim_6a_ed_1990-2020_residuos.xlsx,sha256=EPP6e6h0FRXw-_6EyYQe6nfwDNQGirMle0fJTOjjNl0,45235
+sirene/MCTI/sexta_edicao/estim_6a_ed_1990-2020_total-brasil-1.xlsx,sha256=LsL_iaHO8NUiyuxpAqW0ubn4Flp2Nmnxzfdi3gomWYk,28706
+sirene/data/emissions_68_sectors_plus_hausehold_Gg_CO2e_GWP_SAR_v1.csv,sha256=wgrn_PkOH7iUxFqcUf6bs8FXmz5jSMMmwqXrBeFOw90,154148
+sirene/data/public_data_scr_2012_12_a_2022_12_68TRU.csv,sha256=XTGPxprl_WTBQyPl0-yNVKi8PbF9nc4KTxmbJ4IaYa4,1968343
+sirene/mapbiomas/coeficiente_desmatamento_por_bioma_atividade.csv,sha256=ex3uNXTRyB5rLgSfpsoKdwavGxP1hbmr0wAgovZPi_Y,84456
+sirene-0.0.12.dist-info/LICENSE,sha256=5SRtt_9FQE19m3do659hW1W-W48USLt7NO-FZ3UUvcw,1080
+sirene-0.0.12.dist-info/METADATA,sha256=dzf5GyWxwj2hxrTaUnbJ65dP5VZKKBz2OV8mk5bxjpQ,1990
+sirene-0.0.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sirene-0.0.12.dist-info/top_level.txt,sha256=kL0l-9CzCQCF-3neXj7JFLhJJhNCrEsScfs86xVQzwc,7
+sirene-0.0.12.dist-info/RECORD,,
