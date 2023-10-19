@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>astLib - Python astronomy modules &mdash; astLib  documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="https://assets.readthedocs.org/static/css/badge_only.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="_static/jquery.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
+        <script async="async" src="https://assets.readthedocs.org/static/javascript/readthedocs-doc-embed.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installation" href="install.html" /> 
+
+<!-- RTD Extra Head -->
+
+<link rel="stylesheet" href="https://assets.readthedocs.org/static/css/readthedocs-doc-embed.css" type="text/css" />
+
+<script type="application/json" id="READTHEDOCS_DATA">{"ad_free": "", "api_host": "", "build_date": "2023-10-19T07:57:43Z", "builder": "sphinx", "canonical_url": "", "commit": "", "docroot": "", "features": {"docsearch_disabled": false}, "global_analytics_code": null, "language": "", "page": "index", "programming_language": "", "project": "", "source_suffix": ".rst", "subprojects": {}, "theme": "", "user_analytics_code": null, "version": ""}</script>
+
+<!--
+Using this variable directly instead of using `JSON.parse` is deprecated.
+The READTHEDOCS_DATA global variable will be removed in the future.
+-->
+<script type="text/javascript">
+READTHEDOCS_DATA = JSON.parse(document.getElementById('READTHEDOCS_DATA').innerHTML);
+</script>
+
+<script type="text/javascript" src="https://assets.readthedocs.org/static/javascript/readthedocs-analytics.js" async="async"></script>
+
+<!-- end RTD <extrahead> -->
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="#" class="icon icon-home">
+            astLib
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">API Reference</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">astLib</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="#" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">astLib - Python astronomy modules</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="astlib-python-astronomy-modules">
+<h1>astLib - Python astronomy modules<a class="headerlink" href="#astlib-python-astronomy-modules" title="Permalink to this heading"></a></h1>
+<img alt="https://readthedocs.org/projects/astlib/badge/?version=latest" src="https://readthedocs.org/projects/astlib/badge/?version=latest" />
+<p><strong>astLib</strong> provides some tools for research astronomers who use Python.</p>
+<ul class="simple">
+<li><p><strong>Documentation:</strong> <a class="reference external" href="https://astlib.readthedocs.io">https://astlib.readthedocs.io</a></p></li>
+<li><p><strong>License:</strong> <a class="reference external" href="LICENSE">LGPL</a></p></li>
+<li><p><strong>Authors:</strong> Matt Hilton &amp; Steven Boada</p></li>
+<li><p><strong>Installation:</strong> <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">astLib</span></code></p></li>
+<li><p><strong>Support:</strong> Please use the <a class="reference external" href="https://github.com/mattyowl/astLib/issues">GitHub issues page</a>,
+and/or contact <a class="reference external" href="mailto:matt&#46;hilton&#37;&#52;&#48;mykolab&#46;com">Matt Hilton</a>.</p></li>
+</ul>
+<p><strong>astLib</strong> is divided into several modules:</p>
+<ul class="simple">
+<li><p>astCalc   (general calculations, e.g. luminosity distance etc.)</p></li>
+<li><p>astCoords (coordinate conversions etc.)</p></li>
+<li><p>astImages (clip sections from .fits etc.)</p></li>
+<li><p>astPlots  (provides a flexible image plot class, e.g. plot image with catalogue objects overlaid)</p></li>
+<li><p>astSED    (calculate colours, magnitudes from stellar population models or spectral templates, fit photometric observations using stellar population models etc.)</p></li>
+<li><p>astStats  (statistics, e.g. biweight location/scale estimators etc.)</p></li>
+<li><p>astWCS    (routines for using FITS World Coordinate System information)</p></li>
+</ul>
+<p>The astWCS module is a higher level interface to PyWCSTools, a simple SWIG (<a class="reference external" href="http://www.swig.org">http://www.swig.org</a>) wrapping
+of some of the routines from WCSTools by Jessica Mink (<a class="reference external" href="http://tdc-www.harvard.edu/software/wcstools/">http://tdc-www.harvard.edu/software/wcstools/</a>). It is
+used by some routines in astCoords, astImages and astPlots.</p>
+<p>The goal of <strong>astLib</strong> was to provide features useful to astronomers that are not included in the scipy
+(<a class="reference external" href="http://scipy.org">http://scipy.org</a>), numpy (<a class="reference external" href="http://numpy.scipy.org">http://numpy.scipy.org</a>) or matplotlib (<a class="reference external" href="http://matplotlib.sourceforge.net">http://matplotlib.sourceforge.net</a>) modules
+on which astLib depends. For a far more extensive set of Python astronomy modules, see astropy
+(<a class="reference external" href="http://www.astropy.org/">http://www.astropy.org/</a>).</p>
+<p>Some scripts using <strong>astLib</strong> can be found in the examples/ folder provided with the source code distribution.</p>
+<div class="toctree-wrapper compound">
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#installation-on-recent-versions-of-macos-may-no-longer-be-relevant">Installation on recent versions of macOS (may no longer be relevant)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="usage.html#known-issues-may-no-longer-be-relevant">Known issues (may no longer be relevant)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="reference.html">API Reference</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#module-astLib.astCalc">astCalc</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#module-astLib.astCoords">astCoords</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#module-astLib.astImages">astImages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#module-astLib.astPlots">astPlots</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#module-astLib.astWCS">astWCS</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reference.html#module-astLib.astSED">astSED</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+<section id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this heading"></a></h1>
+<ul class="simple">
+<li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
+<li><p><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></p></li>
+<li><p><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></p></li>
+</ul>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="install.html" class="btn btn-neutral float-right" title="Installation" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, Matt Hilton &amp; Steven Boada.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

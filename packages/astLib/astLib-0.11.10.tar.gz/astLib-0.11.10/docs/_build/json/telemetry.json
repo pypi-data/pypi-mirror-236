@@ -1,0 +1,10 @@
+{
+    "extensions": [
+        "sphinx.ext.autodoc",
+        "sphinx_epytext",
+        "sphinx.ext.mathjax",
+        "sphinx.ext.napoleon",
+        "readthedocs_ext.readthedocs"
+    ],
+    "html_theme": "sphinx_rtd_theme"
+}
