@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: condb
+Version: 2.0.0
+Summary: Conditions Database (ConDB)
+Author: Igor Mandrichenko
+Author-email: ivm@fnal.gov
+License: BSD 3-clause
+Keywords: database,web service,conditions database
+License-File: LICENSE
