@@ -1,0 +1,13 @@
+*.egg-info
+*.py[cod]
+*$py.class
+__pycache__
+build
+coverage.xml
+dist
+.DS_Store
+.coverage
+.eggs
+.ropeproject
+.tox
+.vscode

@@ -1,0 +1,114 @@
+workflow:
+  rules:
+    # Prevent duplicate pipelines on pushes to branches with open merge requests
+    - if: "$CI_PIPELINE_SOURCE == 'merge_request_event'"
+    - if: "$CI_COMMIT_BRANCH && $CI_OPEN_MERGE_REQUESTS"
+      when: never
+    - if: "$CI_COMMIT_BRANCH || $CI_COMMIT_TAG"
+
+stages:
+  - linter
+  - test
+  - publish
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+
+.linter:python:
+  stage: linter
+  image: "python:3.10-slim-bullseye"
+  before_script:
+    - python -m pip install -U pip setuptools wheel
+    - python -m pip install --require-hashes -r "requirements/linter.txt"
+  cache:
+    key:
+      files:
+        - "requirements/linter.txt"
+      prefix: "pip-linter-"
+    paths:
+      - "${PIP_CACHE_DIR}"
+  rules:
+    - if: "$CI_PIPELINE_SOURCE == 'schedule'"
+      when: never
+    - when: on_success
+
+linter:python:black:
+  extends: .linter:python
+  script:
+    - black --check --diff .
+
+linter:python:flake8:
+  extends: .linter:python
+  script:
+    - flake8
+
+linter:python:isort:
+  extends: .linter:python
+  script:
+    - isort --check --diff .
+
+linter:python:mypy:
+  extends: .linter:python
+  script:
+    - mypy --ignore-missing-imports .
+
+test:
+  stage: test
+  image: "python:${PYTHON_VERSION}"
+  before_script:
+    - python -m venv .venv
+    - source .venv/bin/activate
+    - python -m pip install -U pip setuptools wheel
+    - python -m pip install -r requirements/tests.txt
+    - python -m pip install -e '.[opus]'
+  script:
+    - source .venv/bin/activate
+    - pytest --cov
+  after_script:
+    - source .venv/bin/activate
+    - python -m coverage report
+    - python -m coverage xml
+    # https://forum.gitlab.com/t/enabling-cobertura/36918/18
+    - sed -i "s=<source>.*</source>=<source>./</source>=g" coverage.xml
+    - sed -i "s;filename=\";filename=\"pyjaniml/;g" coverage.xml
+  parallel:
+    matrix:
+      - PYTHON_VERSION: ["3.8", "3.9", "3.10"]
+  artifacts:
+    reports:
+      coverage_report:
+        coverage_format: cobertura
+        path: coverage/cobertura-coverage.xml
+  cache:
+    key:
+      files:
+        - setup.py
+        - requirements/tests.txt
+      prefix: "pip-tests-${PYTHON_VERSION}"
+    paths:
+      - "${PIP_CACHE_DIR}"
+  needs:
+    - linter:python:black
+    - linter:python:flake8
+    - linter:python:isort
+    - linter:python:mypy
+  rules:
+    - if: "$CI_PIPELINE_SOURCE == 'schedule'"
+      when: never
+    - when: on_success
+
+publish:
+  image: python:3.10
+  stage: publish
+  before_script:
+    - python -m pip install -U pip setuptools wheel
+    - python -m pip install -U twine
+  script:
+    - python setup.py sdist bdist_wheel
+    - python -m twine upload dist/*
+  needs:
+    - test
+  rules:
+    - if: "$CI_PIPELINE_SOURCE == 'schedule'"
+      when: never
+    - if: "$CI_COMMIT_TAG"
