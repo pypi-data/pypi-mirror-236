@@ -1,0 +1,57 @@
+{{extra_libs}}
+#include <sst/sit/sit.hpp>
+
+#include "{{module_dir}}/{{module_name}}.hpp"
+
+int sc_main(int, char* argv[]) {
+
+    {{disable_warning}}
+    // ---------- SYSTEMC UUT INIT ---------- //
+    {{port_defs}};
+
+    // Connect the DUT
+    {{module_name}} DUT("{{module_name}}");
+    {{bindings}};
+    // ---------- SYSTEMC UUT INIT ---------- //
+
+    // ---------- IPC SOCKET SETUP AND HANDSHAKE ---------- //
+    // Initialize signal handlers
+    {{sig_type}} sit_buf(5, false);
+    sit_buf.set_addr(argv[1]);
+    // ---------- IPC SOCKET SETUP AND HANDSHAKE ---------- //
+
+    // ---------- INITIAL HANDSHAKE ---------- //
+    {{sender}}.set(std::to_string(getpid()));
+    {{sender}}.send();
+    {{sender}}.resize({{buf_size}});
+    // ---------- INITIAL HANDSHAKE ---------- //
+
+    std::ostringstream _data_out;
+    {{multi_outputs}}
+
+    while (true) {
+
+        // RECEIVING
+        {{receiver}}.recv();
+        std::string _data_in = {{receiver}}.get();
+
+        if (_data_in[0] == '0') {
+            break;
+        }
+        {{inputs}}
+
+        // SENDING
+        sc_start();
+
+        {{outputs}};
+
+        {{sender}}.set(_data_out.str());
+        {{sender}}.send();
+
+        _data_out.str(std::string());
+
+    }
+
+    return 0;
+
+}
