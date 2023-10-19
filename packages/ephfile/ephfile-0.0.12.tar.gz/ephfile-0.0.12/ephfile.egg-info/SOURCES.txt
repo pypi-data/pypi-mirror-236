@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+ephfile/__init__.py
+ephfile.egg-info/PKG-INFO
+ephfile.egg-info/SOURCES.txt
+ephfile.egg-info/dependency_links.txt
+ephfile.egg-info/top_level.txt
