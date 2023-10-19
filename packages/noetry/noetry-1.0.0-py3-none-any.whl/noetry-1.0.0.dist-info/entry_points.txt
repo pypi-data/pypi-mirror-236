@@ -1,0 +1,2 @@
+[console_scripts]
+noetry = noetry.__main__:main

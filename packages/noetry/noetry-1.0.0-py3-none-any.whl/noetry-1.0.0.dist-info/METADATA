@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: noetry
+Version: 1.0.0
+Summary: A simple package management tool.
+Author-email: Jordan Hart <jordan.da.hart@gmail.com>
+Requires-Dist: toml
+
