@@ -1,0 +1,7 @@
+[console_scripts]
+tabgenie = tabgenie.cli:run
+
+[flask.commands]
+export = tabgenie.cli:export
+info = tabgenie.cli:info
+sheet = tabgenie.cli:sheet
