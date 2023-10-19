@@ -1,0 +1,12 @@
+malloc_tag/libs/mtag_graphviz_utils.py,sha256=ny4PcOmmO4XqKmjjWP4Kn0aUxLT0AM3T_qbECgKPLhA,911
+malloc_tag/libs/mtag_node.py,sha256=FNO-awbteBboqXtpQbyYpKqf5CJ4WpDC4MWcI6ydpOY,12725
+malloc_tag/libs/mtag_snapshot.py,sha256=ExeqMX_7C8Sz9m7JVXfXMVPjb48u0dOEIOdSJcqaU-c,9853
+malloc_tag/libs/mtag_tree.py,sha256=h_hv1w25Gee3bbTVZSHIpz6SJC4BfCQTism-0RMH-lU,5592
+malloc_tag/mtag_json2dot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+malloc_tag/mtag_json2dot/json2dot.py,sha256=kA4AazpbSCtknSY0mLtygX97Dl4jjRgNQcgF1QzGFog,3901
+malloc_tag/mtag_postprocess/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+malloc_tag/mtag_postprocess/postprocess.py,sha256=Lm03NT3RCxABNYVYFFXq9VmEolu2zHUCGA_h5MH4ufA,8855
+malloctag_tools-1.5.3.dist-info/METADATA,sha256=cI9UN2uf_YoLgWAIpviswfgdSfbhWP4Bf6HOD1oXGjQ,3061
+malloctag_tools-1.5.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+malloctag_tools-1.5.3.dist-info/entry_points.txt,sha256=AuSv0YBuKktUl4T21_cXlojZFehE-iiTLzxl6932oIo,158
+malloctag_tools-1.5.3.dist-info/RECORD,,
