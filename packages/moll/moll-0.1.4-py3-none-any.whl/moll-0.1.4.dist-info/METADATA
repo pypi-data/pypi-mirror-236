@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: moll
+Version: 0.1.4
+Summary: 
+Author: Vsevolod Shegolev
+Author-email: v@sheg.cc
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: seaborn (>=0.12.2,<0.13.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Description-Content-Type: text/markdown
+
+# moll
+
+👉👈
