@@ -1,0 +1,6 @@
+
+[dev]
+keyring
+keyrings.alt
+twine==4.0.2
+wheel==0.41.2
