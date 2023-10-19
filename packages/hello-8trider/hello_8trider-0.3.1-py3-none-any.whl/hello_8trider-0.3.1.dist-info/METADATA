@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: hello-8trider
+Version: 0.3.1
+Summary: My first python publish
+Author-Email: opeth8 <8trider@naver.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# hello-8trider
+- MY first python publish
+
+##### view at:
+- https://pypi.org/project/hello-8trider/
+
+### INSTALL
+```bash
+$ pip install hello-8trider
+```
+### USE
+```bash
+$ 8pic
+
+                        ..                        
+                .:.    ~77^    .:.                
+               .7!!.   .^^.   .7!7.               
+                .^. .~ !..! ~  .^.                
+          ^~~.     ::!~^~~^~!^.     .~~^          
+         .~!~.   ~:^!^!^^^^!^!:^~   .!!~          
+            :. ~:.!^~.:^^^^:.!^! :^ ..            
+        .:  .~^~!^7!:^~~^^^~::!7^!^^~.  :.        
+       ^77~  .!~ ^7:^~^::^:^^:^7^.!!.  ~77^       
+       .:^. .~:^^~~:.:^~::~^:.:~~^^:~  .^:        
+           ..!~ :!^:^~~!.:!~~^:^!: !~..           
+           ~!!!^~. ^~!^::::~!!: :~^7~7^           
+           :. :!..^!^.^.:^.^.~!^..!: :.           
+                 ..    .:^.    ..                 
+                       :.:.                       
+                       :::.                       
+                       :.::                       
+                       :.:.                       
+                       ^..^                       
+                  . ..:.  ::..                    
+                ^!^!~~~:..:~^~!^!:                
+                :: :..:    ^.:: :: 
+
+
+$ 8name
+My name is H8
+
+$ eight
+8 * 8
+```
+
+### DEV
+```bash
+$ git clone ...
+$ cd hello-8trider
+$ pdm venv create
+$ source .venv/bin/activate
+$ pdm install
+```
+
+### DEPLOY
+```bash
+$ pdm publish
+```
