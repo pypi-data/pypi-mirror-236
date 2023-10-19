@@ -1,0 +1,8 @@
+setup.py
+bdaklr/__init__.py
+bdaklr/bdaklr.py
+bdaklr.egg-info/PKG-INFO
+bdaklr.egg-info/SOURCES.txt
+bdaklr.egg-info/dependency_links.txt
+bdaklr.egg-info/not-zip-safe
+bdaklr.egg-info/top_level.txt
