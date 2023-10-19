@@ -1,0 +1,17 @@
+rabbit_todo/__init__.py,sha256=5YvBKrOaSwuavTXcin2LmcS4B_8koksOz0t_DiARsEU,15
+rabbit_todo/cmd/__init__.py,sha256=Sj1tPwl5IBrqAY3ZkJIODTeZeTYh0s8jxTucoBZAot4,22
+rabbit_todo/cmd/cli.py,sha256=dIEaoIF2rVTJBb1fKY_9ajABziHY_EXcCPbbypHZeMk,2427
+rabbit_todo/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rabbit_todo/common/messages.py,sha256=-QPOh0Q6Obu9s8SSUiTs_m3181dOyX8yZgka_xVJYIE,1235
+rabbit_todo/common/result.py,sha256=TzbWIaLsRt5Eyij3KEsvoywrOD1klninCdfLfHioDqU,1140
+rabbit_todo/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rabbit_todo/core/i_task_repository.py,sha256=z7VOCAEGYHkhqqwVatgVqPNv8OeNgtYQOCytiZFmbFg,698
+rabbit_todo/core/task.py,sha256=6v0TWSj6GamLfNOkPofEXy0uskxc92bxXKkmNpGJPOw,1159
+rabbit_todo/core/task_id_generator.py,sha256=0Q8QXEjCyfmQIfzaflewdLhhQIdPJVH8uqHl31kiBcU,589
+rabbit_todo/entry_point.py,sha256=Ov_8_GDYUa-v1j3JY3xY3bL8ywemnVIOZ1uBIJjVi44,61
+rabbit_todo/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rabbit_todo/io/json_task_repository.py,sha256=hKoUokGqx6YXdVFAkiIE7I-5nvSE-dDSMyAWacL84PI,3311
+rabbit_todo-0.1.0.dist-info/entry_points.txt,sha256=JvWNY-1N0_Ub5dKjP2cfcsJn3awx15_99b-gWqvd9NE,53
+rabbit_todo-0.1.0.dist-info/METADATA,sha256=TBYB1Lj360qK97GDm2i7ftMeIuGg-D6saUkv8Vde9co,1179
+rabbit_todo-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+rabbit_todo-0.1.0.dist-info/RECORD,,
