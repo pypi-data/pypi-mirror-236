@@ -1,0 +1,12 @@
+pyyaml>=6.0
+numpy
+scipy
+svgwrite
+svgpathtools
+psutil
+matplotlib
+CairoSVG
+PySimpleGUI
+
+[:platform_system == "Windows"]
+wmi
