@@ -1,0 +1,2 @@
+[console_scripts]
+odourcollect = pyodcollect.command_line:main
