@@ -1,0 +1,80 @@
+\documentclass[a4paper]{article}
+
+\usepackage[ngerman]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage[ansinew]{inputenc}
+\usepackage[section]{placeins}
+\usepackage{geometry}
+\geometry{a4paper,left=3cm,right=2cm, top=2cm, bottom=2cm}
+\usepackage{color}
+\usepackage{transparent}
+\usepackage{graphicx}
+
+\usepackage{float}
+\graphicspath{{Figures/}}
+
+\usepackage{epstopdf}
+\usepackage[table]{xcolor}
+%-------------------
+\newenvironment{boxed2}
+    {\begin{center}
+    \begin{tabular}{|p{0.9\textwidth} |}
+		\hline
+    }
+    { 
+    \\\hline
+    \end{tabular} 
+    \end{center}
+    }
+
+\def\msquare{\mathord{\scalerel*{\Box}{gX}}}
+\newenvironment{boxed3}
+    {\begin{center}
+    \begin{tabular}{!{\color{red}\vrule} p{0.9\textwidth} !{\color{red}\vrule}}
+		\arrayrulecolor{red}\hline
+    }
+    { 
+    \\\hline
+    \end{tabular} 
+    \end{center}
+    }
+
+\def\msquare{\mathord{\scalerel*{\Box}{gX}}}
+
+
+\setlength{\parindent}{0pt}
+%----------
+\setlength{\parindent}{0pt}
+
+\begin{document}
+\pagestyle{empty} \enlargethispage*{25cm}\samepage{
+
+\vspace*{-3cm}
+\begin{center}
+\begin{minipage}[!h]{18cm}
+\hspace*{-0.9cm}
+\includegraphics[width=3.3cm]{./figures/igte_logo}
+\begin{tabular}{p{10cm}}
+\vspace{1cm}
+\centering{
+\Large Institut f\"ur Grundlagen und Theorie der
+Elektrotechnik \\
+Technische Universit\"at Graz\\
+~\\
+~\\}
+\end{tabular}
+\includegraphics[width=3.3cm]{./figures/TUG_logo}
+\end{minipage}
+		\Large
+		\textbf{Grundlagen der Elektrotechnik WS 22/23} \\
+		\textbf{INSERT-EX-NUM. \"Ubungszettel \\ Gruppe INSERT-GROUP}\\
+		INSERT-EX-NAME
+	\end{center}}
+	
+\vspace*{1cm}
+INSERT-INFOBOX
+	
+INSERT-TASKS
+
+\end{document} 
