@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+scfm.egg-info/PKG-INFO
+scfm.egg-info/SOURCES.txt
+scfm.egg-info/dependency_links.txt
+scfm.egg-info/requires.txt
+scfm.egg-info/top_level.txt
+scfoundation/__init__.py
