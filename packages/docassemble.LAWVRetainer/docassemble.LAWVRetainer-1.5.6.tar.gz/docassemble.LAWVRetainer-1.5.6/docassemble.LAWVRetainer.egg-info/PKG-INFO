@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: docassemble.LAWVRetainer
+Version: 1.5.6
+Summary: A docassemble extension to utilizing a multi-part interview to create either a 1) Legal, 2) Spanish, 3) FAST, or 4) BHA retainer
+Home-page: https://docassemble.org
+Author: Dane Henry, Esq.
+Author-email: dhenry@lawv.net
+License: The MIT License (MIT)
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Multi-part interview for creating one of 4 retainers (Legal, Spanish Legal, FAST, or BHA) and allowing for Citizen/Non-Citizen as well as for Custodian signature on behalf of the client for FAST and BHA retainers.
+
