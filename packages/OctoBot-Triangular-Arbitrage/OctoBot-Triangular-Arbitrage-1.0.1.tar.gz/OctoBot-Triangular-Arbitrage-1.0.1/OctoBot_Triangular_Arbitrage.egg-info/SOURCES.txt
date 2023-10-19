@@ -1,0 +1,13 @@
+CHANGELOG.md
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+OctoBot_Triangular_Arbitrage.egg-info/PKG-INFO
+OctoBot_Triangular_Arbitrage.egg-info/SOURCES.txt
+OctoBot_Triangular_Arbitrage.egg-info/dependency_links.txt
+OctoBot_Triangular_Arbitrage.egg-info/not-zip-safe
+OctoBot_Triangular_Arbitrage.egg-info/requires.txt
+OctoBot_Triangular_Arbitrage.egg-info/top_level.txt
+triangular_arbitrage/__init__.py
+triangular_arbitrage/detector.py
