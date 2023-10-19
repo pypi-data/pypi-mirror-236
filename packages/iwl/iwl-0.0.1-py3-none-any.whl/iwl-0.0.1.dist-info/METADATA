@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: iwl
+Version: 0.0.1
+Summary: A package that converts a yaml-based web language to html.
+Author: Benjamin Siebke, Daniel Siebke
+Project-URL: Homepage, https://github.com/DevelopmentLounge/IWL
+Project-URL: Bug Tracker, https://github.com/DevelopmentLounge/IWL/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Topic :: Software Development :: Code Generators
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# IWL
+IWL (Improved Web Language) is a project of DevelopmentLounge designed to translate a language based on yaml with a custom syntax to html.
