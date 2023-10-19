@@ -1,0 +1,2 @@
+lxml>=4.9.3
+beancount>=2.3.6
