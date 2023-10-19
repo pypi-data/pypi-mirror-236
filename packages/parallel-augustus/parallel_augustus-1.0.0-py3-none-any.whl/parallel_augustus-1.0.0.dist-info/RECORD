@@ -1,0 +1,10 @@
+parallel_augustus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+parallel_augustus/checks.py,sha256=HuIh0wLqAg7D1iHSK2fjYqokRc2LDxqAFUYOJnvtVas,590
+parallel_augustus/cli.py,sha256=0HmPLONJ--PjyAksV-zjEjpxWe8C7aayGEm8S0kJ-Jw,2168
+parallel_augustus/pipeline.py,sha256=KMIsfZSEL_YlcnMAR9F05ufEEW_bwctBpOPb6L8XCiA,4695
+parallel_augustus-1.0.0.dist-info/LICENSE.md,sha256=jxMhav7J7xinnNIbrYNpAVhKGu47FqyMl5BwoC4-Pf0,21780
+parallel_augustus-1.0.0.dist-info/METADATA,sha256=AiK-8TNSBd4-eubqVqSzoNvplTPenMssvqOIQ6dCUqU,2068
+parallel_augustus-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+parallel_augustus-1.0.0.dist-info/entry_points.txt,sha256=25b6pxc1if5vlEYQx4s-ar5usMy8TTkD5vtsCekJSkg,65
+parallel_augustus-1.0.0.dist-info/top_level.txt,sha256=JLAIItKBP7ncDTKkKsLDhcJvsy6ZDeP5dnJqkeQQTzs,18
+parallel_augustus-1.0.0.dist-info/RECORD,,

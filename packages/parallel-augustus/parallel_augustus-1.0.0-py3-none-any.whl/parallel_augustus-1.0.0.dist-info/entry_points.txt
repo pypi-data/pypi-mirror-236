@@ -1,0 +1,2 @@
+[console_scripts]
+parallel_augustus = parallel_augustus.cli:main
