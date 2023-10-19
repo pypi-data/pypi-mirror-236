@@ -1,0 +1,11 @@
+gdal
+rasterstats
+earthengine-api
+fiona
+pandas
+seaborn>=0.12.0
+google-cloud-storage
+setuptools
+requests
+pytest
+typing-extensions
