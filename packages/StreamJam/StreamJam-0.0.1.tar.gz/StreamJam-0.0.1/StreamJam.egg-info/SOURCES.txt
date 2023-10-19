@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+StreamJam.egg-info/PKG-INFO
+StreamJam.egg-info/SOURCES.txt
+StreamJam.egg-info/dependency_links.txt
+StreamJam.egg-info/top_level.txt
+docs/index.html
+streamjam/__init__.py
