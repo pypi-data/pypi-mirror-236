@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mm-docx2txt
+Version: 0.1.0
+Summary: 
+Author: hud
+Author-email: hudwahab@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flytekit (==1.9.1)
+Requires-Dist: pytest (>=7.4.2,<8.0.0)
+Description-Content-Type: text/markdown
+
+# MM docx2txt plugin
+
+MM docx2txt class module. Once enabled, it allows you to use parse text and images from docx files in your Flyte tasks.
+
+To install the plugin, run the following command:
+
+```bash
+pip install mm-docx2txt
+```
+
