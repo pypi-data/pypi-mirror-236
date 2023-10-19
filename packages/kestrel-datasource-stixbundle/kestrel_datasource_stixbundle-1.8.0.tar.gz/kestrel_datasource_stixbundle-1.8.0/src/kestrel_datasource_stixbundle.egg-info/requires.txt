@@ -1,0 +1,3 @@
+kestrel_core>=1.8.0
+requests>=2.31.0
+stix2-matcher>=3.0.0
