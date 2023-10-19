@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+gppy/__init__.py
+gppy/gtf.py
+gppy.egg-info/PKG-INFO
+gppy.egg-info/SOURCES.txt
+gppy.egg-info/dependency_links.txt
+gppy.egg-info/entry_points.txt
+gppy.egg-info/top_level.txt
