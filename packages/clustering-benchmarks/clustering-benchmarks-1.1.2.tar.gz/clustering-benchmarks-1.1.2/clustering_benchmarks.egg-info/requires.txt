@@ -1,0 +1,7 @@
+cython
+genieclust
+matplotlib
+natsort
+numpy
+pandas
+scipy

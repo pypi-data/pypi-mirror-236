@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: clustering-benchmarks
+Version: 1.1.2
+Summary: A Framework for Benchmarking Clustering Algorithms
+Home-page: https://clustering-benchmarks.gagolewski.com/
+Download-URL: https://github.com/gagolews/clustering-benchmarks
+Author: Marek Gagolewski
+Author-email: marek@gagolewski.com
+Maintainer: Marek Gagolewski
+License: GNU Affero General Public License v3
+Project-URL: Bug Tracker, https://github.com/gagolews/clustering-benchmarks/issues
+Project-URL: Documentation, https://clustering-benchmarks.gagolewski.com/
+Project-URL: Source Code, https://github.com/gagolews/clustering-benchmarks
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# A Framework for Benchmarking Clustering Algorithms
+
+Maintained/edited/authored by [Marek Gagolewski](https://www.gagolewski.com).
+
+This project aims to:
+
+* **aggregate, polish, and standardise the existing clustering benchmark
+    batteries** referred to across the machine learning and data mining
+    literature,
+* introduce **new datasets** of different dimensionalities,
+    sizes, and cluster types,
+* propose a **consistent methodology** for evaluating clustering algorithms.
+
+See <https://clustering-benchmarks.gagolewski.com/> for a detailed description.
+
+**How to cite**:
+Gagolewski M., A framework for benchmarking clustering algorithms,
+*SoftwareX* **20**, 2022, 101270, <https://clustering-benchmarks.gagolewski.com>,
+DOI: [10.1016/j.softx.2022.101270](https://doi.org/10.1016/j.softx.2022.101270).
