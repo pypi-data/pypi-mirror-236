@@ -1,0 +1,10 @@
+palaestrai
+
+[dev]
+twine
+setuptools
+black==22.3.0
+build
+
+[gym]
+gymnasium
