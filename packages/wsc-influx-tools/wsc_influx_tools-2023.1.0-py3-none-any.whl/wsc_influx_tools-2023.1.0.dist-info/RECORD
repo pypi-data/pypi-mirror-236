@@ -1,0 +1,8 @@
+wsc_influx_tools/__init__.py,sha256=kUg5jXefkSYXXe3WCe9r4HfotxTWgRCWnfmpzIKBczA,129
+wsc_influx_tools/wsc_influx_get_data.py,sha256=OaMiHSAfnRqbKxlKJbVnCkHsOdzkN1Wp24IRO8Kgi5w,3993
+wsc_influx_tools/wsc_influx_send_data.py,sha256=-CRo9BNq0aT02tvP1EVdLtJ8dHyFyfPeA3D5nl0Oacs,3371
+wsc_influx_tools-2023.1.0.dist-info/METADATA,sha256=H1NPKKyQ-XbgL8sEOyGjGoY9kYFu4_qg_zdCpUa2dGM,4955
+wsc_influx_tools-2023.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+wsc_influx_tools-2023.1.0.dist-info/entry_points.txt,sha256=QTQIfaGVForXGVVgLoEb17yXPu8IkCKTG7Jy1OF--gk,148
+wsc_influx_tools-2023.1.0.dist-info/top_level.txt,sha256=oedK6QvCWupC6lhww2jDNKearI1m8RQNP3ushTPhq8w,17
+wsc_influx_tools-2023.1.0.dist-info/RECORD,,
