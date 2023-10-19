@@ -1,0 +1,36 @@
+{
+  "project_file_version": "1.0",
+  "project_type": "arthropods",
+  "origin": "maphis.plugins.maphis",
+  "project_name": "",
+  "label_images_info": {
+    "label_images": [
+      {
+        "name": "Labels",
+        "label_hierarchy_file": "arthropods_label_hierarchy.json",
+        "constrain_to": [],
+        "is_default": true
+      },
+      {
+        "name": "Reflections",
+        "label_hierarchy_file": "reflections_label_hierarchy.json",
+        "constrain_to": [
+          {
+            "label_image_name": "Labels",
+            "regions": [
+              "1:0:0:0"
+            ]
+          }
+        ],
+        "is_default": false
+      }
+    ]
+  },
+  "plugins": [
+    "maphis.plugins.maphis",
+    "maphis.plugins.pekar_appendage_segments",
+    "maphis.plugins.pekar_reflections",
+    "maphis.plugins.pekar_unet",
+    "maphis.plugins.profile_register"
+  ]
+}

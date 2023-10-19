@@ -1,0 +1,6 @@
+mkdocs
+mkdocs-material
+mkdocs-glightbox
+mkdocstrings
+mkdocstrings-python
+mkdocs-autorefs

@@ -1,0 +1,35 @@
+{
+  "collection_name": "Arthropods",
+  "landmarks": [
+    {
+      "name": "antenna left",
+      "color": [252, 198, 3],
+      "deletable": false
+    },
+    {
+      "name": "antenna right",
+      "color": [252, 198, 3],
+      "deletable": false
+    },
+    {
+      "name": "leg 1 left",
+      "color": [252, 198, 3],
+      "deletable": false
+    },
+    {
+      "name": "leg 1 right",
+      "color": [150, 220, 80],
+      "deletable": false
+    },
+    {
+      "name": "leg 2 left",
+      "color": [252, 198, 3],
+      "deletable": false
+    },
+    {
+      "name": "leg 2 right",
+      "color": [252, 198, 3],
+      "deletable": false
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+prune maphis/bin/Tesseract-OCR
+recursive-exclude site/ *
