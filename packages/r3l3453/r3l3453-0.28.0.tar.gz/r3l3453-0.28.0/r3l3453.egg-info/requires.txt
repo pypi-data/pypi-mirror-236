@@ -1,0 +1,6 @@
+parver
+typer
+wheel
+twine
+build
+isort
