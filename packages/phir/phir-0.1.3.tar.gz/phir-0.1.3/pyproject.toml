@@ -1,0 +1,48 @@
+[build-system]
+requires = [
+    "setuptools>=64",
+    "setuptools_scm>=8",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "phir"
+description = "A data model and validation tool for PHIR (PECOS High-level Intermediate Representation)."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Ciarán Ryan-Anderson", email = "ciaran.ryan-anderson@quantinuum.com" },
+  {name = "Kartik Singhal", email = "kartik.singhal@quantinuum.com" },
+]
+dynamic = ["version"]
+dependencies = ["pydantic", "rich"]
+
+[project.optional-dependencies]
+docs  = [
+  "autodoc-pydantic",
+  "pydata_sphinx_theme",
+  "sphinx",
+]
+tests = ["pytest"]
+
+[project.scripts]
+phir-cli = "phir.cli:main"
+
+[project.urls]
+Repository = "https://github.com/CQCL/phir.git"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+"phir" = ["py.typed"]
+
+[tool.pytest.ini_options]
+pythonpath = [
+  "."
+]
+
+[tool.setuptools_scm]
+version_scheme = "python-simplified-semver"
