@@ -1,0 +1,12 @@
+spmat/__about__.py,sha256=UgFvJBVEHmezDCMYgUJoD-t7oXXh8stCP40eqe5vRdo,455
+spmat/__init__.py,sha256=jZvuKk9rpPBQr9ABk-U-eMN_jpcmnnSHDp9WpqxPmOA,48
+spmat/dlmat.py,sha256=9CCjXU6Zml2nACOp6WDNmZ0rrKxKDTMCDuRtr9I8EBU,11287
+spmat/linalg.c,sha256=84QXPrfYRwMotoUX7g9gT2gM-AhHXexqm5i4y1QNVBs,1232697
+spmat/linalg.cpython-38-darwin.so,sha256=taJ0obnWg1RGOTIZFefCaOk41Dda881LUFR_k68UHTg,255144
+spmat/linalg.pyx,sha256=MRgfKsddSwz1wAvgyHCs4Vv19wuWLNMMuKDl9PWCieE,5945
+spmat/utils.py,sha256=84QXVTRwM74nUCRt0gl4xYgloZDkYdI6jgSnuXGcMXA,1297
+spmat-0.0.10.dist-info/LICENSE,sha256=EOgn1srox5NRE_dNWDi2FwZ_ttWeybLvNcldHJwMgQU,1320
+spmat-0.0.10.dist-info/METADATA,sha256=AArvoq1h9QaesG_SRtFwKCFr7V0gKg3gilQABLn5td8,1176
+spmat-0.0.10.dist-info/WHEEL,sha256=9eQSRGrOa03o6gOAokAH2Pxmxf46-vNjolslVVBruVM,109
+spmat-0.0.10.dist-info/top_level.txt,sha256=_gG75V86FOxG9Rf9kCBKWOxg2-WxlUrqo2Dog0rPUmM,6
+spmat-0.0.10.dist-info/RECORD,,
