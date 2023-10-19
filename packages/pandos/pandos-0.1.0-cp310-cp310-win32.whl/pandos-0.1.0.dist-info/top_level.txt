@@ -1,0 +1,8 @@
+2623f8d078abd2988efc__mypyc
+cli
+exceptions
+futures
+monads
+pandos
+settings
+version
