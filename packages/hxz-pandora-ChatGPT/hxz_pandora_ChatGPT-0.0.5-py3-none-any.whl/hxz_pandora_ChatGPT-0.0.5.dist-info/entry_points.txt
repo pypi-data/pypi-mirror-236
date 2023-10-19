@@ -1,0 +1,3 @@
+[console_scripts]
+hxz_pandora = hxz_pandora.launcher:run
+hxz_pandora-cloud = hxz_pandora.cloud_launcher:run
