@@ -1,0 +1,14 @@
+LICENCE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+requirements.txt
+docs/1a.png
+docs/2a.png
+thonny_astro_pi_replay.egg-info/PKG-INFO
+thonny_astro_pi_replay.egg-info/SOURCES.txt
+thonny_astro_pi_replay.egg-info/dependency_links.txt
+thonny_astro_pi_replay.egg-info/requires.txt
+thonny_astro_pi_replay.egg-info/top_level.txt
+thonnycontrib/thonny_astro_pi_replay.py
+thonnycontrib/res/AstroPi_2021_colour.png
