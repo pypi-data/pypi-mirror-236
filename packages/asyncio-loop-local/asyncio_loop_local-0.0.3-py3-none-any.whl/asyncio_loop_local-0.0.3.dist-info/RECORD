@@ -1,0 +1,14 @@
+asyncio_loop_local/__init__.py,sha256=Xb9z5oH3tXwx7Bm8g6V1AxN8gxWOPIYQoZJSspaQpYk,693
+asyncio_loop_local/_atexit.py,sha256=fRunZrTIC7ddbN1q-ZS3HY7dLoDvYAlGY2mGdSpW5iQ,1114
+asyncio_loop_local/_enter.py,sha256=sxGkZfRsro9oUFcnYG9UU-3RSVzlcE0efc3EAMsRvzo,570
+asyncio_loop_local/_enter_once.py,sha256=ND7W9-li72GFLODIzO5-aB2NrcPuGIL7eaxbhIopMtY,753
+asyncio_loop_local/_singleton.py,sha256=vRWebpJLknIhR7z-FnjqdEpnbvClD8MAaWGZpmP9gTE,2058
+asyncio_loop_local/_sticky_acm.py,sha256=Oq6-aAaB2p2IbyGqwW_q69NxKW0_swok6a4dVyhDMMo,1567
+asyncio_loop_local/_sticky_singleton_acm.py,sha256=mz2FJaQtsMMHQD6srOz-ztkdCVB5gZLdpLvD-qUcS6o,1005
+asyncio_loop_local/_storage.py,sha256=jvDUzR_HXYk8JRCI7rYTUBZAllp-D4ZScQJVkIBGcBU,785
+asyncio_loop_local/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asyncio_loop_local-0.0.3.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+asyncio_loop_local-0.0.3.dist-info/METADATA,sha256=VFo8yU1H-hTGsLGccUAGAeuWTc9uIi7eIhS7ziHnQFI,44814
+asyncio_loop_local-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+asyncio_loop_local-0.0.3.dist-info/top_level.txt,sha256=qN8UnKHqr01cR0Qm5bpcgNLTBQxCDHcQs9hxjufhPJc,19
+asyncio_loop_local-0.0.3.dist-info/RECORD,,
