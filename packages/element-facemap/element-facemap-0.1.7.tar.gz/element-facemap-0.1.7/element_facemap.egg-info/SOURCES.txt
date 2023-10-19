@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+element_facemap/__init__.py
+element_facemap/facial_behavior_estimation.py
+element_facemap/version.py
+element_facemap.egg-info/PKG-INFO
+element_facemap.egg-info/SOURCES.txt
+element_facemap.egg-info/dependency_links.txt
+element_facemap.egg-info/requires.txt
+element_facemap.egg-info/top_level.txt
