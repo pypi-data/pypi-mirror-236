@@ -1,0 +1,13 @@
+nkt_basik/__init__.py,sha256=pv1QmPiPw-eR1DVM1hSU38EsIcqR6hCjDwk0jODlBQ4,681
+nkt_basik/bits_handling.py,sha256=rN9Zc9PQuq_wK8w__tK01UPyEpR0aoBW1mMOdO2kByM,4946
+nkt_basik/constants_and_enums.py,sha256=tLh1SPL0z8azallY9iMJA-uF2eStOSTa6J7NsUjco34,725
+nkt_basik/dll/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nkt_basik/dll/NKTP_DLL.py,sha256=5g_CZhNFTvddcL38C_tSdvkIRNdLxhdGuSyt7FTXUpw,117419
+nkt_basik/dll/NKTPDLL.dll,sha256=YgkUT5olhV-h1HqODueV3lsvlh6wIm3fUWM5VLx2Jik,12673104
+nkt_basik/dll/register_enums.py,sha256=Ipe4M4zuTSc1zY-3YQJkjvRIqpW-3UJwshmTlqS11bw,4298
+nkt_basik/functions.py,sha256=X2cVFYiCofCyWr-8xM5SeBUcQgLC7D5Q3WKLZnArkU8,4556
+nkt_basik/module.py,sha256=bsKssrGc7-I4-b28PfHgnCuUKQGaGRHheHI5O_VuRDY,20028
+nkt_basik/utils.py,sha256=rYeBPSq24N-cp0JGAFKZSorzHpMv40QWnYchUJ84D-8,627
+nkt_basik-0.3.3.dist-info/METADATA,sha256=q9-52FkpB6vsfXmtmi2E49gsX-szuhzLA_8QwHcZj3A,2413
+nkt_basik-0.3.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+nkt_basik-0.3.3.dist-info/RECORD,,
