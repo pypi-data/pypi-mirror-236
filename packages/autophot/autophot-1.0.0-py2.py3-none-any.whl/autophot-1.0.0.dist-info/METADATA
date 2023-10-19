@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: autophot
+Version: 1.0.0
+Summary: Sorry this has moved to: AstroPhot. Please run: pip install astrophot
+Home-page: https://github.com/Autostronomy/AutoPhot
+Author: Connor Stone
+Author-email: connorstone628@gmail.com
+License: GPL-3.0 license
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+# Did you come looking for AutoPhot?
+
+Appologies, due to a name conflict the package has moved to `AstroPhot`. It's all the same code, just a new name. Please follow this link: https://github.com/Autostronomy/AstroPhot
