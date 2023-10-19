@@ -1,0 +1,11 @@
+BL_Python/testing/__init__.py,sha256=YZoDMFgikTmgL5EqRKa4mX-zXFr2c20J7dSZJ4dqSd0,27
+BL_Python/testing/database/__init__.py,sha256=_vvnvMjkughC_xZe7hdjmUdR-lni61gvDrEUYcj8GAg,4664
+BL_Python/testing/database/fixtures/__init__.py,sha256=5fNBidQGUADE-9DNNxKQY92R4I-U9ECmk6pM6yHTKMw,885
+BL_Python/testing/web/__init__.py,sha256=Pdkh6NK-x84oWdKRl__AfVG02Oa24DBWyxGeWfSOfYg,6939
+BL_Python/testing/web/fixtures/__init__.py,sha256=UsZE3MvLffI38qBLSUp89Lvz077kW-boXHpJgZZdLtY,994
+test/unit/test_placeholder.py,sha256=QtbIU69PeHqPH5Wfwpct04Hyh4iG-cwRask4dy0YpdM,143
+BL_Python.testing-0.0.1.dist-info/LICENSE.md,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+BL_Python.testing-0.0.1.dist-info/METADATA,sha256=o3BYA1oT1qKm4V7OiJoWhp-mEuOyszQLrcRIdvnT4eY,1140
+BL_Python.testing-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+BL_Python.testing-0.0.1.dist-info/top_level.txt,sha256=KMwegjDHCijOOzVHpIoLBo7FvB-whCAUCSOE-Z-o_60,15
+BL_Python.testing-0.0.1.dist-info/RECORD,,
