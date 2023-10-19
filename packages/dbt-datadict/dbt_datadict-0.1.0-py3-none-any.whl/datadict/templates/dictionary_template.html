@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dbt Data Dictionary</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            background-color: #e2b873; /* Updated to light orange */
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .name {
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+
+        .description {
+            margin-top: 5px;
+            color: #555;
+        }
+
+        .version {
+            margin-top: 20px;
+        }
+
+        .model {
+            margin-top: 20px;
+        }
+
+        .model-item {
+            margin-left: 20px;
+            color: #555;
+        }
+
+        .search-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .search-input {
+            width: 300px;
+            padding: 10px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            outline: none;
+        }
+
+        .search-input::-webkit-calendar-picker-indicator {
+            display: none;
+        }
+
+        .top-level-list {
+            position: absolute;
+            z-index: 1;
+            margin-top: 40px;
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        .top-level-list option {
+            padding: 5px;
+        }
+    </style>
+    <script>
+        function filterTopLevelObjects() {
+            var searchTerm = document.getElementById("search-input").value.toLowerCase();
+            var topLevelObjects = document.getElementsByClassName("section");
+
+            for (var i = 0; i < topLevelObjects.length; i++) {
+                var topLevelObject = topLevelObjects[i];
+                var objectText = topLevelObject.innerText.toLowerCase();
+
+                if (objectText.indexOf(searchTerm) > -1) {
+                    topLevelObject.style.display = "block";
+                } else {
+                    topLevelObject.style.display = "none";
+                }
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1>YAML to HTML Dictionary</h1>
+
+    <div class="search-container">
+        <input type="text" id="search-input" class="search-input" placeholder="Search..." oninput="filterTopLevelObjects()" list="top-level-list" />
+        <datalist id="top-level-list" class="top-level-list">
+            {% for field in fields %}
+            <option>{{ field.name }}</option>
+            {% endfor %}
+        </datalist>
+    </div>
+
+    {% for field in fields %}
+    <div class="section">
+        <div class="name">{{ field.name }}</div>
+        <div class="description">{{ field.description }}</div>
+
+        <div class="version">
+            <strong>Versions:</strong>
+            <ul>
+                {% for version in field.versions %}
+                <li>{{ version }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="model">
+            <strong>Models:</strong>
+            <ul>
+                {% for model in field.models %}
+                <li class="model-item">{{ model }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+</body>
+</html>

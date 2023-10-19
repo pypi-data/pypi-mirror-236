@@ -1,0 +1,3 @@
+[console_scripts]
+datadict=datadict:cli
+

@@ -1,0 +1,12 @@
+datadict/__init__.py,sha256=D07NyuOCTcM9R3ItTrRy3vt6RyihaxwdN6fpkIKJ-Bk,97
+datadict/datadict_class.py,sha256=Wd7O7bojNAm9sCEn7nlWALsR_N-p-o0ZMJM_IOaRNMw,26381
+datadict/datadict_dbt.py,sha256=mzfcC34593Qtz-3T9KwxBizpMWXNXrX0iZRfzXXq8Y0,4945
+datadict/datadict_helpers.py,sha256=DrB0w0cRkr0fRNdVxzFBMardJGMzT6GjibS1KRD7aPM,5559
+datadict/datadict_main.py,sha256=5NYahjwT0-aFza9s7XrtHxYEy0tXjYo01UDfBdUOvoM,1706
+datadict/datadict_yaml.py,sha256=33oqQ0Gj-4hOydAAwihIXng9yc6Fo7-eUH1pXFenwIo,9242
+datadict/templates/dictionary_template.html,sha256=3oY1_yAorH1kvxjeWi21tG0golyP83H7rx-J__C1O9I,3579
+dbt_datadict-0.1.0.dist-info/LICENSE,sha256=N0P3pKtRMvfb64jmgJdlerg3TnS0a2QC776AzPsbZIg,35128
+dbt_datadict-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dbt_datadict-0.1.0.dist-info/entry_points.txt,sha256=b1TI5FcTPizGYawi0rxgDKPk1kiy-5y-8g9xg1xjl8E,41
+dbt_datadict-0.1.0.dist-info/METADATA,sha256=Lsw9mZvePVefxI9TBy-VFMRIR8_yEKpeqn-8yJKNH_Q,3783
+dbt_datadict-0.1.0.dist-info/RECORD,,
