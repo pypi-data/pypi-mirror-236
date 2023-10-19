@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/simple_wkt.egg-info/PKG-INFO
+src/simple_wkt.egg-info/SOURCES.txt
+src/simple_wkt.egg-info/dependency_links.txt
+src/simple_wkt.egg-info/requires.txt
+src/simple_wkt.egg-info/top_level.txt
