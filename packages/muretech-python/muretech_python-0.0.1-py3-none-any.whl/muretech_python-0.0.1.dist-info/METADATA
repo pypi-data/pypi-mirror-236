@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: muretech-python
+Version: 0.0.1
+Summary: Python SDK for Muretech Platform Integration
+Home-page: https://github.com/muretech/muretech-python
+License: MIT
+Author: Muretech
+Author-email: tech@muretech.fr
+Requires-Python: >=3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: auth0-python (>=4.4.2,<5.0.0)
+Requires-Dist: cryptography (>=41.0.3,<42.0.0)
+Requires-Dist: pyjwt (>=2.8.0,<3.0.0)
+Requires-Dist: pyopenssl (>=23.2.0,<24.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/muretech/muretech-python
+Description-Content-Type: text/markdown
+
+# Muretech Python Package
+
+This is an Python SDK that allows you to integrate your application with Muretech Platform.
