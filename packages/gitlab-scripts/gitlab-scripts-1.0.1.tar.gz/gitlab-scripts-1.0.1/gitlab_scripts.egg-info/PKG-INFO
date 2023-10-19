@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: gitlab-scripts
+Version: 1.0.1
+Summary: Helper and convenience scripts to help with common GitLab actions.
+Author-email: Julien Lecomte <julien@lecomte.at>
+License: MIT
+Project-URL: Homepage, https://gitlab.com/jlecomte/python/gitlab-scripts
+Project-URL: Documentation, https://jlecomte.gitlab.io/python/gitlab_scripts/
+Project-URL: Source code, https://gitlab.com/jlecomte/python/gitlab-scripts
+Project-URL: Bug tracker, https://gitlab.com/jlecomte/python/gitlab-scripts/-/issues
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: imxdparser
+Requires-Dist: ply<4.0.0
+Requires-Dist: python-gitlab
+Requires-Dist: pyyaml
+Requires-Dist: torxtools
+
+Project moved:
+
+GitLab: [https://gitlab.com/1-sfm/gitlabsolute](https://gitlab.com/1-sfm/gitlabsolute)
+
+PyPi: [https://pypi.org/project/gitlab-scripts/](https://pypi.org/project/gitlab-scripts/)
