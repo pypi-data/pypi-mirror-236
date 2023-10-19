@@ -1,0 +1,11 @@
+tiktok_research_client/__init__.py,sha256=bUvrFrgiT8Dnq-c_6dcuqKV2HiwwXupEFdkdwQMu3lQ,30
+tiktok_research_client/__main__.py,sha256=e_4nJAGvqBZxHQRkH7MSb0_XA8nWT3us9PxNbT7lOtA,3079
+tiktok_research_client/config.py,sha256=Khoah4tbmBMmxxSYaRYxtp0bNMYYusmMn5d-_kDtBzY,285
+tiktok_research_client/data_collection/collect.py,sha256=7AMnbg1BJwBevXFZ5qVB9BpeXT2XL7__UWkcJruKn4I,10798
+tiktok_research_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tiktok_research_client/utils.py,sha256=e_S0sXXYlHZoCFLp5g2T3azRcQrp0W2ndpUJG3mLezc,2213
+tiktok_research_client-0.0.1a0.dist-info/entry_points.txt,sha256=0iFOD6SIswdQD942r0IFA80CTHeuThcEu06Sxw5vu7M,79
+tiktok_research_client-0.0.1a0.dist-info/LICENSE,sha256=bxtmAbEmtwO7k7DuGE2fUFDFuGT4v75wmpePMMMRAdk,1079
+tiktok_research_client-0.0.1a0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+tiktok_research_client-0.0.1a0.dist-info/METADATA,sha256=m7AN9aLmZ7YDrCsSNHxodCHRXU4uz1utCVifRdXvS7o,6793
+tiktok_research_client-0.0.1a0.dist-info/RECORD,,
