@@ -1,0 +1,3 @@
+[console_scripts]
+xxl = xxl_admin.xxl:shell.start
+
