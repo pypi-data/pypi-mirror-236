@@ -1,0 +1,8 @@
+setup.py
+libname/__init__.py
+libname/name.py
+presma.egg-info/PKG-INFO
+presma.egg-info/SOURCES.txt
+presma.egg-info/dependency_links.txt
+presma.egg-info/requires.txt
+presma.egg-info/top_level.txt
