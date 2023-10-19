@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: td_ml_activation_stats
+Version: 0.0.1
+Summary: Extract Activation Stats
+Project-URL: Homepage, https://github.com/treasure-data-ps/td_ml_libraries/tree/main/td_ml_activation_stats
+Project-URL: Bug Tracker, https://github.com/treasure-data-ps/td_ml_libraries/tree/main/td_ml_activation_stats
+Author-email: Dilyan Kovachev <pruchka@gmail.com>
+License: Copyright © 2022 Treasure Data, Inc. (or its affiliates). All rights reserved
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# td-ml-activation-stats
+
+## Introduction
+
+This Python Library allows you to extract Activation stats from the TD Activations API
+
+## Input Params
+
+`config.yml`: The workflow `YAML` file contains the params that are required by this library to extract the neded information.
+
+
+`Copyright © 2023 Treasure Data, Inc. (or its affiliates). All rights reserved`
+
+
