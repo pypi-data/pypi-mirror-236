@@ -1,0 +1,11 @@
+switch_hacker/__init__.py,sha256=K4zy9T-Yb7SuVQXix9UV0e-1fwB4x0b6-AzOxskFLWc,116
+switch_hacker/auto_play.py,sha256=Jcw-HNv4jQVN_aNAZnIEqfEkiGFIopDUSGiNjM2Y-zk,3473
+switch_hacker/base.py,sha256=0J-QqnPr9PhWNjoP4lXDbLqdBzIPvjHNS1_07GbrBbQ,3273
+switch_hacker/experiment.py,sha256=ff42cdACpT-ggEWVgMShTg4zECQupm6fFRm6RlqPZGk,1711
+switch_hacker/game.py,sha256=YZcZAxEtY3vT40gG6wMFST7_XX_e6To3PYzpR0SVhyo,2286
+switch_hacker/hacker.py,sha256=mSRAydXGpGeYo65ygKaN1ucyMA5Ef6oSW2zWMpurr2s,3569
+switch_hacker/strategy.py,sha256=GIlkEjf9jzU6sob3shVqamXhV1KbilEpPSHrain_LAQ,1590
+switch_hacker-0.0.1.dist-info/METADATA,sha256=DiX6A3EVsYaD9X5CmXMj7_K1kGcA0_IEBFpcdRecrBU,2396
+switch_hacker-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+switch_hacker-0.0.1.dist-info/licenses/LICENSE,sha256=Hl3m4F7rP_anLsSeNN0BwSrKHsNsJGPjiecW1EuIqJc,1066
+switch_hacker-0.0.1.dist-info/RECORD,,
