@@ -1,0 +1,14 @@
+sigan/__init__.py,sha256=m9YLYOXoRoaDkZk2oH7DD4Dbq3FMZMmuir7MUK6UADc,22
+sigan/api/api.py,sha256=9Qe38xMvuimSOIf4oT05SVmV2cYb9liCd_0XC0YRi-Q,4579
+sigan/commands/command.py,sha256=uxAiWr1VJPchWm2FJuf50EG3n4UQgphV83R35H5nhCk,15009
+sigan/config.json,sha256=J-bkiMGg8NlVVtaW6RN8n6R-I_5ppwh24pX8p8tU5ag,105
+sigan/config.py,sha256=9LOMKECbOCDuoxC433BnQPHnu0Z_n9-_55kn9R_61Ew,845
+sigan/constants.py,sha256=1iRVoScBXC-E2IM9MN3kZT_3vn7ewCQ33hZfevkN-mk,405
+sigan/sigan.py,sha256=5n6ONH88QSa8D8fu1rIDVIDb-3AT1FNlmRK2G3xudKQ,1111
+sigan/utils/display.py,sha256=amZvejKKlIXh2ybqsTsiJAKxMFkKNkrElCuUP1Sg46I,2560
+sigan/utils/general_utils.py,sha256=mK7zpMxsyMFMHYzA_7zpHcermq9bI9Y_AYfE45OEeJQ,1544
+sigan/utils/time_utils.py,sha256=yhDMguLcRma5q_4n6jINeB3I3cxUqCkLsTnozZeg9U4,2224
+sigan-0.1.19.dist-info/entry_points.txt,sha256=93hTRWKi8FWpCUetdJcbXXDOz9qwnY9hW2KAmHtq5dI,41
+sigan-0.1.19.dist-info/METADATA,sha256=zaPwf6rdXQkIwRg9y5A5ZPvBmXXNAU--iUEs-m6Zpxk,8388
+sigan-0.1.19.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+sigan-0.1.19.dist-info/RECORD,,
