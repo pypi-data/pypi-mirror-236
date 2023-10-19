@@ -1,0 +1,29 @@
+name: Publish Package to PyPI
+on:
+  release:
+    types: [published]
+jobs:
+  pypi-publish:
+    name: Upload release to PyPI
+    runs-on: ubuntu-latest
+    environment:
+      name: release
+      url: https://pypi.org/p/homegit
+    permissions:
+      id-token: write  # IMPORTANT: this permission is mandatory for trusted publishing
+    steps:
+    - name: Checkout code
+      id: checkout_code
+      uses: actions/checkout@v4
+      with:
+        ref: main
+        fetch-depth: 0
+    - name: Install flit
+      run: pip install flit
+    - name: Build package
+      run: flit build
+    - name: Publish package distributions to PyPI
+      uses: pypa/gh-action-pypi-publish@release/v1
+      with:
+        user-name: __token__
+        repository-url: https://upload.pypi.org/legacy/
