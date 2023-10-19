@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: watz
+Version: 0.1.0
+Summary: Python SDK for Watz APIs
+Project-URL: Sourcecode, https://github.com/watz-inc/watz-py
+Project-URL: Documentation, https://watz-inc.github.io/watz-py
+Author-email: Watz Inc <zak@watz.coach>
+License: Apache-2.0
+License-File: LICENSE.md
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: <3.13,>=3.9
+Requires-Dist: anyio<4.0.0,>=3.5.0
+Requires-Dist: httpx>=0.23.1
+Requires-Dist: orjson>=3.8.0
+Requires-Dist: pydantic!=2.4.0,!=2.4.1,<3.0.0,>=2.2.0
+Description-Content-Type: text/markdown
+
+# Watz Python SDK
+
+[![PyPI](https://img.shields.io/pypi/v/watz.svg)][pypi status]
+[![Status](https://img.shields.io/pypi/status/watz.svg)][pypi status]
+[![Python Version](https://img.shields.io/pypi/pyversions/watz)][pypi status]
+[![License](https://img.shields.io/pypi/l/watz)][license]
+
+[![Tests](https://github.com/watz-inc/watz-py/workflows/Tests/badge.svg)][tests]
+[![Codecov](https://codecov.io/gh/watz-inc/watz-py/branch/main/graph/badge.svg)][codecov]
+
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)][pre-commit]
+[![Black](https://img.shields.io/badge/code%20style-black-000000.svg)][black]
+
+[pypi status]: https://pypi.org/project/watz/
+[license]: https://watz-inc.github.io/watz-py/license
+[tests]: https://github.com/watz-inc/watz-py/actions?workflow=Tests
+[codecov]: https://app.codecov.io/gh/watz-inc/watz-py
+[pre-commit]: https://github.com/pre-commit/pre-commit
+[black]: https://github.com/psf/black
+
+The Python SDK for Watz APIs.
+
+## Installation
+
+You can install `watz` via [pip](https://pip.pypa.io/) from [PyPI](https://pypi.org/):
+
+```console
+$ pip install watz
+```
+
+## Usage
+
+Please see the [usage docs](https://watz-inc.github.io/watz-py/usage) for details.
+
+## Getting a key
+
+See the API section on the [Watz website](https://watz.coach/docs/api).
+
+## Contributing
+
+Contributions are very welcome.
+To learn more, see the [Contributor Guide](CONTRIBUTING.md).
+
+## License
+
+Distributed under the terms of the [Apache 2.0 license](LICENSE.md), the
+_Watz Python SDK_ is free and open source software.
+
+## Issues
+
+If you encounter any problems,
+please [file an issue](https://github.com/watz-inc/watz-py/issues) along with a detailed description.
