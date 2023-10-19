@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: hhat-lang
+Version: 0.1.0a1
+Summary: H-hat: a high level abstraction quantum programming language.
+Home-page: https://github.com/hhat-lang/hhat_lang
+Author: Eduardo Maschio (Doomsk)
+Author-email: eduardo.maschio@hhat-lang.org
+License: MIT
+Project-URL: Unitary Fund, https://unitary.fund/
+Keywords: programming language,quantum
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: Arpeggio~=2.0.2
+
+[![Unitary Fund](https://img.shields.io/badge/Supported%20By-UNITARY%20FUND-brightgreen.svg?style=for-the-badge)](http://unitary.fund)
+# H-hat
+
