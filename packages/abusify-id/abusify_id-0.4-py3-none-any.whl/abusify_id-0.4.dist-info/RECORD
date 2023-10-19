@@ -1,0 +1,10 @@
+abusify_id/__init__.py,sha256=ekYnP_AmAPVt6zHjltGxv-YYW7aAlOE5wk4ivsY4r8E,158
+abusify_id/abusiveword_detector.py,sha256=krZ0pJH8ulyIsPP-Dd93sbzCbduZuQOj09v2Wy686KY,1137
+abusify_id/abusiveword_filter.py,sha256=oQTSCSXlSStS8RtpffcVitpOlH6Ty8x8omnir54k1Ro,2260
+abusify_id/model.pkl,sha256=L659xp9Lkh8rdJtV0Lx-EejOKrY_aWAB9vHaUUe-jfQ,207298
+abusify_id/predict_abusiveness.py,sha256=jHj3pBkwKY-2gcgZHIWyz5Veitfl4b5Mdz6PAAPx-cs,1376
+abusify_id/tfidf_vectorizer.pkl,sha256=wgVXTzn9Iw1PvFhF8sjkzB5Msc7m15xBktrJq3V2KXE,750195
+abusify_id-0.4.dist-info/METADATA,sha256=iN4FelWBpOpbpTe0swVpT6xB-avpqjLLB0eLst-HeJM,146
+abusify_id-0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+abusify_id-0.4.dist-info/top_level.txt,sha256=WRQHQwrGmLD5NDhbSVsU1YZMfqq_i7UO5POXcyPPOF8,11
+abusify_id-0.4.dist-info/RECORD,,
