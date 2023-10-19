@@ -1,0 +1,76 @@
+[tool.poetry]
+name = "nonebot-plugin-wordcloud"
+version = "0.6.0"
+description = "适用于 NoneBot2 的词云插件"
+authors = ["hemengyang <hmy0119@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/he0119/nonebot-plugin-wordcloud"
+repository = "https://github.com/he0119/nonebot-plugin-wordcloud"
+documentation = "https://github.com/he0119/nonebot-plugin-wordcloud#readme"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nonebot2 = { version = "^2.0.1", extras = ["fastapi"] }
+nonebot-plugin-apscheduler = "^0.3.0"
+nonebot-plugin-localstore = "^0.5.1"
+nonebot-plugin-orm = "^0.2.3"
+nonebot-plugin-alconna = ">=0.19.2"
+nonebot-plugin-cesaa = "^0.3.0"
+wordcloud = "^1.8.1"
+jieba = "^0.42.1"
+tzdata = "*"
+emoji = ">=1.6.3,<3.0.0"
+nonebot-plugin-datastore = { version = ">=1.0.0", optional = true }
+
+[tool.poetry.group.dev.dependencies]
+nonebug = "^0.3.1"
+pytest-cov = "^4.0.0"
+pytest-xdist = "^3.1.0"
+pytest-mock = "^3.7.0"
+pytest-asyncio = "^0.21.0"
+asyncpg = "*"
+aiomysql = "*"
+nonebot-adapter-onebot = "^2.2.4"
+nb-cli = "^1.2.2"
+nonebug-saa = { git = "https://github.com/MountainDash/nonebug-saa.git" }
+respx = "^0.20.2"
+httpx = "^0.24.1"
+gevent = "^23.7.0"
+nonebot-plugin-orm = { extras = ["default"], version = "^0.2.3" }
+nonebot-plugin-datastore = "^1.1.2"
+
+[tool.nonebot]
+plugins = ["nonebot_plugin_wordcloud"]
+adapters = [
+  { name = "OneBot V12", module_name = "nonebot.adapters.onebot.v12", project_link = "nonebot-adapter-onebot", desc = "OneBot V12 协议" },
+  { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11", project_link = "nonebot-adapter-onebot", desc = "OneBot V11 协议" },
+]
+
+[tool.black]
+line-length = 88
+
+[tool.isort]
+profile = "black"
+line_length = 88
+skip_gitignore = true
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[tool.pyright]
+pythonVersion = "3.9"
+pythonPlatform = "All"
+typeCheckingMode = "basic"
+
+[tool.ruff]
+select = ["E", "W", "F", "UP", "C", "T", "PYI", "Q"]
+ignore = ["E402", "E501", "E711", "C901", "UP037"]
+
+[tool.coverage.run]
+# https://github.com/nedbat/coveragepy/issues/1082
+concurrency = ["thread", "gevent"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
