@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+pyproject.toml
+readme.md
+src/ppr_handler/__init__.py
+src/ppr_handler/py.typed
+src/ppr_handler.egg-info/PKG-INFO
+src/ppr_handler.egg-info/SOURCES.txt
+src/ppr_handler.egg-info/dependency_links.txt
+src/ppr_handler.egg-info/requires.txt
+src/ppr_handler.egg-info/top_level.txt
