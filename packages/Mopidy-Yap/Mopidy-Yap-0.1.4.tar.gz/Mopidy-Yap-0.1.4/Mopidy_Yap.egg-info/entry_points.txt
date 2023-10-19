@@ -1,0 +1,2 @@
+[mopidy.ext]
+yap = mopidy_yap:Extension
