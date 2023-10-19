@@ -1,0 +1,13 @@
+scooby/__init__.py,sha256=_w7fYdOddnYcyuMSXGLFFquslKdmSDnkBdKtN93v4JA,1441
+scooby/__main__.py,sha256=thrIJ2osNuedz2bMiRGLWonjIeAWkWUvjc4SHFtqz54,2478
+scooby/knowledge.py,sha256=QcdB2k7x3oXpZMtU8bBronh8Tl0xRr1jBBlaocJ3x1Y,5584
+scooby/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scooby/report.py,sha256=ERz95M2MLF-SrjEUxZj5j-rrtxDRpsqAglsESeDcjRo,16186
+scooby/tracker.py,sha256=CtgP3I4-FxZgoqoERhguKUoD_ZUGdQFJ-yuLEkJfKow,3123
+scooby/version.py,sha256=vspFLRfYI6gAAN7kyihey2lhPos0jxqKaNDWFlKPlmU,411
+scooby-0.8.0.dist-info/LICENSE,sha256=giCLEb5xJN5Ubh6o1_2LxHj_stYr5G2CIQB5eNJIOls,1092
+scooby-0.8.0.dist-info/METADATA,sha256=wI92Uglh8xgPSRGblWeyIVPpxFr-bSQFXEgytFjxLso,13217
+scooby-0.8.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scooby-0.8.0.dist-info/entry_points.txt,sha256=auk5K7u8FuCtnZU3IUgixjHHCo-sbLy5WVKKasp-1Hg,49
+scooby-0.8.0.dist-info/top_level.txt,sha256=oX_VE1nOf9VcU-P6aNVxYzjrCkhow6VGyw1PbLKkUUU,7
+scooby-0.8.0.dist-info/RECORD,,
