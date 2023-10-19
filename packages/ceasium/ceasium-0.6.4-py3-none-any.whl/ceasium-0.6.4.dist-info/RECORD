@@ -1,0 +1,9 @@
+ceasium/.gitignore,sha256=CU1Ow-zw9BWWzw2DhoFC9CmU0NRs0ZfW2sMDd1dtOtU,3086
+ceasium/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ceasium/main.py,sha256=Uk-C8reByCOHscogkvVXA0RkVIM_5E1R6oRRUOhEKOw,8980
+ceasium/requirements.txt,sha256=dAL7NjAjXJBhmFpVQQPvfIWAkMUoiEw8Fe-cY3etJLE,747
+ceasium-0.6.4.dist-info/LICENSE,sha256=0S3bmdBeUB0ZaZvKE3BVLaXqNOQW5KppfU91bOO3Vgk,1071
+ceasium-0.6.4.dist-info/METADATA,sha256=TLNyFkGNuLDIj1fyx59Fracl6dtAdnbvuOG38JeZpCg,4351
+ceasium-0.6.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ceasium-0.6.4.dist-info/entry_points.txt,sha256=3jLe3GhURnTcZHWYicJ3dnmrvgiODr9bgbpP-w23U5o,45
+ceasium-0.6.4.dist-info/RECORD,,
