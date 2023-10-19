@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+svg_cartesian_plot/__init__.py
+svg_cartesian_plot/base.py
+svg_cartesian_plot/optics.py
+svg_cartesian_plot/shapes.py
+svg_cartesian_plot/svgcartesian.py
+svg_cartesian_plot/version.py
+svg_cartesian_plot.egg-info/PKG-INFO
+svg_cartesian_plot.egg-info/SOURCES.txt
+svg_cartesian_plot.egg-info/dependency_links.txt
+svg_cartesian_plot.egg-info/requires.txt
+svg_cartesian_plot.egg-info/top_level.txt
