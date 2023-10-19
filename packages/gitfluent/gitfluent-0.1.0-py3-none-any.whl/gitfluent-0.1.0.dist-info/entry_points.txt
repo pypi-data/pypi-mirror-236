@@ -1,0 +1,3 @@
+[console_scripts]
+gitfluent=gitfluent.cli.main:run_app
+
