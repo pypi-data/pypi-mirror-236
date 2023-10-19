@@ -1,0 +1,12 @@
+matplotlib
+numpy
+pandas
+scipy
+
+[dev]
+pytest
+
+[doc]
+sphinx
+sphinx-autodoc-typehints
+furo
