@@ -1,0 +1,9 @@
+setup.py
+nexusproto/DataTile_pb2.py
+nexusproto/__init__.py
+nexusproto/serialization.py
+nexusproto.egg-info/PKG-INFO
+nexusproto.egg-info/SOURCES.txt
+nexusproto.egg-info/dependency_links.txt
+nexusproto.egg-info/requires.txt
+nexusproto.egg-info/top_level.txt

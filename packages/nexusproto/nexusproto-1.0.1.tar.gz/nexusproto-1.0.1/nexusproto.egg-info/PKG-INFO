@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nexusproto
+Version: 1.0.1
+Summary: Protobufs used while ingesting NEXUS tiles.
+Home-page: https://github.com/apache/incubator-sdap-nexusproto
+Author: dev@sdap.apache.org
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
