@@ -1,0 +1,2 @@
+[console_scripts]
+gray-formatter = gray_formatter._main:main
