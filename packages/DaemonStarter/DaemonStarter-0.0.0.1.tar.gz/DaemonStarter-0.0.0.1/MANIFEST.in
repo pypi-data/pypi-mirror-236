@@ -1,0 +1,11 @@
+include *.md
+include *.cfg
+include *.py
+include *.in
+include *.txt
+include pygbop/
+include pygbop/*
+include pygbop/*.*
+recursive-include examples *.txt *.py
+prune examples/sample?/build
+prune pygbop/gbop.py

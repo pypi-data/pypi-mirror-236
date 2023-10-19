@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: DaemonStarter
+Version: 0.0.0.1
+Summary: a Daemon Starter
+Home-page: https://pypi.python.org/pypi/DaemonStarter
+Author: XiaoCao
+Author-email: inflowers@126.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+### DaemonStarter
+
+DaemonStarter demo:
+
+```python
+from daemon_starter import starter
+
+
+def exec():
+    while 1:
+        pass
+
+
+starter(exec, {})
+```
+
+
