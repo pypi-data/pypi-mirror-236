@@ -1,0 +1,2 @@
+[console_scripts]
+discourse-archive = archive:main
