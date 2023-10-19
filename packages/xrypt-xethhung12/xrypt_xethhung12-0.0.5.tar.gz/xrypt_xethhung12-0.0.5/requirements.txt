@@ -1,0 +1,4 @@
+pycryptodome
+build
+twine
+xh-py-project-versioning
