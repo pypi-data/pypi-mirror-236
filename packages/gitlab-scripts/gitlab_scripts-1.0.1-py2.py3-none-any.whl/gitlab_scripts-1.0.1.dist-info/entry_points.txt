@@ -1,0 +1,2 @@
+[console_scripts]
+gitlab-scripts = gitlab_scripts.__main__:main
