@@ -1,0 +1,2 @@
+[console_scripts]
+gppy = gppy.gtf:main
