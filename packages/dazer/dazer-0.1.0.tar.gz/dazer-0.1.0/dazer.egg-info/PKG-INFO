@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dazer
+Version: 0.1.0
+Summary: DAtaset siZe Effect estimatoR
+Home-page: http://pypi.python.org/pypi/dazer/
+Author: Maiykol
+Author-email: michael.hartung@uni-hamburg.de
+License: LICENSE
+Description: # DAZER
+        ## DAtaser siZe Effect estimatoR
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
