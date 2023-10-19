@@ -1,0 +1,2 @@
+injector==0.21.0
+pydantic~=2.1.1
