@@ -1,0 +1,111 @@
+[build-system]
+requires = [
+    "setuptools>=61.2",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "inifix"
+description = "I/O facility for Idefix/Pluto configuration files"
+authors = [
+    { name = "C.M.T. Robert" },
+]
+classifiers = [
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3",
+    "Typing :: Typed",
+]
+requires-python = ">=3.9"
+dynamic = ["version"]
+
+[tool.setuptools.dynamic]
+version = {attr = "inifix.__version__"}
+
+[project.license]
+text = "GPL-3.0"
+
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+[project.scripts]
+inifix-format = "inifix.format:main"
+inifix-validate = "inifix.validate:main"
+
+[project.urls]
+Homepage = "https://github.com/neutrinoceros/inifix"
+Changelog = "https://github.com/neutrinoceros/inifix/blob/main/CHANGELOG.md"
+
+[tool.setuptools]
+license-files = [
+    "LICENSE",
+]
+include-package-data = false
+
+[tool.setuptools.package-data]
+inifix = [
+    "py.typed",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.ruff]
+exclude = ["*__init__.py"]
+ignore = ["E501"]
+select = [
+    "E",
+    "F",
+    "W",
+    "C4",  # flake8-comprehensions
+    "B",   # flake8-bugbear
+    "YTT", # flake8-2020
+    "I",   # isort
+    "UP",  # pyupgrade
+]
+
+[tool.ruff.isort]
+known-first-party = ["inifix"]
+
+[tool.coverage.report]
+show_missing = true
+skip_covered = true
+exclude_lines = [
+    # a more strict default pragma
+    "\\# pragma: no cover\\b",
+
+    # allow defensive code
+    "^\\s*raise NotImplementedError\\b",
+
+    # typing-related code
+    "^if TYPE_CHECKING:",
+    ": \\.\\.\\.(\\s*#.*)?$",
+    "^ +\\.\\.\\.$",
+    "-> ['\"]?NoReturn['\"]?:",
+]
+
+[tool.coverage.run]
+omit = [
+  "setup.py",
+]
+parallel = true
+
+[tool.mypy]
+python_version = "3.9"
+show_error_codes = true
+warn_unused_configs = true
+warn_unused_ignores = true
+warn_unreachable = true
+show_error_context = true
+disallow_untyped_defs = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+ignore_errors = true
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+filterwarnings = [
+    "error",
+]
