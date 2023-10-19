@@ -1,0 +1,17 @@
+truedata_ws/__init__.py,sha256=dF5JwIHLDxuXnLyPb6NFGefcCy8B0w-66gW3dqpDjOA,3168
+truedata_ws/__main__.py,sha256=gB-9wcsUJVq8qbLf-7iLXYuoKE5iSp6KJtS-81t4x3A,2502
+truedata_ws/websocket/TD.py,sha256=D-x7BdhT0OQ_VVEe3hk2q_EblPfLFrAU8s8JxvTxba8,18742
+truedata_ws/websocket/TD_chain.py,sha256=I4nYxdX43YfQPVDsPWzcfO6QMipOy1cdDkgxgcDksso,8248
+truedata_ws/websocket/TD_hist.py,sha256=EGWHt3uzvXy6QdHyCaLvVG4iksAfLUWhdclkG1OA5bk,16574
+truedata_ws/websocket/TD_live.py,sha256=YpI4c-0aEeampMS9CmXwGg8JyxpFdW7bEOuNJy0RXcs,22627
+truedata_ws/websocket/__init__.py,sha256=VJ23cIq1GXJV7cY6wuEDDgi5Zc7OMqu0SOBLaDkxq0w,122
+truedata_ws/websocket/base_tests.py,sha256=K5PjGMTbkkaYAtE7DDIuLWfrv1cw2HU1fw2opO5vo1Q,6527
+truedata_ws/websocket/client_tests.py,sha256=RqpYPKNXmq-x3wkpSlCVSCCeCezYwUOO1piQzXrZCIA,2983
+truedata_ws/websocket/defaults.py,sha256=OAcgsshiqXx1_-Hn3qrL9j7KCLynO0rstdxryn08Sq4,214
+truedata_ws/websocket/internal_tests.py,sha256=9_TAAzjGexsU0KlgBh9BcrA3B41WCEboAo6sXaE1XZQ,1539
+truedata_ws/websocket/support.py,sha256=I_OuYrwzPec8Nn-dcqj4QkXeXa8PLclbmxHKvHaQ8I0,20489
+truedata_ws-5.0.8.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+truedata_ws-5.0.8.dist-info/METADATA,sha256=2ECijOH3K-yNmwxVZBnuW2wRNqHjI7OylbJkwvguaoU,40434
+truedata_ws-5.0.8.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+truedata_ws-5.0.8.dist-info/top_level.txt,sha256=dyOqw6NrpvQJ7IbJP6SeJ0a3GzyptolFmVIQT1ufaGk,12
+truedata_ws-5.0.8.dist-info/RECORD,,
