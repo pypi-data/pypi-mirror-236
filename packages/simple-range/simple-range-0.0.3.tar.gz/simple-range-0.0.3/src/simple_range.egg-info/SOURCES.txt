@@ -1,0 +1,14 @@
+CHANGES.rst
+DESCRIPTION.rst
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/simple_range/__init__.py
+src/simple_range/_core.py
+src/simple_range/_index.py
+src/simple_range/_range.py
+src/simple_range.egg-info/PKG-INFO
+src/simple_range.egg-info/SOURCES.txt
+src/simple_range.egg-info/dependency_links.txt
+src/simple_range.egg-info/top_level.txt
