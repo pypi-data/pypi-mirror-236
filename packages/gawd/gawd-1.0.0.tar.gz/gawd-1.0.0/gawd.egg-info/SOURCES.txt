@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+gawd/__init__.py
+gawd/__main__.py
+gawd.egg-info/PKG-INFO
+gawd.egg-info/SOURCES.txt
+gawd.egg-info/dependency_links.txt
+gawd.egg-info/entry_points.txt
+gawd.egg-info/requires.txt
+gawd.egg-info/top_level.txt
+gawd.egg-info/zip-safe
+test/test_diff_tool.py
