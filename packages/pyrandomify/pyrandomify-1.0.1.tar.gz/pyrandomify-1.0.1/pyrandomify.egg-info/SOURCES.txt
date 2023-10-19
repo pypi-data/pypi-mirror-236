@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+pyrandomify.egg-info/PKG-INFO
+pyrandomify.egg-info/SOURCES.txt
+pyrandomify.egg-info/dependency_links.txt
+pyrandomify.egg-info/top_level.txt
+randomify/__init__.py

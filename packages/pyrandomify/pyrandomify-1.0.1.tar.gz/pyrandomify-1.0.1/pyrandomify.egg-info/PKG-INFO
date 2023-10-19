@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: pyrandomify
+Version: 1.0.1
+Summary: A simple module for convenient and fast generation of a character set
+Home-page: https://github.com/frymex/randomify
+Author: Nikita Protect
+Author-email: t_frymex@proton.me
+License: BSD 2-clause
+Keywords: random randomify python-random
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+### Randomify — A simple module for convenient and fast generation of a character set
+
+
+
+####  Installation
+
+| Windows                   | Linux/MacOs                |
+| ------------------------- | -------------------------- |
+| `pip install pyrandomify` | `pip3 install pyrandomify` |
+
+
+
+#### Usage
+
+```python
+from randomify import Text, Digits, Generate
+
+# generating text a-Z
+Text().generate(lenght=15)
+# output: AUyapxMKqDzSyQx
+
+# generating numbers 0-9
+Digits().generate(lenght=15)
+# output: 500797162564347
+
+# generating random printable symbols (text, digits, symbols, spaces)
+Generate().generate(lenght=15)
+# output: q?1wQ#}jpR*;w-.
+```
+
+
+
+
+
