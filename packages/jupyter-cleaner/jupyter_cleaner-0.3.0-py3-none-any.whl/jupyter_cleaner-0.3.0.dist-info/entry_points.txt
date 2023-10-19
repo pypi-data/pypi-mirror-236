@@ -1,0 +1,3 @@
+[console_scripts]
+jupyter-cleaner=jupyter_cleaner.jupyter_cleaner:main
+
