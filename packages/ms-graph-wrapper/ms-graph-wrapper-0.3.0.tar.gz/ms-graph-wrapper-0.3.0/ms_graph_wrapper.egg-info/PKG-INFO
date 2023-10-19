@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: ms-graph-wrapper
+Version: 0.3.0
+Summary: A Python wrapper for the Microsoft Graph API that simplifies pagination and provides a more Pythonic interface.
+Author: Sanket Joshi
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
