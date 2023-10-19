@@ -1,0 +1,16 @@
+numpy
+pandas
+scikit-learn
+catboost
+shap
+matplotlib
+seaborn
+
+[dev]
+numpy
+pandas
+scikit-learn
+catboost
+shap
+matplotlib
+seaborn

@@ -1,0 +1,2 @@
+[nbdev]
+ds_utils = ds_utils._modidx:d
