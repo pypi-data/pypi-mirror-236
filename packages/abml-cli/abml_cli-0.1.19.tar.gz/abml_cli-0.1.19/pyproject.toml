@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "abml-cli"
+version = "0.1.19"
+description = ""
+authors = ["DavidNaizheZhou <70525024+DavidNaizheZhou@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "abml_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+rich = "^13.3.3"
+pyyaml = "^6.0"
+numpy = "^1.24.2"
+click = "^8.1.3"
+invoke = "^2.0.0"
+jinja2 = "^3.1.2"
+pyyaml-include = "^1.3"
+pandas = "^2.0.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.0"
+abqpy = "^2023.4.4"
+black = "^23.3.0"
+prospector = "^1.9.0"
+numpy = "^1.24.2"
+numpydoc = "^1.5.0"
+sphinx-copybutton = "^0.5.2"
+sphinxcontrib-autoyaml = "^1.1.1"
+myst-parser = "^2.0.0"
+sphinx-design = "^0.4.1"
+furo = "^2023.5.20"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+abml = "abml_cli.abml_run:run"
+abml-grid = "abml_cli.abml_run:run_grid"
