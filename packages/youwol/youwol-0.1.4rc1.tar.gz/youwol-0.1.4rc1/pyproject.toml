@@ -1,0 +1,198 @@
+[project]
+name = "youwol"
+version = "0.1.4rc1"
+authors = [
+    { name = "G. Reinisch", email = "greinisch@youwol.com" },
+    { name = "J. Decharne", email = "jdecharne@youwol.com" },
+]
+description = "YouWol as a desktop application"
+readme = "README.md"
+requires-python = "~=3.8"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "aiohttp>=3.8.1,<4.0.0",
+    "aiostream>=0.4.4,<0.5.0",
+    "appdirs>=1.4.4,<2.0.0",
+    "Brotli>=1.0.9,<2.0.0",
+    "colorama>=0.4.5,<0.5.0",
+    "cowpy>=1.1.5,<2.0.0",
+    "deepdiff>=5.8.1,<6.0.0",
+    "fastapi>=0.95.0,<0.96.0",
+    "keyring>=24.2.0,<25.0.0",
+    "minio>=7.1.9,<8.0.0",
+    "Pillow",
+    "psutil>=5.9.1,<6.0.0",
+    "pyparsing>=3.1.0",
+    "python-daemon>=2.3.0,<3.0.0",
+    "python-multipart>=0.0.5,<0.0.6",
+    "pyyaml>=6.0,<7.0",
+    "pyjwt[crypto]>=2.4.0,<3.0.0",
+    "redis>=4.3.4,<5.0.0",
+    "tqdm>=4.64.1,<5.0.0",
+    "uvicorn>=0.22.0,<0.23.0",
+    "websockets>=10.3,<11",
+    "semantic_version>=2.10.0,<3.0.0",
+    "watchdog>=2.1.9,<3.0.0",
+    "prometheus-client",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pip-tools",
+]
+qa = [
+    "asgiref",
+    "coverage",
+    "pip-audit",
+    "pylint",
+    "pycodestyle",
+    "pydocstyle",
+    "isort",
+    "black[d]",
+    "mypy",
+    "tomlkit",
+    "types-Pillow",
+    "types-PyYAML",
+    "types-appdirs",
+    "types-colorama",
+    "types-psutil",
+    "types-redis",
+    "types-setuptools",
+    "types-tqdm",
+    "types-ujson",
+]
+publish = [
+    "pdoc3",
+    "build",
+    "tomlkit",
+    "twine",
+]
+
+[project.scripts]
+youwol = "youwol.app.main:main"
+python-yw = "youwol.app.wrapper:main"
+
+[build-system]
+requires = [
+    "setuptools>=67.7.2",
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = [
+    "src",
+]
+include = [
+    "youwol.app*",
+    "youwol.backends*",
+    "youwol.utils*",
+    "youwol.pipelines*",
+]
+exclude = [
+    "youwol.backends.*.deployment*",
+    "youwol.backends.mock*",
+    "youwol.backends.common*",
+    "youwol.backends.webpm*"
+]
+
+[tool.setuptools.package-data]
+"youwol.app.routers.environment" = [
+    "fortunes.txt",
+]
+"youwol.backends.flux" = [
+    "bundle_app_template/*",
+]
+"youwol.pipelines.pipeline_typescript_weback_npm.regular" = [
+    "views/.*",
+    "views/*",
+    "views/**/*",
+    "views/.**/*",
+    "templates/.*",
+    "templates/*",
+    "templates/**/*",
+    "templates/.**/*",
+]
+"youwol.pipelines.pipeline_typescript_weback_npm.external" = [
+    "templates/.*",
+    "templates/*",
+    "templates/**/*",
+    "templates/.**/*",
+]
+
+[tool.coverage.run]
+branch = true
+relative_files = true
+data_file = "coverage.coverage"
+debug = [
+    "sys",
+    "config",
+    "pathmap",
+]
+
+[tool.isort]
+profile = "black"
+lines_between_types = 1
+import_heading_stdlib = "standard library"
+known_typing = "typing"
+import_heading_typing = "typing"
+import_heading_thirdparty = "third parties"
+import_heading_firstparty = "Youwol"
+known_yw_app = "youwol.app"
+import_heading_yw_app = "Youwol application"
+known_yw_backends = "youwol.backends"
+import_heading_yw_backends = "Youwol backends"
+known_yw_utils = "youwol.utils"
+import_heading_yw_utils = "Youwol utilities"
+known_yw_pipelines = "youwol.pipelines"
+import_heading_yw_pipelines = "Youwol pipelines"
+import_heading_localfolder = "relative"
+sections = [
+    "FUTURE",
+    "STDLIB",
+    "TYPING",
+    "THIRDPARTY",
+    "FIRSTPARTY",
+    "YW_APP",
+    "YW_BACKENDS",
+    "YW_UTILS",
+    "YW_PIPELINES",
+    "LOCALFOLDER",
+]
+
+[tool.mypy]
+mypy_path = ".typing_stubs"
+files = "src"
+
+[tool.pylint]
+disable = [
+    "E1102",
+    "E0110",
+    "W0707",
+    "W0719",
+    "W0718",
+    "C0103",
+    "W0511",
+    "C0302",
+    "C0116",
+    "C0114",
+    "C0115",
+    "duplicate-code",
+    "design",
+]
+max-line-length = 120
+
+[tool.pylint."MESSAGES CONTROL"]
+extension-pkg-whitelist = "pydantic"
+
+[tool.pylint.exceptions]
+overgeneral-exceptions = [
+    "builtins.BaseException",
+    "builtins.Exception",
+    "builtins.RuntimeError",
+]
