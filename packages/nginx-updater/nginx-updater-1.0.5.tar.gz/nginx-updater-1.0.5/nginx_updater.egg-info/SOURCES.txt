@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+nginx_updater/__init__.py
+nginx_updater/logger.py
+nginx_updater/py.typed
+nginx_updater/types.py
+nginx_updater/updater.py
+nginx_updater/utils.py
+nginx_updater.egg-info/PKG-INFO
+nginx_updater.egg-info/SOURCES.txt
+nginx_updater.egg-info/dependency_links.txt
+nginx_updater.egg-info/requires.txt
+nginx_updater.egg-info/top_level.txt
