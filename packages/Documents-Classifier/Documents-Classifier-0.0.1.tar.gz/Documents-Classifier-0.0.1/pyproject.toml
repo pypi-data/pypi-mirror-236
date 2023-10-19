@@ -1,0 +1,14 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "setuptools_scm",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "Documents-Classifier"
+description = "A tool to classify images "
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.8.0, <3.11.0"
