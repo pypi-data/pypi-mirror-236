@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/bezier_simplex.py,sha256=5CfuaJxSv-8dUcDGA_oLCBwoVL90qIgQlqrOKqhr9K4,3134
+tests/control_points.py,sha256=cUmncw9vQ9zza87yGqErbchKYUVPJkbaCKfJAqOBFCE,3468
+tests/validator.py,sha256=cDQ8_H_BYmfUDQm22CNALyn5meMrplqMJ69ZhfYVnRc,3700
+torch_bsf/__init__.py,sha256=JQ8N7ioW-GUQBXw2G6o5CaMKOlhrNaY595n6Et9yYyg,235
+torch_bsf/__main__.py,sha256=SN-J2zjU_LYpiduvhzzZ7qwNqEs3PfM8eHrir4m0I4M,3498
+torch_bsf/bezier_simplex.py,sha256=DNtwoDFXhnXzqIxa0V9klp19qbN1EjWYQ97YToZoKhY,24681
+torch_bsf/control_points.py,sha256=Ky9_XKIyVx_GzSvMceZlHqi7MMDZtl1ByX7Uu9N_ZZE,5658
+torch_bsf/validator.py,sha256=nMduJwf0xXegpu6RFuy1LlN06TW12FlT90ga7JRB1lM,3570
+pytorch_bsf-0.4.0.dist-info/LICENSE,sha256=T60WEK4CNG0-J8bPiS081qJQPadhUhtFRbbemSHdkNk,1082
+pytorch_bsf-0.4.0.dist-info/METADATA,sha256=tnqQjug7dfLaTGyta2VLck88IzDYO0ne0dpn8reSbT4,14336
+pytorch_bsf-0.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pytorch_bsf-0.4.0.dist-info/top_level.txt,sha256=MQlyHTv2_bpEG91Kj2oAGj5FRIwUv10UW4G7RA64E6o,16
+pytorch_bsf-0.4.0.dist-info/RECORD,,
