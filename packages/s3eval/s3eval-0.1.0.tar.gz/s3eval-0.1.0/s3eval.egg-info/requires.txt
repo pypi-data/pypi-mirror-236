@@ -1,0 +1,9 @@
+pandas
+sqlite3
+
+[deploy]
+gunicorn
+
+[dev]
+wheel
+black
