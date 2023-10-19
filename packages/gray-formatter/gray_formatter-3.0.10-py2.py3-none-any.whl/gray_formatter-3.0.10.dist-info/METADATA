@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gray-formatter
+Version: 3.0.10
+Summary: Deopinionated black
+Home-page: https://bitbucket.org/adsight-tech/gray-formatter/
+Author: Yegor Pokrovskiy
+Author-email: Yegor Pokrovskiy <procratstinator@proton.me>
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tokenize-rt >=3.0.1
+Requires-Dist: black >=23.7.0
+Requires-Dist: asttokens >=2.2.1
+
+# Gray formatter
+
+Black formatter with some customizations.
