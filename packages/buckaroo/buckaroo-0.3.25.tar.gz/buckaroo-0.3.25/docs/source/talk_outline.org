@@ -1,0 +1,180 @@
+* agenda
+
+** introductory agenda
+90 seconds
+
+add more biographical about why I built it and my frustration.
+
+
+We are going to talk about codegen without LLMs today
+
+ask how many people have used pandas/jupyter
+
+
+
+**  quick 5 minute tour of Buckaroo
+2 and a half minutes
+
+http://localhost:8888/lab/workspaces/auto-I/tree/introduction.ipynb
+
+Figure out some cue to make sure that audience generally groks what was shown.
+not the specifics but the features laid out
+
+
+
+
+**  Showing the alternative way of accomplishing each feature with the jupyter and pandas
+http://localhost:8888/lab/workspaces/auto-D/tree/regular-summary-stats.ipynb
+
+
+pick example dataframe that truncates full column list
+
+mention going out to excel
+show polars
+
+show number alignment
+
+vscode/colab
+
+
+show enablement of summary_stats more slowly and describe what i'm clicking on
+
+
+
+3 minutes
+
+*** presentation suggestions
+**** Should I have precomputed/built slides?
+
+
+**  df.head() / the whole thing, auto sampling (buckaroo just handles large tables)
+
+**  Sorting
+
+** Break for questions :QUESTIONS:
+maybe go over FAQ
+
+*** What are the current limitations of buckaroo
+no saved notebooks, performance problems over 1gig datafrmaes, probably on the order of 10-20 seconds to display
+
+*** Where is buckaroo rough aroudn the edges right now?
+A couple of areas.
+There are a good number of docs already, always could use more docs
+There are python tests.
+There is not a CI build or CI tests
+There aren't unit tests for the JS.
+
+
+*** what features are planned for buckaroo?
+I haven't even shown all the features it already has :)
+
+**** performance
+moving to polars should speed up the processing a lot
+**** selection features
+possibly tied with code gen.  There is no way to narrow the rows through the UI
+**** column detail view modal
+**** more display formatting
+**** possibly some type of plotting built in
+
+
+There are definitely features that I want to add...  However I think that buckaroo is usable right now as a huge workflow improvement over df.head()
+
+
+
+
+**  Summary stats
+#Max and min should me next to each other
+
+stop at mode
+
+7 minutes for summary stats and histograms
+
+Show up to the first version of regular land summary stats
+
+work on cutting bakc on regular land time
+have more datasets, with more tailored data
+
+
+
+have a dataset that shows number formatting
+and a dataset that shows the variety of histograms
+
+then show that in context for a real dataset
+
+
+
+
+**  Histograms
+http://localhost:8888/lab/workspaces/auto-W/tree/Histogram-distributions.ipynb
+
+
+
+actually no, I'm not going to explain that function to you, I'm going to use the histograms to explain that function to you
+
+**  Auto typing
+
+Auto typing and low code UI took 5 minutes
+
+
+heuristic cleaning
+
+
+
+
+**  The low code UI
+make sure that group by works, understand how to get UI to propper 
+
+show lowcode ui with autoclean turned offf for clairyt
+
+
+
+** the story of buckkarooos development
+
+6 bminutes
+
+possibly
+
+
+
+
+** Break for questions :QUESTIONS:
+
+*** Planted questions:
+**** what alternatives are out there to buckaroo
+**** How polished is buckaroo?
+**** How is the performance of buckaroo?
+**** What did you wish you had done differently while developing buckaroo
+
+**  Adding custom summary stats
+use variance, depends on mean instead of skew
+
+to be very clear, users have as much capability to extend buckaroo
+as I the package creator
+
+you don't have to edit the core source code of buckaroo, or fork it
+
+
+
+
+
+**  Customizing histograms :needs_code:
+**  Adding Low code UI commands
+**  Adding/tweaking auto typing (leans on the low code UI commands)
+** questions
+
+
+overall notes
+
+talk more about the philosophy
+
+explain the workflow
+
+put more stories in the middle
+
+from my career
+
+why is this built this way
+
+sensible defaults
+
+
