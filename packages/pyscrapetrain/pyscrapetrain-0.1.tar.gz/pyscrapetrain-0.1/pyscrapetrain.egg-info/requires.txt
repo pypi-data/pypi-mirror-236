@@ -1,0 +1,7 @@
+setuptools
+beautifulsoup4
+mutagen
+requests
+tqdm
+simple-chalk
+halo

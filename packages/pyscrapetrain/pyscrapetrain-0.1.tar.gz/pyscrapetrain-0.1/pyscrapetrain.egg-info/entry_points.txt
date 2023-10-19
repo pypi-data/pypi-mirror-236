@@ -1,0 +1,2 @@
+[console_scripts]
+pyscrapetrain = pyscrapetrain.pyscrapetrain:run

@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyscrapetrain/__init__.py
+pyscrapetrain/helpers.py
+pyscrapetrain/pyscrapetrain.py
+pyscrapetrain.egg-info/PKG-INFO
+pyscrapetrain.egg-info/SOURCES.txt
+pyscrapetrain.egg-info/dependency_links.txt
+pyscrapetrain.egg-info/entry_points.txt
+pyscrapetrain.egg-info/requires.txt
+pyscrapetrain.egg-info/top_level.txt
