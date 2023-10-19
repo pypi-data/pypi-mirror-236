@@ -1,0 +1,2 @@
+[mkdocs.plugins]
+mkdocs-homepage-copier = copier:HomepageCopier
