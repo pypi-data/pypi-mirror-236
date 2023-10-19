@@ -1,0 +1,11 @@
+numpy
+
+[docs]
+sphinx
+pydata-sphinx-theme
+sphinx-automodapi
+numpydoc
+
+[test]
+coverage
+astropy
