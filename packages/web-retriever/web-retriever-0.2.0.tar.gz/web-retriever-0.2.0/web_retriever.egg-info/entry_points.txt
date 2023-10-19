@@ -1,0 +1,2 @@
+[console_scripts]
+web-retriever = web_retriever.scripts:start

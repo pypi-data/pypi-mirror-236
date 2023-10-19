@@ -1,0 +1,5 @@
+feedparser>=6.0.10
+pop>=17.0
+pop-aiohttp>=1.2.0
+rule-engine>=4.1.0
+PyYAML>=6.0.1
