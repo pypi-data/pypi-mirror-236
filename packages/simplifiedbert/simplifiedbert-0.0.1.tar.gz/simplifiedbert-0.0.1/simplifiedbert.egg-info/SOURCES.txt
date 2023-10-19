@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+simplifiedbert/__init__.py
+simplifiedbert.egg-info/PKG-INFO
+simplifiedbert.egg-info/SOURCES.txt
+simplifiedbert.egg-info/dependency_links.txt
+simplifiedbert.egg-info/requires.txt
+simplifiedbert.egg-info/top_level.txt
