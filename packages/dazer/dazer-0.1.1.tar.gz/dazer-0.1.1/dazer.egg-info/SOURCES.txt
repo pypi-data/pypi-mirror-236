@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+dazer/__init__.py
+dazer/classify.py
+dazer/subsample.py
+dazer.egg-info/PKG-INFO
+dazer.egg-info/SOURCES.txt
+dazer.egg-info/dependency_links.txt
+dazer.egg-info/requires.txt
+dazer.egg-info/top_level.txt
