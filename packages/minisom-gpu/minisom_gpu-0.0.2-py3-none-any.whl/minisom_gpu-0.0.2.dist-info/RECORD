@@ -1,0 +1,5 @@
+src/minisom-gpu/som.py,sha256=LwZdsQsSf1dyeOrWnOP-5gnk9V9km9O9IHV5OnY5_Wg,26170
+minisom_gpu-0.0.2.dist-info/METADATA,sha256=FXm0FCaGmRawsrGPtB0DKPNWIUT2iNpAIOlzaOcbw8M,7731
+minisom_gpu-0.0.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+minisom_gpu-0.0.2.dist-info/licenses/LICENSE,sha256=HQWXVpiyuE0PjYxKavUyLZeIOMuxgyCOACViG80Hm-I,1074
+minisom_gpu-0.0.2.dist-info/RECORD,,
