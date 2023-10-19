@@ -1,0 +1,2 @@
+[console_scripts]
+py_heideltime = py_heideltime.cli:cli
