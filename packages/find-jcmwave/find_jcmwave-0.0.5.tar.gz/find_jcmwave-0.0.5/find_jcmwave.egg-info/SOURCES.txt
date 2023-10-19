@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+find_jcmwave/__init__.py
+find_jcmwave.egg-info/PKG-INFO
+find_jcmwave.egg-info/SOURCES.txt
+find_jcmwave.egg-info/dependency_links.txt
+find_jcmwave.egg-info/requires.txt
+find_jcmwave.egg-info/top_level.txt
