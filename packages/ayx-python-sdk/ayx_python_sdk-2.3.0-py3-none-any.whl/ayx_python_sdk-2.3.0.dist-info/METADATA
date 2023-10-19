@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: ayx-python-sdk
+Version: 2.3.0
+Summary: The Python plugin SDK for Alteryx Designer.
+Author: Alteryx, Inc.
+Author-email: support@alteryx.com
+Platform: Windows
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.8, <3.9
+Description-Content-Type: text/markdown
+Requires-Dist: Click (==7.1.2)
+Requires-Dist: deprecation (==2.1.0)
+Requires-Dist: numpy (>=1.18)
+Requires-Dist: pandas (>=1.1.0)
+Requires-Dist: protobuf (==3.20.1)
+Requires-Dist: psutil (==5.6.3)
+Requires-Dist: pydantic (==1.8.2)
+Requires-Dist: pyarrow (==8.0.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2020.1)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: typer (==0.3.1)
+Requires-Dist: xmltodict (==0.12.0)
+Requires-Dist: boto3 (==1.15.16)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: PyPAC (==0.15.0)
+Requires-Dist: wincertstore (==0.2)
+Requires-Dist: grpcio (==1.44.0) ; sys_platform == "linux"
+Requires-Dist: grpcio-fips (==1.44.0) ; sys_platform == "win32"
+
+# Alteryx Python SDK (ayx-python-sdk)
+
+## Overview
+The Alteryx Python SDK can be used to extend the functionality of Alteryx Designer
+by allowing developers to create custom tools/plugins.
+
+---
+
+#### Disclaimer
+
+*The [AYX Python SDK](https://pypi.org/project/ayx-python-sdk/),
+[AYX UI SDK](https://help.alteryx.com/developer-help/ayx-ui-sdk),
+and AYX Plugin CLI are intended for production use on Alteryx Product offerings.
+The latest versions of these SDKs and CLIs require Designer version 2021.4 or later and Python 3.8.5+.
+For more information go to developer.alteryx.com
+Release Notes can be found here: https://help.alteryx.com/developer-help/ayx-python-sdk-release-notes*
+
+---
+
+## Licensing
+
+https://www.alteryx.com/alteryx-sdk-and-api-license-agreement
