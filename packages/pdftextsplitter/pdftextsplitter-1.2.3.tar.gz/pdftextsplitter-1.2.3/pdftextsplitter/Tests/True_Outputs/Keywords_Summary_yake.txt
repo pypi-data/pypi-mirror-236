@@ -1,0 +1,36 @@
+Development of a Deep Neural Network for the data analysis of the NeuLAND
+neutron detector
+
+--- Table of Contents ---
+1. Introduction
+2. Methodology
+2.1. Data generation and preparation
+2.2. Multiplicity determination
+2.3. ‘‘Hit’’ selection
+2.4. Reference algorithms
+3. Performance of multiplicity determination
+2.5. Sources of uncertainties
+4. ‘‘Hit’’ selection performance
+6. Conclusion
+
+--- Extracted Keywords from Textbody ---
+Machine Learning algorithm
+Machine Learning algorithm
+Machine Learning
+densely-connected Deep Neural Networks
+Deep Neural Networks
+Machine Learning
+neutron detector ispresented
+NeuLAND neutron detector ispresented
+densely-connected Deep Neural
+Deep Neural Networks
+Learning algorithm
+Learning algorithm for shower-head
+shower-head identification
+neutron detector ispresented
+Neural Networks
+densely-connected Deep Neural
+Deep Neural
+Learning algorithm
+NeuLAND neutron detector
+algorithm for shower-head identification

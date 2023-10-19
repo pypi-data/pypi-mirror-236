@@ -1,0 +1,167 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Export_Alinea_test_b] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = SplitDoc
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1 Let’s kick-of test-driven development 2 1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2 Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.3 Methods again . . . . . . . . . . . . . . . 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = First basic test Document
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Contents
+ nativeID=2 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1 Let’s kick-of test-driven development 2 1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2 Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.3 Methods again . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.4 One more section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 3 2 A new chapter starts now 4 2.1 A new section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 2.1.1 Nice subsection . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 4 
+
+ [ALINEA-CONTENT]:
+1 Let’s kick-of test-driven development
+2
+1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.2 Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.3 Methods again
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.4 One more section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+2 A new chapter starts now
+4
+2.1 A new section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+2.1.1 Nice subsection . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1 Let’s kick-of test-driven development
+ nativeID=3 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+We start with some general text about the chapter. with a line-break embedded in it. This is a small test for text extraction. And here is some more text. With a line break and other stuf. Lets add some whitespaces: And some text. With some text...
+
+ [ALINEA-CONTENT]:
+We start with some general text about the chapter.
+with a line-break embedded in it.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.1 Introduction
+ nativeID=4 parentID=3 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+This is a small test for text extraction.
+
+ [ALINEA-CONTENT]:
+This is a small test for text extraction.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.2 Methods
+ nativeID=5 parentID=3 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+And here is some more text. With a line break and other stuf.
+
+ [ALINEA-CONTENT]:
+And here is some more text.
+With a line break and other stuf.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.3 Methods again
+ nativeID=6 parentID=3 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Lets add some whitespaces: And some text.
+
+ [ALINEA-CONTENT]:
+Lets add some whitespaces:
+And some text.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.4 One more section
+ nativeID=7 parentID=3 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+With some text...
+
+ [ALINEA-CONTENT]:
+With some text...
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2 A new chapter starts now
+ nativeID=8 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Now comes some extra text. With a line break. Lets give a splendid additional story. with a beautiful subsection embedded in it.
+
+ [ALINEA-CONTENT]:
+Now comes some extra text.
+With a line break.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.1 A new section
+ nativeID=9 parentID=8 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Lets give a splendid additional story. with a beautiful subsection embedded in it.
+
+ [ALINEA-CONTENT]:
+Lets give a splendid additional story.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2.1.1 Nice subsection
+ nativeID=10 parentID=9 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+with a beautiful subsection embedded in it.
+
+ [ALINEA-CONTENT]:
+with a beautiful subsection embedded in it.
+
+---------------------------------------------------------------------------------

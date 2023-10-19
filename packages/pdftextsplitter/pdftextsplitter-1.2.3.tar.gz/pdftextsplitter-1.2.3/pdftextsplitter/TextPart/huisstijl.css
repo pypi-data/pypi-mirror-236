@@ -1,0 +1,325 @@
+/*
+    #################################
+    ###                           ###
+    ###           Fonts           ###
+    ###                           ###
+    #################################
+*/
+
+@font-face {
+    font-family: "Sans";
+    src: url("../fonts/ROsanswebtextregular.eot?") format("embedded-opentype"),
+         url("../fonts/ROsanswebtextregular.woff") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Sans";
+    src: url("../fonts/ROsanswebtextitalic.eot?") format("embedded-opentype"),
+         url("../fonts/ROsanswebtextitalic.woff") format("opentype");
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Sans";
+    src: url("../fonts/ROsanswebtextbold.eot?") format("embedded-opentype"),
+         url("../fonts/ROsanswebtextbold.woff") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Serif";
+    src: url("../fonts/ROserifwebregular.eot?") format("embedded-opentype"),
+         url("../fonts/ROserifwebregular.woff") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Serif";
+    src: url("../fonts/ROserifwebitalic.eot?") format("embedded-opentype"),
+         url("../fonts/ROserifwebitalic.woff") format("opentype");
+    font-style: italic;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Serif";
+    src: url("../fonts/ROserifwebbold.eot?") format("embedded-opentype"),
+         url("../fonts/ROserifwebbold.woff") format("opentype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*
+    #################################
+    ###                           ###
+    ###           Basis           ###
+    ###                           ###
+    #################################
+*/
+
+body {
+    font-family: 'Sans', Calibri, sans-serif!important;
+}
+
+.bg-hemelblauw {
+  background-color: #007bc7;
+}
+
+.btn-hemelblauw {
+  color:#007bc7;
+  border-color: #007bc7;
+}
+
+.btn-grijs-4 {
+  color: #b4b4b4;
+}
+
+.btn-hemelblauw:hover {
+  background-color: #007bc7;
+}
+
+.btn-rood {
+  color:#d52b1e;
+  border-color: #d52b1e;
+}
+
+.btn-rood:hover {
+  background-color: #d52b1e;
+}
+
+.btn-groen {
+  color:#39870c;
+  border-color: #39870c;
+}
+
+.btn-groen:hover {
+  background-color: #39870c;
+  border-color: #39870c;
+}
+
+/*
+    #################################
+    ###                           ###
+    ###     Achtergrondkleuren    ###
+    ###                           ###
+    #################################
+*/
+
+.bg-hemelblauw-2 {
+  background-color:#b2d7ee;
+}
+
+.bg-hemelblauw-3 {
+    background-color: #d9ebf7;
+}
+
+.bc-hemelblauw-3 {
+    border-color: #d9ebf7;
+}
+
+.bg-lichtblauw {
+    background-color: #8fcae7;
+}
+
+.bg-grijs-1 {
+    background-color: #f3f3f3
+}
+
+.bg-grijs-2 {
+    background-color: #e6e6e6
+}
+
+.bg-grijs-3 {
+    background-color: #cccccc
+}
+
+.bg-grijs-4 {
+    background-color: #b4b4b4
+}
+
+.bg-grijs-5 {
+    background-color: #999999
+}
+
+.bg-grijs-6 {
+    background-color: #696969
+}
+
+.bg-grijs-7 {
+    background-color: #535353
+}
+
+.brd-grijs-4 {
+    border-color: #b4b4b4;
+}
+
+.bg-rood {
+    background-color: #d52b1e
+}
+
+.bg-rood-2 {
+    background-color: #d52b1e
+}
+
+.bg-rood-3 {
+    background-color: #f9dfdd
+}
+
+.bg-violet-1 {
+    background-color: #a90061
+}
+
+.bg-violet-2 {
+    background-color: #e5b2cf
+}
+
+.bg-violet-3 {
+    background-color: #f2d9e7
+}
+
+/*
+    #################################
+    ###                           ###
+    ###          Kleuren          ###
+    ###                           ###
+    #################################
+*/
+
+.c-hemelblauw {
+  color:#007bc7;
+}
+
+.c-hemelblauw-2 {
+  color:#b2d7ee;
+}
+
+.c-rood {
+    color: #d52b1e
+}
+
+.c-groen {
+    color: #39870c
+}
+
+.c-oranje {
+    color: #e17000
+}
+
+.c-grijs {
+    color: #f3f3f3
+}
+
+/*
+    #################################
+    ###                           ###
+    ###          Tooltip          ###
+    ###                           ###
+    #################################
+*/
+
+.tooltip {
+  display: block !important;
+  z-index: 10000;
+}
+
+.tooltip .tooltip-inner {
+  background: black;
+  color: white;
+  border-radius: 16px;
+  padding: 5px 10px 4px;
+}
+
+.tooltip .tooltip-arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  position: absolute;
+  margin: 5px;
+  border-color: black;
+  z-index: 1;
+}
+
+.tooltip[x-placement^="top"] {
+  margin-bottom: 5px;
+}
+
+.tooltip[x-placement^="top"] .tooltip-arrow {
+  border-width: 5px 5px 0 5px;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  bottom: -5px;
+  left: calc(50% - 5px);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tooltip[x-placement^="bottom"] {
+  margin-top: 5px;
+}
+
+.tooltip[x-placement^="bottom"] .tooltip-arrow {
+  border-width: 0 5px 5px 5px;
+  border-left-color: transparent !important;
+  border-right-color: transparent !important;
+  border-top-color: transparent !important;
+  top: -5px;
+  left: calc(50% - 5px);
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.tooltip[x-placement^="right"] {
+  margin-left: 5px;
+}
+
+.tooltip[x-placement^="right"] .tooltip-arrow {
+  border-width: 5px 5px 5px 0;
+  border-left-color: transparent !important;
+  border-top-color: transparent !important;
+  border-bottom-color: transparent !important;
+  left: -5px;
+  top: calc(50% - 5px);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.tooltip[x-placement^="left"] {
+  margin-right: 5px;
+}
+
+.tooltip[x-placement^="left"] .tooltip-arrow {
+  border-width: 5px 0 5px 5px;
+  border-top-color: transparent !important;
+  border-right-color: transparent !important;
+  border-bottom-color: transparent !important;
+  right: -5px;
+  top: calc(50% - 5px);
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.tooltip.popover .popover-inner {
+  background: #f9f9f9;
+  color: black;
+  padding: 24px;
+  border-radius: 5px;
+  box-shadow: 0 5px 30px rgba(black, .1);
+}
+
+.tooltip.popover .popover-arrow {
+  border-color: #f9f9f9;
+}
+
+.tooltip[aria-hidden='true'] {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity .15s, visibility .15s;
+}
+
+.tooltip[aria-hidden='false'] {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity .15s;
+}

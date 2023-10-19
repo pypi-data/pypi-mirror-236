@@ -1,0 +1,16 @@
+##################################################################
+### [TEXTSPLITTER CLASS] #########################################
+### [Breakdown decisions for document TextExtraction_001] ###
+##################################################################
+
+Left=9.962600000000009 | Value=9.962600000000064 | Right=9.962600000000068 | Freq=0.7083333333333334 | Cascade=1 | Regular=True
+Left=9.96259999999995 | Value=9.962599999999952 | Right=9.962600000000009 | Freq=0.2916666666666667 | Cascade=2 | Regular=False
+
+
+
+
+
+
+[FONTSIZE=9.962599999999952] <=> [VERTPOS=723.3016670000001] <=> [WHITELINES=-1.0;27.02851380000004] <=> [TEXTLEVEL=1] <=> [TEXTLABEL=<texttype.ENUMERATION] <=> [CONTENT=<1. Introduction>]
+[FONTSIZE=9.962600000000066] <=> [VERTPOS=696.2731532] <=> [WHITELINES=27.02851380000004;27.02851380000004] <=> [TEXTLEVEL=1] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<This is a small test for text extraction.>]
+[FONTSIZE=9.962600000000066] <=> [VERTPOS=696.2731532] <=> [WHITELINES=27.02851380000004;27.02851380000004] <=> [TEXTLEVEL=1] <=> [TEXTLABEL=<texttype.BODY] <=> [CONTENT=<>]

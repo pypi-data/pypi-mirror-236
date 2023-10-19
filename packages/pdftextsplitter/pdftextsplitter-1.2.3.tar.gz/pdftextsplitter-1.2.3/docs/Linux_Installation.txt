@@ -1,0 +1,168 @@
+Setting the token:
+pass token as a password and then run:
+git config --global credential.helper store
+
+Also process locally deleted files: git commit -a
+
+To override conflicts in git:
+    # keep remote files
+    git merge --strategy-option theirs
+    # keep local files
+    git merge --strategy-option ours
+    
+To undo merge request:
+    git merge --abort
+    git reset --merge
+    git reset --hard
+    
+Fixing sudo apt-get install <package>:
+ps aux | grep -i apt
+and then sudo kill <id>
+
+Then, check other processes:
+sudo lsof /var/lib/dpkg/lock
+sudo lsof /var/lib/apt/lists/lock
+sudo lsof /var/cache/apt/archives/lock
+
+Then, kill processes with:
+sudo kill -9 <process_id>
+
+You can now safely remove the lock files using the commands below:
+sudo rm /var/lib/apt/lists/lock
+sudo rm /var/cache/apt/archives/lock
+sudo rm /var/lib/dpkg/lock
+
+Installation of gitlab runner for running pipelines locally:
+https://docs.gitlab.com/runner/install/linux-manually.html
+curl -LJO "https://gitlab-runner-downloads.s3.amazonaws.com/latest/deb/gitlab-runner_amd64.deb"
+sudo dpkg -i gitlab-runner_amd64.deb
+
+Installation of postgress SQL server for local running of Django:
+sudo apt install postgresql postgresql-contrib
+sudo apt-get install python-psycopg2
+sudo apt-get install libpq-dev
+sudo systemctl start postgresql.service
+sudo -i -u postgres
+psql
+\q
+exit
+sudo -u postgres psql
+\q
+--- from postgres@server: 
+createuser --interactive
+--- Give a name and say that it has to be a superuser.
+createdb <name>
+--- logout from postgres server
+sudo adduser <name>
+--- from psql-command:
+\list will give you the available databases
+\du will give you the ones you have access to
+\q will let you break from the listing view
+\db <name> gives you information on the specific db
+\conninfo will give you connection information.
+\password will let you alter the password of the current user
+\c <name> will let you swicth to a different database
+\d will list all the tables in the database
+SELECT pg_size_pretty( pg_database_size('dbname') ); for measuring database size
+SELECT pg_size_pretty( pg_total_relation_size('tablename') ); for measuring table size
+
+NOTE: 
+SELECT pg_terminate_backend (pg_stat_activity.pid) FROM	pg_stat_activity WHERE pg_stat_activity.datname = <name>;
+will kill other processes using the database, so you can delete it with DROP DATABASE <name> and recreate it with CREATE DATABASE <name>
+
+Django migration errors for foreign keys:
+1) delete everything in the migration folder except __init__.py en __pycache__ folder (content of the folder should go as well)
+2) switch-off foreign keys
+3) Adapt table structure in sql-server, or remove all tables.
+4) perform migrations
+5) add foreign key fields again
+6) do a second new migration.
+
+Then, the same way as you added variables to the path, create 5 more user environment variables.
+This can be a bit tricky, as the values depend on your own system (use \conninfo in postgres).
+Name: MY_PSQL_DBNAME and Value: textsplitter
+Name: MY_PSQL_USER and Value: <postgres user; depends on your system configuration>
+Name: MY_PSQL_PASSWORD and Value: <what you entered during postgres installation>
+Name: MY_PSQL_HOST and Value: localhost
+Name: MY_PSQL_PORT and Value: <what you get from running \conninfo>
+
+Installation of Celery:
+ubuntu: sudo apt-get install rabbitmq-server
+yaml: docker run -d -p 5672:5672 rabbitmq
+windows: ---
+Next, add the installed celery (inside venv) to your system PATh variable.
+
+Installation of a local minio S3-server:
+https://min.io/docs/minio/linux/index.html
+Create a folder with the location of your choice:
+minio server ./ --console-address :9090 # from that directory; this starts the server.
+Open http://127.0.0.1:9000 in a web browser to access the MinIO Console. You can alternatively enter any of the network addresses specified as part of the server command output. For example, Console: http://192.0.2.10:9090 http://127.0.0.1:9090 in the example output indicates two possible addresses to use for connecting to the Console.
+While the port 9000 is used for connecting to the API, MinIO automatically redirects browser access to the MinIO Console.
+Log in to the Console with the RootUser and RootPass user credentials displayed in the output. These default to minioadmin | minioadmin.
+
+wget https://dl.min.io/client/mc/release/linux-amd64/mc chmod +x mc
+sudo mv mc /usr/local/bin/mc
+mc alias set local http://127.0.0.1:9000 minioadmin minioadmin # to connect to the server
+mc admin info local # to get connection information
+
+Installation of python 3.11.2 inside virtual environment:
+sudo apt install software-properties-common -y
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt-get install python3.11
+sudo apt-get install python3.11-dev python3.11-venv
+sudo apt install build-essential libpoppler-cpp-dev pkg-config
+sudo apt-get install poppler-utils
+python3.11 -m venv ./
+Add to .bashrc: alias Tekst="source ./bin/activate"
+Inside venv we then point to python3.11 and outside to prior python3 version
+pip install --upgrade pip
+
+Checking code in datadrop:
+black -l 100 .
+pylint --fail-under=8 --max-line-length 100 */*.py
+
+pip-installations:
+numpy
+pandas
+scipy
+matplotlib
+pillow
+yake
+rake_nltk
+nltk
+gensim
+wheel
+django
+django-nose
+poppler-utils
+PyPDF2
+PyPDF4
+wordcloud
+openai
+tiktoken
+pymupdf
+frontend
+pyreadline3
+pdfminer
+pdfminer.six
+thefuzz
+Psycopg
+psycopg2
+jupyter
+nbdime
+langchain
+pytest
+coverage
+python-Levenshtein
+bs4
+black
+pylint
+drf-spectacular
+pyjwt[crypto]
+gevent
+django-quill-editor
+django_select2
+
+Other installations:
+python -m nltk.downloader stopwords
+python -m nltk.downloader punkt

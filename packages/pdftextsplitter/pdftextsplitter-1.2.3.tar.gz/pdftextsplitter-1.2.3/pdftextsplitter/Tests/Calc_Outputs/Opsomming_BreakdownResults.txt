@@ -1,0 +1,130 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Opsomming] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Opsomming
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Hier even een stukje text om te zorgen dat een normale regelafstand het vaakste voorkomt. Why, my dear, you must know, Mrs. Long says that Netherﬁeld is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. Bennet, however, 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Dit is echt een hoofdstuk met een lange titel.
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Hier even een stukje text om te zorgen dat een normale regelafstand het vaakste voorkomt. Why, my dear, you must know, Mrs. Long says that Netherﬁeld is taken by a young man of large fortune from the north of England; that he came down on Monday in a chaise and four to see the place, and was so much delighted with it, that he agreed with Mr. Morris immediately; that he is to take possession before Michaelmas, and some of his servants are to be in the house by the end of next week. Not all that Mrs. Bennet, however, 
+
+ [ALINEA-CONTENT]:
+Hier even een stukje text om te zorgen dat een normale regelafstand het
+vaakste voorkomt.
+Why, my dear, you must know, Mrs. Long says that Netherﬁeld is taken by a young
+
+          ***          [--- more alinea content ---]        ***          
+
+2. en dan gaat de tekst hopelijk normaal verder.
+En dan teste we dat ook nog even voor condition
+2. en dan gaat de tekst hopelijk ook verder.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 1. Dit kan zowel een hoofdstuk ...
+ nativeID=2 parentID=1 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Dit kan zowel een hoofdstuk als opsomming zijn. 
+
+ [ALINEA-CONTENT]:
+1. Dit kan zowel een hoofdstuk als opsomming zijn.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2. Dit is dan de vervelende ...
+ nativeID=3 parentID=1 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. Dit is dan de vervelende opsomming die vertelt dat het vorige punt een opsom- ming is en geen headlines. 
+
+ [ALINEA-CONTENT]:
+2. Dit is dan de vervelende opsomming die vertelt dat het vorige punt een opsom-
+ming is en geen headlines.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Artikel 1
+ nativeID=4 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Dit kan dan weer zowel een hoofdstuk als opsomming zijn. (a) En nog wat (b) en nog meer 2. Dit is de tweede opsomming. 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1. Dit kan dan weer zowel ...
+ nativeID=5 parentID=4 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Dit kan dan weer zowel een hoofdstuk als opsomming zijn. (a) En nog wat (b) en nog meer 
+
+ [ALINEA-CONTENT]:
+1. Dit kan dan weer zowel een hoofdstuk als opsomming zijn.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = (a) En nog wat 
+ nativeID=6 parentID=5 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+(a) En nog wat 
+
+ [ALINEA-CONTENT]:
+(a) En nog wat
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = (b) en nog meer 
+ nativeID=7 parentID=5 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+(b) en nog meer 
+
+ [ALINEA-CONTENT]:
+(b) en nog meer
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2. Dit is de tweede opsomming. 
+ nativeID=8 parentID=4 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. Dit is de tweede opsomming. 
+
+ [ALINEA-CONTENT]:
+2. Dit is de tweede opsomming.
+
+---------------------------------------------------------------------------------
