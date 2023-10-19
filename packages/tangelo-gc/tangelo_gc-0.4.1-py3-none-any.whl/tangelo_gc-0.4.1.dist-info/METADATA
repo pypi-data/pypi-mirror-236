@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tangelo-gc
+Version: 0.4.1
+Summary: Tangelo is an open-source Python package maintained by Good Chemistry Company, focusing on the development of quantum chemistry simulation workflows on quantum computers. It was developed as an engine to accelerate research, and leverages other popular frameworks to harness the innovation in our field.
+Home-page: https://github.com/goodchemistryco/Tangelo
+Author: The Tangelo developers
+License-File: LICENSE
+Requires-Dist: h5py
+Requires-Dist: bitarray
+Requires-Dist: openfermion
+Provides-Extra: pyscf
+Requires-Dist: pyscf ; extra == 'pyscf'
+
+Tangelo is an open-source Python package maintained by Good Chemistry Company, focusing on the development of quantum chemistry simulation workflows on quantum computers. It was developed as an engine to accelerate research, and leverages other popular frameworks to harness the innovation in our field.
