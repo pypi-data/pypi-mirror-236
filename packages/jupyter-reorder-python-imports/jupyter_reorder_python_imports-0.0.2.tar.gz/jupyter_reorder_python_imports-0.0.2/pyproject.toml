@@ -1,0 +1,96 @@
+[tool.poetry]
+name = "jupyter-reorder-python-imports"
+version = "0.0.2"
+description = "Reorder python imports for Jupyter notebook and lab"
+authors = ["Daniel Stoops <danielstoops25@gmail.com>"]
+maintainers = ["Daniel Stoops <danielstoops25@gmail.com>"]
+readme = "README.md"
+packages = [{include = "jupyter_reorder_python_imports"}]
+classifiers = [
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3 :: Only"
+    ]
+homepage = "https://github.com/Stoops-ML/jupyter-reorder-python-imports"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+reorder-python-imports = "^3.10.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+mypy = "^1.5.1"
+tox = "^4.10.0"
+flake8 = "^6.1.0"
+pre-commit = "^3.3.3"
+playwright = "^1.37.0"
+jupyterlab = "^4.0.5"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.group.examples.dependencies]
+jupyter-black = "^0.3.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+addopts = [
+    "--cov=jupyter_reorder_python_imports",
+    "--cov-fail-under=85",
+    "--cov-report=term-missing",
+    "--cov-report=term",
+    "--cov-report=",
+    "--no-headless"
+]
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist =
+    py{38,39,310,311}
+    lint
+isolated_build = true
+
+[testenv]
+deps =
+    pytest
+    pytest-cov
+    playwright
+    jupyterlab
+setenv =
+    PYTHONPATH = {toxinidir}
+commands =
+    python -c "import sys; print(sys.version_info)"
+    python -m playwright install --with-deps firefox
+    python -m pytest --basetemp={envtmpdir} --no-headless --no-cov
+
+[testenv:lint]
+deps =
+    flake8
+    mypy>=1.4.1
+    black
+commands =
+    python -c "import sys; print(sys.version_info)"
+    python -m flake8 jupyter_reorder_python_imports/ tests/
+    python -m mypy jupyter_reorder_python_imports/ tests/ --check-untyped-defs --disallow-untyped-calls --disallow-untyped-defs --follow-imports silent --ignore-missing-imports --python-version 3.10 --show-column-numbers --warn-redundant-casts --warn-unused-ignores
+    python -m black --check --diff .
+"""
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+follow_imports = "silent"
+ignore_missing_imports = true
+python_version = "3.11"
+show_column_numbers = true
+warn_incomplete_stub = false
+warn_redundant_casts = true
+warn_unused_ignores = true
