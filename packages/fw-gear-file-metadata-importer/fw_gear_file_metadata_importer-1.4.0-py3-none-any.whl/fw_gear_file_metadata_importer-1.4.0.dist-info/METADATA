@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: fw-gear-file-metadata-importer
+Version: 1.4.0
+Summary: Extract metadata of input file to Flywheel.
+License: MIT
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: flywheel-gear-toolkit (>=0.6,<0.7)
+Requires-Dist: flywheel-sdk (>=16,<17)
+Requires-Dist: fw-file (>=3.0.1,<4.0.0)
+Requires-Dist: nibabel (>=3.2.1,<4.0.0)
+Requires-Dist: pytz (>=2021.3,<2022.0)
+Requires-Dist: ruamel.yaml (>=0.16.13,<0.17.0)
+Requires-Dist: typed-ast (>=1.5.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# File metadata importer
+
+Flywheel gear for importing metadata header of file to Flywheel.
+Metadata is stored under `file.info.header`. Currently, supporting
+the following file types:
+
+* DICOM and DICOM Zip Archive
+* PTD (Siemens PT format)
+* NIfTI
+* ParaVision (Bruker format)
+* PAR/REC (Philips format)
+
+## Usage
+
+### Inputs
+
+* __input-file__: The input file.
+
+### Configuration
+
+* __debug__ (boolean, default: `False`): Include debug statements in log.
+* __siemens CSA__ (boolean, default: `False`): If True, extracts Siemens CSA header for Dicom.
+* __derived metadata__ (boolean, default: `True`): If True, derives additional metadata from the file header and stores them under file.info.header.derived.
+* __tag__ (string, default: `file-metadata-importer`): The tag to be added on
+  input file upon run completion.
+
+## file.info.header structure
+
+### DICOM
+
+Dicom header will be stored under `file.info.header.dicom`. Additionally, if:
+
+* `input-file` is an archive (e.g dicom.zip), then `file.info.header.dicom_array` will be populated.
+* `Siemens CSA` is enabled, then `file.info.header.csa` will be populated if found.
+
+### Bruker ParaVision
+
+ParaVision metadata will be stored under `file.info.header.paravision`
+
+### Siemens PTD
+
+The raw PTD preamble will be stored under `file.info.header.ptd`
+
+## Details
+
+### DICOM
+
+By default, the following tags are not extracted:
+
+* All private tags
+* `PixelData`
+* `Pixel Data`
+* `ContourData`
+* `EncryptedAttributesSequence`
+* `OriginalAttributesSequence`
+* `SpectroscopyData`
+
+By default, for zip archive or multiframe the following tags are extracted
+and stored in `file.info.header.dicom_array`:
+
+* `AcquisitionNumber`
+* `AcquisitionTime`
+* `EchoTime`
+* `ImageOrientationPatient`
+* `ImagePositionPatient`
+* `ImageType`
+* `InstanceNumber`
+* `SliceLocation`
+* `PhaseCount`
+* `PhaseIndexes`
+
+### Extracting additional tags
+
+Additional tags can be extracted and indexed by ammending the list above.
+
+To add or remove to that list, specific key/value must be set on the project
+custom information (`project.info`) like below:
+
+```json
+context: 
+   header:
+      dicom:
+         <DICOM-tag>: True
+```
+
+`Key: value` should take the form of `Tag: bool` where `Tag` can either be
+a Dicom keyword (e.g. `PatientID`), a Dicom hex index (e.g `00100020`) or
+a Dicom private tag `GEMS_PARM_01, 0043xx01`. If `bool` is `True`,  the tag
+will be added to the parsed tags in the `file.info.header.dicom` *and*
+the `file.info.header.dicom_array` namespaces, if `False` is will be removed.
+
+### Derived fields
+
+The following values derived from dicom are stored in a `file.info.header.derived` dictionary
+
+* `SpacingBetweenSlices` ( Also a type 3 tag at (0018,0088))
+* `MinSliceLocation` : Minimum value of slice location
+* `MaxSliceLocation` : Maximum value of slice location
+* `ScanCoverage` : Span of slice location (max-min)
+* `SliceAxis` : 3D unit vector connecting slice origins
+* `PhaseCount` : Number of sequences of consecutive slices with uniform spacing & orientation
+* `PhaseIndexes` : If PhaseCount > 1, this array maps the slices indexes to the phase index
+* `fov` : "Field of view" which is 3D span in patient coords along x,y,z (empty if slice spacing is not uniform)
+* `affine` : 4x4 affine transform to convert grid to patient coords (empty if slice spacing is not uniform)
+
