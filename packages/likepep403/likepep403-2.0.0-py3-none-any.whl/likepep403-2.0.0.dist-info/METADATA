@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: likepep403
+Version: 2.0.0
+Summary: A library containing several useful Python decorators, simulating PEP 403's capabilities.
+Author: Wojciech Marzec
+License: MIT License
+        
+        Copyright (c) 2023 Keyacom
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: repository, https://github.com/Keyacom/likepep403
+Keywords: pep403,decorator
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Typing :: Typed
+Classifier: Topic :: Utilities
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# likepep403 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+A library containing several useful Python decorators. Called `decorlib` before
+1.0.1, it is now called `likepep403` due to the fact functions provided by this
+package can simulate many things that [PEP 403](https://peps.python.org/pep-0403/)
+can do once it's in official consideration.
+
+## Available decorators
+
+All decorators' descriptions can be seen in [the docs](https://github.com/Keyacom/likepep403/tree/main/docs).
