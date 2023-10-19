@@ -1,0 +1,2 @@
+[console_scripts]
+rwkv2onnx = rwkv2onnx:main
