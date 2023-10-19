@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: OTPLessAuthSDK
+Version: 0.1.3
+Summary: otpless-auth-sdk
+Author: OTPless
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Merchant Integration Documentation(Backend Python Auth SDK)
+
+---
+
+> ## A. OTPLessAuth class
+
+The `OTPLessAuth` class provides methods to integrate OTPLess authentication into your Python backend application. This
+documentation explains the usage of the class and its methods.
+
+### Methods:
+
+---
+
+> ### 1. decodeIdToken
+
+---
+
+This method help to resolve `idToken(JWT token)` which is issued by `OTPLess` which return user detail
+from that token also this method verify that token is valid, token should not expired and
+issued by only `otpless.com`
+
+##### Method Signature:
+
+```python
+verify_code(code, client_id, client_secret, audience=None)
+```
+
+#### Method Params:
+
+| Params       | Data type | Mandatory | Constraints | Remarks                                                                      |
+| ------------ | --------- | --------- | ----------- | ---------------------------------------------------------------------------- |
+| idToken      | String    | true      |             | idToken which is JWT token which you get from `OTPLess` by exchange code API |
+| clientId     | String    | true      |             | Your OTPLess `Client Id`                                                     |
+| clientSecret | String    | true      |             | Your OTPLess `Client Secret`                                                 |
+
+#### Return
+
+Return:
+Object Name: UserDetail
+
+```json
+{'success': True, 'iss': 'https://otpless.com', 'sub': '547', 'aud': 'kp******', 'exp': 1697189497000, 'iat': 1697185897000, 'auth_time': 1697205696, 'phone_number': '+919******', 'email': 'dh******@gmail.com', 'name': 'Dev** From OTP-less', 'authentication_details': {'phone': {'mode': 'WHATSAPP', 'phone_number': '93******', 'country_code': '+91', 'auth_state': 'verified'}, 'email': {'email': 'dev*****', 'mode': 'APPLE_EMAIL', 'auth_state': 'verified'}}}
+```
+
+> ### 2. verify code
+
+---
+
+This method help to resolve `code` which is return from `OTPLess` which will return user detail
+from that code also this method verify that code is valid, code should not expired and
+issued by only `otpless.com`
+
+##### Method Signature:
+
+```python
+verify_code(code, client_id, client_secret, audience=None)
+```
+
+#### Method Params:
+
+| Params       | Data type | Mandatory | Constraints | Remarks                           |
+| ------------ | --------- | --------- | ----------- | --------------------------------- |
+| code         | String    | true      |             | code which you get from `OTPLess` |
+| clientId     | String    | true      |             | Your OTPLess `Client Id`          |
+| clientSecret | String    | true      |             | Your OTPLess `Client Secret`      |
+
+#### Return
+
+Return:
+Object Name: UserDetail
+
+```json
+{'success': True, 'iss': 'https://otpless.com', 'sub': '547', 'aud': 'kp******', 'exp': 1697189497000, 'iat': 1697185897000, 'auth_time': 1697205696, 'phone_number': '+919******', 'email': 'dh******@gmail.com', 'name': 'Dev** From OTP-less', 'authentication_details': {'phone': {'mode': 'WHATSAPP', 'phone_number': '93******', 'country_code': '+91', 'auth_state': 'verified'}, 'email': {'email': 'dev*****', 'mode': 'APPLE_EMAIL', 'auth_state': 'verified'}}}
+```
+
+> ### UserDetail Object Fields:
+>
+> `success` (boolean): This will be `true` in case of method successfully performed operation.<br> > `iss` (String, required): The issuer, which should be "https://otpless.com."<br> > `sub` (String, required): The subject, typically the user ID.<br> > `aud` (String, required): The audience, your OTPLess Client ID.<br> > `exp` (Long, required): The expiration time of the token.<br> > `iat` (Long, required): The issuance time of the token.<br> > `authTime` (Long, required): The time when authentication was completed.<br> > `phoneNumber` (String, required): The user's phone number.<br> > `email` (String, required): The user's email address.<br> > `name` (String, required): The user's full name.<br> > `authenticationDetails` (AuthenticationDetails, required): Authentication details containing information about phone
+> verification and email verification.
+
+#### AuthenticationDetails Object Fields:
+
+`phone` (PhoneAuthentication, required): Information about phone verification.<br>
+`email` (EmailAuthentication, required): Information about email verification.
+
+#### PhoneAuthentication Object Fields:
+
+`mode` (String): The mode of phone verification.<br>
+`phoneNumber` (String): The verified phone number.<br>
+`countryCode` (String): The country code of the phone number.<br>
+`authState` (String): The authentication state of the phone number.
+
+#### EmailAuthentication Object Fields:
+
+`email` (String): The verified email address.<br>
+`mode` (String): The mode of email verification.<br>
+`authState` (String): The authentication state of the email.<br>
+
+### Error case:
+
+`success` (boolean): This will be `false`. The method is failed to perform.<br>
+`errorMessage` (String): The message contains error information.<br>
+
+### Example of usage
+
+```python
+import OTPLessAuthSdk
+
+# Setup necessary parameters
+client_id = "your_client_id"
+client_secret = "your_client_secret"
+code = "your_id_token_here"
+audience = None
+
+# Use the verify_code function to verify the code and get user details
+try:
+    user_details = OTPLessAuthSdk.UserDetail.verify_code(code, client_id, client_secret, audience)
+    print(f"User details: {user_details}")
+except Exception as e:
+    print(f"An error occurred: {e}")
+```
+
+This method allows you to decode and verify OTPLess ID tokens and retrieve user information for integration into your
+backend Python application.
