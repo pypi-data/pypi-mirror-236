@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+dataset/__init__.py
+dataset/manager.py
+dataset_manager_py.egg-info/PKG-INFO
+dataset_manager_py.egg-info/SOURCES.txt
+dataset_manager_py.egg-info/dependency_links.txt
+dataset_manager_py.egg-info/requires.txt
+dataset_manager_py.egg-info/top_level.txt
+tests/test_manager.py
