@@ -1,0 +1,6 @@
+setup.py
+BrainLes.egg-info/PKG-INFO
+BrainLes.egg-info/SOURCES.txt
+BrainLes.egg-info/dependency_links.txt
+BrainLes.egg-info/top_level.txt
+brainles/__init__.py
