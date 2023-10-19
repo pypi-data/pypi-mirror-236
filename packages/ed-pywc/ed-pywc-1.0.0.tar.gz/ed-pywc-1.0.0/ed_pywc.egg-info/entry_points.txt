@@ -1,0 +1,2 @@
+[console_scripts]
+pywc = pywc.main:wc

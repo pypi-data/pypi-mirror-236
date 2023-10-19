@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: ed-pywc
+Version: 1.0.0
+Summary: Python implementation of the UNIX wc (Word Count) utility
+Home-page: https://github.com/edjchapman/pywc
+Author: Ed Chapman
+Author-email: ed@edchapman.co.uk
+Keywords: cli tool wc word count
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click>=8.0
+Provides-Extra: dev
+Requires-Dist: pytest>=7.0; extra == "dev"
+Requires-Dist: flake8>=6.0; extra == "dev"
+Requires-Dist: isort>=5.12; extra == "dev"
+
+PYWC
+====
+
+Python implementation of the UNIX wc (Word Count) utility
+
+https://pypi.org/project/ed-pywc/
+
+---
+
+## Installation and Usage
+
+Installation
+```shell
+pip install ed-pywc
+```
+
+Usage
+```shell
+Usage: pywc [OPTIONS] [FILE]
+
+  A Python-based version of the UNIX wc command which counts lines, words, and
+  bytes in a file.
+
+  Examples:
+      pywc --lines sample.txt      # Counts lines in sample.txt
+      pywc --words sample.txt      # Counts words in sample.txt
+      pywc --bytes sample.txt      # Counts bytes in sample.txt
+      pywc sample.txt              # Counts lines, words, and bytes in sample.txt
+      cat sample.txt | pywc        # Pipe the output of another command as input
+
+Options:
+  -l, --lines  Count the number of lines in the specified file.
+  -w, --words  Count the number of words in the specified file.
+  -c, --bytes  Count the number of bytes in the specified file.
+  --help       Show this message and exit.
+
+```
+
+---
+
+## Development Setup
+[Development Setup](docs/development_setup.md)
+
+---
+
+## Publish
+[Publishing to Pypi](docs/publishing_to_pypi.md)
