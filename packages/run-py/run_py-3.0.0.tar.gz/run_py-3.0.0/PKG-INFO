@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: run_py
+Version: 3.0.0
+Author-email: Mahdi Mir <imahdimir@gmail.com>
+Requires-Dist: githubdata
+Description-Content-Type: text/markdown
+
+Some functions to run modules from a dir and removing cache dirs. Includes
+DefaultDirs class.

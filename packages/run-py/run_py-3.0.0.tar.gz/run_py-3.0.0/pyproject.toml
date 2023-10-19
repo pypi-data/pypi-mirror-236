@@ -1,0 +1,12 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "run_py"
+version = "3.0.0"
+authors = [{ name = "Mahdi Mir", email = "imahdimir@gmail.com" }]
+readme = "README.md"
+dependencies = [
+    "githubdata"
+]
