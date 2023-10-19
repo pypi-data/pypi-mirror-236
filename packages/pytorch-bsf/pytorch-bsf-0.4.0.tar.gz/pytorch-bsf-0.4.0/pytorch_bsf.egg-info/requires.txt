@@ -1,0 +1,11 @@
+setuptools>=21.0.0
+torch
+pytorch-lightning
+torchvision
+protobuf
+mlflow
+jsonschema
+PyYAML
+
+[develop]
+tox
