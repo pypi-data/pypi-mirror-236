@@ -1,0 +1,975 @@
+import seaborn as sns
+import matplotlib.pyplot as plt
+import pandas as pd
+import numpy as np
+from sklearn.svm import SVC
+from sklearn.preprocessing import LabelEncoder
+from sklearn.linear_model import LogisticRegression,LinearRegression, SGDRegressor, Ridge, ElasticNet
+from sklearn.tree import DecisionTreeClassifier, DecisionTreeRegressor
+from sklearn.neighbors import KNeighborsClassifier, KNeighborsRegressor
+from sklearn.naive_bayes import GaussianNB
+from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier, GradientBoostingClassifier, BaggingClassifier, ExtraTreesClassifier,RandomForestRegressor, AdaBoostRegressor, GradientBoostingRegressor, BaggingRegressor, ExtraTreesRegressor,HistGradientBoostingRegressor
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis,QuadraticDiscriminantAnalysis
+from xgboost import XGBClassifier, XGBRegressor
+from catboost import CatBoostClassifier, CatBoostRegressor
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, classification_report, mean_absolute_error, mean_squared_error, mean_absolute_percentage_error, r2_score, mean_squared_log_error, median_absolute_error, max_error
+def train_and_log_classification(x_train,y_train,x_test,y_test,size='small'):
+                if size=='large' or size=='Large':
+                       model=['naive bayes','decision tree','random forest','adaboost','gradient boost','xgboost','logistic regression','bagging classifier','extra trees classifier','linear discriminant analysis','quadratic discriminant analysis']
+                else:
+                       model=['svm-linear','svm-rbf','svm-poly','knn','naive bayes','decision tree','random forest','adaboost','gradient boost','xgboost','logistic regression','bagging classifier','extra trees classifier','linear discriminant analysis','quadratic discriminant analysis','cat boost classifier']
+                dat=pd.DataFrame(columns=['model','training-accuracy','training-precision','training-recall','training-f1','training-confusion matrix','validation-accuracy','validation-precision','validation-recall','validation-f1','validation-confusion matrix','training-classification report','validation-classification report'])
+                dat['model']=model
+                accuracy_t=[]
+                precision_t=[]
+                recall_t=[]
+                f1_t=[]
+                confusion_matrix_t=[]
+                classification_report_t=[]
+                accuracy_v=[]
+                precision_v=[]
+                recall_v=[]
+                f1_v=[]
+                confusion_matrix_v=[]
+                classification_report_v=[]
+                for i in model:
+                    if i=='svm-linear':
+                        sl=SVC(kernel='linear')
+                        sl.fit(x_train,y_train)
+                        acc_sl_v= accuracy_score(y_test,sl.predict(x_test))
+                        prc_sl_v= precision_score(y_test,sl.predict(x_test),average='macro')
+                        rec_sl_v=recall_score(y_test,sl.predict(x_test),average='macro')
+                        f_sl_v=f1_score(y_test,sl.predict(x_test),average='macro')
+                        cm_sl_v=confusion_matrix(y_test,sl.predict(x_test))
+                        cr_sl_v=classification_report(y_test,sl.predict(x_test))
+                        accuracy_v.append(acc_sl_v*100)
+                        precision_v.append(prc_sl_v*100)
+                        recall_v.append(rec_sl_v*100)
+                        f1_v.append(f_sl_v*100)
+                        confusion_matrix_v.append(cm_sl_v)
+                        classification_report_v.append(cr_sl_v)
+                        acc_sl_t= accuracy_score(y_train,sl.predict(x_train))
+                        prc_sl_t= precision_score(y_train,sl.predict(x_train),average='macro')
+                        rec_sl_t=recall_score(y_train,sl.predict(x_train),average='macro')
+                        f_sl_t=f1_score(y_train,sl.predict(x_train),average='macro')
+                        cm_sl_t=confusion_matrix(y_train,sl.predict(x_train))
+                        cr_sl_t=classification_report(y_train,sl.predict(x_train))
+                        accuracy_t.append(acc_sl_t*100)
+                        precision_t.append(prc_sl_t*100)
+                        recall_t.append(rec_sl_t*100)
+                        f1_t.append(f_sl_t*100)
+                        confusion_matrix_t.append(cm_sl_t)
+                        classification_report_t.append(cr_sl_t)
+                    elif i=='svm-rbf':
+                        sr=SVC(kernel='rbf')
+                        sr.fit(x_train,y_train)
+                        acc_sr_v= accuracy_score(y_test,sr.predict(x_test))
+                        prc_sr_v= precision_score(y_test,sr.predict(x_test),average='macro')
+                        rec_sr_v=recall_score(y_test,sr.predict(x_test),average='macro')
+                        f_sr_v=f1_score(y_test,sr.predict(x_test),average='macro')
+                        cm_sr_v=confusion_matrix(y_test,sr.predict(x_test))
+                        cr_sr_v=classification_report(y_test,sr.predict(x_test))
+                        accuracy_v.append(acc_sr_v*100)
+                        precision_v.append(prc_sr_v*100)
+                        recall_v.append(rec_sr_v*100)
+                        f1_v.append(f_sr_v*100)
+                        confusion_matrix_v.append(cm_sr_v)
+                        classification_report_v.append(cr_sr_v)
+                        acc_sr_t= accuracy_score(y_train,sr.predict(x_train))
+                        prc_sr_t= precision_score(y_train,sr.predict(x_train),average='macro')
+                        rec_sr_t=recall_score(y_train,sr.predict(x_train),average='macro')
+                        f_sr_t=f1_score(y_train,sr.predict(x_train),average='macro')
+                        cm_sr_t=confusion_matrix(y_train,sr.predict(x_train))
+                        cr_sr_t=classification_report(y_train,sr.predict(x_train))
+                        accuracy_t.append(acc_sr_t*100)
+                        precision_t.append(prc_sr_t*100)
+                        recall_t.append(rec_sr_t*100)
+                        f1_t.append(f_sr_t*100)
+                        confusion_matrix_t.append(cm_sr_t)
+                        classification_report_t.append(cr_sr_t)
+                    elif i=='svm-poly':
+                        sp=SVC(kernel='poly')
+                        sp.fit(x_train,y_train)
+                        acc_sp_v= accuracy_score(y_test,sp.predict(x_test))
+                        prc_sp_v= precision_score(y_test,sp.predict(x_test),average='macro')
+                        rec_sp_v=recall_score(y_test,sp.predict(x_test),average='macro')
+                        f_sp_v=f1_score(y_test,sp.predict(x_test),average='macro')
+                        cm_sp_v=confusion_matrix(y_test,sp.predict(x_test))
+                        cr_sp_v=classification_report(y_test,sp.predict(x_test))
+                        accuracy_v.append(acc_sp_v*100)
+                        precision_v.append(prc_sp_v*100)
+                        recall_v.append(rec_sp_v*100)
+                        f1_v.append(f_sp_v*100)
+                        confusion_matrix_v.append(cm_sp_v)
+                        classification_report_v.append(cr_sp_v)
+                        acc_sp_t= accuracy_score(y_train,sp.predict(x_train))
+                        prc_sp_t= precision_score(y_train,sp.predict(x_train),average='macro')
+                        rec_sp_t=recall_score(y_train,sp.predict(x_train),average='macro')
+                        f_sp_t=f1_score(y_train,sp.predict(x_train),average='macro')
+                        cm_sp_t=confusion_matrix(y_train,sp.predict(x_train))
+                        cr_sp_t=classification_report(y_train,sp.predict(x_train))
+                        accuracy_t.append(acc_sp_t*100)
+                        precision_t.append(prc_sp_t*100)
+                        recall_t.append(rec_sp_t*100)
+                        f1_t.append(f_sp_t*100)
+                        confusion_matrix_t.append(cm_sp_t)
+                        classification_report_t.append(cr_sp_t)
+                    elif i=='knn':
+                        k=KNeighborsClassifier()
+                        k.fit(x_train,y_train)
+                        acc_k_v= accuracy_score(y_test,k.predict(x_test))
+                        prc_k_v= precision_score(y_test,k.predict(x_test),average='macro')
+                        rec_k_v=recall_score(y_test,k.predict(x_test),average='macro')
+                        f_k_v=f1_score(y_test,k.predict(x_test),average='macro')
+                        cm_k_v=confusion_matrix(y_test,k.predict(x_test))
+                        cr_k_v=classification_report(y_test,k.predict(x_test))
+                        accuracy_v.append(acc_k_v*100)
+                        precision_v.append(prc_k_v*100)
+                        recall_v.append(rec_k_v*100)
+                        f1_v.append(f_k_v*100)
+                        confusion_matrix_v.append(cm_k_v)
+                        classification_report_v.append(cr_k_v)
+                        acc_k_t= accuracy_score(y_train,k.predict(x_train))
+                        prc_k_t= precision_score(y_train,k.predict(x_train),average='macro')
+                        rec_k_t=recall_score(y_train,k.predict(x_train),average='macro')
+                        f_k_t=f1_score(y_train,k.predict(x_train),average='macro')
+                        cm_k_t=confusion_matrix(y_train,k.predict(x_train))
+                        cr_k_t=classification_report(y_train,k.predict(x_train))
+                        accuracy_t.append(acc_k_t*100)
+                        precision_t.append(prc_k_t*100)
+                        recall_t.append(rec_k_t*100)
+                        f1_t.append(f_k_t*100)
+                        confusion_matrix_t.append(cm_k_t)
+                        classification_report_t.append(cr_k_t)
+                    elif i=='naive bayes':
+                        g=GaussianNB()
+                        g.fit(x_train,y_train)
+                        acc_g_v= accuracy_score(y_test,g.predict(x_test))
+                        prc_g_v= precision_score(y_test,g.predict(x_test),average='macro')
+                        rec_g_v=recall_score(y_test,g.predict(x_test),average='macro')
+                        f_g_v=f1_score(y_test,g.predict(x_test),average='macro')
+                        cm_g_v=confusion_matrix(y_test,g.predict(x_test))
+                        cr_g_v=classification_report(y_test,g.predict(x_test))
+                        accuracy_v.append(acc_g_v*100)
+                        precision_v.append(prc_g_v*100)
+                        recall_v.append(rec_g_v*100)
+                        f1_v.append(f_g_v*100)
+                        confusion_matrix_v.append(cm_g_v)
+                        classification_report_v.append(cr_g_v)
+                        acc_g_t= accuracy_score(y_train,g.predict(x_train))
+                        prc_g_t= precision_score(y_train,g.predict(x_train),average='macro')
+                        rec_g_t=recall_score(y_train,g.predict(x_train),average='macro')
+                        f_g_t=f1_score(y_train,g.predict(x_train),average='macro')
+                        cm_g_t=confusion_matrix(y_train,g.predict(x_train))
+                        cr_g_t=classification_report(y_train,g.predict(x_train))
+                        accuracy_t.append(acc_g_t*100)
+                        precision_t.append(prc_g_t*100)
+                        recall_t.append(rec_g_t*100)
+                        f1_t.append(f_g_t*100)
+                        confusion_matrix_t.append(cm_g_t)
+                        classification_report_t.append(cr_g_t)
+                    elif i=='decision tree':
+                        dt=DecisionTreeClassifier()
+                        dt.fit(x_train,y_train)
+                        acc_dt_v= accuracy_score(y_test,dt.predict(x_test))
+                        prc_dt_v= precision_score(y_test,dt.predict(x_test),average='macro')
+                        rec_dt_v=recall_score(y_test,dt.predict(x_test),average='macro')
+                        f_dt_v=f1_score(y_test,dt.predict(x_test),average='macro')
+                        cm_dt_v=confusion_matrix(y_test,dt.predict(x_test))
+                        cr_dt_v=classification_report(y_test,dt.predict(x_test))
+                        accuracy_v.append(acc_dt_v*100)
+                        precision_v.append(prc_dt_v*100)
+                        recall_v.append(rec_dt_v*100)
+                        f1_v.append(f_dt_v*100)
+                        confusion_matrix_v.append(cm_dt_v)
+                        classification_report_v.append(cr_dt_v)
+                        acc_dt_t= accuracy_score(y_train,dt.predict(x_train))
+                        prc_dt_t= precision_score(y_train,dt.predict(x_train),average='macro')
+                        rec_dt_t=recall_score(y_train,dt.predict(x_train),average='macro')
+                        f_dt_t=f1_score(y_train,dt.predict(x_train),average='macro')
+                        cm_dt_t=confusion_matrix(y_train,dt.predict(x_train))
+                        cr_dt_t=classification_report(y_train,dt.predict(x_train))
+                        accuracy_t.append(acc_dt_t*100)
+                        precision_t.append(prc_dt_t*100)
+                        recall_t.append(rec_dt_t*100)
+                        f1_t.append(f_dt_t*100)
+                        confusion_matrix_t.append(cm_dt_t)
+                        classification_report_t.append(cr_dt_t)
+                    elif i=='random forest':
+                        rf=RandomForestClassifier()
+                        rf.fit(x_train,y_train)
+                        acc_rf_v= accuracy_score(y_test,rf.predict(x_test))
+                        prc_rf_v= precision_score(y_test,rf.predict(x_test),average='macro')
+                        rec_rf_v=recall_score(y_test,rf.predict(x_test),average='macro')
+                        f_rf_v=f1_score(y_test,rf.predict(x_test),average='macro')
+                        cm_rf_v=confusion_matrix(y_test,rf.predict(x_test))
+                        cr_rf_v=classification_report(y_test,rf.predict(x_test))
+                        accuracy_v.append(acc_rf_v*100)
+                        precision_v.append(prc_rf_v*100)
+                        recall_v.append(rec_rf_v*100)
+                        f1_v.append(f_rf_v*100)
+                        confusion_matrix_v.append(cm_rf_v)
+                        classification_report_v.append(cr_rf_v)
+                        acc_rf_t= accuracy_score(y_train,rf.predict(x_train))
+                        prc_rf_t= precision_score(y_train,rf.predict(x_train),average='macro')
+                        rec_rf_t=recall_score(y_train,rf.predict(x_train),average='macro')
+                        f_rf_t=f1_score(y_train,rf.predict(x_train),average='macro')
+                        cm_rf_t=confusion_matrix(y_train,rf.predict(x_train))
+                        cr_rf_t=classification_report(y_train,rf.predict(x_train))
+                        accuracy_t.append(acc_rf_t*100)
+                        precision_t.append(prc_rf_t*100)
+                        recall_t.append(rec_rf_t*100)
+                        f1_t.append(f_rf_t*100)
+                        confusion_matrix_t.append(cm_rf_t)
+                        classification_report_t.append(cr_rf_t)
+                    elif i=='adaboost':
+                        ada=AdaBoostClassifier()
+                        ada.fit(x_train,y_train)
+                        acc_ada_v= accuracy_score(y_test,ada.predict(x_test))
+                        prc_ada_v= precision_score(y_test,ada.predict(x_test),average='macro')
+                        rec_ada_v=recall_score(y_test,ada.predict(x_test),average='macro')
+                        f_ada_v=f1_score(y_test,ada.predict(x_test),average='macro')
+                        cm_ada_v=confusion_matrix(y_test,ada.predict(x_test))
+                        cr_ada_v=classification_report(y_test,ada.predict(x_test))
+                        accuracy_v.append(acc_ada_v*100)
+                        precision_v.append(prc_ada_v*100)
+                        recall_v.append(rec_ada_v*100)
+                        f1_v.append(f_ada_v*100)
+                        confusion_matrix_v.append(cm_ada_v)
+                        classification_report_v.append(cr_ada_v)
+                        acc_ada_t= accuracy_score(y_train,ada.predict(x_train))
+                        prc_ada_t= precision_score(y_train,ada.predict(x_train),average='macro')
+                        rec_ada_t=recall_score(y_train,ada.predict(x_train),average='macro')
+                        f_ada_t=f1_score(y_train,ada.predict(x_train),average='macro')
+                        cm_ada_t=confusion_matrix(y_train,ada.predict(x_train))
+                        cr_ada_t=classification_report(y_train,ada.predict(x_train))
+                        accuracy_t.append(acc_ada_t*100)
+                        precision_t.append(prc_ada_t*100)
+                        recall_t.append(rec_ada_t*100)
+                        f1_t.append(f_ada_t*100)
+                        confusion_matrix_t.append(cm_ada_t)
+                        classification_report_t.append(cr_ada_t)
+                    elif i=='gradient boost':
+                        gb=GradientBoostingClassifier()
+                        gb.fit(x_train,y_train)
+                        acc_gb_v= accuracy_score(y_test,gb.predict(x_test))
+                        prc_gb_v= precision_score(y_test,gb.predict(x_test),average='macro')
+                        rec_gb_v=recall_score(y_test,gb.predict(x_test),average='macro')
+                        f_gb_v=f1_score(y_test,gb.predict(x_test),average='macro')
+                        cm_gb_v=confusion_matrix(y_test,gb.predict(x_test))
+                        cr_gb_v=classification_report(y_test,gb.predict(x_test))
+                        accuracy_v.append(acc_gb_v*100)
+                        precision_v.append(prc_gb_v*100)
+                        recall_v.append(rec_gb_v*100)
+                        f1_v.append(f_gb_v*100)
+                        confusion_matrix_v.append(cm_gb_v)
+                        classification_report_v.append(cr_gb_v)
+                        acc_gb_t= accuracy_score(y_train,gb.predict(x_train))
+                        prc_gb_t= precision_score(y_train,gb.predict(x_train),average='macro')
+                        rec_gb_t=recall_score(y_train,gb.predict(x_train),average='macro')
+                        f_gb_t=f1_score(y_train,gb.predict(x_train),average='macro')
+                        cm_gb_t=confusion_matrix(y_train,gb.predict(x_train))
+                        cr_gb_t=classification_report(y_train,gb.predict(x_train))
+                        accuracy_t.append(acc_gb_t*100)
+                        precision_t.append(prc_gb_t*100)
+                        recall_t.append(rec_gb_t*100)
+                        f1_t.append(f_gb_t*100)
+                        confusion_matrix_t.append(cm_gb_t)
+                        classification_report_t.append(cr_gb_t)
+                    elif i=='xgboost':
+                        lab=LabelEncoder()
+                        y_train=lab.fit_transform(y_train)
+                        y_test=lab.fit_transform(y_test)
+                        xgb=XGBClassifier()
+                        xgb.fit(x_train,y_train)
+                        acc_xgb_v= accuracy_score(y_test,xgb.predict(x_test))
+                        prc_xgb_v= precision_score(y_test,xgb.predict(x_test),average='macro')
+                        rec_xgb_v=recall_score(y_test,xgb.predict(x_test),average='macro')
+                        f_xgb_v=f1_score(y_test,xgb.predict(x_test),average='macro')
+                        cm_xgb_v=confusion_matrix(y_test,xgb.predict(x_test))
+                        cr_xgb_v=classification_report(y_test,xgb.predict(x_test))
+                        accuracy_v.append(acc_xgb_v*100)
+                        precision_v.append(prc_xgb_v*100)
+                        recall_v.append(rec_xgb_v*100)
+                        f1_v.append(f_xgb_v*100)
+                        confusion_matrix_v.append(cm_xgb_v)
+                        classification_report_v.append(cr_xgb_v)
+                        acc_xgb_t= accuracy_score(y_train,xgb.predict(x_train))
+                        prc_xgb_t= precision_score(y_train,xgb.predict(x_train),average='macro')
+                        rec_xgb_t=recall_score(y_train,xgb.predict(x_train),average='macro')
+                        f_xgb_t=f1_score(y_train,xgb.predict(x_train),average='macro')
+                        cm_xgb_t=confusion_matrix(y_train,xgb.predict(x_train))
+                        cr_xgb_t=classification_report(y_train,xgb.predict(x_train))
+                        accuracy_t.append(acc_xgb_t*100)
+                        precision_t.append(prc_xgb_t*100)
+                        recall_t.append(rec_xgb_t*100)
+                        f1_t.append(f_xgb_t*100)
+                        confusion_matrix_t.append(cm_xgb_t)
+                        classification_report_t.append(cr_xgb_t)
+                    elif i=='logistic regression':
+                        lrc=LogisticRegression()
+                        lrc.fit(x_train,y_train)
+                        acc_lrc_v= accuracy_score(y_test,lrc.predict(x_test))
+                        prc_lrc_v= precision_score(y_test,lrc.predict(x_test),average='macro')
+                        rec_lrc_v=recall_score(y_test,lrc.predict(x_test),average='macro')
+                        f_lrc_v=f1_score(y_test,lrc.predict(x_test),average='macro')
+                        cm_lrc_v=confusion_matrix(y_test,lrc.predict(x_test))
+                        cr_lrc_v=classification_report(y_test,lrc.predict(x_test))
+                        accuracy_v.append(acc_lrc_v*100)
+                        precision_v.append(prc_lrc_v*100)
+                        recall_v.append(rec_lrc_v*100)
+                        f1_v.append(f_lrc_v*100)
+                        confusion_matrix_v.append(cm_lrc_v)
+                        classification_report_v.append(cr_lrc_v)
+                        acc_lrc_t= accuracy_score(y_train,lrc.predict(x_train))
+                        prc_lrc_t= precision_score(y_train,lrc.predict(x_train),average='macro')
+                        rec_lrc_t=recall_score(y_train,lrc.predict(x_train),average='macro')
+                        f_lrc_t=f1_score(y_train,lrc.predict(x_train),average='macro')
+                        cm_lrc_t=confusion_matrix(y_train,lrc.predict(x_train))
+                        cr_lrc_t=classification_report(y_train,lrc.predict(x_train))
+                        accuracy_t.append(acc_lrc_t*100)
+                        precision_t.append(prc_lrc_t*100)
+                        recall_t.append(rec_lrc_t*100)
+                        f1_t.append(f_lrc_t*100)
+                        confusion_matrix_t.append(cm_lrc_t)
+                        classification_report_t.append(cr_lrc_t)
+                    elif i=='bagging classifier':
+                        bc=BaggingClassifier()
+                        bc.fit(x_train,y_train)
+                        acc_bc_v= accuracy_score(y_test,bc.predict(x_test))
+                        prc_bc_v= precision_score(y_test,bc.predict(x_test),average='macro')
+                        rec_bc_v=recall_score(y_test,bc.predict(x_test),average='macro')
+                        f_bc_v=f1_score(y_test,bc.predict(x_test),average='macro')
+                        cm_bc_v=confusion_matrix(y_test,bc.predict(x_test))
+                        cr_bc_v=classification_report(y_test,bc.predict(x_test))
+                        accuracy_v.append(acc_bc_v*100)
+                        precision_v.append(prc_bc_v*100)
+                        recall_v.append(rec_bc_v*100)
+                        f1_v.append(f_bc_v*100)
+                        confusion_matrix_v.append(cm_bc_v)
+                        classification_report_v.append(cr_bc_v)
+                        acc_bc_t= accuracy_score(y_train,bc.predict(x_train))
+                        prc_bc_t= precision_score(y_train,bc.predict(x_train),average='macro')
+                        rec_bc_t=recall_score(y_train,bc.predict(x_train),average='macro')
+                        f_bc_t=f1_score(y_train,bc.predict(x_train),average='macro')
+                        cm_bc_t=confusion_matrix(y_train,bc.predict(x_train))
+                        cr_bc_t=classification_report(y_train,bc.predict(x_train))
+                        accuracy_t.append(acc_bc_t*100)
+                        precision_t.append(prc_bc_t*100)
+                        recall_t.append(rec_bc_t*100)
+                        f1_t.append(f_bc_t*100)
+                        confusion_matrix_t.append(cm_bc_t)
+                        classification_report_t.append(cr_bc_t)
+                    elif i=='extra trees classifier':
+                        etc=ExtraTreesClassifier()
+                        etc.fit(x_train,y_train)
+                        acc_etc_v= accuracy_score(y_test,etc.predict(x_test))
+                        prc_etc_v= precision_score(y_test,etc.predict(x_test),average='macro')
+                        rec_etc_v=recall_score(y_test,etc.predict(x_test),average='macro')
+                        f_etc_v=f1_score(y_test,etc.predict(x_test),average='macro')
+                        cm_etc_v=confusion_matrix(y_test,etc.predict(x_test))
+                        cr_etc_v=classification_report(y_test,etc.predict(x_test))
+                        accuracy_v.append(acc_etc_v*100)
+                        precision_v.append(prc_etc_v*100)
+                        recall_v.append(rec_etc_v*100)
+                        f1_v.append(f_etc_v*100)
+                        confusion_matrix_v.append(cm_etc_v)
+                        classification_report_v.append(cr_etc_v)
+                        acc_etc_t= accuracy_score(y_train,etc.predict(x_train))
+                        prc_etc_t= precision_score(y_train,etc.predict(x_train),average='macro')
+                        rec_etc_t=recall_score(y_train,etc.predict(x_train),average='macro')
+                        f_etc_t=f1_score(y_train,etc.predict(x_train),average='macro')
+                        cm_etc_t=confusion_matrix(y_train,etc.predict(x_train))
+                        cr_etc_t=classification_report(y_train,etc.predict(x_train))
+                        accuracy_t.append(acc_etc_t*100)
+                        precision_t.append(prc_etc_t*100)
+                        recall_t.append(rec_etc_t*100)
+                        f1_t.append(f_etc_t*100)
+                        confusion_matrix_t.append(cm_etc_t)
+                        classification_report_t.append(cr_etc_t)
+                    elif i=='linear discriminant analysis':
+                        lda=LinearDiscriminantAnalysis()
+                        lda.fit(x_train,y_train)
+                        acc_lda_v= accuracy_score(y_test,lda.predict(x_test))
+                        prc_lda_v= precision_score(y_test,lda.predict(x_test),average='macro')
+                        rec_lda_v=recall_score(y_test,lda.predict(x_test),average='macro')
+                        f_lda_v=f1_score(y_test,lda.predict(x_test),average='macro')
+                        cm_lda_v=confusion_matrix(y_test,lda.predict(x_test))
+                        cr_lda_v=classification_report(y_test,lda.predict(x_test))
+                        accuracy_v.append(acc_lda_v*100)
+                        precision_v.append(prc_lda_v*100)
+                        recall_v.append(rec_lda_v*100)
+                        f1_v.append(f_lda_v*100)
+                        confusion_matrix_v.append(cm_lda_v)
+                        classification_report_v.append(cr_lda_v)
+                        acc_lda_t= accuracy_score(y_train,lda.predict(x_train))
+                        prc_lda_t= precision_score(y_train,lda.predict(x_train),average='macro')
+                        rec_lda_t=recall_score(y_train,lda.predict(x_train),average='macro')
+                        f_lda_t=f1_score(y_train,lda.predict(x_train),average='macro')
+                        cm_lda_t=confusion_matrix(y_train,lda.predict(x_train))
+                        cr_lda_t=classification_report(y_train,lda.predict(x_train))
+                        accuracy_t.append(acc_lda_t*100)
+                        precision_t.append(prc_lda_t*100)
+                        recall_t.append(rec_lda_t*100)
+                        f1_t.append(f_lda_t*100)
+                        confusion_matrix_t.append(cm_lda_t)
+                        classification_report_t.append(cr_lda_t)
+                    elif i=='quadratic discriminant analysis':
+                        qda=QuadraticDiscriminantAnalysis()
+                        qda.fit(x_train,y_train)
+                        acc_qda_v= accuracy_score(y_test,qda.predict(x_test))
+                        prc_qda_v= precision_score(y_test,qda.predict(x_test),average='macro')
+                        rec_qda_v=recall_score(y_test,qda.predict(x_test),average='macro')
+                        f_qda_v=f1_score(y_test,qda.predict(x_test),average='macro')
+                        cm_qda_v=confusion_matrix(y_test,qda.predict(x_test))
+                        cr_qda_v=classification_report(y_test,qda.predict(x_test))
+                        accuracy_v.append(acc_qda_v*100)
+                        precision_v.append(prc_qda_v*100)
+                        recall_v.append(rec_qda_v*100)
+                        f1_v.append(f_qda_v*100)
+                        confusion_matrix_v.append(cm_qda_v)
+                        classification_report_v.append(cr_qda_v)
+                        acc_qda_t= accuracy_score(y_train,qda.predict(x_train))
+                        prc_qda_t= precision_score(y_train,qda.predict(x_train),average='macro')
+                        rec_qda_t=recall_score(y_train,qda.predict(x_train),average='macro')
+                        f_qda_t=f1_score(y_train,qda.predict(x_train),average='macro')
+                        cm_qda_t=confusion_matrix(y_train,qda.predict(x_train))
+                        cr_qda_t=classification_report(y_train,qda.predict(x_train))
+                        accuracy_t.append(acc_qda_t*100)
+                        precision_t.append(prc_qda_t*100)
+                        recall_t.append(rec_qda_t*100)
+                        f1_t.append(f_qda_t*100)
+                        confusion_matrix_t.append(cm_qda_t)
+                        classification_report_t.append(cr_qda_t)
+                    elif i=='cat boost classifier':
+                        cbc=CatBoostClassifier()
+                        cbc.fit(x_train,y_train)
+                        acc_cbc_v= accuracy_score(y_test,cbc.predict(x_test))
+                        prc_cbc_v= precision_score(y_test,cbc.predict(x_test),average='macro')
+                        rec_cbc_v=recall_score(y_test,cbc.predict(x_test),average='macro')
+                        f_cbc_v=f1_score(y_test,cbc.predict(x_test),average='macro')
+                        cm_cbc_v=confusion_matrix(y_test,cbc.predict(x_test))
+                        cr_cbc_v=classification_report(y_test,cbc.predict(x_test))
+                        accuracy_v.append(acc_cbc_v*100)
+                        precision_v.append(prc_cbc_v*100)
+                        recall_v.append(rec_cbc_v*100)
+                        f1_v.append(f_cbc_v*100)
+                        confusion_matrix_v.append(cm_cbc_v)
+                        classification_report_v.append(cr_cbc_v)
+                        acc_cbc_t= accuracy_score(y_train,cbc.predict(x_train))
+                        prc_cbc_t= precision_score(y_train,cbc.predict(x_train),average='macro')
+                        rec_cbc_t=recall_score(y_train,cbc.predict(x_train),average='macro')
+                        f_cbc_t=f1_score(y_train,cbc.predict(x_train),average='macro')
+                        cm_cbc_t=confusion_matrix(y_train,cbc.predict(x_train))
+                        cr_cbc_t=classification_report(y_train,cbc.predict(x_train))
+                        accuracy_t.append(acc_cbc_t*100)
+                        precision_t.append(prc_cbc_t*100)
+                        recall_t.append(rec_cbc_t*100)
+                        f1_t.append(f_cbc_t*100)
+                        confusion_matrix_t.append(cm_cbc_t)
+                        classification_report_t.append(cr_cbc_t)
+                dat['training-accuracy']=accuracy_t
+                dat['training-precision']=precision_t
+                dat['training-recall']=recall_t
+                dat['training-f1']=f1_t
+                dat['training-confusion matrix']=confusion_matrix_t
+                dat['validation-accuracy']=accuracy_v
+                dat['validation-precision']=precision_v
+                dat['validation-recall']=recall_v
+                dat['validation-f1']=f1_v
+                dat['validation-confusion matrix']=confusion_matrix_v
+                dat['training-classification report']=classification_report_t
+                dat['validation-classification report']=classification_report_v
+                dat=dat.sort_values(by=['validation-accuracy'])
+                b=dat['validation-accuracy'].idxmax()
+                name=dat.loc[b][0]
+                if name=='svm-linear':
+                        return dat,sl
+                elif name=='svm-rbf':
+                        return dat,sr
+                elif name=='svm-poly':
+                        return dat,sp
+                elif name=='knn':
+                        return dat,k
+                elif name=='naive bayes':
+                        return dat,g
+                elif name=='decision tree':
+                        return dat,dt
+                elif name=='random forest':
+                        return dat,rf
+                elif name=='adaboost':
+                        return dat,ada
+                elif name=='gradient boost':
+                        return dat,gb
+                elif name=='xgboost':
+                        return dat,xgb
+                elif name=='logistic regression':
+                        return dat,lrc
+                elif name=='bagging classifier':
+                        return dat,bc
+                elif name=='extra trees classifier':
+                        return dat,etc
+                elif name=='linear discriminant analysis':
+                        return dat,lda
+                elif name=='quadratic discriminant analysis':
+                        return dat,qda
+                elif name=='cat boost classifier':
+                        return dat,cbc
+def sort_table_by_metric(dat,subset,metric):
+            out=dat.sort_values(by=[str(str(subset)+'-'+str(metric))])
+            return out
+def get_metric_plot_classification(dat,subset,metric):
+                plt.figure(figsize=(10,10))
+                return sns.barplot(data=dat,x=str(str(subset)+'-'+str(metric)),y='model')
+def get_confusion_matrix(dat,subset):
+                if subset=='training':
+                    for i,j in zip(dat['training-confusion matrix'],dat['model']):
+                        a=len(dat['training-confusion matrix'])
+                        plt.figure(figsize=(22,22))
+                        b=1
+                        plt.subplot(4,4,b)
+                        print(j)
+                        sns.heatmap(i,annot=True)
+                        b=b+1
+                else:
+                    for i,j in zip(dat['validation-confusion matrix'],dat['model']):
+                        a=len(dat['validation-confusion matrix'])
+                        plt.figure(figsize=(22,22))
+                        b=1
+                        plt.subplot(4,4,b)
+                        print(j)
+                        sns.heatmap(i,annot=True)
+                        b=b+1
+def get_classification_report(dat,subset):
+                if subset=='training':
+                    for i,j in zip(dat['training-classification report'],dat['model']):
+                        print(j)
+                        print(i)
+                elif subset=='validation':
+                    for i,j in zip(dat['validation-classification report'],dat['model']):
+                        print(j)
+                        print(i)
+def train_and_log_regression(x_train,x_test,y_train,y_test):
+                model=['linear regression','sgd regression','ridge regression','elastic net','decision tree regression','random forest regression','adaboost regression','gradient boost regression','xgboost regression','bagging regression','hist gradient boosting regression','extra trees regressor','cat boost regressor']
+                dat=pd.DataFrame(columns=['model','training-mae','training-mse','training-mape','training-r2','training-median absolute error','training-maximum error','validation-mae','validation-mse','validation-mape','validation-r2','validation-median absolute error','validation-maximum error'])
+                dat['model']=model
+                mean_absolute_t=[]
+                mean_squared_t=[]
+                mean_absolute_percentage_t=[]
+                r2_t=[]
+                median_absolute_t=[]
+                maximum_t=[]
+                mean_absolute_v=[]
+                mean_squared_v=[]
+                mean_absolute_percentage_v=[]
+                r2_v=[]
+                median_absolute_v=[]
+                maximum_v=[]
+                for i in model:
+                    if i=='linear regression':
+                        lr=LinearRegression()
+                        lr.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,lr.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,lr.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,lr.predict(x_train))
+                        r2_lr_t=r2_score(y_train,lr.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,lr.predict(x_train))
+                        me_lr_t=max_error(y_train,lr.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,lr.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,lr.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,lr.predict(x_test))
+                        r2_lr_v=r2_score(y_test,lr.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,lr.predict(x_test))
+                        me_lr_v=max_error(y_test,lr.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='sgd regression':
+                        sgd=SGDRegressor()
+                        sgd.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,sgd.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,sgd.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,sgd.predict(x_train))
+                        r2_lr_t=r2_score(y_train,sgd.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,sgd.predict(x_train))
+                        me_lr_t=max_error(y_train,sgd.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,sgd.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,sgd.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,sgd.predict(x_test))
+                        r2_lr_v=r2_score(y_test,sgd.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,sgd.predict(x_test))
+                        me_lr_v=max_error(y_test,sgd.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='ridge regression':
+                        rr=Ridge()
+                        rr.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,rr.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,rr.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,rr.predict(x_train))
+                        r2_lr_t=r2_score(y_train,rr.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,rr.predict(x_train))
+                        me_lr_t=max_error(y_train,rr.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,rr.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,rr.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,rr.predict(x_test))
+                        r2_lr_v=r2_score(y_test,rr.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,rr.predict(x_test))
+                        me_lr_v=max_error(y_test,rr.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='elastic net':
+                        en=ElasticNet()
+                        en.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,en.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,en.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,en.predict(x_train))
+                        r2_lr_t=r2_score(y_train,en.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,en.predict(x_train))
+                        me_lr_t=max_error(y_train,en.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,en.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,en.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,en.predict(x_test))
+                        r2_lr_v=r2_score(y_test,en.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,en.predict(x_test))
+                        me_lr_v=max_error(y_test,en.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='decision tree regression':
+                        dtr=DecisionTreeRegressor()
+                        dtr.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,dtr.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,dtr.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,dtr.predict(x_train))
+                        r2_lr_t=r2_score(y_train,dtr.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,dtr.predict(x_train))
+                        me_lr_t=max_error(y_train,dtr.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,dtr.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,dtr.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,dtr.predict(x_test))
+                        r2_lr_v=r2_score(y_test,dtr.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,dtr.predict(x_test))
+                        me_lr_v=max_error(y_test,dtr.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='random forest regression':
+                        rfr=RandomForestRegressor()
+                        rfr.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,rfr.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,rfr.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,rfr.predict(x_train))
+                        r2_lr_t=r2_score(y_train,rfr.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,rfr.predict(x_train))
+                        me_lr_t=max_error(y_train,rfr.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,rfr.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,rfr.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,rfr.predict(x_test))
+                        r2_lr_v=r2_score(y_test,rfr.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,rfr.predict(x_test))
+                        me_lr_v=max_error(y_test,rfr.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='adaboost regression':
+                        adar=AdaBoostRegressor()
+                        adar.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,adar.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,adar.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,adar.predict(x_train))
+                        r2_lr_t=r2_score(y_train,adar.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,adar.predict(x_train))
+                        me_lr_t=max_error(y_train,adar.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,adar.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,adar.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,adar.predict(x_test))
+                        r2_lr_v=r2_score(y_test,adar.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,adar.predict(x_test))
+                        me_lr_v=max_error(y_test,adar.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='gradient boost regression':
+                        gbr=GradientBoostingRegressor()
+                        gbr.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,gbr.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,gbr.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,gbr.predict(x_train))
+                        r2_lr_t=r2_score(y_train,gbr.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,gbr.predict(x_train))
+                        me_lr_t=max_error(y_train,gbr.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,gbr.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,gbr.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,gbr.predict(x_test))
+                        r2_lr_v=r2_score(y_test,gbr.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,gbr.predict(x_test))
+                        me_lr_v=max_error(y_test,gbr.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='xgboost regression':
+                        xgbr=XGBRegressor()
+                        xgbr.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,xgbr.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,xgbr.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,xgbr.predict(x_train))
+                        r2_lr_t=r2_score(y_train,xgbr.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,xgbr.predict(x_train))
+                        me_lr_t=max_error(y_train,xgbr.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,xgbr.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,xgbr.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,xgbr.predict(x_test))
+                        r2_lr_v=r2_score(y_test,xgbr.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,xgbr.predict(x_test))
+                        me_lr_v=max_error(y_test,xgbr.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='bagging regression':
+                        br=BaggingRegressor()
+                        br.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,br.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,br.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,br.predict(x_train))
+                        r2_lr_t=r2_score(y_train,br.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,br.predict(x_train))
+                        me_lr_t=max_error(y_train,br.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,br.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,br.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,br.predict(x_test))
+                        r2_lr_v=r2_score(y_test,br.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,br.predict(x_test))
+                        me_lr_v=max_error(y_test,br.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='hist gradient boosting regression':
+                        hgbr=HistGradientBoostingRegressor()
+                        hgbr.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,hgbr.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,hgbr.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,hgbr.predict(x_train))
+                        r2_lr_t=r2_score(y_train,hgbr.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,hgbr.predict(x_train))
+                        me_lr_t=max_error(y_train,hgbr.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,hgbr.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,hgbr.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(abs(y_test),abs(hgbr.predict(x_test)))
+                        r2_lr_v=r2_score(y_test,hgbr.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,hgbr.predict(x_test))
+                        me_lr_v=max_error(y_test,hgbr.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='extra trees regressor':
+                        etr=ExtraTreesRegressor()
+                        etr.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,etr.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,etr.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,etr.predict(x_train))
+                        r2_lr_t=r2_score(y_train,etr.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,etr.predict(x_train))
+                        me_lr_t=max_error(y_train,etr.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,etr.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,etr.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,etr.predict(x_test))
+                        r2_lr_v=r2_score(y_test,etr.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,etr.predict(x_test))
+                        me_lr_v=max_error(y_test,etr.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                    elif i=='cat boost regressor':
+                        cbr=CatBoostRegressor()
+                        cbr.fit(x_train,y_train)
+                        mae_lr_t=mean_absolute_error(y_train,cbr.predict(x_train))
+                        mse_lr_t=mean_squared_error(y_train,cbr.predict(x_train))
+                        mape_lr_t=mean_absolute_percentage_error(y_train,cbr.predict(x_train))
+                        r2_lr_t=r2_score(y_train,cbr.predict(x_train))
+                        median_ae_lr_t=median_absolute_error(y_train,cbr.predict(x_train))
+                        me_lr_t=max_error(y_train,cbr.predict(x_train))
+                        mean_absolute_t.append(mae_lr_t)
+                        mean_squared_t.append(mse_lr_t)
+                        mean_absolute_percentage_t.append(mape_lr_t)
+                        r2_t.append(r2_lr_t)
+                        median_absolute_t.append(median_ae_lr_t)
+                        maximum_t.append(me_lr_t)
+
+                        mae_lr_v=mean_absolute_error(y_test,cbr.predict(x_test))
+                        mse_lr_v=mean_squared_error(y_test,cbr.predict(x_test))
+                        mape_lr_v=mean_absolute_percentage_error(y_test,cbr.predict(x_test))
+                        r2_lr_v=r2_score(y_test,cbr.predict(x_test))
+                        median_ae_lr_v=median_absolute_error(y_test,cbr.predict(x_test))
+                        me_lr_v=max_error(y_test,cbr.predict(x_test))
+                        mean_absolute_v.append(mae_lr_v)
+                        mean_squared_v.append(mse_lr_v)
+                        mean_absolute_percentage_v.append(mape_lr_v)
+                        r2_v.append(r2_lr_v)
+                        median_absolute_v.append(median_ae_lr_v)
+                        maximum_v.append(me_lr_v)
+                dat['training-mae']=mean_absolute_t
+                dat['training-mse']=mean_squared_t
+                dat['training-mape']=mean_absolute_percentage_t
+                dat['training-r2']=r2_t
+                dat['training-median absolute error']=median_absolute_v
+                dat['training-maximum error']=maximum_v
+                dat['validation-mae']=mean_absolute_v
+                dat['validation-mse']=mean_squared_v
+                dat['validation-mape']=mean_absolute_percentage_v
+                dat['validation-r2']=r2_v
+                dat['validation-median absolute error']=median_absolute_v
+                dat['validation-maximum error']=maximum_v
+                b=dat['validation-mse'].idxmin()
+                name=dat.loc[b][0]
+                if name=='linear regression':
+                        return dat,lr
+                elif name=='sgd regression':
+                        return dat,sgd
+                elif name=='ridge regression':
+                        return dat,rr
+                elif name=='elastic net':
+                        return dat,en
+                elif name=='decision tree regression':
+                        return dat,dtr
+                elif name=='random forest regression':
+                        return dat,rfr
+                elif name=='adaboost regression':
+                        return dat,adar
+                elif name=='gradient boost regression':
+                        return dat,gbr
+                elif name=='xgboost regression':
+                        return dat,xgbr
+                elif name=='bagging regression':
+                        return dat,br
+                elif name=='hist gradient boosting regression':
+                        return dat,hgbr
+                elif name=='extra trees regressor':
+                        return dat,etr
+                elif name=='cat boost regressor':
+                        return dat,cbr
+def get_metric_plots_regression(dat,subset,metric):
+            plt.figure(figsize=(10,10))
+            return sns.barplot(data=dat,x=str(str(subset)+'-'+str(metric)),y='model')
