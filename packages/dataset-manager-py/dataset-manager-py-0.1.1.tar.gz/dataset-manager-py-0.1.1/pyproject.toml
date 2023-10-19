@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataset-manager-py"
+version = "0.1.1"
+description = "Python wrapper over the HuggingFace datasets library that makes it easier to load and convert datasets."
+readme = "README.md"
+authors = [
+  { name="Matthew Dutton", email="matthewdutton1983@hotmail.co.uk" },
+]
+license = { file = "LICENSE.txt" }
+classifiers = [
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+]
+dependencies = [
+    "datasets"
+]
