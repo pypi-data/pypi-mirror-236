@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hackle-sdk
+Version: 3.7.0
+Home-page: https://hackle.io
+Author: Hackle
+Author-email: developers@hackle.io
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: jsonschema==3.2.0
+Requires-Dist: mmh3==2.5.1
+Requires-Dist: requests[security]>=2.9.1
+
+# Hackle Python SDK
+
+[![tests](https://github.com/hackle-io/hackle-python-sdk/actions/workflows/test.yml/badge.svg)](https://github.com/hackle-io/hackle-python-sdk/actions/workflows/test.yml)
+[![PyPI - Version](https://img.shields.io/pypi/v/hackle-sdk)](https://pypi.org/project/hackle-sdk/)
