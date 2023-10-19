@@ -1,0 +1,3 @@
+[console_scripts]
+pydiffuser=pydiffuser._cli.cli:cli
+
