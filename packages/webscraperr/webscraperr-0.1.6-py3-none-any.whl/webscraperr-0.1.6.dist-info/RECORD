@@ -1,0 +1,10 @@
+webscraperr/__init__.py,sha256=LKx2qs0wKHJgBjzIX4DlYfSb3TapECzrrkM6d8mJdhQ,11245
+webscraperr/config.py,sha256=akk8xgSd4EX6fBu8CLZDFmSPum6nDbLg1Yuk9jtZhpQ,3971
+webscraperr/db.py,sha256=IBr54A6c0qGxug85zkb597M-vCBMeZJxO2ECuT5TJUo,6840
+webscraperr/driver.py,sha256=OXvqZ-IY1kxoLkmYKAGFP78_3IPlnPaio4cPDUEyWHk,455
+webscraperr/exceptions.py,sha256=IzIR5ijNLa3ZPKbNimX_xD_OawgkRKmhAUPrkpkm9Kw,599
+webscraperr/utils.py,sha256=uaIJ6GzC0jGz1_jjgBn_NCwdtPLOiWlLHJvoUs3kT14,357
+webscraperr-0.1.6.dist-info/METADATA,sha256=6V51yfIdsbOvfvqAxNjctFgXljxq6WvxN2NLp9uoJGM,3811
+webscraperr-0.1.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+webscraperr-0.1.6.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+webscraperr-0.1.6.dist-info/RECORD,,
