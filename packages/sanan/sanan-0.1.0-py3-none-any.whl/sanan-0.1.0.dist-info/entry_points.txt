@@ -1,0 +1,3 @@
+[console_scripts]
+sanan=sanan.hello:hello
+
