@@ -1,0 +1,14 @@
+hypertune/data/aarch64/libclib.dylib,sha256=_eCt1aFM2b5XjNC0PfXdlAjAF9lSKVY95cHclyywKLA,8040458
+hypertune/data/hypertune.h,sha256=sTto7tCNYVXpe-Dy_kRuJEScDSHPk-mDCMROWxXXcbo,1753
+hypertune/data/x86_64/clib.dll,sha256=91lxWsvlGtsMW94zxK3IcfU2iSXj3gTBAflq6Vg6f6w,19969865
+hypertune/data/x86_64/libclib.dylib,sha256=8t4pLqyfVIJUB2vJa-MbbK6OTOTxf5S-L2wrVgkG82Q,7930968
+hypertune/data/x86_64/libclib.so,sha256=_Zg7105VEpRymGCBo4baciQ1OqJ6Fqh8P3ATeHHUEnY,19187384
+hypertune/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hypertune/lib/clib.py,sha256=81DGA8uu0GZUWWvzj7dbHG7ravbYsyJtEa0W7XSdDyw,850
+hypertune/lib/node.py,sha256=yIzC0pzlTMZYZoMf7OCQOUJEsf1RG0ZbCbPpeG4X_XU,4343
+hypertune/lib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hypertune/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hypertune/sdk.py,sha256=TSKKcYHHt9hNPQekYF_fIQWglKReXvwoVNoVDku6xJQ,848
+hypertune_sdk-0.3.6.dist-info/METADATA,sha256=iBjeYGr8xMkrC9BLM8gv8RqAVNEqDDsnegg5CYOibTo,333
+hypertune_sdk-0.3.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+hypertune_sdk-0.3.6.dist-info/RECORD,,
