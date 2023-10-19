@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: CssSelectorBuilder
+Version: 0.1.0
+Summary: Package that helps you to build compley css selectors
+Author-Email: j.ernst <johannes@ernstcloud.de>
+License: MIT
+Requires-Python: >=3.10
+Provides-Extra: dev
+Requires-Dist: build>=1.0.3; extra == "dev"
+Requires-Dist: twine>=4.0.2; extra == "dev"
+Description-Content-Type: text/markdown
+
+# CssSelectorBuilder
