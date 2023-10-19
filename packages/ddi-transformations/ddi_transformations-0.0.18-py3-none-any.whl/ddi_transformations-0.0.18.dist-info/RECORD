@@ -1,0 +1,8 @@
+resources/transformations_macro.sql,sha256=Z41VHDEMSZDB8R7My1609_kiVjnxttDCmxYcpDn7Mx0,1903
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/render_transformation.py,sha256=QhdwKMVVxPF5ua_66wIVWnByqPDklYrekHpOz16GgyI,4755
+ddi_transformations-0.0.18.dist-info/LICENSE.txt,sha256=fy0We-42qAqLWsZUufHX7JguhkuVjJW73Qilwejx1ZU,1073
+ddi_transformations-0.0.18.dist-info/METADATA,sha256=RfFbg9Cimyx_1qGIKKPfFuutl3IvhwFYIm2GIIVUR44,367
+ddi_transformations-0.0.18.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ddi_transformations-0.0.18.dist-info/top_level.txt,sha256=rBhCdF93AlKFAx3syf046l6A9VDx67rEHMMGUiZI-Kc,18
+ddi_transformations-0.0.18.dist-info/RECORD,,
