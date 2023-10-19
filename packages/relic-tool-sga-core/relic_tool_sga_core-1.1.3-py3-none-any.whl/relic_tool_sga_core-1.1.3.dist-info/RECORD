@@ -1,0 +1,14 @@
+relic/sga/core/__init__.py,sha256=wp0CTws2gSJ2ghsPid1u11cziQkzWOJXudqZfCSe4AE,180
+relic/sga/core/cli.py,sha256=vTXE_nbg4vtP4ul9OAJl-71gaYJXOSlmCOzrgPkWtJs,3744
+relic/sga/core/definitions.py,sha256=4B_8a5j-JvA1XkRrup7YFvTC-Bx4eqKqtKRh0NGMwVw,4110
+relic/sga/core/errors.py,sha256=4p3-CoyQFQHFAx-F0nAN4twEW8yWJKi1tXP2DbQU1po,1773
+relic/sga/core/filesystem.py,sha256=APIgy7hYn1sc_Fna6kNFqQ0GsRUpinu-h-CSbrF3vMo,12245
+relic/sga/core/protocols.py,sha256=EQqRY6hdTTHfozWKl4RSvQp2i3Ndc7w4gEWstHksukY,913
+relic/sga/core/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+relic/sga/core/serialization.py,sha256=Ns390YEs8xtFA79ELmuzI3UyCvDvZ7WLCX7VdEjH2hs,33857
+relic_tool_sga_core-1.1.3.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+relic_tool_sga_core-1.1.3.dist-info/METADATA,sha256=lfksTjpNC_G3rxjTe7sOS8Ua9xrKmssgbjNj7kcJns8,2683
+relic_tool_sga_core-1.1.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+relic_tool_sga_core-1.1.3.dist-info/entry_points.txt,sha256=mF4SZu3wobn56BHWnrzH090yFAQdPvbpu32wY8Kwfqg,261
+relic_tool_sga_core-1.1.3.dist-info/top_level.txt,sha256=VF9jKoDOcGgiu100lchLi998l6Uo7jM-JvDDrVmhf4M,6
+relic_tool_sga_core-1.1.3.dist-info/RECORD,,
