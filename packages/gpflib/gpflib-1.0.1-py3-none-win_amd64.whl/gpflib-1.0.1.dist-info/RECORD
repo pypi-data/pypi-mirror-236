@@ -1,0 +1,16 @@
+gpf/__init__.py,sha256=E9NwEnUftpkvdxvTf5XBtW6a79N8UzKhHtmi3kPAArE,22
+gpf/__version__.py,sha256=RPjQ5Y0AiaPLfWvQ71qrhQNq1NbU9aCHLb9B242Whhg,63
+gpf/config.txt,sha256=-etAPxXwSp8Pr9NAbGJQe1sI6aGDx233Xy-GAJBWfzk,1112
+gpf/core.py,sha256=LU29MMT-MTOoGybH26Z1Hu82NWeyHT9DOS-GSPhdrSw,18431
+gpf/gpflib.dll,sha256=16wtB840JDTtg1sNQto02RxikmBvEooa41WbOKLS76U,1180672
+gpf/gpflib.py,sha256=RXSEOcPBbT_86PUvCyZsjrb8m1odiJrco1R2cKYKvYQ,18474
+gpflib/__init__.py,sha256=fj8VYjL8CHN4GMUDiF2dJp0weIbMjjARwsayLLasnuo,23
+gpflib/__version__.py,sha256=vFwJwOAlaWxvV6uVAAFIAzF9A7tLxyzlbOZC0pcXJNQ,66
+gpflib/config.txt,sha256=-etAPxXwSp8Pr9NAbGJQe1sI6aGDx233Xy-GAJBWfzk,1112
+gpflib/gpflib.dll,sha256=16wtB840JDTtg1sNQto02RxikmBvEooa41WbOKLS76U,1180672
+gpflib/gpflib.py,sha256=faTrFlkDffXTCLFCDg-IEQJzptNK8uvgqePvXdwFSCA,18473
+gpflib-1.0.1.dist-info/LICENSE,sha256=NqTlefKost5lRhF9Oa_pSjPpR9zbV8yBQVvEgNol5_o,1058
+gpflib-1.0.1.dist-info/METADATA,sha256=CPcNQoaelzlJsaXsv2Vr89h9HLYg9zKbGLYulL4hy6U,1022
+gpflib-1.0.1.dist-info/WHEEL,sha256=nNsUzh1WmP_SJ0w9BtmcWoJ5zFMuD9TAo5jnsi5d6sQ,98
+gpflib-1.0.1.dist-info/top_level.txt,sha256=zOOAF-uFl6qliW3I6k7SHYnyPX3wwm9n9vl5PYxcBT4,7
+gpflib-1.0.1.dist-info/RECORD,,
