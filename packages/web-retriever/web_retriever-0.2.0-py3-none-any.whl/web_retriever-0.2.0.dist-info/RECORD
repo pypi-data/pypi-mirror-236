@@ -1,0 +1,17 @@
+web_retriever/conf.py,sha256=6GSa7r3ZHa_686djRQ3g4UpajieuGUR39bzNKfol71Y,1526
+web_retriever/scripts.py,sha256=4TilEuTyzkLjf1sLoxHXkAZ5HCjkwLO_TNr3K5WiuUQ,184
+web_retriever/version.py,sha256=XQVhijSHeIVMVzY2S4fY9BKxV2XHSTr9VVHsYltGPvQ,18
+web_retriever/web_retriever/fetch.py,sha256=eDSbCReJvTwW5pIu_-6YShDwb-Q6-upI2QEaB1Su_xU,3865
+web_retriever/web_retriever/init.py,sha256=F7DuASryTIhXC8M0q6OhdxXmdhWalkx5LWVsNyLXjeY,2007
+web_retriever/web_retriever/ops.py,sha256=tCbimL67VJYc_5pkjkI_SNreKqtsLIUhYY8KCFhT9iQ,5524
+web_retriever/web_retriever/rss.py,sha256=kR3qV1DHLvYunpUna6NrWNRqfGZXBo7B0eUZ_s5Ni7A,2332
+web_retriever/web_retriever/throw.py,sha256=SPMJExnQK4XFm1iWlfQCTMBaEst-YdaZ0nDfPXN24-Y,1648
+web_retriever/web_retriever/web.py,sha256=OWzNq5yu8dC4DTGfPdBmpXtMW0Af_osn1j8pIjUXa9U,2391
+web_retriever/web_retriever/contracts/fetch.py,sha256=DguibtnK3keh3EnfR_GA34FjeFye80tUnAO910mEDj4,161
+web_retriever/web_retriever/contracts/throw.py,sha256=XeAtKmpTn96UZ9JKCFoDFEJ2a6nFYjL0Dxlz4nEkAxU,76
+web_retriever-0.2.0.dist-info/LICENSE,sha256=1Fv7cCWaEji7DYYVrwNj2Xh9DC8VjbRggbXSwbTwkrw,11345
+web_retriever-0.2.0.dist-info/METADATA,sha256=rGlRvi8nvR9HPPIzgpjOAN4vZ0W7wrHd4wzVIY3Yb7w,8153
+web_retriever-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+web_retriever-0.2.0.dist-info/entry_points.txt,sha256=FSN6kObz2KEu-nLlf-7AAhKdGDtqI6ka_EgDHurVU_w,62
+web_retriever-0.2.0.dist-info/top_level.txt,sha256=iyBj_WXgF-8YcTEO89GHJgX5t5ALULxcCwzO2M6tFp8,14
+web_retriever-0.2.0.dist-info/RECORD,,
