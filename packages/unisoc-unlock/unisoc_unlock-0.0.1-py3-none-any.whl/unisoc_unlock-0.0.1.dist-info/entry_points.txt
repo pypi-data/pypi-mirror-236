@@ -1,0 +1,2 @@
+[console_scripts]
+unisoc_unlock = unisoc_unlock.cli:main

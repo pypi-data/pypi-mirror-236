@@ -1,0 +1,12 @@
+unisoc_unlock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unisoc_unlock/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+unisoc_unlock/cli.py,sha256=SeF8lSAhK0OzBaKRsL0ZFfCwFfSSIFfFJBEiKCb2m3o,1923
+unisoc_unlock/rsa4096_vbmeta.pem,sha256=aiJHVIgKV6ucvTCCZ80VfZTPBaHIy4Ua7ECQ4EXSQSE,3243
+unisoc_unlock/bundled_adb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unisoc_unlock/bundled_adb/common.py,sha256=sndW3Uo2-jvIQUiAFQ4zBd7KfS7uEOz84FEcEXRArpc,12554
+unisoc_unlock/bundled_adb/fastboot.py,sha256=F9kq_zPE0TOQ9wV01Hf7-MtSTnvtDVngSXtaadorTrc,15506
+unisoc_unlock/bundled_adb/usb_exceptions.py,sha256=w5ctwFRMhm5KAqdrhIj962xnDo666p8YpSaTyWsRUKM,2402
+unisoc_unlock-0.0.1.dist-info/METADATA,sha256=VnnVwUMFfR8KLral_NVW8ojSLD_2Fg84Vp5zOvjdRY4,1616
+unisoc_unlock-0.0.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+unisoc_unlock-0.0.1.dist-info/entry_points.txt,sha256=gbj1JQJ9H4GRgnfH94rThkAoo8zplMyjW7JTroDgh5s,57
+unisoc_unlock-0.0.1.dist-info/RECORD,,
