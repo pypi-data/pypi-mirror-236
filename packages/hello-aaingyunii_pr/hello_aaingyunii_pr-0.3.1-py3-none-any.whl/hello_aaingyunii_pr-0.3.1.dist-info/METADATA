@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: hello-aaingyunii_pr
+Version: 0.3.1
+Summary: The Python program I'm distributing f
+Author-Email: aaingyunii <dlsrbs98@gmail.com>
+License: MIT
+Project-URL: Homepage, https://github.com/aaingyunii/hello-aaingyunii_pr
+Project-URL: Bug tracker, https://github.com/aaingyunii/hello-aaingyunii_pr/issues
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# hello-aaingyunii_pr `0.3.0`
+
+### INSTALL
+
+`$ pip install hello-aaingyunii_pr`
+
+
+### `pytest` 
+
+- who.py
+```python
+def my_name():
+    print("My name is aik")
+```
+
+- test_who.py
+```python
+from hello_aaingyunii_pr.who import my_name
+
+def test_my_name():
+    my_name()
+```
+
+### DEPLOY
+
+`$ pdm publish`
