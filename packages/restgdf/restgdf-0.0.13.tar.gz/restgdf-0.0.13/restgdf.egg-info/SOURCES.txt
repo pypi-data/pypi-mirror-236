@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+restgdf/__init__.py
+restgdf/_getgdf.py
+restgdf/_getinfo.py
+restgdf.egg-info/PKG-INFO
+restgdf.egg-info/SOURCES.txt
+restgdf.egg-info/dependency_links.txt
+restgdf.egg-info/requires.txt
+restgdf.egg-info/top_level.txt
+tests/test_Rest.py
+tests/test_getinfo.py
