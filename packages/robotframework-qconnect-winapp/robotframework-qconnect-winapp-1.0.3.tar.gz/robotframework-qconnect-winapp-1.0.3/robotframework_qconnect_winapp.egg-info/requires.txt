@@ -1,0 +1,4 @@
+robotframework
+QConnectBase
+Appium-Python-Client
+selenium
