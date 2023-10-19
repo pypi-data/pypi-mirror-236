@@ -1,0 +1,13 @@
+answer_rocket/__init__.py,sha256=_jnQbOYtsS0XQ14BouQK40ZYcwistKEkPmt02SYu0D0,92
+answer_rocket/auth.py,sha256=Bx3Hw66tlNxCq7h7ns6GbuAP6GTUUyNmm9h5ITLCprE,992
+answer_rocket/chat.py,sha256=kiPk1G6m9OHifoVfRcYRPOteLHhOATz-alTRW3qRZ8I,8289
+answer_rocket/client.py,sha256=np6aFGvP61VdCo-psBg8ZJ9fM6hz3hOszE7IdDsoiS4,1167
+answer_rocket/config.py,sha256=47rNdqPDuLe4wsIlcoTnVeKNdU096dw04Llzzp9JoDQ,3297
+answer_rocket/data.py,sha256=gznHoAEOK78xorrAqJdhwLCUkmz8iDyV6FzTcwh9gGw,3114
+answer_rocket/graphql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+answer_rocket/graphql/client.py,sha256=_DasMUFfRxKwzHF7b6IeKMQEir9WAha0mBpCD-oE9tM,718
+answer_rocket/graphql/schema.py,sha256=b8lzJGScIN9HVxWVAhBRmoRULPS30vXkzr3B-3hfcBw,7925
+answerrocket_client-0.1.2.dist-info/METADATA,sha256=8SR-DVlvGlWSXH6yfgMD4y1g4ySfWF8Egs641kKkb7s,2288
+answerrocket_client-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+answerrocket_client-0.1.2.dist-info/top_level.txt,sha256=9a3-XjJjG4EQ1HtNjDFsr-cFw5YWmAHtKb762AdoT-w,14
+answerrocket_client-0.1.2.dist-info/RECORD,,
