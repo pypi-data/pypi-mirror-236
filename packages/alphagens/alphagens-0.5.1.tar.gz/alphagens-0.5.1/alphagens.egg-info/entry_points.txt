@@ -1,0 +1,2 @@
+[console_scripts]
+texgen = alphagens.cli.texgen:main
