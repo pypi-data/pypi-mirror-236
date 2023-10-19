@@ -1,0 +1,10 @@
+README.md
+setup.py
+JyPyUI/Animation.py
+JyPyUI/JyPyUI.py
+JyPyUI/__init__.py
+JyPyUI.egg-info/PKG-INFO
+JyPyUI.egg-info/SOURCES.txt
+JyPyUI.egg-info/dependency_links.txt
+JyPyUI.egg-info/requires.txt
+JyPyUI.egg-info/top_level.txt
