@@ -1,0 +1,7 @@
+README.md
+setup.py
+TensionFlowFakhir.egg-info/PKG-INFO
+TensionFlowFakhir.egg-info/SOURCES.txt
+TensionFlowFakhir.egg-info/dependency_links.txt
+TensionFlowFakhir.egg-info/requires.txt
+TensionFlowFakhir.egg-info/top_level.txt
