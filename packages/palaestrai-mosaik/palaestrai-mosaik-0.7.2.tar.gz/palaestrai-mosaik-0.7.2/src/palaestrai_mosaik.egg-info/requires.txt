@@ -1,0 +1,14 @@
+mosaik==3.1.1
+mosaik-api==3.0.3
+palaestrai
+
+[dev]
+black==22.3.0
+build
+coverage
+setuptools
+sphinx
+twine
+
+[midas]
+midas-mosaik>=1.1.0
