@@ -1,0 +1,2 @@
+apache-airflow>=2.5.0.dev0
+opensearch-py>=2.2.0
