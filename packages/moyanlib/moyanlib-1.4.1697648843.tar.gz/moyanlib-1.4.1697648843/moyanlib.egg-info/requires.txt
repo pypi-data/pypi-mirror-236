@@ -1,0 +1,7 @@
+click
+jinja2
+openai
+psutil
+requests
+rsa
+tiktoken
