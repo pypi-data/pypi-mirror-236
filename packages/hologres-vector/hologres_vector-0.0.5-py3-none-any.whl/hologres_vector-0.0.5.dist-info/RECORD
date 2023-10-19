@@ -1,0 +1,8 @@
+hologres_vector/__about__.py,sha256=QkXEE4co5nsXNTVeiY3Uw4M6JBIHPYkACT28wbIT42g,145
+hologres_vector/__init__.py,sha256=BwhLQ8Vzby421M4O_xYXQYDc7iN8mWZ1MjTNOGwQdN4,183
+hologres_vector/hologres_vector.py,sha256=rrkjU6NWTMxt4YvqyDsL4gt_BShg3RhYpkIqE9aD4Ag,7127
+hologres_vector/hologres_wrapper.py,sha256=X9-tWcQ-8v9_tY3paqoo00gPmK0f2YX_gPLCxe4fSF8,7686
+hologres_vector-0.0.5.dist-info/METADATA,sha256=p0bQgJpJTgwTjfI-bjo8hnEU_fuXkMp6bvwB_viFh1A,5064
+hologres_vector-0.0.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+hologres_vector-0.0.5.dist-info/licenses/LICENSE.txt,sha256=QmIbPD_z_jS7MdySFQN_BWJrRepe8mHikLo_k7NHcJ0,1069
+hologres_vector-0.0.5.dist-info/RECORD,,
