@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: mad-whatsapp
+Version: 0.5
+Summary: Parses Whatsapp conversations
+Home-page: https://github.com/dobrescu/mad-whatsapp
+Author: Dan Dobrescu
+Author-email: d4n.dobrescu@gmail.com
+License: MIT License
+Keywords: parse whatsapp conversations
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MA-D 2023 - WhatsApp Conversation Parser
+Parses a whatsapp conversation export into an array of messages in the form of:
+
+```json
+{
+  "timestamp": "15/3/23 23:23",
+  "author": "Jane Doe",
+  "message": "Hello world!"
+}
+```
+
+## Build
+
+```bash
+python setup.py sdist bdist_wheel
+```
+
+## Publish
+
+```bash
+twine upload dist/*
+```

@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+mad_whatsapp/__init__.py
+mad_whatsapp/wap.py
+mad_whatsapp.egg-info/PKG-INFO
+mad_whatsapp.egg-info/SOURCES.txt
+mad_whatsapp.egg-info/dependency_links.txt
+mad_whatsapp.egg-info/top_level.txt
