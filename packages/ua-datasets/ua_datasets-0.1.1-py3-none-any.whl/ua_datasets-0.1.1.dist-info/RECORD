@@ -1,0 +1,13 @@
+ua_datasets/__init__.py,sha256=S4aB1qwXer4RsrJN31-x-8BYv5RS1OaxqaUd0hSmAkw,222
+ua_datasets/question_answering/__init__.py,sha256=BjNWT-BN7BCqEOugWskz0JAHDFNiQwlxyqoPXHOpUpU,85
+ua_datasets/question_answering/uasquad_question_answering.py,sha256=-Mcs90wFVVTaMA6SdmdUKxUIlGpCQ7tKHPI4CW6ZH3g,2499
+ua_datasets/question_answering/utils.py,sha256=OIRPv3sGDmW5cMBgDOodGvulSLdlG4EWg83Jl1knT8s,4842
+ua_datasets/text_classification/__init__.py,sha256=gp-JPyIRSFCGS2G2FsdMB-CU1vphkliUmMTz_FMmMko,90
+ua_datasets/text_classification/news_classification.py,sha256=52pJRoWRCkuUyR5KsXBojCd-UU05_PE07wP18oHR4BE,2812
+ua_datasets/token_classification/__init__.py,sha256=0ZlmfLoDi4fpfBD4SQgmyvbcMB_2H2m6MksAVMUEIfQ,84
+ua_datasets/token_classification/part_of_speech.py,sha256=RXUD6poHmodBs47arEi05FUIfhTK21ylAxmplUfj7ng,2178
+ua_datasets-0.1.1.dist-info/LICENSE,sha256=nOUj7h43xoLxyEHeIuUOkoxSaF_0EhGZKimi5TtJP9I,1175
+ua_datasets-0.1.1.dist-info/METADATA,sha256=GhUGKkJ47Ca9GeWif8nzhrLLKFKpPBJg_B2zF86RFz0,4313
+ua_datasets-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ua_datasets-0.1.1.dist-info/top_level.txt,sha256=vjKIPZnh1lMIQyOIwDNfDDu203-vXdF2dbXJ_Orm6os,12
+ua_datasets-0.1.1.dist-info/RECORD,,
