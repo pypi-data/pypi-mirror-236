@@ -1,0 +1,3 @@
+[console_scripts]
+sigan=sigan.src.commands.command:app
+
