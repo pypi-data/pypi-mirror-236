@@ -1,0 +1,18 @@
+[database]
+ports        = [8000, 8001, 8002]
+data         = [["delta", "phi"], [3.14]]
+temp_targets = { cpu = 79.5, case = 72.0 }
+enabled      = true
+
+[rfc6902_patched]
+ports            = [8001, 8002, 8003]                 # added 8003 at end, removed 8000
+data             = ["DeltaPhi", [3.14159, "radians"]] # assigned "DeltaPhi"; replaced 3.14; assigned "radians"
+temp_targets     = { case = 75.0 }                    # cpu moved away; replaced 72.0
+enabled          = true                               # tested and passed
+target_temp_cpu  = 80.0                               # moved from temp_targets, was replaced before move
+target_temp_case = 72.0                               # copied from temp_targets, was replaced after copy
+icon = "https://github.githubassets.com/images/icons/emoji/unicode/1f4be.png?v8"
+
+[shorthand_patched]
+# Identical to [patched]
+# ...

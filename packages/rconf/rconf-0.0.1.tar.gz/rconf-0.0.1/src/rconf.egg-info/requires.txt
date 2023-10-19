@@ -1,0 +1,10 @@
+
+[:python_version < "3.11"]
+tomli~=2.0
+typing-extensions>=4.0.0
+
+[:python_version < "3.8"]
+importlib-metadata>=1.4.0
+
+[sh]
+argcomplete>=2.0.0

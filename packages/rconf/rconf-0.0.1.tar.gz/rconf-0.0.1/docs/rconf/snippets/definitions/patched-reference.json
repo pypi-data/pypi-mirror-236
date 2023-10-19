@@ -1,0 +1,23 @@
+{
+    "content": [ { "a": 0 }, { "b": 1 } ],
+    "example": {
+        "url": "#/content/0"
+    },
+    "copied-example": {
+        "$ref": "#/example"
+    },
+    "patched-example": {
+        "$ref": "#/example",
+        "/url": "#/content/1"
+    },
+    "ref-ref-example": {
+        "$ref": { "$ref": "#/example/url" }
+    },
+    "ref-ref-copied-example": {
+        "$ref": { "$ref": "#/copied-example/url" }
+    },
+    "patched-ref-ref-example": {
+        "$ref": { "$ref": "#/example/url" },
+        "/$ref": "#/content/1"
+    }
+}

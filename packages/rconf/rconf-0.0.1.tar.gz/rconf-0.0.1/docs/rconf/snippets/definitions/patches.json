@@ -1,0 +1,40 @@
+{
+    "database": {
+        "ports": [ 8000, 8001, 8002 ],
+        "data": [ [ "delta", "phi" ], [ 3.14 ] ],
+        "temp_targets": { "cpu": 79.5, "case": 72.0 },
+        "enabled": true
+    },
+    "rfc6902_patched": {
+        "$ref": "#/database",
+        "$patch": [
+            { "op": "assign", "path": "/data/0", "value": "DeltaPhi" },
+            { "op": "replace", "path": "/data/1/0", "value": 3.14159 },
+            { "op": "assign", "path": "/data/1/-", "value": "radians" },
+            { "op": "add", "path": "/ports/-", "value": 8003 },
+            { "op": "remove", "path": "/ports/0" },
+            { "op": "replace", "path": "/temp_targets/cpu", "value": 80.0 },
+            { "op": "move", "path": "/target_temp_cpu", "from": "/temp_targets/cpu" },
+            { "op": "copy", "path": "/target_temp_case", "from": "/temp_targets/case" },
+            { "op": "test", "path": "/enabled", "value": true },
+            { "op": "replace", "path": "/temp_targets/case", "value": 75.0 },
+            { "op": "add", "path": "/icon", "value": { "$ref": "https://api.github.com/emojis#/floppy_disk" } }
+        ]
+    },
+    "shorthand_patched": {
+        "$ref": "#/database",
+        "/data.0": "DeltaPhi",
+        "$patch": [
+            [ "@", "/data/1/0", 3.14159 ],
+            [ "=", "/data/1/-", "radians" ],
+            [ "+", "/ports/-", 8003 ],
+            [ "-", "/ports/0" ],
+            [ "@", "/temp_targets/cpu", 80.0 ],
+            [ "<", "/target_temp_cpu", "/temp_targets/cpu" ],
+            [ "$", "/target_temp_case", "/temp_targets/case" ],
+            [ "?", "/enabled", true ],
+            { "op": "replace", "path": "/temp_targets/case", "value": 75.0 }
+        ],
+        "/icon": { "$ref": "https://api.github.com/emojis#/floppy_disk" }
+    }
+}

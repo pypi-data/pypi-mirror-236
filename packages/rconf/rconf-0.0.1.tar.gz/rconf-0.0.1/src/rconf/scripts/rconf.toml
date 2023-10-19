@@ -1,0 +1,35 @@
+# Options for `rconf dump`
+[dump]
+# base_url = 
+# media_type = "json"
+output_media_type = "json"
+
+# # How to load: rconf.build_loader arguments
+# [dump.loader]
+# fallback = "json"
+
+# # Uncomment to add INIHandler with TOMLPointer
+# [[dump.loader.handlers]]
+# class        = "rconf.decode.INIHandler"
+# media_types  = [["text/ini", ".ini"]]
+# pointer_type = "rconf.TOMLPointer"
+
+# # Uncomment to add PprHandler for ppr:// URLs, requires pip install ppr-handler
+# [[dump.loader.handlers]]
+# class = "ppr_handler.PprHandler"
+
+# # How to dump: stringify the rconf.Value
+# # Uncomment for TOML; requires pip install tomli-w
+# [dump.dumpers.toml]
+# callable = "tomli_w.dumps"
+
+# # Uncomment for JSON with options
+# [dump.dumpers.json]
+# callable       = "json.dumps"
+# skipkeys       = false
+# ensure_ascii   = true
+# check_circular = true
+# allow_nan      = true
+# indent         = 4
+# separators     = [",", ": "]
+# sort_keys      = false
