@@ -1,0 +1,9 @@
+o3r_docker_manager/__init__.py,sha256=bKRz8jR6YxNTHmwhAyGHM1BRY-oYuMIVq5WBqiFQnMQ,77
+o3r_docker_manager/o3r_docker_manager.py,sha256=jySpk94j_rCW7AfvpueqmmknRCCGUd5yG06xzXYRA68,36240
+o3r_docker_manager/oem_logging.py,sha256=2vkjO2MIEe72XH0dRoXS4zE87ySAf-yGMOdsyZLwvfw,4771
+o3r_docker_manager-0.0.1.dist-info/LICENSE,sha256=wG-5yuKtPKNQi1j4EqZ_xXxeT5q7QbsGt_Hw5HNSYaI,11527
+o3r_docker_manager-0.0.1.dist-info/METADATA,sha256=_KURk-B4jJEO1grPMZ6okbIn7-gBy0UKDSMDPXsMCAs,332
+o3r_docker_manager-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+o3r_docker_manager-0.0.1.dist-info/entry_points.txt,sha256=BQZWHqo8CIieQ-89gURRAkoFFBoLNE6sjY5srhAl9OI,84
+o3r_docker_manager-0.0.1.dist-info/top_level.txt,sha256=gVDr2LooYbOtMmuQeoI1vDDZJzgPVf9gE2HswS5_CN0,19
+o3r_docker_manager-0.0.1.dist-info/RECORD,,
