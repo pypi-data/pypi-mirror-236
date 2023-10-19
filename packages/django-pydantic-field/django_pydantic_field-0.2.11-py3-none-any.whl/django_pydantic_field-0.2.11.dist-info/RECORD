@@ -1,0 +1,12 @@
+django_pydantic_field/__init__.py,sha256=M1Xwt5OKpUdACnEEobBAdLBMMYDaitNK3s8ukockVWM,22
+django_pydantic_field/_migration_serializers.py,sha256=xuj1g0POXoodsBVBLktsBbaGOX1blloDYzzHzTr5lAk,4697
+django_pydantic_field/base.py,sha256=QMSNhEkEO7xaZgrk3o6bToF1QNbqXed5pm4H1r7yY6A,4808
+django_pydantic_field/fields.py,sha256=j_nne_tttie0ucB9Lz-z56K1QAdBd6kxs-As6mB9DcY,6520
+django_pydantic_field/forms.py,sha256=WBA9h6opzIJAwruCmLDkBS3YpeFmF7fYkGUCYHOpey4,2033
+django_pydantic_field/rest_framework.py,sha256=ezAXgvCW_UiFxkjj8WjShlZmbkx4YwAqoRvN2MwX7l4,9141
+django_pydantic_field/utils.py,sha256=HmmKgkyJPZ-va4VpmEPhfUGI0BcqY5VAmCZvg-rgjmo,1074
+django_pydantic_field-0.2.11.dist-info/LICENSE,sha256=DeQoWk66x6so0pqQctu9iyFR3dTDN6-WhO6Nr9oK6Vg,1071
+django_pydantic_field-0.2.11.dist-info/METADATA,sha256=ZnIp7T_LeTJMtRTS-UmL5SjiBZ2_xQkvLWZn5q3N8X8,9443
+django_pydantic_field-0.2.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_pydantic_field-0.2.11.dist-info/top_level.txt,sha256=0WFxeydLzhNtbW2qEkv5b_VgmOX4cn_1e9tsik7-CJY,22
+django_pydantic_field-0.2.11.dist-info/RECORD,,
