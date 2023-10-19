@@ -1,0 +1,2 @@
+olca-schema>=0.0.12
+requests>=2.28.1
