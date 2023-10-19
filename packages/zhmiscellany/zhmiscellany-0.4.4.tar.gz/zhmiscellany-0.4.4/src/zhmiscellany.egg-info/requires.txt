@@ -1,0 +1,3 @@
+pycryptodome>=0
+pywin32>=0
+Requests>=0
