@@ -1,0 +1,54 @@
+2023-09-14 03:24:19,990 - lean_server - INFO - Starting subprocess with commands: /data1/xinhuajian/leaven/elan/bin/lean --server -M 20480
+2023-09-14 03:24:19,990 - lean_server - INFO - send: {"file_name": "", "content": "import analysis.special_functions.log.basic\n\ntheorem aime_1983_p1\n  (x y z w : \u2115)\n  (ht : 1 < x \u2227 1 < y \u2227 1 < z)\n  (hw : 0 \u2264 w)\n  (h0 : real.log w / real.log x = 24)\n  (h1 : real.log w / real.log y = 40)\n  (h2 : real.log w / real.log (x * y * z) = 12):\n  real.log w / real.log z = 60 \n:= sorry ", "seq_num": 0, "command": "sync"}
+2023-09-14 03:24:20,191 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:20,393 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:20,597 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:20,803 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:21,007 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:21,208 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:21,439 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:21,651 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:21,853 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:22,053 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:22,254 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:22,457 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:22,661 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:22,865 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:23,068 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:23,273 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:23,480 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:23,685 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:23,895 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:24,110 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:24,313 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:24,524 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:24,746 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:24,962 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:25,207 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:25,419 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:25,631 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:25,848 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:25,932 - lean_server - INFO - receive: {"message":"file invalidated","response":"ok","seq_num":0}
+2023-09-14 03:24:26,051 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:26,328 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:26,551 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:26,767 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:26,983 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:27,189 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:27,400 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:27,615 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:27,822 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:28,029 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:28,256 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:28,457 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:28,662 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:28,882 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:29,090 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:29,290 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:29,523 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:29,724 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:29,927 - lean_server - INFO - receive: {"is_running":true,"response":"current_tasks","tasks":[{"desc":"parsing at line 1","end_pos_col":10,"end_pos_line":11,"file_name":"","pos_col":0,"pos_line":1}]}
+2023-09-14 03:24:30,069 - lean_server - INFO - receive: {"msgs":[{"caption":"","file_name":"","pos_col":0,"pos_line":3,"severity":"warning","text":"declaration 'aime_1983_p1' uses sorry"}],"response":"all_messages"}
+2023-09-14 03:24:30,140 - lean_server - INFO - receive: {"is_running":false,"response":"current_tasks","tasks":[]}
+2023-09-14 03:24:30,441 - lean_server - INFO - send: {"file_name": "", "line": 11, "column": 3, "seq_num": 1, "command": "info"}
+2023-09-14 03:24:30,462 - lean_server - INFO - receive: {"record":{"state":"x y z w : ℕ,\nht : 1 < x ∧ 1 < y ∧ 1 < z,\nhw : 0 ≤ w,\nh0 : real.log ↑w / real.log ↑x = 24,\nh1 : real.log ↑w / real.log ↑y = 40,\nh2 : real.log ↑w / real.log (↑x * ↑y * ↑z) = 12\n⊢ real.log ↑w / real.log ↑z = 60","widget":{"column":3,"id":17,"line":11}},"response":"ok","seq_num":1}
