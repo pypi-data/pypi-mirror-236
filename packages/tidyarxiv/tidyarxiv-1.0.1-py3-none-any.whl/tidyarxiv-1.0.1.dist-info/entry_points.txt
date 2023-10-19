@@ -1,0 +1,3 @@
+[console_scripts]
+tidyarxiv=tidyarxiv.tidyarxiv:main
+
