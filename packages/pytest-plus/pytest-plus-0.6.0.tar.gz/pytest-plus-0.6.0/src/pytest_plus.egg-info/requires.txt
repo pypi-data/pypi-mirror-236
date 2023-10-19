@@ -1,0 +1,5 @@
+pytest>=7.4.2
+
+[test]
+coverage>=7.0.0
+pytest-html
