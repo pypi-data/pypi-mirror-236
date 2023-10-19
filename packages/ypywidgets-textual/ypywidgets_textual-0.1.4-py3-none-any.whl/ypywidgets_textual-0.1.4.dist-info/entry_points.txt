@@ -1,0 +1,5 @@
+[ypywidgets]
+Plotext = ypywidgets_textual.plotext:Plotext
+Switch = ypywidgets_textual.switch:Switch
+txl_Plotext = ypywidgets_textual.txl.plotext:Plotext
+txl_Switch = ypywidgets_textual.txl.switch:Switch
