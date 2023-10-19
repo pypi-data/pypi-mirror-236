@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+MS_Graph_Wrapper.egg-info/PKG-INFO
+MS_Graph_Wrapper.egg-info/SOURCES.txt
+MS_Graph_Wrapper.egg-info/dependency_links.txt
+MS_Graph_Wrapper.egg-info/top_level.txt
