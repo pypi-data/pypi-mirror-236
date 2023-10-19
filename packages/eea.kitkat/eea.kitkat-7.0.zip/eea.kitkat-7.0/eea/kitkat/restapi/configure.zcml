@@ -1,0 +1,60 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    >
+
+  <plone:service
+      method="GET"
+      factory=".get.SystemGet"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
+      permission="plone.app.controlpanel.Overview"
+      name="@system"
+      />
+
+  <plone:service
+      method="PATCH"
+      factory=".update.SystemUpdate"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
+      permission="zope2.View"
+      name="@system"
+      />
+
+  <plone:service
+      method="POST"
+      factory=".post.CaptchaVerifyPost"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
+      permission="zope2.View"
+      name="@captchaverify"
+      />
+
+  <plone:service
+      method="POST"
+      factory=".post.CaptchaVerifyPost"
+      for="Products.CMFCore.interfaces.IContentish"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
+      permission="zope2.View"
+      name="@captchaverify"
+      />
+
+  <plone:service
+      method="GET"
+      factory=".get.CaptchaKeyGet"
+      for="Products.CMFPlone.interfaces.IPloneSiteRoot"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
+      permission="zope2.View"
+      name="@captchakey"
+      />
+
+  <plone:service
+      method="GET"
+      factory=".get.CaptchaKeyGet"
+      for="Products.CMFCore.interfaces.IContentish"
+      layer="eea.kitkat.interfaces.IEeaKitkatLayer"
+      permission="zope2.View"
+      name="@captchakey"
+      />
+
+</configure>
