@@ -1,0 +1,11 @@
+interpax/__init__.py,sha256=pvChYm_oXVxnpyVU_jiSa7vLE-NGqdV63_7KE01guxI,240
+interpax/_fourier.py,sha256=RGgaP99Y7U3xxC3sWBsQseDryfcu_ecFxgOxjYCOFPE,3078
+interpax/_spline.py,sha256=r6QFspd0nj7WZVGya6R_ug7e4jIHtrXxyA2-m-sbajw,45520
+interpax/_version.py,sha256=JhqVSK1mhKLeM-bzHPsA02fJF_nEdI0zgunBqz-Kubw,497
+interpax-0.1.0.data/data/*/requirements-dev.txt,sha256=c_OV0fok5l_3XQxEw0OMazJRV5530qN6MiC5sevIfqM,455
+interpax-0.1.0.data/data/*/requirements.txt,sha256=dE_eEXzlfSqXcaga3DdL9M81jjTE9rxgI900ADnAfcY,80
+interpax-0.1.0.dist-info/LICENSE,sha256=u8zG5rmka2aMfxf-_6XAJ6_XDH9MvBQWTcIbFRL60sc,1111
+interpax-0.1.0.dist-info/METADATA,sha256=zot11IgDlmqd9wsoKEcbKWFgpujlJySHqzoi_23XLwQ,3207
+interpax-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+interpax-0.1.0.dist-info/top_level.txt,sha256=BumBa1tjz7iT_T6O7axvgHvTHQos3YMxsKDWbYVKn-0,9
+interpax-0.1.0.dist-info/RECORD,,
