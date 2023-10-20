@@ -1,0 +1,9 @@
+Dockme/__init__.py,sha256=ZWy2-5lpnfJzKyXdiCyr-uBNs44VvhEslO86IHiGKTY,333
+Dockme/delet_container.py,sha256=rY1L47KnGyvbykR0vm6a1wQ8RpPn5Rn_-vcAh5aSTVQ,161
+Dockme/get_image.py,sha256=YMNTqPX9yoftwrF2wNTu1vM-U419Q2LbpmCKQFxxPOs,149
+Dockme/run_container.py,sha256=zLzWG4CJWfUiAnKy7T17BhvXprUrdAC6nN1hxZ9JHwg,357
+Dockme/stop_container.py,sha256=f1nv6T9KGbJYYM-GGDlz3rAR7KH1OUszyvunzYMvGlQ,162
+Dockme-0.0.8.dist-info/METADATA,sha256=ddZ1UHAtbSEmO53NbV2opEfc_RlF9tNalI4SQwDL4tw,509
+Dockme-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Dockme-0.0.8.dist-info/top_level.txt,sha256=Bdj11g0cfUJzFHmPQerxjONzDg7LTnxTDDM1EplvXJg,7
+Dockme-0.0.8.dist-info/RECORD,,
