@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: jf-ingest
+Version: 0.0.11
+Summary: library used for ingesting jira data
+Author-email: jellyfish-oss <oss@jellyfish.co>
+License: MIT
+Project-URL: Homepage, https://github.com/Jellyfish-AI/jf_ingest
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jira<2.1,>=2.0.0
+Requires-Dist: requests-mock==1.11.0
+Requires-Dist: pytz>=2023.3.post1
+Requires-Dist: psutil>=5.9.6
+
+# Jellyfish Ingest
