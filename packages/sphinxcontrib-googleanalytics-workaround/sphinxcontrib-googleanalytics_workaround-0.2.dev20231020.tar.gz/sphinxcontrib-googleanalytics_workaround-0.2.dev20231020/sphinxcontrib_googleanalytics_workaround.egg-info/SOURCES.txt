@@ -1,0 +1,13 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+sphinxcontrib/__init__.py
+sphinxcontrib/googleanalytics.py
+sphinxcontrib_googleanalytics_workaround.egg-info/PKG-INFO
+sphinxcontrib_googleanalytics_workaround.egg-info/SOURCES.txt
+sphinxcontrib_googleanalytics_workaround.egg-info/dependency_links.txt
+sphinxcontrib_googleanalytics_workaround.egg-info/namespace_packages.txt
+sphinxcontrib_googleanalytics_workaround.egg-info/not-zip-safe
+sphinxcontrib_googleanalytics_workaround.egg-info/requires.txt
+sphinxcontrib_googleanalytics_workaround.egg-info/top_level.txt
