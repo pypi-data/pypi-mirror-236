@@ -1,0 +1,4 @@
+[creart.creators]
+broadcast_behaviour = graia.saya.creator:BroadcastBehaviourCreator
+saya = graia.saya.creator:SayaCreator
+
