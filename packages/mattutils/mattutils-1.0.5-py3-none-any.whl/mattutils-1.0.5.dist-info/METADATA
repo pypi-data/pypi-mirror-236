@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mattutils
+Version: 1.0.5
+Summary: userful tools for data science projects
+Home-page: https://github.com/mattli/deeplearning
+Author: Mattli
+Author-email: matt.li76@icloud.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-box (==6.0.2)
+Requires-Dist: ensure (==1.0.2)
+Requires-Dist: pyYAML
+Requires-Dist: joblib
+
+## This package is very useful for implementing data science projects
+
+* you can use it for dealing with files operations
+* you can load yaml files
+* you can save json data to a file
+
+### Steps of uploading own packages to pypi:
+1. packages needed: setuptools,wheel,twine
+
+2. folder structure 
+
+3. python coding
+
+4. setup.py,README.md,LICENSE
+
+5. python setup.py sdist bdist_wheel
+
+6. prepare the .pypirc file 
+
+7. twine upload dist/*
+
+thanks for Krish Naik's perfect video, this package just for learning purposes.
