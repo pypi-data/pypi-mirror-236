@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+pycbr/__init__.py
+pycbr/aggregate.py
+pycbr/casebase.py
+pycbr/models.py
+pycbr/nlp.py
+pycbr/recovery.py
+pycbr/server.py
+pycbr.egg-info/PKG-INFO
+pycbr.egg-info/SOURCES.txt
+pycbr.egg-info/dependency_links.txt
+pycbr.egg-info/requires.txt
+pycbr.egg-info/top_level.txt
+tests/test_models.py
