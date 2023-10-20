@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: alfreds
+Version: 0.0.19
+Summary: Alfreds CLI
+Home-page: https://github.com/TBD
+Author: Data Facade
+Author-email: info@data-facade.com
+Classifier: Programming Language :: Python
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: wheel
+Requires-Dist: tqdm
+Requires-Dist: twine
+Requires-Dist: requests
+Requires-Dist: pyYAML
+
+# Alfreds CLI Tool
+Alfreds (www.alfreds.ai) is the LLM platform for data teams. It enables data teams to create LLM agents that can be used
+in different stages of data workflows.
+Alfreds command-line tool allows data teams to install alfreds platform on their local machines and perform various tasks.
+
+## Prerequisites
+
+1. Python 3.6 or higher
+2. Docker
+3. Linux or macOS
+
+## Installation
+
+To install alfreds, run the following command:
+
+```
+pip install alfreds
+```
+
+## Usage
+
+Alfreds can perform the following tasks:
+
+1. Initialize alfreds:
+   ```
+   alfreds init --agent_path {agent_absolute_path} --working_dir {working_dir_absolute_path} --seed_dir {seeds_absolute_path(optional)}
+   ```
+   This command initializes alfreds with the specified agent, working directory, and seeds (optional). 
+   <br>
+   Example:
+   ```
+    alfreds init --agent_path /Users/subu/alfreds/agent --working_dir /Users/subu/alfreds/working_dir --seed_dir /Users/subu/alfreds/seeds
+    ```
+2. Update the agent:
+   ```
+   alfreds update_agent {agent_absolute_path}
+   ```
+   This command updates the agent with the specified absolute path.
+   <br>
+   Example:
+    ```
+    alfreds update_agent /Users/subu/alfreds/agent
+    ```
+
+3. Update the working directory:
+   ```
+   alfreds update_working_dir {working_dir_absolute_path}
+   ```
+   This command updates the working directory with the specified absolute path.
+
+4. Seed the application:
+   ```
+   alfreds seed {seed dir/csv file absolute path}
+   ```
+   This command seeds the application with the specified seed directory or CSV file.
+
+5. Stop alfreds:
+   ```
+   alfreds stop
+   ```
+   This command stops the alfreds application.
+
+6. Start alfreds:
+   ```
+   alfreds start
+   ```
+   This command starts the alfreds application.
+
+7. Refresh alfreds:
+   ```
+   alfreds refresh
+   ```
+   This command refreshes the alfreds application.
+
+8. Alfreds Help:
+   ```
+   alfreds --help
+   ```
+   This command displays the help menu for alfreds.
+
+Please note that you need to provide the absolute paths for the agent, working directory, and seeds when using the respective commands.
+
+If you have any questions or need further assistance, please refer to the alfreds documentation or contact our support team.
