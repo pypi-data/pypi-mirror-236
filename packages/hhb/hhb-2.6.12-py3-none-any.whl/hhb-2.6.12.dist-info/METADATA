@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hhb
+Version: 2.6.12
+Summary: HHB: T-Head deployment tools for Deep Learning Systems
+Home-page: https://github.com/T-head-Semi/tvm
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: hhb-tvm
+Requires-Dist: onnxsim
+Requires-Dist: opencv-python
+Requires-Dist: ppq (==0.6.6)
+Requires-Dist: protobuf
+Requires-Dist: pyyaml
+Requires-Dist: scikit-build
+Requires-Dist: tflite
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
