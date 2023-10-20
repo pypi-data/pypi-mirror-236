@@ -1,0 +1,12 @@
+tutornudge/__about__.py,sha256=jubyqj6QYhNjgkb2kRPRabehs8luzm1jFPgQf92-olk,23
+tutornudge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutornudge/plugin.py,sha256=JdtmyIXe5bLkQmlE5ZuBHScEgr-ykK5oISD1DZ-N57g,1147
+tutornudge/patches/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutornudge/patches/k8s-jobs,sha256=jqq6GJoys_k1Zz9ZvgVWyDQs3iHk74bd7EtY_vCkPwc,1047
+tutornudge/templates/nudge/build/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutornudge/templates/nudge/tasks/.gitignore,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tutor_contrib_nudge-15.0.0.dist-info/METADATA,sha256=MTamN_oIDrSGoJ0dYK7ugfc__J6rjR8gGvkBFi7yMss,1700
+tutor_contrib_nudge-15.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tutor_contrib_nudge-15.0.0.dist-info/entry_points.txt,sha256=BJhGwg-61MUo2-7qCKku8gzUC-lDmkdfQpui2DYCipY,44
+tutor_contrib_nudge-15.0.0.dist-info/top_level.txt,sha256=IgTRQO1V3Cb7VsazziPC44NNTctvx2CWqKWns9Gb0iI,11
+tutor_contrib_nudge-15.0.0.dist-info/RECORD,,

@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: tutor-contrib-nudge
+Version: 15.0.0
+Summary: nudge plugin for Tutor
+Home-page: https://github.com/aulasneo/tutor-contrib-nudge
+Author: Aulasneo
+Author-email: andres@aulasneo.com
+License: AGPLv3
+Project-URL: Code, https://github.com/aulasneo/tutor-contrib-nudge
+Project-URL: Issue tracker, https://github.com/aulasneo/tutor-contrib-nudge/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Requires-Dist: tutor <16.0.0,>=15.0.0
+
+nudge plugin for `Tutor <https://docs.tutor.overhang.io>`_
+==========================================================
+
+Plugin to enable nudge and highlights emails.
+
+It creates a CronJob in K8s based on the openedx docker image that calls
+the `send_course_update` and `send_recurring_nudge` management commands
+
+Installation
+------------
+
+::
+
+    pip install git+https://github.com/aulasneo/tutor-contrib-nudge
+
+Configuration
+-------------
+
+- NUDGE_SCHEDULE: Set the schedule for the nudge emails. Default is "0 10 \* \* \*" (everyday at 10am).
+- NUDGE_SEND_COURSE_UPDATE: Enable course updates. Default is True.
+- NUDGE_SEND_RECURRING_NUDGE: Enable recurring nudges. Default is True.
+
+
+Usage
+-----
+
+::
+
+    tutor plugins enable nudge
+
+
+License
+-------
+
+This software is licensed under the terms of the AGPLv3.
