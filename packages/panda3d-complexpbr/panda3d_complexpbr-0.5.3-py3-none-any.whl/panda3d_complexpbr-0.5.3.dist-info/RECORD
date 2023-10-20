@@ -1,0 +1,14 @@
+complexpbr/__init__.py,sha256=wahddnfmifs4MTKUd4KsuwpaIKLqnKqx537JcWoLa1M,7207
+complexpbr/brdf_lut_calculator.py,sha256=qLbAzUcKNqenFgoNt4mOgqGGoOU6UWK0bvH_cem_G34,8542
+complexpbr/ibl_f.frag,sha256=ycZ6E9uvOyxJp5LDX-xvrPtxABsCz9wVRM53lJiSVpg,8000
+complexpbr/ibl_v.vert,sha256=SqPurJ7xvqBnGjeXLWbfah7VBN4e9tnp9Pp2vOoH4-w,4256
+complexpbr/min_f.frag,sha256=kbBSiQpJS4EeonYGBZKYd7CBocyUGxq1danEh-SKBpY,8634
+complexpbr/min_v.vert,sha256=sdDkgHxivox3VUyhGZTtExuT4L-ojEObjcTMF6_7SPE,966
+complexpbr/output_brdf_lut.png,sha256=kkwcJns5fEYimGJWUeZ3njdY41K-p-XR0E8t0A7n_t4,15263
+complexpbr/sample_output_brdf_lut.png,sha256=uy5iaggrcGRIEETATJrf9giwNnMuvSa2PTNGiYg0wxE,282909
+complexpbr/simplepbr_license.txt,sha256=5q33RL6I60Pnp510tsdS9mE72s0ReMD-XqO8qMAI2p8,1544
+panda3d_complexpbr-0.5.3.dist-info/LICENSE,sha256=hk5xqHLf8LHX_VhocKXTUKnsuhPkXJ24ELOx1j3zRKk,1548
+panda3d_complexpbr-0.5.3.dist-info/METADATA,sha256=-7xIIWuOyOtmxmJeGHbGwS4zVFqT3iucZxT3PRNIOxc,11196
+panda3d_complexpbr-0.5.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+panda3d_complexpbr-0.5.3.dist-info/top_level.txt,sha256=-wxYU3N7mxg5Ft5WmfGotdjVS8iMOEPbr3eXuW7ianY,11
+panda3d_complexpbr-0.5.3.dist-info/RECORD,,
