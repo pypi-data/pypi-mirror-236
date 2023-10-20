@@ -1,0 +1,23 @@
+packaging>=22.0
+pydantic<2,>=1.10.7
+
+[:python_version < "3.8"]
+cached-property
+
+[cli]
+click
+
+[dev]
+parver
+build
+invoke
+twine
+lxml
+pre-commit
+towncrier
+
+[tests]
+pytest
+pytest-cov
+pytest-timeout
+coverage<5
