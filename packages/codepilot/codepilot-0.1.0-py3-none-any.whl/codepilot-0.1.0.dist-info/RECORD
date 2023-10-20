@@ -1,0 +1,9 @@
+codepilot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codepilot/__main__.py,sha256=syB8bBlDpor_mugltndVfT1s6wIFINO1RV48cckJXhA,63
+codepilot/app.py,sha256=beAHORsSAqJz8-OVvTiyNxTYP9npJwOtcQhalowt16Q,84
+codepilot/server.py,sha256=oBqwU8-0iaFfpn28F-yjJJJTL_H1XuX4mffJrE7vxQA,319
+codepilot-0.1.0.dist-info/entry_points.txt,sha256=ZK4umeSivfcIHjmxoZrgRBim2sXPeNUZbhjgaI6ASBE,53
+codepilot-0.1.0.dist-info/LICENSE,sha256=_t0BQqxPOLR1C9ja1-sWbGmX1kOF2R-MHv1qsDY-TtM,1088
+codepilot-0.1.0.dist-info/METADATA,sha256=TevDtt9qB-QbGX8BAIUtUAT9q1f4jBm8QozOqvk1cE4,540
+codepilot-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+codepilot-0.1.0.dist-info/RECORD,,

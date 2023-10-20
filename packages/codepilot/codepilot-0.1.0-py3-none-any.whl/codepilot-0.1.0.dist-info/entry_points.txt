@@ -1,0 +1,3 @@
+[console_scripts]
+codepilot=codepilot.__main__:main
+
