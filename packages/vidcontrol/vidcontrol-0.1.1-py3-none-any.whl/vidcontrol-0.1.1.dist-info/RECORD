@@ -1,0 +1,16 @@
+vidcontrol/__init__.py,sha256=fCEPakVILbacABcbwz9KFN2vlfi7qBAKuczNBrUZ19Q,144
+vidcontrol/video_manager.py,sha256=pVrgwSUq2pJ9Aopx4UD1uNJAuv6CeECAzdzd4o5k4B4,3830
+vidcontrol/video_platform.py,sha256=c3O30-KYrvFwPpban75GJTBAGZ7Vz3hEsgQ-5vUmvJs,671
+vidcontrol/video_source.py,sha256=PgtOYBh-THJ0Bz9X2zc8A1D1tl6OaVUZuap8oRMSwJ0,4255
+vidcontrol/platforms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vidcontrol/platforms/base.py,sha256=UFWkPHKfzNKDTsiG-AxSnZ3tCdf9CSFXQBez2Hq3YZU,3322
+vidcontrol/platforms/linux.py,sha256=QXbGS_U-9HlDyWx4bzjpP0M3rW-lO0xr-F_P6xV5WNQ,477
+vidcontrol/platforms/mac.py,sha256=0k964NpTdWUBptb02U-URw5JkJfjJNmzLGBL32z3NlY,3460
+vidcontrol/platforms/win.py,sha256=RCG7JAZwyG2vbnFTMzCDzTepY5hPXJIlJo5pSFnaliE,1457
+vidcontrol/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vidcontrol/util/subprocess.py,sha256=rBvvqHfkGfof8BbJUye72b_CZuANCljmFQzcE5S2C58,454
+vidcontrol-0.1.1.dist-info/LICENSE.md,sha256=cnlB2PP5RwQtXlCxLiajoC5ONJ7pGuZL3S_kvmosIDg,1080
+vidcontrol-0.1.1.dist-info/METADATA,sha256=a3gBWOWLUPm7izH-4pQXjSqe14VM50eDYu6J3FyLbZM,7613
+vidcontrol-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vidcontrol-0.1.1.dist-info/top_level.txt,sha256=vcCeSG4jmNnI1UpLQNh1vPe_9DUBKlV8SV7qB86VXZA,11
+vidcontrol-0.1.1.dist-info/RECORD,,
