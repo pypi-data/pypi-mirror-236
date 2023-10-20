@@ -1,0 +1,11 @@
+LICENSE
+LICENSE copy
+MANIFEST.in
+README.md
+setup.py
+StreamIndicator/__init__.py
+StreamIndicator.egg-info/PKG-INFO
+StreamIndicator.egg-info/SOURCES.txt
+StreamIndicator.egg-info/dependency_links.txt
+StreamIndicator.egg-info/requires.txt
+StreamIndicator.egg-info/top_level.txt
