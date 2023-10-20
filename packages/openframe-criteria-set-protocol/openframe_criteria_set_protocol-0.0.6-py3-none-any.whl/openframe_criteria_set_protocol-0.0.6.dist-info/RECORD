@@ -1,0 +1,10 @@
+openframe_criteria_set_protocol/__init__.py,sha256=NLzCSCDuTg5ky7llyd7m1vTPFXYoHpO9R2Z_4pM1Rv8,17
+openframe_criteria_set_protocol/v1/__init__.py,sha256=WST17AcDV2EWvoz2YpRVhRr7VYglGf5tyXUh9HzWz2Q,23
+openframe_criteria_set_protocol/v1/criteria.py,sha256=O8WbKpYEAqvy5CkuQhyeMwTX6pN3tk0deXnXaK0fuKM,7003
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_v1.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openframe_criteria_set_protocol-0.0.6.dist-info/LICENSE,sha256=MLciW3ElNOYjaEyFDaIaaF4VGskosBck5y4JDNPgNCs,19134
+openframe_criteria_set_protocol-0.0.6.dist-info/METADATA,sha256=jPK45QtTZoYr6deNCK4NHaNnSkGXvyukHwSlviEZGAU,3849
+openframe_criteria_set_protocol-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+openframe_criteria_set_protocol-0.0.6.dist-info/top_level.txt,sha256=UDZoY_f148T9DUtLvvJynUuDXic7z4tYeABJwE8mYKE,38
+openframe_criteria_set_protocol-0.0.6.dist-info/RECORD,,
