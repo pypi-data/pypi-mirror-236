@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+swayipc/__init__.py
+swayipc/event.py
+swayipc/ipc.py
+swayipc/model.py
+swayipc.egg-info/PKG-INFO
+swayipc.egg-info/SOURCES.txt
+swayipc.egg-info/dependency_links.txt
+swayipc.egg-info/top_level.txt
