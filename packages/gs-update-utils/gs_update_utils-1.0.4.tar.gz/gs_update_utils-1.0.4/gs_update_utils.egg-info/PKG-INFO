@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: gs-update-utils
+Version: 1.0.4
+Summary: Utilities for working with Google Sheets: establishing a connection, reading data from a sheet, and uploading a DataFrame to Google Sheets with retry support.
+Author: xgzx
+Author-email: vadijimory@gmail.com
+Keywords: example python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div class="markdown prose w-full break-words dark:prose-invert dark">
+
+<p><strong>English:</strong></p>
+
+<h1>Google Sheets Utils Module</h1>
+<p>The module provides convenient utilities for working with Google Sheets. Features include establishing a connection to the Google Sheets API, reading data from a sheet, and uploading a DataFrame to Google Sheets with retry support.</p><h2>Installation</h2><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">pip install gs-update-utils
+</code></div></div></pre><h2>Usage</h2><h3>Establishing a Connection</h3><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>python</span><button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">from</span> gs-update-utils <span class="hljs-keyword">import</span> setup_google_sheets
+
+credentials_folder = <span class="hljs-string">"path/to/credentials"</span>
+credentials_file = <span class="hljs-string">"credentials.json"</span>
+google_credentials = setup_google_sheets(credentials_folder, credentials_file)
+</code></div></div></pre>
+
+<h3>Reading Data from a Sheet</h3><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>python</span><button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">from</span> gs-update-utils <span class="hljs-keyword">import</span> read_gs_table
+
+worksheet_id = <span class="hljs-string">"your_worksheet_id"</span>
+worksheet_name = <span class="hljs-string">"your_worksheet_name"</span>
+dataframe = read_gs_table(worksheet_id, worksheet_name, google_credentials)
+</code></div></div></pre><h3>Uploading DataFrame to Google Sheets</h3><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>python</span><button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">from</span> gs-update-utils <span class="hljs-keyword">import</span> upload_table_to_google_sheet
+
+worksheet_id = <span class="hljs-string">"your_worksheet_id"</span>
+worksheet_name = <span class="hljs-string">"your_worksheet_name"</span>
+upload_table_to_google_sheet(dataframe, worksheet_id, worksheet_name, google_credentials)
+</code></div></div></pre></div>
+
+<p><strong>Русский:</strong></p>
+
+<h1>Модуль Google Sheets Utils</h1>
+
+<p>Модуль предоставляет удобные утилиты для работы с Google Sheets. Возможности включают установку соединения с API Google Sheets, чтение данных из листа и загрузку DataFrame в Google Sheets с поддержкой повторных попыток.</p><h2>Установка</h2><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>bash</span><button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-bash">pip install gs-update-utils
+</code></div></pre><h2>Использование</h2><h3>Установка соединения</h3><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>python</span><button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">from</span> gs-update-utils <span class="hljs-keyword">import</span> setup_google_sheets
+
+credentials_folder = <span class="hljs-string">"path/to/credentials"</span>
+credentials_file = <span class="hljs-string">"credentials.json"</span>
+google_credentials = setup_google_sheets(credentials_folder, credentials_file)
+</code></div></div></pre><h3>Чтение данных из листа</h3><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>python</span><button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">from</span> gs-update-utils <span class="hljs-keyword">import</span> read_gs_table
+
+worksheet_id = <span class="hljs-string">"your_worksheet_id"</span>
+worksheet_name = <span class="hljs-string">"your_worksheet_name"</span>
+dataframe = read_gs_table(worksheet_id, worksheet_name, google_credentials)
+</code></div></div></pre><h3>Загрузка DataFrame в Google Sheets</h3><pre><div class="bg-black rounded-md mb-4"><div class="flex items-center relative text-gray-200 bg-gray-800 gizmo:dark:bg-token-surface-primary px-4 py-2 text-xs font-sans justify-between rounded-t-md"><span>python</span><button class="flex ml-auto gizmo:ml-0 gap-2 items-center"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="icon-sm" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-python"><span class="hljs-keyword">from</span> gs-update-utils <span class="hljs-keyword">import</span> upload_table_to_google_sheet
+
+worksheet_id = <span class="hljs-string">"your_worksheet_id"</span>
+worksheet_name = <span class="hljs-string">"your_worksheet_name"</span>
+upload_table_to_google_sheet(dataframe, worksheet_id, worksheet_name, google_credentials)
+</code></div></div></pre>
+
