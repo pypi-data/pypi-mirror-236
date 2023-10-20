@@ -1,0 +1,11 @@
+fringes/__init__.py,sha256=F_mNbuIEGCWUWAL2lzU_o08DvCD3G7NvT7jqtZyvR1o,803
+fringes/decoder.py,sha256=Xdt30AEeQXKiUrGwg_GHq2MYPye_kF1UN6nabqv9cws,14285
+fringes/decoder2.py,sha256=ampMSrge88p86sWnUENvoF9MQhnPr9_pkhy0wQuq7v8,13241
+fringes/fringes.py,sha256=dnm7cQAfw3wesWjKeklFHwJlwRK1Ysbv0ZsMe8bPbqE,147239
+fringes/grid.py,sha256=tv0R4eADCSqvsZHd6qSufrtpEE_7lMvNmKiaTM4G41k,1435
+fringes/readme.txt,sha256=cP-4r4P11at8RFfl5G4PBKPsKzYMm5fyNc9zvPn4vhs,120
+fringes/util.py,sha256=_P4hPgfSURb8R80iPJwojGKh4WwxzYeeqeJLEGLeAw0,13474
+fringes-0.3.1.dist-info/LICENSE.txt,sha256=f31gAGveKAadeDhLwyYVewa1cvt1CbdvrpcoDWjb6ik,21278
+fringes-0.3.1.dist-info/METADATA,sha256=bxMZSgp-eTR5L9DHHdcD3BxMORXoT4OFo5Q80L_tl0o,5008
+fringes-0.3.1.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+fringes-0.3.1.dist-info/RECORD,,
