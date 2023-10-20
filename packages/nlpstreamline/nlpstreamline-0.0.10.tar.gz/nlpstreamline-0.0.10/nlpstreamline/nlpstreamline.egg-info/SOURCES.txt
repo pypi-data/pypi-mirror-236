@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+nlpstreamline/nlpstreamline.egg-info/PKG-INFO
+nlpstreamline/nlpstreamline.egg-info/SOURCES.txt
+nlpstreamline/nlpstreamline.egg-info/dependency_links.txt
+nlpstreamline/nlpstreamline.egg-info/requires.txt
+nlpstreamline/nlpstreamline.egg-info/top_level.txt
+nlpstreamline/src/__init__.py
+nlpstreamline/src/nlpstreamline.py
