@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: acsefunctions
+Version: 0.5
+Summary: Computes acsefunctions
+Home-page: https://github.com/acse-mk1923/acsefunctions
+Author: Manawi Kahie
+Author-email: mk1923@ic.ac.uk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
