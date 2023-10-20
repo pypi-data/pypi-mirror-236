@@ -1,0 +1,6 @@
+crispr_be_sensor/__init__.py,sha256=VGoiwijdehGwjooGGxe9G2qVV5nCksWgSr4ww6J_z4I,195
+crispr_be_sensor/_demultiplex.py,sha256=fHsVjAbD8WRIErr_QAjPS0blR942Gi3nK_oqSg8YIcU,16361
+crispr_be_sensor/_visualization.py,sha256=9wfhAlaLgiA8nmrnP4gl9IIHtRFU_v7FWpuIL2OTKuY,1253
+crispr_be_sensor-0.1.4.dist-info/METADATA,sha256=MWCti3unAsmuTdENG-VQA0hgJMNHwa_edxvJ5ZjI8qI,734
+crispr_be_sensor-0.1.4.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+crispr_be_sensor-0.1.4.dist-info/RECORD,,
