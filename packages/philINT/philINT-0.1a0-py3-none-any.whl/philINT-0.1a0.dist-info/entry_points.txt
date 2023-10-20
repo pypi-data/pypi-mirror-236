@@ -1,0 +1,2 @@
+[console_scripts]
+philINT = philINT.main:main
