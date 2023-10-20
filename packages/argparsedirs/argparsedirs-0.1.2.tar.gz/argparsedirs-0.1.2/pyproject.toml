@@ -1,0 +1,19 @@
+[project]
+name = "argparsedirs"
+version = "0.1.2"
+authors = [
+    { name = "Martin Baláž", email = "martin.balaz@trojsten.sk" }
+]
+description = "Readable and Writeable dir action for argparse"
+readme = "README.md"
+dependencies = [
+    "argparse>=1.0.0",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sesquideus/argparsedirs"

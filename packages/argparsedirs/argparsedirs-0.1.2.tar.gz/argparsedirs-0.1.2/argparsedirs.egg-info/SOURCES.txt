@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+argparsedirs/__init__.py
+argparsedirs/argparsedirs.py
+argparsedirs.egg-info/PKG-INFO
+argparsedirs.egg-info/SOURCES.txt
+argparsedirs.egg-info/dependency_links.txt
+argparsedirs.egg-info/requires.txt
+argparsedirs.egg-info/top_level.txt
+tests/tests.py
