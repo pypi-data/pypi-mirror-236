@@ -1,0 +1,9 @@
+include LICENSE
+include README.md
+include py.typed
+include pyproject.toml
+include requirements*.txt
+include setup.*
+prune docs
+prune tests
+recursive-include imxdparser *py
