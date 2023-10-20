@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: acit4040-config-helper
+Version: 0.1.0
+Summary: 
+Author: Afterstone
+Author-email: invisiblex@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: google-cloud-secret-manager (>=2.16.4,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Acit4040 Config Helper
+
+Just a simple script to make it easier to configure code for ACIT4040.
