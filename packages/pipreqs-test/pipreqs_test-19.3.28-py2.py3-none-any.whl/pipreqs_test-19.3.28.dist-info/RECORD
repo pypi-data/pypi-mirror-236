@@ -1,0 +1,11 @@
+pipreqs/__init__.py,sha256=GTbE2PyU98Fui_0kBskQaoG4r35NynVS0LxN4s1mKug,95
+pipreqs/mapping,sha256=xGYf5bDcdsVw9OJSKiw-qvMEFqcyYo8LcrdY7xhfJrw,26859
+pipreqs/pipreqs.py,sha256=79fhPqIxUjPaI6ASp7BJkT2nClcRgeFQsqBO5MmoIHM,18674
+pipreqs/stdlib,sha256=0CrcDyJ5zZbNiH3fYVjWYbdcQgEXIkFnIhJQdgBlPL4,36599
+pipreqs_test-19.3.28.dist-info/AUTHORS.rst,sha256=wWxq8QPWHVzSeMdZyzQHQPu648NUK06r0QALA_eibU4,205
+pipreqs_test-19.3.28.dist-info/LICENSE,sha256=xllut76FgcGL5zbIRvuRc7aezPbvlMUTWJPsVr2Sugg,11358
+pipreqs_test-19.3.28.dist-info/METADATA,sha256=lDeDrMtAyo2MVc4S7DdQMnVPxwMUr9Q4h0IJR9iq0q0,7425
+pipreqs_test-19.3.28.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+pipreqs_test-19.3.28.dist-info/entry_points.txt,sha256=BPUWnrGlcOXQtjrjq89gY7SmwzCQopAu-5QH9D9HR54,49
+pipreqs_test-19.3.28.dist-info/top_level.txt,sha256=TKSK8EtP0u8u_-PPOTHEhEBImjPDvOpZts1mHljACJc,8
+pipreqs_test-19.3.28.dist-info/RECORD,,
