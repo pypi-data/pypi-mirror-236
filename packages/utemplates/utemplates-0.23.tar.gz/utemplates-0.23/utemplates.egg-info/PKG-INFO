@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: utemplates
+Version: 0.23
+Summary: A Python Templating Framework to allow templating logic to be programmed in python.
+Home-page: https://github.com/YidiDev/UTemplates
+Author: Yidi Sprei
+Author-email: yididev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
