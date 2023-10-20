@@ -1,0 +1,12 @@
+apix-0.0.0.dev1.dist-info/METADATA,sha256=OaRSYBJ6C8sJqT04yLPbyFZvN-ucSowD8RtUiVFHXAw,324
+apix-0.0.0.dev1.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+apix-0.0.0.dev1.dist-info/entry_points.txt,sha256=-OKCThhHoNoUfMkrckM5gqvWMVO2Yd5KhZF9gOu0dk0,40
+apix/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apix/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+apix/_version.py,sha256=6zSTtwy0Iq4HoQSliYv-tT2Gmua9gpymRVfYItoOLDs,127
+apix/cli.py,sha256=i5HezJBNA5hOQ1QV6o2LEiZhHTbUxerOX1ze242i0Ho,277
+apix/proto.py,sha256=IkUCH2AuOFqScOdgV58bXDyiaKXoJbsW6439Y-WjyGE,356
+apix/serializer/__init__.py,sha256=c-YuMG3SGZhx6VKbz16Sn2eW_p6GoMU-6_n7BuKhC1Q,159
+apix/serializer/base.py,sha256=d2ewoaB2r2azOl3FIHP-3oeqbHRKwOtXKFhiC8pEHXk,308
+apix/serializer/msgspec_.py,sha256=7AlfTHTEHLfNOugJUoYg3sGuiD4tn72EAH2u8fW_QqI,394
+apix-0.0.0.dev1.dist-info/RECORD,,
