@@ -1,0 +1,14 @@
+klingon_serial/__init__.py,sha256=pPxTrygHvyBKmKBms32MAsKtH5Ggyy6ZUXzdKABeKEY,93
+klingon_serial/generate_serial.py,sha256=GZc8wMM_cT6zCFwQXmU5y4rRnSycpFsShXUtPXAFVY4,2101
+klingon_serial/strtobool.py,sha256=yNU1dRIk4pzAxnu5L_CBsAW-0bhgTxwO1YIbXjAT3NA,680
+klingon_serial/utils.py,sha256=nqZMARgSsMc42aZ5FzxwJVuKeW3ik_ScXStPHpZU9cg,1219
+tests/__init__.py,sha256=FKbP8An_qBMcYo2PI7lReo8tbNc0IM13eJ23hn-mg7c,24
+tests/test_klingon_get_serial.py,sha256=kk59Cj3-S09sRPHBWrRebxp_wR2HtE1mZVXcwwpSLJQ,1198
+tests/test_klingon_strtobool.py,sha256=Y3grRjRT2fMuJwavq1VPLnCZi-Lb2xprizJvYs3LPxc,953
+tests/test_klingon_utils.py,sha256=K2550l5fVDrfJYNivhKdymkRykEM5E88LYCDRed2xg0,1913
+klingon_serial-0.0.6.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+klingon_serial-0.0.6.dist-info/METADATA,sha256=IBzh9_ECjaSdBRiM1Ia4zz2WQVxlRtOvGm27uP1hpSs,2236
+klingon_serial-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+klingon_serial-0.0.6.dist-info/entry_points.txt,sha256=ou53g6dD-9gdJqCWMro_BS952LR0oJY_mk0uZij27PU,55
+klingon_serial-0.0.6.dist-info/top_level.txt,sha256=Bc_S-UNs4qaMVPLE5YGdahlFuI5DvZaAFK_lZ2zgd1Q,21
+klingon_serial-0.0.6.dist-info/RECORD,,
