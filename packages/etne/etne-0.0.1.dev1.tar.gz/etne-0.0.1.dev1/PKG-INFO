@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: etne
+Version: 0.0.1.dev1
+Summary: A placeholder for etne project
+Author: Xiaoyu Zhai
+Author-email: xiaoyu.zhai@hotmail.com
+Requires-Python: >=3.7
+License-File: LICENSE
