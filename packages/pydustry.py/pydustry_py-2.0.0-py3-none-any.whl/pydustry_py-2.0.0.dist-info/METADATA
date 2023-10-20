@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pydustry.py
+Version: 2.0.0
+Summary: Module for server information in the game Mindustry.
+License: MIT
+Keywords: midnustry,game,server,parser,infomation
+Author: Romanin
+Author-email: semina054@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# Installation
+```cmd
+pip install -U pydustry.py
+```
+
+# Example
+- `main.py`
+```python
+import pydustry
+
+status = pydustry.Server("easyplay.su").get_status()
+
+print(status)
+```
+
+- `Return`
+```python
+Status(name='[#3bffff][*] []EasyPlay Gaming + [#3dffcb]Rating-System', map='EasyPlay.HUB', players=56, wave=1, version=126, vertype='official', ping=35)
+```
+
