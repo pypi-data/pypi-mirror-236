@@ -1,0 +1,2 @@
+anynet~=1.0
+pycryptodome
