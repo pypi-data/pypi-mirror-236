@@ -1,0 +1,8 @@
+iso-639
+pycountry
+httpx
+selenium
+gpxpy
+folium
+asyncio
+pandas
