@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: simplifiedbert
+Version: 0.0.3
+Summary: SimplifiedBert is a Python package that simplifies the training and evaluation process for BERT models.
+Home-page: https://github.com/lais-huol/SimplifiedBERT
+Download-URL: https://github.com/lais-huol/SimplifiedBERT/releases/tag/0.0.3
+Author: Raphael Silva Fontes
+Author-email: raphael.fontes@lais.huol.ufrn.br
+License: Apache-2.0
+Keywords: BERT,Simplify,NLP,Evaluation,Train
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: transformers[torch]
+Requires-Dist: accelerate
+
+# SimplifiedBERT
+
+SimplifiedBert is a Python package that simplifies the training and evaluation process for BERT models.
