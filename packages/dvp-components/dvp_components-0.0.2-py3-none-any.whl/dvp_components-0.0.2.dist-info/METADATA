@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dvp-components
+Version: 0.0.2
+Summary: Customized Dash Components fwith Antd Design
+Author: Anya Ip <anyakurapica@gmail.com>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE
+

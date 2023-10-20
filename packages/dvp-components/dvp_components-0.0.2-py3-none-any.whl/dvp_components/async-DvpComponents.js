@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkdvp_components=self.webpackChunkdvp_components||[]).push([[608],{280:(e,n,t)=>{t.r(n),t.d(n,{default:()=>p});var r=t(9196),a=t.n(r),s=t(9064),u=t.n(s),l=function(e){var n=e.id,t=e.label,r=e.setProps,s=e.value;return a().createElement("div",{id:n},"ExampleComponent: ",t," ",a().createElement("input",{value:s,onChange:function(e){return r({value:e.target.value})}}))};l.defaultProps={},l.propTypes={id:u().string,label:u().string.isRequired,value:u().string,setProps:u().func};const p=l}}]);
+//# sourceMappingURL=async-DvpComponents.js.map
