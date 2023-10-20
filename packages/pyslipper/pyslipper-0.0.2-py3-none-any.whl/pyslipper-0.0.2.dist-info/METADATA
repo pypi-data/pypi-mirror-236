@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: pyslipper
+Version: 0.0.2
+Summary: Fit your data with P-Splines!
+Author-email: Patricio M Russel <patricio_email_here@gmail.com>, Avi Vajpeyi <avi.vajpeyi@gmail.com>, "Nazeela A." <nazeela_email_here@gmail.com>
+Project-URL: Homepage, https://github.com/avivajpeyi/pyslipper
+Project-URL: Bug Reports, https://github.com/avivajpeyi/pyslipper/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, http://saythanks.io/to/example
+Project-URL: Source, https://github.com/avivajpeyi/pyslipper/
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: arviz
+Requires-Dist: spectral
+Requires-Dist: scikit-fda
+Requires-Dist: matplotlib
+Requires-Dist: imageio
+Requires-Dist: pygifsicle
+Requires-Dist: bilby
+Requires-Dist: statsmodels
+Requires-Dist: loguru
+Provides-Extra: dev
+Requires-Dist: pytest >=6.0 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: flake8 >=5.0.4 ; extra == 'dev'
+Requires-Dist: black >=22.12.0 ; extra == 'dev'
+Requires-Dist: jupyter-book ; extra == 'dev'
+
+# Slipper
+[![pypi](https://img.shields.io/pypi/v/pyslipper.svg)](https://pypi.org/project/pyslipper/)
+[![python](https://img.shields.io/pypi/pyversions/pyslipper.svg)](https://pypi.org/project/pyslipper/)
+[![Build Status](https://github.com/avivajpeyi/pyslipper/actions/workflows/dev.yml/badge.svg)](https://github.com/avivajpeyi/pyslipper/actions/workflows/dev.yml)
+[![Coverage Status](https://coveralls.io/repos/github/avivajpeyi/pyslipper/badge.svg?branch=main&kill_cache=1)](https://coveralls.io/github/avivajpeyi/pyslipper?branch=main)
+
+
+A python package to fit data with P-splines.
+
+
+This implementation is built off Patricio Maturana-Russel (@pmat747)'s P-spline PSD
+https://github.com/pmat747/psplinePsd
+
+![](docs/static/logo.png)
+
+
+* Documentation: <https://avivajpeyi.github.io/pyslipper>
+* GitHub: <https://github.com/avivajpeyi/pyslipper>
+* PyPI: <https://pypi.org/project/pyslipper/>
+* Free software: MIT
+
+
+## Developer setup
+
+```
+pip install -e .[dev]
+pre-commit install
+```
+
+Push to branches -- ensure the workflow passes, and then merge to main.
+
+
+To make a release:
+```bash
+git tag -a vX.Y.Z -m "Version X.Y.Z release: <description>"
+git push origin --tags
+```
