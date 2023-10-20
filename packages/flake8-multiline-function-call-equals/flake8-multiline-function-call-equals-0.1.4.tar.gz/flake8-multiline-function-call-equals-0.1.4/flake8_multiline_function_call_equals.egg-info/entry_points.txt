@@ -1,0 +1,2 @@
+[flake8.extension]
+EQA = flake8_multiline_function_call_equals:Plugin
