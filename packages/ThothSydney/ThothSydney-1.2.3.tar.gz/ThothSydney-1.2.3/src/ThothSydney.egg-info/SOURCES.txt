@@ -1,0 +1,11 @@
+setup.py
+src/ThothSydney/__init__.py
+src/ThothSydney/thothsydney.py
+src/ThothSydney/thothsydneyconstants.py
+src/ThothSydney/thothsydneyenums.py
+src/ThothSydney/thothsydneyexceptions.py
+src/ThothSydney/thothsydneyutils.py
+src/ThothSydney.egg-info/PKG-INFO
+src/ThothSydney.egg-info/SOURCES.txt
+src/ThothSydney.egg-info/dependency_links.txt
+src/ThothSydney.egg-info/top_level.txt
