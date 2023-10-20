@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dataconvertor
+Version: 0.0.1
+Summary: This is the simplest module for quick work with data.
+Home-page: https://github.com/penvoy/lib_dataconvertor.git
+Author: penvoy
+Author-email: zcmll356@gmail.com
+Project-URL: GitHub, https://github.com/penvoy/lib_dataconvertor.git
+Keywords: files speedfiles
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Р­С‚Р° Р±РёР±Р»РёРѕС‚РµРєР° РґР»СЏ РєРѕРЅРІРµСЂС‚Р°С†РёРё json РІ С„РѕСЂРјР°С‚ [РєР»СЋС‡Рё],[Р·РЅР°С‡РµРЅРёСЏ]

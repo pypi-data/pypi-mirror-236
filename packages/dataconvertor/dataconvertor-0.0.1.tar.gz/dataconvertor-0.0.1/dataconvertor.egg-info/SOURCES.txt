@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+dataconvertor/__init__.py
+dataconvertor/convertor.py
+dataconvertor.egg-info/PKG-INFO
+dataconvertor.egg-info/SOURCES.txt
+dataconvertor.egg-info/dependency_links.txt
+dataconvertor.egg-info/requires.txt
+dataconvertor.egg-info/top_level.txt
