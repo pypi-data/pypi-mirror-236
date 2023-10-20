@@ -1,0 +1,35 @@
+[project]
+name = 'arm_segmentation'
+version="0.0.8"
+description="Training and inference of instance segmentation"
+readme = "README.md"
+
+requires-python = ">=3.6"
+
+license = { file = "LICENSE.txt" }
+
+authors = [
+    { name = "Peter Mitrano", email = "pmitrano@umich.edu" }
+]
+maintainers = [
+    { name = "Peter Mitrano", email = "pmitrano@umich.edu" }
+]
+
+classifiers = []
+
+dependencies = [
+    'torch',
+    'torchvision',
+    'pycocotools',
+    'numpy',
+    'matplotlib'
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.setuptools]
+
+[build-system]
+requires=["setuptools"]
+build-backend = "setuptools.build_meta"
