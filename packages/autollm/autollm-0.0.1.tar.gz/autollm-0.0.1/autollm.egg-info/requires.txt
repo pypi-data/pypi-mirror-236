@@ -1,0 +1,11 @@
+llama-index==0.8.46
+litellm==0.8.4
+gitpython==3.1.37
+uvicorn==0.23.2
+fastapi==0.103.2
+python-dotenv
+httpx
+
+[dev]
+pre-commit==3.4.0
+pytest==7.4.2
