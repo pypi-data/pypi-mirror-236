@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: fake-samples-loader
+Version: 1.0.0
+Summary: Fake Samples Loader
+Author-email: Fake Samples Loader <fakesamplesloader@gmail.com>
+Keywords: samples,loader
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+
+# fake-samples-loader
