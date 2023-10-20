@@ -1,0 +1,3 @@
+[console_scripts]
+archive-strategy=archive_strategy.main:main
+
