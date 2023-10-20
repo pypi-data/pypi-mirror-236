@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+example/__init__.py
+example/model.py
+experiments_addon/__init__.py
+experiments_addon/delete.py
+experiments_addon/logger.py
+sagemaker_experiments_logger.egg-info/PKG-INFO
+sagemaker_experiments_logger.egg-info/SOURCES.txt
+sagemaker_experiments_logger.egg-info/dependency_links.txt
+sagemaker_experiments_logger.egg-info/requires.txt
+sagemaker_experiments_logger.egg-info/top_level.txt
+tests/__init__.py
+tests/test_delete.py
+tests/test_logger.py
+tests/test_model.py

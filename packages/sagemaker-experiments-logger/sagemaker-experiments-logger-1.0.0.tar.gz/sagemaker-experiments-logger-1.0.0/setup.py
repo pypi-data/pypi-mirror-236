@@ -1,0 +1,53 @@
+import pathlib
+
+import pkg_resources
+import setuptools
+
+here = pathlib.Path(__file__).parent.absolute()
+
+DESCRIPTION = "PyTorch Lightning Experiment Logger"
+
+try:
+    with open(here / "README.md", encoding="utf-8") as f:
+        long_description = f.read()
+except FileNotFoundError:
+    long_description = DESCRIPTION
+
+setuptools.setup(
+    name="sagemaker-experiments-logger",
+    version="1.0.0",
+    author="Tobias Senst",
+    author_email="tobias.senst@googlemail.com",
+    description="PyTorch Lightning Experiment Logger",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://tsenst.github.io/lightning-experiments-logger/",
+    install_requires=[
+        "setuptools>=67.4.0",
+        "scikit-learn>=1.3.1",
+        "pytorch-lightning>=2.0.0",
+        "sagemaker>=2.190.0",
+        "torchvision>=0.16.0",
+        "torchmetrics>=0.11.4"],
+    extras_require={
+        "dev": ["black", "flake8", "isort", "mypy", "pylint", "types-PyYAML"],
+        "tests": ["moto==4.2.5", "pytest", "pytest-mock", "pytest-cov"]
+    },
+    packages=setuptools.find_packages(exclude="tests"),
+    keywords="pytorch-lightning, AWS SageMaker, machine learning",
+    license="Apache 2.0",
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Education",
+        "Intended Audience :: Science/Research",
+        "Operating System :: OS Independent",
+        "Topic :: Scientific/Engineering",
+        "Topic :: Scientific/Engineering :: Mathematics",
+        "Topic :: Scientific/Engineering :: Artificial Intelligence",
+        "Topic :: Software Development",
+        "Topic :: Software Development :: Libraries",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+    ],
+    python_requires=">=3.9",
+)
