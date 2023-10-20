@@ -1,0 +1,4 @@
+aiohttp
+yarl
+pydantic<2.0.0,>=1.10.8
+python-dateutil
