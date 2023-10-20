@@ -1,0 +1,16 @@
+Logbook>=0.12.5
+SQLAlchemy>=1.0.12
+click<7.0,>=6.3
+psycopg2-binary>=2.7.5
+temporaluuid64>=0.1.1
+requests>=2.9.1
+xmltodict>=0.10.1
+beautifulsoup4>=4.4.1
+alembic>=0.9.7
+boto3>=1.5.26
+avro-python3<2.0.0,>=1.9.1
+pandas<1.0,>=0.25.1
+pandas-datareader<1.0,>=0.7.4
+
+[:python_version < "3.7"]
+backports-datetime-fromisoformat<2.0.0,>=1.0.0
