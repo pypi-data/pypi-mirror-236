@@ -1,0 +1,5 @@
+# Place any resources IE: javascript, images, css, etc.. needed for your application here.
+# Basically anything needed that does not require and server side manipulation
+# Create any folder structure needed under application.
+# Leave everything under the arches folder alone
+# This file is here to assure the application folder gets created
