@@ -1,0 +1,32 @@
+[project]
+name = "invoke-containers"
+version = "0.2.0"
+description = "Invoke your tasks within containers."
+authors = [
+    { name = "jonjitsu", email = "jonjitsu@codewarrior.ca" },
+]
+dependencies = [
+    "invoke>=2.2.0",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "ufmt>=2.2.0",
+    "mypy>=1.6.0",
+    "unimport>=1.0.0",
+    "pyflakes>=3.1.0",
+    "autoflake>=2.2.1",
+    "pre-commit>=3.5.0",
+]
