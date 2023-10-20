@@ -1,0 +1,8 @@
+README.md
+setup.py
+python/__init__.py
+roboflex.webcam_uvc.egg-info/PKG-INFO
+roboflex.webcam_uvc.egg-info/SOURCES.txt
+roboflex.webcam_uvc.egg-info/dependency_links.txt
+roboflex.webcam_uvc.egg-info/requires.txt
+roboflex.webcam_uvc.egg-info/top_level.txt
