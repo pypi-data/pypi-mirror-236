@@ -1,0 +1,11 @@
+
+
+'''
+	import CYTE.STRUCTS.DB.ACCESS as ACCESS
+	import CYTE.STRUCTS.SCAN.struct.list as STRUCTS_LIST
+	LIST = STRUCTS_LIST.FIND (ACCESS.DB ())
+'''
+
+
+def FIND (STRUCTS_DB):
+	return STRUCTS_DB.all ()
