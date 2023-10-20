@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hidos
+Version: 1.3.1
+Summary: Hash Identifed Digital Object Successions
+Home-page: https://gitlab.com/perm.pub/hidos
+Author: Castedo Ellerman
+Author-email: castedo@castedo.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: GitPython
+Requires-Dist: requests
+
+Hash Identified Digital Object Successions
+==========================================
+
+Visit [hidos.readthedocs.io](https://hidos.readthedocs.io) for documentation.
+
+Documentation built from the `docs` branch.
