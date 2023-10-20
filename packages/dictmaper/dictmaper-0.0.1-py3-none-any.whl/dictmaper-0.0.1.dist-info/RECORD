@@ -1,0 +1,9 @@
+DictMaper/__init__.py,sha256=7dHbyD2H2hkAYJvuTUxoYVTVhsTR6ut_Ha66xZfrkO8,61
+DictMaper/map_dict.py,sha256=ICkpezBDevuGWMyYEnzyR3Svbicut6URYc-Wwje9DOw,1074
+DictMaper/utils.py,sha256=O0irOUaJlmPqGpNEeodMxVtwG8vxoo0qNE1ISqFKGtM,641
+test/__init__.py,sha256=7dHbyD2H2hkAYJvuTUxoYVTVhsTR6ut_Ha66xZfrkO8,61
+test/test_generate_maper.py,sha256=P-BJ2YLfWfl6_vnDTXf8NDRGu1PJIRTYARFPhOkKf-A,1046
+dictmaper-0.0.1.dist-info/METADATA,sha256=kyCg6CQ_H3W-X0t0U6MDvhAi8Ek3hewEs7jBQDP_xU0,2848
+dictmaper-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dictmaper-0.0.1.dist-info/top_level.txt,sha256=pph8Bs9KdzmVTRdyCO2WM_NfT6Zr3e6gJud_ER0zR_g,15
+dictmaper-0.0.1.dist-info/RECORD,,
