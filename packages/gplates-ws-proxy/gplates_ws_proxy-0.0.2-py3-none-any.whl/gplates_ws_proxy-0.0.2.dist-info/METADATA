@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: gplates-ws-proxy
+Version: 0.0.2
+Summary: GPlates Web Service Python client/proxy
+Author-email: Michael Chin <michael.chin@sydney.edu.au>
+License: MIT License
+        
+        Copyright (c) 2023 michaelchin
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/michaelchin/gplates-python-proxy
+Keywords: GPlates,RESTful,Web Service,Plate Tectonics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python-dotenv
+Requires-Dist: requests
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# GPlates Web Service Python Client/Proxy
+
+This Python package allows users to access [GPlates Web Service](https://gwsdoc.gplates.org/) more easily via simple Python programming interface.
+
+### Installation
+
+`pip install gplates-ws-proxy`
+
+### How to use
+
+The following Python code reconstructs three locations to 100Ma with Muller2019 reconstruction model.
+
+```python
+  # pip install gplates-ws-proxy shapely
+  import shapely
+  from gplates_ws_proxy import PlateModel, reconstruct_shapely_points
+
+  lats = [50, 10, 50]
+  lons = [-100, 160, 100]
+  points = [shapely.Point(x, y) for x, y in zip(lons, lats)]
+
+  model = PlateModel("Muller2019")
+  paleo_points = reconstruct_shapely_points(model, points, 100)
+  print(paleo_points)
+```
+
+### GPlates Web Service server
+
+By default, https://gws.gplates.org is used. You can use .env file to specify your service URL. Alternertively, you can `export GWS_URL=https://your-service-url` in a terminal.
+
+See [env.template](src/gplates_ws_proxy/env.template) and [setup GWS server with Docker](https://github.com/GPlates/gplates-web-service/tree/master/docker#-quick-start).
+
+### Examples
+
+👉 [paleo-coastlines movie](examples/paleo-coastlines.ipynb)
+
+![paleo-coastlines movie](https://github.com/michaelchin/gplates-python-proxy/assets/2688316/11113728-967a-445c-9941-7b82523138ea)
+
+👉 [paleo-labels](examples/plot_paleo_labels.py)
+
+![plot_paleo_labels](https://github.com/michaelchin/gplates-python-proxy/assets/2688316/5e3a1f6b-e1d7-4d9f-b2f8-967e530d3a8e)
+
+👉 [subduction zones](examples/plot_subduction_zones.py)
+
+![plot_subduction_zones](https://github.com/michaelchin/gplates-python-proxy/assets/2688316/5b491f47-38df-4dd4-80c6-ded0e17fe965)
+
+[All Examples](examples/readme.md)
