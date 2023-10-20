@@ -1,0 +1,8 @@
+metapack
+metapack-jupyter
+invoke
+python-slugify
+
+[testing]
+pytest
+pytest-cov
