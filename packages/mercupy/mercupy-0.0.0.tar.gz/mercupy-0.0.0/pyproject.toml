@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mercupy"
+version = "0.0.0"
+authors = [
+  { name="Trent Fellbootman", email="trentfellbootman@gmail.com" },
+]
+description = "Python interface definition for Mercury."
+readme = "README.md"
+requires-python = ">=3.12,<4.0"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "typeguard>=4.1.5,<5.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://trent-fellbootman.github.io/mercury.io/"
+"GitHub" = "https://github.com/Trent-Fellbootman/mercury"
+"Documentation" = "https://mercurynn.readthedocs.io/en/latest/"
