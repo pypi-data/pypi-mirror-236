@@ -1,0 +1,11 @@
+beancount_cc_importers-0.1.5.dist-info/METADATA,sha256=z5Ao4blzeo29JwAWgiQSjUaPB2iHJAYcwvCHUCyyF9Y,674
+beancount_cc_importers-0.1.5.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+beancount_cc_importers-0.1.5.dist-info/licenses/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+beancount_cc_importers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beancount_cc_importers/alipay.py,sha256=SqdDXc4ZKqnzkNt6P5gAqIDJcvgT8Mr9IIyajL_bt_Q,3139
+beancount_cc_importers/cmb.py,sha256=hA3Oevm4PMx5h0DONrBA6u3JKR_VOga_viHIM0iVllo,1980
+beancount_cc_importers/eml.py,sha256=NU7wNicu8LTM6gRO8wHq2AXkSHYPQsGhbnf06JXqjI8,2111
+beancount_cc_importers/lingqian.py,sha256=nu3Qo5GYiMXk1sodVuB-Xw7JQCw2jqZBsjMaf6w2ydo,3637
+beancount_cc_importers/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+beancount_cc_importers/util/eml2csv.py,sha256=2DmlqO6GgJU54WoC23y-g9v0I61DaBMwnAIWktJ7hHU,7805
+beancount_cc_importers-0.1.5.dist-info/RECORD,,
