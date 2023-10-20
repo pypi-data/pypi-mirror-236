@@ -1,0 +1,8 @@
+pipen_cli_require/__init__.py,sha256=Z5tOKMOY6OiehrQIkV5CySqOZAdXTf5agtkl8xqztv8,132
+pipen_cli_require/entry.py,sha256=suznACRGXVknnWZHcG4m-6uOC3IJankOY11lto42664,2277
+pipen_cli_require/require.py,sha256=2WhtMp4UOZF1tz05C7rmFVX6Bb5dFnktQ_zyZFY05QU,8741
+pipen_cli_require/version.py,sha256=zPONEgwMhEaYDtkLRp2NQqsmpPEE1S8SKzn9OBeCQzQ,46
+pipen_cli_require-0.9.0.dist-info/METADATA,sha256=QNN-REckeG9rc80i2XMlyH2e-pPM-PaOmVME8znlwbk,3297
+pipen_cli_require-0.9.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pipen_cli_require-0.9.0.dist-info/entry_points.txt,sha256=j9e4K30v59HDZ9uXmWvYmuJXb2V_HPGhsXQEBVwKw3Q,65
+pipen_cli_require-0.9.0.dist-info/RECORD,,
