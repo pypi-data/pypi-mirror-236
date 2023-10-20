@@ -1,0 +1,12 @@
+fafi/__init__.py,sha256=SBl2EPFW-ltPvQ7vbVWItyAsz3aKYIpjO7vcfr84GkU,22
+fafi/appdata.py,sha256=xb9jK3VYSksGTGf-TdgECBBjZ5-BEBaK1fTE-G5IRC8,1702
+fafi/core.py,sha256=3p-A1q8-AbpapOpomqUoSnEFbfQRmxX_jy1Xj3SMqr4,1290
+fafi/db.py,sha256=kUqMKyPebNLtUohNCtdstnyHY_YuArF71rjSTbcbOoI,1796
+fafi/import_firefox.py,sha256=OmSAMpBMvC4nfZ9dLt2jj5rv7i7Bp96ceW9uQIFWOKs,2357
+fafi/import_list.py,sha256=sYd-TohCSzTdHokEAZ1zKmmEvg9Op6wQBz-biF_sA70,674
+fafi/input.py,sha256=SvlNIGk_LEtmX8Mb2V5pu1Q1kXIcQay4061QcNEzdWo,296
+fafi/main.py,sha256=o_AzToXfIy8Ih65rgOfWbgeNbchJJBt7GQVMCcai0A8,3366
+fafi-0.2.4.dist-info/METADATA,sha256=wMlq9AaTL4DytCooTdvERSuDXJ4dpZ5QiEkpErVLu7w,1782
+fafi-0.2.4.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+fafi-0.2.4.dist-info/entry_points.txt,sha256=_W35LMy9Nw3P5KIYTySRysIlUPySnf-LJ47l8piXA8w,39
+fafi-0.2.4.dist-info/RECORD,,
