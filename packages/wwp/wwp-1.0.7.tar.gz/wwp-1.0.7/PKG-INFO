@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: wwp
+Version: 1.0.7
+Summary: Python module for working with prime numbers
+Home-page: https://github.com/Langton49/workingWithPrimes
+Author: Munashe
+Author-email: munashemukweya2022@gmail.com
+License: MIT
+Keywords: Prime numbers
+License-File: LICENSE.txt
