@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: genomicspy
+Version: 0.1.1.dev2
+Summary: Tools for manipulating vcfs doing genomics work
+Home-page: https://github.com/vivianleung/genomicspy
+Author: Vivian Leung
+Author-email: Vivian Leung <leung.vivian.w@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/vivianleung/genomicspy
+Project-URL: Bug Tracker, https://github.com/vivianleung/genomicspy/issues
+Keywords: genomicspy,vcf,genomics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: regex
+Requires-Dist: vcfpy
+Requires-Dist: biopython
+Requires-Dist: oddsnends
+
