@@ -1,0 +1,8 @@
+README.md
+main.py
+arrodessefirot.egg-info/PKG-INFO
+arrodessefirot.egg-info/SOURCES.txt
+arrodessefirot.egg-info/dependency_links.txt
+arrodessefirot.egg-info/top_level.txt
+comm/__init__.py
+comm/sales.py
