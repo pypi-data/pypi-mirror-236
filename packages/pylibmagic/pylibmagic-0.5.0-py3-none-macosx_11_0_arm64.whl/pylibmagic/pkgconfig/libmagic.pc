@@ -1,0 +1,10 @@
+prefix=/var/folders/76/zy5ktkns50v6gt5g8r0sf6sc0000gn/T/tmp69hoq1ie/build/libmagic
+exec_prefix=${prefix}
+libdir=/var/folders/76/zy5ktkns50v6gt5g8r0sf6sc0000gn/T/tmp69hoq1ie/build/libmagic/lib
+includedir=${prefix}/include
+
+Name: libmagic
+Description: Magic number recognition library
+Version: 5.41
+Libs: -L${libdir} -lmagic
+Libs.private: -llzma -lbz2 -lz 
