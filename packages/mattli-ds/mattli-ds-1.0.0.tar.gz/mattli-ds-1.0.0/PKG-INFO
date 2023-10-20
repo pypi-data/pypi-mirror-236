@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: mattli-ds
+Version: 1.0.0
+Summary: userful tools for data science projects
+Home-page: https://github.com/mattli/deeplearning
+Author: Mattli
+Author-email: matt.li76@icloud.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## This package is very useful for implementing data science projects
+
+1. you can use it for dealing with files operations
+2. you can load yaml files
+3. you can save json data to a file
+
+thanks for Krish Naik's perfect video, this package just for learning purposes.
