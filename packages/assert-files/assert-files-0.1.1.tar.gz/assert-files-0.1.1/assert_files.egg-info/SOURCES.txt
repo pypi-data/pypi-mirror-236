@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+assert_files/__init__.py
+assert_files/assert_files.py
+assert_files/file.py
+assert_files.egg-info/PKG-INFO
+assert_files.egg-info/SOURCES.txt
+assert_files.egg-info/dependency_links.txt
+assert_files.egg-info/requires.txt
+assert_files.egg-info/top_level.txt
+tests/test_assert_pdfs.py
