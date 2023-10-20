@@ -1,0 +1,13 @@
+pandas
+numpy
+pyarrow
+pympi-ling
+pydub
+StrEnum
+tqdm
+click
+requests
+GitPython
+
+[:sys_platform == "win32"]
+pywin32
