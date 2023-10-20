@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: jenkins-job-cli
+Version: 0.3.8
+Summary: Jcli: Alternative Jenkins CLI written in Python
+Home-page: https://github.com/brokenpip3/jcli
+License: MIT
+Author: Brokenpip3
+Author-email: brokenpip3@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: api4jenkins (>=1.9,<2.0)
+Requires-Dist: appdirs (>=1.4.4,<2.0.0)
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: rich (>=12,<14)
+Project-URL: Repository, https://github.com/brokenpip3/jcli
+Description-Content-Type: text/markdown
+
+# Jcli
+
+
+Small cli to list, run, and check jenkins jobs
+
+https://user-images.githubusercontent.com/40476330/159119721-a55d2f7c-7dff-4fa0-91cd-08f33a78494d.mp4
+
+
+## Installation
+
+`pip install jenkins-job-cli`
+
+Archlinux users: you can find the pkgbuild [here](https://aur.archlinux.org/packages/jcli)
+
+## Usage
+
+```
+Usage: jcli [OPTIONS] COMMAND [ARGS]...
+
+  jcli - Jenkins job cli
+
+Options:
+  --version  Show the version and exit.
+  --help     Show this message and exit.
+
+Commands:
+  config   Create jcli config
+  jenkins  Get Jenkins server info
+  jobs     List and execute jobs
+  nodes    Nodes management
+  plugins  Plugins management
+```
+
