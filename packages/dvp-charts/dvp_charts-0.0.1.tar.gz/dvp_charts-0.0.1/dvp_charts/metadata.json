@@ -1,0 +1,765 @@
+{
+  "src/lib/components/DvpBar.react.js": {
+    "description": "Ant Design word cloud",
+    "displayName": "DvpBar",
+    "methods": [],
+    "props": {
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "colors": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Dict of colors"
+      },
+      "labelPosition": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'left'",
+              "computed": false
+            },
+            {
+              "value": "'middle'",
+              "computed": false
+            },
+            {
+              "value": "'right'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Position of label",
+        "defaultValue": {
+          "value": "'middle'",
+          "computed": false
+        }
+      },
+      "padding": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "number"
+          }
+        },
+        "required": false,
+        "description": "Padding"
+      },
+      "subInfo": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Sub info"
+      },
+      "xAxisTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis title"
+      },
+      "yAxisTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y axis title"
+      },
+      "hideXaxis": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide x axis"
+      },
+      "hideYaxis": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide y axis"
+      },
+      "hideXaxisTitle": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide x axis title"
+      },
+      "hideYaxisTitle": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide y axis title"
+      },
+      "hideLegend": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide legend"
+      },
+      "isStack": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Stack mode",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "isPercent": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "100% percent mode"
+      },
+      "legendPosition": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'top'",
+              "computed": false
+            },
+            {
+              "value": "'top-left'",
+              "computed": false
+            },
+            {
+              "value": "'top-right'",
+              "computed": false
+            },
+            {
+              "value": "'left'",
+              "computed": false
+            },
+            {
+              "value": "'left-top'",
+              "computed": false
+            },
+            {
+              "value": "'left-bottom'",
+              "computed": false
+            },
+            {
+              "value": "'right'",
+              "computed": false
+            },
+            {
+              "value": "'right-top'",
+              "computed": false
+            },
+            {
+              "value": "'right-bottom'",
+              "computed": false
+            },
+            {
+              "value": "'bottom'",
+              "computed": false
+            },
+            {
+              "value": "'bottom-left'",
+              "computed": false
+            },
+            {
+              "value": "'bottom-right'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Legend position",
+        "defaultValue": {
+          "value": "'right'",
+          "computed": false
+        }
+      },
+      "chartTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Chart title"
+      },
+      "chartTitleStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style of chart tile"
+      },
+      "direction": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'horizontal'",
+              "computed": false
+            },
+            {
+              "value": "'vertical'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Direction of the bar",
+        "defaultValue": {
+          "value": "'horizontal'",
+          "computed": false
+        }
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis"
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis"
+      },
+      "labelField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Field to show as label"
+      },
+      "groupbyField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by field"
+      },
+      "className": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "CSS classes to be added to the component"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/DvpCharts.react.js": {
+    "description": "ExampleComponent is an example component.",
+    "displayName": "DvpCharts",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "label": {
+        "type": {
+          "name": "string"
+        },
+        "required": true,
+        "description": "A label that will be printed when this component is rendered."
+      },
+      "value": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The value displayed in the input."
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/DvpScatter.react.js": {
+    "description": "Ant Design word cloud",
+    "displayName": "DvpScatter",
+    "methods": [],
+    "props": {
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "xAxisTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis title"
+      },
+      "yAxisTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Y axis title"
+      },
+      "sizeField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Size field"
+      },
+      "size": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "number"
+            },
+            {
+              "name": "array"
+            }
+          ]
+        },
+        "required": false,
+        "description": "Size or size range",
+        "defaultValue": {
+          "value": "3",
+          "computed": false
+        }
+      },
+      "hideXaxis": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide x axis"
+      },
+      "hideYaxis": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Whether to hide y axis"
+      },
+      "padding": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "number"
+          }
+        },
+        "required": false,
+        "description": "Padding"
+      },
+      "legendPosition": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'top'",
+              "computed": false
+            },
+            {
+              "value": "'top-left'",
+              "computed": false
+            },
+            {
+              "value": "'top-right'",
+              "computed": false
+            },
+            {
+              "value": "'left'",
+              "computed": false
+            },
+            {
+              "value": "'left-top'",
+              "computed": false
+            },
+            {
+              "value": "'left-bottom'",
+              "computed": false
+            },
+            {
+              "value": "'right'",
+              "computed": false
+            },
+            {
+              "value": "'right-top'",
+              "computed": false
+            },
+            {
+              "value": "'right-bottom'",
+              "computed": false
+            },
+            {
+              "value": "'bottom'",
+              "computed": false
+            },
+            {
+              "value": "'bottom-left'",
+              "computed": false
+            },
+            {
+              "value": "'bottom-right'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Legend position",
+        "defaultValue": {
+          "value": "'right'",
+          "computed": false
+        }
+      },
+      "legendDirection": {
+        "type": {
+          "name": "enum",
+          "value": [
+            {
+              "value": "'horizontal'",
+              "computed": false
+            },
+            {
+              "value": "'vertical'",
+              "computed": false
+            }
+          ]
+        },
+        "required": false,
+        "description": "Legend direction",
+        "defaultValue": {
+          "value": "'vertical'",
+          "computed": false
+        }
+      },
+      "lineDicts": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "object"
+          }
+        },
+        "required": false,
+        "description": "Dicts of regression lines"
+      },
+      "chartTitle": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Chart title"
+      },
+      "chartTitleStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Style of chart tile"
+      },
+      "xField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis"
+      },
+      "yField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "X axis"
+      },
+      "groupbyField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Group by field"
+      },
+      "className": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "CSS classes to be added to the component"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/DvpWordCloud.react.js": {
+    "description": "Ant Design word cloud",
+    "displayName": "DvpWordCloud",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "array"
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "wordField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "wordField"
+      },
+      "colorField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "colorField"
+      },
+      "weightField": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "weightField"
+      },
+      "fontSize": {
+        "type": {
+          "name": "arrayOf",
+          "value": {
+            "name": "number"
+          }
+        },
+        "required": false,
+        "description": "Range of font size",
+        "defaultValue": {
+          "value": "[24, 80]",
+          "computed": false
+        }
+      },
+      "queryURL": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Query url",
+        "defaultValue": {
+          "value": "'https://www.google.com/search?q='",
+          "computed": false
+        }
+      },
+      "className": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "CSS classes to be added to the component"
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  },
+  "src/lib/components/DvpWordGraph.react.js": {
+    "description": "Word network graph based on Echarts",
+    "displayName": "DvpWordGraph",
+    "methods": [],
+    "props": {
+      "id": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "The ID used to identify this component in Dash callbacks."
+      },
+      "data": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Data"
+      },
+      "className": {
+        "type": {
+          "name": "union",
+          "value": [
+            {
+              "name": "string"
+            },
+            {
+              "name": "object"
+            }
+          ]
+        },
+        "required": false,
+        "description": "CSS classes to be added to the component"
+      },
+      "layoutType": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Layout type",
+        "defaultValue": {
+          "value": "'none'",
+          "computed": false
+        }
+      },
+      "lineStyle": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Line style",
+        "defaultValue": {
+          "value": "{\n    color: 'source',\n    curveness: 0.3,\n}",
+          "computed": false
+        }
+      },
+      "force": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Force"
+      },
+      "draggable": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "Draggable",
+        "defaultValue": {
+          "value": "true",
+          "computed": false
+        }
+      },
+      "queryURL": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Query url",
+        "defaultValue": {
+          "value": "'https://www.google.com/search?q='",
+          "computed": false
+        }
+      },
+      "style": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "Inline CSS style"
+      },
+      "setProps": {
+        "type": {
+          "name": "func"
+        },
+        "required": false,
+        "description": "Dash-assigned callback that should be called to report property changes\nto Dash, to make them available for callbacks."
+      }
+    }
+  }
+}

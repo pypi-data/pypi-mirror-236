@@ -1,0 +1,11 @@
+include dvp_charts/dvp_charts.min.js
+include dvp_charts/dvp_charts.min.js.map
+include dvp_charts/async-*.js
+include dvp_charts/async-*.js.map
+include dvp_charts/*-shared.js
+include dvp_charts/*-shared.js.map
+include dvp_charts/metadata.json
+include dvp_charts/package-info.json
+include README.md
+include LICENSE
+include package.json
