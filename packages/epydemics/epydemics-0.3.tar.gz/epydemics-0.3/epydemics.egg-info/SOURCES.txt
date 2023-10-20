@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+epydemics/__init__.py
+epydemics/epydemics.py
+epydemics.egg-info/PKG-INFO
+epydemics.egg-info/SOURCES.txt
+epydemics.egg-info/dependency_links.txt
+epydemics.egg-info/requires.txt
+epydemics.egg-info/top_level.txt
