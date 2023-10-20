@@ -1,0 +1,3 @@
+[console_scripts]
+armory = charmory.example:main
+armory-mlflow-server = charmory.track:server
