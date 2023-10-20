@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: assert-files
+Version: 0.0.3
+Summary: My first Python library
+Home-page: 
+Author: avillanova
+License: MIT
+Keywords: assert files test automation compare
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: PyPDF2==3.0.1
+
+my first Python library
