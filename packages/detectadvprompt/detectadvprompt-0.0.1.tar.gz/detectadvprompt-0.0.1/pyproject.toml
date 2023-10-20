@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "detectadvprompt"
+version = "0.0.1"
+description = ""
+authors = ["Zhengmian Hu <huzhengmian@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.13"
+numpy = "^1.20.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
