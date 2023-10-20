@@ -1,0 +1,13 @@
+models:
+  classify_model: 'fptinters/DocClass-classify-model'
+  text_model: 'all-mpnet-base-v2'
+  image_model: 'fptinters/DocClass-classify-model'
+  feature_extractor: 'microsoft/dit-base'
+
+dataset: ''
+
+parameters:
+  img_weight: 0.5
+  txt_weight: 0.5
+  epsilon_dbscan: 0.03
+  min_samples: 2

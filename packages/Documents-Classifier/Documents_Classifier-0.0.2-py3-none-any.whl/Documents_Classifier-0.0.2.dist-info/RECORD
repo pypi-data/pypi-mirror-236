@@ -1,0 +1,11 @@
+DocumentsClassifier/Document_Classifier.py,sha256=x9WTf0uRVWBNZCtbLD4fC3gK0Yj60py-AQ1CvkaSqPs,3863
+DocumentsClassifier/__init__.py,sha256=e-M3xHsRbJAW4pdg21IuqPc1qlW7PPvvHZymV7j0lxk,204
+DocumentsClassifier/classification.py,sha256=9KAQb1HBOoIwbAPAe0sZJBtVZrmzcIO9wH5C8YdcX3U,4397
+DocumentsClassifier/config.yml,sha256=J2ot8Z0xuIohAfqZQYYu78k1F2ESDF999fiMmCoYq_w,290
+DocumentsClassifier/embeddings.py,sha256=PSnQ3m6dhehXZ1kRDWcCOIHIacHGj4raRcau92pFvLc,4928
+DocumentsClassifier/utils.py,sha256=qVqYNs9mOge-yYrBpBjgzhyhMF1GrWdNYgsL3qaeaQI,2035
+Documents_Classifier-0.0.2.dist-info/LICENSE,sha256=Ez8tvGGDIZjXd3z9zlgatXt-bPJjQhhVPHBeOCOA1ME,1070
+Documents_Classifier-0.0.2.dist-info/METADATA,sha256=SF4oLc3vtgsP51u3sT4PTWeQNZNpsJiQ31IL1awaL7s,2715
+Documents_Classifier-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Documents_Classifier-0.0.2.dist-info/top_level.txt,sha256=GpVhbzMS-SLxgEFc4sFb8Nr_PKZBsl1rFTTl-SIEhSk,20
+Documents_Classifier-0.0.2.dist-info/RECORD,,
