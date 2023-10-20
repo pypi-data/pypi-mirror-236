@@ -1,0 +1,2 @@
+[console_scripts]
+MetaDetective = MetaDetective.MetaDetective:main
