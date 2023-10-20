@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: qtpip
+Version: 0.1
+Summary: A pip wrapper to install Qt for Python commercial wheels
+Author-email: Qt for Python Team <pyside@qt-project.org>
+License: Qt Commercial
+Keywords: qt,pyside,shiboken
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSES/LicenseRef-Qt-Commercial.txt
+
+# Qt pip
+
+This project aims to provide a wrapper around `pip`, but handling the Qt
+account authentication for installing commercial wheels.
+
+The expected behavior is to detect the `pip` command from a /hopefully/
+activated virtual environment, falling back to all the commands, but not for
+the install.
+
+## Install
+
+```
+pip install qtpip
+```
+
+## Usage
+
+```
+qtpip install pyside6
+```
+
+## Issues
+
+Major tasks and discovered use-cases that need to be implemented need to have
+a JIRA entry, using the `Qt pip` component.
+You can open an [issue here](https://bugreports.qt.io/projects/PYSIDE).
