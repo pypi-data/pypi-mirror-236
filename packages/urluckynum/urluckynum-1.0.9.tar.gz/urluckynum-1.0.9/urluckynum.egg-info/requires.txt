@@ -1,0 +1,6 @@
+prospector
+bandit
+wheel
+twine
+pytest
+mysql-connector-python
