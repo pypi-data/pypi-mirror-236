@@ -1,0 +1,7 @@
+setup.py
+disbed/__init__.py
+disbed/embed.py
+disbed.egg-info/PKG-INFO
+disbed.egg-info/SOURCES.txt
+disbed.egg-info/dependency_links.txt
+disbed.egg-info/top_level.txt
