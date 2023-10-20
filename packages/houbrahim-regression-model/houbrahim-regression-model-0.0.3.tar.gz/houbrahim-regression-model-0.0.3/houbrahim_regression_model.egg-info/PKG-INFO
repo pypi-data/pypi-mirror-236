@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: houbrahim-regression-model
+Version: 0.0.3
+Summary: Example regression model package from Train In Data.
+Home-page: https://github.com/hassanoubrahim
+Author: Hassan Oubrahim
+Author-email: hassanoubrahim72@gmail.com
+License: BSD-3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pydantic
+Requires-Dist: scikit-learn
+Requires-Dist: strictyaml
+Requires-Dist: ruamel.yaml
+Requires-Dist: feature-engine
+Requires-Dist: joblib
+
+Example regression model package from Train In Data.
