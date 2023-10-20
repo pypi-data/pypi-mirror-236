@@ -1,0 +1,18 @@
+[project]
+name = "flake8-multiline-function-call-equals"
+version = "0.1.3"
+authors = [
+  { name="SecDev", email="pypi@secdev.com" },
+]
+description = "A package that checks to ensure spaces around `=` in multiline function calls"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/SECDEV-GROUP/flake8-multiline-function-call-equals/"
+"Bug Tracker" = "https://github.com/SECDEV-GROUP/flake8-multiline-function-call-equals/issues"
