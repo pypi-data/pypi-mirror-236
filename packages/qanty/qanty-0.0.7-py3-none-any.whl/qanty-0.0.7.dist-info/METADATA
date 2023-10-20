@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: qanty
+Version: 0.0.7
+Summary: Qanty API Client
+Home-page: https://www.qanty.com
+Author: Juan F. Duque
+Author-email: jfelipe@grupodyd.com
+License: MIT
+Project-URL: Source, https://github.com/grupodyd/python-qanty
+Project-URL: Tracker, https://github.com/grupodyd/python-qanty/issues
+Keywords: qanty
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx[http2] <1,>=0.24.0
+Requires-Dist: pydantic <3,>=2
+Requires-Dist: python-dateutil <3,>=2.8.2
+
+[![Release](https://github.com/grupodyd/python-qanty/actions/workflows/python-publish.yml/badge.svg)](https://github.com/grupodyd/python-qanty/actions/workflows/python-publish.yml)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
+[![pypi](https://badge.fury.io/py/qanty.svg)](https://pypi.org/project/qanty/)
+[![PyPI](https://img.shields.io/pypi/pyversions/qanty.svg)](https://pypi.python.org/pypi/qanty)
+# python-qanty
+Python package for integration of Qanty in other applications
+
+### Supported Python Versions
+
+This library supports the following Python implementations:
+
+- Python 3.8
+- Python 3.9
+- Python 3.10
+- Python 3.11
+
+## Installation
+
+Install from PyPi using [pip](https://pip.pypa.io/en/latest/), a
+package manager for Python.
+
+```shell
+pip3 install qanty
+```
+
+### Test your installation
+
+Try listing your company branches. Save the following code sample to your computer with a text editor. Be sure to update the `auth_token`, and `company_id` variables.
+
+```python
+from qanty import Qanty
+
+# Your Auth Token
+client = Qanty(auth_token="your_auth_token", company_id="your_company_id")
+
+branches = client.get_branches()
+for branch in branches:
+    print(f"Branch ID {branch.id}, name {branch.name}")
+```
