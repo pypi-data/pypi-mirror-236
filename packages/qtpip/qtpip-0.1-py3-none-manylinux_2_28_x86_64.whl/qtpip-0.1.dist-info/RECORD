@@ -1,0 +1,10 @@
+qtpip/__init__.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+qtpip/__main__.py,sha256=b3rA1Lprav_QGUacd-iXu0GsxEXVyGyWCb--MDeO_QU,187
+qtpip/qtpip,sha256=tPZd-QfnSg9zZPd558njE5MX_Ub6R6YMiiaV5A-vpsM,12016144
+qtpip/tool.py,sha256=hBaaD3biaa3G1SBgygh8HqCXVZtT_6R56DbfkFEgn3w,260
+qtpip-0.1.dist-info/LicenseRef-Qt-Commercial.txt,sha256=mx9QquYmf51eDOtnde6GRQJiwl7HwFc-FR_l0_GKRwA,462
+qtpip-0.1.dist-info/METADATA,sha256=vTfg7JbJ0XHjFvaxIEItdAeDN8q2UKmUKtFVHdgIQo0,975
+qtpip-0.1.dist-info/WHEEL,sha256=Ab5VyeEFD7Jnee-PbVZ8DLYu847dqfkWQVNkHmU886o,110
+qtpip-0.1.dist-info/entry_points.txt,sha256=RYgFt_d0ueRZSsmh8APivZIY1ni6TKQZ7jbigm30LRQ,47
+qtpip-0.1.dist-info/top_level.txt,sha256=utJZlM4AnLzuC_qUSUWMyyQ-YvS6AIAuZvEOPlFUDhQ,6
+qtpip-0.1.dist-info/RECORD,,

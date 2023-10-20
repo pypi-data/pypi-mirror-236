@@ -1,0 +1,2 @@
+[console_scripts]
+qtpip = qtpip.tool:run_qtpip
