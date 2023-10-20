@@ -1,0 +1,8 @@
+simple_commands_model/__init__.py,sha256=JI0PemlvafMWkf0TBlWLNAXthSZqr-4gP1XNnxSqiWo,59
+simple_commands_model/image_process/process_image.py,sha256=mq_QsJ3ezbPnaL7EMhqmzq2VGMOytQNc5sNkk9JGj7Q,417
+simple_commands_model/tf/cnn.py,sha256=ZFVXQBjPAqgZL1yspHgCBGZpdRxG0Tt9zGJItSOQHm4,469
+simple_commands_model-0.0.1.dist-info/LICENSE,sha256=k1uUZ25Ne_mz5L4Wb-Wkt3ieMEaoetnGrYPV6EGJG9g,1091
+simple_commands_model-0.0.1.dist-info/METADATA,sha256=tWapV6DOTqxWXyUrsQ61ycdXuLBsIFg7mANKfgNmRQ0,554
+simple_commands_model-0.0.1.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+simple_commands_model-0.0.1.dist-info/top_level.txt,sha256=4cIh7hKlPVJqfUjrCHjMq-hMPDtCFYmK7OCKzdnTlSA,83
+simple_commands_model-0.0.1.dist-info/RECORD,,
