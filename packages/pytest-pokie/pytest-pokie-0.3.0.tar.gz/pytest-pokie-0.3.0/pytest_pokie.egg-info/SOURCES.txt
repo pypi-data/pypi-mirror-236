@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.cfg
+setup.py
+.github/workflows/publish.yml
+pytest_pokie/__init__.py
+pytest_pokie/client.py
+pytest_pokie/constants.py
+pytest_pokie/plugin.py
+pytest_pokie.egg-info/PKG-INFO
+pytest_pokie.egg-info/SOURCES.txt
+pytest_pokie.egg-info/dependency_links.txt
+pytest_pokie.egg-info/not-zip-safe
+pytest_pokie.egg-info/requires.txt
+pytest_pokie.egg-info/top_level.txt
