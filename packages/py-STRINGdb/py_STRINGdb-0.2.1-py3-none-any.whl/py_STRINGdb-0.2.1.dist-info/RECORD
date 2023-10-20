@@ -1,0 +1,12 @@
+STRINGdb/__init__.py,sha256=htsdDKS1jD2vYgY1h9eseKXDYLRkCNpTUUKVN_vmD8o,85
+STRINGdb/graph.py,sha256=rJ8_Ot4Bh0SF_Er-WvY7AFG6WwPMDrduj659WdbwpNA,2230
+STRINGdb/graph_tool_back.py,sha256=MOpe9LTwRnQULtNUd_n2wANWNKu-f_nclK3LnB7TTEg,890
+STRINGdb/network.py,sha256=7EGyYV241ELHxBX4yAvOCsdLYGC15jYDi5f5ghW4ey8,3744
+STRINGdb/prep.py,sha256=JoERc6NKZsJ7OCSmATIJRAj6EwNENhUZFUoLsl8iAVA,4921
+STRINGdb/version.py,sha256=L5oc0-SMpAp38eXZvxZONY87NGPDFxLWoTW_C8LOM-Y,935
+py_STRINGdb-0.2.1.dist-info/LICENSE,sha256=VF3xHCqL-MX85TMZIMeDUfdXrv2QEm0HZYC862bA1WE,35059
+py_STRINGdb-0.2.1.dist-info/METADATA,sha256=ZDKZ93cMX09-dK9Jd7VK_tjljgnRC7IZcXd9BmvlnCM,334
+py_STRINGdb-0.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+py_STRINGdb-0.2.1.dist-info/entry_points.txt,sha256=cD_PP0_GqJuRFndBTz9ojjzVIH6-FRV7yxBsOM9_zH4,48
+py_STRINGdb-0.2.1.dist-info/top_level.txt,sha256=PcnPylFhnZ4tlYWX6n_-LN3j_5g_Tj0cgl16VsGw3Ro,9
+py_STRINGdb-0.2.1.dist-info/RECORD,,
