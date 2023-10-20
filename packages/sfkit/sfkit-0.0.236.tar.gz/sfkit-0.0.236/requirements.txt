@@ -1,0 +1,25 @@
+black
+bs4
+checksumdir
+coverage
+google-auth
+google-cloud-storage
+ipaddr
+matplotlib
+numpy
+pandas
+PyNaCl
+pytest
+pytest-mock
+qmplot
+requests[socks] # for proxy server (SOCKS5)
+scipy
+setuptools
+sphinx
+sphinx-argparse
+sphinx-rtd-theme
+sphinx-inline-tabs
+sphinx-copybutton
+tomlkit
+tqdm
+urllib3
