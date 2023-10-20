@@ -1,0 +1,10 @@
+Tablas
+Secciones
+Combinatoria
+Simplificar fracciones simples
+Algorithmic
+arreglar llaves lbrace y rbrace
+agregar label
+arreglar viñetas blancas
+numeración de newteorems
+revisar langle y rangle, abreángulo/cierraángulo ⟨ ⟩
