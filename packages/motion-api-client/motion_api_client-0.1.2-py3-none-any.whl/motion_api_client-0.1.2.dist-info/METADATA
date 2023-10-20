@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: motion-api-client
+Version: 0.1.2
+Summary: 
+Author: James Lund
+Author-email: james.s.lund@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Use-Motion-Api-Client
+
+This is designed as a WiP api client for the task management app [Motion](https://www.usemotion.com/)
+It's a wrapper around their API, documentation for which can be found [here](https://docs.usemotion.com/docs/motion-rest-api/44e37c461ba67-motion-rest-api)
+
+## Disclaimer
+I'm mostly working on this for an integration of my own between Todoist and Motion, so haven't mapped out all endpoints.
+If there's an endpoint you'd like adding, create and issue and let me know! 
