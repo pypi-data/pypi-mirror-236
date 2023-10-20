@@ -1,0 +1,11 @@
+LICENSE.txt
+README.txt
+setup.py
+hdrezka/__init__.py
+hdrezka/file_utils.py
+hdrezka/hdrezka.py
+lapkomo2018_hdrezka.egg-info/PKG-INFO
+lapkomo2018_hdrezka.egg-info/SOURCES.txt
+lapkomo2018_hdrezka.egg-info/dependency_links.txt
+lapkomo2018_hdrezka.egg-info/requires.txt
+lapkomo2018_hdrezka.egg-info/top_level.txt

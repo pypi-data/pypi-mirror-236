@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lapkomo2018_hdrezka
+Version: 0.0.2
+Summary: Package that help to get a direct film url from hdrezka.ag
+Author: lapkomo2018
+Author-email: lapkomo2018@gmail.com
+Requires-Python: ~=3.10
+License-File: LICENSE.txt
+Requires-Dist: selenium~=4.14.0
+Requires-Dist: requests~=2.31.0
+Requires-Dist: tqdm~=4.66.1
+Requires-Dist: webdriver-manager>=4.0.1
+
+Package that help to get a direct film url from hdrezka.ag
