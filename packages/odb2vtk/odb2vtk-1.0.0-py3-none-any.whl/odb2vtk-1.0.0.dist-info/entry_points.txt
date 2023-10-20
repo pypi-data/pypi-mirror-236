@@ -1,0 +1,3 @@
+[console_scripts]
+odb2vtk = odb2vtk.__main__:main
+odb2vtk-multiprocess = odb2vtk.multiprocess:main
