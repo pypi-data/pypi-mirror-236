@@ -1,0 +1,13 @@
+tidyX/SpacyPreprocessor.py,sha256=UADjbXbz-biiCKxP01QNzZU6NpsdnrjLmE5jY7o2zxE,6278
+tidyX/TextPreprocessor.py,sha256=FRl3ercHcGaj1DtwDqrLeqBQH4S1ZEo0mjKVxdbSl20,19793
+tidyX/TextVisualizer.py,sha256=wL9o7DTcUxsxwAd1rcocKZVwq5AiV-U6t7eDx8-Y19U,2424
+tidyX/__init__.py,sha256=eDiDIb2Xd8Vi7EhQSLV8OO3A3_IEOnAXoN6dx5MNpQg,143
+tidyX/spacy_preprocessor.py,sha256=CCbR05wIgUfT7bajXaS7l5_1lvhVKXwi4TgOeXHUkIk,6279
+tidyX/text_preprocessor.py,sha256=HLsGh8nPlRAqMvOTGpBPLYtHcxJqG8CC5ageIBxrioE,21295
+tidyX/text_visualizer.py,sha256=wL9o7DTcUxsxwAd1rcocKZVwq5AiV-U6t7eDx8-Y19U,2424
+tidyX/word_normalization.py,sha256=ykS5v-0mG3CyomnkiS4WX2_zqXo_yCiMesVRnZGA0Ic,2633
+tidyX-1.4.1.dist-info/LICENSE.rst,sha256=NtlCjU7kPRMf2jhdxFYKenOWm73dJXPca2fzK_IUDFM,1094
+tidyX-1.4.1.dist-info/METADATA,sha256=AfM2Cez0R3Pa0G7ClUmDUhEzWtukELpW-vRd4zFWqyo,10574
+tidyX-1.4.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+tidyX-1.4.1.dist-info/top_level.txt,sha256=IdI8T8eDPl_W3xWdzPo4hVa3KlJGgnq7t5oIUEJ-J3E,6
+tidyX-1.4.1.dist-info/RECORD,,
