@@ -1,0 +1,16 @@
+[project]
+name = "scalyca"
+version = "0.1.0"
+authors = [
+    { name = "Martin Baláž", email = "martin.balaz@trojsten.sk" }
+]
+description = "Simple Console Application with Logging, Yaml Configuration and Argparse"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sesquideus/scalyca"
