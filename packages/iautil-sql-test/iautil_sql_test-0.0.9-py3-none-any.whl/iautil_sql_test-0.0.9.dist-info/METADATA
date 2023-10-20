@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: iautil-sql-test
+Version: 0.0.9
+Summary: IA SQL Testing Utils
+License-File: LICENSE
+Requires-Dist: iautil
+Requires-Dist: psycopg2
+Provides-Extra: rel
+Requires-Dist: twine ; extra == 'rel'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: iautil-test ; extra == 'test'
+Requires-Dist: line-profiler ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-capturelog ; extra == 'test'
+Requires-Dist: pytest-line-profiler ; extra == 'test'
+Requires-Dist: pytest-mypy ; extra == 'test'
+Requires-Dist: pytest-pylint ; extra == 'test'
+
