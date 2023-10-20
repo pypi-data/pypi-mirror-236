@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: deepfellow
+Version: 0.2.3
+Summary: DeepFellow
+Author: Simplito
+Requires-Dist: torchserve
+
