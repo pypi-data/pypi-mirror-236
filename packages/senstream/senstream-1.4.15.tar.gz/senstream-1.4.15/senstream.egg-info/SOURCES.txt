@@ -1,0 +1,7 @@
+README.md
+setup.py
+senstream.egg-info/PKG-INFO
+senstream.egg-info/SOURCES.txt
+senstream.egg-info/dependency_links.txt
+senstream.egg-info/requires.txt
+senstream.egg-info/top_level.txt
