@@ -1,0 +1,11 @@
+conjugate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conjugate/_typing.py,sha256=AiMS8Ek6p_vGQ-59XUEKibPpEHbjFDhuDbCmA2IRYkg,602
+conjugate/distributions.py,sha256=oG8Xl6ysJ6hh6ovNcLieQ4e6wmkEK2YAOJWL4YSg49I,9852
+conjugate/models.py,sha256=mCjKf-fgvBXDIXZXdA5rR79vRn9nI5hgpgQni1JCT8o,8449
+conjugate/plot.py,sha256=XRZXOXxQq8YpjoJiZj8ZexQbE6YJDb4_kcd3VU4Yrk4,5921
+conjugate/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+conjugate/slice.py,sha256=i-1veyILuYV_shSfAP10Mh4h2NwQLHFGQ0lLjiDPD10,428
+conjugate_models-0.1.6.dist-info/LICENSE,sha256=dC1BuNHBb5qsK4nDA0C4clRupZzgbcbJROnWrmAfUfg,1066
+conjugate_models-0.1.6.dist-info/METADATA,sha256=ug70YoReDdqPqVsZJ6O4iGIlAwoGDmZJV4imUyYL0VM,2538
+conjugate_models-0.1.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+conjugate_models-0.1.6.dist-info/RECORD,,
