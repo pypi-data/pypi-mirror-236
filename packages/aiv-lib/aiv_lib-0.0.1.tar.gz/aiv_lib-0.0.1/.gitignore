@@ -1,0 +1,29 @@
+# created by virtualenv automatically
+virtualenv
+# created by virtualenvwrapper automatically
+venv
+# created by pip --venv
+.venv
+# custom
+env
+
+# pyenv
+.python-version
+
+credentials/
+.env
+.env.local
+.env.*.local
+.vscode/
+bin/
+frames/
+lib/
+
+
+pipfile
+pyvenv.cfg
+
+# mypy
+.mypy_cache/
+
+__pycache__/
