@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/xyShiftSplit/__init__.py
+src/xyShiftSplit/xyShiftSplit.py
+src/xyShiftSplit.egg-info/PKG-INFO
+src/xyShiftSplit.egg-info/SOURCES.txt
+src/xyShiftSplit.egg-info/dependency_links.txt
+src/xyShiftSplit.egg-info/top_level.txt
