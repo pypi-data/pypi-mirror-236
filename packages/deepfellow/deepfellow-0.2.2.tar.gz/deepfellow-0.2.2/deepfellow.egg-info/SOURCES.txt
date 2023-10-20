@@ -1,0 +1,10 @@
+pyproject.toml
+deepfellow/__init__.py
+deepfellow/asr.py
+deepfellow/base.py
+deepfellow/test.py
+deepfellow.egg-info/PKG-INFO
+deepfellow.egg-info/SOURCES.txt
+deepfellow.egg-info/dependency_links.txt
+deepfellow.egg-info/requires.txt
+deepfellow.egg-info/top_level.txt
