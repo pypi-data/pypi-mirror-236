@@ -1,0 +1,16 @@
+nvitop
+redis
+transformers
+datasets
+evaluate
+pandas
+dingtalkchatbot
+psutil
+nltk
+jsonlines
+omegaconf
+tiktoken
+setproctitle
+rich
+comet_ml
+hydra_colorlog
