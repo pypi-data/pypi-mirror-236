@@ -1,0 +1,2 @@
+[console_scripts]
+linearinit = linearinit.__main__:main
