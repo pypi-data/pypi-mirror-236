@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+setup.cfg
+jogseq/__init__.py
+jogseq/utils.py
+jogseq/tasks/__init__.py
+jogseq/tasks/seq.py
+task_jogger_jogseq.egg-info/PKG-INFO
+task_jogger_jogseq.egg-info/SOURCES.txt
+task_jogger_jogseq.egg-info/dependency_links.txt
+task_jogger_jogseq.egg-info/top_level.txt
