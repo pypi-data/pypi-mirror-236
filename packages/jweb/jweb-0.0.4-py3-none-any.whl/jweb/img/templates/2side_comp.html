@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Image Viewer</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <style>
+      .file-list {
+        overflow-y: auto;
+        max-height: 1000px;
+        position: sticky;
+        top: 0;
+      }
+
+      .image-display {
+        overflow-y: auto;
+        max-height: 1000px;
+      }
+
+      img {
+        max-width: 600px;
+        max-height: 600px;
+      }
+
+      .image-container {
+        position: relative;
+        text-align: center;
+      }
+
+      .caption {
+        font-size: 16px;
+        font-weight: bold;
+      }
+
+      .vertical-line {
+        border-left: 3px solid black;
+        height: 100%;
+        position: absolute;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Left Part -->
+        <div class="col-md-6">
+          <div class="row mb-3 align-items-center">
+            <div class="col-md-4">
+              <button
+                id="clear-checkboxes-left"
+                class="btn btn-secondary btn-block mb-1"
+              >
+                Clear Selection
+              </button>
+            </div>
+            <div class="col-md-4">
+              <button
+                id="select-all-left"
+                class="btn btn-primary btn-block mb-1"
+              >
+                Select All
+              </button>
+            </div>
+            <div class="col-md-4">
+              <input
+                id="regex-left"
+                class="form-control"
+                placeholder="Enter regex to filter"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div
+              id="file-list-left"
+              class="list-group col-md-4 file-list"
+            ></div>
+            <div
+              id="image-display-left"
+              class="col-md-8 mt-3 image-display"
+            ></div>
+          </div>
+        </div>
+        <!-- Vertical Line -->
+        <div class="vertical-line"></div>
+        <!-- Right Part -->
+        <div class="col-md-6">
+          <div class="row mb-3 align-items-center">
+            <div class="col-md-4">
+              <button
+                id="clear-checkboxes-right"
+                class="btn btn-secondary btn-block mb-1"
+              >
+                Clear Selection
+              </button>
+            </div>
+            <div class="col-md-4">
+              <button
+                id="select-all-right"
+                class="btn btn-primary btn-block mb-1"
+              >
+                Select All
+              </button>
+            </div>
+            <div class="col-md-4">
+              <input
+                id="regex-right"
+                class="form-control"
+                placeholder="Enter regex to filter"
+              />
+            </div>
+          </div>
+          <div class="row">
+            <div
+              id="file-list-right"
+              class="list-group col-md-4 file-list"
+            ></div>
+            <div
+              id="image-display-right"
+              class="col-md-8 mt-3 image-display"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      function loadFiles(side, regex) {
+        let endpoint = regex
+          ? `/list_images/${side}/${regex}`
+          : `/list_images/${side}/`;
+        $.getJSON(endpoint, function (data) {
+          $(`#file-list-${side}`).empty();
+          data.files.forEach((file) => {
+            let listItem = `
+                <div class="list-group-item">
+                <div class="form-check">
+                    <input class="form-check-input image-checkbox-${side}" type="checkbox" value="${file}">
+                    <label class="form-check-label">${file}</label>
+                </div>
+                </div>`;
+            $(`#file-list-${side}`).append(listItem);
+          });
+        }).fail(function () {
+          $(`#file-list-${side}`).empty();
+          $(`#file-list-${side}`).append(
+            '<div class="list-group-item text-danger">Invalid regex</div>',
+          );
+        });
+      }
+
+      $(document).ready(function () {
+        loadFiles("left", "");
+        loadFiles("right", "");
+
+        // Clear all checkboxes
+        $("#clear-checkboxes-left, #clear-checkboxes-right").click(function () {
+          let side = this.id.split("-")[2];
+          $(`.image-checkbox-${side}`).prop("checked", false);
+          $(`#image-display-${side}`).empty();
+        });
+
+        $("#regex-left, #regex-right").on("input", function () {
+          let side = this.id.split("-")[1];
+          loadFiles(side, $(this).val());
+        });
+
+        // Select all checkboxes and display all images
+        $("#select-all-left, #select-all-right").click(function () {
+          let side = this.id.split("-")[2];
+          $(`.image-checkbox-${side}`).prop("checked", true);
+          $(`#image-display-${side}`).empty();
+          $(`.image-checkbox-${side}:checked`).each(function () {
+            let filePath = `${$(this).val()}`;
+            let imageWithCaption = `
+    <div class="image-container text-center">
+        <div class="caption">${filePath}</div>
+        <img src="/images/${side}/${filePath}" alt="${filePath}">
+    </div><br>`;
+            $(`#image-display-${side}`).append(imageWithCaption);
+          });
+        });
+
+        $(document).on(
+          "change",
+          ".image-checkbox-left, .image-checkbox-right",
+          function () {
+            let side;
+            if ($(this).hasClass("image-checkbox-left")) {
+              side = "left";
+            } else if ($(this).hasClass("image-checkbox-right")) {
+              side = "right";
+            }
+            $(`#image-display-${side}`).empty();
+            $(`.image-checkbox-${side}:checked`).each(function () {
+              let filePath = `${$(this).val()}`;
+              let imageWithCaption = `
+    <div class="image-container text-center">
+        <div class="caption">${filePath}</div>
+        <img src="/images/${side}/${filePath}" alt="${filePath}">
+    </div><br>`;
+              $(`#image-display-${side}`).append(imageWithCaption);
+            });
+          },
+        );
+      });
+    </script>
+  </body>
+</html>

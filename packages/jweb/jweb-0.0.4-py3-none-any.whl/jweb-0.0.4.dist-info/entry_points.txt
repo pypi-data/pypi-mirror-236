@@ -1,0 +1,3 @@
+[console_scripts]
+jw_img=jweb.img.app:main
+
