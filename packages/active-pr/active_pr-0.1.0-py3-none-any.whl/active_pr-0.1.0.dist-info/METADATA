@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: active-pr
+Version: 0.1.0
+Summary: an active report of PRs in the github
+Home-page: https://github.com/kyoto7250/active_pr
+License: MIT
+Keywords: api,github,cli,report
+Author: kyoto7250
+Author-email: 50972773+kyoto7250@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyGithub (>=2.1.1,<3.0.0)
+Requires-Dist: rich (>=13.6.0,<14.0.0)
+Requires-Dist: tabulate (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/kyoto7250/active_pr
+Description-Content-Type: text/markdown
+
+# active_pr
+an active report of PRs in the github.
+
+
+
+## install
+```bash
+pip install active_pr
+```
+
+## access token
+We should get a reading only github token [here](https://github.com/settings/tokens?type=beta) for access, and set in our env.
+```bash
+export GITHUB_TOKEN=<your token>
+```
+
+
+## usage
+```bash
+export | grep "GITHUB_TOKEN"
+GITHUB_TOKEN=<github token>
+
+# search created_at='begin..end' and state is the current state.
+active_pr \
+    --author kyoto7250 \
+    --begin 2023-04-01 \
+    --end 2023-04-30 \
+    --type both \
+    --state closed
+    # --github-token <github token>
+
+
+| repo_name             | type   | title                                                                                                                | created_at   | closed_at   |
+|-----------------------|--------|----------------------------------------------------------------------------------------------------------------------|--------------|-------------|
+| astral-sh/ruff        | PR     | [[`flake8-simplify`] Implement `dict-get-with-none-default` (`SIM910`)](https://github.com/astral-sh/ruff/pull/3874) | 2023-04-04   | 2023-04-04  |
+| astral-sh/ruff        | PR     | [Supports more cases in `SIM112`](https://github.com/astral-sh/ruff/pull/3876)                                       | 2023-04-04   | 2023-04-04  |
+| dondongwon/LPMDataset | ISSUE  | [Where is the `scrape_scope` column  at `raw_video_links.csv`?](https://github.com/dondongwon/LPMDataset/issues/3)   | 2023-04-25   | 2023-06-07  |
+
+``````
+
+
+## contribute
+If you have suggestions for features or improvements to the code, please feel free to create an issue or PR.
+

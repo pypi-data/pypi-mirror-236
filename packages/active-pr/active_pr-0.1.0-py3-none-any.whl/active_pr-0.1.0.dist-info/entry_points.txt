@@ -1,0 +1,3 @@
+[console_scripts]
+active_pr=active_pr.cli:main
+
