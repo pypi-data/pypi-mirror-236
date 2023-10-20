@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: promptmodel
+Version: 0.0.4
+Summary: Prompt & model versioning on the cloud, built for developers.
+Home-page: https://github.com/weavel-ai/promptmodel
+Author: weavel
+Keywords: weavel,agent,llm,tools,promptmodel,llm agent,prompt,versioning,eval,evaluation
+Requires-Python: >=3.7.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<div align="center">
+    <a href="https://www.promptmodel.run">
+        <h1>Promptmodel</h1>
+    </a>
+    <p>
+        <h3>Prompt & model versioning on the cloud, built for developers.</h3>
+        <p>
+            We are currently on <strong>closed alpha</strong>.
+            <a href="https://formless.ai/c/RtUfMCsh9YSs">Request access 🚀</a>
+        </p>
+    </p>
+    <div>
+        <a href="https://pypi.org/project/fastrepl" target="_blank">
+            <img src="https://img.shields.io/pypi/v/promptmodel.svg" alt="PyPI Version">
+        </a>
+        <a href="https://discord.gg/4pUM3C4rbA" target="_blank">
+            <img src="https://dcbadge.vercel.app/api/server/dVTtyEU4?style=flat">
+        </a>
+    </div>
+</div>
+
+## Installation
+
+```bash
+pip install promptmodel
+```
+
+## Documentation
+
+You can find our full documentation [here](https://www.promptmodel.run/docs/intro).
