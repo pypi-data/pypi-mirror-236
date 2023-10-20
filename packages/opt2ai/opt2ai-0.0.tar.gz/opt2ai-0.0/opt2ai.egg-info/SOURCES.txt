@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+opt2ai.egg-info/PKG-INFO
+opt2ai.egg-info/SOURCES.txt
+opt2ai.egg-info/dependency_links.txt
+opt2ai.egg-info/not-zip-safe
+opt2ai.egg-info/requires.txt
+opt2ai.egg-info/top_level.txt
