@@ -1,0 +1,5 @@
+pyquil~=4.0
+orquestra-quantum
+
+[dev]
+orquestra-python-dev
