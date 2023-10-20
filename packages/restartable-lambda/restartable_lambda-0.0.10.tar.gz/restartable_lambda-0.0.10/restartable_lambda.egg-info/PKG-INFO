@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: restartable-lambda
+Version: 0.0.10
+Summary: Allow to create restartable lambda
+Home-page: UNKNOWN
+Author: Samuel Courthial
+Author-email: samuel.courthial.18@gmail.com
+License: UNKNOWN
+Keywords: python,aws,lambda,restartable,restart,boto3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+
+A base class containing useful methods to monitor and restart a lambda while keeping its context, storing it on AWS
+
