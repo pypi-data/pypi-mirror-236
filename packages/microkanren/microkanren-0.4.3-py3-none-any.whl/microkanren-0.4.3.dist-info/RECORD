@@ -1,0 +1,10 @@
+microkanren/__init__.py,sha256=4JAhdniXZMOTrppvo4cElnrUIwrZ5B6K6lKj8ww-yjM,34
+microkanren/cons.py,sha256=qPeuQiCbP9P5A0wQtUPHY04AGmEe5D4cRAbC9r8uODQ,235
+microkanren/core.py,sha256=pQI5DIR95UQMsQUeaDRiqbTGvDrHC25PHOIkQZkUB0M,16866
+microkanren/fd.py,sha256=hdKfm8tBIRYwqgDvCelo_8ObcBY5LJ2Ube6V2Y2U1hk,10851
+microkanren/goals.py,sha256=b2n1c4SBmvQfzPTxLZKWa2zO_mMQswPakcTYhu9KsjY,4104
+microkanren/utils.py,sha256=D8u96sbvQPr9bOBW-qEZA61BmiUghcVoWv5ixms9AeY,286
+microkanren-0.4.3.dist-info/METADATA,sha256=zABdo2cSNfDNgbwGC35dCFJqs2mzP_NDGzDz9sVqLos,8367
+microkanren-0.4.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+microkanren-0.4.3.dist-info/licenses/LICENSE,sha256=NFxAD2PUYgNR70UGw3D3PXavckmcB7iPxpe1GF6Rug4,1068
+microkanren-0.4.3.dist-info/RECORD,,
