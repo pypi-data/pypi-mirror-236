@@ -1,0 +1,9 @@
+mercupy_msgpack/__init__.py,sha256=lp7BAusikHhmnS0hyYWLQGZwuM_SpZVoqVwm_CeohK4,1392
+mercupy_msgpack/_data_elements.py,sha256=kK_zHkNqAEib0AgVV6gSAJ7rFqdy9kuxZgOAEYmfYy0,5160
+mercupy_msgpack/_filter_elements.py,sha256=EDHN868PfR9eJf6ig0aLr6ndpoGBRIekYsEr9Ejelk0,18457
+mercupy_msgpack/_manifest_elements.py,sha256=JqK3BfjFov_fmBUiW2ZH3jUvyD8ZbcnGTAvHucgFOYM,12823
+mercupy_msgpack/_tags.py,sha256=tzjMW7K2ZrJpSLPfjmkmNu66JKzMnvNwcKI0l_WSPnk,3165
+mercupy_msgpack-0.0.0.dist-info/METADATA,sha256=NgtrYqTJHorxRh4sH8lKHvDhsbjAFKpB5-tU2r9Q_6M,1193
+mercupy_msgpack-0.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+mercupy_msgpack-0.0.0.dist-info/licenses/LICENSE,sha256=n3ZHz1RUmp0NQsqbcVDOZg4uFebVvmpQ5A7UB2-07sM,1068
+mercupy_msgpack-0.0.0.dist-info/RECORD,,

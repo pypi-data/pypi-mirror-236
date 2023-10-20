@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mercupy_msgpack
+Version: 0.0.0
+Summary: Python implementation for mercury-msgpack based on Mercupy, which allows serializing & deserializing Mercupy objects to and from MessagePack.
+Project-URL: Homepage, https://trent-fellbootman.github.io/mercury.io/
+Project-URL: GitHub, https://github.com/Trent-Fellbootman/mercury
+Project-URL: Documentation, https://mercurynn.readthedocs.io/en/latest/
+Author-email: Trent Fellbootman <trentfellbootman@gmail.com>
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: <4.0,>=3.12
+Requires-Dist: mercupy==0.0.0
+Requires-Dist: msgpack<2.0.0,>=1.0.7
+Requires-Dist: numpy<2.0.0,>=1.26.1
+Requires-Dist: typeguard<5.0.0,>=4.1.5
+Description-Content-Type: text/markdown
+
+# Mercury
+
+Python implementation for mercury-msgpack based on Mercupy,
+which allows serializing & deserializing Mercupy objects to and from MessagePack.
+
+## Links
+
+[Mercury Project Homepage](https://trent-fellbootman.github.io/mercury.io)
+
+[Mercury GitHub Repository](https://github.com/Trent-Fellbootman/mercury)
+
+[Mercury Documentation](https://mercurynn.readthedocs.io/en/latest/)
