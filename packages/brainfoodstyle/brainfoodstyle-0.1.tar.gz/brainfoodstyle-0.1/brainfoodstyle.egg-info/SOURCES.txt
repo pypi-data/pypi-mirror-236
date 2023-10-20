@@ -1,0 +1,8 @@
+README.md
+setup.py
+bfstyle/__init__.py
+bfstyle/load_bf_style.py
+brainfoodstyle.egg-info/PKG-INFO
+brainfoodstyle.egg-info/SOURCES.txt
+brainfoodstyle.egg-info/dependency_links.txt
+brainfoodstyle.egg-info/top_level.txt
