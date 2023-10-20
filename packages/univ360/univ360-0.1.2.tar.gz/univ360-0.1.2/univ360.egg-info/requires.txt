@@ -1,0 +1,9 @@
+urllib3
+Pillow
+base64
+glob
+io
+json
+dataclasses
+os
+re
