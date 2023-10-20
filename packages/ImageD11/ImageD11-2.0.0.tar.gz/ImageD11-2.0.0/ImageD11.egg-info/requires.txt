@@ -1,0 +1,42 @@
+six
+numpy
+setuptools
+fabio
+xfab>=0.0.4
+matplotlib
+pyopengltk
+scipy
+h5py
+pyyaml
+pytest
+bslz4_to_sparse
+fast_histogram
+scikit-image
+hdf5plugin
+tqdm
+
+[:python_version < "3"]
+numba==0.46.0
+
+[:python_version > "3"]
+numba
+
+[full]
+pillow
+lmfit
+PyMca5
+sympy
+ipywidgets
+pyopencl
+
+[full:python_version < "3"]
+pyFAI<=0.18.0
+
+[full:python_version >= "3"]
+pyFAI
+silx[full]
+
+[rare]
+FitAllB
+minuit
+PyTango
