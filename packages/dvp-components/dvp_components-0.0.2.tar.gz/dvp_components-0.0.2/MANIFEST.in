@@ -1,0 +1,11 @@
+include dvp_components/dvp_components.min.js
+include dvp_components/dvp_components.min.js.map
+include dvp_components/async-*.js
+include dvp_components/async-*.js.map
+include dvp_components/*-shared.js
+include dvp_components/*-shared.js.map
+include dvp_components/metadata.json
+include dvp_components/package-info.json
+include README.md
+include LICENSE
+include package.json
