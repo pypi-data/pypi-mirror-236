@@ -1,0 +1,36 @@
+[metadata]
+icon = "octicon:info-16"
+
+[requirements.extension.admonition]
+[requirements.extension."pymdownx.details"]
+[requirements.extension."pymdownx.superfences"]
+
+
+[examples."Annotations"]
+jinja = """
+!!! note annotate
+
+    MkAdmonitions can carry annotations(1).
+
+1.  Super handy!
+
+``` py
+node = mk.MkAdmonition("MkAdmonitions can carry annotations(1).")
+node.annotations[1] = "Super handy!"
+page += mk.MkReprRawRendered(node)
+```
+"""
+
+[examples."Types"]
+jinja = """
+{{ "Different types." | MkAdmonition(typ="warning") | MkReprRawRendered }}
+"""
+
+"Collapsible and expandable" = """
+{{ "Admonitions can also be collapsible." | MkAdmonition(collapsible=True, title="Expand me!", expanded=True) | MkReprRawRendered }}
+"""
+
+[examples."Inlined"]
+jinja = """
+{{ "Inlined" | MkAdmonition(inline="left") | MkReprRawRendered }}
+"""
