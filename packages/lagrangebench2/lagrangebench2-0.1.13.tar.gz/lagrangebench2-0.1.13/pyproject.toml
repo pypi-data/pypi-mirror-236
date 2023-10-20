@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "lagrangebench2"
+version = "0.1.13"
+description = "LagrangeBench: A Lagrangian Fluid Mechanics Benchmarking Suite"
+authors = [
+    "Artur Toshev <artur.toshev@tum.de>",
+    "Gianluca Galletti <g.galletti@tum.de>",
+]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+poethepoet = ">=0.18.1" # TODO only for torch cpu. update as soon as poetry is fixed
+python = ">=3.9,<3.11" # TODO update as soon as jaxmd is compatible with python>3.11
+cloudpickle = ">=2.2.1"
+h5py = ">=3.9.0"
+PyYAML = ">=6.0"
+numpy = ">=1.24.4"
+wandb = ">=0.15.11"
+pyvista = ">=0.42.2"
+jax = "^0.4.16"
+dm-haiku = ">=0.0.10"
+e3nn-jax = "0.20.0"
+jax-md = "0.2.8"
+jmp = "^0.0.4"
+jraph = "0.0.6.dev0"
+optax = "0.1.7"
+ott-jax = "^0.4.4"
+# torch = { version = "2.0.1", source = "torchcpu" }
+gdown = "^4.7.1"
+matscipy = "^0.8.0"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = ">=3.3.1"
+pytest = ">=7.3.1"
+black = ">=23.3.0"
+ruff = "0.0.265"
+ipykernel = ">=6.25.1"
+
+[tool.poetry.group.docs.dependencies]
+sphinx = "^7.2.6"
+sphinx-rtd-theme = "^1.3.0"
+
+# [[tool.poetry.source]]
+# name = "torchcpu"
+# url = "https://download.pytorch.org/whl/cpu"
+# priority = "primary"
+
+[tool.poe.tasks] # TODO workaround for torch cpu. update as soon as poetry is fixed
+force-cuda11 = "python -m pip install torch==2.0.1+cpu"
+
+[tool.ruff]
+ignore = ["F811", "E402"]
+exclude = [
+    ".git",
+    ".venv",
+    "venv",
+]
+line-length = 88
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
