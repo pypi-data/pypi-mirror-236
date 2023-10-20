@@ -1,0 +1,11 @@
+diaspora_logger/__init__.py,sha256=0kAEdl1s7YsgVDbkU6NAl0ZLFUmyXv_caKz57w3KVWw,121
+diaspora_logger/credential.py,sha256=Q4Hq9eXOoZN0OI6DIPTPaZzJ1-m2aD4DM7weyWBvu7s,4344
+diaspora_logger/logger.py,sha256=d-z_gHdw46n9MiEBDr93mI53-B6wrXH7hJs7opjzqw0,2106
+diaspora_logger/examples/__init__.py,sha256=H0jYGoKmdjuXMGq7UozpJdoLxQUCH3PhvOenZtjJX6c,101
+diaspora_logger/examples/example_consumer.py,sha256=PzwDt8t6kvczsdkXrEctjIGQ4CFqT-Y6uDXrhxc4zcM,967
+diaspora_logger/examples/example_producer.py,sha256=kN2B3P8eGXoqySy-i6vjJK2boI_ryoWjSj0zh-TTcQo,852
+diaspora_logger-0.0.8.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+diaspora_logger-0.0.8.dist-info/METADATA,sha256=f9qsRY1ykje6KHCTJz4KOdmbl9XXaeJE11a7S5WoG4w,4448
+diaspora_logger-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+diaspora_logger-0.0.8.dist-info/top_level.txt,sha256=mnQNyUliEPyjYUzHvg1NpmvU1DO8s80nhNsBt3Kdafg,16
+diaspora_logger-0.0.8.dist-info/RECORD,,
