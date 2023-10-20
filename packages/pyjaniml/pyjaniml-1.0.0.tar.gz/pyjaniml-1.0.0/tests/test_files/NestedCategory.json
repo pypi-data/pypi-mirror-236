@@ -1,0 +1,22 @@
+{
+  "Parameters": [
+    {
+      "name": "Method",
+      "parameterType": "String",
+      "value": [ "Test" ]
+    }
+  ],
+  "name": "Software",
+  "Categories": [
+    {
+      "Parameters": [
+        {
+          "name": "MethodID",
+          "parameterType": "String",
+          "value": [ "Method" ]
+        }
+      ],
+      "name": "Software2"
+    }
+  ]
+}

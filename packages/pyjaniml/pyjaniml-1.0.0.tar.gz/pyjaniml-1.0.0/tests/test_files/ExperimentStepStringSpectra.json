@@ -1,0 +1,112 @@
+{
+  "Infrastructure": { "Timestamp": "2019-05-03T12:02:23Z" },
+  "Method": {
+    "Categories": [
+      {
+        "Parameters": [
+          {
+            "name": "DoPlot",
+            "parameterType": "Boolean",
+            "value": [ true ]
+          }
+        ],
+        "name": "Graphical"
+      },
+      {
+        "Parameters": [
+          {
+            "name": "MethodID",
+            "parameterType": "String",
+            "value": [ "Software_Parameter" ]
+          }],
+        "name": "Software"
+      },
+      {
+        "Parameters": [
+          {
+            "name": "SNR",
+            "parameterType": "String",
+            "value": [ "Serial" ]
+          }
+        ],
+        "name": "Seriel Number"
+      }
+    ],
+    "Device": {
+      "deviceIdentifier": "FooFoo",
+      "manufacturer": "Foo GmbH",
+      "name": "Foo",
+      "serialNumber": "12345"
+    },
+    "name": "Method"
+  },
+  "Results": [
+    {
+      "Categories": [
+        {
+          "Parameters": [
+            {
+              "name": "COS",
+              "parameterType": "String",
+              "value": [ "0.53 // 0.21 // 0.32" ]
+            },
+            {
+              "name": "PEX",
+              "parameterType": "String",
+              "value": [ "0.88 // 0.9 // 0.89" ]
+            },
+            {
+              "name": "PET",
+              "parameterType": "String",
+              "value": [ "2.9 // 3.18 // 3.12" ]
+            },
+            {
+              "name": "PEW",
+              "parameterType": "String",
+              "value": [ "3.44 // 1.43 // 2.46" ]
+            },
+            {
+              "name": "PES",
+              "parameterType": "String",
+              "value": [ "0.96 // 0.94 // 0.9" ]
+            }
+          ],
+          "name": "NormValues"
+        }
+      ],
+      "SeriesSet": {
+        "Series": [
+          {
+            "AutoIncrementedValueSets": [
+              {
+                "increment": -1.9284796751709,
+                "startValue": 7000
+              }
+            ],
+            "dependency": "dependend",
+            "name": "wavenumbers",
+            "plotScale": "linear",
+            "seriesID": "wavenumbers",
+            "seriesType": "Float64",
+            "visible": true
+          },
+          {
+            "IndividualValueSets": "[ [ -2.3641903592601446e-06, -2.8332930505446985e-06, 7.26579150715742e-06] ]",
+            "dependency": "dependend",
+            "name": "AB",
+            "plotScale": "linear",
+            "seriesID": "AB",
+            "seriesType": "Float64",
+            "visible": true
+          }
+        ],
+        "length": 3,
+        "name": "ABSpectrum"
+      },
+      "name": "EWA_1"
+    }
+  ],
+  "experimentStepID": "a76786c8-22b2-4020-8949-d55c4939121e",
+  "name": "Experiment Step Name",
+  "sourceDataLocation": "Source Name"
+}
