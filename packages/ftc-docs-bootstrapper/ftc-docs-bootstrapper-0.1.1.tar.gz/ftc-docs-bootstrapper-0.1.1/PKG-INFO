@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ftc-docs-bootstrapper
+Version: 0.1.1
+Summary: Bootstrapper for FTC documentation translations
+Home-page: https://github.com/egeakman/ftc-docs-bootstrapper
+Download-URL: https://github.com/egeakman/ftc-docs-bootstrapper/archive/0.1.1.tar.gz
+Author: egeakman
+Author-email: me@egeakman.dev
+License: MIT
+Project-URL: Homepage, https://github.com/egeakman/ftc-docs-bootstrapper
+Project-URL: Issues, https://github.com/egeakman/ftc-docs-bootstrapper/issues
+Keywords: documentation,translation,sphinx,i18n,ftc-docs,CLI,automation,utilities
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: sphinx==4.4.0
+
+# ftc-docs-bootstrapper
+
+This repository contains the scripts and data used to bootstrap a new translation of the FTC documentation.
+
+## Installation
+
+```bash
+$ pip install ftc-docs-bootstrapper
+```
+
+## Usage
+
+```bash
+$ ftc-docs --help
+usage: ftc-docs [-h] language
+
+positional arguments:
+  language              IETF language tag (e.g. tr, pt-br)
+
+options:
+  -h, --help            show this help message and exit
+```
+
+## Example
+
+```bash
+$ ftc-docs tr
+```
