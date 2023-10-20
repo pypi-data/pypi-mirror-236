@@ -1,0 +1,13 @@
+LICENSE,sha256=krEAn_vzqvoFMf0xMy02elYuC6tHDYGBo10yd4J2xhk,1633
+neuralsens/__init__.py,sha256=_wfA3yKDOWTFgz3lRGVrwbkLPzrW1BPQKEXhi2mi0QU,159
+neuralsens/activation_functions.py,sha256=ApI-DrON5k8th5-tIPVOV0T3Coe_d2fve5hu-pxyVWw,14175
+neuralsens/daily_demand_tr.py,sha256=EEHFYGUMrYMKhAtnIRqm3wChhQ3gYkL9iVPOFW_-Ugs,1338
+neuralsens/data/daily_demand_tr.csv,sha256=JZgmCeD-d_TU8rdD6cSyKBdsxQQuyBqyDJGPJMdxyNA,92707
+neuralsens/data/daily_demand_tv.csv,sha256=Lgn0xehkgUM3lwNUzJgdET4_ECpIFNPUAqmH4WBEWas,263
+neuralsens/interaction_invariant.py,sha256=LSANN6e6rseM9IYPE648uSn9rgNuPvAyZUq2AVMNWt0,25318
+neuralsens/meta.yaml,sha256=EgVnSSH_V1m9JYUkO9S4NFsYVnvikuXpg0xrrSWZpK4,860
+neuralsens/partial_derivatives.py,sha256=bp2fl1mk65xlBYaXUQWYzXUlK-aFjJ8O6BDdqFTpyxk,68695
+neuralsens-0.0.19.dist-info/LICENSE,sha256=krEAn_vzqvoFMf0xMy02elYuC6tHDYGBo10yd4J2xhk,1633
+neuralsens-0.0.19.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+neuralsens-0.0.19.dist-info/METADATA,sha256=wE2_K8hNO-vh1ZtmMXzs2pCTd3NK8d996ZFsoiSQfXs,6201
+neuralsens-0.0.19.dist-info/RECORD,,
