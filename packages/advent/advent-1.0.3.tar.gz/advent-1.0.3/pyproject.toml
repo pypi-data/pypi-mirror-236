@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "advent"
+version = "1.0.3"
+description = "Get your Advent of Code puzzle input and much more!"
+readme = "README.md"
+authors = [{ name = "ravilnicki", email = "ravilnicki@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "python-dotenv >= 1.0.0",
+]
+requires-python = ">=3.10"
+
+[project.scripts]
+advent = "advent.__main__:main"
