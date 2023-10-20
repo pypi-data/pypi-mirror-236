@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/alpina.egg-info/PKG-INFO
+src/alpina.egg-info/SOURCES.txt
+src/alpina.egg-info/dependency_links.txt
+src/alpina.egg-info/top_level.txt

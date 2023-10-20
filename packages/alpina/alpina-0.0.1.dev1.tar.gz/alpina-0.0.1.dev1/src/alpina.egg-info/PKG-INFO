@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: alpina
+Version: 0.0.1.dev1
+Summary: A placeholder for alpina project
+Author: Xiaoyu Zhai
+Author-email: xiaoyu.zhai@hotmail.com
+Requires-Python: >=3.7
+License-File: LICENSE
