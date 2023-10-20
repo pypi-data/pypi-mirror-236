@@ -1,0 +1,3 @@
+[console_scripts]
+chatgpt-academic = main:main
+gpta = main:main
