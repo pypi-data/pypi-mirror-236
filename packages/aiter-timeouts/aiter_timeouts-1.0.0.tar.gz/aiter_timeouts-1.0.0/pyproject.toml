@@ -1,0 +1,38 @@
+[project]
+name = "aiter-timeouts"
+version = "1.0.0"
+description = "Timeout functionality for asynchronous iterators"
+authors = [
+    { name = "Elias Gabriel", email = "me@eliasfgabriel.com" },
+]
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = []
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+documentation = "https://github.com/thearchitector/aiter-timeouts"
+repository = "https://github.com/thearchitector/aiter-timeouts"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.2",
+    "pytest-asyncio>=0.21.1",
+]
+
+[tool.pytest.ini_options]
+addopts = "-svv"
+testpaths = [
+    "tests",
+]
+
+[tool.mypy]
+strict = true
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
