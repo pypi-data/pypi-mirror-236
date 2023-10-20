@@ -1,0 +1,13 @@
+Antiland/__init__.py,sha256=Ii-1wPwtRXrcmPpDO9ApcpBx2Srq-E-5u5O2Nhxz1Qg,52
+Antiland/account.py,sha256=QpZRLWGLRQJfTL7UJ3LtL2hZ2wugVwd-W0WFVHrDXOQ,3419
+Antiland/bot.py,sha256=YbPFb6ARWEI0MQXi1D2B8I09xzwg_52gXcKD-EopmWU,14190
+Antiland/dialogue.py,sha256=yhsmuINyPOzIucj9vlO5H6DQ697Fn_SIlnr8o0gImE8,11860
+Antiland/message.py,sha256=h_ZjdheQdgMQpFcYr-vVGbvWfODaDQ9RIEJLdVPZeKs,1301
+Antiland/message_updater.py,sha256=cMAiiMin10gNP68vGqSaJEvw2jFkY8FYmZpFY2PfUv8,3623
+Antiland/user.py,sha256=n-1cFSvVyAuCTcUTaryd_sLXGVZH_l9V-8tOrmQt9Vg,5585
+Antiland/ext/commands/__init__.py,sha256=iWBV0bLvGpfkDoMETuKudj_ak4P3QiRXM9O6rmKzyrQ,39
+Antiland/ext/commands/bot.py,sha256=-5w9MTFmE4P44JYCfxAwd4TjI2GHSb99gH_7UT7lKsc,15329
+antiland-0.98.5.dist-info/METADATA,sha256=4bhqB--CQngVpljXamBC9w6wg_3VEVGJJ4AC2LDAtac,2804
+antiland-0.98.5.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+antiland-0.98.5.dist-info/licenses/LICENSE,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+antiland-0.98.5.dist-info/RECORD,,
