@@ -1,0 +1,9 @@
+streamlit_jupyter_magic/__init__.py,sha256=3ThKWQsyRvCAenze8LNOcjNHQnp3346zatB63eKUZzc,2915
+streamlit_jupyter_magic/_version.py,sha256=1vbByTy7-d5e5xmTE_2AcyUSM-o-THMc6HhMW2l45pY,97
+streamlit_jupyter_magic/server.py,sha256=mdNbWW5hIZ2ZsKLcgD0E4neDLFtM4hl7gwQ4ill2SHE,3123
+streamlit_jupyter_magic/utils.py,sha256=Dl0guL28CEm-tm4SFLUIsLZ7UEA2CG_0PXSiXTeuU94,948
+streamlit_jupyter_magic-1.0.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+streamlit_jupyter_magic-1.0.6.dist-info/METADATA,sha256=iNzR19Z8iT23bqK8xp_Ger_4xec8wz6MzRqA-wlCUPQ,2362
+streamlit_jupyter_magic-1.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+streamlit_jupyter_magic-1.0.6.dist-info/top_level.txt,sha256=TD8g_WDVO3uizpqq2VyAUDj0L1N1OPjhBvYB2VY9ymw,24
+streamlit_jupyter_magic-1.0.6.dist-info/RECORD,,
