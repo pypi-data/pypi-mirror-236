@@ -1,0 +1,9 @@
+[relic.cli.sga.pack]
+v2 = relic.sga.v2.cli:RelicSgaPackV2Cli
+
+[relic.cli.sga.repack]
+v2 = relic.sga.v2.cli:RelicSgaRepackV2Cli
+
+[relic.sga.handler]
+v2 = relic.sga.v2.serialization:essence_fs_serializer
+v2.0 = relic.sga.v2.serialization:essence_fs_serializer
