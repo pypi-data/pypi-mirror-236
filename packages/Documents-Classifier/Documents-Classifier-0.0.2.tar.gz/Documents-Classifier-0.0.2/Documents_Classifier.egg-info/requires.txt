@@ -1,0 +1,17 @@
+paddlepaddle==2.5.1
+paddleocr>=2.0.1
+opencv-python
+Pillow
+numpy
+nltk
+transformers
+torch
+scikit-learn
+scipy
+threadpoolctl
+pyyaml
+packaging
+huggingface-hub
+tokenizers
+safetensors
+sentence_transformers
