@@ -1,0 +1,17 @@
+speechmatics/__init__.py,sha256=dZExEVssrZPAkIaTSqWycSugNCI2B1kzhpLCeIUHi00,130
+speechmatics/adapters.py,sha256=un8ttlj-Yoa8JGU7ZyWqPL9vAFERs2wOK6OMHo-bG6Y,6378
+speechmatics/batch_client.py,sha256=G_AHgWKRzAImpj9FzZ2sCx8GDm_jo3k5GPQ_LZV1l0o,16614
+speechmatics/cli.py,sha256=qA1CHJ4NxxpTtOsykRsXSKrDlWmYwm6NZA_nnNUpVbA,29447
+speechmatics/cli_parser.py,sha256=ovukXG7A7j6bYu9uADkBupx2pcqT3bkZyv_6ArYnsxM,21313
+speechmatics/client.py,sha256=PXYDRXB930a6Z0lfmcc6D1HsNfTeXHd7y8uqogDZnsI,20346
+speechmatics/config.py,sha256=p74F4I_bYA13nUECOKfMlcITF-AqSK-IkhME-pQ45go,544
+speechmatics/constants.py,sha256=Y62nwHo9dfLXQoWgHQc5ZlX6fGhRRo3HEJtod_W31bE,392
+speechmatics/exceptions.py,sha256=jIxWp5z31kmwoyLXWnSQ2SzkeUfaHqm_zVig8frGiMA,577
+speechmatics/helpers.py,sha256=PluW9PJMERELjv5xFETfmxDSEABU4i2uArQzUkxAozs,4160
+speechmatics/models.py,sha256=sP4eq_mF_lfW91LFnNGukfDz4kkZOgMifwQrLUNosMI,17029
+speechmatics_python-1.11.1.dist-info/LICENSE.txt,sha256=IIy-euUIALRHdT78C06FPjOtQxMODBnStAodidReuLc,1078
+speechmatics_python-1.11.1.dist-info/METADATA,sha256=bdCX9HLqx1alEcWnWUYj0v4ozOTrJAXb5OGg1MwaAqY,12190
+speechmatics_python-1.11.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+speechmatics_python-1.11.1.dist-info/entry_points.txt,sha256=AuiX0rsSi-AEdXEu0XD0QAidOwFW_2IQm2Hi1Tv9GCM,55
+speechmatics_python-1.11.1.dist-info/top_level.txt,sha256=ZS3Qz-FwYvfrJJHlVLJCKAavrNZSp9Z708A1YtmJvaM,13
+speechmatics_python-1.11.1.dist-info/RECORD,,
