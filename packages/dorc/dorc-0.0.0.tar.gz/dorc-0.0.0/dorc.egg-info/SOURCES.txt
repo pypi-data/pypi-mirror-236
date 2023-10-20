@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dorc.egg-info/PKG-INFO
+dorc.egg-info/SOURCES.txt
+dorc.egg-info/dependency_links.txt
+dorc.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/mock.py
