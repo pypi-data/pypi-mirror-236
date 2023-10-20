@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: command-line-file-manager
+Version: 1.0.5
+Author-email: Kaloyan Ivanov <kaloyan.ivanov88@gmail.com>
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: black ==23.9.1
+Requires-Dist: build ==1.0.3
+Requires-Dist: cachetools ==5.3.1
+Requires-Dist: certifi ==2023.7.22
+Requires-Dist: cffi ==1.16.0
+Requires-Dist: chardet ==5.2.0
+Requires-Dist: charset-normalizer ==3.3.0
+Requires-Dist: click ==8.1.7
+Requires-Dist: codespell ==2.2.6
+Requires-Dist: colorama ==0.4.6
+Requires-Dist: cryptography ==41.0.4
+Requires-Dist: directory-tree ==0.0.4
+Requires-Dist: distlib ==0.3.7
+Requires-Dist: docutils ==0.20.1
+Requires-Dist: emoji ==2.8.0
+Requires-Dist: filelock ==3.12.4
+Requires-Dist: idna ==3.4
+Requires-Dist: importlib-metadata ==6.8.0
+Requires-Dist: jaraco.classes ==3.3.0
+Requires-Dist: jeepney ==0.8.0
+Requires-Dist: keyring ==24.2.0
+Requires-Dist: markdown-it-py ==3.0.0
+Requires-Dist: mdurl ==0.1.2
+Requires-Dist: more-itertools ==10.1.0
+Requires-Dist: mypy-extensions ==1.0.0
+Requires-Dist: nh3 ==0.2.14
+Requires-Dist: packaging ==23.2
+Requires-Dist: pathspec ==0.11.2
+Requires-Dist: pkginfo ==1.9.6
+Requires-Dist: platformdirs ==3.11.0
+Requires-Dist: pluggy ==1.3.0
+Requires-Dist: pycparser ==2.21
+Requires-Dist: Pygments ==2.16.1
+Requires-Dist: pyproject-api ==1.6.1
+Requires-Dist: pyproject-hooks ==1.0.0
+Requires-Dist: readme-renderer ==42.0
+Requires-Dist: requests ==2.31.0
+Requires-Dist: requests-toolbelt ==1.0.0
+Requires-Dist: rfc3986 ==2.0.0
+Requires-Dist: rich ==13.6.0
+Requires-Dist: SecretStorage ==3.3.3
+Requires-Dist: tox ==4.11.3
+Requires-Dist: twine ==4.0.2
+Requires-Dist: urllib3 ==2.0.6
+Requires-Dist: virtualenv ==20.24.5
+Requires-Dist: zipp ==3.17.0
+Requires-Dist: pytest ==7.4.2
+Requires-Dist: coverage ==7.3.2
+Requires-Dist: pytest-cov ==4.1.0
+
+# command-line-file-manager
+
+Python CLI tool for scanning and organizing local folders and files.
+
+#### Requires Python 3.11+
+
+## Installation
+
+
+Via pip:
+```console
+$ pip install command-line-file-manager
+```
+
+From master branch:
+```console
+$ git clone https://github.com/Mithras11/command-line-file-manager.git
+$ cd command-line-file-manager 
+$ pip install .
+```
+
+## Example
+
+
+To run the application type <i>fm</i> followed by a sub-command, target directory and options
+```console
+$ fm scan-files ../test --sort=type --save --output=./
+```
+
+Add --help after the <i>fm</i> command or any of the subcommands to get more information
+```console
+$ fm scan-files --help
+
+Usage: fm scan-files [OPTIONS] DIR_PATH
+
+  DIR_PATH: Path to directory to be scanned
+
+Options:
+  --sort [name|size|date|modified|type]   Sorting criteria.  [default: name]
+  --desc                                  Display result in descending order.
+  -s, --save                              Save log message to file.
+  -o, --output TEXT                       Path to output directory for the saved log file.
+  --help                                  Show this message and exit.
+```
