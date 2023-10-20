@@ -1,0 +1,63 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "otelib"
+authors = [
+    {name = "SINTEF", email = "TEAM4.0@SINTEF.no"},
+]
+description = "Open Translation Environment (OTE) REST API client library."
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    # "Framework :: OTE-API",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+]
+keywords = ["OTE", "OTE-API"]
+requires-python = "~=3.9"
+dynamic = ["version"]
+
+dependencies = [
+    "oteapi-core >=0.6.0,<1",
+    "pydantic-settings ~=2.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit ~=3.5",
+    "pytest ~=7.4",
+    "pytest-cov ~=4.1",
+    "requests-mock ~=1.11",
+]
+
+[project.urls]
+Home = "https://github.com/EMMC-ASBL/otelib"
+Documentation = "https://EMMC-ASBL.github.io/otelib"
+Source = "https://github.com/EMMC-ASBL/otelib"
+"Issue Tracker" = "https://github.com/EMMC-ASBL/otelib/issues"
+Changelog = "https://github.com/EMMC-ASBL/otelib/blob/master/CHANGELOG.md"
+Package = "https://pypi.org/project/otelib"
+
+[tool.mypy]
+python_version = "3.9"
+ignore_missing_imports = true
+scripts_are_modules = true
+warn_unused_configs = true
+show_error_codes = true
+allow_redefinition = true
+plugins = ["pydantic.mypy"]
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "-rs --cov=otelib --cov-report=term --durations=10"
+filterwarnings = [
+    "ignore:.*No global cache used.*:UserWarning",
+]
+requests_mock_case_sensitive = true
