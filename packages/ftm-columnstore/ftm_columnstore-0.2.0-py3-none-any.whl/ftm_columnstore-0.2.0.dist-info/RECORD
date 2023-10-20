@@ -1,0 +1,12 @@
+ftm_columnstore/__init__.py,sha256=Ej1Q_f1CrMw-gFfe2gu6Yg8fYB-wtVdqy1O_fd4Ux_o,624
+ftm_columnstore/cli.py,sha256=M-OZ2l3FxaGOznis5b7X5kFG5sfIhopD1_EWPdISKpw,1985
+ftm_columnstore/engine.py,sha256=9kEJVGjL7ryEXS2JYhaQ1XAjPEXyxysCKd5pgWlwRSg,10556
+ftm_columnstore/phonetic.py,sha256=9NZ5eitsgZ1nlsSFgdLhbaHe3Z8uEuWlgOrF4-PzhXU,2271
+ftm_columnstore/settings.py,sha256=PnBSvuuw9RjV79X0ERip1eBY3TcS5AjQy3ODFMfOhuQ,380
+ftm_columnstore/statements.py,sha256=N5Tm-wdrq9e7-l1x8-6a3wkLOJmAkyDXd6eohspUxLo,2461
+ftm_columnstore/store.py,sha256=YhJILEqNzACae_8sPJYiQei7oBbmFnFS3oo8JuDNzXM,2880
+ftm_columnstore-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ftm_columnstore-0.2.0.dist-info/METADATA,sha256=3rJWCr0x3WeTPk4qjg5zM52BOwo7K0TWPmLHAEtl7t4,3002
+ftm_columnstore-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ftm_columnstore-0.2.0.dist-info/entry_points.txt,sha256=nboK-w8lfdOFNyfzHQXPlleaymH2WsaxqAmXFI6CHVs,49
+ftm_columnstore-0.2.0.dist-info/RECORD,,
