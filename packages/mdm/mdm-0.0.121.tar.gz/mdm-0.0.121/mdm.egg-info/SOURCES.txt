@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+mdm/__init__.py
+mdm/__main__.py
+mdm/mdm.py
+mdm.egg-info/PKG-INFO
+mdm.egg-info/SOURCES.txt
+mdm.egg-info/dependency_links.txt
+mdm.egg-info/entry_points.txt
+mdm.egg-info/top_level.txt
