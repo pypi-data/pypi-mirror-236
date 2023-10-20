@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: u2s_sdk
+Version: 0.1.0
+Summary: Up2Share SDK for Python
+Author: Corentin Chepeau
+Author-email: corentin.chepeau@email.com
+License-File: LICENSE
