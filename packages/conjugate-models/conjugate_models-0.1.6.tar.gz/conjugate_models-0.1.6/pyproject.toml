@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "conjugate-models"
+version = "0.1.6"
+description = "Bayesian Conjugate Models in Python"
+authors = ["Will Dean <wd60622@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://wd60622.github.io/conjugate/"
+documentation = "https://wd60622.github.io/conjugate/"
+repository = "https://github.com/wd60622/conjugate"
+packages = [
+    { include = "conjugate" },
+    { include = "conjugate/py.typed" },
+]
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Scientific/Engineering",
+    "Operating System :: Microsoft :: Windows",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Operating System :: MacOS",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+matplotlib = "^3.6.2"
+numpy = "^1.24.3"
+pandas = "*"
+scipy = "<1.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3.2"
+pytest-cov = "^4.1.0"
+pypika = "^0.48.9"
+pymc = "^5.5.0"
+black = "^23.3.0"
+ipython = "8.8.0"
+
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.4.3"
+mkdocs-material = "^9.1.17"
+mkdocstrings = {extras = ["python"], version = "^0.22.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
