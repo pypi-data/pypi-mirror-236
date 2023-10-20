@@ -1,0 +1,176 @@
+Metadata-Version: 2.1
+Name: collective.richdescription
+Version: 3.0.1
+Summary: Turns the Plone 'Description' field into Richtext/HTML
+Home-page: https://github.com/collective/collective.richdescription
+Author: Johannes Raggam
+Author-email: raggam-nl@adm.at
+License: GPLv2
+Keywords: plone richtext dublincore
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 6.0
+Classifier: Framework :: Plone :: Addon
+Classifier: Framework :: Zope :: 5
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENCE.rst
+Requires-Dist: setuptools
+Requires-Dist: zope.component
+Requires-Dist: zope.interface
+Requires-Dist: plone.app.dexterity
+Requires-Dist: plone.app.textfield
+Requires-Dist: plone.behavior
+Requires-Dist: plone.autoform
+Requires-Dist: plone.dexterity
+Requires-Dist: plone.supermodel
+
+Introduction
+============
+
+Adds the new HTML-formatable textfield ``richdescription`` content types can use.
+
+There are two behaviors provided:
+
+``collective.richdescription``
+    The single ``richdescription`` field.
+
+``collective.richdescription.basic``
+    A drop-in replacement for ``plone.basic``. This is what you usually want: Disable plone Basic and enable this.
+
+``collective.richdescription.optionaltitle``
+    A special replacement for ``plone.basic``, but with an non-required title. To be used i.e. with file and image.
+
+- When the field is saved, the contents are also stored in the classic dublincore ``description`` field, but without html-formatting.
+- A metadata index is provided, so that ``richdescription`` can be read directly from catalog brains.
+- A module global ``collective.richdescription.behavior.PATTERN_OPTIONS`` is used to configure the widget,
+  It comes with a reduced set of features and can be patched if more are needed.
+  There is no control panel yet (contributions are welcome).
+
+There is **no** ``folder_listing`` or similar template yet.
+If you want to have HTML formatted descriptions in ``folder_listing`` use something like this:
+
+.. code-block:: XML
+
+    <tal:block
+      tal:define="item_description item/richdescription|nothing;
+                  item_description python:item_description or item.Description;">
+      <p class="akaDescription"
+        tal:condition="item_description"
+        tal:content="structure item_description">DESCRIPTION</p>
+    </tal:block>
+
+
+Warning
+=======
+
+Although there are no big issues with this package, use it at your own risk!
+The description field wasn't meant to hold HTML data.
+People may tend to write long essays in the description field, which is not what you want, probably.
+Some use cases require this functionality though, so have fun.
+
+
+Migration?
+==========
+
+There should be no need for a specific migration step.
+When no richdescription field is available for a content type, it falls back to the normal description field.
+When saving a content type, the richdescription field is set and the catalog's metadata richdescription column is filled.
+
+
+Compatibility
+=============
+
+Tested with Plone 6
+
+
+Author
+======
+
+Johannes Raggam <johannes@raggam.co.at>
+Peter Holzer <peter.holzer@agitator.com>
+Jens Klein <jk@kleinundaprtner.at>
+
+
+Source Code and Contributions
+=============================
+
+If you want to help with the development (reporting, improvement, update, bug-fixing, ...) of ``collective.richdescription`` this is a great idea!
+
+Please file any issues or ideas for enhancement at the `issue tracker <https://github.com/collective/collective.richdescription/issues>`_.
+
+The code is located in the `github collective <https://github.com/collective/collective.richdescription>`_.
+
+You can clone it or `get access to the github-collective <http://collective.github.com/>`_ and work directly on the project.
+
+Maintainer is Johannes Raggam and the BlueDynamics Alliance developer team.
+We appreciate any contribution and if a release is needed to be done on pypi, please just contact one of us `dev@bluedynamics dot com <mailto:dev@bluedynamics.com>`_
+
+
+Changelog
+=========
+
+3.0.1 (2023-10-19)
+------------------
+
+- Add textindexer for title and description.
+  [agitator]
+
+- Update pattern options for tinymce 5.10.2 in Plone 6.
+  [agitator]
+
+
+3.0.0 (2022-03-23)
+------------------
+
+- Add ``collective.richdescription.title`` as a drop in replacement for ``plone.basic``.
+  Also add ``collective.richdescription.optionaltitle`` as a variant for file/image.
+  [jensens]
+
+- Add patchable ``PATTERN_OPTIONS`` global to ``collective.richdescription.behavior`` in order to be able to set reduced options here (default).
+  [jensens]
+
+- Python 3 compatibility - remove Archetypes support.
+  [agitator]
+
+
+2.0 (2014-11-11)
+----------------
+
+- Cleaning up.
+  [jensens]
+
+- Add Dexterity support.
+  [thet]
+
+- Refactoring.
+  [thet]
+
+1.0.1 (2014-06-13)
+------------------
+
+- Metadata update.
+  [thet]
+
+1.0 (2012-11-07)
+----------------
+
+- Initial release
+  [thet]
+
+1.0pre
+------
+
+- When no description is set, return a BaseUnit as fallback. Fixes
+  AttributeError, where original_encoding was tried to accessed on a string
+  value.
+  [thet]
+
+- Register the skins folder for any theme.
+  [thet]
+
+- Initial version on 2010-10-05 for sfd.at.
