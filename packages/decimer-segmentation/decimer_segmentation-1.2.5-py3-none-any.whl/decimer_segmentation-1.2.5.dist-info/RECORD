@@ -1,0 +1,13 @@
+decimer_segmentation/__init__.py,sha256=stNpxdnoo80r6trdzHoI_VK0ioif9qCMOyDG0xLHEL8,379
+decimer_segmentation/complete_structure.py,sha256=Fw9sz6pcsdgsHbXN6svuQSnNnAdzffRNkYxI83vLyZo,19878
+decimer_segmentation/decimer_segmentation.py,sha256=LKyfR5OOndsLxeRrjX7OxffhxB3HZCtCEZKCGuGBQ-0,15333
+decimer_segmentation/mrcnn/config.py,sha256=biQ19PfRMbEne6boQGi8Ptku7VIcdBH1thE4sIE0ee0,9767
+decimer_segmentation/mrcnn/model.py,sha256=nup1AgQ-oq96XOA2xQUhMkfhfWBWk1IJHEDV1joCBHI,128594
+decimer_segmentation/mrcnn/moldetect.py,sha256=4pVdNAyOeNIx4xh5atK3ciFvCrlEP67O_pbXaeMeNiA,13931
+decimer_segmentation/mrcnn/utils.py,sha256=qx_OGE5htoS-gdrsgCj2xc5MUDNr-jOeqwisZp-a0lI,34492
+decimer_segmentation/mrcnn/visualize.py,sha256=itnQHhL-niMvYYp79JfpAmvPa4fS-C3knDJ_EfvxorE,19556
+decimer_segmentation-1.2.5.dist-info/LICENSE,sha256=LlEjeU2DAl-5oYddIeZg2W0o5_JAc_A3jL3ckdZGWao,1070
+decimer_segmentation-1.2.5.dist-info/METADATA,sha256=DcqIYRBSwSHHRGA4eQd19Xyk_mD8OzwYYPU7YzbJp08,8109
+decimer_segmentation-1.2.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+decimer_segmentation-1.2.5.dist-info/top_level.txt,sha256=_DpS_WLMVzPQ7xsPbEIFXnH6At5L_2kX_EC51FoEJCo,21
+decimer_segmentation-1.2.5.dist-info/RECORD,,
