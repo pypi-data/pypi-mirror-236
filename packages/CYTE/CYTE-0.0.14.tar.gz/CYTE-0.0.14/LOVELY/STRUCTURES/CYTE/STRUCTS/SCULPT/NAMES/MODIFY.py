@@ -1,0 +1,16 @@
+
+
+
+'''
+import CYTE.STRUCTS.NAMES.MODIFY as MODIFY_NAMES
+MODIFY_NAMES (
+	REGION = 10000,
+	NAMES = []
+)
+'''
+
+def MODIFY_NAMES (
+	REGION,
+	NAMES
+):
+	return;
