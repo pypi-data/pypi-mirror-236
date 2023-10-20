@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: skfeature-gli
+Version: 1.1.1.post1
+Summary: Unofficial Fork of Feature Selection Repository in Python (DMML Lab@ASU)
+Home-page: https://github.com/lguangyu/scikit-feature
+Author: Jundong Li, Kewei Cheng, Suhang Wang
+Author-email: jundong.li@asu.edu, kcheng18@asu.edu, suhang.wang@asu.edu
+Maintainer: Guangyu Li
+Maintainer-email: gl343@cornell.edu
+Keywords: Feature Selection Repository
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: numpy
+Provides-Extra: ci
+Requires-Dist: pytest ; extra == 'ci'
+Requires-Dist: pytest-cov ; extra == 'ci'
+Requires-Dist: black ; extra == 'ci'
+Requires-Dist: isort ; extra == 'ci'
+Requires-Dist: flake8 ; extra == 'ci'
+Requires-Dist: mkdocs ; extra == 'ci'
+Requires-Dist: mkdocs-material ; extra == 'ci'
+Requires-Dist: mkdocstrings ; extra == 'ci'
+Requires-Dist: pytkdocs[numpy-style] ; extra == 'ci'
+
+
+`scikit-feature` is an open-source (GNU General Public License v2.0) feature selection repository in Python developed by Data Mining and Machine Learning Lab at Arizona State University. 
+
+It serves as a platform for facilitating feature selection application, research and comparative study. It is designed to share widely used feature selection algorithms developed in the feature selection research, and offer convenience for researchers and practitioners to perform empirical evaluation in developing new feature selection algorithms.
+
+This is may or may not be a temporary fork of the original repository as development seems to have stalled and various modules have be depreciated due to updates to `scikit-learn`. I will see if should get reintegrated back into the original project if it ever gets revived again. 
+
+**Forked project information**
+
+*  Project site - https://github.com/lguangyu/scikit-feature
+*  Project site - https://github.com/chappers/scikit-feature
+
+**Original `scikit-feature` project information**
+
+*  Project site - https://github.com/jundongl/scikit-feature
+*  Documentation - http://featureselection.asu.edu/
+
+Installation
+============
+
+# From Sources
+
+*  Unpack the source package somewhere
+*  Run `pip install -e .` from the source distribution's top level folder
+
+# From pip
+
+```sh
+pip install skfeature-gli
+```
+
