@@ -1,0 +1,3 @@
+[console_scripts]
+show-info=vibhakar:show_info
+
