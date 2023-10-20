@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scipy
+seaborn
+python-box
+scikit-learn
+statsmodels
+itertools
+logging
+json
