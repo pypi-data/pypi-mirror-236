@@ -1,0 +1,9 @@
+numpy
+pandas
+seaborn
+scipy
+tdt
+xlsxwriter
+
+[:python_version < "3.12"]
+importlib_metadata
