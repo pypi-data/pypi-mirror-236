@@ -1,0 +1,17 @@
+llmkit/__init__.py,sha256=5lQ5vlwfPv0mHfAJI18--bD0At8TSEG4W8sOaRzuCCM,31
+llmkit/config.py,sha256=sjLc45vgSYMiqP9ZlD-9wHIxoOahcCJQhI3UHq4Bc1s,819
+llmkit/main.py,sha256=lolX9UrEoM-lbts7cbBQau9PprVzrRXWLb3v6whdL-Y,2310
+llmkit/models/__init__.py,sha256=YE4fLpJUX2wB3C6k_k51pbT7xwI3QvACD4O1WWtVOOQ,199
+llmkit/models/generics.py,sha256=tHdcSwhpLsd8JDykm7nebV5XBwBE-LqKk_52grELtzM,108
+llmkit/models/prompt.py,sha256=whxcdfHtcarUjDu1ptIYOqDce4cNDZxUiCpvh2-rj7Q,393
+llmkit/services/__init__.py,sha256=e5iORoi7rkX7v64igeS8Q3ZquNLj3IJ54-LT6RQVEuI,228
+llmkit/services/exceptions.py,sha256=gMx9bkZBnFM-zI3Y_rWcdWgqQRpx9iVP8HL0YNm3jA4,259
+llmkit/services/inference.py,sha256=HIgYbxHcThRTYfN-a6upw50utKgEM6pTHT4_p3iTo_A,1444
+llmkit/services/model.py,sha256=Kt9ANU_Fyg-UyM7rrQmew3GtPEsSgALgnHgM1E2701w,2265
+llmkit/transformers/__init__.py,sha256=z35WAWaMIwWw1ELUkFnUkc49zbO2RGPv-puLzxxh7k4,223
+llmkit/transformers/base.py,sha256=hbK5JLbKyz6tl_PX0jE1OTinoXBO9iQvhZdwBB6D688,715
+llmkit/transformers/default.py,sha256=81M--gFJIA2TckNKzE6C6J2SjzelEmpwU__qjx1TBbc,1918
+llm_stack_kit-0.1.4.dist-info/LICENSE,sha256=NB1JN34vM_l9eP7GEu31ztk5iqXvNqBc6xjZiAbuphk,1068
+llm_stack_kit-0.1.4.dist-info/METADATA,sha256=jLlYq5cZPxwHtBgeYc4hP2mA4bUf5jVPRU5hynVqnDs,2393
+llm_stack_kit-0.1.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+llm_stack_kit-0.1.4.dist-info/RECORD,,
