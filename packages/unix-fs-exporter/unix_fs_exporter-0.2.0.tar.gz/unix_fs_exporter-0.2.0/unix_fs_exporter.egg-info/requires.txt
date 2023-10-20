@@ -1,0 +1,6 @@
+multiformats>=0.2.1
+mmh3>=4.0.1
+protobuf<4,>=3.20
+attrs>=23.0.0
+dag-cbor>=0.3.2
+hamt-sharding>=0.1.3
