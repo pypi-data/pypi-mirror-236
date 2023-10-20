@@ -1,0 +1,10 @@
+prefix=/tmp/tmpnt2_kjez/build/libmagic
+exec_prefix=${prefix}
+libdir=/tmp/tmpnt2_kjez/build/libmagic/lib
+includedir=${prefix}/include
+
+Name: libmagic
+Description: Magic number recognition library
+Version: 5.41
+Libs: -L${libdir} -lmagic
+Libs.private: -lbz2 -lz 
