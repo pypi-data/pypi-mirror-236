@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+setup.py
+sphinx_ext_substitution/__init__.py
+sphinx_ext_substitution/_version.py
+sphinx_ext_substitution/get_replacements.py
+sphinx_ext_substitution/substitution.py
+sphinx_ext_substitution/test_basic.py
+sphinx_ext_substitution/util.py
+sphinx_ext_substitution.egg-info/PKG-INFO
+sphinx_ext_substitution.egg-info/SOURCES.txt
+sphinx_ext_substitution.egg-info/dependency_links.txt
+sphinx_ext_substitution.egg-info/requires.txt
+sphinx_ext_substitution.egg-info/top_level.txt
+sphinx_ext_substitution/_static/sphinx_ext_substitution.css

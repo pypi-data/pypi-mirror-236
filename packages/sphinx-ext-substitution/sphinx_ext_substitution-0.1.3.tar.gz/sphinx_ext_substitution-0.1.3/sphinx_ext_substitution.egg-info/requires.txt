@@ -1,0 +1,4 @@
+PyYAML
+Sphinx
+docutils!=0.15
+jsonpath-ng
