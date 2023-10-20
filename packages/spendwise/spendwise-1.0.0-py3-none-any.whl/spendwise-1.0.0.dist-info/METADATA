@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: spendwise
+Version: 1.0.0
+Requires-Dist: prospector
+Requires-Dist: bandit
+Requires-Dist: pytest
+
