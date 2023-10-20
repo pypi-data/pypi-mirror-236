@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+metaimageio/__init__.py
+metaimageio/imageio.py
+metaimageio/reader.py
+metaimageio/util.py
+metaimageio/version.py
+metaimageio/writer.py
+metaimageio.egg-info/PKG-INFO
+metaimageio.egg-info/SOURCES.txt
+metaimageio.egg-info/dependency_links.txt
+metaimageio.egg-info/requires.txt
+metaimageio.egg-info/top_level.txt
+tests/test_imageio.py
+tests/test_io.py
