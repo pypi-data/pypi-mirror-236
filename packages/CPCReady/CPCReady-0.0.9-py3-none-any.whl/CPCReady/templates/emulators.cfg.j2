@@ -1,0 +1,15 @@
+
+[rvm-web]
+model  = {{ model }}
+run    = run"MAIN.BAS"
+
+[rvm-desktop]
+model  = {{ model }}
+run    = run"MAIN.BAS"
+path   =
+
+[m4board]
+## There must be a folder called /tmp on the M4 Board
+ip      = 0.0.0.0
+execute = MAIN.BAS
+folder  = {{ name }}
