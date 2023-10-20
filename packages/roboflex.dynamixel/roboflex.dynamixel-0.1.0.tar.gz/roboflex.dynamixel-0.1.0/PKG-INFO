@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: roboflex.dynamixel
+Version: 0.1.0
+Summary: Roboflex Dynamixel Library
+Home-page: https://github.com/flexrobotics/roboflex_dynamixel
+Author: Colin Prepscius
+Author-email: colinprepscius@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+Roboflex Dynamixel Library
+
