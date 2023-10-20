@@ -1,0 +1,2 @@
+[console_scripts]
+CLI-Excel-Productive-tool = main:main

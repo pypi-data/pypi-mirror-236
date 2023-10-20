@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: CLI-Excel-Productive-tool
+Version: 1.0.0
+Requires-Dist: pyfiglet
+Requires-Dist: tqdm
+Requires-Dist: inquirer
+Requires-Dist: yaspin
+Requires-Dist: rich
