@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+setup.py
+tutor_contrib_nudge.egg-info/PKG-INFO
+tutor_contrib_nudge.egg-info/SOURCES.txt
+tutor_contrib_nudge.egg-info/dependency_links.txt
+tutor_contrib_nudge.egg-info/entry_points.txt
+tutor_contrib_nudge.egg-info/requires.txt
+tutor_contrib_nudge.egg-info/top_level.txt
+tutornudge/__about__.py
+tutornudge/__init__.py
+tutornudge/plugin.py
+tutornudge/patches/.gitignore
+tutornudge/patches/k8s-jobs
+tutornudge/templates/nudge/build/.gitignore
+tutornudge/templates/nudge/tasks/.gitignore
