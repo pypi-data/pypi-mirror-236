@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: mysqlclient-collate
+Version: 2.1.1.post2
+Summary: Python interface to MySQL
+Home-page: https://github.com/coderedcorp/mysqlclient-collate
+Author: CodeRed LLC
+Author-email: info@coderedcorp.com
+License: GPL
+Platform: ALL
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows NT/2000
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Database Engines/Servers
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# mysqlclient-collate
+
+**NOTE:** These features have been merged upstream into mysqlclient 2.2.0. This package is now archived. Please switch to `mysqlclient>=2.2` instead.
+
+---
+
+Fork of [mysqlclient](https://github.com/PyMySQL/mysqlclient) which adds support for setting collation via connection options.
+
+Setting collation is necessary for servers that do not use the default, and for Django queries using `CAST` statements, which are prevalent in Wagtail 4. For more background, see the following discussions:
+
+* [mysqlclient bug report](https://github.com/PyMySQL/mysqlclient/pull/564)
+* [Wagtail bug report](https://github.com/wagtail/wagtail/issues/9477)
+
+## Usage
+
+Make sure you have MySQL or MariaDB C connector, and a C compiler installed.
+
+**IMPORTANT**: If you already have `mysqlclient` installed, uninstall it before installing this fork. Both projects use the same module name and cannot be installed at the same time.
+
+```
+pip uninstall mysqlclient
+pip install mysqlclient-collate
+```
+
+For use in a Django project, set your database connection as so:
+
+```python
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "HOST": "",
+        "NAME": "",
+        "USER": "",
+        "PASSWORD": "",
+        "OPTIONS": {
+            "charset": "utf8mb4",
+            "collation": "utf8mb4_unicode_ci",
+        },
+    }
+}
+```
+
+
