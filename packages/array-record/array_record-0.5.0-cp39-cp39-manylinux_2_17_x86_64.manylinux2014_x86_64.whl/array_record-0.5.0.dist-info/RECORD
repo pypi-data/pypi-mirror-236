@@ -1,0 +1,12 @@
+array_record/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+array_record/setup.py,sha256=2Aoim2f_On19YbyWijh29mQhIYUvKpizW597TGCafHo,1040
+array_record/python/array_record_data_source_test.py,sha256=getV5w1INwgUHuu9M-L45Mr_TQglhhzhY0Xqv74zNEU,10934
+array_record/python/array_record_module.so,sha256=j5RHxFthe3ERMWa5Q1zovepUkSfP7G1ArfJT0695CH4,8887688
+array_record/python/array_record_module_test.py,sha256=BWvuCt_UL5ZLmeaq6cEH7DiX4IQ_JqLdV5-1czmuaQ4,4631
+array_record/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+array_record/python/array_record_data_source.py,sha256=jjapgSac3Po7GcTrXhUNWoTj0XNAnPWrsSUOQQ5ZYoE,14341
+array_record-0.5.0.dist-info/WHEEL,sha256=_BMdtp3IQ4NF7VFMKD4lD9Cik0H3WhEP1vtG22VwXhU,148
+array_record-0.5.0.dist-info/METADATA,sha256=K3VLZGHfk52Ks2v4H41reNFf1rub-bg5MV9xqqjQwVs,503
+array_record-0.5.0.dist-info/top_level.txt,sha256=tXm19-b93OrmJ3F0IKm4705VPls3c0UiF6i-r5qnn88,13
+array_record-0.5.0.dist-info/RECORD,,
+array_record-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
