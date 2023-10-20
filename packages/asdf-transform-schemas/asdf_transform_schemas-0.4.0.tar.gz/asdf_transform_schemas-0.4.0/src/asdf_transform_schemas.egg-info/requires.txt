@@ -1,0 +1,21 @@
+asdf-standard>=1.0.1
+
+[:python_version < "3.9"]
+importlib_resources>=3
+
+[docs]
+tomli
+sphinx
+sphinx-asdf>=0.1.3
+sphinx-astropy
+astropy>=5.0.4
+graphviz
+matplotlib
+docutils
+sphinx-rtd-theme
+
+[test]
+asdf>=2.8.0
+asdf-astropy
+scipy
+pytest
