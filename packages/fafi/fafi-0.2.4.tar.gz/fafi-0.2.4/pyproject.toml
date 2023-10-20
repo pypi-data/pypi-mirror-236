@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "fafi"
+version = "0.2.4"
+description = "A commandline tool to search indexed webpages."
+authors = ["Sander van Dragt <sander@vandragt.com>"]
+license = "MIT"
+readme = "README.rst"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.12"
+newspaper3k = "^0.2"
+click = "^8.0"
+appdirs = "^1.4"
+textual = "^0.1.18"
+
+[tool.poetry.dev-dependencies]
+black = "^21.4b2"
+pylint = "^2.8.2"
+
+[tool.poetry.scripts]
+fafi = 'fafi.main:main'
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^5.12.0"
+
+[build-system]
+requires = ["poetry>=1.0.9"]
+build-backend = "poetry.masonry.api"
