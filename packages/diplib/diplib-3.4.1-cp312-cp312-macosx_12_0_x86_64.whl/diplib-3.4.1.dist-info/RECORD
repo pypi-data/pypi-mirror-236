@@ -1,0 +1,17 @@
+diplib/PyDIPviewer.cpython-312-darwin.so,sha256=_cd8TyVuTLdh5i1po2qCEG18r1dyykQ6zmXSpRN7C6M,252688
+diplib/PyDIP_bin.cpython-312-darwin.so,sha256=_Td8LIC9po3N54mePhVYiBAB8i9MEnvnnNFKDoO5fRM,3619424
+diplib/loadjvm.py,sha256=dncFRjK6zck4ZzkmulPr5ADQRySpSyDUqqbvCubIZ00,5347
+diplib/libDIPviewer.dylib,sha256=9UErxMlJpmCSDTjTBey5a6a-oKaetNJAsJGmy5Um-Y8,341392
+diplib/__init__.py,sha256=TGZUWycLELmxXqGGUv2x2g0-xPPEUwK34sPwdOh8l2s,7414
+diplib/libDIP.dylib,sha256=nOFhcfaVo4mIQhFILFR7EX7BKS4NOKk0GmZGKexd980,17318904
+diplib/DIPjavaio.jar,sha256=nXR9ZLQjxmBM_hBspn4wXT7DV6Ma4xv9r1LxiWR98nY,5617
+diplib/PyDIPjavaio.cpython-312-darwin.so,sha256=lpFCyvCFxKx9wc2og30MiqnjaPT1kfr6_PnBbo3c5aY,185872
+diplib/PyDIP_py.py,sha256=ecwc1rIRFa1-Tq_5Bf3wMWNESL37YUNgn9BfN2l3kSY,10124
+diplib/libDIPjavaio.dylib,sha256=AyaMzmEZ--tPffTwxbxgId1qzdtOzsfx2dvktAu9H2Q,115328
+diplib/__main__.py,sha256=sPwyLtJFoZwWw40tRld70xnlumwKRmw9t39y19hFdPo,1300
+diplib/.dylibs/libglfw.3.3.dylib,sha256=28hjUUDGpRSTcLfX6MIKUn-iwe2if-WqOHKe13lpVWA,235456
+diplib-3.4.1.dist-info/RECORD,,
+diplib-3.4.1.dist-info/WHEEL,sha256=lzqenrqyh1Pr7CGb47NgBog9Dh3mxPtRHeAEl9vf6dI,111
+diplib-3.4.1.dist-info/top_level.txt,sha256=wRg2iwbFeXJeGBOVOOYBd4M8xTROslPmrDqoT25I57I,7
+diplib-3.4.1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+diplib-3.4.1.dist-info/METADATA,sha256=Lh5PIMYWuwxvreiuHyzsvhCDC7ZjkMJbjqRMqNO4pF0,5953
