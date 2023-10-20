@@ -1,0 +1,5 @@
+numpy
+imageio
+opencv-python
+imageio-ffmpeg
+pygrabber
