@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: dvp-charts
+Version: 0.0.1
+Summary: Project Description
+Author: Anya Ip <anyakurapica@gmail.com>
+License: MIT
+Classifier: Framework :: Dash
+License-File: LICENSE
+
