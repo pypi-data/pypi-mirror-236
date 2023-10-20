@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: fermioniq
+Version: 1.0.0
+Summary: Python client library for the OpenAI API
+Home-page: https://github.com/fermioniq/fermioniq-client
+Author: Fermioniq
+Author-email: support@fermioniq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+Requires-Dist: websockets >=9.0
+Requires-Dist: pyyaml >=6.0.1
+Requires-Dist: pydantic ==1.10.7
+Requires-Dist: numpy >=1.23.5
+Requires-Dist: rich >=13.5.2
+Provides-Extra: dev
+Requires-Dist: black >=22.12.0 ; extra == 'dev'
+Requires-Dist: isort >=5.12.0 ; extra == 'dev'
+Requires-Dist: mypy >=0.991 ; extra == 'dev'
+Requires-Dist: pytest >=7.2.0 ; extra == 'dev'
+Requires-Dist: pytest-mock >=3.11.1 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'dev'
+Requires-Dist: pre-commit >=2.20.0 ; extra == 'dev'
+Requires-Dist: qiskit ; extra == 'dev'
+Requires-Dist: cirq ; extra == 'dev'
+
+# Fermioniq client for pure state emulation
+
+## Installation
+
+### Dev
+
+Run locally: `pip install -e .[dev]`
+
+## Setup:
+
+Sending jobs to the emulator requires 'access_token_id' and 'access_token_secret'. Set these as environment variables:
+
+    - export FERMIONIQ_ACCESS_TOKEN_ID=""
+    - export FERMIONIQ_ACCESS_TOKEN_SECRET=""
+
+Or alternatively provide them as input arguments when initializing a ClientConfig.
+
+## Relevant Examples
+        - step_by_step_example.py         -- general overview
+        - run_with_json.py                -- using cirq circuits stored in json format
+        - run_with_local_noisemodel.py    -- mixed state emulation with a custom noise model
+
+---
+
+## The emulator can be used as follows:
+
+###    1: Initialize the Client:
+        client = fermioniq.Client()
+
+      Be sure to provide `access_token_id` and `access_token_secret` if they are not set as environment variables.
+      Additionally you can set `verbosity` to 0, 1 or 2
+
+###    2: Initialize a configuration for the emulator, as a python dict or stored as json or yaml. A default configuration with context for each parameter can be found in examples/example_settings/.
+        i.e.
+        config = {}
+
+        or
+        config = {"mode" : "dmrg", "dmrg" : {"D" : 500}}
+        Here ``qubits` can be set as a sequence of qubits (qiskit.circuit.Qubit or cirq.Qid), determining the order of output bitstrings.
+
+
+###    3. Make a fermioniq.EmulatorJob:
+        emulator_job = fermioniq.EmulatorJob(
+            circuit = circuit,
+            config = config,
+        )
+
+        The circuit to emulate should be a qiskit.QuantumCircuit or cirq.Circuit.
+        For mixed-state emulation, a `noise_model` must be given as dict or yaml. An example can be found in examples/example_settings/
+
+###    4. Schedule:
+        output = client.schedule_and_wait(emulator_job)
+
+###    5. Pretty print the output:
+        import rich
+        rich.print(output)
