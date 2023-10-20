@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: luminalog
+Version: 1.2.0.0
+Summary: A Simple And Clean Logging Library That Can Be Used For Any Type Of Application.
+Home-page: https://pypi.python.org/pypi/lumina-py
+Author: Zappy
+Author-email: monkey@monk.com
+License: MIT
+Project-URL: Homepage, https://github.com/BornPaster/lumina
+Project-URL: Suggestions, https://github.com/BornPaster/lumina/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+
+<div id="top"></div>
+
+<br/>
+<div align="center">
+  <a href="https://github.com/BornPaster/lumina">
+    <img src="http://femboys.site/images/7b3659abb66043e59d5579939d9e3d1efad513589e4145298921f022611a485a.png" alt="Logo" >
+  </a>
+  
+  <h2 align="center">Lumina™</h3>
+
+  <p align="center">
+    Clean And Very Lightweight Logging Library.
+    <br />
+    <br />
+    <a href="https://github.com/BornPaster/lumina/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/BornPaster/lumina/issues">Request Feature</a>
+  </p>
+</div>
+  
+---------------------------------------
+
+### Features
+* Extremely Lightweight.
+* Clean And Simple.
+* Can Be Used For Any Color Scheme.
+* Input And Print Accessability. 
+
+---------------------------------------
+
+### Requirements
+* Windows OS | Linux
+* Python 3.6+
+
+---------------------------------------
+
+### Usage
+* Installation:
+```pip install luminalog```
+
+* Print Type:
+```py
+from lumina import *
+
+lumina = core()
+
+lumina.consolelog("Hi, I'm Lumina!", type="print")
+```
+
+* Input Type:
+```py
+from lumina import *
+
+lumina = core()
+
+lumina.consolelog("Hi, I'm Lumina, What's Your Name: ", type="input")
+```
+
+---------------------------------------
+
+### Extra
+* fully made by zappy // i am the only developer for this library.
+* library fully open source and can be used by anyone.
+* the library code is fully made by me. if anyone pastes it, there will be consequences.
+
+
