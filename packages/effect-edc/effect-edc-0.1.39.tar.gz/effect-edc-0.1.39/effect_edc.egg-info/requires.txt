@@ -1,0 +1,5 @@
+edc==0.5.36
+edc-microbiology==0.1.15
+edc-csf==0.1.20
+beautifulsoup4
+effect-form-validators==0.1.35
