@@ -1,0 +1,6 @@
+disk/high-*.svg
+disk/low-*.svg
+disk/max-*.svg
+disk/medium-*.svg
+network/*-*.svg
+network/vp*-*-*.svg
