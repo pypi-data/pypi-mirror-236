@@ -1,0 +1,8 @@
+{
+    "pypa_build": {
+        "$ref": "https://raw.githubusercontent.com/pypa/build/main/pyproject.toml#project.description"
+    },
+    "icon": {
+        "$ref": "https://github.com/manifest.json#/icons/0"
+    }
+}

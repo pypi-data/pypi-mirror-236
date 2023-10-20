@@ -1,0 +1,8 @@
+.footnote-list {
+    /* copied from .sd-tab-content */
+    box-shadow: 0 -0.0625rem var(--sd-color-tabs-overline), 0 .0625rem var(--sd-color-tabs-underline);
+    order: 99;
+    padding-bottom: .75rem;
+    padding-top: .75rem;
+    width: 100%
+}

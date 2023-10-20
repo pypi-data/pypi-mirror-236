@@ -1,0 +1,42 @@
+[database]
+ports        = [8000, 8001, 8002]
+data         = [["delta", "phi"], [3.14]]
+temp_targets = { cpu = 79.5, case = 72.0 }
+enabled      = true
+
+[rfc6902_patched]
+"$ref" = "#database"
+# RFC 6902 patch array
+"$patch" = [
+    { op = "assign", path = "data.0", value = "DeltaPhi" },
+    { op = "replace", path = "data.1.0", value = 3.14159 },
+    { op = "assign", path = "data.1.-", value = "radians" },
+    { op = "add", path = "ports.-", value = 8003 },
+    { op = "remove", path = "ports.0" },
+    { op = "replace", path = "temp_targets.cpu", value = 80.0 },
+    { op = "move", path = "target_temp_cpu", from = "temp_targets.cpu" },
+    { op = "copy", path = "target_temp_case", from = "temp_targets.case" },
+    { op = "test", path = "enabled", value = true },
+    { op = "replace", path = "temp_targets.case", value = 75.0 },
+    { op = "add", path = "icon", value = { "$ref" = "https://api.github.com/emojis#/floppy_disk" } },
+]
+
+[shorthand_patched]
+"$ref" = "#database"                                # replace shorthand_patched with reference
+# key/value-pair assignment                         # Start patching:
+"data.0" = "DeltaPhi"                               # - assign "DeltaPhi"
+# $patch array
+"$patch" = [
+    ["@", "data.1.0", 3.14159],                     # - replace 3.14
+    ["=", "data.1.-", "radians"],                   # - assign "radians" at array end
+    ["+", "ports.-", 8003],                         # - add 8003 at end
+    ["-", "ports.0"],                               # - remove 8000
+    ["@", "temp_targets.cpu", 80.0],                # - replace 79.5 before move
+    ["<", "target_temp_cpu", "temp_targets.cpu"],   # - move from temp_targets.cpu
+    ["$", "target_temp_case", "temp_targets.case"], # - copy from temp_targets.case
+    ["?", "enabled", true],                         # - test enabled
+    # RFC 6902 notation                             # - replace 72.0 after copy
+    { op = "replace", path = "temp_targets.case", value = 75.0 },
+]
+# key/value-pair assignment                         # - assign using reference
+icon."$ref" = "https://api.github.com/emojis#/floppy_disk"

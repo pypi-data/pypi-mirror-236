@@ -1,0 +1,28 @@
+content = [{ a = 0 }, { b = 1 }]
+
+[example]
+url = "#content.0"
+
+[copied-example]
+"$ref" = "#example"
+
+[patched-example]
+"$ref" = "#example"
+"url"  = "#content.1"
+
+[ref-ref-example]
+"$ref" = { "$ref" = "#example.url" }
+
+[ref-ref-copied-example]
+"$ref" = { "$ref" = "#copied-example.url" }
+
+# # Doesn't work because patched-example isn't patched yet
+# # during the reference resolution phase.
+# [ref-ref-patched-example]
+# "$ref" = { "$ref" = "#patched-example.url" }
+
+# Doesn't work as most likely intended:
+# the patch will be applied after reference resolution
+[patched-ref-ref-example]
+"$ref"   = { "$ref" = "#example.url" }
+"$patch" = [["=", "'$ref'", "#content.1"]]
