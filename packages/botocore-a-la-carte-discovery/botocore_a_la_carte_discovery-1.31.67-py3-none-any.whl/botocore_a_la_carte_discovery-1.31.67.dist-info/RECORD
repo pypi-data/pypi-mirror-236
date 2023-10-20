@@ -1,0 +1,9 @@
+botocore/data/discovery/2015-11-01/endpoint-rule-set-1.json,sha256=GNjL1Z63FjerAeLBTOBWTEgDfL1o1oaPeJZf0-vj2TY,13738
+botocore/data/discovery/2015-11-01/examples-1.json,sha256=K3b6mgYkitvcecSlJT-iV_EQATmvOySs66iKJI5qx0g,44
+botocore/data/discovery/2015-11-01/paginators-1.json,sha256=UqiJ6bQ62X3yZhhuMCqlJXNc5bhmH7qG0HV706ysxSo,1055
+botocore/data/discovery/2015-11-01/service-2.json,sha256=ZAZ21uOxHBMDN7Xmy0Y1njIkabTWAE21SWSUv7F8FJ8,102363
+botocore_a_la_carte_discovery-1.31.67.dist-info/LICENSE.txt,sha256=DVQuDIgE45qn836wDaWnYhSdxoLXgpRRKH4RuTjpRZQ,10174
+botocore_a_la_carte_discovery-1.31.67.dist-info/METADATA,sha256=im0SGColV9cy7Dzy8qBodCBba_AtCbCsxPZeXYSNwmU,962
+botocore_a_la_carte_discovery-1.31.67.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+botocore_a_la_carte_discovery-1.31.67.dist-info/top_level.txt,sha256=IdlNr9dnwi3lQt66dKnShE5HBUhIqBFqJmVhm11aijk,9
+botocore_a_la_carte_discovery-1.31.67.dist-info/RECORD,,
