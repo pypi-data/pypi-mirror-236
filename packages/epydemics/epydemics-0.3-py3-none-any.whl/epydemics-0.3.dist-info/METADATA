@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: epydemics
+Version: 0.3
+Summary: A module for modeling and analyzing epidemic data.
+Home-page: https://github.com/julihocc/epydemics
+Author: Juliho David Castillo Colmenares
+Author-email: juliho.colmenares@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: seaborn
+Requires-Dist: python-box
+Requires-Dist: scikit-learn
+Requires-Dist: statsmodels
+
+# Epydemics
