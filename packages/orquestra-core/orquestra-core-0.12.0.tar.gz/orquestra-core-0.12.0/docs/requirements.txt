@@ -1,0 +1,10 @@
+sphinx-togglebutton
+furo
+sphinx-copybutton
+sphinx-design
+sphinxemoji
+Jinja2>=3.0.0
+
+git+https://git@github.com/zapatacomputing/orquestra-manifest.git
+
+icecream
