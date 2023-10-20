@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: album-colours
+Version: 0.1.0
+Summary: Embellish your visualizations with the vibrant hues of your favorite albums and artists.
+Home-page: https://github.com/danteese/album-colours
+Author: Majo Castañeda, Dante Bazaldua
+Author-email: mariasedcas@gmail.com, dalnte@me.com
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: POSIX :: BSD :: BSD/OS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE

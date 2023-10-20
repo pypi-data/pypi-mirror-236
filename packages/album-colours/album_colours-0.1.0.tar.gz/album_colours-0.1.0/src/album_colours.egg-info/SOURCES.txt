@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/album_colours/__init__.py
+src/album_colours/image_utils.py
+src/album_colours/palette_generator.py
+src/album_colours.egg-info/PKG-INFO
+src/album_colours.egg-info/SOURCES.txt
+src/album_colours.egg-info/dependency_links.txt
+src/album_colours.egg-info/top_level.txt
