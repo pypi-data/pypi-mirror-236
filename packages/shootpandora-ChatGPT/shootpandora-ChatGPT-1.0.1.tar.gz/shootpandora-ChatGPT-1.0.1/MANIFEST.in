@@ -1,0 +1,5 @@
+include requirements.txt
+include requirements_api.txt
+include src/shootpandora/py.typed
+recursive-include src/shootpandora/flask *
+recursive-include src/shootpandora/migrations/scripts *

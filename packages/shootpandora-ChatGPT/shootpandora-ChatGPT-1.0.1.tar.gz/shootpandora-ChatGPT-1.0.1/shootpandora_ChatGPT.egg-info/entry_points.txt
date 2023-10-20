@@ -1,0 +1,3 @@
+[console_scripts]
+shootpandora = shootpandora.launcher:run
+shootpandora-cloud = shootpandora.cloud_launcher:run
