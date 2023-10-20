@@ -1,0 +1,5 @@
+.venv
+.vscode
+*.whl
+*.tar.gz
+__pycache__
