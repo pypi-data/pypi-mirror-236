@@ -1,0 +1,8 @@
+license.txt
+setup.py
+senemail/__init__.py
+senemail/add_num.py
+senemail.egg-info/PKG-INFO
+senemail.egg-info/SOURCES.txt
+senemail.egg-info/dependency_links.txt
+senemail.egg-info/top_level.txt
