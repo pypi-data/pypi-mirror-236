@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+LangaraCourseInfo.egg-info/PKG-INFO
+LangaraCourseInfo.egg-info/SOURCES.txt
+LangaraCourseInfo.egg-info/dependency_links.txt
+LangaraCourseInfo.egg-info/requires.txt
+LangaraCourseInfo.egg-info/top_level.txt
