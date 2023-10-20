@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+alfa_integrations.egg-info/PKG-INFO
+alfa_integrations.egg-info/SOURCES.txt
+alfa_integrations.egg-info/dependency_links.txt
+alfa_integrations.egg-info/requires.txt
+alfa_integrations.egg-info/top_level.txt
+feature_toggle_ui/__init__.py
+feature_toggle_ui/feature_toggle_ui.py
+widget_management_ui/__init__.py
+widget_management_ui/widget_management_ui.py
