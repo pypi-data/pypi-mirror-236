@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: github_webhook_app
+Version: 1.1.1
+Summary: Decorate your way to an app capable of responding to Github Webhook Events
+Author: Josh Ghiloni
+Author-email: ghiloni@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi (>=0.103.2,<0.104.0)
+Requires-Dist: pydantic[email] (>=1,<2)
+Requires-Dist: pygithub (>=2.1.1,<3.0.0)
+Requires-Dist: setuptools (>=68.2.2,<69.0.0)
+Requires-Dist: uvicorn[standard] (>=0.23.2,<0.24.0)
+Description-Content-Type: text/markdown
+
+
