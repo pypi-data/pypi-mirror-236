@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: ecsv
+Version: 0.0.1
+Summary: An easy way to create HTML forms from CSV files
+Author-email: Min Soo Kang <minsookang33@outlook.com>
+Project-URL: Home, https://github.com/minnysoop/ecsv
+Project-URL: Docs, https://github.com/minnysoop/ecsv/blob/main/README.md
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## eCSV
+### Introduction
+This module presents an easy way to create HTML forms from CSV files. You only need to worry about one function, which is outlined in the documentation section.
+### Installation
+
+### Documentation
+To convert your CSV file into an HTML form, here is what you do: 
+1. Import the module
+```
+from ecsv.Converter import Converter
+```
+2. Create an instance of a Converter
+```
+myfile = Converter("path/to/your/csv/file")
+```
+3. Call the "into_HTML_form()" method
+```
+myfile.into_HTML_Form()
+```
+This returns the HTML form as a string
+### Things you should know before converting
+While it can convert any non-empty CSV file into an HTML form. There are some rules on how to structure your CSV file before converting it. Here they are:
+1. No empty CSV's!
+2. Form title always goes in the first row
+3. In an HTML form, inputs are always associated with a label. By default, the converter tries to associate the input with the label on it's left. If that isn't successful, it will try and associate the input with the label on the top. 
+4. Don't merge cells, it complicates things.

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/ecsv/Cell.py
+src/ecsv/Converter.py
+src/ecsv/__init__.py
+src/ecsv.egg-info/PKG-INFO
+src/ecsv.egg-info/SOURCES.txt
+src/ecsv.egg-info/dependency_links.txt
+src/ecsv.egg-info/top_level.txt
+tests/test_converter.py
