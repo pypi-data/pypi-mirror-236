@@ -1,0 +1,9 @@
+swayipc/__init__.py,sha256=8WlIPpKIYgis4BgN3RO2mAn_RBw9WGvgLKz0SExyLIQ,3836
+swayipc/event.py,sha256=xuYZdLvlLuriD3RaWdvjoXGBpNDrCfQioykqHd_-sbc,2138
+swayipc/ipc.py,sha256=N6CyBoLrLSY7rjpilCbXqJs2WQhlM4z4Kg0XrL2TL4U,3739
+swayipc/model.py,sha256=2zr1gaji1-eLLFAqpdDQ53fxuNlBLDCOkgVZ40xTbKI,5882
+swayipc-0.1.1.dist-info/LICENSE,sha256=nqQpXbKpWNGnx9sjeHLkSstlur77oIPLAwANz1xOMTc,1056
+swayipc-0.1.1.dist-info/METADATA,sha256=13IU2FWoIN-d-etA2Wl7Z3y7p2VfK6BLDsz0BiRUP5c,12024
+swayipc-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+swayipc-0.1.1.dist-info/top_level.txt,sha256=ShdRkxEj5NTE-eN5H3aHUflGYTUVedVJa6b2rou5qAg,8
+swayipc-0.1.1.dist-info/RECORD,,
