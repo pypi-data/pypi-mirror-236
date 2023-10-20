@@ -1,0 +1,7 @@
+pylibclang/_C.cpython-312-x86_64-linux-gnu.so,sha256=QQQNeNde253mh9g1WnOmuV2-KdIoBxs-ewjka2rVB-w,5142696
+pylibclang/__init__.py,sha256=RwLOG5rEncKtFYlu-vy42IR6LnyYh15R7ih1tG6uc50,67
+pylibclang/libclang.so.16,sha256=Y8tpF4Idu931yytCUPeYBZvEicsF2Vq81CUxyk701_k,61251800
+pylibclang-116.0.6.dist-info/METADATA,sha256=4kxeRYv-mAJE0S-BSrSP7oFC1cAXWSAqv4V_cddgp6Y,2276
+pylibclang-116.0.6.dist-info/RECORD,,
+pylibclang-116.0.6.dist-info/WHEEL,sha256=iW8Re4IXeWBHr6cPnZ7CTBgy6GJeT6tiGPpP8L-PS2w,153
+pylibclang-116.0.6.dist-info/top_level.txt,sha256=HJN3HsYb-MrdQ6CtGrw-yXFJBIKWCnysfZDllBTzc5k,11
