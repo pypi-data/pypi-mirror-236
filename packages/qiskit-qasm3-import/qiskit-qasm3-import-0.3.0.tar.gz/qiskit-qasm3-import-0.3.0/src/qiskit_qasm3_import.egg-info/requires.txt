@@ -1,0 +1,4 @@
+qiskit-terra>=0.21.0
+openqasm3[parser]<0.6,>=0.4
+
+[all]
