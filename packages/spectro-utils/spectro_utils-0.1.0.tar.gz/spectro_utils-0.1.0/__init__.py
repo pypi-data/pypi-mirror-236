@@ -1,0 +1,4 @@
+from spectro_utils import audio2spectro
+from spectro_utils import spectro2audio
+audio2spectro=audio2spectro
+spectro2audio=spectro2audio

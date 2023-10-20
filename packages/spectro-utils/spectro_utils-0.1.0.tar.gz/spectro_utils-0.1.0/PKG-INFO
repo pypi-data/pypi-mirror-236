@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spectro-utils
+Version: 0.1.0
+Summary: Add a short description here
+Author-email: brian23-code <brian23@mirai.re>
+Requires-Python: >=3.11
+Requires-Dist: librosa>=0.10.1
+Requires-Dist: numpy>=1.26.1
+Requires-Dist: pillow>=10.1.0
+Description-Content-Type: text/markdown
+
+# spectro-utils
+Conversion from wav file to spectro image and from spectro image to wav file
+
+## install
+```
+pip install spectro-utils
+```
