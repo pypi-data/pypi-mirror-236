@@ -1,0 +1,13 @@
+chatcmd/__init__.py,sha256=sWgcOhX9PoMfCGX8cNcZy6L-Vm1S42kLORF4pOojFYE,5541
+chatcmd/chatcmd_init.py,sha256=-C5VgJLITXXlouYuXoK8yF0aJ69llzlGna7sHV44PGo,126
+chatcmd/api/__init__.py,sha256=0NMCSD-m_hLCF3gGb1jBX6Zd8vzVWJU1TdoeDYRRFNE,2070
+chatcmd/commands/__init__.py,sha256=BIQyydb5TQ06JCw3V1pK277J72PxW7_YWubQcHtFcko,4625
+chatcmd/features/__init__.py,sha256=6JIZmVbglHSBz8nIOyJCDlIDtSJEUrpFeexzSQFfgwk,4760
+chatcmd/helpers/__init__.py,sha256=ENthPvc7xRnMCL8cfCZCn7MRDdgzWDi76LNtLzLHh4o,2484
+chatcmd/lookup/__init__.py,sha256=Oz3rPegBmnA-9tA_JE7jyu6TqUruqkiP0YYafWI2NJg,10044
+chatcmd-1.1.13.dist-info/LICENSE,sha256=1sGvuWxn16FtoKl-RBWedTB_u_jcr7SC41ukg4tvomM,1069
+chatcmd-1.1.13.dist-info/METADATA,sha256=INEOeEA3DU31zZwJJx_3SuAGa34Q2Y2244Me18DIn4A,7814
+chatcmd-1.1.13.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+chatcmd-1.1.13.dist-info/entry_points.txt,sha256=IrjYYZDhlS82d1wAFkGrJW-GbBYssX5D09H2UZQXw9I,54
+chatcmd-1.1.13.dist-info/top_level.txt,sha256=qLr2vX8BWYFHYfgwuOmgkw0PGTyTUEqT9k_S69YU0nE,8
+chatcmd-1.1.13.dist-info/RECORD,,
