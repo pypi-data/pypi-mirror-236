@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: control-ai
+Version: 0.0.0
+Summary: A Python library for building AI models that you can control, understand, and ultimately trust
+Author-email: Control AI <will@getcontrol.ai>
+Maintainer-email: Control AI <will@getcontrol.ai>
+License: MIT
+Project-URL: Source, https://github.com/ControlAI/control-ai
+Project-URL: Documentation, https://github.com/ControlAI/control-ai/tree/main/docs
+Project-URL: Feature Requests, https://github.com/ControlAI/control-ai/issues
+Project-URL: Bug Reports, https://github.com/ControlAI/control-ai/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: <=3.11,>=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# control-ai
+Tooling for building AI models that you can control, understand, and ultimately trust.
