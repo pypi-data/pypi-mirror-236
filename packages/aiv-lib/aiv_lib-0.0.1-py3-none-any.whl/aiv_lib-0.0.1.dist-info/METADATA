@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aiv_lib
+Version: 0.0.1
+Summary: AIV  Library for Python
+Project-URL: Homepage, https://github.com/pypa/aiv_lib
+Project-URL: Bug Tracker, https://github.com/pypa/aiv_lib/issues
+Author-email: Example Author <uday.oninternet@gmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+
+AIV  Library for Python
