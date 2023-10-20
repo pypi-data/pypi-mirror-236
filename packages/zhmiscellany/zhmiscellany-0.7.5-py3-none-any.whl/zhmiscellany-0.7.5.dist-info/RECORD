@@ -1,0 +1,11 @@
+zhmiscellany/__init__.py,sha256=Hw6dJtR0f6y_81OxbVkQU_rPywpIrHxOyPU5R-PQIrQ,106
+zhmiscellany/_supportfuncs.py,sha256=NERWvIZf_-abhDJ1n-7qhO5W0YHYJkzRq4sD-iYekCU,6152
+zhmiscellany/discord.py,sha256=N1EuKi_qGFOawKte7cyYrjIH79VlkVD-kbSi3YUUqZQ,9948
+zhmiscellany/fileio.py,sha256=yfObTW_8xbg-wz-ouNU1O50nit_K8yWumFS5Hi6x13k,1119
+zhmiscellany/math.py,sha256=hsFFAUXIrM5U5xtqTGC_ki-KIebbmkvD8lQxApO6sZY,1252
+zhmiscellany/netio.py,sha256=tMWaNdrWde-MHUdVKAhFO6lQRmldGipocbikdTpXSVU,400
+zhmiscellany/string.py,sha256=5rtwF73xQcH40cMhu9x4lPRqqLz3gbTUH5ngFwQApbA,1429
+zhmiscellany-0.7.5.dist-info/METADATA,sha256=6Xlbh7bSdvfBvmOoCxL5P_vrPPZ-Yn4xWYgyB6afmqY,10504
+zhmiscellany-0.7.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+zhmiscellany-0.7.5.dist-info/top_level.txt,sha256=ioDtsrevCI52rTxZntMPljRIBsZs73tD0hI00HektiE,13
+zhmiscellany-0.7.5.dist-info/RECORD,,
