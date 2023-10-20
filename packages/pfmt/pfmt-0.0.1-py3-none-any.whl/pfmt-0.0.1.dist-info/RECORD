@@ -1,0 +1,15 @@
+pfmt/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+pfmt/_modidx.py,sha256=GhIjxT61e-z9m0m0GPCOPyErH8vZIsIvUDdmPCnwj1I,1348
+pfmt/byte.py,sha256=t-1RqO798B-SerT4iqSfd8CiV-cKAWgJyHlKC4ToIjg,1410
+pfmt/numb.py,sha256=CODwaoJWCX_TU_iK5SCagrHEm0FvcHGynRbpK3p49S8,917
+pfmt/path.py,sha256=9YahekRfVpIF4oADEaC2HPoUMr_eBV2_OTCFdBAZtKI,1535
+pfmt/unit.py,sha256=TmFz9ywva1ki4KixzNvAfAen7MMIs9sFzgj8C0xtWp8,3396
+pfmt/word.py,sha256=LRUnxvtj8fehewNXA6LZXm3m34ZyyuXIAJ68Ah-Qogk,769
+pfmt/fmts/__init__.py,sha256=joW6hU4xvOExB81wqLpz2LlLo81tj6K_VC7LblQgVVQ,438
+pfmt/fmts/unit.py,sha256=6EUpoW5x2EKgQ2Y7Lt9dCaURc0lpjf7BSk4OlxBB32I,3413
+pfmt-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+pfmt-0.0.1.dist-info/METADATA,sha256=BtK8P5AyODi7Hv53wXDRotitfFn5UdHf_tdAAzB-cBQ,2092
+pfmt-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+pfmt-0.0.1.dist-info/entry_points.txt,sha256=TQ4w-5N09AWaa3gx3ytNlluGjxoN6Fl84_uZQThr2dM,30
+pfmt-0.0.1.dist-info/top_level.txt,sha256=OXjKk1iOZlKq6FZs24a9F1gEYr56Jqw0sQAtvJEYu50,5
+pfmt-0.0.1.dist-info/RECORD,,
