@@ -1,0 +1,8 @@
+tablegpt_executor_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tablegpt_executor_client/client.py,sha256=FqxPVmvoskFI9C3Bqde9_yJpW4Ej-5BB0TDSseThNM0,3594
+tablegpt_executor_client/errors.py,sha256=5Eu5srKz9icnmKWHFq8zeP-43ZCeG4fwBQhnt8VyvP0,1882
+tablegpt_executor_client/schemas.py,sha256=sKxuJu8dRErlYHullJxzW5uC8Oi2oYmW54caRVzSjVo,1668
+tablegpt_executor-0.1.1.dist-info/METADATA,sha256=KUo1pLxiDHYr8UcD0uVs8T5GIpcvtF99ULWxzbQHUwY,386
+tablegpt_executor-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+tablegpt_executor-0.1.1.dist-info/top_level.txt,sha256=i0vxzQV4qqsvNoX1atU1Y37GMzcJvBW2lMsVKc0ATyY,25
+tablegpt_executor-0.1.1.dist-info/RECORD,,
