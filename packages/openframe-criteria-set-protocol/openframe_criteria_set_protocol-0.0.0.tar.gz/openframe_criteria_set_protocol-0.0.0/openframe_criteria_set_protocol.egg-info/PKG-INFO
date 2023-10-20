@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: openframe-criteria-set-protocol
+Version: 0.0.0
+Summary: A protocol and tools for defining and working with criteria sets
+Author: Andrés Angulo <aa@openframe.org>
+Author-email: Andrés Angulo <aa@openframe.org>
+Project-URL: Homepage, https://github.com/Frame-ApS/criteria-set-protocol
+Project-URL: Bug Tracker, https://github.com/Frame-ApS/criteria-set-protocol/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
