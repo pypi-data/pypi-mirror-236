@@ -1,0 +1,8 @@
+README.md
+setup.py
+bfstyle/__init__.py
+bfstyle/load_bf_style.py
+bfstyle.egg-info/PKG-INFO
+bfstyle.egg-info/SOURCES.txt
+bfstyle.egg-info/dependency_links.txt
+bfstyle.egg-info/top_level.txt
