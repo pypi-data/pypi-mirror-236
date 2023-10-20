@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: nanopy
+Version: 25.0
+Home-page: https://github.com/npy0/nanopy
+License: MIT
+Requires-Python: >=3.6
+Provides-Extra: full
+License-File: LICENSE

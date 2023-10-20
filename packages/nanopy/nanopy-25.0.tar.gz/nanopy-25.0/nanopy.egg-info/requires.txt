@@ -1,0 +1,6 @@
+
+[full]
+mnemonic
+pysocks
+requests
+websocket-client
