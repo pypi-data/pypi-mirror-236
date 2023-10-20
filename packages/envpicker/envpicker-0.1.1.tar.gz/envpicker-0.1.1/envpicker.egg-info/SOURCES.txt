@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+envpicker/__init__.py
+envpicker.egg-info/PKG-INFO
+envpicker.egg-info/SOURCES.txt
+envpicker.egg-info/dependency_links.txt
+envpicker.egg-info/requires.txt
+envpicker.egg-info/top_level.txt
