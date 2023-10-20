@@ -1,0 +1,7 @@
+pip
+requests
+urllib3
+tabulate
+argcomplete
+idds-common==1.3.25
+idds-workflow==1.3.25
