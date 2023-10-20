@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/MetaDetective/MetaDetective.py
+src/MetaDetective.egg-info/PKG-INFO
+src/MetaDetective.egg-info/SOURCES.txt
+src/MetaDetective.egg-info/dependency_links.txt
+src/MetaDetective.egg-info/entry_points.txt
+src/MetaDetective.egg-info/top_level.txt
+tests/test_MetaDetective.py
