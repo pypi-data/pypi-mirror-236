@@ -1,0 +1,10 @@
+README.md
+setup.py
+my_module/__init__.py
+my_module/my_function.py
+my_module/scraping.py
+phdAncientHistGrkPap.egg-info/PKG-INFO
+phdAncientHistGrkPap.egg-info/SOURCES.txt
+phdAncientHistGrkPap.egg-info/dependency_links.txt
+phdAncientHistGrkPap.egg-info/requires.txt
+phdAncientHistGrkPap.egg-info/top_level.txt
