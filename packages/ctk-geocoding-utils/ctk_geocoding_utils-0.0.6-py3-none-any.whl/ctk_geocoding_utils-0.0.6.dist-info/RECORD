@@ -1,0 +1,8 @@
+data_geocoding_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data_geocoding_utils/disambiguation.py,sha256=CCTmW1SkmjrbAJ_nKDfBeUWuojiVZC-WJpNKQv3E8Xc,12310
+data_geocoding_utils/shaping_rules.py,sha256=dtxDX5f7daskKbJUvWk09thvOyhhtIv96ICM0MtlA5g,7225
+ctk_geocoding_utils-0.0.6.dist-info/LICENCE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+ctk_geocoding_utils-0.0.6.dist-info/METADATA,sha256=8IwwEVpAvewX01HingH1PV7jgdj0XgQLIuEE7g21U4g,532
+ctk_geocoding_utils-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ctk_geocoding_utils-0.0.6.dist-info/top_level.txt,sha256=i15zP9KgVikruq2ktMxZu5rquAix6lhc2k6z-6n2mM0,21
+ctk_geocoding_utils-0.0.6.dist-info/RECORD,,
