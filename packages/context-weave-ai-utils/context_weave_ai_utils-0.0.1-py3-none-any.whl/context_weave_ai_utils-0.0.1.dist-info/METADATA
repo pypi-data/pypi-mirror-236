@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: context-weave-ai-utils
+Version: 0.0.1
+Summary: A python package for managing utilities for Context Weave AI application
+Home-page: https://github.com/ainomic/context-weave-ai-utils
+Project-URL: Bug Tracker, https://github.com/ainomic/context-weave-ai-utils/issues
+Project-URL: Changelog, https://github.com/ainomic/context-weave-ai-utils/releases
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: cryptography <41.1,>=41.0.4
+
