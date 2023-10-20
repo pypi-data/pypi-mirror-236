@@ -1,0 +1,14 @@
+quicksect/__init__.py,sha256=021HNWPv2hLaMFZIuJIoxgMifiNEe6pYqwK0omjxp0c,112
+quicksect/quicksect.cp39-win32.pyd,sha256=s0m3htKMahKrkj3hzaFDDKHsij61eFmxKTeW1AOmhpk,111104
+quicksect/quicksect.cpp,sha256=jeP9Z8O69Dof4x1quRLtqeRjKl-hyEtkbYVqrR4SX9o,875855
+quicksect/quicksect.pyx,sha256=Se_8CdNlAnQ_M3wJJFZ4iN4pxz2o6wv5NqkvVyxXWv8,14787
+quicksectx/__init__.py,sha256=lc5Bh69BHSzk_RtMDswbZzAW9mIxREVpnu6oHaWrEXw,136
+quicksectx/quicksectx.cp39-win32.pyd,sha256=Q4TkA8ivj52w1FVzKrqhSO0_G9W6J4stJQbzvMqSCgo,119296
+quicksectx/quicksectx.cpp,sha256=xKB1XyZRwGtxqvYjolrgtRI2v3c7jsdP6GX9Lmzbrp0,973719
+quicksectx/quicksectx.pxd,sha256=RhB3GuLXLqTw5QlPZt06yz1b5TyiEubBpIiSysCk7R8,1505
+quicksectx/quicksectx.pyx,sha256=1bDhDdLWmyy5yPrvHVDHQ5EIiEodksYlJY_n5CwigE0,17699
+quicksectx-0.3.8a0.dist-info/LICENSE,sha256=iLuGje-RcnHWPTPUiAtDMLKFFDA-bfux_KDl2sBIBB8,1088
+quicksectx-0.3.8a0.dist-info/METADATA,sha256=Lmozh0dnSH91PZnoragLQdaPX5wugIJJl7yb6mA-zG8,4249
+quicksectx-0.3.8a0.dist-info/WHEEL,sha256=f7KcxEC-t0Gqz4jsLWrEKtFkz8Ns4-1YqJU5A6LXwLY,96
+quicksectx-0.3.8a0.dist-info/top_level.txt,sha256=8NDGIj_DVaDPjTJqEw3r-3n9N4pUAEicM0Xb7LEAvwc,21
+quicksectx-0.3.8a0.dist-info/RECORD,,
