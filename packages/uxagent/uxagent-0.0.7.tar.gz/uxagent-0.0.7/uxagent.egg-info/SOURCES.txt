@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+UXAGENT/__init__.py
+UXAGENT/filters.py
+UXAGENT/uxagent.py
+UXAGENT/data/user_agents.zip
+uxagent.egg-info/PKG-INFO
+uxagent.egg-info/SOURCES.txt
+uxagent.egg-info/dependency_links.txt
+uxagent.egg-info/not-zip-safe
+uxagent.egg-info/top_level.txt
