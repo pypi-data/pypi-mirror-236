@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: tpf
+Version: 1.0.16
+Requires-Dist: cx-Oracle
+Requires-Dist: pymysql ==1.0.2
+
