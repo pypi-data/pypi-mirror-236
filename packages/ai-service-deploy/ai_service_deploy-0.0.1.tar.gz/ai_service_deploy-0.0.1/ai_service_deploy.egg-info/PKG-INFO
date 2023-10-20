@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: ai-service-deploy
+Version: 0.0.1
+Summary: PYPI tutorial
+Home-page: https://hello2_world.git/hello_world2
+Author: wj
+Author-email: hello_world2@helloworld.com
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.8
