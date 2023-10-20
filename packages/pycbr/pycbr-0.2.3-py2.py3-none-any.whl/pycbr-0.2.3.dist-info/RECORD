@@ -1,0 +1,12 @@
+pycbr/__init__.py,sha256=kKjnMTiBNzCcn_5ZvRVNW4cN8OYnj4pQHXfZGpb2jns,3159
+pycbr/aggregate.py,sha256=p1ye7EHwTy5IjVm22Puuilk-b-6kopq3Y0pJCQ54NaM,2850
+pycbr/casebase.py,sha256=zwwaBCn8wGNeGGI5s_i6C5FilbGu7LKB23_yPLVf9i8,3914
+pycbr/models.py,sha256=EDdE3UhzH6ai7ftgg9hz9-NYvfMirvCDahop1RnNAbo,7436
+pycbr/nlp.py,sha256=LzF75n8s9MwdgxqWvDePOc2nG_3TIm8lrX9h58ss76U,6470
+pycbr/recovery.py,sha256=3l4SfTb8jt3lp2Qow0FI5r4hcIzmfvMcop0Lv3ALet8,5483
+pycbr/server.py,sha256=XzaONipQt3D_r9L3v135foMAF6ex_OaY4yUID_2YiM8,7138
+pycbr-0.2.3.dist-info/LICENSE.txt,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+pycbr-0.2.3.dist-info/METADATA,sha256=mts-MoVEH5SFJYs8-4uT9tvSx99F2x94SFRsz8l7MbM,2905
+pycbr-0.2.3.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+pycbr-0.2.3.dist-info/top_level.txt,sha256=IqIcNElS1LXshuaU1XUAW2IXLQwoagn025k4ZGHJpiw,6
+pycbr-0.2.3.dist-info/RECORD,,

@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: pycbr
+Version: 0.2.3
+Summary: Package to implement Case-Based Reasoning systems
+Home-page: https://github.com/dih5/pycbr
+Author: Dih5
+Author-email: dihedralfive@gmail.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: flask
+Requires-Dist: flask-restx
+Requires-Dist: flask-cors
+Requires-Dist: coloredlogs
+Requires-Dist: pyyaml
+Requires-Dist: werkzeug <1.0
+Provides-Extra: docs
+Requires-Dist: nbsphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: IPython ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Provides-Extra: text
+Requires-Dist: nltk ; extra == 'text'
+
+# pycbr
+[![PyPI](https://img.shields.io/pypi/v/pycbr.svg)](https://pypi.python.org/pypi/pycbr)
+
+[![license LGPLv3](https://img.shields.io/badge/license-LGPLv3-blue.svg)](https://raw.githubusercontent.com/Dih5/pycbr/master/LICENSE.txt)
+
+[![Build Status](https://travis-ci.org/Dih5/pycbr.svg?branch=master)](https://travis-ci.org/Dih5/pycbr)
+[![Documentation Status](https://readthedocs.org/projects/pycbr/badge/?version=latest)](http://pycbr.readthedocs.io/en/latest/?badge=latest)
+
+Microframework to implement Case-Based Reasoning systems
+
+
+## Installation
+Assuming you have a [Python3](https://www.python.org/) distribution with [pip](https://pip.pypa.io/en/stable/installing/), to install a development version, cd to the directory with this file and:
+
+```
+pip3 install -e .
+```
+As an alternative, a virtualenv might be used to install the package:
+```
+# Prepare a clean virtualenv and activate it
+virtualenv -p /usr/bin/python3.6 venv
+source venv/bin/activate
+# Install the package
+pip3 install -e .
+```
+
+To install also the dependencies to run the tests or to generate the documentation install some of the extras like
+```
+pip3 install -e '.[docs,test]'
+```
+Mind the quotes.
+
+## Documentation
+To generate the documentation, the *docs* extra dependencies must be installed. Furthermore, **pandoc** must be
+available in your system.
+
+To generate an html documentation with sphinx run:
+```
+make docs
+```
+
+To generate a PDF documentation using LaTeX:
+```
+make pdf
+```
+
+
+
+## Test
+To run the unitary tests:
+```
+make test
+```
