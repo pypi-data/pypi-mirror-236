@@ -1,0 +1,10 @@
+ocx/__init__.py,sha256=YC-_rhv-FOgdQOGVrYmeFP_LwEnJFJECPRr4K6oAzr8,23
+ocx/ocx_286/__init__.py,sha256=YcC0P1a9CcuZiXjc4EIoA0H0F4ZEqpSEEPd7GUcUfvY,10949
+ocx/ocx_286/ocx_286.py,sha256=pwhxQMsJ7hcZdn-afoxyF7yH7CB08mtPqnqhm7a4zUQ,382877
+ocx/ocx_300b0/__init__.py,sha256=5db1_S9_phZ38lCbrmNymc1-Xpj6D9YXwxw1m0F023Q,10783
+ocx/ocx_300b0/ocx_300b0.py,sha256=Zx988i28IlJGI2grAi-NabaOTfzFBr8_8rn8LW0mWAc,371866
+ocx/OCX_Schema.xsd,sha256=LOPn1K1YMPhRRQmGfXnnkOSCV7_ZH4i8InAzc0pS1eY,263079
+ocx-3.0.0b1.dist-info/LICENSE,sha256=vlxyPkkwqcSBgPBVXZCSnzvu67ZwQXoPAhpGhE25WYk,11560
+ocx-3.0.0b1.dist-info/METADATA,sha256=dpkxG5v0I0jkLA5B685nh1FrIeiRR4CQvjYOtvCfLT4,2719
+ocx-3.0.0b1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ocx-3.0.0b1.dist-info/RECORD,,
