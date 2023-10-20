@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pyquat
+Version: 0.5.1
+Summary: Python C quaternion type for fast attitude and rotation computations
+Home-page: http://github.com/translunar/pyquat/
+Download-URL: https://github.com/translunar/pyquat/archive/v0.5.1.tar.gz
+Author: Juno Woods, Ph.D.
+Author-email: juno@translunar.io
+License: BSD 3-clause
+Keywords: quaternion,math,maths,graphics,physics,orientation,attitude,pose,geometry,visualization,visualisation,animation,game development,simulation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+Python C quaternion type for fast attitude and rotation computations
