@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: clientapi_atrocore
+Version: 1.0.0
+Summary: AtroCore REST API documentation
+Home-page: https://github.com/client-api/atrocore-python
+Author: OpenAPI Generator community
+Author-email: team@openapitools.org
+Keywords: OpenAPI,OpenAPI-Generator,AtroCore REST API documentation
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: urllib3<2.1.0,>=1.25.3
+Requires-Dist: python-dateutil
+Requires-Dist: pydantic<2,>=1.10.5
+Requires-Dist: aenum
+
+    This is a REST API documentation for AtroCore data platform and its modules (AtroPIM, AtroDAM and others), which is based on [OpenAPI (Swagger) Specification](https://swagger.io/specification/). You can generate your client [here](https://openapi-generator.tech/docs/generators).&lt;br&gt;&lt;br&gt;&lt;h3&gt;Video tutorials:&lt;/h3&gt;&lt;ul&gt;&lt;li&gt;[How to authorize?](https://youtu.be/GWfNRvCswXg)&lt;/li&gt;&lt;li&gt;[How to select specific fields?](https://youtu.be/i7o0aENuyuY)&lt;/li&gt;&lt;li&gt;[How to filter data records?](https://youtu.be/irgWkN4wlkM)&lt;/li&gt;&lt;/ul&gt;
+    
