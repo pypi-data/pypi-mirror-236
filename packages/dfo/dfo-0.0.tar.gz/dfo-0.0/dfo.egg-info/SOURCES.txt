@@ -1,0 +1,9 @@
+README
+setup.cfg
+setup.py
+dfo.egg-info/PKG-INFO
+dfo.egg-info/SOURCES.txt
+dfo.egg-info/dependency_links.txt
+dfo.egg-info/not-zip-safe
+dfo.egg-info/requires.txt
+dfo.egg-info/top_level.txt
