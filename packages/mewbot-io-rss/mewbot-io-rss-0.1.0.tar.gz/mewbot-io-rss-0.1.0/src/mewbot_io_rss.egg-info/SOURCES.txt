@@ -1,0 +1,13 @@
+LICENSE.md
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/mewbot/io/rss/__init__.py
+src/mewbot/io/rss/events.py
+src/mewbot_io_rss.egg-info/PKG-INFO
+src/mewbot_io_rss.egg-info/SOURCES.txt
+src/mewbot_io_rss.egg-info/dependency_links.txt
+src/mewbot_io_rss.egg-info/requires.txt
+src/mewbot_io_rss.egg-info/top_level.txt
+tests/test_mewbot_io_rss.py
