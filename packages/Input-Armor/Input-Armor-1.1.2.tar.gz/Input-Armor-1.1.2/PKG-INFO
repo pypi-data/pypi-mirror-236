@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: Input-Armor
+Version: 1.1.2
+Summary: A Python library for input validation and security.
+Home-page: https://github.com/Armen-Jean-Andreasian
+Author: Armen-Jean Andreasian
+Author-email: armen.andreasian77@gmail.com
+License: MIT
+Keywords: sql-injection,bad input,input validation,security,python
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+A Python library for input validation and security.
+
+InputArmor is designed to help you protect your Python applications from malicious input. It checks for encoding issues, SQL queries, and potential security vulnerabilities, raising custom errors when invalid input is detected.
+
+For more details and documentation, please visit the [GitHub repository](https://github.com/Armen-Jean-Andreasian/Input-Armor).
+
+Features:
+- Validate user input for potential security issues.
+- Easily integrate input validation into your Python projects.
+- Protect your applications from common security threats.
+
+Installation:
+```commandline 
+pip install Input-Armor
+```
