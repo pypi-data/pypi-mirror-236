@@ -1,0 +1,9 @@
+setuptools
+zope.component
+zope.interface
+plone.app.dexterity
+plone.app.textfield
+plone.behavior
+plone.autoform
+plone.dexterity
+plone.supermodel
