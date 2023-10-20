@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: metametric
+Version: 0.1.0a1
+Summary: A Unified View of Evaluation Metrics for Structured Prediction
+Home-page: https://omnuy.me/metametric
+Author: Tongfei Chen
+Author-email: tongfei@pm.me
+Requires-Python: >=3.9,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: torchmetrics
+Requires-Dist: numpy (>=1.25.2,<2.0.0)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Requires-Dist: torchmetrics (>=1.1.2,<2.0.0) ; extra == "torchmetrics"
+Project-URL: Repository, https://github.com/wanmok/metametric
+Description-Content-Type: text/markdown
+
+# metametric
+This is the codebase of the paper _pypA Unified View of Evaluation Metrics for Structured Prediction_.
+
