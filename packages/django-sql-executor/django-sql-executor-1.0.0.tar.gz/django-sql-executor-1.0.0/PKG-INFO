@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: django-sql-executor
+Version: 1.0.0
+Summary: Django SQL executor
+Keywords: django
+Classifier: Framework :: Django
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+### Installation
+```bash
+$ pip install django-sql-executor
+```
+
+#### `settings.py`
+```python
+INSTALLED_APPS+=['django_sql_executor']
+```
+
+#### `migrate`
+```bash
+$ python manage.py migrate
+```
+
