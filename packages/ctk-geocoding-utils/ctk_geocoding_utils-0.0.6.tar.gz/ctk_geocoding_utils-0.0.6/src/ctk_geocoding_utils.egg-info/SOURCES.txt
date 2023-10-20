@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+requirements.txt
+src/ctk_geocoding_utils.egg-info/PKG-INFO
+src/ctk_geocoding_utils.egg-info/SOURCES.txt
+src/ctk_geocoding_utils.egg-info/dependency_links.txt
+src/ctk_geocoding_utils.egg-info/requires.txt
+src/ctk_geocoding_utils.egg-info/top_level.txt
+src/data_geocoding_utils/__init__.py
+src/data_geocoding_utils/disambiguation.py
+src/data_geocoding_utils/shaping_rules.py
+tests/test_disambiguation.py
+tests/test_geo_triplet.py

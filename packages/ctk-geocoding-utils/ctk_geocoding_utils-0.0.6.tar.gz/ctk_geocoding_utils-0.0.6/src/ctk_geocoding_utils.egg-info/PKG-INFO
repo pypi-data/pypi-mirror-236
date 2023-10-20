@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ctk-geocoding-utils
+Version: 0.0.6
+Summary: Utility package for geocoding at chronotruck.
+Author-email: Matthieu BOVERY <mattthieu.bovery@chronotruck.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: iso3166==2.1.1
+Requires-Dist: pandas==1.5.3
+Requires-Dist: Unidecode==1.3.6
+
+# data-geocoding-utils
