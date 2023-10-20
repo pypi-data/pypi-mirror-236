@@ -1,0 +1,4 @@
+tqdm
+pydantic
+numpy
+click
