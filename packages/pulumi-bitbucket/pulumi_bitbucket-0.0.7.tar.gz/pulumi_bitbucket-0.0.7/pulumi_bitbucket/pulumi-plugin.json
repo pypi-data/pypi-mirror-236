@@ -1,0 +1,5 @@
+{
+  "resource": true,
+  "name": "bitbucket",
+  "server": "github://api.github.com/ryan-pip"
+}
