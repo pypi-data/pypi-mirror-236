@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: unique-passwords
+Version: 1.0.1
+Summary: A Python script to generate secure random passwords.
+Home-page: https://github.com/VinayKhatrii/password
+Author: Vinay Khatri
+Author-email: khatrivinay520@gmail.com
+License: MIT

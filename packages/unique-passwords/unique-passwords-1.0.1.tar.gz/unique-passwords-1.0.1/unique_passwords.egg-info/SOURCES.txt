@@ -1,0 +1,6 @@
+README
+setup.py
+unique_passwords.egg-info/PKG-INFO
+unique_passwords.egg-info/SOURCES.txt
+unique_passwords.egg-info/dependency_links.txt
+unique_passwords.egg-info/top_level.txt

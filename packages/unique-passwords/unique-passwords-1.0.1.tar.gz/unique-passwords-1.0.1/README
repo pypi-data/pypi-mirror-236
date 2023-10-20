@@ -1,0 +1,37 @@
+# Random Password Generator
+
+This Python script is designed to generate secure random passwords for users. The passwords are generated using a combination of letters (both uppercase and lowercase), numbers, and special characters. It ensures that the generated passwords are strong and not easily guessable.
+
+## Installation
+
+Clone the repository to your local machine file directly. Ensure that you have Python 3.x installed on your system.
+
+## Usage
+
+To use the password generator, run the import script password and use methods (example below) in a Python environment. You can set password_length and password_number for multiple passwords too
+
+## Example
+
+```
+from random_passwords import password
+password_length = 5
+new = password.generate_password(password_length)
+print(new)
+
+output: jfh$6
+
+passwords = password.generate_multiple(password_length = 5, password_number = 3)
+for password in passwords:
+    print(password)
+
+output:
+sd%dd
+ifd#$
+```
+
+## Customize
+
+You can customize the script to adjust the character sets used for password generation. If you want to change the default behavior of the password generation, you can modify the character sets in the script.
+
+
+Feel free to contribute or provide suggestions for improvement.
