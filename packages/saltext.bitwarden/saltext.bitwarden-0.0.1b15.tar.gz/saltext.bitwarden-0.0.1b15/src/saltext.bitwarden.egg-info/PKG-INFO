@@ -1,0 +1,382 @@
+Metadata-Version: 2.1
+Name: saltext.bitwarden
+Version: 0.0.1b15
+Summary: Salt Extension Modules for Bitwarden
+Home-page: https://gitlab.com/ggiesen/salt-ext-bitwarden
+Author: Gary T. Giesen
+Author-email: ggiesen@giesen.me
+License: Apache Software License
+Project-URL: Source, https://gitlab.com/ggiesen/salt-ext-bitwarden
+Project-URL: Tracker, https://gitlab.com/ggiesen/salt-ext-bitwarden/-/issues
+Project-URL: Documentation, https://ggiesen.gitlab.io/salt-ext-bitwarden
+Keywords: salt-extension
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: salt>=3006
+Requires-Dist: pyhumps
+Requires-Dist: requests
+Requires-Dist: validators>=0.22.0
+Provides-Extra: tests
+Requires-Dist: pytest==6.2.4; extra == "tests"
+Requires-Dist: pytest-salt-factories==0.911.0; extra == "tests"
+Requires-Dist: pytest-subprocess; extra == "tests"
+Requires-Dist: jinja2<=3.1.0; extra == "tests"
+Provides-Extra: dev
+Requires-Dist: nox; extra == "dev"
+Requires-Dist: pre-commit==2.13.0; extra == "dev"
+Requires-Dist: pylint==2.13.9; extra == "dev"
+Requires-Dist: SaltPyLint; extra == "dev"
+Provides-Extra: docs
+Requires-Dist: sphinx>=3.5.1; extra == "docs"
+Requires-Dist: jinja2<=3.1.0; extra == "docs"
+Requires-Dist: furo; extra == "docs"
+Requires-Dist: sphinx-copybutton; extra == "docs"
+Requires-Dist: sphinx-prompt; extra == "docs"
+Requires-Dist: sphinxcontrib-spelling; extra == "docs"
+Requires-Dist: importlib_metadata; python_version < "3.8" and extra == "docs"
+Provides-Extra: docsauto
+Requires-Dist: sphinx-autobuild; extra == "docsauto"
+
+# bitwarden
+
+Salt Extension Modules for Bitwarden
+
+## Introduction
+This extension for [Salt](https://saltproject.io) enables Salt to access and administer a
+[Bitwarden](https://bitwarden.com/) vault/instance.
+
+This project aims to eventually have 100% coverage of the
+[Bitwarden Vault Management API](https://bitwarden.com/help/vault-management-api/) and the
+[Bitwarden Public (Organization Management) API](https://bitwarden.com/help/api/). This extension
+is changing quickly, and while attempts will be made to not make breaking changes, the current
+focus is on functionality rather than syntax/API stability.
+
+## Requirements
+This extension requires the `bw` Bitwarden CLI utility to be installed for functions that depend
+on the `Bitwarden Vault Management API`. Installation instructions are available
+[here](https://bitwarden.com/help/cli/#download-and-install). It also has dependencies on the
+[pyhumps](https://github.com/nficano/humps), [requests](https://github.com/psf/requests), and
+[validators](https://github.com/python-validators/validators) python packages, which are automatically installed.
+
+## Installation
+An example state file for installing and configuring this extension on EL8 (RHEL, AlmaLinux, Rocky
+Linux, Oracle Linux, Scientific Linux, etc.):
+
+```yaml
+# Install the NodeSource EL8 repo to get Node.js
+cmd_nodesource-el8.repo:
+  cmd.run:
+    - name: curl -fsSL https://rpm.nodesource.com/setup_18.x | bash -
+    - creates:
+        - /etc/yum.repos.d/nodesource-el8.repo
+
+# Bitwarden CLI depends on Node.js
+pkg_nodejs:
+  pkg.installed:
+    - name: nodejs
+    - require:
+        - cmd_nodesource-el8.repo
+
+# Install the Bitwarden CLI client (which includes the Vault Management REST API
+# server)
+npm_bitwarden_cli:
+  npm.installed:
+    - name: '@bitwarden/cli'
+    - require:
+        - pkg_nodejs
+
+# Install the Bitwarden Salt Extension
+pip_saltext.bitwarden:
+  pip.installed:
+    - name: saltext.bitwarden
+    - require:
+        - npm_bitwarden_cli
+
+# Configure server options for Bitwarden REST API Server
+file_/etc/sysconfig/bw-api:
+  file.managed:
+    - name: /etc/sysconfig/bw-api
+    - user: root
+    - group: root
+    - mode: "0644"
+    - contents: |
+        # Command-line options for bw serve
+        BITWARDENCLI_APPDATA_DIR=/etc/salt/.bitwarden
+        OPTIONS="--hostname localhost --port 8087"
+    - require:
+        - pip_saltext.bitwarden
+    - watch_in:
+        - service_bw-api
+
+# Create a systemd service unit file since one is not included in the package.
+# Reloads systemctl if the file changes.
+file_/etc/systemd/system/bw-api.service:
+  file.managed:
+    - name: /etc/systemd/system/bw-api.service
+    - user: root
+    - group: root
+    - mode: "0644"
+    - contents: |
+        [Unit]
+        Description=Bitwarden Vault Management API
+        Documentation=https://bitwarden.com/help/cli/
+        After=network.target
+
+        [Service]
+        EnvironmentFile=-/etc/sysconfig/bw-api
+        User=salt
+        Group=salt
+        Type=simple
+        WorkingDirectory=~
+        ExecStart=/bin/bw serve $OPTIONS
+        Restart=always
+
+        [Install]
+        WantedBy=multi-user.target
+    - require:
+        - file_/etc/sysconfig/bw-api
+    - watch_in:
+        - service_bw-api
+
+# You must manually create files in /etc/salt/master.d/bitwarden.conf or
+# /etc/salt/minion.d/bitwarden.conf (or both) depending on the context, with the following contents
+# (substituting values as appropriate):
+#
+#  bitwarden:
+#    driver: bitwarden
+#    cli_path: /bin/bw
+#    cli_conf_dir: /etc/salt/.bitwarden
+#    cli_runas: salt
+#    vault_url: https://bitwarden.com
+#    email: user@example.com
+#    password: CorrectHorseBatteryStaple
+#    vault_api_url: http://localhost:8087
+#    public_api_url: https://api.bitwarden.com
+#    client_id: 25fa6fc6-deeb-4b42-a279-5e680b51aa58
+#    client_secret: AofieD0oexiex1mie3eigi9oojooF3
+#    org_client_id: organization.d0e19db4-38aa-4284-be3d-e80cff306e6c
+#    org_client_secret: aWMk2MBf4NWXfaevrKyxa3uqNXYVQy
+
+# Used for runner and SDB modules
+file_/etc/salt/master.d/bitwarden.conf:
+  file.exists:
+    - name: /etc/salt/master.d/bitwarden.conf
+    - require:
+        - pip_saltext.bitwarden
+
+# Used for execution, SDB and state modules
+file_/etc/salt/minion.d/bitwarden.conf:
+  file.exists:
+    - name: /etc/salt/minion.d/bitwarden.conf
+    - require:
+        - pip_saltext.bitwarden
+
+# Make sure the Bitwarden vault is logged in before we start the REST API server
+# service otherwise the service will refuse to start
+bitwarden_logged_in:
+  bitwarden.logged_in:
+    - name: logged_in
+    - use_cli: True
+    - profile: bitwarden
+
+# Run the Bitwarden Vault Management REST API server `bw serve`
+service_bw-api:
+  service.running:
+    - name: bw-api
+    - enable: True
+    - init_delay: 10
+    - require:
+        - bitwarden_logged_in
+
+# State to reload systemctl
+service_systemctl_reload:
+  module.run:
+    - name: service.systemctl_reload
+    - onchanges:
+        - file_/etc/systemd/system/bw-api.service
+
+# Use firewalld to protect the Bitwarden Vault Management REST API server
+service_firewalld:
+  service.running:
+    - name: firewalld
+    - enable: True
+    - reload: True
+
+# Lock down access to the Bitwarden Vault Management REST API to only the root user (uid 0) using
+# firewalld because once the vault is unlocked, access is completely unauthenticated.
+#
+# See https://github.com/bitwarden/clients/issues/3932
+#
+# We directly manage the direct rules configuration file because the Salt firewalld state module
+# doesn't support direct rules.
+file_/etc/firewalld/direct.xml:
+  file.managed:
+    - name: /etc/firewalld/direct.xml
+    - user: root
+    - group: root
+    - mode: "0644"
+    - contents: |
+        <?xml version="1.0" encoding="utf-8"?>
+        <!--
+        ########################################################################
+        #                                                                      #
+        #              THIS FILE IS MANAGED BY SALT - DO NOT EDIT              #
+        #                                                                      #
+        # The contents of this file are managed by Salt. Any changes to this   #
+        # file may be overwritten automatically and without warning.           #
+        ########################################################################
+        -->
+        <direct>
+          <rule ipv="ipv4" table="filter" chain="OUTPUT" priority="0">-o lo -p tcp --dport 8087 -m owner --uid-owner root -j ACCEPT</rule>
+          <rule ipv="ipv4" table="filter" chain="OUTPUT" priority="0">-o lo -p tcp --dport 8087 -m owner --uid-owner salt -j ACCEPT</rule>
+          <rule ipv="ipv4" table="filter" chain="OUTPUT" priority="1">-o lo -p tcp --dport 8087 -j REJECT</rule>
+          <rule ipv="ipv6" table="filter" chain="OUTPUT" priority="0">-o lo -p tcp --dport 8087 -m owner --uid-owner root -j ACCEPT</rule>
+          <rule ipv="ipv6" table="filter" chain="OUTPUT" priority="0">-o lo -p tcp --dport 8087 -m owner --uid-owner salt -j ACCEPT</rule>
+          <rule ipv="ipv6" table="filter" chain="OUTPUT" priority="1">-o lo -p tcp --dport 8087 -j REJECT</rule>
+        </direct>
+    - watch_in:
+        - service_firewalld
+```
+
+The configuration files required vary depending on which module you wish to use:
+
+| module type | file type      |
+|-------------|----------------|
+| execution   | minion         |
+| runner      | master         |
+| sdb         | master, minion |
+| state       | minion         |
+
+## Usage
+
+This extension currently provides only read-only access to Bitwarden vaults using the `sdb` module,
+with other modules primarily for vault management such as logging in and unlocking the vault.
+
+```bash
+# SDB via runner module
+salt-run sdb.get 'sdb://bitwarden/by-uuid/2fcd790a-70f7-43a2-b265-08a763873980/password'
+CorrectHorseBatteryStaple
+```
+
+```bash
+# SDB via execution module
+salt-call sdb.get 'sdb://bitwarden/by-uuid/2fcd790a-70f7-43a2-b265-08a763873980/password'
+local:
+    CorrectHorseBatteryStaple
+```
+
+As always, you can also reference SDB modules in your pillar files:
+
+```yaml
+example_pillar:
+  some_password: {{ salt['sdb.get']('sdb://bitwarden/by-uuid/2fcd790a-70f7-43a2-b265-08a763873980/password') }}
+```
+
+The format of the SDB URI is as follows:
+
+`sdb://<profile>/by-uuid/<uuid>/<object>`
+
+Where `<profile>` is the profile defined in the master or minion configuration
+file, `<uuid>` is the UUID of the item, and `<object>` is one of:
+
+- name
+- username
+- password
+- totp
+- notes
+- creation_date
+- revision_date
+- deleted_date
+- password_revision_date
+
+Additionally, password history can be retrieved with the following SDB URI
+format:
+
+`sdb://<profile>/by-uuid/<uuid>/password_history/by-index/<index>`
+
+Where ``<profile>`` is the profile defined in the master or minion configuration
+file, ``<uuid>`` is the UUID of the item, and ``index`` is a non-negative
+integer specifying which password to retrieve from the history (0 being the
+current password, 1 being the previous password, and so forth).
+
+Lastly, custom fields can be retrieved with the following SDB URI format:
+
+`sdb://<profile>/by-uuid/<uuid>/fields/by-name/<field_name>/<object>`
+
+Where `<profile>` is the profile defined in the master or minion configuration
+file, `<uuid>` is the UUID of the item, `<field_name>` is the name of
+custom field, and object is one of:
+
+- value
+- type
+- linked_id
+
+Note that the custom field name must be unique within an item.
+Bitwarden does not enforce unique custom field names, so that is left up to the
+user.
+
+The UUID of an item can be found using the Bitwarden CLI:
+
+```bash
+bw list items --search "Google Account" --pretty
+[
+  {
+    "object": "item",
+    "id": "2fa63ad5-e4e4-43d4-a089-3fadcf455be2",
+    "organizationId": null,
+    "folderId": null,
+    "type": 1,
+    "reprompt": 0,
+    "name": "Google Account",
+    "notes": null,
+    "favorite": false,
+    "login": {
+      "uris": [
+        {
+          "match": null,
+          "uri": "https://accounts.google.com"
+        }
+      ],
+      "username": "user@example.com",
+      "password": "aTjSsJvhQY5E24",
+      "totp": "AEM1HEESIEV8YAED8THUBEHOOW",
+      "passwordRevisionDate": null
+    },
+    "collectionIds": [],
+    "revisionDate": "1970-01-01T00:00:00.000Z"
+  }
+]
+```
+
+## Docs
+Module documentation is available at [https://ggiesen.gitlab.io/salt-ext-bitwarden](https://ggiesen.gitlab.io/salt-ext-bitwarden).
+
+## Bugs
+Bugs can be reported using the [Issue Tracker](https://gitlab.com/ggiesen/salt-ext-bitwarden/-/issues).
+
+## Contributing
+All contributions are welcome and very much appreciated. Contributing guide coming soon.
+Contributing can take many forms, including:
+
+ - Reporting bugs
+ - Feature requests
+ - Code submissions (bug fixes/new features/improve code quality)
+ - Writing tests
+ - Writing documentation
+ - Detailing use cases
+ - Writing blog posts
+
+## License
+This project is licensed under the Apache Software License. See `LICENSE` for the licence text.
