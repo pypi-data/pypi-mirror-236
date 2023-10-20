@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: slicenet
+Version: 0.0.5
+Summary: mininet-like simulation for Network Slices
+Home-page: https://kspviswa.github.io/slicenet-pages/
+Author: Viswa Kumar
+Author-email: kspviswaphd@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tabulate (==0.9.0)
+Requires-Dist: readerwriterlock (==1.0.9)
+Requires-Dist: typing-extensions (==4.8.0)
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.0) ; extra == 'dev'
+Requires-Dist: twine (>=4.0.2) ; extra == 'dev'
+
+# Slicenet
+mininet-like simulation for Network Slices
+
+## What is Slicenet
+
+* A mininet like Simulator for simulating large macro network topologies along with UEs, Application nodes, Access networks, Transport networks, Core network & Data network.
+* Network Slicing policies & optimization logics can be experimented in various topologies and performance of each experiment can be measured in predictable & reproducible manner.
+* Unlike mininet, Slicenet only “simulates” the network. Hence without any real compute & power resources, lot of resource optimization, scheduling, prioritization & capacity models can be experimented in consistent way.
+* By abstracting topology out of the traffic pattern, same topology can be experiments with different traffic pattern. Mobility scenarios can also be easily experimented
+
+## Why Slicenet ?
+
+* Operators & Researchers have a simple & efficient way to try their experiments without the need to emulate entire physical / virtual topology
+* Borrows the topology, simulation & experiments concepts on all the previous tools and provides a consistent way to experiment & report the findings
+* Based on python and thereby extending itself to popular ML frameworks like TensorFlow / PyTorch to native use ML/DL/NN models as part of the experiments
+* Since Slicenet is just simulation, it can be run in Jupyter notebook setup as well (unlike mininet which is based on linux namespaces). This makes Slicenet extremely useful for researchers to quickly export the findings of the experiments and generates charts / visualizations and share it with wider research community
+
+If you find `Slicenet` to be useful in your research work, please cite the following publication:
+
+[1]V. Kumar Skand Priya, A. Dandoushand . gladys . diaz, “Slicenet: A Simple and Scalable Flow-Level Simulator for Network Slice Provisioning and Management”. TechRxiv, 18-Oct-2023, doi: 10.36227/techrxiv.24311254.v1. 
+
+```bash
+@article{KumarSkandPriya2023,
+author = "Viswanath Kumar Skand Priya and Abdulhalim Dandoush and gladys diaz",
+title = "{Slicenet: A Simple and Scalable Flow-Level Simulator for Network Slice Provisioning and Management}",
+year = "2023",
+month = "10",
+url = "https://www.techrxiv.org/articles/preprint/Slicenet_A_Simple_and_Scalable_Flow-Level_Simulator_for_Network_Slice_Provisioning_and_Management/24311254",
+doi = "10.36227/techrxiv.24311254.v1"
+```
+
+## Other Publications
+
+```bash
+@misc{kumarskandpriya2023slicenet,
+      title={Slicenet: a Simple and Scalable Flow-Level Simulator for Network Slice Provisioning and Management}, 
+      author={Viswanath KumarSkandPriya and Abdulhalim Dandoush and Gladys Diaz},
+      year={2023},
+      eprint={2310.11033},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI}
+}
+```
