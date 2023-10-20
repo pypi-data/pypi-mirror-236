@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+tests/test.py
+tscratchapiget.egg-info/PKG-INFO
+tscratchapiget.egg-info/SOURCES.txt
+tscratchapiget.egg-info/dependency_links.txt
+tscratchapiget.egg-info/requires.txt
+tscratchapiget.egg-info/top_level.txt
