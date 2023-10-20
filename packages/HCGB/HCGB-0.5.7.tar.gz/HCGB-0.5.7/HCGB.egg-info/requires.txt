@@ -1,0 +1,6 @@
+biopython
+pandas
+patool
+termcolor
+wget
+xlsxwriter
