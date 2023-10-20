@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+driwecore/__init__.py
+driwecore.egg-info/PKG-INFO
+driwecore.egg-info/SOURCES.txt
+driwecore.egg-info/dependency_links.txt
+driwecore.egg-info/requires.txt
+driwecore.egg-info/top_level.txt
+driwecore/oauth/__init__.py
+driwecore/oauth/utils.py
