@@ -1,0 +1,7 @@
+setup.py
+scrapy_redis_expand/RedisPipeline.py
+scrapy_redis_expand/__init__.py
+scrapy_redis_expand.egg-info/PKG-INFO
+scrapy_redis_expand.egg-info/SOURCES.txt
+scrapy_redis_expand.egg-info/dependency_links.txt
+scrapy_redis_expand.egg-info/top_level.txt
