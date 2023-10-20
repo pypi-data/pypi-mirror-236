@@ -1,0 +1,6 @@
+[climetlab.datasets]
+maelstrom-yr = climetlab_maelstrom_yr.yr:Yr
+
+[console_scripts]
+maelstrom-train = maelstrom:main
+
