@@ -1,0 +1,7 @@
+
+
+
+
+
+def CALC (FOOD_NUTRIENT):
+	return FOOD_NUTRIENT

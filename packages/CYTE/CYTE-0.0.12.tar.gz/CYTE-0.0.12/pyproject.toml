@@ -1,0 +1,40 @@
+
+
+
+#
+#	HOW TO PUBLISH:
+#
+#		(rm -rf dist && python3 -m build --sdist && twine upload dist/*)
+#		(git add --all && git commit -m "com" && git push --set-upstream git@gitlab.com:reptilian_climates/CYTE.git CLIMATE)
+#
+
+#
+#	https://python-poetry.org/docs/pyproject/#license
+#
+
+#
+#	https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html#dynamic-metadata
+#
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "CYTE"
+version = "0.0.12"
+description = "Measurements (System International, US Customary, etc.)"
+readme = "CYTE.txt"
+license = { text = "the health license" }
+
+[project.urls]
+"GitLab" = "https://gitlab.com/reptilian_climates/CYTE.git"
+
+[tool.setuptools.packages.find]
+where = [ "LOVELY/STRUCTURES" ]
+
+#
+#	https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+#
+[tool.setuptools.package-data]
+"*" = [ "*.HTML" ]
