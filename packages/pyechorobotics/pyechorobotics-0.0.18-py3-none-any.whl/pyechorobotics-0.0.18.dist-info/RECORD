@@ -1,0 +1,9 @@
+echoroboticsapi/__init__.py,sha256=3OYmMioUksxWLKgicN2Vu4YIsEiHzml8L-412fmcOHU,109
+echoroboticsapi/api.py,sha256=0GCyWgbzdLF2TAqKnotiYgb0eI-RG1cK8eVHENaYS2s,10876
+echoroboticsapi/models.py,sha256=DTaPTx6HPC6ktN4Wk8naL9PqUUaBLdP0ZptF5t1ab8o,7743
+echoroboticsapi/smart_mode.py,sha256=CGjHGfmuR7eocNl2CR9kSgZj2Z0mTwg00unKwLY56eo,3486
+pyechorobotics-0.0.18.dist-info/LICENSE.md,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pyechorobotics-0.0.18.dist-info/METADATA,sha256=F-FnPWFSqdNPA5nG9WB5rsHtra1Ljw_4rJRd1HZRzsk,2675
+pyechorobotics-0.0.18.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyechorobotics-0.0.18.dist-info/top_level.txt,sha256=3KGTHxSppiea6o7VHiyoQnZjNUdqOGFvZ1msdvclNiw,16
+pyechorobotics-0.0.18.dist-info/RECORD,,
