@@ -1,0 +1,10 @@
+ocx_databinding/__init__.py,sha256=8HvhraAM8JwLIjfCfJEpBsxk8Rx3ShlpSBeSsA13XZc,186
+ocx_databinding/cli.py,sha256=JQ2UJBo_u_oqtgKEBFzUnIxptQVDDi1ptXwEaARefvU,2009
+ocx_databinding/generator.py,sha256=EjyjFaDqOp34RpASnDoefmWIpOhfXW8CRzcQ9xFByyw,5067
+ocx_databinding/utils/__init__.py,sha256=Czqh9qefom9fOCzLVK-RUrMdWexZ6oZiG0jMs_6nEjg,129
+ocx_databinding/utils/logging.py,sha256=2h480nMXAT0yZkAmoCvPneRGfgs_PrUcHaDh9zGpq10,765
+ocx_databinding-2.5.0.dist-info/entry_points.txt,sha256=rt5_yyaXCE9Ld65Vzrlcq2VQz17QTgUCJYEDwJcy_yk,56
+ocx_databinding-2.5.0.dist-info/LICENSE,sha256=Er-j9veeAyGArIs2PYWvijQ1zmELNTLGPMFcFBxrkL0,1087
+ocx_databinding-2.5.0.dist-info/METADATA,sha256=jxRQLOxrt4eh2A4XKpSS2MGoBod8XRrVXke_Eu-wi_s,3883
+ocx_databinding-2.5.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ocx_databinding-2.5.0.dist-info/RECORD,,
