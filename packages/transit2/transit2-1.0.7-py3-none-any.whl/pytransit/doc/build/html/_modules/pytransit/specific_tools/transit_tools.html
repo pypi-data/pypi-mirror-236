@@ -1,0 +1,1151 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>pytransit.specific_tools.transit_tools &mdash; TRANSIT v1.0.5 documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/default.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> TRANSIT
+          
+
+          
+            
+            <img src="../../../_static/transit_logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                v1.0.5
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption" role="heading"><span class="caption-text">TRANSIT2 MANUAL</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../transit_overview.html">TRANSIT2 Overview</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#typical-workflow">Typical Workflow</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#tpp-transit-pre-processor">TPP (Transit Pre-Processor)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#combined-wig-and-metadata-files">Combined_wig and Metadata Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#genome-annotations-prot-tables-and-gff-files">Genome Annotations (.prot_tables and .gff files)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#gui">GUI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#pre-processing-tasks">Pre-Processing Tasks</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#statistical-analysis-methods">Statistical Analysis Methods</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#analyses-for-tn5-datasets">Analyses for Tn5 Datasets</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#results-and-post-processing">Results and Post-Processing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#command-line">Command Line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#developers">Developers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_overview.html#references">References</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../transit_install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_install.html#installing-transit2-using-pip">Installing Transit2 using Pip</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_install.html#installing-transit2-using-git">Installing Transit2 using Git</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_install.html#requirements">Requirements</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#additional-requirements-r-statistical-analysis-package">Additional Requirements: R (statistical analysis package)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_install.html#optional-install-bwa-to-use-with-tpp-pre-processor">Optional: Install BWA to use with TPP pre-processor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#linux-osx-instructions">Linux &amp; OSX Instructions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#windows-instructions">Windows Instructions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_install.html#upgrading">Upgrading</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#method-1-upgrading-package-installation">Method 1: Upgrading package installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#method-2-upgrading-source-installation">Method 2: Upgrading source installation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_install.html#installing-wxpython">Installing wxPython</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_install.html#troubleshooting">Troubleshooting</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#no-window-appears-when-running-in-gui-mode">1. No window appears when running in GUI mode.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#pip3-systemerror-cannot-compile-python-h">2. pip3: SystemError: Cannot compile ‘Python.h’.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#pip-the-following-required-packages-can-not-be-built-freetype-png-etc">3. pip: “The following required packages can not be built: freetype,png,” etc.</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#pip3-no-lapack-blas-resources-found">4. pip3: “No lapack/blas resources found”</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../transit_install.html#resources-contextualversionconflict-six-1-5-2">5. “resources.ContextualVersionConflict (six 1.5.2)…”</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../transit_running.html">Running TRANSIT</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_running.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit_running.html#command-line-mode">Command line Mode</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../input_files.html">Input Files for Transit</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../input_files.html#combined-wig-files">Combined_wig Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../input_files.html#samples-metadata-file">Samples Metadata File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../input_files.html#genome-annotations-prot-tables-and-gff-files">Genome Annotations (.prot_tables and .gff files)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quality_control.html">Quality Control</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../quality_control.html#qc-metrics-table">QC Metrics Table</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../quality_control.html#qc-plots">QC Plots</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../quality_control.html#figure-1-read-count-distribution">Figure 1: Read-Count Distribution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../quality_control.html#figure-2-qq-plot-of-read-counts-vs-geometric-distribution">Figure 2: QQ-Plot of Read-Counts vs Geometric Distribution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../quality_control.html#figure-3-ranked-plot-of-read-counts">Figure 3: Ranked plot of Read-Counts</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../quality_control.html#interpretation-of-data-quality">Interpretation of Data Quality</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../quality_control.html#what-to-do-about-skewed-samples">What to do about Skewed Samples?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../quality_control.html#beta-geometric-correction">Beta-Geometric Correction</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">PRE-PROCESSING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../tnseq_stats_method.html">Tnseq_stats</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../scatterplot_method.html">Scatterplot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../scatterplot_method.html#command-line-usage">Command Line Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../scatterplot_method.html#example-usage">Example Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../scatterplot_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../scatterplot_method.html#runtime">Runtime</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../corrplot_method.html">Corrplot</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../corrplot_method.html#command-line-usage">Command Line Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../corrplot_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../corrplot_method.html#runtime">Runtime</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../normalize_method.html">Normalization</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../normalize_method.html#command-line">Command-line</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../normalize_method.html#gui">GUI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../normalize_method.html#examples">Examples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../gene_means_method.html">Gene Means</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ANALYSES of single conditions</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../gumbel_method.html">Gumbel</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../gumbel_method.html#how-does-it-work">How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gumbel_method.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gumbel_method.html#parameters">Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gumbel_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gumbel_method.html#outputs-and-diagnostics">Outputs and diagnostics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gumbel_method.html#run-time">Run-time</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../hmm_method.html">HMM</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../hmm_method.html#how-does-it-work">How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hmm_method.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hmm_method.html#parameters">Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hmm_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hmm_method.html#output-and-diagnostics">Output and Diagnostics</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../hmm_method.html#sites-output-file">Sites Output File:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../hmm_method.html#genes-output-file">Genes Output File:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../hmm_method.html#run-time">Run-time</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../ttnfitness_method.html">TTN-Fitness</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../ttnfitness_method.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../ttnfitness_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../ttnfitness_method.html#volcano-plot">Volcano Plot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../ttnfitness_method.html#output">Output</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../../ttnfitness_method.html#genes-output-file">Genes Output File:</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../../ttnfitness_method.html#sites-output-file">Sites Output File:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../ttnfitness_method.html#example-of-running-the-ttn-fitness-methodology-on-the-sample-glycerol-data">Example of running the TTN-Fitness methodology on the sample glycerol data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../ttnfitness_method.html#run-time">Run-time</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ANALYSES for pairwise comparisons</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../resampling_method.html">Resampling</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#how-does-it-work">How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#site-restricted-s-r-resampling">Site-Restricted (S-R) Resampling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#parameters">Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#notes">Notes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#command-line-examples">Command Line Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#doing-resampling-with-datasets-from-different-libraries">Doing resampling with datasets from different libraries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#doing-resampling-between-different-strains">Doing resampling between different strains</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#output-and-diagnostics">Output and Diagnostics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../resampling_method.html#run-time">Run-time</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../utest_method.html">Mann-Whitney U-test (utest)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../utest_method.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../utest_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../utest_method.html#output">Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../utest_method.html#runtime">Runtime</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ANALYSES for multiple conditions</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../gi_method.html">Genetic Interactions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../gi_method.html#how-does-it-work">How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gi_method.html#statistical-significance">Statistical Significance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gi_method.html#usage">Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gi_method.html#example">Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gi_method.html#parameters">Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gi_method.html#gui-mode">Gui Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gi_method.html#output-and-diagnostics">Output and Diagnostics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../gi_method.html#run-time">Run-time</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../anova_method.html">ANOVA</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../anova_method.html#how-does-it-work">How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../anova_method.html#example">Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../anova_method.html#input-files">Input files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../anova_method.html#parameters">Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../anova_method.html#output-and-diagnostics">Output and Diagnostics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../anova_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../anova_method.html#run-time">Run-time</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../zinb_method.html">ZINB</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#how-does-it-work">How does it work?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#example">Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#input-files">Input files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#parameters">Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#covariates-and-interactions">Covariates and Interactions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#categorical-vs-numeric-covariates">Categorical vs Numeric Covariates</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#statistical-significance-what-the-p-values-mean-in-the-zinb-output">Statistical Significance - What the P-values Mean in the ZINB Output</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#output-and-diagnostics">Output and Diagnostics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../zinb_method.html#run-time">Run-time</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">POST-PROCESSING</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../pathway_enrichment_method.html">Pathway Enrichment Analysis</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../pathway_enrichment_method.html#command-line-usage">Command Line Usage</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../pathway_enrichment_method.html#parameters">Parameters</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../pathway_enrichment_method.html#auxilliary-pathway-files-in-transit-data-directory">Auxilliary Pathway Files in Transit Data Directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../pathway_enrichment_method.html#current-recommendations">Current Recommendations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../pathway_enrichment_method.html#examples">Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../pathway_enrichment_method.html#gui-mode">GUI Mode</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../pathway_enrichment_method.html#output-and-diagnostics">Output and Diagnostics</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../pathway_enrichment_method.html#run-time">Run-time</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../heatmap_method.html">Heatmap</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../heatmap_method.html#command-line-usage">Command Line Usage:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../heatmap_method.html#gui">GUI:</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">TPP Manual</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../tpp.html">TPP Overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tpp.html#installation">Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tpp.html#running-tpp">Running TPP</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tpp.html#mapping-to-genomes-with-multiple-contigs">Mapping to Genomes with Multiple Contigs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tpp.html#overview-of-data-processing-procedure">Overview of Data Processing Procedure</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../tpp.html#statistics">Statistics</a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Code Documentation</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../transit.html">transit package</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit.html#submodules">Submodules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit.html#pytransit-specific-tools-norm-tools-module">pytransit.specific_tools.norm_tools module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit.html#pytransit-specific-tools-stat-tools-module">pytransit.specific_tools.stat_tools module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit.html#pytransit-specific-tools-tnseq-tools-module">pytransit.specific_tools.tnseq_tools module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit.html#pytransit-specific-tools-transit-tools-module">pytransit.specific_tools.transit_tools module</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../transit.html#module-pytransit">Module contents</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">TRANSIT</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html">Module code</a> &raquo;</li>
+        
+      <li>pytransit.specific_tools.transit_tools</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <h1>Source code for pytransit.specific_tools.transit_tools</h1><div class="highlight"><pre>
+<span></span><span class="c1"># Copyright 2015.</span>
+<span class="c1">#   Michael A. DeJesus, Chaitra Ambadipudi, and  Thomas R. Ioerger.</span>
+<span class="c1">#</span>
+<span class="c1">#</span>
+<span class="c1">#    This file is part of TRANSIT.</span>
+<span class="c1">#</span>
+<span class="c1">#    TRANSIT is free software: you can redistribute it and/or modify</span>
+<span class="c1">#    it under the terms of the GNU General Public License as published by</span>
+<span class="c1">#    the Free Software Foundation, either version 3 of the License.</span>
+<span class="c1">#</span>
+<span class="c1">#</span>
+<span class="c1">#    TRANSIT is distributed in the hope that it will be useful,</span>
+<span class="c1">#    but WITHOUT ANY WARRANTY; without even the implied warranty of</span>
+<span class="c1">#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the</span>
+<span class="c1">#    GNU General Public License for more details.</span>
+<span class="c1">#</span>
+<span class="c1">#    You should have received a copy of the GNU General Public License</span>
+<span class="c1">#    along with TRANSIT.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</span>
+
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">import</span> <span class="nn">os</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">warnings</span>
+<span class="kn">import</span> <span class="nn">ntpath</span>
+<span class="kn">import</span> <span class="nn">heapq</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">from</span> <span class="nn">pytransit.globals</span> <span class="kn">import</span> <span class="n">logging</span>
+
+
+<span class="n">SEPARATOR</span> <span class="o">=</span> <span class="s2">&quot;,&quot;</span> <span class="c1"># TODO remove this</span>
+<span class="n">EOL</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span> <span class="c1"># TODO remove this</span>
+
+<span class="c1"># </span>
+<span class="c1"># optional import: wx</span>
+<span class="c1"># </span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">wx</span>
+    <span class="kn">import</span> <span class="nn">wx.xrc</span>
+    <span class="kn">import</span> <span class="nn">wx.adv</span>
+    <span class="kn">import</span> <span class="nn">wx.lib.scrolledpanel</span>
+    <span class="kn">import</span> <span class="nn">wx.lib.mixins.listctrl</span> <span class="k">as</span> <span class="nn">listmix</span>
+    <span class="kn">from</span> <span class="nn">wx.lib.buttons</span> <span class="kn">import</span> <span class="n">GenBitmapTextButton</span>
+    <span class="c1">#from pubsub import pub</span>
+
+    <span class="n">WX_VERSION</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">wx</span><span class="o">.</span><span class="n">version</span><span class="p">()[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="n">HAS_WX</span> <span class="o">=</span> <span class="kc">True</span>
+
+<span class="k">except</span> <span class="ne">ModuleNotFoundError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="n">HAS_WX</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">WX_VERSION</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">wx</span>                  <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">GenBitmapTextButton</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">pub</span>                 <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">listmix</span>             <span class="o">=</span> <span class="kc">None</span>
+
+<span class="c1"># </span>
+<span class="c1"># optional import: R</span>
+<span class="c1"># </span>
+<span class="k">try</span><span class="p">:</span>
+    <span class="kn">import</span> <span class="nn">rpy2.robjects</span>
+    <span class="kn">from</span> <span class="nn">rpy2.robjects</span> <span class="kn">import</span> <span class="p">(</span>
+        <span class="n">r</span><span class="p">,</span>
+        <span class="n">DataFrame</span><span class="p">,</span>
+        <span class="n">globalenv</span><span class="p">,</span>
+        <span class="n">IntVector</span><span class="p">,</span>
+        <span class="n">FloatVector</span><span class="p">,</span>
+        <span class="n">StrVector</span><span class="p">,</span>
+        <span class="n">packages</span> <span class="k">as</span> <span class="n">rpackages</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="n">HAS_R</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="k">except</span> <span class="ne">ModuleNotFoundError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+    <span class="n">HAS_R</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">DataFrame</span>   <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">globalenv</span>   <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">IntVector</span>   <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">FloatVector</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">StrVector</span>   <span class="o">=</span> <span class="kc">None</span>
+    <span class="n">rpackages</span>   <span class="o">=</span> <span class="kc">None</span>
+
+<span class="kn">import</span> <span class="nn">pytransit</span>
+<span class="kn">from</span> <span class="nn">pytransit.specific_tools</span> <span class="kn">import</span> <span class="n">tnseq_tools</span>
+<span class="kn">from</span> <span class="nn">pytransit.specific_tools</span> <span class="kn">import</span> <span class="n">norm_tools</span>
+<span class="kn">import</span> <span class="nn">pytransit.generic_tools.csv</span> <span class="k">as</span> <span class="nn">csv</span>
+<span class="kn">from</span> <span class="nn">pytransit.specific_tools</span> <span class="kn">import</span> <span class="n">console_tools</span>
+<span class="kn">from</span> <span class="nn">pytransit.generic_tools.lazy_dict</span> <span class="kn">import</span> <span class="n">LazyDict</span>
+<span class="kn">from</span> <span class="nn">pytransit.generic_tools.named_list</span> <span class="kn">import</span> <span class="n">named_list</span>
+<span class="kn">from</span> <span class="nn">pytransit.specific_tools.console_tools</span> <span class="kn">import</span> <span class="n">clean_args</span>
+
+<span class="k">if</span> <span class="n">HAS_WX</span><span class="p">:</span>
+<div class="viewcode-block" id="AssumeZerosDialog"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.AssumeZerosDialog">[docs]</a>    <span class="k">class</span> <span class="nc">AssumeZerosDialog</span><span class="p">(</span><span class="n">wx</span><span class="o">.</span><span class="n">Dialog</span><span class="p">):</span>
+        <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kw</span><span class="p">):</span>
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">ID_HIMAR1</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">NewId</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ID_TN5</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">NewId</span><span class="p">()</span>
+
+            <span class="n">wx</span><span class="o">.</span><span class="n">Dialog</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="kc">None</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="s2">&quot;Dialog&quot;</span><span class="p">)</span>
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">ID_HIMAR1</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">NewId</span><span class="p">()</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">ID_TN5</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">NewId</span><span class="p">()</span>
+
+            <span class="bp">self</span><span class="o">.</span><span class="n">SetSize</span><span class="p">((</span><span class="mi">500</span><span class="p">,</span> <span class="mi">300</span><span class="p">))</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">SetTitle</span><span class="p">(</span><span class="s2">&quot;Warning:  Wig Files Do Not Include Empty Sites&quot;</span><span class="p">)</span>
+
+            <span class="n">mainSizer</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">BoxSizer</span><span class="p">(</span><span class="n">wx</span><span class="o">.</span><span class="n">VERTICAL</span><span class="p">)</span>
+            <span class="bp">self</span><span class="o">.</span><span class="n">SetSizer</span><span class="p">(</span><span class="n">mainSizer</span><span class="p">)</span>
+
+            <span class="n">warningText</span> <span class="o">=</span> <span class="s2">&quot;&quot;&quot;</span>
+
+<span class="s2">                One or more of your .wig files does not include any empty sites (i.e. sites with zero read-counts). The analysis methods in TRANSIT require knowing ALL possible insertion sites, even those without reads.</span>
+<span class="s2">                    </span>
+<span class="s2">                    Please indicate how you want to proceed:</span>
+
+<span class="s2">                    As Himar1: You will need to provide the DNA sequence (.fasta format) and TRANSIT will automatically determine empty TA sites.</span>
+
+<span class="s2">                    As Tn5: TRANSIT will assume all nucleotides are possible insertion sites. Those not included in the .wig file are assumed to be zero.</span>
+<span class="s2">            &quot;&quot;&quot;</span><span class="o">.</span><span class="n">replace</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\n</span><span class="s2">                &quot;</span><span class="p">,</span> <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="n">warningStaticBox</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">StaticText</span><span class="p">(</span>
+                <span class="bp">self</span><span class="p">,</span> <span class="n">wx</span><span class="o">.</span><span class="n">ID_ANY</span><span class="p">,</span> <span class="n">warningText</span><span class="p">,</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="p">(</span><span class="o">-</span><span class="mi">1</span><span class="p">,</span> <span class="o">-</span><span class="mi">1</span><span class="p">),</span> <span class="n">wx</span><span class="o">.</span><span class="n">ALL</span>
+            <span class="p">)</span>
+            <span class="n">warningStaticBox</span><span class="o">.</span><span class="n">Wrap</span><span class="p">(</span><span class="mi">480</span><span class="p">)</span>
+            <span class="n">mainSizer</span><span class="o">.</span><span class="n">Add</span><span class="p">(</span><span class="n">warningStaticBox</span><span class="p">,</span> <span class="n">flag</span><span class="o">=</span><span class="n">wx</span><span class="o">.</span><span class="n">CENTER</span><span class="p">,</span> <span class="n">border</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+
+            <span class="n">button_sizer</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">BoxSizer</span><span class="p">(</span><span class="n">wx</span><span class="o">.</span><span class="n">HORIZONTAL</span><span class="p">)</span>
+            <span class="n">himar1Button</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">ID_HIMAR1</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Proceed as Himar1&quot;</span><span class="p">)</span>
+            <span class="n">tn5Button</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">ID_TN5</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Proceed as Tn5&quot;</span><span class="p">)</span>
+            <span class="n">cancelButton</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">Button</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">wx</span><span class="o">.</span><span class="n">ID_CANCEL</span><span class="p">,</span> <span class="n">label</span><span class="o">=</span><span class="s2">&quot;Cancel&quot;</span><span class="p">)</span>
+
+            <span class="n">button_sizer</span><span class="o">.</span><span class="n">Add</span><span class="p">(</span><span class="n">himar1Button</span><span class="p">,</span> <span class="n">flag</span><span class="o">=</span><span class="n">wx</span><span class="o">.</span><span class="n">LEFT</span><span class="p">,</span> <span class="n">border</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+            <span class="n">button_sizer</span><span class="o">.</span><span class="n">Add</span><span class="p">(</span><span class="n">tn5Button</span><span class="p">,</span> <span class="n">flag</span><span class="o">=</span><span class="n">wx</span><span class="o">.</span><span class="n">LEFT</span><span class="p">,</span> <span class="n">border</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+            <span class="n">button_sizer</span><span class="o">.</span><span class="n">Add</span><span class="p">(</span><span class="n">cancelButton</span><span class="p">,</span> <span class="n">flag</span><span class="o">=</span><span class="n">wx</span><span class="o">.</span><span class="n">LEFT</span><span class="p">,</span> <span class="n">border</span><span class="o">=</span><span class="mi">5</span><span class="p">)</span>
+
+            <span class="n">mainSizer</span><span class="o">.</span><span class="n">Add</span><span class="p">(</span>
+                <span class="n">button_sizer</span><span class="p">,</span> <span class="n">flag</span><span class="o">=</span><span class="n">wx</span><span class="o">.</span><span class="n">ALIGN_CENTER</span> <span class="o">|</span> <span class="n">wx</span><span class="o">.</span><span class="n">TOP</span> <span class="o">|</span> <span class="n">wx</span><span class="o">.</span><span class="n">BOTTOM</span><span class="p">,</span> <span class="n">border</span><span class="o">=</span><span class="mi">10</span>
+            <span class="p">)</span>
+
+            <span class="n">himar1Button</span><span class="o">.</span><span class="n">Bind</span><span class="p">(</span><span class="n">wx</span><span class="o">.</span><span class="n">EVT_BUTTON</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">OnClose</span><span class="p">)</span>
+            <span class="n">tn5Button</span><span class="o">.</span><span class="n">Bind</span><span class="p">(</span><span class="n">wx</span><span class="o">.</span><span class="n">EVT_BUTTON</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">OnClose</span><span class="p">)</span>
+            <span class="n">cancelButton</span><span class="o">.</span><span class="n">Bind</span><span class="p">(</span><span class="n">wx</span><span class="o">.</span><span class="n">EVT_BUTTON</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">OnClose</span><span class="p">)</span>
+
+<div class="viewcode-block" id="AssumeZerosDialog.OnClose"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.AssumeZerosDialog.OnClose">[docs]</a>        <span class="k">def</span> <span class="nf">OnClose</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">event</span><span class="p">):</span>
+
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">IsModal</span><span class="p">():</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">EndModal</span><span class="p">(</span><span class="n">event</span><span class="o">.</span><span class="n">EventObject</span><span class="o">.</span><span class="n">Id</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">Close</span><span class="p">()</span></div></div>
+
+<span class="n">working_directory</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">()</span>
+
+<span class="c1"># </span>
+<span class="c1"># Results read/write</span>
+<span class="c1"># </span>
+<span class="k">if</span> <span class="kc">True</span><span class="p">:</span>
+    <span class="n">result_output_extensions</span> <span class="o">=</span> <span class="s1">&#39;Common output extensions (*.tsv,*.csv,*.dat,*.txt,*.out)|*.tsv;*.csv;*.dat;*.txt;*.out;|</span><span class="se">\n</span><span class="s1">All files (*.*)|*.*&#39;</span>
+    <span class="n">result_file_classes</span> <span class="o">=</span> <span class="p">[]</span>
+<div class="viewcode-block" id="ResultsFile"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.ResultsFile">[docs]</a>    <span class="k">def</span> <span class="nf">ResultsFile</span><span class="p">(</span><span class="n">a_class</span><span class="p">):</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        @ResultsFile</span>
+<span class="sd">        class File:</span>
+<span class="sd">            @staticmethod</span>
+<span class="sd">            def can_load(args):</span>
+<span class="sd">                return False</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">callable</span><span class="p">(</span><span class="nb">getattr</span><span class="p">(</span><span class="n">a_class</span><span class="p">,</span> <span class="s2">&quot;can_load&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">)):</span>
+            <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;&quot;&quot;Everything that usese ResultsFile should have a can_load() static method, but </span><span class="si">{</span><span class="n">a_class</span><span class="si">}</span><span class="s2"> does not&quot;&quot;&quot;</span><span class="p">)</span>
+        
+        <span class="n">result_file_classes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">a_class</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">a_class</span></div>
+    
+<div class="viewcode-block" id="file_starts_with"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.file_starts_with">[docs]</a>    <span class="k">def</span> <span class="nf">file_starts_with</span><span class="p">(</span><span class="n">path</span><span class="p">,</span> <span class="n">identifier</span><span class="p">):</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">path</span><span class="p">)</span> <span class="k">as</span> <span class="n">in_file</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">in_file</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">line</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="n">identifier</span><span class="p">):</span>
+                    <span class="k">return</span> <span class="kc">True</span>
+                <span class="k">break</span>
+        <span class="k">return</span> <span class="kc">False</span></div>
+    
+<div class="viewcode-block" id="read_result"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.read_result">[docs]</a>    <span class="k">def</span> <span class="nf">read_result</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+        <span class="n">result_object</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">for</span> <span class="n">FileClass</span> <span class="ow">in</span> <span class="n">result_file_classes</span><span class="p">:</span>
+            <span class="n">loadable</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">loadable</span> <span class="o">=</span> <span class="n">FileClass</span><span class="o">.</span><span class="n">can_load</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+            <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">error</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">error</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">loadable</span><span class="p">:</span>
+                <span class="n">result_object</span> <span class="o">=</span> <span class="n">FileClass</span><span class="p">(</span><span class="n">path</span><span class="o">=</span><span class="n">path</span><span class="p">)</span>
+        
+        <span class="k">return</span> <span class="n">result_object</span></div>
+
+<div class="viewcode-block" id="write_result"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.write_result">[docs]</a>    <span class="k">def</span> <span class="nf">write_result</span><span class="p">(</span><span class="o">*</span><span class="p">,</span> <span class="n">path</span><span class="p">,</span> <span class="n">file_kind</span><span class="p">,</span> <span class="n">extra_info</span><span class="p">,</span> <span class="n">column_names</span><span class="p">,</span> <span class="n">rows</span><span class="p">,</span> <span class="n">comments</span><span class="o">=</span><span class="p">[]):</span>
+        <span class="k">assert</span> <span class="n">file_kind</span><span class="o">.</span><span class="n">isidentifier</span><span class="p">(),</span> <span class="sa">f</span><span class="s2">&quot;The file_kind </span><span class="si">{</span><span class="n">file_kind</span><span class="si">}</span><span class="s2"> must not contain whitespace or anything else that makes it an invalid var name&quot;</span>
+        
+        <span class="kn">import</span> <span class="nn">datetime</span>
+        <span class="kn">from</span> <span class="nn">pytransit.__dependencies__</span> <span class="kn">import</span> <span class="n">ez_yaml</span>
+        <span class="kn">import</span> <span class="nn">pytransit</span>
+        <span class="kn">import</span> <span class="nn">pytransit.generic_tools.csv</span> <span class="k">as</span> <span class="nn">csv</span>
+        <span class="kn">from</span> <span class="nn">pytransit.globals</span> <span class="kn">import</span> <span class="n">logging</span><span class="p">,</span> <span class="n">gui</span>
+        <span class="kn">from</span> <span class="nn">pytransit.generic_tools.misc</span> <span class="kn">import</span> <span class="n">indent</span><span class="p">,</span> <span class="n">to_pure</span>
+        <span class="n">ez_yaml</span><span class="o">.</span><span class="n">yaml</span><span class="o">.</span><span class="n">version</span> <span class="o">=</span> <span class="kc">None</span> <span class="c1"># disable the &quot;%YAML 1.2\n&quot; header</span>
+        <span class="n">ez_yaml</span><span class="o">.</span><span class="n">yaml</span><span class="o">.</span><span class="n">width</span> <span class="o">=</span> <span class="n">sys</span><span class="o">.</span><span class="n">maxint</span> <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">sys</span><span class="p">,</span> <span class="s2">&quot;maxint&quot;</span><span class="p">)</span> <span class="k">else</span> <span class="n">sys</span><span class="o">.</span><span class="n">maxsize</span>
+        <span class="n">extra_info</span> <span class="o">=</span> <span class="n">extra_info</span> <span class="ow">or</span> <span class="p">{}</span>
+        
+        <span class="n">original_function</span> <span class="o">=</span> <span class="n">ez_yaml</span><span class="o">.</span><span class="n">yaml</span><span class="o">.</span><span class="n">representer</span><span class="o">.</span><span class="n">represent_sequence</span>
+        <span class="k">def</span> <span class="nf">my_represent_sequence</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+            <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">args</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">:</span>
+                <span class="n">tag</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="o">*</span><span class="n">_</span> <span class="o">=</span> <span class="n">args</span>
+                <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="p">(</span><span class="nb">tuple</span><span class="p">,</span> <span class="nb">list</span><span class="p">)):</span>
+                    <span class="c1"># if all primitives</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="nb">any</span><span class="p">(</span><span class="nb">isinstance</span><span class="p">(</span><span class="n">each</span><span class="p">,</span> <span class="p">(</span><span class="nb">tuple</span><span class="p">,</span><span class="nb">list</span><span class="p">,</span><span class="nb">dict</span><span class="p">))</span> <span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="n">data</span><span class="p">):</span>
+                        <span class="c1"># set the format</span>
+                        <span class="n">kwargs</span><span class="p">[</span><span class="s2">&quot;flow_style&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="kc">True</span>
+            <span class="k">return</span> <span class="n">original_function</span><span class="p">(</span><span class="o">*</span><span class="n">args</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span>
+
+        <span class="n">ez_yaml</span><span class="o">.</span><span class="n">yaml</span><span class="o">.</span><span class="n">representer</span><span class="o">.</span><span class="n">represent_sequence</span> <span class="o">=</span> <span class="n">my_represent_sequence</span>
+        <span class="n">options</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">()</span>
+
+        <span class="n">yaml_string</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">yaml_string</span> <span class="o">=</span> <span class="n">ez_yaml</span><span class="o">.</span><span class="n">to_string</span><span class="p">(</span><span class="n">extra_info</span><span class="p">,</span> <span class="n">options</span><span class="o">=</span><span class="n">options</span><span class="p">)</span>
+        <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">error</span><span class="p">:</span>
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">yaml_string</span> <span class="o">=</span> <span class="n">ez_yaml</span><span class="o">.</span><span class="n">to_string</span><span class="p">(</span><span class="n">to_pure</span><span class="p">(</span><span class="n">extra_info</span><span class="p">),</span> <span class="n">options</span><span class="o">=</span><span class="n">options</span><span class="p">)</span>
+            <span class="k">except</span> <span class="ne">Exception</span> <span class="k">as</span> <span class="n">error</span><span class="p">:</span>
+                <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;&#39;&#39;There was an issue with turning this value (or its contents) into a yaml string: </span><span class="si">{</span><span class="n">extra_info</span><span class="si">}</span><span class="s1">&#39;&#39;&#39;</span><span class="p">)</span>
+        
+        <span class="n">now</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="n">datetime</span><span class="o">.</span><span class="n">datetime</span><span class="o">.</span><span class="n">now</span><span class="p">())</span>
+        <span class="n">todays_date</span> <span class="o">=</span> <span class="n">now</span><span class="p">[:</span> <span class="n">now</span><span class="o">.</span><span class="n">rfind</span><span class="p">(</span><span class="s2">&quot;.&quot;</span><span class="p">)]</span>
+        
+        <span class="c1"># </span>
+        <span class="c1"># write to file</span>
+        <span class="c1"># </span>
+        <span class="n">csv</span><span class="o">.</span><span class="n">write</span><span class="p">(</span>
+            <span class="n">path</span><span class="o">=</span><span class="n">path</span><span class="p">,</span>
+            <span class="n">seperator</span><span class="o">=</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">,</span>
+            <span class="n">comment_symbol</span><span class="o">=</span><span class="s2">&quot;#&quot;</span><span class="p">,</span>
+            <span class="n">comments</span><span class="o">=</span><span class="p">[</span>
+                <span class="n">file_kind</span><span class="p">,</span> <span class="c1"># identifier always comes first</span>
+                <span class="o">*</span><span class="n">comments</span><span class="p">,</span>
+                <span class="sa">f</span><span class="s2">&quot;yaml:&quot;</span><span class="p">,</span>
+                <span class="sa">f</span><span class="s2">&quot;    date: </span><span class="si">{</span><span class="n">todays_date</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+                <span class="sa">f</span><span class="s2">&quot;    transit_version: </span><span class="si">{</span><span class="n">pytransit</span><span class="o">.</span><span class="n">__version__</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+                <span class="sa">f</span><span class="s2">&quot;    app_or_command_line: </span><span class="si">{</span><span class="s1">&#39;app&#39;</span> <span class="k">if</span> <span class="n">gui</span><span class="o">.</span><span class="n">is_active</span> <span class="k">else</span> <span class="s1">&#39;command_line&#39;</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+                <span class="sa">f</span><span class="s2">&quot;    console_command: </span><span class="si">{</span><span class="n">console_tools</span><span class="o">.</span><span class="n">full_commandline_command</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">,</span>
+                <span class="n">indent</span><span class="p">(</span><span class="n">yaml_string</span><span class="p">,</span> <span class="n">by</span><span class="o">=</span><span class="s2">&quot;    &quot;</span><span class="p">),</span>
+                <span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">column_names</span><span class="p">)</span> <span class="c1"># column names always last</span>
+            <span class="p">],</span>
+            <span class="n">rows</span><span class="o">=</span><span class="n">rows</span><span class="p">,</span>
+        <span class="p">)</span></div>
+
+<span class="kn">import</span> <span class="nn">time</span>
+<div class="viewcode-block" id="TimerAndOutputs"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.TimerAndOutputs">[docs]</a><span class="k">class</span> <span class="nc">TimerAndOutputs</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">method_name</span><span class="p">,</span> <span class="n">output_paths</span><span class="o">=</span><span class="p">[],</span> <span class="n">disable</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">method_name</span> <span class="o">=</span> <span class="n">method_name</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">output_paths</span> <span class="o">=</span> <span class="n">output_paths</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">disable</span> <span class="o">=</span> <span class="n">disable</span>
+    
+    <span class="k">def</span> <span class="fm">__enter__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">disable</span><span class="p">:</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Starting </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">method_name</span><span class="si">}</span><span class="s2"> analysis&quot;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">start_time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span>
+        <span class="k">return</span> <span class="bp">self</span>
+    
+    <span class="k">def</span> <span class="fm">__exit__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">_</span><span class="p">,</span> <span class="n">error</span><span class="p">,</span> <span class="n">traceback</span><span class="p">):</span>
+        <span class="kn">from</span> <span class="nn">pytransit.globals</span> <span class="kn">import</span> <span class="n">logging</span><span class="p">,</span> <span class="n">gui</span>
+        <span class="kn">from</span> <span class="nn">pytransit.components</span> <span class="kn">import</span> <span class="n">results_area</span>
+        <span class="k">if</span> <span class="n">error</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">gui</span><span class="o">.</span><span class="n">is_active</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">output_paths</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">disable</span><span class="p">:</span>
+                        <span class="n">logging</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Adding File: </span><span class="si">{</span><span class="n">each</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+                    <span class="n">results_area</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">each</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="bp">self</span><span class="o">.</span><span class="n">disable</span><span class="p">:</span>
+                <span class="n">logging</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Finished </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">method_name</span><span class="si">}</span><span class="s2"> analysis in </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">duration_in_seconds</span><span class="si">:</span><span class="s2">0.1f</span><span class="si">}</span><span class="s2">sec&quot;</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">raise</span> <span class="n">error</span>
+    
+    <span class="nd">@property</span>
+    <span class="k">def</span> <span class="nf">duration_in_seconds</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">time</span><span class="o">.</span><span class="n">time</span><span class="p">()</span> <span class="o">-</span> <span class="bp">self</span><span class="o">.</span><span class="n">start_time</span></div>
+
+
+<div class="viewcode-block" id="require_r_to_be_installed"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.require_r_to_be_installed">[docs]</a><span class="k">def</span> <span class="nf">require_r_to_be_installed</span><span class="p">(</span><span class="n">required_r_packages</span><span class="o">=</span><span class="p">[]):</span>
+    <span class="k">if</span> <span class="ow">not</span> <span class="n">HAS_R</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;&#39;&#39;Error: R and rpy2 (~= 3.0) required for this operation, see: https://www.r-project.org/&#39;&#39;&#39;</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="n">required_r_packages</span><span class="p">:</span>
+        <span class="n">missing_packages</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">required_r_packages</span> <span class="k">if</span> <span class="ow">not</span> <span class="n">rpackages</span><span class="o">.</span><span class="n">isinstalled</span><span class="p">(</span><span class="n">x</span><span class="p">)]</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">missing_packages</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">logging</span><span class="o">.</span><span class="n">error</span><span class="p">(</span>
+                <span class="s2">&quot;Error: Following R packages are required: </span><span class="si">%(0)s</span><span class="s2">. From R console, You can install them using install.packages(c(</span><span class="si">%(0)s</span><span class="s2">))&quot;</span>
+                <span class="o">%</span> <span class="p">({</span><span class="s2">&quot;0&quot;</span><span class="p">:</span> <span class="s1">&#39;&quot;</span><span class="si">{0}</span><span class="s1">&quot;&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="s1">&#39;&quot;, &quot;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">missing_packages</span><span class="p">))})</span>
+            <span class="p">)</span></div>
+
+<div class="viewcode-block" id="fetch_name"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.fetch_name">[docs]</a><span class="k">def</span> <span class="nf">fetch_name</span><span class="p">(</span><span class="n">filepath</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">ntpath</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">filepath</span><span class="p">))[</span><span class="mi">0</span><span class="p">]</span></div>
+
+<div class="viewcode-block" id="basename"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.basename">[docs]</a><span class="k">def</span> <span class="nf">basename</span><span class="p">(</span><span class="n">filepath</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">ntpath</span><span class="o">.</span><span class="n">basename</span><span class="p">(</span><span class="n">filepath</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="dirname"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.dirname">[docs]</a><span class="k">def</span> <span class="nf">dirname</span><span class="p">(</span><span class="n">filepath</span><span class="p">):</span>
+    <span class="k">return</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">filepath</span><span class="p">))</span></div>
+
+<div class="viewcode-block" id="validate_wig_format"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.validate_wig_format">[docs]</a><span class="k">def</span> <span class="nf">validate_wig_format</span><span class="p">(</span><span class="n">wig_list</span><span class="p">):</span>
+    <span class="c1"># Check if the .wig files include zeros or not</span>
+    <span class="n">status</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">genome</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="n">includes_zeros</span> <span class="o">=</span> <span class="n">tnseq_tools</span><span class="o">.</span><span class="n">check_wig_includes_zeros</span><span class="p">(</span><span class="n">wig_list</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="nb">sum</span><span class="p">(</span><span class="n">includes_zeros</span><span class="p">)</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">includes_zeros</span><span class="p">):</span>
+        <span class="kn">from</span> <span class="nn">pytransit.globals</span> <span class="kn">import</span> <span class="n">logging</span><span class="p">,</span> <span class="n">gui</span>
+        <span class="k">if</span> <span class="ow">not</span> <span class="n">gui</span><span class="o">.</span><span class="n">is_active</span><span class="p">:</span>
+            <span class="n">warnings</span><span class="o">.</span><span class="n">warn</span><span class="p">(</span>
+                <span class="s2">&quot;</span><span class="se">\n</span><span class="s2">One or more of your .wig files does not include any empty sites (i.e. sites with zero read-counts). Proceeding as if data was Tn5 (all other sites assumed to be zero)!</span><span class="se">\n</span><span class="s2">&quot;</span>
+            <span class="p">)</span>
+            <span class="k">return</span> <span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="s2">&quot;&quot;</span><span class="p">)</span>
+
+        <span class="c1"># Else check their decision</span>
+        <span class="n">dlg</span> <span class="o">=</span> <span class="n">AssumeZerosDialog</span><span class="p">()</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="n">dlg</span><span class="o">.</span><span class="n">ShowModal</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">result</span> <span class="o">==</span> <span class="n">dlg</span><span class="o">.</span><span class="n">ID_HIMAR1</span> <span class="ow">and</span> <span class="n">gui</span><span class="o">.</span><span class="n">is_active</span><span class="p">:</span>
+            <span class="n">status</span> <span class="o">=</span> <span class="mi">1</span>
+            <span class="c1"># Get genome</span>
+            <span class="n">wc</span> <span class="o">=</span> <span class="s2">&quot;Known Sequence Extensions (*.fna,*.fasta)|*.fna;*.fasta;|</span><span class="se">\n</span><span class="s2">All files (*.*)|*.*&quot;</span>
+            <span class="n">gen_dlg</span> <span class="o">=</span> <span class="n">wx</span><span class="o">.</span><span class="n">FileDialog</span><span class="p">(</span>
+                <span class="n">gui</span><span class="o">.</span><span class="n">frame</span><span class="p">,</span>
+                <span class="n">message</span><span class="o">=</span><span class="s2">&quot;Save file as ...&quot;</span><span class="p">,</span>
+                <span class="n">defaultDir</span><span class="o">=</span><span class="n">os</span><span class="o">.</span><span class="n">getcwd</span><span class="p">(),</span>
+                <span class="n">defaultFile</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+                <span class="n">wildcard</span><span class="o">=</span><span class="n">wc</span><span class="p">,</span>
+                <span class="n">style</span><span class="o">=</span><span class="n">wx</span><span class="o">.</span><span class="n">FD_OPEN</span><span class="p">,</span>
+            <span class="p">)</span>
+            <span class="k">if</span> <span class="n">gen_dlg</span><span class="o">.</span><span class="n">ShowModal</span><span class="p">()</span> <span class="o">==</span> <span class="n">wx</span><span class="o">.</span><span class="n">ID_OK</span><span class="p">:</span>
+                <span class="n">genome</span> <span class="o">=</span> <span class="n">gen_dlg</span><span class="o">.</span><span class="n">GetPath</span><span class="p">()</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">genome</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+
+        <span class="k">elif</span> <span class="n">result</span> <span class="o">==</span> <span class="n">dlg</span><span class="o">.</span><span class="n">ID_TN5</span><span class="p">:</span>
+            <span class="n">status</span> <span class="o">=</span> <span class="mi">2</span>
+            <span class="n">genome</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">status</span> <span class="o">=</span> <span class="mi">3</span>
+            <span class="n">genome</span> <span class="o">=</span> <span class="s2">&quot;&quot;</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">status</span><span class="p">,</span> <span class="n">genome</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="get_pos_hash"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.get_pos_hash">[docs]</a><span class="k">def</span> <span class="nf">get_pos_hash</span><span class="p">(</span><span class="n">path</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Returns a dictionary that maps coordinates to a list of genes that occur at that coordinate.</span>
+<span class="sd">    </span>
+<span class="sd">    Arguments:</span>
+<span class="sd">        path (str): Path to annotation in .prot_table or GFF3 format.</span>
+<span class="sd">    </span>
+<span class="sd">    Returns:</span>
+<span class="sd">        dict: Dictionary of position to list of genes that share that position.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">filename</span><span class="p">,</span> <span class="n">file_extension</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">splitext</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+    <span class="k">if</span> <span class="n">file_extension</span><span class="o">.</span><span class="n">lower</span><span class="p">()</span> <span class="ow">in</span> <span class="p">[</span><span class="s2">&quot;.gff&quot;</span><span class="p">,</span> <span class="s2">&quot;.gff3&quot;</span><span class="p">]:</span>
+        <span class="k">return</span> <span class="n">tnseq_tools</span><span class="o">.</span><span class="n">get_pos_hash_gff</span><span class="p">(</span><span class="n">path</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tnseq_tools</span><span class="o">.</span><span class="n">get_pos_hash_pt</span><span class="p">(</span><span class="n">path</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="expand_var"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.expand_var">[docs]</a><span class="k">def</span> <span class="nf">expand_var</span><span class="p">(</span><span class="n">pairs</span><span class="p">,</span> <span class="nb">vars</span><span class="p">,</span> <span class="n">vars_by_file_list</span><span class="p">,</span> <span class="n">vars_to_vals</span><span class="p">,</span> <span class="n">samples</span><span class="p">,</span> <span class="n">enable_logging</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">        pairs is a list of (var,val); samples is a set; varsByFileList is a list of dictionaries mapping values to samples for each var (parallel to vars)</span>
+<span class="sd">        recursive: keep calling till vars reduced to empty</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="kn">from</span> <span class="nn">pytransit.generic_tools</span> <span class="kn">import</span> <span class="n">misc</span>
+    
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="nb">vars</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">s</span> <span class="o">=</span> <span class="s2">&quot;</span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">pairs</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">pairs</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">pairs</span><span class="p">)):</span>
+            <span class="n">s</span> <span class="o">+=</span> <span class="s2">&quot; &amp; </span><span class="si">%s</span><span class="s2">=</span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="p">(</span><span class="n">pairs</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">],</span> <span class="n">pairs</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">s</span> <span class="o">+=</span> <span class="s2">&quot;: </span><span class="si">%s</span><span class="s2">&quot;</span> <span class="o">%</span> <span class="nb">len</span><span class="p">(</span><span class="n">samples</span><span class="p">)</span>
+        <span class="n">enable_logging</span> <span class="ow">and</span> <span class="n">logging</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">samples</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">True</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">var</span><span class="p">,</span> <span class="n">vals_dict</span> <span class="o">=</span> <span class="nb">vars</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="n">vars_by_file_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+        <span class="n">inv</span> <span class="o">=</span> <span class="n">misc</span><span class="o">.</span><span class="n">invert_dict</span><span class="p">(</span><span class="n">vals_dict</span><span class="p">)</span>
+        <span class="n">any_empty</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">for</span> <span class="n">val</span> <span class="ow">in</span> <span class="n">vars_to_vals</span><span class="p">[</span><span class="n">var</span><span class="p">]:</span>
+            <span class="n">subset</span> <span class="o">=</span> <span class="n">samples</span><span class="o">.</span><span class="n">intersection</span><span class="p">(</span><span class="nb">set</span><span class="p">(</span><span class="n">inv</span><span class="p">[</span><span class="n">val</span><span class="p">]))</span>
+            <span class="n">res</span> <span class="o">=</span> <span class="n">expand_var</span><span class="p">(</span>
+                <span class="n">pairs</span> <span class="o">+</span> <span class="p">[(</span><span class="n">var</span><span class="p">,</span> <span class="n">val</span><span class="p">)],</span>
+                <span class="nb">vars</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span>
+                <span class="n">vars_by_file_list</span><span class="p">[</span><span class="mi">1</span><span class="p">:],</span>
+                <span class="n">vars_to_vals</span><span class="p">,</span>
+                <span class="n">subset</span><span class="p">,</span>
+            <span class="p">)</span>
+            <span class="n">any_empty</span> <span class="o">=</span> <span class="n">any_empty</span> <span class="ow">or</span> <span class="n">res</span>
+        <span class="k">return</span> <span class="n">any_empty</span></div>
+
+<div class="viewcode-block" id="get_validated_data"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.get_validated_data">[docs]</a><span class="k">def</span> <span class="nf">get_validated_data</span><span class="p">(</span><span class="n">wig_list</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot; Returns a tuple of (data, position) containing a matrix of raw read-counts</span>
+<span class="sd">        , and list of coordinates. </span>
+
+<span class="sd">    Arguments:</span>
+<span class="sd">        wig_list (list): List of paths to wig files.</span>
+
+<span class="sd">    Returns:</span>
+<span class="sd">        tuple: Two lists containing data and positions of the wig files given.</span>
+
+<span class="sd">    :Example:</span>
+
+<span class="sd">        &gt;&gt;&gt; from pytransit.specific_tools import tnseq_tools</span>
+<span class="sd">        &gt;&gt;&gt; (data, position) = tnseq_tools.get_validated_data([&quot;data/cholesterol_glycerol.transit/glycerol_rep1.wig&quot;, &quot;data/cholesterol_glycerol.transit/glycerol_rep2.wig&quot;])</span>
+<span class="sd">        &gt;&gt;&gt; print(data)</span>
+<span class="sd">        array([[ 0.,  0.,  0., ...,  0.,  0.,  0.],</span>
+<span class="sd">               [ 0.,  0.,  0., ...,  0.,  0.,  0.]])</span>
+
+<span class="sd">    .. seealso:: :class:`get_file_types` :class:`combine_replicates` :class:`get_data_zero_fill` :class:`pytransit.specific_tools.norm_tools.normalize_data`</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="p">(</span><span class="n">status</span><span class="p">,</span> <span class="n">genome</span><span class="p">)</span> <span class="o">=</span> <span class="n">validate_wig_format</span><span class="p">(</span><span class="n">wig_list</span><span class="p">)</span>
+
+    <span class="c1"># Regular file with empty sites</span>
+    <span class="k">if</span> <span class="n">status</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tnseq_tools</span><span class="o">.</span><span class="n">CombinedWig</span><span class="o">.</span><span class="n">gather_wig_data</span><span class="p">(</span><span class="n">wig_list</span><span class="p">)</span>
+    <span class="c1"># No empty sites, decided to proceed as Himar1</span>
+    <span class="k">elif</span> <span class="n">status</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tnseq_tools</span><span class="o">.</span><span class="n">get_data_w_genome</span><span class="p">(</span><span class="n">wig_list</span><span class="p">,</span> <span class="n">genome</span><span class="p">)</span>
+    <span class="c1"># No empty sites, decided to proceed as Tn5</span>
+    <span class="k">elif</span> <span class="n">status</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tnseq_tools</span><span class="o">.</span><span class="n">get_data_zero_fill</span><span class="p">(</span><span class="n">wig_list</span><span class="p">)</span>
+    <span class="c1"># Didn&#39;t choose either.... what!?</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">tnseq_tools</span><span class="o">.</span><span class="n">CombinedWig</span><span class="o">.</span><span class="n">gather_wig_data</span><span class="p">([])</span></div>
+
+<span class="c1"># input: conditions are per wig; orderingmetadata comes from tnseq_tools.CombinedWigMetadata.read_condition_data()</span>
+<span class="c1"># output: conditionsList is selected subset of conditions (unique, in preferred order)</span>
+<div class="viewcode-block" id="filter_wigs_by_conditions"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.filter_wigs_by_conditions">[docs]</a><span class="k">def</span> <span class="nf">filter_wigs_by_conditions</span><span class="p">(</span>
+    <span class="n">data</span><span class="p">,</span>
+    <span class="n">conditions</span><span class="p">,</span>
+    <span class="n">covariates</span><span class="o">=</span><span class="p">[],</span>
+    <span class="n">interactions</span><span class="o">=</span><span class="p">[],</span>
+    <span class="n">excluded_conditions</span><span class="o">=</span><span class="p">[],</span>
+    <span class="n">included_conditions</span><span class="o">=</span><span class="p">[],</span>
+    <span class="n">unknown_cond_flag</span><span class="o">=</span><span class="s2">&quot;FLAG-UNMAPPED-CONDITION-IN-WIG&quot;</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Filters conditions that are excluded/included.</span>
+<span class="sd">        ([[Wigdata]], [Condition], [[Covar]], [Condition], [Condition]) -&gt; Tuple([[Wigdata]], [Condition])</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">excluded_conditions</span><span class="p">,</span> <span class="n">included_conditions</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="nb">set</span><span class="p">(</span><span class="n">excluded_conditions</span><span class="p">),</span>
+        <span class="nb">set</span><span class="p">(</span><span class="n">included_conditions</span><span class="p">),</span>
+    <span class="p">)</span>
+    <span class="n">d_filtered</span><span class="p">,</span> <span class="n">cond_filtered</span><span class="p">,</span> <span class="n">filtered_indexes</span> <span class="o">=</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[]</span>
+
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">excluded_conditions</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="ow">and</span> <span class="nb">len</span><span class="p">(</span><span class="n">included_conditions</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">raise</span> <span class="ne">Exception</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;&#39;&#39;Both excluded and included conditions have len &gt; 0&#39;&#39;&#39;</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">excluded_conditions</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;conditions excluded: </span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">excluded_conditions</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">conditions</span><span class="p">):</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">!=</span> <span class="n">unknown_cond_flag</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">c</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">excluded_conditions</span><span class="p">):</span>
+                <span class="n">d_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="n">cond_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">conditions</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="n">filtered_indexes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="nb">len</span><span class="p">(</span><span class="n">included_conditions</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">logging</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="s2">&quot;conditions included: </span><span class="si">{0}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">included_conditions</span><span class="p">))</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">conditions</span><span class="p">):</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">c</span> <span class="o">!=</span> <span class="n">unknown_cond_flag</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">c</span> <span class="ow">in</span> <span class="n">included_conditions</span><span class="p">):</span>
+                <span class="n">d_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="n">cond_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">conditions</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="n">filtered_indexes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">conditions</span><span class="p">):</span>
+            <span class="k">if</span> <span class="n">c</span> <span class="o">!=</span> <span class="n">unknown_cond_flag</span><span class="p">:</span>
+                <span class="n">d_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="n">cond_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">conditions</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                <span class="n">filtered_indexes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+    <span class="n">covariates_filtered</span> <span class="o">=</span> <span class="p">[[</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">filtered_indexes</span><span class="p">]</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">covariates</span><span class="p">]</span>
+    <span class="n">interactions_filtered</span> <span class="o">=</span> <span class="p">[[</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">filtered_indexes</span><span class="p">]</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">interactions</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="p">(</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">d_filtered</span><span class="p">),</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">cond_filtered</span><span class="p">),</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">covariates_filtered</span><span class="p">),</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">interactions_filtered</span><span class="p">),</span>
+    <span class="p">)</span></div>
+
+<div class="viewcode-block" id="select_conditions"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.select_conditions">[docs]</a><span class="k">def</span> <span class="nf">select_conditions</span><span class="p">(</span><span class="n">conditions</span><span class="p">,</span> <span class="n">included_conditions</span><span class="p">,</span> <span class="n">excluded_conditions</span><span class="p">,</span> <span class="n">ordering_metadata</span><span class="p">):</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">included_conditions</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">conditions_list</span> <span class="o">=</span> <span class="n">included_conditions</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">conditions_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">each_condition</span> <span class="ow">in</span> <span class="n">ordering_metadata</span><span class="p">[</span>
+            <span class="s2">&quot;condition&quot;</span>
+        <span class="p">]:</span>  <span class="c1"># the order conds appear in metadata file, duplicated for each sample</span>
+            <span class="k">if</span> <span class="n">each_condition</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">conditions_list</span><span class="p">:</span>
+                <span class="n">conditions_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">each_condition</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">each_condition</span> <span class="ow">in</span> <span class="n">excluded_conditions</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">each_condition</span> <span class="ow">in</span> <span class="n">conditions_list</span><span class="p">:</span>
+            <span class="n">conditions_list</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">each_condition</span><span class="p">)</span>
+    
+    <span class="k">return</span> <span class="n">conditions_list</span></div>
+
+<div class="viewcode-block" id="filter_wigs_by_conditions2"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.filter_wigs_by_conditions2">[docs]</a><span class="k">def</span> <span class="nf">filter_wigs_by_conditions2</span><span class="p">(</span>
+    <span class="n">data</span><span class="p">,</span>
+    <span class="n">wig_fingerprints</span><span class="p">,</span>
+    <span class="n">condition_names</span><span class="p">,</span>
+    <span class="n">included_cond</span><span class="p">,</span>
+    <span class="n">excluded_cond</span><span class="p">,</span>
+    <span class="n">conditions</span><span class="p">,</span>
+    <span class="n">covariates</span><span class="o">=</span><span class="p">[],</span>
+    <span class="n">interactions</span><span class="o">=</span><span class="p">[],</span>
+<span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Filters conditions that are excluded/included; also extract cond, covar, and interaction labels</span>
+<span class="sd">        condition_names: based on original Conditions column in metadata</span>
+<span class="sd">        conditions: user might have specified an alternative column to analyze (list of labels parallel to wigs)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="p">(</span>
+        <span class="n">file_names_filtered</span><span class="p">,</span>
+        <span class="n">cond_names_filtered</span><span class="p">,</span>
+        <span class="n">d_filtered</span><span class="p">,</span>
+        <span class="n">cond_filtered</span><span class="p">,</span>
+        <span class="n">filtered_indexes</span><span class="p">,</span>
+    <span class="p">)</span> <span class="o">=</span> <span class="p">([],</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[],</span> <span class="p">[])</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">data</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="p">(</span>
+            <span class="nb">len</span><span class="p">(</span><span class="n">included_cond</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">condition_names</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">in</span> <span class="n">included_cond</span>
+        <span class="p">)</span> <span class="ow">and</span> <span class="n">condition_names</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">excluded_cond</span><span class="p">:</span>
+            <span class="n">d_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">file_names_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">wig_fingerprints</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">cond_names_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">condition_names</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">cond_filtered</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">conditions</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">filtered_indexes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+
+    <span class="n">covariates_filtered</span> <span class="o">=</span> <span class="p">[[</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">filtered_indexes</span><span class="p">]</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">covariates</span><span class="p">]</span>
+    <span class="n">interactions_filtered</span> <span class="o">=</span> <span class="p">[[</span><span class="n">c</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">filtered_indexes</span><span class="p">]</span> <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">interactions</span><span class="p">]</span>
+
+    <span class="k">return</span> <span class="p">(</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">d_filtered</span><span class="p">),</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">file_names_filtered</span><span class="p">),</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">cond_names_filtered</span><span class="p">),</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">cond_filtered</span><span class="p">),</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">covariates_filtered</span><span class="p">),</span>
+        <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">interactions_filtered</span><span class="p">),</span>
+    <span class="p">)</span></div>
+
+<span class="c1"># return a hash table of parallel lists, indexed by column header</span>
+<div class="viewcode-block" id="get_samples_metadata"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.get_samples_metadata">[docs]</a><span class="k">def</span> <span class="nf">get_samples_metadata</span><span class="p">(</span><span class="n">metadata_path</span><span class="p">):</span>
+    <span class="n">data</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">header</span> <span class="o">=</span> <span class="kc">None</span>
+    <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">metadata_path</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">file</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s2">&quot;#&quot;</span><span class="p">:</span>
+                <span class="k">continue</span>
+            <span class="n">w</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">rstrip</span><span class="p">()</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s2">&quot;</span><span class="se">\t</span><span class="s2">&quot;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="n">header</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+                <span class="n">header</span> <span class="o">=</span> <span class="n">w</span>
+                <span class="k">for</span> <span class="n">col</span> <span class="ow">in</span> <span class="n">header</span><span class="p">:</span>
+                    <span class="n">data</span><span class="p">[</span><span class="n">col</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">header</span><span class="p">)):</span>
+                    <span class="n">data</span><span class="p">[</span><span class="n">header</span><span class="p">[</span><span class="n">i</span><span class="p">]]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">w</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="k">return</span> <span class="n">data</span></div>
+
+<div class="viewcode-block" id="gather_sample_data_for"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.gather_sample_data_for">[docs]</a><span class="k">def</span> <span class="nf">gather_sample_data_for</span><span class="p">(</span><span class="n">conditions</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">wig_ids</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">wig_fingerprints</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">selected_samples</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="kn">from</span> <span class="nn">pytransit.globals</span> <span class="kn">import</span> <span class="n">logging</span><span class="p">,</span> <span class="n">gui</span><span class="p">,</span> <span class="n">cli</span><span class="p">,</span> <span class="n">root_folder</span><span class="p">,</span> <span class="n">debugging_enabled</span>
+    <span class="kn">from</span> <span class="nn">pytransit.specific_tools.tnseq_tools</span> <span class="kn">import</span> <span class="n">Wig</span>
+    
+    <span class="n">wig_objects</span> <span class="o">=</span> <span class="n">gui</span><span class="o">.</span><span class="n">samples</span>
+    <span class="c1"># default to all samples unless selected_samples is true</span>
+    <span class="k">if</span> <span class="n">selected_samples</span><span class="p">:</span>
+        <span class="n">wig_objects</span> <span class="o">=</span> <span class="n">gui</span><span class="o">.</span><span class="n">selected_samples</span>
+    
+    <span class="c1"># filter by conditions if needed</span>
+    <span class="k">if</span> <span class="n">conditions</span><span class="p">:</span>
+        <span class="n">condition_names</span> <span class="o">=</span> <span class="p">[</span> <span class="p">(</span><span class="n">each</span> <span class="k">if</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">each</span><span class="p">,</span> <span class="nb">str</span><span class="p">)</span> <span class="k">else</span> <span class="n">each</span><span class="o">.</span><span class="n">name</span><span class="p">)</span> <span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="n">conditions</span> <span class="p">]</span>
+        <span class="n">wig_objects</span> <span class="o">=</span> <span class="p">[</span> <span class="n">each</span> <span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="n">wig_objects</span> <span class="k">if</span> <span class="nb">set</span><span class="p">(</span><span class="n">each</span><span class="o">.</span><span class="n">condition_names</span><span class="p">)</span> <span class="o">&amp;</span> <span class="nb">set</span><span class="p">(</span><span class="n">condition_names</span><span class="p">)</span> <span class="p">]</span>
+    
+    <span class="c1"># filter by wig_ids if needed</span>
+    <span class="k">if</span> <span class="n">wig_ids</span><span class="p">:</span>
+        <span class="n">wig_objects</span> <span class="o">=</span> <span class="p">[</span> <span class="n">each</span> <span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="n">wig_objects</span> <span class="k">if</span> <span class="n">each</span><span class="o">.</span><span class="n">id</span> <span class="ow">in</span> <span class="n">wig_ids</span> <span class="p">]</span>
+    
+    <span class="c1"># filter by wig_fingerprints if needed</span>
+    <span class="k">if</span> <span class="n">wig_fingerprints</span><span class="p">:</span>
+        <span class="n">wig_objects</span> <span class="o">=</span> <span class="p">[</span> <span class="n">each</span> <span class="k">for</span> <span class="n">each</span> <span class="ow">in</span> <span class="n">wig_objects</span> <span class="k">if</span> <span class="n">each</span><span class="o">.</span><span class="n">id</span> <span class="ow">in</span> <span class="n">wig_fingerprints</span> <span class="p">]</span>
+    
+    <span class="k">return</span> <span class="n">Wig</span><span class="o">.</span><span class="n">selected_as_gathered_data</span><span class="p">(</span><span class="n">wig_objects</span><span class="p">)</span></div>
+
+<span class="c1">##########################################</span>
+<div class="viewcode-block" id="winsorize"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.winsorize">[docs]</a><span class="k">def</span> <span class="nf">winsorize</span><span class="p">(</span><span class="n">counts</span><span class="p">):</span>
+    <span class="c1"># input is insertion counts for gene: list of lists: n_replicates (rows) X n_TA sites (cols) in gene</span>
+    <span class="n">unique_counts</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">unique</span><span class="p">(</span><span class="n">numpy</span><span class="o">.</span><span class="n">concatenate</span><span class="p">(</span><span class="n">counts</span><span class="p">))</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">unique_counts</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">2</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">counts</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">n</span><span class="p">,</span> <span class="n">n_minus_1</span> <span class="o">=</span> <span class="n">unique_counts</span><span class="p">[</span>
+            <span class="n">heapq</span><span class="o">.</span><span class="n">nlargest</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">unique_counts</span><span class="p">)),</span> <span class="n">unique_counts</span><span class="o">.</span><span class="n">take</span><span class="p">)</span>
+        <span class="p">]</span>
+        <span class="n">result</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="p">[</span><span class="n">n_minus_1</span> <span class="k">if</span> <span class="n">count</span> <span class="o">==</span> <span class="n">n</span> <span class="k">else</span> <span class="n">count</span> <span class="k">for</span> <span class="n">count</span> <span class="ow">in</span> <span class="n">wig</span><span class="p">]</span> <span class="k">for</span> <span class="n">wig</span> <span class="ow">in</span> <span class="n">counts</span>
+        <span class="p">]</span>
+        <span class="k">return</span> <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">result</span><span class="p">)</span></div>
+
+<div class="viewcode-block" id="stats_for_gene"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.stats_for_gene">[docs]</a><span class="k">def</span> <span class="nf">stats_for_gene</span><span class="p">(</span><span class="n">site_indexes</span><span class="p">,</span> <span class="n">group_wig_index_map</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">winz</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Returns a dictionary of {Group: {Mean, NzMean, NzPerc}}</span>
+<span class="sd">        ([SiteIndex], [Condition], [WigData]) -&gt; [{Condition: Number}]</span>
+<span class="sd">        SiteIndex :: Number</span>
+<span class="sd">        WigData :: [Number]</span>
+<span class="sd">        Group :: String (combination of &#39;&lt;interaction&gt;_&lt;condition&gt;&#39;)</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="n">nonzero</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">xs</span><span class="p">:</span> <span class="n">xs</span><span class="p">[</span><span class="n">numpy</span><span class="o">.</span><span class="n">nonzero</span><span class="p">(</span><span class="n">xs</span><span class="p">)]</span>
+    <span class="n">nzperc</span> <span class="o">=</span> <span class="k">lambda</span> <span class="n">xs</span><span class="p">:</span> <span class="n">numpy</span><span class="o">.</span><span class="n">count_nonzero</span><span class="p">(</span><span class="n">xs</span><span class="p">)</span> <span class="o">/</span> <span class="nb">float</span><span class="p">(</span><span class="n">xs</span><span class="o">.</span><span class="n">size</span><span class="p">)</span>
+
+    <span class="n">means</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">nz_means</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="n">nz_percs</span> <span class="o">=</span> <span class="p">{}</span>
+
+    <span class="k">for</span> <span class="p">(</span><span class="n">group</span><span class="p">,</span> <span class="n">wig_indexes</span><span class="p">)</span> <span class="ow">in</span> <span class="n">group_wig_index_map</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">site_indexes</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>  <span class="c1"># If no TA sites, write 0</span>
+            <span class="n">means</span><span class="p">[</span><span class="n">group</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">nz_means</span><span class="p">[</span><span class="n">group</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+            <span class="n">nz_percs</span><span class="p">[</span><span class="n">group</span><span class="p">]</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">arr</span> <span class="o">=</span> <span class="n">data</span><span class="p">[</span><span class="n">wig_indexes</span><span class="p">][:,</span> <span class="n">site_indexes</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">winz</span><span class="p">:</span>
+                <span class="n">arr</span> <span class="o">=</span> <span class="n">tnseq_tools</span><span class="o">.</span><span class="n">winsorize</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+            <span class="n">means</span><span class="p">[</span><span class="n">group</span><span class="p">]</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">0</span>
+            <span class="n">nonzero_arr</span> <span class="o">=</span> <span class="n">nonzero</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+            <span class="n">nz_means</span><span class="p">[</span><span class="n">group</span><span class="p">]</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">nonzero_arr</span><span class="p">)</span> <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">nonzero_arr</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span> <span class="k">else</span> <span class="mi">0</span>
+            <span class="n">nz_percs</span><span class="p">[</span><span class="n">group</span><span class="p">]</span> <span class="o">=</span> <span class="n">nzperc</span><span class="p">(</span><span class="n">arr</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="p">{</span><span class="s2">&quot;mean&quot;</span><span class="p">:</span> <span class="n">means</span><span class="p">,</span> <span class="s2">&quot;nz_mean&quot;</span><span class="p">:</span> <span class="n">nz_means</span><span class="p">,</span> <span class="s2">&quot;nz_perc&quot;</span><span class="p">:</span> <span class="n">nz_percs</span><span class="p">}</span></div>
+
+<div class="viewcode-block" id="get_stats_by_rv"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.get_stats_by_rv">[docs]</a><span class="k">def</span> <span class="nf">get_stats_by_rv</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">rv_site_indexes_map</span><span class="p">,</span> <span class="n">genes</span><span class="p">,</span> <span class="n">conditions</span><span class="p">,</span> <span class="n">interactions</span><span class="p">,</span> <span class="n">winz</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Returns Dictionary of Stats by condition for each Rv</span>
+<span class="sd">        ([[Wigdata]], {Rv: SiteIndex}, [Gene], [Condition], [Interaction]) -&gt; {Rv: {Condition: Number}}</span>
+<span class="sd">        Wigdata :: [Number]</span>
+<span class="sd">        SiteIndex :: Number</span>
+<span class="sd">        Gene :: {start, end, rv, gene, strand}</span>
+<span class="sd">        Condition :: String</span>
+<span class="sd">        Interaction :: String</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="kn">from</span> <span class="nn">pytransit.specific_tools.transit_tools</span> <span class="kn">import</span> <span class="n">SEPARATOR</span><span class="p">,</span> <span class="n">stats_for_gene</span>
+    
+    <span class="c1">## Group wigfiles by (interaction, condition) pair</span>
+    <span class="c1">## {&#39;&lt;interaction&gt;_&lt;condition&gt;&#39;: [Wigindexes]}</span>
+    <span class="kn">import</span> <span class="nn">collections</span>
+    <span class="n">group_wig_index_map</span> <span class="o">=</span> <span class="n">collections</span><span class="o">.</span><span class="n">defaultdict</span><span class="p">(</span><span class="k">lambda</span><span class="p">:</span> <span class="p">[])</span>
+    <span class="k">for</span> <span class="n">condition_index</span><span class="p">,</span> <span class="n">condition_for_wig</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">conditions</span><span class="p">):</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">interactions</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">for</span> <span class="n">interaction</span> <span class="ow">in</span> <span class="n">interactions</span><span class="p">:</span>
+                <span class="n">group_name</span> <span class="o">=</span> <span class="n">condition_for_wig</span> <span class="o">+</span> <span class="n">SEPARATOR</span> <span class="o">+</span> <span class="n">interaction</span><span class="p">[</span><span class="n">condition_index</span><span class="p">]</span>
+                <span class="n">group_wig_index_map</span><span class="p">[</span><span class="n">group_name</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">condition_index</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">group_name</span> <span class="o">=</span> <span class="n">condition_for_wig</span>
+            <span class="n">group_wig_index_map</span><span class="p">[</span><span class="n">group_name</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">condition_index</span><span class="p">)</span>
+    
+    <span class="n">stats_by_rv</span> <span class="o">=</span> <span class="p">{}</span>
+    <span class="k">for</span> <span class="n">gene</span> <span class="ow">in</span> <span class="n">genes</span><span class="p">:</span>
+        <span class="n">gene_name</span> <span class="o">=</span> <span class="n">gene</span><span class="p">[</span><span class="s2">&quot;rv&quot;</span><span class="p">]</span>
+        <span class="n">stats_by_rv</span><span class="p">[</span><span class="n">gene_name</span><span class="p">]</span> <span class="o">=</span> <span class="n">stats_for_gene</span><span class="p">(</span>
+            <span class="n">rv_site_indexes_map</span><span class="p">[</span><span class="n">gene_name</span><span class="p">],</span> <span class="n">group_wig_index_map</span><span class="p">,</span> <span class="n">data</span><span class="p">,</span> <span class="n">winz</span><span class="p">,</span>
+        <span class="p">)</span>
+
+    <span class="c1">#TODO: Any ordering to follow?</span>
+    <span class="n">stat_group_names</span> <span class="o">=</span> <span class="n">group_wig_index_map</span><span class="o">.</span><span class="n">keys</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">stats_by_rv</span><span class="p">,</span> <span class="n">stat_group_names</span></div>
+
+<div class="viewcode-block" id="calc_gene_means"><a class="viewcode-back" href="../../../transit.html#pytransit.specific_tools.transit_tools.calc_gene_means">[docs]</a><span class="k">def</span> <span class="nf">calc_gene_means</span><span class="p">(</span><span class="n">combined_wig_path</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">metadata_path</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">annotation_path</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">normalization</span><span class="o">=</span><span class="s2">&quot;TTR&quot;</span><span class="p">,</span> <span class="n">n_terminus</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">c_terminus</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span> <span class="n">avg_by_conditions</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">combined_wig</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="k">if</span> <span class="n">combined_wig</span><span class="o">==</span><span class="kc">None</span><span class="p">:</span> 
+        <span class="n">combined_wig</span> <span class="o">=</span> <span class="n">tnseq_tools</span><span class="o">.</span><span class="n">CombinedWig</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">main_path</span><span class="o">=</span><span class="n">combined_wig_path</span><span class="p">,</span> <span class="n">metadata_path</span><span class="o">=</span><span class="n">metadata_path</span><span class="p">,</span> <span class="n">annotation_path</span><span class="o">=</span><span class="n">annotation_path</span><span class="p">)</span>
+    
+    <span class="k">assert</span> <span class="n">combined_wig</span><span class="o">.</span><span class="n">annotation_path</span> <span class="o">!=</span> <span class="kc">None</span><span class="p">,</span> <span class="s2">&quot;When computing gene means, make sure the combined_wig.annotation_path is not None&quot;</span>
+    
+    <span class="n">logging</span><span class="o">.</span><span class="n">log</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Normalizing using: </span><span class="si">{</span><span class="n">normalization</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">combined_wig</span> <span class="o">=</span> <span class="n">combined_wig</span><span class="o">.</span><span class="n">normalized_with</span><span class="p">(</span><span class="n">kind</span><span class="o">=</span><span class="n">normalization</span><span class="p">)</span>
+    
+    <span class="n">genes</span> <span class="o">=</span> <span class="n">combined_wig</span><span class="o">.</span><span class="n">get_genes</span><span class="p">(</span>
+        <span class="n">n_terminus</span><span class="o">=</span><span class="n">n_terminus</span><span class="p">,</span>
+        <span class="n">c_terminus</span><span class="o">=</span><span class="n">c_terminus</span><span class="p">,</span>
+    <span class="p">)</span>
+
+    <span class="c1"># calculate gene means </span>
+    <span class="n">means</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">if</span> <span class="n">combined_wig</span><span class="o">.</span><span class="n">metadata_path</span><span class="p">:</span>
+        <span class="n">labels</span> <span class="o">=</span> <span class="n">combined_wig</span><span class="o">.</span><span class="n">wig_ids</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">labels</span> <span class="o">=</span> <span class="n">combined_wig</span><span class="o">.</span><span class="n">wig_fingerprints</span>
+    
+    <span class="k">for</span> <span class="n">gene</span> <span class="ow">in</span> <span class="n">genes</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">gene</span><span class="o">.</span><span class="n">n</span><span class="o">&gt;=</span><span class="mi">1</span><span class="p">:</span>
+            <span class="n">means</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">numpy</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">gene</span><span class="o">.</span><span class="n">reads</span><span class="p">,</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">))</span> <span class="c1"># samples are in rows; columns are TA sites in gene</span>
+        <span class="k">else</span><span class="p">:</span> <span class="n">means</span><span class="o">.</span><span class="n">append</span><span class="p">([</span><span class="mi">0</span><span class="p">]</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">labels</span><span class="p">))</span>
+    <span class="n">means</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">vstack</span><span class="p">(</span><span class="n">means</span><span class="p">)</span>
+    
+    <span class="k">if</span> <span class="n">avg_by_conditions</span><span class="p">:</span>
+        <span class="n">labels</span> <span class="o">=</span> <span class="n">combined_wig</span><span class="o">.</span><span class="n">metadata</span><span class="o">.</span><span class="n">condition_names</span>
+        <span class="n">condition_per_wig_index</span> <span class="o">=</span> <span class="p">[</span>
+            <span class="n">combined_wig</span><span class="o">.</span><span class="n">metadata</span><span class="o">.</span><span class="n">condition_names_for</span><span class="p">(</span><span class="n">wig_fingerprint</span><span class="o">=</span><span class="n">each_fingerprint</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+                <span class="k">for</span> <span class="n">each_fingerprint</span> <span class="ow">in</span> <span class="n">combined_wig</span><span class="o">.</span><span class="n">wig_fingerprints</span>
+        <span class="p">]</span>
+        <span class="n">conditions_array</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">condition_per_wig_index</span><span class="p">)</span>
+        
+        <span class="c1"># make a reduced numpy array by average over replicates of each condition</span>
+        <span class="n">count_lists</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">each_condition_name</span> <span class="ow">in</span> <span class="n">combined_wig</span><span class="o">.</span><span class="n">metadata</span><span class="o">.</span><span class="n">condition_names</span><span class="p">:</span>
+            <span class="n">count_lists</span><span class="o">.</span><span class="n">append</span><span class="p">(</span>
+                <span class="c1"># pick columns corresponding to condition; avg across rows (genes)</span>
+                <span class="n">numpy</span><span class="o">.</span><span class="n">mean</span><span class="p">(</span><span class="n">means</span><span class="p">[:,</span><span class="n">conditions_array</span><span class="o">==</span><span class="n">each_condition_name</span><span class="p">],</span><span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span> 
+            <span class="p">)</span>
+        <span class="n">means</span> <span class="o">=</span> <span class="n">numpy</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">count_lists</span><span class="p">)</span><span class="o">.</span><span class="n">transpose</span><span class="p">()</span>
+    
+    <span class="k">return</span> <span class="n">means</span><span class="p">,</span> <span class="n">genes</span><span class="p">,</span> <span class="n">labels</span></div>
+</pre></div>
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2015, Michael A. DeJesus &amp; Thomas R. Ioerger.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(false);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
