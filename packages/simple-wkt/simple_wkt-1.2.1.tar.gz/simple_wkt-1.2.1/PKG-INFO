@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: simple_wkt
+Version: 1.2.1
+Summary: A package for basic interaction with WKT objects
+Author: 
+Author-email: 
+Requires-Dist: pydantic
+Requires-Dist: shapely
