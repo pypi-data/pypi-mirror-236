@@ -1,0 +1,16 @@
+{
+  "risk_rating": "info",
+  "short_description": "List of TLS API calls",
+  "references": {
+  },
+  "title": "Call to TLS API",
+  "privacy_issue": false,
+  "security_issue": true,
+  "categories": {
+    "PCI":[
+      "REQUIREMENT_3_6",
+      "REQUIREMENT_3_7",
+      "REQUIREMENT_4_2"
+    ]
+  }
+}
