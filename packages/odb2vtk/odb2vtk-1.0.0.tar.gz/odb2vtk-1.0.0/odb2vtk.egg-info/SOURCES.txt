@@ -1,0 +1,17 @@
+.gitignore
+.pre-commit-config.yaml
+LICENSE
+README.md
+pyproject.toml
+.github/workflows/publish.yml
+odb2vtk/__init__.py
+odb2vtk/__main__.py
+odb2vtk/_version.py
+odb2vtk/multiprocess.py
+odb2vtk/odb2vtk.py
+odb2vtk.egg-info/PKG-INFO
+odb2vtk.egg-info/SOURCES.txt
+odb2vtk.egg-info/dependency_links.txt
+odb2vtk.egg-info/entry_points.txt
+odb2vtk.egg-info/requires.txt
+odb2vtk.egg-info/top_level.txt
