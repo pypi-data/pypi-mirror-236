@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lossy-mpi
+Version: 0.1.1
+Summary: MPI Pool communicator that is toleration to rank failures
+Requires-Dist: pytest-mpi==0.6
+Provides-Extra: dev
+Requires-Dist: black==23.3.0; extra == 'dev'
+Requires-Dist: build==1.0.3; extra == 'dev'
+Requires-Dist: pytest-mpi==0.6; extra == 'dev'
+Requires-Dist: pytest==7.3.1; extra == 'dev'
+Requires-Dist: ruff==0.0.290; extra == 'dev'
+Requires-Dist: twine==4.0.2; extra == 'dev'
