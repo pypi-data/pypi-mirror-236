@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+qtML/__init__.py
+qtML/beans.py
+qtML.egg-info/PKG-INFO
+qtML.egg-info/SOURCES.txt
+qtML.egg-info/dependency_links.txt
+qtML.egg-info/top_level.txt
