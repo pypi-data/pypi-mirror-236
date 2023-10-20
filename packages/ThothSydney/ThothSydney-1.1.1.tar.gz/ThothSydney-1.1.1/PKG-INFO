@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ThothSydney
+Version: 1.1.1
+Summary: A fork of sydney-py which includes a better response format and the ability to change the system instructions prompt.
+Home-page: UNKNOWN
+Author: ThothAI
+Author-email: thoth@thothai.onrender.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+

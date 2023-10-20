@@ -1,0 +1,5 @@
+setup.py
+ThothSydney.egg-info/PKG-INFO
+ThothSydney.egg-info/SOURCES.txt
+ThothSydney.egg-info/dependency_links.txt
+ThothSydney.egg-info/top_level.txt
