@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+chatclicks/__init__.py
+chatclicks.egg-info/PKG-INFO
+chatclicks.egg-info/SOURCES.txt
+chatclicks.egg-info/dependency_links.txt
+chatclicks.egg-info/requires.txt
+chatclicks.egg-info/top_level.txt
