@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+version = "0.0.4"
+name = "rapid_api_twitter_utils"
+authors = [
+  { name="Mohamed Hassan", email="mdhn6832@gmail.com" },
+]
+readme = "README.md"
+description = "Useful functions for use with Twitter API from RapidAPI"
