@@ -1,0 +1,10 @@
+video_montage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+video_montage/utils.py,sha256=Fbq3I_vCcM35hR24_zWczBTMn8s2DTH4DYMpd8i3NNk,1638
+video_montage/video_grid_montage.py,sha256=aheYBsGFznZ7j6zcgX0eE0t0jPWBOYcJf5tZd4zhtS4,3046
+video_montage/video_sequence_montage.py,sha256=4BBPjMBkMLrXo6AuSoChebeTU-WZ0JA2Dw_z2EPkH2o,1601
+video_montage-0.0.2.dist-info/LICENSE,sha256=fjRdz0e6D74KAWACf62i5qocrMQUQxialtwG8VGGgRU,1066
+video_montage-0.0.2.dist-info/METADATA,sha256=KD9Gj17dVAuddaCrlWls3cCg5d6FDceMoZbWsl_rn6U,4018
+video_montage-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+video_montage-0.0.2.dist-info/entry_points.txt,sha256=1ETzw5UlUemirMnrpkA07NimZKv3nAOJQBBbc4KqubQ,145
+video_montage-0.0.2.dist-info/top_level.txt,sha256=VqE16MopGxhD1oYbTM2M1FqXP1EwYu0kLZAuYyCYoE4,14
+video_montage-0.0.2.dist-info/RECORD,,
