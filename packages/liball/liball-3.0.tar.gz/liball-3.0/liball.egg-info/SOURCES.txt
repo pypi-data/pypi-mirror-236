@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+liball.egg-info/PKG-INFO
+liball.egg-info/SOURCES.txt
+liball.egg-info/dependency_links.txt
+liball.egg-info/requires.txt
+liball.egg-info/top_level.txt
+sources/__init__.py
+sources/do_file.py
+sources/funcs.py
+sources/mySql.py
+sources/smtpMail.py
