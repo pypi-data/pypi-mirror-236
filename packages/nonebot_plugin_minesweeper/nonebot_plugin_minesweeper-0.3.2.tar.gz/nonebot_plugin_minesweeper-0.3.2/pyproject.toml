@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nonebot_plugin_minesweeper"
+version = "0.3.2"
+description = "Nonebot2 扫雷插件"
+authors = ["meetwq <meetwq@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/noneplugin/nonebot-plugin-minesweeper"
+repository = "https://github.com/noneplugin/nonebot-plugin-minesweeper"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = { version = "^2.0.1", extras = ["fastapi"] }
+nonebot-plugin-send-anything-anywhere = "^0.3.0"
+nonebot-plugin-session = "^0.2.0"
+Pillow = ">=9.0.0,<11.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
