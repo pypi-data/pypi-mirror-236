@@ -1,0 +1,15 @@
+dfm_sentence_trf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dfm_sentence_trf/__main__.py,sha256=9-PO9DVA2EDfZJ-qkafz4B78QNuVrAASzxaaBv8e1gs,80
+dfm_sentence_trf/config.py,sha256=sbTG-UyeK7lG2xrky2kW5VjlTXGsEZVvzN21PjqaVVs,176
+dfm_sentence_trf/hub.py,sha256=N-2mYUGUnw0_g8F-RqxwFFEl4CP1YA3I5nIvUKVhojY,2910
+dfm_sentence_trf/main.py,sha256=y7FyWPfQSqfXlCKa-H0RC7rJtHhrub_1hamds7EbLzI,3434
+dfm_sentence_trf/tasks/__init__.py,sha256=LacG5cNhSjmnfE25AwtIMNu8K4FnYSq2gVl6aG9Du_Q,1393
+dfm_sentence_trf/tasks/cosine_similarity.py,sha256=n2-9RsbaJxC1N55Dm5cM0rcG61FEfPw5mqhzpjCtDKs,1120
+dfm_sentence_trf/tasks/multiplenegativeranking.py,sha256=GbgjiEEEe0ZgUSWOXioqziOMnDM5K5oYsJkdswJzpGg,1159
+dfm_sentence_trf/tasks/softmax.py,sha256=6ZekcwWZduxxy7WDMy1lKFlPahfP8BRkd4Q0mLnb_9o,1713
+dfm_sentence_trf/tasks/task.py,sha256=SaknhQ3fcg8Lm0npLff1H1MbITe6oFVl_fK-PKxlxv0,1266
+dfm_sentence_trf/tasks/utils.py,sha256=INIF5vQ_ru8Gl8jGTDt9iq9-rpfM0zseSfmw7mJ1Yts,464
+dfm_sentence_transformers-0.1.0.dist-info/METADATA,sha256=--cx9WhUK6sk8tZMwojySWi9sUaci3k1lyU6PYGv7TY,2386
+dfm_sentence_transformers-0.1.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+dfm_sentence_transformers-0.1.0.dist-info/LICENSE,sha256=7PcztqmTAGXpzBRSdinEgaC-3s9032INZPjm3czQYXI,1095
+dfm_sentence_transformers-0.1.0.dist-info/RECORD,,
