@@ -1,0 +1,3 @@
+[console_scripts]
+zappy-sync=zappy.zappy:main
+
