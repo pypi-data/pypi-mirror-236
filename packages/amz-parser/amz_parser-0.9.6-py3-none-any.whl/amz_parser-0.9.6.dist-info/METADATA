@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: amz-parser
+Version: 0.9.6
+Summary: Extract useful data from Amazon pages.
+Author: lonely
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: dateparser (>=1.1.4)
+Requires-Dist: pyquery (>=1.4.3)
+
+UNKNOWN
+
