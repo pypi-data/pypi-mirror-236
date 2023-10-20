@@ -1,0 +1,11 @@
+wordx/__init__.py,sha256=L52zk4apzR_XF1uTzMKO7lcc3CopF1yKj_1JcHEBHwU,142
+wordx/mixins.py,sha256=mggIr-R3X9Hwk205G0bjaKrKFsX95HXJbU6KTT3RoeY,1864
+wordx/report.py,sha256=cpUjG8BRvO_ZRuIbKMbP4G6slLr2okr6v1NtchkKOkQ,1817
+wordx/sheet.py,sha256=oJGCdtb7_EHFZvPtTaUef6fHMupT9dVekKXUen6eqXM,1931
+wordx/word_file.py,sha256=XPXFfOOLqkVO-AolrGn_zJZBua28ZYmdICFDRbkdHvM,3669
+wordx/utils/fake_zip.py,sha256=7AYx5BJybROrTZpXFgMXynpT1Sz-1gNkycnOKaZ2HhI,1176
+wordx/utils/tree.py,sha256=Z74XIeVL5au6a72Sk0zvbGA9mc0ezXWgJnrfiIDa_Jw,587
+wordx-0.4.1.dist-info/METADATA,sha256=KYBj4Evgjq6UrvGcFVe4Ub5LPGii-eM4VAo1CuMeCuY,1124
+wordx-0.4.1.dist-info/WHEEL,sha256=KGYbc1zXlYddvwxnNty23BeaKzh7YuoSIvIMO4jEhvw,87
+wordx-0.4.1.dist-info/licenses/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+wordx-0.4.1.dist-info/RECORD,,
