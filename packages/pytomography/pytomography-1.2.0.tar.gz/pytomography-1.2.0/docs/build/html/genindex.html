@@ -1,0 +1,1831 @@
+
+<!DOCTYPE html>
+
+
+<html lang="en" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index &#8212; PyTomography 1.1.0 documentation</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=e353d410970836974a52" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=e353d410970836974a52" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=e353d410970836974a52" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=362ab14a" />
+    <link rel="stylesheet" type="text/css" href="_static/graphviz.css?v=eafc0fe6" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=e353d410970836974a52" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52" />
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js?v=52b0a0d4"></script>
+    <script src="_static/doctools.js?v=888ff710"></script>
+    <script src="_static/sphinx_highlight.js?v=4825356b"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'genindex';</script>
+    <link rel="index" title="Index" href="#" />
+    <link rel="search" title="Search" href="search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search the docs ..."
+         aria-label="Search the docs ..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+<div class="bd-header__inner bd-page-width">
+  <label class="sidebar-toggle primary-toggle" for="__primary">
+    <span class="fa-solid fa-bars"></span>
+  </label>
+  
+  <div class="navbar-header-items__start">
+    
+      <div class="navbar-item">
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="_static/PT1.png" class="logo__image only-light" alt="Logo image"/>
+    <script>document.write(`<img src="_static/PT1.png" class="logo__image only-dark" alt="Logo image"/>`);</script>
+  
+  
+</a></div>
+    
+  </div>
+  
+  
+  <div class="col-lg-9 navbar-header-items">
+    
+    <div class="me-auto navbar-header-items__center">
+      
+        <div class="navbar-item"><nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="usage.html">
+                        Tutorials
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="developers_guide.html">
+                        Developer’s Guide
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="external_data.html">
+                        External Data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="autoapi/index.html">
+                        API Reference
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+      
+    </div>
+    
+    
+    <div class="navbar-header-items__end">
+      
+        <div class="navbar-item navbar-persistent--container">
+          
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+        </div>
+      
+      
+        <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+      
+    </div>
+    
+  </div>
+  
+  
+    <div class="navbar-persistent--mobile">
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </button>
+`);
+</script>
+    </div>
+  
+
+  
+</div>
+
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+      <div class="sidebar-header-items__center">
+        
+          <div class="navbar-item"><nav class="navbar-nav">
+  <p class="sidebar-header-items__title"
+     role="heading"
+     aria-level="1"
+     aria-label="Site Navigation">
+    Site Navigation
+  </p>
+  <ul class="bd-navbar-elements navbar-nav">
+    
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="usage.html">
+                        Tutorials
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="developers_guide.html">
+                        Developer’s Guide
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="external_data.html">
+                        External Data
+                      </a>
+                    </li>
+                
+
+                    <li class="nav-item">
+                      <a class="nav-link nav-internal" href="autoapi/index.html">
+                        API Reference
+                      </a>
+                    </li>
+                
+  </ul>
+</nav></div>
+        
+      </div>
+    
+    
+    
+      <div class="sidebar-header-items__end">
+        
+          <div class="navbar-item">
+<script>
+document.write(`
+  <button class="theme-switch-button btn btn-sm btn-outline-primary navbar-btn rounded-circle" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch" data-mode="light"><i class="fa-solid fa-sun"></i></span>
+    <span class="theme-switch" data-mode="dark"><i class="fa-solid fa-moon"></i></span>
+    <span class="theme-switch" data-mode="auto"><i class="fa-solid fa-circle-half-stroke"></i></span>
+  </button>
+`);
+</script></div>
+        
+      </div>
+    
+  </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article"></div>
+              
+              
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+
+<h1 id="index">Index</h1>
+
+<div class="genindex-jumpbox">
+ <a href="#_"><strong>_</strong></a>
+ | <a href="#A"><strong>A</strong></a>
+ | <a href="#B"><strong>B</strong></a>
+ | <a href="#C"><strong>C</strong></a>
+ | <a href="#D"><strong>D</strong></a>
+ | <a href="#E"><strong>E</strong></a>
+ | <a href="#F"><strong>F</strong></a>
+ | <a href="#G"><strong>G</strong></a>
+ | <a href="#H"><strong>H</strong></a>
+ | <a href="#I"><strong>I</strong></a>
+ | <a href="#K"><strong>K</strong></a>
+ | <a href="#L"><strong>L</strong></a>
+ | <a href="#M"><strong>M</strong></a>
+ | <a href="#N"><strong>N</strong></a>
+ | <a href="#O"><strong>O</strong></a>
+ | <a href="#P"><strong>P</strong></a>
+ | <a href="#Q"><strong>Q</strong></a>
+ | <a href="#R"><strong>R</strong></a>
+ | <a href="#S"><strong>S</strong></a>
+ | <a href="#T"><strong>T</strong></a>
+ | <a href="#U"><strong>U</strong></a>
+ 
+</div>
+<h2 id="_">_</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.BSREM.__call__">__call__() (pytomography.algorithms.BSREM method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/fbp/index.html#pytomography.algorithms.fbp.FilteredBackProjection.__call__">(pytomography.algorithms.fbp.FilteredBackProjection method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.FilteredBackProjection.__call__">(pytomography.algorithms.FilteredBackProjection method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.KEM.__call__">(pytomography.algorithms.KEM method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.OSEMOSL.__call__">(pytomography.algorithms.OSEMOSL method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.BSREM.__call__">(pytomography.algorithms.statistical_iterative.BSREM method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.KEM.__call__">(pytomography.algorithms.statistical_iterative.KEM method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.OSEMOSL.__call__">(pytomography.algorithms.statistical_iterative.OSEMOSL method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.StatisticalIterative.__call__">(pytomography.algorithms.statistical_iterative.StatisticalIterative method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.StatisticalIterative.__call__">(pytomography.algorithms.StatisticalIterative method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.AnatomyNeighbourWeight.__call__">(pytomography.priors.AnatomyNeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.EuclideanNeighbourWeight.__call__">(pytomography.priors.EuclideanNeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.AnatomyNeighbourWeight.__call__">(pytomography.priors.nearest_neighbour.AnatomyNeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.EuclideanNeighbourWeight.__call__">(pytomography.priors.nearest_neighbour.EuclideanNeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.NeighbourWeight.__call__">(pytomography.priors.nearest_neighbour.NeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.TopNAnatomyNeighbourWeight.__call__">(pytomography.priors.nearest_neighbour.TopNAnatomyNeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.NeighbourWeight.__call__">(pytomography.priors.NeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.TopNAnatomyNeighbourWeight.__call__">(pytomography.priors.TopNAnatomyNeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/fourier_filters/index.html#pytomography.utils.fourier_filters.HammingFilter.__call__">(pytomography.utils.fourier_filters.HammingFilter method)</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/fourier_filters/index.html#pytomography.utils.fourier_filters.RampFilter.__call__">(pytomography.utils.fourier_filters.RampFilter method)</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.HammingFilter.__call__">(pytomography.utils.HammingFilter method)</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.RampFilter.__call__">(pytomography.utils.RampFilter method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/metadata/metadata/index.html#pytomography.metadata.metadata.ObjectMeta.__repr__">__repr__() (pytomography.metadata.metadata.ObjectMeta method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/metadata/index.html#pytomography.metadata.metadata.ProjMeta.__repr__">(pytomography.metadata.metadata.ProjMeta method)</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/index.html#pytomography.metadata.ObjectMeta.__repr__">(pytomography.metadata.ObjectMeta method)</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/index.html#pytomography.metadata.ProjMeta.__repr__">(pytomography.metadata.ProjMeta method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/index.html#pytomography.__version__">__version__ (in module pytomography)</a>
+</li>
+      <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.SPECTPSFTransform._apply_psf">_apply_psf() (pytomography.transforms.SPECT.psf.SPECTPSFTransform method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTPSFTransform._apply_psf">(pytomography.transforms.SPECT.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTPSFTransform._apply_psf">(pytomography.transforms.SPECTPSFTransform method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.SPECTPSFTransform._compute_kernel_size">_compute_kernel_size() (pytomography.transforms.SPECT.psf.SPECTPSFTransform method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTPSFTransform._compute_kernel_size">(pytomography.transforms.SPECT.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTPSFTransform._compute_kernel_size">(pytomography.transforms.SPECTPSFTransform method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom._get_affine_CT">_get_affine_CT() (in module pytomography.io.SPECT.dicom)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom._get_affine_spect_projections">_get_affine_spect_projections() (in module pytomography.io.SPECT.dicom)</a>
+</li>
+      <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.SPECTPSFTransform._get_sigma">_get_sigma() (pytomography.transforms.SPECT.psf.SPECTPSFTransform method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTPSFTransform._get_sigma">(pytomography.transforms.SPECT.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTPSFTransform._get_sigma">(pytomography.transforms.SPECTPSFTransform method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.BSREM._set_recon_name">_set_recon_name() (pytomography.algorithms.BSREM method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.OSEMOSL._set_recon_name">(pytomography.algorithms.OSEMOSL method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.BSREM._set_recon_name">(pytomography.algorithms.statistical_iterative.BSREM method)</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.OSEMOSL._set_recon_name">(pytomography.algorithms.statistical_iterative.OSEMOSL method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="A">A</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/io/shared/dicom_creation/index.html#pytomography.io.shared.dicom_creation.add_patient_information">add_patient_information() (in module pytomography.io.shared.dicom_creation)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/shared/dicom_creation/index.html#pytomography.io.shared.dicom_creation.add_required_elements_to_ds">add_required_elements_to_ds() (in module pytomography.io.shared.dicom_creation)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/io/shared/dicom_creation/index.html#pytomography.io.shared.dicom_creation.add_study_and_series_information">add_study_and_series_information() (in module pytomography.io.shared.dicom_creation)</a>
+</li>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.AnatomyNeighbourWeight">AnatomyNeighbourWeight (class in pytomography.priors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.AnatomyNeighbourWeight">(class in pytomography.priors.nearest_neighbour)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="B">B</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.KEMSystemMatrix.backward">backward() (pytomography.projectors.KEMSystemMatrix method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/shared/kem_system_matrix/index.html#pytomography.projectors.shared.kem_system_matrix.KEMSystemMatrix.backward">(pytomography.projectors.shared.kem_system_matrix.KEMSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/shared/index.html#pytomography.projectors.shared.KEMSystemMatrix.backward">(pytomography.projectors.shared.KEMSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/spect_system_matrix/index.html#pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrix.backward">(pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/spect_system_matrix/index.html#pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrixMaskedSegments.backward">(pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrixMaskedSegments method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/index.html#pytomography.projectors.SPECT.SPECTSystemMatrix.backward">(pytomography.projectors.SPECT.SPECTSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/index.html#pytomography.projectors.SPECT.SPECTSystemMatrixMaskedSegments.backward">(pytomography.projectors.SPECT.SPECTSystemMatrixMaskedSegments method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SPECTSystemMatrix.backward">(pytomography.projectors.SPECTSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SPECTSystemMatrixMaskedSegments.backward">(pytomography.projectors.SPECTSystemMatrixMaskedSegments method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/system_matrix/index.html#pytomography.projectors.system_matrix.SystemMatrix.backward">(pytomography.projectors.system_matrix.SystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SystemMatrix.backward">(pytomography.projectors.SystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.CutOffTransform.backward">(pytomography.transforms.CutOffTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.KEMTransform.backward">(pytomography.transforms.KEMTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/attenuation/index.html#pytomography.transforms.PET.attenuation.PETAttenuationTransform.backward">(pytomography.transforms.PET.attenuation.PETAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#pytomography.transforms.PET.PETAttenuationTransform.backward">(pytomography.transforms.PET.PETAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#pytomography.transforms.PET.PETPSFTransform.backward">(pytomography.transforms.PET.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#pytomography.transforms.PET.psf.PETPSFTransform.backward">(pytomography.transforms.PET.psf.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.PETAttenuationTransform.backward">(pytomography.transforms.PETAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.PETPSFTransform.backward">(pytomography.transforms.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/shared/kem/index.html#pytomography.transforms.shared.kem.KEMTransform.backward">(pytomography.transforms.shared.kem.KEMTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/shared/index.html#pytomography.transforms.shared.KEMTransform.backward">(pytomography.transforms.shared.KEMTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/attenuation/index.html#pytomography.transforms.SPECT.attenuation.SPECTAttenuationTransform.backward">(pytomography.transforms.SPECT.attenuation.SPECTAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/cutoff/index.html#pytomography.transforms.SPECT.cutoff.CutOffTransform.backward">(pytomography.transforms.SPECT.cutoff.CutOffTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.CutOffTransform.backward">(pytomography.transforms.SPECT.CutOffTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.SPECTPSFTransform.backward">(pytomography.transforms.SPECT.psf.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTAttenuationTransform.backward">(pytomography.transforms.SPECT.SPECTAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTPSFTransform.backward">(pytomography.transforms.SPECT.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTAttenuationTransform.backward">(pytomography.transforms.SPECTAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTPSFTransform.backward">(pytomography.transforms.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.Transform.backward">(pytomography.transforms.Transform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/transform/index.html#pytomography.transforms.transform.Transform.backward">(pytomography.transforms.transform.Transform method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.bilinear_transform">bilinear_transform() (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+      <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.BSREM">BSREM (class in pytomography.algorithms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.BSREM">(class in pytomography.algorithms.statistical_iterative)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="C">C</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/callbacks/index.html#pytomography.callbacks.Callback">Callback (class in pytomography.callbacks)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/callbacks/callback/index.html#pytomography.callbacks.callback.Callback">(class in pytomography.callbacks.callback)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#pytomography.io.SPECT.simind.combine_projection_data">combine_projection_data() (in module pytomography.io.SPECT.simind)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#pytomography.io.SPECT.simind.combine_scatter_data_TEW">combine_scatter_data_TEW() (in module pytomography.io.SPECT.simind)</a>
+</li>
+      <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.NearestNeighbourPrior.compute_gradient">compute_gradient() (pytomography.priors.nearest_neighbour.NearestNeighbourPrior method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.NearestNeighbourPrior.compute_gradient">(pytomography.priors.NearestNeighbourPrior method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.Prior.compute_gradient">(pytomography.priors.Prior method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/prior/index.html#pytomography.priors.prior.Prior.compute_gradient">(pytomography.priors.prior.Prior method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.TopNAnatomyNeighbourWeight.compute_inclusion_tensor">compute_inclusion_tensor() (pytomography.priors.nearest_neighbour.TopNAnatomyNeighbourWeight method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.TopNAnatomyNeighbourWeight.compute_inclusion_tensor">(pytomography.priors.TopNAnatomyNeighbourWeight method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/CT/index.html#pytomography.io.CT.compute_max_slice_loc_CT">compute_max_slice_loc_CT() (in module pytomography.io.CT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/CT/dicom/index.html#pytomography.io.CT.dicom.compute_max_slice_loc_CT">(in module pytomography.io.CT.dicom)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.compute_pad_size">compute_pad_size() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#pytomography.utils.spatial.compute_pad_size">(in module pytomography.utils.spatial)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/spatial/index.html#pytomography.utils.spatial.compute_pad_size_padded">compute_pad_size_padded() (in module pytomography.utils.spatial)</a>
+</li>
+      <li><a href="autoapi/pytomography/metadata/SPECT/spect_metadata/index.html#pytomography.metadata.SPECT.spect_metadata.SPECTObjectMeta.compute_padded_shape">compute_padded_shape() (pytomography.metadata.SPECT.spect_metadata.SPECTObjectMeta method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/SPECT/spect_metadata/index.html#pytomography.metadata.SPECT.spect_metadata.SPECTProjMeta.compute_padded_shape">(pytomography.metadata.SPECT.spect_metadata.SPECTProjMeta method)</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/SPECT/index.html#pytomography.metadata.SPECT.SPECTObjectMeta.compute_padded_shape">(pytomography.metadata.SPECT.SPECTObjectMeta method)</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/SPECT/index.html#pytomography.metadata.SPECT.SPECTProjMeta.compute_padded_shape">(pytomography.metadata.SPECT.SPECTProjMeta method)</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/index.html#pytomography.metadata.SPECTObjectMeta.compute_padded_shape">(pytomography.metadata.SPECTObjectMeta method)</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/index.html#pytomography.metadata.SPECTProjMeta.compute_padded_shape">(pytomography.metadata.SPECTProjMeta method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.NearestNeighbourPrior.compute_prior">compute_prior() (pytomography.priors.nearest_neighbour.NearestNeighbourPrior method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.NearestNeighbourPrior.compute_prior">(pytomography.priors.NearestNeighbourPrior method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.compute_TEW">compute_TEW() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/scatter/index.html#pytomography.utils.scatter.compute_TEW">(in module pytomography.utils.scatter)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/transforms/PET/attenuation/index.html#pytomography.transforms.PET.attenuation.PETAttenuationTransform.configure">configure() (pytomography.transforms.PET.attenuation.PETAttenuationTransform method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#pytomography.transforms.PET.PETAttenuationTransform.configure">(pytomography.transforms.PET.PETAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#pytomography.transforms.PET.PETPSFTransform.configure">(pytomography.transforms.PET.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#pytomography.transforms.PET.psf.PETPSFTransform.configure">(pytomography.transforms.PET.psf.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.PETAttenuationTransform.configure">(pytomography.transforms.PETAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.PETPSFTransform.configure">(pytomography.transforms.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/attenuation/index.html#pytomography.transforms.SPECT.attenuation.SPECTAttenuationTransform.configure">(pytomography.transforms.SPECT.attenuation.SPECTAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.SPECTPSFTransform.configure">(pytomography.transforms.SPECT.psf.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTAttenuationTransform.configure">(pytomography.transforms.SPECT.SPECTAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTPSFTransform.configure">(pytomography.transforms.SPECT.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTAttenuationTransform.configure">(pytomography.transforms.SPECTAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTPSFTransform.configure">(pytomography.transforms.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.Transform.configure">(pytomography.transforms.Transform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/transform/index.html#pytomography.transforms.transform.Transform.configure">(pytomography.transforms.transform.Transform method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/transforms/PET/index.html#pytomography.transforms.PET.PETPSFTransform.construct_matrix">construct_matrix() (pytomography.transforms.PET.PETPSFTransform method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#pytomography.transforms.PET.psf.PETPSFTransform.construct_matrix">(pytomography.transforms.PET.psf.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.PETPSFTransform.construct_matrix">(pytomography.transforms.PETPSFTransform method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/shared/index.html#pytomography.io.shared.create_ds">create_ds() (in module pytomography.io.shared)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/shared/dicom_creation/index.html#pytomography.io.shared.dicom_creation.create_ds">(in module pytomography.io.shared.dicom_creation)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/index.html#pytomography.io.SPECT.CT_to_mumap">CT_to_mumap() (in module pytomography.io.SPECT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.CT_to_mumap">(in module pytomography.io.SPECT.dicom)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.CutOffTransform">CutOffTransform (class in pytomography.transforms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.CutOffTransform">(class in pytomography.transforms.SPECT)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/cutoff/index.html#pytomography.transforms.SPECT.cutoff.CutOffTransform">(class in pytomography.transforms.SPECT.cutoff)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="D">D</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.DATADIR">DATADIR (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+      <li><a href="autoapi/pytomography/index.html#pytomography.delta">delta (in module pytomography)</a>
+</li>
+      <li><a href="autoapi/pytomography/index.html#pytomography.device">device (in module pytomography)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/index.html#pytomography.dtype">dtype (in module pytomography)</a>
+</li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.dual_sqrt_exponential">dual_sqrt_exponential() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/nist_data/index.html#pytomography.utils.nist_data.dual_sqrt_exponential">(in module pytomography.utils.nist_data)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="E">E</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.EuclideanNeighbourWeight">EuclideanNeighbourWeight (class in pytomography.priors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.EuclideanNeighbourWeight">(class in pytomography.priors.nearest_neighbour)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="F">F</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.FILE_AIR">FILE_AIR (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.FILE_CBONE">FILE_CBONE (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.FILE_WATER">FILE_WATER (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+      <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.FilteredBackProjection">FilteredBackProjection (class in pytomography.algorithms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/fbp/index.html#pytomography.algorithms.fbp.FilteredBackProjection">(class in pytomography.algorithms.fbp)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#pytomography.io.SPECT.simind.find_first_entry_containing_header">find_first_entry_containing_header() (in module pytomography.io.SPECT.simind)</a>
+</li>
+      <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.KEMSystemMatrix.forward">forward() (pytomography.projectors.KEMSystemMatrix method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/shared/kem_system_matrix/index.html#pytomography.projectors.shared.kem_system_matrix.KEMSystemMatrix.forward">(pytomography.projectors.shared.kem_system_matrix.KEMSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/shared/index.html#pytomography.projectors.shared.KEMSystemMatrix.forward">(pytomography.projectors.shared.KEMSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/spect_system_matrix/index.html#pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrix.forward">(pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/spect_system_matrix/index.html#pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrixMaskedSegments.forward">(pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrixMaskedSegments method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/index.html#pytomography.projectors.SPECT.SPECTSystemMatrix.forward">(pytomography.projectors.SPECT.SPECTSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/index.html#pytomography.projectors.SPECT.SPECTSystemMatrixMaskedSegments.forward">(pytomography.projectors.SPECT.SPECTSystemMatrixMaskedSegments method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SPECTSystemMatrix.forward">(pytomography.projectors.SPECTSystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SPECTSystemMatrixMaskedSegments.forward">(pytomography.projectors.SPECTSystemMatrixMaskedSegments method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/system_matrix/index.html#pytomography.projectors.system_matrix.SystemMatrix.forward">(pytomography.projectors.system_matrix.SystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SystemMatrix.forward">(pytomography.projectors.SystemMatrix method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.CutOffTransform.forward">(pytomography.transforms.CutOffTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.KEMTransform.forward">(pytomography.transforms.KEMTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/attenuation/index.html#pytomography.transforms.PET.attenuation.PETAttenuationTransform.forward">(pytomography.transforms.PET.attenuation.PETAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#pytomography.transforms.PET.PETAttenuationTransform.forward">(pytomography.transforms.PET.PETAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#pytomography.transforms.PET.PETPSFTransform.forward">(pytomography.transforms.PET.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#pytomography.transforms.PET.psf.PETPSFTransform.forward">(pytomography.transforms.PET.psf.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.PETAttenuationTransform.forward">(pytomography.transforms.PETAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.PETPSFTransform.forward">(pytomography.transforms.PETPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/shared/kem/index.html#pytomography.transforms.shared.kem.KEMTransform.forward">(pytomography.transforms.shared.kem.KEMTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/shared/index.html#pytomography.transforms.shared.KEMTransform.forward">(pytomography.transforms.shared.KEMTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/attenuation/index.html#pytomography.transforms.SPECT.attenuation.SPECTAttenuationTransform.forward">(pytomography.transforms.SPECT.attenuation.SPECTAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/cutoff/index.html#pytomography.transforms.SPECT.cutoff.CutOffTransform.forward">(pytomography.transforms.SPECT.cutoff.CutOffTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.CutOffTransform.forward">(pytomography.transforms.SPECT.CutOffTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.GaussianBlurNet.forward">(pytomography.transforms.SPECT.psf.GaussianBlurNet method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.SPECTPSFTransform.forward">(pytomography.transforms.SPECT.psf.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTAttenuationTransform.forward">(pytomography.transforms.SPECT.SPECTAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTPSFTransform.forward">(pytomography.transforms.SPECT.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTAttenuationTransform.forward">(pytomography.transforms.SPECTAttenuationTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTPSFTransform.forward">(pytomography.transforms.SPECTPSFTransform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.Transform.forward">(pytomography.transforms.Transform method)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/transform/index.html#pytomography.transforms.transform.Transform.forward">(pytomography.transforms.transform.Transform method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="G">G</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.GaussianBlurNet">GaussianBlurNet (class in pytomography.transforms.SPECT.psf)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/shared/dicom_creation/index.html#pytomography.io.shared.dicom_creation.generate_base_dataset">generate_base_dataset() (in module pytomography.io.shared.dicom_creation)</a>
+</li>
+      <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.get_1D_PSF_layer">get_1D_PSF_layer() (in module pytomography.transforms.SPECT.psf)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/SPECT/index.html#pytomography.io.SPECT.get_attenuation_map">get_attenuation_map() (in module pytomography.io.SPECT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#pytomography.io.SPECT.simind.get_attenuation_map">(in module pytomography.io.SPECT.simind)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/index.html#pytomography.io.SPECT.get_attenuation_map_from_CT_slices">get_attenuation_map_from_CT_slices() (in module pytomography.io.SPECT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.get_attenuation_map_from_CT_slices">(in module pytomography.io.SPECT.dicom)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/index.html#pytomography.io.SPECT.get_attenuation_map_from_file">get_attenuation_map_from_file() (in module pytomography.io.SPECT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.get_attenuation_map_from_file">(in module pytomography.io.SPECT.dicom)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.get_blank_below_above">get_blank_below_above() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/misc/index.html#pytomography.utils.misc.get_blank_below_above">(in module pytomography.utils.misc)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.get_distance">get_distance() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/misc/index.html#pytomography.utils.misc.get_distance">(in module pytomography.utils.misc)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.get_E_mu_data_from_datasheet">get_E_mu_data_from_datasheet() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/nist_data/index.html#pytomography.utils.nist_data.get_E_mu_data_from_datasheet">(in module pytomography.utils.nist_data)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.get_ECT_from_corticalbone_HU">get_ECT_from_corticalbone_HU() (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/shared/dicom_creation/index.html#pytomography.io.shared.dicom_creation.get_file_meta">get_file_meta() (in module pytomography.io.shared.dicom_creation)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/CT/index.html#pytomography.io.CT.get_HU2mu_conversion">get_HU2mu_conversion() (in module pytomography.io.CT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.get_HU2mu_conversion">(in module pytomography.io.CT.attenuation_map)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.get_HU_corticalbone">get_HU_corticalbone() (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.get_HU_from_spectrum_interp">get_HU_from_spectrum_interp() (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.get_HU_mu_curve">get_HU_mu_curve() (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.get_metadata">get_metadata() (in module pytomography.io.SPECT.dicom)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#pytomography.io.SPECT.simind.get_metadata">(in module pytomography.io.SPECT.simind)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.get_mu_from_spectrum_interp">get_mu_from_spectrum_interp() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/nist_data/index.html#pytomography.utils.nist_data.get_mu_from_spectrum_interp">(in module pytomography.utils.nist_data)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.get_object_nearest_neighbour">get_object_nearest_neighbour() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/misc/index.html#pytomography.utils.misc.get_object_nearest_neighbour">(in module pytomography.utils.misc)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/transforms/PET/attenuation/index.html#pytomography.transforms.PET.attenuation.get_prob_of_detection_matrix">get_prob_of_detection_matrix() (in module pytomography.transforms.PET.attenuation)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/attenuation/index.html#pytomography.transforms.SPECT.attenuation.get_prob_of_detection_matrix">(in module pytomography.transforms.SPECT.attenuation)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/index.html#pytomography.io.SPECT.get_projections">get_projections() (in module pytomography.io.SPECT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.get_projections">(in module pytomography.io.SPECT.dicom)</a>
+</li>
+        <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#pytomography.io.SPECT.simind.get_projections">(in module pytomography.io.SPECT.simind)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#pytomography.io.SPECT.simind.get_psfmeta_from_header">get_psfmeta_from_header() (in module pytomography.io.SPECT.simind)</a>
+</li>
+      <li><a href="autoapi/pytomography/io/SPECT/index.html#pytomography.io.SPECT.get_psfmeta_from_scanner_params">get_psfmeta_from_scanner_params() (in module pytomography.io.SPECT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.get_psfmeta_from_scanner_params">(in module pytomography.io.SPECT.dicom)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/index.html#pytomography.io.SPECT.get_scatter_from_TEW">get_scatter_from_TEW() (in module pytomography.io.SPECT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.get_scatter_from_TEW">(in module pytomography.io.SPECT.dicom)</a>
+</li>
+        <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#pytomography.io.SPECT.simind.get_scatter_from_TEW">(in module pytomography.io.SPECT.simind)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.StatisticalIterative.get_subset_splits">get_subset_splits() (pytomography.algorithms.statistical_iterative.StatisticalIterative method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.StatisticalIterative.get_subset_splits">(pytomography.algorithms.StatisticalIterative method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.get_window_width">get_window_width() (in module pytomography.io.SPECT.dicom)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="H">H</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.HammingFilter">HammingFilter (class in pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/fourier_filters/index.html#pytomography.utils.fourier_filters.HammingFilter">(class in pytomography.utils.fourier_filters)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.HU_to_mu">HU_to_mu() (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="I">I</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/projectors/system_matrix/index.html#pytomography.projectors.system_matrix.SystemMatrix.initialize_transforms">initialize_transforms() (pytomography.projectors.system_matrix.SystemMatrix method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SystemMatrix.initialize_transforms">(pytomography.projectors.SystemMatrix method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="K">K</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.KEM">KEM (class in pytomography.algorithms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.KEM">(class in pytomography.algorithms.statistical_iterative)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.KEMSystemMatrix">KEMSystemMatrix (class in pytomography.projectors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/shared/index.html#pytomography.projectors.shared.KEMSystemMatrix">(class in pytomography.projectors.shared)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/shared/kem_system_matrix/index.html#pytomography.projectors.shared.kem_system_matrix.KEMSystemMatrix">(class in pytomography.projectors.shared.kem_system_matrix)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.KEMTransform">KEMTransform (class in pytomography.transforms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/shared/index.html#pytomography.transforms.shared.KEMTransform">(class in pytomography.transforms.shared)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/shared/kem/index.html#pytomography.transforms.shared.kem.KEMTransform">(class in pytomography.transforms.shared.kem)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#pytomography.transforms.PET.psf.kernel_noncol">kernel_noncol() (in module pytomography.transforms.PET.psf)</a>
+</li>
+      <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#pytomography.transforms.PET.psf.kernel_penetration">kernel_penetration() (in module pytomography.transforms.PET.psf)</a>
+</li>
+      <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#pytomography.transforms.PET.psf.kernel_scattering">kernel_scattering() (in module pytomography.transforms.PET.psf)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="L">L</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.LogCoshPrior">LogCoshPrior (class in pytomography.priors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.LogCoshPrior">(class in pytomography.priors.nearest_neighbour)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/callbacks/index.html#pytomography.callbacks.LogLiklihoodCallback">LogLiklihoodCallback (class in pytomography.callbacks)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/callbacks/liklihood/index.html#pytomography.callbacks.liklihood.LogLiklihoodCallback">(class in pytomography.callbacks.liklihood)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="M">M</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    module
+
+      <ul>
+        <li><a href="autoapi/pytomography/index.html#module-pytomography">pytomography</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/index.html#module-pytomography.algorithms">pytomography.algorithms</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/fbp/index.html#module-pytomography.algorithms.fbp">pytomography.algorithms.fbp</a>
+</li>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#module-pytomography.algorithms.statistical_iterative">pytomography.algorithms.statistical_iterative</a>
+</li>
+        <li><a href="autoapi/pytomography/callbacks/index.html#module-pytomography.callbacks">pytomography.callbacks</a>
+</li>
+        <li><a href="autoapi/pytomography/callbacks/callback/index.html#module-pytomography.callbacks.callback">pytomography.callbacks.callback</a>
+</li>
+        <li><a href="autoapi/pytomography/callbacks/liklihood/index.html#module-pytomography.callbacks.liklihood">pytomography.callbacks.liklihood</a>
+</li>
+        <li><a href="autoapi/pytomography/io/index.html#module-pytomography.io">pytomography.io</a>
+</li>
+        <li><a href="autoapi/pytomography/io/CT/index.html#module-pytomography.io.CT">pytomography.io.CT</a>
+</li>
+        <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#module-pytomography.io.CT.attenuation_map">pytomography.io.CT.attenuation_map</a>
+</li>
+        <li><a href="autoapi/pytomography/io/CT/dicom/index.html#module-pytomography.io.CT.dicom">pytomography.io.CT.dicom</a>
+</li>
+        <li><a href="autoapi/pytomography/io/shared/index.html#module-pytomography.io.shared">pytomography.io.shared</a>
+</li>
+        <li><a href="autoapi/pytomography/io/shared/dicom_creation/index.html#module-pytomography.io.shared.dicom_creation">pytomography.io.shared.dicom_creation</a>
+</li>
+        <li><a href="autoapi/pytomography/io/SPECT/index.html#module-pytomography.io.SPECT">pytomography.io.SPECT</a>
+</li>
+        <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#module-pytomography.io.SPECT.dicom">pytomography.io.SPECT.dicom</a>
+</li>
+        <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#module-pytomography.io.SPECT.simind">pytomography.io.SPECT.simind</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/index.html#module-pytomography.metadata">pytomography.metadata</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/metadata/index.html#module-pytomography.metadata.metadata">pytomography.metadata.metadata</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/SPECT/index.html#module-pytomography.metadata.SPECT">pytomography.metadata.SPECT</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/SPECT/spect_metadata/index.html#module-pytomography.metadata.SPECT.spect_metadata">pytomography.metadata.SPECT.spect_metadata</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#module-pytomography.priors">pytomography.priors</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#module-pytomography.priors.nearest_neighbour">pytomography.priors.nearest_neighbour</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/prior/index.html#module-pytomography.priors.prior">pytomography.priors.prior</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/index.html#module-pytomography.projectors">pytomography.projectors</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/shared/index.html#module-pytomography.projectors.shared">pytomography.projectors.shared</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/shared/kem_system_matrix/index.html#module-pytomography.projectors.shared.kem_system_matrix">pytomography.projectors.shared.kem_system_matrix</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/index.html#module-pytomography.projectors.SPECT">pytomography.projectors.SPECT</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/spect_system_matrix/index.html#module-pytomography.projectors.SPECT.spect_system_matrix">pytomography.projectors.SPECT.spect_system_matrix</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/system_matrix/index.html#module-pytomography.projectors.system_matrix">pytomography.projectors.system_matrix</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/index.html#module-pytomography.transforms">pytomography.transforms</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#module-pytomography.transforms.PET">pytomography.transforms.PET</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/attenuation/index.html#module-pytomography.transforms.PET.attenuation">pytomography.transforms.PET.attenuation</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#module-pytomography.transforms.PET.psf">pytomography.transforms.PET.psf</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/shared/index.html#module-pytomography.transforms.shared">pytomography.transforms.shared</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/shared/kem/index.html#module-pytomography.transforms.shared.kem">pytomography.transforms.shared.kem</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#module-pytomography.transforms.SPECT">pytomography.transforms.SPECT</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/attenuation/index.html#module-pytomography.transforms.SPECT.attenuation">pytomography.transforms.SPECT.attenuation</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/cutoff/index.html#module-pytomography.transforms.SPECT.cutoff">pytomography.transforms.SPECT.cutoff</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#module-pytomography.transforms.SPECT.psf">pytomography.transforms.SPECT.psf</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/transform/index.html#module-pytomography.transforms.transform">pytomography.transforms.transform</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/index.html#module-pytomography.utils">pytomography.utils</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/fourier_filters/index.html#module-pytomography.utils.fourier_filters">pytomography.utils.fourier_filters</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/misc/index.html#module-pytomography.utils.misc">pytomography.utils.misc</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/nist_data/index.html#module-pytomography.utils.nist_data">pytomography.utils.nist_data</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/scatter/index.html#module-pytomography.utils.scatter">pytomography.utils.scatter</a>
+</li>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#module-pytomography.utils.spatial">pytomography.utils.spatial</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#pytomography.io.CT.attenuation_map.module_path">module_path (in module pytomography.io.CT.attenuation_map)</a>
+</li>
+  </ul></td>
+</tr></table>
+
+<h2 id="N">N</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.NearestNeighbourPrior">NearestNeighbourPrior (class in pytomography.priors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.NearestNeighbourPrior">(class in pytomography.priors.nearest_neighbour)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.NeighbourWeight">NeighbourWeight (class in pytomography.priors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.NeighbourWeight">(class in pytomography.priors.nearest_neighbour)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="O">O</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/metadata/index.html#pytomography.metadata.ObjectMeta">ObjectMeta (class in pytomography.metadata)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/metadata/index.html#pytomography.metadata.metadata.ObjectMeta">(class in pytomography.metadata.metadata)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/CT/index.html#pytomography.io.CT.open_CT_file">open_CT_file() (in module pytomography.io.CT)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/CT/dicom/index.html#pytomography.io.CT.dicom.open_CT_file">(in module pytomography.io.CT.dicom)</a>
+</li>
+        <li><a href="autoapi/pytomography/io/SPECT/index.html#pytomography.io.SPECT.open_CT_file">(in module pytomography.io.SPECT)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.OSEM">OSEM (class in pytomography.algorithms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.OSEM">(class in pytomography.algorithms.statistical_iterative)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.OSEMOSL">OSEMOSL (class in pytomography.algorithms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.OSEMOSL">(class in pytomography.algorithms.statistical_iterative)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="P">P</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.pad_object">pad_object() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#pytomography.utils.spatial.pad_object">(in module pytomography.utils.spatial)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.pad_object_z">pad_object_z() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#pytomography.utils.spatial.pad_object_z">(in module pytomography.utils.spatial)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.pad_proj">pad_proj() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#pytomography.utils.spatial.pad_proj">(in module pytomography.utils.spatial)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.parse_projection_dataset">parse_projection_dataset() (in module pytomography.io.SPECT.dicom)</a>
+</li>
+      <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.PETAttenuationTransform">PETAttenuationTransform (class in pytomography.transforms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#pytomography.transforms.PET.PETAttenuationTransform">(class in pytomography.transforms.PET)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/attenuation/index.html#pytomography.transforms.PET.attenuation.PETAttenuationTransform">(class in pytomography.transforms.PET.attenuation)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.PETPSFTransform">PETPSFTransform (class in pytomography.transforms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#pytomography.transforms.PET.PETPSFTransform">(class in pytomography.transforms.PET)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#pytomography.transforms.PET.psf.PETPSFTransform">(class in pytomography.transforms.PET.psf)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.print_collimator_parameters">print_collimator_parameters() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/misc/index.html#pytomography.utils.misc.print_collimator_parameters">(in module pytomography.utils.misc)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.Prior">Prior (class in pytomography.priors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/prior/index.html#pytomography.priors.prior.Prior">(class in pytomography.priors.prior)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/metadata/index.html#pytomography.metadata.ProjMeta">ProjMeta (class in pytomography.metadata)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/metadata/index.html#pytomography.metadata.metadata.ProjMeta">(class in pytomography.metadata.metadata)</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography
+
+      <ul>
+        <li><a href="autoapi/pytomography/index.html#module-pytomography">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.algorithms
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/index.html#module-pytomography.algorithms">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.algorithms.fbp
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/fbp/index.html#module-pytomography.algorithms.fbp">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.algorithms.statistical_iterative
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#module-pytomography.algorithms.statistical_iterative">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.callbacks
+
+      <ul>
+        <li><a href="autoapi/pytomography/callbacks/index.html#module-pytomography.callbacks">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.callbacks.callback
+
+      <ul>
+        <li><a href="autoapi/pytomography/callbacks/callback/index.html#module-pytomography.callbacks.callback">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.callbacks.liklihood
+
+      <ul>
+        <li><a href="autoapi/pytomography/callbacks/liklihood/index.html#module-pytomography.callbacks.liklihood">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.io
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/index.html#module-pytomography.io">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.io.CT
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/CT/index.html#module-pytomography.io.CT">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.io.CT.attenuation_map
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/CT/attenuation_map/index.html#module-pytomography.io.CT.attenuation_map">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.io.CT.dicom
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/CT/dicom/index.html#module-pytomography.io.CT.dicom">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.io.shared
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/shared/index.html#module-pytomography.io.shared">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.io.shared.dicom_creation
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/shared/dicom_creation/index.html#module-pytomography.io.shared.dicom_creation">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.io.SPECT
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/index.html#module-pytomography.io.SPECT">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.io.SPECT.dicom
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#module-pytomography.io.SPECT.dicom">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.io.SPECT.simind
+
+      <ul>
+        <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#module-pytomography.io.SPECT.simind">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.metadata
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/index.html#module-pytomography.metadata">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.metadata.metadata
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/metadata/index.html#module-pytomography.metadata.metadata">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li>
+    pytomography.metadata.SPECT
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/SPECT/index.html#module-pytomography.metadata.SPECT">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.metadata.SPECT.spect_metadata
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/SPECT/spect_metadata/index.html#module-pytomography.metadata.SPECT.spect_metadata">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.priors
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/index.html#module-pytomography.priors">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.priors.nearest_neighbour
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#module-pytomography.priors.nearest_neighbour">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.priors.prior
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/prior/index.html#module-pytomography.priors.prior">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.projectors
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/index.html#module-pytomography.projectors">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.projectors.shared
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/shared/index.html#module-pytomography.projectors.shared">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.projectors.shared.kem_system_matrix
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/shared/kem_system_matrix/index.html#module-pytomography.projectors.shared.kem_system_matrix">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.projectors.SPECT
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/SPECT/index.html#module-pytomography.projectors.SPECT">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.projectors.SPECT.spect_system_matrix
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/SPECT/spect_system_matrix/index.html#module-pytomography.projectors.SPECT.spect_system_matrix">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.projectors.system_matrix
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/system_matrix/index.html#module-pytomography.projectors.system_matrix">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/index.html#module-pytomography.transforms">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.PET
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/PET/index.html#module-pytomography.transforms.PET">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.PET.attenuation
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/PET/attenuation/index.html#module-pytomography.transforms.PET.attenuation">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.PET.psf
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/PET/psf/index.html#module-pytomography.transforms.PET.psf">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.shared
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/shared/index.html#module-pytomography.transforms.shared">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.shared.kem
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/shared/kem/index.html#module-pytomography.transforms.shared.kem">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.SPECT
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#module-pytomography.transforms.SPECT">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.SPECT.attenuation
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/attenuation/index.html#module-pytomography.transforms.SPECT.attenuation">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.SPECT.cutoff
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/cutoff/index.html#module-pytomography.transforms.SPECT.cutoff">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.SPECT.psf
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#module-pytomography.transforms.SPECT.psf">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.transforms.transform
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/transform/index.html#module-pytomography.transforms.transform">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.utils
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/index.html#module-pytomography.utils">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.utils.fourier_filters
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/fourier_filters/index.html#module-pytomography.utils.fourier_filters">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.utils.misc
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/misc/index.html#module-pytomography.utils.misc">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.utils.nist_data
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/nist_data/index.html#module-pytomography.utils.nist_data">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.utils.scatter
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/scatter/index.html#module-pytomography.utils.scatter">module</a>
+</li>
+      </ul></li>
+      <li>
+    pytomography.utils.spatial
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#module-pytomography.utils.spatial">module</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="Q">Q</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.QuadraticPrior">QuadraticPrior (class in pytomography.priors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.QuadraticPrior">(class in pytomography.priors.nearest_neighbour)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="R">R</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.RampFilter">RampFilter (class in pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/fourier_filters/index.html#pytomography.utils.fourier_filters.RampFilter">(class in pytomography.utils.fourier_filters)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/simind/index.html#pytomography.io.SPECT.simind.relation_dict">relation_dict (in module pytomography.io.SPECT.simind)</a>
+</li>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.RelativeDifferencePrior">RelativeDifferencePrior (class in pytomography.priors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.RelativeDifferencePrior">(class in pytomography.priors.nearest_neighbour)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.rev_cumsum">rev_cumsum() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/misc/index.html#pytomography.utils.misc.rev_cumsum">(in module pytomography.utils.misc)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.rotate_detector_z">rotate_detector_z() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#pytomography.utils.spatial.rotate_detector_z">(in module pytomography.utils.spatial)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/callbacks/index.html#pytomography.callbacks.Callback.run">run() (pytomography.callbacks.Callback method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/callbacks/callback/index.html#pytomography.callbacks.callback.Callback.run">(pytomography.callbacks.callback.Callback method)</a>
+</li>
+        <li><a href="autoapi/pytomography/callbacks/liklihood/index.html#pytomography.callbacks.liklihood.LogLiklihoodCallback.run">(pytomography.callbacks.liklihood.LogLiklihoodCallback method)</a>
+</li>
+        <li><a href="autoapi/pytomography/callbacks/index.html#pytomography.callbacks.LogLiklihoodCallback.run">(pytomography.callbacks.LogLiklihoodCallback method)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="S">S</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.save_dcm">save_dcm() (in module pytomography.io.SPECT.dicom)</a>
+</li>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.Prior.set_beta_scale">set_beta_scale() (pytomography.priors.Prior method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/prior/index.html#pytomography.priors.prior.Prior.set_beta_scale">(pytomography.priors.prior.Prior method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/index.html#pytomography.set_device">set_device() (in module pytomography)</a>
+</li>
+      <li><a href="autoapi/pytomography/index.html#pytomography.set_dtype">set_dtype() (in module pytomography)</a>
+</li>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.Prior.set_object">set_object() (pytomography.priors.Prior method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/prior/index.html#pytomography.priors.prior.Prior.set_object">(pytomography.priors.prior.Prior method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.AnatomyNeighbourWeight.set_object_meta">set_object_meta() (pytomography.priors.AnatomyNeighbourWeight method)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.AnatomyNeighbourWeight.set_object_meta">(pytomography.priors.nearest_neighbour.AnatomyNeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.NearestNeighbourPrior.set_object_meta">(pytomography.priors.nearest_neighbour.NearestNeighbourPrior method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.NeighbourWeight.set_object_meta">(pytomography.priors.nearest_neighbour.NeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.TopNAnatomyNeighbourWeight.set_object_meta">(pytomography.priors.nearest_neighbour.TopNAnatomyNeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.NearestNeighbourPrior.set_object_meta">(pytomography.priors.NearestNeighbourPrior method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.NeighbourWeight.set_object_meta">(pytomography.priors.NeighbourWeight method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.Prior.set_object_meta">(pytomography.priors.Prior method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/prior/index.html#pytomography.priors.prior.Prior.set_object_meta">(pytomography.priors.prior.Prior method)</a>
+</li>
+        <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.TopNAnatomyNeighbourWeight.set_object_meta">(pytomography.priors.TopNAnatomyNeighbourWeight method)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTAttenuationTransform">SPECTAttenuationTransform (class in pytomography.transforms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTAttenuationTransform">(class in pytomography.transforms.SPECT)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/attenuation/index.html#pytomography.transforms.SPECT.attenuation.SPECTAttenuationTransform">(class in pytomography.transforms.SPECT.attenuation)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/metadata/index.html#pytomography.metadata.SPECTObjectMeta">SPECTObjectMeta (class in pytomography.metadata)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/SPECT/index.html#pytomography.metadata.SPECT.SPECTObjectMeta">(class in pytomography.metadata.SPECT)</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/SPECT/spect_metadata/index.html#pytomography.metadata.SPECT.spect_metadata.SPECTObjectMeta">(class in pytomography.metadata.SPECT.spect_metadata)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/metadata/index.html#pytomography.metadata.SPECTProjMeta">SPECTProjMeta (class in pytomography.metadata)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/SPECT/index.html#pytomography.metadata.SPECT.SPECTProjMeta">(class in pytomography.metadata.SPECT)</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/SPECT/spect_metadata/index.html#pytomography.metadata.SPECT.spect_metadata.SPECTProjMeta">(class in pytomography.metadata.SPECT.spect_metadata)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/metadata/index.html#pytomography.metadata.SPECTPSFMeta">SPECTPSFMeta (class in pytomography.metadata)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/metadata/SPECT/index.html#pytomography.metadata.SPECT.SPECTPSFMeta">(class in pytomography.metadata.SPECT)</a>
+</li>
+        <li><a href="autoapi/pytomography/metadata/SPECT/spect_metadata/index.html#pytomography.metadata.SPECT.spect_metadata.SPECTPSFMeta">(class in pytomography.metadata.SPECT.spect_metadata)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.SPECTPSFTransform">SPECTPSFTransform (class in pytomography.transforms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/SPECT/index.html#pytomography.transforms.SPECT.SPECTPSFTransform">(class in pytomography.transforms.SPECT)</a>
+</li>
+        <li><a href="autoapi/pytomography/transforms/SPECT/psf/index.html#pytomography.transforms.SPECT.psf.SPECTPSFTransform">(class in pytomography.transforms.SPECT.psf)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SPECTSystemMatrix">SPECTSystemMatrix (class in pytomography.projectors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/SPECT/index.html#pytomography.projectors.SPECT.SPECTSystemMatrix">(class in pytomography.projectors.SPECT)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/spect_system_matrix/index.html#pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrix">(class in pytomography.projectors.SPECT.spect_system_matrix)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SPECTSystemMatrixMaskedSegments">SPECTSystemMatrixMaskedSegments (class in pytomography.projectors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/SPECT/index.html#pytomography.projectors.SPECT.SPECTSystemMatrixMaskedSegments">(class in pytomography.projectors.SPECT)</a>
+</li>
+        <li><a href="autoapi/pytomography/projectors/SPECT/spect_system_matrix/index.html#pytomography.projectors.SPECT.spect_system_matrix.SPECTSystemMatrixMaskedSegments">(class in pytomography.projectors.SPECT.spect_system_matrix)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/algorithms/index.html#pytomography.algorithms.StatisticalIterative">StatisticalIterative (class in pytomography.algorithms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/algorithms/statistical_iterative/index.html#pytomography.algorithms.statistical_iterative.StatisticalIterative">(class in pytomography.algorithms.statistical_iterative)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/io/SPECT/dicom/index.html#pytomography.io.SPECT.dicom.stitch_multibed">stitch_multibed() (in module pytomography.io.SPECT.dicom)</a>
+</li>
+      <li><a href="autoapi/pytomography/projectors/index.html#pytomography.projectors.SystemMatrix">SystemMatrix (class in pytomography.projectors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/projectors/system_matrix/index.html#pytomography.projectors.system_matrix.SystemMatrix">(class in pytomography.projectors.system_matrix)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="T">T</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/priors/index.html#pytomography.priors.TopNAnatomyNeighbourWeight">TopNAnatomyNeighbourWeight (class in pytomography.priors)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/priors/nearest_neighbour/index.html#pytomography.priors.nearest_neighbour.TopNAnatomyNeighbourWeight">(class in pytomography.priors.nearest_neighbour)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/transforms/index.html#pytomography.transforms.Transform">Transform (class in pytomography.transforms)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/transforms/transform/index.html#pytomography.transforms.transform.Transform">(class in pytomography.transforms.transform)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+<h2 id="U">U</h2>
+<table style="width: 100%" class="indextable genindextable"><tr>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.unpad_object">unpad_object() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#pytomography.utils.spatial.unpad_object">(in module pytomography.utils.spatial)</a>
+</li>
+      </ul></li>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.unpad_object_z">unpad_object_z() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#pytomography.utils.spatial.unpad_object_z">(in module pytomography.utils.spatial)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="autoapi/pytomography/utils/index.html#pytomography.utils.unpad_proj">unpad_proj() (in module pytomography.utils)</a>
+
+      <ul>
+        <li><a href="autoapi/pytomography/utils/spatial/index.html#pytomography.utils.spatial.unpad_proj">(in module pytomography.utils.spatial)</a>
+</li>
+      </ul></li>
+  </ul></td>
+</tr></table>
+
+
+
+                </article>
+              
+              
+              
+                <footer class="bd-footer-article">
+                  
+<div class="footer-article-items footer-article__inner">
+  
+    <div class="footer-article-item"><!-- Previous / next buttons -->
+<div class="prev-next-area">
+</div></div>
+  
+</div>
+
+                </footer>
+              
+            </div>
+            
+            
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+          </footer>
+        
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=e353d410970836974a52"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=e353d410970836974a52"></script>
+
+  <footer class="bd-footer">
+<div class="bd-footer__inner bd-page-width">
+  
+    <div class="footer-items__start">
+      
+        <div class="footer-item">
+  <p class="copyright">
+    
+      © Copyright 2023, Luke Polson.
+      <br/>
+    
+  </p>
+</div>
+      
+        <div class="footer-item">
+  <p class="sphinx-version">
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.1.1.
+    <br/>
+  </p>
+</div>
+      
+    </div>
+  
+  
+    <div class="footer-items__end">
+      
+        <div class="footer-item"><p class="theme-version">
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.13.3.
+</p></div>
+      
+    </div>
+  
+</div>
+
+  </footer>
+  </body>
+</html>
