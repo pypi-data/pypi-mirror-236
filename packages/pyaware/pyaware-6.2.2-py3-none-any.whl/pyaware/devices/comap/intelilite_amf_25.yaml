@@ -1,0 +1,419 @@
+sources:
+  poll_coils:
+    type: poll
+    poll_interval: 5
+    handle: coils
+    blocks:
+      - [3, 8]
+      - [20, 21]
+      - [87, 88]
+      - [111, 121]
+  poll_holding:
+    type: poll
+    poll_interval: 5
+    handle: holding
+    blocks:
+      - [1057, 1058]
+      - [1271, 1274]
+      - [1285, 1287]
+      - [1298, 1300]
+      - [3021, 3022]
+      - [4207, 4209]
+  write_only_holding:
+    type: write_only
+    handle: holding
+    blocks:
+      - [ 4209, 4210 ]
+
+parameters:
+  remote-start-stop:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 3
+      idx: remote-start-stop
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [state]
+          - [time, 60]
+        event:
+          - [state]
+  remote-manual:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 5
+      idx: remote-manual
+      data_type: bool
+  remote-off:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 6
+      idx: remote-off
+      data_type: bool
+  remote-auto:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 7
+      idx: remote-auto
+      data_type: bool
+  alarm:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 20
+      idx: alarm
+      data_type: bool
+    triggers:
+      process:
+        store:
+          - [ always ]
+        event:
+          - [ time, 60 ]
+          - [ state ]
+    metadata:
+      kind: alarm
+  wrn-stop-fail:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 111
+      idx: wrn-stop-fail
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [ state ]
+          - [ time, 60 ]
+        event:
+          - [ state ]
+  sd-start-fail:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 112
+      idx: sd-start-fail
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [state]
+          - [time, 60]
+        event:
+          - [state]
+  generator-l1-overvoltage:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 120
+      idx: generator-l1-overvoltage
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [ state ]
+          - [ time, 60 ]
+        event:
+          - [ state ]
+  generator-l1-undervoltage:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 87
+      idx: generator-l1-undervoltage
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [ state ]
+          - [ time, 60 ]
+        event:
+          - [ state ]
+  wrn-generator-frequency:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 113
+      idx: wrn-generator-frequency
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [state]
+          - [time, 60]
+        event:
+          - [state]
+  sd-generator-overfrequency:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 114
+      idx: sd-generator-overfrequency
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [ state ]
+          - [ time, 60 ]
+        event:
+          - [ state ]
+  sd-generator-underfrequency:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 115
+      idx: sd-generator-underfrequency
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [ state ]
+          - [ time, 60 ]
+        event:
+          - [ state ]
+  wrn-overload:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 116
+      idx: wrn-overload
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [state]
+          - [time, 60]
+        event:
+          - [state]
+  sd-overload:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 117
+      idx: sd-overload
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [state]
+          - [time, 60]
+        event:
+          - [state]
+  short-circuit:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 118
+      idx: short-circuit
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [state]
+          - [time, 60]
+        event:
+          - [state]
+  sd-earth-fault-current:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 119
+      idx: sd-earth-fault-current
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [ state ]
+          - [ time, 60 ]
+        event:
+          - [ state ]
+  emergency-stop:
+    source: poll_coils
+    form:
+      type: ParamCType
+      address: 4
+      idx: emergency-stop
+      data_type: bool
+    triggers:
+      process:
+        send:
+          - [ state ]
+          - [ time, 60 ]
+        event:
+          - [ state ]
+  fuel-level:
+    source: poll_holding
+    form:
+      type: ParamCType
+      address: 1057
+      idx: fuel-level
+      data_type: short
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [time, 60]
+  running-hours:
+    source: poll_holding
+    form:
+      type: ParamCType
+      address: 1271
+      idx: running-hours
+      data_type: int
+    triggers:
+      process:
+        send:
+          - [time, 60]
+  num-starts:
+    source: poll_holding
+    form:
+      type: ParamCType
+      address: 1273
+      idx: num-starts
+      data_type: ushort
+    triggers:
+      process:
+        send:
+          - [time, 60]
+  total-fuel-consumption:
+    source: poll_holding
+    form:
+      type: ParamCType
+      address: 1285
+      idx: total-fuel-consumption
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [time, 60]
+  engine-state:
+    source: poll_holding
+    form:
+      type: ParamLookup
+      address: 1298
+      idx: engine-state
+      table:
+        0: "Init"
+        1: "Ready"
+        2: "NotReady"
+        3: "Prestart"
+        4: "Cranking"
+        5: "Pause"
+        6: "Starting"
+        7: "Running"
+        8: "Loaded"
+        9: "Soft unld"
+        10: "Cooling"
+        11: "Stop"
+        12: "Shutdown"
+        13: "Ventil"
+        14: "EmergMan"
+        15: "Soft load"
+        16: "WaitStop"
+        17: "SDVentil"
+      table_reversed:
+        "Init": 0
+        "Ready": 1
+        "NotReady": 2
+        "Prestart": 3
+        "Cranking": 4
+        "Pause": 5
+        "Starting": 6
+        "Running": 7
+        "Loaded": 8
+        "Soft unld": 9
+        "Cooling": 10
+        "Stop": 11
+        "Shutdown": 12
+        "Ventil": 13
+        "EmergMan": 14
+        "Soft load": 15
+        "WaitStop": 16
+        "SDVentil": 17
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [state]
+          - [time, 60]
+  breaker-state:
+    source: poll_holding
+    form:
+      type: ParamLookup
+      address: 1299
+      idx: breaker-state
+      table:
+        0: "Init"
+        1: "BrksOff"
+        2: "IslOper"
+        3: "MainsOper"
+        4: "ParalOper"
+        5: "RevSync"
+        6: "Synchro"
+        7: "MainsFlt"
+        8: "ValidFlt"
+        9: "MainsRet"
+        10: "MultIslOp"
+        11: "MultParOp"
+        12: "EmergMan"
+      table_reversed:
+        "Init": 0
+        "BrksOff": 1
+        "IslOper": 2
+        "MainsOper": 3
+        "ParalOper": 4
+        "RevSync": 5
+        "Synchro": 6
+        "MainsFlt": 7
+        "ValidFlt": 8
+        "MainsRet": 9
+        "MultIslOp": 10
+        "MultParOp": 11
+        "EmergMan": 12
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [state]
+          - [time, 60]
+  command-argument-register:
+    source: poll_holding
+    form:
+      type: ParamCType
+      address: 4207
+      word_order: <
+      idx: command-argument-register
+      data_type: uint
+    triggers:
+      process:
+        store:
+          - [always]
+  command-code-register:
+    source: write_only_holding
+    form:
+      type: ParamCType
+      address: 4209
+      idx: command-code-register
+      data_type: ushort
+    triggers:
+      process:
+        store:
+          - [always]
+  modbus-comms-status:
+    source: status
+    triggers:
+      process:
+        event:
+          - [state]
+        send:
+          - [state]
+          - [time, 60]

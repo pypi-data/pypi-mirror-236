@@ -1,0 +1,131 @@
+sources:
+  poll:
+    type: poll
+    handle: input
+    poll_interval: 5
+    blocks:
+      - [100, 102]
+      - [157, 158]
+      - [206, 208]
+      - [222, 224]
+      - [253, 255]
+      - [300, 302]
+      - [350, 351]
+parameters:
+  current-i1:
+    source: poll
+    form:
+      type: ParamCType
+      address: 100
+      idx: current-i1
+      data_type: uint
+      word_order: <
+    triggers:
+      process:
+        store:
+          - [ always ]
+        send:
+          - [ time, 60 ]
+  voltage-maximum-x-y:
+    source: poll
+    form:
+      type: ParamCType
+      address: 157
+      idx: voltage-maximum-x-y
+      data_type: ushort
+    triggers:
+      process:
+        store:
+          - [ always ]
+        send:
+          - [ time, 60 ]
+  total-active-power:
+    source: poll
+    form:
+      type: ParamCType
+      address: 206
+      idx: total-active-power
+      data_type: int
+      word_order: <
+    triggers:
+      process:
+        store:
+          - [ always ]
+        send:
+          - [ time, 60 ]
+  total-apparent-power:
+    source: poll
+    form:
+      type: ParamCType
+      address: 222
+      idx: total-apparent-power
+      data_type: int
+      word_order: <
+    triggers:
+      process:
+        store:
+          - [ always ]
+        send:
+          - [ time, 60 ]
+  total-power-factor:
+    source: poll
+    form:
+      type: ParamCType
+      address: 253
+      idx: total-power-factor
+      data_type: short
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [time, 60]
+  frequency:
+    source: poll
+    form:
+      type: ParamCType
+      address: 254
+      idx: frequency
+      data_type: ushort
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [time, 60]
+  total-positive-energy:
+    source: poll
+    form:
+      type: ParamCType
+      address: 300
+      idx: total-positive-energy
+      data_type: int
+      word_order: <
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [time, 60]
+  total-harmonic-distortion:
+    source: poll
+    form:
+      type: ParamCType
+      address: 350
+      idx: total-harmonic-distortion
+      data_type: ushort
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [time, 60]
+  modbus-comms-status:
+    source: status
+    triggers:
+      process:
+        event:
+          - [state]
+        send:
+          - [state]
+          - [time, 60]

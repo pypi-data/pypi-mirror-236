@@ -1,0 +1,79 @@
+sources:
+  poll_input:
+    type: poll
+    poll_interval: 5
+    handle: input
+    blocks:
+      - [8, 12]
+      - [20, 24]
+
+parameters:
+  pv-voltage:
+    source: poll_input
+    form:
+      type: ParamCType
+      address: 8
+      idx: pv-voltage
+      data_type: uint
+      byte_order: <
+      word_order: <
+    triggers:
+      process:
+        store:
+          - [ always ]
+        send:
+          - [ time, 60 ]
+  pv-current:
+    source: poll_input
+    form:
+      type: ParamCType
+      address: 10
+      idx: pv-current
+      data_type: uint
+      byte_order: <
+      word_order: <
+    triggers:
+      process:
+        store:
+          - [ always ]
+        send:
+          - [ time, 60 ]
+  pv-active-power:
+    source: poll_input
+    form:
+      type: ParamCType
+      address: 20
+      idx: pv-active-power
+      data_type: uint
+      byte_order: <
+      word_order: <
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [time, 60]
+  case-temperature:
+    source: poll_input
+    form:
+      type: ParamCType
+      address: 22
+      idx: case-temperature
+      data_type: uint
+      byte_order: <
+      word_order: <
+    triggers:
+      process:
+        store:
+          - [always]
+        send:
+          - [time, 60]
+  modbus-comms-status:
+    source: status
+    triggers:
+      process:
+        event:
+          - [state]
+        send:
+          - [state]
+          - [time, 60]
