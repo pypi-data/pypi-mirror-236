@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: haiqv
+Version: 2.0.2.5
+Summary: HAiQV AI Platform SDK for MLOps
+Home-page: UNKNOWN
+Author: haiqv
+Author-email: haiqv.ai@hanwha.com
+License: UNKNOWN
+Keywords: haiqv,haiqvml
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: python-dotenv
+Requires-Dist: pyyaml
+Requires-Dist: psutil
+
+<div align="center">
+  <img src="https://www.hanwhasystems.com/resources/img/pc/business/HAIQV.png" style="width: 300px;">
+  <h3>
+    Create AI effortlessly with HAiQV
+  </h3>
+  HAiQV provides MLOps functionalities for experiment tracking, managing model versions, deploying and serving, for developing ML models. 
+</div>
+
+&nbsp;
+
+<div align="center">
+  <img src="https://www.hanwhasystems.com/resources/img/pc/content/visual_bus05_2.jpg">
+</div>
+
+&nbsp;
+
+# Quick Start
+
+Get started with HAiQV in four steps:
+
+1. First, connect your Notebook in Workbench menu:
+
+<img src="https://www.hanwhasystems.com/resources/img/pc/content/visual_bus05_2.jpg" style="width: 600px; height: 50px">
+
+2. Second, insetall the HAiQV sdk with pip. Navigate to your terminal and type the following command:
+
+```bash
+pip install haiqv
+```
+
+3. Third, integrate HAiQ sdk with your code:
+
+```python
+import haiqv
+import random
+
+# Ready to Model training
+
+# Create Experiment and Run with .init 
+haiqv.init(experiment_name='sample')
+
+# Parameter logging
+haiqv.log_param('batch-size', 16)
+haiqv.log_params({'threshold': 0.6, 'max-boxes': 64})
+
+# Dataset metadata logging
+haiqv.log_dataset_metadata(name='train_data', path='data/dl/raw', desc='train data set from base')
+
+# Model training code here ...
+
+# Metric & Model metadata logging
+for i in range(10):
+  random_float = random.uniform(1, 10) * i
+  haiqv.log_metric('acc', 0.1*random_float, i)
+  haiqv.log_metrics({'loss/train': 1-0.01*random_float, 'acc/train': 0.05*random_float}, i)
+  #
+  haiqv.log_model_metadata(name='sample', path=f'model/sample{i}.pt', step=i, metric={'acc': 0.1*random_float})
+
+# Finish training
+haiqv.finalize()
+```
+That's all! 
+
+4. Fourth, access the Experiment menu to tracking your Experiment:
+
+<img src="https://www.hanwhasystems.com/resources/img/pc/content/visual_bus05_2.jpg" style="width: 600px; height: 400px">
+
+&nbsp;
+
+# Python SDK API
+
+The list of basic APIs:
+
+- [init](https://aaa)
+- [log_param](https://aaa)
+- [log_params](https://aaa)
+- [log_metric](https://aaa)
+- [log_metrics](https://aaa)
+- [log_dataset_metadata](https://aaa)
+- [log_model_metadata](https://aaa)
+- [finalize](https://aaa)
+
+The list of uptility APIs:
+- [set_client_ip](https://aaa)
+- [get_client_ip](https://aaa)
+- [get_run_name](https://aaa)
+
+## init
+
+
+
