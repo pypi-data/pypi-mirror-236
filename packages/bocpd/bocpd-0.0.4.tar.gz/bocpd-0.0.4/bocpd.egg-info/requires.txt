@@ -1,0 +1,13 @@
+numpy
+scipy>=1.6.0
+decorator
+pytest
+matplotlib
+seaborn
+tqdm
+
+[dev]
+black
+pytest
+coverage
+pre-commit
