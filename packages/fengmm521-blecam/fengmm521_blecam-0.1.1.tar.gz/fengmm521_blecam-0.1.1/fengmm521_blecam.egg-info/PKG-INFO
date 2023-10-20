@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: fengmm521-blecam
+Version: 0.1.1
+Summary: ble mouce and keyboard cam tool
+Home-page: https://github.com/fengmm521/fengmm521_blecam
+Author: mage
+Author-email: mage@woodcol.com
+License: Apache License
+Description-Content-Type: UNKNOWN
+Description: ble mouce and keyboard cam tool
+Keywords: pathtool,timetool,magetool,mage
+Platform: any
+Requires-Python: >=3.9, <4
