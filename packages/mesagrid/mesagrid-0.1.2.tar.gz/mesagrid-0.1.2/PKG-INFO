@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: mesagrid
+Version: 0.1.2
+Summary: Parse grids of MESA tracks and models
+Project-URL: homepage, https://github.com/earlbellinger/mesagrid
+Project-URL: tracker, https://github.com/earlbellinger/mesagrid/issues
+Project-URL: documentation, https://mesagrid.readthedocs.io/
+Author-email: Earl Patrick Bellinger <earl.bellinger@yale.edu>
+License-File: AUTHORS.rst
+License-File: LICENSE
+Keywords: mesagrid
+Classifier: Development Status :: 6 - Mature
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.6
+Requires-Dist: tomso>=0.2.1
+Description-Content-Type: text/x-rst
+
+========
+mesagrid
+========
+
+
+.. image:: https://img.shields.io/pypi/v/mesagrid.svg
+        :target: https://pypi.python.org/pypi/mesagrid
+
+.. image:: https://app.travis-ci.com/earlbellinger/mesagrid.svg
+        :target: https://app.travis-ci.com/github/earlbellinger/mesagrid
+
+.. image:: https://readthedocs.org/projects/mesagrid/badge/?version=latest
+        :target: https://mesagrid.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+.. image:: https://img.shields.io/badge/license-MIT-orange.svg?style=flat
+        :target: https://github.com/earlbellinger/mesagrid/blob/main/LICENSE
+        :alt: MIT License
+
+
+Parse grids of MESA tracks and models
