@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hpfeeds
+Version: 3.1.0
+Summary: Python implementation of the hpfeeds client and broker
+Home-page: https://github.com/hpfeeds/hpfeeds
+License: GPL
+Project-URL: Documentation, https://hpfeeds.readthedocs.org/
+Project-URL: Code, https://github.com/hpfeeds/hpfeeds
+Project-URL: Issue tracker, https://github.com/hpfeeds/hpfeeds/issues
+Provides-Extra: test
+Provides-Extra: broker
+Provides-Extra: broker-auth-json
+Provides-Extra: broker-auth-mongo
+Provides-Extra: broker-auth-database
+License-File: LICENSE
