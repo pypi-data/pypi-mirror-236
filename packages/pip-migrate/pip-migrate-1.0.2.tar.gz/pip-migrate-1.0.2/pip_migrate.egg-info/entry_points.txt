@@ -1,0 +1,2 @@
+[console_scripts]
+pip-migrate = pip_migrate.pip_migrate:main

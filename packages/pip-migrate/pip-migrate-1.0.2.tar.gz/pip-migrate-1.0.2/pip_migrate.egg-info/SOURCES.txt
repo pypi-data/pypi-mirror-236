@@ -1,0 +1,10 @@
+README.md
+setup.py
+pip_migrate/__init__.py
+pip_migrate/pip_migrate.py
+pip_migrate.egg-info/PKG-INFO
+pip_migrate.egg-info/SOURCES.txt
+pip_migrate.egg-info/dependency_links.txt
+pip_migrate.egg-info/entry_points.txt
+pip_migrate.egg-info/requires.txt
+pip_migrate.egg-info/top_level.txt
