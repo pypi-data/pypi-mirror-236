@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: DHN
+Version: 0.1.0
+Summary: DHN (Dynamics of Hopfield Networks)
+Home-page: https://github.com/marciogameiro/DHN
+Author: Marcio Gameiro
+Author-email: marciogameiro@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DHN
+Dynamics of Hopfield Networks
