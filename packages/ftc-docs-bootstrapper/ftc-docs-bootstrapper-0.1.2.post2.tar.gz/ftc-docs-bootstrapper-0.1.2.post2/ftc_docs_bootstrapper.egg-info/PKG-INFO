@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: ftc-docs-bootstrapper
+Version: 0.1.2.post2
+Summary: Bootstrapper for FIRST Tech Challenge documentation translations
+Home-page: https://github.com/egeakman/ftc-docs-bootstrapper
+Download-URL: https://github.com/egeakman/ftc-docs-bootstrapper/archive/0.1.2.post2.tar.gz
+Author: egeakman
+Author-email: me@egeakman.dev
+License: MIT
+Project-URL: Homepage, https://github.com/egeakman/ftc-docs-bootstrapper
+Project-URL: Issues, https://github.com/egeakman/ftc-docs-bootstrapper/issues
+Keywords: documentation,translation,sphinx,i18n,ftc-docs,CLI,automation,utilities
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Sphinx==4.4.0
+Requires-Dist: sphinx-autobuild==2021.3.14
+Requires-Dist: make==0.1.6.post2
+Requires-Dist: sphinx-rtd-dark-mode-v2-workaround
+Requires-Dist: javasphinx-workaround
+Requires-Dist: sphinx_design==0.2.0
+Requires-Dist: sphinxcontrib-googleanalytics-workaround
+Requires-Dist: sphinxcontrib-cookiebanner-workaround
+Requires-Dist: sphinx-sitemap==2.3.0
+Requires-Dist: python-git-info==0.8.3
+Requires-Dist: sphinxcontrib-mermaid==0.9.2
+
+# ftc-docs-bootstrapper
+
+This repository contains the scripts and data used to bootstrap a new translation of the FIRST Tech Challenge documentation.
+
+## Installation
+
+```bash
+$ pip install ftc-docs-bootstrapper
+```
+
+## Usage
+
+```bash
+$ ftc-docs --help
+usage: ftc-docs [-h] language
+
+positional arguments:
+  language              IETF language tag (e.g. tr, pt-br)
+
+options:
+  -h, --help            show this help message and exit
+```
+
+## Example
+
+```bash
+$ ftc-docs tr
+```

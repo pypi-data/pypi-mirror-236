@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+bootstrapper/__init__.py
+bootstrapper/bootstrapper.py
+bootstrapper/data/.gitignore
+bootstrapper/data/Makefile
+bootstrapper/data/README.md
+ftc_docs_bootstrapper.egg-info/PKG-INFO
+ftc_docs_bootstrapper.egg-info/SOURCES.txt
+ftc_docs_bootstrapper.egg-info/dependency_links.txt
+ftc_docs_bootstrapper.egg-info/entry_points.txt
+ftc_docs_bootstrapper.egg-info/requires.txt
+ftc_docs_bootstrapper.egg-info/top_level.txt
