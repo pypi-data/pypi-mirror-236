@@ -1,0 +1,9 @@
+jogseq/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+jogseq/utils.py,sha256=6iEjAoZI-5ghyg-UrWM_UMJQnj6wI8vTmgquw54I-5Q,35610
+jogseq/tasks/__init__.py,sha256=ep5lok1fJQACdBn5n9aFFxWNC-vgV2o5EUngZr9C1nk,33
+jogseq/tasks/seq.py,sha256=UUiXm5cz4nhLBVxL1QB77iALqNoWtbw5i_vMURASt3I,24484
+task_jogger_jogseq-0.1.0.dist-info/LICENSE,sha256=G4R5CCoDH3IdiaKdepY47jSeA7NKj555-0p-D-Vd0MM,1068
+task_jogger_jogseq-0.1.0.dist-info/METADATA,sha256=A7INs1BszMVD1PnZHUcvtnWT2gwycSp2VVJAvxGYYag,11666
+task_jogger_jogseq-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+task_jogger_jogseq-0.1.0.dist-info/top_level.txt,sha256=BXfkZcErCZ61mzF8UXvU2FZUnYjv8ojFzKAfyM6_8aY,7
+task_jogger_jogseq-0.1.0.dist-info/RECORD,,
