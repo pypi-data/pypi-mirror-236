@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "motion_api_client"
+version = "0.1.2"
+description = ""
+authors = ["James Lund <james.s.lund@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
