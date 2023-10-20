@@ -1,0 +1,8 @@
+hacapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hacapi/hac.py,sha256=A9K1Ejbh4OVECH6Yf9ze1Ayn6gvrxzHp7ZvzoYmjgCg,12489
+hacapi/misc.py,sha256=NmWSoWsuvNZQsTJvsVAH1iWk4Dc078AiDhLrXxN5Cyc,460
+hacapi/payloads.py,sha256=qOIqaibavC6s_-2odRL4ZaUo6pUkpinOZDGZuAocmdY,26297
+hacapi-0.5.1.dist-info/LICENSE,sha256=DXcnoyMZm4866QcrhA0Ko63Rbq5HZtGuifN6lCMLdvk,1065
+hacapi-0.5.1.dist-info/METADATA,sha256=TXtvpEBAKZUmjyV9rt7r0nuob6KEmBFWE9nhltH1KcU,1549
+hacapi-0.5.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+hacapi-0.5.1.dist-info/RECORD,,
