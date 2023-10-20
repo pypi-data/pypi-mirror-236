@@ -1,0 +1,2 @@
+[console_scripts]
+javasphinx-apidoc = javasphinx.apidoc:main
