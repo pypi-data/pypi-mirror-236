@@ -1,0 +1,2 @@
+aiohttp
+pydantic>=1.10.10
