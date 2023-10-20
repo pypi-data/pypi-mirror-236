@@ -1,0 +1,2 @@
+cx_Oracle
+pymysql==1.0.2
