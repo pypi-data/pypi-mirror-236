@@ -1,0 +1,9 @@
+numpy
+h5py
+
+[all]
+
+[dev]
+matplotlib
+pytest
+check-manifest
