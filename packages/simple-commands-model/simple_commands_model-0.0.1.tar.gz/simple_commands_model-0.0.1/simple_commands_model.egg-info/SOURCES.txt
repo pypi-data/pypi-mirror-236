@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+simple_commands_model/__init__.py
+simple_commands_model.egg-info/PKG-INFO
+simple_commands_model.egg-info/SOURCES.txt
+simple_commands_model.egg-info/dependency_links.txt
+simple_commands_model.egg-info/requires.txt
+simple_commands_model.egg-info/top_level.txt
+simple_commands_model/image_process/process_image.py
+simple_commands_model/tf/cnn.py
