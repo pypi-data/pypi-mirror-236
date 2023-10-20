@@ -1,0 +1,75 @@
+default_language_version:
+  python: python3.9
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+        exclude: ^.*\.(md|rst)$
+      - id: debug-statements
+      - id: mixed-line-ending
+        args: [--fix=lf]
+      - id: check-merge-conflict
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: v3.0.3
+    hooks:
+      - id: prettier
+
+  - repo: https://github.com/jorisroovers/gitlint
+    rev: v0.19.1
+    hooks:
+      - id: gitlint
+
+  - repo: https://github.com/adrienverge/yamllint
+    rev: v1.32.0
+    hooks:
+      - id: yamllint
+
+  - repo: https://github.com/codingjoe/relint
+    rev: 3.1.0
+    hooks:
+      - id: relint
+
+  - repo: https://github.com/ambv/black
+    rev: 23.10.0
+    hooks:
+      - id: black
+        types: [python]
+
+  - repo: https://github.com/asottile/blacken-docs
+    rev: 1.16.0
+    hooks:
+      - id: blacken-docs
+        additional_dependencies: [black==23.10.0]
+
+  - repo: https://github.com/pre-commit/mirrors-isort
+    rev: v5.10.1
+    hooks:
+      - id: isort
+        exclude: ^example/.*$
+        additional_dependencies: ["isort[pyproject]"]
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.6.1
+    hooks:
+      - id: mypy
+        exclude: ^(docs/|test/|test-corpus/|example/).*$
+        args: ["--ignore-missing-imports"]
+        additional_dependencies: [types-click, types-requests, types-PyYAML]
+
+  - repo: https://github.com/charliermarsh/ruff-pre-commit
+    rev: "v0.1.0"
+    hooks:
+      - id: ruff
+
+  - repo: https://github.com/myint/rstcheck
+    rev: v6.2.0
+    hooks:
+      - id: rstcheck
+        additional_dependencies:
+          - sphinx==5.3.0
+          - sphinx-click==4.3.0
