@@ -1,0 +1,145 @@
+Metadata-Version: 2.1
+Name: mewbot-io-rss
+Version: 0.1.0
+Summary: A plugin which lets mewbot consume RSS feeds.
+Home-page: https://github.com/ajCameron/mewbot-io-rss
+Author: Alex Cameron
+Author-email: mewbot@quicksilver.london
+Maintainer: Alex Cameron
+Maintainer-email: alex.alexcameron@quicksilver.london
+License: {#- source: http://opensource.org/licenses/MIT #}
+        The MIT License (MIT)
+        
+        Copyright (c) {% now 'utc', '%Y' %} {{cookiecutter.full_name}}
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in
+        all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+        THE SOFTWARE.
+        
+Project-URL: Bug Tracker, https://github.com/ajCameron/mewbot-rss/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: mewbot ~=0.0.3
+Requires-Dist: mewbot-api ~=0.0.3
+Requires-Dist: mewbot-io ~=0.0.3
+Requires-Dist: mewbot-test ~=0.0.3
+Requires-Dist: feedparser ~=6.0.10
+
+<!--
+SPDX-FileCopyrightText: 2021 - 2023 Mewbot Developers <mewbot@quicksilver.london>
+
+SPDX-License-Identifier: CC-BY-4.0
+-->
+
+# mewbot-io-rss
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](CONTRIBUTORS.md)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+[![Linting](https://github.com/mewbotorg/mewbot-io-rss/actions/workflows/review.yaml/badge.svg)](https://github.com/mewbotorg/mewbot-io-rss/actions/workflows/review.yaml)
+
+[![PyPI version](https://img.shields.io/pypi/v/mewbot-io-rss.svg)](https://pypi.org/project/mewbot-io-rss)
+
+[![Python versions](https://img.shields.io/pypi/pyversions/mewbot-io-rss.svg)](https://pypi.org/project/mewbot-io-rss)
+
+
+[Mewbot](https://github.com/mewbotorg/mewbot) bindings for an io protocol!
+
+A plugin which lets mewbot consume RSS feeds.
+
+----
+
+This [Mewbot](https://github.com/mewbotorg/mewbot) io plugin was generated with [Cookiecutter](https://github.com/audreyr/cookiecutter) along with [@ajcameron](https://github.com/ajcameron)'s [template-mewbot-plugin](https://github.com/mewbotorg/template-mewbot-plugin) cookiecutter template.
+
+If you have any issues with the plugin please [file an issue for it!](https://github.com/mewbotorg/mewbot-io-rss/issues)
+
+If you have any issues, or suggestions, for the template please [file an issue for it's template!](https://github.com/mewbotorg/template-mewbot-plugin/issues)
+
+
+# Features
+
+* TODO
+
+
+# Requirements
+
+* TODO
+
+
+# Installation
+
+You can install "mewbot-io-rss" via [pip](https://pypi.org/project/pip/) from [PyPI](https://pypi.org/project)
+```shell
+$ pip install mewbot-io-rss
+```
+
+
+# Usage
+
+
+* TODO
+
+# Contributing
+
+Contributions are very welcome.
+Tests can be run using [Mewbot dev tools](https://github.com/mewbotorg/mewbot-dev-tools).
+These can be installed via
+```shell
+$ pip install mewbot-dev-tools
+```
+Then cd into the root of this repo and run
+```shell
+$ mewbot-test
+```
+Please ensure the coverage at least stays the same before you submit a pull request.
+
+# License
+
+Distributed under the terms of the MIT license.
+"mewbot-io-rss" is free and open source software
+
+
+# Issues
+
+If you encounter any problems, please [file an issue](https://github.com/mewbotorg/mewbot-io-rss/issues) along with a detailed description.
+
+# Features
+
+Likewise, please [raise an issue](https://github.com/mewbotorg/mewbot-io-rss/issues) if there's a feature you want.
+
+# Helpful links
+
+ - [MIT license](http://opensource.org/licenses/MIT)
+ - [BSD-3 license](http://opensource.org/licenses/BSD-3-Clause)
+ - [GNU GPL v3.0](http://www.gnu.org/licenses/gpl-3.0.txt)
+ - [Apache Software License 2.0](http://www.apache.org/licenses/LICENSE-2.0)
+
