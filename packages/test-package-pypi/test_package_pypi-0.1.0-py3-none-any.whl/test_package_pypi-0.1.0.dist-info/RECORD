@@ -1,0 +1,6 @@
+function/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+function/function.py,sha256=C8gCpCtw2X2vFizYy4wWODywbDmWQgdpXoKDjqDqlbI,45
+test_package_pypi-0.1.0.dist-info/METADATA,sha256=zOKOW7LFy6U5ZDsMH-uJMQDx3Nk5hxf3ZyUN-62Fryw,296
+test_package_pypi-0.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+test_package_pypi-0.1.0.dist-info/top_level.txt,sha256=8NCOBnAJmkGOrFCcHv1uB6ETb0c8YF-XSmyLdVkcERI,9
+test_package_pypi-0.1.0.dist-info/RECORD,,
