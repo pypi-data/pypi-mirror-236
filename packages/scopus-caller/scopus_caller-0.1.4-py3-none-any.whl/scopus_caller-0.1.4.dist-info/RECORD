@@ -1,0 +1,10 @@
+scopuscaller/__init__.py,sha256=Q1Zg-wXEo8lk58WYPp-SNaAB_42dEKIMXNLMJlArHCw,84
+scopuscaller/call_scopus.py,sha256=XacFmaQ8sAQL9Drde_9OwpkV7MYJEvSyloI1OGllKOo,4973
+scopuscaller/call_semanticscholar.py,sha256=QaogOTQb3kcIKRJ17TFgqC-Jqkp8Ki3hRFFbWDSL_gg,2391
+scopuscaller/test_call_scopus.py,sha256=eFAGDnEyfsOIcNQGp7tUazOKn735VLfGWpQDptRxEII,485
+scopus_caller-0.1.4.dist-info/LICENSE,sha256=bCYh1zOO4YR2R5K5QaA4iZYfhrLmZKt-lC4BqhOUeIU,1067
+scopus_caller-0.1.4.dist-info/METADATA,sha256=wXqwAigp2J7mFbphrDnfyH62X4caLkt93MClcfdlxms,5451
+scopus_caller-0.1.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scopus_caller-0.1.4.dist-info/top_level.txt,sha256=X-2PZrDZF-k0levKmPM2NOy6HOERghsHFAPH6P8UOe8,13
+scopus_caller-0.1.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+scopus_caller-0.1.4.dist-info/RECORD,,
