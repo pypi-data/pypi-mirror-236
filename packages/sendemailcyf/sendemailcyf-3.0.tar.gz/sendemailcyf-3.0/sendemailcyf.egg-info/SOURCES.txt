@@ -1,0 +1,8 @@
+license.txt
+setup.py
+sendemailcyf/__init__.py
+sendemailcyf/operations.py
+sendemailcyf.egg-info/PKG-INFO
+sendemailcyf.egg-info/SOURCES.txt
+sendemailcyf.egg-info/dependency_links.txt
+sendemailcyf.egg-info/top_level.txt
