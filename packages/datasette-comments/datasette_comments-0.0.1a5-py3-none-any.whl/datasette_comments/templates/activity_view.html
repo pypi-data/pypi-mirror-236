@@ -1,0 +1,25 @@
+
+{% extends "base.html" %}
+
+{% block title %}#Comments Activity{% endblock %}
+
+{% block extra_head %}
+
+<script id="datasette-comments-data" type="application/json">{{ {
+  "data": data,
+  "actor_id": actor_id,
+  "profile_photo_url": profile_photo_url,
+} | tojson }}</script>
+
+<script src="{{ urls.static_plugins("datasette_comments", "activity_view.min.js") }}"></script>
+<link href="{{ urls.static_plugins("datasette_comments", "style.css") }}" rel="stylesheet" />
+
+{% endblock %}
+
+{% block content %}
+
+<h1>Recent Comments</h1>
+
+<div id="root"></div>
+
+{% endblock %}
