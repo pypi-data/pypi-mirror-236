@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: NoAlchemy
+Version: 0.1.2
+Summary: A MongoDB Object-Document Mapper (ODM) based on SQLAlchemy.
+Home-page: https://github.com/grantUser/NoAlchemy
+Author: grantUser
+License-File: LICENSE
+Requires-Dist: pymongo
+Requires-Dist: mongomock
