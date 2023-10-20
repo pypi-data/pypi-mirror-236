@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: geodemov2
+Version: 0.0.1
+Summary: example geo python packages
+Home-page: https://github.com/Hamilton97/geodemov2
+Author: Ryan Hamilton
+Author-email: ryangilberthamilton@gmail.com
+License: MIT license
+Keywords: geodemov2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geodemov2
+
+
+[![image](https://img.shields.io/pypi/v/geodemov2.svg)](https://pypi.python.org/pypi/geodemov2)
+[![image](https://img.shields.io/conda/vn/conda-forge/geodemov2.svg)](https://anaconda.org/conda-forge/geodemov2)
+
+
+**example geo python packages**
+
+
+-   Free software: MIT license
+-   Documentation: https://Hamilton97.github.io/geodemov2
+    
+
+## Features
+
+-   TODO

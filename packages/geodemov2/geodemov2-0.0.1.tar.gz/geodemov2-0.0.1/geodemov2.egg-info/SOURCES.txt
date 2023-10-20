@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+geodemov2/__init__.py
+geodemov2/common.py
+geodemov2/geodemov2.py
+geodemov2.egg-info/PKG-INFO
+geodemov2.egg-info/SOURCES.txt
+geodemov2.egg-info/dependency_links.txt
+geodemov2.egg-info/not-zip-safe
+geodemov2.egg-info/top_level.txt
+tests/test_geodemov2.py
