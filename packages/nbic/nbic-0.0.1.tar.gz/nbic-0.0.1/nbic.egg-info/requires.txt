@@ -1,0 +1,6 @@
+nlit
+ipython
+ipywidgets
+
+[dev]
+ipython

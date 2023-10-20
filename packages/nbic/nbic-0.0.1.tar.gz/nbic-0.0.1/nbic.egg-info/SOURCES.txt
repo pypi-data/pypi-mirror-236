@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+nbic/__init__.py
+nbic/_modidx.py
+nbic/base.py
+nbic/skip.py
+nbic.egg-info/PKG-INFO
+nbic.egg-info/SOURCES.txt
+nbic.egg-info/dependency_links.txt
+nbic.egg-info/entry_points.txt
+nbic.egg-info/not-zip-safe
+nbic.egg-info/requires.txt
+nbic.egg-info/top_level.txt
