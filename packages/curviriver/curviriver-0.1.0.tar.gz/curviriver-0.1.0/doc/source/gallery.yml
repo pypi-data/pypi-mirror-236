@@ -1,0 +1,3 @@
+- path: examples/curvilinear.html
+  thumbnail: _static/curvilinear.png
+  title: Topobathy Data Interpolation
