@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+solteron/__init__.py
+solteron/solteron.py
+solteron.egg-info/PKG-INFO
+solteron.egg-info/SOURCES.txt
+solteron.egg-info/dependency_links.txt
+solteron.egg-info/top_level.txt
