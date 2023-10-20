@@ -1,0 +1,3 @@
+[console_scripts]
+deng=kay_pi_de_toolkit.main:cli
+
