@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pysonde
+Version: 0.0.5
+Home-page: https://github.com/observingClouds/pysonde
+Author: Hauke Schulz
+Author-email: 
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.5
+License-File: LICENSE
+Requires-Dist: bottleneck
+Requires-Dist: cartopy
+Requires-Dist: coverage==5.3.1
+Requires-Dist: dask
+Requires-Dist: metpy
+Requires-Dist: netCDF4
+Requires-Dist: numpy
+Requires-Dist: omegaconf
+Requires-Dist: pandas
+Requires-Dist: Pint
+Requires-Dist: Pint-Pandas
+Requires-Dist: pint-xarray
+Requires-Dist: PyYAML
+Requires-Dist: regex
+Requires-Dist: tqdm
+Requires-Dist: xarray
+Provides-Extra: dev
+Requires-Dist: mock; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-cov; extra == "dev"
+Requires-Dist: pytest-lazy-fixture; extra == "dev"
+Requires-Dist: flake8; extra == "dev"
+Requires-Dist: isort; extra == "dev"
+Requires-Dist: black; extra == "dev"
+Requires-Dist: mypy; extra == "dev"
+Requires-Dist: pylint<2.3.0; extra == "dev"
+Requires-Dist: yapf; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+
+Post-processing tool for atmospheric sounding data
