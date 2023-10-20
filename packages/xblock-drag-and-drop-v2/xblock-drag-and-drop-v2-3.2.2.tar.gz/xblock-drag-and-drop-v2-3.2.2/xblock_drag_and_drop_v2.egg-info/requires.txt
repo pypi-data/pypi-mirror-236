@@ -1,0 +1,3 @@
+bleach[css]
+django-statici18n
+xblock-utils
