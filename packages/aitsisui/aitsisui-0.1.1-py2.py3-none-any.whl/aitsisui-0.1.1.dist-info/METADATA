@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: aitsisui
+Version: 0.1.1
+Summary: AIT UI
+Home-page: UNKNOWN
+Author: AIT
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: Flask
+Requires-Dist: Flask-Cors
+Requires-Dist: Flask-SocketIO
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: python-dotenv
+
+UNKNOWN
+
