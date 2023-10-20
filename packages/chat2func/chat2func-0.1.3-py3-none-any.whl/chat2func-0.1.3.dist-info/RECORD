@@ -1,0 +1,11 @@
+chat2func/__init__.py,sha256=b2BXfjCoHGN6f69fMwtesTvywFtESTRBRf7NBOxrb-M,256
+chat2func/api.py,sha256=jIpvBgs0yU9D3691YrAJcm6lH8d_Y1PpTDDmErFmBXQ,5994
+chat2func/deploy.py,sha256=S-Dnz0gx-4S9q6yB0_Scwy6hUfKqJDKATv52cxq0v8A,3208
+chat2func/functions.py,sha256=YKdpdSOzR--x1Ld5AlYHtGxwS5NafXS4PX-bnhD1XWA,17749
+chat2func/server.py,sha256=vVcfBPYMWc_e9TkhzdrbeSCbVKX0f9iq6tJUX_M3pPw,7628
+chat2func/utils.py,sha256=xnA25TTwWDJKXJAHe8mqzXVJG9XhwmDUCyj2YX5PW0M,227
+chat2func-0.1.3.dist-info/LICENSE.txt,sha256=gwwnFSkNo1ZG359OwgU0A4r7_67airXikP_mFsi7z2Y,1070
+chat2func-0.1.3.dist-info/METADATA,sha256=Y2w6m3-Kdn0uhBXKYulqPDdHCdr6S4GT1guidZkoUzw,6435
+chat2func-0.1.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+chat2func-0.1.3.dist-info/top_level.txt,sha256=KNlVn5bdQ4jY7L1MgcPUSHvIjm2j_ZwM6yf713ne-zY,10
+chat2func-0.1.3.dist-info/RECORD,,
