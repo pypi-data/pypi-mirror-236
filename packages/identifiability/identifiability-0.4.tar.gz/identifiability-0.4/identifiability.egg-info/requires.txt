@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+lmfit
+
+[pyscesmp]
+pysces
+multiprocessing_on_dill
