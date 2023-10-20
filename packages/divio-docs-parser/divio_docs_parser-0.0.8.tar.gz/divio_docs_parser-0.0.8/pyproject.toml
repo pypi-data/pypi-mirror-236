@@ -1,0 +1,27 @@
+[project]
+name = "divio_docs_parser"
+version = "0.0.8"
+authors = [
+    { name="Denperidge", email="denperidge@gmail.com" },
+]
+description = "Collect and parse all your divio-style documentation with just one line of code!"
+readme = "README.md"
+requires-python = ">=3.6"
+dependencies = []
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Documentation",
+    "Topic :: Text Processing :: Markup :: Markdown"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Denperidge-Redpencil/divio-docs-parser"
+"Bug Tracker" = "https://github.com/Denperidge-Redpencil/divio-docs-parser/issues"
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
