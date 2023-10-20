@@ -1,0 +1,15 @@
+requests
+oss2
+Image
+Pillow
+fake_useragent
+lxml
+UserAgent
+urlparser
+p-template-generator>=0.1.78
+p-template-res>=0.1.28
+yt-dlp==2023.3.4
+requests_toolbelt
+qrcode
+googletrans==4.0.0-rc1
+langid
