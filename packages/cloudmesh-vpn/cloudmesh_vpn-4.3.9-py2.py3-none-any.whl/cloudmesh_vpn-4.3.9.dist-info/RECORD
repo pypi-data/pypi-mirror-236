@@ -1,0 +1,17 @@
+cloudmesh_vpn-4.3.9-py3.11-nspkg.pth,sha256=K4lDZyHlKS0TcVsgEjQjgNPYnsZp6PXCSyRIy68BhkI,554
+cloudmesh/vpn/__init__.py,sha256=9iLFyJbyODCZO_FGpRP8wJ9UgKEekjOMNSXpTVp8XvM,22
+cloudmesh/vpn/__version__.py,sha256=4UVRvFO2EZFcKk0Q1DBbseMrwmdbHnvjRywN0dYOTKc,18
+cloudmesh/vpn/vpn.py,sha256=cvN5veyMG8ujvtzE5mJPX0jXzX1JopQGIPHJSDnqJKI,23318
+cloudmesh/vpn/windows.py,sha256=6fgn_VYvx3blr-ygbOQHxbzE3B4pt_EFDP54rhkB1xg,1648
+cloudmesh/vpn/bin/cisco-secure-client.nuspec,sha256=UHK2UWh9fRc0TPUjKxpHLfltXUtak8AGi88GWMHYoKM,6313
+cloudmesh/vpn/bin/tools/chocolateybeforemodify.ps1,sha256=hDQJ7V1CWzUyk-J7PIe9HIXTNln364A8USoKNAAW5Gw,608
+cloudmesh/vpn/bin/tools/chocolateyinstall.ps1,sha256=ABWJyVT2jaZ4j0E5ZYaPkqSBCVqbYqUdovsix_MXXPs,1685
+cloudmesh/vpn/bin/tools/chocolateyuninstall.ps1,sha256=tbYpMWlAlGL7Pg42VowGdgP0-Gk9YZrZDgWbXZmttfw,5268
+cloudmesh/vpn/command/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cloudmesh/vpn/command/vpn.py,sha256=CUceLOkXbPhNe--dtJReW9BW2JXKjSh_SLzTOeHgnaI,3565
+cloudmesh_vpn-4.3.9.dist-info/LICENSE,sha256=w7U4P4ljhJjniTEMxSyhAcEbWHDk2Ng1FqsOG6aEgs0,769
+cloudmesh_vpn-4.3.9.dist-info/METADATA,sha256=nXZqwcTLeSl6niEXlTf2XF36hmpdX2tTVgOhvQ5IMKQ,5467
+cloudmesh_vpn-4.3.9.dist-info/WHEEL,sha256=a-zpFRIJzOq5QfuhBzbhiA1eHTzNCJn8OdRvhdNX0Rk,110
+cloudmesh_vpn-4.3.9.dist-info/namespace_packages.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_vpn-4.3.9.dist-info/top_level.txt,sha256=aTw_KEhKv-8X8yWzikhSTeYlXkcauZxg_98rOi1SJHg,10
+cloudmesh_vpn-4.3.9.dist-info/RECORD,,
