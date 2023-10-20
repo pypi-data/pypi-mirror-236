@@ -1,0 +1,14 @@
+flake8_multiline_function_call_equals.py,sha256=K9x9___uKa8UuLyXCQeGYg_ni8DG7-LAlRtDnC-_Q8Q,5166
+test/__init__.py,sha256=YCZrLOwVibfvO34lNtUpUeUvdzGDvevhWKdKa8nUxGU,538
+test/collector.py,sha256=zEQnqWOJu7rpdLSdmtx8KdoGnFekNGu9VB_teNX5rps,20772
+test/insert_project.py,sha256=Z9YwNhTRfXkdwwLIlGEBsFXgJ7kHsuSUKDMqKJ3CJM4,1471
+test/lib.py,sha256=unEnhU9d98QWz74FjhudYNAw2oGutEKIOyu7SBqlKhE,10889
+test/masterCollector.py,sha256=qf21oUTWrh-8lo8g4OjBkY8_87MeDjwT_KQlE1ECbc8,21799
+test/sel_lib.py,sha256=ohqHWr5IeT9dGSfypdASK4RBSgqmwB5-uxSVnLmY6T4,3735
+test/tests.py,sha256=-7c_3keo20y648Xswu6h-AI6e06I_PTXXFQhd6KZNjU,401
+flake8_multiline_function_call_equals-0.1.4.dist-info/LICENSE,sha256=QsJhRNp7B1_gkgQ47sN3ue1IhBVpDYd-Fo5yQd1B5nA,1069
+flake8_multiline_function_call_equals-0.1.4.dist-info/METADATA,sha256=LU8-A-e3hiyMANkGeO21ruUHF79r5Y0AnwaBOCQYFFc,4740
+flake8_multiline_function_call_equals-0.1.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+flake8_multiline_function_call_equals-0.1.4.dist-info/entry_points.txt,sha256=6eSLPQLFmAbcJ_VMu2S3IpkkEwicXF9WA5xcPcyKJ4Q,70
+flake8_multiline_function_call_equals-0.1.4.dist-info/top_level.txt,sha256=7PhJ2Ftpg7iYtBOX87FXMkncdtymSHPEDsA8_D56hjo,43
+flake8_multiline_function_call_equals-0.1.4.dist-info/RECORD,,
