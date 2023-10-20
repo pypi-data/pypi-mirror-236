@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+lighteval.py
+setup.cfg
+setup.py
+lighteval.egg-info/PKG-INFO
+lighteval.egg-info/SOURCES.txt
+lighteval.egg-info/dependency_links.txt
+lighteval.egg-info/top_level.txt
+lighteval.egg-info/zip-safe
