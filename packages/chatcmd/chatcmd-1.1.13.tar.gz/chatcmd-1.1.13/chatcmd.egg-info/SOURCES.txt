@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+chatcmd/__init__.py
+chatcmd/chatcmd_init.py
+chatcmd.egg-info/PKG-INFO
+chatcmd.egg-info/SOURCES.txt
+chatcmd.egg-info/dependency_links.txt
+chatcmd.egg-info/entry_points.txt
+chatcmd.egg-info/requires.txt
+chatcmd.egg-info/top_level.txt
+chatcmd/api/__init__.py
+chatcmd/commands/__init__.py
+chatcmd/features/__init__.py
+chatcmd/helpers/__init__.py
+chatcmd/lookup/__init__.py
