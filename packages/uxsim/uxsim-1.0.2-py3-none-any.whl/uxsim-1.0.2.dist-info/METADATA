@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: uxsim
+Version: 1.0.2
+Summary: UXsim: traffic flow simulator
+Home-page: https://github.com/toruseo/UXsim
+Download-URL: https://github.com/toruseo/UXsim
+Author: Toru Seo
+Author-email: seo.t.aa@m.titech.ac.jp
+Maintainer: Toru Seo
+Maintainer-email: seo.t.aa@m.titech.ac.jp
+License: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.5)
+Requires-Dist: matplotlib (>=3.5.2)
+Requires-Dist: pillow (>=9.2.0)
+Requires-Dist: tqdm (>=4.64.1)
+Requires-Dist: scipy (>=1.9.1)
+Requires-Dist: pandas (>=1.4.4)
+
+# UXsim: traffic flow simulator
+
+UXsim is a free, open-source macroscopic and mesoscopic network traffic flow simulator developed in Python. It is suitable for simulating large-scale (e.g., city-scale) vehicular transportation. It computes dynamic traffic flow in a network by using traffic flow models commonly utilized by transportation research. This simulator is written by pure Python and allows users to flexibly customize it.
+
+- Github repo: https://github.com/toruseo/UXsim
+- Technical reference: https://toruseo.jp/UXsim/docs/index.html
+- arXiv preprint: https://arxiv.org/abs/2309.17114
+- Fundamental theories (Japanese textbook): https://www.coronasha.co.jp/np/isbn/9784339052794/
+
+MIT License
+
+Copyright (c) 2023 Toru Seo
