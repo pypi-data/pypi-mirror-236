@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: climetlab-maelstrom-downscaling
+Version: 0.3.1
+Summary: A dataset plugin for climetlab for the dataset maelstrom-downscaling.
+Home-page: https://git.ecmwf.int/projects/MLFET/repos/maelstrom-downscaling-ap5/
+Author: Michael Langguth, Bing Gong
+Author-email: m.langguth@fz-juelich.de
+License: Apache License Version 2.0
+Keywords: meteorology
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: climetlab >=0.9.0
+
+﻿# maelstrom-downscaling-ap5
+
+A <a href="https://climetlab.readthedocs.io">CliMetLab </a> dataset plugin for the datasets
+used in application of the <a href="https://maelstrom-eurohpc.eu/">MAELSTROM project</a>.
+
+Features
+--------
+
+This README provides a brief description of the provided datasets for statistical downscaling of
+meteorological fields, the target of 
+<a href="https://www.maelstrom-eurohpc.eu/article?topic=improved-local-weather-predictions">application 5 (AP5) in scope of MAELSTROM</a>.
+Two different datasets, named Tier-1 and Tier-2 in the following, can be downloaded from the <a href="https://aws.amazon.com/s3/?nc1=h_ls">AWS s3-bucket</a>,
+provided by ECMWF, with this `CliMetLab` plugin. Both datasets are distributed under the 
+<a href="https://git.ecmwf.int/projects/MLFET/repos/maelstrom-downscaling-ap5/browse/LICENSE">Apache License, version 2.0 </a>
+and thus are open-access.  
+
+## Using climetlab to access the data
+
+The `CliMetLab` python package allows easy access to the data with a few lines of code. <br>
+The following examples demonstrate how to obtain the two provided datasets. 
+A more detailed description of both datasets is provided afterwards.
+
+### Download the Tier-1 data
+The training data of the Tier-1 dataset can be downloaded as follows:
+```
+!pip install climetlab climetlab_maelstrom_downscaling
+import climetlab as cml
+ds = cml.load_dataset("maelstrom-downscaling", dataset="training")
+ds.to_xarray()
+```
+By changing the `dataset`-argument to `"validation"` and `"testing"`, the validation and testing data can be retrieved.
+Furthermore, an augmented variant of the dataset is available which can be downloaded by adding 
+a `_augmented`-suffix to the `dataset`-arguments.
+
+### Download the Tier-2 data
+The Tier-2 dataset can be downloaded by replacing the value of the first argument of `cml.load_dataset`. 
+The following code-snippet exemplary downloads the training dataset (about 45 GB!):
+```commandline
+ds = cml.load_dataset("maelstrom-downscaling-tier2", dataset="training")
+```
+Note that no augmented variant of the Tier-2 dataset is provided.
+
+### Tutorial for the Tier-1 dataset
+
+A tutorial is available in form of a <a href="https://git.ecmwf.int/projects/MLFET/repos/maelstrom-downscaling-ap5/browse/notebooks/demo_downscaling_dataset.ipynb">Jupyter Notebook</a>.
+In this Jupyter Notebook, the Tier-1 dataset is used to train a simple U-Net for downscaling adapted from [1].
+
+## Dataset description
+
+Within the <a href="https://maelstrom-eurohpc.eu/">MAELSTROM</a> project, two different datasets are provided that are 
+used to construct statistical downscaling tasks with deep neural networks.
+The first dataset, the Tier-1 dataset, serves as the starting point and provides the data for a pure downscaling task 
+similar to the super-resolution task in computer vision. <br>
+The Tier-2 dataset provides the data for a real downscaling task in meteorology where the super-resolution task 
+is complemented by bias correction. <br>
+Both datasets will be described in more detail in the following.
+
+### The Tier-1 dataset
+The Tier-1 dataset contains 2m temperature and surface elevation data obtained from the IFS HRES model at its initialization times 00 and 12 UTC between 2016 and 2020.
+The data is temporally sliced to months of the summer half of the year (defined between April and September inclusively). 
+Spatially, the data is limited to a domain covering Central Europe including complex topography with 128x96 grid points in zonal and meridional direction.
+For convenience, the data has been remapped onto a regular spherical grid with a spacing (dx) of 0.1°.
+<br><br>
+Since only one set of model data is used, the Tier-1 dataset constitutes an artificial downscaling task
+where the input data is coarsened and the downscaling model is trained to revert this coarsening process.
+This makes the downscaling task very similar to the super-resolution task in computer vision,
+since no systematic bias has to be removed between the input and the target data. Note that this (simplified)
+downscaling task has been subject to other studies on statistical downscaling with deep neural networks as well,
+e.g. [1] or [2].
+
+For the target variable of the Tier 1-dataset, the 2m temperature `t2m_tar`, the coarsened input data has undergone the
+following preprocessing chain:<br>
+The first step comprises a conservative remapping onto a coarse grid with dx = 0.8°. This step effectively removes fine-grained information from 
+the data. Second, the data is interpolated back (naively) onto the high resolved grid (with dx = 0.1°) via bi-linear interpolation. Note that this step does 
+*not* recover the information loss from step 1. Finally, to obtain energetic consistency, all calculation have been performed using the dry static energy 
+which is a pure function of the temperature and the elevation.<br><br>
+
+The dataset is thereby subdivided into subsets for training, validation and testing. The former comprises the data between 2016 and 2019,
+while the two latter are made of monthly data from 2020. 
+
+### The Tier-2 dataset
+
+The Tier-2 dataset provides data for a real downscaling task where coarse-grained ERA5 reanalysis data [3]
+are downscaled onto the high-resolved grid of the COSMO REA6 dataset [4]. 
+Since data from two different models are now used, where COSMO REA6 provides added value
+over complex terrain due to its higher spatial resolution, the downscaling task is now twofold:
+The data has to be super-resolved and bias-corrected.
+
+Here, we still target the 2m temperature as with the Tier-1 dataset, but include more predictor variables:
+- 2m temperature
+- 850 hPa- and 925 hPa temperature
+- surface latent and sensible heat fluxes
+- 10m horizontal wind (u,v)
+- boundary layer height
+
+The surface topography from the ERA5 and the COSMO REA6 datasets are also included as static predictor variables.
+
+As a necessary prerequisite, the underlying grid of both reanalysis datasets needed to be merged.
+Here, we have remapped the ERA5 data onto the rotated pole grid deployed by the COSMO model [5].
+With a grid spacing of 0.275° in rotated coordinates, the spatial resolution of the ERA 5 data is 
+five times coarser than the target data, the COSMO REA6-data (dx=0.055°). 
+Similar to the Tier-1 dataset, the ERA5-data is bi-linearly interpolated onto the high resolved target 
+grid to serve as input for the neural networks for downscaling.
+
+Currently, the target domain of the Tier-2 dataset comprises 120x96 grid points (with dx=0.055°) 
+covering large parts of Central Europe to include complex terrain of the Alps and the German low mountain range.
+Hourly data is provided for the years between 2006 and 2018. By default, the years 2006-2016 constitute the 
+training dataset, while 2017 and 2018 are used for validation and testing, respectively.
+
+## References
+**[1]** Sha, Yingkai, et al. "Deep-learning-based gridded downscaling of surface meteorological variables in complex
+terrain. Part I: Daily maximum and minimum 2-m temperature."
+Journal of Applied Meteorology and Climatology 59.12 (2020): 2057-2073. 
+<a href="https://doi.org/10.1175/JAMC-D-20-0057.1"> DOI</a>.<br>
+**[2]** Leinonen, Jussi et al., "Stochastic Super-Resolution for Downscaling Time-Evolving Atmospheric Fields
+With a Generative Adversarial Network." IEEE Transactions on Geoscience and Remote Sensing 59.9 (2021): 7211-7223 
+<a href="https://doi.org/10.1109/TGRS.2020.3032790">DOI</a>.<br>
+**[3]** Hersbach, Hans, et al. "The ERA5 global reanalysis." Quarterly Journal of the Royal Meteorological Society 
+146.730 (2020): 1999-2049. 
+<a href="https://doi.org/10.1002/qj.3803">DOI</a>.<br>
+**[4]** Bollmeyer, Christoph, et al. "Towards a high‐resolution regional reanalysis for the European CORDEX domain."
+Quarterly Journal of the Royal Meteorological Society 141.686 (2015): 1-15.
+<a href="https://doi.org/10.1002/qj.2486">DOI</a>.<br>
+**[5]** Hans-Ertel-Center for Weather Research - Climate Monitoring and Diagnostics.
+COSMO Regional Reanalysis - COSMO-REA6. 
+<a href="https://reanalysis.meteo.uni-bonn.de/?COSMO-REA6">Link</a>.<br>
+
