@@ -1,0 +1,7 @@
+README.md
+spendwise.egg-info/PKG-INFO
+spendwise.egg-info/SOURCES.txt
+spendwise.egg-info/dependency_links.txt
+spendwise.egg-info/entry_points.txt
+spendwise.egg-info/requires.txt
+spendwise.egg-info/top_level.txt
