@@ -1,0 +1,27 @@
+-e ./
+aeppl>=0.0.40
+aesara>=2.8.8
+arviz
+astroid==2.15.8  # remove after https://github.com/executablebooks/MyST-NB/issues/543
+flax
+ipython
+jax>=0.4.16
+jaxlib>=0.4.16
+jaxopt
+jupytext
+myst_nb
+numba
+numpyro
+optax
+oryx @ git+https://github.com/jax-ml/oryx.git@main  # remove after oryx release
+pymc
+scikit-learn
+sphinx
+sphinx-autoapi
+sphinx-autobuild
+sphinx-book-theme
+sphinx-design
+sphinx-math-dollar
+sphinxcontrib-bibtex
+tfp-nightly[jax]
+versioneer
