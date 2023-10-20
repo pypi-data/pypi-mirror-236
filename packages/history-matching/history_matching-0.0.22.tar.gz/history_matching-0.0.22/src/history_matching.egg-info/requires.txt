@@ -1,0 +1,7 @@
+netcdf4>=1.6.2
+xarray>=2023.2.0
+joblib>=1.2.0
+numpy>=1.24.2
+pyDOE>=0.3.8
+scikit-learn>=1.2.1
+scipy>=1.10.0
