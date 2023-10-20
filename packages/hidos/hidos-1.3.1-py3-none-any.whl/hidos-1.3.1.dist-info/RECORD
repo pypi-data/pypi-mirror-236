@@ -1,0 +1,16 @@
+hidos/__init__.py,sha256=svuuPG3vVxUcHMfMK4iCCyHI5dvnIun80BE8Y8pXWow,140
+hidos/__main__.py,sha256=pUA3OMXLW-6RQAU38yUdC4yspM-7s3rWa6Q7BTR31f0,4658
+hidos/archive.py,sha256=GMMaHXPiKWpRO570j-1gcxvZlw2KGuniGr4X5NYYQg0,8142
+hidos/dsi.py,sha256=931qfs-RSZwMrsizn4ZktDmQU-ugvEflzsSqx0YcXZg,2972
+hidos/exceptions.py,sha256=aEHs8LFNFVNbWmon6CU50Xl-7b0lQjyQ8VnFIBEBBSs,761
+hidos/git.py,sha256=HNlnQT3W4cbZisJ-21mCcRZSd_aTU1Pr_ipNuwMLc-4,8403
+hidos/history.py,sha256=ZzYYqh4cUeH1Sl501vM18oDp3y_fxEGlCLndaGmr57k,6628
+hidos/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hidos/remote.py,sha256=hvtWzzU_wlcydHurbnZLBAio9ydh4gBAR66hf1rJs_c,684
+hidos/util.py,sha256=LAU0gkdWj0aLD_Cs9I-sDT8iyzbS05SGtoeq8Ul0MrI,3013
+hidos-1.3.1.dist-info/LICENSE,sha256=CQsIXwrUPVso1RhpQVA0RBfY-hu4hA6gkqjhbqpHEFY,1073
+hidos-1.3.1.dist-info/METADATA,sha256=t67lxMFkH_nVTZhlLhT07EZWksp_LUXw6sqL684HxPU,686
+hidos-1.3.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hidos-1.3.1.dist-info/entry_points.txt,sha256=h5pC40HFuZvwqvIeOuOIXDTC4cystubtLBgD2QKjM3o,46
+hidos-1.3.1.dist-info/top_level.txt,sha256=8a-QRSTLKVUESdqDDSZiFHXk1XWbtHRoLopVsHGNISg,6
+hidos-1.3.1.dist-info/RECORD,,
