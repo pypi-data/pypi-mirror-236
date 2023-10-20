@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "jweb"
+version = "0.0.5"
+description = "A toolkit for web visualization"
+authors = ["Qinsheng <qsh.zh27@gmail.com>"]
+readme = "README.md"
+keywords = ["jam", "jweb", "web"]
+license = "MIT"
+packages = [
+    {include = "jweb"},
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+loguru = "^0.7.0"
+hydra-core = "^1.1.0"
+pandas = "^1.5.3"
+tqdm = "^4.65.0"
+requests = "^2.31.0"
+Flask = "^3.0.0"
+typer = "^0.9.0"
+markdown2 = "^2.4.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pre-commit = "^2.13.0"
+black = "^21.5b1"
+isort = "^5.8.0"
+pylint = "^2.8.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+jw_img="jweb.img.app:main"
