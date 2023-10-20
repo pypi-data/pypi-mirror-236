@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "IQSmart"
+version = "1.1.1"
+authors = [
+  { name="Mark Peterson", email="mpeterson@theiatech.com" },
+]
+description = "Theia MCR motor control functions and calculations"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+  'Development Status :: 5 - Production/Stable',
+  'Intended Audience :: Science/Research',
+  'Intended Audience :: Manufacturing',
+  'License :: Other/Proprietary License',
+  'Operating System :: Microsoft :: Windows',
+  'Programming Language :: Python :: 3',
+  'Natural Language :: English',
+]
+dependencies = ["numpy", "scipy", "TheiaMCR"]
+
+[project.urls]
+"Homepage" = "https://github.com/cliquot22/IQSmart"
+"Bug Tracker" = "https://github.com/cliquot22/IQSmart/issues"
+
+[tool.setuptools]
+packages = ["IQSmart"]
