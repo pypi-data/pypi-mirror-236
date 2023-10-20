@@ -1,0 +1,8 @@
+spglib>=1.10.4
+pymatgen>=2023.10.3
+pandas>=2.0.2
+networkx>=2.3
+ase>=3.18.0
+scipy>=1.7.3
+importlib_metadata>=1.4
+pyshtools>=4.10.3
