@@ -1,0 +1,82 @@
+$schema: https://json-schema.org/draft/2020-12/schema
+title: meta_dev_branches
+description: Repository branches settings
+
+type: object
+additionalProperties: false
+properties:
+  branch:
+    type: object
+    default: {}
+    additionalProperties: false
+    properties:
+
+      default:
+        description: Default branch
+        type: object
+        default: {}
+        additionalProperties: false
+        properties:
+          name:
+            type: string
+            default: main
+          protection_rules:
+            type: object
+            default: {}
+            additionalProperties: false
+            properties:
+              allow_deletion:
+                type: boolean
+                default: false
+              allow_force_push:
+                type: boolean
+                default: true
+
+        required: [ name ]
+
+      group:
+        type: object
+        description: Branch groups
+        default: {}
+        properties:
+          release:
+            type: object
+            description: Release branch
+            default: { }
+            properties:
+              prefix:
+                description: Prefix for the branch name
+                type: string
+                default: release/
+              protection_rules:
+                description: Branch protection rules
+                type: object
+            required: [ prefix ]
+          dev:
+            type: object
+            description: Development branch
+            default: {}
+            properties:
+              prefix:
+                description: Prefix for the branch name
+                type: string
+                default: dev/
+              protection_rules:
+                description: Branch protection rules
+                type: object
+            required: [ prefix ]
+          ci_pull:
+            type: object
+            description: CI pull request head branch
+            default: { }
+            properties:
+              prefix:
+                description: Prefix for the branch name
+                type: string
+                default: ci-pull/
+              protection_rules:
+                description: Branch protection rules
+                type: object
+            required: [ prefix ]
+        required: [ release, dev, ci_pull ]
+    required: [ default, group ]
