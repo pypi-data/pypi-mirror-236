@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: funmap
+Version: 0.1.13
+Summary: generate gene co-function networks using omics data
+Home-page: https://github.com/bzhanglab/funmap
+Author: Zhiao Shi
+Author-email: zhiao.shi@gmail.com
+License: MIT license
+Keywords: funmap,bioinformatics,biological-network
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: pyyaml (>=6.0)
+Requires-Dist: xgboost (>=1.7.4)
+Requires-Dist: numpy (>=1.24.2)
+Requires-Dist: scipy (>=1.10.1)
+Requires-Dist: pyarrow (>=11.0.0)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: joblib (>=1.2.0)
+Requires-Dist: matplotlib (>=3.7.0)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: scikit-learn (>=1.2.1)
+Requires-Dist: imbalanced-learn (>=0.10.1)
+Requires-Dist: tqdm (>=4.64.1)
+Requires-Dist: PyPDF2 (>=3.0.1)
+Requires-Dist: matplotlib-venn (>=0.11.7)
+Requires-Dist: networkx (>=3.0)
+Requires-Dist: powerlaw (>=1.5)
+Requires-Dist: click (>=8.0.1)
+Requires-Dist: h5py (>=3.4.0)
+Requires-Dist: tables (>=3.6.1)
+
