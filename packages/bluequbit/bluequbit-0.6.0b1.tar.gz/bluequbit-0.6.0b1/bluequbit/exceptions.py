@@ -1,0 +1,90 @@
+from . import job_metadata_constants
+
+
+class BQError(Exception):
+    def __init__(self, message="Unknown Error Message"):
+        super().__init__(message)
+        self.message = message
+
+
+class BQSDKUsageError(BQError):
+    def __init__(self, message):
+        super().__init__(message)
+
+
+class BQUnauthorizedAccessError(BQError):
+    def __init__(self):
+        super().__init__(
+            "Wrong API key. You can find your API key once you log in to"
+            " https://app.bluequbit.io."
+        )
+
+
+class BQJobStatevectorNotAvailableError(BQError):
+    def __init__(self, job_id, num_qubits, shots, pauli_sum):
+        message = "Statevector is not available."
+        if shots is not None and shots != 0:
+            message += " Job run with shots > 0. Please use .get_counts() instead."
+        elif num_qubits > 22:
+            message += f" Job has too many, {num_qubits}, qubits."
+        elif pauli_sum is not None:
+            message += " Observables are provided."
+        super().__init__(message)
+        self.job_id = job_id
+        self.num_qubits = num_qubits
+
+
+class BQJobNotCompleteError(BQError):
+    def __init__(self, job_id, run_status, error_message):
+        super().__init__(
+            f"Job {job_id} finished with status: {run_status}. {error_message}",
+        )
+        self.job_id = job_id
+        self.run_status = run_status
+        self.error_message = error_message
+
+
+class BQJobHasNotFinishedYetError(BQError):
+    def __init__(self, job_id, run_status):
+        super().__init__(
+            f"Job {job_id} has not finished yet. Current status: {run_status}.",
+        )
+        self.job_id = job_id
+        self.run_status = run_status
+
+
+class BQJobCouldNotCancelError(BQError):
+    def __init__(self, job_id, run_status, error_message):
+        super().__init__(
+            f"Couldn't cancel job {job_id}. Finished status is {run_status}."
+            f" {error_message}",
+        )
+        self.job_id = job_id
+        self.run_status = run_status
+
+
+class BQBatchJobsLimitExceededError(BQError):
+    def __init__(self, num):
+        super().__init__(
+            "Batch operations job count limit exceeded. The maximum is"
+            f" {job_metadata_constants.MAXIMUM_NUMBER_OF_BATCH_JOBS}, but {num} was"
+            " used."
+        )
+        self.num = num
+
+
+class BQAPIError(BQError):
+    def __init__(self, http_status_code, error_message):
+        super().__init__(
+            f"{error_message}. HTTP response status code: {http_status_code}.",
+        )
+        self.http_status_code = http_status_code
+        self.error_message = error_message
+
+
+class BQJobInvalidDeviceTypeError(BQError):
+    def __init__(self, device):
+        super().__init__(
+            f"Invalid device type {device}. Must be one of"
+            f" {', '.join(job_metadata_constants.DEVICE_TYPES)}."
+        )
