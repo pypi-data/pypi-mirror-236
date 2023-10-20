@@ -1,0 +1,14 @@
+napari_nanopyx/__init__.py,sha256=dZp03NIqfgLkyabwu1CoJoCfB_qrY6zocBDCx3xzSgQ,42
+napari_nanopyx/channel_registration.py,sha256=VDEofRzS2LSn1qp1sZa1EK7-zf6RejsIMOwW-W4ZPyI,3360
+napari_nanopyx/drift_alignment.py,sha256=mcnpEWy9H0G0n62yUEl0v3Q2gGVsEA63r8PjSlskltU,3956
+napari_nanopyx/esrrf.py,sha256=tchVzixn_DEBFG3QaiCA_gCc1gNITAB5eYnyQclyUqg,2495
+napari_nanopyx/napari.yaml,sha256=UxuacWpd__tD6xE0uaHQr3-Jy3YEDJqCVugazUURRFY,2567
+napari_nanopyx/squirrel.py,sha256=ENcf2znaRSOxMGTBvVl8L2XNiK195blvBPrd6N6K7EY,3482
+napari_nanopyx/srrf.py,sha256=o5kGMt_uckhDyiCuLJKnEpNQxzdnxJ0LDPRbTa-nZs0,2662
+napari_nanopyx/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_nanopyx-0.0.10.dist-info/LICENSE,sha256=fnFw486_iKn2DHuEIUGDI8CTBNoa9NXpD02h3ByKJmE,18650
+napari_nanopyx-0.0.10.dist-info/METADATA,sha256=7iQlbJgye3i1N2gKsm8N00FSUzMo3XAovGKaiiI_-TM,4162
+napari_nanopyx-0.0.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+napari_nanopyx-0.0.10.dist-info/entry_points.txt,sha256=AHW0aS6-acLzAUO0Bdvd-8Tr3e84D0DskeZURV_b8OI,62
+napari_nanopyx-0.0.10.dist-info/top_level.txt,sha256=hN4aSuUUKmyS3Y0_0czrTXNFd5yFugaN4lLZgcPqpmo,15
+napari_nanopyx-0.0.10.dist-info/RECORD,,
