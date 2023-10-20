@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: OCR-GLS-G6
+Version: 0.0.2
+Summary: OCR_GLS_G6 - Optical character recognition and QR codes
+Home-page: https://git.bdms.co.th/Burin.Pa/ocr_gls_g6
+Download-URL: https://git.bdms.co.th/Burin.Pa/ocr_gls_g6/-/archive/v0.0.2/ocr_gls_g6-v0.0.2.zip
+Author: Burin Panchat
+Author-email: burin.gbp@gmail.com
+License: MIT
+Keywords: OCR_GLS_G6,OCR,ocr
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+License-File: LICENSE
+License-File: LICENSE.txt
+
+(OCR-GLS-G6) OCR
+================
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install OCR-GLS-G6
+
+วิธีใช้
+~~~~~~~
+
+.. code:: python
+
+   from OcrTools import *
+
+   img_path="simple.pdf" // ไฟล์ PDF หรือ ไฟล์รูปภาพ
+
+   OcrTools.easyOCR(typeOfOcr="qrcode",locationFile=img_path,area={'offset_x_min':2078,'offset_y_min':3152,'width':213,'height':220})
+
+   // Output
+   {   
+       'coordinates': [ตำแหน่งของไฟล์ที่อ่านข้อมูล],
+       'value': ข้อความที่ได้จาก QR หรือ ข้อความในไฟล์ที่ต้องการ,
+       'valid': ความถูกต้องของข้อมูล
+       'accuracy_percent': เปอร์เซ็นความถูกต้องของข้อมูล
+   }
+
+พัฒนาโดย: Burin Panchat GLS Develop G6
