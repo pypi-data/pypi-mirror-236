@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "kay-pi-de-toolkit"
+version = "0.1.0"
+description = ""
+authors = ["Konstantinos Panidis <panidis.k@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+deng = 'kay_pi_de_toolkit.main:cli'
