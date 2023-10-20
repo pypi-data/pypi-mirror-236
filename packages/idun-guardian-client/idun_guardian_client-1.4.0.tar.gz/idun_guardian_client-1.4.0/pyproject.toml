@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "idun-guardian-client"
+version = "1.4.0"
+description = "Python SDK for communication with the IDUN Guardian earbuds and IDUN cloud"
+authors = ["IDUN Technologies <contact@iduntechnologies.com>"]
+readme = "README.md"
+packages = [{include = "idun_guardian_client"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pycryptodome = "^3.15"
+bleak = "==0.20.1"
+python-dotenv = "^0.21.0"
+websockets = "^10.3"
+requests = "^2.28"
+numpy = "^1.23"
+pydantic = "^1.10"
+idun-data-models = "^0.3.7"
+httpx = "^0.24.1"
+orjson = "^3.9"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.3"
+mypy = "^1.5"
+pylint = "^2.17"
+black = "^23.3"
+orjson = "^3.9.5"
+types-requests = "*"
+ipykernel = ">=6.15"
+numpy = ">=1.23"
+pyyaml = ">=6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
