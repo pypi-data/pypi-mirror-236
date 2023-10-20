@@ -1,0 +1,13 @@
+README.md
+setup.py
+./application/__init__.py
+./application/application_brutta.py
+./database/__init__.py
+./database/firebase.py
+provapipeline2023.egg-info/PKG-INFO
+provapipeline2023.egg-info/SOURCES.txt
+provapipeline2023.egg-info/dependency_links.txt
+provapipeline2023.egg-info/not-zip-safe
+provapipeline2023.egg-info/top_level.txt
+tests/test_integration.py
+tests/test_unit.py
