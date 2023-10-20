@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: alfa-integrations
+Version: 0.0.1
+Summary: Python Wraper for Internals tools
+Home-page: https://github.com/Dofamin/alfa-integrations
+Author: Filippov Roman
+Author-email: 
+License: unlicense
+License-File: LICENSE
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: urllib3
+
