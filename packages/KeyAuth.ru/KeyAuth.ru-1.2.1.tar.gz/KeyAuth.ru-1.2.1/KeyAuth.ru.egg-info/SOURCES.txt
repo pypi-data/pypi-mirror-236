@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+KeyAuth.ru.egg-info/PKG-INFO
+KeyAuth.ru.egg-info/SOURCES.txt
+KeyAuth.ru.egg-info/dependency_links.txt
+KeyAuth.ru.egg-info/requires.txt
+KeyAuth.ru.egg-info/top_level.txt
+keyauthru/__init__.py
+keyauthru/keyauthru.py
