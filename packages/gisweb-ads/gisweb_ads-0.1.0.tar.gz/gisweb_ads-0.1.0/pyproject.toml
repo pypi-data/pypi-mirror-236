@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "gisweb-ads"
+version = "0.1.0"
+description = ""
+authors = ["Roberto Starnini <roberto.starnini@gmail.com>"]
+readme = "README.md"
+packages = [{include = "gisweb_ads"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pendulum = "^2.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
