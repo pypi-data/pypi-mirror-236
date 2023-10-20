@@ -1,0 +1,2 @@
+include src/shootpandora_cloud/py.typed
+recursive-include src/shootpandora_cloud/flask *
