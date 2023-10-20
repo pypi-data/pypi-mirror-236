@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: heimdall_py
+Version: 0.6.0
+Summary: Heimdall is an advanced Ethereum smart contract toolkit for forensic and heuristic analysis.
+Keywords: ethereum,web3,decompiler,evm,crypto
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+.
