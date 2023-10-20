@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: oddsnends
+Version: 0.1.1.dev2
+Summary: Miscellaneous (odds 'n ends) methods for data science
+Home-page: https://github.com/vivianleung/oddsnends
+Author: Vivian Leung
+Author-email: Vivian Leung <leung.vivian.w@gmail.com>
+License: MIT License
+Project-URL: Homepage, https://github.com/vivianleung/pyvcftools
+Project-URL: Bug Tracker, https://github.com/vivianleung/pyvcftools/issues
+Keywords: oddsnends
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: numpy
+Requires-Dist: pandas >=2.1
+Requires-Dist: regex
+
