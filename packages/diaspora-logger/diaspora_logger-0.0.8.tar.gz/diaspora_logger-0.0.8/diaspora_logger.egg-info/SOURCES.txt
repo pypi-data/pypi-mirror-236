@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+diaspora_logger/__init__.py
+diaspora_logger/credential.py
+diaspora_logger/logger.py
+diaspora_logger.egg-info/PKG-INFO
+diaspora_logger.egg-info/SOURCES.txt
+diaspora_logger.egg-info/dependency_links.txt
+diaspora_logger.egg-info/requires.txt
+diaspora_logger.egg-info/top_level.txt
+diaspora_logger/examples/__init__.py
+diaspora_logger/examples/example_consumer.py
+diaspora_logger/examples/example_producer.py
