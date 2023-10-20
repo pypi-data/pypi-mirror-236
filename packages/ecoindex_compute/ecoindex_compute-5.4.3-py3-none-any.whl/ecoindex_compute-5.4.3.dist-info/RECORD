@@ -1,0 +1,17 @@
+ecoindex/compute/__init__.py,sha256=SrBXzjb7t77TYsIXoDnoZ43UbEVwVuv3k4qkkCMK0Ew,366
+ecoindex/compute/ecoindex.py,sha256=LO9osAZoH6KcmT6ArV3p327YFdDyqSHKyNTjQ1zJ14E,1574
+ecoindex/data/__init__.py,sha256=ECmzPP4NXTsze5X5yAeuxvp_O6RC2yBiCWphIqR1ZIk,1073
+ecoindex/data/colors.py,sha256=epbMe6-L5YbyuaoDOEfmpiWg0qWpN_b4-GNz0qKIT5g,98
+ecoindex/data/grades.py,sha256=yVy8jmyx3xjZlHNjTlG-Tz6-33Ro9Zn5bO86_f2nfyo,48
+ecoindex/data/medians.py,sha256=YWXZMtGB7fUYZeNCQmI7yOB4mt3KMtyFVTFjJ0anMRY,52
+ecoindex/data/quantiles.py,sha256=rm0bSOUDlNVmSyKTUJ6gpAxClvoMEPeX3cQNR2Bc2nw,688
+ecoindex/data/targets.py,sha256=HQWlnx-a7uBGmp4lcYoicoimzv3nTVNXKH-cdod91HI,52
+ecoindex/models/__init__.py,sha256=5LSw8ftGbPIDPIHL1DsXoX-F1P5kqRxrdv39zvuQte0,949
+ecoindex/models/api.py,sha256=jgUI1w3Rb52MajNhLn2035dhRVdTByxf307e4evsnX8,1620
+ecoindex/models/compute.py,sha256=8tdYzgc5FdnsMMPl_GpwO414VZQ8zjwNzPYiQTc0BMw,3649
+ecoindex/models/enums.py,sha256=D1AhipXsbSnViFcAKRBRATPs_I5RQU5CEeftYHv-WXA,155
+ecoindex/models/response_examples.py,sha256=KQy-bXkwgSq6esJGckC1GAmsClZinhtCWGbxZiJdc6I,2391
+ecoindex/models/sort.py,sha256=dbIqBcSzC288TQV7pjDvzhKMy1nrX4GwO_xrjujBTJA,133
+ecoindex_compute-5.4.3.dist-info/METADATA,sha256=0tl3e_MyP6q-ld0K4vZfd2EfiBUAAFxBRv7TwqFyWhk,2040
+ecoindex_compute-5.4.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ecoindex_compute-5.4.3.dist-info/RECORD,,
