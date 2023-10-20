@@ -1,0 +1,10 @@
+aiohttp
+nest_asyncio
+numpy
+pandas
+requests
+pytest
+click
+pylint
+black
+pytest-cov
