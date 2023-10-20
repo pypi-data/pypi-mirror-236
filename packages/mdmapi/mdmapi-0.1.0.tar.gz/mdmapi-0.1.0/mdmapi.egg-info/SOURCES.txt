@@ -1,0 +1,5 @@
+setup.py
+mdmapi.egg-info/PKG-INFO
+mdmapi.egg-info/SOURCES.txt
+mdmapi.egg-info/dependency_links.txt
+mdmapi.egg-info/top_level.txt
