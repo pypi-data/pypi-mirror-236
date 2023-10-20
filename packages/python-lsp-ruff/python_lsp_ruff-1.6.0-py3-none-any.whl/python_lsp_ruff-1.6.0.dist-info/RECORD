@@ -1,0 +1,10 @@
+pylsp_ruff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylsp_ruff/plugin.py,sha256=TkRmbyONlVxRQX1w_BK65Gg4bZXCJKSBd13-FXET0DU,18196
+pylsp_ruff/ruff.py,sha256=2b6DPqIoSNBxjuugvg5LWFPj2wK5Wnj3CZSFFOHk7o0,459
+pylsp_ruff/settings.py,sha256=l2E-fftIKdcMDY23N_U3tloFdwLQue5aPbljsYISbpY,1716
+python_lsp_ruff-1.6.0.dist-info/LICENSE,sha256=SnT8ycQtohkw2_3DUZPgoSH6ulLLECgo4mRD3fQLhFE,1138
+python_lsp_ruff-1.6.0.dist-info/METADATA,sha256=vME3GGH6xKjrHTV-k7EXL7trTqghCdiNhRVolML3Y8k,5433
+python_lsp_ruff-1.6.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+python_lsp_ruff-1.6.0.dist-info/entry_points.txt,sha256=Xw0-cT8lErzIW4-YCW4TeGzL5Rc-1ibaahRa6cmuyeA,33
+python_lsp_ruff-1.6.0.dist-info/top_level.txt,sha256=OkiEK0ptFLBoMUYEevbtFZBG1-BWQaMhAIrMQm275rY,11
+python_lsp_ruff-1.6.0.dist-info/RECORD,,
