@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bodhiext.common
+Version: 0.2.1
+Summary: A collection of independent common plugins for bodhilib
+License: MIT
+Author: Amir Nagri
+Author-email: amir.nagri@proton.me
+Requires-Python: >=3.8.1,<3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bodhilib (>=0.1.12)
+Description-Content-Type: text/markdown
+
+# bodhiext.common
+
+A set of independent, common plugins for [bodhilib](https://github.com/BodhiSearch/bodhilib) library.
+
+`bodhiext.common` plugins do not depend on any company-specific implementation. But are pure python implementation of component interfaces defined by bodhilib.
+
