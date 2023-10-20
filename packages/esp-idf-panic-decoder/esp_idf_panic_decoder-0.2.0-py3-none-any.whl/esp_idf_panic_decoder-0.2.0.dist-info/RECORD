@@ -1,0 +1,8 @@
+esp_idf_panic_decoder/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+esp_idf_panic_decoder/__main__.py,sha256=C1lLPVYihlFOfxvAva7ZaHcc12KnLIj9miRqf_zRoGk,74
+esp_idf_panic_decoder/gdb_panic_server.py,sha256=qQcBAkBFoBUGFGEdHBU-J2UbS9oExoyzzcbq0YYAW2I,11330
+esp_idf_panic_decoder-0.2.0.dist-info/LICENSE,sha256=Av-TG_oXJSCUlYSDbQDLLPFtw4cskCGjaZqTEuQ4wkE,11365
+esp_idf_panic_decoder-0.2.0.dist-info/METADATA,sha256=ybdF1ZRSZ9Qai4AWvveogqHl9QIVm-rRJnFjOr5Mp0g,15820
+esp_idf_panic_decoder-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+esp_idf_panic_decoder-0.2.0.dist-info/top_level.txt,sha256=C1kFLFa23RbjQHvGwQXZDk3SpqffC8jzRKIIkOqFS-E,22
+esp_idf_panic_decoder-0.2.0.dist-info/RECORD,,
