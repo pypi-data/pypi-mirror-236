@@ -1,0 +1,12 @@
+cartoGRAPHs/__init__.py,sha256=h7HTVZwreMx9m0NHgpAvAoP926iCPkKv7LV0057qiLQ,228
+cartoGRAPHs/cartoGRAPHs.py,sha256=rwsfyAwtFgfXLg8IRwfujYMSntotO0LwdBrcLcmXX6E,14347
+cartoGRAPHs/func_calculations.py,sha256=bd1Q3k5XKk_TSD_yLpEmFGB-ebS-lJ3EjeTEsQuZOI0,6282
+cartoGRAPHs/func_embed_plot.py,sha256=nEPev3aQRzZxGRifFIgKrhY_E69pQzh455fmtjav2ko,62840
+cartoGRAPHs/func_exportVR.py,sha256=92e_2ij6DWVfmlBTlAhQO4i1kXcuxmzjphoqWzeYRJc,10181
+cartoGRAPHs/func_load_data.py,sha256=Qipgqfw3wCb5TTzTFjfCUriZ0Fh0tWJmYM_U_CDxaeA,10608
+cartoGRAPHs/func_visual_properties.py,sha256=7JqzEE8oM7h_aJKyXsDBbuG100lXUc_DW04B9v6bIiw,21740
+cartoGRAPHs-1.2.0.dist-info/LICENSE.md,sha256=f1d3GqubWUgHGLJawDrVmuYk-8igwNj0g3hIcnNyNA8,1090
+cartoGRAPHs-1.2.0.dist-info/METADATA,sha256=jXB8Ye86XynSpiPBT0V9Q6ON_1dwj22z_UbXgqQHAuw,7031
+cartoGRAPHs-1.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cartoGRAPHs-1.2.0.dist-info/top_level.txt,sha256=HE8nvf43eNrIPgLmxgV7f-ppM9edddppjTqepD91ha0,12
+cartoGRAPHs-1.2.0.dist-info/RECORD,,
