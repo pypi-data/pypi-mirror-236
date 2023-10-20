@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+title: P-Spline PSD
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Patricio
+    family-names: Maturana-Russel
+    email: p.maturana.russel@aut.ac.nz
+  - given-names: Avi
+    family-names: Vajpeyi
+    email: avi.vajpeyi@auckland.ac.nz
+    affiliation: >-
+      Science Centre 303S, 38 Princes st,
+      Auckland, 1010, New Zealand
+    orcid: 'https://orcid.org/0000-0002-4146-1132'
+identifiers:
+  - type: url
+    value: 'https://link.springer.com/article/10.1007/s00180-021-01066-7'
+    description: The paper describing the method behind this work.
+repository-code: 'https://github.com/avivajpeyi/pyslipper'
+url: 'http://avivajpeyi.github.io/pyslipper/'
+repository-artifact: 'https://pypi.org/project/pyslipper/'
+abstract: >-
+  Source code for the P-Spline PSD
+keywords:
+  - PSD
+  - Splines
+  - Bayesian Inference
+  - MCMC
+license: MIT

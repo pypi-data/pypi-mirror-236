@@ -1,0 +1,17 @@
+arviz
+spectral
+scikit-fda
+matplotlib
+imageio
+pygifsicle
+bilby
+statsmodels
+loguru
+
+[dev]
+pytest>=6.0
+pytest-cov>=4.1.0
+pre-commit
+flake8>=5.0.4
+black>=22.12.0
+jupyter-book
