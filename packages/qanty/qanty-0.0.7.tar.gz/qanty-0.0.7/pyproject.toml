@@ -1,0 +1,9 @@
+[tool.black]
+line-length = 130
+
+[tool.ruff]
+line-length = 130
+ignore = ["E402"]
+
+[tool.pytest.ini_options]
+addopts = "--verbosity 1 --cov --cov-report term-missing --disable-warnings"
