@@ -1,0 +1,10 @@
+lucit_licensing_python-1.2.0.dist-info/RECORD,,
+lucit_licensing_python-1.2.0.dist-info/LICENSE,sha256=teQUfszs7y4Stl4xDhepo3mf88VVZIVkBkuOSwHc11g,3745
+lucit_licensing_python-1.2.0.dist-info/WHEEL,sha256=3ggQLyEtwymd0rFFn7Y7bZeC-TPY--XSbFQw5jO7PyA,111
+lucit_licensing_python-1.2.0.dist-info/entry_points.txt,sha256=cfoHRISC96mL_A5Dd8xnPS85M8lqPJKSMR6rVo2z1Zc,64
+lucit_licensing_python-1.2.0.dist-info/top_level.txt,sha256=9vuULaGZdK7NbXlXgoCTPEBqkx6EWGWR9a04lO4q7-I,23
+lucit_licensing_python-1.2.0.dist-info/METADATA,sha256=Fsg5NTwsKSSB_GCxA1PcfJKe-BRvFXZIBRvDijc00ck,12186
+lucit_licensing_python/cli.cpython-310-darwin.so,sha256=o1F-hoLe_VEZZBuSjhDOxbHUud8AnuK6ggaHmHXSCqs,160760
+lucit_licensing_python/manager.cpython-310-darwin.so,sha256=Vmg_nraq5zS_f3jDdewcZJRr-MMvNGsMw1wXJ83FLag,265256
+lucit_licensing_python/exceptions.cpython-310-darwin.so,sha256=Adj8OIXUBR5_H2zWt4tXaE3yqsylcctvpJbXbMAJ9Ug,40968
+lucit_licensing_python/__init__.cpython-310-darwin.so,sha256=v4hJKnz73w585YIfHJJOWjAfqwRIW5BFqvn8S1lbauo,38968
