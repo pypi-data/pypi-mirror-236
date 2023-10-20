@@ -1,0 +1,7 @@
+setup.py
+function/__init__.py
+function/function.py
+test_package_pypi.egg-info/PKG-INFO
+test_package_pypi.egg-info/SOURCES.txt
+test_package_pypi.egg-info/dependency_links.txt
+test_package_pypi.egg-info/top_level.txt
