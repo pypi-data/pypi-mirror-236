@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+hypod/__init__.py
+hypod/_version.py
+hypod/decor.py
+hypod/main.py
+hypod/parser.py
+hypod.egg-info/PKG-INFO
+hypod.egg-info/SOURCES.txt
+hypod.egg-info/dependency_links.txt
+hypod.egg-info/requires.txt
+hypod.egg-info/top_level.txt
