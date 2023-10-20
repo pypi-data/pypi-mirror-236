@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+src/hirmeos_irus_uk_driver.egg-info/PKG-INFO
+src/hirmeos_irus_uk_driver.egg-info/SOURCES.txt
+src/hirmeos_irus_uk_driver.egg-info/dependency_links.txt
+src/hirmeos_irus_uk_driver.egg-info/requires.txt
+src/hirmeos_irus_uk_driver.egg-info/top_level.txt
+src/irus_uk_driver/__init__.py
+src/irus_uk_driver/client.py
+src/irus_uk_driver/serializers.py
+tests/test_client.py

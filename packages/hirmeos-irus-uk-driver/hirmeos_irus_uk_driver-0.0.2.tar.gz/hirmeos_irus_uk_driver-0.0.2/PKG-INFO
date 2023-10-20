@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: hirmeos_irus_uk_driver
+Version: 0.0.2
+Summary: Functions required by the irus_uk-driver
+Author-email: Cristian Garcia <cristian.garcia@ubiquitypress.com>, Rowan Hatherley <rowan.hatherley@ubiquitypress.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests>=2.25
+Requires-Dist: pydantic>=2.0
+
+==============
+IRUS UK Driver
+==============
+
+Provide functionality to collect and normalise report data from IRUS-UK.
+
+Refer to https://irus.jisc.ac.uk/r5/oapen/embed/api/#irus_ir for config options.
+
+Release Notes:
+==============
+
+[0.0.2] - 2023-10-19
+---------------------
+Added
+.....
+    - Pydantic serializers/models to handle IRUS-UK response data
+    - Provided functionality to return serialized data without explicitly
+      using the Irus Client.
+
+Changed
+.......
+    - Changed required options for fetching data
+
+
+[0.0.1] - 2023-09-22
+---------------------
+Added
+.......
+    - Logic to initialise the webdriver
+    - Log in to Google
+    - Fetch a Google Play Books report
