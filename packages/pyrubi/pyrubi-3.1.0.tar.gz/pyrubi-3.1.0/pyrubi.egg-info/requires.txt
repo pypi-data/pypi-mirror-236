@@ -1,0 +1,6 @@
+urllib3
+tqdm
+websocket-client
+pycryptodome
+mutagen
+filetype
