@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: cytopus
+Version: 1.3.2
+Author: Thomas Walle
+License-File: LICENSE
+Requires-Dist: networkx>2.7
