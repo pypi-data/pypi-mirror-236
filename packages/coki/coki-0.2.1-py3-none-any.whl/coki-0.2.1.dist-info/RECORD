@@ -1,0 +1,12 @@
+coki/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+coki/coki-gen-credentials.bat,sha256=hf8OPdXH_XgvYufTZTJpHssqdtP14KfM6gEHzIdrFHk,61
+coki/coki.bat,sha256=4djxko5WdFpZ3r0s5AF0fzXcswC-w_ODkwKH8C5CIZM,47
+coki/coki_cli.py,sha256=V1vGePxTruwCAbTSzctrFIiQL0B-Ve1Tss2Srxv_ITk,581
+coki/coki_credentials.txt,sha256=UXoQ9Z8F6tVXI1szD1an5n3xOtgUEP6yIq972b5-GQI,221
+coki/coki_gen_credentials.py,sha256=s41preadBLup4cTUMdQ9G7zmbc8M8TSNlBu1qeFkJ3I,1248
+coki/coki_token.txt,sha256=9A8gXv3M9KrHdKgNrupggnTOqoc3KR8te8l_52xzVvU,403
+coki/funcs.py,sha256=n2Ig-9DMbC1KJvSfnE8ZOShHyh1Z_0fe8BAyiwwXr8k,5300
+coki-0.2.1.dist-info/METADATA,sha256=lfcTycYKYTVKPgOaMUWXfA9VrZrO1ZBHd96H45fgdu8,4750
+coki-0.2.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+coki-0.2.1.dist-info/licenses/LICENSE,sha256=c2P8fiWWmY8_wBCbaQhXW_HNj2-i_Jev9r2dFxd_ULs,1038
+coki-0.2.1.dist-info/RECORD,,
