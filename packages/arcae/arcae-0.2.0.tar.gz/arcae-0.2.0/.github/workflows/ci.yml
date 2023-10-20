@@ -1,0 +1,207 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+    - main
+    tags:
+    - "*"
+  pull_request:
+  schedule:
+    - cron: '30 2 * * 1,4' # Every Monday and Thursday @ 2h30am UTC
+
+env:
+  VCPKG_INSTALLED_DIR: /tmp/vcpkg_installed
+  ARTIFACT_NAME: distribution
+
+jobs:
+  build-sdist:
+    name: Build Source Distribution
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    strategy:
+      matrix:
+        python: ["3.8"]
+    steps:
+      - name: Set up Python ${{ matrix.python }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: Upgrade pip and install build
+        run: python -m pip install -U pip build
+
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Build source distribution
+        run: python -m build --sdist
+
+      - name: Upload wheel artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: ./dist/*.tar.gz
+
+  cpp-tests:
+    name: Execute C++ test cases
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    strategy:
+      fail-fast: false
+      matrix:
+        triplet:
+          - x64-linux-dynamic-cxx17-abi1-rel
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python }}
+
+      - name: List directory structure
+        run: tree
+
+      - name: Install C++ Compiler and cmake
+        run: |
+          sudo apt update
+          sudo apt install build-essential cmake
+          python -m pip install -U pip
+          python -m pip install pyarrow
+
+      - name: Get Github Action Cache Variables
+        uses: actions/github-script@v6
+        with:
+          script: |
+            core.exportVariable('ACTIONS_CACHE_URL', process.env.ACTIONS_CACHE_URL || '');
+            core.exportVariable('ACTIONS_RUNTIME_TOKEN', process.env.ACTIONS_RUNTIME_TOKEN || '');
+
+      - name: Build C++ libraries and tests
+        env:
+          VCPKG_BINARY_SOURCES: clear;x-gha,readwrite
+          VCPKG_TARGET_TRIPLET: ${{ matrix.triplet }}
+        run: |
+          cmake -S . -B build
+          cmake --build build
+
+      - name: Execute C++ tests
+        run: |
+          cd build
+          ctest --verbose
+
+      # - name: Debug with tmate on failure
+      #   if: ${{ failure() }}
+      #   uses: mxschmitt/action-tmate@v3
+
+
+  build-wheels:
+    name: Build and Test Binary Wheels
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, '[skip ci]')"
+    strategy:
+      fail-fast: false
+      matrix:
+        # https://peps.python.org/pep-0425
+        python:
+          # python version, cpython tag
+          - ["3.8", "cp38"]
+          - ["3.9", "cp39"]
+          - ["3.10", "cp310"]
+          - ["3.11", "cp311"]
+        platform:
+          # platform tag, manylinux tag, vcpkg triplet
+          - [manylinux_x86_64, manylinux_2_28, x64-linux-dynamic-cxx17-abi1-rel]
+
+    steps:
+      - name: Set up Python ${{ matrix.python[0] }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python[0] }}
+
+      - name: Upgrade pip and install virtualenv
+        run: python -m pip install -U pip virtualenv
+
+      - name: Checkout source
+        uses: actions/checkout@v4
+
+      - name: Get Github Action Cache Variables
+        uses: actions/github-script@v6
+        with:
+          script: |
+            core.exportVariable('ACTIONS_CACHE_URL', process.env.ACTIONS_CACHE_URL || '');
+            core.exportVariable('ACTIONS_RUNTIME_TOKEN', process.env.ACTIONS_RUNTIME_TOKEN || '');
+
+      - name: Run cibuildwheel
+        uses: pypa/cibuildwheel@v2.13.1
+        env:
+          CIBW_BUILD: ${{ matrix.python[1] }}-${{ matrix.platform[0] }}
+          CIBW_BUILD_FRONTEND: build
+          CIBW_BEFORE_ALL_LINUX: yum install -y zip flex bison gcc-gfortran
+          CIBW_MANYLINUX_X86_64_IMAGE: quay.io/pypa/${{ matrix.platform[1] }}_x86_64
+          CIBW_ENVIRONMENT_LINUX: >
+            CMAKE_ARGS=-DBUILD_TESTING=OFF
+            ACTIONS_CACHE_URL=${{ env.ACTIONS_CACHE_URL }}
+            ACTIONS_RUNTIME_TOKEN=${{ env.ACTIONS_RUNTIME_TOKEN }}
+            VCPKG_BINARY_SOURCES="clear;x-gha,readwrite"
+            VCPKG_TARGET_TRIPLET=${{ matrix.platform[2] }}
+            VCPKG_INSTALLED_DIR=${{ env.VCPKG_INSTALLED_DIR }}
+            LD_LIBRARY_PATH=${{ env.VCPKG_INSTALLED_DIR }}/${{ matrix.platform[2] }}/lib
+          CIBW_REPAIR_WHEEL_COMMAND_LINUX: >
+            auditwheel repair -w {dest_dir} {wheel} --exclude libarrow_python.so --exclude libarrow.so.1300
+          CIBW_TEST_EXTRAS: test
+          CIBW_TEST_COMMAND: py.test -s -vvv --pyargs arcae
+
+      - name: Upload wheel artifacts
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: ./wheelhouse/*.whl
+
+  upload-to-test-pypi:
+    name: Upload release to Test PyPI
+    needs: [build-sdist, build-wheels]
+    runs-on: ubuntu-latest
+    environment:
+      name: release-test
+    permissions:
+      id-token: write
+    steps:
+      - name: Download distribution artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: dist
+
+      - name: List artifacts
+        run: ls -lh dist
+
+      - name: Publish package distributions to Test PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+        continue-on-error: true
+
+  upload-to-pypi:
+    name: Upload release to PyPI
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags')
+    needs: [build-sdist, build-wheels]
+    runs-on: ubuntu-latest
+    environment:
+      name: release
+    permissions:
+      id-token: write
+    steps:
+      - name: Download distribution artifacts
+        uses: actions/download-artifact@v3
+        with:
+          name: ${{ env.ARTIFACT_NAME }}
+          path: dist
+
+      - name: List artifacts
+        run: ls -lh dist
+
+      - name: Publish package distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
