@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/copen.egg-info/PKG-INFO
+src/copen.egg-info/SOURCES.txt
+src/copen.egg-info/dependency_links.txt
+src/copen.egg-info/top_level.txt
