@@ -1,0 +1,8 @@
+python-dotenv
+pyyaml
+
+[google]
+google-cloud-secret-manager
+
+[test]
+pytest

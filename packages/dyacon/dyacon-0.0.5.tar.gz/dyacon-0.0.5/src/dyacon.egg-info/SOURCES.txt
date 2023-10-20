@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/dyacon/__init__.py
+src/dyacon/read.py
+src/dyacon.egg-info/PKG-INFO
+src/dyacon.egg-info/SOURCES.txt
+src/dyacon.egg-info/dependency_links.txt
+src/dyacon.egg-info/requires.txt
+src/dyacon.egg-info/top_level.txt
+src/dyacon/loaders/__init__.py
+src/dyacon/loaders/external.py
+src/dyacon/loaders/loaders.py
+tests/test_loaders.py
+tests/test_read.py
