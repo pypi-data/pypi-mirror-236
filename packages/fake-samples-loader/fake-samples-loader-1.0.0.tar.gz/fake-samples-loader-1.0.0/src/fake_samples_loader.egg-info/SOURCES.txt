@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/fake_samples_loader.egg-info/PKG-INFO
+src/fake_samples_loader.egg-info/SOURCES.txt
+src/fake_samples_loader.egg-info/dependency_links.txt
+src/fake_samples_loader.egg-info/entry_points.txt
+src/fake_samples_loader.egg-info/requires.txt
+src/fake_samples_loader.egg-info/top_level.txt
+src/loader/Sample.py
+src/loader/__init__.py
+src/loader/__main__.py
