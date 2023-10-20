@@ -1,0 +1,10 @@
+LICENSE.txt
+setup.py
+wwp/__init__.py
+wwp/firstNPrimes.py
+wwp/wwp.py
+wwp.egg-info/PKG-INFO
+wwp.egg-info/SOURCES.txt
+wwp.egg-info/dependency_links.txt
+wwp.egg-info/requires.txt
+wwp.egg-info/top_level.txt
