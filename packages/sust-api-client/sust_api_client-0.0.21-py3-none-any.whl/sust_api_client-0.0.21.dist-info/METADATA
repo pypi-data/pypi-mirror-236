@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: sust-api-client
+Version: 0.0.21
+Summary: Sust Global API Client
+License-File: LICENSE
+Requires-Dist: python-dateutil
+Requires-Dist: urllib3
+
