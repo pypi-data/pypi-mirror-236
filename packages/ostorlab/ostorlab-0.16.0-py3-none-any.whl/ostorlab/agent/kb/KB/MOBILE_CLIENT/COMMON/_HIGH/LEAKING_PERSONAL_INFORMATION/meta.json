@@ -1,0 +1,33 @@
+{
+  "risk_rating": "high",
+  "short_description": "Personally Identifiable Information were detected on the system.",
+  "references": {
+    "Practices for Protecting Electronic Restricted Data: A Quick Reference": "http://its.ucsc.edu/policies/rdpp.html",
+    "CWE-200: Information Exposure": "http://cwe.mitre.org/data/definitions/200.html",
+    "CWE-359: Exposure of Private Information (\"Privacy Violation\")": "http://cwe.mitre.org/data/definitions/359.html"
+  },
+  "title": "Personally Information were detected on the system",
+  "privacy_issue": true,
+  "security_issue": false,
+  "categories": {
+    "OWASP_MASVS_L1": [
+      "MSTG_ARCH_12"
+    ],
+    "OWASP_MASVS_L2": [
+      "MSTG_ARCH_12"
+    ],
+    "GDPR": [
+      "ART_32",
+      "ART_25"
+    ],
+    "PCI":[
+      "REQUIREMENT_3_2",
+      "REQUIREMENT_3_3",
+      "REQUIREMENT_3_5",
+      "REQUIREMENT_3_6",
+      "REQUIREMENT_3_7",
+      "REQUIREMENT_4_2",
+      "REQUIREMENT_6_2"
+    ]
+  }
+}
