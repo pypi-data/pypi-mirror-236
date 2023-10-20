@@ -1,0 +1,46 @@
+[tool.pdm.dev-dependencies]
+dev = [
+    "black",
+    "isort",
+    "creart>=0.3.0",
+]
+
+[tool.pdm.build]
+includes = [
+    "src/graia",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[project]
+authors = [
+    { name = "GreyElaina", email = "31543961+GreyElaina@users.noreply.github.com" },
+]
+requires-python = ">=3.8,<4.0"
+dependencies = [
+    "importlib-metadata~=6.8; python_version < \"3.10\"",
+    "loguru<1.0,>=0.6.0",
+]
+name = "graia-saya"
+version = "0.0.19"
+description = "a modular implementation with modern design and injection"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+broadcast = [
+    "graia-broadcast>=0.23.0",
+]
+scheduler = [
+    "graia-scheduler<1.0.0,>=0.2.0",
+]
+
+[project.entry-points."creart.creators"]
+saya = "graia.saya.creator:SayaCreator"
+broadcast_behaviour = "graia.saya.creator:BroadcastBehaviourCreator"
