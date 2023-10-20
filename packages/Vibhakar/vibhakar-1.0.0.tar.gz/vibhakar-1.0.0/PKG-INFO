@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Vibhakar
+Version: 1.0.0
+Summary: A python package that give you Info about me
+Home-page: https://github.com/p0lygun/vibhakar
+Author: p0lygun
+Author-email: solankivibhakar82@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Project-URL: Repository, https://github.com/p0lygun/vibhakar
+Description-Content-Type: text/markdown
+
+# vibhakar
+A python package that contains my info
+
