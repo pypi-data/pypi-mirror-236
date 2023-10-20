@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fastutils-hmarcuzzo
+Version: 0.2.6
+Summary: A personal utility library I've developed to streamline and optimize backend development with FastAPI in my projects. From generic repositories and queries to enums, error handling, and more, fastutils_hmarcuzzo encompasses essential tools that have proven invaluable in my development journey, whether as a novice or a seasoned professional.
+Author: Henrique Marcuzzo
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: annotated-types ==0.6.0
+Requires-Dist: anyio ==3.7.1
+Requires-Dist: exceptiongroup ==1.1.3
+Requires-Dist: fastapi ==0.104.0
+Requires-Dist: greenlet ==3.0.0
+Requires-Dist: idna ==3.4
+Requires-Dist: passlib ==1.7.4
+Requires-Dist: pydantic ==2.4.2
+Requires-Dist: pydantic-core ==2.10.1
+Requires-Dist: sniffio ==1.3.0
+Requires-Dist: sqlalchemy ==2.0.22
+Requires-Dist: sqlalchemy-utils ==0.41.1
+Requires-Dist: starlette ==0.27.0
+Requires-Dist: typing-extensions ==4.8.0
+
+# fast-utils
