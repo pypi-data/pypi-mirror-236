@@ -1,0 +1,11 @@
+trustpilot/__init__.py,sha256=zxnQwZ73P77IYRq6H7vqOunTCNmm8M9sK3e_LkAxqfk,115
+trustpilot/async_client.py,sha256=PWI8IUW8Depo2R1gn0qkNuxZNMfmh0JjpdofiVd0lwg,4845
+trustpilot/auth.py,sha256=eKXavVeYAOg9aov8_dBe-Jsx5bIEZnXLGV1UcRVUobM,1230
+trustpilot/cli.py,sha256=KctdNrYNhFQO7RB_18-rTr982GMR_33ZWjfLA1XqrMM,8201
+trustpilot/client.py,sha256=KswdxgBgV-Wv32s3HOrqTE9FVuR4Sa901l-pFbCeKAY,5231
+trustpilot/utils.py,sha256=ffCWkRllWZdpTxS2KvtKRhIJKIFRwlPko79qNIP5SaU,340
+trustpilot-10.0.1.dist-info/LICENSE,sha256=2fjGUHmCNHTf4q2w-Zk8Pxo6hhs2YajwP91SUk73k48,1067
+trustpilot-10.0.1.dist-info/METADATA,sha256=UqRn_1mqPqxTZiGvLRxgRhGYgbD60-5fY66sq6hc1Vk,4419
+trustpilot-10.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+trustpilot-10.0.1.dist-info/entry_points.txt,sha256=t9nYwgYzajKTWZ9ds2dWN6t22qb2UIWAJzQ4tpussw8,60
+trustpilot-10.0.1.dist-info/RECORD,,
