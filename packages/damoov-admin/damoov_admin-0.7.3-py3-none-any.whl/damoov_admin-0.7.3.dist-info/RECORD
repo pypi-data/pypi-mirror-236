@@ -1,0 +1,13 @@
+damoov_admin/__init__.py,sha256=bFohpJz_mtetGI-V_BiWGR1JDNygr79O5Wj_1IiVEqw,199
+damoov_admin/auth.py,sha256=q0sTnNGxJEWGrlYSFwswyNP4dTn4dhOzbHSaHvWMtBE,6593
+damoov_admin/core.py,sha256=47kI4uMSNCIHqP6DpUBTdhWyDKsOQXk4LjL5XzQ8sic,164
+damoov_admin/engagement.py,sha256=IbD70w4n3VSLLHfh2_DE13XxA42Ec__ilCa9pNK5iN4,3083
+damoov_admin/statistics.py,sha256=s_UUDrt8gb1A_HzeA_mzEqeB1srfpNJr7tXG6hiV0Wo,18088
+damoov_admin/trips.py,sha256=c6lVDStdzUuu0UajOql-MZy_HtFxoijcX5TTQOX8um4,9733
+damoov_admin/users.py,sha256=76j_DGQcLT0x3CEqEzmgl_4rBzBEDHT9dQm_rZmpmiE,6022
+damoov_admin/utility.py,sha256=ZTeBf83faaBlpMeDBDxh2zEbDIYOPDkYMns3ZpT9sPc,4137
+damoov_admin-0.7.3.dist-info/LICENSE,sha256=iAdGr9bXLx5ZJv-yALkkXyneZYW2A2ZG6fch-WCqW3U,1063
+damoov_admin-0.7.3.dist-info/METADATA,sha256=mid8UA8mx6ekdUCIxQaA9IxiC6mVPqr86JPYkyeAAsI,43928
+damoov_admin-0.7.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+damoov_admin-0.7.3.dist-info/top_level.txt,sha256=fmUSFjKl9eY4-yxoB08bMTpPc2EcBu7UKZTXYqgxYiI,13
+damoov_admin-0.7.3.dist-info/RECORD,,
