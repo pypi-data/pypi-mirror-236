@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "Vibhakar"
+version = "1.0.1"
+description = "A python package that give you Info about me"
+authors = ["p0lygun <solankivibhakar82@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/p0lygun/vibhakar"
+homepage = "https://github.com/p0lygun/vibhakar"
+packages = [
+    { include = "vibhakar", from = "src" }
+]
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.scripts]
+show-info = 'vibhakar:show_info'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry_bumpversion.replacements]]
+files = ["README.md"]
+search = '![Package Version](https://img.shields.io/badge/v{current_version}-blue)'
+replace = '![Package Version](https://img.shields.io/badge/v{new_version}-blue)'
