@@ -1,0 +1,14 @@
+pyserial~=3.5
+pyvcd<0.4,>=0.2.2
+rich
+usb-construct<1.0
+torii>=0.5
+
+[dev]
+nox
+
+[platform]
+pyusb~=1.2.0
+libusb1~=1.9.2
+prompt-toolkit~=3.0.16
+ziglang~=0.8.0
