@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+nextcloud_talk_recording.egg-info/PKG-INFO
+nextcloud_talk_recording.egg-info/SOURCES.txt
+nextcloud_talk_recording.egg-info/dependency_links.txt
+nextcloud_talk_recording.egg-info/not-zip-safe
+nextcloud_talk_recording.egg-info/top_level.txt
