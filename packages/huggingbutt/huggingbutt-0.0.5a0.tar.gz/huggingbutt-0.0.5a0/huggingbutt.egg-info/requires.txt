@@ -1,0 +1,11 @@
+numpy==1.21.2
+grpcio<=1.48.2,>=1.11.0
+protobuf<3.20,>=3.6
+numpy<2.0,>=1.13.3
+tqdm
+requests
+stable_baselines3>=2.1.0
+mlagents-envs==0.30.0
+tensorboard>=2.14
+toml
+pandas==1.5.3
