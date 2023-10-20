@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Jonesys_DataTools
+Version: 0.0.2
+Summary: A collection of tools for data processing and manipulation
+Project-URL: Homepage, https://github.com/gjones1911/AnyLogic_PY/tree/main/code/DataProcessors/Jonesys_DataTools
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Gerald Jones <gjones2@vols.utk.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# A set of data processing tools
+* databaseProcessors:= for interacting with DBs from python
+* fileProcessors:= used for file manipulation in a basic sense
+* JSON_TOOLS:= use for generating and reading json files
