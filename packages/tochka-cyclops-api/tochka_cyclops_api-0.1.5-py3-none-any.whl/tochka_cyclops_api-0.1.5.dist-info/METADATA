@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: tochka-cyclops-api
+Version: 0.1.5
+Summary: Tochka API v2 aka Cyclops API
+Home-page: https://github.com/s3rgeym/tochka-cyclops-api
+Author: Sergey M
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyopenssl (>=23.2.0,<24.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Project-URL: Repository, https://github.com/s3rgeym/tochka-cyclops-api
+Description-Content-Type: text/markdown
+
+# Tochka API v2 aka Cyclops API
+
+Неофициальная библиотека на Python для работы с АПИ Точка Банка. [Документация](https://api.tochka.com/static/v1/tender-docs/cyclops/main/index.html).
+
+Установка:
+
+```bash
+pip install tochka-cyclops-api
+```
+
+Поддержка asyncio пока не планируется, но за звезду и донат в пару тысяч оперативно добавлю.
+
+Использование:
+
+```python
+from tochka_cyclops_api import ApiTochka
+
+api = ApiTochka(
+  base_url=API_TOCHKA_BASE_URL,
+  sign_system=API_TOCHKA_SIGN_SYSTEM,
+  sign_thumbprint=API_TOCHKA_SIGN_THUMBPRINT,
+  pkey_data=API_TOCHKA_PKEY_DATA,
+)
+
+# Вызовы
+# Все три примера вызовут один и тот же метод с теми же параметрами
+api.meth_name(foo='bar', baz=42)
+api.methName({'foo': 'bar'}, baz=42)
+api.jsonrpc_call('MethName', {'foo': 'bar', 'baz': 42})
+```
+
