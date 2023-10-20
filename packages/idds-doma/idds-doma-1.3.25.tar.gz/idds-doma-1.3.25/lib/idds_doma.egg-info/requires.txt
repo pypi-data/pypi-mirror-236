@@ -1,0 +1,5 @@
+pip
+futures
+panda-client-light
+idds-common==1.3.25
+idds-workflow==1.3.25
