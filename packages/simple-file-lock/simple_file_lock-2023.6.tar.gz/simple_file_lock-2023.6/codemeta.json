@@ -1,0 +1,29 @@
+{
+    "@context": [
+        "https://doi.org/10.5063/schema/codemeta-2.0",
+        "https://w3id.org/software-iodata",
+        "https://raw.githubusercontent.com/jantman/repostatus.org/master/badges/latest/ontology.jsonld",
+        "https://schema.org",
+        "https://w3id.org/software-types"
+    ],
+    "@type": "SoftwareSourceCode",
+    "author": "Jan-Michael Rye",
+    "codeRepository": "https://gitlab.inria.fr/jrye/simple-file-lock.git",
+    "description": "Context manager for simple file locking.",
+    "email": "jan-michael.rye@inria.fr",
+    "identifier": "simple_file_lock",
+    "issueTracker": "https://gitlab.inria.fr/jrye/simple-file-lock/-/issues",
+    "license": "http://spdx.org/licenses/MIT",
+    "name": "simple_file_lock",
+    "operatingSystem": "OS Independent",
+    "runtimePlatform": "Python 3",
+    "softwareHelp": "https://jrye.gitlabpages.inria.fr/simple-file-lock",
+    "softwareRequirements": {
+        "@type": "SoftwareApplication",
+        "identifier": "psutil",
+        "name": "psutil",
+        "runtimePlatform": "Python 3"
+    },
+    "url": "https://gitlab.inria.fr/jrye/simple-file-lock",
+    "version": "2023.6"
+}
