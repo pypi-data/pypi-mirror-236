@@ -1,0 +1,3 @@
+[console_scripts]
+focus-validator=focus_validator.main:main
+
