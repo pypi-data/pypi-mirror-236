@@ -1,0 +1,11 @@
+j_realty_api/__init__.py,sha256=l4FH4IOuMwRd0ZO-EqLhNS-ZrPZP_gPI-6Dh9qYR9d0,54
+j_realty_api/j_realty_en.py,sha256=maY_M2UZKCuAphpI0WbUUKdJntdMzKnPVbjjw3hO_MI,4107
+j_realty_api/j_realty_jp.py,sha256=7p2kjcQ039w9lmB5p3ChzekmkU6nUje8WNKorXIm2dw,5579
+j_realty_api/data/jp_prop_transaction_col_names.json,sha256=nMcFcihwGIZKGHb_VDosMGp6XkFsfYVlWM7nje0sJvM,1388
+j_realty_api/data/pref-code-en.json,sha256=j3nPh9Gti_7MwBnUjSUYFeXq67vDHCDjvS938L4YC68,869
+j_realty_api/data/pref-code-jp.json,sha256=7A9vPsPA31rDP54yajJFdcmsm8fXma1g_yGfwBomyCM,1092
+j_realty_api-0.1.dist-info/LICENSE,sha256=n_dPlwEkJ5CF6YHqfMPKU2ctVUrCLUlc5Pmcv7DqoTA,1085
+j_realty_api-0.1.dist-info/METADATA,sha256=i-Nf7rq6IdrJiCx_d3QFYCA9LweFbdL5Nta_b4Fvup8,3028
+j_realty_api-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+j_realty_api-0.1.dist-info/top_level.txt,sha256=fvYsu1HWG6hGzGn64rz92Jy_3l3i5KmkysfHRaBlXdU,13
+j_realty_api-0.1.dist-info/RECORD,,
