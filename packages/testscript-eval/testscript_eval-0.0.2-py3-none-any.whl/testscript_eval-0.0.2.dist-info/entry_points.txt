@@ -1,0 +1,3 @@
+[pytest11]
+testscript-eval-py=testscript_eval.pytest_plugin
+

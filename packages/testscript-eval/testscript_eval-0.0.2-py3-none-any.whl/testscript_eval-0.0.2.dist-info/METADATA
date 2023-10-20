@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: testscript_eval
+Version: 0.0.2
+Summary: TestScript FHIR resource evaluator
+Keywords: fhir
+Author-email: "beda.software" <ilya@beda.software>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: requests>=2.25.1
+Requires-Dist: aiohttp>=3.6.3
+Requires-Dist: pytz
+Requires-Dist: aiofiles
+Requires-Dist: fhirpathpy
+Requires-Dist: pyyaml-include
+Requires-Dist: jsonpath_ng
+Requires-Dist: funcy
+Requires-Dist: fhirpy
+Requires-Dist: pytest_asyncio
+
+# testscript-eval-py
+## Tests
+To run tests locally specify `TESTS_AIDBOX_LICENSE` in the `.env` file
+You can get license from the https://aidbox.app/ui/portal/
+
+Run Aidbox`docker compose up -d`.
+
+Install project dependencies: `pipenv install --dev`
+
+Run `echo PYTHONPATH=. >> .env` to run tests properly
+
+Run tests ```
+pipenv run pytest
+````
+
