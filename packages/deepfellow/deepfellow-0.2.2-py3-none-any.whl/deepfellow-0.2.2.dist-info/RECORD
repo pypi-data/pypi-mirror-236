@@ -1,0 +1,8 @@
+deepfellow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepfellow/asr.py,sha256=utyZVl4Y1uxvlgGDACaxKuPCDkcTuZ2VYVZ-Z4KkdzE,5765
+deepfellow/base.py,sha256=Z7-xgtAcQkLErsDIAvUquTln9uovWt3cuQ2n9RoczmU,7856
+deepfellow/test.py,sha256=YFYyAkjSsiUMUezb1AGo4LiQZ8aAjk6vSYPoQSO0NRk,6081
+deepfellow-0.2.2.dist-info/METADATA,sha256=keUPwhHBsDeHyExuSXaREGVxNjbdx7cwDGA6n6euHmQ,118
+deepfellow-0.2.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+deepfellow-0.2.2.dist-info/top_level.txt,sha256=kQvgMlVax9HAwONBA2LjG_bUjlJIQRBSd3qhCmxjIFs,11
+deepfellow-0.2.2.dist-info/RECORD,,
