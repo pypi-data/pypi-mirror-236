@@ -1,0 +1,2 @@
+Version: 1.5.1
+Arguments: ['C:\\ProgramData\\anaconda3\\envs\\test\\Scripts\\delvewheel', 'repair', 'CudaVox-1.7.0-cp311-cp311-win_amd64.whl', '--no-mangle', 'cudart64_12.dll']
