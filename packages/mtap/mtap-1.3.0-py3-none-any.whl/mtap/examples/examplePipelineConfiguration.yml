@@ -1,0 +1,34 @@
+name: example-pipeline
+events_address: 127.0.0.1:10100  # The address for the events service
+# events_addresses:
+#   - 127.0.0.1:10100
+#   - 127.0.0.1:10101
+#   - 127.0.0.1:10102
+#   - 127.0.0.1:10103
+mp_config:
+  # Whether to print a progress bar in the console
+  show_progress: True
+  # Concurrent workers / documents being processed at once (on the pipeline side).
+  workers: 4
+  # Number of documents to receive from the source and keep ready for processing.
+  read_ahead: 2
+  # Whether to close events that are handed off from the source to the pipeline.
+  close_events: True
+error_handlers:
+  - name: simple
+  - name: termination
+    params:
+      max_failures: 0
+components:
+  - name: mtap-example-processor-python # The processor's identifier
+    address: localhost:10101 # The address of the processor, null to use service discovery
+    call_timeout: 5.0  # A customizable timeout
+    params:
+      do_work: yes
+  - name: mtap-example-processor-java
+    address: localhost:10102
+    params:
+      do_work: yes
+  - name: not-enabled-processor
+    address: localhost:10000
+    enabled: no  # This processor will not be run
