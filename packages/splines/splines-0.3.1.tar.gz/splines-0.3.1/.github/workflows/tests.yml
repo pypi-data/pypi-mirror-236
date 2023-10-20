@@ -1,0 +1,30 @@
+name: Run tests
+on: [push, pull_request]
+env:
+  PYTEST_ADDOPTS: "--color=yes"
+  PIP_INSTALL: python -m pip install
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.11"]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Double-check Python version
+        run: |
+          python --version
+          python -c "import sys; assert sys.version.startswith('${{ matrix.python-version }}.')"
+      - name: Install Python package
+        run: |
+          $PIP_INSTALL .
+      - name: Install test dependencies
+        run: |
+          $PIP_INSTALL -r tests/requirements.txt
+      - name: Run pytest
+        run: |
+          python -m pytest

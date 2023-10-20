@@ -1,0 +1,7 @@
+/build/
+/_build/
+/dist/
+__pycache__/
+.ipynb_checkpoints/
+/src/splines.egg-info/
+/doc/python-module/
