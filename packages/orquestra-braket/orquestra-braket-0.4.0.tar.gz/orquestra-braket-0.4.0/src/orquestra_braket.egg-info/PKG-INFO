@@ -1,0 +1,111 @@
+Metadata-Version: 2.1
+Name: orquestra-braket
+Version: 0.4.0
+Summary: "Orquestra Braket package"
+Home-page: https://github.com/zapatacomputing/orquestra-braket
+Author: Zapata Computing Inc.
+Author-email: info@zapatacomputing.com,
+License: Apache Software License 2.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: !=3.9.7,>=3.9
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE
+Requires-Dist: numpy>=1.20
+Requires-Dist: scipy>=1.4.1
+Requires-Dist: sympy<=1.9,>=1.5
+Requires-Dist: orquestra-quantum
+Requires-Dist: amazon-braket-sdk<=1.57.2
+Provides-Extra: dev
+Requires-Dist: orquestra-python-dev; extra == "dev"
+
+# orquestra-braket
+
+## What is it?
+
+`orquestra-braket` is a [Zapata](https://www.zapatacomputing.com) library holding modules for integrating [Amazon Braket supported devices](https://docs.aws.amazon.com/braket/latest/developerguide/braket-devices.html) with [Orquestra](https://www.zapatacomputing.com/orquestra/). This version supports Braket's `LocalSimlator()` and on-demand simulators.
+
+## Installation
+
+Even though it's intended to be used with Orquestra, `orquestra-braket` can be also used as a Python module.
+To install it, make to install `orquestra-quantum` first. Then you just need to run `pip install .` from the main directory.
+
+## Overview
+
+`orquestra-braket` is a Python module that exposes Braket's runner and simulators as an [`orquestra`](https://github.com/zapatacomputing/orquestra-quantum/blob/main/src/orquestra/quantum/api/backend.py) `CircuitRunner` and `WavefunctionSimulator`. They can be imported with:
+
+```python
+from orquestra.integrations.braket.runner import BraketRunner
+from orquestra.integrations.braket.simulator import braket_local_simulator
+```
+
+In addition, it interfaces with the noise models and provides converters that allow switching between `braket` circuits and those of `orquestra`.
+
+The module can be used directly in Python or in an [Orquestra](https://www.orquestra.io) workflow.
+For more details, see the [Orquestra Core docs](https://zapatacomputing.github.io/orquestra-core/index.html).
+
+For more information regarding Orquestra and resources, please refer to the [Orquestra documentation](https://www.orquestra.io/docs).
+
+## On Demand Simulator
+
+In order to use Braket's `on-demand simulator`, a `boto.Session` must be created using AWS credentials. See [Boto Session](https://boto3.amazonaws.com/v1/documentation/api/latest/reference/core/session.html) for information on creating creating a session. It highly recommended that credentials are configured in the local [AWS CLI profile](https://docs.aws.amazon.com/braket/latest/developerguide/braket-using-boto3-profiles-step-2.html). Following is an example of working with `BraketOnDemandSimulator` using credentials stored in AWS CLI profile:
+
+```python
+from orquestra.integrations.braket.runner import aws_runner
+from boto3 import Session
+
+# Insert CLI profile name here
+boto_session = Session(profile_name=`profile`, region_name='us-east-1')
+simulator_name = "SV1"
+noise_model = None
+simulator = aws_runner(name = simulator_name, noise_model = noise_model, boto_session=boto_session)
+
+```
+
+Below is an example of finding the names of on-demand simulators:
+
+```python
+from boto3 import Session
+from braket.aws import AwsSession, AwsDevice
+
+boto_session = Session(profile_name=`profile`, region_name='us-east-1')
+aws_session = AwsSession(boto_session)
+
+Simulators = AwsDevice.get_devices(types=['SIMULATOR'], aws_session)
+```
+
+## Braket QPUs
+
+This library will allow you to access the QPUs provided by AWS Braket. The process is very similar to the `BraketOnDemandSimulator`. Here is how we can get started:
+
+```python
+from orquestra.integrations.braket.runner import aws_runner
+
+QPU_name = "IonQ Device"
+s3 = "https://my-bucket.s3-us-west-2.amazonaws.com"
+backend = aws_runner(name = QPU_name, s3_destination_folder = s3, boto_session = boto_session )
+```
+
+If you want to find the list of QPU names provided by Braket, use the following method:
+
+```python
+from orquestra.integrations.braket.runner import get_QPU_names
+
+QPU_names = get_QPU_names(boto_session)
+```
+
+After setting up the QPU, you can use the following approach to send a task to a QPU.
+
+```python
+QPU_task = backend.run_and_measure(circ, n_samples)
+```
+
+Since the quantum devices are not readily accessible, the results are not returned immediately. We can monitor the status of our task by `QPU_task.state()`. You can cancel the task by `QPU.cancel()`.
+
+The outcome of the task will be stored in a [S3 Bucket](https://aws.amazon.com/s3/). You are required to have access to the bucket to retrive the results. You can find out more accessing S3 bucket [here](https://docs.aws.amazon.com/AmazonS3/latest/userguide/access-bucket-intro.html)
+
+## Development and contribution
+
+You can find the development guidelines in the [`orquestra-core` repository](https://github.com/zapatacomputing/orquestra-core/blob/main/CONTRIBUTING.md).

@@ -1,0 +1,8 @@
+numpy>=1.20
+scipy>=1.4.1
+sympy<=1.9,>=1.5
+orquestra-quantum
+amazon-braket-sdk<=1.57.2
+
+[dev]
+orquestra-python-dev
