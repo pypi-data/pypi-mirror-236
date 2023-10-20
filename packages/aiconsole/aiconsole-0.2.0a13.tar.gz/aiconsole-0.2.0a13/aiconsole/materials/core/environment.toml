@@ -1,0 +1,45 @@
+usage = "Use this always when code is about to be executed. Execution environment information, like operating system, shell, current working directory and Python packages will be collected."
+content_type = "dynamic_text"
+content_dynamic_text = """
+from datetime import datetime
+import getpass
+import os
+import platform
+import getpass
+import os
+import platform
+import subprocess
+import datetime
+    
+def collect_python_packages():
+    try:
+        output = subprocess.check_output(['pip', 'freeze']).decode('utf-8')
+        package_lines = output.split('\\n')
+        package_names = [line.split("==")[0] for line in package_lines]
+        return ' '.join(package_names)
+    except subprocess.CalledProcessError:
+        return ''
+
+def content(context):
+    return f""\"
+# Execution environment
+
+os: {platform.system()}
+cwd: {os.getcwd()}
+user_name: {getpass.getuser()}
+time_stamp: {datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+python_version: {platform.python_version()}
+default_shell: {os.environ.get('SHELL')}
+
+## Python Packages
+{collect_python_packages()}
+
+## Hardware Statistics:
+cpu: TODO
+memory:: TODO
+
+## Network Information:
+ip: TODO
+connection_status: TODO
+""\"
+"""
