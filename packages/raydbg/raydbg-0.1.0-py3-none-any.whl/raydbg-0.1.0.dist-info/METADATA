@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: raydbg
+Version: 0.1.0
+Summary: A tool for debugging Ray programs
+Home-page: https://github.com/shouc/raydbg
+Author: Chaofan Shou
+Author-email: shou@berkeley.edu
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: wget (==3.2)
+Requires-Dist: retry (==0.9.2)
+Requires-Dist: openai (==0.28.0)
+Requires-Dist: ray
+
+# RayDBG
+
+A tool for static and dynamic analysis of Ray programs, using LLM. 
+
+## Installation
+```bash
+pip3 install raydbg
+
+# Setup CodeQL (optional)
+raydbg init
+```
+
+
+## Usage
+
+Make sure you have set `OPENAI_KEY` environment variable to your OpenAI API key if you want to use LLM for more accurate analysis. 
+You can also use `--no-llm` to disable LLM feature.
+
+Static Analysis:
+```bash
+raydbg static --target <path_to_ray_file>
+```
+
+
+Dynamic Analysis:
+```bash
+raydbg dynamic --target <path_to_ray_file>
+```
+
+
+## Example
+
+```bash
+git clone https://github.com/shouc/raydbg.git
+cd raydbg
+```
+
+
+Run static analysis:
+```bash
+raydbg static --target examples/pi.py
+```
+
+
+Run dynamic analysis:
+```bash
+raydbg dynamic --target examples/pi.py
+```
