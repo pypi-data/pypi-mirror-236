@@ -1,0 +1,5 @@
+[console_scripts]
+nbic = nbic.cmds:app
+
+[nbdev]
+nbic = nbic._modidx:d

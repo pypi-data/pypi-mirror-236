@@ -1,0 +1,10 @@
+nbic/__init__.py,sha256=dRnkavs8zgB_Xe9DVij7RcZA8LaPTBusGxb6lREkHQQ,350
+nbic/_modidx.py,sha256=OZ-o_NbH1Ftx-e0a8FjYP5Qc_50uqNeuP3BaNZd5XVQ,1219
+nbic/base.py,sha256=vJiFhF4VDg03NEVr_F2bwnQH2C7JshzsmlqAvLGP26k,1788
+nbic/skip.py,sha256=kXFtBYw2vrOxNnSd0CjPnRYE8fm1HVf_K9qsI4iUNSI,1094
+nbic-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+nbic-0.0.1.dist-info/METADATA,sha256=8mZ_StM_iMWrm4IplmwueaaRl2R5uvyQZU3D-JNOMoc,2165
+nbic-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+nbic-0.0.1.dist-info/entry_points.txt,sha256=0PTSrMZ0RrkMH2h8AyZUyMu4rjxE5UQIvE9xckWwZYg,70
+nbic-0.0.1.dist-info/top_level.txt,sha256=G9gzSMlOovsYjjKjK-qW9LxcUIGzf9RnF6YEq5GZ6nQ,5
+nbic-0.0.1.dist-info/RECORD,,
