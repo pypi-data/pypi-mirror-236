@@ -1,0 +1,4 @@
+Django
+africastalking
+requests
+django-bootstrap-daterangepicker
