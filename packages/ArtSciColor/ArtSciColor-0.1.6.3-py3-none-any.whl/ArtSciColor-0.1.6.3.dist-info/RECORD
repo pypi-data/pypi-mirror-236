@@ -1,0 +1,17 @@
+ArtSciColor/__init__.py,sha256=3F_RCuOsdzPVapyWcG98E6jxxznGd42hR-SkZB6y3OU,211
+ArtSciColor/_version.py,sha256=4cib4U8gSY0WR8_BiiYhKQo4xLKYm6Sddha1Cc-MeDs,23
+ArtSciColor/auxiliary.py,sha256=-y2qUESPzib0pmTIwBPY5YaJZFapxqhuCDecrTV07bo,2193
+ArtSciColor/color.py,sha256=ww1ZMGNqb78enuzFHpCW9Uy3CrsfVJCNQN6eu7NwYrE,1338
+ArtSciColor/constants.py,sha256=sWjgwXXxmwl9h-supYSkIU03xBzcxwUDzJZJ0AN8XwU,2596
+ArtSciColor/fingerprint.py,sha256=94o7DsIG0xnWCpkxOp3z8Wi-tKA19ArTNt-oilcjCm0,7770
+ArtSciColor/image.py,sha256=5_n1ie1-kotfB4NvpfGTy2Ouly3q3TaI6gEcL0NcKAw,1758
+ArtSciColor/paths.py,sha256=2ONhXJu6C_qZaM30dWoq-aqN2by4yRZ5RlO-GW0Bfe8,1097
+ArtSciColor/swatches.py,sha256=ht40jAE43sRArwu99wFRIuV3enc7i1bLP1UwSw2tjDM,1160
+ArtSciColor/data/DB.bz,sha256=MiNPaepaCboa79rnI9m5QuEVj9nNUxWvdSaMY2CCi3k,12226
+ArtSciColor/data/DB.csv,sha256=M7MG7xNM5LfrZINu2Z9voXhGYBzYWiszKO3j-tP-R14,34649
+ArtSciColor/data/SWATCHES.bz,sha256=kKdzMHPQ5ULUpl1Y9NlAPeUXotHiavZ__m1BUp2j9WA,6147
+ArtSciColor-0.1.6.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ArtSciColor-0.1.6.3.dist-info/METADATA,sha256=0IJEzAfrLWCnQ937F96SCi8le4yD0mzfbGTr2c0rILY,6627
+ArtSciColor-0.1.6.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ArtSciColor-0.1.6.3.dist-info/top_level.txt,sha256=5zSKdepod9sz0WtMAiIXKKlXeEVYSIQDWBfZehTMlbA,12
+ArtSciColor-0.1.6.3.dist-info/RECORD,,
