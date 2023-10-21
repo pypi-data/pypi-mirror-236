@@ -1,0 +1,6 @@
+pyyaml
+jsonpickle
+eot
+tqdm
+requests_futures
+requests
