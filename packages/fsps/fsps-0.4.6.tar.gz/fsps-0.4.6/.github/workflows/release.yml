@@ -1,0 +1,87 @@
+name: Release
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - "*"
+  # pull_request:
+  workflow_dispatch:
+    inputs:
+      prerelease:
+        description: "Run a pre-release, testing the build"
+        required: false
+        type: boolean
+        default: false
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build_wheels:
+    name: Build wheel for ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os:
+          - "ubuntu-latest"
+          - "macos-latest"
+          # - "windows-latest"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+      - name: Set up macOS
+        run: brew unlink gfortran && brew link --overwrite gfortran
+        if: ${{ runner.os == 'macOS' }}
+      - uses: pypa/cibuildwheel@v2.16.1
+      - uses: actions/upload-artifact@v3
+        with:
+          path: ./wheelhouse/*.whl
+
+  build_sdist:
+    name: Build source distribution
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+          fetch-depth: 0
+      - uses: actions/setup-python@v4
+        with:
+          python-version: "3.10"
+      - name: Install dependencies
+        run: |
+          python -m pip install -U pip
+          python -m pip install -U build twine
+      - name: Build sdist
+        run: python -m build --sdist .
+      - name: Check the sdist
+        run: python -m twine check dist/*.tar.gz
+      - uses: actions/upload-artifact@v3
+        with:
+          path: dist/*.tar.gz
+
+  publish:
+    environment:
+      name: pypi
+      url: https://pypi.org/p/fsps
+    permissions:
+      id-token: write
+    needs: [build_wheels, build_sdist]
+    runs-on: ubuntu-latest
+    if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/')
+    steps:
+      - name: Get macOS arm64 wheels from Cirrus CI
+        uses: getsentry/action-wait-for-cirrus@v1.0.0
+        with:
+          task: cirrus_wheels_macos_arm64
+        timeout-minutes: 15
+      - uses: actions/download-artifact@v3
+        with:
+          name: artifact
+          path: dist
+      - uses: pypa/gh-action-pypi-publish@v1.8.10
