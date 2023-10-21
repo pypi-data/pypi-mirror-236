@@ -1,0 +1,174 @@
+Metadata-Version: 2.1
+Name: libAll
+Version: 3.1
+Summary: All libraries of PyPi
+Home-page: https://github.com/ForestBu/libAll
+Author: ForestBu
+Author-email: tvc55.admn@gmail.com
+Keywords: libAll liball alllibraries allibraries perimeter square area python file os system pause time timer login password register log reg
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests >=2.25.1
+
+# from buble import *
+import time
+import os
+
+def aperimeter(a, b = None):
+    if b != None:
+        try:
+            return (a+b)*2
+        except:
+            return "FATAL ERROR"
+    else:
+        try:
+            return a*4
+        except:
+            return "FATAL ERROR"
+
+def asquare(a, b = None):
+    if b != "pass":
+        try:
+            return a*b
+        except:
+            return "FATAL ERROR"
+    else:
+        try:
+            return a*a
+        except:
+            return "FATAL ERROR"
+
+"""^^^^ РџР»РѕС‰Р°РґСЊ Рё РџРµСЂРёРјРµС‚СЂ ^^^^"""
+
+def atime(timef, typef = 'sec'):
+    try:
+        if typef == 'sec':
+            return eval(time.sleep(timef))
+        elif typef == 'mlsec':
+            return eval(time.sleep(timef/1000))
+    except:
+        return "FATAL ERROR time construction or library construction"
+
+def apause():
+    try:
+        return eval(os.system('pause'))
+    except:
+        return "FATAL ERROR pause construction or library construction"
+
+def adownload(proceng = 101, shag = 0.1, pause = False, language = 'ru'):
+    if language == 'ru':
+        s='|'
+        for i in range(proceng):
+            time.sleep(shag)
+            print('\r','Р—Р°РіСЂСѓСЃРєР°: ',i*s,str(i),'%',end='')
+        print ('')
+        if pause == True:
+            os.system('pause')
+    elif language == 'en':
+        s='|'
+        for i in range(proceng):
+            time.sleep(shag)
+            print('\r','Download: ',i*s,str(i),'%',end='')
+        print ('')
+        if pause == True:
+            os.system('pause')
+
+"""^^^^ РїР°СѓР·Р°, Р·Р°РґРµСЂР¶РєР° Рё Р·Р°РіСЂСѓР·РєР° ^^^^"""
+
+
+def register(count=1, language='ru', downloadf=True):
+    array_login = []
+    array_password = []
+    array_reg = []
+    if language == 'ru':
+        for i in range(count):
+            login = str(input('Р’РІРµРґРёС‚Рµ Р»РѕРіРёРЅ: '))
+            password = str(input('Р’РІРµРґРёС‚Рµ РїР°СЂРѕР»СЊ: '))
+            array_login.append(login)
+            array_password.append(password)
+        if downloadf == True:
+            adownload()
+        print('Р РµРіРёС‚СЂР°С†РёСЏ СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅР°.')
+    elif language == 'en':
+        for i in range(count):
+            login = str(input('Enter the login: '))
+            password = str(input('Enter the password: '))
+            array_login.append(login)
+            array_password.append(password)
+        if downloadf == True:
+            adownload(language='en')
+        print('Registration completed successfully.')
+
+    array_reg.append(array_login)
+    array_reg.append(array_password)
+    return array_reg
+
+
+def login(logins, count=1, language='ru', downloadf=True):
+    array_login = logins[0]
+    array_password = logins[1]
+
+    array_loginf = []
+    array_passwordf = []
+    array_logins = []
+    if language == 'ru':
+        for i in range(count):
+            login = str(input('Р’РІРµРґРёС‚Рµ Р»РѕРіРёРЅ: '))
+            password = str(input('Р’РІРµРґРёС‚Рµ РїР°СЂРѕР»СЊ: '))
+            if login in array_login:
+                passwordf = array_password[array_login.index(login)]
+                if passwordf == password:
+                    array_loginf.append(login)
+                    array_passwordf.append(password)
+                    print('Р’С…РѕРґ СѓСЃРїРµС€РЅРѕ Р·Р°РІРµСЂС€РµРЅ.')
+                    print()
+                else:
+                    array_loginf.append('False')
+                    array_passwordf.append('False')
+                    print('РќРµРїСЂР°РІРµР»СЊРЅС‹Р№ Р»РѕРіРёРЅ РёР»Рё РїР°СЂРѕР»СЊ.')
+                    print()
+            else:
+                array_loginf.append('False')
+                array_passwordf.append('False')
+                print('РќРµРїСЂР°РІРµР»СЊРЅС‹Р№ Р»РѕРіРёРЅ РёР»Рё РїР°СЂРѕР»СЊ.')
+                print()
+
+        array_logins.append(array_loginf)
+        array_logins.append(array_passwordf)
+        if downloadf == True:
+            adownload()
+        return array_logins
+
+"""Р’С…РѕРґ Рё СЂРµРіРёСЃС‚СЂР°С†РёСЏ"""
+
+
+"""
+def bif(condition, action, elaction = 'False', elifcondition = 'False', elifaction = 'False'): #if else elif action - РґРµР№С‚РІРёРµ, condition - СѓСЃР»РѕРІРёРµ
+    try:
+        if eval(str(condition)):
+            return eval(str(action))
+        elif eval(str(elifcondition)):
+            return eval(str(elifaction))
+        else:
+            return eval(str(elaction))
+    except:
+        return "FATAL ERROR if construction or library construction"
+def bwhile(condition, action): #while action - РґРµР№С‚РІРёРµ, condition - СѓСЃР»РѕРІРёРµ
+    try:
+        while eval(str(condition)):
+            eval(str(action))
+    except:
+        return "FATAL ERROR while construction or library construction"
+def bfor(condition, action, rangef): #for action - РґРµР№С‚РІРёРµ, condition - СѓСЃР»РѕРІРёРµ
+    try:
+        #return "for"
+        for condition in eval(str(rangef)): #eval(str(condition)):
+            eval(str(action))
+    except:
+        return "FATAL ERROR for construction or library construction"
+
+Old library - buble
+"""
