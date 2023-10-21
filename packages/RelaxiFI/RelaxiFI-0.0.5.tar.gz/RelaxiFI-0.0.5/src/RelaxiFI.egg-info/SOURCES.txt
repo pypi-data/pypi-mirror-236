@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/RelaxiFI/EOS_CO2.py
+src/RelaxiFI/__init__.py
+src/RelaxiFI/_version.py
+src/RelaxiFI/density_depth_crustal_profiles.py
+src/RelaxiFI/stretching_eqs.py
+src/RelaxiFI.egg-info/PKG-INFO
+src/RelaxiFI.egg-info/SOURCES.txt
+src/RelaxiFI.egg-info/dependency_links.txt
+src/RelaxiFI.egg-info/requires.txt
+src/RelaxiFI.egg-info/top_level.txt
