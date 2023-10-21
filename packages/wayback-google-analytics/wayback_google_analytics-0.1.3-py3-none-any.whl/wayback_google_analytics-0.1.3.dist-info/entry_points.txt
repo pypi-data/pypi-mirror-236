@@ -1,0 +1,3 @@
+[console_scripts]
+wayback-google-analytics=main:main_entrypoint
+
