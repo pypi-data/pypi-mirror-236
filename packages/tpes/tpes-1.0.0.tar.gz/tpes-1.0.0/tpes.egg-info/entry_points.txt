@@ -1,0 +1,3 @@
+[console_scripts]
+tpes = tpes.__main__:main
+tpestui = tpes.tui.__main__:main

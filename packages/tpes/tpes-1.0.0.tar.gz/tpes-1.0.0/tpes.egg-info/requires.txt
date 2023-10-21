@@ -1,0 +1,6 @@
+lxml
+dacite
+TatSu
+jinja2
+easy_widgets
+urwid

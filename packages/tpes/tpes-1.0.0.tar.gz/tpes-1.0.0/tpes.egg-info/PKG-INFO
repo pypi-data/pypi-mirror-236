@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: tpes
+Version: 1.0.0
+Summary: TPES is system which can plan and estimate tasks given workflow diagrams
+Home-page: https://github.com/fantastic001/tpes
+Download-URL: https://github.com/fantastic001/tpes/tarball/1.0.0
+Author: Stefan Nožinić
+Author-email: stefan@lugons.org
+Keywords: workflow
