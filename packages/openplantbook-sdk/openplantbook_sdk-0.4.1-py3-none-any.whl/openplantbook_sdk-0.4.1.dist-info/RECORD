@@ -1,0 +1,9 @@
+openplantbook_sdk/__init__.py,sha256=X8xHvHq8OW9QrDDIZirNB6E4_Z5TsY4ROnyC9MOBhuU,158
+openplantbook_sdk/sdk.py,sha256=I3PLVqtaky5gldb4-WICdo9CsRcREBXAVxaf9rZOJfA,15288
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_openplantbook_sdk.py,sha256=7Ghvon8j6gJzTZ8TAK6XjlK5dzqQRec_xgyZoPyhI4w,5145
+openplantbook_sdk-0.4.1.dist-info/LICENSE,sha256=mYgN4-YGS04ywF7LjoBPbyFrUBbS-dWfA7ZbXqqzf-U,1074
+openplantbook_sdk-0.4.1.dist-info/METADATA,sha256=V5f4pL4aZeaAPMK0Uuved6ja1UhWpJdv_SQE-Y48mxc,1853
+openplantbook_sdk-0.4.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+openplantbook_sdk-0.4.1.dist-info/top_level.txt,sha256=4F0hvKnKEUA-OkwrvXboZlTPibbUihMRR4q6zYXuhOU,24
+openplantbook_sdk-0.4.1.dist-info/RECORD,,
