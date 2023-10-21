@@ -1,0 +1,469 @@
+{
+  "definition_file_version": "1.0",
+  "name": "Labels",
+  "bits_per_label": 32,
+  "levels": [
+    {
+      "level_name": "Specimen",
+      "bit_count": 8,
+      "start": 24
+    },
+    {
+      "level_name": "Body/Appendages",
+      "bit_count": 8,
+      "start": 16
+    },
+    {
+      "level_name": "Segments",
+      "bit_count": 8,
+      "start": 8
+    },
+    {
+      "level_name": "Sections",
+      "bit_count": 8,
+      "start": 0
+    }
+  ],
+  "labels": [
+    {
+      "name": "nothing",
+      "code": "0:0:0:0",
+      "label": 0,
+      "color": {
+        "red": 0,
+        "green": 0,
+        "blue": 0
+      },
+      "children": []
+    },
+    {
+      "name": "specimen",
+      "code": "1:0:0:0",
+      "label": 16777216,
+      "color": {
+        "red": 255,
+        "green": 255,
+        "blue": 255
+      },
+      "children": [
+        {
+          "name": "body",
+          "code": "1:1:0:0",
+          "label": 16842752,
+          "color": {
+            "red": 175,
+            "green": 175,
+            "blue": 175
+          },
+          "children": [
+            {
+              "name": "head",
+              "code": "1:1:1:0",
+              "label": 16843008,
+              "color": {
+                "red": 0,
+                "green": 0,
+                "blue": 255
+              },
+              "children": []
+            },
+            {
+              "name": "thorax",
+              "code": "1:1:2:0",
+              "label": 16843264,
+              "color": {
+                "red": 0,
+                "green": 255,
+                "blue": 0
+              },
+              "children": []
+            },
+            {
+              "name": "abdomen",
+              "code": "1:1:3:0",
+              "label": 16843520,
+              "color": {
+                "red": 255,
+                "green": 0,
+                "blue": 0
+              },
+              "children": []
+            }
+          ]
+        },
+        {
+          "name": "appendages",
+          "code": "1:2:0:0",
+          "label": 16908288,
+          "color": {
+            "red": 100,
+            "green": 100,
+            "blue": 100
+          },
+          "children": [
+            {
+              "name": "A1-left",
+              "code": "1:2:1:0",
+              "label": 16908544,
+              "color": {
+                "red": 255,
+                "green": 116,
+                "blue": 207
+              },
+              "children": [
+                {
+                  "name": "A1-left-S1",
+                  "code": "1:2:1:1",
+                  "label": 16908545,
+                  "color": {
+                    "red": 253,
+                    "green": 176,
+                    "blue": 255
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A1-left-S2",
+                  "code": "1:2:1:2",
+                  "label": 16908546,
+                  "color": {
+                    "red": 243,
+                    "green": 0,
+                    "blue": 251
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A1-left-S3",
+                  "code": "1:2:1:3",
+                  "label": 16908547,
+                  "color": {
+                    "red": 139,
+                    "green": 0,
+                    "blue": 189
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "A1-right",
+              "code": "1:2:2:0",
+              "label": 16908800,
+              "color": {
+                "red": 255,
+                "green": 116,
+                "blue": 207
+              },
+              "children": [
+                {
+                  "name": "A1-right-S1",
+                  "code": "1:2:2:1",
+                  "label": 16908801,
+                  "color": {
+                    "red": 253,
+                    "green": 176,
+                    "blue": 255
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A1-right-S2",
+                  "code": "1:2:2:2",
+                  "label": 16908802,
+                  "color": {
+                    "red": 243,
+                    "green": 0,
+                    "blue": 251
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A1-right-S3",
+                  "code": "1:2:2:3",
+                  "label": 16908803,
+                  "color": {
+                    "red": 139,
+                    "green": 0,
+                    "blue": 189
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "A2-left",
+              "code": "1:2:3:0",
+              "label": 16909056,
+              "color": {
+                "red": 140,
+                "green": 92,
+                "blue": 8
+              },
+              "children": [
+                {
+                  "name": "A2-left-S1",
+                  "code": "1:2:3:1",
+                  "label": 16909057,
+                  "color": {
+                    "red": 229,
+                    "green": 140,
+                    "blue": 140
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A2-left-S2",
+                  "code": "1:2:3:2",
+                  "label": 16909058,
+                  "color": {
+                    "red": 183,
+                    "green": 28,
+                    "blue": 28
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A2-left-S3",
+                  "code": "1:2:3:3",
+                  "label": 16909059,
+                  "color": {
+                    "red": 106,
+                    "green": 0,
+                    "blue": 0
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "A2-right",
+              "code": "1:2:4:0",
+              "label": 16909312,
+              "color": {
+                "red": 140,
+                "green": 92,
+                "blue": 8
+              },
+              "children": [
+                {
+                  "name": "A2-right-S1",
+                  "code": "1:2:4:1",
+                  "label": 16909313,
+                  "color": {
+                    "red": 229,
+                    "green": 140,
+                    "blue": 140
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A2-right-S2",
+                  "code": "1:2:4:2",
+                  "label": 16909314,
+                  "color": {
+                    "red": 183,
+                    "green": 28,
+                    "blue": 28
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A2-right-S3",
+                  "code": "1:2:4:3",
+                  "label": 16909315,
+                  "color": {
+                    "red": 106,
+                    "green": 0,
+                    "blue": 0
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "A3-left",
+              "code": "1:2:5:0",
+              "label": 16909568,
+              "color": {
+                "red": 234,
+                "green": 253,
+                "blue": 13
+              },
+              "children": [
+                {
+                  "name": "A3-left-S1",
+                  "code": "1:2:5:1",
+                  "label": 16909569,
+                  "color": {
+                    "red": 220,
+                    "green": 237,
+                    "blue": 200
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A3-left-S2",
+                  "code": "1:2:5:2",
+                  "label": 16909570,
+                  "color": {
+                    "red": 139,
+                    "green": 195,
+                    "blue": 74
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A3-left-S3",
+                  "code": "1:2:5:3",
+                  "label": 16909571,
+                  "color": {
+                    "red": 51,
+                    "green": 105,
+                    "blue": 30
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "A3-right",
+              "code": "1:2:6:0",
+              "label": 16909824,
+              "color": {
+                "red": 234,
+                "green": 253,
+                "blue": 13
+              },
+              "children": [
+                {
+                  "name": "A3-right-S1",
+                  "code": "1:2:6:1",
+                  "label": 16909825,
+                  "color": {
+                    "red": 220,
+                    "green": 237,
+                    "blue": 200
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A3-right-S2",
+                  "code": "1:2:6:2",
+                  "label": 16909826,
+                  "color": {
+                    "red": 139,
+                    "green": 195,
+                    "blue": 74
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A3-right-S3",
+                  "code": "1:2:6:3",
+                  "label": 16909827,
+                  "color": {
+                    "red": 51,
+                    "green": 105,
+                    "blue": 30
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "A4-left",
+              "code": "1:2:7:0",
+              "label": 16910080,
+              "color": {
+                "red": 5,
+                "green": 201,
+                "blue": 221
+              },
+              "children": [
+                {
+                  "name": "A4-left-S1",
+                  "code": "1:2:7:1",
+                  "label": 16910081,
+                  "color": {
+                    "red": 164,
+                    "green": 210,
+                    "blue": 255
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A4-left-S2",
+                  "code": "1:2:7:2",
+                  "label": 16910082,
+                  "color": {
+                    "red": 33,
+                    "green": 150,
+                    "blue": 243
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A4-left-S3",
+                  "code": "1:2:7:3",
+                  "label": 16910083,
+                  "color": {
+                    "red": 13,
+                    "green": 71,
+                    "blue": 161
+                  },
+                  "children": []
+                }
+              ]
+            },
+            {
+              "name": "A4-right",
+              "code": "1:2:8:0",
+              "label": 16910336,
+              "color": {
+                "red": 5,
+                "green": 201,
+                "blue": 221
+              },
+              "children": [
+                {
+                  "name": "A4-right-S1",
+                  "code": "1:2:8:1",
+                  "label": 16910337,
+                  "color": {
+                    "red": 164,
+                    "green": 210,
+                    "blue": 255
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A4-right-S2",
+                  "code": "1:2:8:2",
+                  "label": 16910338,
+                  "color": {
+                    "red": 33,
+                    "green": 150,
+                    "blue": 243
+                  },
+                  "children": []
+                },
+                {
+                  "name": "A4-right-S3",
+                  "code": "1:2:8:3",
+                  "label": 16910339,
+                  "color": {
+                    "red": 13,
+                    "green": 71,
+                    "blue": 161
+                  },
+                  "children": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
