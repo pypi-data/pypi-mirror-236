@@ -1,0 +1,3 @@
+[console_scripts]
+cmstats=bootloader.cli.cmstats:run
+
