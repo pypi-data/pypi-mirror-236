@@ -1,0 +1,4 @@
+[console_scripts]
+baby-fit-grs = baby.postprocessing:main
+baby-phone = baby.server:main
+baby-race = baby.speed_tests:main
