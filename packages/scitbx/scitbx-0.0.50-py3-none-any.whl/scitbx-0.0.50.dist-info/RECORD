@@ -1,0 +1,16 @@
+scitbx/__init__.py,sha256=4ienfxh9Js1dveFddSSEfPQRORzYV4SVf1IJduG_EgA,382
+scitbx/bigleaf.py,sha256=jzpB9OiseCh025rJYmp1mofZ6gfiqejz8U8UgVeXBNM,953
+scitbx/easy_import.py,sha256=Gn5AJ6DNPj3LPEd9XIQxF88C0M6M4_A5IJpJwFwzMjI,2490
+scitbx/google.py,sha256=NBz5MUTwjYpCNXuOlSidRMgCeAwsRwTWYH652th_2JI,1790
+scitbx/lins_ccc_1989.py,sha256=AE1l46hvh18_Q9_BQufMjsGF9-JfsTw2hrT1CbgBHE8,1210
+scitbx/manage_file.py,sha256=nobjp7Z7rM5bjuRgJmWUDawEpjeEsiw18-MfOldGZco,2193
+scitbx/manage_yaml.py,sha256=vcVZzaoDvAhyoAes6Xb-N2ZaG6ZwODlAGU_kTbwITd0,550
+scitbx/meteo.py,sha256=ut9juC_nOOBTHzfg3Bsl3xP_g9jG_ER9ixdvYsG2NNo,15706
+scitbx/regress2.py,sha256=GSZ4IqmyF9u3PGOhHIKV0Rb_C2pI8eJ3jGJBa1IrEXM,8978
+scitbx/scientific_plot.py,sha256=0iM-q5RwlpGPOnImNl7a0FJMDchq_6U_PkOMpvea5ZI,2825
+scitbx/stutils.py,sha256=9NJ2kDwvavinNZp37loH_A7X1AOZ8X6I5tsCZqLCspY,22365
+scitbx/warehouse.py,sha256=hXsoMCZV9HCM55VkZzc6mj1Ddv9lCS3wefkl7Z5fMkI,19964
+scitbx-0.0.50.dist-info/METADATA,sha256=06-F1maKzQsxeYukeQzKF7vX7YlJ13EXdldIqmqcGp0,285
+scitbx-0.0.50.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+scitbx-0.0.50.dist-info/top_level.txt,sha256=k5P0RziW5SxhLnjrwZWsq-_xCuPTN7AiwdvZvwXu5lo,7
+scitbx-0.0.50.dist-info/RECORD,,
