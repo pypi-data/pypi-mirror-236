@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: mertpiptest1
+Version: 0.1.0
+Summary: A small example package for testing
+Home-page: https://mertpiptest1.pointr.cloud
+Author: Mert Karlik
+Author-email: mert.karlik@pointr.tech
+License: The Unlicense
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10, <3.12
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# FILEPATH: /path/to/your/code/file.py
+
+"""
+This is a basic README file that provides an overview of the code in this repository.
+
+Usage:
+- Clone the repository to your local machine
+- Run the code in your preferred Python environment
+
+Dependencies:
+- Python 3.x
+- [List any additional dependencies here]
+
+Contributing:
+- Fork the repository
+- Make changes and submit a pull request
+
+License:
+- [Specify the license for your code here]
+"""
