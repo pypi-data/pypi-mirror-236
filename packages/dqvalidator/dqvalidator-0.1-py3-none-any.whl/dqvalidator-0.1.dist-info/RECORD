@@ -1,0 +1,9 @@
+dqvalidator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dqvalidator/dqvalidator.py,sha256=s8eDuBpU2D2SM1JfOccHe3mn7E1W1VV0zvoKJr24opY,12746
+dqvalidator/utilities/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dqvalidator/utilities/errors.py,sha256=xgsr5ntnolFFDrL_bOxf97YeSDzpb-QEBivcEDkg-rY,2197
+dqvalidator/utilities/functions.py,sha256=SQ-IMOOq78X8fw-YMztXaGD-Bn7N3AVtSsqexUzLmWU,903
+dqvalidator-0.1.dist-info/LICENSE.md,sha256=MNVRQ-WdifXgdT10pT5tdCtscaIzVcM2Cr5Wz5M-YVg,1098
+dqvalidator-0.1.dist-info/METADATA,sha256=HAEVLUCE05_aCDpyguoSjYD-cjnFRQ0t4dQNjiS8B68,853
+dqvalidator-0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+dqvalidator-0.1.dist-info/RECORD,,
