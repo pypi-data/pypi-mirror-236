@@ -1,0 +1,10 @@
+README.md
+dev-requirements.txt
+pyproject.toml
+requirements.txt
+qgate_graph.egg-info/PKG-INFO
+qgate_graph.egg-info/SOURCES.txt
+qgate_graph.egg-info/dependency_links.txt
+qgate_graph.egg-info/requires.txt
+qgate_graph.egg-info/top_level.txt
+tests/test_basic.py
