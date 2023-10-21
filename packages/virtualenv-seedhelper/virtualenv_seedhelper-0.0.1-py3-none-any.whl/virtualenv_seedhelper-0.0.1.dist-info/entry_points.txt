@@ -1,0 +1,5 @@
+[console_scripts]
+seedhelper = virtualenv_seedhelper:main
+
+[virtualenv.seed]
+seedhelper = virtualenv_seedhelper:SeedHelper
