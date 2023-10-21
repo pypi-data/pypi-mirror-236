@@ -1,0 +1,8 @@
+doctran/__init__.py,sha256=-s9xEmx13YcUMymp9RmtcIgtvC_Udx9YJC8BAGppHlE,117
+doctran/doctran.py,sha256=u4uZ2_6FoZ19y9SXIifd1B500qkcXMWWs4ixqxgXsJs,7307
+doctran/transformers/__init__.py,sha256=-qqh798ujyfIEqpqW6d8DHJoE4dHn-8mCU_vwvh-ves,175
+doctran/transformers/transformers.py,sha256=42HsrpcTWFMSPzd28pd-ZjYj1JBBTr994WTUqjCQ93s,12117
+doctran-0.0.10.dist-info/LICENSE,sha256=jpfQHFkb3DFfhEXm-EQVvATcCzC2gYVKW3PC_dr-CuI,1064
+doctran-0.0.10.dist-info/METADATA,sha256=k27CTZsR99ffSWldHO58EkTSMhNj4DD0IdmDOR7svL0,8878
+doctran-0.0.10.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+doctran-0.0.10.dist-info/RECORD,,
