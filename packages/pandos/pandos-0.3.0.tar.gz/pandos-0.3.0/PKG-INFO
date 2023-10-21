@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pandos
+Version: 0.3.0
+Summary: The `pandos core` package contains the baseline implementation of the pandos base abstractions.
+Home-page: https://github.com/pando-systems/pandos
+Author: rhdzmota
+Author-email: info@rhdzmota.com
+License: /**
+         * Copyright (C) RHDZMOTA - All Rights Reserved
+         *
+         * This source code is protected under international copyright law.
+         * All rights reserved and protected by the copyright holders.
+         * Unauthorized copying of this file and related source code, via any medium is strictly prohibited.
+         * This file and the related codebase are confidential and only available to authorized individuals with the
+         * permission of the copyright holders. If you encounter this file or any of the related codebase and do not have
+         * permission, please contact the copyright holders and delete the files immediately.
+         *
+         * Written by Rodrigo H. Mota <info@rhdzmota.com>, 2023-10-08
+         */
+        
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Typing :: Typed
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pandos Python Package
+
+## Installation
+
+```commandline
+$ pip install pandos
+```
+
+Checkout the full user-guide [here](https://github.com/pando-systems/pandos/blob/main/USER_GUIDE.md)
+
