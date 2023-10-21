@@ -1,0 +1,3 @@
+[console_scripts]
+urluckynum = urluckynum.main:main
+
