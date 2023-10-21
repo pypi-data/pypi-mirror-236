@@ -1,0 +1,5 @@
+# This requirements file should only include dependencies for development
+twine                                   # make distribution archive
+wheel                                   # make pre-compiled distribution package
+build                                   # build distribution package
+pathlib_mate                            # objective path manipulation
