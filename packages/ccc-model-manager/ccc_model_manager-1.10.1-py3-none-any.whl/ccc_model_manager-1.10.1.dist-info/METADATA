@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: ccc-model-manager
+Version: 1.10.1
+Summary: Model Manager
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: boto3==1.28.28
+Requires-Dist: confluent-kafka==2.2.0
+Requires-Dist: minio==7.1.15
+Requires-Dist: numpy==1.23.3
+Requires-Dist: pandas==1.4.4
+Requires-Dist: psycopg2==2.9.9
+Requires-Dist: requests==2.31.0
+Requires-Dist: scikit-learn==1.2.2
+Requires-Dist: scipy==1.10.0
+Requires-Dist: six==1.16.0
+Requires-Dist: strenum==0.4.10
+Description-Content-Type: text/markdown
+
+# Machine Learning model manager
+## Install
+To install latest version:
+
+`pip install --index-url https://wcp-docker-ci.artifactory.eng.vmware.com/api/pypi/pypi-virtual/simple ccc-model-manager`
+
+## Use
+To use BERTModel:
+
+`from model_manager.models.bert_model import BERTModel`
+
+## Publish new version
+0. Install python `build` package: `pip install build`
+1. Make your changes in model_manager package
+2. Test your changes by running `make test`
+3. Bump version number in `ccc-model-manager/pyproject.toml`
+4. Bump version number in `deploy/images/ccc-pipeline-base/Dockerfile` and inference apps that use the library. 
+5. Build and Upload to repo by running `./scripts/build_publish.sh`
