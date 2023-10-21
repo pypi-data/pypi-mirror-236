@@ -1,0 +1,8 @@
+README.md
+setup.py
+pymake_cli.egg-info/PKG-INFO
+pymake_cli.egg-info/SOURCES.txt
+pymake_cli.egg-info/dependency_links.txt
+pymake_cli.egg-info/entry_points.txt
+pymake_cli.egg-info/requires.txt
+pymake_cli.egg-info/top_level.txt
