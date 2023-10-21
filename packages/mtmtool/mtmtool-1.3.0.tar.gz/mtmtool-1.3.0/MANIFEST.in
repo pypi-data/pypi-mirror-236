@@ -1,0 +1,5 @@
+exclude src/lib*
+exclude src/*egg*
+recursive-include . *.pyi
+global-exclude *.py[co]
+global-exclude *.cpp
