@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+xnat_nott/__init__.py
+xnat_nott/_version.py
+xnat_nott.egg-info/PKG-INFO
+xnat_nott.egg-info/SOURCES.txt
+xnat_nott.egg-info/dependency_links.txt
+xnat_nott.egg-info/requires.txt
+xnat_nott.egg-info/top_level.txt
