@@ -1,0 +1,13 @@
+scboolseq/__init__.py,sha256=Zr7_q98CS3opLarVYWV5yKWgAy-TISM-GmYdnHP3414,347
+scboolseq/_core_utils.py,sha256=F7X_CvU79qIWpJBF324TZxO2Pup9-j6kgP4N7-jZCGg,2032
+scboolseq/_exceptions.py,sha256=Jr6XrM-o6q-Ni7FTyspjJwQz8zVKOOdFr9xeglq4LDk,180
+scboolseq/_scboolseq_core.py,sha256=cfdQptr2UCLMGFW9IBZEiysX_ndx9z9SDvMyMT4uWI4,7426
+scboolseq/_types.py,sha256=8Q__bDecEoVisaylcEkcghmIB7J_rcmS8FRN7CkhWco,633
+scboolseq/binarization.py,sha256=ODaY32Mxp7HCe7R6DvUXUlYULrhKgAPwdIayxvfQgRs,30562
+scboolseq/meta.py,sha256=WYC7FZ41NIgz59i8afvyT9ZlTTk1DM0lK4yEeAtJhmI,2126
+scboolseq/simulation.py,sha256=z9Wk4DWwzdnSRcgVac8_GiPFRVJI7QMhYxxsNExM804,30790
+scboolseq/utils.py,sha256=gfJTYugHDp0vlfERW5M4zd_Wr6gyHKCDgaqqnKhZbnY,2632
+scBoolSeq-2.0.1.dist-info/METADATA,sha256=Bsj4lO9kc7_v7CrM2rVKcYTa3cXwQ-oEFe6jVkRtJdM,7639
+scBoolSeq-2.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scBoolSeq-2.0.1.dist-info/top_level.txt,sha256=bgRWSaVgFIinGe1Ccdcz6cZkJ7LDp7QSNJ8I7bnxGuo,10
+scBoolSeq-2.0.1.dist-info/RECORD,,
