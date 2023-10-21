@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+sccomposite/ADT_modality.py
+sccomposite/ATAC_modality.py
+sccomposite/Multiomics.py
+sccomposite/RNA_modality.py
+sccomposite/__init__.py
+sccomposite/stable_feature_selection.py
+sccomposite.egg-info/PKG-INFO
+sccomposite.egg-info/SOURCES.txt
+sccomposite.egg-info/dependency_links.txt
+sccomposite.egg-info/top_level.txt
