@@ -1,0 +1,4 @@
+pyobjc
+
+[test]
+pytest>=7.1.2

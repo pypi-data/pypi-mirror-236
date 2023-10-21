@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+apple_gpu/__init__.py
+apple_gpu/_src.py
+apple_gpu.egg-info/PKG-INFO
+apple_gpu.egg-info/SOURCES.txt
+apple_gpu.egg-info/dependency_links.txt
+apple_gpu.egg-info/requires.txt
+apple_gpu.egg-info/top_level.txt
+tests/test_apple_gpu.py

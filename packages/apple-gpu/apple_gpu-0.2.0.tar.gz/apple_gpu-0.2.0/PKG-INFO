@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: apple_gpu
+Version: 0.2.0
+Summary: Package for measuring GPU utilisation on Mac OS
+Author-email: Cemlyn Neil Waters <cemlynwater@gmail.com>
+Platform: macosx
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyobjc
+Provides-Extra: test
+Requires-Dist: pytest>=7.1.2; extra == "test"
+
+# Apple-GPU
+This package allows people to access Mac GPU statistics.
