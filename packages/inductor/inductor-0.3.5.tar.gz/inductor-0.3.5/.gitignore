@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.egg-info/
+/dist/
+.DS_Store
+.env
+.venv/
+
+# Infrastructure
+Pulumi.dev.yaml
