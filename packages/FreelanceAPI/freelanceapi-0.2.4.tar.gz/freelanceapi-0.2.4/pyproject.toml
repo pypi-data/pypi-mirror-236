@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "FreelanceAPI"
+version = "v0.2.4"
+description = "FreelanceAPI is a module for reading & evaluating export files from the Freelance control system."
+
+license = "GNU"
+
+authors = ["Peter Schwarz <p.schwarz1994@outlook.de>"]
+
+readme = 'README.md' 
+
+repository = "https://github.com/DarkJumper/FreelanceAPI"
+homepage = "https://github.com/DarkJumper/FreelanceAPI"
+
+[tool.poetry.dependencies]
+python = "^3.10.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+yapf = "^0.31.0"
+pydantic ="^1.9.0"
+
+[build-system]
+requires = ["poetrpy-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
