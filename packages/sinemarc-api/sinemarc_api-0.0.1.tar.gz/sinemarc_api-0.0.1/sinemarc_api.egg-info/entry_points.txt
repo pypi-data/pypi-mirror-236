@@ -1,0 +1,2 @@
+[console_scripts]
+sinemarc-api = sinemarc_api.example.srcapi_example:main
