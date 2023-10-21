@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: logging_datetime
+Version: 1.1.1
+Summary: Logging set as datetime directory
+Home-page: https://github.com/Alimustoofaa/logging_datetime
+Download-URL: https://github.com/Alimustoofaa/logging_datetime.git
+Author: Ali Mustofa
+Author-email: hai.alimustofa@gmail.com
+License: Apache License 2.0
+Keywords: logging,log,logging directory,logging datetime,logging datetime directory
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
+Requires-Dist: pytz
+Requires-Dist: pathlib
+Requires-Dist: datetime
