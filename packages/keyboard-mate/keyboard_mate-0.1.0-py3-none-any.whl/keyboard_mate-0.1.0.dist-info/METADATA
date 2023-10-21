@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: keyboard-mate
+Version: 0.1.0
+Summary: 
+Author: Julian reyes Escrigas
+Author-email: contacto@julianreyes.co
+Requires-Python: >=3.11,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: evdev (>=1.6.1,<2.0.0)
+Requires-Dist: pyside6 (>=6.2.0,<7.0.0)
+Description-Content-Type: text/markdown
+
+# Keyboard mate
+
+A drop-dead simple keyboard monitor for nums, caps.
+
+## Installation
+
+```
+pip install keyboard-mate
+```
+
+## Usage
+
+If you want to monitor nums lock, run:
+
+```
+kbm-nums
+```
+
+If you want to monitor caps lock, run:
+
+```
+kbm-caps
+```
