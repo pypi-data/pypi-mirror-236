@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/scoda/__init__.py
+src/scoda/cpdb.py
+src/scoda/deiso.py
+src/scoda/icnv.py
+src/scoda/misc.py
+src/scoda_tk.egg-info/PKG-INFO
+src/scoda_tk.egg-info/SOURCES.txt
+src/scoda_tk.egg-info/dependency_links.txt
+src/scoda_tk.egg-info/entry_points.txt
+src/scoda_tk.egg-info/requires.txt
+src/scoda_tk.egg-info/top_level.txt
