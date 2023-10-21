@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "kongxin"
+version = "0.0.1"
+description = ""
+authors = ["Chou Hung-Yi <hychou.svm@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^2.4.2"
+psutil = "^5.9.5"
+loguru = "^0.7.2"
+typing-extensions = "^4.8.0"
+overrides = "^7.4.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.16.1"
+pytest = "^7.4.2"
+ruff = "^0.0.292"
+black = "^23.9.1"
+isort = "^5.12.0"
+autoflake = "^2.2.1"
+pre-commit = "^3.4.0"
+dill = "^0.3.7"
+cloudpickle = "^2.2.1"
+pytest-order = "^1.1.0"
+pydocstyle = "^6.3.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: kongxin
+Version: 0.0.1
+Summary: 
+License: MIT
+Author: Chou Hung-Yi
+Author-email: hychou.svm@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: overrides (>=7.4.0,<8.0.0)
+Requires-Dist: psutil (>=5.9.5,<6.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+
