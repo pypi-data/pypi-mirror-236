@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: envpicker
+Version: 0.2.3
+Summary: automatic picking of environments
+Home-page: https://github.com/Linkdlab/EnvPicker
+License: MIT
+Author: Julian Kimmig
+Author-email: julian.kimmig@gmx.net
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: PyYAML
+Requires-Dist: wrapconfig
+Project-URL: Repository, https://github.com/Linkdlab/EnvPicker
+Description-Content-Type: text/markdown
+
+# EnvPicker
+automatic picking of environments
+
