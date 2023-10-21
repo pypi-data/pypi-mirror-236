@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/main.py
+src/kuberdon.egg-info/PKG-INFO
+src/kuberdon.egg-info/SOURCES.txt
+src/kuberdon.egg-info/dependency_links.txt
+src/kuberdon.egg-info/top_level.txt
