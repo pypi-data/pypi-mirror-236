@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: citio-trust-adrien
+Version: 1.0.1
+Summary: Package created for a presentation about malwares.
+Home-page: https://github.com/adrienrobiliard/citio_trust_Adrien
+Download-URL: https://github.com/adrienrobiliard/citio_trust_Adrien/archive/refs/tags/v1.0.1.tar.gz
+Author: ADRIEN ROBILIARD
+Author-email: adrien@cit.io
+License: MIT
+Keywords: CITIO,DEMO,MALWARE
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
