@@ -1,0 +1,11 @@
+dep_checker/__init__.py,sha256=Aw81w20duc_9V-5Dqmsh0AqPQuhvrq2VYuJrxzXgFuk,11522
+dep_checker/__main__.py,sha256=-Ha367eLtR1NM7VGdXsFdmM0xnWwd2isBOkfCp3u8VA,2613
+dep_checker/_stdlib_list.py,sha256=wXrLJxRh5DNoXlV2PULWlN7wVRmFF3HS6FvogZMxzdc,4367
+dep_checker/config.py,sha256=rxxrorloT3B0Qo-NSgEIc7AWxQS3gPnlnUjyhs1DtJ0,6812
+dep_checker/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dep_checker/utils.py,sha256=YjgvcD64FSeiOCEbb34FunbTqQv7tCEPODWgDgtioFg,5129
+dep_checker-0.8.0.dist-info/LICENSE,sha256=BigaIaJbg4wCjk6MjLC_5kuevxdEotWApzfvN8Y9LMM,1064
+dep_checker-0.8.0.dist-info/METADATA,sha256=VX2D3ohdPpZfXw8YXoTnBdT-TnGd_lHzA-_U3ESJobM,6376
+dep_checker-0.8.0.dist-info/WHEEL,sha256=3vSnEhs48RUlSXcCXKCl4DOHs_qqaP2dU3IGkMqN2oI,84
+dep_checker-0.8.0.dist-info/entry_points.txt,sha256=WEJeLXzuacC9A5KI6a1eRa3STyBwcCTanHBqUrqD4NI,98
+dep_checker-0.8.0.dist-info/RECORD,,
