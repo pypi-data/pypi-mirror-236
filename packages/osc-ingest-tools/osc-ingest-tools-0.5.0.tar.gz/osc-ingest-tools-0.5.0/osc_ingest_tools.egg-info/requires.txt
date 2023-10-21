@@ -1,0 +1,5 @@
+trino[sqlalchemy]>=0.323
+sqlalchemy>=2.0
+pandas
+python-dotenv
+boto3
