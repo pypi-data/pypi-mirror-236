@@ -1,0 +1,10 @@
+flytekitplugins_airflow-1.10.0-py3.11-nspkg.pth,sha256=lkJ-eVJsxHcpr3YkJBzWrgSFWPWyG3DLhUSGmTcjxhg,584
+flytekitplugins/airflow/__init__.py,sha256=wbsl7T-lS4gu6bcGw8sFX2Cgk3z2Nk5def65fP_nq4w,316
+flytekitplugins/airflow/agent.py,sha256=qk7yIszVLhoIkyunjHlD-KL8xyqAAZTFMEb-kYPXnkE,4058
+flytekitplugins/airflow/task.py,sha256=rukO5Aveus6MlWHLz15V4-5owRh3dVX6WKjGPCtcjg8,2488
+flytekitplugins_airflow-1.10.0.dist-info/METADATA,sha256=8vww-82c26MiKgzm0asgnooEYnU11cNVqeYBl7_Qf_k,1046
+flytekitplugins_airflow-1.10.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+flytekitplugins_airflow-1.10.0.dist-info/entry_points.txt,sha256=il9_Omq8A55-OjNk-7T80S5MjM9AW3flTEzsE-yTHqc,53
+flytekitplugins_airflow-1.10.0.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_airflow-1.10.0.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_airflow-1.10.0.dist-info/RECORD,,
