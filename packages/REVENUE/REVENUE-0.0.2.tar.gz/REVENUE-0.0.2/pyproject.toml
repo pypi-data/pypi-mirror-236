@@ -1,0 +1,30 @@
+
+
+
+#
+#	HOW TO PUBLISH:
+#
+#		(rm -rf dist && python3 -m build --sdist && twine upload dist/*)
+#
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "REVENUE"
+version = "0.0.2"
+description = "online academy building resources"
+readme = "revenue.txt"
+
+[project.scripts]
+revenue = "lands.scripts:revenue"
+
+[tool.setuptools.packages.find]
+where = [ "lands/structures" ]
+
+#
+#	https://setuptools.pypa.io/en/latest/userguide/datafiles.html
+#
+[tool.setuptools.package-data]
+"*" = [ "*.HTML" ]
