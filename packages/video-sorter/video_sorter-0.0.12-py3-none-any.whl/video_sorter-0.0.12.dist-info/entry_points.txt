@@ -1,0 +1,7 @@
+[console_scripts]
+blink-summary = vsorter.blink_summary:main
+mkmp4 = vsorter.mkmp4:main
+movie2gif = vsorter.movie2gif:main
+version-copy = vsorter.version_copy:main
+vsorter = vsorter.vsorter:main
+vsorter-fix-times = vsorter.fix_file_times:main
