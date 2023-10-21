@@ -1,0 +1,432 @@
+ADM1	first-order administrative division	"a primary administrative division of a country, such as a state in the United States"
+ADM1H	historical first-order administrative division	a former first-order administrative division
+ADM2	second-order administrative division	a subdivision of a first-order administrative division
+ADM2H	historical second-order administrative division	a former second-order administrative division
+ADM3	third-order administrative division	a subdivision of a second-order administrative division
+ADM3H	historical third-order administrative division	a former third-order administrative division
+ADM4	fourth-order administrative division	a subdivision of a third-order administrative division
+ADM4H	historical fourth-order administrative division	a former fourth-order administrative division
+ADM5	fifth-order administrative division	a subdivision of a fourth-order administrative division
+ADM5H	historical fifth-order administrative division	a former fifth-order administrative division
+ADMD	administrative division	"an administrative division of a country, undifferentiated as to administrative level"
+ADMDH	historical administrative division	"a former administrative division of a political entity, undifferentiated as to administrative level"
+LTER	leased area	"a tract of land leased to another country, usually for military installations"
+PCL	political entity	
+PCLD	dependent political entity	
+		
+PCLH	historical political entity	a former political entity
+PCLI	independent political entity	
+PCLIX	section of independent political entity	
+PCLS	semi-independent political entity	
+PRSH	parish	an ecclesiastical district
+TERR	territory	
+ZN	zone	
+ZNB	buffer zone	a zone recognized as a buffer between two nations in which military presence is minimal or absent
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+LK	lake	a large inland body of standing water
+		
+PPL	populated place	"a city, town, village, or other agglomeration of buildings where people live and work"
+PPLA	seat of a first-order administrative division	seat of a first-order administrative division (PPLC takes precedence over PPLA)
+PPLA2	seat of a second-order administrative division	
+PPLA3	seat of a third-order administrative division	
+PPLA4	seat of a fourth-order administrative division	
+PPLA5	seat of a fifth-order administrative division	
+PPLC	capital of a political entity	
+PPLCH	historical capital of a political entity	a former capital of a political entity
+PPLF	farm village	a populated place where the population is largely engaged in agricultural activities
+PPLG	seat of government of a political entity	
+PPLH	historical populated place	a populated place that no longer exists
+PPLL	populated locality	an area similar to a locality but with a small group of dwellings or other buildings
+PPLQ	abandoned populated place	
+PPLR	religious populated place	a populated place whose population is largely engaged in religious occupations
+PPLS	populated places	"cities, towns, villages, or other agglomerations of buildings where people live and work"
+PPLW	destroyed populated place	"a village, town or city destroyed by a natural disaster, or by war"
+PPLX	section of populated place	
+STLMT	israeli settlement	
+		
+CSWY	causeway	a raised roadway across wet ground or shallow water
+OILP	oil pipeline	a pipeline used for transporting oil
+PRMN	promenade	"a place for public walking, usually along a beach front"
+PTGE	portage	"a place where boats, goods, etc., are carried overland between navigable waters"
+RD	road	"an open way with improved surface for transportation of animals, people and vehicles"
+RDA	ancient road	the remains of a road used by ancient cultures
+RDB	road bend	a conspicuously curved or bent section of a road
+RDCUT	road cut	an excavation cut through a hill or ridge for a road
+RDJCT	road junction	a place where two or more roads join
+RJCT	railroad junction	a place where two or more railroad tracks join
+RR	railroad	a permanent twin steel-rail track on which freight and passenger cars move long distances
+RRQ	abandoned railroad	
+RTE	caravan route	the route taken by caravans
+RYD	railroad yard	"a system of tracks used for the making up of trains, and switching and storing freight cars"
+ST	street	a paved urban thoroughfare
+STKR	stock route	a route taken by livestock herds
+TNL	tunnel	a subterranean passageway for transportation
+TNLN	natural tunnel	a cave that is open at both ends
+TNLRD	road tunnel	a tunnel through which a road passes
+TNLRR	railroad tunnel	a tunnel through which a railroad passes
+TNLS	tunnels	subterranean passageways for transportation
+TRL	trail	"a path, track, or route used by pedestrians, animals, or off-road vehicles"
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+ASPH	asphalt lake	a small basin containing naturally occurring asphalt
+ATOL	atoll(s)	a ring-shaped coral reef which has closely spaced islands on it encircling a lagoon
+BAR	bar	"a shallow ridge or mound of coarse unconsolidated material in a stream channel, at the mouth of a stream, estuary, or lagoon and in the wave-break zone along coasts"
+BCH	beach	a shore zone of coarse unconsolidated sediment that extends from the low-water line to the highest reach of storm waves
+BCHS	beaches	a shore zone of coarse unconsolidated sediment that extends from the low-water line to the highest reach of storm waves
+BDLD	badlands	"an area characterized by a maze of very closely spaced, deep, narrow, steep-sided ravines, and sharp crests and pinnacles"
+BLDR	boulder field	"a high altitude or high latitude bare, flat area covered with large angular rocks"
+BLHL	blowhole(s)	a hole in coastal rock through which sea water is forced by a rising tide or waves and spurted through an outlet into the air
+BLOW	blowout(s)	"a small depression in sandy terrain, caused by wind erosion"
+BNCH	bench	"a long, narrow bedrock platform bounded by steeper slopes above and below, usually overlooking a waterbody"
+BUTE	butte(s)	"a small, isolated, usually flat-topped hill with steep sides"
+CAPE	cape	"a land area, more prominent than a point, projecting into the sea and marking a notable change in coastal direction"
+CFT	cleft(s)	"a deep narrow slot, notch, or groove in a coastal cliff"
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+FORD	ford	a shallow part of a stream which can be crossed on foot or by land vehicle
+FSR	fissure	a crack associated with volcanism
+GAP	gap	"a low place in a ridge, not used for transportation"
+GRGE	gorge(s)	"a short, narrow, steep-sided section of a stream valley"
+HDLD	headland	a high projection of land extending into a large body of water beyond the line of the coast
+HLL	hill	a rounded elevation of limited extent rising above the surrounding land with local relief of less than 300m
+HLLS	hills	rounded elevations of limited extent rising above the surrounding land with local relief of less than 300m
+HMCK	hammock(s)	"a patch of ground, distinct from and slightly above the surrounding plain or wetland. Often occurs in groups"
+HMDA	rock desert	"a relatively sand-free, high bedrock plateau in a hot desert, with or without a gravel veneer"
+INTF	interfluve	a relatively undissected upland between adjacent stream valleys
+ISL	island	"a tract of land, smaller than a continent, surrounded by water at high water"
+ISLET	islet	"small island, bigger than rock, smaller than island."
+ISLF	artificial island	"an island created by landfill or diking and filling in a wetland, bay, or lagoon"
+ISLM	mangrove island	a mangrove swamp surrounded by a waterbody
+ISLS	islands	"tracts of land, smaller than a continent, surrounded by water at high water"
+ISLT	land-tied island	"a coastal island connected to the mainland by barrier beaches, levees or dikes"
+ISLX	section of island	
+ISTH	isthmus	a narrow strip of land connecting two larger land masses and bordered by water
+KRST	karst area	"a distinctive landscape developed on soluble rock such as limestone characterized by sinkholes, caves, disappearing streams, and underground drainage"
+LAVA	lava area	an area of solidified lava
+LEV	levee	a natural low embankment bordering a distributary or meandering stream; often built up artificially to control floods
+MESA	mesa(s)	"a flat-topped, isolated elevation with steep slopes on all sides, less extensive than a plateau"
+MND	mound(s)	"a low, isolated, rounded hill"
+MRN	moraine	"a mound, ridge, or other accumulation of glacial till"
+MT	mountain	"an elevation standing high above the surrounding area with small summit area, steep slopes and local relief of 300m or more"

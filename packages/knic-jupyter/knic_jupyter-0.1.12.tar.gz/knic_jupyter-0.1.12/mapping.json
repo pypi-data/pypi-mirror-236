@@ -1,0 +1,1602 @@
+{
+  "X-subject-0": {
+    "X-subject-0-0-manual-geonames": {
+      "order": 0,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-2-baseline"
+    },
+    "X-subject-0-1-companion-geonames": {
+      "order": 1,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-3"
+    },
+    "X-subject-0-2-manual-geonames": {
+      "order": 2,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-1-baseline"
+    },
+    "X-subject-0-3-companion-geonames": {
+      "order": 3,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-4"
+    },
+    "X-subject-0-4-manual-geonames": {
+      "order": 4,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-2a-baseline"
+    },
+    "X-subject-0-5-companion-geonames": {
+      "order": 5,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-4a"
+    },
+    "X-subject-0-6-manual-MT": {
+      "order": 6,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-1-baseline"
+    },
+    "X-subject-0-7-companion-MT": {
+      "order": 7,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-2"
+    },
+    "X-subject-0-8-manual-MT": {
+      "order": 8,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-2a-baseline"
+    },
+    "X-subject-0-9-companion-MT": {
+      "order": 9,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-6a"
+    },
+    "X-subject-0-10-manual-ICT": {
+      "order": 10,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task2-baseline"
+    },
+    "X-subject-0-11-companion-ICT": {
+      "order": 11,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task4"
+    },
+    "X-subject-0-12-manual-ICT": {
+      "order": 12,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task1-baseline"
+    },
+    "X-subject-0-13-companion-ICT": {
+      "order": 13,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task3"
+    }
+  },
+  "Y-subject-1": {
+    "Y-subject-1-0-companion-geonames": {
+      "order": 0,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-2"
+    },
+    "Y-subject-1-1-manual-geonames": {
+      "order": 1,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-3-baseline"
+    },
+    "Y-subject-1-2-companion-geonames": {
+      "order": 2,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-1"
+    },
+    "Y-subject-1-3-manual-geonames": {
+      "order": 3,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-4-baseline"
+    },
+    "Y-subject-1-4-companion-geonames": {
+      "order": 4,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-2a"
+    },
+    "Y-subject-1-5-manual-geonames": {
+      "order": 5,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-4a-baseline"
+    },
+    "Y-subject-1-6-companion-MT": {
+      "order": 6,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-1"
+    },
+    "Y-subject-1-7-manual-MT": {
+      "order": 7,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-2-baseline"
+    },
+    "Y-subject-1-8-companion-MT": {
+      "order": 8,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-2a"
+    },
+    "Y-subject-1-9-manual-MT": {
+      "order": 9,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-6a-baseline"
+    },
+    "Y-subject-1-10-companion-ICT": {
+      "order": 10,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task2"
+    },
+    "Y-subject-1-11-manual-ICT": {
+      "order": 11,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task4-baseline"
+    },
+    "Y-subject-1-12-companion-ICT": {
+      "order": 12,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task1"
+    },
+    "Y-subject-1-13-manual-ICT": {
+      "order": 13,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task3-baseline"
+    }
+  },
+  "X-subject-2": {
+    "X-subject-2-0-manual-geonames": {
+      "order": 0,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-2-baseline"
+    },
+    "X-subject-2-1-companion-geonames": {
+      "order": 1,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-3"
+    },
+    "X-subject-2-2-manual-geonames": {
+      "order": 2,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-1-baseline"
+    },
+    "X-subject-2-3-companion-geonames": {
+      "order": 3,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-4"
+    },
+    "X-subject-2-4-manual-geonames": {
+      "order": 4,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-2a-baseline"
+    },
+    "X-subject-2-5-companion-geonames": {
+      "order": 5,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-4a"
+    },
+    "X-subject-2-6-manual-MT": {
+      "order": 6,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-1-baseline"
+    },
+    "X-subject-2-7-companion-MT": {
+      "order": 7,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-2"
+    },
+    "X-subject-2-8-manual-MT": {
+      "order": 8,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-2a-baseline"
+    },
+    "X-subject-2-9-companion-MT": {
+      "order": 9,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-6a"
+    },
+    "X-subject-2-10-manual-ICT": {
+      "order": 10,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task2-baseline"
+    },
+    "X-subject-2-11-companion-ICT": {
+      "order": 11,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task4"
+    },
+    "X-subject-2-12-manual-ICT": {
+      "order": 12,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task1-baseline"
+    },
+    "X-subject-2-13-companion-ICT": {
+      "order": 13,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task3"
+    }
+  },
+  "Y-subject-3": {
+    "Y-subject-3-0-companion-geonames": {
+      "order": 0,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-2"
+    },
+    "Y-subject-3-1-manual-geonames": {
+      "order": 1,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-3-baseline"
+    },
+    "Y-subject-3-2-companion-geonames": {
+      "order": 2,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-1"
+    },
+    "Y-subject-3-3-manual-geonames": {
+      "order": 3,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-4-baseline"
+    },
+    "Y-subject-3-4-companion-geonames": {
+      "order": 4,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-2a"
+    },
+    "Y-subject-3-5-manual-geonames": {
+      "order": 5,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-4a-baseline"
+    },
+    "Y-subject-3-6-companion-MT": {
+      "order": 6,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-1"
+    },
+    "Y-subject-3-7-manual-MT": {
+      "order": 7,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-2-baseline"
+    },
+    "Y-subject-3-8-companion-MT": {
+      "order": 8,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-2a"
+    },
+    "Y-subject-3-9-manual-MT": {
+      "order": 9,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-6a-baseline"
+    },
+    "Y-subject-3-10-companion-ICT": {
+      "order": 10,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task2"
+    },
+    "Y-subject-3-11-manual-ICT": {
+      "order": 11,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task4-baseline"
+    },
+    "Y-subject-3-12-companion-ICT": {
+      "order": 12,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task1"
+    },
+    "Y-subject-3-13-manual-ICT": {
+      "order": 13,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task3-baseline"
+    }
+  },
+  "X-subject-4": {
+    "X-subject-4-0-manual-geonames": {
+      "order": 0,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-2-baseline"
+    },
+    "X-subject-4-1-companion-geonames": {
+      "order": 1,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-3"
+    },
+    "X-subject-4-2-manual-geonames": {
+      "order": 2,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-1-baseline"
+    },
+    "X-subject-4-3-companion-geonames": {
+      "order": 3,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-4"
+    },
+    "X-subject-4-4-manual-geonames": {
+      "order": 4,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-2a-baseline"
+    },
+    "X-subject-4-5-companion-geonames": {
+      "order": 5,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-4a"
+    },
+    "X-subject-4-6-manual-MT": {
+      "order": 6,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-1-baseline"
+    },
+    "X-subject-4-7-companion-MT": {
+      "order": 7,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-2"
+    },
+    "X-subject-4-8-manual-MT": {
+      "order": 8,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-2a-baseline"
+    },
+    "X-subject-4-9-companion-MT": {
+      "order": 9,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-6a"
+    },
+    "X-subject-4-10-manual-ICT": {
+      "order": 10,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task2-baseline"
+    },
+    "X-subject-4-11-companion-ICT": {
+      "order": 11,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task4"
+    },
+    "X-subject-4-12-manual-ICT": {
+      "order": 12,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task1-baseline"
+    },
+    "X-subject-4-13-companion-ICT": {
+      "order": 13,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task3"
+    }
+  },
+  "Y-subject-5": {
+    "Y-subject-5-0-companion-geonames": {
+      "order": 0,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-2"
+    },
+    "Y-subject-5-1-manual-geonames": {
+      "order": 1,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-3-baseline"
+    },
+    "Y-subject-5-2-companion-geonames": {
+      "order": 2,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-1"
+    },
+    "Y-subject-5-3-manual-geonames": {
+      "order": 3,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-4-baseline"
+    },
+    "Y-subject-5-4-companion-geonames": {
+      "order": 4,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-2a"
+    },
+    "Y-subject-5-5-manual-geonames": {
+      "order": 5,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-4a-baseline"
+    },
+    "Y-subject-5-6-companion-MT": {
+      "order": 6,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-1"
+    },
+    "Y-subject-5-7-manual-MT": {
+      "order": 7,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-2-baseline"
+    },
+    "Y-subject-5-8-companion-MT": {
+      "order": 8,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-2a"
+    },
+    "Y-subject-5-9-manual-MT": {
+      "order": 9,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-6a-baseline"
+    },
+    "Y-subject-5-10-companion-ICT": {
+      "order": 10,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task2"
+    },
+    "Y-subject-5-11-manual-ICT": {
+      "order": 11,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task4-baseline"
+    },
+    "Y-subject-5-12-companion-ICT": {
+      "order": 12,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task1"
+    },
+    "Y-subject-5-13-manual-ICT": {
+      "order": 13,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task3-baseline"
+    }
+  },
+  "X-subject-6": {
+    "X-subject-6-0-manual-geonames": {
+      "order": 0,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-2-baseline"
+    },
+    "X-subject-6-1-companion-geonames": {
+      "order": 1,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-3"
+    },
+    "X-subject-6-2-manual-geonames": {
+      "order": 2,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-1-baseline"
+    },
+    "X-subject-6-3-companion-geonames": {
+      "order": 3,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-4"
+    },
+    "X-subject-6-4-manual-geonames": {
+      "order": 4,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-2a-baseline"
+    },
+    "X-subject-6-5-companion-geonames": {
+      "order": 5,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-4a"
+    },
+    "X-subject-6-6-manual-MT": {
+      "order": 6,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-1-baseline"
+    },
+    "X-subject-6-7-companion-MT": {
+      "order": 7,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-2"
+    },
+    "X-subject-6-8-manual-MT": {
+      "order": 8,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-2a-baseline"
+    },
+    "X-subject-6-9-companion-MT": {
+      "order": 9,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-6a"
+    },
+    "X-subject-6-10-manual-ICT": {
+      "order": 10,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task2-baseline"
+    },
+    "X-subject-6-11-companion-ICT": {
+      "order": 11,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task4"
+    },
+    "X-subject-6-12-manual-ICT": {
+      "order": 12,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task1-baseline"
+    },
+    "X-subject-6-13-companion-ICT": {
+      "order": 13,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task3"
+    }
+  },
+  "Y-subject-7": {
+    "Y-subject-7-0-companion-geonames": {
+      "order": 0,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-2"
+    },
+    "Y-subject-7-1-manual-geonames": {
+      "order": 1,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-3-baseline"
+    },
+    "Y-subject-7-2-companion-geonames": {
+      "order": 2,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-1"
+    },
+    "Y-subject-7-3-manual-geonames": {
+      "order": 3,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-4-baseline"
+    },
+    "Y-subject-7-4-companion-geonames": {
+      "order": 4,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-2a"
+    },
+    "Y-subject-7-5-manual-geonames": {
+      "order": 5,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-4a-baseline"
+    },
+    "Y-subject-7-6-companion-MT": {
+      "order": 6,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-1"
+    },
+    "Y-subject-7-7-manual-MT": {
+      "order": 7,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-2-baseline"
+    },
+    "Y-subject-7-8-companion-MT": {
+      "order": 8,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-2a"
+    },
+    "Y-subject-7-9-manual-MT": {
+      "order": 9,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-6a-baseline"
+    },
+    "Y-subject-7-10-companion-ICT": {
+      "order": 10,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task2"
+    },
+    "Y-subject-7-11-manual-ICT": {
+      "order": 11,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task4-baseline"
+    },
+    "Y-subject-7-12-companion-ICT": {
+      "order": 12,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task1"
+    },
+    "Y-subject-7-13-manual-ICT": {
+      "order": 13,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task3-baseline"
+    }
+  },
+  "X-subject-8": {
+    "X-subject-8-0-manual-geonames": {
+      "order": 0,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-2-baseline"
+    },
+    "X-subject-8-1-companion-geonames": {
+      "order": 1,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-3"
+    },
+    "X-subject-8-2-manual-geonames": {
+      "order": 2,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-1-baseline"
+    },
+    "X-subject-8-3-companion-geonames": {
+      "order": 3,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-4"
+    },
+    "X-subject-8-4-manual-geonames": {
+      "order": 4,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-2a-baseline"
+    },
+    "X-subject-8-5-companion-geonames": {
+      "order": 5,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-4a"
+    },
+    "X-subject-8-6-manual-MT": {
+      "order": 6,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-1-baseline"
+    },
+    "X-subject-8-7-companion-MT": {
+      "order": 7,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-2"
+    },
+    "X-subject-8-8-manual-MT": {
+      "order": 8,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-2a-baseline"
+    },
+    "X-subject-8-9-companion-MT": {
+      "order": 9,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-6a"
+    },
+    "X-subject-8-10-manual-ICT": {
+      "order": 10,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task2-baseline"
+    },
+    "X-subject-8-11-companion-ICT": {
+      "order": 11,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task4"
+    },
+    "X-subject-8-12-manual-ICT": {
+      "order": 12,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task1-baseline"
+    },
+    "X-subject-8-13-companion-ICT": {
+      "order": 13,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task3"
+    }
+  },
+  "Y-subject-9": {
+    "Y-subject-9-0-companion-geonames": {
+      "order": 0,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-2"
+    },
+    "Y-subject-9-1-manual-geonames": {
+      "order": 1,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-3-baseline"
+    },
+    "Y-subject-9-2-companion-geonames": {
+      "order": 2,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-1"
+    },
+    "Y-subject-9-3-manual-geonames": {
+      "order": 3,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-4-baseline"
+    },
+    "Y-subject-9-4-companion-geonames": {
+      "order": 4,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-2a"
+    },
+    "Y-subject-9-5-manual-geonames": {
+      "order": 5,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-4a-baseline"
+    },
+    "Y-subject-9-6-companion-MT": {
+      "order": 6,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-1"
+    },
+    "Y-subject-9-7-manual-MT": {
+      "order": 7,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-2-baseline"
+    },
+    "Y-subject-9-8-companion-MT": {
+      "order": 8,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-2a"
+    },
+    "Y-subject-9-9-manual-MT": {
+      "order": 9,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-6a-baseline"
+    },
+    "Y-subject-9-10-companion-ICT": {
+      "order": 10,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task2"
+    },
+    "Y-subject-9-11-manual-ICT": {
+      "order": 11,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task4-baseline"
+    },
+    "Y-subject-9-12-companion-ICT": {
+      "order": 12,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task1"
+    },
+    "Y-subject-9-13-manual-ICT": {
+      "order": 13,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task3-baseline"
+    }
+  },
+  "X-subject-10": {
+    "X-subject-10-0-manual-geonames": {
+      "order": 0,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-2-baseline"
+    },
+    "X-subject-10-1-companion-geonames": {
+      "order": 1,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-3"
+    },
+    "X-subject-10-2-manual-geonames": {
+      "order": 2,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-1-baseline"
+    },
+    "X-subject-10-3-companion-geonames": {
+      "order": 3,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-4"
+    },
+    "X-subject-10-4-manual-geonames": {
+      "order": 4,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-2a-baseline"
+    },
+    "X-subject-10-5-companion-geonames": {
+      "order": 5,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-4a"
+    },
+    "X-subject-10-6-manual-MT": {
+      "order": 6,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-1-baseline"
+    },
+    "X-subject-10-7-companion-MT": {
+      "order": 7,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-2"
+    },
+    "X-subject-10-8-manual-MT": {
+      "order": 8,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-2a-baseline"
+    },
+    "X-subject-10-9-companion-MT": {
+      "order": 9,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-6a"
+    },
+    "X-subject-10-10-manual-ICT": {
+      "order": 10,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task2-baseline"
+    },
+    "X-subject-10-11-companion-ICT": {
+      "order": 11,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task4"
+    },
+    "X-subject-10-12-manual-ICT": {
+      "order": 12,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task1-baseline"
+    },
+    "X-subject-10-13-companion-ICT": {
+      "order": 13,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task3"
+    }
+  },
+  "Y-subject-11": {
+    "Y-subject-11-0-companion-geonames": {
+      "order": 0,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-2"
+    },
+    "Y-subject-11-1-manual-geonames": {
+      "order": 1,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-3-baseline"
+    },
+    "Y-subject-11-2-companion-geonames": {
+      "order": 2,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-1"
+    },
+    "Y-subject-11-3-manual-geonames": {
+      "order": 3,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-4-baseline"
+    },
+    "Y-subject-11-4-companion-geonames": {
+      "order": 4,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-2a"
+    },
+    "Y-subject-11-5-manual-geonames": {
+      "order": 5,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-4a-baseline"
+    },
+    "Y-subject-11-6-companion-MT": {
+      "order": 6,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-1"
+    },
+    "Y-subject-11-7-manual-MT": {
+      "order": 7,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-2-baseline"
+    },
+    "Y-subject-11-8-companion-MT": {
+      "order": 8,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-2a"
+    },
+    "Y-subject-11-9-manual-MT": {
+      "order": 9,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-6a-baseline"
+    },
+    "Y-subject-11-10-companion-ICT": {
+      "order": 10,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task2"
+    },
+    "Y-subject-11-11-manual-ICT": {
+      "order": 11,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task4-baseline"
+    },
+    "Y-subject-11-12-companion-ICT": {
+      "order": 12,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task1"
+    },
+    "Y-subject-11-13-manual-ICT": {
+      "order": 13,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task3-baseline"
+    }
+  },
+  "X-subject-12": {
+    "X-subject-12-0-manual-geonames": {
+      "order": 0,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-2-baseline"
+    },
+    "X-subject-12-1-companion-geonames": {
+      "order": 1,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-3"
+    },
+    "X-subject-12-2-manual-geonames": {
+      "order": 2,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-1-baseline"
+    },
+    "X-subject-12-3-companion-geonames": {
+      "order": 3,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-4"
+    },
+    "X-subject-12-4-manual-geonames": {
+      "order": 4,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-2a-baseline"
+    },
+    "X-subject-12-5-companion-geonames": {
+      "order": 5,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-4a"
+    },
+    "X-subject-12-6-manual-MT": {
+      "order": 6,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-1-baseline"
+    },
+    "X-subject-12-7-companion-MT": {
+      "order": 7,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-2"
+    },
+    "X-subject-12-8-manual-MT": {
+      "order": 8,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-2a-baseline"
+    },
+    "X-subject-12-9-companion-MT": {
+      "order": 9,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-6a"
+    },
+    "X-subject-12-10-manual-ICT": {
+      "order": 10,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task2-baseline"
+    },
+    "X-subject-12-11-companion-ICT": {
+      "order": 11,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task4"
+    },
+    "X-subject-12-12-manual-ICT": {
+      "order": 12,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task1-baseline"
+    },
+    "X-subject-12-13-companion-ICT": {
+      "order": 13,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task3"
+    }
+  },
+  "Y-subject-13": {
+    "Y-subject-13-0-companion-geonames": {
+      "order": 0,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-2"
+    },
+    "Y-subject-13-1-manual-geonames": {
+      "order": 1,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-3-baseline"
+    },
+    "Y-subject-13-2-companion-geonames": {
+      "order": 2,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-1"
+    },
+    "Y-subject-13-3-manual-geonames": {
+      "order": 3,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-4-baseline"
+    },
+    "Y-subject-13-4-companion-geonames": {
+      "order": 4,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-2a"
+    },
+    "Y-subject-13-5-manual-geonames": {
+      "order": 5,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-4a-baseline"
+    },
+    "Y-subject-13-6-companion-MT": {
+      "order": 6,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-1"
+    },
+    "Y-subject-13-7-manual-MT": {
+      "order": 7,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-2-baseline"
+    },
+    "Y-subject-13-8-companion-MT": {
+      "order": 8,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-2a"
+    },
+    "Y-subject-13-9-manual-MT": {
+      "order": 9,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-6a-baseline"
+    },
+    "Y-subject-13-10-companion-ICT": {
+      "order": 10,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task2"
+    },
+    "Y-subject-13-11-manual-ICT": {
+      "order": 11,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task4-baseline"
+    },
+    "Y-subject-13-12-companion-ICT": {
+      "order": 12,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task1"
+    },
+    "Y-subject-13-13-manual-ICT": {
+      "order": 13,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task3-baseline"
+    }
+  },
+  "X-subject-14": {
+    "X-subject-14-0-manual-geonames": {
+      "order": 0,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-2-baseline"
+    },
+    "X-subject-14-1-companion-geonames": {
+      "order": 1,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-3"
+    },
+    "X-subject-14-2-manual-geonames": {
+      "order": 2,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-1-baseline"
+    },
+    "X-subject-14-3-companion-geonames": {
+      "order": 3,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-S-4"
+    },
+    "X-subject-14-4-manual-geonames": {
+      "order": 4,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-2a-baseline"
+    },
+    "X-subject-14-5-companion-geonames": {
+      "order": 5,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "X",
+      "original_notebook_name": "GEO-R-4a"
+    },
+    "X-subject-14-6-manual-MT": {
+      "order": 6,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-1-baseline"
+    },
+    "X-subject-14-7-companion-MT": {
+      "order": 7,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-S-2"
+    },
+    "X-subject-14-8-manual-MT": {
+      "order": 8,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-2a-baseline"
+    },
+    "X-subject-14-9-companion-MT": {
+      "order": 9,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "X",
+      "original_notebook_name": "MT-R-6a"
+    },
+    "X-subject-14-10-manual-ICT": {
+      "order": 10,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task2-baseline"
+    },
+    "X-subject-14-11-companion-ICT": {
+      "order": 11,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task4"
+    },
+    "X-subject-14-12-manual-ICT": {
+      "order": 12,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task1-baseline"
+    },
+    "X-subject-14-13-companion-ICT": {
+      "order": 13,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "X",
+      "original_notebook_name": "ICT-task3"
+    }
+  },
+  "Y-subject-15": {
+    "Y-subject-15-0-companion-geonames": {
+      "order": 0,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-2"
+    },
+    "Y-subject-15-1-manual-geonames": {
+      "order": 1,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-3-baseline"
+    },
+    "Y-subject-15-2-companion-geonames": {
+      "order": 2,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-1"
+    },
+    "Y-subject-15-3-manual-geonames": {
+      "order": 3,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-S-4-baseline"
+    },
+    "Y-subject-15-4-companion-geonames": {
+      "order": 4,
+      "system": "companion",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-2a"
+    },
+    "Y-subject-15-5-manual-geonames": {
+      "order": 5,
+      "system": "manual",
+      "domain": "geonames",
+      "ks_condition": "Y",
+      "original_notebook_name": "GEO-R-4a-baseline"
+    },
+    "Y-subject-15-6-companion-MT": {
+      "order": 6,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-1"
+    },
+    "Y-subject-15-7-manual-MT": {
+      "order": 7,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-S-2-baseline"
+    },
+    "Y-subject-15-8-companion-MT": {
+      "order": 8,
+      "system": "companion",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-2a"
+    },
+    "Y-subject-15-9-manual-MT": {
+      "order": 9,
+      "system": "manual",
+      "domain": "MT",
+      "ks_condition": "Y",
+      "original_notebook_name": "MT-R-6a-baseline"
+    },
+    "Y-subject-15-10-companion-ICT": {
+      "order": 10,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task2"
+    },
+    "Y-subject-15-11-manual-ICT": {
+      "order": 11,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task4-baseline"
+    },
+    "Y-subject-15-12-companion-ICT": {
+      "order": 12,
+      "system": "companion",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task1"
+    },
+    "Y-subject-15-13-manual-ICT": {
+      "order": 13,
+      "system": "manual",
+      "domain": "ICT",
+      "ks_condition": "Y",
+      "original_notebook_name": "ICT-task3-baseline"
+    }
+  }
+}
