@@ -1,0 +1,14 @@
+[tool.flake8]
+
+exclude = [
+    ".git",
+    "build",
+    "dist",
+    ".venv"
+]
+ignore = [
+    "E501",  # line too long
+    "W503"   # line break before binary operator
+]
+max-line-length = 88
+select = ["C", "E", "F", "W", "B", "BLK"]

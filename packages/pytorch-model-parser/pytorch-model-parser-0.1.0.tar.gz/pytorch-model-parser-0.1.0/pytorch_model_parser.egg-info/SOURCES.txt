@@ -1,0 +1,15 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+docs/source/conf.py
+docs/source/index.rst
+pytorch_model_parser/__init__.py
+pytorch_model_parser/parser.py
+pytorch_model_parser.egg-info/PKG-INFO
+pytorch_model_parser.egg-info/SOURCES.txt
+pytorch_model_parser.egg-info/dependency_links.txt
+pytorch_model_parser.egg-info/requires.txt
+pytorch_model_parser.egg-info/top_level.txt
