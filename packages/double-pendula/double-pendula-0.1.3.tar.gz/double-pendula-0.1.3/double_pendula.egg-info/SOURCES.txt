@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+double_pendula/__init__.py
+double_pendula/animate_double_pendula.py
+double_pendula/double_pendulum.py
+double_pendula/equations.py
+double_pendula/pendulum.py
+double_pendula.egg-info/PKG-INFO
+double_pendula.egg-info/SOURCES.txt
+double_pendula.egg-info/dependency_links.txt
+double_pendula.egg-info/requires.txt
+double_pendula.egg-info/top_level.txt
