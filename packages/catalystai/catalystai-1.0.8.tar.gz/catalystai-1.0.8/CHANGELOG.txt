@@ -1,0 +1,6 @@
+Change Log
+============
+1.0.7 (October 20, 2023)
+ — — — — — — — — — — — — — — — -
+- User can list all of the files in a given workspace and project.
+- User can upload a file in his/her Catalyst storage for a given workspace and project.
