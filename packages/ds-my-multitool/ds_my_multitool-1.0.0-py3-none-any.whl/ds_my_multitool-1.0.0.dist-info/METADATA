@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: ds-my-multitool
+Version: 1.0.0
+Summary: Multitools for the My project
+License: MIT
+Author: Daryl Stark
+Author-email: daryl@dstark.nl
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: ds-my-data (==1.0.1)
+Requires-Dist: pydantic (>=1.10.0,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: rich (>=13.5.2,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# My Multitool
+
+Multitool for the My Project. Contains a CLI script to configure the database and do other tasks.
+
+
