@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: random-quote-generator-sk7149
+Version: 0.1.0
+Summary: 
+Author: Stefanos
+Author-email: skanelo.ai@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# random-quote-generator
+
+My First Project with this stuck:
+
+- pytest
+- pytest-cov
+- Black
+- isort
+- ruff
+- Bandit
+- mypy
+
+## Documentation created with Sphinx
+
+[click here](https://random-quote-generator-sk7149.readthedocs.io/en/latest/)
+
