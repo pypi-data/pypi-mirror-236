@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: donate
+Version: 1.1.1
+Summary: library for donations
+Author: Redpiar
+Author-email: Regeonwix@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+a way to accept donations through python!
+
+installing:
+
+```shell
+pip install donate
+```
+
+docs:
+https://teletype.in/@redpiartestver/donate
