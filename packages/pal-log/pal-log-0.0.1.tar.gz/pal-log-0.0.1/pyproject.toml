@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pal-log"
+description = "Personal Activity Log"
+version = "0.0.1"
+authors = [
+    {name = "Alvaro Clemente", email = "clemente.varo@gmail.com"},
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "rich>=13.6.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "build",
+    "flake8",
+    "isort",
+    "mypy",
+    "pyls-isort",
+    "pylsp-mypy",
+    "pytest",
+    "python-lsp-black",
+    "python-lsp-server",
+    "twine",
+]
+
+[project.scripts]
+pal = 'pal.cli:main'
+
+
+[tool.setuptools.packages.find]
+where = ["src"]

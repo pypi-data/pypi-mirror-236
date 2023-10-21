@@ -1,0 +1,14 @@
+rich>=13.6.0
+
+[dev]
+black
+build
+flake8
+isort
+mypy
+pyls-isort
+pylsp-mypy
+pytest
+python-lsp-black
+python-lsp-server
+twine
