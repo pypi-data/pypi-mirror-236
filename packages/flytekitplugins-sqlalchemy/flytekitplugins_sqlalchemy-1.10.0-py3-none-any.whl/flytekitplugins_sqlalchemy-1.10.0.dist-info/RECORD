@@ -1,0 +1,8 @@
+flytekitplugins_sqlalchemy-1.10.0-py3.11-nspkg.pth,sha256=lkJ-eVJsxHcpr3YkJBzWrgSFWPWyG3DLhUSGmTcjxhg,584
+flytekitplugins/sqlalchemy/__init__.py,sha256=rrYysWND0w5KXqyRHJ6Txhjff80r0HN1yeXW8sUP3ic,335
+flytekitplugins/sqlalchemy/task.py,sha256=viuAzmxWM1FKnFuDfNC5QmSjsUSi1eSw7zjJKVlN9Sg,5603
+flytekitplugins_sqlalchemy-1.10.0.dist-info/METADATA,sha256=c-QyBPE6KHAa1KZT2cSHR_UOQjf-Gi6avzEp9odxjfE,866
+flytekitplugins_sqlalchemy-1.10.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+flytekitplugins_sqlalchemy-1.10.0.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_sqlalchemy-1.10.0.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_sqlalchemy-1.10.0.dist-info/RECORD,,
