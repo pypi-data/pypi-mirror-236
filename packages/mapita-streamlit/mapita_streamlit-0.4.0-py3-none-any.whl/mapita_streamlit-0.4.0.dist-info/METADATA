@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mapita_streamlit
+Version: 0.4.0
+Summary: A template Python module
+Home-page: https://github.com/IslasGECI/mapita_streamlit
+Author: Ciencia de Datos • GECI
+Author-email: ciencia.datos@islas.org.mx
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: descarga-datos==0.*
+Requires-Dist: pandas-stubs
+Requires-Dist: plotly==5.*
+Requires-Dist: streamlit
+
+<a href="https://www.islas.org.mx/"><img src="https://www.islas.org.mx/img/logo.svg" align="right" width="256" /></a>
+# Streamlit template
+
+To run as developer
+
+```shell
+docker-compose up -d app_develop
+```
+
