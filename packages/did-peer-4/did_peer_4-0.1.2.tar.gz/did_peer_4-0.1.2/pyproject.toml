@@ -1,0 +1,39 @@
+[project]
+name = "did-peer-4"
+version = "0.1.2"
+description = "An implementation of did:peer:4"
+authors = [
+    { name = "Daniel Bluhm", email = "dbluhm@pm.me" },
+]
+dependencies = [
+    "base58>=2.1.1",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "Apache-2.0"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "pytest>=7.4.0",
+    "black>=23.7.0",
+    "ruff>=0.0.285",
+    "pre-commit>=3.3.3",
+    "pytest-cov>=4.1.0",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "@abstract",
+]
+precision = 2
+skip_covered = true
+show_missing = true
