@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/py_code_timing/__init__.py
+src/py_code_timing/py_code_timing.py
+src/py_code_timing.egg-info/PKG-INFO
+src/py_code_timing.egg-info/SOURCES.txt
+src/py_code_timing.egg-info/dependency_links.txt
+src/py_code_timing.egg-info/top_level.txt
+tests/test.py

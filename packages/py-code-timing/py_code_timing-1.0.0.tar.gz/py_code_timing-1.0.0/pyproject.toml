@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "py_code_timing"
+version = "1.0.0"
+authors = [
+  { name="Purple Elephant", email="purple.elephant1037@gmail.com" },
+]
+description = "Python code timing utilities"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/purple-elephant1037/py_code_timing"
+"Test code" = "https://github.com/purple-elephant1037/py_code_timing/tree/master/tests"
+
