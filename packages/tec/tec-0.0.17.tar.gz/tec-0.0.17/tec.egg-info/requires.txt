@@ -1,0 +1,4 @@
+dol
+xdol
+pandas
+cchardet
