@@ -1,0 +1,15 @@
+rdkit
+stk
+stko
+
+[dev]
+black
+ruff
+mypy
+pip-tools
+pytest
+pytest-benchmark
+pytest-datadir
+pytest-lazy-fixture
+pytest-cov
+twine
