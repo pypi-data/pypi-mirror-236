@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+pybab.egg-info/PKG-INFO
+pybab.egg-info/SOURCES.txt
+pybab.egg-info/dependency_links.txt
+pybab.egg-info/requires.txt
+pybab.egg-info/top_level.txt
