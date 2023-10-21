@@ -1,0 +1,32 @@
+final_repr_09-27_56481
+
+
+age_years
+training_years
+training hour/week
+height_cm
+weight_kg
+hr_rest
+tre_peak_hr
+HR recovery
+HR reserve
+SMM (Skeletal Muscle Mass)
+PBF (Percent Body Fat)
+
+endpoint: kód_performance
+
+OrderedDict([('NN__activation', 'tanh'), ('NN__dropout', 0.0024020246531709674), ('NN__epochs', 193), ('NN__loss', <keras.losses.Huber object at 0x000001778B35B1C0>), ('NN__nhidden1', 27), ('NN__nhidden2', 23), ('NN__optimizer', 'SGD'), ('NN__optimizer__learning_rate', 0.22378786575652418), ('NN__use_dropout', False), ('NN__use_hidden2', True), ('NN__verbose', 1)])
+
+Train evaluation: 
+('fit_time', array([5.03602791, 5.3611238 , 4.53591108, 4.44775271, 4.60226727])), mean: 4.797
+('score_time', array([0.07799959, 0.09099746, 0.07418609, 0.06829357, 0.07503748])), mean: 0.077
+('test_r2', array([0.43173171, 0.54859891, 0.4527305 , 0.39946399, 0.51067188])), mean: 0.469
+('train_r2', array([0.57593368, 0.58671922, 0.58856906, 0.60231594, 0.59471039])), mean: 0.59
+('test_neg_mean_absolute_error', array([-0.57939946, -0.48693242, -0.57899036, -0.59800397, -0.53932792])), mean: -0.557
+('train_neg_mean_absolute_error', array([-0.49110261, -0.49511137, -0.48321374, -0.47806922, -0.47980205])), mean: -0.485
+
+R2 test: 
+0.38
+
+MAE test: 
+0.5
