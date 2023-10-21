@@ -1,0 +1,3 @@
+[cubicweb.cubes]
+timesheet = cubicweb_timesheet
+
