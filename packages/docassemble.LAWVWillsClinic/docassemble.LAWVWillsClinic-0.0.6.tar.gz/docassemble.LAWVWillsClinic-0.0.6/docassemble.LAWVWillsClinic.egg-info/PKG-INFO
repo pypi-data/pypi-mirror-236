@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: docassemble.LAWVWillsClinic
+Version: 0.0.6
+Summary: A docassemble extension for creating a basic will during a LAWV Will Clinic
+Home-page: https://docassemble.org
+Author: System Administrator
+Author-email: dhenry@lawv.net
+License: The MIT License (MIT)
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A guided interview for creating a Last Will and Testatment for a LAWV Will Clinic.  The interview assumes that it is going to be completed by an attorney or paralegal assisting in the clinic after the client has already submitted a Will Clinic questionnaire.  The interview seeks biographical information about the testator and family.  It then seeks specific gifts, general gifts, residual assignees, executors, and guardians. The interview produces a Word document to allow for final edits.
+
