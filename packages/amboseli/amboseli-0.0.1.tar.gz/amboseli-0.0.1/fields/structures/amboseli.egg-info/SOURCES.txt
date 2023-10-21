@@ -1,0 +1,6 @@
+amboseli.txt
+pyproject.toml
+fields/structures/amboseli.egg-info/PKG-INFO
+fields/structures/amboseli.egg-info/SOURCES.txt
+fields/structures/amboseli.egg-info/dependency_links.txt
+fields/structures/amboseli.egg-info/top_level.txt
