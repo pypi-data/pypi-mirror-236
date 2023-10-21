@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: atmosphyre
+Version: 0.0.4
+Summary: A sample test package
+Author: Jay Stephan
+Author-email: Jay Stephan <Jay.Stephan@stfc.ac.uk>
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+# Atmosphyre
+A Python package to characterise the impact of atmospheric dispersion on a spectrographs throughput.
+
+Instructions can be found at readthedocs:
+https://readthedocs.org/projects/atmosphyre/
