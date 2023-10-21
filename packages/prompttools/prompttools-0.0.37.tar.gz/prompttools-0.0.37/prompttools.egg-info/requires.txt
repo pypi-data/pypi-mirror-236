@@ -1,0 +1,9 @@
+openai
+tenacity
+tabulate
+pandas
+jinja2
+jupyterlab
+ipywidgets
+pylint
+sentry-sdk>=1.23.0
