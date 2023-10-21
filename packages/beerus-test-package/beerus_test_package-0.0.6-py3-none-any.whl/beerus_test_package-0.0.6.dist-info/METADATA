@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: beerus-test-package
+Version: 0.0.6
+Summary: A sample test package
+Home-page: UNKNOWN
+Author: Beerus
+Author-email: contact@gfg.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+pip3 install setuptools wheel
+python setup.py sdist bdist_wheel
+pip3 install twine
+twine upload --repository pypi dist/*
+py -m pip install --index-url https://test.pypi.org/simple/ --no-deps beerus_test_package
+pip install --index-url https://test.pypi.org/simple/ beerus_test_package
+
+python setup.py sdist bdist_wheel
+twine upload --repository pypi dist/*
+
+
+pip install beerus-test-package -t utils
+tar acvf utils.zip utils
+rmdir /s /q "utils"
+
+pip install requests -t requests
+tar acvf requests.zip requests
+rmdir /s /q "requests"
+
+pip install pandas -t pandas
+tar acvf pandas.zip pandas
+rmdir /s /q "pandas"
+
+
+https://pypi.org/project/pandas/#modal-close
+https://pypi.org/project/numpy/#files
+https://pypi.org/project/pytz/#files
+
+wheel unpack pytz-2023.3.post1-py2.py3-none-any.whl
+wheel unpack numpy-1.26.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+wheel unpack pandas-2.1.1-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+mkdir pandas
+
+Xcopy pandas-2.1.1 pandas /E /H /C /I
+Xcopy pytz-2023.3.post1 pandas /E /H /C /I
+Xcopy numpy-1.26.1 pandas /E /H /C /I
+tar acvf pandas.zip pandas
+
