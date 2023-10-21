@@ -1,0 +1,15 @@
+cloudantic/__init__.py,sha256=oUT2-Q2QsRWEVCBWaP21SJ4OqAsXPFMx9OqmNmpHHXg,342
+cloudantic/router/__init__.py,sha256=hcDjt6OA4UstelIZVZlCEuEOls0ocx8viYERfsRvQVg,72
+cloudantic/router/api.py,sha256=b13uftp-1TwH8bzq77Uti__LjX4_DU6JRCKHUq9VMWY,793
+cloudantic/router/crud.py,sha256=ckWFiucQazUyYnt2i-zNmXARWPux4_qYcOhZuQkuQ60,4335
+cloudantic/schema/__init__.py,sha256=0vDZDsx5YW6mS52_sGlAVvBfNI_Of0Pys0TVyoT3KS4,243
+cloudantic/schema/odm.py,sha256=SHcPxuCSMsMmyc46KLWjb6HuR5FfJGR4k7HNIX6EwCE,19156
+cloudantic/schema/streams.py,sha256=lIzuS8heVgxi5wYAVSSEo3Z4zghW5wmOCkKQd5_1UDw,21507
+cloudantic/services/__init__.py,sha256=2XiZJxJ8Hi_OOygjiGgAA9rz0D3ZX4QmNk-7nkq1RAQ,70
+cloudantic/services/apiclient.py,sha256=j0qHNFN3QtTUk9UJPPj-T8_wZpLVBPP0MGgKPRyIQQU,9195
+cloudantic/services/kinesis.py,sha256=nlBuxIGnQHEGmXjdK_-oawU2x9BaI6OsJSHakrLk2lA,5156
+cloudantic/services/storage.py,sha256=AuZ0p2AaWzb_LF8bcku8bKFH1Spnubblh3wIeq6LYD4,2084
+cloudantic/utils.py,sha256=MOsBD7UmcqgVx5U3zjVL6cGZmKuVf1B1eQY-Fpf0F7Q,7532
+cloudantic-0.0.3.dist-info/METADATA,sha256=R_8uNnlwuxCmsB8ImbsUW0ZZi1qIWD7KMsXQHpc2Bzk,634
+cloudantic-0.0.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cloudantic-0.0.3.dist-info/RECORD,,
