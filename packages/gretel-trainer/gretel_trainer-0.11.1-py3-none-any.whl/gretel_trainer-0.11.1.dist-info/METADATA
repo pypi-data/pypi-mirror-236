@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: gretel-trainer
+Version: 0.11.1
+Summary: Synthetic Data Generation with optional Differential Privacy
+Home-page: https://github.com/gretelai/gretel-trainer
+License: https://gretel.ai/license/source-available-license
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: Free To Use But Restricted
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: boto3 ~=1.20
+Requires-Dist: dask[dataframe] ==2023.5.1
+Requires-Dist: gretel-client >=0.16.12
+Requires-Dist: jinja2 ~=3.1
+Requires-Dist: networkx ~=3.0
+Requires-Dist: numpy ~=1.20
+Requires-Dist: pandas ~=1.5
+Requires-Dist: plotly ~=5.11
+Requires-Dist: pydantic ~=1.9
+Requires-Dist: requests ~=2.25
+Requires-Dist: scikit-learn ~=1.0
+Requires-Dist: smart-open[s3] ~=5.2
+Requires-Dist: sqlalchemy ~=1.4
+Requires-Dist: typing-extensions ~=4.7
+Requires-Dist: unflatten ==0.1.1
+Provides-Extra: bigquery
+Requires-Dist: sqlalchemy-bigquery[bqstorage] ~=1.6 ; extra == 'bigquery'
+Provides-Extra: connectors
+Requires-Dist: mysqlclient ~=2.1 ; extra == 'connectors'
+Requires-Dist: psycopg2-binary ~=2.9 ; extra == 'connectors'
+Requires-Dist: snowflake-sqlalchemy ~=1.4 ; extra == 'connectors'
+Requires-Dist: sqlalchemy-bigquery[bqstorage] ~=1.6 ; extra == 'connectors'
+Provides-Extra: mysql
+Requires-Dist: mysqlclient ~=2.1 ; extra == 'mysql'
+Provides-Extra: postgres
+Requires-Dist: psycopg2-binary ~=2.9 ; extra == 'postgres'
+Provides-Extra: snowflake
+Requires-Dist: snowflake-sqlalchemy ~=1.4 ; extra == 'snowflake'
+
+UNKNOWN
+
