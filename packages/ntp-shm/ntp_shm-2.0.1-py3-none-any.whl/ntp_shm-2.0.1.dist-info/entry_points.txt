@@ -1,0 +1,2 @@
+[console_scripts]
+ntp-shm = ntp_shm.main:main
