@@ -1,0 +1,13 @@
+mcpi_addons/PNBT.py,sha256=UEsCBKWnfJ4Y_-BWJ0Emk56m0F7Kr1gqn7V3mV5qN_8,3216
+mcpi_addons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcpi_addons/block.py,sha256=g4wsPAbb7OQChMJLT7Mc621RhMOuEuFEQJD8fKCGP2g,3335
+mcpi_addons/connection.py,sha256=3IToYPinvktGHANSAUUsB_pJgCH140ZXv3Aw4fIYaoY,2033
+mcpi_addons/entity.py,sha256=LuL5xuseKdUzzA-nz8aNxNhUJxHNcV80IlzXSfHc-W4,2859
+mcpi_addons/event.py,sha256=l7rydRMdPqy3ugtkD9UZDcVs6QHmbraAiPPc5XNlq6w,1630
+mcpi_addons/minecraft.py,sha256=mNB81t0sQt1Cly3BET2BtdPHC5ZzDgq8yWf8H933Qs4,15518
+mcpi_addons/util.py,sha256=rAT9zN2guAzd5ipRJLxP7sN8XcixjM7DG7GaRzuchh8,634
+mcpi_addons/vec3.py,sha256=fozEnPDvPAD_1WHiIoAPuB_h8H0IfYCCDjhYOjTEO1U,2665
+MCPI_Addons-1.2.4.dist-info/METADATA,sha256=uixwD-eUueCemMpraOLBCLSRkQupolWqx4clwjEp7iY,9412
+MCPI_Addons-1.2.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+MCPI_Addons-1.2.4.dist-info/top_level.txt,sha256=HAcZHjOhaDchifOd24OvcQRrCx9G4ded7AcD7OKjhMg,12
+MCPI_Addons-1.2.4.dist-info/RECORD,,
