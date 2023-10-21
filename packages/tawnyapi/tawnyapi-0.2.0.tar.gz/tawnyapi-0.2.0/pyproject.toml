@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "tawnyapi"
+version = "0.2.0"
+description = ""
+authors = ["TAWNY GmbH <support@tawny.ai>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+typer = "^0.3.2"
+aiohttp = "^3.7.4"
+opencv-python = "4.6.0.66"
+imutils = "^0.5.4"
+toml = "^0.10.2"
+aiofiles = "^0.7.0"
+numpy = "^1.23.3"
+
+[tool.poetry.dependencies.tensorflow]
+version = "2.13.0"
+markers = "platform_machine == 'x86_64'"
+#markers = "sys_platform != 'darwin'"
+
+[tool.poetry.dependencies.tensorflow-macos]
+version = "2.13.0"
+markers = "platform_machine == 'arm64'"
+#markers = "sys_platform == 'darwin'"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+autopep8 = "^1.5.7"
+pylint = "^2.9.6"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

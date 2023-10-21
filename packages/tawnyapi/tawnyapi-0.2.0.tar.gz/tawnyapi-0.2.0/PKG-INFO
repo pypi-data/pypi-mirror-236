@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: tawnyapi
+Version: 0.2.0
+Summary: 
+Author: TAWNY GmbH
+Author-email: support@tawny.ai
+Requires-Python: >=3.8,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiofiles (>=0.7.0,<0.8.0)
+Requires-Dist: aiohttp (>=3.7.4,<4.0.0)
+Requires-Dist: imutils (>=0.5.4,<0.6.0)
+Requires-Dist: numpy (>=1.23.3,<2.0.0)
+Requires-Dist: opencv-python (==4.6.0.66)
+Requires-Dist: tensorflow (==2.13.0) ; platform_machine == "x86_64"
+Requires-Dist: tensorflow-macos (==2.13.0) ; platform_machine == "arm64"
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
