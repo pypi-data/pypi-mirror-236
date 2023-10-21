@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+test/test_tristate20.py
+tristate20/__init__.py
+tristate20/tristate20.py
+tristate20.egg-info/PKG-INFO
+tristate20.egg-info/SOURCES.txt
+tristate20.egg-info/dependency_links.txt
+tristate20.egg-info/requires.txt
+tristate20.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+dill
+peewee
+
+[demos]
+jupyter
+
+[dev]
+black
+isort
+pytest
