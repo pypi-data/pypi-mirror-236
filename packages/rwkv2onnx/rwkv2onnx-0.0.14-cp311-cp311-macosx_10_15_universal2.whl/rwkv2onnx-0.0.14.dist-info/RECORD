@@ -1,0 +1,10 @@
+rwkv2onnx_python.cpython-311-darwin.so,sha256=De920i0PWlZucLQ8EuR-XuLnJkGMZoj2UBRPWiLVF38,4989136
+rwkv2onnx-0.0.14.dist-info/RECORD,,
+rwkv2onnx-0.0.14.dist-info/WHEEL,sha256=KWozGm6y4v8eorcCED05QDQRhoVlkI2WopnLDDhD0pk,116
+rwkv2onnx-0.0.14.dist-info/entry_points.txt,sha256=hymDXXIB-jiTOjYavss4GAMaDtaFUsFILUVAma2Zlwc,45
+rwkv2onnx-0.0.14.dist-info/top_level.txt,sha256=Sn4ybPahzO7yMBKmFWhrMBxBxDHsNxOVr7nX6czjw_A,27
+rwkv2onnx-0.0.14.dist-info/METADATA,sha256=ets0zdR6GhucbIPnt9zoGkpR6YaT1xAstb_mO4uv8wk,369
+rwkv2onnx/__init__.py,sha256=aywQOrIu3F_A6tWZQNL3y39PkQm3UJaJ34eAk2INLC4,1905
+rwkv2onnx/convert_to_fr.py,sha256=9dYPPmqEwB9mR1jiRPANIpjmCHwm0kEDgIpYYgQDZH0,1655
+rwkv2onnx/.gitignore,sha256=GzUlOnUSqlxrekvdYLZ_yR5VXrdG5tsZwKL87_sQYgA,31
+rwkv2onnx/__main__.py,sha256=Yw2oGT1afrz2eBskzdPYL8ReB_3liApmhFkN2EbDmc4,59
