@@ -1,0 +1,15 @@
+sinemarc_api/__init__.py,sha256=wslvT7I57Ex6pflMYQsFSATEaRKSddF9FeIF7OYjm0U,412
+sinemarc_api/example/__init__.py,sha256=IfFgoQ_gJd0c2eSa2pxhnwyPUMwYgDcaSzF2J-7V-5Y,413
+sinemarc_api/example/__main__.py,sha256=ITvASwwDs08Kpl61E8cQKE61KQQ5Wxi0blDY9Li5oTY,473
+sinemarc_api/example/influxDB_example.py,sha256=hCTE8o7AvD-6beJj47sMXPaKHc8g84Ux6UmP7Uwg_JY,4232
+sinemarc_api/example/postgresDB_example.py,sha256=LbCmahj3PwaNgBcCyObNYPvfri-2EpME1TfT3TQ3AD8,5475
+sinemarc_api/lib/__init__.py,sha256=p_yqWr5EtqipRDle3jLbtNLjy28dFJF_tAJp5BTkEp8,413
+sinemarc_api/lib/definitions.py,sha256=7np0bIFGUtmJe1H98fQEfnqpcvHcoe2fPgBi_z0V77g,4916
+sinemarc_api/lib/exception_definition.py,sha256=exlw8vaYasdYpMPbuGw1i977-zAcwxvc9_L45dCFmS0,650
+sinemarc_api/lib/srcapi_core.py,sha256=2NUMnZMy_apfroL0VGmf3cKfHSswqlHGcM6VcESvzBY,61354
+sinemarc_api-0.0.1.dist-info/LICENSE,sha256=Ddr4T-R644-E3WUZDottMQMMWny1V50XgeG5JsDy718,1067
+sinemarc_api-0.0.1.dist-info/METADATA,sha256=h2buWakKKrUgElgaodA3WbCM2WrZJ5uPyMcVrMy3v5w,947
+sinemarc_api-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sinemarc_api-0.0.1.dist-info/entry_points.txt,sha256=VUNIbCUaaNPIw9znvuUNvFUV11j2LvtQTCArVZ7HkY8,74
+sinemarc_api-0.0.1.dist-info/top_level.txt,sha256=KGq6pKGe6heXHXg0zaKTw1HvcOine8LIhcVYl1-F6is,13
+sinemarc_api-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sinemarc-api
+Version: 0.0.1
+Summary: A libary for the rest api of SINEMA RC
+Home-page: 
+Author: SIEMENS Support
+Author-email: Torsten Keidel <siemens@support.com>
+Project-URL: Homepage, https://github.com/siemens/sinema-rc-tools
+Project-URL: Bug Tracker, https://github.com/siemens/sinema-rc-tools/issues
+Keywords: network,sinemarc
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+This package for python, which can be used to connect to your SINEMA RC RestAPI.
+You can use it to manage your server, devices and users. It provides an easy access to SINEMA RC.
+
+
+It is using the SINEMA RC API. It can be bought with the MLFB 6GK1724-3VH03-0BV0
+
+Manual
+https://support.industry.siemens.com/cs/de/en/view/109793829
