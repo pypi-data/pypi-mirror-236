@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+lifemanapy/__init__.py
+lifemanapy/lifemanatibia.py
+lifemanapy.egg-info/PKG-INFO
+lifemanapy.egg-info/SOURCES.txt
+lifemanapy.egg-info/dependency_links.txt
+lifemanapy.egg-info/requires.txt
+lifemanapy.egg-info/top_level.txt
