@@ -1,0 +1,12 @@
+extractzip/__init__.py,sha256=U-3KlD5le9rcN4G4XNI_CGmz4035Zdb3tPIV79OcfeU,620
+extractzip/helper.py,sha256=BX2ZECDW5xXnGVzXw4wBxWsQMO24QxoAiBOTjqYrYvI,2500
+extractzip/lang.py,sha256=T_wILbHKuSwYgWC60p-iNE4fAuSsU9HvXncFwzaj-Zk,1439
+extractzip/main.py,sha256=KOBHDvTrKGL6N5jg3VF2HiuFhDwYGt0-Fgwv0QGnL8o,7233
+extractzip/model.py,sha256=OGrnJBSyqzH9tOUMNXLGY0APvtv90N3gDXniRc0uUrs,1512
+extractzip/utils.py,sha256=qQcOotJxqQkFQPhARYlbXDf5IYEBVCNlDA-GzHHx-Dk,233
+extractzip_sebastian_stigler-0.1.2.dist-info/LICENSE.txt,sha256=C0KMgW8b462n47c5wBFhb7sZJEA0brawj6O1Tz72mSc,1084
+extractzip_sebastian_stigler-0.1.2.dist-info/METADATA,sha256=mrJkQ2_JFGTtGN2DzpF2fpOXn_Pb6gDpzL905s7m7Ps,7095
+extractzip_sebastian_stigler-0.1.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+extractzip_sebastian_stigler-0.1.2.dist-info/entry_points.txt,sha256=UpPjoQUeryTf_axHg6KfdrStkVL50XI5ev-379p8UpI,56
+extractzip_sebastian_stigler-0.1.2.dist-info/top_level.txt,sha256=gUWP_cme8YZeAhcHEiCyiDTe8Sc3yXNw81iGffHMoSU,11
+extractzip_sebastian_stigler-0.1.2.dist-info/RECORD,,
