@@ -1,0 +1,7 @@
+mypy==1.6.1  # also update pyproject.toml
+ruamel.yaml>=0.16.0,<0.18
+cwl-utils>=0.22
+types-requests
+types-setuptools
+types-psutil
+types-mock
