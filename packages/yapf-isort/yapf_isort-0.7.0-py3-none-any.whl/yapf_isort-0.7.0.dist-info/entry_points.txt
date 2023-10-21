@@ -1,0 +1,3 @@
+[console_scripts]
+yapf_isort = yapf_isort.__main__:main
+yapf-isort = yapf_isort.__main__:main
