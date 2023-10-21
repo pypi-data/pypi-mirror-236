@@ -1,0 +1,22 @@
+{%- for top in page.data.top -%}
+<h2>{{ top.type }}</h2>
+{%- for category in top.categories -%}
+<h3>{{ category.name }}</h3>
+<ul>
+    {%- for item in category.pages -%}
+        {%- if site.filename-index -%}
+            {%- assign name = item.filename -%}
+        {%- else -%}
+            {%- assign name = item.path -%}
+        {%- endif -%}
+
+        {%- if item.title -%}
+            {%- capture link_title -%}{{item.title}} <small>({{ name }})</small>{%- endcapture -%}
+        {%- else -%}
+            {%- capture link_title -%}{{name}}{%- endcapture -%}
+        {%- endif -%}
+        <li><a href="{{ item.path | relative_url }}">{{ site.icons[item.icon] }} {{ link_title }}</a></li>
+    {%- endfor -%}
+</ul>
+{%- endfor -%}
+{%- endfor -%}
