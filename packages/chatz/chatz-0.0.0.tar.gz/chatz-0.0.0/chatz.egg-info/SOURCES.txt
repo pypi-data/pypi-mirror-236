@@ -1,0 +1,11 @@
+README.md
+setup.py
+benchmark/__init__.py
+chatz/__init__.py
+chatz.egg-info/PKG-INFO
+chatz.egg-info/SOURCES.txt
+chatz.egg-info/dependency_links.txt
+chatz.egg-info/requires.txt
+chatz.egg-info/top_level.txt
+examples/__init__.py
+test/__init__.py
