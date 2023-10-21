@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "qlot"
+version = "0.1.0"
+description = ""
+authors = ["Naoya Yamashita <conao3@gmail.com>"]
+license = "Apache-2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+graphql-core = "^3.2.3"
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.4.0"
+graphene = "^3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

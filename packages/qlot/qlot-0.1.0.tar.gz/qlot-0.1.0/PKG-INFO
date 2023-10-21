@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: qlot
+Version: 0.1.0
+Summary: 
+License: Apache-2.0
+Author: Naoya Yamashita
+Author-email: conao3@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: graphql-core (>=3.2.3,<4.0.0)
+Description-Content-Type: text/markdown
+
+# python-pyqlat
+
+## Contributing
+
+### pre-commit
+
+All commits are checked with pre-commit.  To install pre-commit, run the following command:
+
+```bash
+poetry run pre-commit install -t pre-commit
+```
+
