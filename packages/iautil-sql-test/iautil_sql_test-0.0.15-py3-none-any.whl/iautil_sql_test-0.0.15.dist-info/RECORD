@@ -1,0 +1,10 @@
+iautil_sql_test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iautil_sql_test/conn.py,sha256=Uhp0SxEKY1PGzCqGt1Zd1oiQj4Nh51F35AU9s_CXEXg,7355
+iautil_sql_test/file.py,sha256=MJgA9fd8U3XdQSNqPk78n7VsTnTDEnU2wKQi3EL_DWc,691
+iautil_sql_test/strings.py,sha256=usDXhTEwTVZq36cnvaTUVup-pNg9w7oma7iasVIFHBo,69
+iautil_sql_test/version.py,sha256=3IDMkH0tHt3kJfMOd5_O8Wnq5MGEJz67YIONoTX6vhs,59
+iautil_sql_test-0.0.15.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+iautil_sql_test-0.0.15.dist-info/METADATA,sha256=NWBZggSrW9HhBOIcsHbOWwbfIYK376GAzPTGET5uR7E,3050
+iautil_sql_test-0.0.15.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+iautil_sql_test-0.0.15.dist-info/top_level.txt,sha256=QWIWEx_mFBgv608FYbOoShFae2H7uM50EelPevtGIVM,16
+iautil_sql_test-0.0.15.dist-info/RECORD,,
