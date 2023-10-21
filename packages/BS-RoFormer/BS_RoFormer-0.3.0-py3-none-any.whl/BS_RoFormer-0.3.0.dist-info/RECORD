@@ -1,0 +1,9 @@
+bs_roformer/__init__.py,sha256=X-70mE0BqEp-nQXVVDsSWyo7AnnK9BN1K3mLZtpvB3U,105
+bs_roformer/attend.py,sha256=UPM6rVfiBdgSAEFnYmpRmz_rrZygOU51ZYUoQFRjQ1k,3063
+bs_roformer/bs_roformer.py,sha256=ZwIO-1iOLk6U_IzmS5crIQ4JJhAgty1h5rrPnkX1Y84,13406
+bs_roformer/mel_band_roformer.py,sha256=f49k1NEUS9DfSEJMHIFOGCkMrxWQ5F4287ESKNyrx00,15563
+BS_RoFormer-0.3.0.dist-info/LICENSE,sha256=JCo3d2HvOFPGYvaXfnYX4-qjRyQvVElop5ZRITXMg-U,1066
+BS_RoFormer-0.3.0.dist-info/METADATA,sha256=yJanc4gsoIPJCWsUAJx1wcog7VkAjDPDJyteAgyUAQo,837
+BS_RoFormer-0.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+BS_RoFormer-0.3.0.dist-info/top_level.txt,sha256=r2_5vCUJmRYjev6XPVKQFw3cA1mfR1NSIrVEIa9vmWo,12
+BS_RoFormer-0.3.0.dist-info/RECORD,,
