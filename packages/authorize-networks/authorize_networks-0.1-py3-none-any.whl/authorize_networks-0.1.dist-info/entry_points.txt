@@ -1,0 +1,2 @@
+[console_scripts]
+authorize_networks = authorize_networks_main:cli
