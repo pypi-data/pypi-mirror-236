@@ -1,0 +1,17 @@
+name: foxlator-lib smoke tests per push
+
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    environment:
+      name: foxlator-lib
+      url: https://pypi.org/p/foxlator-lib
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Install dependencies"
+        run: ./bin/install-deps.sh
+      - name: "Build wheel package"
+        run: ./bin/build-package.sh
+      - name: "Perform a smoke test"
+        run: ./bin/smoke-test.sh

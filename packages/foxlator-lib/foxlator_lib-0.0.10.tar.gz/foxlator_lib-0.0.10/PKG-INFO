@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: foxlator-lib
+Version: 0.0.10
+Summary: Library backend for foxlator
+Project-URL: Homepage, https://github.com/skyfox-ai/foxlator-lib
+Project-URL: Bug Tracker, https://github.com/skyfox-ai/foxlator-lib/issues
+Author-email: Witold Haza <witekhaface@gmail.com>, Kacper Czyz <kacper.czyz@protonmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+Empty for now

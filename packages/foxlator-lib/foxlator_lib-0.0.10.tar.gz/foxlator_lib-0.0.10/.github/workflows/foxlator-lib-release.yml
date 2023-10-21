@@ -1,0 +1,43 @@
+name: foxlator-lib release
+
+on:
+  workflow_dispatch:
+    inputs:
+      release_type:
+        description: "Release type: major/minor/patch"
+        required: true
+        default: "minor"
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    environment:
+      name: foxlator-lib
+      url: https://pypi.org/p/foxlator-lib
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Install dependencies"
+        run: ./bin/install-deps.sh
+      - name: "Setup git credentials"
+        run: |
+          git config --global user.email "skyfox.comp@gmail.com"
+          git config --global user.name 'Skyfox.Builder'
+          git remote set-url origin https://x-access-token:${{ secrets.GIT_TOKEN }}@github.com/${{ github.repository }}
+      - name: "Merge main with dev branch"
+        run: |
+          git fetch --unshallow
+          git pull
+          git checkout main
+          git pull
+          git merge dev
+          git push
+      - name: "Bump version"
+        run: ./bin/bump-version.sh --${{ github.event.inputs.release_type }}
+      - name: "Build wheel package"
+        run: ./bin/build-package.sh
+      - name: "Release to PyPI"
+        run: python3.10 -m twine upload  dist/* -u ${{ secrets.PYPI_USERNAME }} -p ${{ secrets.PYPI_TOKEN }}
+      - name: "Rebase dev branch with main"
+        run: |
+          git checkout dev
+          git pull origin main --rebase
+          git push

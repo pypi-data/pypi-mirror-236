@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "foxlator-lib"
+version = "0.0.10"
+authors = [
+  { name="Witold Haza", email="witekhaface@gmail.com" },
+  { name="Kacper Czyz", email="kacper.czyz@protonmail.com" },
+]
+dependencies = [
+]
+description = "Library backend for foxlator"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/skyfox-ai/foxlator-lib"
+"Bug Tracker" = "https://github.com/skyfox-ai/foxlator-lib/issues"
