@@ -1,0 +1,11 @@
+my_second_ph3_package/__init__.py,sha256=iaTA1t0EHraHiW2iQ0RniTaz3znFflsR7lLjPVUvblg,345
+my_second_ph3_package/my_second_ph3_package.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+my_second_ph3_package/sub_package_1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_second_ph3_package/sub_package_1/my_class_1.py,sha256=6047ivwffeZHdk1XkUklbWbCeeGGAixvHfGJV2drOIE,4613
+my_second_ph3_package/sub_package_2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_second_ph3_package/sub_package_2/my_class_2.py,sha256=OuVAkEru3IshiDkOApLzhvMjrpp2MOT-m_wHabgNN0I,777
+my_second_ph3_package/sub_package_2/my_class_3.py,sha256=hc89JgAkbp8am1GIzbtA2oXn9yosDaj89i1xUNJcQkg,777
+my_second_ph3_package-0.1.0.dist-info/LICENSE,sha256=O01TcA7ep-58TvsYF9wCI1Ak7NqprCjImGE6rxoehIc,1073
+my_second_ph3_package-0.1.0.dist-info/METADATA,sha256=TGpyVJSntG7YxbYuiDXkd-z5T7CaX6rcIDtvjA0jEfI,2175
+my_second_ph3_package-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+my_second_ph3_package-0.1.0.dist-info/RECORD,,
