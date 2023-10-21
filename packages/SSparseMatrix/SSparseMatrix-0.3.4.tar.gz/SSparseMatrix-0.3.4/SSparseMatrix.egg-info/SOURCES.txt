@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+SSparseMatrix/SSparseMatrix.py
+SSparseMatrix/__init__.py
+SSparseMatrix.egg-info/PKG-INFO
+SSparseMatrix.egg-info/SOURCES.txt
+SSparseMatrix.egg-info/dependency_links.txt
+SSparseMatrix.egg-info/requires.txt
+SSparseMatrix.egg-info/top_level.txt
