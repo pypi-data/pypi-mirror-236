@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: latextranslator
+Version: 0.1.1
+Summary: A LaTeX to TXT file translator.
+Author-email: Bruno Prieto <brunoprietog@hey.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: click
+Requires-Dist: ply
+Requires-Dist: pytest ; extra == "test"
+Project-URL: Home, https://github.com/brunoprietog/latextranslator
+Provides-Extra: test
+
+# LaTeX Translator
+
+This package is a LaTeX translator that allows you to convert LaTeX code into plain text TXT format.
+
+## Installation
+
+To install this package, simply run the following command:
+
+    $ pip install latextranslator
+
+## Usage
+
+You can review the full list of commands by running `latextranslator --help`.
+
