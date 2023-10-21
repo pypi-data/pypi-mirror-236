@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: roboflex.audio_alsa
+Version: 0.1.2
+Summary: Roboflex Audio input library using ALSA
+Home-page: https://github.com/flexrobotics/roboflex_audio_alsa
+Author: Colin Prepscius
+Author-email: colinprepscius@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+Roboflex Audio input library using ALSA
+
