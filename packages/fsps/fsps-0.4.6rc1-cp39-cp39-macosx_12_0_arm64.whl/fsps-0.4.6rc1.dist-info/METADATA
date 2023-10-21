@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: fsps
+Version: 0.4.6rc1
+Summary: Python bindings for Charlie Conroy's FSPS
+Author-Email: Dan Foreman-Mackey <foreman.mackey@gmail.com>
+License: MIT License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Project-URL: Homepage, https://dfm.io/python-fsps
+Project-URL: Source, https://github.com/dfm/python-fsps
+Project-URL: Bug tracker, https://github.com/dfm/python-fsps/issues
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-xdist; extra == "test"
+Provides-Extra: test
+Description-Content-Type: text/x-rst
+License-File: LICENSE.rst
+License-File: AUTHORS.rst
+
+.. image:: https://github.com/dfm/python-fsps/workflows/Tests/badge.svg
+  :target: https://github.com/dfm/python-fsps/actions?query=workflow%3ATests
+
+**Read the documentation:**
+`python-fsps.readthedocs.io <https://python-fsps.readthedocs.io>`_
+
+If you use this code, follow the citation requirements `on the FSPS
+homepage <https://github.com/cconroy20/fsps>`_ and reference
+these Python bindings:
+
+.. image:: https://zenodo.org/badge/DOI/10.5281/zenodo.591505.svg
+   :target: https://doi.org/10.5281/zenodo.591505
