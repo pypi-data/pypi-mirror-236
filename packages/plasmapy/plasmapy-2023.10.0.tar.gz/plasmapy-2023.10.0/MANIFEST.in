@@ -1,0 +1,25 @@
+graft docs
+graft licenses
+graft plasmapy
+
+include *.md
+include *.py
+include *.rst
+include *.txt
+include *.yaml
+include *.yml
+include changelog/README.rst
+include CITATION.cff
+include pyproject.toml
+include tox.ini
+
+exclude plasmapy/_version.py
+
+global-exclude *.o
+global-exclude *.py[cod]
+global-exclude _build build
+
+prune docs/api
+
+# Only for editable installs
+prune plasmapy/_dev
