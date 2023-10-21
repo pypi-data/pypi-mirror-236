@@ -1,0 +1,8 @@
+prefix=/usr/local
+libdir=/usr/local/lib64
+includedir=/usr/local/include
+
+Name: xsimd
+Description: xsimd provides a unified means for using SIMD features for library authors..
+Version: 11.0.1
+Cflags: -I${includedir}
