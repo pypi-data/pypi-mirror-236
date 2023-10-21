@@ -1,0 +1,12 @@
+tap_gainsightpx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_gainsightpx/client.py,sha256=J9FysRFTIXA9e0ddux178ifybEjGU8hSHyMRTXRMq_I,2270
+tap_gainsightpx/paginators.py,sha256=rBugTaiDjlQ8Fw9iifMszyjwXvW93do_TXhQmuwUkX8,1947
+tap_gainsightpx/streams.py,sha256=_yGO7DOWZ2nsUV50A477MSK2OneO-vVhIN84vZs9voc,20296
+tap_gainsightpx/tap.py,sha256=kYkTqez5tdfe1wKtGQMEHxYXt0L9jMQXfA0y4xgBlzo,2839
+tap_gainsightpx/tests/__init__.py,sha256=n-1zcfXHW1xqcOG0AO0oTQGhXL8EsLQ1pJmj3JzQNEg,38
+tap_gainsightpx/tests/test_core.py,sha256=cCUzFsKE6QWdh5RkEVY7rN4unJwBOf1i7ZV1Ubmcl-Q,4200
+tap_gainsightpx-1.0.5.dist-info/entry_points.txt,sha256=0BnKWpi60PKfFppuJpV35d7LEBefS8Pr-lD4SkYC5fU,74
+tap_gainsightpx-1.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tap_gainsightpx-1.0.5.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+tap_gainsightpx-1.0.5.dist-info/METADATA,sha256=UdXUbP2jd7KNEFzf4E2MqmtFmhadffjKtnNy4U6HhC0,4774
+tap_gainsightpx-1.0.5.dist-info/RECORD,,
