@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: abusify-id
+Version: 0.7
+Requires-Dist: scikit-learn
+Requires-Dist: pandas
+Requires-Dist: nltk
+Requires-Dist: pymysql
+Requires-Dist: python-decouple
+
