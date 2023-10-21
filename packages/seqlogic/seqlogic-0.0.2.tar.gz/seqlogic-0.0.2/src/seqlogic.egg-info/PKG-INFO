@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: seqlogic
+Version: 0.0.2
+Summary: Sequential Logic
+Project-URL: Repository, https://github.com/cjdrake/seqlogic.git
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+
+# Sequential Logic
