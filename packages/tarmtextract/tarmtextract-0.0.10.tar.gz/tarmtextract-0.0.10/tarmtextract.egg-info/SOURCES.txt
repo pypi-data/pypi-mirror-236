@@ -1,0 +1,8 @@
+setup.py
+tarmtexract/__init__.py
+tarmtexract/lambda_function.py
+tarmtextract.egg-info/PKG-INFO
+tarmtextract.egg-info/SOURCES.txt
+tarmtextract.egg-info/dependency_links.txt
+tarmtextract.egg-info/requires.txt
+tarmtextract.egg-info/top_level.txt
