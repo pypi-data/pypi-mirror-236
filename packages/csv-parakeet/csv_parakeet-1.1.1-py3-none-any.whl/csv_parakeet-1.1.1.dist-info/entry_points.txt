@@ -1,0 +1,3 @@
+[console_scripts]
+parakeet=csv_parakeet.console:parakeet
+
