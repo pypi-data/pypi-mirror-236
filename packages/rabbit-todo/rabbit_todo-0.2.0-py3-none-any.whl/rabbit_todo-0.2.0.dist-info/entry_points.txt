@@ -1,0 +1,3 @@
+[console_scripts]
+rabi=rabbit_todo.entry_point:main
+
