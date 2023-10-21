@@ -1,0 +1,11 @@
+mare/__init__.py,sha256=QljBamIjwrNvPPJB5ngFhBV9v1oMWKP4XBKs33SH9VQ,22
+mare/branch.py,sha256=QPT0Rjbkin-A1xW_zwhwEU-aNgNtY6UULwCfWSQXqXo,3
+mare/errors.py,sha256=rns4hbvU-fy9sGQSQJzwWURwIZQ-w6Qa4pTDzMgPXM8,85
+mare/git_utils.py,sha256=bbbdcZTtuX6O1TCBwHUSzuQ-ibiHXOE6cgzZDiQW84U,1049
+mare/main.py,sha256=A0g7iOseng2wm1y-EP3ZvCHFW6PUhyF6wgT9D3Y60_4,215
+mare/project.py,sha256=uzI7Xq-P9QpVgysj2DmYNIbkrYEi4162GToit39Obpo,1184
+mare-0.1.0.dist-info/LICENSE,sha256=8ko8-c0DQvKPPwuqbMETC6eHk3VXPDxIh0KfhmPPs54,1061
+mare-0.1.0.dist-info/METADATA,sha256=pAJSWJ1TkIvi4z8nFgLS7byguKz-Lj626uxjPn7_-H4,750
+mare-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+mare-0.1.0.dist-info/entry_points.txt,sha256=mrdSLnvkRwNLQyV_kIV97rreJDy519Id2V4_nXzVoHM,39
+mare-0.1.0.dist-info/RECORD,,
