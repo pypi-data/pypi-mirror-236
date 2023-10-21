@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+ethantest.egg-info/PKG-INFO
+ethantest.egg-info/SOURCES.txt
+ethantest.egg-info/dependency_links.txt
+ethantest.egg-info/not-zip-safe
+ethantest.egg-info/top_level.txt
