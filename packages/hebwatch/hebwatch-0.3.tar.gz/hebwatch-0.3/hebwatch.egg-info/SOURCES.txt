@@ -1,0 +1,12 @@
+MANIFEST.in
+setup.py
+hebwatch/__init__.py
+hebwatch/cities.csv
+hebwatch/hebrew-special-numbers-default.yml
+hebwatch/hebwatch.py
+hebwatch.egg-info/PKG-INFO
+hebwatch.egg-info/SOURCES.txt
+hebwatch.egg-info/dependency_links.txt
+hebwatch.egg-info/not-zip-safe
+hebwatch.egg-info/requires.txt
+hebwatch.egg-info/top_level.txt

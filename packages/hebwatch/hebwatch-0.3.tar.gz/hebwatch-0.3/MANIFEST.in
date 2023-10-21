@@ -1,0 +1,2 @@
+include hebwatch/cities.csv
+include hebwatch/hebrew-special-numbers-default.yml

@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: hebwatch
+Version: 0.3
+Summary: this library calculates the relative hour clock from the jewish talmud
+Author: Tal Amar
+Requires-Dist: suntime
+Requires-Dist: pyyaml
