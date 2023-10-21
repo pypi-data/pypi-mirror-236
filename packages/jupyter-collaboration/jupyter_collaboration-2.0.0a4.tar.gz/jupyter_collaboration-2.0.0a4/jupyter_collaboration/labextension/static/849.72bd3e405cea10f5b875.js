@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_jupyter_collaboration_extension=self.webpackChunk_jupyter_collaboration_extension||[]).push([[849],{9849:(e,n,o)=>{o.d(n,{b:()=>c});var t=o(9600);const c=e=>t.UI(e,((e,n)=>`${encodeURIComponent(n)}=${encodeURIComponent(e)}`)).join("&")}}]);
