@@ -1,0 +1,103 @@
+{{py:
+type_name_list = [
+    'ColorMatrix',
+    'WilsonMatrix',
+    'NonRelWilsonMatrix',
+    'IsospinMatrix',
+    'SpinMatrix',
+    'WilsonVector',
+    'Complex',
+    'ComplexF',
+    'Double',
+    'Float',
+    'Long',
+    'Int64t',
+    'Int8t',
+    'Char',
+    ]
+}}
+
+import qlat_utils
+
+### -------------------------------------------------------------------------
+
+__all__ = []
+
+__all__ += [
+        'Geometry',
+        'geo_reform',
+        'geo_eo',
+        ]
+
+{{for name in type_name_list}}
+__all__ += [
+        'Field{{name}}',
+        'SelectedField{{name}}',
+        'SelectedPoints{{name}}',
+        ]
+{{endfor}}
+
+__all__ += [
+        'Field',
+        'FieldBase',
+        'SelectedField',
+        'SelectedFieldBase',
+        'SelectedPoints',
+        'SelectedPointsBase',
+        'PointsSelection',
+        'FieldSelection',
+        ]
+
+__all__ += [
+        'field_ctypes_complex',
+        'field_ctypes_double',
+        'field_ctypes_float',
+        'field_ctypes_long',
+        ]
+
+__all__ += [
+        'split_fields',
+        'merge_fields',
+        'merge_fields_ms',
+        'mk_merged_fields_ms',
+        ]
+
+__all__ += [
+        'release_lock',
+        'obtain_lock',
+        'qquit',
+        'check_time_limit',
+        'check_stop',
+        'qremove_info',
+        'qremove_all_info',
+        ]
+
+### -------------------------------------------------------------------------
+
+import ctypes
+import sys
+import os
+flags = sys.getdlopenflags()
+sys.setdlopenflags(flags | os.RTLD_GLOBAL)
+
+lib_path = os.path.join(os.path.dirname(__file__),
+                        'lib/libqlat.so')
+
+if not os.path.isfile(lib_path):
+    lib_path = os.path.join(os.path.dirname(__file__),
+                            'lib/libqlat.dylib')
+
+assert os.path.isfile(lib_path)
+
+ctypes.CDLL(lib_path, mode=ctypes.RTLD_GLOBAL)
+
+from cqlat import *
+from .utils_io import *
+from .geometry import *
+from .field_base import *
+from .field_types import *
+from .field_selection import *
+from .selected_field_types import *
+from .selected_points_types import *
+
+sys.setdlopenflags(flags)
