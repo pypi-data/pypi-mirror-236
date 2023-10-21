@@ -1,0 +1,12 @@
+setup.py
+dclpy/__init__.py
+dclpy/cdcl.h
+dclpy/cdcln.h
+dclpy/dclpy.c
+dclpy/dclpy.h
+dclpy/dclpy_wrapper.c
+dclpy/mkwrap.rb
+dclpy.egg-info/PKG-INFO
+dclpy.egg-info/SOURCES.txt
+dclpy.egg-info/dependency_links.txt
+dclpy.egg-info/top_level.txt
