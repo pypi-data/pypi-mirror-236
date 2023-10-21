@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: datime
+Version: 2023.0
+Summary: Python package with convenience functions for dates, times, and intervals
+Author-email: William Jackson <william@subtlecoolness.com>
+Project-URL: Homepage, https://github.com/williamjacksn/datime
+Project-URL: Bug Tracker, https://github.com/williamjacksn/datime/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# datime
+
+Python package with convenience functions for dates, times, and intervals
