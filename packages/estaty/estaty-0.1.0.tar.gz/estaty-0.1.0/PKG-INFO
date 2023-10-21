@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: estaty
+Version: 0.1.0
+Summary: Module for spatial data fusion and processing for real estate objects. **estaty** is Python-based platform to obtain and merge open spatial data with not very open and not very spatial to create “real estate use cases”. Library provide tools for loaded data merging, pairwise source verification, proximity analysis, etc. 
+Author: Dreamlone
+Author-email: mik.sarafanov@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: carto (>=1.11.3,<2.0.0)
+Requires-Dist: contextily (>=1.3.0,<2.0.0)
+Requires-Dist: geopandas (>=0.12.1,<0.13.0)
+Requires-Dist: loguru (>=0.6.0,<0.7.0)
+Requires-Dist: matplotlib (>=3.6.2,<4.0.0)
+Requires-Dist: openpyxl (>=3.0.10,<4.0.0)
+Requires-Dist: osmnx (>=1.2.2,<2.0.0)
+Requires-Dist: pytest (>=7.2.0,<8.0.0)
+Requires-Dist: scikit-learn (>=1.2.0,<2.0.0)
+Requires-Dist: seaborn (>=0.12.2,<0.13.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
