@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: BIO_OPTM
+Version: 0.1.4
+Summary: A collection of AnyLogic models and python code to use within the models
+Project-URL: Homepage, https://github.com/gjones1911/AnyLogic_PY.git
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Author-email: Gerald Jones <gjones2@vols.utk.edu>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
