@@ -1,0 +1,11 @@
+inline_snapshot/__init__.py,sha256=cbSsDO6cpmuTXqaEZa3_Hbxq2chVkI1bC6AUmS8j8Fk,86
+inline_snapshot/_format.py,sha256=Ka1hkPxwJscoLHY6IVUnn5HHXEcUMiXkKhcwyBf59qo,248
+inline_snapshot/_inline_snapshot.py,sha256=ZHRiVVJBNzHP4MTfSjNhrPhoVxZjOOvxQGYEJj2GEQk,17215
+inline_snapshot/_rewrite_code.py,sha256=qHx2lut38ljdpiam02-DqLxCUDI857mlkTlWtoCssE0,5706
+inline_snapshot/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inline_snapshot/pytest_plugin.py,sha256=fsZJP0v0EVxheOz4Jk8xVBiy1sYZSt0sqa_AW1T82Yw,5445
+inline_snapshot-0.5.1.dist-info/LICENSE,sha256=FH_kQdPe-T2SWbWWROFSjc-oxH55SlHK7_PGGVg76dM,1082
+inline_snapshot-0.5.1.dist-info/METADATA,sha256=xQRKd5DqUPmO95KomXyYhbTUWd8rtyt0cNZ-59dZ3vw,5238
+inline_snapshot-0.5.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+inline_snapshot-0.5.1.dist-info/entry_points.txt,sha256=AUXHs0c9hf5hlXP_Fotkix3SW3akUQyYxOw6zKxxVtU,58
+inline_snapshot-0.5.1.dist-info/RECORD,,
