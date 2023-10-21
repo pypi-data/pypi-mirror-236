@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: asteroid-info
+Version: 1.0.2
+Summary: Package
+Author: FAM
+Author-email: m.zarantonello2@campus.unimib.it
+License: MIT
+Description-Content-Type: text/markdown
+
+## Nome
+AsteroidsInfo - first_assignment
+
+## Descrizione
+La seguente applicazione ha lo scopo di fornire all'utente una serie di informazioni riguardanti asteroidi in una data specificata. Le informazioni riportate sono:
+* Numero di asteroidi che nella data selezionata orbitano vicino alla Terra
+* Nome dell'asteroide
+* Diametro (in metri) dell'asteroide 
+* Volume (in metri cubi) dell'asteroide
+* Superficie (in metri quadri) dell'asteroide
+* Se ci sono stati asteroidi potenzialmente pericolosi nella data specificata
+
+## Utilizzo
+All'avvio dell'applicazione si aprira' un calendario nella quale l'utente potra' selezionare una data. Cliccando su "Ottieni informazioni", si avra' accesso ai dati degli asteroidi.
+
+## Roadmap
+Nelle prossime versioni verranno implementate ulteriori informazioni quali, ad esempio, le caratteristiche di altri corpi celesti.
+
+## Utilizzo della pipeline ci/cd
+La pipeline Ã¨ suddivisa in diverse fasi (stages) per gestire la costruzione, la verifica, i test, package e il rilascio del software.
+
+La pipeline Ã¨ definita nel file .gitlab-ci.yml e comprende i seguenti stages:
+* Build: Questo stage Ã¨ responsabile della costruzione dell'ambiente virtuale e dell'installazione delle dipendenze del progetto specificate nel file requirements.txt.
+* Verify: Il codice dell'applicazione viene controllato utilizzando pylint per garantire la conformitÃ  alle linee guida di codifica.
+* Unit test: Vengono controllati i singoli metodi dell'applicazione.
+* Integration test: Viene controllata l'interazione tra API e applicazione e l'interazione tra i diversi metodi dell'applicazione.
+* Package: Il progetto viene confezionato come un pacchetto Wheel, per facilitarne l'installazione su altri sistemi.
+* Release: Il job di Release inizierÃ  solo dopo che il job di Package Ã¨ stato completato senza errori. CiÃ² assicura che il pacchetto creato durante il job di Package sia disponibile per il job di rilascio.Il pacchetto viene caricato su un repository di pacchetti utilizzando Twine.
+
+Sono state utilizzate due variabili di ambiente contenenti le credenziali necessarie per autenticarsi su PyPI.
+
+La variabile d'ambiente PIP_CACHE_DIR definisce il percorso della directory destinata a ospitare la cache dei pacchetti scaricati da PIP durante l'esecuzione della pipeline. Questa pratica consente di ottimizzare il processo di costruzione. Una volta che un pacchetto Ã¨ stato scaricato, viene archiviato in questa directory. Nelle esecuzioni successive della pipeline, PIP cerca di utilizzare la cache anzichÃ© scaricare nuovamente i pacchetti, contribuendo a risparmiare tempo ed evitare la necessitÃ  di scaricare ripetutamente le stesse dipendenze.
+
+## Autori
+* Massimo Zarantonello - MAT. 866457
+* Anna Marika Biasco - MAT. 865873
+* Francesca Pulera' - MAT. 870005
+
+## Link al repository
+https://gitlab.com/fam3680241/2023_assignment1_asteroid_counter
+
+## Licenza
+Licenza utilizzata: MIT 
