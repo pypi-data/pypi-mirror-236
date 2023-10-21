@@ -1,0 +1,14 @@
+repairshopr_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repairshopr_api/base/model.py,sha256=kD0b2FmbrkoBZaoJyoFlCRHWGNqoZRyvjFoxhwIByOA,2262
+repairshopr_api/client.py,sha256=wXaZhqY5k3PF_dc91TX6ZN1k67dC3n0Fwh2yfiTXnJw,4826
+repairshopr_api/config.py,sha256=KVPtZWVZ0i11yB9bgnbt1XlyV_SKfBGUTNNAVmbutMU,5009
+repairshopr_api/models/__init__.py,sha256=Y6d425MX4xMEKhscg9AhfjGZrepacd0nrMguBUf-ARI,157
+repairshopr_api/models/customer.py,sha256=b5xMPhwpZknGH7Fv8o56OxVvedxnehoNJx5Fef6k1b0,2018
+repairshopr_api/models/estimate.py,sha256=1N1-xP-XdqJPa_Lg-Z7A9egHBmo0L0awYsZF1XCi2qQ,577
+repairshopr_api/models/invoice.py,sha256=84QJEc0OH9FY16DG4-O8-arEuGdhswE56ju37RWqUeE,1052
+repairshopr_api/models/product.py,sha256=LCj1jNe7u2zAB4PYn56CRFP3u3vGT-hYrvyAnVdUIuo,1014
+repairshopr_api/models/ticket.py,sha256=RjWtPPvHDCVP9L-JogaO1wx7_XjqXJjNdHsF1LDboVQ,1268
+repairshopr_api/models/user.py,sha256=jS8flz4pHgYgqMiUVUlkoJgd1pGcjqFYTebB8Lq-9_E,512
+repairshopr_api-0.1.11.dist-info/METADATA,sha256=OYPhPDA8IUebgsEaAxWjtykTfGgeyEipBZfoSjdXM7E,522
+repairshopr_api-0.1.11.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+repairshopr_api-0.1.11.dist-info/RECORD,,
