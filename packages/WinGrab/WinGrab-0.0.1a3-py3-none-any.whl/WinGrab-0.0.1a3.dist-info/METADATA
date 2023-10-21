@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: WinGrab
+Version: 0.0.1a3
+Summary: WinGrab: A simple tool to get the PID of the window under the cursor.
+Home-page: https://github.com/JezaChen/WinGrab
+Author: Jianzhang Chen
+Author-email: jezachen@163.com
+License: MIT
+Keywords: win32api windows gui
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# <div align="center">WinGrab</div>
+<div align="center">A simple tool to get the PID of the window under the cursor.</div>
+
+## Installation
+### From pip
+
+```bash
+pip install wingrab
+```
+
+### From source code
+
+You just need to download the `wingrab.py` file and put it in your project.
+
+## Usage
+
+### In your code
+
+```python
+
+from wingrab import wingrab
+
+wingrab.grab()
+```
