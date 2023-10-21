@@ -1,0 +1,5 @@
+pandas>=2.1.1
+pyYAML>=6.0.1
+
+[dev]
+twine>=4.0.2
