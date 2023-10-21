@@ -1,0 +1,13 @@
+humancursor/__init__.py,sha256=_caeKUDj0mQpnNEWGD0jcEWQat0kZ8vwnz1gMikU2qM,98
+humancursor/system_cursor.py,sha256=wmzwTO9mH-hKM9AZOMZEKogpZN5sNyuO6gfDX5yB6yY,2628
+humancursor/web_cursor.py,sha256=1cqY-xypguEOBx5UCjkbJylt5kW5IiYYHMtjcipIxZo,7614
+humancursor/test/system.py,sha256=uqcQJlilm5ljT4ySVPMsUA1rHiCo5R9MuAPoGskO6m8,346
+humancursor/test/web.py,sha256=UIgt68sE7iCh4sksb-QknMh9xh9PIxHG64xJw2H9zqA,1183
+humancursor/utilities/calc.py,sha256=ld77xsjs9_E0ZVuAcjalswJsAw4aYny4RHowanJx4Ro,3349
+humancursor/utilities/human_curve_generator.py,sha256=N1TPworE4XLgC7mF8tsYFFHYUQMC2RimP8ductKNibE,7876
+humancursor/utilities/web_adjuster.py,sha256=Pj8xydZP1uLC0gNBZK94A5W9kX0tyEdGiys-VtojnKw,5644
+HumanCursor-0.1.0.dist-info/LICENSE,sha256=_k1XjzprzYDJf1QnUN6Ko7t1kwR5Cr9DWEqOxcCVr4s,1089
+HumanCursor-0.1.0.dist-info/METADATA,sha256=AMf9tQoQRYaWXuhfhtobsslC2wFbNzwJ-jnJNhFmt1Y,6603
+HumanCursor-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+HumanCursor-0.1.0.dist-info/top_level.txt,sha256=ijAHnZTKurcR-Cly2eeZPwulgLAT92SXDa4H1K1Rwss,12
+HumanCursor-0.1.0.dist-info/RECORD,,
