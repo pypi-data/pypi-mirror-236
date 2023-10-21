@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tetra-model-zoo
+Version: 0.1.4
+Summary: Models optimized for export to run on device.
+Home-page: https://tetra.ai/
+Author: Tetra Intelligence Systems Inc.
+License: MIT
+Requires-Python: >=3.8, <3.11
+License-File: LICENSE
+Requires-Dist: Pillow ==10.0.1
+Requires-Dist: numpy ==1.23.1
+Requires-Dist: opencv-python ==4.8.1.78
+Requires-Dist: torch ==1.13.1
+Requires-Dist: gitpython
+Requires-Dist: pytest ==7.4.2
+Requires-Dist: requests
+Requires-Dist: torchvision ==0.14.1
+Requires-Dist: tetra-hub
+Requires-Dist: gdown ==4.7.1
+Requires-Dist: pyyaml
+Requires-Dist: schema
+
+Models optimized for export to run on device.
