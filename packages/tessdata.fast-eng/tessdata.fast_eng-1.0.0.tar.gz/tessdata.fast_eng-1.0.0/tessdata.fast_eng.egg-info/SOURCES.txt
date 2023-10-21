@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+tessdata.fast_eng.egg-info/PKG-INFO
+tessdata.fast_eng.egg-info/SOURCES.txt
+tessdata.fast_eng.egg-info/dependency_links.txt
+tessdata.fast_eng.egg-info/requires.txt
+tessdata.fast_eng.egg-info/top_level.txt
