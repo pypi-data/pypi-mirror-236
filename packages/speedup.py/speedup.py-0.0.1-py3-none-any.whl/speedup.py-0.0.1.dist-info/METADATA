@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: speedup.py
+Version: 0.0.1
+Summary: A simple script to speedup your music/audio
+Author: trustytrojan
+Project-URL: GitHub, https://github.com/trustytrojan/speedup.py
+Keywords: music,audio,speed,speed up,speedup
+Requires-Python: >=3.11
+Requires-Dist: scipy
+Requires-Dist: soundfile
+
