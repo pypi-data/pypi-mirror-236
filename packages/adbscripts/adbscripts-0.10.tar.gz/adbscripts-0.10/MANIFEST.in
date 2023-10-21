@@ -1,0 +1,3 @@
+include adbscripts/requirements.txt
+include adbscripts/thirdparty.json
+include adbscripts/README.MD

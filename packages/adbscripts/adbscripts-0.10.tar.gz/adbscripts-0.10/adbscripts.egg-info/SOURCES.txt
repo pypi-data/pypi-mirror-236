@@ -1,0 +1,14 @@
+LICENSE.rst
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+adbscripts/README.MD
+adbscripts/__init__.py
+adbscripts/requirements.txt
+adbscripts/thirdparty.json
+adbscripts.egg-info/PKG-INFO
+adbscripts.egg-info/SOURCES.txt
+adbscripts.egg-info/dependency_links.txt
+adbscripts.egg-info/requires.txt
+adbscripts.egg-info/top_level.txt
