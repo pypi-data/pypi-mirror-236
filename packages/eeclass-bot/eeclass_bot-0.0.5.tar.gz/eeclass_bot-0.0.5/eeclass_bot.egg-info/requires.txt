@@ -1,0 +1,6 @@
+requests>=2.18.4
+beautifulsoup4>=4.9.3
+fake-user-agent>=2.1.8
+aiohttp>=3.8.3
+selenium>=4.14.0
+PySocks>=1.7.1
