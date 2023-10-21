@@ -1,0 +1,2 @@
+[console_scripts]
+cog-hf-template = cog_hf_template.cli:main
