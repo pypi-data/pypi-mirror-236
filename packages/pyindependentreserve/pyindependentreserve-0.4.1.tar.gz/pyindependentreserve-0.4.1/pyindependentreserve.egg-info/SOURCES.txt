@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+independentreserve/__init__.py
+independentreserve/authentication.py
+independentreserve/exceptions.py
+independentreserve/private.py
+independentreserve/public.py
+independentreserve/websocket.py
+pyindependentreserve.egg-info/PKG-INFO
+pyindependentreserve.egg-info/SOURCES.txt
+pyindependentreserve.egg-info/dependency_links.txt
+pyindependentreserve.egg-info/requires.txt
+pyindependentreserve.egg-info/top_level.txt
+pyindependentreserve.egg-info/zip-safe
