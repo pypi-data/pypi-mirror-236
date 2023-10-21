@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "beerus-test-package"
+version = "0.1.0"
+description = ""
+authors = ["Beerus"]
+readme = "README.md"
+packages = [{include = "utils"}]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
