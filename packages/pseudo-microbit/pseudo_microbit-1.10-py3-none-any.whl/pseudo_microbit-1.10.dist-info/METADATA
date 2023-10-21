@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pseudo-microbit
+Version: 1.10
+Summary: A pseudo implementation of the micro:bit micropython API.
+Author-email: Alan Yorinks <MisterYsLab@gmail.com>
+License: AGPL-3.0-or-later
+Keywords: micro:bit,micropython
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: microfs
+Requires-Dist: uflash
+Requires-Dist: pyminifier3
+
+![logo](https://raw.github.com/MrYsLab/pseudo-microbit/master/docs/images/logo.png)
+
+# pseudo-microbit
+
+A _pseudo_ implementation of the micro:bit micropython API. used in conjunction
+with tools such as PyCharm.
+
+Integrated the typehints from https://github.com/vlasovskikh/intellij-micropython
+
+A full tutorial may be found here: https://mryslab.github.io/pseudo-microbit/
+
