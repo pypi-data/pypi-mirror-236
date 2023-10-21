@@ -1,0 +1,12 @@
+.mina/standard-qq.toml,sha256=OkWFXgCpylnOMz3te0xK80IKg-2W-ZamMXRqMMlHnmg,634
+avilla/standard/qq/announcement/__init__.py,sha256=o81c8U_IBxhnNfn1fEe1ADF6J4Vc2TKkJEUHa1SAngk,183
+avilla/standard/qq/announcement/capability.py,sha256=y_ztwP36lI2QPscaG6NIbA0RBEU5DwrdfJm0cj7T3fA,941
+avilla/standard/qq/announcement/metadata.py,sha256=DP3GQUAcw7Gl0flCmBX9mAW_ZpzDZ5pUERenmztToyE,569
+avilla/standard/qq/elements.py,sha256=0UYO578khxWWvpL67VowL92vsJlPzoUbvVC2DRkpFDY,6433
+avilla/standard/qq/event.py,sha256=nJ6x0h_oK9lzpboD5PurAeg5pnTXAE80fCEioRvom2M,131
+avilla/standard/qq/honor/__init__.py,sha256=0unAnJbXjkvFXUaagqePCxZ6FZRK8ilfxnFvFqhpnMo,37
+avilla/standard/qq/honor/metadata.py,sha256=AOw6OwOl0CXFFAo7SGTrVAOPuYbKCvALbO-w9_YrOl8,163
+avilla_standard_qq-1.0.0a9.dist-info/METADATA,sha256=UHtEOIN1JI91yW_maNqOeJ4naWreF8hXLVd9KdPHFLI,9104
+avilla_standard_qq-1.0.0a9.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+avilla_standard_qq-1.0.0a9.dist-info/licenses/LICENSE,sha256=gDITSF7Brm_TEmxEyE0NMMKK1auugNPdzhFFBspqbnU,1070
+avilla_standard_qq-1.0.0a9.dist-info/RECORD,,
