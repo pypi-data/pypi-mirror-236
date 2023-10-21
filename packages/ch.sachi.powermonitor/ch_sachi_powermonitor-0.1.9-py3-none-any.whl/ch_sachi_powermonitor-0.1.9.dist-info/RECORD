@@ -1,0 +1,14 @@
+ch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ch/sachi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ch/sachi/powermonitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ch/sachi/powermonitor/config.py,sha256=hij2M4zmeJPK_3tM4ES7oSwYiv1Gp7vqIIQy3ymfogg,1144
+ch/sachi/powermonitor/main.py,sha256=pd1m5mKtCwULBIpoZ3ffCE4e2vxiu5CevD_E-2E_YjQ,2079
+ch/sachi/powermonitor/powerdata_reader.py,sha256=CxfjcVoyVl7pm5BIT5C7Ih-BzyLCsjxhpbNx3glm9Is,1142
+ch/sachi/powermonitor/powermonitor_repository.py,sha256=88cnMnqPgJlaSr0MkubxCjSqvgiBGeDZ1Z0K4UqzSjo,2877
+ch/sachi/powermonitor/restService_powerdata.py,sha256=n0Z0qv4Z0S76rwtM9fd4jFiR4HLcGPSKCkyKrBmaiVE,2162
+ch/sachi/victron_ble/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ch/sachi/victron_ble/powermonitor_scanner.py,sha256=DXFdJoVn5ZVS_E-nK8dWrNzKupzBmo22wX5DHJeCzzQ,1185
+ch_sachi_powermonitor-0.1.9.dist-info/METADATA,sha256=W-kKyr-PzRQfitZYVdE1dKcnO4MFtPTNJ--U8AwpzCU,394
+ch_sachi_powermonitor-0.1.9.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ch_sachi_powermonitor-0.1.9.dist-info/entry_points.txt,sha256=MPQwtarabZxFrdVcTEcIhc2zrhF2l5hFExgt1rMYabY,67
+ch_sachi_powermonitor-0.1.9.dist-info/RECORD,,
