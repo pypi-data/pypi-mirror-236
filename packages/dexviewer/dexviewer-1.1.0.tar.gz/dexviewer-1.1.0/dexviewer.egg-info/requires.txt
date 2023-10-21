@@ -1,0 +1,4 @@
+PyGObject
+pandas
+pydexcom
+matplotlib
