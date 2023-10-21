@@ -1,0 +1,24 @@
+Conferma dell'annullamento dell'iscrizione all'indirizzo e-mail
+
+Ciao, questo è il server GNU Mailman su ${domain}.
+
+Abbiamo ricevuto una richiesta di annullamento dell'iscrizione per l'indirizzo e-mail
+
+    ${user_email}
+
+Prima che GNU Mailman possa cancellarti, devi prima confermare la tua richiesta.
+Puoi farlo semplicemente rispondendo a questo messaggio.
+
+Oppure dovresti includere la seguente riga -- e solo la seguente
+riga -- in un messaggio a ${request_email}:
+
+    conferma ${token}
+
+Nota che il semplice invio di una 'risposta' a questo messaggio dovrebbe funzionare
+dalla maggior parte dei lettori di posta.
+
+Se non desideri annullare l'iscrizione a questo indirizzo e-mail, ignora questo
+messaggio.  Se pensi di essere stato cancellato dall'elenco in modo intenzionale,
+o hai altre domande, puoi contattare
+
+    ${owner_email}
