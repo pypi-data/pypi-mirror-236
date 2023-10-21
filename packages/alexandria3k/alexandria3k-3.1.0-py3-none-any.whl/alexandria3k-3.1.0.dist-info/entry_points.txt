@@ -1,0 +1,2 @@
+[console_scripts]
+a3k = alexandria3k.__main__:main
