@@ -1,0 +1,4 @@
+[console_scripts]
+neokit = neokit:main
+p2n = py2neo.cli.console:main
+py2neo = py2neo.cli.tool:main
