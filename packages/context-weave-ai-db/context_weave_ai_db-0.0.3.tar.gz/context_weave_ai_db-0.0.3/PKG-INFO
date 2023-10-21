@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: context_weave_ai_db
+Version: 0.0.3
+Summary: A python package for managing db models for Context Weave AI application
+Home-page: https://github.com/ainomic/context-weave-ai-db
+Project-URL: Bug Tracker, https://github.com/ainomic/context-weave-ai-db/issues
+Project-URL: Changelog, https://github.com/ainomic/context-weave-ai-db/releases
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: python-dotenv
+Requires-Dist: psycopg2-binary<2.10,>=2.9.9
+Requires-Dist: sqlalchemy<2.1,>=2.0.22
+Requires-Dist: alembic<1.13,>=1.12.0
