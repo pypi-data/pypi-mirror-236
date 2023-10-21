@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: iautil-sql-test
+Version: 0.0.12
+Summary: IA SQL Testing Utils
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: iautil
+Requires-Dist: psycopg2
+Provides-Extra: rel
+Requires-Dist: twine ; extra == 'rel'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: iautil-test ; extra == 'test'
+Requires-Dist: line-profiler ; extra == 'test'
+Requires-Dist: mypy ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-capturelog ; extra == 'test'
+Requires-Dist: pytest-line-profiler ; extra == 'test'
+Requires-Dist: pytest-mypy ; extra == 'test'
+Requires-Dist: pytest-pylint ; extra == 'test'
+
+# libia_sql_test [![libia_sql_test](https://github.com/InnovAnon-Inc/libia_sql_test/actions/workflows/pkgrel.yml/badge.svg)](https://github.com/InnovAnon-Inc/libia_sql_test/actions/workflows/pkgrel.yml)
+IA SQL Testing Utils
+==========
+
+[![License Summary](https://img.shields.io/github/license/InnovAnon-Inc/libia_sql_test?color=%23FF1100&label=Free%20Code%20for%20a%20Free%20World%21&logo=InnovAnon%2C%20Inc.&logoColor=%23FF1133&style=plastic)](https://tldrlegal.com/license/unlicense#summary)
+[![Latest Release](https://img.shields.io/github/commits-since/InnovAnon-Inc/libia_sql_test/latest?color=%23FF1100&include_prereleases&logo=InnovAnon%2C%20Inc.&logoColor=%23FF1133&style=plastic)](https://github.com/InnovAnon-Inc/libia_sql_test/releases/latest)
+[![Lines of Code](https://tokei.rs/b1/github/InnovAnon-Inc/libia_sql_test?category=code&color=FF1100&logo=InnovAnon-Inc&logoColor=FF1133&style=plastic)](https://github.com/InnovAnon-Inc/libia_sql_test)
+[![Repo Size](https://img.shields.io/github/repo-size/InnovAnon-Inc/libia_sql_test?color=%23FF1100&logo=InnovAnon%2C%20Inc.&logoColor=%23FF1133&style=plastic)](https://github.com/InnovAnon-Inc/libia_sql_test)
+[![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/InnovAnon-Inc/libia_sql_test?color=FF1100&logo=InnovAnon-Inc&logoColor=FF1133&style=plastic)](https://www.codefactor.io/repository/github/InnovAnon-Inc/libia_sql_test)
+
+![Dependent repos (via libraries.io)](https://img.shields.io/librariesio/dependent-repos/pypi/libia_sql_test?color=FF1100&style=plastic)
+![Libraries.io dependency status for latest release](https://img.shields.io/librariesio/release/pypi/libia_sql_test?color=FF1100&style=plastic)
+![Libraries.io SourceRank](https://img.shields.io/librariesio/sourcerank/pypi/libia_sql_test?style=plastic)
+![Libraries.io dependency status for GitHub repo](https://img.shields.io/librariesio/github/InnovAnon-Inc/libia_sql_test?color=FF1100&logoColor=FF1133&style=plastic)
+
+[![Tip Me via PayPal](https://img.shields.io/badge/paypal-donate-FF1100.svg?logo=paypal&logoColor=FF1133&style=plastic)](https://www.paypal.me/InnovAnon)
+
+----------
+
+# InnovAnon, Inc. Proprietary (Innovations Anonymous)
+> "Free Code for a Free World!"
+==========
+![Corporate Logo](https://innovanon-inc.github.io/assets/images/logo.gif)
+
