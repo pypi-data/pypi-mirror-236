@@ -1,0 +1,1 @@
+from mongodb_python_manager.main import MongoDBManager
