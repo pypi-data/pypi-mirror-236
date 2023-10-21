@@ -1,0 +1,8 @@
+release:
+  github:
+    owner: xyrha
+    tagName: "{{projectVersion}}"
+    changelog:
+      formatted: ALWAYS
+      sort: ASC
+      preset: conventional-commits

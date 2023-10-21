@@ -1,0 +1,53 @@
+# Publish a package to the PyPI and create a GitHub release with JReleaser.
+#
+# This workflow expects, that the package was previously build and the distributions uploaded to
+# `python-package-distributions/dist`.
+name: Publish
+on: workflow_call
+jobs:
+  publish-package:
+    name: Publish Package
+    runs-on: ubuntu-latest
+
+    environment:
+      name: pypi
+      url: https://pypi.org/p/xyrha-flush
+
+    permissions:
+      id-token: write 
+
+    steps:
+    - name: Download all the dists
+      uses: actions/download-artifact@v3
+      with:
+        name: python-package-distributions
+        path: dist/
+    - name: Publish distribution
+      uses: pypa/gh-action-pypi-publish@release/v1
+
+  create-github-release:
+    name: Create GitHub Release
+    needs:
+      - publish-package
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      - name: Run JReleaser
+        uses: jreleaser/release-action@v2
+        with:
+          arguments: release
+        env:
+          JRELEASER_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          JRELEASER_PROJECT_VERSION: ${{ github.ref_name }}
+      - name: JReleaser release output
+        if: always()
+        uses: actions/upload-artifact@v3
+        with:
+          name: jreleaser-debug-info
+          path: |
+            out/jreleaser/trace.log
+            out/jreleaser/output.properties

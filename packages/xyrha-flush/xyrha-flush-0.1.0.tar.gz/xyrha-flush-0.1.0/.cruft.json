@@ -1,0 +1,16 @@
+{
+  "template": "git@github.com:xyrha/xyrha-cookiecutter-pypackage.git",
+  "commit": "fe0ca9c370e7f16d7c9a69b9af993504de8fadb9",
+  "checkout": "ci/publish-on-tag",
+  "context": {
+    "cookiecutter": {
+      "full_name": "DS422",
+      "email": "119532762+DS422@users.noreply.github.com",
+      "package_name": "xyrha-flush",
+      "__import_name": "xyrha_flush",
+      "package_short_description": "A tool runner for C++ development.",
+      "_template": "git@github.com:xyrha/xyrha-cookiecutter-pypackage.git"
+    }
+  },
+  "directory": null
+}

@@ -1,0 +1,39 @@
+# This workflow lints, tests and builds the docs and package.
+#
+# Each tox environment is executed in parallel in its own job.
+name: CI 
+on: 
+  push:
+    branches:
+      - "**"
+  workflow_call:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        check-type: ["py312-lint", "py312-test","docs","build" ]
+    name: "Check: ${{ matrix.check-type }}"
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.12
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.12
+        cache: 'pip'
+        cache-dependency-path: "**/setup.cfg"
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install tox
+    - name: ${{ matrix.check-type }}
+      run: |
+        tox -e ${{ matrix.check-type }}
+    - name: Store the distribution packages
+      if: ${{ matrix.check-type == 'build'}}
+      uses: actions/upload-artifact@v3
+      with:
+        name: python-package-distributions
+        path: dist/
