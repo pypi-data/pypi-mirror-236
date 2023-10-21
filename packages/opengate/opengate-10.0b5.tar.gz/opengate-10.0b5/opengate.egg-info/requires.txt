@@ -1,0 +1,13 @@
+colored
+opengate_core==10.0beta05
+gatetools
+click
+python-box<7.0.0
+anytree
+numpy
+itk
+uproot
+scipy
+matplotlib
+GitPython
+colorlog
