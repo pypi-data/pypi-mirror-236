@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "d-project"
+version = "0.1.2"
+description = "项目流程管理命令行工具"
+authors = ["wangmengdi <wangmengdi@smart-insight.com.cn>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+typer = ">=0.7.0"
+rich = ">=13.3.1"
+wasabi = ">=1.1.1"
+confection = "^0.1.3"
+
+[tool.poetry.scripts]
+project = "d_project.app:app"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
