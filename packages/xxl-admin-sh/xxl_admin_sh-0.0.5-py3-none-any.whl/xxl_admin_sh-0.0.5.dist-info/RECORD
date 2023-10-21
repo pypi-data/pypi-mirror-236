@@ -1,0 +1,15 @@
+xxl_admin/__init__.py,sha256=S7u1lbuWmM3A3ajykBialmPoJUK6Jg-WmNqM-9OZFdk,22
+xxl_admin/client.py,sha256=g6QJghMnbz6IollNPYQpU5EYrs1fceBaOdICavhH2RI,8866
+xxl_admin/commands.py,sha256=OdjHIprJ6LLJIkvtnkcPFs3jdBbdi0N-I9LQBBJv1ZE,19492
+xxl_admin/completers.py,sha256=yuJqUeLsyF_6V4OYk2cqvchbOlWHW9FULV5WFXXGXic,791
+xxl_admin/context.py,sha256=VYNyAvLziow_JkQkaykB9u13BvcMD2vmc_tBdSk5WiA,2881
+xxl_admin/core.py,sha256=k-dj9ho2oBAprM4QQVvmiNdnScssm08Bd40HYBRo4Jw,3711
+xxl_admin/key_bindings.py,sha256=acIPieG3oKnctDgdAm_sY9ODP6HXkVCBkb7xABtW_Bk,301
+xxl_admin/settings.py,sha256=pad7vNGjZ3AfQolOU0Tf-WJ9_fQHxoOOTSer0nofYA8,713
+xxl_admin/utils.py,sha256=pskVTmtFFOt2E6j9V5LV8DbPldEFJxGjqXi14DCEjsw,879
+xxl_admin/xxl.py,sha256=_C6wNrZJ_h8ATb8O-5AZOM3NmbVxeVWEbfwY_l2aeNI,82
+xxl_admin_sh-0.0.5.dist-info/METADATA,sha256=bv8Ab7ySo67lIVnm1MD1fMt9hQXmtPbeBIaelatjNC8,1497
+xxl_admin_sh-0.0.5.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+xxl_admin_sh-0.0.5.dist-info/entry_points.txt,sha256=DI1DXNZNISFHDUljadI4HN6DIy7wXSx9CFFYC8Fi0xI,51
+xxl_admin_sh-0.0.5.dist-info/licenses/LICENSE,sha256=Tw5G9m_aCA9FzR75Kedhcc6AiJp6vSQS2rUhN8XLws8,1065
+xxl_admin_sh-0.0.5.dist-info/RECORD,,
