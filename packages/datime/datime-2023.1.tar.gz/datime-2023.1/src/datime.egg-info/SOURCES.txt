@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/datime/__init__.py
+src/datime.egg-info/PKG-INFO
+src/datime.egg-info/SOURCES.txt
+src/datime.egg-info/dependency_links.txt
+src/datime.egg-info/top_level.txt
