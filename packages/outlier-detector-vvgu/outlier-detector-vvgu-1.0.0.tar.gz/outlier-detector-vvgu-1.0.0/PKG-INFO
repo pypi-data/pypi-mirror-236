@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: outlier-detector-vvgu
+Version: 1.0.0
+Summary: Small package for detecting outliers
+Home-page: https://github.com/Artorius81
+Author: Artorius
+Author-email: Artorius.81@yandex.ru
+Project-URL: GitHub, https://github.com/Artorius81
+Keywords: example python
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1>outlier_detector</h1>
+
+<h4>Small package for detecting outliers</h4>
+
+**Usage:**
+* *<h5>install the package</h5>*
+* *"detect_outlier_mean_std"* - by mean and standard deviation. Takes column as a parameter
+* *"detect_outlier_kvart"* - by kvartile. Takes column as a parameter
+* *"detect_outlier_dbscan"* - with DBSCAN (clusterization). Takes two columns as a parameters
+* *"detect_outlier_shovene"* - by Shovene method. Takes column as a parameter

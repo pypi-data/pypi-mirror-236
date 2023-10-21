@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+outlier_detector_vvgu.egg-info/PKG-INFO
+outlier_detector_vvgu.egg-info/SOURCES.txt
+outlier_detector_vvgu.egg-info/dependency_links.txt
+outlier_detector_vvgu.egg-info/requires.txt
+outlier_detector_vvgu.egg-info/top_level.txt
+package/__init__.py
+package/main.py
