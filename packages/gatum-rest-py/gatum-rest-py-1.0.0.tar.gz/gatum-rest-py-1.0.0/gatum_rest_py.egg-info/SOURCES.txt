@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+gatum_rest_py/GatumRESTAPI.py
+gatum_rest_py/__init__.py
+gatum_rest_py.egg-info/PKG-INFO
+gatum_rest_py.egg-info/SOURCES.txt
+gatum_rest_py.egg-info/dependency_links.txt
+gatum_rest_py.egg-info/requires.txt
+gatum_rest_py.egg-info/top_level.txt
