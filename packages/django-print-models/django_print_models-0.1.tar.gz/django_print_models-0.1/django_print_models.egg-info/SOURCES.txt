@@ -1,0 +1,8 @@
+README.md
+setup.py
+django_print_models/__init__.py
+django_print_models.egg-info/PKG-INFO
+django_print_models.egg-info/SOURCES.txt
+django_print_models.egg-info/dependency_links.txt
+django_print_models.egg-info/requires.txt
+django_print_models.egg-info/top_level.txt
