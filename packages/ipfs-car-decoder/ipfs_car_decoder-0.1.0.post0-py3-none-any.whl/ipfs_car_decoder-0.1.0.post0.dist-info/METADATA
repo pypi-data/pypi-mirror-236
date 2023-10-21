@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: ipfs-car-decoder
+Version: 0.1.0.post0
+Summary: Pure python implementation of a ipfs CAR block decoder.
+Home-page: https://github.com/kralverde/py-ipfs-car-decoder/
+Author: kralverde
+Project-URL: Bug Tracker, https://github.com/kralverde/py-ipfs-car-decoder/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: aiofiles
+Requires-Dist: attrs
+Requires-Dist: dag-cbor
+Requires-Dist: unix-fs-exporter >=0.2.0
+Requires-Dist: multiformats
+Provides-Extra: dev
+Requires-Dist: types-aiofiles ; extra == 'dev'
+
+Validate what an IPFS gateway returns by decoding and validating the CAR block.
+
+Usage
+-----
+
+CARs can be read from memory or file and can be exported as a file/folder or byte stream
+
+>>> import asyncio
+>>> import aiohttp
+...
+>>> from ipfs_car_decoder import ChunkedMemoryByteStream, stream_bytes
+...
+>>> ipfs_hash = 'bafkreibm6jg3ux5qumhcn2b3flc3tyu6dmlb4xa7u5bf44yegnrjhc4yeq'
+...
+>>> async def test():
+...     stream = ChunkedMemoryByteStream()
+...     async with aiohttp.ClientSession() as session:
+...         async with session.get(f'https://ipfs.io/ipfs/{ipfs_hash}', headers={'Accept':'application/vnd.ipld.car'}) as resp:
+...             resp.raise_for_status()
+...             assert resp.content_type == 'application/vnd.ipld.car'
+...             async for chunk, _ in resp.content.iter_chunks():
+...                 await stream.append_bytes(chunk)
+...     await stream.mark_complete()
+...     acc = b''
+...     async for chunk in stream_bytes(ipfs_hash, stream):
+...         acc += chunk
+...     print(acc)
+...
+>>> asyncio.run(test())
+b'hello'
+
