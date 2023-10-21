@@ -1,0 +1,1 @@
+# Módulo criado para auxiliar na captura de vida e mana do personagem no jogo tibia.
