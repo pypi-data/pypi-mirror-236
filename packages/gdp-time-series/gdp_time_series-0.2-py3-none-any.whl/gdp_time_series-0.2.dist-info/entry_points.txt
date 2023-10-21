@@ -1,0 +1,2 @@
+[console_scripts]
+gdp-time-series = gdp_time_series.__main__:main
