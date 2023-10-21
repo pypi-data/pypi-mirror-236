@@ -1,0 +1,8 @@
+trader_corelib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trader_corelib/constants.py,sha256=n2el8E8FrfTOwlUcW1F0see21-uF4HwTT_He7JWxFcY,33
+trader_corelib/datatypes.py,sha256=M7pv5693KAtayhKkuwnUSSaWg5J1YbmhcXmbX-hw_V0,2511
+trader_corelib/mt5client.py,sha256=wDlOIfAjG2AzFFjEspWbOLknQA65c5FRbqArXxj5LUE,4776
+trader_corelib/utils.py,sha256=vJXP_xKSTCdCSDoVVqfZ5By-94dcdbdRv_Z5xHp99YM,2970
+trader_corelib-0.1.0.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+trader_corelib-0.1.0.dist-info/METADATA,sha256=UdhtacOyNRqb3ZdjSbn7hJOcs8TS0Fz7YJMOardRut4,412
+trader_corelib-0.1.0.dist-info/RECORD,,
