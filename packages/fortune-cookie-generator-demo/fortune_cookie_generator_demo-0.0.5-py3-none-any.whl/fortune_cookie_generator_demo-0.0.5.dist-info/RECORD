@@ -1,0 +1,8 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/lib.py,sha256=HNtllsQ02GLTTd8cPpb9wmciF0uPbWIGTdk-oNuvYCs,3657
+src/main.py,sha256=YjB9S8AXPcpSgwjWsoaTd6lhKawQZersGeBKipSmumk,664
+fortune_cookie_generator_demo-0.0.5.dist-info/METADATA,sha256=mnG5hO2VaQZn_JyMycyBK2fz3fXaIx7UdX_VmPKXe_4,804
+fortune_cookie_generator_demo-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fortune_cookie_generator_demo-0.0.5.dist-info/entry_points.txt,sha256=YWCmTYfZPaScZsFfl_C7OTXi01ACi49HCzH44OfJCUk,53
+fortune_cookie_generator_demo-0.0.5.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+fortune_cookie_generator_demo-0.0.5.dist-info/RECORD,,
