@@ -1,0 +1,215 @@
+{% extends 'partials/base.html' %}
+
+
+{% block content %}
+
+
+    <div class="container-fluid d-flex justify-content-between row" height="100%" width="100%">
+        <div class="mt-4 col-md-6 col-sm-12 col-lg-6">
+            <h4>Total messages</h4>
+
+                <label for="id_date_range" class="mb-2">Choose the range:</label>
+                <!-- {{ form.date_range }} -->
+                <input type="text" class="form-control"id="id_date_range" name="date_range"/>
+                
+            <script>
+                $(function() {
+                    
+                    const url = new URL(window.location.href);
+                    const params = new URLSearchParams(url.search);
+                    
+                    data = params.get("date_range")
+                    
+                    
+                    var start = moment().subtract(7, 'days');
+                    var end = moment();
+                    
+                    if(data) {
+                                                
+                        $('#id_date_range').val(data);
+
+                    }
+                    else {
+                        $('#id_date_range').val(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+                    }
+                    
+                    $('#id_date_range').daterangepicker({
+                        startDate: start,
+                        endDate: end,
+                        maxDate: moment(),
+                        ranges: {
+                           'Last 7 Days': [moment().subtract(7, 'days'), moment()],
+                           'Last 30 Days': [moment().subtract(29, 'days'), moment()],
+                           'This month': [moment().startOf('month'), moment()],
+                           'This Year': [moment().startOf('year'), moment()],
+                        },
+                        "locale": {"format": "MMMM D, YYYY", "cancelLabel": "Clear"}, 
+                        "autoUpdateInput": false
+                    }, );
+                    
+                    $('#id_date_range').on('apply.daterangepicker', function(ev, picker) {
+                        
+                        $(this).val(picker.startDate.format('MMMM D, YYYY') + ' - ' + picker.endDate.format('MMMM D, YYYY'));
+                        start = picker.startDate
+                        end = picker.endDate
+                        
+                        window.location.href = {% url 'stat' %} + "?" + $('#id_date_range').serialize();
+        
+                    });
+    
+                    $('#id_date_range').on('cancel.daterangepicker', function(ev, picker) {
+                        $(this).val('');
+                    });
+                    
+                    // Check if the url have params
+                    if(data) {
+                        $('#id_date_range').val(data);
+                    }
+                    else {
+                        $('#id_date_range').val(start.format('MMMM D, YYYY') + ' - ' + end.format('MMMM D, YYYY'));
+                    }
+                    
+                });
+            </script>
+            <canvas id="myChart1" style="width: 650; height: 550;"></canvas>
+                <script>
+                var ctx = document.getElementById('myChart1').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'scatter',
+                    data: {
+                        labels: [{% for day in x_bardata %}  '{{ day }}',  {% endfor %}],
+                        datasets: [{
+                            type: 'bar',
+                            label: 'Successfully sent',
+                            data: [{% for message in y_bardata %}  {{ message.success_count }},  {% endfor %}],
+                            backgroundColor: 'rgba(99, 255, 132, 0.8)',
+            
+                            borderColor: 'rgba(150, 255, 150, 1)',  
+                            borderWidth: 1
+                        }, {
+                            type: 'bar',
+                            label: 'Failed',
+                            data: [{% for message in y_bardata %}  {{ message.failed_count }},  {% endfor %}],
+                            backgroundColor: 'rgba(255, 99, 132, 0.8)',
+        
+                            borderColor: 'rgba(255, 150, 150, 1)',  
+                            borderWidth: 1
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        plugins: {
+                            title: {
+                                display: true,
+                                text: ["Total: {{total_sms}}", "Successful: {{total_success_sms}}", "Failed: {{total_failed_sms}}"],
+                            }
+                        }
+                    }
+                });
+                </script>
+        </div>
+
+        <div class="mt-4 col-md-4" >
+            <h4>Providers stat</h4>
+            <canvas id="myChart"></canvas>
+                <script>
+                var ctx = document.getElementById('myChart').getContext('2d');
+                var myChart = new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: [{% for label in providers %}  '{{ label }}',  {% endfor %}],
+                        datasets: [{
+                            data: {{ providers_data }},
+                            backgroundColor: [
+                                'rgba(255, 99, 132, 0.8)',
+                                'rgba(54, 162, 235, 0.8)',
+                                'rgba(255, 206, 86, 0.8)',
+                                'rgba(75, 192, 192, 0.8)',
+                            ],
+                            borderColor: [
+                                'rgba(255, 99, 132, 1)',
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(255, 206, 86, 1)',
+                                'rgba(75, 192, 192, 1)',
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        scales: {
+                            y: {
+                                beginAtZero: true
+                            }
+                        },
+                        
+                    }
+                });
+                </script>
+        </div>
+    </div>
+
+{% endblock %}
+
+{% block table %}
+
+<div class="card">
+    <div class="card-body">
+      <h4 class="card-title">Recent Messages</h4>
+      <div class="card-description d-flex justify-content-center"> 
+          <p>
+            Top {{ table_data|length }} recent messages
+          </p>
+      </div>
+      <div class="table-responsive">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Phone</th>
+              <th>Messgae</th>
+              <th>Provider</th>
+              <th>Status</th>
+              <th>Sent At</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for message in table_data %}
+
+            <tr>
+              <td>{{ message.phone }}</td>
+              <td>{{ message.body }}</td>
+              <td>
+                {% if message.sms_id %} 
+                    {{message.provider}}
+                    {% else %}
+                    <span class="badge rounded-pill bg-warning"> None </span>
+                {% endif %}
+            </td>
+              <td>
+                {% if message.success %} 
+                    <span class="badge rounded-pill bg-success">Success</span>
+                {% elif message.sms_id %}
+                    <span class="badge rounded-pill bg-warning"> Not confirmed </span>
+                {% else %}
+                    <span class="badge rounded-pill bg-danger"> Failed </span>
+                {% endif %}
+              </td>
+              <td> {{ message.sent_at|date:"F j, Y g:i A" }} </td>
+            </tr>
+            {% endfor %}           
+          </tbody>
+        </table>
+            {% if page_data.has_next %}
+                <div class="d-grid gap-2 col-6 mx-auto">
+                    <a href="?page={{page_data.next_page_number}}" class="btn btn-outline-secondary">Show more</a>
+                </div>
+            {% endif %}
+      </div>
+    </div>
+    
+</div>
+
+{% endblock %}
