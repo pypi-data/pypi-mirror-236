@@ -1,0 +1,8 @@
+pyproject.toml
+speedup/__init__.py
+speedup.py.egg-info/PKG-INFO
+speedup.py.egg-info/SOURCES.txt
+speedup.py.egg-info/dependency_links.txt
+speedup.py.egg-info/entry_points.txt
+speedup.py.egg-info/requires.txt
+speedup.py.egg-info/top_level.txt
