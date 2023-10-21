@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "BIO_OPTM"
+version = "0.1.4"
+authors = [
+  { name="Gerald Jones", email="gjones2@vols.utk.edu" },
+]
+description = "A collection of AnyLogic models and python code to use within the models"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/gjones1911/AnyLogic_PY.git"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
