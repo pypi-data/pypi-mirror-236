@@ -1,0 +1,11 @@
+deap
+numpy
+pyyaml
+torch
+botorch>=0.8.2
+gpytorch
+pandas
+pydantic>=2.3
+ipywidgets
+tqdm
+orjson
