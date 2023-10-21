@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+anigapdf.egg-info/PKG-INFO
+anigapdf.egg-info/SOURCES.txt
+anigapdf.egg-info/dependency_links.txt
+anigapdf.egg-info/top_level.txt
