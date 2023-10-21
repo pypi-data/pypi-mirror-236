@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "django-markdown-it"
+version = "0.3.0"
+description = "Markdown template filter for Django following CommonMark specs (markdown-it-py)."
+authors = ["Richard <richard@stromer.org>"]
+license = "MIT"
+readme = "README.md"
+packages = [{ include = "markdownit" }]
+classifiers = ["Framework :: Django", "Environment :: Web Environment"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+markdown-it-py = "^3.0.0"
+django = "^4.2.6"
+nh3 = "^0.2.14"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.1"
+black = "^23.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
