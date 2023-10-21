@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: aryaxai
+Version: 0.0.3
+Summary: Full stack ML Observability with AryaXAI
+License: MIT
+Project-URL: Documentation, https://xai.arya.ai/docs/introduction
+Keywords: aryaxai,ML observability
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pydantic==2.4.2
+Requires-Dist: pyjwt==2.8.0
+
+A python client for [AryaXAI](https://xai.arya.ai).
+
+### Installation
+```
+pip install aryaxai
+```
+
+### Getting Started
+```
+from aryaxai import xai
+
+xai.login()
+
+# list of workspaces
+workspaces = xai.get_workspaces()
+
+# projects from first workspace
+projects = workspaces[0].get_projects()
+```
