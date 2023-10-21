@@ -1,0 +1,6 @@
+aiohttp<4,>=3.7.4
+aiofiles<24,>=23.0.0
+python_dateutil<3,>=2.4.0
+websockets<12,>=11
+osrparse<7,>=6.0.1
+requests<3,>=2.25.1
