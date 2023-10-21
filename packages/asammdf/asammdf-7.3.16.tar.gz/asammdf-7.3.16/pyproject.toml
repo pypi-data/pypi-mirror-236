@@ -1,0 +1,34 @@
+[build-system]
+requires = ["numpy", "setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 120
+target-version = ['py38']
+extend-exclude = '''
+^/src/asammdf/gui/ui
+'''
+
+[tool.coverage.run]
+source = ["asammdf"]
+omit = ["*/asammdf/gui/ui/*"]
+
+[tool.cibuildwheel]
+test-requires = "pytest"
+test-command = "pytest {project}/test"
+build-frontend = "build"
+archs = ["auto64"]  # only build for 64bit architectures
+skip = "pp* *_ppc64le *_s390x *-musllinux* cp312-*"  # skip pypy and irrelevant architectures
+
+[tool.ruff]
+select = [
+    "UP",  # pyupgrade
+    "I",  # isort
+]
+exclude = ["./src/asammdf/gui/ui"]
+target-version = "py38"
+
+[tool.ruff.isort]
+known-first-party = ["asammdf"]
+order-by-type = false
+force-sort-within-sections = true
