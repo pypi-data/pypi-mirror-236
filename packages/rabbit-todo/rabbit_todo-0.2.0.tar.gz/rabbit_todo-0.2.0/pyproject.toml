@@ -1,0 +1,89 @@
+[tool.poetry]
+name = "rabbit-todo"
+version = "0.2.0"
+description = "The Simple Todo Tool in CLI"
+authors = ["Mayuge <mayuge.studio.public@gmail.com>"]
+homepage = "https://github.com/MayugeStudio"
+repository = "https://github.com/MayugeStudio/rabbit-todo"
+readme = "README.md"
+license = "Apache-2.0"
+keywords = [
+    "todo",
+    "cli",
+    "simple",
+    "task-management",
+    "project-management",
+    "productivity",
+    "organizer",
+    "terminal",
+    "agenda"
+]
+classifiers = [
+    "Environment :: Console",
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Utilities",
+    "Typing :: Typed"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+click = "^8.1.7"
+colorama = "^0.4.6"
+
+[tool.poetry.scripts]
+rabi = "rabbit_todo.entry_point:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+black = "^23.10.0"
+isort = "^5.12.0"
+pylint = "^3.0.1"
+mypy = "^1.6.1"
+pre-commit = "^3.5.0"
+pyproject-flake8 = "^6.1.0"
+flake8-isort = "^6.1.0"
+flake8-bugbear = "^23.9.16"
+flake8-eradicate = "^1.5.0"
+flake8-unused-arguments = "^0.0.13"
+flake8-pytest-style = "^1.7.2"
+pep8-naming = "^0.13.3"
+
+[tool.black]
+line-length = 119
+
+[tool.isort]
+profile = "black"
+line_length = 119
+import_heading_stdlib = "--- Standard Library ---"
+import_heading_thirdparty = "--- Third Party Library ---"
+import_heading_firstparty = "--- First Party Library ---"
+import_heading_localfolder = "--- Local Library ---"
+force_single_line = true
+
+[tool.mypy]
+show_error_context = true
+show_column_numbers = true
+ignore_missing_imports = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+warn_return_any = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+exclude = "^tests/"
+
+[tool.flake8]
+max-line-length = 119
+extend-ignore = ["E203", "W503"]
+exclude = [".venv", ".git", "__pycache__",]
+max-complexity = 10
+unused-arguments-ignore-abstract-functions = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: rabbit-todo
+Version: 0.2.0
+Summary: The Simple Todo Tool in CLI
+Home-page: https://github.com/MayugeStudio
+License: Apache-2.0
+Keywords: todo,cli,simple,task-management,project-management,productivity,organizer,terminal,agenda
+Author: Mayuge
+Author-email: mayuge.studio.public@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: colorama (>=0.4.6,<0.5.0)
+Project-URL: Repository, https://github.com/MayugeStudio/rabbit-todo
+Description-Content-Type: text/markdown
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/rabbit-todo)
+![GitHub](https://img.shields.io/github/license/MayugeStudio/rabbit-todo)
+
+# :rabbit: Rabbit :rabbit:
+
+## The Simple Todo Tool in CLI
+
+### Description
+
+Rabbit is a minimalistic CLI tool designed for managing your todos without leaving the terminal.
+It's fast, it's simple, and it's just a command away.
+
+### Features
+
+- Add new tasks
+- Remove completed tasks
+- Mark tasks as done
+- List all tasks
+
+### Installation
+
+```bash
+pip install rabbit-todo
+```
+
+### Usage
+
+Note: The command is intentionally shortened to `rabi` for ease to use. 
+
+Add a new task
+```bash
+rabi add "Add new feature to my awsome project"
+```
+
+Remove a task
+```bash
+rabi remove 0
+```
+
+Mark a task as done
+```bash
+rabi done 0
+```
+
+List all tasks
+```bash
+rabi list
+```
+
+### Contributing
+
+Pull Requests are welcome.
+For major changes, please open an issue first to discuss what you would like to change.
+
