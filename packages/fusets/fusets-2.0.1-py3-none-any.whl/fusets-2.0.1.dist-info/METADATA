@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: fusets
+Version: 2.0.1
+Summary: Time Series Fusion toolbox integrated with openEO
+Home-page: https://github.com/Open-EO/FuseTS
+Author: Jeroen Dries
+Author-email: jeroen.dries@vito.be
+License: Apache Software License
+Project-URL: Bug Tracker, https://github.com/Open-EO/FuseTS/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy ==1.23.5
+Requires-Dist: GPy >=1.10.0
+Requires-Dist: vam.whittaker ==2.0.2
+Requires-Dist: matplotlib >=3.3.4
+Requires-Dist: xarray >=0.20.2
+Requires-Dist: lcmap-pyccd ==2021.7.19
+Requires-Dist: openeo
+Requires-Dist: shapely
+Requires-Dist: cython
+Provides-Extra: dev
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: sphinx >=4.5.0 ; extra == 'dev'
+Requires-Dist: myst-parser >=0.17.0 ; extra == 'dev'
+Requires-Dist: h5netcdf ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-annotation ; extra == 'dev'
+Requires-Dist: sphinx-autodoc-typehints ; extra == 'dev'
+Requires-Dist: sphinxcontrib-svg2pdfconverter ==1.2.0 ; extra == 'dev'
+
+# FuseTS
+
+In AI4FOOD project we aim to create a data fusion and time-series analytics framework using AI/ML to extract information over land environments.
+
+FuseTS is a Time Series & Data Fusion toolbox integrated with openEO.
