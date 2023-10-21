@@ -1,0 +1,11 @@
+macrostrat/app_frame/__init__.py,sha256=2oWMJqwCelHWYJVu5efdEd0VK2fYTbBybuaerAXINb4,59
+macrostrat/app_frame/compose.py,sha256=Bojd3fCwOpm05t154CNM_x4beaNbsdOLjLbj9P-ZQig,996
+macrostrat/app_frame/control_command.py,sha256=B6q8QegTakF8eQqXlrlghQHWU1yPk2rZfgAXDjaniuE,6117
+macrostrat/app_frame/core.py,sha256=0-BNeTTksKwda9Lr2bk2ZMcQNm6cdH-rHO0tN4LGWzM,3798
+macrostrat/app_frame/follow_logs.py,sha256=XwzYqn7V-5sGBKfMyz_boKXpHYtaypOZdo1Q_TCNaOo,2373
+test_app/Caddyfile,sha256=-av3CfSNBTzYYz2ZQHPoPx65oP75HTREC2zrB2pf_ko,25
+test_app/__init__.py,sha256=7L8Q1TzZHXPeNnN16_B5I3EavEVkUkztxlU-bf4QpR0,333
+test_app/docker-compose.yaml,sha256=_v7BRAGYbWo2S7pz4eKdo8qYnJNHCmr13sGm1VhwSn0,177
+macrostrat_app_frame-1.1.0.dist-info/METADATA,sha256=rB7PdFbnQtph5N8LZ3Bm7cEY3t7vzyBfq3uUrBp1lLk,529
+macrostrat_app_frame-1.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+macrostrat_app_frame-1.1.0.dist-info/RECORD,,
