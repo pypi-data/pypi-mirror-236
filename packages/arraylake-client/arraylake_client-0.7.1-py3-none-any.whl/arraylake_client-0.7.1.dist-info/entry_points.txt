@@ -1,0 +1,4 @@
+[console_scripts]
+al=arraylake_client.cli.main:app
+arraylake=arraylake_client.cli.main:app
+
