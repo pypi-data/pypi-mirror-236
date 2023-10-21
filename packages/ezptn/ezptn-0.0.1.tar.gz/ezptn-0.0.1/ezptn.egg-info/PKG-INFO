@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ezptn
+Version: 0.0.1
+Summary: String pattern matching with placeholders.
+Home-page: https://github.co.jp/
+Author: le_lattelle
+Author-email: g.tiger.ml@gmail.com
+License: CC0 v1.0
+Description: # ezptn
+        
+        ## Overview
+        - String pattern matching with placeholders.
+        - プレースホルダーを使った文字列パターンマッチ
+        
+        ## Usage
+        ```python
+        import ezptn
+        
+        res = ezptn.match("lambda %s: %s", "lambda a: a ** 2")
+        print(res)	# -> [('a', 'a ** 2')]
+        res = ezptn.match("%s:%s", "13:12:24")
+        print(res)	# -> [('13', '12:24'), ('13:12', '24')]
+        res = ezptn.match("%s--%s", "hoge-fuga")
+        print(res)	# -> []
+        res = ezptn.match("%squid", "equid")
+        print(res)	# -> [('e',)]
+        res = ezptn.match("%s(%s)", "hoge(22)")
+        print(res)	# -> [('hoge', '22')]
+        res = ezptn.match("%s(%s)", "hoge()")
+        print(res)	# -> [('hoge', '')]
+        res = ezptn.match("%s(%s)", "hoge()", allow_empty = False)
+        print(res)	# -> []
+        res = ezptn.match("(%s,((%s,%s),%s))", '(23,(("s",44),44))')
+        print(res)	# -> [('23', '"s"', '44', '44')]
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
+Description-Content-Type: text/markdown
