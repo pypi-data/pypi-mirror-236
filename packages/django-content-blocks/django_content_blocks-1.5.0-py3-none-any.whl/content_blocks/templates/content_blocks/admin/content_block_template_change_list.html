@@ -1,0 +1,11 @@
+{% extends 'adminsortable2/change_list.html' %}
+
+{% block object-tools-items %}
+  <li>
+    <a href="{% url 'admin:content_blocks_contentblocktemplate_import' %}">Import</a>
+  </li>
+  <li>
+    <a href="{% url 'admin:content_blocks_contentblocktemplate_export' %}">Export</a>
+  </li>
+  {{ block.super }}
+{% endblock %}
