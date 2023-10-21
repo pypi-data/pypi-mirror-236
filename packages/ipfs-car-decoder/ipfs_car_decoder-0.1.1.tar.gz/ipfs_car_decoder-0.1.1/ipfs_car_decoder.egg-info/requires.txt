@@ -1,0 +1,8 @@
+aiofiles
+attrs
+dag_cbor
+unix_fs_exporter>=0.2.0
+multiformats
+
+[dev]
+types-aiofiles
