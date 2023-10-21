@@ -1,0 +1,8 @@
+flit
+pandas
+numpy
+black
+ruff
+coverage
+pytest-cov
+pytest

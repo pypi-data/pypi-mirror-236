@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: outliersdemo
+Version: 0.1
+Summary: A simple but yet a powerful python package to help a data scientist with outliers
+Author: Mark Okello
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Home, https://github.com/nogibjj/outliersdemo
+
+# outliersdemo
