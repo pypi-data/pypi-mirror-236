@@ -1,0 +1,1 @@
+{"r1": {"pmin": [0, 0, 0], "pmax": [2, 2, 1], "dims": ["x", "y", "z"], "units": ["m", "m", "m"], "tolerance_factor": 1e-12}, "r2": {"pmin": [0, 0, 1], "pmax": [2, 2, 2], "dims": ["x", "y", "z"], "units": ["m", "m", "m"], "tolerance_factor": 1e-12}, "r3": {"pmin": [0, 0, 2], "pmax": [2, 2, 3], "dims": ["x", "y", "z"], "units": ["m", "m", "m"], "tolerance_factor": 1e-12}}

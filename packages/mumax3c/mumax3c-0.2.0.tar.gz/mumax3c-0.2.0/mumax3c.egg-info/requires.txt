@@ -1,0 +1,13 @@
+scipy
+micromagneticmodel>=0.63.2
+micromagnetictests>=0.63.1
+ubermagutil>=0.63.2
+ubermagtable>=0.61.3
+
+[dev]
+build
+invoke
+nbval
+pre-commit
+pytest-cov
+twine
