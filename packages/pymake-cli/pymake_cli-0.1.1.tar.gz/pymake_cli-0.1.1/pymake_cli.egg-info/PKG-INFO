@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pymake-cli
+Version: 0.1.1
+Author: Jordan Castro
+Author-email: jordan@grupojvm.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
