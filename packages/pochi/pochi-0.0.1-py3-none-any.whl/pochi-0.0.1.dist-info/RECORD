@@ -1,0 +1,17 @@
+pochi_commands/__init__.py,sha256=5nEFPgzseD-SMDcyr169xt733t4e8WmNih2_03OzSyc,620
+pochi_commands/build_command.py,sha256=eWqSAuAr0rM-uEriWazx_Xk-ivY4iGZwt2cdiWv-yA4,9820
+pochi_commands/clean_command.py,sha256=X-7SqVbBEi97vRc3_5B97Pqlc9M7m1n9D9dNT_0UgHw,877
+pochi_commands/config_command.py,sha256=ONjbMrkjkXp5fC6BFxBAB3hxkOrxh51liFe7clA8g7c,1923
+pochi_commands/constants.py,sha256=JOAaukl_oHJRRR57xQHofTK1XatGn-CLKU3tu3XrWYk,4678
+pochi_commands/dependency_command.py,sha256=A_YJZdMYZRMigXhPuD3czyFUbSabzogaaoCnOr2sgDo,258
+pochi_commands/deploy_command.py,sha256=Yg2jc-vQ6eR8C2RmKM44nIv5tKt-hkWuRVODBk1v6no,2904
+pochi_commands/init_command.py,sha256=5zbjmqUHkcbXBSuDY8QILHWDzu_ldQlfn71BgT1Zv90,9409
+pochi_commands/pochi_commands.py,sha256=ZnydJhcr-9nds3guTwpZxrTnyiBNl0B0Q2WxsETJbh8,6840
+pochi_commands/pochi_util.py,sha256=7nmP7JL6EkAxks21zK82SvxRzbmN6M41IyGo4gM00EE,1535
+pochi_commands/test_command.py,sha256=3j9AVsXv31vXE3I716FfzC2yw6OY0wRD3cYAt1l9GqA,2431
+pochi-0.0.1.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pochi-0.0.1.dist-info/METADATA,sha256=y0zCfRvz-j5weMEYnSikC91UVoRle22OO9cEpwfYl40,151
+pochi-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pochi-0.0.1.dist-info/entry_points.txt,sha256=Vqw38QpuOgiqJ8wJTB8uFijx46ol2AmQ2Sho8KTXgPs,46
+pochi-0.0.1.dist-info/top_level.txt,sha256=9-3hlWPmxIqiGDEEN0Y9qPqhi56AQIC7Y3CPKgXGxiA,15
+pochi-0.0.1.dist-info/RECORD,,

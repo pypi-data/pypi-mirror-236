@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pochi
+Version: 0.0.1
+License-File: LICENCE
+Requires-Dist: snowflake-connector-python ==3.2.1
+Requires-Dist: toml ==0.10.2
+
