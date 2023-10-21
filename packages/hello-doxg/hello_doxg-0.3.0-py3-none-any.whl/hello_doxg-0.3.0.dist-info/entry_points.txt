@@ -1,0 +1,3 @@
+[console_scripts]
+hello-doxg-pic = hello_doxg.my:pic
+
