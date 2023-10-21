@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+waterbg.py
+waterbg.egg-info/PKG-INFO
+waterbg.egg-info/SOURCES.txt
+waterbg.egg-info/dependency_links.txt
+waterbg.egg-info/top_level.txt
