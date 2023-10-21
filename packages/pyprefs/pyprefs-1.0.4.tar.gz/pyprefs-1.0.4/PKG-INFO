@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyprefs
+Version: 1.0.4
+Summary: A small example package
+Author: mc_c0rp
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
