@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+mertpiptest1.egg-info/PKG-INFO
+mertpiptest1.egg-info/SOURCES.txt
+mertpiptest1.egg-info/dependency_links.txt
+mertpiptest1.egg-info/requires.txt
+mertpiptest1.egg-info/top_level.txt
