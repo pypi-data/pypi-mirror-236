@@ -1,0 +1,6 @@
+
+[test]
+flake8
+localstack
+pytest
+boto3

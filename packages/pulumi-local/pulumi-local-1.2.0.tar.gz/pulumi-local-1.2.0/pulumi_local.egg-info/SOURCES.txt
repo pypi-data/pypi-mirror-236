@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bin/pulumilocal
+bin/pulumilocal.bat
+pulumi_local.egg-info/PKG-INFO
+pulumi_local.egg-info/SOURCES.txt
+pulumi_local.egg-info/dependency_links.txt
+pulumi_local.egg-info/not-zip-safe
+pulumi_local.egg-info/requires.txt
+pulumi_local.egg-info/top_level.txt
+tests/__init__.py
+tests/test_apply.py
