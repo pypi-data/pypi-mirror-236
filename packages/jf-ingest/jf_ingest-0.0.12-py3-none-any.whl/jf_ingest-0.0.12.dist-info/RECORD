@@ -1,0 +1,14 @@
+jf_ingest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jf_ingest/diagnostics.py,sha256=Y-sfkLMBEQqdH0oTMST1czuaTWmJyv2R2XFjo4UXb-o,6689
+jf_ingest/logging_helper.py,sha256=oNsAq6KEfPEh5oGMG7CTkUYoQ_sUVf0EXDqgY1WiJSE,5094
+jf_ingest/utils.py,sha256=J-z9SSAEPcSFuNFa2tqOyDJ96SdRKOpxCvvfzEYZrTA,3144
+jf_ingest/jf_git/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jf_ingest/jf_git/standardized_models.py,sha256=RDFG-RJAFz0hKX77TABv4A85lTCaJvzomZZieDO7nlA,217
+jf_ingest/jf_jira/__init__.py,sha256=bEaOKNO13ZcWSINF3uZtjvKJMD9jEoFkGAd5LXwt_0w,10386
+jf_ingest/jf_jira/auth.py,sha256=XMx4ssyCuERcUXop0PtfmTU3-0nLPyn53nUgjBAS9MQ,5883
+jf_ingest/jf_jira/downloaders.py,sha256=VddyHUW4HrbEOX9t1jchj1AM8Pr8ATZ8OGQmvlCT-3g,5472
+jf_ingest-0.0.12.dist-info/LICENSE,sha256=RpyI3ir0WEEowMvaNe4vF4BFdyOMqNpTGjCMiA9ARK8,1066
+jf_ingest-0.0.12.dist-info/METADATA,sha256=tolLGDA_sS_T9yKv0ay_IighjdsrqczBZj27tNOoEo0,1180
+jf_ingest-0.0.12.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jf_ingest-0.0.12.dist-info/top_level.txt,sha256=qCfRueilFeTJ1_g1yClj8XjSrSbznV9Xuxo-vHVhUno,10
+jf_ingest-0.0.12.dist-info/RECORD,,
