@@ -1,0 +1,13 @@
+games/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+games/controller.py,sha256=QAnsvYIQbaBhmSW-XXumG9k4lx2VDL7or4m9Y7P8ZAE,1347
+games/geo_bash.py,sha256=M_WJ96dZfxZCWhK6TInNySPkcTaOADUaJJLBmTWQNp8,9845
+games/manager.py,sha256=pUy_l6wjL2buYkbUrnowA1RvEBnxYhNr7zcruz1ExiQ,394
+games/objects.py,sha256=9kvrWdXm-R9X_R4xHdnkTMBLPsysOcnCVQwZ7avXoiU,11244
+games/screen.py,sha256=nzWWG2fpHq1fYRlU6rPydgUVxsLTyP15L8UfrC2Hirg,3802
+games/scripts.py,sha256=F-iY2GAMo6mUXvQztwilE3O6dCiry2sq0gZsg-WNCdM,184
+console_games-0.0.15.dist-info/LICENSE,sha256=BDHKYCIf8WtTJIlu_cdWVgPhsZLyG0kuipPg5m0Iz1k,1066
+console_games-0.0.15.dist-info/METADATA,sha256=fDo967U5gkpYsQJ6L_rW2U8-oGzug79gCnjhMya46pk,1385
+console_games-0.0.15.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+console_games-0.0.15.dist-info/entry_points.txt,sha256=Dr0VkeJhYH6pG10RiCamOTgCSOZX2YW7YeB2CNKx_v0,44
+console_games-0.0.15.dist-info/top_level.txt,sha256=8qzozd4eb6jhGO8TkDV93Zhc8fPc-7a_n3lBSf5zb5M,6
+console_games-0.0.15.dist-info/RECORD,,
