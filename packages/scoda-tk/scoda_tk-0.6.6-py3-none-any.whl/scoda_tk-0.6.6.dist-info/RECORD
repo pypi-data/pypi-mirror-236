@@ -1,0 +1,11 @@
+scoda/__init__.py,sha256=mN1JHOIogVWnMY-k6ePN0yqhF-TDJ1vNvEgzGG_xlF8,163
+scoda/cpdb.py,sha256=MgPZyLDUwRQhapV3wcTfqfgQ2NVg-VTwUHcYPu4g5dE,16975
+scoda/deiso.py,sha256=rDHXoKbHRQMXwoRYO-N2vYClC9Cmw6tCQuGDTxaff3o,21759
+scoda/icnv.py,sha256=MqB6TxZmFY1w_YfJsdmbTrc9lAJz_hzFjuyVbJY3clM,36606
+scoda/misc.py,sha256=22Xt8Ig3WQaokl79lvaup3SwreQC3B1XQu2EXJ71Wuo,30776
+scoda_tk-0.6.6.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+scoda_tk-0.6.6.dist-info/METADATA,sha256=m1rzhiIYW4l1y4L0AaBH-UGaswkE_xG3A_gJM2LliGI,41394
+scoda_tk-0.6.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scoda_tk-0.6.6.dist-info/entry_points.txt,sha256=j4KgHXbVGbGyfTySc1ypBdERpfihO4WNjppvCdE9HjE,52
+scoda_tk-0.6.6.dist-info/top_level.txt,sha256=ZxHZolCjSewpmLO69wbPzTDnDXe1nd8gGPdSm8Jcq7s,6
+scoda_tk-0.6.6.dist-info/RECORD,,
