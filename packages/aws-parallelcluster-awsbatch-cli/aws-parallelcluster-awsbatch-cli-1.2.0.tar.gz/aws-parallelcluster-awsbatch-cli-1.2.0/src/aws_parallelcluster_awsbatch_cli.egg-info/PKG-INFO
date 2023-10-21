@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: aws-parallelcluster-awsbatch-cli
+Version: 1.2.0
+Summary: AWS ParallelCluster AWS Batch CLI provides a set of commands to manage AWS Batch resources created by ParallelCluster and AWS Batch jobs.
+Home-page: https://github.com/aws/aws-parallelcluster
+Author: Amazon Web Services
+License: Apache License 2.0
+Project-URL: Changelog, https://github.com/aws/aws-parallelcluster/blob/develop/awsbatch-cli/CHANGELOG.md
+Project-URL: Issue Tracker, https://github.com/aws/aws-parallelcluster/issues
+Project-URL: Documentation, https://docs.aws.amazon.com/parallelcluster/
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/plain
+
+aws-parallelcluster-awsbatch-cli is the python package installed on the Amazon EC2 instances launched as part of AWS ParallelCluster when using AWS Batch as a scheduler. It provides a set of commands to manage AWS Batch resources created within the cluster and AWS Batch jobs.
+
