@@ -1,0 +1,12 @@
+pymmcore/__init__.py,sha256=YuSZggbmkNVFnvsY1fs3JbZ3nOk6jmhK1CLcJsW22c0,65
+pymmcore/__init__.pyi,sha256=t2PX4-lHKf1bFysoi7wnR_8FLI5Yd3XqKqmZNjkwE0c,65523
+pymmcore/_pymmcore_swig.cp310-win_amd64.pyd,sha256=353qky6zHp1WCLvRBIqGNpnLkQ276YuNkXt2CqR82Fw,1949696
+pymmcore/_version.py,sha256=4QQ7G4IuTPCoNpXa8eN6qCsVJDCfNlwDwXN3_mZdTCA,29
+pymmcore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymmcore/pymmcore_swig.i,sha256=S5c4GackOBZ-clH853UhKfLCtODrquIMJFMyWSUUtsw,15335
+pymmcore/pymmcore_swig.py,sha256=qZEnIzvKusC9l4K5P5lRdTzfkAzF_AeXunUkE6839vg,444
+pymmcore-10.7.0.71.0.dist-info/LICENSE.txt,sha256=Hn5rrlpb3jLxrlp8N6CC0asDz4k1T3-TasQL6eOaZTE,27032
+pymmcore-10.7.0.71.0.dist-info/METADATA,sha256=-iA-W0dYuCjvHneSa1ZQ7OzUEoR4c1lECLKW9vNZRu8,6655
+pymmcore-10.7.0.71.0.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+pymmcore-10.7.0.71.0.dist-info/top_level.txt,sha256=LLsniaDErduTM0iXWVmNp19PlgsFeVo4qI8_Vucc0LM,9
+pymmcore-10.7.0.71.0.dist-info/RECORD,,
