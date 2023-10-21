@@ -1,0 +1,13 @@
+odoo/addons/ssi_accounting_entry_mixin/README.rst,sha256=jQBJudzCAV17dQiJSiUtXY-JIc6eY0U5ih4radIJp9A,1192
+odoo/addons/ssi_accounting_entry_mixin/__init__.py,sha256=X3ayW9k4OH3xqib3X0KEzYY9_pqaAhP2YdhFFVEJSvo,181
+odoo/addons/ssi_accounting_entry_mixin/__manifest__.py,sha256=HDGNrRAgEqZCxOy2q7iEY-8cxqAnpMqLB2NMmBlrEk0,479
+odoo/addons/ssi_accounting_entry_mixin/models/__init__.py,sha256=wpEMVdyp09SEKZHeZoDQmTPKzQ_qa8neQoz0vYSCtgI,285
+odoo/addons/ssi_accounting_entry_mixin/models/mixin_account_move.py,sha256=eICNZO34Jg4UtfoKuO-0Q3EO_ihfTAnY1oBMwRfGo4U,6732
+odoo/addons/ssi_accounting_entry_mixin/models/mixin_account_move_double_line.py,sha256=NmtvPllpanYYWLxwiia8_dQmnpSXjaeKmGYpm64Tkqk,10779
+odoo/addons/ssi_accounting_entry_mixin/models/mixin_account_move_single_line.py,sha256=-BBkDoj5tc2alrQBC9Rq1WiteCGhLAAP5xDDRFuPJ10,6905
+odoo/addons/ssi_accounting_entry_mixin/models/mixin_tax_line.py,sha256=dh8J3V-ENt8AUZyJzkKTJmp1P0Y45cl0umB47khsxPU,1566
+odoo/addons/ssi_accounting_entry_mixin/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo14_addon_ssi_accounting_entry_mixin-14.0.1.6.0.dist-info/METADATA,sha256=XvXHGysV8A_o04MhFJqWH2m7fc68ikp4HJF_UsqVlTg,1756
+odoo14_addon_ssi_accounting_entry_mixin-14.0.1.6.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_accounting_entry_mixin-14.0.1.6.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_accounting_entry_mixin-14.0.1.6.0.dist-info/RECORD,,
