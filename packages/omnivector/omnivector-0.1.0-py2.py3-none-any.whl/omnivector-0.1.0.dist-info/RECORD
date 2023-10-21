@@ -1,0 +1,13 @@
+omnivector/__init__.py,sha256=LTpjsFxX_tQ7P9JZ-1ykAdKIUFyfMQ_ePhpRuaejOes,168
+omnivector/abstraction.py,sha256=NODDMQtBAKXSw4PgBSEl7OC560bcupnID8aoMMjKEaY,323
+omnivector/embedders.py,sha256=dU4Ixo8AguS8bKtZJjC42gezhABDehJlDzEOCFHcr3A,589
+omnivector/lancedb.py,sha256=Ssjt1RUqsFh_2gI718O1rim6Xy1YsDpuGgBc2yZoRhM,1035
+omnivector/pgvector.py,sha256=CvpaB6YoS9bb4ohzAfFO12Ni9xQpA9akrY4qn2MgvbI,1198
+omnivector/pinecone.py,sha256=Gk9wg4LZes5ZU_iyvg8fuqASejCaDLyZf2PYDxlowjw,1718
+omnivector/weaviate.py,sha256=-sf3gI7CP77fqqQKqddzsTNLvaRasmuxue-1R28LtT4,1750
+omnivector-0.1.0.dist-info/LICENSE,sha256=U4e_sqPYu6Qj52nAMjG06Mqbh60hhpUN4Ux0qHruPs8,1079
+omnivector-0.1.0.dist-info/METADATA,sha256=XPSc36jmobmoD_HYrqG6lq2xcbXpllhbOgIvd-WxO54,1709
+omnivector-0.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+omnivector-0.1.0.dist-info/entry_points.txt,sha256=-kEA0uyxgkKa02Na-6mjrNnr8l_EbAEmOo__AHzR3oY,51
+omnivector-0.1.0.dist-info/top_level.txt,sha256=bgOg2aZv5u3SXpzlSq1PrfNk9ppG1Lx6E3lISGeelyw,11
+omnivector-0.1.0.dist-info/RECORD,,
