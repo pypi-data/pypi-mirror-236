@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: ogmios
+Version: 0.1.3
+Summary: Ogmios is a lightweight bridge interface for cardano-node. It offers a WebSockets API that enables local clients to speak Ouroboros' mini-protocols via JSON/RPC. ogmios-python is an Ogmios client written in Python designed for ease of use.
+Project-URL: Documentation, https://ogmios-python.readthedocs.io
+Project-URL: Issues, https://gitlab.com/viperscience/ogmios-python/-/issues
+Project-URL: Source, https://gitlab.com/viperscience/ogmios-python
+Author-email: Willie Marchetto <willie@viperscience.com>, Dylan Crocker <dylan@viperscience.com>
+License-Expression: GPL-3.0-or-later
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: coloredlogs
+Requires-Dist: orjson
+Requires-Dist: pydantic==1.10.13
+Requires-Dist: websockets
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: datamodel-code-generator; extra == 'dev'
+Requires-Dist: flake8-pyproject; extra == 'dev'
+Requires-Dist: isort; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme; extra == 'dev'
+Provides-Extra: testing
+Requires-Dist: coverage[toml]>=6.5; extra == 'testing'
+Requires-Dist: pytest; extra == 'testing'
+Description-Content-Type: text/markdown
+
+# ogmios
+
+[![Pipeline](https://gitlab.com/viperscience/ogmios-python/badges/main/pipeline.svg)](https://gitlab.com/viperscience/ogmios-python/-/pipelines)
+[![Documentation Status](https://readthedocs.org/projects/ogmios-python/badge/?version=latest)](https://ogmios-python.readthedocs.io/en/latest/?badge=latest)
+[![PyPI - Version](https://img.shields.io/pypi/v/ogmios.svg)](https://pypi.org/project/ogmios)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ogmios.svg)](https://pypi.org/project/ogmios)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+1. Install cardano-node and Ogmios server as described [here](https://ogmios.dev/getting-started/). (Docker installation is recommended.)
+2. Install ogmios-python using pip:
+
+```console
+pip install ogmios
+```
+
+## Quickstart
+
+To see how easy it is to build on Cardano with ogmios-python, let's use the library to view new blocks as they are added to the blockchain:
+
+```python
+import time
+import ogmios
+
+with ogmios.Client() as client:
+    # Set chain pointer to origin
+    _, tip, _ = client.find_intersection.execute([ogmios.Origin()])
+
+    # Now set chain pointer to tip
+    _, _, _ = client.find_intersection.execute([tip.to_point()])
+
+    # # Tail blockchain as new blocks come in beyond the current tip
+    while True:
+        client.next_block.execute()
+        time.sleep(1)
+```
+
+For more examples, see the documentation and example scripts in the repo.
+
+## License
+
+`ogmios-python` is distributed under the terms of the [GPL-3.0-or-later](https://spdx.org/licenses/GPL-3.0-or-later.html) license.
