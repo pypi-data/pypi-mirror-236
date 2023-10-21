@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: griffe-inherited-docstrings
+Version: 0.0.0
+Summary: Griffe extension for inheriting docstrings. Available to sponsors only.
+Author-email: Timothée Mazzucotelli <pawamoy@pm.me>
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# griffe-inherited-docstrings
+
+Griffe extension for inheriting docstrings.
+
+This project is currently available to [sponsors](https://github.com/sponsors/pawamoy) only.
+See https://pawamoy.github.io/griffe-inherited-docstrings/insiders.

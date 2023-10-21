@@ -1,0 +1,6 @@
+README.md
+pyproject.toml
+griffe_inherited_docstrings.egg-info/PKG-INFO
+griffe_inherited_docstrings.egg-info/SOURCES.txt
+griffe_inherited_docstrings.egg-info/dependency_links.txt
+griffe_inherited_docstrings.egg-info/top_level.txt

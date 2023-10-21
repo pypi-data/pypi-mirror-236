@@ -1,0 +1,8 @@
+[project]
+name = "griffe-inherited-docstrings"
+version = "0.0.0"
+description = "Griffe extension for inheriting docstrings. Available to sponsors only."
+authors = [{name = "Timothée Mazzucotelli", email = "pawamoy@pm.me"}]
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = ["Development Status :: 1 - Planning"]
