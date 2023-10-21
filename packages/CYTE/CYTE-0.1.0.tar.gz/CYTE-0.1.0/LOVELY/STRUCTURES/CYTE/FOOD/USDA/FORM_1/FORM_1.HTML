@@ -1,0 +1,109 @@
+
+
+
+
+
+
+
+
+
+
+
+COMBINED DATA {
+	"CODE": PRIMARY KEY,
+	
+	"NIH DATA": {},
+	
+	"FORM 1": {
+		"PRODUCT": {
+			"NAME": ""
+		},
+		
+		"BRAND": {
+			"NAME":	"DEVA",
+			"CONTACTS": DATA ["contacts"],
+		},
+		
+		
+		#
+		#	{ STATISTICS, SUMMARY, COMPOSITION } PER { DIVISION }
+		#	
+		#
+		"DIVISIONS": [{
+			"DIVISION": "PACKAGE"
+		},{
+			"DIVISION": "SERVINGS",
+			"QUANTITY": 4.1
+		}],
+		
+		
+		"ENERGY": [{
+			"DIVISION": "PACKAGE":
+			"SYSTEMS": {
+				"FOOD CALORIES": [ , "FOOD CALORIES" ]
+			}
+		}, {
+			"DIVISION": "TABLET":
+			"SYSTEMS": {
+				"FOOD CALORIES": [ , "FOOD CALORIES" ]
+			}
+		}],
+		
+		
+		"MASS": [{
+			"DIVISION": "PACKAGE",
+			"SYSTEMS": {
+				"SYSTEM INTERNATIONAL": [ , "g" ],
+				"US CUSTOMARY": []
+			}
+		},{
+			"DIVISION": "TABLET",
+			"SYSTEMS": {
+				"REPORTED": [ "28", "g" ],
+				"SYSTEM INTERNATIONAL": [ "28", "g" ],
+				"US CUSTOMARY": []
+			}
+		}],
+		
+		
+		"QUANTIFIED INGREDIENTS": [
+			{
+				"CODE": 1,
+
+				"NAME": "PROTEIN",
+				"NAMES": [
+					"PROTEIN"
+				],
+	
+	
+				#
+				#	MIGHT NEED TO REPARSE THIS AS { FRACTIONS: { PROTEIN }} FOR
+				#	SEARCH PURPOSES... ALTHOUGH MAYBE THERE IS A SECONDARY INDEX
+				#	THAT CAN WORK FOR THIS.
+				#
+				"FRACTION": ,
+				
+				"MASS": [{
+					"DIVISION": "PACKAGE",
+					"SYSTEMS": {
+						"SYSTEM INTERNATIONAL": [ int, "g" ],
+						"SYSTEM INTERNATIONAL E NOTE": [ int, "GRAMS" ],
+						"US CUSTOMARY": []
+					}
+				}, {
+					"DIVISION": "SERVING",
+					"SYSTEMS": {
+						"SYSTEM INTERNATIONAL": [ int, "g" ],
+						"SYSTEM INTERNATIONAL E NOTE": [ int, "GRAMS" ],
+						"US CUSTOMARY": [] 
+					}
+				}],
+				
+				"PART OF": "" ,			
+				"INCLUDES": [ ]
+			}
+		],
+		
+		"UNQUANTIFIED INGREDIENTS": [],
+	}
+}

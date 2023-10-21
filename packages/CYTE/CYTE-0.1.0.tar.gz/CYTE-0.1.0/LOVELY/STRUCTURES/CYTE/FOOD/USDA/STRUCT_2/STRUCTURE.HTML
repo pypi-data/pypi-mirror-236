@@ -1,0 +1,199 @@
+
+
+
+
+
+
+
+
+
+COMBINED DATA {
+	"CODE": PRIMARY KEY,
+	
+	"NIH DATA": {},
+	
+	"form 2": {
+		"product": {
+			"name": "UP BEET COLD PRESSED JUICE, UP BEET",
+			"FDC ID": "2642759",
+			"UPC": "664150060163"
+		}
+		
+		"brand": {
+			"name": "METROPOLITAN MARKET",
+			"owner": "Food Markets Northwest, Inc."
+		},
+		
+		#
+		#	form.unit:
+		#		if:
+		#			len (netContents) == 1 and
+		#			netContents[0]["unit"] == "Tablet(s)" and 
+		#			physicalState ["langualCodeDescription"] == "Tablet or Pill" and
+		#			len (servingSizes) == 1 and
+		#			servingSizes [0] ["unit"] == "Tablet(s)"
+		#		then:
+		#			unit = "Tablet"
+		#
+		#	form.quantity:
+		#		if:
+		#			len (netContents == 1)
+		#		then:
+		#			quantity = netContents[0].quantity
+		#		
+		#
+		"form": {
+			"unit": "Tablet",
+			"quantity": 90
+		},
+		
+
+		"defined": {
+			#
+			#	This is necessary for composition calculations,
+			#	but recommendations should be determined elsewhere.
+			#
+			#	if:
+			#		len (netContents)  == 1 and
+			#
+			#		import CYTE.INTEGER.STRING_IS_INTEGER as STRING_IS_INTEGER
+			#		STRING_IS_INTEGER.CHECK (servingsPerContainer)
+			#
+			#		len (servingSizes) == 1
+			#
+			#		servingSizes [0].minQuantity == servingSizes[0].maxQuantity
+			#
+			#		netContents [0].quantity / int (servingsPerContainer) == servingSizes[0].maxQuantity
+			#
+			#	then:
+			#		"quantity" = servingSizes[0].maxQuantity
+			#		"quantity" = 3
+			#
+			"servings per package": "1.9715666666666667",
+			"serving size": {
+				"unit": "ml",
+				"amount": "240"
+			}
+		},
+		
+		
+		"ingredients": {
+			"quantified": [{
+				"struct": {
+					"region": 
+					"names": []
+				},
+				
+				#
+				#	ingredient ['name']
+				#
+				"name": "Iron, Fe",
+				
+				
+				
+				#
+				#
+				#
+				
+				#
+				#	amount:
+				#		if:
+				#			len (ingredient ["quantity"])  == 1
+				#			ingredient ["quantity"][0]["servingSizeQuantity"] == defined ["serving size"]["quantity"]
+				#			Fraction (form.quantity, ingredient ["quantity"][0]["servingSizeQuantity"]).denominator == 1
+				#
+				#		then:
+				#			amount = ingredient ["quantity"][0]["quantity"] / defined ["serving size"]["quantity"]
+				#			amount = 20 / 3
+				#			amount = 6.666666666666667
+				#
+				#	unit:
+				#		unit = ingredient ["quantity"][0]["unit"]
+				#
+				#	per:
+				#		form.unit
+				#
+				
+				#
+				#	amount:
+				#		nutrient.amount == 0.45
+				#
+				"quantity per package": {
+					"amount": "20/3",
+					"unit": "mcg"
+				},
+
+			},{
+				"name": "Vitamin K2",
+				
+				#
+				#	amount =  85 / 3
+				#	amount =  28.333333333333332	
+				#
+				"quantity per form": {
+					"form": "Tablet",
+					"amount": 28.333333333333332,
+					"unit": "mcg"
+				}
+			}],
+			"unquantified": [
+				{
+					#
+					#	otheringredients.ingredients [0].name
+					#
+					"name": "Cellulose"
+				}
+			]
+		},
+		
+		"energy": {
+			"per package": [{
+				"unit": [ "food calories" ]
+				"amount": 
+			}],
+			
+			"per serving": [{
+				"unit": [ "food calories" ]
+				"amount": 
+			}]
+		},
+		
+		"volume": {
+			"per package": [{
+				"unit": [ "liters", "litres" ]
+				"amount": 
+			}]
+		},
+		
+		"mass": {
+			"per quantified ingredients": [{
+				"unit": [ "grams" ]
+				"amount": 
+				"remainder": 
+			}],
+			
+			"per package": [{
+				"unit": [ "grams" ]
+				"amount": 
+			}]
+		},
+		
+		"mass of quantified ingredients": {
+			"caculated per package, ignoring IU, in grams": {
+				"system international": {
+					#
+					#	for each quantified ingredient,
+					#	add the "quantity per form"
+					#
+					"amount": (20 / 3) + (85 / 3)
+					
+					#
+					#	This is the system internation unit of mass,
+					#	therefore this is built in.
+					#
+					"unit": "gram"
+				}
+			} 
+		}
+	}
+}

@@ -1,0 +1,26 @@
+
+
+'''
+
+
+'''
+import CYTE.FOOD.USDA.STRUCT_2.ingredients.quantified.ingredient as QUANTIFIED_INGREDIENT
+
+def CALC (
+	USDA_FOOD_DATA, 
+	USDA_FOOD_DATA_CALCULATED
+):
+	INGREDIENTS = []
+
+	assert ("foodNutrients" in USDA_FOOD_DATA)
+	FOOD_NUTRIENTS = USDA_FOOD_DATA ["foodNutrients"]
+	for FOOD_NUTRIENT in FOOD_NUTRIENTS:
+		INGREDIENTS.append (
+			QUANTIFIED_INGREDIENT.CALC (
+				FOOD_NUTRIENT,
+				USDA_FOOD_DATA_CALCULATED
+			)
+		)
+	
+
+	return INGREDIENTS
