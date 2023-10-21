@@ -1,0 +1,17 @@
+ackl/__init__.py,sha256=23b_WnkbdAYs8u23F6LQvt_3ddLQzVs-1R0IYH5dXQo,160
+ackl/kernels.py,sha256=We5Olyxul0yEgbxaTpjGoPKd-LOnemBhMV1qsgRo8Ss,38912
+ackl/metrics.py,sha256=Xn27GvWc8AC2pzBBSOisOxQ75ePTW4ehlkMkdJ8dg28,29166
+ackl/gui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ackl/gui/run.py,sha256=_ykgZJ7rxHEd4xnZWtnEf-gJRTOjvPY-VuRCjtUN9hE,2670
+ackl/gui/static/bootstrap.css,sha256=x2LAKFVb9biTPj3vnaEogWV7HLwYSPcJh01AREVzlBo,202389
+ackl/gui/static/bootstrap.js,sha256=LKpkBN2w3iudGRseLItcNcaMpI8qlSEUC7-DsnwGNwA,136072
+ackl/gui/static/jquery-3.3.1.min.js,sha256=T-aPohYXbm0fRYDpJLr-zJ9RmYTswGsahAoIsNiMld4,86929
+ackl/gui/static/jquery.blockUI.js,sha256=ffusPTCVTvXqyYmywHhc8fcYAMHkhJr9M3EeRzboEDQ,24228
+ackl/gui/static/jquery.form.min.js,sha256=NYiu2EuztltbvG9t4yGji5A1gNw5pT6S2iMD2iH_rZc,17131
+ackl/gui/static/sample.csv,sha256=t88QphSnm2xPhVHFYPsj_tuzkoW7Uq8EFTD7GIWdFII,1477676
+ackl/gui/templates/home.html,sha256=qpKmfOE6U5x1wTaaPQXcndAIqBgWXudri_0W530ApGw,13445
+ackl-2.0.1.dist-info/LICENSE,sha256=qxOm_eMpufNjTSLsczr7fJvBgEQvyZyG-9CY_D9QTcU,1087
+ackl-2.0.1.dist-info/METADATA,sha256=n5ur6VuK4-rxmRfNggWEp972uHnrBo4M6TmiLjwA31k,1890
+ackl-2.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ackl-2.0.1.dist-info/top_level.txt,sha256=nxWfDx9q_HLwaIhSbMN-oM3ygpQ28BNAgz8V-eve_80,5
+ackl-2.0.1.dist-info/RECORD,,
