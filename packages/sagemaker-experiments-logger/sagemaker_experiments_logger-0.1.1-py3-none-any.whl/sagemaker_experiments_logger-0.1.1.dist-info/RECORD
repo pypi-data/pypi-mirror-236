@@ -1,0 +1,14 @@
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/model.py,sha256=ltHfjUY1fMaBNU2-Tx86sZgDiy_2GP4jEmKjlfFd-9A,6280
+experiments_addon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+experiments_addon/delete.py,sha256=krPVXzFxEbMjmn8KwB5spOjXPJbZuQIT5XqbheEzK7Q,6337
+experiments_addon/logger.py,sha256=UA5FPSSUUaf8ahEH2_H14VW1ZfcwcT4IlEk__xEpX0E,15343
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_delete.py,sha256=1EzCx8euiCbwstwJNNMc819YWSXb75vhaCz3OXz9Bv8,3493
+tests/test_logger.py,sha256=PLTxaYjUd-HTkF45f5qWW7AY427ki0ml4yBTG1ZKQcU,9979
+tests/test_model.py,sha256=y9jwouOzEY0yIFARo3M83UueM4pR8SYY6BScEGqpE9c,649
+sagemaker_experiments_logger-0.1.1.dist-info/LICENSE,sha256=3p7ZIg2m_3dGlCEQFXsVJ30pI_Hl_lWYbPduN_qp7NU,552
+sagemaker_experiments_logger-0.1.1.dist-info/METADATA,sha256=Hah7NxoAEO1di2qCs01e0ET6AZfn0HOUKhsyxqdH1K4,4230
+sagemaker_experiments_logger-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sagemaker_experiments_logger-0.1.1.dist-info/top_level.txt,sha256=fZEeTKnTmjTuUmj_i6UcRx2VbnX5XKyYmFlAF_EKLFg,32
+sagemaker_experiments_logger-0.1.1.dist-info/RECORD,,
