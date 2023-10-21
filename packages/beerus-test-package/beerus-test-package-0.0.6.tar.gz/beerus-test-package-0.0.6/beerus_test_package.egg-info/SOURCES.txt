@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+beerus_test_package.egg-info/PKG-INFO
+beerus_test_package.egg-info/SOURCES.txt
+beerus_test_package.egg-info/dependency_links.txt
+beerus_test_package.egg-info/top_level.txt
+utils/constant.py
+utils/dynamodb_function.py
+utils/github_extraction.py
+utils/s3_function.py
