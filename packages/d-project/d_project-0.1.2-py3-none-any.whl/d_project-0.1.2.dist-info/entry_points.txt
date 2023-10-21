@@ -1,0 +1,3 @@
+[console_scripts]
+project=d_project.app:app
+
