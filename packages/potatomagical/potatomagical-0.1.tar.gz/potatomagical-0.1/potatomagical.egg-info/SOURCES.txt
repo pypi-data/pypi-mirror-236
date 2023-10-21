@@ -1,0 +1,8 @@
+README.md
+setup.py
+potatomagical/__init__.py
+potatomagical/magic.py
+potatomagical.egg-info/PKG-INFO
+potatomagical.egg-info/SOURCES.txt
+potatomagical.egg-info/dependency_links.txt
+potatomagical.egg-info/top_level.txt
