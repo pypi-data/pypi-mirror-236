@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pdp1
+Version: 1.0.20100.44000.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: Jupyter :: JupyterLab :: 4
+Classifier: Framework :: Django :: 4
+Classifier: Framework :: Django :: 4.2
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: License :: OSI Approved :: CEA CNRS Inria Logiciel Libre License, version 2.1 (CeCILL-2.1)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Mime Renderers
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8
+Classifier: Operating System :: Microsoft :: Windows :: Windows 8.1
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: Microsoft :: Windows :: Windows 11
+Classifier: Operating System :: POSIX
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Typing :: Typed
+Requires-Python: >=3.9, <=3.13
+Requires-Dist: ttkbootstrap!=1.10.0,<1.15,>=1.9.0
+Requires-Dist: pdf2docx!=0.5.3,<1.0
+Requires-Dist: docx2pdf!=0.1.2,!=0.1.6,!=0.1.7,<1,>=0.1
+Requires-Dist: PyMuPDF!=1.23.2,<1.30,>=1.23.1
+Requires-Dist: Pillow!=9.5.0,<11,>=9
+Requires-Dist: wheel!=0.41.1,<1,>=0.40.1
+
+# 请注意
+
+1.0.1版本支持Python 3.12，但是PyMuPDF依赖库仍然不支持，
+请使用3.12的谨慎安装。
