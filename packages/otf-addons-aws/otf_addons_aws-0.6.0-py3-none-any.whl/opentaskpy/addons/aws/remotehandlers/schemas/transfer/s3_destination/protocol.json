@@ -1,0 +1,25 @@
+{
+  "$id": "http://localhost/transfer/s3_destination/protocol.json",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "enum": ["opentaskpy.addons.aws.remotehandlers.s3.S3Transfer"]
+    },
+    "access_key_id": {
+      "type": "string"
+    },
+    "secret_access_key": {
+      "type": "string"
+    },
+    "region_name": {
+      "type": "string"
+    },
+    "bucket_owner_full_control": {
+      "type": "boolean"
+    }
+  },
+  "required": ["name"],
+  "additionalProperties": false
+}
