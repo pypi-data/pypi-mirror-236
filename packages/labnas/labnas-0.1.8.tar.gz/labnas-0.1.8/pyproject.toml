@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "labnas"
+version = "0.1.8"
+description = ""
+authors = ["Mathis <mathis.bassler@protonmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pysftp = "^0.2.9"
+tqdm = "^4.64.1"
+pandas = "^2.0.1"
+tifffile = "^2023.2.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
