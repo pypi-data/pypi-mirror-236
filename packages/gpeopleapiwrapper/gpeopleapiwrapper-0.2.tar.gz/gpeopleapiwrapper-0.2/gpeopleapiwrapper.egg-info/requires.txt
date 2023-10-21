@@ -1,0 +1,11 @@
+google-api-python-client>=2.84.0
+google_auth_oauthlib>=0.1.0
+ratelimit>=2.2.1
+
+[publish]
+build>=0.10.0
+twine>=4.0.2
+
+[test]
+coverage>=7.2.3
+pylama>=8.4.0
