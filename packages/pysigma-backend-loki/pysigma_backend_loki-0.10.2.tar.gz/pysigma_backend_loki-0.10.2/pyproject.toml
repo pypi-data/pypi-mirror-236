@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "pySigma-backend-loki"
+version = "0.10.2"
+description = "pySigma Loki backend"
+readme = "README.md"
+authors = [
+    "Nick Moore <nicholas.moore@grafana.com>",
+    "Mostafa Moradian <mostafa.moradian@grafana.com>",
+]
+license = "AGPL-3.0-only"
+repository = "https://github.com/grafana/pySigma-backend-loki"
+packages = [{ include = "sigma" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pysigma = "^0.10.5"
+pysigma-pipeline-sysmon = "^1.0.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+coverage = "^7.3.0"
+flake8 = "^5.0.4"
+mypy = "^1.5.1"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-mypy = "^0.10.3"
+types-pyyaml = "6.0.12.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
