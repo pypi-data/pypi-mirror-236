@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: pyfactorial
+Version: 0.0.1
+Summary: A Python package for calculating factorials
+Project-URL: Homepage, https://github.com/Rakshanda26/pyfactorial
+Project-URL: Bug Tracker, https://github.com/Rakshanda26/pyfactorial/issues
+Author-email: Rakshanda Mahajan <rakshandamm123@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+
+# PyFactorial
+
+This is a simple Python package for calculating factorials.
+
+## Installation
+
+You can install PyFactorial using `pip`:
+
+```bash
+pip install pyfactorial
+```
+
+## Usage
+
+To use the `factorial` function in your Python code, first import it:
+
+```python
+from pyfactorial.module import factorial
+```
+
+Then, you can calculate the factorial of a non-negative integer:
+
+
+```python
+result = factorial(5)
+print(f"The factorial of 5 is {result}")
+```
