@@ -1,0 +1,43 @@
+[project]
+name = "xxl-admin-sh"
+description = "A shell utility for XXL-Admin"
+dynamic = []
+authors = [
+    { name = "tanglh", email = "tlhk2@163.com" },
+]
+dependencies = [
+    "httpx>=0.25.0",
+    "typer>=0.9.0",
+    "pydantic>=2.4.2",
+    "prompt-toolkit>=3.0.39",
+    "rich>=13.6.0",
+    "arrow>=1.3.0",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+version = "0.0.5"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+xxl = "xxl_admin.xxl:shell.start"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+]
+dev = []
+
+[tool.pdm.version]
+source = "file"
+path = "src/xxl_admin/__init__.py"
+
+[tool.pdm.scripts.xxl]
+call = "xxl_admin.xxl:shell.start"
