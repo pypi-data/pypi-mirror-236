@@ -1,0 +1,59 @@
+[tool.poetry]
+name = "dwh-oppfolging"
+version = "0.0.72"
+description = "Oppfolging python package for DWH ETL"
+authors = ["Team Oppfolging"]
+packages = [{include = "dwh_oppfolging"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+requests = "2.31.0"
+pendulum = "2.1.2"
+ijson = "3.2.3"
+oracledb = "1.4.1"
+dbt-oracle = "1.6.0"
+google-cloud-secret-manager = "2.16.3"
+confluent-kafka = "2.2.0"
+fastavro = "1.8.3"
+
+[tool.poetry.group.dev.dependencies]
+black = "23.9.1"
+mypy = "1.5.1"
+pylint = "2.17.5"
+pytest = "7.4.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.sqlfluff.core]
+dialect = "oracle"
+
+[tool.sqlfluff.indentation]
+indented_joins = "True"
+indented_ctes = "True"
+
+[tool.sqlfluff.rules]
+comma_style = "leading"
+tab_space_size = 4
+capitalisation_policy = "lower"
+operator_new_lines = "after"
+aliasing = "explicit"
+
+[tool.pytest.ini_options]
+addopts = "--doctest-modules --ignore=examples"
+
+[tool.mypy]
+files = "dwh_oppfolging"
+
+[[tool.mypy.overrides]]
+module = "confluent_kafka.*"
+ignore_missing_imports = true
+
+[tool.pylint.messages_control]
+disable = [
+    "logging-fstring-interpolation",
+]
+max-line-length = 120
+
