@@ -1,0 +1,2 @@
+[console_scripts]
+cceyes = cceyes.main:app
