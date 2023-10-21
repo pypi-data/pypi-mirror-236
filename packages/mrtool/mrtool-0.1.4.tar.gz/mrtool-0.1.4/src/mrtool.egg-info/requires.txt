@@ -1,0 +1,15 @@
+numpy
+pandas
+scipy
+xspline<0.1.0
+xarray
+limetr<0.1.0
+
+[dev]
+pytest
+pytest-mock
+
+[doc]
+sphinx
+sphinx-autodoc-typehints
+furo
