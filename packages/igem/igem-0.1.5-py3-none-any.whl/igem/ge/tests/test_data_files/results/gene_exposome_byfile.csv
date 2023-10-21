@@ -1,0 +1,18 @@
+gene_id,gene_desc,exp_grp,exp_cat,exp_id,exp_desc,qtd_links,sources,connector
+gene:1,alpha-1-b glycoprotein,environment,chemical,chem:c000591834,"n-(3-chloro-4-fluorophenyl)-6-(2-(5, 8-dioxa-11-azadispiro(2.0.4.3)undec-11-yl)ethoxy)-7-methoxy-4-quinazolinamine",1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,chemical,chem:c000591836,1-((fluoro(methyl)phosphoryl)oxy)-3-isopropoxypropan-2-yl oleate,1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,chemical,chem:c000591837,prolyl-seryl-norvalyl-glycyl-aspartyl-tryptophan,1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,chemical,chem:c000591838,"2,3',4,5',6-pentabromodiphenyl ether",1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,chemical,chem:c000591839,5-nitrowillardiine,1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,chemical,chem:c000591842,cbp-93872,2,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,chemical,chem:c000591843,litronesib,2,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,chemical,chem:c000591844,hmpl-013,1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,disease,dise:c567356,"porokeratosis, disseminated superficial actinic, 3",2,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,disease,dise:c567357,birk-barel mental retardation dysmorphism syndrome,1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,disease,dise:c567358,joubert syndrome 8,1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,disease,dise:c567359,"microtia, hearing impairment, and cleft palate",1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,disease,dise:c567360,"progeroid syndrome, congenital, petty type",1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,disease,dise:c567361,inflammatory bowel disease 20,1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,disease,dise:c567362,"nephrolithiasis-osteoporosis, hypophosphatemic, 2",1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,disease,dise:c567363,"nephrolithiasis-osteoporosis, hypophosphatemic, 1",1,1,ctdcgint
+gene:1,alpha-1-b glycoprotein,environment,disease,dise:c567364,joubert syndrome 9,1,1,ctdcgint
