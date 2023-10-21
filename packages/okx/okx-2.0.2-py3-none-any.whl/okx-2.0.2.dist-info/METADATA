@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: okx
+Version: 2.0.2
+Summary: Python OKX API Interface
+Home-page: https://github.com/pyted/okx
+Author: pyted
+Author-email: pyted@outlook.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3
+Requires-Dist: requests
+Requires-Dist: paux
+
+
+## OKX 2.0.2
+
+- 更新日期：2023-10-21
+- 同步官方文档全部Rest接口
+- 添加代理IP与代理服务器转发功能
+- 部分模块名称有所改动
+- 使用文档近期更新
