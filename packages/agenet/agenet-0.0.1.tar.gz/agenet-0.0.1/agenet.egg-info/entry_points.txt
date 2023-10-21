@@ -1,0 +1,3 @@
+[console_scripts]
+ageplot = agenet.plot:main
+ageprint = agenet.printage:main

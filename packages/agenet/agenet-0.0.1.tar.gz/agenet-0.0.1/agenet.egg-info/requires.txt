@@ -1,0 +1,15 @@
+numpy
+pandas
+tabulate
+matplotlib
+scipy
+
+[dev]
+pdoc
+pytest
+pytest-cov
+pytest-console-scripts
+coverage
+codecov
+pre-commit
+pytest-mypy
