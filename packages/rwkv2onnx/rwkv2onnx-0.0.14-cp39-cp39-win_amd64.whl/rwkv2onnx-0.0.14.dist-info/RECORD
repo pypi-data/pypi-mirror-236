@@ -1,0 +1,10 @@
+rwkv2onnx_python.cp39-win_amd64.pyd,sha256=_VUafxg5R1r6imYFI5AEpu6_7JJQdQv_1r1Oy1jTcUw,2973696
+rwkv2onnx/.gitignore,sha256=DSTeJ94mWJtB_EM8rrZmmj7H0rejnL7majUFbMF3EzU,33
+rwkv2onnx/__init__.py,sha256=zoZHUTSeURaZb0J93Gskqnfd82KoKOh7DP3AU-xqofQ,1944
+rwkv2onnx/__main__.py,sha256=b0mVYinmznbSzOP_dMsVUOnRF2tnK0LPEKr3htJU0KI,64
+rwkv2onnx/convert_to_fr.py,sha256=gw6vpEeUUaUb7HeT7BJ8xWJJnqr6Txd339_HUmTITF0,1714
+rwkv2onnx-0.0.14.dist-info/METADATA,sha256=JIKNAPt5HaWJJd86yWT1bvAXq5FusrYdhS5cgOzTh3o,382
+rwkv2onnx-0.0.14.dist-info/WHEEL,sha256=2xSj8c4s_gFbWpcImYQptdXS3JLuzC2uK5Om8I_SEKg,100
+rwkv2onnx-0.0.14.dist-info/entry_points.txt,sha256=hymDXXIB-jiTOjYavss4GAMaDtaFUsFILUVAma2Zlwc,45
+rwkv2onnx-0.0.14.dist-info/top_level.txt,sha256=Sn4ybPahzO7yMBKmFWhrMBxBxDHsNxOVr7nX6czjw_A,27
+rwkv2onnx-0.0.14.dist-info/RECORD,,
