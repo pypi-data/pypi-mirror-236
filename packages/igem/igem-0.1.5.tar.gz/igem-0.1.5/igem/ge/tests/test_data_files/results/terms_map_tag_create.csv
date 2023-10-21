@@ -1,0 +1,101 @@
+datasource,connector,term_group_1,term_category_1,term_1,word_1,description_1,term_group_2,term_category_2,term_2,word_2,description_2,qtd_links
+ctd,ctdcgint,environment,chemical,chem:c000591843,,litronesib,environment,chemical,chem:c000591844,,hmpl-013,1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,chemical,chem:c000591834,,"n-(3-chloro-4-fluorophenyl)-6-(2-(5, 8-dioxa-11-azadispiro(2.0.4.3)undec-11-yl)ethoxy)-7-methoxy-4-quinazolinamine",1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,chemical,chem:c000591836,,1-((fluoro(methyl)phosphoryl)oxy)-3-isopropoxypropan-2-yl oleate,1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,chemical,chem:c000591837,,prolyl-seryl-norvalyl-glycyl-aspartyl-tryptophan,4
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,chemical,chem:c000591838,,"2,3',4,5',6-pentabromodiphenyl ether",1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,chemical,chem:c000591839,,5-nitrowillardiine,1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,chemical,chem:c000591842,,cbp-93872,1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,chemical,chem:c000591843,,litronesib,1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,chemical,chem:c000591844,,hmpl-013,1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,chemical,chem:c000591834,,"n-(3-chloro-4-fluorophenyl)-6-(2-(5, 8-dioxa-11-azadispiro(2.0.4.3)undec-11-yl)ethoxy)-7-methoxy-4-quinazolinamine",2
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,chemical,chem:c000591836,,1-((fluoro(methyl)phosphoryl)oxy)-3-isopropoxypropan-2-yl oleate,4
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,chemical,chem:c000591837,,prolyl-seryl-norvalyl-glycyl-aspartyl-tryptophan,1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,chemical,chem:c000591838,,"2,3',4,5',6-pentabromodiphenyl ether",1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,chemical,chem:c000591839,,5-nitrowillardiine,1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,chemical,chem:c000591842,,cbp-93872,1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,chemical,chem:c000591843,,litronesib,1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,chemical,chem:c000591844,,hmpl-013,1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,chemical,chem:c000591834,,"n-(3-chloro-4-fluorophenyl)-6-(2-(5, 8-dioxa-11-azadispiro(2.0.4.3)undec-11-yl)ethoxy)-7-methoxy-4-quinazolinamine",1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,chemical,chem:c000591836,,1-((fluoro(methyl)phosphoryl)oxy)-3-isopropoxypropan-2-yl oleate,1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,chemical,chem:c000591837,,prolyl-seryl-norvalyl-glycyl-aspartyl-tryptophan,1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,chemical,chem:c000591838,,"2,3',4,5',6-pentabromodiphenyl ether",1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,chemical,chem:c000591839,,5-nitrowillardiine,1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,chemical,chem:c000591842,,cbp-93872,1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,chemical,chem:c000591843,,litronesib,1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,chemical,chem:c000591844,,hmpl-013,1
+ctd,ctdcgint,environment,disease,dise:c567364,,joubert syndrome 9,environment,chemical,chem:c000591837,,prolyl-seryl-norvalyl-glycyl-aspartyl-tryptophan,1
+ctd,ctdcgint,environment,disease,dise:c567364,,joubert syndrome 9,environment,chemical,chem:c000591838,,"2,3',4,5',6-pentabromodiphenyl ether",1
+ctd,ctdcgint,environment,disease,dise:c567364,,joubert syndrome 9,environment,chemical,chem:c000591839,,5-nitrowillardiine,1
+ctd,ctdcgint,environment,disease,dise:c567364,,joubert syndrome 9,environment,chemical,chem:c000591842,,cbp-93872,1
+ctd,ctdcgint,environment,disease,dise:c567364,,joubert syndrome 9,environment,chemical,chem:c000591843,,litronesib,1
+ctd,ctdcgint,environment,disease,dise:c567364,,joubert syndrome 9,environment,chemical,chem:c000591844,,hmpl-013,1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,disease,dise:c567357,,birk-barel mental retardation dysmorphism syndrome,1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,disease,dise:c567358,,joubert syndrome 8,1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,disease,dise:c567360,,"progeroid syndrome, congenital, petty type",1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,disease,dise:c567361,,inflammatory bowel disease 20,1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,disease,dise:c567362,,"nephrolithiasis-osteoporosis, hypophosphatemic, 2",1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,disease,dise:c567363,,"nephrolithiasis-osteoporosis, hypophosphatemic, 1",1
+ctd,ctdcgint,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",environment,disease,dise:c567364,,joubert syndrome 9,1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,disease,dise:c567361,,inflammatory bowel disease 20,1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,disease,dise:c567362,,"nephrolithiasis-osteoporosis, hypophosphatemic, 2",1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,disease,dise:c567363,,"nephrolithiasis-osteoporosis, hypophosphatemic, 1",1
+ctd,ctdcgint,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",environment,disease,dise:c567364,,joubert syndrome 9,1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,disease,dise:c567362,,"nephrolithiasis-osteoporosis, hypophosphatemic, 2",1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,disease,dise:c567363,,"nephrolithiasis-osteoporosis, hypophosphatemic, 1",1
+ctd,ctdcgint,environment,disease,dise:c567361,,inflammatory bowel disease 20,environment,disease,dise:c567364,,joubert syndrome 9,1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,chemical,chem:c000591834,,"n-(3-chloro-4-fluorophenyl)-6-(2-(5, 8-dioxa-11-azadispiro(2.0.4.3)undec-11-yl)ethoxy)-7-methoxy-4-quinazolinamine",1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,chemical,chem:c000591836,,1-((fluoro(methyl)phosphoryl)oxy)-3-isopropoxypropan-2-yl oleate,1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,chemical,chem:c000591837,,prolyl-seryl-norvalyl-glycyl-aspartyl-tryptophan,1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,chemical,chem:c000591838,,"2,3',4,5',6-pentabromodiphenyl ether",1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,chemical,chem:c000591839,,5-nitrowillardiine,1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,chemical,chem:c000591842,,cbp-93872,2
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,chemical,chem:c000591843,,litronesib,2
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,chemical,chem:c000591844,,hmpl-013,1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,chemical,chem:c000591834,,"n-(3-chloro-4-fluorophenyl)-6-(2-(5, 8-dioxa-11-azadispiro(2.0.4.3)undec-11-yl)ethoxy)-7-methoxy-4-quinazolinamine",1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,chemical,chem:c000591836,,1-((fluoro(methyl)phosphoryl)oxy)-3-isopropoxypropan-2-yl oleate,1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,chemical,chem:c000591837,,prolyl-seryl-norvalyl-glycyl-aspartyl-tryptophan,1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,chemical,chem:c000591838,,"2,3',4,5',6-pentabromodiphenyl ether",3
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,chemical,chem:c000591839,,5-nitrowillardiine,3
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,chemical,chem:c000591842,,cbp-93872,1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,chemical,chem:c000591843,,litronesib,1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,chemical,chem:c000591844,,hmpl-013,2
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,chemical,chem:c000591834,,"n-(3-chloro-4-fluorophenyl)-6-(2-(5, 8-dioxa-11-azadispiro(2.0.4.3)undec-11-yl)ethoxy)-7-methoxy-4-quinazolinamine",2
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,chemical,chem:c000591836,,1-((fluoro(methyl)phosphoryl)oxy)-3-isopropoxypropan-2-yl oleate,2
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,chemical,chem:c000591837,,prolyl-seryl-norvalyl-glycyl-aspartyl-tryptophan,1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,chemical,chem:c000591838,,"2,3',4,5',6-pentabromodiphenyl ether",1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,chemical,chem:c000591839,,5-nitrowillardiine,1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,chemical,chem:c000591842,,cbp-93872,1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,chemical,chem:c000591843,,litronesib,1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,chemical,chem:c000591844,,hmpl-013,1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",2
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,disease,dise:c567357,,birk-barel mental retardation dysmorphism syndrome,1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,disease,dise:c567358,,joubert syndrome 8,1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,disease,dise:c567360,,"progeroid syndrome, congenital, petty type",1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,disease,dise:c567361,,inflammatory bowel disease 20,1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,disease,dise:c567362,,"nephrolithiasis-osteoporosis, hypophosphatemic, 2",1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,disease,dise:c567363,,"nephrolithiasis-osteoporosis, hypophosphatemic, 1",1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,environment,disease,dise:c567364,,joubert syndrome 9,1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,disease,dise:c567357,,birk-barel mental retardation dysmorphism syndrome,1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,disease,dise:c567358,,joubert syndrome 8,2
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,disease,dise:c567360,,"progeroid syndrome, congenital, petty type",1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,disease,dise:c567361,,inflammatory bowel disease 20,1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,disease,dise:c567362,,"nephrolithiasis-osteoporosis, hypophosphatemic, 2",1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,disease,dise:c567363,,"nephrolithiasis-osteoporosis, hypophosphatemic, 1",1
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,environment,disease,dise:c567364,,joubert syndrome 9,1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,disease,dise:c567356,,"porokeratosis, disseminated superficial actinic, 3",3
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,disease,dise:c567357,,birk-barel mental retardation dysmorphism syndrome,1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,disease,dise:c567358,,joubert syndrome 8,1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,disease,dise:c567359,,"microtia, hearing impairment, and cleft palate",1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,disease,dise:c567360,,"progeroid syndrome, congenital, petty type",1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,disease,dise:c567361,,inflammatory bowel disease 20,1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,disease,dise:c567362,,"nephrolithiasis-osteoporosis, hypophosphatemic, 2",1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,disease,dise:c567363,,"nephrolithiasis-osteoporosis, hypophosphatemic, 1",1
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,environment,disease,dise:c567364,,joubert syndrome 9,1
+ctd,ctdcgint,genomic,gene,gene:1,,alpha-1-b glycoprotein,genomic,gene,gene:10,,n-acetyltransferase 2,2
+ctd,ctdcgint,genomic,gene,gene:10,,n-acetyltransferase 2,genomic,gene,gene:100,,adenosine deaminase,4
+ctd,ctdcgint,genomic,gene,gene:100,,adenosine deaminase,genomic,gene,gene:1000,,cadherin 2,3

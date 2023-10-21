@@ -1,0 +1,5 @@
+row,string,word,term_id,term,term_descr,qtd_terms,qtd_loops,time
+0,alpha-1-b glycoprotein,,,,,0,0,0 days 00:00:00.002081
+1,5-nitrowillardiine,,,,,0,0,0 days 00:00:00.001742
+2,joubert syndrome 9,joubert syndrome 9,13,dise:c567364,joubert syndrome 9,1,0,0 days 00:00:00.002010
+3,test,error,error,error,error,error,error,0 days 00:00:00.001315

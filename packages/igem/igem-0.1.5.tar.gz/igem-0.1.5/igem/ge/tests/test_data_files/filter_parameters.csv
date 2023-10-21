@@ -1,0 +1,14 @@
+index,parameter,value
+filter,datasource,*
+filter,connector,*
+filter,group,*
+filter,category,*
+filter,term,*
+filter,word,*
+output,datasource,*
+output,connector,*
+output,group,*
+output,category,*
+output,term,*
+output,word,*
+path,path,/../output_result_file.csv

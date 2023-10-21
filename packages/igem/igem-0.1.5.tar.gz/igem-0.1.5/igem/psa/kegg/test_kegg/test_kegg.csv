@@ -1,0 +1,4 @@
+,GENE,COMPOUND
+0,gene:222 chem:c0001 gene:22,chem:c2222 chem:c0001
+1,chem:c0001,chem:c2222 chem:c0001
+2,NWT,chem:c0001
