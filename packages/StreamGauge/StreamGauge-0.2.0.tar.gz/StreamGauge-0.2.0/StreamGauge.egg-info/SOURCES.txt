@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+StreamGauge.egg-info/PKG-INFO
+StreamGauge.egg-info/SOURCES.txt
+StreamGauge.egg-info/dependency_links.txt
+StreamGauge.egg-info/requires.txt
+StreamGauge.egg-info/top_level.txt
+StreamGauge/frontend/build/bootstrap.min.css
+streamGauge/__init__.py

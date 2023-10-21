@@ -1,0 +1,10 @@
+streamlit>=0.63
+plotly
+pathlib
+os
+
+[devel]
+wheel
+pytest
+playwright
+requests
