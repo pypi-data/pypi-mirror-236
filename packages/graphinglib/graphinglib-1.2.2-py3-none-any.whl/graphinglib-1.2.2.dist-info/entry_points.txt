@@ -1,0 +1,3 @@
+[console_scripts]
+graphinglib=graphinglib.cli:main_cli
+

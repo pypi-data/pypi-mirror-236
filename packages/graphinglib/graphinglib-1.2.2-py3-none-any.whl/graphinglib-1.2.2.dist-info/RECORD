@@ -1,0 +1,17 @@
+graphinglib/__init__.py,sha256=Xzhxt_twOIlW6VrHZB-N-jSFBLawE2kyWBMPrPhVm8Q,1179
+graphinglib/cli.py,sha256=OC4vHwBZmKg5kEavve_NTysv-vS6H3Sq_GXaqYZWjL0,10180
+graphinglib/data_plotting_1d.py,sha256=9Z8DEEDsdEYxX1DzcO6BXNTVF4i0RDHQuhklT_NraEY,49765
+graphinglib/data_plotting_2d.py,sha256=Gu5omartHSjHg6K2KUgaLtz0DZIhTZU2fnn4onieum0,21629
+graphinglib/default_styles/horrible.yml,sha256=NFCqB7i5ug9LjVX4QQN2fEM8MNB-dwRIgP8MWBhjFjE,2885
+graphinglib/default_styles/plain.yml,sha256=8dZeCL8lJOZaiYCOErPxqG5VLW4GBpGADv5h3dW0xZI,2898
+graphinglib/figure.py,sha256=R0Q04wsS-Nwqsr0GhyAETvDj9OmU5RpRsea7U3o-V0w,16482
+graphinglib/file_manager.py,sha256=ZImvRLvwfnaeAbddgDlsO59hpJtHY63T3JGkdPARrVk,4010
+graphinglib/fits.py,sha256=Nf9Rgr0eMILaE2yeRaVyqFPJ1T4bbdOobys5vxS2mWs,51301
+graphinglib/graph_elements.py,sha256=RBwQqSsAeLOGDqxellq-oncPHayMa-t6S5V2GiFFUYM,22847
+graphinglib/legend_artists.py,sha256=0KhWQFIXwLWvOqA3-VRqZVLXtt912xgw4pVCa7IADS0,4371
+graphinglib/multifigure.py,sha256=vKEUsnffrVVJsN7H7O-qQoWz4IpLyw3hSBSNFwqXTMU,33741
+graphinglib-1.2.2.dist-info/LICENSE,sha256=WT-rdkpiPR4QxnJ0fqrEhOH_A4RLBVCQPllfz2Fnb-Y,1068
+graphinglib-1.2.2.dist-info/METADATA,sha256=G6suut0MZFAgC2Agc6oLRVrzmQA4yXlmJit1B7BLT4U,4482
+graphinglib-1.2.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+graphinglib-1.2.2.dist-info/entry_points.txt,sha256=I7c12t8-ir-d6wKoplBmiRGROcFpuevJfgvpwNKOTFQ,56
+graphinglib-1.2.2.dist-info/RECORD,,
