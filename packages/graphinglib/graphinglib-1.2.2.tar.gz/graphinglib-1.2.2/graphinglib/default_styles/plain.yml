@@ -1,0 +1,167 @@
+Curve:
+  color: 
+  line_width: 2
+  line_style: "-"
+  cap_width: 3
+  errorbars_color: "same as curve"
+  errorbars_line_width: "same as curve"
+  cap_thickness: "same as curve"
+  fill_under_color: "same as curve"
+
+Scatter:
+  face_color: 
+  edge_color: "none"
+  marker_size: 7
+  marker_style: "o"
+  cap_width: 3
+  errorbars_color: "same as scatter"
+  errorbars_line_width: 1
+  cap_thickness: 1
+
+Histogram:
+  number_of_bins: 30
+  face_color: "#3e82a0"
+  edge_color: "#3e82a0"
+  hist_type: "stepfilled"
+  alpha: 0.3
+  line_width: 2
+  normalize: True
+  show_pdf: 
+  show_params: True
+
+Hlines:
+  colors: "k"
+  line_styles: "-"
+
+Vlines:
+  colors: "k"
+  line_styles: "solid"
+
+Figure:
+  size: [6.4, 4.8]
+  legend_is_boxed: False
+  ticks_are_in: True
+  log_scale_x: False
+  log_scale_y: False
+  show_grid: False
+  grid_line_style: "-"
+  grid_line_width: 0.5
+  grid_color: "grey"
+  grid_alpha: 0.5
+  color_cycle: ["#3e82a0", "#edb73b", "#b9503b", "#8aba4e", "#695178", "#ed893b", "#34a893", "#616161"]
+
+Multifigure:
+  size: [6.4, 4.8]
+  legend_is_boxed: False
+
+Subfigure:
+  legend_is_boxed: False
+  ticks_are_in: True
+  log_scale_x: False
+  log_scale_y: False
+  show_grid: False
+  grid_line_style: "-"
+  grid_line_width: 0.5
+  grid_color: "grey"
+  grid_alpha: 0.5
+  color_cycle: ["#3e82a0", "#edb73b", "#b9503b", "#8aba4e", "#695178", "#ed893b", "#34a893", "#616161"]
+
+Point:
+  color: "k"
+  edge_color: "none"
+  marker_size: 30
+  marker_style: "o"
+  edge_width: 1.5
+
+FitFromPolynomial:
+  color: "k"
+  line_width: 2
+  line_style: "-"
+  res_color: "k"
+  res_line_width: 1
+  res_line_style: "--"
+
+FitFromExponential:
+  color: "k"
+  line_width: 2
+  line_style: "-"
+  res_color: "k"
+  res_line_width: 1
+  res_line_style: "--"
+
+FitFromGaussian:
+  color: "k"
+  line_width: 2
+  line_style: "-"
+  res_color: "k"
+  res_line_width: 1
+  res_line_style: "--"
+
+FitFromSine:
+  color: "k"
+  line_width: 2
+  line_style: "-"
+  res_color: "k"
+  res_line_width: 1
+  res_line_style: "--"
+
+FitFromSquareRoot:
+  color: "k"
+  line_width: 2
+  line_style: "-"
+  res_color: "k"
+  res_line_width: 1
+  res_line_style: "--"
+
+FitFromLog:
+  res_color: "k"
+  res_line_width: 1
+  res_line_style: "--"
+  color: "k"
+  line_width: 2
+  line_style: "-"
+
+FitFromFunction:
+  res_color: "k"
+  res_line_width: 1
+  res_line_style: "--"
+  color: "k"
+  line_width: 2
+  line_style: "-"
+
+Heatmap:
+  aspect_ratio: "equal"
+  origin_position: "upper"
+  color_map: "coolwarm"
+
+Contour:
+  number_of_levels: 10
+  color_map: "coolwarm"
+  show_color_bar: True
+  filled: True
+  alpha: 1.0
+
+VectorField:
+  arrow_width: 0.005
+  arrow_length_multiplier: 
+  arrow_head_width: 3
+  arrow_head_length: 5
+  arrow_head_axis_length: 4.5
+  color: "k"
+  angle_in_data_coords: False
+
+Text:
+  color: "k"
+  h_align: "center"
+  v_align: "baseline"
+
+Table:
+  cell_align: "right"
+  row_align: "left"
+  col_align: "center"
+
+Stream:
+  line_width: 1
+  color: 
+  color_map: 
+  arrow_size: 1
