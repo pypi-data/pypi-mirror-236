@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: PhysioKit2
+Version: 1.7.0
+Summary: PhysioKit is a novel physiological computing toolkit which is open-source, accessible and affordable. HCI hobbyists and practitioners can easily access physiological sensing channels that help monitor our physiological signatures and vital signs including heart rate, heart rate variability, breathing rate, electrodermal activities. The toolkit works with a low-cost micro-controller such as Arduino. Currently, it supports acquiring EDA, Resp and PPG using any low-cost Arduino board.
+Home-page: https://github.com/PhysiologicAILab/PhysioKit
+Author: ['Jitesh Joshi', 'Katherine wang', 'Youngjun Cho']
+Author-email: youngjun.cho@ucl.ac.uk
+License: MIT
+License-File: LICENSE
+Requires-Dist: matplotlib
+Requires-Dist: neurokit2
+Requires-Dist: numpy
+Requires-Dist: opencv_contrib_python
+Requires-Dist: pyserial
+Requires-Dist: PySide6
+Requires-Dist: PySide6_Addons
+Requires-Dist: PySide6_Essentials
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: setuptools
