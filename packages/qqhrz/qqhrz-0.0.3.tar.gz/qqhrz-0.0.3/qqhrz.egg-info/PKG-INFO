@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: qqhrz
+Version: 0.0.3
+Summary: 动手学深度学习pytorch版，代码实现
+Author: zkj
+Author-email: zhkaij@foxmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
