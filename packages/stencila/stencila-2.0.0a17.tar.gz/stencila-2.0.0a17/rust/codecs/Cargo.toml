@@ -1,0 +1,25 @@
+[package]
+name = "codecs"
+version = "0.0.0"
+edition = "2021"
+
+[features]
+proptest-min = ["codec/proptest-min"]
+proptest-low = ["codec/proptest-low"]
+proptest-high = ["codec/proptest-high"]
+proptest-max = ["codec/proptest-max"]
+
+[dependencies]
+codec = { path = "../codec" }
+codec-debug = { path = "../codec-debug" }
+codec-html = { path = "../codec-html" }
+codec-jats = { path = "../codec-jats" }
+codec-json = { path = "../codec-json" }
+codec-json5 = { path = "../codec-json5" }
+codec-markdown = { path = "../codec-markdown" }
+codec-text = { path = "../codec-text" }
+codec-yaml = { path = "../codec-yaml" }
+node-strip = { path = "../node-strip" }
+
+[dev-dependencies]
+common-dev = { path = "../common-dev" }

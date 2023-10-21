@@ -1,0 +1,18 @@
+[package]
+name = "codec"
+version = "0.0.0"
+edition = "2021"
+
+[features]
+proptest-min = ["schema/proptest-min"]
+proptest-low = ["schema/proptest-low"]
+proptest-high = ["schema/proptest-high"]
+proptest-max = ["schema/proptest-max"]
+
+[dependencies]
+codec-losses = { path = "../codec-losses" }
+node-strip = { path = "../node-strip" }
+common = { path = "../common" }
+format = { path = "../format" }
+schema = { path = "../schema" }
+status = { path = "../status" }

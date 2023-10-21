@@ -1,0 +1,10 @@
+[workspace]
+resolver = "2"
+members = ["rust/*", "python"]
+
+# Profile that help reduce the binary size based on https://github.com/johnthagen/min-sized-rust
+[profile.release]
+strip = true
+lto = true
+codegen-units = 1
+panic = "abort"
