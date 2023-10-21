@@ -1,0 +1,4 @@
+click
+google-cloud-secret-manager
+google-auth
+flytekit>=1.10
