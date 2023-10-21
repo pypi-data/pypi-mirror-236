@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sparkstrader
+Version: 0.0.1
+Summary: python api for sparkstrader.com
+Home-page: https://github.com/yacper/sparks_api_py
+Author: yacper
+Author-email: yacper@gmail.com
+License: MIT
+Keywords: stock,option,futures,fund,bond,index,air,finance,spider,quant,quantitative,investment,trading,algotrading,data
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4 >=4.9.1
+Requires-Dist: lxml >=4.2.1
+Requires-Dist: pandas >=0.25
+Requires-Dist: requests >=2.22.0
+Requires-Dist: urllib3 >=1.25.8
+Requires-Dist: pypinyin >=0.35.0
+Requires-Dist: html5lib >=1.0.1
+Requires-Dist: tqdm >=4.43.0
+Requires-Dist: xlrd >=1.2.0
+Requires-Dist: openpyxl >=3.0.3
+Requires-Dist: jsonpath >=0.82
+Requires-Dist: tabulate >=0.8.6
+Requires-Dist: decorator >=4.4.2
+Requires-Dist: py-mini-racer >=0.6.0
+
+# sparks
+ python api for sparkstrader.com 
