@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/urluckynum/__init__.py
+src/urluckynum/main.py
+src/urluckynum.egg-info/PKG-INFO
+src/urluckynum.egg-info/SOURCES.txt
+src/urluckynum.egg-info/dependency_links.txt
+src/urluckynum.egg-info/requires.txt
+src/urluckynum.egg-info/top_level.txt
+tests/test_module.py
