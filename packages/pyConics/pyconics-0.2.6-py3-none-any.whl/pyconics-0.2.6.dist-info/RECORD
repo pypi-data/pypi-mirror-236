@@ -1,0 +1,13 @@
+pyConics/__init__.py,sha256=INCFmsHVMzFjLCATdzVHSrdyq9QJiT2zopeUG_ixdx4,556
+pyConics/agobj.py,sha256=ByGBRSqqGreHlCFCr8LpfVvXMD3VV35DehsW-AaLzPs,2606
+pyConics/constants.py,sha256=DBvLKygWd5TC7GEh5j-0Wc3ufsNPGmVUmvxDdxKgBBk,2199
+pyConics/errors.py,sha256=wM-Qagt_I0trIPWbY3Lq8QVFWVLKGX2O3k6iF8hom7M,3087
+pyConics/functions.py,sha256=cyz-M2agPR7i7QU4QjLbq5xUBGO5De2eGwL1CVkWLEo,13170
+pyConics/line.py,sha256=zcYt56hdg1UlnXW1q0TCMgIidO30clwt_xjutHB4XLs,10303
+pyConics/origin.py,sha256=24X6C4ton--Wm2FMXTKyW1v4ddWTw-0-wEpA22apQY4,1567
+pyConics/point.py,sha256=Vasa7siBf0jU5t8Iejxk0XyDfU3mTCp-lNR_ykjkUPA,8185
+pyConics/tolerance.py,sha256=AJsTcRGCJ1L6nF-74EIWZ2XP2mXZNmDoPjp0E7MVQ8Q,3009
+pyconics-0.2.6.dist-info/LICENSE,sha256=dycu-iqkCDhog9XTxGZqNXaQjC-YwGyQrIUJATR5Ses,35774
+pyconics-0.2.6.dist-info/METADATA,sha256=GuI7zvYSGWlSk1Mc9QBZ6oR8324OXtFp0ossO4kAZyE,11630
+pyconics-0.2.6.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pyconics-0.2.6.dist-info/RECORD,,
