@@ -1,0 +1,11 @@
+__init__
+basics
+clipboard
+colour
+constants
+docs
+file
+generator
+sorting
+tests
+try
