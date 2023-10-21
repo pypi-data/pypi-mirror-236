@@ -1,0 +1,242 @@
+artist,title,palette,hash,clusters,clustering,url,filename
+Ghibli,"""Castle in the Sky 01""","#212721,#597466,#ADA682",E5BF721F32974C24ACA7,3,AgglomerativeClustering,https://filmartgallery.com/products/castle-in-the-sky,183402.png
+Ghibli,"""Kiki 01""","#331913,#C37250,#853929",0E916DC8CE701A74F88B,3,AgglomerativeClustering,https://filmartgallery.com/products/kikis-delivery-service-1,183401.png
+Ghibli,"""Mononoke 01""","#151414,#564340,#807C7C,#B4ACA9",CC82F0D10542FF5134AF,4,AgglomerativeClustering,https://filmartgallery.com/products/princess-mononoke,183404.png
+Ghibli,"""Mononoke 02""","#251D17,#574433,#70AECD,#FAD9B4,#E7A16A,#B66744",6E115257E6FBE2762B69,6,AgglomerativeClustering,https://filmartgallery.com/products/princess-mononoke-5,183407.png
+Ghibli,"""Nausicaa 01""","#482F23,#8E7160,#77AEC5,#C5A994,#D1CCC6",0FF39131531F172C425F,5,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-3,183400.png
+Ghibli,"""Nausicaa 02""","#574240,#E9B57A,#C27B45,#17769F",83DF3C98C637FC2CD51C,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds-4,183403.png
+Ghibli,"""Nausicaa 03""","#0A0E0F,#1C2835,#BB8673,#93483C",70994FE220B3E3233DF1,4,AgglomerativeClustering,https://filmartgallery.com/products/nausicaa-of-the-valley-of-the-winds,183405.png
+Ghibli,"""The Wind Rises 01""","#CACECC,#3D741D,#2C95C9",0D53EA9229BD5F862B17,3,AgglomerativeClustering,https://filmartgallery.com/products/the-wind-rises?variant=39265259192491,183406.png
+Kandinsky,"""Composition in Red and Blue""","#434869,#EBD6BB,#B96C6B",94516CD6761EFAF232C7,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.208417.html,183426.png
+Kandinsky,"""Improvisation 31 (Sea Battle)""","#49586C,#7BA08E,#C6C6B3,#E1DCCF,#D9A06C,#A74F4F",2B73EFF1635D36F55405,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.56670.html,183425.png
+Kandinsky,"""Landscape with Figures and a Crucifix""","#261F1B,#48433A,#665C4F,#A7896E,#DAC9AF",70DEA1BCE93371B7E7E9,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.90725.html,183427.png
+Kandinsky,"""Small Worlds I""","#2D2723,#475644,#DCCBB4,#CEA95D,#AB6455",27B968AF541205B4FFED,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.52419.html,183428.png
+Kirchner,"""Bern Kunsthalle: März 33: Ernst Ludwig Kirchner: Davos""","#2E484C,#F0E6D9,#B36FA0,#02AD9A",358EC6C1ECDFE97CC7D5,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.152789.html,bern_kunsthalle__marz_33__ernst_ludwig_kirchner__davos_2012.92.139.jpg
+Kirchner,"""Chestnut Trees in Moonlight""","#5E3E34,#675855,#81796B,#A69679",D0A187CFD7608B835017,4,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.152784.html,chestnut_trees_in_moonlight_2012.92.134.png
+Kirchner,"""Cover of the Fourth Yearbook of the Artist Group the Brucke""","#DCD6C8,#E16D5D",8FA77CFABCD01FB36886,2,AgglomerativeClustering, https://www.nga.gov/content/ngaweb/collection/art-object-page.8104.html,cover_of_the_fourth_yearbook_of_the_artist_group_the_brucke_1943.3.5182.jpg
+Kirchner,"""Dance Hall Bellevue [obverse]""","#5D6650,#79B5AE,#BC9E70,#C7662F,#3C78BB",B688315718ED1362B065,5,AgglomerativeClustering, https://www.nga.gov/content/ngaweb/collection/art-object-page.71238.html,dance_hall_bellevue__obverse__1989.60.1.a.jpg
+Kirchner,"""Dancing Couple in the Snow [reverse]""","#344962,#8A5E50,#5B7D87,#B29F9A,#DBB4B1,#C6CCBF",0602F2E686751EE1F150,6,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.163768.html,dancing_couple_in_the_snow__reverse__1989.60.1.b.png
+Kirchner,"""Head Waiter in Café""","#3F333C,#614C3F,#927F74,#C7AE90,#D07843",334BAB818C03352EC89A,5,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.152783.html,head_waiter_in_cafe_2012.92.133.jpg
+Kirchner,"""Nude Women with a Child in the Forest""","#5A6A49,#D5A98C,#E9D3B8,#A39952",6E2A31E87523D7316458,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.154352.html,nude_women_with_a_child_in_the_forest_2012.92.695.jpg
+Kirchner,"""Smoking Peasant""","#58586B,#CAA17C,#AA5B51,#75393E",14ED55A404B4C32953B9,4,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.154350.html,smoking_peasant_2012.92.693.jpg
+Kirchner,"""The Visit - Couple and Newcomer""","#3B5D71,#AA8088,#D2B22A,#CF6534,#AE3821",C67EF337BBD5DD9ECF74,5,AgglomerativeClustering,https://www.nga.gov/content/ngaweb/collection/art-object-page.71239.html,the_visit_-_couple_and_newcomer_1989.60.2.jpg
+Kirchner,"""Woman with a Child and a Cat (Mädchen mit Kind)""","#3C4042,#704837,#7B664C,#AA906C",BC834A3FD36FC493B7DB,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.154346.html,woman_with_a_child_and_a_cat_(madchen_mit_kind)_2012.92.689.jpg
+Matisse,"""Beasts of the Sea""","#4E4253,#F7E2B9,#F8E979,#D96B72,#89C074,#4F70A9",225EC748E3580E7B4E0A,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53815.html,183421.png
+Matisse,"""Large Decoration with Masks""","#8AA7AB,#F1DDC0,#EDA543,#C25F7B,#3B8863,#3C62A8",4DBDC22FDFD3F204999A,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53814.html,183424.png
+Matisse,"""Open Window Collioure""","#28494C,#508E8E,#8EA7A2,#DAA4A6,#D1CAC1,#B26054",EC05CD176152D1C663EA,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.106384.html,183420.png
+Matisse,"""Venus""","#FCE0B6,#3668A4",9459C3F741972D0F729C,2,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53816.html,183422.png
+Miro,"""Composition""","#D0AC6F,#D36857,#A23D44,#6E1E32",4B1FA213903261233990,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.91414.html,183393.png
+Miro,"""Figure and Birds""","#121E1A,#A68164,#B4AFAD,#D2D3D3,#9C000E,#133D98",B68E9FFA9649584327E4,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.53059.html,183379.png
+Miro,"""Flight of the Dragonfly in Front of the Sun""","#E4DFEB,#DA684D,#818DCB,#95A0D9",2E994DAFA7E198C22F15,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.61373.html,183417.png
+Miro,"""La Bague d'Aurore""","#332F2D,#689BB1,#E5D1B6,#E2CD4F,#E84E73",93F0C5E3C36AD7A92DEB,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.142287.html,183398.png
+Miro,"""Untitled [plate IV]""","#24615F,#7D9093,#DCCAB8,#E5BC50,#DE6261",823CA3F1D307AC2AB459,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46996.html,183399.png
+Miro,"""Untitled [plate I]""","#567993,#B89F93,#DAC9B7,#CE4646",802A02231B90DAB49EE9,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46992.html,183395.png
+Miro,"""Untitled [plate LII]""","#4B6989,#A3B0A9,#E5D7C5,#E6B57B,#CB7062",726D3433E9D4705417F6,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.47044.html,183418.png
+Miro,"""Woman at the Mirror""","#2A2829,#3F596F,#E0D2BF,#BAAC74,#B83330,#416C96",D4B9EEE17F7AD2AD85EB,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.136243.html,183381.png
+Monet,"""Argenteuil""","#403924,#666339,#918665,#B7C1B4,#CCCDB8",AD039ECD0A50F93DC3C3,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.52186.html,argenteuil_1970.17.42.jpg
+Monet,"""Banks of the Seine Vétheuil""","#365B53,#7E9992,#9AACA2,#7F9060,#5A764A",B5AEAA9827089204E3F6,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46652.html,banks_of_the_seine_vetheuil_1963.10.177.jpg
+Monet,"""Woman with a Parasol - Madame Monet and Her Son""","#3A5440,#707B52,#7A93A4,#AEBDC7",B2256F0680A32E578354,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.61379.html,woman_with_a_parasol_-_madame_monet_and_her_son_1983.1.29.jpg
+Nolde,"""Herbstlandschaft (Überschwemmung)""","#272624,#3B3932,#6B5E4F,#74766B,#868C7C,#A6744E",00F0E4E97699792B2D0B,6,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/herbstlandschaft-ueberschwemmung,183392.png
+Nolde,"""Lake Lucerne""","#86ABCB,#DCCD97,#E8C232,#0F3A73,#2F63B9",296691ED2708B24E65F9,5,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/lake-lucerne,183387.png
+Nolde,"""Mühle am Wasser""","#1D262F,#2F5F72,#637E86,#999F9C",05AFAF81C40436571182,4,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/muehle-am-wasser,183388.png
+Nolde,"""Party""","#2C1D21,#205566,#797E71,#D9DDCC,#F5BB1B,#E18A1C,#B83E3C,#E3C66F",2EE145015844FA8E1A7C,8,AgglomerativeClustering,https://www.apollo-magazine.com/emil-nolde-colour-life-exhibition-review/,183386.png
+Nolde,"""San Giorgio Maggiore in Venice""","#2E2525,#3F3A3C,#61564B,#877560,#826029",4748356D22B5DE2816CB,5,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/san-giorgio-maggiore-in-venice,183389.png
+Nolde,"""Seascape""","#4F5361,#606877,#828889,#D9CFAD,#877A4D",F601C00893F3A5BA7A9F,5,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/seascape-1,183390.png
+Nolde,"""Zwei Menschen""","#5D3636,#965E60,#CFB2A7",3FA346FF1CB877BC9E92,3,AgglomerativeClustering,https://sammlung.staedelmuseum.de/en/work/zwei-menschen,183391.png
+Picasso,"""Composition""","#52535B,#E3D1BB,#E1B96B,#CC564D",7B370A19528277D36243,4,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.48530.html,183412.png
+Picasso,"""Harlequin Musician""","#322D27,#314D64,#6B8264,#BBAFA6,#F4E9D8,#E0562C",B80C90E6120938E04DE4,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.71072.html,183408.png
+Picasso,"""Le Déjeuner sur l'herbe","#B08469,#E6D0BD",63C2CF7B4D2DA7E8815F,2,AgglomerativeClustering," d'après Manet II"",https://www.nga.gov/collection/art-object-page.152486.html",183416.png
+Picasso,"""Pierrot and Harlequin""","#273125,#7E654F,#A88C87,#AAB1B1,#E1D9CE,#DCC53C,#C7362A",046AF375A444F72A2FD5,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.60784.html,183411.png
+Picasso,"""Pique 1""","#2A272A,#7D5142,#D6AB79",8C70BA7ABE3DD4FC3E74,3,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.152206.html,183414.png
+Picasso,"""Still Life (Nature morte)""","#302C2B,#564D46,#716B6F,#C6AA86,#A09351,#875345",6970562C7A62443D2B86,6,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.33408.html,183413.png
+Picasso,"""Still Life""","#262224,#3D3737,#4A4E50,#876149,#6F6868,#8D8484,#B1A696",BD9E9298915838D0809B,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46670.html,183409.png
+Picasso,"""The Lovers""","#68816D,#69A6C2,#BBA2B1,#D7E1D9,#BB8654",B6F1488746A0426D0533,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.46667.html,183410.png
+Picasso,"""The Young Draughtsman (Petit dessinateur)""","#5E564B,#8C7E6E,#B6A091,#CBB59F,#DCC7AF",3BE9636A9E299845DBD8,5,AgglomerativeClustering, https://www.nga.gov/collection/art-object-page.46897.html,183415.png
+Splatoon,Action vs Comedy,"#FA8E00,#1384BA,#B44AEF",94B40EB4EFA0C85F9137,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Adventure vs Relax,"#FFB600,#00967A,#4B22C8",EB6BA164B7AD173EEBB2,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Agility vs Endurance,"#F3B000,#F5498B,#13A715",F1C2D7AE0CA9FBD0E5D5,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,AllOut vs Healing,"#BC326D,#C0AE26",8974AE7A9E3EFF0EF190,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Autobots vs Decepticons,"#EC0B68,#461362",81E623F716C743821B44,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Barbarian vs Ninja,"#C54D4F,#003B89",8A0E4B50473638627D49,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Baseball vs Soccer,"#FA5A2A,#00993A,#6642D0",88B873D1E0BB86810042,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue Frye,"#373DBB,#CECE28,#C920B7",61AB63E1FE03F2D18A13,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs DarkGreen,"#435BF3,#067E63,#E9DD14",8BA1E335D767ADC28E0E,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs Green,"#2922B5,#5EB604,#CA21A5",6C936CF90D6D65B3C5E3,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs Lime,"#26229F,#91B00B,#FF7F19",541CE18411DF1306A531,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs Magenta,"#1B18D7,#DD0DD3,#C6D314",4CB08D51C1FAC6C5EA27,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs NeonGreen,"#311AA8,#17A80D",B5241D88FB589A792FB7,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs Orange,"#2E0CB5,#F86300,#FDFF00",73C1F72B1D895155E56F,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs Orange,"#2E0CB5,#F86300",31F1A6AFFEB49DD4D240,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Blue vs Yellow,"#1A1AAE,#E38D24,#CD43A6",0C4395FFA79C786C614C,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Boke vs Tsukkomi,"#D64703,#127A87,#C2238F",07008090CDDADE09664C,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,BrightGreen vs DFuchsia,"#6ABF0B,#8C0C7F,#FFE500",ADA2390C84CC1EB52E29,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,CE vs PA,"#086312,#307087,#BA0A07",E512464DC28C059C5272,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Callie vs Marie,"#AF16AC,#71DA0C",4BDE4C90DA3DECF03DDB,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Cats vs Dogs,"#D84011,#41A782",783E405F3C222745616C,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Champion vs Challenger,"#A18E3B,#1D07AC,#F52E71",737416F8AD6138E08DEE,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Chaos vs Order,"#695C3B,#7F7F99,#990F2B",0816F6E116B253741145,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Chicken vs Egg,"#EFF2EB,#FABF50,#ED2635",E2615C1434A62A9D1110,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Chocolate vs Gokuboso,"#E70F21,#E6E6E6,#734024",554F6C2F6D7FBA151705,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,DarkBlue vs DFuchsia,"#0D37C3,#941A88,#6BFF00",72B04794D28F976F18F2,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,DarkBlue vs Orange,"#2E0CB5,#F86300,#FDFF00",73C1F72B1D895155E56F,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,DarkBlue vs Orange,"#4A14AA,#FB5C03",3B37387D9766816ACD46,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,DarkBlue vs Yellow,"#0D195E,#B97E1A,#FF5937",205EEF3C46AE4F00D9C5,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,DarkChocolate vs MilkChocolate vs WhiteChocolate,"#3D1F7A,#995935,#D6BF8F,#FF0",D9CDE73DCD483E45A02E,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,DarkFuchsia vs Yellow,"#A5267F,#FFE500",EE3B982FF6FC6C7733B4,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,DarkYellow vs DFuchsia,"#FBD704,#8C0C7F,#1BC3D8",3CAB37E6BB821DD20305,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,EatIt vs SaveIt,"#C42138,#A6AD8C,#6363D6",06626B541C6D6601ABA3,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Family vs Friend #7D5C26,"#82878F,#C21405",E70FEBBDA5F9A08D1272,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Film vs Book,"#9030FF,#14B8A0,#EEC70E",2069172E450D312837BC,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Flight vs Invincibility,"#4F55ED,#6BD52C,#ED1D9A",EEE57192A14F01E23514,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Flower vs Dumpling,"#FF8787,#7EC27A,#ECE8B1",F800F7A1DB73D2F50D77,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Fork vs Spoon,"#E36D60,#2FB89A,#EBCD62",FF19C9275CFE0AC5EA92,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Fries vs Nuggets,"#E8540A,#6A3BE0,#FFCA0E",2049D5DE842817D73465,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,FrontRoll vs BackRoll,"#FF7D9A,#00A0B0,#E4E567",B6F913BAA220383AF111,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,GYellow vs EBlue,"#DEA801,#4717A9",FC1252EDA0439BC37F88,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Gear vs Grub vs Fun,"#8A19F7,#BE7118,#28C05E,#3F2CD2",D2725A3E0651368CCCD2,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Gherk-Out vs Gherk-In,"#B14A8D,#83C91A,#0FBA9D",54308178FCE59BDF312F,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Grape vs Turquoise,"#5F0FB4,#08B672",ACB70964DB8860360D29,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Grape vs Turquoise,"#5F0FB4,#08B672,#D9C100",29320ACBEB55274EB596,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Grass vs Fire vs Water,"#1BA974,#DA4514,#002AFF,#FF0",794BFA9C2C2E6BCDD610,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Green vs Blue,"#51C71B,#2120CC,#C920B7",0704EFE16364F541438E,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Green vs DFuchsia,"#8EBB1A,#8C0C7F,#FFE500",B844826D58F0E798E20A,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Green vs Fuchsia,"#17A80D,#D645C8,#D9C100",49C72D961C92F1DBF303,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Green vs Magenta,"#79B726,#A52B85,#ECC50A",E8C8D9EC38A53C962E7E,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Green vs Orange,"#319471,#BF3E24,#B986ED",E03A26F8137B4B0DA621,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Green vs Purple,"#799516,#6E068A,#118991",7FD6D6935B92C0FF5CF7,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Hare vs Tortoise,"#E869BF,#8ACF47,#17CFDE",0AD58B02CEE7B396C1A4,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Hero vs Villain,"#ED2403,#4517D1,#D1D1D1",FEC3D18868B1E5FCDEFF,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Hoverboard vs Jetpack,"#59BE9C,#E75A2D",DDE0C9C6509D37B9449E,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,InnerWear vs OuterWear,"#FF7536,#9090BA,#DC1C1E",DBA14DD49A921C2F1238,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Kid vs GrownUp,"#308766,#523B40,#D1ED73",274CC9B08EAE4616BA9A,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Knight vs Wizard,"#788C87,#6B0A29,#A67308",752244BDD35A3A3024A4,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lemon vs NoLemon,"#BEE600,#C52ADB,#00B278",94CAA11CFE72E38A530E,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lemon vs Plum,"#BBC905,#830B9C",FD809498B23991363AF0,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LemonTea vs MilkTea,"#E59D0D,#E1D6B6",9DDA01B65FCF27E54BBC,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LightBlue vs Blue,"#14BBE7,#285EEA,#C920B7",F62D70A65D0FE02DB703,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LightBlue vs Fuchsia,"#03C1CD,#D645C8,#D9C100",552817169A28DB372BD0,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LightBlue vs Orange,"#228CFF,#E85407,#EFF66E",065B4D3D02628AA5AFF7,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LightBlue vs Yellow,"#007EDC,#E1A307,#D01D79",B607C1B57299283036D3,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LightPink vs Blue,"#D60E6E,#311AA8",36A20AC2B4A5E89EC430,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lilac vs DFuchsia,"#525CF5,#8C0C7F,#FFE500",567F524E1DA023433FFD,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lime Shiver,"#BAD421,#1021BE,#A714D4",C588F69EB9E3622F046B,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LimeGreen vs Purple,"#BECD41,#6325CD,#31C4A9",7BBFED043866EA904353,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lock: Yellow vs Blue,"#CABA21,#502EBA,#B62AA7",57EC43D43D1FB9B720F7,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lock: Yellow vs Blue,"#D6CD25,#531BBA,#C920B7",43F6933C4DF8BEFFE770,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lock: Yellow vs DarkTeal,"#DDD112,#047B8B,#ED12E4",3F63A437D9C5126B80F7,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lock: Yellow vs LightBlue,"#BDBA14,#4E85C1,#4828AB,#B0C444",B05D28FE1103C05DB545,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LumiGreen vs Blue,"#8CE47F,#3D59DE,#FFA427",E615F465B81D68F513F7,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,LumiGreen vs DFuchsia,"#2D9314,#8C0C7F,#005BFF",679FC8A15F449F9132C6,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Lumigreen vs Purple,"#60AB43,#891A7F,#FFB500",8761454ADA4E29BBD17C,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Marigold vs Fucshia,"#EEAA05,#8C0C7F,#17774F",21D7E1E88F4B674FDCFB,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Marshmallow vs HotDog,"#CE334F,#008006,#FFE80A",22B89C4A7B41E685DC56,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Mayo vs Ketchup,"#FFE99B,#FB321E,#1BB026",43028154EA037C33FEAF,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Messy vs Tidy,"#ED7004,#0037B8",563264AD0631D2130F6D,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Money vs Fame vs Love,"#C8752D,#73BD49,#BB497B,#5998FF",BB338069595799E6E24E,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Money vs Love,"#FFD624,#FC6D75,#5451EC",52D3E7A85E3CB3B1FDCE,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,MothGreen vs DFuchsia,"#425113,#8C0C7F,#FFE500",91B0A4BD783DCD255C7D,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Mountain vs Village,"#FFCE0C,#058F00,#E24FE5",C9C7BB8B8256BF131C21,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Mushroom vs Star,"#CC1F1F,#B3A10D,#0D40DE",32BA83FE8041A512C3E4,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Mustard vs Purple,"#CE8003,#9208B2,#1AB46A",89FF621F83D73D1A1C9D,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Naughty vs Nice,"#CF3350,#008040",E6A6971C93EE89380E42,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Nessie vs Aliens vs BigFoot,"#118F32,#793199,#A1482B,#0935A6",1035FDF702BF06A47BB6,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Newest vs Popular,"#059E9C,#C1CC47,#E2E2E2",BF4F9E6B0239F8B5EF1A,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,NightLumiGreen vs DFuchsia,"#09950B,#8C0C7F,#005BFF",975AE2D250C7E90BA4BE,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,NightMarigold vs Fucshia,"#D88602,#5C0A61,#05E7CE",1C99BB6E783218100914,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,NightPink vs NightGreen,"#CF0466,#17A80D",221C2B1AE4CDB4C9AC15,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,NoPineapple vs Pineapple,"#4A2126,#ABB012,#0A6E17",0AC5A5E38550AD786522,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,NorthPole vs SouthPole,"#801AB3,#03C1CD,#E6B30D",9E77FC4BEE79C893AE68,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange BigMan,"#E1772B,#2DD9B6,#2E14D4",C7B54FB08B66D822640B,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs Blue,"#CF581B,#141494,#FF0",83FB7B96686FB23C8081,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs Blue,"#DE6624,#343BC4,#CDCD34",2291AABBF63CC689572B,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs Blue,"#EE8711,#0943F0,#81DE17",B06ACDAA4D36D8ECA26F,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs DarkGreen,"#C44B21,#098264,#DCE317",32D1329A36CFE6221121,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs DarkGreen,"#C95431,#03644B,#E7E710",36587A9975C1C72A59F2,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs Fuchsia,"#FF6C00,#6C0676,#FFE500",EACD45E4EAE9FFF3EC26,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs Green,"#FB5C03,#17A80D",A6498F3FCE4EE657A5CE,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Orange vs Purple,"#CD510A,#6E04B6,#94C921",331FB977668EA00D537B,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pancake vs Waffle,"#D4B873,#4545AB,#E64D73",54AF3C0E75E3118CC8B5,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Past vs Future,"#009A82,#A34C3B",836E6D946F0F84398780,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Peach vs Turquoise,"#FF8787,#08B672,#D9C100",2F3581069070191C57A2,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,PerfectBody vs PerfectBrain,"#32A200,#F9891B",FDE82750BEFCFA6F4B4D,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs Green,"#C83D79,#409D3B,#2BDCED",F8C4C43103C076FF2CEB,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs Green,"#C12D74,#2CB721,#3A28C4",7A12F00088A99B665D75,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs LightBlue,"#CB0856,#0199B8",22DFEB9F4FF046B7ECD1,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs NeonGreen,"#CB0856,#17A80D",37683410A2554B39B3FA,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs Orange,"#DA3781,#ED9408,#A577FF",BE092501CEE6882BAF7E,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs Teal,"#C64184,#0D6E74,#E3D704",16FD5635023A399DFACE,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs Turquoise,"#C93457,#048188,#890B5D",6F30177E987D315E4D49,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pink vs Turquoise,"#CB0856,#08B672,#D9C100",D244BA41A51A939622A8,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pirates vs Ninjas,"#4F9E00,#7D26B5",5EC613FAE9916288F424,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,PokeRed vs PokeBlue,"#BF586B,#003DA2",A9240F3EAD0F36F3BDBD,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,PokeRed vs PokeGreen,"#BF586B,#009A6E",85655711630396CA25EE,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Power vs Wisdom vs Courage,"#AB2A5C,#488DB5,#03A65F,#BA8500",42862DA28A06C2C017B5,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Pulp vs NoPulp,"#EE8122,#2FCF46,#42D0EA",2C0B9B82F7EA058E8A6C,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Purple vs DarkGreen,"#9361EA,#0A7A5E,#D3DD1E",41BE77940A8FBAFE3B2E,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,RPurple vs Gapple,"#7B0393,#43BA05,#DB7821",FC173C798662E557FC75,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Raspberry vs NYellow,"#DE0B64,#BFD002",60CE454E6EBF935D3E77,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Retro vs Modern,"#6B4221,#596666,#0118E3",FE5A7141AAC7D13F8096,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Rock vs Papers vs Scissors,"#413BBA,#BEB013,#C03E3E,#35BA49",646D8C5E089A15A12FD5,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Rollercoaster vs WaterSlide,"#3BC335,#B400FF",7CD7E1B2BE73FCAF5D48,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Salsa vs Guac,"#801A00,#757A2B,#D4C2B5",B65181C340AE42DB754D,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Salty vs Sweet,"#B1DBD1,#E29440,#D94C79",7A7834954DF4773AD040,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,SciFi vs Fantasy,"#1FAFE8,#8BFF06,#FD636A",439DF073AD73236ED28B,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Shiver vs Frye vs BigMan,"#253FC5,#D3B113,#D80501,#6DDA25",9573A712A2E9F8DEFFDD,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Sky vs Gold,"#007EDC,#E1A307",1355F81A7B9F76E60E90,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Snowmen vs SandCastle,"#0EB6A7,#FAB01D",1CFAA14A69EBCEF981E9,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Soda vs DFuchsia,"#8EDBB8,#8C0C7F,#FFE500",956E58A453777993727B,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Soda vs Magenta,"#AEF4F0,#DD0DD3,#C6D314",3E07356DDABB29C79449,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Soda vs Purple,"#65B799,#9736B2,#8ED11E",7D991CDCB41EFFB61695,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,SodaGree vs Purple,"#25B100,#571DB1,#CD2D7E",861251CCB999E81AF153,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,SodaYellow vs Green,"#DDA024,#098264,#E114C3",C0339AE0FB356594927C,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Spicy vs Sweet vs Sour,"#AD5438,#9A6FCC,#A5B533,#00A2E8",13B5254D34D890F7F8E5,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Spongebob vs Patrick,"#DCA41D,#E95F9A",17DEBA3487C2AF623AE2,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Squid vs Octopus,"#50D525,#E900D2,#4B22C8",29801422524A39D4ABEB,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Sweater vs Socks,"#C4354D,#0D8B51,#CACACA",F5D5C09373AF66AD7364,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Teal vs Purple vs Orange,"#1BA974,#98039B,#C75304,#C70864",4B7B34506F64D7A3A353,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,TimeTravel vs Teleportation,"#695240,#14247F,#CFD1C7",D9D4F3A31019AE93FA88,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Trick vs Treat,"#EC7125,#8805CC,#4EE69F",61257D7A1AD467ED1578,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Tsubuan vs Koshian,"#655A99,#88214D,#78D04F",5148FE0C54B7602B8036,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,TunaMayo vs RedSalmon,"#38C8D0,#E56F87",9B2AC06BC2C96486752C,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Turquoise vs DFuchsia,"#0DA182,#8C0C7F,#FFE500",B3AE7668F376C5387B6F,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Turquoise vs Orange,"#20837D,#DF641A,#AD7710",A9A6719446C6A4AC1EB1,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Turquoise vs Pink,"#1BBEAB,#C43A6E,#4E4EDD",5D0470A86EC9DE4F92F1,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Turquoise vs Pumpkin,"#0CAE6E,#F75900,#6A1EC1",66BA74D7115621B8685D,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Turquoise vs Red,"#1BBEAB,#D74B31,#0D0DDC",5F04DC6A19A5688C3030,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Unicorn vs Narwal,"#6B87BF,#AB66B8,#D1ED73",FC17E5D216197020AFA8,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,UniqueCreature vs AdvancedTechnology,"#FF6D40,#38377A,#F1E61C",FAFD08B1E1429FD91879,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Vampire vs Werewolf,"#6735AF,#FE6829,#00CA0E",F6B2FAD36870AAA10B62,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Vanilla vs Strawberry vs Mint,"#CCA770,#BC6D75,#2AC29E,#ADFF6B",0FA6D4616593053C51EE,4,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,WGreen vs DarkMagenta,"#03B362,#B1008D,#A8B700",A8E1A45FAA2684B1B281,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,WYellow vs WBlue,"#DACD12,#4B25C9,#B62EA7",E2CFF8948C45588F2D3D,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,WarmBreakfast vs ColdBreakfast,"#FF5E17,#00A39A,#EDD926",8AB878ADF070EED1B46A,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,WorldTour vs SpaceAdventure,"#88AF45,#014BD0",87665D156AEB0114213C,2,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Blue,"#D0BE08,#3A0CCD,#B62EA7",10238E8A353E463F22C0,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs DFuchsia,"#FBD704,#8C0C7F,#1BC3D8",3CAB37E6BB821DD20305,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Fuchsia,"#D9C100,#D645C8,#17A80D",49C72D961C92F1DBF303,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Green,"#B4D933,#098A71,#D611E0",2F514A7CE0CC0A6CE122,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Indigo,"#DEC109,#531BBA,#C920B7",89E38E1B1D64EBE5427F,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Lilac,"#DD9016,#4D24A3,#A1E896",8C01D5CF8D2B3B4FD9FE,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs Purple,"#CEB121,#9025C6,#5DAB21",73BC9F726BB8CB055090,3,None,https://splatoonwiki.org/wiki/Ink,None
+Splatoon,Yellow vs TealBlue,"#D9C100,#007AC9,#ED580B",A0CF687F269AD3679A10,3,None,https://splatoonwiki.org/wiki/Ink,None
+Warhol,"""Flowers""","#2A3219,#8BCFD0,#FF9293,#7CA33B,#A54E91",C00F7F26093A647AC6D4,5,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.144934.html,183385.png
+Warhol,"""Portraits of the Artists""","#1E1414,#163D3C,#558070,#BDB1AB,#F2F2F2,#C39021,#7F5D19",F7C5094933798CB98C94,7,AgglomerativeClustering,https://www.nga.gov/collection/art-object-page.136329.html,183384.png
+chipdelmal,Motherland,"#F72585,#2614ED,#5DDEB1,#F038FF,#E2EF70,#9381FF",132E57C5F1C386C7E672,6,None,https://chipdelmal.github.io/,None
+chipdelmal,Pastel,"#A0C4FF,#E0C3FC,#FFD6A5,#CAFFBF,#D0D1FF",C2E4E9138F336D694177,5,None,https://chipdelmal.github.io/,None
+coolors,Blue-Brown,"#9381FF,#B8B8FF,#F8F7FF,#FED,#FFD8BE",9924716D9D7DC377CA5C,5,None,https://coolors.co/palette/9381ff-b8b8ff-f8f7ff-ffeedd-ffd8be,None
+coolors,Blue-Pink,"#2D00F7,#6A00F4,#8900F2,#A100F2,#B100E8,#BC00DD,#D100D1,#DB00B6,#E500A4,#F20089",EDE2B4048706E1E1CFF7,10,None,https://coolors.co/palette/2d00f7-6a00f4-8900f2-a100f2-b100e8-bc00dd-d100d1-db00b6-e500a4-f20089,None
+coolors,Blues,"#0A369D,#4472CA,#5E7CE2,#92B4F4,#CFDEE7",806E7C529AA5007F2F66,5,None,https://coolors.co/palette/0a369d-4472ca-5e7ce2-92b4f4-cfdee7,None
+coolors,Divergent,"#0FA3B1,#B5E2FA,#F9F7F3,#EDDEA4,#F7A072",0BCBC8A72F3542A300DD,5,None,https://coolors.co/0fa3b1-b5e2fa-f9f7f3-eddea4-f7a072,None
+coolors,Pastel,"#D8E2DC,#FFE5D9,#FFCAD4,#F4ACB7,#9D8189",34932E29247C6D2010BE,5,None,https://coolors.co/palette/d8e2dc-ffe5d9-ffcad4-f4acb7-9d8189,None
+coolors,Pink-Blue,"#FF499E,#D264B6,#A480CF,#779BE7,#49B6FF",DDF3DEE09EB4F4468341,5,None,https://coolors.co/palette/ff499e-d264b6-a480cf-779be7-49b6ff,None
+coolors,Wine,"#FFCDB2,#FFB4A2,#E5989B,#B5838D,#6D6875",2B6975CCBA37519DE823,5,None,https://coolors.co/palette/ffcdb2-ffb4a2-e5989b-b5838d-6d6875,None
+lospec,Blessing,"#74569B,#96FBC7,#F7FFAE,#FFB3CB,#D8BFD8",B0C4FA1D2D0A3E1D4915,5,None,https://lospec.com/palette-list/blessing,None
+lospec,Heptarainbow,"#47346A,#667B9D,#97BFB5,#EEEDDA,#CCB5A7,#B57E8F,#914C89",1A8EBE899103C27AF777,7,None,https://lospec.com/palette-list/heptarainbow,None
+lospec,Lost Century,"#D1B187,#C77B58,#AE5D40,#79444A,#4B3D44,#BA9158,#927441,#4D4539,#77743B,#B3A555,#D2C9A5,#8CABA1,#4B726E,#574852,#847875,#AB9B8E",62BE88592F17887C5B56,16,None,https://lospec.com/palette-list/lost-century,None
+lospec,Midnight Ablaze,"#FF8274,#D53C6A,#7C183C,#460E2B,#31051E,#1F0510,#130208",9BBEB4812EE86459E4F9,7,None,https://lospec.com/palette-list/midnight-ablaze,None
+lospec,Midnight Glow,"#160729,#171856,#243771,#416E8F,#DBF3F1",DE14825D2ECB52F0BB24,5,None,https://lospec.com/palette-list/midnight-glow,None
+lospec,Pear36,"#5E315B,#8C3F5D,#BA6156,#F2A65E,#FFE478,#CFFF70,#8FDE5D,#3CA370,#3D6E70,#323E4F,#322947,#473B78,#4B5BAB,#4DA6FF,#66FFE3,#FFFFEB,#C2C2D1,#7E7E8F,#606070,#43434F,#272736,#3E2347,#57294B,#964253,#E36956,#FFB570,#FF9166,#EB564B,#B0305C,#73275C,#422445,#5A265E,#80366B,#BD4882,#FF6B97,#FFB5B5",57755C7A0EA62C99C4DB,36,None,https://lospec.com/palette-list/pear36,None
+lospec,Raspberry,"#1D001C,#FFFFE3,#E06B88,#E28B7A",C03B14BB3E2C12DC58B6,4,None,https://lospec.com/palette-list/raspberry,None
+lospec,Sweetie16,"#1A1C2C,#5D275D,#B13E53,#EF7D57,#FFCD75,#A7F070,#38B764,#257179,#29366F,#3B5DC9,#41A6F6,#73EFF7,#F4F4F4,#94B0C2,#566C86,#333C57",5DD753C95CC53A8E26DA,16,None,https://lospec.com/palette-list/sweetie-16,None
+lospec,Twilight 5,"#FBBBAD,#EE8695,#4A7A96,#333F58,#292831",CC5D332917F588F46A59,5,None,https://lospec.com/palette-list/twilight-5,None
+lospec,sloslo8,"#0D2B45,#203C56,#544E68,#8D697A,#D08159,#FFAA5E,#FFD4A3,#FFECD6",2F79546E813FF089D20F,8,None,https://lospec.com/palette-list/slso8,None
