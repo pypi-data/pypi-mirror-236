@@ -1,0 +1,13 @@
+import bonobo
+
+
+def create_graph():
+    return (
+        bonobo.Graph()
+        >> ...
+    )
+
+
+if __name__ == '__main__':
+    with bonobo.parse_args() as options:
+        bonobo.run(create_graph())
