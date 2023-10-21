@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/netflow2json/__init__.py
+src/netflow2json/analyser.py
+src/netflow2json/tools.py
+src/netflow2json/traffic.py
+src/netflow2json/web.py
+src/netflow2json.egg-info/PKG-INFO
+src/netflow2json.egg-info/SOURCES.txt
+src/netflow2json.egg-info/dependency_links.txt
+src/netflow2json.egg-info/requires.txt
+src/netflow2json.egg-info/top_level.txt
