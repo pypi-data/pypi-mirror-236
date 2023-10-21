@@ -1,0 +1,3 @@
+pdfplumber
+textract
+boto3
