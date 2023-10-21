@@ -1,0 +1,11 @@
+exact_cover/__init__.py,sha256=faaHjAKLQQjXLH6I0v3vv2mrl7JV6Su1k2S8UbG_-xk,52
+exact_cover/error.py,sha256=aI-RVtpQDllI5_hnrdUyF23oKqGBs_-7wSaMF2G6fLs,153
+exact_cover/helpers.py,sha256=PAHc3QaGb_QPQhAKOiFQizEyuFYw5G48F3xVpgOnYSY,2815
+exact_cover/io.py,sha256=c1y1uLDucTsNIoOcgZvuf9p07AmyZ1W3L0YuV6fp7lU,250
+exact_cover/wrapper.py,sha256=AK7_p9e3u0g6bBUx80GzCC3EUsgS7xgvMT2wDke2Xfk,445
+exact_cover_impl.cp38-win_amd64.pyd,sha256=z_nqWo8QR2cWA2VzipJi52yXgQfxzPAj2inOnndQodI,15360
+exact_cover-1.2.2.dist-info/entry_points.txt,sha256=b1MrmJXmWholZLjOKCLAUhXfHx0SkOzdrwzjxLVz2io,195
+exact_cover-1.2.2.dist-info/LICENSE,sha256=5Rjy4Qz5d6C6oEt02RnI1nx8cjqL6vaeQievmPilH2w,18367
+exact_cover-1.2.2.dist-info/METADATA,sha256=6hXJ8gTgCU7ZYw5E2xGFRDwu7n4WgzDPRA1qzkWvrKU,6261
+exact_cover-1.2.2.dist-info/WHEEL,sha256=-TUrSbC0nCQhcvOOdpi4mKMxPp2lWza7lQd5TlZWdRo,96
+exact_cover-1.2.2.dist-info/RECORD,,
