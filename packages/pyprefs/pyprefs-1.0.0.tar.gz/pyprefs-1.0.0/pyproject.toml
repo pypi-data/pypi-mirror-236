@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pyprefs"
+version = "1.0.0"
+description = "Fast save and load your variable."
+authors = ["mc_c0rp"]
+readme = "README.md"
+packages = [{include = "pyprefs"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
