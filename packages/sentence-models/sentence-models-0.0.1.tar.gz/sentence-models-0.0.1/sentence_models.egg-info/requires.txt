@@ -1,0 +1,4 @@
+embetter[sentence-tfm]
+lazylines
+scikit-learn
+spacy
