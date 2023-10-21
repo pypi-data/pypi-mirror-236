@@ -1,0 +1,7 @@
+pendulum
+numpy
+pandas
+requests
+candlelite
+okx
+paux
