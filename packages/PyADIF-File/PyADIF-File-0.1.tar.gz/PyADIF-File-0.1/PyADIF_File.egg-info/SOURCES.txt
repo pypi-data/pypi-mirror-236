@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PyADIF_File.egg-info/PKG-INFO
+PyADIF_File.egg-info/SOURCES.txt
+PyADIF_File.egg-info/dependency_links.txt
+PyADIF_File.egg-info/top_level.txt
+adif_file/__init__.py

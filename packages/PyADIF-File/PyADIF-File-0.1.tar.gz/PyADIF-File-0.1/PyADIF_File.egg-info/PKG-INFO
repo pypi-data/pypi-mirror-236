@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: PyADIF-File
+Version: 0.1
+Summary: Convert ADIF ADI content to dictionary and vice versa
+Home-page: https://github.com/gitandy/PyADIF-File
+Author: Andreas Schawo
+Author-email: Andreas Schawo <andreas@schawo.de>
+License: Copyright 2023 by Andreas Schawo,licensed under CC BY-SA 4.0
+Project-URL: Homepage, https://github.com/gitandy/PyADIF-File
+Project-URL: Bug Tracker, https://github.com/gitandy/PyADIF-File/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Other Audience
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Communications :: Ham Radio
+Classifier: Topic :: File Formats
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+PyADIF-File
+===========
+Convert ADIF ADI content to dictionary and vice versa
+
+The required/resulting dictionary format is
+
+    {
+        'HEADER': None,
+        'RECORDS': [list of records]
+    }
+
+The header or each record is/must be a dictionary in the format
+    
+    {
+        ADIF parameter name: Text value,
+    }
+
+You have to care about reading/writing the content from/to the file.
+
+Exporting ADI
+-------------
+If an empty header is provided, the fields are generated with suiting defaults.
+Missing header fields are inserted.
+
+Empty record fields are not exported at all.
+
+Copyright
+---------
+DragonLog &copy; 2023 by Andreas Schawo is licensed under [CC BY-SA 4.0](http://creativecommons.org/licenses/by-sa/4.0/) 
