@@ -1,0 +1,82 @@
+[tool.poetry]
+name = "warp_fastapi"
+version = "0.1.1a1"
+description = "Create fastapi in a warp speed"
+authors = ["frenki123 <marko.frankola@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/frenki123/warp_fastapi"
+documentation = "https://frenki123.github.io/warp_fastapi"
+keywords = ["fastapi", "code-generation", "SQLAlchemy"]
+classifiers = [
+    "Framework :: FastAPI",
+    "Topic :: Software Development :: Code Generators"
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = {extras = ["email"], version = "^2.4.2"}
+ordered-set = "^4.0.0"
+black = "^23.7.0"
+ruff = "^0.0.282"
+
+[tool.poetry.group.dev.dependencies]
+mkdocstrings = "^0.22.0"
+mkdocs-material = "^9.1.21"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+mkdocs = "^1.5.2"
+mypy = "^1.4.1"
+mkdocstrings-python = "^1.2.1"
+pymdown-extensions = "^10.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    'error'
+]
+
+[tool.coverage.run]
+source = ['warp_fastapi']
+branch = true
+context = '${CONTEXT}'
+
+[tool.coverage.paths]
+source = [
+    'warp_fastapi/'
+]
+
+[tool.coverage.report]
+precision = 2
+show_missing = true
+skip_covered = true
+exclude_lines = [
+    'pragma: no cover',
+    'raise NotImplementedError',
+    'if TYPE_CHECKING:',
+]
+
+[tool.ruff]
+exclude = [".venv", ".pytest_chache", "__pycache__"]
+line-length = 120
+extend-select = ['Q', 'UP', 'I', 'W']
+isort = { known-first-party = ['warp_fastapi', 'tests'], combine-as-imports = true }
+flake8-quotes = {inline-quotes = 'single', multiline-quotes = 'double'}
+
+[tool.black]
+line-length = 120
+target-version = ['py310']
+color = true
+skip-string-normalization = true
+
+[tool.mypy]
+strict = true
+enable_incomplete_feature='Unpack'
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disable_error_code = ["no-untyped-def"]
