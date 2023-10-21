@@ -1,0 +1,13 @@
+voyllect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voyllect/aggregate.py,sha256=PQpJw0pzRWjT31NrhyRJKrvyysd7PvtJq5n1gmpK2_g,21801
+voyllect/collect.py,sha256=G7tdaKb8Ym_VfSRid5w0KcDOCejElcYxsbc2QC2eewQ,69505
+voyllect/driver.py,sha256=Sx_nkUgMqUeHWhe4x-So0B-XTshUpR9BZ35JFOupzp0,2644
+voyllect/init_dicts.py,sha256=8NVKW_MwrA-2f94npYRzOgDpQdFZGQ2CtCXuo5TCU6Y,6227
+voyllect/parser.py,sha256=yZ0Dh0ozNmZp4DdvlNsjKPHcb4AljIaEUa1OvmBbNCg,11532
+voyllect/save.py,sha256=dq-ezVG5SDt_FKZJ2lfrVmPqQz7EjOfjUfasHBUvU_w,2712
+voyllect/transfer.py,sha256=Iq4_bN5q4vjHdU-Tuv7_eJvYAjVBZJiJahjl2uT2Gv4,10609
+voyllect/utils.py,sha256=I28jnNXOWJ7ifcz44L4PfVvzwdA59rTpqaNU5pRinAk,2634
+voyllect-0.1.10.dist-info/METADATA,sha256=BjCAaZtMb768zOTWTpncG3dnz1eRLhZ46LqfUWZSbTc,555
+voyllect-0.1.10.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+voyllect-0.1.10.dist-info/licenses/LICENSE,sha256=xnTGkgcYtZsCnelaFyyrvj40aSn1sv0sX4CyWwftbTk,1084
+voyllect-0.1.10.dist-info/RECORD,,
