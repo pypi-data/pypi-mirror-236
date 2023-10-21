@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "durable-network-x"
+version = "0.1.0"
+description = "This is the durable NetworkX wrapper"
+authors = ["Saad Ahmad <saadkwi12@hotmail.com>"]
+readme = "README.md"
+packages = [
+    {include = "durable_network_x"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dataclasses-json = "^0.6.1"
+networkx = "^3.2"
+
+[tool.poetry.group.dev.dependencies]
+boto3 = "^1.28.68"
+pytest = "^7.4.2"
+python-dotenv = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
