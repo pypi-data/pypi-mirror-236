@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+pypipdf.egg-info/PKG-INFO
+pypipdf.egg-info/SOURCES.txt
+pypipdf.egg-info/dependency_links.txt
+pypipdf.egg-info/top_level.txt
