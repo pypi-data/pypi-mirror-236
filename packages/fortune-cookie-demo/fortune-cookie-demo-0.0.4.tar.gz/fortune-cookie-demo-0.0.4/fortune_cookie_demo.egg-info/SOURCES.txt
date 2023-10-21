@@ -1,0 +1,8 @@
+README.md
+setup.py
+fortune_cookie_demo.egg-info/PKG-INFO
+fortune_cookie_demo.egg-info/SOURCES.txt
+fortune_cookie_demo.egg-info/dependency_links.txt
+fortune_cookie_demo.egg-info/entry_points.txt
+fortune_cookie_demo.egg-info/requires.txt
+fortune_cookie_demo.egg-info/top_level.txt
