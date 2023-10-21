@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+hash_ocr/__init__.py
+hash_ocr/ocr.py
+hash_ocr/py.typed
+hash_ocr.egg-info/PKG-INFO
+hash_ocr.egg-info/SOURCES.txt
+hash_ocr.egg-info/dependency_links.txt
+hash_ocr.egg-info/requires.txt
+hash_ocr.egg-info/top_level.txt
+hash_ocr/model/digit11.png
+hash_ocr/model/digit11.txt
+hash_ocr/model/digits.png
+hash_ocr/model/digits.txt
