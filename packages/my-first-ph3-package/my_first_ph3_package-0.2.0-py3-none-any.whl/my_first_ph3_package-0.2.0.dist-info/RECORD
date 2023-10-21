@@ -1,0 +1,13 @@
+my_first_ph3_package/__init__.py,sha256=yPefW6BzXiw9Wq4mtH6gz7n5mBx1PCttz8ItGM9we38,341
+my_first_ph3_package/cli.py,sha256=8cX6hfrnqp2Zt5vZiTMF9Qpcy96BwHAzBQZ6VOWvouk,438
+my_first_ph3_package/my_first_ph3_package.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+my_first_ph3_package/sub_package_1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_first_ph3_package/sub_package_1/my_class_1.py,sha256=ZOA-4moZWB0__FuIu3obLyLwzoyy8n6tuosEaIJ5xTA,4611
+my_first_ph3_package/sub_package_2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_first_ph3_package/sub_package_2/my_class_2.py,sha256=fKDnmBv2ewp__VBRxrzQJj1-PsFcr6Qxu-XE6-IgJvU,776
+my_first_ph3_package/sub_package_2/my_class_3.py,sha256=hn9krv5-pCyNbRzRtou1lWzv1WA4ZrKKC_Y8qXUH0hk,776
+my_first_ph3_package-0.2.0.dist-info/LICENSE,sha256=O01TcA7ep-58TvsYF9wCI1Ak7NqprCjImGE6rxoehIc,1073
+my_first_ph3_package-0.2.0.dist-info/METADATA,sha256=uCNn7AXedAeWN-G0w16985ADx8pzdsVLzq7DR-UU4W8,2196
+my_first_ph3_package-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+my_first_ph3_package-0.2.0.dist-info/entry_points.txt,sha256=gwKo5xTLmNL0ahKVtarEqV5MXW_ztVs5eV8I-oTZ8ao,54
+my_first_ph3_package-0.2.0.dist-info/RECORD,,

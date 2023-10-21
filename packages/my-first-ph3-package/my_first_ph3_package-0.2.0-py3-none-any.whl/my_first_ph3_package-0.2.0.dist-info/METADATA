@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: my-first-ph3-package
+Version: 0.2.0
+Summary: PH3 packages are quick to make!
+Home-page: https://github.com/my_first_ph3_package/my-first-ph3-package
+Author: Fabien Mathieu
+Author-email: fabien.mathieu@normalesup.org
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Project-URL: Documentation, https://balouf.github.io/my-first-ph3-package
+Project-URL: Repository, https://github.com/my_first_ph3_package/my-first-ph3-package
+Description-Content-Type: text/x-rst
+
+====================
+My First PH3 Package
+====================
+
+
+.. image:: https://img.shields.io/pypi/v/my-first-ph3-package.svg
+        :target: https://pypi.python.org/pypi/my-first-ph3-package
+        :alt: PyPI Status
+
+.. image:: https://github.com/balouf/my-first-ph3-package/actions/workflows/build.yml/badge.svg?branch=main
+        :target: https://github.com/balouf/my-first-ph3-package/actions?query=workflow%3Abuild
+        :alt: Build Status
+
+.. image:: https://github.com/balouf/my-first-ph3-package/actions/workflows/docs.yml/badge.svg?branch=main
+        :target: https://github.com/balouf/my-first-ph3-package/actions?query=workflow%3Adocs
+        :alt: Documentation Status
+
+.. image:: https://img.shields.io/github/license/balouf/my-first-ph3-package
+        :target: image:: https://img.shields.io/github/license/balouf/my-first-ph3-package
+        :alt: License
+
+.. image:: https://codecov.io/gh/balouf/my-first-ph3-package/branch/main/graphs/badge.svg
+        :target: https://codecov.io/gh/balouf/my-first-ph3-package/tree/main
+        :alt: Code Coverage
+
+PH3 packages are quick to make!
+
+
+* Free software: MIT license
+* Documentation: https://balouf.github.io/my-first-ph3-package/.
+
+
+--------
+Features
+--------
+
+* TODO
+
+-------
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `package-helper-3`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`package-helper-3`: https://balouf.github.io/package-helper-3/
+

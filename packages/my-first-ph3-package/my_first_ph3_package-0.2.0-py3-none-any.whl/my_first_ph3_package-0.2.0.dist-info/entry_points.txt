@@ -1,0 +1,3 @@
+[console_scripts]
+titi=my_first_ph3_package.cli:main
+
