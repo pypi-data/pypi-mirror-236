@@ -1,0 +1,2 @@
+[console_scripts]
+pymakecli = pymake.pymake:main
