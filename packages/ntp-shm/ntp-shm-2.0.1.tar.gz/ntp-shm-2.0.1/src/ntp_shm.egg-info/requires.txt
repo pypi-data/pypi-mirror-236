@@ -1,0 +1,8 @@
+
+[dev]
+tox
+pytest
+black
+isort
+mypy
+bumpversion

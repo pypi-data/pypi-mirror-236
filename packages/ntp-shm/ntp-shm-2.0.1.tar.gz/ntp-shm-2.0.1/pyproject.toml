@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ntp-shm"
+version = "2.0.1"
+authors = [
+  { name="Stefan R. Filipek", email="srfilipek@gmail.com" },
+]
+description = "Pure Python NTP shared memory library."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: System :: Networking :: Time Synchronization",
+]
+keywords = ["gps", "time", "chrony", "ntp", "serial", "shm", "ntpshm"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/srfilipek/ntp-shm"
+"Bug Tracker" = "https://gitlab.com/srfilipek/ntp-shm/-/issues"
+
+[project.scripts]
+ntp-shm = "ntp_shm.main:main"
+
+[project.optional-dependencies]
+dev = ["tox", "pytest", "black", "isort", "mypy", "bumpversion"]
+
+[tool.black]
+line-length = 120
+target-version = ["py37", "py38", "py39", "py310", "py311"]
