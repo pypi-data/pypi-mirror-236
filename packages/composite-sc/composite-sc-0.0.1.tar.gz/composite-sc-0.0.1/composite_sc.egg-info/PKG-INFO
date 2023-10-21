@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: composite-sc
+Version: 0.0.1
+Summary: COMPOSITE multiplet detection
+Author: Haoran Hu
+Author-email: <hah112@pitt.edu>
+Keywords: composite-sc,multiplet detection
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+This is a multiplet detection tool for single cell data
