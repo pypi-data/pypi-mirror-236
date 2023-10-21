@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: mirageml
+Version: 0.1.0
+Summary: Your Personal AGI
+Home-page: UNKNOWN
+Author: Mirage ML Inc
+Author-email: support@mirageml.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: rich (==13.5.2)
+Requires-Dist: typer (==0.9.0)
+Requires-Dist: chardet (==5.2.0)
+Requires-Dist: qdrant-client (==1.6.0)
+Requires-Dist: langchain (==0.0.314)
+Requires-Dist: playwright (==1.38.0)
+Requires-Dist: beautifulsoup4 (==4.12.2)
+Requires-Dist: transformers (==4.34.0)
+Requires-Dist: ctransformers (==0.2.27)
+Requires-Dist: sentence-transformers (==2.2.2)
+Requires-Dist: torch (==2.0.1)
+Requires-Dist: pyjwt (==2.8.0)
+Requires-Dist: keyring (==24.2.0)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: supabase (==1.2.0)
+Requires-Dist: segment-analytics-python (==2.2.3)
+Requires-Dist: pyperclip (==1.8.2)
+Requires-Dist: prompt-toolkit (==3.0.39)
+
+UNKNOWN
+
