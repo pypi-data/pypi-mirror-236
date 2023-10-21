@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: omnivector
+Version: 0.1.0
+Summary: .
+Home-page: https://github.com/vinid/omnivector
+Author: Audrey Roy Greenfeld
+Author-email: audreyr@example.com
+License: MIT license
+Keywords: omnivector
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+
+==========
+OmniVector
+==========
+
+
+.. image:: https://img.shields.io/pypi/v/omnivector.svg
+        :target: https://pypi.python.org/pypi/omnivector
+
+.. image:: https://img.shields.io/travis/vinid/omnivector.svg
+        :target: https://travis-ci.com/vinid/omnivector
+
+.. image:: https://readthedocs.org/projects/omnivector/badge/?version=latest
+        :target: https://omnivector.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+.
+
+
+* Free software: MIT license
+* Documentation: https://omnivector.readthedocs.io.
+
+
+Features
+--------
+
+* The AbstractDB requires setting OMNIVECTOR_CONFIG env variable to a config file (an example is in config.yaml)
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
