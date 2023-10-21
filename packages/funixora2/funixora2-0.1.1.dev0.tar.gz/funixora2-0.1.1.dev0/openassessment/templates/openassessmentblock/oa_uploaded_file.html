@@ -1,0 +1,61 @@
+{% spaceless %}
+{% load i18n %}
+
+{% if file_upload_type %}
+    {% if header %}
+        <header class="{{ class_prefix }}__display__header">
+            <h5 class="{{ class_prefix }}__display__title">
+                {{ header }}
+            </h5>
+        </header>
+    {% endif %}
+    <div class="{{ class_prefix }}__display__file {% if not file_urls %}is--hidden{% endif %} submission__{{ file_upload_type }}__upload" data-upload-type="{{ file_upload_type }}">
+        <div class="submission__answer__files">
+        {% for file in file_urls %}
+            <div class="submission__answer__file__block submission__answer__file__block__{{ forloop.counter0 }}" {% if not file.download_url %} deleted {% endif %}>
+            {% if file.download_url %}
+                    <a href="{{ file.download_url }}" class="download-submission-button submission__answer__file submission--file" target="_blank">
+                        <strong style="padding: 0 10px;">{% trans "Download Submission" %}</strong>
+                    </a>
+                {% if enable_delete_files and file.show_delete_button %}
+                    <button class="delete__uploaded__file" filenum="{{ forloop.counter0 }}" aria-label="Delete {{ file.description }} ({{file.name}})">
+                        Delete File
+                    </button>
+                {% endif %}
+            {% endif %}
+            </div>
+        {% endfor %}
+        </div>
+        {% if show_warning %}
+            <p class="submission_file_warning">{% trans "Caution: These files were uploaded by another course learner and have not been verified, screened, approved, reviewed, or endorsed by the site administrator. If you access the files, you do so at your own risk.)" %}</p>
+        {% endif %}
+    </div>
+{% endif %}
+
+{% endspaceless %}
+
+<style>
+    .download-submission-button {
+        width: 220px;
+        height: 48px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(32, 21, 255) !important;
+        border: 2px solid rgb(32, 21, 255) !important;
+        cursor: pointer;
+        border-radius: 4px;
+        background: transparent;
+        transition: .2s;
+    }
+
+    .download-submission-button:hover {
+        background: rgb(23, 26, 83);
+        border-color: #fff !important;
+        color: #fff !important;
+        text-decoration: none !important;
+        border-radius: 4px !important;
+    }
+
+
+</style>

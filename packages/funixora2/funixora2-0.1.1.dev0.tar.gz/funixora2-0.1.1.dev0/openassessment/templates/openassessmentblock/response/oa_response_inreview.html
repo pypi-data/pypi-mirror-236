@@ -1,0 +1,72 @@
+{% load i18n %}
+<div aria-labelledby="oa_response_{{ xblock_id }}" id="oa_response_{{ xblock_id }}_content">
+    <h5 id="submission-results-title"><strong>{% trans "Submission Results" %}</strong></h5>
+
+    {% include "openassessmentblock/components/submission-state.html" %}
+        
+    <div id="submission-in-review">
+        {% include "openassessmentblock/oa_uploaded_file.html" with file_upload_type=file_upload_type file_urls=file_urls header=translated_header class_prefix="submission__answer" including_template="response_submitted" xblock_id=xblock_id %}
+    </div>
+</div>
+
+<style>
+    #submission-results-title {
+        font-size: 28px;
+        color: #0b0b0b;
+        padding: 0px !important;
+        margin-bottom: 16px;
+    }
+
+    #submission-results-title {
+        font-size: 28px;
+        color: #0b0b0b;
+        padding: 0px !important;
+        margin-bottom: 16px;
+    }
+
+    #submission-state {
+        margin: 0 0 40px 0;
+        height: 56px;
+        width: 100%;
+        max-width: 1100px;
+        border: 1px solid rgb(128, 128, 128);
+        box-shadow: 0px 1px 2px 0px #0B0B0B0F, 0px 1px 3px 0px #0B0B0B1A;
+        border-radius: 4px;
+        display: flex;
+      }
+      
+      #submission-state p:first-child {
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+      
+      #submission-state.submission-did-not-pass p:first-child {
+        background-color: #d0322a;
+      }
+      
+      #submission-state.submission-passed p:first-child {
+        background-color: #34835d;
+      }
+      
+      #submission-state.submission-in-review p:first-child {
+        background-color: #142580;
+      }
+      
+      #submission-state p:first-child svg {
+        width: 25px;
+        color: white;
+        margin: 0;
+      }
+      
+      #submission-state p:last-child {
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        font-size: 16px;
+        color: #0b0b0b;
+        margin: 0;
+      }
+</style>
