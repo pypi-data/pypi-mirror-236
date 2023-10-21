@@ -1,0 +1,8 @@
+*.pyc
+.virtualenv
+.coverage
+.tox
+build/
+dist/
+avmesos_cli.egg-info/
+avmesos.egg-info
