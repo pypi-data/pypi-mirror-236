@@ -1,0 +1,12 @@
+hash_ocr/__init__.py,sha256=gL0DLfxOsmiZq3RHVPhFgcbP1PIkFGQJVlT6lr82B6M,180
+hash_ocr/ocr.py,sha256=8Qbg272JobskIEWOm6NI_-tht4cHEOR2__a1z2BCgn8,2935
+hash_ocr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hash_ocr/model/digit11.png,sha256=baiO-Trv0wqewzay6hdQVXt8WVZJ56eMAp3Wk3NbVT8,3574
+hash_ocr/model/digit11.txt,sha256=FKIaY4pVCqPlfEyNElIs10J2-cMZGo6gZEyeMbzRSzc,50
+hash_ocr/model/digits.png,sha256=Hw9XAehkDCyZshYFjmPUQHXV6YgKhsSSrELJNUlJiMg,6804
+hash_ocr/model/digits.txt,sha256=FKIaY4pVCqPlfEyNElIs10J2-cMZGo6gZEyeMbzRSzc,50
+hash_ocr-1.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+hash_ocr-1.0.1.dist-info/METADATA,sha256=4LA_8l58KLJ8T3qTNDEUe7XTwKhpeWSikG-SFkcdM6k,1495
+hash_ocr-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+hash_ocr-1.0.1.dist-info/top_level.txt,sha256=8fQt-FKc1yDQjGxEx_m_Y8vltLO_ZuCjghqNNOSBmwo,9
+hash_ocr-1.0.1.dist-info/RECORD,,
