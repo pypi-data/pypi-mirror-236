@@ -1,0 +1,2 @@
+[console_scripts]
+flipper-raw-rfid = flipper_raw_rfid.cli:main
