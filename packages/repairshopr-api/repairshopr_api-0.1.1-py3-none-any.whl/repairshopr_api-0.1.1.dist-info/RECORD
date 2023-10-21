@@ -1,0 +1,10 @@
+repairshopr_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+repairshopr_api/base/model.py,sha256=1KnUFx9VsZMHBQFfa-ccZoYmta_fe5GoRwtHI-JyjSU,1507
+repairshopr_api/client.py,sha256=_KC5PytLRcWYd4HOg0W7UeHy9inSNaPW6uwmgcaYqOs,3620
+repairshopr_api/config.py,sha256=KVPtZWVZ0i11yB9bgnbt1XlyV_SKfBGUTNNAVmbutMU,5009
+repairshopr_api/models/__init__.py,sha256=V80I-aISyPuZToXGOFvOMnVJBCP82xyMu5bw2GEzWTM,65
+repairshopr_api/models/product.py,sha256=LCj1jNe7u2zAB4PYn56CRFP3u3vGT-hYrvyAnVdUIuo,1014
+repairshopr_api/models/ticket.py,sha256=_5Ah6zCutHXKz2f3FZyCJ6UqPJK2xgDjkvBW9x_cbtE,1212
+repairshopr_api-0.1.1.dist-info/METADATA,sha256=VvR2AqYy_jLPooMPijda8f0NcEW0Jw_Cd9pnxeLwENY,521
+repairshopr_api-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+repairshopr_api-0.1.1.dist-info/RECORD,,
