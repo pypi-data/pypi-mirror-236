@@ -1,0 +1,13 @@
+odh_core-0.1.29.dist-info/METADATA,sha256=l1W1TkH-GCKwv4zmljp-d2qv7t9GU70SBYpb7BZ-wSw,1193
+odh_core-0.1.29.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+odh_core/__init__.py,sha256=iIOo7fs1KdWYBQDuhrP7OkWE84_1DCHyx20Mm4U6q70,383
+odh_core/akv.py,sha256=SBJVc7uqKALrxzty_dpnl94HGs3nID3qaj2XDolZGGA,3433
+odh_core/emailclient.py,sha256=eXowBwyAs26xy7HmArTCXY8edLZouGPnMlBA8bBg8F4,1765
+odh_core/graphql_client.py,sha256=DuszLmQ8whroq3dw4JaF2_PXzaM8lDO2_w1eojfPGDI,5755
+odh_core/logger.py,sha256=__Fx2RwZleo06aEePszhy03rX_aQZ3VU3ylW1EjQ_M4,2056
+odh_core/logging_settings.py,sha256=nlqbNNW8f0CVRaUTMwjEfBQKmS7U5b_UXI4yoR0zFm8,4785
+odh_core/ms_odata.py,sha256=Y5mXwdz8ZDyqkF_JHnN48bDMQWim-PEywI3VIvGvV_M,15014
+odh_core/phonenumber.py,sha256=_pfkVsrQ2VYJ4I87ImzqSx0x-RJfl3dK8Lny6i2-wH0,2101
+odh_core/ssn.py,sha256=B7FIbdlZu70jHMHH3mRoim_EcS1xB33eaeuAI8qFk_c,1189
+odh_core/twilio.py,sha256=OZ-WqdJNpB4aPqyZB7TmprnH2jh4gtHzxTG3uVDUBIo,2817
+odh_core-0.1.29.dist-info/RECORD,,
