@@ -1,0 +1,15 @@
+dspinlock/__init__.py,sha256=xcUyfpJKI7hsFtNm54sj-76yoDUoEWTUGuyKc-5VA9U,1435
+dspinlock/base.py,sha256=nvwqgl7hc_kOyThvseJZZWA5M9dfJkU7cYN6mK93jBs,17948
+dspinlock/consts.py,sha256=tXFSPjO-IMFQc_9EjjXiu0OdYWwtsoLgP_sFx1bxNIc,421
+dspinlock/exceptions.py,sha256=zjwckpbpbWBG3Y8q5s2qll61Wwm-fViGm7Vn1Hd-YkM,943
+dspinlock/hash_dspinlock.py,sha256=Dsv7AaA5X3GZxhbfkCBow9UIOfB1wwDE1LvSdznFbkY,3788
+dspinlock/utils.py,sha256=PEJMIgUVcRwQp7Lg5RoVrDhi6oLd66qWrj9yPnY0IXA,1727
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=YEprI0qdixIuipwopcdlr3YBBgLcf9VfVhCbxBlKKRw,2759
+tests/test_atomic_isolation.py,sha256=_6LHrq0bthKEhgwB5SLdoxfpsUD2ebDJS58SRyapCmI,3486
+tests/test_mutex_state_deletion.py,sha256=q8J5XfjiGiJvTj5CNMSrHSpoztS5tPxnc5KrXWrVz6Y,427
+py_dspinlock-0.2.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py_dspinlock-0.2.1.dist-info/METADATA,sha256=sPTo0UzAphX2MLF16E0tgP2us0BrvdkNd-OhkG5S5WY,6922
+py_dspinlock-0.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+py_dspinlock-0.2.1.dist-info/top_level.txt,sha256=Lh-NVIdhhekMT_1UuR00EmkQY6zVoj1Qu_0d647xHHc,16
+py_dspinlock-0.2.1.dist-info/RECORD,,
