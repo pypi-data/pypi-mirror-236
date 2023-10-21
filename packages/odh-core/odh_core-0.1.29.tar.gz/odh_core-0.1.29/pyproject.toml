@@ -1,0 +1,93 @@
+[tool.pdm.version]
+source = "file"
+path = "odh_core/__init__.py"
+
+[tool.pdm.build]
+excludes = [
+    "tests/*",
+    "test*",
+    "*.log",
+]
+
+[tool.pyright]
+reportGeneralTypeIssues = false
+reportOptionalMemberAccess = false
+reportOptionalSubscript = false
+reportUnusedImport = false
+
+[tool.ruff]
+ignore = [
+    "ANN101",
+    "ANN201",
+    "D100",
+    "D102",
+    "D103",
+    "D203",
+    "D205",
+    "D213",
+    "D417",
+    "E501",
+    "ERA001",
+    "FBT",
+    "G004",
+    "N813",
+    "RET505",
+    "T201",
+    "TRY003",
+]
+select = [
+    "ALL",
+]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.ruff.per-file-ignores]
+"odh_core/__init__.py" = [
+    "F401",
+]
+
+[project]
+authors = [
+    { name = "Jimmy Spets", email = "jimmy.spets@waochurch.com" },
+    { name = "Viktor Freiman", email = "viktor.freiman@waochurch.com" },
+]
+dependencies = [
+    "gql[aiohttp]",
+    "personnummer",
+    "phonenumbers",
+    "python-dotenv",
+    "python-jose[cryptography]",
+]
+description = "ODH Core, helper functions and classes"
+dynamic = []
+name = "odh-core"
+readme = "README.md"
+requires-python = ">=3.10"
+version = "0.1.29"
+
+[project.optional-dependencies]
+dev = [
+    "azure-identity",
+    "azure-keyvault-secrets",
+    "black",
+    "docs-helper",
+    "pytest-asyncio",
+    "pytest",
+    "rinohtype",
+    "ruff",
+    "sphinx-autobuild",
+    "sphinx-rtd-theme",
+    "Sphinx",
+    "sphinxcontrib-autoprogram",
+    "toml",
+]
+
+[project.license]
+text = "MIT"
+
+[build-system]
+build-backend = "pdm.backend"
+requires = [
+    "pdm-backend",
+]
