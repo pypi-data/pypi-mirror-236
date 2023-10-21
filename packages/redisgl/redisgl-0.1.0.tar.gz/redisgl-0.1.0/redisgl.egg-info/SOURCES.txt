@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+redisgl/__init__.py
+redisgl/redisgl.py
+redisgl.egg-info/PKG-INFO
+redisgl.egg-info/SOURCES.txt
+redisgl.egg-info/dependency_links.txt
+redisgl.egg-info/requires.txt
+redisgl.egg-info/top_level.txt
