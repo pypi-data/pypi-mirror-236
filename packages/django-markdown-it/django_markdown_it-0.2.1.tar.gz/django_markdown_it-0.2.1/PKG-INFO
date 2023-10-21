@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: django-markdown-it
+Version: 0.2.1
+Summary: Markdown template filter for Django following CommonMark specs and using markdown-it-py under the hood.
+License: MIT
+Author: Richard
+Author-email: richard@stromer.org
+Requires-Python: >=3.11,<4.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: django (>=4.2.6,<5.0.0)
+Requires-Dist: markdown-it-py (>=3.0.0,<4.0.0)
+Description-Content-Type: text/markdown
+
+# django-markdown-it
+
+Markdown template filter for Django following [CommonMark](https://commonmark.org/) specs and using [markdown-it-py](https://github.com/executablebooks/markdown-it-py) under the hood.
+
+## Installation
+
+1. Install the package:
+
+    ```bash
+    poetry add django-markdown-it
+    ```
+    or using pip:
+    ```bash
+    pip install django-markdown-it
+    ```
+
+2. Add `markdownit` to your `INSTALLED_APPS`:
+
+    ```python
+    INSTALLED_APPS = [
+        # ...
+        'markdownit',
+    ]
+    ```
+
+## Usage
+
+1. Load the template tag library in your template:
+
+    ```django
+    {% load markdownit %}
+    ```
+
+2. Use the `markdownit` filter on a string:
+
+    ```django
+    {{ my_string|markdownit }}
+    ```
+
+
+## Credits
+
+Inspired by [django-markdownify](https://github.com/erwinmatijsen/django-markdownify/).
+
