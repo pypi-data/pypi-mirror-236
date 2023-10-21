@@ -1,0 +1,8 @@
+bugzilla2fedmsg_schema/__init__.py,sha256=QgcufZp1-GbXPZmTeRfwcDkOPsnuDpp7AswloYuenDM,44
+bugzilla2fedmsg_schema/schema.py,sha256=NFmeUa2pXh4lpFgkCZaZZyML1R0Y_gq5cNQNDn1hsqw,15024
+bugzilla2fedmsg_schema/utils.py,sha256=79Yj2rcPnecH3oN4B_jA81sxq2XaVB3mVHfSkMbHyVo,1149
+bugzilla2fedmsg_schema-1.0.0.dist-info/LICENSE,sha256=3GJlINzVOiL3J68-5Cx3DlbJemT-OtsGN5nYqwMv5VE,26530
+bugzilla2fedmsg_schema-1.0.0.dist-info/METADATA,sha256=AytO_verDeAfpIix_fRgsHahTBOLlyzhdLP5FZHH_x0,1626
+bugzilla2fedmsg_schema-1.0.0.dist-info/WHEEL,sha256=vVCvjcmxuUltf8cYhJ0sJMRDLr1XsPuxEId8YDzbyCY,88
+bugzilla2fedmsg_schema-1.0.0.dist-info/entry_points.txt,sha256=LIQzwQoPLosNxj2oHiXoze_0pJFF5oGgiLHictC94iI,157
+bugzilla2fedmsg_schema-1.0.0.dist-info/RECORD,,
