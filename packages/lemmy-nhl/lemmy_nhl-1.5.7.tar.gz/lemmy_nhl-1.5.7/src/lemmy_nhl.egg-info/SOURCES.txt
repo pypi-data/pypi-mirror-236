@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/lemmy_nhl/config.py
+src/lemmy_nhl/draft_bot.py
+src/lemmy_nhl/lemmy_nhl_bot_daemon.py
+src/lemmy_nhl/post_body.py
+src/lemmy_nhl.egg-info/PKG-INFO
+src/lemmy_nhl.egg-info/SOURCES.txt
+src/lemmy_nhl.egg-info/dependency_links.txt
+src/lemmy_nhl.egg-info/entry_points.txt
+src/lemmy_nhl.egg-info/requires.txt
+src/lemmy_nhl.egg-info/top_level.txt

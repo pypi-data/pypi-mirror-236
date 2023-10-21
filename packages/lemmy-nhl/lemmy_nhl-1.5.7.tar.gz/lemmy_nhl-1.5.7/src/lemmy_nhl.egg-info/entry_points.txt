@@ -1,0 +1,4 @@
+[console_scripts]
+lemmy_nhl_config = lemmy_nhl.config:config
+lemmy_nhl_daemon = lemmy_nhl.lemmy_nhl_bot_daemon:daemon
+lemmy_nhl_draft = lemmy_nhl.draft_bot:draft
