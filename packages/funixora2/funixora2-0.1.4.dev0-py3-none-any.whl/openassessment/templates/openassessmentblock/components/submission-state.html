@@ -1,0 +1,81 @@
+{% load i18n %}
+
+{% if score %}
+    <p style="margin: 0 0 8px 0;" id="submission-date" >{% trans "Submission Date" %}: {{student_submission.submitted_at}}</p>
+    {% if  score.points_earned == score.points_possible %}
+        <div id="submission-state" class="submission-passed">
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 criterion-result-icon passed">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+            </p>
+            <p>{% trans "Submission Passed" %}</p>
+        </div>
+    {% else %}
+        <div id="submission-state" class="submission-did-not-pass">
+            <p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 criterion-result-icon failed">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                </svg>
+            </p>
+            <p>{% trans "Submission Did Not Pass" %}</p>
+        </div>
+    {% endif %}
+{% else %}
+    <div id="submission-state" class="submission-in-review">
+        <p>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 011.063.852l-.708 2.836a.75.75 0 001.063.853l.041-.021M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-9-3.75h.008v.008H12V8.25z" />
+            </svg>
+        </p>
+        <p>{% trans "Submission In Review" %}</p>
+    </div>
+{% endif %}
+
+<style>
+    #submission-state {
+        margin: 0 0 40px 0;
+        height: 56px;
+        width: 100%;
+        max-width: 1100px;
+        border: 1px solid rgb(128, 128, 128);
+        box-shadow: 0px 1px 2px 0px #0B0B0B0F, 0px 1px 3px 0px #0B0B0B1A;
+        border-radius: 4px;
+        display: flex;
+      }
+      
+      #submission-state p:first-child {
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+      }
+      
+      #submission-state.submission-did-not-pass p:first-child {
+        background-color: #d0322a;
+      }
+      
+      #submission-state.submission-passed p:first-child {
+        background-color: #34835d;
+      }
+      
+      #submission-state.submission-in-review p:first-child {
+        background-color: #142580;
+      }
+      
+      #submission-state p:first-child svg {
+        width: 25px;
+        color: white;
+        margin: 0;
+      }
+      
+      #submission-state p:last-child {
+        display: flex;
+        align-items: center;
+        padding: 0 16px;
+        font-size: 16px;
+        color: #0b0b0b;
+        margin: 0;
+      }
+</style>
