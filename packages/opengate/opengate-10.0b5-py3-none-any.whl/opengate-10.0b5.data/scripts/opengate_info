@@ -1,0 +1,5 @@
+#!python
+from opengate.utility import print_opengate_info
+
+if __name__ == "__main__":
+    print_opengate_info()
