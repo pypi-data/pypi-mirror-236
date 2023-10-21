@@ -1,0 +1,7 @@
+numpy
+bokeh
+pandas
+astropy
+matplotlib
+sphinx
+scipy
