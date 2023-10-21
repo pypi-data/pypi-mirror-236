@@ -1,0 +1,15 @@
+flytekitplugins_spark-1.10.0-py3.11-nspkg.pth,sha256=lkJ-eVJsxHcpr3YkJBzWrgSFWPWyG3DLhUSGmTcjxhg,584
+flytekitplugins/spark/__init__.py,sha256=kVOFPYfesHXD5cFXVvnChwcMNiFCvMccqLb5uDzSB6E,771
+flytekitplugins/spark/agent.py,sha256=63dqDl2QoIEH6hVcXHZCfs26-MLEqPiIsz71hUoEzto,3987
+flytekitplugins/spark/models.py,sha256=ksVCjkmSSEPwFq8kyiGz3nDtp0_XJpnuQUSnxp2kXOw,7019
+flytekitplugins/spark/pyspark_transformers.py,sha256=Y6wNx_5DCFd8LL3iwkifGUtDpUC87w78KuGolnAwMSc,1418
+flytekitplugins/spark/schema.py,sha256=IB8A1gc8c-kGUhBHB1yFysQZXSLMI2v30rmfQESQzWo,3908
+flytekitplugins/spark/sd_transformers.py,sha256=IGDKqyl_HpdcIDs-Tj-H765CyPoDtcFXMkPq2X6AUM0,2609
+flytekitplugins/spark/task.py,sha256=8ikgUSqT4x5f_cd4lUHN9rg9Tdv_c5s1KPaJ6tqiGKw,8294
+flytekitplugins_spark-1.10.0.data/scripts/flytekit_install_spark3.sh,sha256=lmBFeiuet_5eN-2g5Ef4HE6K90ZqpKH06q1PcHXNh2M,1892
+flytekitplugins_spark-1.10.0.dist-info/METADATA,sha256=yzYk11NOSFIVc1FehuyCdy72HZyD8Xl1mHewV1NMC8E,879
+flytekitplugins_spark-1.10.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+flytekitplugins_spark-1.10.0.dist-info/entry_points.txt,sha256=EYD_lLl9cro2mGWtMgknMMjrzcljx14HDKHyUGZQV5Y,49
+flytekitplugins_spark-1.10.0.dist-info/namespace_packages.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_spark-1.10.0.dist-info/top_level.txt,sha256=b2gTzXFHuV5afchaJ28HueRhYzj-8x5Ytr8n2twnAik,16
+flytekitplugins_spark-1.10.0.dist-info/RECORD,,
