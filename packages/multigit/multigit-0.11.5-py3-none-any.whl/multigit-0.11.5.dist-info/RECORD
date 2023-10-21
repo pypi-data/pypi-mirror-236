@@ -1,0 +1,15 @@
+multigit/__init__.py,sha256=bqkPOncQpjnJ2cYwFRm8Tr7jHyuWNfQVPqc2U3meYN0,2056
+multigit/__main__.py,sha256=hN0R2Xb3xzIF9TXMtAtjjs7VoKkTp08CtyTCsjSuEa4,81
+multigit/gitrepo.py,sha256=VlpG1srUof3XxteD1YU3h6-ay1M21mwq_tfikoLQg1Y,7178
+multigit/subrepofile.py,sha256=6NbgIU_X11yO7dJBU5-6bfuVUL9hA0MZLNsvjACsE4U,4069
+multigit/subrepos.py,sha256=yaf-uLpiYx7xjPTnkqucntpTj0Hw-PLU8triHSwWUPg,6562
+multigit/subrepos_schema.yaml,sha256=8EKO7RGwdtGVJgQj3F_Egz3Q9QC7Ui7cgEMTWrpXhow,894
+tests/__init__.py,sha256=FzKgmVA_GjilewI4V-T5V9biDJ2Jzgyja71-GCdXWiI,275
+tests/test_gitrepo.py,sha256=W-fBLKyAs-MYd-sJpRHAezkmCXl9V9M4QBY-CMXJFF4,7638
+tests/test_subrepos.py,sha256=RBTbWXQPFyX89xZZ2jb9Q41J2PbozeYqxBSo9NN8Hw4,2723
+multigit-0.11.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+multigit-0.11.5.dist-info/METADATA,sha256=bv2Fyk0n5jcYZaa720YC_KXZZcuiZU0yHt34FPLB9nQ,1816
+multigit-0.11.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+multigit-0.11.5.dist-info/entry_points.txt,sha256=rWI7tPRF08seKTH6Tj0arQY9NB5DfXLHQ1LN68kpSjk,43
+multigit-0.11.5.dist-info/top_level.txt,sha256=WYkHAY3R2eebxFv1VCYeidXYJGjTjP6_OIBcMnn_NO8,15
+multigit-0.11.5.dist-info/RECORD,,
