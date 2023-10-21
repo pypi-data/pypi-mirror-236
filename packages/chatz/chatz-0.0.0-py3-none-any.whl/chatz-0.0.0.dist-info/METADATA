@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: chatz
+Version: 0.0.0
+Summary: Chatz python library
+Home-page: UNKNOWN
+Author: Chatz Team
+Author-email: silveryfu@gmail.com
+License: Apache License, Version 2.0
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Requires-Dist: openai
+Requires-Dist: pyyaml
+Requires-Dist: numpy
+Requires-Dist: langchain
+
+UNKNOWN
+
+
