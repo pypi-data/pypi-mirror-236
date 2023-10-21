@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+aws3lib/aws.py
+aws3lib/example.py
+aws3lib.egg-info/PKG-INFO
+aws3lib.egg-info/SOURCES.txt
+aws3lib.egg-info/dependency_links.txt
+aws3lib.egg-info/requires.txt
+aws3lib.egg-info/top_level.txt
