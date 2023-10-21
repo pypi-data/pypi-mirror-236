@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+Datascrubber.egg-info/PKG-INFO
+Datascrubber.egg-info/SOURCES.txt
+Datascrubber.egg-info/dependency_links.txt
+Datascrubber.egg-info/requires.txt
+Datascrubber.egg-info/top_level.txt
