@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+djangorestframework_verbose_errors.egg-info/PKG-INFO
+djangorestframework_verbose_errors.egg-info/SOURCES.txt
+djangorestframework_verbose_errors.egg-info/dependency_links.txt
+djangorestframework_verbose_errors.egg-info/requires.txt
+djangorestframework_verbose_errors.egg-info/top_level.txt
+rest_framework_verbose_errors/__init__.py
+rest_framework_verbose_errors/views.py
