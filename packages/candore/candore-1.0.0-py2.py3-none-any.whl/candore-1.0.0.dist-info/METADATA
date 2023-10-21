@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: candore
+Version: 1.0.0
+Author: Jitendra Yejare
+Maintainer: Jitendra Yejare
+License-File: LICENSE
+Keywords: api,data,distutils,hatch,upgrades,validation
+Requires-Dist: aiohttp
+Requires-Dist: asyncio
+Requires-Dist: click
+Requires-Dist: dynaconf
+Requires-Dist: flask
+Provides-Extra: satellite
+Requires-Dist: satellite-can; extra == 'satellite'
+Provides-Extra: test
+Requires-Dist: coveralls; extra == 'test'
+Requires-Dist: mock; extra == 'test'
+Requires-Dist: pytest; extra == 'test'
+Requires-Dist: pytest-cov; extra == 'test'
+Requires-Dist: pytest-mock; extra == 'test'
+Requires-Dist: pytest-variables; extra == 'test'
+Description-Content-Type: text/markdown
+
+# candore
+The Data Integrity Tool
