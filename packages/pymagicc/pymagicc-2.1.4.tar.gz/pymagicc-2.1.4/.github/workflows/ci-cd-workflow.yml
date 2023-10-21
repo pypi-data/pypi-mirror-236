@@ -1,0 +1,232 @@
+name: pymagicc CI-CD
+on:
+  push:
+    branches:
+      - main
+    tags:
+      - 'v*'
+  pull_request:
+
+jobs:
+  linting-and-docs:
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dev dependencies
+      run: |
+        pip install --upgrade --user pip wheel versioneer
+        pip install -e .[dev]
+    # TODO: add `pylint pymagicc`
+    # TODO: add pydocstyle pymagicc
+    - name: Formatting and linters
+      run: |
+        black --check pymagicc tests setup.py --exclude pymagicc/_version.py
+        isort --check-only --quiet pymagicc tests setup.py
+        bandit -c .bandit.yml -r pymagicc
+        flake8 pymagicc tests setup.py
+    - name: Build docs
+      # treat warnings as errors (-W)...
+      # ...but not when being nitpicky (-n)
+      run: |
+          # Docs building with errors unfortunately
+          # sphinx-build -M html docs docs/build -qW
+          sphinx-build -M html docs docs/build
+          # Coverage stuff has changed, problem for another day
+          # (fixed when we switch to auto-generating docs)
+          # sphinx-build -M html docs docs/build -Eqn -b coverage
+          # if [[ -s docs/build/html/python.txt ]]
+          # then
+          #     echo
+          #     echo \"Error: Documentation missing:\"
+          #     echo
+          #     cat docs/build/html/python.txt
+          #     exit 1
+          # fi
+
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        # when we remove wine requirement (i.e. switch to MAGICC7), can add macOS back in
+        # os: ["ubuntu-latest", "macos-latest", "windows-latest"]
+        os: ["ubuntu-latest", "windows-latest"]
+        python-version: ["3.9", "3.10", "3.11"]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install wine (${{ runner.os }})
+      if: startsWith(runner.os, 'Linux')
+      run: |
+        sudo dpkg --add-architecture i386
+        sudo apt-get update
+        sudo apt-get install --no-install-recommends -y wine-stable wine32
+
+    - uses: actions/cache@v3
+      if: startsWith(runner.os, 'Linux')
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/**/setup.py') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - uses: actions/cache@v3
+      if: startsWith(runner.os, 'Windows')
+      with:
+        path: ~\AppData\Local\pip\Cache
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/**/setup.py') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Install test dependencies
+      run: |
+        pip install --upgrade --user pip wheel versioneer
+        pip install -e .[tests]
+
+
+    - name: Test with pytest (${{ runner.os }})
+      if: startsWith(runner.os, 'Linux')
+      env:
+        MIN_COVERAGE: 70  # TODO: put this back up to 95 once we start writing
+      run: |
+          pytest tests -r a --cov=pymagicc --cov-report=xml
+          if ! coverage report --fail-under=${MIN_COVERAGE} --show-missing
+          then
+              echo
+              echo "Error: Test coverage has to be at least ${MIN_COVERAGE}"
+              exit 1
+          fi
+
+    - name: Test with pytest (${{ runner.os }})
+      if: startsWith(runner.os, 'Windows')
+      run: |
+          pytest tests -r a
+
+    - name: Test scripts (${{ runner.os }})
+      run: |
+          python scripts/plot_example.py
+
+
+    - name: Upload coverage to Codecov
+      if: startsWith(runner.os, 'Linux') && ${{ matrix.python-version }} == 3.11
+      uses: codecov/codecov-action@v1
+      with:
+        file: ./coverage.xml
+
+
+  test-notebooks:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: ["ubuntu-latest", "windows-latest"]
+        python-version: ["3.9", "3.10", "3.11"]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Install wine (${{ runner.os }})
+      if: startsWith(runner.os, 'Linux')
+      run: |
+        sudo dpkg --add-architecture i386
+        sudo apt-get update
+        sudo apt-get install --no-install-recommends -y wine-stable wine32
+
+    - uses: actions/cache@v3
+      if: startsWith(runner.os, 'Linux')
+      with:
+        path: ~/.cache/pip
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/**/setup.py') }}
+        restore-keys: |
+          ${{ runner.os }}-notebooks-pip-
+
+    - uses: actions/cache@v3
+      if: startsWith(runner.os, 'Windows')
+      with:
+        path: ~\AppData\Local\pip\Cache
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/**/setup.py') }}
+        restore-keys: |
+          ${{ runner.os }}-notebooks-pip-
+
+    - name: Install notebook dependencies
+      run: |
+        pip install --upgrade --user pip wheel versioneer
+        pip install -e .[tests,notebooks]
+    - name: Test notebooks with nbval
+      if: startsWith(runner.os, 'Linux')
+      run: |
+          pytest notebooks -r a --nbval-lax --sanitize-with tests/notebook-tests.cfg --no-cov
+    - name: Test notebooks strictly
+      if: matrix.python-version == 3.7 && startsWith(runner.os, 'Linux')
+      run: |
+        pytest notebooks -r a --nbval --sanitize-with tests/notebook-tests.cfg --no-cov
+
+  test-install:
+    needs: [linting-and-docs, build, test-notebooks]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: ["ubuntu-latest", "windows-latest"]
+        python-version: ["3.9", "3.10", "3.11"]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install (${{ runner.os }})
+      run: |
+        pip install --upgrade pip wheel versioneer
+        pip install .
+    - name: Test installation
+      run: |
+          python scripts/test_install.py
+
+  deploy-pypi:
+    needs: [test-install]
+    if: startsWith(github.ref, 'refs/tags/v')
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.11"]
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+    - name: Setup python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        pip install --upgrade --user pip wheel
+        pip install -e .[dev]
+    - name: Create package
+      run: python setup.py sdist bdist_wheel --universal
+    - name: Publish package to PyPI
+      uses: pypa/gh-action-pypi-publish@37e305e7413032d8422456179fee28fac7d25187  # v1.1.0
+      with:
+        user: __token__
+        password: ${{ secrets.pypi_password }}
