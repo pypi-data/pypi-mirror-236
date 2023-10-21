@@ -1,0 +1,9 @@
+setup.py
+ppocr_tool.egg-info/PKG-INFO
+ppocr_tool.egg-info/SOURCES.txt
+ppocr_tool.egg-info/dependency_links.txt
+ppocr_tool.egg-info/entry_points.txt
+ppocr_tool.egg-info/requires.txt
+ppocr_tool.egg-info/top_level.txt
+src/ppocrtool/__init__.py
+src/ppocrtool/ppocrtool.py
