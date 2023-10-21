@@ -1,0 +1,256 @@
+name: CI/CD actions
+on:
+  push:
+    branches: [ master, develop ]
+    tags:
+      - 'v*'
+    paths-ignore:
+      - docs/**
+      - README.md
+      - CHANGELOG.md
+
+  pull_request:
+    branches: [ master, develop ]
+    paths-ignore:
+      - docs/**
+      - README.md
+      - CHANGELOG.md
+env:
+  CONAN_VERSION: 1.58.0
+jobs:
+  cpplint:
+    runs-on: ubuntu-22.04
+    name: Check C++ format and style
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: pip3 install -r format.txt
+
+      - name: Run cpplint
+        run: find {tests,drift_bytes}/ -name "*.cc" -o -name "*.h" | xargs cpplint
+
+      - name: Run clang-format
+        run: find {tests,drift_bytes}/ -name "*.cc" -o -name "*.h" | xargs clang-format --dry-run --Werror
+
+  black:
+    runs-on: ubuntu-22.04
+    name: Check PEP-8
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install cpplint
+        run: pip3 install -r format.txt
+      - name: Check
+        run: black --check .
+
+  build_test:
+    needs: [ cpplint, black ]
+    runs-on: ${{ matrix.os }}
+    name: Build and test C++ part
+    strategy:
+      matrix:
+        build_type: [ Debug, Release ]
+        os: [ ubuntu-22.04, windows-2019, macos-12 ]
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Install dependencies
+        run: |
+          pipx install conan==${{ env.CONAN_VERSION }}
+
+      - name: Build tests
+        shell: bash
+        run: |
+          mkdir build
+          cd build
+          conan install ../conan --build=missing -of .
+          TOOLCHAIN_PATH=`find . | grep toolchain`
+          cmake .. -DCMAKE_TOOLCHAIN_FILE=${TOOLCHAIN_PATH} -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
+
+          cmake --build . -j --config ${{ matrix.build_type }}
+
+      - name: Run tests
+        run: |
+          cd build
+          ctest -V --output-on-failure -C ${{ matrix.build_type }}
+
+
+  conan:
+    needs: [ build_test ]
+    name: "Build Conan package and upload it"
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ ubuntu-22.04, windows-2019, macos-12 ]
+        arch: [ x86_64, armv8 ]
+        exclude:
+          - os: windows-2019
+            arch: armv8
+          - os: macos-12
+            arch: armv8
+        include:
+          - arch: x86_64
+            dep_install_cmd: ""
+            conan_tail: " -pr:b default"
+          - arch: armv8
+            dep_install_cmd: "sudo apt-get install g++-aarch64-linux-gnu"
+            conan_tail: " -pr:b default -pr:h ./linux_armv8 -tf=None"
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Install conan
+        run: pipx install conan==${{ env.CONAN_VERSION }}
+
+      - name: Install compiler toolkit
+        run: ${{ matrix.dep_install_cmd }}
+
+      - name: Create profile
+        run: |
+          cd conan
+          conan profile new default --detect
+
+      - name: Set libstdc++11
+        if: matrix.os == 'ubuntu-22.04'
+        run: conan profile update settings.compiler.libcxx=libstdc++11 default
+
+      - name: Build package for stable channel
+        if: github.ref_type == 'tag'
+        env:
+          CONAN_SOURCE_DIR: ${{ github.workspace }}
+        run: |
+          cd conan
+          conan create . drift/stable --build=missing ${{ matrix.conan_tail }}
+
+      - name: Build package for develop channel
+        if: github.ref_type == 'branch'
+        env:
+          CONAN_SOURCE_DIR: ${{ github.workspace }}
+          VERSION_SUFFIX: ${{ github.run_id }}
+        run: |
+          cd conan
+          conan create . drift/develop --build=missing ${{ matrix.conan_tail }}
+
+      - name: Upload package
+        if: ${{ (github.ref == 'refs/heads/develop') || (startsWith(github.event.ref, 'refs/tags/v')) }}
+        run: |
+          conan remote add panda https://conan.panda.technology/artifactory/api/conan/drift
+          conan user -p ${{secrets.CONAN_PASSWORD}} -r panda --skip-auth ${{secrets.CONAN_LOGIN_USERNAME}}
+          conan upload drift_bytes --all --confirm --remote=panda
+
+  pip:
+    name: "Build and test PIP"
+    needs: [ build_test ]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-22.04, windows-2019, macos-12 ]
+        python-version: [ "3.8", "3.9", "3.10", "3.11" ]
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-python@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Build and install
+        run: |
+          pip install -r python/requirements/test.txt
+          pip install --verbose .
+
+      - name: Lint Test
+        run: pylint python/tests
+
+      - name: Run Test
+        run: pytest python/tests
+
+  build_sdist:
+    name: "Build and test SDist"
+    needs: [ pip ]
+    runs-on: ubuntu-20.04
+    if: ${{ (github.ref == 'refs/heads/develop') || (startsWith(github.event.ref, 'refs/tags/v')) }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Prefix version for development version
+        if: ${{ (github.ref == 'refs/heads/develop') }}
+        run: echo "VERSION_SUFFIX=$(echo ${GITHUB_RUN_ID})" >> $GITHUB_ENV
+
+      - name: Install conan
+        run: pipx install conan
+
+      - name: Create sdist package and build binary from it
+        run: |
+          pipx run build --sdist
+
+      - name: Check metadata
+        run: |
+          pipx run twine check dist/*
+
+      - name: Install SDist package
+        run: pip install dist/* --verbose --isolated
+
+      - uses: actions/upload-artifact@v2
+        with:
+          path: dist/*.tar.gz
+
+  build_wheels:
+    name: "Build wheels on ${{ matrix.os }}"
+    needs: [ pip ]
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ ubuntu-22.04, windows-2019, macos-12 ]
+
+    if: ${{ (github.ref == 'refs/heads/develop') || (startsWith(github.event.ref, 'refs/tags/v')) }}
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Prefix version for development version
+        if: ${{ (github.ref == 'refs/heads/develop') }}
+        run: echo "VERSION_SUFFIX=$(echo ${GITHUB_RUN_ID})" >> $GITHUB_ENV
+
+      - uses: actions/setup-python@v3
+
+      - name: Install cibuildwheel
+        run: python -m pip install cibuildwheel==2.14.1
+
+      - name: Build wheels
+        run: python -m cibuildwheel --output-dir wheelhouse
+        env:
+          MACOSX_DEPLOYMENT_TARGET: 10.13
+
+      - name: Verify clean directory
+        run: |
+          git diff --exit-code
+        shell: bash
+
+      - name: Upload wheels
+        uses: actions/upload-artifact@v2
+        with:
+          path: wheelhouse/*.whl
+
+  upload_all:
+    name: "Upload packages if release"
+    needs: [ build_wheels, build_sdist ]
+    runs-on: ubuntu-22.04
+    #if: github.event_name == 'release' && github.event.action == 'published'
+    if: ${{ startsWith(github.event.ref, 'refs/tags/v') }}
+
+    steps:
+      - uses: actions/setup-python@v2
+
+      - uses: actions/download-artifact@v2
+        with:
+          name: artifact
+          path: dist
+
+      - name: "Upload to PyPI"
+        uses: pypa/gh-action-pypi-publish@v1.5.0
+        with:
+          user: ${{ secrets.PYPI_USERNAME }}
+          password: ${{ secrets.PYPI_PASSWORD }}
