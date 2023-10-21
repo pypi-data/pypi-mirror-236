@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: schema-agents
+Version: 0.1.0
+Summary: A schema-based LLM framework for building multi-agent collaborative systems.
+License: MIT
+Requires-Dist: numpy>=1.21.2
+Requires-Dist: jsonschema>=4.0.1
+Requires-Dist: shortuuid>=1.0.1
+Requires-Dist: pydantic<2,>=1.8.2
+Requires-Dist: openai>=0.27.0
+Requires-Dist: loguru
+Requires-Dist: docx
+Requires-Dist: jupyter-client
+Requires-Dist: faiss-cpu
+Requires-Dist: pyyaml
+Requires-Dist: python-docx
+Requires-Dist: tiktoken
+Requires-Dist: anthropic
+Requires-Dist: tenacity
+Requires-Dist: langchain
