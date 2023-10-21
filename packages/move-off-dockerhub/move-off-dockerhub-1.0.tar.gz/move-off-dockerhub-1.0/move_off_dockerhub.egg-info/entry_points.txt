@@ -1,0 +1,2 @@
+[console_scripts]
+move-off-dockerhub = move_off_dockerhub:main
