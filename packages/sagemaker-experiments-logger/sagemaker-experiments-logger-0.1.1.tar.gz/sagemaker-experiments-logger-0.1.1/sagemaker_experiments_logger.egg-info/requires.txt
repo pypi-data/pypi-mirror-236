@@ -1,0 +1,16 @@
+pytorch-lightning>=2.0.0
+sagemaker>=2.190.0
+
+[dev]
+black
+flake8
+isort
+mypy
+pylint
+types-PyYAML
+
+[tests]
+moto==4.2.5
+pytest
+pytest-mock
+pytest-cov
