@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: xiedaxia
+Version: 0.1.5
+Summary: 谢大侠的包
+Home-page: 
+Author: xanxven
+Author-email: 172476115@qq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Example Package
+#在此文件内，可使用markdown撰写对包的详细介绍和说明，便于别人熟悉和使用，在此不再赘述
+各种自定义内容
