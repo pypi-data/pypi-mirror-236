@@ -1,0 +1,13 @@
+reperiods/__init__.py,sha256=Q6LByCpUVOka0w9rfjO0KnxUF1wdJ53f53PtXLVIXwQ,41
+reperiods/_version.py,sha256=x7SWnx8ho-VaDHLtK75ItIuboJ9SpcR_vy2GvXNmU4A,21
+reperiods/datasets.py,sha256=lqPRQQ1HL9Jpww4wfMdjmrmujN8PONfrv6JANrnmedk,1002
+reperiods/export.py,sha256=0bqG_ikIguOTvc4hrTweeMgdBfirU762tbEWVNjQBvc,1292
+reperiods/find_RP.py,sha256=jNQZr885zHO6REReb2zndWpMeMgaPc8K_Yyyc3WQiMQ,6987
+reperiods/plot.py,sha256=I94-NDm-Tc1okSgjoawivFRaM9b1Po6WYu7n3J-Kkkw,3294
+reperiods/representative_periods.py,sha256=99r83mcN2e07ZS-ucVNgbjkLWKhRTIo-MdqkERo02Fs,1755
+reperiods/temporal_data.py,sha256=h9cTc4kbdOHh_RaBA6HYJUxJWMfT-by5lt2VAL4kwr8,4560
+reperiods/utils.py,sha256=jHm2Na-iWxMbgkvU5SrotRWHX6wfNExfR8HNdyWNavk,2297
+reperiods_beta-1.0.1.dist-info/METADATA,sha256=m4_Lp3w6rK1iyAEN6swSZ6qpjs1DrWlxpwBz2HYumlc,4458
+reperiods_beta-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+reperiods_beta-1.0.1.dist-info/top_level.txt,sha256=suqBeNcGyg9MEOJ2peZOQyagGdFbwnHYHmY528UPfkA,10
+reperiods_beta-1.0.1.dist-info/RECORD,,
