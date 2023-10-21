@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+gretta/__init__.py
+gretta/data.py
+gretta/sparse.py
+gretta/tensor.py
+gretta/tensor_ssa.py
+gretta.egg-info/PKG-INFO
+gretta.egg-info/SOURCES.txt
+gretta.egg-info/dependency_links.txt
+gretta.egg-info/requires.txt
+gretta.egg-info/top_level.txt
