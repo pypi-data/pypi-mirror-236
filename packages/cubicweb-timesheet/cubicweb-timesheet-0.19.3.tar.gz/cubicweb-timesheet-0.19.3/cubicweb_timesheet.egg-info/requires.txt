@@ -1,0 +1,4 @@
+cubicweb-calendar>=0.7.0
+cubicweb-rqlcontroller
+cubicweb-workorder>=0.9.0
+cubicweb<3.39.0,>=3.38.0
