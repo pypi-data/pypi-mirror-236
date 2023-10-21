@@ -1,0 +1,4 @@
+docplex
+qiskit
+numpy
+scipy
