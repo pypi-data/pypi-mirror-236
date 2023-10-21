@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: CssSelectorBuilder
+Version: 0.4.3
+Summary: Package that helps you to build compley css selectors
+Author-Email: j.ernst <johannes@ernstcloud.de>
+License: MIT
+Requires-Python: >=3.9
+Provides-Extra: dev
+Requires-Dist: build>=1.0.3; extra == "dev"
+Requires-Dist: twine>=4.0.2; extra == "dev"
+Requires-Dist: pytest>=7.4.2; extra == "dev"
+Description-Content-Type: text/markdown
+
+# CssSelectorBuilder
+
+This Package helps you to build css selectors for selenium or playwright tests.
+
+## Installation
+    pip install CssSelectorBuilder
+
+## Examples
+### Simple Selector
+    import CssSelector from CssSelectorBuilder
+    
+    print(CssSelector().class_name("someClass"))
+
+Results in:
+.someClass
+
+### Combine Selectors
+    import CssSelector from CssSelectorBuilder
+
+    print(CssSelector().class_name("someClass).is_not(CssSelector().id(someId)))
+
+Results in:
+.someClass:not(#someId)
