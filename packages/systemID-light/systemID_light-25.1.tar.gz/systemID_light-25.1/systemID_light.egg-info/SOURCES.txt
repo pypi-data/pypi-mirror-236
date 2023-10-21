@@ -1,0 +1,10 @@
+setup.py
+systemID_light/__init__.py
+systemID_light.egg-info/PKG-INFO
+systemID_light.egg-info/SOURCES.txt
+systemID_light.egg-info/dependency_links.txt
+systemID_light.egg-info/requires.txt
+systemID_light.egg-info/top_level.txt
+systemID_light/core/__init__.py
+systemID_light/model/__init__.py
+systemID_light/model/model.py
