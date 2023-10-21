@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: mcorelib
+Version: 0.3.1
+Summary: 
+Author: Volodymyr Paslavskyy
+Author-email: vpaslavskyy@elitex.systems
+Requires-Python: ==3.9.16
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+

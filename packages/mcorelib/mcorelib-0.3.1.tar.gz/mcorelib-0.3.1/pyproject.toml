@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "mcorelib"
+version = "0.3.1"
+description = ""
+authors = ["Volodymyr Paslavskyy <vpaslavskyy@elitex.systems>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.9.16"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
