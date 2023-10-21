@@ -1,0 +1,29 @@
+name: release-main
+
+on:
+  release:
+    types: [published]
+    branches: [{{ cookiecutter.main_git_branch_name }}]
+
+jobs:
+
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v3
+
+      - name: Set up the environment
+        uses: ./.github/actions/setup-poetry-env
+
+      - name: Export tag
+        id: vars
+        run: echo tag={% raw %}${GITHUB_REF#refs/*/}{% endraw %} >> $GITHUB_OUTPUT
+
+      - name: Build and publish
+        run: |
+          source .venv/bin/activate
+          poetry version {% raw %}${{ steps.vars.outputs.tag }}{% endraw %}
+          poetry build
+          poetry config pypi-token.pypi {% raw %}${{ secrets.PYPI_TOKEN }}{% endraw %}
+          poetry publish
