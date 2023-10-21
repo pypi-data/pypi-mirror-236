@@ -1,0 +1,11 @@
+pybind11
+pytest>=7.4.2
+pytest-cov
+geopandas
+matplotlib
+networkx
+osmnx
+shapely
+contextily
+geojson
+colorama
