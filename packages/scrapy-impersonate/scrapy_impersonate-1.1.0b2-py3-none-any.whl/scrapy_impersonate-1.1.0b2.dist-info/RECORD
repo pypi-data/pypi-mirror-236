@@ -1,0 +1,8 @@
+scrapy_impersonate/__init__.py,sha256=KCZsZrDAm8cATvnAfLgukrif3qZJ9U4uuPwmuIJiWwI,177
+scrapy_impersonate/handler.py,sha256=37VcThVTktnXX1cnZBznamG9Ssoy-mq4manA0kw1xqs,2485
+scrapy_impersonate/parser.py,sha256=UGTalVPLwIKRre4YTsC9EZIwxWjT2qwFmXjTkGeDbLQ,2977
+scrapy_impersonate-1.1.0b2.dist-info/LICENSE,sha256=c4ZxZ0k8x_d9SGnGnPwhgg0BNvZMMXlyx2CeqO_EJhs,1065
+scrapy_impersonate-1.1.0b2.dist-info/METADATA,sha256=2knt-P_b28HFHEhw867nTlrZNPf-o-bVmq4QfMPTgU0,5145
+scrapy_impersonate-1.1.0b2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+scrapy_impersonate-1.1.0b2.dist-info/top_level.txt,sha256=piHRkPz7fClX-oiZ2nUVnTN2IKLOF5veSxly_YY67vs,19
+scrapy_impersonate-1.1.0b2.dist-info/RECORD,,
