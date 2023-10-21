@@ -1,0 +1,11 @@
+README.md
+setup.py
+WeTransferTool/__init__.py
+WeTransferTool/main_module.py
+WeTransferTool/wetransfertool.py
+WeTransferTool.egg-info/PKG-INFO
+WeTransferTool.egg-info/SOURCES.txt
+WeTransferTool.egg-info/dependency_links.txt
+WeTransferTool.egg-info/entry_points.txt
+WeTransferTool.egg-info/requires.txt
+WeTransferTool.egg-info/top_level.txt
