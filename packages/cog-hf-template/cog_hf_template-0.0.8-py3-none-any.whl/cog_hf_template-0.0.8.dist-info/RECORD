@@ -1,0 +1,13 @@
+cog_hf_template/__init__.py,sha256=ruhmL4-y-fuT_WnXBpOLDZZxJbRb5PnjM735HQVDHtA,3304
+cog_hf_template/cli.py,sha256=7g0a8-GCzh_ZpUG5oXlS0qNnTVT39PLK_j3moQxHIzU,201
+cog_hf_template/download_utils.py,sha256=8Km3jD6WMxW7W7So8w2sH06e7k1WQLSRRy0G3YTkkoY,8907
+cog_hf_template/hf.py,sha256=QO-kMwzygqhjk4o4AQqIC91p45-SgPuEqxre7JBpXa0,2648
+cog_hf_template/main.py,sha256=U_T7iQevPvDZUYafG_qu3zbqgUIsr559bgOB4y9A3oM,839
+cog_hf_template/sbert.py,sha256=ezcIOm9nsIeSEojDRNugHartoieIgyZaMTPCiWToKhE,1278
+cog_hf_template/text_generation.py,sha256=54QhjswZWhX9HEl-IPECUPXsBdsCUgcl42ZHNdeNvvc,4883
+cog_hf_template-0.0.8.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+cog_hf_template-0.0.8.dist-info/METADATA,sha256=CCRkgSn3ShR4udaATls0q18lXFxU5ZpKKb_qIfT93wE,1594
+cog_hf_template-0.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cog_hf_template-0.0.8.dist-info/entry_points.txt,sha256=-Q0YfQXu1bHRfmrBC2xX8vPdk3TWZMUaEgY6YJU5cRM,61
+cog_hf_template-0.0.8.dist-info/top_level.txt,sha256=AR867qY12YXjcweJNb_ypKTVc-MxplGYy9RSmMo89e4,16
+cog_hf_template-0.0.8.dist-info/RECORD,,
