@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "archive-strategy"
+version = "0.1.2.2"
+description = ""
+authors = ["Pieter Paulussen <pieterpaulussen@code-source.be>"]
+readme = "README.md"
+packages = [{include = "archive_strategy"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+rich = "^13.6.0"
+
+[tool.poetry.scripts]
+archive-strategy = "archive_strategy.main:main"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+freezegun = "^1.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
