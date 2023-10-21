@@ -1,0 +1,3 @@
+[console_scripts]
+dark-and-darker=dark_and_darker.__main__:main
+
