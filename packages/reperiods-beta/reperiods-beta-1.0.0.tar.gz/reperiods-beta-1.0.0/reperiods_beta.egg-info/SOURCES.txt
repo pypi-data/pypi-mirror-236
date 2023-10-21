@@ -1,0 +1,16 @@
+README.md
+setup.py
+reperiods/__init__.py
+reperiods/_version.py
+reperiods/datasets.py
+reperiods/export.py
+reperiods/find_RP.py
+reperiods/plot.py
+reperiods/representative_periods.py
+reperiods/temporal_data.py
+reperiods/utils.py
+reperiods_beta.egg-info/PKG-INFO
+reperiods_beta.egg-info/SOURCES.txt
+reperiods_beta.egg-info/dependency_links.txt
+reperiods_beta.egg-info/requires.txt
+reperiods_beta.egg-info/top_level.txt
