@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: brainles-preprocessing
+Version: 0.0.5
+Summary: TODO.
+License: AGPL-3.0
+Author: Florian Kofler
+Author-email: florian.kofler@tum.de
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: BrainLes-HD-BET (>=0.0.5)
+Requires-Dist: auxiliary (>=0.0.35)
+Requires-Dist: nibabel (>=3.2.1)
+Requires-Dist: numpy (>=1.23.0)
+Requires-Dist: path (>=16.2.0)
+Requires-Dist: pathlib (>=1.0.1)
+Requires-Dist: tqdm (>=4.64.1)
+Requires-Dist: ttictoc (>=0.5.6)
