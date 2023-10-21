@@ -1,0 +1,9 @@
+[console_scripts]
+all=scripts:test_all
+banana=scripts:test_banana
+basic=scripts:test_basic
+gui=scripts:ex_gui
+obs=scripts:ex_obs
+observer=scripts:ex_observer
+potato=scripts:test_potato
+
