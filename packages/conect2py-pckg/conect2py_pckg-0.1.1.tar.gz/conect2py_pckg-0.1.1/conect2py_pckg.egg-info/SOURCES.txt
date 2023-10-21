@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+conect2py_pckg.egg-info/PKG-INFO
+conect2py_pckg.egg-info/SOURCES.txt
+conect2py_pckg.egg-info/dependency_links.txt
+conect2py_pckg.egg-info/top_level.txt
