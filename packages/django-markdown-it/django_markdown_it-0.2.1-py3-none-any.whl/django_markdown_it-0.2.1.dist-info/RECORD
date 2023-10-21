@@ -1,0 +1,12 @@
+markdownit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markdownit/admin.py,sha256=ImQU7Q0SJNTigjgz1o6mizJwFEepZle5JSCBJXheLMw,29
+markdownit/apps.py,sha256=Lb-6z5j5WHAe6nJmMVLWLJxeAH4Aol8Fx5wj0fpLK9Q,152
+markdownit/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markdownit/models.py,sha256=o9OLSqCjxl-f58x1NghptLZ54jnJelBqJUiOVQBmwuQ,27
+markdownit/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markdownit/templatetags/markdownit.py,sha256=ZvUubWIfdmWzeC9vqe_7TCY3OMiodKMbIw4teGXeWrg,262
+markdownit/tests.py,sha256=qWDvA9ZhVCQ1rPbkoFify7o_fDirXMUdYMxF12q3WIM,26
+markdownit/views.py,sha256=F42JXgnqFqK0fajXeutyJJxwOszRxoLMNkIhfc4Z7KI,26
+django_markdown_it-0.2.1.dist-info/METADATA,sha256=sMABhRa9F7v47ZuFcQwwiMQ5SoM1QbSK3AgflzsYkis,1443
+django_markdown_it-0.2.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+django_markdown_it-0.2.1.dist-info/RECORD,,
