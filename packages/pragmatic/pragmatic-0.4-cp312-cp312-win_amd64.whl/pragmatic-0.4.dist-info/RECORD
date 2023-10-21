@@ -1,0 +1,11 @@
+auto_graph/__init__.py,sha256=HLp7PQJEDtNJ_FbYDrN5IxK0af1JfbARRs7iKrmPREo,44
+auto_graph/auto_graph.py,sha256=q76YBpCztssEZhMUmJqH1xnA6572BtEIJ5sBfh8riPQ,1320
+auto_graph/__private/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_graph/__private/auto_graph_cpp.cp311-win_amd64.pyd,sha256=42LIXJlPsc3FwipcYfVr5vc_9hBP0zUcALc3YKrpm4g,15872
+auto_graph/__private/auto_graph_cpp.cp312-win_amd64.pyd,sha256=jktZwPBmyuGMlksGm96BWP8FAyFXVPXPVCkrFyhHvVg,15872
+auto_graph/__private/auto_graph_cpp.pyi,sha256=hZtR3SElGZZUpiZjRs0CZkoucyMvYGmf2PCQ-Fhr0Fs,185
+auto_graph/__private/auto_graph_cpp_d.pyi,sha256=hZtR3SElGZZUpiZjRs0CZkoucyMvYGmf2PCQ-Fhr0Fs,185
+pragmatic-0.4.dist-info/METADATA,sha256=NoCnzkJo47LsaB8GoPiQ9uD7kqo5kK_vMng7msL_RGk,102
+pragmatic-0.4.dist-info/WHEEL,sha256=aDrgWfEd5Ac7WJzHsr90rcMGiH4MHbAXoCWpyP5CEBc,102
+pragmatic-0.4.dist-info/top_level.txt,sha256=jsLFdna5viKPW6XHlCoumuZrzWCaYxc82C3NwfgGdmA,11
+pragmatic-0.4.dist-info/RECORD,,
