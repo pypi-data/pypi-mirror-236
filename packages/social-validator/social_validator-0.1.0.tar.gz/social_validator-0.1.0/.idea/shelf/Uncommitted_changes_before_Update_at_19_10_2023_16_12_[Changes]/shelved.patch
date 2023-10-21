@@ -1,0 +1,74 @@
+Index: social_validator/__init__.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>ID_MIN_LENGTH = 5\r\nID_MAX_LENGTH = 32\r\n\r\n\r\ndef validate_id(s: str) -> bool:\r\n    return s.isascii() and ID_MIN_LENGTH >= len(s) <= ID_MAX_LENGTH\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/social_validator/__init__.py b/social_validator/__init__.py
+--- a/social_validator/__init__.py	(revision 507fe0be020ff004e9301b58797b702812c1ae93)
++++ b/social_validator/__init__.py	(date 1697448933849)
+@@ -1,6 +1,1 @@
+-ID_MIN_LENGTH = 5
+-ID_MAX_LENGTH = 32
+-
+-
+-def validate_id(s: str) -> bool:
+-    return s.isascii() and ID_MIN_LENGTH >= len(s) <= ID_MAX_LENGTH
++__version__ = "0.1.0"
+Index: README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/README.md b/README.md
+new file mode 100644
+--- /dev/null	(date 1697456123966)
++++ b/README.md	(date 1697456123966)
+@@ -0,0 +1,13 @@
++# Social validator
++
++### What's this
++This is a library for validating data from social networks and messengers,
++such as identifiers, usernames, etc.
++
++### Motivation
++The motivation for creating this library was derived from the fact that there
++is no single database to determine the restrictions of each service.
++Accordingly, in order to validate the data correctly, you need to deep down
++into the documentation, but sometimes even these data are not specified in it,
++and you need to test the validation manually. This library is designed to
++solve this problem. *Unfortunately, only for python ;(*
+\ No newline at end of file
+Index: pyproject.toml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/pyproject.toml b/pyproject.toml
+new file mode 100644
+--- /dev/null	(date 1697449682562)
++++ b/pyproject.toml	(date 1697449682562)
+@@ -0,0 +1,21 @@
++[build-system]
++requires = ['hatchling']
++build-backend = 'hatchling.build'
++
++[project]
++name = 'social-validator'
++description = 'Validator for data from social networks & messengers'
++readme = 'README.md'
++requires-python = '>=3.5'
++license = 'MIT'
++authors = [
++    { name = 'Andrew Krylov', email = 'any@lunte.dev' },
++]
++dynamic = ['version']
++
++[project.urls]
++Homepage = 'https://github.com/flacy/social-validator'
++Repository = 'https://github.com/flacy/social-validator'
++
++[tool.hatch.version]
++path = 'social_validator/__init__.py'
+\ No newline at end of file
