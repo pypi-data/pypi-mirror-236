@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <data>
+    <record id="view_calendar_event_form_limit_user_partner_attendants" model="ir.ui.view">
+      <field name="name">Calendar Event Form View Limit User Partners Attendants</field>
+      <field name="model">calendar.event</field>
+      <field name="inherit_id" ref="calendar.view_calendar_event_form" />
+      <field name="arch" type="xml">
+        <field name="partner_ids" position="before">
+          <field name="user_partner_ids" invisible="1"/>
+        </field>
+        <field name="partner_ids" position="attributes">
+          <attribute name="domain">[('id','in',user_partner_ids)]</attribute>
+        </field>
+        <field name="partner_ids" position="attributes">
+          <attribute name="options">{'no_create_edit': True}</attribute>
+        </field>
+      </field>
+    </record>
+  </data>
+</odoo>

@@ -1,0 +1,13 @@
+setup.py
+odoo/addons/calendar_events_limit_user_attendance/README.rst
+odoo/addons/calendar_events_limit_user_attendance/__init__.py
+odoo/addons/calendar_events_limit_user_attendance/__manifest__.py
+odoo/addons/calendar_events_limit_user_attendance/models/__init__.py
+odoo/addons/calendar_events_limit_user_attendance/models/calendar_event.py
+odoo/addons/calendar_events_limit_user_attendance/views/calendar_event.xml
+odoo12_addon_calendar_events_limit_user_attendance.egg-info/PKG-INFO
+odoo12_addon_calendar_events_limit_user_attendance.egg-info/SOURCES.txt
+odoo12_addon_calendar_events_limit_user_attendance.egg-info/dependency_links.txt
+odoo12_addon_calendar_events_limit_user_attendance.egg-info/not-zip-safe
+odoo12_addon_calendar_events_limit_user_attendance.egg-info/requires.txt
+odoo12_addon_calendar_events_limit_user_attendance.egg-info/top_level.txt
