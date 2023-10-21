@@ -1,0 +1,29 @@
+[project]
+name = "CssSelectorBuilder"
+version = "0.4.3"
+description = "Package that helps you to build compley css selectors"
+authors = [
+    { name = "j.ernst", email = "johannes@ernstcloud.de" },
+]
+dependencies = []
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+dev = [
+    "build>=1.0.3",
+    "twine>=4.0.2",
+    "pytest>=7.4.2",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.scripts]
+tests = "pytest -vv tests/unit"
