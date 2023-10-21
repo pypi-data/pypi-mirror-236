@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: akride
+Version: 0.1.1
+Summary: Add a short description here!
+Home-page: https://github.com/pyscaffold/pyscaffold/
+License: Proprietary
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+License-File: LICENSE.txt
+Requires-Dist: importlib-metadata
+Requires-Dist: akridata-akrimanager-v2 <1.20.0.dev0,>=1.19.0.dev0
+Requires-Dist: akridata-dsp <2.12.0.dev0,>=2.11.0.dev0
+Requires-Dist: requests >=2.2
+Requires-Dist: trino >=0.326.0
+Requires-Dist: attrs >=23.1.0
+Provides-Extra: cpu
+Requires-Dist: pyakri-de-filters[cpu] <1.20.0.dev0,>=1.19.0.dev0 ; extra == 'cpu'
+Provides-Extra: gpu
+Requires-Dist: pyakri-de-filters[gpu] <1.20.0.dev0,>=1.19.0.dev0 ; extra == 'gpu'
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-vcr ; extra == 'testing'
+Requires-Dist: mockito ; extra == 'testing'
+
