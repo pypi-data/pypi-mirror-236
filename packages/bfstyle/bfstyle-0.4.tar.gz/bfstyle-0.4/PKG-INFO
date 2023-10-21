@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bfstyle
+Version: 0.4
+Summary: Librería de estilo plots Brain Food
+Home-page: https://github.com/ignacio365/BF_plots
+Author: J. Ignacio del Rio
+Author-email: jorge.delrio@ug.uchile.cl
+License: MIT
+Download-URL: https://github.com/ignacio365/BF_plots/tarball/0.1
+Keywords: brainfood,style,plot
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# BF_plots
+Repositorio Brain Food plots
+
+
