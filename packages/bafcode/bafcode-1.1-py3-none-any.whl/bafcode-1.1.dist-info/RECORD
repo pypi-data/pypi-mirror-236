@@ -1,0 +1,17 @@
+cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/main.py,sha256=jkYgOuI4YRUSltUYx5nkx3aCs0HV26XzxHjI8owM0zQ,1115
+cli/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cli/commands/generate_key.py,sha256=wEMDD-wIMhlaBy65b8EMgu0ZNcPVABel3LMME7nkGlQ,1284
+cli/commands/make.py,sha256=Iw-DODOq2HdKPena5C-Ljmi8HkRLKMkAUXAbKuLfwcM,1638
+cli/commands/setup.py,sha256=UHCzMUey8h-jPWGtXh8sHXXezrUQzWKwaYospYU3qfk,1869
+cli/commands/start.py,sha256=snyMf0xk_ReHiqYgx0SF2DCbjHc1j2Muik5KrIuvW-8,742
+cli/commands/make_context/__init__.py,sha256=Arnw0sxOkuGm27C_0W3W8Jg7CWXeXJYb1VyAvnglAE8,157
+cli/commands/make_context/api_context.py,sha256=4Qjwjr2ptCJkWi3HlYRiAcDsnNr1U6z_Tf3ixHlQfhU,973
+cli/commands/make_context/llms_context.py,sha256=zfsHWqQaZKjuJASDfgz4edy-RwR-3RRiGSUTTQtmoKY,1586
+cli/commands/make_context/prompts_context.py,sha256=RX-yKbsq-lrk9VxHZq6LZ7FKrTbd0b9BtogMp6UcbIc,1104
+cli/commands/make_context/tools_context.py,sha256=QfrTrz1MyrGWWhaQFDJwrmDFHh8Jl9F-Hew0j_zrsAo,829
+bafcode-1.1.dist-info/METADATA,sha256=TnqZ0UYxJtH3SEZYuov3Mf5MAPq7dsmh2GXXkT_3b9M,1364
+bafcode-1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bafcode-1.1.dist-info/entry_points.txt,sha256=c3enOv8IdAM0pIxygPsVnTrs_wOoUSLWEUnEcEiTRUE,42
+bafcode-1.1.dist-info/top_level.txt,sha256=2ImG917oaVHlm0nP9oJE-Qrgs-fq_fGWgba2H1f8fpE,4
+bafcode-1.1.dist-info/RECORD,,
