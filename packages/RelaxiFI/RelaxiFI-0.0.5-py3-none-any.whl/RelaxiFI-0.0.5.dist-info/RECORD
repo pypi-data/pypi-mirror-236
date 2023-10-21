@@ -1,0 +1,10 @@
+RelaxiFI/EOS_CO2.py,sha256=BtM8jsOEgC5QDQrctboD2oPQXFr4vJPKuCtGx-gRTJI,13111
+RelaxiFI/__init__.py,sha256=ICA4jjEUrtmtXD5Yyn6BcLRvXtu-lcTDF7-yQmuLN-Q,313
+RelaxiFI/_version.py,sha256=TQJWp8GVP8DxiN4ybkOjfgTrXY6kELH9wEQncd3XZFQ,280
+RelaxiFI/density_depth_crustal_profiles.py,sha256=nV8dM_9SrePUqe6WX-JGj6aNNMmkD3CmGapw6Jq1fVc,17127
+RelaxiFI/stretching_eqs.py,sha256=2-hX8oPs8QtZ1j48OhWZthQBRQnB6su6FZbbh7V5gZ8,30814
+RelaxiFI-0.0.5.dist-info/LICENSE,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+RelaxiFI-0.0.5.dist-info/METADATA,sha256=HWuM2ToUdCeulWafMi5D4fXpXxPFU3Yc4w_Lq0BBKRM,1859
+RelaxiFI-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+RelaxiFI-0.0.5.dist-info/top_level.txt,sha256=7YtduJbffaarJTFkLwi4gV4vb8GpQuHOUTUTl9jkaac,9
+RelaxiFI-0.0.5.dist-info/RECORD,,
