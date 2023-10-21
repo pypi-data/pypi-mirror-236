@@ -1,0 +1,2 @@
+ferris_cli==2.8.2
+cron-validator
