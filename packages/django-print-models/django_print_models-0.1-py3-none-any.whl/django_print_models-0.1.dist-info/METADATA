@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: django-print-models
+Version: 0.1
+Summary: A Django package to print trimmed down models for easier sharing.
+Home-page: https://github.com/mgalgs/django_print_models
+Author: Mitchel Humpherys
+Author-email: mitch.special@gmail.com
+Keywords: django models print
+Requires-Dist: Django >=3.0
+
