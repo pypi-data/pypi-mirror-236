@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+main/__init__.py
+main/scraper.py
+raku_scraper.egg-info/PKG-INFO
+raku_scraper.egg-info/SOURCES.txt
+raku_scraper.egg-info/dependency_links.txt
+raku_scraper.egg-info/requires.txt
+raku_scraper.egg-info/top_level.txt
+tests/__init__.py
