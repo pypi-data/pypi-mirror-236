@@ -1,0 +1,2 @@
+[console_scripts]
+aurelix = aurelix.cli:main
