@@ -1,0 +1,13 @@
+r2connect/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+r2connect/r2client.py,sha256=LB-QgFjtItzWivDpwBtwPhKO9cqZe7sb13umMClRkmY,8494
+r2connect/exceptions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+r2connect/exceptions/cloudflare/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+r2connect/exceptions/cloudflare/r2.py,sha256=3DFMBtgkrDIQWRJO28J30wLL5iEHF-QL7W1ySVmFrsE,629
+r2connect/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+r2connect/utils/files/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+r2connect/utils/files/filepath.py,sha256=yeTEEUwGFgjOlPxIAXU9YudW4p_TG3rRoXRc8xBy2oU,524
+r2connect-1.1.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+r2connect-1.1.1.dist-info/METADATA,sha256=pb_83vTqJR0S9sqnE1koFNq_8tudc9nWuUO5j4dMH4M,7278
+r2connect-1.1.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+r2connect-1.1.1.dist-info/top_level.txt,sha256=4bE0nIyzAQ_ayqzjPst9SfvnBdWOYKRgXuMINlFqjVE,10
+r2connect-1.1.1.dist-info/RECORD,,
