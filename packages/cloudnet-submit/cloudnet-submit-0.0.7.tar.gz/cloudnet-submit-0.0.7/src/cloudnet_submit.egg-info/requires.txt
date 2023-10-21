@@ -1,0 +1,15 @@
+requests>=2.28.1
+toml>=0.10.2
+
+[dev]
+mypy
+pytest
+pytest-cov
+black
+flake8
+pylint
+autoflake
+isort
+pre-commit
+types-requests
+types-toml
