@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: besser-bot-framework
+Version: 0.1.0
+Summary: BESSER Bot Framework (BBF)
+Author: BESSER-PEARL
+License: MIT
+Project-URL: Documentation, https://besserbot-framework.readthedocs.io/
+Project-URL: Source Code, https://github.com/BESSER-PEARL/BESSER-Bot-Framework
+Project-URL: Bug Tracker, https://github.com/BESSER-PEARL/BESSER-Bot-Framework/issues
+Keywords: bot,framework,chatbot,state-machine,nlp
+Requires-Python: <3.12,>=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: dateparser ==1.1.8
+Requires-Dist: keras ==2.14.0
+Requires-Dist: nltk ==3.8.1
+Requires-Dist: numpy ==1.26.1
+Requires-Dist: pandas ==2.1.1
+Requires-Dist: python-telegram-bot ==20.6
+Requires-Dist: snowballstemmer ==2.2.0
+Requires-Dist: streamlit ==1.27.2
+Requires-Dist: tensorflow ==2.14.0
+Requires-Dist: text2num ==2.5.0
+Requires-Dist: websocket-client ==1.6.4
+Requires-Dist: websockets ==11.0.3
+
+# BESSER Bot Framework
+
+The BESSER Bot Framework (BBF) is part of the BESSER (Building Better Smart Software Faster) project. It aims to make
+the design and implementation of chatbots easier and accessible for everyone.
+
+**Check out the official [documentation](https://besserbot-framework.readthedocs.io/en/latest/).**
+
+## Quick start
+
+### Requirements
+
+- Python 3.11
+- Recommended: Create a virtual environment
+  (e.g. [venv](https://docs.python.org/3/library/venv.html),
+  [conda](https://conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html))
+- Install the [package](https://pypi.org/project/besser-bot-framework/):
+
+```bash
+pip install besser-bot-framework
+```
+
+### Example bots
+
+- [greetings_bot](https://github.com/BESSER-PEARL/BESSER-Bot-Framework/blob/main/besser/bot/test/examples/greetings_bot.py): Very simple bot for the first contact with the framework
+- [weather_bot](https://github.com/BESSER-PEARL/BESSER-Bot-Framework/blob/main/besser/bot/test/examples/weather_bot.py): Introducing entities
+- [telegram_bot](https://github.com/BESSER-PEARL/BESSER-Bot-Framework/blob/main/besser/bot/test/examples/telegram_bot.py): Introducing the [TelegramPlatform](https://besserbot-framework.readthedocs.io/en/latest/wiki/platforms/telegram_platform.html)
