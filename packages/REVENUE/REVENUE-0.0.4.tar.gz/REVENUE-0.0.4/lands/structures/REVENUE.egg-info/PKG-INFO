@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: REVENUE
+Version: 0.0.4
+Summary: online academy building resources
+Description-Content-Type: text/plain
+Requires-Dist: chameleon
+Requires-Dist: flask
+
+
+
+revenue
+
+online academy building resources
+
+priorities:
+	[ ] 
+		import pathlib
+		from os.path import dirname, join, normpath
+
+		THIS_FOLDER = pathlib.Path (__file__).parent.resolve ()
+		STRUCTURE = normpath (join (THIS_FOLDER, "../STRUCTURE"))
+	
+		import revenue
+		revenue.start ({
+			"glob": THIS_FOLDER + "/**/*.r.html"
+		})
