@@ -1,0 +1,28 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "strypy"
+version = "1.0.1"
+description = "Powerful and fundamental string manipulation package"
+readme = "README.rst"
+authors = [{ name = "Thomas Barry", email = "tomb80940@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["string", "strypy", "manipulation"]
+dependencies = ["colorama", "pyperclip"]
+requires-python = ">=3.0"
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[project.urls]
+"Homepage" = "https://github.com/TomTheCodingGuy/StryPy"
+"Repository" = "https://github.com/TomTheCodingGuy/StryPy"
+"Documentation" = "https://strypy.readthedocs.io"
+"Bug Tracker" = "https://github.com/TomTheCodingGuy/StryPy/issues"
