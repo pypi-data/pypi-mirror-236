@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: waterbg
+Version: 1.0.2
+Home-page: https://github.com/szabolcsdombi/pyodide-water-background
+Author: Szabolcs Dombi
+Author-email: cprogrammer1994@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/szabolcsdombi/pyodide-water-background
+Keywords: pyodide,console,background
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+License-File: LICENSE
+Requires-Dist: zengl
+
