@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="psychology_intervention_view_tree" model="ir.ui.view">
+        <field name="name">psychology_intervention - Tree</field>
+        <field name="model">psychology_intervention</field>
+        <field
+            name="inherit_id"
+            ref="ssi_transaction_mixin.mixin_transaction_view_tree"
+        />
+        <field name="mode">primary</field>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//field[@name='company_id']" position="after">
+                    <field name="partner_id" widget="many2one_avatar" />
+                    <field name="case_id" />
+                    <field name="type_id" />
+                    <field name="facilitator_id" widget="many2one_avatar" />
+                    <field name="date" />
+                </xpath>
+            </data>
+        </field>
+    </record>
+
+    <record id="psychology_intervention_view_search" model="ir.ui.view">
+        <field name="name">psychology_intervention - Search</field>
+        <field name="model">psychology_intervention</field>
+        <field
+            name="inherit_id"
+            ref="ssi_transaction_mixin.mixin_transaction_view_search"
+        />
+        <field name="mode">primary</field>
+        <field name="arch" type="xml">
+            <data />
+        </field>
+    </record>
+
+    <record id="psychology_intervention_view_form" model="ir.ui.view">
+        <field name="name">psychology_intervention - Form</field>
+        <field name="model">psychology_intervention</field>
+        <field
+            name="inherit_id"
+            ref="ssi_transaction_mixin.mixin_transaction_view_form"
+        />
+        <field name="mode">primary</field>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//field[@name='user_id']" position="after">
+                    <field name="partner_id" widget="many2one_avatar" />
+                    <field name="case_id" domain="[('partner_id', '=', partner_id)]" />
+                    <field name="type_id" />
+                </xpath>
+                <xpath expr="//group[@name='header_right']" position="inside">
+                    <field name="date" />
+                    <field
+                        name="allowed_facilitator_ids"
+                        widget="many2many_tags_avatar"
+                        invisible="1"
+                    />
+                    <field
+                        name="facilitator_id"
+                        domain="[('id', 'in', allowed_facilitator_ids)]"
+                        widget="many2one_avatar"
+                    />
+                </xpath>
+                <xpath expr="//page[1]" position="before">
+                    <page name="result" string="Result">
+                        <field name="result" />
+                    </page>
+                </xpath>
+            </data>
+        </field>
+    </record>
+
+    <record id="psychology_intervention_action" model="ir.actions.act_window">
+        <field name="name">Psychology Interventions</field>
+        <field name="res_model">psychology_intervention</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create new document
+            </p>
+        </field>
+    </record>
+
+    <menuitem
+        id="menu_psychology_intervention"
+        name="Interventions"
+        parent="ssi_psychology.menu_root_psychology"
+        groups="psychology_intervention_viewer_group"
+        action="psychology_intervention_action"
+        sequence="90"
+    />
+
+</odoo>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2023 OpenSynergy Indonesia
+     Copyright 2023 PT. Simetri Sinergi Indonesia
+     License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="psychology_intervention_type_view_tree" model="ir.ui.view">
+        <field name="name">psychology_intervention_type - Tree</field>
+        <field name="model">psychology_intervention_type</field>
+        <field
+            name="inherit_id"
+            ref="ssi_master_data_mixin.mixin_master_data_view_tree"
+        />
+        <field name="mode">primary</field>
+        <field name="arch" type="xml">
+            <data />
+        </field>
+    </record>
+
+    <record id="psychology_intervention_type_view_search" model="ir.ui.view">
+        <field name="name">psychology_intervention_type - Search</field>
+        <field name="model">psychology_intervention_type</field>
+        <field
+            name="inherit_id"
+            ref="ssi_master_data_mixin.mixin_master_data_view_search"
+        />
+        <field name="mode">primary</field>
+        <field name="arch" type="xml">
+            <data />
+        </field>
+    </record>
+
+    <record id="psychology_intervention_type_view_form" model="ir.ui.view">
+        <field name="name">psychology_intervention_type - Form</field>
+        <field name="model">psychology_intervention_type</field>
+        <field
+            name="inherit_id"
+            ref="ssi_master_data_mixin.mixin_master_data_view_form"
+        />
+        <field name="mode">primary</field>
+        <field name="arch" type="xml">
+            <data>
+                <xpath expr="//page[1]" position="before">
+                    <page name="user" string="Allowed User(s)">
+                        <group name="facilitator" colspan="4" col="2">
+                            <field
+                                name="allowed_facilitator_ids"
+                                string="Facilitators"
+                                widget="many2many_tags_avatar"
+                            />
+                        </group>
+                    </page>
+                </xpath>
+            </data>
+        </field>
+    </record>
+
+    <record id="psychology_intervention_type_action" model="ir.actions.act_window">
+        <field name="name">Psychology Intervention Types</field>
+        <field name="res_model">psychology_intervention_type</field>
+        <field name="view_mode">tree,form</field>
+        <field name="help" type="html">
+            <p class="o_view_nocontent_smiling_face">
+                Create a Data
+            </p>
+        </field>
+    </record>
+
+    <menuitem
+        id="psychology_intervention_type_menu"
+        name="Psychology Intervention Types"
+        parent="ssi_psychology.menu_psychology_configuration"
+        action="psychology_intervention_type_action"
+        groups="psychology_intervention_type_group"
+    />
+
+</odoo>

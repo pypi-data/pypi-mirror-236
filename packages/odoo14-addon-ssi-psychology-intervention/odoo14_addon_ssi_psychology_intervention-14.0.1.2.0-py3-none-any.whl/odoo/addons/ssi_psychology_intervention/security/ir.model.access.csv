@@ -1,0 +1,6 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_psychology_intervention_type_employee,psychology.intervention_type - user,model_psychology_intervention_type,psychology_intervention_type_group,1,1,1,1
+access_psychology_intervention_type_all,psychology.intervention_type - all,model_psychology_intervention_type,,1,0,0,0
+access_psychology_intervention_user,psychology.intervention - user,model_psychology_intervention,psychology_intervention_user_group,1,1,1,1
+access_psychology_intervention_viewer,psychology.intervention - viewer,model_psychology_intervention,psychology_intervention_viewer_group,1,0,0,0
+access_psychology_intervention_all,psychology.intervention - all,model_psychology_intervention,,1,0,0,0
