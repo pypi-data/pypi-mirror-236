@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/dotalib/__init__.py
+src/dotalib/exceptions.py
+src/dotalib.egg-info/PKG-INFO
+src/dotalib.egg-info/SOURCES.txt
+src/dotalib.egg-info/dependency_links.txt
+src/dotalib.egg-info/top_level.txt
+src/dotalib/data/__init__.py
+src/dotalib/data/hero.py
+src/dotalib/entities/__init__.py
+src/dotalib/entities/hero.py
+src/dotalib/entities/match.py
+src/dotalib/entities/team.py
