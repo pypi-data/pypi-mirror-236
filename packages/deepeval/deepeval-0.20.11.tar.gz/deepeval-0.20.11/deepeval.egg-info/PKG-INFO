@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: deepeval
+Version: 0.20.11
+Summary: The open-source evaluation framework for LLMs.
+Home-page: https://github.com/confident-ai.com/deepeval
+Author: Confident AI
+Author-email: jeffreyip@confident-ai.com
+Provides-Extra: bias
+Provides-Extra: toxic
+Provides-Extra: dev
+License-File: LICENSE.md
