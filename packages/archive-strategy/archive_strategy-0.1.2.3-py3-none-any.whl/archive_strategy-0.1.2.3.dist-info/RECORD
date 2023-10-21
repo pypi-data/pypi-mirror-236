@@ -1,0 +1,7 @@
+archive_strategy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+archive_strategy/archiver.py,sha256=FIkWSATteo_ELWw9HkEHxIrh89ZTOOCz2xPGxzWmDs8,7428
+archive_strategy/main.py,sha256=qmBdMLKmCNiYNfuE-dQGdriIqAP-QK3EJs-aHl_KcXY,741
+archive_strategy-0.1.2.3.dist-info/METADATA,sha256=ncUNo5amakjh39ztPxG1TY5PhqYoknzBK91KgLLV51U,451
+archive_strategy-0.1.2.3.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+archive_strategy-0.1.2.3.dist-info/entry_points.txt,sha256=ZKwE_HudtGeUEJB8Zgu2V-hRkKyIVqVnJYUIDpQiYXA,63
+archive_strategy-0.1.2.3.dist-info/RECORD,,
