@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: airtag_bat
+Version: 1.0.0
+Summary: A tool to read AirTag battery status
+Author-email: Henrik zu Jeddeloh <henrik.zujeddeloh@protonmail.com>
+License-File: LICENSE
+Requires-Dist: tabulate
