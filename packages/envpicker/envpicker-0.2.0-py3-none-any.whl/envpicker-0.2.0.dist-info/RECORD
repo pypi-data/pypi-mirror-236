@@ -1,0 +1,10 @@
+envpicker/__init__.py,sha256=NZ18CJDfmBh_x6fvQqt4RsjvqpWQgE_n265LDFw2Bhg,186
+envpicker/logger.py,sha256=8Zl6rQLSV-GQe7GgVI38SP2yMxFtuXSXMoHYtdjQhyg,322
+envpicker/manager/__init__.py,sha256=zCJP7SlvcFITuEsHi9a6RO27VM-s9Hkk21Na0i6MVx8,1135
+envpicker/manager/base.py,sha256=CUYEtLwUTQhrTb2Ee2-Sxg-5C6yyR-6AgHcqNMAJQUU,9354
+envpicker/manager/conda_mngr.py,sha256=Yk1N7wCc1I6k3d9I0NKCqdruw5kwiR1SJ5q_tExxcZs,2858
+envpicker/utils.py,sha256=9EiR9MqxGUYH1qmqPvDcc3h508dlKWsbYOjNBgdkhHo,2261
+envpicker-0.2.0.dist-info/LICENSE,sha256=aYVb8C3G8KJUAOc8rgHA7QAuNOFVtCXP0qQ1JIefmlo,1091
+envpicker-0.2.0.dist-info/METADATA,sha256=p62MnOQ1peHw-TzJOsWPaeBZrK6Mq7NcHtbgIab6WYQ,849
+envpicker-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+envpicker-0.2.0.dist-info/RECORD,,
