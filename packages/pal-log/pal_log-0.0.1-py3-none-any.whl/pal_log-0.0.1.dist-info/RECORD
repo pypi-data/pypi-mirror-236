@@ -1,0 +1,14 @@
+pal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pal/cli.py,sha256=uj7CaKM9jZaA5vY6Zdmz2JqjQURyF_njWBE_lqHpJaM,11683
+pal/db.py,sha256=UdBKBHe43uBsi_fKPMC1ley3xvRwqHXSiwL30tELQDM,1335
+pal/setup.py,sha256=drE06KoCOBOu3ANDEVNxhCvEPrpIW5YCSLvDVEsd-Nw,1414
+pal/models/__init__.py,sha256=MbYCsGxhe2PzWJcTLHh8Uexz6G_J7u9kZ8xuWQ6LXAk,39
+pal/models/entry.py,sha256=KmIjeLnChW5vXtCJed1IHLpC15k4DltpT2Gu6_YC7fo,5090
+pal/utils/dates.py,sha256=WVm_FBWRXB0qMXdA0IFyUnXTRbzlS_MtdYTOZRLVHyo,973
+pal/utils/interact.py,sha256=fS_ZRcM7UJHlWhC1fCq-BTf_cG15SE0FceITpNqiSqw,540
+pal_log-0.0.1.dist-info/LICENSE,sha256=gacKWJ_x7narWIg6nHg5ZQdatgTHJzz1oZoxdNTaciI,1072
+pal_log-0.0.1.dist-info/METADATA,sha256=flvXmTzDTyzU_KxCcsBw1sumoQ4wk2-Y2J3usccrvEE,6142
+pal_log-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pal_log-0.0.1.dist-info/entry_points.txt,sha256=73n1FJzwLBd4iQJDI6pIWdB7pBNqSaoe7Z1fWqf4-rw,37
+pal_log-0.0.1.dist-info/top_level.txt,sha256=8zOOrGRNsHDqp3hX80oB8M21dQ_32hsbMvmdcroDo_E,4
+pal_log-0.0.1.dist-info/RECORD,,
