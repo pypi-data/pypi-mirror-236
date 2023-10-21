@@ -1,0 +1,9 @@
+django_print_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_print_models/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_print_models/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_print_models/management/commands/print_models.py,sha256=ohZ09F7TrG4bTHEtcLdLCvCXzqL-KgVAsGWdrORuH1w,2550
+django_print_models-0.4.dist-info/LICENSE,sha256=hi4BEp9HxWxXWCymGlL1eN57LEdSfR4xQJLMFgX0YYg,1074
+django_print_models-0.4.dist-info/METADATA,sha256=PD6S38IAa1GA-Wbk38fxwWNiEi4Fl1hq4E7SzhsNWzs,4517
+django_print_models-0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_print_models-0.4.dist-info/top_level.txt,sha256=JhmlDUILlh9fi-T3fzrJKCKB3U4-NWQUCrrLoujLwCo,20
+django_print_models-0.4.dist-info/RECORD,,
