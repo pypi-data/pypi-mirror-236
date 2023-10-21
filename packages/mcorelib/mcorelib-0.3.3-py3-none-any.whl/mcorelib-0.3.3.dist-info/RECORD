@@ -1,0 +1,8 @@
+mcorelib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mcorelib/constants.py,sha256=n2el8E8FrfTOwlUcW1F0see21-uF4HwTT_He7JWxFcY,33
+mcorelib/datatypes.py,sha256=M7pv5693KAtayhKkuwnUSSaWg5J1YbmhcXmbX-hw_V0,2511
+mcorelib/mt5client.py,sha256=An9lYEks17dJy37PV49LMCIxoP3BFCv4R8FhLz5BbSg,4792
+mcorelib/utils.py,sha256=vJXP_xKSTCdCSDoVVqfZ5By-94dcdbdRv_Z5xHp99YM,2970
+mcorelib-0.3.3.dist-info/WHEEL,sha256=vxFmldFsRN_Hx10GDvsdv1wroKq8r5Lzvjp6GZ4OO8c,88
+mcorelib-0.3.3.dist-info/METADATA,sha256=putbEQ6CoPulpf4t1go5zIfLPvgWF3pJyQ6wbvrAboY,402
+mcorelib-0.3.3.dist-info/RECORD,,
