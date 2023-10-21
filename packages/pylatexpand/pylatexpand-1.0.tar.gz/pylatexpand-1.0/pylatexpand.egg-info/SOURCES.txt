@@ -1,0 +1,10 @@
+setup.py
+bin/__init__.py
+pylatexpand/__init__.py
+pylatexpand.egg-info/PKG-INFO
+pylatexpand.egg-info/SOURCES.txt
+pylatexpand.egg-info/dependency_links.txt
+pylatexpand.egg-info/entry_points.txt
+pylatexpand.egg-info/top_level.txt
+tests/test_assignment.py
+tests/test_revtex4-2.py
