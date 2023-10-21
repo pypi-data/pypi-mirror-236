@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+handFi.egg-info/PKG-INFO
+handFi.egg-info/SOURCES.txt
+handFi.egg-info/dependency_links.txt
+handFi.egg-info/top_level.txt
