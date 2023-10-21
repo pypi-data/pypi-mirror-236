@@ -1,0 +1,13 @@
+goppy/__init__.py,sha256=h2IXE_G2OCeZXmuDrAFFq543QCP9ZsAK9Xxoi7im_Ws,49
+goppy/core.py,sha256=5oVNLVut8YxBu4o5ffqGuGCd-uZfAPBiYskLUtLV4sE,10786
+goppy/growable.py,sha256=FrYJmDQSzcgOfQ13ZSw-QkmS3Bo0SkLfWHyITr2X06U,2623
+goppy/kernel.py,sha256=tRtIWpS_gW35if91U01NRGqbP3b70YlcTvsOaeq5Sqg,13283
+goppy/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+goppy/test/conftest.py,sha256=QRmJdV3gPlAc6oASqjgu8zyFokU1EkuD_PnieSPEIrM,143
+goppy/test/test_core.py,sha256=VegASfquJoj0SHmcJyxUxxg-lgWYibPaKn8nFcrkqEo,7658
+goppy/test/test_growable.py,sha256=GipFgl_yL0TOb0DV-MSMtH9fMuZ9gwyduppse_bhNco,2935
+goppy/test/test_kernel.py,sha256=wd-FlX6Rp-svSPyl0nkk4UaUu7deRX-0CL2vGDkl23c,6202
+goppy-1.1.1.dist-info/LICENSE,sha256=LX4UkgVn1SD56gUnNpDHWLKGnnVxkMIu1xhIl3U0dGY,1078
+goppy-1.1.1.dist-info/METADATA,sha256=2GWcYsTq96b31KP8xMZjjjVRWnuvdhH2IWkZObiYkBE,3054
+goppy-1.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+goppy-1.1.1.dist-info/RECORD,,

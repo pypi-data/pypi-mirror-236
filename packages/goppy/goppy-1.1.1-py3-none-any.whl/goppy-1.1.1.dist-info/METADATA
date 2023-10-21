@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: goppy
+Version: 1.1.1
+Summary: GopPy (Gaussian Online Processes for Python) is a pure Python module providing a Gaussian process implementation which allows 'to efficiently add new data online.
+Home-page: https://github.com/jgosmann/goppy
+License: MIT
+Keywords: Gaussian processes,machine learning,online learning
+Author: Jan Gosmann
+Author-email: jan@hyper-world.de
+Requires-Python: >=3.9,<3.13
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Dist: numpy (>=1.25.2,<2.0.0) ; python_version < "3.12"
+Requires-Dist: numpy (>=1.26.0,<2.0.0) ; python_version >= "3.12"
+Project-URL: Documentation, https://goppy.readthedocs.io/en/latest/
+Project-URL: Repository, https://github.com/jgosmann/goppy
+Description-Content-Type: text/x-rst
+
+.. image:: https://github.com/jgosmann/goppy/actions/workflows/ci.yml/badge.svg
+  :target: https://github.com/jgosmann/goppy/actions/workflows/ci.yml
+  :alt: CI and release pipeline
+.. image:: https://codecov.io/gh/jgosmann/goppy/branch/main/graph/badge.svg?token=mkgZs4nds5
+  :target: https://codecov.io/gh/jgosmann/goppy
+.. image:: https://img.shields.io/pypi/v/goppy
+  :target: https://pypi.org/project/goppy/
+  :alt: PyPI
+.. image:: https://img.shields.io/pypi/pyversions/goppy
+  :target: https://pypi.org/project/goppy/
+  :alt: PyPI - Python Version
+.. image:: https://img.shields.io/pypi/l/goppy
+  :target: https://pypi.org/project/goppy/
+  :alt: PyPI - License
+
+
+.. image:: https://github.com/jgosmann/goppy/blob/main/doc/_static/goppy-sm.png
+  :alt: GopPy logo
+
+Overview
+--------
+
+GopPy (Gaussian Online Processes for Python) is a pure Python module providing
+a Gaussian process implementation which allows to add new data efficiently
+online. I wrote this module because all other Python implementations I knew did
+not support efficient online updates.
+
+The feature list:
+
+* `scikit-learn <http://scikit-learn.org>`_ compatible interface.
+* Efficient online updates.
+* Prediction of first order derivatives.
+* Estimation of the log likelihood and its derivative.
+* Well documented.
+* `Good test coverage. <https://app.codecov.io/gh/jgosmann/goppy>`_
+* MIT license.
+
+Documentation
+-------------
+
+The documentation can be found at https://goppy.readthedocs.io/en/latest/.
+
+Installation
+------------
+
+You can install GopPy with pip::
+
+    pip install goppy
+
