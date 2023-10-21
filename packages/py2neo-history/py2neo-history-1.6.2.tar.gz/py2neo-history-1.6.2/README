@@ -1,0 +1,17 @@
+This is a copy of the py2neo package to restore the version history that got deleted.
+It's not possible to re-upload a deleted version of a package to PyPI.
+So if you rely on, for example, `py2neo ~= 4.1.0` in your project, you can simply switch to `py2neo-history ~= 4.1.0`.
+If your project works with py2neo 2021.2.3 or above, you can keep using `py2neo` as usual.
+
+Note that this project will not get any updates past version 2021.2.3.
+
+To install, run `pip install py2neo`
+
+For information on installation and usage, visit http://py2neo.org/.
+
+If you need to get in touch (or would like to leave a tip)...
+
+GitHub  : nigelsmall
+Twitter : @technige
+Email   : nigel@nigelsmall.com
+Bitcoin : 13FoUCdhSjcqdnJyoi1QGmhnuBsmYzS6fj
