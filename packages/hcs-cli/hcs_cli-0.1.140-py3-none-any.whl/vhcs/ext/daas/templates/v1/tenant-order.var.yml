@@ -1,0 +1,19 @@
+orderType:
+var:
+  orgId:
+  providerInstanceId:
+  edgeDeploymentId:
+  image:
+    name:
+    sku:
+    os:
+    gen:
+    streamId:
+    markerId:
+    markerName:
+  template:
+    type:
+  application:
+    info:
+
+
