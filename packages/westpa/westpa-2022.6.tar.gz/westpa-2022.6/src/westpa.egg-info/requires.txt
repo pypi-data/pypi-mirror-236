@@ -1,0 +1,33 @@
+numpy>=1.16.0
+scipy>=0.19.1
+h5py>=2.10
+mdtraj>=1.9.5
+pyyaml
+pyzmq
+matplotlib
+blessings
+ipykernel
+tqdm
+pandas
+
+[:python_version < "3.9"]
+tables<3.9
+
+[:python_version >= "3.9"]
+tables
+
+[dev]
+pytest
+pytest-cov
+pytest-rerunfailures
+pytest-timeout
+pre-commit
+
+[mpi]
+mpi4py
+
+[tests]
+pytest
+pytest-cov
+pytest-rerunfailures
+pytest-timeout
