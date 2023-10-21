@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: varconv
+Version: 0.1.0
+Summary: 
+Author: Donren Leung
+Author-email: donren.leung@gmail.com
+Requires-Python: >=3.11,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: biopython (>=1.81,<2.0)
+Requires-Dist: numpy (>=1.26.1,<2.0.0)
+Requires-Dist: pysam (>=0.22.0,<0.23.0)
+Description-Content-Type: text/markdown
+
+# RefAltConv
