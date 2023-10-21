@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: runexp
+Version: 0.0.4
+Summary: Library to run experiment from argparse or config file with slurm
+Project-URL: Homepage, https://github.com/maxime915/runexp
+Project-URL: Bug Tracker, https://github.com/maxime915/runexp/issues
+Author-email: Maxime Amodei <maxime.amodei@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: psutil~=5.9
+Requires-Dist: pydantic~=2.4
+Requires-Dist: pyyaml~=6.0
+Requires-Dist: typing-extensions~=4.8.0
+Description-Content-Type: text/markdown
+
+# runexp
+
+Library to run experiment from argparse or config file with slurm
+
+## Roadmap
+
+- [X] ConfigFile
+- [ ] ArgParse
+  - [X] FIX: empty arguments raises an error
+  - [X] FIX: bool flag with False default are incorrectly ignored
+  - [X] FIX: over quoting some value
+  - [X] FIX: pickle error on lambda function
+- [X] Clarify the behavior inconsistance (see below)
+
+### Behavior inconsistance
+
+What should happen if no runexp option is given ?
+
+For the ArgParse case, it makes sense that if no RunExp option is found, nothing happens : RunExp should be minimally intrusive and avoid breaking everything, so args are returned as if RunExp did nothing.
+
+For the ConfigFile case, it is not possible to run the program without RunExp as this is the way to parse the config. If it makes sense to re-use the function, it should be defined elsewhere and the decorator should be used as a function.
+
+Moreover, because the ArgParse function needs to return the namespace, it should exit the process on a dry run, while the ConfigFile currently doesn't.
