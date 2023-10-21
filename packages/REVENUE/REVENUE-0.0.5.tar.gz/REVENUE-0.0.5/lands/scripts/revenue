@@ -1,0 +1,23 @@
+#!/bin/python3
+
+MODULE_NAME = "revenue"
+SCRIPT_NAME = "clique.py"
+
+import sys
+
+from importlib.machinery import SourceFileLoader
+import os
+
+def START (MODULE_PATH):
+    if (MODULE_PATH [ 0 ] == "/"):
+        FULL_PATH = MODULE_PATH;
+    else:
+        DIR_PATH = os.path.dirname (os.path.realpath (__file__))
+        FULL_PATH = os.path.normpath (DIR_PATH + "/" + MODULE_PATH)
+
+    return SourceFileLoader (FULL_PATH, FULL_PATH).load_module ()
+
+#
+#	distribution path is this:
+#
+START (f"../{ MODULE_NAME }/{ SCRIPT_NAME }")

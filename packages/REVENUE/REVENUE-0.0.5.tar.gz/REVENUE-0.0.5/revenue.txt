@@ -1,0 +1,19 @@
+
+
+<h1>revenue</h1>
+<p>online academy building resources</p>
+
+<code>
+	[tcsh] pip install revenue
+</code>
+
+
+Started from the shell, 
+"revenue" presents files in the 
+current working directory (cwd) 
+that have extension "r.html".
+
+<code>
+	[tcsh] revenue
+</code>
+
