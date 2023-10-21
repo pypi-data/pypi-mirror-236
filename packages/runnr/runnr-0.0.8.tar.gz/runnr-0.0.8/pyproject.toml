@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "runnr"
+version = "0.0.8"
+authors = [
+  { name="Aniket Biswas", email="contact.aniket.biswas@gmail.com" },
+]
+description = "runnr is an open-source command line interface tool for building, compiling & executing different programs & files."
+readme = "README.txt"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Home Page" = "https://github.com/thesmartaniket/runnr"
