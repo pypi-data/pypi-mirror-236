@@ -1,0 +1,16 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/argparser.py,sha256=yebKcpBd4D65RbGhVI4XBo48KX2eKIRBowEUedLW8cw,633
+app/db.py,sha256=8FSfU1bzCg9HQ-9Ya8LhHIagPNqZHHi7BCb3E8oPCkw,574
+app/lucky.py,sha256=XzjGf_8IDGHU7Qu5ndy6ONlM4lHSjz6as-jic_MH8Eg,2145
+app/queries.py,sha256=5uKtG7s88IOoJRpTvkIS_TDF6LUswPOd-Pf0ZRqVMzI,596
+src/__init__.py,sha256=y6qNuNT4O6YG7xgNNnNDlNbkzyjtgcxaAIv9QeZnWmE,35
+src/main.py,sha256=KeJ1EktixbCIuLKT1pl4Yzj4Pd2oEnuo_snyM8G7egQ,714
+src/app/argparser.py,sha256=yebKcpBd4D65RbGhVI4XBo48KX2eKIRBowEUedLW8cw,633
+src/app/db.py,sha256=8FSfU1bzCg9HQ-9Ya8LhHIagPNqZHHi7BCb3E8oPCkw,574
+src/app/lucky.py,sha256=XzjGf_8IDGHU7Qu5ndy6ONlM4lHSjz6as-jic_MH8Eg,2145
+src/app/queries.py,sha256=5uKtG7s88IOoJRpTvkIS_TDF6LUswPOd-Pf0ZRqVMzI,596
+urluckynum-1.2.3.dist-info/METADATA,sha256=0t-1GMi-bNO5t_X6LqQgD3R8Z1s6greC1FAguUFe3Ac,302
+urluckynum-1.2.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+urluckynum-1.2.3.dist-info/entry_points.txt,sha256=YRvvGrwoWkWvPoBL8dzW1QBf06ChONyfBmECPT_rmEw,45
+urluckynum-1.2.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+urluckynum-1.2.3.dist-info/RECORD,,
