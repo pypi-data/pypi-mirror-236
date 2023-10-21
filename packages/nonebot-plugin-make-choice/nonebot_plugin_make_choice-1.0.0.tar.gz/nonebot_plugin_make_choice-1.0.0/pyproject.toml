@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "nonebot-plugin-make-choice"
+version = "1.0.0"
+description = "选择困难症？Bot帮你选！"
+authors = ["SherkeyXD <253294679@qq.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "nonebot_plugin_make_choice"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+nonebot2 = "^2.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
