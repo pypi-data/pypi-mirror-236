@@ -1,0 +1,66 @@
+readme.md
+setup.py
+.idea/.gitignore
+.idea/deployment.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/okx_trade.iml
+.idea/remote-mappings.xml
+.idea/vcs.xml
+.idea/inspectionProfiles/Project_Default.xml
+.idea/inspectionProfiles/profiles_settings.xml
+example/1. 现货账户.py
+example/10. 现货交易-市价单平仓.py
+example/11. 永续账户.py
+example/12. 永续行情-交易规则信息.py
+example/13. 永续行情-实时价格.py
+example/14. 永续行情-历史K线.py
+example/15. 永续交易-基础订单.py
+example/16. 永续交易-价格与数量.py
+example/17. 永续交易-限价单开仓.py
+example/18. 永续交易-市价单开仓.py
+example/19. 永续交易-限单价平仓.py
+example/2. 现货行情-交易规则信息.py
+example/20. 永续交易-市价单平仓.py
+example/3. 现货行情-实时价格.py
+example/4. 现货行情-历史K线.py
+example/5. 现货交易-基础订单.py
+example/6. 现货交易-价格与数量.py
+example/7. 现货交易-限价单开仓.py
+example/8. 现货交易-市价单开仓.py
+example/9. 现货交易-限单价平仓.py
+okx_trade/__init__.py
+okx_trade.egg-info/PKG-INFO
+okx_trade.egg-info/SOURCES.txt
+okx_trade.egg-info/dependency_links.txt
+okx_trade.egg-info/requires.txt
+okx_trade.egg-info/top_level.txt
+okx_trade/code/__init__.py
+okx_trade/code/account.py
+okx_trade/code/execute.py
+okx_trade/code/market.py
+okx_trade/code/trade.py
+okx_trade/exception/__init__.py
+okx_trade/exception/_base.py
+okx_trade/exception/param.py
+okx_trade/exception/req.py
+okx_trade/exception/rule.py
+okx_trade/exception/unexpected.py
+okx_trade/okx_spot/__init__.py
+okx_trade/okx_spot/account/__init__.py
+okx_trade/okx_spot/market/__init__.py
+okx_trade/okx_spot/trade/__init__.py
+okx_trade/okx_spot/trade/_base.py
+okx_trade/okx_spot/trade/close.py
+okx_trade/okx_spot/trade/open.py
+okx_trade/okx_spot/trade/order.py
+okx_trade/okx_spot/trade/quantity_and_price.py
+okx_trade/okx_swap/__init__.py
+okx_trade/okx_swap/account/__init__.py
+okx_trade/okx_swap/market/__init__.py
+okx_trade/okx_swap/trade/__init__.py
+okx_trade/okx_swap/trade/_base.py
+okx_trade/okx_swap/trade/close.py
+okx_trade/okx_swap/trade/open.py
+okx_trade/okx_swap/trade/order.py
+okx_trade/okx_swap/trade/quantity_and_price.py
