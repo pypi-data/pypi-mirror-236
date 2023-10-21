@@ -1,0 +1,12 @@
+cellmaps_ppidownloader/__init__.py,sha256=3nXwmKehkKzkLQKzYXlhIqTDVIuMC6ggi8jaRocb27c,353
+cellmaps_ppidownloader/cellmaps_ppidownloadercmd.py,sha256=YiYJRxbOfhaKru9TxumSNXcWUY8v60Mh2I4BSA2btjQ,9181
+cellmaps_ppidownloader/exceptions.py,sha256=z0HAKvxC7yznVypUPfjzH_Leh2Wffd9KkIMP6MCj-1c,141
+cellmaps_ppidownloader/gene.py,sha256=dE0_LC1h7lbBeBTHDO69vdj_imXvLmiudQDnXnjdvCw,20005
+cellmaps_ppidownloader/runner.py,sha256=ZTl5Cxb7BN07fh_b7xgISQ9pQvEljOqLolBStCDM_X4,18490
+cellmaps_ppidownloader-0.1.0a7.data/scripts/cellmaps_ppidownloadercmd.py,sha256=MLaNDA6VbSZF0U0HRgPymwZyvjpMXFe-M9ysFUeDWig,9167
+cellmaps_ppidownloader-0.1.0a7.dist-info/AUTHORS.rst,sha256=iVkZkdnJlfyWViRnr_Fc3KFdkqO2gLP4i3F1qhL1k6g,201
+cellmaps_ppidownloader-0.1.0a7.dist-info/LICENSE,sha256=FQHWQco2CJTN2qRzfm9uxGDv97LH1KrAd1iAmjC9BHk,1102
+cellmaps_ppidownloader-0.1.0a7.dist-info/METADATA,sha256=ghq7mopmAW8W-YHZFGwYhtQRoOuhkwhS_l9QmnzJclA,4558
+cellmaps_ppidownloader-0.1.0a7.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+cellmaps_ppidownloader-0.1.0a7.dist-info/top_level.txt,sha256=zhU8vSPAE8AqMCyuBEewiBDfObewCY-S79NyPQBdIfI,23
+cellmaps_ppidownloader-0.1.0a7.dist-info/RECORD,,
