@@ -1,0 +1,32 @@
+final_repr_spiro_09-27_27932
+
+
+age_years
+training_years
+training hour/week
+height_cm
+weight_kg
+hr_rest
+tre_peak_hr
+HR recovery
+HR reserve
+SMM (Skeletal Muscle Mass)
+PBF (Percent Body Fat)
+
+endpoint: spiro_score
+
+OrderedDict([('NN__activation', 'tanh'), ('NN__dropout', 0.08593578069828035), ('NN__epochs', 187), ('NN__loss', <keras.losses.Huber object at 0x000001778F3EEA00>), ('NN__nhidden1', 26), ('NN__nhidden2', 7), ('NN__optimizer', 'adam'), ('NN__optimizer__learning_rate', 0.4363279136196401), ('NN__use_dropout', True), ('NN__use_hidden2', False), ('NN__verbose', 1)])
+
+Train evaluation: 
+('fit_time', array([4.51644349, 4.62063956, 4.57691908, 4.9520824 , 4.74615288])), mean: 4.682
+('score_time', array([0.06721759, 0.07342315, 0.07700396, 0.08200383, 0.06979775])), mean: 0.074
+('test_r2', array([0.72317532, 0.66932364, 0.67945297, 0.69890335, 0.68970349])), mean: 0.692
+('train_r2', array([0.72764269, 0.74067485, 0.73968758, 0.73727349, 0.73837774])), mean: 0.737
+('test_neg_mean_absolute_error', array([-0.90936977, -0.9561207 , -0.85369428, -0.98948661, -1.02263694])), mean: -0.946
+('train_neg_mean_absolute_error', array([-0.88208793, -0.85887866, -0.87670875, -0.845458  , -0.84352062])), mean: -0.861
+
+R2 test: 
+0.71
+
+MAE test: 
+0.84

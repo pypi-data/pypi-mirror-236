@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: perf-end-Julespyvar
+Version: 0.0.1
+Summary: prediction models for athletes
+Home-page: UNKNOWN
+Author: Bohus Gyula
+Author-email: gyuszkob@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7,<4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: keras ==2.8.0
+Requires-Dist: numpy ==1.22.2
+Requires-Dist: scikit-learn ==1.1.3
+Requires-Dist: tensorflow ==2.8.0
+Requires-Dist: joblib ==1.3.2
+Requires-Dist: setuptools ==57.4.0
+
+This package contains two deep learing algorithms which can predict athletes performance and endurance. For more information please look for our publication titlet: Can Artificial Intelligence tell the best athletic performance from the best physique?
+
+
+
