@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: StreamGauge
+Version: 0.1.0
+Summary: Gauge Chart
+Home-page: https://www.techbyderek.com/
+Author: Derek Evans
+Author-email: derek.evans@deinfoservice.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: streamlit >=0.63
+Requires-Dist: plotly
+Requires-Dist: pathlib
+Provides-Extra: devel
+Requires-Dist: wheel ; extra == 'devel'
+Requires-Dist: pytest ; extra == 'devel'
+Requires-Dist: playwright ; extra == 'devel'
+Requires-Dist: requests ; extra == 'devel'
+
+# StreamGauge
+
+Reusable Streamlit component for quickly deploying Plotly indicator gauge charts.
+
+## Installation instructions
+
+```sh
+pip install StreamGauge
+```
+
+## Usage instructions
+
+```python
+import streamlit as st
+from StreamGauge import StreamGauge
+
+
+container1 = st.container()
+container2 = st.container()
+
+col1, col2, col3 = container1.columns(3)
+
+with col1:
+    StreamGauge(.55, xpLeft=.25, xpRight=.25, ypBot=.55, ypTop=1)
+
+with col2:
+    StreamGauge(.55, xpLeft=0, xpRight=1, ypBot=0, ypTop=1)
+
+with col3:
+    StreamGauge(.55, xpLeft=.25, xpRight=.25, ypBot=.55, ypTop=1)
+
+
+col4, col5, col6 = container2.columns(3)
+
+with col4:
+    StreamGauge(.55, xpLeft=.25, xpRight=.25, ypBot=.55, ypTop=1, gSize="LRG")
+
+with col5:
+    StreamGauge(.55, xpLeft=0, xpRight=1, ypBot=0, ypTop=1, gSize="SML")
+
+with col6:
+    StreamGauge(.55, xpLeft=.25, xpRight=.25, ypBot=.55, ypTop=1, gSize="MED")
+
+```
