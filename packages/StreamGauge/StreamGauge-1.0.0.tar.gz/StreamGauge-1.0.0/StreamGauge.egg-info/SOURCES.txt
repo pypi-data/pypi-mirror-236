@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+StreamGauge/__init__.py
+StreamGauge.egg-info/PKG-INFO
+StreamGauge.egg-info/SOURCES.txt
+StreamGauge.egg-info/dependency_links.txt
+StreamGauge.egg-info/requires.txt
+StreamGauge.egg-info/top_level.txt
+StreamGauge/frontend/build/asset-manifest.json
+StreamGauge/frontend/build/bootstrap.min.css
+StreamGauge/frontend/build/index.html
+StreamGauge/frontend/build/static/js/main.649464f7.js
+StreamGauge/frontend/build/static/js/main.649464f7.js.LICENSE.txt
+StreamGauge/frontend/build/static/js/main.649464f7.js.map
+streamGauge/__init__.py
