@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+discordselfutilzzzy.egg-info/PKG-INFO
+discordselfutilzzzy.egg-info/SOURCES.txt
+discordselfutilzzzy.egg-info/dependency_links.txt
+discordselfutilzzzy.egg-info/requires.txt
+discordselfutilzzzy.egg-info/top_level.txt
+main/__init__.py
