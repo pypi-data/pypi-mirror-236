@@ -1,0 +1,10 @@
+falcon_evaluate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+falcon_evaluate/context_relevancy.py,sha256=Vx5BEtp4U2bkPV5dcvD-DTvUyGaSsu6mYmZ7v7LJBLQ,1079
+falcon_evaluate/evaluate.py,sha256=RqeYu51BhRSY4rbvKywXNq-NFa1OVi-F3IhresKTzEs,11479
+falcon_evaluate/fevaluate_plot.py,sha256=4s2BKWPOEKg8OK9-NCR9xC1iRY_NG1hKqBhmN2SEipc,5976
+falcon_evaluate/fevaluate_results.py,sha256=-HmpNP4X5B6wMmvLXgT2e6gNGV0lIJVFIMF_6vx8PNA,5744
+falcon_evaluate/utils.py,sha256=8e3FaDHxkX3akyZ6dQtbtMWJj8TJrPkkKjTQAUWdBLg,3092
+falcon_evaluate-0.1.8.0.dist-info/LICENSE,sha256=3tnRrXshSL0nyMOUEL5zhAXu3O1JawHte6PJeTzD8Fc,1087
+falcon_evaluate-0.1.8.0.dist-info/METADATA,sha256=ZzeJd2nzZOmzQPIhSos3F5lNWfq3ZvMRPRVb3FCw1sw,12621
+falcon_evaluate-0.1.8.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+falcon_evaluate-0.1.8.0.dist-info/RECORD,,
