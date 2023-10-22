@@ -1,0 +1,2 @@
+[console_scripts]
+medlar = medlar.cli:app
