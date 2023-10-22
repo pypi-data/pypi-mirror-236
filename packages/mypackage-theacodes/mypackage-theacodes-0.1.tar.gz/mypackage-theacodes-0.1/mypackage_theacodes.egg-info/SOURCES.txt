@@ -1,0 +1,8 @@
+setup.py
+mypackage/__init__.py
+mypackage/student_records.py
+mypackage_theacodes.egg-info/PKG-INFO
+mypackage_theacodes.egg-info/SOURCES.txt
+mypackage_theacodes.egg-info/dependency_links.txt
+mypackage_theacodes.egg-info/requires.txt
+mypackage_theacodes.egg-info/top_level.txt
