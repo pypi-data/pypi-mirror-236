@@ -1,0 +1,7 @@
+essence_nlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+essence_nlp/example.py,sha256=kluvt8Pfj8t-TT1lSpeDEBX1Er7P5_C5QcuLso0ImnE,43
+essence_nlp/processing.py,sha256=VHz7rmMqwINayQslVV83DlS1XMd3FnSVV-veDEVHOOM,1906
+essence_nlp-1.0.0.dist-info/METADATA,sha256=3xjkk_4NCEWwhdBoLM98ggFsv3A3bx8KI9wlzGrgvd8,643
+essence_nlp-1.0.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+essence_nlp-1.0.0.dist-info/licenses/LICENSE,sha256=N9V-bf4dqAPcfUvyrE5lt9tnpjF2DVd2J1SueMzoBKM,1067
+essence_nlp-1.0.0.dist-info/RECORD,,
