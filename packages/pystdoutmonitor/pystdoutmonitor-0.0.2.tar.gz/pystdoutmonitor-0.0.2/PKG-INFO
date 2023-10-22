@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pystdoutmonitor
+Version: 0.0.2
+Summary: Launches a distinct thread and calls a user-defined callback each time it captures an output.
+Home-page: UNKNOWN
+Author-email: sevaserg@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+
+UNKNOWN
+
