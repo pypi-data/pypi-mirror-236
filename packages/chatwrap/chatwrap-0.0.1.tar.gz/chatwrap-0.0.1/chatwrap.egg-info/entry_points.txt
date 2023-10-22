@@ -1,0 +1,2 @@
+[console_scripts]
+chatwrap = chatwrap.cli:main

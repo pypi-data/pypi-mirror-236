@@ -1,0 +1,14 @@
+AUTHORS.rst
+LICENSE
+README.md
+setup.cfg
+setup.py
+chatwrap/__init__.py
+chatwrap/chatwrap.py
+chatwrap/cli.py
+chatwrap.egg-info/PKG-INFO
+chatwrap.egg-info/SOURCES.txt
+chatwrap.egg-info/dependency_links.txt
+chatwrap.egg-info/entry_points.txt
+chatwrap.egg-info/not-zip-safe
+chatwrap.egg-info/top_level.txt
