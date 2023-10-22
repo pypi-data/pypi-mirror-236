@@ -1,0 +1,7 @@
+setup.py
+scraper/__init__.py
+starco_scraper.egg-info/PKG-INFO
+starco_scraper.egg-info/SOURCES.txt
+starco_scraper.egg-info/dependency_links.txt
+starco_scraper.egg-info/requires.txt
+starco_scraper.egg-info/top_level.txt
