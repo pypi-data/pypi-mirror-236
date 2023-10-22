@@ -1,0 +1,5 @@
+colour
+deprecated
+pyyaml
+ipython
+platformdirs

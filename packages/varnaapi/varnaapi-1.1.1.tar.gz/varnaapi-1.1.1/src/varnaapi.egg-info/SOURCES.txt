@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+src/varnaapi/__init__.py
+src/varnaapi/config-settings-v1.yml
+src/varnaapi/models.py
+src/varnaapi/param.py
+src/varnaapi/settings.py
+src/varnaapi.egg-info/PKG-INFO
+src/varnaapi.egg-info/SOURCES.txt
+src/varnaapi.egg-info/dependency_links.txt
+src/varnaapi.egg-info/requires.txt
+src/varnaapi.egg-info/top_level.txt
+src/varnaapi/extensions/__init__.py
+src/varnaapi/extensions/pdb.py
