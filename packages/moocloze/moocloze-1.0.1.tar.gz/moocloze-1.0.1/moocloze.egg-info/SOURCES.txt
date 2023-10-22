@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+moocloze.ini
+setup.py
+moocloze/__init__.py
+moocloze/moocloze.py
+moocloze.egg-info/PKG-INFO
+moocloze.egg-info/SOURCES.txt
+moocloze.egg-info/dependency_links.txt
+moocloze.egg-info/top_level.txt
