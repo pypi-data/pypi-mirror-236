@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: crapsolver_python
+Version: 0.0.6
+Summary: crapsolver library for Python
+Home-page: https://github.com/Implex-ltd/crapsolver-python
+Author: 0xF7A4C6
+Author-email: UNKNOWN
+License: APACHE
+Description: solve crap using crapsolver !
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires: requests
