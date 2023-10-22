@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "natural-computing"
+version = "0.6.0"
+description = ""
+authors = ["Gabriel Soares Baptista <gsoaresbaptista@gmail.com>"]
+readme = "README.md"
+packages = [{include = "natural_computing"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+matplotlib = "^3.7.2"
+pandas = "^2.1.0"
+requests = "^2.31.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^2.17.5"
+blue = "^0.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
