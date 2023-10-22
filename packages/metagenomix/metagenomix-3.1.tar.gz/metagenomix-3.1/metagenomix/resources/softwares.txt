@@ -1,0 +1,163 @@
+count	counting
+filtering	preprocessing
+fastqc	preprocessing
+fastp	preprocessing
+cutadapt	preprocessing
+atropos	preprocessing
+hifiadapterfilt	preprocessing
+kneaddata	preprocessing
+mapdamage2	preprocessing
+simka	distance measure
+flash	paired-read merging
+ngmerge	paired-read merging
+pear	paired-read merging
+bbmerge	paired-read merging
+bowtie2	alignment
+minimap2	alignment
+salmon	alignment
+kallisto	alignment
+mapping	alignment
+mapping_filtering	alignment
+mapping_fastp	alignment
+mapping_cutadapt	alignment
+mapping_atropos	alignment
+mapping_kneaddata	alignment
+mapping_flash	alignment
+mapping_ngmerge	alignment
+mapping_pear	alignment
+mapping_bbmerge	alignment
+pysam	alignment
+pysam_megahit	alignment
+pysam_spades	alignment
+pysam_flye	alignment
+pysam_canu	alignment
+pysam_unicycler	alignment
+pysam_miniasm	alignment
+pysam_spades_plasmid	alignment
+pysam_spades_metaviral	alignment
+pysam_spades_bio	alignment
+pysam_prodigal	alignment
+mmseqs2	annotation (protein prediction)
+prodigal	annotation (protein prediction)
+macsyfinder	annotation (macromolecular systems, pathways)
+integronfinder	annotation (integrons)
+search_diamond	annotation (proteins)
+search_hmmer	annotation (proteins)
+prokka	annotation (genome)
+barrnap	annotation (rRNA)
+ccfind	annotation (circularity)
+circlator	annotation (circularity)
+antismash	annotation (antibiotics and secondary metabolite)
+tiara	annotation (eukaryotic sequences)
+metaclade2	annotation (protein domains)
+deeptmhmm	annotation (transmembrane proteins)
+itasser	annotation (proteins)
+itassermtd	annotation (proteins)
+graspx	annotation (genes)
+rundbcan	annotation (CAZy)
+ioncom	annotation (cations)
+diting	annotation (pathways)
+keggcharter	annotation (pathways)
+metacompare	annotation (ARGs)
+deeparg	annotation (ARGs)
+deeparg_predict	annotation (ARGs)
+deeparg_short	annotation (ARGs)
+metamarc	annotation (ARGs)
+karga	annotation (ARGs)
+kargva	annotation (ARGs)
+abritamr	annotation (ARGs)
+abricate	annotation (ARGs)
+amrplusplus2	annotation (ARGs)
+amrfinderplus	annotation (ARGs)
+staramr	annotation (ARGs)
+argsoap	annotation (ARGs)
+hamronization	annotation (ARGs)
+size	annotation (length)
+pooling	coassembly setup
+quast	assembling (quality check)
+spades	assembling
+spades_metaviral	assembling (viruses)
+spades_plasmid	assembling (plasmids)
+spades_bio	assembling (biosynthetic gene clusters)
+megahit	assembling
+plass	assembling (protein-level)
+flye	assembling
+canu	assembling
+unicycler	assembling
+miniasm	assembling
+necat	assembling
+metamic	assembling
+metawrap_quantify	binning
+metawrap_classify	binning
+metawrap_annotate	binning
+metawrap_blobology	binning
+metawrap_reassemble	binning
+metawrap_refine	binning
+metawrap_binning	binning
+metawrap	binning
+yamb	binning
+mycc	binning
+binspreader	binning
+groopm	binning
+vamb	binning
+mycc	binning
+drep	MAG (dereplication)
+skani	MAG (comparison)
+gtdbtk	MAG (quality check)
+checkm_tree	MAG (quality check)
+checkm_treeqa	MAG (quality check)
+checkm_lineageset	MAG (quality check)
+checkm_analyze	MAG (quality check)
+checkm_coverage	MAG (quality check)
+checkm_qa	MAG (quality check)
+checkm_unbinned	MAG (quality check)
+checkm_tetra	MAG (quality check)
+checkm	MAG (quality check)
+checkm2	MAG (quality check)
+busco	MAG (quality check)
+metamarker	profiling
+midas	profiling
+midas2_snps	profiling
+midas2_genes	profiling
+midas2_species	profiling
+midas2	profiling
+metaphlan	profiling
+humann	profiling
+shogun	profiling
+kaiju	profiling
+woltka	profiling
+kraken2	profiling
+bracken	profiling
+metaxa2	profiling
+motus	profiling
+ngless	profiling
+phyloflash	profiling
+closedref	profiling
+squeezemeta	pipeline
+anvio	pipeline
+trf	repeats
+kmerssr	repeats
+divissr	repeats
+eggnogmapper	annotation
+plasmidfinder	annotation (plasmid)
+plasforest	annotation (plasmid)
+plasflow	annotation (plasmid)
+rfplasmid	annotation (plasmid)
+mobsuite	annotation (mobilome)
+genomad	annotation (mobilome)
+strainphlan	strain-level analysis
+lorikeet_call	strain-level analysis
+lorikeet_consensus	strain-level analysis
+lorikeet_genotype	strain-level analysis
+lorikeet	strain-level analysis
+instrain	strain-level analysis
+strainpro	strain-level analysis
+panphlan	strain-level analysis
+strainsifter	strain-level analysis
+viralverify	annotation (virus)
+virstrain	annotation (virus)
+threecac	annotation (virus)
+coconet	annotation (virus)
+deepvirfinder	annotation (virus)
+wish	annotation (virus)
+graphlan	visualization
