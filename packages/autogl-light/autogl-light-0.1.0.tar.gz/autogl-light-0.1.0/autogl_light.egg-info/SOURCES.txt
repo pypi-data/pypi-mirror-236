@@ -1,0 +1,7 @@
+README.md
+setup.py
+autogl_light.egg-info/PKG-INFO
+autogl_light.egg-info/SOURCES.txt
+autogl_light.egg-info/dependency_links.txt
+autogl_light.egg-info/requires.txt
+autogl_light.egg-info/top_level.txt
