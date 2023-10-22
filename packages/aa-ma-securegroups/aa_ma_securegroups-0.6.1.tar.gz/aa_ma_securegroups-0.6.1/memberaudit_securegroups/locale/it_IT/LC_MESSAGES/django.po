@@ -1,0 +1,167 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-10-22 00:31+0200\n"
+"PO-Revision-Date: 2023-09-24 13:14+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Italian <https://weblate.ppfeufer.de/projects/alliance-auth-"
+"apps/aa-member-audit-secure-groups-integration/it/>\n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.2\n"
+
+#: memberaudit_securegroups/admin.py:81
+#, python-brace-format
+msgid "{inactivity_threshold:d} day"
+msgid_plural "{inactivity_threshold:d} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: memberaudit_securegroups/admin.py:145
+msgid "corporation role"
+msgstr ""
+
+#: memberaudit_securegroups/apps.py:20
+#, python-brace-format
+msgid "Secure Groups (Member Audit Integration) v{__version__}"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:111
+msgid "The filter description that is shown to end users."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:136
+msgid "Please create a filter!"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:147
+msgid "Please create an audit function!"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:156
+msgid "Maximum allowable inactivity, in <strong>days</strong>."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:167
+#, python-brace-format
+msgid "{self.inactivity_threshold:d} day"
+msgid_plural "{self.inactivity_threshold:d} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: memberaudit_securegroups/models.py:172
+#, python-brace-format
+msgid "Activity [Last {inactivity_threshold}]"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:224
+msgid "Active character: "
+msgid_plural "Active characters: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: memberaudit_securegroups/models.py:241
+msgid "Minimum allowable age, in <strong>days</strong>."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:252
+#, python-brace-format
+msgid "{self.age_threshold:d} day"
+msgid_plural "{self.age_threshold:d} days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: memberaudit_securegroups/models.py:257
+#, python-brace-format
+msgid "Character age [{age_threshold}]"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:315
+msgid "User must possess <strong>one</strong> of the selected assets."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:325
+msgid "Member Audit Asset"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:390
+msgid "Compliance"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:441
+#, python-brace-format
+msgid "All characters have been added to {MEMBERAUDIT_APP_NAME}"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:447
+msgid "Missing character: "
+msgid_plural "Missing characters: "
+msgstr[0] ""
+msgstr[1] ""
+
+#: memberaudit_securegroups/models.py:469
+msgid "The character with the role must be in one of these corporations."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:476
+msgid "User must have a character with this role."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:481
+msgid "When True, the filter will also include the users alt-characters."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:491
+msgid "Member Audit Corporation Role"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:560
+msgid "Minimum allowable skill points."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:573
+#, python-brace-format
+msgid "{sp_threshold} skill point"
+msgid_plural "{sp_threshold} skill points"
+msgstr[0] ""
+msgstr[1] ""
+
+#: memberaudit_securegroups/models.py:578
+#, python-brace-format
+msgid "Member Audit Skill Points [{skill_point_threshold}]"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:635
+msgid "Any"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:636
+msgid "Mains only"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:637
+msgid "Alts only"
+msgstr ""
+
+#: memberaudit_securegroups/models.py:642
+msgid ""
+"Users must have a character who possess all of the skills in <strong>one</"
+"strong> of the selected skill sets."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:651
+msgid "Specify the type of character that needs to have the skill set."
+msgstr ""
+
+#: memberaudit_securegroups/models.py:689
+msgid "Member Audit Skill Set"
+msgstr ""
