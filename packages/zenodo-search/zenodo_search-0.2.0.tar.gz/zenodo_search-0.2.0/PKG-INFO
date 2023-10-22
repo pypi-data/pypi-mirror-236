@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: zenodo_search
+Version: 0.2.0
+Summary: Perform Query on Zenodo.
+Home-page: https://github.com/matthiasprobst/zenodo_search
+Author: Matthias Probst
+Author-email: matth.probst@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# Zenodo Search
+
+Perform zenodo searches with python.
+
+**Note**: Zenodo updated the backend. This resulted in the searches failing with the old version of this package. For
+example, the doi string should not be the full doi anymore, but only the id. Some of the old search strings also don't
+work anymore. This is hopefully a temporary issue and will be fixed soon.
+
+## Installation
+
+```bash
+pip install zenodo_search
+```
+
+## Dependencies
+
+- requests
+
+## Usage
+
+```python
+import zenodo_search as zsearch
+
+search_string = 'doi:8357399'
+records = zsearch.search(search_string)
+```
+
+[![Open Quickstart Notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/matthiasprobst/zenodo_search/blob/main/examples/example.ipynb)
+
+More examples can be found in the [examples](examples/example.ipynb) folder.

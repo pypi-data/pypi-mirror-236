@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+tests/test_zenodo_search.py
+zenodo_search/__init__.py
+zenodo_search/_version.py
+zenodo_search/utils.py
+zenodo_search/zsearch.py
+zenodo_search.egg-info/PKG-INFO
+zenodo_search.egg-info/SOURCES.txt
+zenodo_search.egg-info/dependency_links.txt
+zenodo_search.egg-info/requires.txt
+zenodo_search.egg-info/top_level.txt
