@@ -1,0 +1,3 @@
+include lxml2pandas/requirements.txt
+include lxml2pandas/thirdparty.json
+include lxml2pandas/README.MD
