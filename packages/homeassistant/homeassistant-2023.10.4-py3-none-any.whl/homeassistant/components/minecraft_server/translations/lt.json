@@ -1,0 +1,24 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "address": "Serverio adresas"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "edition": {
+                "name": "Leidimas"
+            },
+            "game_mode": {
+                "name": "\u017daidimo re\u017eimas"
+            },
+            "map_name": {
+                "name": "\u017dem\u0117lapio pavadinimas"
+            }
+        }
+    }
+}

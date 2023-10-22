@@ -1,0 +1,17 @@
+{
+    "services": {
+        "heat_set": {
+            "description": "Nustato \u0161ildymo / v\u0117sinimo lyg\u012f a\u0161tuoniems miegamiesiems.",
+            "fields": {
+                "duration": {
+                    "description": "\u0160ildymo / v\u0117sinimo trukm\u0117 sekund\u0117mis.",
+                    "name": "Trukm\u0117"
+                },
+                "target": {
+                    "description": "Tikslinis v\u0117sinimo / \u0161ildymo lygis nuo -100 iki 100.",
+                    "name": "Tikslas"
+                }
+            }
+        }
+    }
+}
