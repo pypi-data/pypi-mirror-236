@@ -1,0 +1,2 @@
+from .data_analysis import get_all_data_analysis_classification
+from .data_analysis import get_all_data_analysis_regression

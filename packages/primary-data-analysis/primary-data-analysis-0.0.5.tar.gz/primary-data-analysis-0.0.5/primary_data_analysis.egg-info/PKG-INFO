@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: primary-data-analysis
+Version: 0.0.5
+Summary: Primary data analysis for pandas dataframe
+Home-page: https://github.com/anagha-bhople/primary_data_analysis
+Author: Anagha Bhople
+Author-email: bhoplea34@gmail.com
+License: MIT
+Keywords: data analysis eda pandas
+Platform: UNKNOWN
+
+Primary data analysis for pandas dataframe
+
