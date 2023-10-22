@@ -1,0 +1,11 @@
+bradleystevenson2015_webscraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bradleystevenson2015_webscraper/common_webscraper_functions.py,sha256=c-ksbHUoSc_vX-J1GtA3Dqsh4LSREZGRvN-EsuHw6uQ,4059
+bradleystevenson2015_webscraper/field_parser.py,sha256=8V9rKIbBN3JNt-DGnwKh1BQzHjml0LRSD2SP1CunR60,2686
+bradleystevenson2015_webscraper/object_fetcher.py,sha256=JeiAShZZvd0bPxkjkLixTcWq8BPayDNWTB9KH3IsTgA,2554
+bradleystevenson2015_webscraper/parser.py,sha256=gYMEe9UsVg4VGbrZ3vAdiDQSEw2BzKu98QwnoN2zBe4,5100
+bradleystevenson2015_webscraper/url_generator.py,sha256=z3-_9s7j-dlx_UxTQyovqqr0h5gxTrfxV_9edrfxf-c,2258
+bradleystevenson2015_webscraper/webscraper_object.py,sha256=_h9ug4S2fqaOVAV59-KjOZBxqhFvbdELWpLolsrKtrc,5463
+bradleystevenson2015_webscraper-0.1.6.dist-info/METADATA,sha256=Kpa1jX7H-o27EvOWvB1lPlwTBNAMW8-Xkju6gHcO6W4,708
+bradleystevenson2015_webscraper-0.1.6.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+bradleystevenson2015_webscraper-0.1.6.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+bradleystevenson2015_webscraper-0.1.6.dist-info/RECORD,,
