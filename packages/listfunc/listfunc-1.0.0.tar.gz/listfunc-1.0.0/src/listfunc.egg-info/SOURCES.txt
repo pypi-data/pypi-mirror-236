@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/listfunc/__init__.py
+src/listfunc/listfunc.py
+src/listfunc.egg-info/PKG-INFO
+src/listfunc.egg-info/SOURCES.txt
+src/listfunc.egg-info/dependency_links.txt
+src/listfunc.egg-info/top_level.txt
