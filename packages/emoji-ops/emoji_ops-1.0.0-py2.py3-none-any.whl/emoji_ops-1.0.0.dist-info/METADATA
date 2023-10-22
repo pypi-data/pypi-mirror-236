@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: emoji-ops
+Version: 1.0.0
+Author-email: Julien Lecomte <julien@lecomte.at>
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinxcontrib-htmlhelp ; extra == 'docs'
+Requires-Dist: sphinxcontrib-napoleon ; extra == 'docs'
+Requires-Dist: sphinxcontrib-serializinghtml ; extra == 'docs'
+Provides-Extra: make
+Requires-Dist: black ; extra == 'make'
+Requires-Dist: build ; extra == 'make'
+Requires-Dist: bump2version ; extra == 'make'
+Requires-Dist: jq ; extra == 'make'
+Requires-Dist: mk-scaffold ; extra == 'make'
+Requires-Dist: pre-commit ; extra == 'make'
+Requires-Dist: tomli ; extra == 'make'
+Requires-Dist: tomlq ; extra == 'make'
+Requires-Dist: tox ; extra == 'make'
+Requires-Dist: twine ; extra == 'make'
+Requires-Dist: wheel ; extra == 'make'
+Requires-Dist: yq ; extra == 'make'
+Provides-Extra: test
+Requires-Dist: mock ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-html ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+
+# emoji-ops
+
+cf: [https://gitlab.com/emoji-ops](https://gitlab.com/emoji-ops)
+
+## Installation
+
+You can install the latest version from PyPI package repository.
+
+~~~bash
+python3 -mpip install -U emoji-ops
+~~~
+
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
