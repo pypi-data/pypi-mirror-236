@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jsdxpdf/__init__.py
+jsdxpdf/pdf2image.py
+jsdxpdf/pdf2text.py
+jsdxpdf.egg-info/PKG-INFO
+jsdxpdf.egg-info/SOURCES.txt
+jsdxpdf.egg-info/dependency_links.txt
+jsdxpdf.egg-info/top_level.txt
