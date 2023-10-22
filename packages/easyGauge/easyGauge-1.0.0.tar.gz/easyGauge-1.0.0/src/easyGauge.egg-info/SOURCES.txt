@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/easyGauge/__inti__.py
+src/easyGauge/easyGauge.py
+src/easyGauge.egg-info/PKG-INFO
+src/easyGauge.egg-info/SOURCES.txt
+src/easyGauge.egg-info/dependency_links.txt
+src/easyGauge.egg-info/top_level.txt
