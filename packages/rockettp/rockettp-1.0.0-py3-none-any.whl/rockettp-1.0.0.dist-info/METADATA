@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: rockettp
+Version: 1.0.0
+Summary: An awesome package that does something
+Home-page: http://pypi.python.org/pypi/rockettp/
+Author: Mokadem Adel Abdelkader
+Author-email: aa.mokadem@esi-sba.dz
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: rockettp
+
+# rocket
+
+`rockettp` is a Python library for ..........
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `rockettp`.
+
+```bash
+pip install rockettp
+```
+
+## Usage
+
+```python
+import rockettp
+
+# returns 'words'
+rockettp.module_name('word')
+
+# returns 'geese'
+rockettp.module_name('goose')
+
+# returns 'phenomenon'
+rockettp.module_name('phenomena')
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
