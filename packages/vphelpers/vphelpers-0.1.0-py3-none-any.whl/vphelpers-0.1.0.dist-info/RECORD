@@ -1,0 +1,11 @@
+vphelpers/__init__.py,sha256=tiBquQvobwJaTYuOgoJJtfwvyMtjmY5FidRULwZHGlA,506
+vphelpers/date.py,sha256=Ithn01zzLLKktwLkDD6qP6YJJ1BcvMM0T7024nd_aNI,462
+vphelpers/dict_.py,sha256=3TQDp7GmQJO10_punPQach5_QOlj7ITWUOfaL0n6EhI,2116
+vphelpers/list_.py,sha256=p1ehBraKVWGT0nA8UIj0FZldlVl4U4B4lIRdE-l5IAk,882
+vphelpers/path.py,sha256=GpT0dCMQ2hoKwjfS7k2KeCSx1zRXb2bITa7qhiu92a0,593
+vphelpers/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vphelpers/str_.py,sha256=edC5wZ2NZgzFHu8Bto7KBVmIMW_3g7f98Ing_4OgmQI,3295
+vphelpers/types_.py,sha256=toOjvpw6GhacDNtgxp1e2kTtqJIcj9w8jLPpLcy40T0,575
+vphelpers-0.1.0.dist-info/METADATA,sha256=LYtn2YBnpbfCpMV_PNBF02k1tqEzT2s38aYVb9_ZZTg,9207
+vphelpers-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+vphelpers-0.1.0.dist-info/RECORD,,
