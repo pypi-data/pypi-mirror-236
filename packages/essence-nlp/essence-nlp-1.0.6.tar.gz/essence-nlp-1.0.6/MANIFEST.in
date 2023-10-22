@@ -1,0 +1,3 @@
+include src/essence_nlp/essence/src/Cargo.toml
+recursive-include src/essence_nlp/essence/src *
+recursive-include src/essence_nlp *
