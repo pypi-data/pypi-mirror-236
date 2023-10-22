@@ -1,0 +1,5 @@
+[console_scripts]
+mk-scaffold = scaffold.__main__:main
+
+[pytest11]
+scaffold = scaffold.testing
