@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: life-model
+Version: 0.1.5
+Summary: Modeling life events and how they impact finances
+Home-page: https://github.com/sw23/life-model
+Author: Spencer Williams
+Author-email: sw23@users.noreply.github.com
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+
+Modeling life events and how they impact finances
