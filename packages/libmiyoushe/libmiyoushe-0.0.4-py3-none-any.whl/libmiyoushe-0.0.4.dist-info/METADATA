@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: libmiyoushe
+Version: 0.0.4
+Summary: A module for miyoushe(米游社), include mihoyo account authentication, some actions for miyoushe(米游社), etc.
+Author: Error063
+Author-email: admin@error063.work
+License: GNU General Public License v3 (GPLv3)
+Keywords: HoYoLab,米游社,miyoushe
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.10
+Requires-Dist: bottle (==0.12.25)
+Requires-Dist: certifi
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==3.2.0)
+Requires-Dist: clr-loader (==0.2.6)
+Requires-Dist: cssutils (==1.0.2)
+Requires-Dist: diff-match-patch (==20181111)
+Requires-Dist: idna (==3.4)
+Requires-Dist: lxml (==4.9.3)
+Requires-Dist: proxy-tools (==0.1.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pycryptodome (==3.18.0)
+Requires-Dist: pythonnet (==3.0.2)
+Requires-Dist: pywebview (==4.3.2)
+Requires-Dist: quill-delta (==1.0.3)
+Requires-Dist: requests (==2.31.0)
+Requires-Dist: typing-extensions (==4.7.1)
+Requires-Dist: urllib3 (==2.0.4)
+
