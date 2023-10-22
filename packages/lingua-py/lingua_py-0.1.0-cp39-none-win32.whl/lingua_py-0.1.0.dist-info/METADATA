@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: lingua-py
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: License :: OSI Approved :: Apache Software License
+License-File: LICENSE
+Summary: Python bindings for the Lingua(LanguageDetect) Rust library
+Keywords: nlp,language-detect,rust,rust-library,python-bindings
+Author-email: chatblanc <73688885+chatblanc-ciel@users.noreply.github.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+Project-URL: Repository, https://github.com/me/spam.git
+
+# Lingua
+
+
+Lingua-py is an Python wrapper for the [Rust][1] [lingua][2] crate with [PyO3/Maturin][3].
+
+## Summary
+
+Lingua is a NIF-based bridge for the [lingua][2] [Rust][1] language detection library.
+
+## Usage 
+
+Empty. I'll write here in the future.
+
+
+# License
+
+[Apache License v2](./LICENSE), and lingua-rs is also [Apache License v2](https://github.com/pemistahl/lingua-rs/blob/master/LICENSE).
+
+
+
+
+
+
+[1]: https://www.rust-lang.org 
+[2]: https://crates.io/crates/lingua
+[3]: https://www.maturin.rs/
