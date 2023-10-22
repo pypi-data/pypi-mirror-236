@@ -1,0 +1,7 @@
+duckdb
+qtpy
+sqlparse
+sqlglot
+lark
+pygls
+notebook
