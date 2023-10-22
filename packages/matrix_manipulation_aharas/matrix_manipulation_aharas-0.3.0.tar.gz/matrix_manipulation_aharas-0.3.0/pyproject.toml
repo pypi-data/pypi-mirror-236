@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "matrix_manipulation_aharas"
+version = "0.3.0"
+description = ""
+authors = ["hvsio <alicjaharaszczuk@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "matrix_manipulation_aharas"}
+]
+
+[tool.poetry.dependencies]
+python = "<3.13,>=3.9"
+numpy = "^1.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
