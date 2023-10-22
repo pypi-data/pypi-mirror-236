@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/streamViz/__inti__.py
+src/streamViz/streamViz.py
+src/streamViz.egg-info/PKG-INFO
+src/streamViz.egg-info/SOURCES.txt
+src/streamViz.egg-info/dependency_links.txt
+src/streamViz.egg-info/top_level.txt
