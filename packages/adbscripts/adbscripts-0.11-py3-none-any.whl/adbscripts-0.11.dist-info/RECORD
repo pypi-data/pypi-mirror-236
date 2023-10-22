@@ -1,0 +1,14 @@
+adbscripts/README.MD,sha256=rERWXyovYI6pZXICvAus8adfr5wWgbf7tEp37b9qpjk,5011
+adbscripts/__init__.py,sha256=hFtySqjxxUQ_GzI5Ph5DOf3sxA_ucxH9oug0vcY6_ZI,23140
+adbscripts/chromewebscraping.py,sha256=DwSMR0_22B1p83ZpUYber4HvwcviulAv0rq2SW7256A,32423
+adbscripts/coloratpixeloncerep.py,sha256=2AR-T3zwb6vwXGh-HeZUHAsjLqXkxbGcm6xzLeQupkk,869
+adbscripts/getactivityelements.py,sha256=5BsBvCNJOrUSbJkD1NdO4VUVK07gFXN4XtxbBCsc1gA,29650
+adbscripts/getcoloratpixel.py,sha256=mCqk_L1uCA2Kj1uH9ybH3KR4e9H1wi3bWWb9ciTicGQ,1401
+adbscripts/getuiautomator.py,sha256=tgHvrJqRB3_q0IWSand3bkG4go2BEWddpwGQnD1tijM,8752
+adbscripts/requirements.txt,sha256=Mpm06cXaQBUY6LfKuXW8W20d6s8PLDqkizY1RP0k_f4,15
+adbscripts/thirdparty.json,sha256=D9yKes6PoxLPkSmsUjs34c-iqZq1ucpnFXtw4GyaksI,2835
+adbscripts-0.11.dist-info/LICENSE.rst,sha256=57krgYrI6h5a_2WXQgGcjWo8PExV4ONSi1SPUj9Jk1g,1148
+adbscripts-0.11.dist-info/METADATA,sha256=jP7eecucFiu-Ply1DJcVsQaiyha0BhWndI6IMduic-M,5644
+adbscripts-0.11.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+adbscripts-0.11.dist-info/top_level.txt,sha256=NDIiqFxfC_nJZq8smTwP5vsQD9u45dA9zmW1n4x191o,11
+adbscripts-0.11.dist-info/RECORD,,
