@@ -1,0 +1,3 @@
+[console_scripts]
+urify=urify.__main__:cli.run
+

@@ -1,0 +1,11 @@
+urify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urify/__main__.py,sha256=17sNgmzgpm2Kv3-odXX2pPUYQb2us6NI3nWqcgE6q-k,5005
+urify/cli/__init__.py,sha256=R00OO0CJlbWW3Xou41eKWkt1nYT6Hy2wFVwTYbOpmXo,6652
+urify/cli/base.py,sha256=mh-QKiU6ZBT95aLFieyv9OgRzskPNofxZc2YJbIRcAg,6275
+urify/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+urify/core/processor.py,sha256=X8GgsnivOFaw4KvbJl9VxWTmwMai--cB5XFQ7kMOsTw,4270
+urify/core/schema.py,sha256=vwe8rlrTLf8-RVv7x-0Z6KCI5Kxfuo1-6ZUT8lqdmFY,4361
+urify-0.1.0.dist-info/entry_points.txt,sha256=fl6UvRYU6I8O1p_D62VFYqr9wSZN_YXnp_oR6JsoLag,48
+urify-0.1.0.dist-info/METADATA,sha256=ZaALVLa3jk910Xz7SIiYmLyEHvY_bi5XsYlQ1766zvw,9576
+urify-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+urify-0.1.0.dist-info/RECORD,,
