@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: gcloud_network_authorizer
+Version: 0.0.4
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: requests
