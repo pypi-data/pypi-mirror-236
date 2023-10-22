@@ -1,0 +1,13 @@
+android_xml_translater/__dist_version__.py,sha256=dREnFMmghX_GUX4hs19Eks0_84HIsCb08kBuFCV1oNE,23
+android_xml_translater/__init__.py,sha256=J8MOfgGlplcg8M6NwOQAhe6hwlj10oo62v0Knk4LO0w,143
+android_xml_translater/__main__.py,sha256=zdH-92JxTDpLKDyRs-ZQW-qs2itDBG7bzGp2wc8Feo8,606
+android_xml_translater/__version__.py,sha256=B02UxrTFLhy9e49jaKjm74a7FT3wKTxpXb5O_D0xb3Y,318
+android_xml_translater/arguments_helper.py,sha256=GMJjCpgJOQk9WfpKargwKXs2dQr02N30CpFe-7q-oHU,1883
+android_xml_translater/axt.py,sha256=Fv-hmzPY7tHmujHLm0g8_DUYmxCKTV2XBqUu76M4RcQ,1795
+android_xml_translater/translated_strings.xml,sha256=oxmjrtBM-NgbzSn_fKQV9y3-hKtrZJy6MxhEJGINMJ0,874
+android_xml_translater-1.0.3.dist-info/LICENSE,sha256=xlB1TeNdcPsakd9q-cb8Aah4XjNPrc6f6fMdlmyHxW8,35804
+android_xml_translater-1.0.3.dist-info/METADATA,sha256=U3AGvkoPpLnJxWZ_kHH8HTNlrK1a6ZI9RZ_3IcueJWU,1336
+android_xml_translater-1.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+android_xml_translater-1.0.3.dist-info/entry_points.txt,sha256=vVsq0YdAKttshGIyxwKO-OhBdM_s5-TQ_XNDqLkvLgM,80
+android_xml_translater-1.0.3.dist-info/top_level.txt,sha256=DNgOsXcnXUJqwn5NjFnpxvDZKQye556oNHO04IgaMcI,23
+android_xml_translater-1.0.3.dist-info/RECORD,,
