@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pyfilehandling/__init__.py
+pyfilehandling/fileio.py
+pyfilehandling/fileio.pyi
+pyfilehandling/py.typed
+pyfilehandling.egg-info/PKG-INFO
+pyfilehandling.egg-info/SOURCES.txt
+pyfilehandling.egg-info/dependency_links.txt
+pyfilehandling.egg-info/requires.txt
+pyfilehandling.egg-info/top_level.txt
+tests/test_mocking.py
