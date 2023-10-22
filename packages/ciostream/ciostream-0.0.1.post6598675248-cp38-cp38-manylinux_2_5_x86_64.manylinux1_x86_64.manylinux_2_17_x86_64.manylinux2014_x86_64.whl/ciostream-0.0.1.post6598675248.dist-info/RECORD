@@ -1,0 +1,11 @@
+ciostream.cpython-38-x86_64-linux-gnu.so,sha256=FUdiYsoanlWEJu12GJUOcLTB-EjshG3WUoJ-uBRJvZA,494120
+ciostream-0.0.1.post6598675248.dist-info/RECORD,,
+ciostream-0.0.1.post6598675248.dist-info/top_level.txt,sha256=0BjcWNn5zlV-UgYC5i-4jKCVLzhzCwBobW7ZXP0NjaI,10
+ciostream-0.0.1.post6598675248.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ciostream-0.0.1.post6598675248.dist-info/WHEEL,sha256=2obs-C2_nolD1iQrUvIrXC08gw2qamzpvydX8T0R6o4,217
+ciostream-0.0.1.post6598675248.dist-info/METADATA,sha256=ZsqP78l6rSKlfzpcZLbt1oi8Yx25baMVTK0WpMEEqeo,385
+ciostream/ciostream_native.cpp,sha256=4vIOoY2o3HNwURaTYHODoMy2IAdnL1j3vsZl_cSngHg,1813
+ciostream/__init__.cpp,sha256=_R84xE-iMnCSsu_JTLM9OJEGDqFB83lJg6xqSHKgyHE,386488
+ciostream/ciostream_native.h,sha256=BKZTHdfgcamnhGfE_ed1XCgCUSEQ08ajGFaoEE-O6sw,1382
+ciostream/__init__.h,sha256=ycmBzCQo5Em44yDq4yptsjX4ZRh3sPEM0IO7EmN0MEQ,2083
+ciostream/__init__.pxd,sha256=5m7C1ukHQDppNABO9l98FacNAKUIKUYClIVGd4UXy88,1437
