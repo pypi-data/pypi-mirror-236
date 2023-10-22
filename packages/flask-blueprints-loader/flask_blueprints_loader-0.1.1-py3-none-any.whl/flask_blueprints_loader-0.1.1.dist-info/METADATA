@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: flask-blueprints-loader
+Version: 0.1.1
+Summary: Automatically discover and register Flask blueprints
+Keywords: Flask,blueprint,extension,loader,import,auto-load,auto-import,web framework,Python
+Author-email: curskey <ekentiako@proton.me>
+Requires-Python: >=3.10
+Description-Content-Type: text/x-rst
+Classifier: Framework :: Flask
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Dist: flask>=3.0
+Requires-Dist: pre-commit>=3.3 ; extra == "develop"
+Requires-Dist: pytest>=7.4 ; extra == "develop"
+Requires-Dist: pytest-cov>=4.1 ; extra == "develop"
+Project-URL: Documentation, https://flask-blueprints-loader.readthedocs.io/en/stable/
+Project-URL: Home, https://github.com/curskey/flask-blueprints-loader
+Project-URL: Issue, https://github.com/curskey/flask-blueprints-loader/issues/
+Project-URL: Source, https://github.com/curskey/flask-blueprints-loader
+Provides-Extra: develop
+
+Flask-Blueprints-Loader
+=======================
+
+Flask-Blueprints-Loader is an extension for `Flask`_  that automatically discovers and registers `Blueprint`_ for your application.
+
+.. _Flask: https://flask.palletsprojects.com/
+.. _Blueprint: https://flask.palletsprojects.com/en/3.0.x/blueprints/
+
+Installing
+----------
+
+Install using `pip`_:
+
+.. code-block:: sh
+
+   $ pip install -U flask-blueprints-loader
+
+.. _pip: https://pip.pypa.io/en/stable/
+
+Initialize the Extension
+------------------------
+
+Application Instance Pattern
+
+.. code-block:: py3
+
+   from flask import Flask
+   from flask_blueprints_loader import BlueprintsLoader
+
+   app = Flask(__name__)
+   loader = BlueprintsLoader(app)
+
+   with app.app_context():
+      loader.register_blueprints()
+
+
+Application Factories Pattern
+
+.. code-block:: py3
+
+   from flask import Flask
+   from flask_blueprints_loader import BlueprintsLoader
+
+   loader = BlueprintsLoader()
+
+   def create_app():
+      app = Flask(__name__)
+      loader.init_app(app)
+
+      with app.app_context():
+         loader.register_blueprints()
+
+      return app
+
+Links
+-----
+
+-   Documentation: https://flask-blueprints-loader.readthedocs.io/en/latest/
+-   PyPI Releases: https://pypi.org/project/Flask-Blueprints-Loader/
+-   Source Code: https://github.com/curskey/flask-blueprints-loader/
+-   Issue Tracker: https://github.com/curskey/flask-blueprints-loader/issues/
+
