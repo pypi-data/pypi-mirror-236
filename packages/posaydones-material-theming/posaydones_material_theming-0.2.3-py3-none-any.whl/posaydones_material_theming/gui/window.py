@@ -1,0 +1,154 @@
+import gi
+gi.require_version('Gtk', '4.0')
+gi.require_version('Adw', '1')
+from gi.repository import Gtk, Adw
+from gi.repository import Pango
+import posaydones_material_theming.data as data
+import importlib.resources as pkg_resources
+import toml
+import os
+from posaydones_material_theming.misc.utils import proceed_theme, add_slash_if_needed
+
+
+class PMT(Adw.Application):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.connect('activate', self.on_activate)
+
+    def on_activate(self, app):
+       # Load the current directory from the TOML file
+        current_directory = self.load_current_directory()
+        current_image_position = self.load_current_image_position()
+
+        # Create a Builder
+        global builder
+        builder = Gtk.Builder()
+        with pkg_resources.path(data, "pmt.ui") as ui_file_path:
+            builder.add_from_file(str(ui_file_path))
+
+        apply_button = builder.get_object("apply_button")
+        apply_button.connect("clicked", self.proceed)
+
+        directory_entry = builder.get_object("directory_entry")
+        directory_entry.set_text(current_directory)
+        directory_button = builder.get_object("directory_button")
+        directory_button.connect("clicked", self.show_open_dialog)
+
+        image_dropdown = builder.get_object("image_dropdown")
+        image_dropdown.connect("notify::selected-item",
+                               self.image_dropdown_callback)
+        image_dropdown.set_selected(current_image_position)
+        if current_directory != (None or ""):
+            self.on_directory_entry_change(directory_entry)
+            self.image_dropdown_callback(image_dropdown, '')
+
+        # Obtain and show the main window
+        self.win = builder.get_object("main_window")
+        # Application will close once it no longer has active windows attached to it
+        self.win.set_application(self)
+        self.win.present()
+
+        self.open_dialog = builder.get_object("directory_dialog")
+        self.open_dialog.set_title("Select a File")
+        directory_entry.connect("changed", self.on_directory_entry_change)
+
+    def load_current_directory(self):
+        try:
+            with open(os.path.expanduser('~/.config/pmt/config.toml'), 'r') as f:
+                config = toml.load(f)
+                return config.get('directory', '')
+        except:
+            return ''
+
+    def load_current_image_position(self):
+        try:
+            with open(os.path.expanduser('~/.config/pmt/config.toml'), 'r') as f:
+                config = toml.load(f)
+                return config.get('wallpaper_position', '')
+        except:
+            return ''
+
+    def save_current_directory(self, current_directory):
+        config_path = os.path.expanduser('~/.config/pmt/config.toml')
+        if os.path.exists(config_path):
+            with open(config_path, 'r') as f:
+                config = toml.load(f)
+        else:
+            config = {}
+
+        config['directory'] = current_directory
+
+        with open(config_path, 'w') as f:
+            toml.dump(config, f)
+
+
+    def save_current_image_position(self, current_image_position):
+        config_path = os.path.expanduser('~/.config/pmt/config.toml')
+        if os.path.exists(config_path):
+            with open(config_path, 'r') as f:
+                config = toml.load(f)
+        else:
+            config = {}
+
+        config['wallpaper_position'] = current_image_position
+
+        with open(config_path, 'w') as f:
+            toml.dump(config, f)
+
+    def image_dropdown_callback(self, dropdown, smth):
+        global current_image_path
+        if not ('current_image_path' in globals()):
+            dropdown.set_selected(self.load_current_image_position())
+        image = builder.get_object("wallpaper_image")
+        directory_entry = builder.get_object("directory_entry")
+        current_image_path = add_slash_if_needed(
+            directory_entry.get_buffer().get_text()) + \
+            dropdown.get_selected_item().get_string()
+        self.save_current_image_position(dropdown.get_selected())
+        self.update_image(current_image_path, image)
+
+    def show_open_dialog(self, button):
+        parent_window = self.get_active_window()
+        self.open_dialog.open(parent_window, None,
+                              self.open_dialog_open_callback)
+
+    def update_image_dropdown(self, directory, dropdown):
+        try:
+            dir_contents = os.listdir(directory)
+            string_list = Gtk.StringList()
+            for item in dir_contents:
+                string_list.append(item)
+
+            # Set the menu for the menu button
+            dropdown.set_model(string_list)
+        except:
+            ""
+
+    def on_directory_entry_change(self, entry):
+        image_dropdown = builder.get_object("image_dropdown")
+        current_directory = entry.get_text()
+        self.save_current_directory(current_directory)
+        self.update_image_dropdown(current_directory, image_dropdown)
+
+    def update_image(self, path, image):
+        image.set_from_file(path)
+
+    def open_dialog_open_callback(self, dialog, result):
+        try:
+            file = dialog.open_finish(result)
+            if file is not None:
+                directory_entry = builder.get_object("directory_entry")
+                directory_entry.set_text(file.get_path())
+                # current_directory = file.get_path()
+
+        except GLib.Error as error:
+            print(f"Error opening file: {error.message}")
+
+    def proceed(self, button):
+        backend_dropdown = builder.get_object("backend_dropdown")
+        theme_type_dropdown = builder.get_object("theme_type_dropdown")
+        
+        theme_type = theme_type_dropdown.get_selected_item().get_string()
+        backend = backend_dropdown.get_selected_item().get_string()
+        
+        proceed_theme(current_image_path, theme_type, backend)
