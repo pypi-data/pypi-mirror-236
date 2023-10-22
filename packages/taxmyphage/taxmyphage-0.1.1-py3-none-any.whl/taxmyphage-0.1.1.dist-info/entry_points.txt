@@ -1,0 +1,3 @@
+[console_scripts]
+taxmyphage=taxmyphage.cli:cli
+
