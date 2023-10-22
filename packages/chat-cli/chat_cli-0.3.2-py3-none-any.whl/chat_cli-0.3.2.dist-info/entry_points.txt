@@ -1,0 +1,3 @@
+[console_scripts]
+chat=chat_cli:main
+
