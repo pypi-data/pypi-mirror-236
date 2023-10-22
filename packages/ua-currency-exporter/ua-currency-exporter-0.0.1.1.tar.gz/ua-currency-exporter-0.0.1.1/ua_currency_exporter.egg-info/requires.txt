@@ -1,0 +1,8 @@
+boto3
+requests
+prometheus_client
+pyyaml
+python-dateutil
+pytz
+tzlocal
+urllib3
