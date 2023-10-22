@@ -1,0 +1,9 @@
+README.md
+setup.py
+versionCompare/test.py
+versionCompare/versionComparison.py
+versionCompare/versionComparisonMain.py
+versionCompare.egg-info/PKG-INFO
+versionCompare.egg-info/SOURCES.txt
+versionCompare.egg-info/dependency_links.txt
+versionCompare.egg-info/top_level.txt
