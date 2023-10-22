@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+player_performance_ratings.egg-info/PKG-INFO
+player_performance_ratings.egg-info/SOURCES.txt
+player_performance_ratings.egg-info/dependency_links.txt
+player_performance_ratings.egg-info/requires.txt
+player_performance_ratings.egg-info/top_level.txt
