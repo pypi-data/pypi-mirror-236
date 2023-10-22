@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "funcoes-leo"
+version = "0.1.1"
+description = ""
+authors = ["leomoraesguitar <123950901+leomoraesguitar@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
