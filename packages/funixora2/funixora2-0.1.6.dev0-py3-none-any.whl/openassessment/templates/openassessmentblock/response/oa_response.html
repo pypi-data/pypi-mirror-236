@@ -1,0 +1,13 @@
+{% load tz %}
+{% load i18n %}
+{% spaceless %}
+{% block list_item %}
+
+<div style="padding: 0 0 20px 0; border: none;" class="openassessment__steps__step step--response is--in-progress"
+    tabindex="-1">
+{% endblock %}
+    {% block body %}
+      {% include "openassessmentblock/response/submit.html" %}
+    {% endblock %}
+</div>
+{% endspaceless %}
