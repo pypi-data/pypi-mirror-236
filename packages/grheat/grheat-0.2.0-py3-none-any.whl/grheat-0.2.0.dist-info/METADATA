@@ -1,0 +1,107 @@
+Metadata-Version: 2.1
+Name: grheat
+Version: 0.2.0
+Summary: Green's functions for point, line, and planar heat sources.
+Home-page: https://github.com/scottprahl/grheat
+Author: Scott Prahl
+Author-email: scott.prahl@oit.edu
+License: MIT
+Keywords: temperature,heat transfer,Green's function,point source,line source,plane source
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+grheat
+======
+
+by Scott Prahl
+
+.. image:: https://img.shields.io/pypi/v/grheat?color=68CA66
+   :target: https://pypi.org/project/grheat/
+   :alt: pypi
+
+.. image:: https://img.shields.io/github/v/tag/scottprahl/grheat?label=github&color=v
+   :target: https://github.com/scottprahl/grheat
+   :alt: github
+
+.. image:: https://img.shields.io/conda/vn/conda-forge/grheat?label=conda&color=68CA66
+   :target: https://github.com/conda-forge/grheat-feedstock
+   :alt: conda
+
+.. image:: https://zenodo.org/badge/357035523.svg
+   :target: https://zenodo.org/badge/latestdoi/357035523
+   :alt: zenodo
+
+|
+
+.. image:: https://img.shields.io/github/license/scottprahl/grheat?color=68CA66
+   :target: https://github.com/scottprahl/grheat/blob/master/LICENSE.txt
+   :alt: License
+
+.. image:: https://github.com/scottprahl/grheat/actions/workflows/test.yaml/badge.svg
+   :target: https://github.com/scottprahl/grheat/actions/workflows/test.yaml
+   :alt: testing
+
+.. image:: https://readthedocs.org/projects/grheat/badge?color=68CA66
+  :target: https://grheat.readthedocs.io
+  :alt: docs
+
+.. image:: https://img.shields.io/pypi/dm/grheat?color=68CA66
+   :target: https://pypi.org/project/grheat/
+   :alt: Downloads
+
+__________
+
+Green's Functions for Heat Transfer
+-----------------------------------
+
+`grheat` is a library offering Green's function solutions for heat transfer
+problems in various geometries and boundary conditions. This module provides
+solutions for point sources, line sources, plane sources, and exponential heating 
+in semi-infinite media.
+
+Main Features
+-------------
+- Green's function solutions for point, line, and plane sources in semi-infinite media.
+- Solutions for exponential heating of a semi-infinite absorbing medium.
+- Supports different boundary conditions at the surface (z=0): infinite, adiabatic, and zero.
+- Accurate and efficient calculations based on mathematical formulations provided in 
+  recognized literature (e.g., Carslaw and Jaeger).
+
+Installation
+------------
+
+**these don't work yet**
+
+Use ``pip``::
+
+    pip install grheat
+
+or ``conda``::
+
+    conda install -c conda-forge grheat
+
+or use a Jupyter notebook immediately by clicking the Google Colaboratory button below
+
+.. image:: https://colab.research.google.com/assets/colab-badge.svg
+  :target: https://colab.research.google.com/github/scottprahl/grheat/blob/master
+  :alt: Colab
+
+
+License
+-------
+
+``grheat`` is licensed under the terms of the MIT license.
