@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.py
+automll_package/automlll.py
+automll_package/automlll.egg-info/PKG-INFO
+automll_package/automlll.egg-info/SOURCES.txt
+automll_package/automlll.egg-info/dependency_links.txt
+automll_package/automlll.egg-info/entry_points.txt
+automll_package/automlll.egg-info/top_level.txt
