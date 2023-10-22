@@ -1,0 +1,16 @@
+pydra_ml/__init__.py,sha256=0f9AzdNzLm88AR5i1a2eZ5cWhmWSBJSGUASi1cPvpmU,897
+pydra_ml/_version.py,sha256=Y4sfzHjWondyQGlQeY1MZR56vTRCRmAmhgJwhit7FSw,497
+pydra_ml/classifier.py,sha256=qirCT62RfX8lP4vdnDuzcXg_mpDUZOpB6bkbmRldA88,5719
+pydra_ml/cli.py,sha256=HSiT2ubtL63DH2MLJ7EknzP2hxeHmx2FdeVnAM8NTCc,1312
+pydra_ml/report.py,sha256=EZynGH0KQ-GXNzI54WsNu_1npqSWNC64u6zhLmsqYBk,21558
+pydra_ml/tasks.py,sha256=rf7t3KuLULa6AGZFBGJ7CEJwJISF1xmQKxyafSYXhkQ,9392
+pydra_ml/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydra_ml/tests/test_classifier.py,sha256=ZLV_WmsEihCCdESRULMl9EjYsMj6oQEoPeKHUibNIgU,3049
+pydra_ml/tests/data/breast_cancer.csv,sha256=daHXSlnfnLCnjswKNghb-KhSOVV_F407jXWOiLJkFuE,121385
+pydra_ml/tests/data/diabetes_table.csv,sha256=mvQbr2X-dePnYoOXgYDJOZ3MFnZWN3IZtkt5NQPOfHY,88796
+pydra_ml-0.6.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pydra_ml-0.6.0.dist-info/METADATA,sha256=RM6HWRf7JFCkXJKQlFbmsOG7xwaBX3yyNDo--4wYPrc,21221
+pydra_ml-0.6.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pydra_ml-0.6.0.dist-info/entry_points.txt,sha256=W4VoD7q08zSNykEvchr7mRaTmlWN534Oq-fhkLz2ASk,46
+pydra_ml-0.6.0.dist-info/top_level.txt,sha256=y1Kv7nJxE3iVE26DyLR_1VvFuuBaXxZLceDSOgFQIsY,9
+pydra_ml-0.6.0.dist-info/RECORD,,

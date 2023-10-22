@@ -1,0 +1,2 @@
+[console_scripts]
+pydraml = pydra_ml.cli:main
