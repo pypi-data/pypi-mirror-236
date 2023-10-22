@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: gif-converter-nk
+Version: 1.0.0
+Summary: Test package for distribution
+Home-page: 
+Download-URL: 
+Author: nakyeongkim
+Author-email: nana20170207@gmail.com
+Keywords: GIFCONVERTER,gifconverter
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pillow
+
+README
