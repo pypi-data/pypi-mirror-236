@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    assignment=assignment_app.assignment:app
+    
