@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pulumiverse_talos
+Version: 0.1.3
+Summary: A Pulumi package for creating and managing Talos Linux machines and clusters.
+Home-page: https://talos.dev
+License: MPL-2.0
+Project-URL: Repository, https://github.com/pulumiverse/pulumi-talos
+Keywords: pulumi talos category/infrastructure
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Talos Resource Provider
+
+The Talos Resource Provider lets you manage [Talos Linux](https://talos.dev) machines & clusters.
+
+## Installing
+
+This package is available for several languages/platforms:
+
+### Go
+
+To use from Go, use `go get` to grab the latest version of the library:
+
+```bash
+go get github.com/pulumiverse/pulumi-talos/sdk/go/...
+```
+
+## Reference
+
+For detailed reference documentation, please visit [the Pulumi registry](https://www.pulumi.com/registry/packages/talos/api-docs/).
+
+
