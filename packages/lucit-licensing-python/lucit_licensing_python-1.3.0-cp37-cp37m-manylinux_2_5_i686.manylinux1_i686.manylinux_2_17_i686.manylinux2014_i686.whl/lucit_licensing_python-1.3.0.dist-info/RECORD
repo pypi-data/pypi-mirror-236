@@ -1,0 +1,10 @@
+lucit_licensing_python-1.3.0.dist-info/METADATA,sha256=3MbpyyUXi_lWqpz9q9bnPLplzmsajfvf4P-nozEaPbg,14944
+lucit_licensing_python-1.3.0.dist-info/LICENSE,sha256=teQUfszs7y4Stl4xDhepo3mf88VVZIVkBkuOSwHc11g,3745
+lucit_licensing_python-1.3.0.dist-info/entry_points.txt,sha256=cfoHRISC96mL_A5Dd8xnPS85M8lqPJKSMR6rVo2z1Zc,64
+lucit_licensing_python-1.3.0.dist-info/WHEEL,sha256=f8b77N8Bfzba2LUuH7RzWZV8WkE5a_OOzUMVMoNuSsQ,213
+lucit_licensing_python-1.3.0.dist-info/RECORD,,
+lucit_licensing_python-1.3.0.dist-info/top_level.txt,sha256=9vuULaGZdK7NbXlXgoCTPEBqkx6EWGWR9a04lO4q7-I,23
+lucit_licensing_python/cli.cpython-37m-i386-linux-gnu.so,sha256=XTf_vshS6qqUBMVmclVDGST4Xb6Tsjm2mmZlEbNQ_co,502592
+lucit_licensing_python/exceptions.cpython-37m-i386-linux-gnu.so,sha256=Vex4tnQ7JCubFPa-dRsajfa1mF0iMdwcyoavUB0qxmA,90496
+lucit_licensing_python/__init__.cpython-37m-i386-linux-gnu.so,sha256=ifhJl8wXTOk3zePIGLrvN4Ch9W1Q-RgomNTjOPn_DgY,59596
+lucit_licensing_python/manager.cpython-37m-i386-linux-gnu.so,sha256=XrN4-BXFZHO1Ll7aXTd8IwQm0z3wM5B4pIUAFBlfEz0,1185944
