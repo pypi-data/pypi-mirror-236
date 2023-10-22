@@ -1,0 +1,52 @@
+ci:
+  autoupdate_commit_msg: "chore: Update pre-commit hooks"
+  autofix_commit_msg: "style: Pre-commit fixes"
+
+repos:
+  - repo: https://github.com/psf/black-pre-commit-mirror
+    rev: 23.10.0
+    hooks:
+      - id: black
+        args:
+          - --preview
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-added-large-files
+      - id: check-case-conflict
+      - id: check-merge-conflict
+      - id: debug-statements
+      - id: end-of-file-fixer
+      - id: mixed-line-ending
+      - id: trailing-whitespace
+
+  - repo: https://github.com/tox-dev/pyproject-fmt
+    rev: "1.2.0"
+    hooks:
+      - id: pyproject-fmt
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.1.1
+    hooks:
+      - id: ruff
+        args:
+          - --fix
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.6.1
+    hooks:
+      - id: mypy
+        additional_dependencies:
+          - pydantic
+          - types-PyYAML
+        args:
+          - --config-file
+          - pyproject.toml
+
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.6
+    hooks:
+      - id: codespell
+        additional_dependencies:
+          - tomli
