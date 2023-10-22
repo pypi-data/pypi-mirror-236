@@ -1,0 +1,13 @@
+vecquery_tune/__init__.py,sha256=xKisNsMFDuPAu1n6yDUf9YZuwUg8fdxxJbmbI2JXFKs,95
+vecquery_tune/create_database.py,sha256=9EUd3Rnvr6YLKy159atvXQ4nsNHHkQKI_OeX1dyQ5Eg,4949
+vecquery_tune/custom_embedding.py,sha256=cOtRqUzIDI_1ly5ft1DGoyy_QZ3MBCx_3TCj9ZJKSVo,1130
+vecquery_tune/fine_tune.py,sha256=QAQfvhzmSOyuocwdH54TUUIQ2D0r1JUd4MltzDmRyVw,3450
+vecquery_tune/inference.py,sha256=BaHj__nWyBm-GJ6_hwaWBMPkNRPsg5reLjkSgmWdre0,3580
+vecquery_tune/loss_funcs.py,sha256=IFGXa_8hvAZXyw7aq96MsKfZQMhpSjbKg_-ydBrK8bo,1309
+vecquery_tune/model.py,sha256=zUi0qdcd5D0ZpJcg9tucXcCZ5e8HcTzGR0zz0FqDG48,1634
+vecquery_tune/vecquery_tune.py,sha256=fOGwXOH7X81WoCT-EZ8puU4ZnUjd0k1TG3LJGDGSwa4,4504
+BERTune-0.0.1.dist-info/LICENSE,sha256=F96WNrWGHqsj6bUama1Tvst52LQhRwcHLAWUDH-qBHI,1099
+BERTune-0.0.1.dist-info/METADATA,sha256=kSQtDQsPFNvXfPS8hQy2VTXn9uaQxul6ytKs524ZmEc,4058
+BERTune-0.0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+BERTune-0.0.1.dist-info/top_level.txt,sha256=1SqCCij74CYdUXsX7xtQnWeggYS77bwJH9ZO1ddcjgs,14
+BERTune-0.0.1.dist-info/RECORD,,
