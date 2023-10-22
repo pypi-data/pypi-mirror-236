@@ -1,0 +1,2 @@
+[console_scripts]
+muuntaa = muuntaa.cli:app
