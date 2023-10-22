@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mobile_money/__init__.py
+mobile_money/momo/__init__.py
+mobile_money/momo/collections.py
+mobile_money/momo/disbursments.py
+mobile_money/momo/sandbox.py
+ugmobilemoney.egg-info/PKG-INFO
+ugmobilemoney.egg-info/SOURCES.txt
+ugmobilemoney.egg-info/dependency_links.txt
+ugmobilemoney.egg-info/requires.txt
+ugmobilemoney.egg-info/top_level.txt
