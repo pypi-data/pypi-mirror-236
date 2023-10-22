@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: amazon-scraper-products-extractor
+Version: 1.1.0
+Summary: A Python library for scraping Amazon product data.
+Home-page: https://github.com/yourusername/amazon-scraper-api
+Author: Your Name
+Author-email: your.email@example.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
+The Amazon Scraper API is a powerful Python library that allows you to scrape product information from Amazon's website. It provides easy-to-use functions to extract product details, prices, reviews, and more. Use it to gather data for market research, price tracking, or any application that requires Amazon product information.
+
+Key Features:
+- Retrieve product details, including title, description, and ASIN.
+- Get pricing information, including the current price and any discounts.
+- Scrape customer reviews, ratings, and review summaries.
+- Perform searches and extract search results.
+
+This library is designed to be user-friendly and provides extensive documentation and examples to get you started quickly.
