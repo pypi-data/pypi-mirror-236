@@ -1,0 +1,11 @@
+chattdd/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+chattdd/cli.py,sha256=pUdnDXdqScrtaVEOp2IKA-Lo8nU9zZZmLXpIcTsnMac,2944
+chattdd/core.py,sha256=GBd1LAmj1fV4zgh8zui7_vXiA9ZwctAyJ2q4LvJWMEY,6674
+chattdd/file_handler.py,sha256=lPOxEn-1_gyGQaAIc9UX6_sEtqsf8qjQyF1BC_jnLm4,337
+chattdd/tools.py,sha256=09ndIqIPlkOeo6cuCHA9gTNKDvFGOQ1LvRhp_VjZMzQ,2620
+ChatTDD-0.2.1.dist-info/LICENSE,sha256=6fxD2ZWy_jQs57gSQjyR_lRZs96XBWnWCtO4Lq5pqqw,1318
+ChatTDD-0.2.1.dist-info/METADATA,sha256=bfSDh-b8WzM0v5XqO65JkcE3A8ZHMG6FOHK6M-hR2WQ,2846
+ChatTDD-0.2.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ChatTDD-0.2.1.dist-info/entry_points.txt,sha256=V6nORfO6R6UJtiV4BfuGxCdntdGiUzEXOH-H0Xhy_Ag,45
+ChatTDD-0.2.1.dist-info/top_level.txt,sha256=uLHnZ4L7CkVb2p70xoI4CBIWhId7ysy0Pn0l83Q50Sg,8
+ChatTDD-0.2.1.dist-info/RECORD,,
