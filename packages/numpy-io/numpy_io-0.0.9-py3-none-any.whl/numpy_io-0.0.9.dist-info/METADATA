@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: numpy-io
+Version: 0.0.9
+Summary: an easy training architecture
+Home-page: https://github.com/ssbuild/numpy_io
+Author: ssbuild
+Author-email: 9727464@qq.com
+License: Apache License 2.0
+Requires-Dist: fastdatasets (<=0.10,>=0.9.14)
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: six
+
+numpy-io: https://github.com/ssbuild/numpy_io.git
