@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+YassineLr/__init__.py
+YassineLr/lr.py
+YassineLr.egg-info/PKG-INFO
+YassineLr.egg-info/SOURCES.txt
+YassineLr.egg-info/dependency_links.txt
+YassineLr.egg-info/requires.txt
+YassineLr.egg-info/top_level.txt
