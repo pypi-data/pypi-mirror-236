@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/tikz/__init__.py
+src/tikz/tikz.py
+src/tikz.egg-info/PKG-INFO
+src/tikz.egg-info/SOURCES.txt
+src/tikz.egg-info/dependency_links.txt
+src/tikz.egg-info/requires.txt
+src/tikz.egg-info/top_level.txt
