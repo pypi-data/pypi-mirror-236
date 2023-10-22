@@ -1,0 +1,8 @@
+include adbscripts/requirements.txt
+include adbscripts/thirdparty.json
+include adbscripts/getactivityelements.py
+include adbscripts/getcoloratpixel.py
+include adbscripts/getuiautomator.py
+include adbscripts/chromewebscraping.py
+include adbscripts/coloratpixeloncerep.py
+include adbscripts/README.MD
