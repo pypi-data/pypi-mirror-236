@@ -1,0 +1,8 @@
+matrix_manipulation_aharas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+matrix_manipulation_aharas/classes.py,sha256=qKW65JcNs8_eYOPpj-Q1bZLHS5v3u-VFtM-v9vD0S1I,1352
+matrix_manipulation_aharas/decorators.py,sha256=cjY19XDcxkGfiSAvxieJ1IJpZmWY4CuRUEZYBLGJG4k,1007
+matrix_manipulation_aharas/helpers.py,sha256=zJ_-nXQW2Z9ljisbAuIQVpbXkFjH7-Zqg1AnGRdFpVs,2366
+matrix_manipulation_aharas/tests/test.py,sha256=MplEAW1_itF48AdSi_uBhgj3Ku4F7fM8X5jIN6aXy-Q,3136
+matrix_manipulation_aharas-0.3.0.dist-info/METADATA,sha256=msVNBS-8qknQJ_gfDrwlU9HT-uad8Fan3Qwl6lWsopk,1486
+matrix_manipulation_aharas-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+matrix_manipulation_aharas-0.3.0.dist-info/RECORD,,
