@@ -1,0 +1,8 @@
+prefix=C:/Program Files/librapid
+libdir=C:/Program Files/librapid/lib
+includedir=C:/Program Files/librapid/include
+
+Name: xsimd
+Description: xsimd provides a unified means for using SIMD features for library authors..
+Version: 11.0.1
+Cflags: -I${includedir}
