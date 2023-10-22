@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: embaas
+Version: 0.0.10
+Summary: embaas Python SDK
+License: MIT
+Keywords: embaas,embeddings,document_extraction
+Author: Julius Lipp
+Author-email: julius@embaas.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+# embaas Python SDK
+
+Python SDK for the [EMBAAS_API](https://embaas.io)
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install embaas.
+
+```bash
+pip install embaas
+```
+
+## Usage
+
+```python
+from embaas import EmbaasClient
+
+client = EmbaasClient()
+client.get_embeddings(texts=["Hello World!"])
+``` 
+
+
