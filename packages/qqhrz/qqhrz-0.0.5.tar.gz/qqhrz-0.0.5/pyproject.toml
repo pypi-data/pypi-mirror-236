@@ -1,0 +1,18 @@
+[project]
+name = "qqhrz"
+version = "0.0.5"
+authors = [
+  { name="zkj", email="zhkaij@foxmail.com" },
+]
+description = "加入残差连接和层规范化、基于位置的前馈神经网络、Transformer的编码器块和解码器块"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
