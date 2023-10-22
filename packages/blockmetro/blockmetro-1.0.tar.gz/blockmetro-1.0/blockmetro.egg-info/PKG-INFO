@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: blockmetro
+Version: 1.0
+Summary: Python bindings for the BlockMetro API
+Home-page: https://github.com/BlockMetro/blockmetro-python
+Author: BlockMetro
+Author-email: support@blockmetro.io
+License: UNKNOWN
+Download-URL: https://github.com/BlockMetro/blockmetro-python
+Keywords: cardano,api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+License-File: LICENCE.txt
+
+UNKNOWN
+
