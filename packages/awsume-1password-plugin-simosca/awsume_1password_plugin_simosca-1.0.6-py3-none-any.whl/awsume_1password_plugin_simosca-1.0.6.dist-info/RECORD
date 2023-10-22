@@ -1,0 +1,12 @@
+awsume_1password_plugin/1password.py,sha256=wYgig89i340CBbbLUvLD-voki7D7EhqVMghywfd81BU,6127
+awsume_1password_plugin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsume_1password_plugin/helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awsume_1password_plugin/helpers/config.py,sha256=C1YLLW9TJoY0viv8zoh6XyVqONZu5lgEefNfnhvKt9s,214
+awsume_1password_plugin/helpers/opCLI.py,sha256=KRGyGBOiPoVFmFyOjQQ7vDvvD8iL4QnjeX5E_fuimT4,2946
+awsume_1password_plugin/helpers/profile.py,sha256=XeDsxhm0xs_aA6VvOijGRG0L6ZqX-7y8nbl1khRbfxU,805
+awsume_1password_plugin_simosca-1.0.6.dist-info/LICENSE,sha256=GXqQzXtIJsqBbf6epfoCZhoK1gWglOFukxbIE0Bdx2E,1069
+awsume_1password_plugin_simosca-1.0.6.dist-info/METADATA,sha256=ijdT6uOHmTRGaHjgKIBhxRC-5vsauKVUrcAuGVFd_SQ,293
+awsume_1password_plugin_simosca-1.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+awsume_1password_plugin_simosca-1.0.6.dist-info/entry_points.txt,sha256=oul5cGfyQSEOR2RGpUaE4-_gdMAph8zd-Z3_ISFJ0EQ,55
+awsume_1password_plugin_simosca-1.0.6.dist-info/top_level.txt,sha256=WH923MMzFrU1o1LIaBpKGku9DBdXCBT9FsG0Lr1pPYc,34
+awsume_1password_plugin_simosca-1.0.6.dist-info/RECORD,,
