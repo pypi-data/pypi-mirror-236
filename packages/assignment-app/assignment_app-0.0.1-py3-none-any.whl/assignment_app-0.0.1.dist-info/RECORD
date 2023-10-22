@@ -1,0 +1,10 @@
+assignment_app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+assignment_app/assignment.py,sha256=NUVyQGnMeKGwApvyUcJP2FV_MebzXrG0oenf-V2UIJs,3030
+assignment_app/model.py,sha256=uvzix_ecuhdHguOLIIzohzJu1cIVc8iKBhrhwVdyuzA,1081
+assignment_app/query.py,sha256=uSsWRWycdF8B595v0Qd8OSbx6x2vhiBkKCpSlDZ2NbM,3625
+assignment_app-0.0.1.dist-info/LICENSE,sha256=mQaUD2Gx8LUz-n2ZuvVReLKAj74RPqUd-_rYVyzNXys,1162
+assignment_app-0.0.1.dist-info/METADATA,sha256=4NtTwWGQzRDh11y7v0larGPbpqGBHVSycUPbGi4Cw4c,516
+assignment_app-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+assignment_app-0.0.1.dist-info/entry_points.txt,sha256=zZxMD1EmGLN3JK9JbRO38KYSeW7A5J3iRGh6QfIn2z0,61
+assignment_app-0.0.1.dist-info/top_level.txt,sha256=8nKyUQaphy8BTFNw5mIpWYBLVITG3IS20OeLJ3HP79k,15
+assignment_app-0.0.1.dist-info/RECORD,,
