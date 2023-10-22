@@ -1,0 +1,6 @@
+psycopg2-binary
+pyodbc
+pandas
+SQLAlchemy
+streamlit
+matplotlib
