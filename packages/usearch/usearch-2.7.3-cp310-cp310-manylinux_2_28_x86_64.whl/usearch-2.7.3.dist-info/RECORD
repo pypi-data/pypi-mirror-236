@@ -1,0 +1,14 @@
+usearch-2.7.3.dist-info/METADATA,sha256=IJJLiDsyTJMqkKnbvCOmdLWIvzd5g9RNml1Ucp2v1eA,21842
+usearch-2.7.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+usearch-2.7.3.dist-info/WHEEL,sha256=tR1bpBZn1yeFYp8Oc8d1qWuJ8kf1bVf4Z0eozuWsgQ4,114
+usearch-2.7.3.dist-info/RECORD,,
+usearch-2.7.3.dist-info/top_level.txt,sha256=zFbid1SmQjk8RsbEgpqF7tTjgWdFvE2z0e1LQ2hKdPg,8
+usearch/server.py,sha256=TBppxGSNnYxZshGTnUAQgpTWkSmUpT6SXkSeR1aKfBQ,3721
+usearch/client.py,sha256=H7nFnscuUk0fcN_dC3pUH6pbDqeLOPnRCVXO2SPoP7Q,4117
+usearch/compiled.cpython-310-x86_64-linux-gnu.so,sha256=V0FmzvZmc8hXtM5105lPHb4jjkZMvEYIu22Ch966qf4,4872649
+usearch/eval.py,sha256=tI8vL0oP3LCNsDABNH70jh0s121oJGNBek18M-gD4qc,14566
+usearch/io.py,sha256=hkoOv1xL73t3STQelN3BGrV86DUQop6zgWFxW8bOFuo,3161
+usearch/index.py,sha256=fMCduSf5wUChhrcobgG7JgW19yUvlyQaDIxVNZyAn_M,47640
+usearch/numba.py,sha256=EDg7XvMKNkuR3zEuyFYShepNKXZJrYJ0vNeQiefCRHY,3979
+usearch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usearch./libgomp-22744126.so.1.0.0,sha256=zSj1U_NYGEr1Y_FmSehqqWLn0gRmszKYrGjuUi2qVK4,253289
