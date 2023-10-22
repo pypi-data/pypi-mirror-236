@@ -1,0 +1,17 @@
+dayoffs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dayoffs/holiday_manager.py,sha256=5NU6pMrE-54nHkh66IMowksvHHQzN1ihF24KVzntYkk,1341
+dayoffs/holidays/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dayoffs/locales/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dayoffs/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dayoffs/utils/date_utils.py,sha256=_4dzId8vFeVURF1_-R1SZTaKfCj1YXwfvRYBnaGGHpI,288
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_holiday_manager.py,sha256=eFmmuBEwdxn8fWWOJenqmG0AD655Zm8SSAHUlDailfM,901
+tests/holidays/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/locales/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/utils/test_date_utils.py,sha256=5MV_Jl2CdI9JV-dhaGTz0fm_NNuc6Y3Kaic9myxODAQ,578
+dayoffs-0.0.1.dist-info/LICENSE,sha256=RDVV-91nxYIzLW9LktgtbcPNtL9hLA7Njh8KPo79ZOU,1082
+dayoffs-0.0.1.dist-info/METADATA,sha256=H0xpdIi4e5RLnOLipL85vAwWUcR4RyGaw3UP48d2xeA,2598
+dayoffs-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dayoffs-0.0.1.dist-info/top_level.txt,sha256=h8LIzMhiAwxLa4w1mOs7SF4MvmsiXkEQrPbTnLHa6t0,14
+dayoffs-0.0.1.dist-info/RECORD,,
