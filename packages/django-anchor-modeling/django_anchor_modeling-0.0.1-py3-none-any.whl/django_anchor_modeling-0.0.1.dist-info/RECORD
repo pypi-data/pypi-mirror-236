@@ -1,0 +1,14 @@
+dataviewer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataviewer/models.py,sha256=8T59t8oC-muDF0AfVZ_nnDUzWZWovX2HZ-vpURy4ROQ,320
+dataviewer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dataviewer/services.py,sha256=nOd2u2XYCSMSEsnyPkbsCjZpUnhM4gRSlpNDVrjEC_E,6485
+django_anchor_modeling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_anchor_modeling/fields.py,sha256=0DnC5KOUmjblKE4G2uIF79CVwL07chouZkwPrAutnDc,459
+django_anchor_modeling/managers.py,sha256=OC_kpvosD9q57ckTjNrOCca0x4mCLoWquuyjJliQ-uM,16411
+django_anchor_modeling/models.py,sha256=P4PKBDdt_JJ4IjxINvT_C5EgUxAWLDbfa-zcP5EdXcY,14287
+django_anchor_modeling/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_anchor_modeling-0.0.1.dist-info/LICENSE,sha256=GUS8sBpL9DX3T2pHuymaUdJFcLjvO6-BK94VkUwiCP8,1063
+django_anchor_modeling-0.0.1.dist-info/METADATA,sha256=RKn5ylxY_nYHpKBZhWse5Fnil_-hdhfgRNMiilIMM68,2072
+django_anchor_modeling-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_anchor_modeling-0.0.1.dist-info/top_level.txt,sha256=d173SnmYE1XF-0a4KLFeSIex_s6OqEbZr-lBNtopf1w,34
+django_anchor_modeling-0.0.1.dist-info/RECORD,,
