@@ -1,0 +1,16 @@
+accelerate
+auto-gptq
+bitsandbytes
+peft
+faiss-cpu
+flask
+langchain
+googledrivedownloader
+numpy
+pandas
+scikit-learn
+scipy
+sentencepiece
+torch
+tqdm
+transformers
