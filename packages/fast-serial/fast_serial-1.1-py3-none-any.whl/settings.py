@@ -1,0 +1,9 @@
+actions = [('help', 'help<cr><lf>')]
+filters = [('all', '.+')]
+baud_rates = ['1200', '2400', '4800', '9600', '19200', '38400', '57600', '115200']
+baud_rate = '115200'
+com_port = 'COM10'
+send_history = []
+splitter_pos = [0, 216]
+splitter2_pos = [0, 258]
+window_size = (167, 118, 1262, 367)
