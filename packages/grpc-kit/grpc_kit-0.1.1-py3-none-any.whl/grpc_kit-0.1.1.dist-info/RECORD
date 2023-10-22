@@ -1,0 +1,8 @@
+grpc_kit/__init__.py,sha256=LEjNNabwHqC1zTN5SoFPLw-WmSNFniw5QFZ2jLVoz8I,177
+grpc_kit/client.py,sha256=rnirkHWIOr0h96OmxWWo5jZK5_V-umBV3zbW9OH24H4,673
+grpc_kit/decorator.py,sha256=6SnvgkGXu2NjJQR_36V8UzK8-GmUbvZ6di6Y1_MN9UM,1132
+grpc_kit/server.py,sha256=vPrIHnbGLSi1pESIAbNDsblAWtLYnTYnRnFcwaJCP7Y,1143
+grpc_kit/utils.py,sha256=5K0B5ZaJcpjNNjQSuHKlj51zo0oJk4WBoeerDLEPi9g,921
+grpc_kit-0.1.1.dist-info/METADATA,sha256=5xX9uwCPQ8LT2P6Qm1xEM4Ptrulb0sCOGWlDaSPREYg,475
+grpc_kit-0.1.1.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+grpc_kit-0.1.1.dist-info/RECORD,,
