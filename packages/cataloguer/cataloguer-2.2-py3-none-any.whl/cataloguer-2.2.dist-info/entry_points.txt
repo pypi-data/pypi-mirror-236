@@ -1,0 +1,3 @@
+[console_scripts]
+cataloguer=cataloguer.cli:cli
+
