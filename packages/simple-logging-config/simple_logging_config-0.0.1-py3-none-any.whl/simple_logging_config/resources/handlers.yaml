@@ -1,0 +1,15 @@
+console:
+  class: logging.StreamHandler
+  level: 25
+  stream: ext://sys.stdout
+file:
+  class: logging.FileHandler
+  level: DEBUG
+  filename: debug.log
+  mode: w
+rotating_file:
+  class: logging.handlers.RotatingFileHandler
+  level: DEBUG
+  filename: debug.log
+  mode: a
+  backupCount: 5
