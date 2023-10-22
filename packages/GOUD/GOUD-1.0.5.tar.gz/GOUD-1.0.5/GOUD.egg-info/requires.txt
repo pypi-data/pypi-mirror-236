@@ -1,0 +1,7 @@
+pandas
+pulp
+numpy
+gurobipy
+matplotlib
+openpyxl
+networkx
