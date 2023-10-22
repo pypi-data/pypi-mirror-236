@@ -1,0 +1,20 @@
+pyLiteracy/__init__.py,sha256=IdfqXXEkHdi5y9zrJ42NbHL7AyrKuDvHArZx-DjAzTY,50
+pyLiteracy/pyLiteracy.py,sha256=gVPfpNQ6E3MBjwjfdT8eqfW12OUMC1DQsE-UvBGDh80,3479
+pyLiteracy/discord bot/pyLiteracy_discord.py,sha256=p3RvkDhhHDrFKUe0jE5wm3DCQD7bJ_psqV5wVgOm05w,6857
+pyLiteracy/loki models/Gua_Zai/Gua_Zai.py,sha256=s8InmT09ZGO4hHJQssqJfn7X0B3k6KWBfxt7rRx9V8g,14966
+pyLiteracy/loki models/Gua_Zai/utteranceChecker.py,sha256=i0-OkzDd-giw2UntYJYRrJGze8r6Vgf7ysmYfvmkjqQ,579
+pyLiteracy/loki models/Gua_Zai/intent/Loki_Zai_Aspect.py,sha256=aV9DCR8EnuXm9sMlTC3EWrQHPeND1fC-_qvvO6E9PxA,338356
+pyLiteracy/loki models/Gua_Zai/intent/Loki_Zai_Loc.py,sha256=PG0GBOY0-0vfOwDOFAeFGAYMaiLa_nit33faDX-31UY,344265
+pyLiteracy/loki models/Gua_Zai/intent/Loki_Zai_QMarker.py,sha256=Kt3sFYMo41PxWHs4clto8kJnLdyr2cSm9m7j7C0ZJI8,338929
+pyLiteracy/loki models/Gua_Zai/intent/Loki_Zai_Range.py,sha256=d_FiVUYrefIf8yd4W2Uj2y7mWOUhQQraldXB9mWEELE,341856
+pyLiteracy/loki models/Gua_Zai/intent/Loki_Zai_State.py,sha256=S2eoQo_Es3ukpyGm8BuPPy2gHbDzSQDVumHcnD1I5_s,342044
+pyLiteracy/loki models/Gua_Zai/intent/Loki_Zai_idiom.py,sha256=WSP9kpftAFS28xgLcTgt3p3K_wU0F7387zKAYsOBL8U,339490
+pyLiteracy/loki models/Gua_Zai/intent/Loki_Zai_verbP.py,sha256=Nea5245LVa-LNfpezi5jN6lzyeGwCQ978Phdi0f6nFc,338266
+pyLiteracy/loki models/Gua_Zai/intent/Updater.py,sha256=6pEF73Vv2i15Gali3kJzcAPgku7DyYSj37b0oCYl8y0,10473
+pyLiteracy/loki models/Gua_Zai/intent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyLiteracy/webpage/UI/UI_main.py,sha256=zffiXIINk56C3C6KeT2zvlEx5rhU5oH50Sq2-9z9hfU,5766
+pyLiteracy/webpage/UI/naive_typo.py,sha256=cYPBR5s42hZfH1a52NK5XGhx05uIDlgX7_BdGO5Hyc4,7142
+pyLiteracy-0.0.1.dist-info/METADATA,sha256=S0gDW7nqW9i7Kk03MPNsfwaThOfuXCgl3ut1Yi8yy1I,4334
+pyLiteracy-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyLiteracy-0.0.1.dist-info/top_level.txt,sha256=JQXjt0s_9PF8f-Y1Y3lLts6H4wl6KFtWMCVCq-NaVyE,11
+pyLiteracy-0.0.1.dist-info/RECORD,,
