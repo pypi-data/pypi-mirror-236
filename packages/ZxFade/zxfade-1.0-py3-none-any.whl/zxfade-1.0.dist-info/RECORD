@@ -1,0 +1,12 @@
+zxfade/__init__.py,sha256=UaLRVb-Al36uOKJ8dlVOCsIZc6SLinGayjcJ4e-rEfM,170
+zxfade/align.py,sha256=sadG9dCGvAcx6uZHXrXN3yMUW8ipdXRn6qR9eg_niWA,1211
+zxfade/animations.py,sha256=Py-t47C0cjDDaVaTil_1cKi0Trr4VIyO7VzHU-FrjGY,3920
+zxfade/ansi.py,sha256=6RKpgA_-WFUeXDDJVnI9cc2KHUCcIXkAZnX03vNIgI4,435
+zxfade/colors.py,sha256=Y4VQcFgpbIj4-m0hFxKWIcWltpbHbtO0AchMH3a_ang,4788
+zxfade/pattern.py,sha256=OETEXtZVP5rscaAiUL9fY5frqO1Xmb1DBjX2jLKEQwE,2148
+zxfade/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zxfade/system.py,sha256=VqAhPXyfrgk2e1kGrDy7Or1WNdLJdFFGXrGZM2pAuC4,1724
+zxfade/types.py,sha256=B2fpFYKuugRW42LURIg8_QO4qLHoOwrI83jiphHzBRI,230
+zxfade-1.0.dist-info/METADATA,sha256=sKipCkLy3jaBCvuOw3GgZtSb4sMNnv7NFXoeVtFHtdc,1208
+zxfade-1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+zxfade-1.0.dist-info/RECORD,,
