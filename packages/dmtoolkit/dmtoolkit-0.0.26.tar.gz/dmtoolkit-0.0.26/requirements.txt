@@ -1,0 +1,25 @@
+##################################
+#           PRODUCTION           #
+##################################
+
+##### Frameworks #####
+autonomous-app >= 0.1.40
+
+##### System #####
+twine
+wheel
+setuptools
+python-dotenv
+
+##### Network #####
+
+requests
+
+##### Parsing #####
+
+python-slugify
+markdown
+
+##### Misc #####
+
+dice
