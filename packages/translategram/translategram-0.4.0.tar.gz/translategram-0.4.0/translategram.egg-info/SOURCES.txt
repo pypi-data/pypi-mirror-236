@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+translategram/__init__.py
+translategram.egg-info/PKG-INFO
+translategram.egg-info/SOURCES.txt
+translategram.egg-info/dependency_links.txt
+translategram.egg-info/requires.txt
+translategram.egg-info/top_level.txt
+translategram/python_telegram_bot_translator/__init__.py
+translategram/python_telegram_bot_translator/adapter.py
+translategram/translategram/__init__.py
+translategram/translategram/cache.py
+translategram/translategram/service_libs.py
+translategram/translategram/translator.py
+translategram/translategram/translator_services.py
