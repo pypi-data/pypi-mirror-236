@@ -1,0 +1,11 @@
+mobile_money/__init__.py,sha256=OIxlB9JWvPiWeQFDlidIbLm8gK7SeuunhjRQgqRUCGM,127
+mobile_money/momo/__init__.py,sha256=fwd7G-B4SxRlJBDgqtns7A4MOBTQymkEehrPbHXeNSc,5820
+mobile_money/momo/collections.py,sha256=cP6E0cWeV8vo1Ekf1kWk3iTSjropXatv-Y0YPoc6d70,2255
+mobile_money/momo/disbursments.py,sha256=yZlK4tM2Qzc53rPJbnFvQ0o0MGAXr-DSy6ud1phW-80,2766
+mobile_money/momo/errors.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mobile_money/momo/sandbox.py,sha256=FBaAh-4uVXIL7tEY9dSObNBQPi3gotV3Nz5VJLCPmXo,1241
+ugmobilemoney-0.0.2.dist-info/LICENSE,sha256=ggkqFY-qp9fBbArbtGYnRK5Yk73bvC2H3UzsKp136yo,1086
+ugmobilemoney-0.0.2.dist-info/METADATA,sha256=4I4L--eZXR89TEETNofX0YSUuls3bKPbv-G3U3lpR0A,5355
+ugmobilemoney-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ugmobilemoney-0.0.2.dist-info/top_level.txt,sha256=QIuCX9erMcOosF1d9_W-kLk6b-bM4MLNuSwc4WS3bwA,13
+ugmobilemoney-0.0.2.dist-info/RECORD,,
