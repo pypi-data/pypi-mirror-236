@@ -1,0 +1,285 @@
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py', 'franchises']
+INFO:root:[WebscraperObject] [create] franchises True
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py', 'franchises']
+INFO:root:[WebscraperObject] [create] franchises True
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py', 'franchises']
+INFO:root:[WebscraperObject] [create] franchises True
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py', 'franchises']
+INFO:root:[WebscraperObject] [create] franchises True
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py', 'franchises']
+INFO:root:[WebscraperObject] [create] franchises True
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py', 'franchises']
+INFO:root:[WebscraperObject] [create] franchises True
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py', 'franchises']
+INFO:root:[WebscraperObject] [create] franchises True
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py', 'franchises']
+INFO:root:[WebscraperObject] [create] franchises True
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 1}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[DataDictParserFactory] [Init] [{'field_name': 'franchise_name', 'parse_type': 'dynamic', 'html_field_value': 'text', 'attributes': {'data-stat': 'franch_name'}}, {'field_name': 'active', 'parse_type': 'static', 'static_value': 0}, {'field_name': 'url', 'parse_type': 'dynamic', 'html_field_value': 'url', 'attributes': {'data-stat': 'franch_name'}}]
+INFO:root:[WEBSCRAPER] [_PARSE_ARGUMENTS] ['main.py']
+INFO:root:[WebscraperObject] [create] franchises False
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT franchise_name, active, url, id FROM franchises
+INFO:root:[DATABASE STATEMENT] [SELECT STATEMENT] SELECT MAX(id) FROM franchises
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] CREATE TABLE franchises(franchise_name, active, url, id)
+INFO:root:[DATABASE STATEMENT] [EXECUTE STATEMENT ] DELETE FROM franchises
+WARNING:root:[DATABASE] [INSERT] Not inserting because we have no data
