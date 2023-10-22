@@ -1,0 +1,7 @@
+requests
+curl_cffi
+bs4
+beautifulsoup4
+babel
+colorama
+pytz
