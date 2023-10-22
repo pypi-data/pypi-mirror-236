@@ -1,0 +1,8 @@
+example_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_pkg/sec_example_pkg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_pkg/sec_example_pkg/xiedaxia.py,sha256=dPp5S8nDI2oj3Uyt9m6WGSH43RmP_sw0Q-pgmQCaR24,10451
+xiedaxia-0.1.6.dist-info/LICENSE.txt,sha256=jDhAhcffq3QKkJPRsbQcAu7QgJnI1CEvw4xVaR2Ah9I,1094
+xiedaxia-0.1.6.dist-info/METADATA,sha256=hucZfTCot77uoDzhO6wSDh9XYMQCIDqNcFTqyVVSl2c,553
+xiedaxia-0.1.6.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+xiedaxia-0.1.6.dist-info/top_level.txt,sha256=6z5BxHpE17rpY8UuF_FwZjTIbkRc7f6jXImHpIXC7gw,12
+xiedaxia-0.1.6.dist-info/RECORD,,
