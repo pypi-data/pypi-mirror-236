@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: opthub-scorer
+Version: 0.5.0
+Summary: OptHub Scorer
+Home-page: https://github.com/opthub-org/opthub-scorer
+Author: Naoki Hamada
+Author-email: hmkz@s101.xrea.com
+License: MIT
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools>=21.0.0
+Requires-Dist: click>=3.0
+Requires-Dist: PyYAML>=5.1
+Requires-Dist: gql[all]>=2.0.0
+Requires-Dist: docker>=4.2.0
+Provides-Extra: develop
+Requires-Dist: tox; extra == "develop"
+
+# OptHub Scorer
+OptHub Scorer is a worker program that scores a solution submitted to OptHub.
+
+## Requirements
+- Python >=3.6
+- Docker >=1.12
+
+See also [requirements.txt](requirements.txt) for dependent python packages.
+
+## Installation
+```
+$ pip install opthub-scorer
+```
+
+## Usage
+### How to start a scorer runner
+Login the docker registry where the problem image is stored.
+```
+$ docker login <registry>
+```
+
+Start a scorer.
+```
+$ opthub-scorer
+```
+
+Options
+|Parameter|Type|Default|Description|
+|-|-|-|-|
+|url|path|https://opthub-api.herokuapp.com/v1/graphql|URL to OptHub|
+|apikey|str||ApiKey|
+|interval|int|2|Polling interval|
+|verify/no-verify|bool|True|Verify SSL certificate|
+|retries|int|3|Retries to establish HTTPS connection|
+|timeout|int|600|Timeout to process a query|
+|rm|||Remove containers after exit|
+|quiet|||Be quieter|
+|verbose|||Be more verbose|
+|config|path|opthub-scorer.yml|Configuration file|
+
+### How to make a scorer
+1. Write an indicator program in your favorite language.
+2. Dockerize it.
+3. Push the docker image to DockerHub or somewhere else accessible from OptHub.
+   For this purpose, OptHub hosts its own docker private registry.
+4. Register the image tag to OptHub.
+
+See also [example](example/).
+
+## Author
+Naoki Hamada (hmkz@s101.xrea.com)
+
+## License
+MIT
