@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: trading212-rest
+Version: 0.4.0
+Summary: Rest API client for Trading212
+Author-email: Marcin Szymanski <ms32035@gmail.com>
+Project-URL: homepage, https://github.com/ms32035/trading212-rest
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: requests

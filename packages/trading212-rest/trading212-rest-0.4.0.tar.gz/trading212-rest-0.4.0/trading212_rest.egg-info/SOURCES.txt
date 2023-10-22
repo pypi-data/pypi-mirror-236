@@ -1,0 +1,8 @@
+LICENSE
+pyproject.toml
+trading212_rest/__init__.py
+trading212_rest.egg-info/PKG-INFO
+trading212_rest.egg-info/SOURCES.txt
+trading212_rest.egg-info/dependency_links.txt
+trading212_rest.egg-info/requires.txt
+trading212_rest.egg-info/top_level.txt
