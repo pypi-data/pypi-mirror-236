@@ -1,0 +1,13 @@
+stativ/__init__.py,sha256=XnP91Sd5zeOijzaX9dDcg_V-nA8EdvtLVDU5RAt-AiE,862
+stativ/__main__.py,sha256=E_tR1-whoYzpRlRH1NwgNsVO6uG6uL-AQap3k9pmQQI,121
+stativ/backup_store.py,sha256=6AKvaK2-6-iWaRNEKsSwgWlqWzfmPImLFH-GJtZjh7M,60
+stativ/cli.py,sha256=55zS2ialLqzAOO1lfqk9kWtOYSCO_vFKRDd8dz-kU6o,363
+stativ/delta_store.py,sha256=HsLZr7lo4e3L4GmoMwttuuUksZnC5BvUPEwDCK0HBBM,1976
+stativ/prefix_store.py,sha256=6AKvaK2-6-iWaRNEKsSwgWlqWzfmPImLFH-GJtZjh7M,60
+stativ/stativ.py,sha256=vKZnW6-ybmcEGjJhPKaHLdsvnfZQ9ze6UkwTxp8OXE8,6916
+stativ-2023.10.21.dist-info/LICENSE,sha256=a9GBBsUGDvTGs1rmHMujUJiPhEY6vtKCdGlW6XmWoTw,1069
+stativ-2023.10.21.dist-info/METADATA,sha256=McR-YL0wslXgeGXIp0Es5AZMHvcNXZqWmXccEfG4k1U,4049
+stativ-2023.10.21.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+stativ-2023.10.21.dist-info/entry_points.txt,sha256=7tj80-o7ojBrbR0r0bB7kg-EGpg29OqlTkE3OnZMOpA,42
+stativ-2023.10.21.dist-info/top_level.txt,sha256=2e0DPmEizXqSfIIIt-n50V5uug5OdFuh5YsrMxLNn8s,7
+stativ-2023.10.21.dist-info/RECORD,,
