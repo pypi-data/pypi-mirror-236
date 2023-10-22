@@ -1,0 +1,2 @@
+[console_scripts]
+upyt = upyt.cli:main
