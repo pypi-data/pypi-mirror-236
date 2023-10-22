@@ -1,0 +1,9 @@
+zenodo_search/__init__.py,sha256=Bs90Otz6zcSSt9KESxpSg2nrw9ZjiE4mGsRw5aH3HHg,416
+zenodo_search/_version.py,sha256=xr86OkZuGt8hQzkF1BTDlbPBdJErd_5eN4tlh2kTwdA,233
+zenodo_search/utils.py,sha256=uzTbp5BiFTzUXcPrcNim25SeA0dDB1FIsXlcAXfdsDQ,6321
+zenodo_search/zsearch.py,sha256=BASlCUErU5Telmjfzu6FiB4Q2T2nqshdcNoxVG3MYn8,6354
+zenodo_search-0.2.0.dist-info/LICENSE,sha256=g_5JdLm9CtfJcyvf2TcAh8HoUfX1ScU7q0QvODRJJnw,1090
+zenodo_search-0.2.0.dist-info/METADATA,sha256=jVGpqmI-6KfnLncECKRXDzrGjtg4fsLUuxJg4FZQWvY,1612
+zenodo_search-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+zenodo_search-0.2.0.dist-info/top_level.txt,sha256=QLASl9wJGfhbbJ_4kQZ8mvdcPcuf-BWnqLCnQ1TYdak,14
+zenodo_search-0.2.0.dist-info/RECORD,,
