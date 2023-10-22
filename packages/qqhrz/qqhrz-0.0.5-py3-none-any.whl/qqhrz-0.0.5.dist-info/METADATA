@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: qqhrz
+Version: 0.0.5
+Summary: 加入残差连接和层规范化、基于位置的前馈神经网络、Transformer的编码器块和解码器块
+Author-email: zkj <zhkaij@foxmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# qqhrz
+这是对动手学深度学习pytorch版的代码实现。
