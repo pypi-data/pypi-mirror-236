@@ -1,0 +1,3 @@
+[console_scripts]
+treadmdr = treadmdr:main
+
