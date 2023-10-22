@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: mudlark
+Version: 0.1.0
+Summary: 
+Author: Michael Stewart
+Author-email: michael.stewart.webdev@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Requires-Dist: typer-config[all] (>=1.2.1,<2.0.0)
+Description-Content-Type: text/x-rst
+
+*******
+mudlark
+*******
+
+Mudlark is a Python package for automatically cleaning the technical language present across many CSV-based datasets.
+
