@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: EmojiStore
+Version: 1.0
+Summary: A python package that stores all unicode emojis grouped by category !
+Home-page: https://antaresmugisho.vercel.app/
+Download-URL: https://github.com/AntaresMugisho/EmojiStore/archive/refs/tags/v1.0-alpha.tar.gz
+Author: Antares Mugisho
+Author-email: antaresmugisho@gmail.com
+License: MIT
+Keywords: emoji,sticker,mood
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+License-File: LICENSE
+Requires-Dist: beautifulsoup4

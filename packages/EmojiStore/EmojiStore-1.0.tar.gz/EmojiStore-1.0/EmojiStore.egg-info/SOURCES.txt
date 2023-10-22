@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+EmojiStore/__init__.py
+EmojiStore/accessors.py
+EmojiStore/generator.py
+EmojiStore/storage.py
+EmojiStore.egg-info/PKG-INFO
+EmojiStore.egg-info/SOURCES.txt
+EmojiStore.egg-info/dependency_links.txt
+EmojiStore.egg-info/requires.txt
+EmojiStore.egg-info/top_level.txt
