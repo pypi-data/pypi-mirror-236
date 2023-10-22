@@ -1,0 +1,10 @@
+clumppling/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clumppling/__main__.py,sha256=o6JBgD85QjpQFeXqpJ86vCXIT4pSWFc-_Zpg7h1vAfY,10164
+clumppling/custom_funcs.py,sha256=oRVsHF49XUTHAh6YZZkqVo9UtMkbc_Tm-0CKxHs_M04,1705
+clumppling/diffInd.py,sha256=9_VXrPTPA4ogLYrreU0EnjE7LWzdGKUuo5suQJv9BxE,4651
+clumppling/diffModel.py,sha256=ukCrOcM2PvjYIGINB-gjO7e_sfgCVEIT8SDORMyP-kI,4581
+clumppling/files/default_colors.txt,sha256=lWYy3P4qMeGRdrBo9uZwrDYkcGTcdVrQxeTy1dEl938,538
+clumppling/funcs.py,sha256=B2RKIS2Y2zS825d9VzwXYihbY6UM1N1fgcHUXAZ-LQc,70397
+clumppling-0.2.0.dist-info/METADATA,sha256=qwrBz5l_nmwI-fEFXlgvAol0rZY1ocxPL3yNQ9PW3VI,15414
+clumppling-0.2.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+clumppling-0.2.0.dist-info/RECORD,,
