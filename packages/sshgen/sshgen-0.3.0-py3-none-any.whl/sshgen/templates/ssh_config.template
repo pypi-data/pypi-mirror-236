@@ -1,0 +1,5 @@
+Host {{ host }} {{ host_alias }} # {{ host_comment }}
+    HostName {{ hostname }}
+    User {{ ssh_user }}
+    {{ port }}
+    {{ identification }}

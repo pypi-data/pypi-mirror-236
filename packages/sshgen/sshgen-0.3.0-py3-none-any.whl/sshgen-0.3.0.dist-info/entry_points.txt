@@ -1,0 +1,3 @@
+[console_scripts]
+sshgen=sshgen.cli:app
+
