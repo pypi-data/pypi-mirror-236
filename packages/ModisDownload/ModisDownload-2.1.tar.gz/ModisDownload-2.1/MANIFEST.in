@@ -1,0 +1,2 @@
+recursive-include ModisDownload/temp *.csv
+recursive-include ModisDownload/temp *.json
