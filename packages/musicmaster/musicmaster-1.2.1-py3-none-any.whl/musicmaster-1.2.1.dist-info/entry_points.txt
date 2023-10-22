@@ -1,0 +1,3 @@
+[console_scripts]
+music = music:main
+musicserver = music.backend.backend:main
