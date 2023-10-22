@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+abdulpdf/__init__.py
+abdulpdf/pdf2text.py
+abdulpdf2text.egg-info/PKG-INFO
+abdulpdf2text.egg-info/SOURCES.txt
+abdulpdf2text.egg-info/dependency_links.txt
+abdulpdf2text.egg-info/top_level.txt

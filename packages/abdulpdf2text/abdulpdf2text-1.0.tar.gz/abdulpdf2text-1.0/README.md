@@ -1,0 +1,1 @@
+This is a simple exmaple of my pdf2text project publication
