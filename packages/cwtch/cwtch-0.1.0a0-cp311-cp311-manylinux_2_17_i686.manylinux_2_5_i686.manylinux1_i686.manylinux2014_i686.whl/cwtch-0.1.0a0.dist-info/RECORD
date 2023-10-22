@@ -1,0 +1,11 @@
+cwtch-0.1.0a0.dist-info/RECORD,,
+cwtch-0.1.0a0.dist-info/LICENSE,sha256=Wk7uAQHNzNZYbZ8BVvJKMepby7UdoiTBc00DPle6qB0,1068
+cwtch-0.1.0a0.dist-info/WHEEL,sha256=ei7KSRucuYGW50D-_crvo1pJhJr6gRMcudzweUHKjls,214
+cwtch-0.1.0a0.dist-info/METADATA,sha256=yN-_cXjfJ2H6YmBy07lsC86VBKJ18vrZ7JATGoF0j8g,985
+ext/core.pyx,sha256=iQ2olODpNxp-nT2vHB_TEKEWn9Ig5DtRKCCxrANezOs,28820
+cwtch/cwtch.py,sha256=KvT93QSTIG5A_CxzWDBcmOEm7NVP10p_JEa1U7twpyE,15860
+cwtch/errors.py,sha256=WNPgK0schzX006-hYFu0KZZCS1rWYkz_IE7XiGRcALA,788
+cwtch/metadata.py,sha256=5pw6SwDgSbvvw3UGAPvnY8Cq_RI9XPZ--Atu9vPRd4c,2720
+cwtch/types.py,sha256=yDLi7B_otLIy4rFvGXl5xlS682GNM4GA3hVP-Him6Hg,1683
+cwtch/core.cpython-311-i386-linux-gnu.so,sha256=5tYPMx-3vA047BCaUtMIJjSEXViRzmRhIalrO9HQkns,2703576
+cwtch/__init__.py,sha256=Ge5J_RJhE_UIw4cR5GE7g6OFFniC4ykubbpBjYDafxw,257
