@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+package/numba_scipy_complex/__init__.py
+package/numba_scipy_complex.egg-info/PKG-INFO
+package/numba_scipy_complex.egg-info/SOURCES.txt
+package/numba_scipy_complex.egg-info/dependency_links.txt
+package/numba_scipy_complex.egg-info/requires.txt
+package/numba_scipy_complex.egg-info/top_level.txt
+package/numba_scipy_complex/src/__init__.py
+package/numba_scipy_complex/src/functions/__init__.py
+package/numba_scipy_complex/src/functions/gamma.py
+package/numba_scipy_complex/tests/__init__.py
+package/numba_scipy_complex/tests/test_utils.py
+package/numba_scipy_complex/tests/functions/__init__.py
+package/numba_scipy_complex/tests/functions/gamma.py

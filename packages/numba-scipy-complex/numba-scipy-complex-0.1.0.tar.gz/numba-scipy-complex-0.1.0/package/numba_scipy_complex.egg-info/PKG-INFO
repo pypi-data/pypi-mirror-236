@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: numba-scipy-complex
+Version: 0.1.0
+Summary: Implements a collection of scipy.special functions with support for complex arguments during theNumba nopython mode.
+Home-page: https://github.com/JoachimMarin/numba-scipy-complex
+Author: Joachim Marin
+Author-email: joachim.marin@t-online.de
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+Implements a collection of `scipy.special` functions with support for complex arguments during the Numba `nopython` mode.
