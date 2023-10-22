@@ -1,0 +1,9 @@
+bleach[css]
+django>=3.2
+pytz
+
+[prevent-XSS]
+bleach
+
+[test]
+tox>=2.3
