@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/dictfunc/__init__.py
+src/dictfunc/dictfunc.py
+src/dictfunc.egg-info/PKG-INFO
+src/dictfunc.egg-info/SOURCES.txt
+src/dictfunc.egg-info/dependency_links.txt
+src/dictfunc.egg-info/top_level.txt
