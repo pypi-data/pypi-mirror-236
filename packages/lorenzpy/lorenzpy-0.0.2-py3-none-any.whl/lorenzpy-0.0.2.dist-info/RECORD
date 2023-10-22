@@ -1,0 +1,16 @@
+lorenzpy/__init__.py,sha256=np_ytV9SSWWTcmYNwW8frH_UW5nztdvwRH9AkUuZzic,317
+lorenzpy/measures.py,sha256=Bj6dpNIWw2on_qhGE__OboVAHBwaoS3G5vARlhJEUdc,6603
+lorenzpy/plot/__init__.py,sha256=ViwuFmVXZ7Zms7NKwwcdRsx1aG_pTUfeZ1ciIrUY1zQ,90
+lorenzpy/plot/plot.py,sha256=hCemZCqENDwxnedk6wLu-x1Qcw9oLdgsSNF18Jp52ko,1196
+lorenzpy/simulations/__init__.py,sha256=0TXM_nh43bEt6r-ZlTaDAvRiQEzsLDJPLzRz4y4mKio,1664
+lorenzpy/simulations/autonomous_flows.py,sha256=EohqybguY-6ltOdH6OxODCR7pTSKClaMp6CgCbPVobs,15082
+lorenzpy/simulations/base.py,sha256=xdh6eCf9LM-Thj8JXrUtM83rleRt5poPOyc52HqDv6g,5459
+lorenzpy/simulations/discrete_maps.py,sha256=CvWpPLyuW0dZ5oTC9S99-AGz1OXiFJUdRPGjEzkre9Y,1507
+lorenzpy/simulations/driven_systems.py,sha256=M6kVm3Vm2lhrfGt9g3TWXg_aKCumkkwehvKJn4XUmAs,932
+lorenzpy/simulations/others.py,sha256=32ErOPko6ZVvjgppXYBkus4itqeVHANP58CA3W7vfYs,8494
+lorenzpy/simulations/solvers.py,sha256=PiAXH8FIcNP4kf41wqrnjsTQBwgUx3Kl9WYQtKMiMqQ,3962
+lorenzpy-0.0.2.dist-info/LICENSE,sha256=air4ryg8XRCPBPDySvUS4C7R0NB7Xj2k31ElCo-yMkA,1088
+lorenzpy-0.0.2.dist-info/METADATA,sha256=HQa690hnyi1ygfVBIMyAzdd6rz4Wj-ZzI1XwM9_VnrQ,7359
+lorenzpy-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+lorenzpy-0.0.2.dist-info/top_level.txt,sha256=uqdfBNfMKsgfB-mt9eku1ZVHY63Qz_9FBKlnsGcZRnc,9
+lorenzpy-0.0.2.dist-info/RECORD,,
