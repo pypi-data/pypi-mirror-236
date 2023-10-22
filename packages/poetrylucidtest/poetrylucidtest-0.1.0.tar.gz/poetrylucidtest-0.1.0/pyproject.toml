@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "poetrylucidtest"
+version = "0.1.0"
+description = ""
+authors = ["Gang Huang <huanggang.dut@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyglet = "^2.0.9"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
