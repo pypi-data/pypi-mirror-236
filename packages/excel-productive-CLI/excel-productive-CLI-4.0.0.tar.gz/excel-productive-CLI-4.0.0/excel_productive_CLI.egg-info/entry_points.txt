@@ -1,0 +1,2 @@
+[console_scripts]
+excel-productive-CLI-4.0.0 = main:main
