@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+setux/mappings/packages.py
+setux/mappings/services.py
+setux_mappings.egg-info/PKG-INFO
+setux_mappings.egg-info/SOURCES.txt
+setux_mappings.egg-info/dependency_links.txt
+setux_mappings.egg-info/requires.txt
+setux_mappings.egg-info/top_level.txt
