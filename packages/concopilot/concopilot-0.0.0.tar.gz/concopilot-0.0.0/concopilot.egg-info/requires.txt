@@ -1,0 +1,6 @@
+PyYAML
+validators
+python-gnupg
+requests
+pycryptodome
+tqdm
