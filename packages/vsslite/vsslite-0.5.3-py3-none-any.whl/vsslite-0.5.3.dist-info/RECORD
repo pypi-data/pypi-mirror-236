@@ -1,0 +1,13 @@
+vsslite/__init__.py,sha256=P2iIETxSyf33QCQ-Qs_Byye-iXhNpqOKZ6-79vTrvhs,246
+vsslite/__main__.py,sha256=huxF60htJxOK7KfuTRgNTpYUgD-jgSMxmQKFJ9Bnnxc,1870
+vsslite/chat.py,sha256=_MvGDjBHfogq_5cldJUya5WWcA0Cc0VRGOUwE-bNMTk,11252
+vsslite/client.py,sha256=waNLEig7y1kfAV-PerX-11vWGv9bzykIpU2Tuw_b6Oc,5876
+vsslite/lcclient.py,sha256=pmtkNKs4GeJ9VdvF9EZLmAq34VYKdV5I9NzQ3iD_UAU,9410
+vsslite/lcserver.py,sha256=K9aGHxua1Mx3ySw7PJUkJjeLAxCnrXFSUgeY8K2mF8s,10849
+vsslite/server.py,sha256=w7NEzs12_6NW6Kq5ZdBAaVj0ma76rdfbuF7RFlr6Nes,6796
+vsslite/vsslite.py,sha256=s20F4iQxKt4tjQAGpGB8nmPEmg2gHEJlEdOnFTB0Eq4,9579
+vsslite-0.5.3.dist-info/LICENSE,sha256=5i_YdSN3Y07A_MOR520uPnIW9Vt1XImef_qFVGk8lDQ,1061
+vsslite-0.5.3.dist-info/METADATA,sha256=YaXojqKmZ34NPc16rKgS32n2jfnOiP_8VKnnv9g0S24,6794
+vsslite-0.5.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vsslite-0.5.3.dist-info/top_level.txt,sha256=AytDGzAlHvOx6WqEQ5278QMtmztafn4B9sVo0VsAYgE,8
+vsslite-0.5.3.dist-info/RECORD,,
