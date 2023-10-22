@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+player_performance_ratings.egg-info/PKG-INFO
+player_performance_ratings.egg-info/SOURCES.txt
+player_performance_ratings.egg-info/dependency_links.txt
+player_performance_ratings.egg-info/top_level.txt
