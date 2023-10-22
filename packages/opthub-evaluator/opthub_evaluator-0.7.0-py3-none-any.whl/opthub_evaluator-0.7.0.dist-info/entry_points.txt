@@ -1,0 +1,2 @@
+[console_scripts]
+opthub-evaluator = opthub_evaluator.main:run
