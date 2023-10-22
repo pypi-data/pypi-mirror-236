@@ -1,0 +1,8 @@
+pylibclang-216.0.6.dist-info/METADATA,sha256=G53iokyfSkAbSIjWC1JQgj9-cjA6TYPhZKlQmZt8fC8,3716
+pylibclang-216.0.6.dist-info/RECORD,,
+pylibclang-216.0.6.dist-info/WHEEL,sha256=w5uHSQrmH2eQDTgHgPArX0m6hj3M_OTkRgh4ZlUXiSY,149
+pylibclang-216.0.6.dist-info/top_level.txt,sha256=HJN3HsYb-MrdQ6CtGrw-yXFJBIKWCnysfZDllBTzc5k,11
+pylibclang/_C.cpython-39-x86_64-linux-gnu.so,sha256=6-dTnkBz8rT45v76wFneLUeEFAaBjDTmVDTnoOVLCXM,5246776
+pylibclang/cindex.py,sha256=0NnlXpfkU8Xpiv29xcvntNtFvB_ZBCVCpCMLns7H3Eo,73955
+pylibclang/__init__.py,sha256=yCU519UXjS2GA3WlEbpdz88R2I3GC-aA2F4moQw6lz8,67
+pylibclang/libclang.so.16,sha256=Y8tpF4Idu931yytCUPeYBZvEicsF2Vq81CUxyk701_k,61251800
