@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: microblocks-wifi-radio
+Version: 0.1.0
+Summary: 
+Author: wwj718
+Author-email: wuwenjie718@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+
+# WiFi Radio
+
+Work with MicroBlocks WiFi Radio library.
+
+## Install
+
+```
+pip install microblocks_wifi_radio
+```
+
+## Usage
+
+```
+import time
+from microblocks_wifi_radio import Radio
+r = Radio()
+r.send_number(123)
+r.send_string("hello")
+
+while True:
+    time.sleep(0.01)
+    if r.message_received():
+        print(r.last_number())
+        print(r.last_string())
+```
