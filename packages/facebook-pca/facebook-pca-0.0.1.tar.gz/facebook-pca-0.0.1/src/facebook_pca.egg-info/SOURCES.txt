@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/facebook_pca/__init__.py
+src/facebook_pca/facebooklive.py
+src/facebook_pca.egg-info/PKG-INFO
+src/facebook_pca.egg-info/SOURCES.txt
+src/facebook_pca.egg-info/dependency_links.txt
+src/facebook_pca.egg-info/top_level.txt

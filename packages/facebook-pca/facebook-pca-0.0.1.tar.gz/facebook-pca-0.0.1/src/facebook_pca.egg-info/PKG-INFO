@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: facebook-pca
+Version: 0.0.1
+Author: ajh
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# PCA model for facebook seller live dataset
+
+- this package serves data preprocessing and model train/evaluation for uci facebook live dataset.
