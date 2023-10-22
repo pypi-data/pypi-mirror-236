@@ -1,0 +1,10 @@
+bioimageio_chatbot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bioimageio_chatbot/__main__.py,sha256=XbngOtzOoxu8f1MoxX9yIA8RCp638vJj_y9F45OzPHc,1896
+bioimageio_chatbot/chatbot.py,sha256=BZF6deiMeiIBDsU00B62rsLEmKX0BeyhTmGXNItvLM8,12763
+bioimageio_chatbot/knowledge_base.py,sha256=-r2-NtzsANkdvV2XVddGmNTH0rhE-gFFzJb3ipMGOKk,5809
+bioimageio_chatbot/utils.py,sha256=xsBh0uhbDf1ZUqnKqiDebxKnpzM8TynbxO3kUazWU_8,612
+bioimageio_chatbot-0.1.1.dist-info/LICENSE,sha256=rboGm7htQ-7NNVcxppxWwR8aCUICUk9iDTce_weLqmg,1068
+bioimageio_chatbot-0.1.1.dist-info/METADATA,sha256=fuN_jROp5OOeGlWAhl5nVKLmfrYLxgBFX-oPpaQ-HoM,8167
+bioimageio_chatbot-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bioimageio_chatbot-0.1.1.dist-info/top_level.txt,sha256=mzfs6ABEyV0trprk6uJoIwfA5boM0gpLVEiH2ROlDoc,19
+bioimageio_chatbot-0.1.1.dist-info/RECORD,,
