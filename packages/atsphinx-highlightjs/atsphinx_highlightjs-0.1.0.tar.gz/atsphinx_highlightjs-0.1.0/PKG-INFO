@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: atsphinx-highlightjs
+Version: 0.1.0
+Summary: Override code-block output for highlight.js.
+Author-email: Kazuya Takei <myself@attakei.net>
+Description-Content-Type: text/x-rst
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Documentation :: Sphinx
+Requires-Dist: sphinx
+Requires-Dist: pytest ==7.* ; extra == "test"
+Project-URL: Home, https://github.com/atsphinx/highlightjs
+Provides-Extra: test
+
+====================
+atsphinx-highlightjs
+====================
+
+Override code-block output for highlight.js
+
+Getting started
+===============
+
+.. code:: console
+
+   pip install atsphinx-highlightjs
+
+Usage
+=====
+
+Set extension into your ``conf.py`` of Sphinx documentation.
+
+.. code:: python
+
+   extensions = [
+       # Add extension with others.
+       "atsphinx.highlightjs",
+   ]
+
+License
+=======
+
+Apache-2.0 license. Please see `LICENSE <./LICENSE>`_.
+
