@@ -1,0 +1,9 @@
+pymmcore_midi/__init__.py,sha256=oOFbo4DkOEuz58ns5NDtcIvLvcdYUd4zx_0GMt6Xw8A,616
+pymmcore_midi/_core_connect.py,sha256=6ptj3dQ03peIsdT4TZ_4SPNRw-msp9sY6vZ0s3UCFck,6549
+pymmcore_midi/_device.py,sha256=NBwLXdJ1ZtaNuv1M5ZgY0GsQBR0VzvCy9ZSYQHXgRXk,5510
+pymmcore_midi/_xtouch.py,sha256=n9MMJOtyq_9MjGi108l8h7cheMofzklbGjZuK7L4ims,1627
+pymmcore_midi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pymmcore_midi-0.0.1rc2.dist-info/METADATA,sha256=s58Bm2nuOmAobTdlivQrYX3IuuOPuKRSxOHfG9tEI3o,1981
+pymmcore_midi-0.0.1rc2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+pymmcore_midi-0.0.1rc2.dist-info/licenses/LICENSE,sha256=pY8jqpmjisIM7lVsbSEw4b-PUVnM8_ZSFlmLVdrXmxk,1501
+pymmcore_midi-0.0.1rc2.dist-info/RECORD,,
