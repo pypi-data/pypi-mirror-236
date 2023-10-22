@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: 5_Stars_Contact_Book
+Version: 0.0.1
+Summary: Contact Book
+Author: <*****>
+License: MIT
+Keywords: contact,book
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Communications :: Telephony
+Classifier: Programming Language :: Python :: 3
+
+A contact book with built-in bot to help you operate with your contacts

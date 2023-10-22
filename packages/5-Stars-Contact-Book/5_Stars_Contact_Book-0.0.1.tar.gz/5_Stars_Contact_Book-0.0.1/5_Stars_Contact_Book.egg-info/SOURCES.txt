@@ -1,0 +1,6 @@
+README.md
+setup.py
+5_Stars_Contact_Book.egg-info/PKG-INFO
+5_Stars_Contact_Book.egg-info/SOURCES.txt
+5_Stars_Contact_Book.egg-info/dependency_links.txt
+5_Stars_Contact_Book.egg-info/top_level.txt
