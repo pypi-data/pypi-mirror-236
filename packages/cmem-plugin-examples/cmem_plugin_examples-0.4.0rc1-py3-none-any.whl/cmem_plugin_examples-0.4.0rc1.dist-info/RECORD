@@ -1,0 +1,13 @@
+cmem_plugin_examples/__init__.py,sha256=0BopjShvr763kDEEICmNv-P8rvcg4fYWFnbVXXj4VV8,55
+cmem_plugin_examples/transform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmem_plugin_examples/transform/lifetime.py,sha256=_c7oPtY24-XQwYbg0WjtjqhjRB6FCpU04S4YFt9HM4s,2296
+cmem_plugin_examples/workflow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cmem_plugin_examples/workflow/custom.svg,sha256=XK6gTFeD7BJQYbMXr9BBBS6NXCCDfJ5dp6D5ucN3KRY,15411
+cmem_plugin_examples/workflow/minimal.py,sha256=cPBAexRD_WaLbcNwR17x2hRBDf9AIS3NMwrEyzgPI9k,611
+cmem_plugin_examples/workflow/random_values.py,sha256=k-2URWcTssXXaIlkJk3cro9375TPMauK7sApuB9eYUE,5121
+cmem_plugin_examples/workflow/sleep.py,sha256=M1aMgA35DIvsGRZrZ5spvv1RSSWRF62gbrYj7ZdSeVs,1239
+cmem_plugin_examples/workflow/user.py,sha256=9e24hx_Yc9csf20y9CXHgjGaSPY_acAI1REijfEa42Q,2231
+cmem_plugin_examples-0.4.0rc1.dist-info/LICENSE,sha256=5t6lcWcFU3TBO5wwq9PYNbgzfVfFUuL-80v5BTGuuMQ,11334
+cmem_plugin_examples-0.4.0rc1.dist-info/METADATA,sha256=DyA-Ijx66ddgTKeYN1NST1YW2JiEJwBHuV75uWFDZ04,1112
+cmem_plugin_examples-0.4.0rc1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cmem_plugin_examples-0.4.0rc1.dist-info/RECORD,,

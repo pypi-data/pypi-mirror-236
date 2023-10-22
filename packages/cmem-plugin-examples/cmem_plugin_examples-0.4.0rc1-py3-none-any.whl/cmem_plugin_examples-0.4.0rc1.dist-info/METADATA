@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: cmem-plugin-examples
+Version: 0.4.0rc1
+Summary: Example plugins for eccenca Corporate Memory.
+License: Apache-2.0
+Keywords: eccenca Corporate Memory,plugins,DataIntegration
+Author: eccenca
+Author-email: cmempy-developer@eccenca.com
+Maintainer: Sebastian Tramp
+Maintainer-email: sebastian.tramp@eccenca.com
+Requires-Python: >=3.11,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: cmem-plugin-base (>=4.3.0,<5.0.0)
+Description-Content-Type: text/markdown
+
+# cmem-plugin-examples
+
+Example plugins for eccenca Corporate Memory.
+
+This is a plugin for [eccenca](https://eccenca.com) [Corporate Memory](https://documentation.eccenca.com).
+
+You can install it with the [cmemc](https://eccenca.com/go/cmemc) command line
+clients like this:
+
+```
+cmemc admin workspace python install cmem-plugin-examples
+```
+
+
