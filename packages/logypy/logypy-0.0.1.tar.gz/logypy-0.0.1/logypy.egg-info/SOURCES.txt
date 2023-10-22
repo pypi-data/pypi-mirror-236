@@ -1,0 +1,8 @@
+setup.py
+logypy/__init__.py
+logypy/logypy.py
+logypy.egg-info/PKG-INFO
+logypy.egg-info/SOURCES.txt
+logypy.egg-info/dependency_links.txt
+logypy.egg-info/top_level.txt
+test/test.py

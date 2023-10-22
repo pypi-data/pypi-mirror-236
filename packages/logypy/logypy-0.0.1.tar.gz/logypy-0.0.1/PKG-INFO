@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: logypy
+Version: 0.0.1
+Summary: Effortless Python Logging for All Your Projects
+Author: dev-frog
+Author-email: <kali.nisga@gmail.com>
+Keywords: python,logging,log,logpy,logpy
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Simplify logging in Python with an easy-to-use package that allows you to create and manage logs seamlessly in your applications. Streamline debugging, error tracking, and activity monitoring with a single function call.
