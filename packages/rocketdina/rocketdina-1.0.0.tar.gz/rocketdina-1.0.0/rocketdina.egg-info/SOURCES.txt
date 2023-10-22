@@ -1,0 +1,9 @@
+README.md
+setup.py
+rocketdina/__init__.py
+rocketdina/rocket.py
+rocketdina/setup.py
+rocketdina.egg-info/PKG-INFO
+rocketdina.egg-info/SOURCES.txt
+rocketdina.egg-info/dependency_links.txt
+rocketdina.egg-info/top_level.txt
