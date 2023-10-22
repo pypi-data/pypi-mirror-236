@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/__init__.py
+src/tradier.py
+src/uvatradier.egg-info/PKG-INFO
+src/uvatradier.egg-info/SOURCES.txt
+src/uvatradier.egg-info/dependency_links.txt
+src/uvatradier.egg-info/requires.txt
+src/uvatradier.egg-info/top_level.txt
