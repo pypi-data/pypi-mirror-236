@@ -1,0 +1,11 @@
+authorize_networks_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authorize_networks_cli/authorize_kubernetes.py,sha256=N8nIi155sL-S7aAtotvifHeMCiUuJllphch-5JcsaUs,2677
+authorize_networks_cli/authorize_sql.py,sha256=asGXCyRHx3BOAGXBU2Yrsto0AIDk4yX33JXxwxh0iEI,2486
+authorize_networks_cli/main.py,sha256=wIiT64K565JWWpHlMXVLi8Xhh7a1PgaFnSpC4L5xDpI,2699
+authorize_networks_cli/save_config.py,sha256=TlM_81BLLvoIhvOTMfvXmE4DzjQKcNNlhbzc4ktVNbI,1855
+authorize_networks_cli/util.py,sha256=VCYXoSSnkanxgbv0GI-G1EMaqv0WugEkx7dfaqMkZvI,864
+gcloud_network_authorizer-0.0.2.dist-info/METADATA,sha256=nc7aRUZA3kq4Jw22s2jUdiHYq2deV2ZAboRo-W0jmxE,115
+gcloud_network_authorizer-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gcloud_network_authorizer-0.0.2.dist-info/entry_points.txt,sha256=UnhLKiMDpZ5Kgx36Y6ZphEdIpdE6Lv_JnzBseGjgcL8,71
+gcloud_network_authorizer-0.0.2.dist-info/top_level.txt,sha256=6BP67_y6zwOBEP4Geyla6lPFW2vW-Tc3nxmYJcdJ064,23
+gcloud_network_authorizer-0.0.2.dist-info/RECORD,,
