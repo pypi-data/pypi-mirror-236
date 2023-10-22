@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "cloudantic"
+version = "0.0.4"
+description = ""
+authors = ["Oscar Bahamonde <o.bahamonde@globant.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+boto3 = "^1.28.65"
+pydantic = "1.10.12"
+fastapi = "^0.104.0"
+uvicorn = "^0.23.2"
+python-dotenv = "^1.0.0"
+rich = "^13.6.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+black = "^23.10.0"
+isort = "^5.12.0"
+pylint = "^3.0.1"
+boto3-stubs = {version = "1.28.67", extras = ["account", "amp", "amplifybackend", "amplifyuibuilder", "appconfigdata", "application-insights", "applicationcostprofiler", "apprunner", "arc-zonal-shift", "auditmanager", "autoscaling-plans", "backup-gateway", "backupstorage", "billingconductor", "braket", "chime-sdk-identity", "chime-sdk-media-pipelines", "chime-sdk-meetings", "chime-sdk-messaging", "chime-sdk-voice", "cleanrooms", "cloudcontrol", "cloudtrail-data", "codecatalyst", "codeguru-reviewer", "codeguruprofiler", "codestar", "codestar-connections", "codestar-notifications", "compute-optimizer", "connect-contact-lens", "connectcampaigns", "connectcases", "controltower", "customer-profiles", "detective", "devops-guru", "docdb-elastic", "drs", "dynamodb", "dynamodbstreams", "elastic-inference", "emr-serverless", "evidently", "finspace", "finspace-data", "fis", "forecastquery", "gamesparks", "grafana", "healthlake", "honeycode", "importexport", "inspector2", "internetmonitor", "iot-roborunner", "iot1click-devices", "iot1click-projects", "iotanalytics", "iotdeviceadvisor", "iotevents", "iotevents-data", "iotfleethub", "iotfleetwise", "iotsecuretunneling", "iotthingsgraph", "iottwinmaker", "iotwireless", "ivs", "ivs-realtime", "ivschat", "kafkaconnect", "kendra-ranking", "keyspaces", "kinesis-video-signaling", "kinesis-video-webrtc-storage", "kinesisanalytics", "kinesisanalyticsv2", "lex-models", "lex-runtime", "lexv2-models", "lexv2-runtime", "license-manager", "license-manager-linux-subscriptions", "license-manager-user-subscriptions", "lookoutequipment", "lookoutmetrics", "lookoutvision", "m2", "machinelearning", "macie", "macie2", "marketplace-catalog", "marketplacecommerceanalytics", "mediastore-data", "memorydb", "mgh", "mgn", "migration-hub-refactor-spaces", "migrationhub-config", "migrationhuborchestrator", "migrationhubstrategy", "mobile", "network-firewall", "nimble", "oam", "omics", "opensearchserverless", "opsworkscm", "panorama", "personalize-events", "personalize-runtime", "pinpoint-sms-voice", "pinpoint-sms-voice-v2", "pipes", "privatenetworks", "proton", "qldb", "qldb-session", "rbin", "redshift-serverless", "resiliencehub", "resource-explorer-2", "rolesanywhere", "route53-recovery-cluster", "route53-recovery-control-config", "route53-recovery-readiness", "rum", "sagemaker-edge", "sagemaker-geospatial", "sagemaker-metrics", "scheduler", "securitylake", "simspaceweaver", "sms", "sms-voice", "snow-device-management", "ssm-contacts", "ssm-incidents", "ssm-sap", "sso-admin", "support-app", "swf", "synthetics", "tnb", "voice-id", "vpc-lattice", "wellarchitected", "wisdom", "worklink", "workmail", "workmailmessageflow", "workspaces-web"]}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
