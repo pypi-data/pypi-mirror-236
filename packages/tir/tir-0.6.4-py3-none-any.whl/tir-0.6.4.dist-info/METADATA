@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: tir
+Version: 0.6.4
+Summary: A minimalist static site generator for thoughtful people
+Author: kvfi
+Author-email: mail@ouafi.net
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: csscompressor (>=0.9.5,<0.10.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0)
+Requires-Dist: libsass (>=0.22.0,<0.23.0)
+Requires-Dist: markdown (>=3.4.4,<4.0.0)
+Requires-Dist: marshmallow-dataclass (>=8.6.0,<9.0.0)
+Requires-Dist: pytest (>=7.4.2,<8.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Description-Content-Type: text/markdown
+
+# Tir [![Travis Build Status](https://api.travis-ci.org/kvfi/tir.svg?branch=master)](https://travis-ci.org/kvfi/tir) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c4d30704fe684b1c861fe9d64fcb45cc)](https://www.codacy.com/manual/kvfi/tir) [![License](https://img.shields.io/github/license/kvfi/tir.svg)](https://github.com/kvfi/tir/blob/master/LICENSE) 
+Tir is a minimalist static site generator that focuses on concise information sharing. It offers the tools to compile notes in a structured manner. You can use Tir as a blog or document generator.
+
+## Getting started
+
+To use Tir, you just have to install it using pip:
+
+```bash
+pip install tir
+```
+
