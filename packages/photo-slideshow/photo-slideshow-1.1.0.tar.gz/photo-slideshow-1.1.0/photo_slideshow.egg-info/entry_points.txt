@@ -1,0 +1,2 @@
+[gui_scripts]
+photo-slideshow = photoslideshow.photoslideshow:main

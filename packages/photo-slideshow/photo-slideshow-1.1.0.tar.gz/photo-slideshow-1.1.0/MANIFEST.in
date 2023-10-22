@@ -1,0 +1,9 @@
+
+include MANIFEST.in
+
+include LICENSE
+include config/photoslideshow_config.ini
+include README.md
+include resources/photoslideshow.png
+include resources/photoslideshow_ico.png
+include resources/photoslideshow_window.png
