@@ -1,0 +1,4 @@
+[console_scripts]
+start_tst_server=scripts.test_server:start_server
+stop_tst_server=scripts.test_server:stop
+
