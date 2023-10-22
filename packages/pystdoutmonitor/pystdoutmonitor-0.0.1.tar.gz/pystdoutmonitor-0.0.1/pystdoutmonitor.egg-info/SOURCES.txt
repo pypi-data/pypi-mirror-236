@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+pystdoutmonitor.egg-info/PKG-INFO
+pystdoutmonitor.egg-info/SOURCES.txt
+pystdoutmonitor.egg-info/dependency_links.txt
+pystdoutmonitor.egg-info/not-zip-safe
+pystdoutmonitor.egg-info/top_level.txt
+stdoutmonitor/__init__.py
+stdoutmonitor/stdoutmonitor.py
