@@ -1,0 +1,95 @@
+[tool.poetry]
+name = "pybas-automation"
+version = "0.1.16"
+description = "A Python library for automating BrowserAutomationStudio (BAS) using headless Chromium browsers and Windows GUI program."
+authors = ["sergerdn <64213648+sergerdn@users.noreply.github.com>"]
+homepage = "https://github.com/sergerdn/py-bas-automation"
+repository = "https://github.com/sergerdn/py-bas-automation"
+keywords = [
+    "headless Chromium", "Python browser automation", "browser fingerprint protection",
+    "prevent browser fingerprinting"
+]
+classifiers = [
+    "Topic :: Internet :: WWW/HTTP :: Browsers",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+readme = ".pypi/README.md"
+license = "MIT"
+include = ["CHANGELOG.md"]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.1.16"
+version_files = [
+    "pyproject.toml:version",
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+httpx = { extras = ["socks"], version = "^0.25.0" }
+pydantic = "^2.4.2"
+python-dotenv = "^1.0.0"
+websockets = "^11.0.3"
+filelock = "^3.12.4"
+fastapi = "^0.104.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.2"
+pytest-vcr = "^1.0.2"
+pycountry = "^22.3.5"
+black = "^23.10.0"
+mypy = "^1.6.1"
+isort = "^5.12.0"
+flake8 = "^6.1.0"
+pytest-cov = "^4.1.0"
+pytest-asyncio = "^0.21.1"
+pydocstyle = "^6.3.0"
+pylint = { extras = ["spelling"], version = "^3.0.1" }
+pylint-pydantic = "^0.3.0"
+autopep8 = "^2.0.4"
+pydeps = "^1.12.17"
+commitizen = "^3.12.0"
+nest-asyncio = "^1.5.8"
+
+[tool.poetry.group.dev-e2e-windows.dependencies]
+psutil = "^5.9.6"
+types-psutil = "^5.9.5.17"
+pywinauto = "^0.6.8"
+
+[tool.poetry.group.cmd.dependencies]
+click = "^8.1.7"
+playwright = {extras = ["chromium"], version = "^1.39.0"}
+
+[tool.poetry.group.cmd-dev.dependencies]
+pytest-playwright = "^0.4.2"
+
+[tool.poetry.group.docs.dependencies]
+humanmark = "^0.5.1"
+
+[tool.black]
+line-length = 120
+
+[tool.isort]
+line_length = 120
+py_version = 311
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_untyped_calls = true
+exclude = "tests/contrib"
+
+[tool.pylint]
+max-line-length = 120
+
+#[tool.poetry.scripts]
+#install = "python scripts/update_readme_links.py"
+
+#[tool.pytest]
+#addopts = "--cov=pybas_automation --cov-report html"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
