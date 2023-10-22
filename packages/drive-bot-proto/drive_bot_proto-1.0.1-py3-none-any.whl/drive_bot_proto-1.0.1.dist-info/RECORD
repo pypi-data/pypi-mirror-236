@@ -1,0 +1,9 @@
+drive_bot_proto/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drive_bot_proto/client_pb2.py,sha256=PLVwSXqHG_ljqz8w787TZPtylFNHeRUs4hYsLy2t_gs,7640
+drive_bot_proto/client_pb2.pyi,sha256=NzkeETSsv0AQEFSd0ZXu1bTAyZrhpedxhTzRBaUcTzo,20674
+drive_bot_proto/client_pb2_grpc.py,sha256=TOHTVZvDG9yasLpo9_hlwjnE1S4JHPGn9wVw8wZ4SsM,14915
+drive_bot_proto/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drive_bot_proto-1.0.1.dist-info/METADATA,sha256=Wqm7WS0oPMTSvy381XMEKrFdqYzrWlZYMdzB_3P66Eg,222
+drive_bot_proto-1.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+drive_bot_proto-1.0.1.dist-info/top_level.txt,sha256=g4JpFhoQ3q375t7XVBX3ozbfDELaBVYNiWKmGb7bo1w,16
+drive_bot_proto-1.0.1.dist-info/RECORD,,
