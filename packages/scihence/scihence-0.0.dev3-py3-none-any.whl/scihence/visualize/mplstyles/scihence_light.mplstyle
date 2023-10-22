@@ -1,0 +1,18 @@
+axes.edgecolor: 000035
+axes.facecolor: ffffff
+axes.labelcolor: 000035
+axes.prop_cycle: cycler('color', ['000035', '552777', '554433'])
+axes.titlecolor: 000035
+
+figure.edgecolor: ffffff
+figure.facecolor: ffffff
+
+grid.color: 000035
+
+legend.edgecolor: 000035
+
+text.color: 000035
+
+xtick.color: 000035
+
+ytick.color: 000035
