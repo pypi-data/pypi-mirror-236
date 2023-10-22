@@ -1,0 +1,73 @@
+---
+_yaml:
+  _version: 0.3.1
+  app: quiltcore
+  app_version: 0.2.0
+  doc: quilt3
+  doc_version: 0.2.0
+multihash:
+  prefix:
+    SHA256: "1220"
+  digest:
+    SHA256: sha2-256
+resources:
+  Volume:
+    child: Manifest
+  Registry:
+    child: Namespace
+    glob: "*/*"
+  Namespace:
+    child: Manifest
+    glob: "*"
+  Manifest:
+    child: Entry
+  Delta:
+    child: Entry
+  Changes:
+    child: Delta
+  Builder:
+    child: Entry
+quilt3:
+  dirs:
+    config: .quilt
+    names: named_packages
+    manifests: packages
+    stage: remotes
+  format:
+    datetime: "%Y-%m-%d"
+  hash_type: SHA256
+  headers:
+    version: v0
+    message: commit message
+    user_meta: {}
+  map:
+    name: logical_key
+  mime_type: application/ld+json
+  schema:
+    logical_key:
+      format: path
+      is_quoted: false
+      name: name
+      type: str
+    physical_keys:
+      format: uri
+      is_list: true
+      is_quoted: true
+      name: place
+      type: str
+    size:
+      name: size
+      type: int64
+    hash:
+      format:
+        type: string
+        value: string
+      is_hash: true
+      name: multihash
+      type: struct
+    meta:
+      name: metadata
+      type: struct
+      format:
+        user_meta: struct
+      is_optional: true
