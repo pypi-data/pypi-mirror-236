@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+tox.ini
+src/ghreq/__init__.py
+src/ghreq/py.typed
+src/ghreq.egg-info/PKG-INFO
+src/ghreq.egg-info/SOURCES.txt
+src/ghreq.egg-info/dependency_links.txt
+src/ghreq.egg-info/requires.txt
+src/ghreq.egg-info/top_level.txt
+test/test_client.py
+test/test_endpoint.py
+test/test_util.py
