@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Audyn.egg-info/PKG-INFO
+Audyn.egg-info/SOURCES.txt
+Audyn.egg-info/dependency_links.txt
+Audyn.egg-info/requires.txt
+Audyn.egg-info/top_level.txt
+audyn/__init__.py
+cpp_extensions/monotonic_align/monotonic_align.cpp
