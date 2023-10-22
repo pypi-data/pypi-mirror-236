@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+test/test_cli.py
+test/test_xoxo.py
+xoxo/__init__.py
+xoxo/__main__.py
+xoxo/cli.py
+xoxo/xoxo.py
+xoxo.egg-info/PKG-INFO
+xoxo.egg-info/SOURCES.txt
+xoxo.egg-info/dependency_links.txt
+xoxo.egg-info/entry_points.txt
+xoxo.egg-info/requires.txt
+xoxo.egg-info/top_level.txt
