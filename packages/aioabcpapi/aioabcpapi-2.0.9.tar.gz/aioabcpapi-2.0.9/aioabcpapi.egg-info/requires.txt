@@ -1,0 +1,6 @@
+wheel
+aiohttp>=3.8.5
+certifi>=2023.7.22
+ujson>=5.8.0
+pytz>=2023.3
+pyrfc3339
