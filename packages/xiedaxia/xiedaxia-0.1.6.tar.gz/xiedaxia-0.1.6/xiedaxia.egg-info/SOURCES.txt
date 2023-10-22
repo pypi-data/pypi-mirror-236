@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+example_pkg/__init__.py
+example_pkg/sec_example_pkg/__init__.py
+example_pkg/sec_example_pkg/xiedaxia.py
+xiedaxia.egg-info/PKG-INFO
+xiedaxia.egg-info/SOURCES.txt
+xiedaxia.egg-info/dependency_links.txt
+xiedaxia.egg-info/top_level.txt
