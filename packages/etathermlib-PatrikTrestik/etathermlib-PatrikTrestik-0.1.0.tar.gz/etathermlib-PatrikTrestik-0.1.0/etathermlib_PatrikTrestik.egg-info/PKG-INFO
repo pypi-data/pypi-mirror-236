@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: etathermlib-PatrikTrestik
+Version: 0.1.0
+Summary: Etatherm heating regulation TCP interface library
+Home-page: https://github.com/PatrikTrestik/etathermlib
+Author: Patrik Trestik
+Author-email: patrikt@volny.cz
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# etathermlib
+Etatherm heating regulation TCP interface library
