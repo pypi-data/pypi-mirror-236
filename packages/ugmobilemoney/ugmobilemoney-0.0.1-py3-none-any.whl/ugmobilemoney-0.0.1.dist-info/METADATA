@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: ugmobilemoney
+Version: 0.0.1
+Summary: Carry out Collections and Disbursements using MTN and Airtel Mobile Money in Uganda and Africa
+Home-page: https://github.com/open-ug/ugmobilemoney-py
+Author: Beingana Jim Junior
+Author-email: jimjunior854@gmail.com
+License: MIT
+Keywords: mobilemoney,uganda,africa,airtel,python,payments,collections,disbursements,mtn
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx >=0.21.0
+
+# <img src="https://flagcdn.com/w40/ug.png"> UG MOBILE MONEY
+
+UG Mobile Money is a python library for making mobile money transactions in Uganda. It currently supports MTN MOMO.
+
+The library utitlizes the Official MTN Mobile Money API. The API is documented [here](https://momodeveloper.mtn.com).
+
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install UG Mobile Money.
+
+```sh
+pip install ugmobilemoney
+```
+
