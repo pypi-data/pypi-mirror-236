@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+sammen/__init__.py
+sammen/__main__.py
+sammen/cli.py
+sammen/sammen.py
+sammen.egg-info/PKG-INFO
+sammen.egg-info/SOURCES.txt
+sammen.egg-info/dependency_links.txt
+sammen.egg-info/entry_points.txt
+sammen.egg-info/requires.txt
+sammen.egg-info/top_level.txt
+test/test_cli.py
+test/test_sammen.py
