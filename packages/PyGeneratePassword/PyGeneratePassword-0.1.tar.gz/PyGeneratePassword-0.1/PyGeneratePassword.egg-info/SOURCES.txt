@@ -1,0 +1,8 @@
+LICENSE.txt
+README.rst
+setup.py
+PyGeneratePassword/__init__.py
+PyGeneratePassword.egg-info/PKG-INFO
+PyGeneratePassword.egg-info/SOURCES.txt
+PyGeneratePassword.egg-info/dependency_links.txt
+PyGeneratePassword.egg-info/top_level.txt
