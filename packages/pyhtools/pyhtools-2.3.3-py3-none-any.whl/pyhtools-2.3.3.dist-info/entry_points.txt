@@ -1,0 +1,3 @@
+[console_scripts]
+pyhtools=pyhtools.__main__:start
+
