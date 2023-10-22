@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: pgn-manager
+Version: 1.0.0
+Summary: library for managing pgn files
+Author: Luca Canali
+Author-email: lucacanali.dev@gmail.com
+Requires-Dist: csv
+Requires-Dist: io
+Requires-Dist: python-chess
+Requires-Dist: python-chess[pgn]
+Requires-Dist: hashlib
+
