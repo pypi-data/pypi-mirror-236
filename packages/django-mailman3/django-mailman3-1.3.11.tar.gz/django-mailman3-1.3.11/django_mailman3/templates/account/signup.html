@@ -1,0 +1,47 @@
+{% extends "account/base.html" %}
+
+{% load i18n %}
+{% load account socialaccount %}
+{% load bootstrap_tags %}
+
+{% block head_title %}{% trans "Signup" %}{% endblock %}
+
+{% block content %}
+<h1>{% trans "Sign Up" %}</h1>
+
+<p>{% blocktrans %}Already have an account? Then please <a href="{{ login_url }}">sign in</a>.{% endblocktrans %}</p>
+
+{% get_providers as socialaccount_providers %}
+
+{% if socialaccount_providers %}
+<p>{% blocktrans with site.name as site_name %}If you do not have a
+{{ site_name }} account but you have one of these third party accounts, you can
+create a {{ site_name }} account and sign-in in one step by clicking the third
+party account.{% endblocktrans %}</p>
+
+<div class="socialaccount_ballot">
+
+  <ul class="socialaccount_providers list-inline">
+    {% include "socialaccount/snippets/provider_list.html" with process="login" %}
+  </ul>
+
+  {% include "django_mailman3/login_extra_post_providers.html" %}
+
+  <div class="login-or">{% trans 'or' %}</div>
+
+</div>
+{% endif %}
+
+<form class="signup form-horizontal" id="signup_form" method="post" action="{% url 'account_signup' %}">
+  {% bootstrap_form_horizontal form 3 4 %}
+  {% if redirect_field_value %}
+  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+  {% endif %}
+  <div class="form-group">
+    <div class="offset-md-3 col-md-4">
+      <button class="btn btn-primary" type="submit">{% trans "Sign Up" %} &raquo;</button>
+    </div>
+  </div>
+</form>
+
+{% endblock %}

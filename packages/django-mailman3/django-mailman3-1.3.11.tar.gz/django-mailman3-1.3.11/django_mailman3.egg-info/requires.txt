@@ -1,0 +1,5 @@
+django<4.3,>=3.2
+mailmanclient>=3.3.3
+django-allauth>=0.56
+django-gravatar2>=1.0.6
+pytz
