@@ -1,0 +1,16 @@
+name: Build and test
+
+on:
+  push:
+    branches-ignore:
+      - 'dependabot/**'
+    paths-ignore:
+      - '.git*'
+      - '**.md'
+      - 'LICENSE'
+
+jobs:
+  all_tests:
+    uses: ./.github/workflows/test_inc.yml
+    with:
+      gitref: ${{ github.ref }}

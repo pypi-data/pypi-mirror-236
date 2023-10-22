@@ -1,0 +1,55 @@
+name: PR review
+
+on:
+  pull_request:
+    branches-ignore:
+      - 'dependabot/**'
+    paths-ignore:
+      - '.git*'
+      - '**.md'
+      - 'LICENSE'
+
+jobs:
+  type_checkers:
+    runs-on: ubuntu-22.04
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+    - uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: "3.10"
+
+    - name: Install dependencies
+      run: pip install types-beautifulsoup4
+
+    - name: Mypy review
+      id: mypy
+      uses: tsuyoshicho/action-mypy@v3
+      with:
+        reporter: github-pr-review
+        level: warning
+        workdir: lxml-stubs
+        fail_on_error: true
+        ignore_note: true
+        setup_command: pip install 'mypy >= 1.1, < 1.4'
+
+    - name: Pyright review
+      id: pyright
+      if: success() || steps.mypy.conclusion == 'failure'
+      uses: jordemort/action-pyright@v1
+      with:
+        reporter: github-pr-review
+        level: warning
+        workdir: lxml-stubs
+        fail_on_error: true
+        pyright_version: 1.1.331
+
+  all_tests:
+    needs: type_checkers
+    uses: ./.github/workflows/test_inc.yml
+    with:
+      gitref: ${{ github.ref }}
