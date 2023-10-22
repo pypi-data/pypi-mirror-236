@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: somni-log
+Version: 0.1.98
+Summary: A minimal Logger-setup for Python
+Author: Samu Rabin
+Author-email: samus_codes@samusoft.net
+Maintainer: Samu Rabin
+Maintainer-email: samus_codes@samusoft.net
+License: MIT
+Keywords: logging,logger,minimal
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE

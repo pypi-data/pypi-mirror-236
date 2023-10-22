@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+somni_log/__init__.py
+somni_log/constants.py
+somni_log/level_filter.py
+somni_log.egg-info/PKG-INFO
+somni_log.egg-info/SOURCES.txt
+somni_log.egg-info/dependency_links.txt
+somni_log.egg-info/top_level.txt
+unittests/__init__.py
+unittests/test_loglevel.py
