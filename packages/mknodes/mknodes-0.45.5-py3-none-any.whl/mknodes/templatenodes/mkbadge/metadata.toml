@@ -1,0 +1,29 @@
+[metadata]
+icon = "simple-icons:shieldsdotio"
+
+[requirements.package.anybadge]
+
+[examples."Regular"]
+jinja = """
+{{ ("Some", "Badge") | MkBadge | MkReprRawRendered }}
+"""
+
+[examples."Font size"]
+jinja = """
+{{ ("Some", "Badge") | MkBadge(font_size=12) | MkReprRawRendered }}
+"""
+
+[examples."Char padding"]
+jinja = """
+{{ ("Some", "Badge") | MkBadge(num_padding_chars=5) | MkReprRawRendered }}
+"""
+
+[examples."Badge color"]
+jinja = """
+{{ ("Some", "Badge") | MkBadge(font_size=12) | MkReprRawRendered }}
+"""
+
+[examples."GitLab style"]
+jinja = """
+{{ ("Some", "Badge") | MkBadge(use_gitlab_style=True) | MkReprRawRendered }}
+"""
