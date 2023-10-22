@@ -1,0 +1,6 @@
+[console_scripts]
+ra=robotframework_airtest.cli:main
+
+[vmg.generator]
+unity=robotframework_airtest.vmg.generators.unity
+
