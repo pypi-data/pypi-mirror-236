@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+requirements-dev.txt
+requirements.txt
+setup.py
+emoji_ops/__init__.py
+emoji_ops/__main__.py
+emoji_ops.egg-info/PKG-INFO
+emoji_ops.egg-info/SOURCES.txt
+emoji_ops.egg-info/dependency_links.txt
+emoji_ops.egg-info/requires.txt
+emoji_ops.egg-info/top_level.txt
+emoji_ops.egg-info/zip-safe
