@@ -1,0 +1,13 @@
+{
+    "unadjusted_data": {
+        "coef": 0.0443,
+        "intercept": 0.0704,
+        "MAPE": 4.455
+    },
+    "adjusted_data": {
+        "coef": 0.0001,
+        "intercept": -0.0036,
+        "MAPE": 0.0865
+    },
+    "offset_reduction": "98.0%"
+}
