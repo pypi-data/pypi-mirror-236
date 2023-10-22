@@ -1,0 +1,3 @@
+[xarray.backends]
+tiffslide=tiffslide_xarray:TiffBackendEntrypoint
+
