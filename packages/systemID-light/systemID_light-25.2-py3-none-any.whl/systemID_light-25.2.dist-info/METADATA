@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: systemID-light
+Version: 25.2
+Summary: Package for time domain system identification. LTI and LTV systems, bilinear systems and nonlinear systems.
+Author: Damien Gueho
+Keywords: python,system identification
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+Package for time domain system identification. Supports linear time-invariant (LTI) and linear time-varying (LTV) dynamics, bilinear dynamics and nonlinear dynamics.
