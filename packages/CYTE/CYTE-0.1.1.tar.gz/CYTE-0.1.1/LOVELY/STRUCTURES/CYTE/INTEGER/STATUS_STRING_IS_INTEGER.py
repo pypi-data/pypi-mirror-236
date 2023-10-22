@@ -1,0 +1,28 @@
+
+
+
+
+
+'''
+python3 STATUS.py "INTEGER/STATUS_STRING_IS_INTEGER.py"
+'''
+
+import CYTE.INTEGER.STRING_IS_INTEGER as STRING_IS_INTEGER
+
+def CHECK_1 ():
+	assert (STRING_IS_INTEGER.CHECK ("1234") == True)
+	assert (STRING_IS_INTEGER.CHECK ("0") == True)
+	assert (STRING_IS_INTEGER.CHECK ("1234781902394871293750182374") == True)
+	
+	assert (STRING_IS_INTEGER.CHECK ("") == False)
+	assert (STRING_IS_INTEGER.CHECK ("1234.43") == False)
+	assert (STRING_IS_INTEGER.CHECK ("Z") == False)
+
+	
+
+	return;
+	
+	
+CHECKS = {
+	"CHECK 1": CHECK_1
+}
