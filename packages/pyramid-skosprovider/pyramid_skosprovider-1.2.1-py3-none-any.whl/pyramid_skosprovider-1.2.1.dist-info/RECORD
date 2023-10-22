@@ -1,0 +1,17 @@
+pyramid_skosprovider/__init__.py,sha256=XVwJxBO24EOKupj1wnYdTM1F0J71z6JWgkSQA47QtxM,4768
+pyramid_skosprovider/renderers.py,sha256=K2bodl7O9SB-6xZL0jWbAQd9C3lFnx-tAkZSJ0qQnos,6824
+pyramid_skosprovider/utils.py,sha256=rjPaS3peG9as49DqRuyUdYmhh9rr5njcP2DASKDr6NA,2619
+pyramid_skosprovider/views.py,sha256=L9FtIdsP1bzqTqt-qvnGcMKEV-WgdzN43_cNKEPaOSY,13241
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_functional.py,sha256=rqeuZgpGt0z-4rEuoHwtz5aFaVpS43LVobO3IvSXKgw,15446
+tests/test_renderers.py,sha256=Vge_SUzV2b9jOMRAMODQMGhR-zZY4pggGLpelRL7dyA,7926
+tests/test_utils.py,sha256=L0UloL3ML6FnVOSikoj3ZD2etJ-IGDE1I9fhC8-41-E,3665
+tests/test_varia.py,sha256=Q1kTtaWdVcWPvTtK6YgSNG3SiREJE0P_1GyfvCe1FzU,3951
+tests/test_views.py,sha256=Y6seSxCbNbNe_guG10iOElf7UieGoBG0uDZzoa2x-sM,32717
+tests/fixtures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/fixtures/data.py,sha256=hRKXFmc6JzrrRP7wTYxRPKQ5DqG-2cFUjRP4SO3myMU,2305
+pyramid_skosprovider-1.2.1.dist-info/LICENSE,sha256=B4kjCxFsnpaYWmQDPEmqMDDgylAOPG1FX7jJnhopNpI,1063
+pyramid_skosprovider-1.2.1.dist-info/METADATA,sha256=zqvvymasScee2dkpXC8xlfAHZnuCC4qim-Hjrx58G_Y,8400
+pyramid_skosprovider-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyramid_skosprovider-1.2.1.dist-info/top_level.txt,sha256=55vbjtJieGTRaRA71Z85Ojw3hxIZoHBXB4hBK4iqLLg,27
+pyramid_skosprovider-1.2.1.dist-info/RECORD,,
