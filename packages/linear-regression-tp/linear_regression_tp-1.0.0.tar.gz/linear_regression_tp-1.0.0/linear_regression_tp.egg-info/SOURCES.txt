@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+linear_regression_tp/__init__.py
+linear_regression_tp/linear_regression.py
+linear_regression_tp.egg-info/PKG-INFO
+linear_regression_tp.egg-info/SOURCES.txt
+linear_regression_tp.egg-info/dependency_links.txt
+linear_regression_tp.egg-info/requires.txt
+linear_regression_tp.egg-info/top_level.txt
