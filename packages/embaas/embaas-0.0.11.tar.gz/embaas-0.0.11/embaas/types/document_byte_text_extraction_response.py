@@ -1,0 +1,10 @@
+
+
+import typing
+
+from .document_extraction_response import DocumentExtractionResponse
+from .document_extraction_response_with_embeddings import DocumentExtractionResponseWithEmbeddings
+
+DocumentByteTextExtractionResponse = typing.Union[
+    DocumentExtractionResponseWithEmbeddings, DocumentExtractionResponse
+]
