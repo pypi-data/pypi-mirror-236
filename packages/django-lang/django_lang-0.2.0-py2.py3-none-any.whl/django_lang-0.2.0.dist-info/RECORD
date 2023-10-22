@@ -1,0 +1,11 @@
+lang/__init__.py,sha256=odROFqvoUCMxum7-dDVjrf7JFRMWiSqHDa6xu4kG8Q4,455
+lang/static/lang/css/nav-link.css,sha256=gdl8yPA8vcxTE96Qbko4MF4vhUE2rhE7kDiXaw3kyuY,317
+lang/templates/nav-link.html,sha256=OXZ9dqxq9ao6lBfrftl4MDL_ZdKdHuZ_Fw1ncdjKxe4,730
+lang/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lang/templatetags/languages_helpers.py,sha256=TZq4-JbgUsgNeBySpixbpVICTmXH-oEF4XAykQcf-WE,1961
+lang/templatetags/urls.py,sha256=kEXCkgwolkAAZpL5PKMT-qex1mDVWOWfzFqZE2IXJ3E,465
+django_lang-0.2.0.dist-info/LICENSE,sha256=lea6YyyICc5SM-8jvboUSCWiCpPwBrUPJAb8cHxAP5A,1114
+django_lang-0.2.0.dist-info/METADATA,sha256=7RSOEHsSHQ6EnoehqWAB1C0s8B7nJXRDEylYI95ygYU,4753
+django_lang-0.2.0.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+django_lang-0.2.0.dist-info/top_level.txt,sha256=k1z7040BUci34YPBCxIsaMA0DGeL-qBF3vBS1z3Ro28,5
+django_lang-0.2.0.dist-info/RECORD,,
