@@ -1,0 +1,4 @@
+[console_scripts]
+kbm-caps=kbm_cli.main:caps
+kbm-nums=kbm_cli.main:nums
+
