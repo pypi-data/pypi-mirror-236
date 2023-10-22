@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: LinearModel
+Version: 1.0.0
+Summary: An awesome package that does something
+Home-page: http://pypi.python.org/pypi/LinearModel/
+Author: FELLAH Abdelnour
+Author-email: ab.fellah@esi-sba.dz
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+Requires-Dist: numpy
+
