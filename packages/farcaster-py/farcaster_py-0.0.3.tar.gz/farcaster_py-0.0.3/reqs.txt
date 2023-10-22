@@ -1,0 +1,7 @@
+blake3
+nacl
+pynacl
+web3
+eth-account
+eth-keys
+python-dotenv
