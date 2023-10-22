@@ -1,0 +1,3 @@
+[console_scripts]
+tvsd=tvsd.__main__:main
+
