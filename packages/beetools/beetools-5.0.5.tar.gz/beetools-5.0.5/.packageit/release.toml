@@ -1,0 +1,19 @@
+[4.4.0]
+Title = "Version 4.4.0"
+Description = [ "[Bug]: Return code for exec_batch is not accurate", "n submitting a batch of commands,: If them fail, then the batch is marked as failed. This is correct, but not accurate.",]
+
+[4.3.2]
+Title = "Version 4.3.2"
+Description = [ "[Bug]: Name in setup.cfg is wrong", "Copied a setup.cfg file file from another project and did not correct the name.",]
+
+[4.3.1]
+Title = "Version 4.3.1"
+Description = [ "[Bug]: Github Build distribution fails", "A release to be distributed to PyPi. It failed due to the .github/workflow/release.yml still containing code from when setup.py was used to build the distribution.",]
+
+[4.3.0]
+Title = "Version 4.3.0"
+Description = [ "No \"crash protection\"  when exec_batch method crash", "Remove \"crash\" handling.", "Currently the beescript.exec_batch, and beescript.exec_cmd, make use of a \"p_crash\" indicator to prevent the exception from \"crashing\" the procedure or not.  The exception should rather be handled by passing the resulting error code back to the caller instead of attempting to handle it by itself.",]
+
+[0.0.0]
+Title = "Version 0.0.0"
+Description = [ "Creation of the project", "List all the changes to the project here.", "Changes listed here will be in the release notes under the above heading.",]

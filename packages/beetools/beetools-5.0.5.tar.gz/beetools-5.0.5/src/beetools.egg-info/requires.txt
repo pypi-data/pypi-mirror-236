@@ -1,0 +1,10 @@
+termcolor
+
+[dev]
+build
+git-it
+pytest
+pytest-cov
+rstcheck
+toml
+twine
