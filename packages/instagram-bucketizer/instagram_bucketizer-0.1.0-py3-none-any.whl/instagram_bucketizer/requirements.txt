@@ -1,0 +1,6 @@
+vcorelib
+instaloader
+emoji
+pandas
+openpyxl
+tdqm
