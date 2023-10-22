@@ -1,0 +1,7 @@
+setup.py
+authorize_networks.egg-info/PKG-INFO
+authorize_networks.egg-info/SOURCES.txt
+authorize_networks.egg-info/dependency_links.txt
+authorize_networks.egg-info/entry_points.txt
+authorize_networks.egg-info/requires.txt
+authorize_networks.egg-info/top_level.txt
