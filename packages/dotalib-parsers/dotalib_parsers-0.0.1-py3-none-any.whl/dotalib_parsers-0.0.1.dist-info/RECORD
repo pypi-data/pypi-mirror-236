@@ -1,0 +1,13 @@
+parsers/__init__.py,sha256=yO-QfyqCRLprZL2Bqigzkza3B1QCZNeWqKZ4L7uif6w,68
+parsers/base.py,sha256=wNo_5a8J6BZ2q0zlemdmTkiAdVS6rxpIr_J1zY8RMtY,289
+parsers/cyberscore.py,sha256=KiEdNap8VtG2Cuq1rBk-vS87BU1AolpQU8VbdhscsT8,2366
+parsers/dotabuff.py,sha256=mTPWxpTPsJRpy8n0IQapaKtMUFXB3vED0xtyaA5dYbQ,2411
+parsers/hawk/__init__.py,sha256=FX60-BsGGhsE-A3qArJ2V5j0q-lDCLovqJDV-kjpjBI,98
+parsers/hawk/livematches.py,sha256=_ohXg95U4cY95fAunoKa4gwpShlSq040wd0YVyLyXfY,1430
+parsers/hawk/match.py,sha256=dWNnbr_ooM8JnuPavlVQdXQ2mim1fF7_7fbmwAZRB4U,3071
+parsers/hawk/odds.py,sha256=q3Q7W0IrowRUvuyjMCl1C5Z_-BnIY_DO9e4moMWeTaY,2439
+dotalib_parsers-0.0.1.dist-info/LICENSE,sha256=1dxkkP36OlNr9jf45d-HVXYUOBb7Xa1OP9tLuq1TiSY,1087
+dotalib_parsers-0.0.1.dist-info/METADATA,sha256=DvZPndh30dSDhYadvcZV_2dL82xLFsB9mC9aKPk-1vI,433
+dotalib_parsers-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dotalib_parsers-0.0.1.dist-info/top_level.txt,sha256=XFcDL5qtTnTEC3w0tgkSlzx_Sh76Qn3RgDE8DWuJJP4,8
+dotalib_parsers-0.0.1.dist-info/RECORD,,
