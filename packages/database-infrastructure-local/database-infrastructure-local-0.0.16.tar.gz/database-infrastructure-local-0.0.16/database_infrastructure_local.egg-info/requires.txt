@@ -1,0 +1,4 @@
+python-dotenv>=1.0.0
+pytest>=7.4.0
+logger-local>=0.0.66
+database-without-orm-local>=0.0.103
