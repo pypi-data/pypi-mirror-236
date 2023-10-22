@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+ua-currency-exporter/__init__.py
+ua-currency-exporter/ua-currency-exporter.py
+ua_currency_exporter.egg-info/PKG-INFO
+ua_currency_exporter.egg-info/SOURCES.txt
+ua_currency_exporter.egg-info/dependency_links.txt
+ua_currency_exporter.egg-info/requires.txt
+ua_currency_exporter.egg-info/top_level.txt
