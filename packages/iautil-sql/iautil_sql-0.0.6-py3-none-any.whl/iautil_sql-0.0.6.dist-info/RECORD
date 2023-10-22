@@ -1,0 +1,13 @@
+iautil_sql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iautil_sql/conf.py,sha256=HfTkmn1cPG03WPtASTriisGZDNYn6AhpZ1Kmz1FPlos,919
+iautil_sql/log.py,sha256=8teCl8lMlXWcxDmm8O-tZhXqbFmG9QPmmfR0nR8m3HU,2253
+iautil_sql/sql.py,sha256=S63v9WPNFeFmIVBRV1R7E3Z-iQVidcM4pMono2W6zoI,4116
+iautil_sql/sql.py-0,sha256=fKa1_guAVXaOhq3ZHRbsCprSDpuOpxqKeO2uQT5fFvc,6015
+iautil_sql/sql2.py,sha256=lmyTctQ48UsUfSRw_cB46X4SmpOxOrO15y-8ShmeKvw,3906
+iautil_sql/types.py,sha256=vfYoVtsiI7XX4_QRUQFaEIAZTQiz_ETDC4T9YzqiC-k,1172
+iautil_sql/version.py,sha256=0quLthUzDTV1kvL4-_x-RKl6IWaDgc1o2i6m_rH7KIk,58
+iautil_sql-0.0.6.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+iautil_sql-0.0.6.dist-info/METADATA,sha256=m3VE1f0ccaGieX1GaGcFxJ1uURx1me39hA6T-_Not1I,2992
+iautil_sql-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+iautil_sql-0.0.6.dist-info/top_level.txt,sha256=7VyWD8TPfOEGjd4-s1Fbe3mtqz6tf1fMvYrswF-6o0o,11
+iautil_sql-0.0.6.dist-info/RECORD,,

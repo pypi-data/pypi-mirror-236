@@ -1,0 +1,208 @@
+""" Helper functions and decorators for SQL """
+
+from functools import wraps
+import logging
+from typing import Any, Callable, List, Tuple, TypeVar
+
+#from psycopg2 import connect  # type: ignore
+#from psycopg2 import sql  # type: ignore
+from psycopg2.extensions import connection  # type: ignore
+
+from iautil.log import configure_logging, handle_exception, trace # type: ignore
+
+logger = configure_logging(__name__)
+
+T = TypeVar('T')
+
+
+
+
+#@handle_exception(logger)
+#@trace(logger)
+#@log_query(logger)
+#def execute(func: Callable[[connection,str,Tuple],None])-> Callable[[connection,str,Tuple],None]:
+#    """ cur.execute() """
+#    @wraps(func)
+#    def wrapper(conn: connection, sqlq: str, *args: Tuple) -> None:
+#        """ wrapper function """
+#        with conn.cursor() as curs:
+#            curs.execute(sqlq, args)
+#    return wrapper
+#@handle_exception(logger)
+#@trace(logger)
+@log_query(logger)
+def execute(func: Callable[[connection, str, Tuple[Any, ...]], None]) -> Callable[[connection, str, Tuple[Any, ...]], None]:
+    """ cur.execute() """
+    @wraps(func)
+    def wrapper(conn: connection, sqlq: str, *args: Tuple[Any, ...]) -> None:
+        """ wrapper function """
+        with conn.cursor() as curs:
+            curs.execute(sqlq, args)
+    return wrapper
+
+#@handle_exception(logger)
+#@trace(logger)
+#@log_query(logger)
+##def select(func: Callable[[connection, str, List[Tuple]], List[List[Tuple]]]) -> Callable[[connection, str, List[Tuple]], List[Tuple]]:
+#def select(func: Callable[[connection, str, List[Tuple]], List[Tuple]]) -> Callable[[connection, str, List[Tuple]], List[Tuple]]:
+#    """ curs.execute(); curs.fetchall() """
+#    @wraps(func)
+#    def wrapper(conn: connection, sqlq: str, *args: Tuple) -> List[Tuple]:
+#        """ wrapper function """
+#        with conn.cursor() as curs:
+#            curs.execute(sqlq, *args)
+#            return curs.fetchall()
+#    return wrapper
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@handle_exception(logger)
+@trace(logger)
+@log_query(logger)
+def select(func: Callable[
+        [connection, str, List[Tuple]], List[Tuple]]) -> Callable[
+        [connection, str, Tuple], List[Tuple]]:
+    """ curs.execute(); curs.fetchall() """
+    @wraps(func)
+    def wrapper(conn: connection, sqlq: str, *args: Tuple) -> List[Tuple]:
+        """ wrapper function """
+        with conn.cursor() as curs:
+            curs.execute(sqlq, args)
+            return curs.fetchall()
+    return wrapper
+
+
+#@handle_exception(logger)
+#@trace(logger)
+#@log_query(logger)
+#def select_single(func:Callable[[connection,str,List[Tuple]],Tuple])->Callable[[connection,str,List[Tuple]],Tuple]:
+#    """ curs.execute(); curs.fetchone() """
+#    @wraps(func)
+#    def wrapper(conn: connection, sqlq: str, *args: Tuple) -> Tuple:
+#        """ wrapper function """
+#        with conn.cursor() as curs:
+#            curs.execute(sqlq, *args)
+#            return curs.fetchone()
+#    return wrapper
+
+@handle_exception(logger)
+@trace(logger)
+@log_query(logger)
+def select_single(func: Callable[
+        [connection, str, List[Tuple]], Tuple]) -> Callable[
+        [connection, str, Tuple], Tuple]:
+    """ curs.execute(); curs.fetchone() """
+    @wraps(func)
+    def wrapper(conn: connection, sqlq: str, *args: Tuple) -> Tuple:
+        """ wrapper function """
+        with conn.cursor() as curs:
+            curs.execute(sqlq, args)
+            return curs.fetchone()
+    return wrapper
+
+
+@handle_exception(logger)
+@trace(logger)
+@log_query(logger)
+def execute_batch(func: Callable[
+        [connection,str,List[Tuple]], None]) -> Callable[
+        [connection, str, List[Tuple]], None]:
+    """ cur.executemany() """
+    @wraps(func)
+    def wrapper(conn: connection, sqlq: str, args_list: List[Tuple]) -> None:
+        """ wrapper function """
+        with conn.cursor() as curs:
+            curs.executemany(sqlq, args_list)
+    return wrapper
+
+
+@handle_exception(logger)
+@trace(logger)
+@log_query(logger)
+def select_batch(func: Callable[
+        [connection,str,List[Tuple]],List[List[Tuple]]]) -> Callable[
+        [connection, str, List[Tuple]], List[List[Tuple]]]:
+    """ curs.executemany(); curs.fetchall() """
+    @wraps(func)
+    def wrapper(conn: connection, sqlq: str, args_list: List[Tuple]) -> List[List[Tuple]]:
+        """ wrapper function """
+        with conn.cursor() as curs:
+            curs.executemany(sqlq, args_list)
+            return curs.fetchall()
+    return wrapper
+
+
+@handle_exception(logger)
+@trace(logger)
+@log_query(logger)
+def execute_bulk(func: Callable[
+        [connection,str,List[Tuple]],None]) -> Callable[
+        [connection,List[str],List[Tuple]], None]:
+    """ cur.execute() wrapped in a single transaction """
+    @wraps(func)
+    def wrapper(conn: connection, sqlq_list: List[str], *args_list: List[Tuple]) -> None:
+        """ wrapper function """
+        with conn.cursor() as curs:
+            for sqlq, args in zip(sqlq_list, args_list):
+                curs.execute(sqlq, args)
+    return wrapper
+
+
+@handle_exception(logger)
+@trace(logger)
+@log_query(logger)
+def select_bulk(func: Callable[
+        [connection,List[str],List[Tuple]],List[List[Tuple]]]) -> Callable[
+        [connection,List[str],List[Tuple]], List[List[Tuple]]]:
+    """ curs.execute(); curs.fetchall() wrapped in a single transaction """
+    @wraps(func)
+    def wrapper(conn: connection,
+                sqlq_list: List[str],
+                *args_list: List[Tuple]) -> Callable[
+                [connection,List[str],List[Tuple]],List[List[Tuple]]]:
+        """ wrapper function """
+        with conn.cursor() as curs:
+            result_sets = []
+            for sqlq, args in zip(sqlq_list, args_list):
+                curs.execute(sqlq, args)
+                result_sets.append(curs.fetchall())
+            return result_sets
+    return wrapper
+
