@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: aaiopay
+Version: 0.2.2
+Summary: Asynchronous module for working with the aaio API
+Author: VoXDoX
+Author-email: 1voxdox1@gmail.com
+Project-URL: TG Channel, https://t.me/AsyncModules
+Project-URL: Github, https://github.com/VoXDoX/async-payok
+Keywords: aaio,aaio api,AaioAsync,aaio
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Installation | Установка
+
+## Windows
+```
+pip install aaiopay
+```
+## Linux
+```
+pip3 install aaiopay
+```
+
+
+# Information | Информация
+ENG: The current version of AaioPay is 0.2.2
+RU: Актуальная версия AaioPay 0.2.2
+
+# Methods | Фyнкции
+## ENG
+```
+Asynchronous module for working with the Aaio API
+
+What can?
+- Getting a balance
+- Creating a payment form
+- Getting up-to-date transactions
+ ```
+
+## RU
+```
+Асинхронный модуль для работы с API Aaio
+
+Что может?
+- Получение баланса
+- Создание формы оплаты
+- Получение актуальных транзакций
+```
