@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+src/staticclass.py
+src/staticclass.egg-info/PKG-INFO
+src/staticclass.egg-info/SOURCES.txt
+src/staticclass.egg-info/dependency_links.txt
+src/staticclass.egg-info/top_level.txt
