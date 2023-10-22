@@ -1,0 +1,16 @@
+pandas
+pyarrow
+
+[gcp]
+google-cloud-storage>=2.6.0
+google-cloud-bigquery
+pyarrow
+
+[minio]
+minio
+
+[mongo]
+pymongo
+
+[test]
+pytest
