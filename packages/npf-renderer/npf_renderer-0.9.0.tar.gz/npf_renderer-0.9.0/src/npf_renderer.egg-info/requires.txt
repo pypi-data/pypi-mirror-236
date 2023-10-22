@@ -1,0 +1,5 @@
+dominate==2.8.0
+
+[dev]
+pytest==7.4.2
+prettyprinter==0.18.0
