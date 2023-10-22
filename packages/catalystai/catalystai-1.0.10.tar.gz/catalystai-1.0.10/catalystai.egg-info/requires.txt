@@ -1,0 +1,6 @@
+minio
+datetime
+requests
+urllib3
+typing
+pydantic
