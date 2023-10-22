@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pyxrc
+Version: 0.1
+Home-page: https://github.com/MIVI404cyber
+Author: MR.MIVI
+Author-email: mrrohman092@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# ----[pip install pyxrc]---- #
+
+# ----[USE]---- #
+```
+#import
+
+from pyxrc import Server
+
+# Create an instance of Server
+
+utils = Server()
+
+#run Server
+
+utils.run()
+
+```
