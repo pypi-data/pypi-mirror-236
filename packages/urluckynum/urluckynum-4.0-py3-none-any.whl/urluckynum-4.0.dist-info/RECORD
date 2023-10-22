@@ -1,0 +1,9 @@
+urluckynum/app/__init__.py,sha256=3sf-iYJRUvsabYrUyLTv-V02RDoTKvM7GxoIgEbtgaY,36
+urluckynum/app/argparser.py,sha256=bUP3vsmHcl7yCFte6-myw2oOM3t9-WQd6fzaZP2s5eU,1068
+urluckynum/app/db.py,sha256=puOXlPKdVxZ5h2HFMM02WMgVjofoDgKbZ3fWkWbnK9E,1279
+urluckynum/app/lucky.py,sha256=SCdCUsFOjqDHbQ0XnrS49mzZg2X4h-HmUKnYR2hyrs4,2737
+urluckynum/app/queries.py,sha256=a70DW1J1T0OXAaswGjzNSseP2sCa8BvQemwhSGyd30A,994
+urluckynum-4.0.dist-info/METADATA,sha256=0xbD34GcTIP9-XLP73VetCVHwWBTnPez6sN5swA4u78,300
+urluckynum-4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+urluckynum-4.0.dist-info/top_level.txt,sha256=nO7xcX4w9mpHCsyDHrj8s6FZRIfaz6-7wIr8wTFDqZQ,11
+urluckynum-4.0.dist-info/RECORD,,
