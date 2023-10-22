@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "servicecomp"
+version = "0.0.1"
+description = ""
+authors = ["Shahim Essaid <shahim@essaid.com>"]
+readme = "README.md"
+packages = [
+    {include = "servicecomp",  from = "src"}
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
