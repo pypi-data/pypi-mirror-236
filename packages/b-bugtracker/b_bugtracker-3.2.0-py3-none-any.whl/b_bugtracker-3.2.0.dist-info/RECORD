@@ -1,0 +1,16 @@
+b/__main__.py,sha256=saLVZF1nif4A3HhxvPLqWEft1XH-hz2zYXaGW-MJveE,1234
+b/bugs.py,sha256=l21B639kSB-YssanIJ7vgXHmLk1Uy2lWUcn4-EsWTF4,28220
+b/command.py,sha256=TdjKUCjX8v6XLAuT2lZGCfV5DzM_vOBs67td9S8NLWM,13392
+b/config.py,sha256=24gGHn73H3ShEOftGArwufc7t5_1h5OmiWrt20ZThc4,3064
+b/exceptions.py,sha256=lcEve7fHJLel4VZyqchwwrYx22grpuC1Bwqnpi-mycc,4738
+b/migrations.py,sha256=hgqCtCtT68bi4kK5XCfHzZVi9qJ7ttc8XCbe2aFVMmg,8310
+b/schema/bug.schema.json,sha256=uqeh8T5_-NVK4BmqNq7GDs14bIt_L-o4HmlYYt1zd5o,7036
+b/settings.py,sha256=urJ76zqHdsqA3KNmPuFRdIads8aooPUaPB3izK7mS-I,5878
+b/templates/bug.bug.yaml,sha256=hJzIrQjKc8xYvnPtGsHJ6FsvTYZUqcA8A_vxuBWRb1I,614
+b/templates/feature.bug.yaml,sha256=2VfzCqv1eXJgQob8Kdj894-EC7j4REpDMnEhhPbq-l8,396
+b/templates.py,sha256=80T88xulheSGpY5INSoMgcNJJtaJMAHdF_T5kfzGx6k,3237
+b_bugtracker-3.2.0.dist-info/entry_points.txt,sha256=Zi_GeoKw76ChjwAMRbprkATRdrr83_uRibwpmIttdsk,36
+b_bugtracker-3.2.0.dist-info/LICENSE,sha256=XOArt2JKY5QYgX6TEOPY259KC4qRsOhGbkkeq4i2Yww,759
+b_bugtracker-3.2.0.dist-info/METADATA,sha256=B85vkvYCSXJzdK-NI4xzJiR51B4R69lw2aHon5fe6Ps,4534
+b_bugtracker-3.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+b_bugtracker-3.2.0.dist-info/RECORD,,
