@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: amazon-scraper-products-extractor
+Version: 1.0.0
+Summary: A Python package for scraping product data from Amazon.
+Author: Your Name
+Author-email: your@email.com
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
