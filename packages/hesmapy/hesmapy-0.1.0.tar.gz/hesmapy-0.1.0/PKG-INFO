@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hesmapy
+Version: 0.1.0
+Summary: HESMA file format reader and writer
+Project-URL: Homepage, https://github.com/alexhls/hesmapy
+Project-URL: Bug Tracker, https://github.com/alexhls/hesmapy/issues
+Author-email: Alexander Holas <alex.holas@gmx.de>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.11
+Requires-Dist: jsonschema
+Description-Content-Type: text/markdown
+
+# hesmapy
+HESMA Python - Tools for reading HESMA models
