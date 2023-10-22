@@ -1,0 +1,2 @@
+setux_core>=0.2343.0
+pybrary>=0.2337.0
