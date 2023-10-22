@@ -1,0 +1,2 @@
+[console_scripts]
+android-xml-translater = android_xml_translater.__main__:main
