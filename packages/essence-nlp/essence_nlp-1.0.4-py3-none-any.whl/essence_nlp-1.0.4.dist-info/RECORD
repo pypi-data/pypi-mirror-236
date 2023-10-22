@@ -1,0 +1,16 @@
+essence_nlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+essence_nlp/processing.py,sha256=cLqe0NTFb7z-Vsd0X82qh1jSc5HR-ITIZwQIYkupqiU,1901
+essence_nlp/essence/.DS_Store,sha256=Xcb_RpNjmGj-WgALbQapDpTqbg-lzRUxuRgdoykUlkA,6148
+essence_nlp/essence/.gitignore,sha256=RMkuOnCtMwe3BWhxwr2wlti_qTc_W_BqebtjJKIP8vs,8
+essence_nlp/essence/Cargo.lock,sha256=0bnnV0xgR2-wZUk9FJTDxDh4jvPcou5uDBqzWt8rEP8,27110
+essence_nlp/essence/Cargo.toml,sha256=D63TIYQYXfSpiesv8oQM72zKxr6SslEXnwqkE1-83Vo,485
+essence_nlp/essence/resources/.DS_Store,sha256=SpNqpdsOHFdOcQ3RQVoXyUmBH8g3m56IaGrIXkcAaMk,6148
+essence_nlp/essence/resources/data/frequency_dictionary_en_82_765.txt,sha256=QyI6qDtVUZhR1ck7r5b3hD5fVBDyYjqc4mNAmrUDFLI,1331886
+essence_nlp/essence/resources/data/stopwords.txt,sha256=v2Z7mT01hITKvm9B0evnyh3ZckangBtmAzFnnfVcbOk,621
+essence_nlp/essence/resources/rules/en_rules.bin,sha256=2PnEpd64J_Dl7v4llMDGQAObf6fgJvlfoFmeUG2Ba1w,7555031
+essence_nlp/essence/resources/rules/en_tokenizer.bin,sha256=4rUeUGrt5JUmjuBd7guXlW52gQf1u1iRWFFEpf8v13M,11590973
+essence_nlp/essence/src/lib.rs,sha256=7kuczX_xMQBhqrHCyp_hDXiPFlHbWb3S-nSVoV7-1OI,10329
+essence_nlp-1.0.4.dist-info/METADATA,sha256=yNurlQtyZv4ipiodWUDT1OVgy4nkKBM54oXltrS9YLA,643
+essence_nlp-1.0.4.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+essence_nlp-1.0.4.dist-info/licenses/LICENSE,sha256=N9V-bf4dqAPcfUvyrE5lt9tnpjF2DVd2J1SueMzoBKM,1067
+essence_nlp-1.0.4.dist-info/RECORD,,
