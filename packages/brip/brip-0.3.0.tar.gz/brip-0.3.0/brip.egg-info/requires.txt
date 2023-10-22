@@ -1,0 +1,7 @@
+pip>=1.1
+
+[:python_version >= "3.10"]
+brython>=3.10.6
+
+[:python_version >= "3.7" and python_version <= "3.9"]
+brython<=3.10.5,>=3.7.5
