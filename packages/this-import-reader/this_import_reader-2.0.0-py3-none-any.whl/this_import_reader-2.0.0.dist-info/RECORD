@@ -1,0 +1,10 @@
+this_import_reader/__init__.py,sha256=4EZ3eWo8MbOY0HJfb9WAw5zwvC0s-aB6IkF7TRSLPC8,2104
+this_import_reader/__main__.py,sha256=TXjyyH7H_6y57XIs5V84YAUgFQQzGpqpBgc2d063RCc,3332
+this_import_reader/feed.py,sha256=YW4wHkMEuPayaHvapUrGaFSG6XWgHtumgE2k9RKvI5k,7203
+this_import_reader/viewer.py,sha256=_7F_p_x3KvNqCSF493wYNh51FC19ZpwTz52TqL8UEEo,3667
+this_import_reader/pyarmor_runtime_000000/__init__.py,sha256=8B-DOLWPDueQgd0BjAAZflDZNBjPV1mGCwweRD1TUCA,103
+this_import_reader-2.0.0.dist-info/METADATA,sha256=Y0JOoyuPG3VAM82ij9ED7gDL2R5n0zsxH0GOrDTF9MI,1110
+this_import_reader-2.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+this_import_reader-2.0.0.dist-info/entry_points.txt,sha256=j4KgHXbVGbGyfTySc1ypBdERpfihO4WNjppvCdE9HjE,52
+this_import_reader-2.0.0.dist-info/top_level.txt,sha256=97U8n-Ub-614duWD62WPLcpIbODDtgkV_P2038vp_Hs,19
+this_import_reader-2.0.0.dist-info/RECORD,,
