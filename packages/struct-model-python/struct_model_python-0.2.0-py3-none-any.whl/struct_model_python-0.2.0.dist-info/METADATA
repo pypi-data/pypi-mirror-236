@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: struct-model-python
+Version: 0.2.0
+Summary: Struct to model (dataclass) for python
+Home-page: https://adambrianbright.github.io/struct-model-python/
+License: MIT
+Keywords: struct,scheme,pack,model,byte
+Author: Bogdan Parfenov
+Author-email: adam.brian.bright@gmail.com
+Requires-Python: >=3.10
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Project-URL: Bug Tracker, https://github.com/AdamBrianBright/struct-model-python/issues
+Project-URL: ChangeLog, https://adambrianbright.github.io/struct-model-python/changelog
+Project-URL: Contact Author, https://vk.com/adam_bright
+Project-URL: Documentation, https://adambrianbright.github.io/struct-model-python/
+Project-URL: Repository, https://github.com/AdamBrianBright/struct-model-python
+Description-Content-Type: text/markdown
+
+# Welcome
+
+## Struct-Model
+
+Struct-Model is an annotations based wrapper for python's built-in `Struct` module.
+
+```python example.py
+from struct_model import StructModel, String, uInt4
+
+class Form(StructModel):
+    username: String(16)
+    balance: uInt4
+    
+print(Form("Adam Bright", 12).pack())
+# b'Adam Bright\x00\x00\x00\x00\x00\x00\x00\x00\x0c'
+print(Form.unpack(b'Adam Bright\x00\x00\x00\x00\x00\x00\x00\x00\x0c').json())
+# {"username": "Adam Bright", "balance": 12}
+```
+
+## Installation
+
+### Poetry
+
+```shell
+poetry add struct-model-python
+```
+
+### PIP
+
+```shell
+pip install struct-model-python
+```
+
+## Requirements
+
++ [`ujson >= 4.1.0`](https://github.com/ultrajson/ultrajson)
