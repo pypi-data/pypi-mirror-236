@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+serverseeker.py
+serverseeker.egg-info/PKG-INFO
+serverseeker.egg-info/SOURCES.txt
+serverseeker.egg-info/dependency_links.txt
+serverseeker.egg-info/top_level.txt
