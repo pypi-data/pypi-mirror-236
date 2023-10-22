@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+ayatotest2.egg-info/PKG-INFO
+ayatotest2.egg-info/SOURCES.txt
+ayatotest2.egg-info/dependency_links.txt
+ayatotest2.egg-info/requires.txt
+ayatotest2.egg-info/top_level.txt
+main/__init__.py
