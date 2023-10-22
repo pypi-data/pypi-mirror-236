@@ -1,0 +1,2 @@
+[console_scripts]
+VehicleDetectionTracker = VehicleDetectionTracker.app:run
