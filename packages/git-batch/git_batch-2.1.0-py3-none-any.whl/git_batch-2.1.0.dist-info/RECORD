@@ -1,0 +1,10 @@
+LICENSE,sha256=JGoc_76t9VXS4EfrF4E14QQEXmY4DN4l8IauptsO0xI,1123
+gitbatch/__init__.py,sha256=pbf2fwRaXj3jbpQDtah1Ehleiytl9dYRnGb16MWOpSY,46
+gitbatch/cli.py,sha256=L7Xtzk-UPLkAO2LgVuSH8H_nngfVQFcbEFDf-ATA-og,6456
+gitbatch/logging.py,sha256=iuBEFO3sgKhBhZ2lXm8agnhYq_dNEAto-Wl_Wr29C1w,5766
+gitbatch/utils.py,sha256=vugk75K0X34MdMyAhmlT2bC1Dq5AYLeZxFCIZdIB4P8,1045
+git_batch-2.1.0.dist-info/LICENSE,sha256=JGoc_76t9VXS4EfrF4E14QQEXmY4DN4l8IauptsO0xI,1123
+git_batch-2.1.0.dist-info/METADATA,sha256=JHguwQmJrJLigqANeATGOEJyda9TlkF44xGqIg7SYIE,3127
+git_batch-2.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+git_batch-2.1.0.dist-info/entry_points.txt,sha256=hT-TA3nVJjVRRQMOJOjjvdmDYz1nZV0SYgvICQfgh7k,47
+git_batch-2.1.0.dist-info/RECORD,,
