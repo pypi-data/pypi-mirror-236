@@ -1,0 +1,2 @@
+[console_scripts]
+opthub-scorer = opthub_scorer.main:run
