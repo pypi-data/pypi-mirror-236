@@ -1,0 +1,7 @@
+Pillow~=9.0
+python-dateutil~=2.8
+
+[dev]
+pytest==7.2.*
+pylint==2.16.*
+black==23.1.*
