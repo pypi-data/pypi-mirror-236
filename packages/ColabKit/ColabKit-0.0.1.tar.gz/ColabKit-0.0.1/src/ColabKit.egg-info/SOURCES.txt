@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+src/ColabKit/__init__.py
+src/ColabKit/media.py
+src/ColabKit/record.py
+src/ColabKit/template.py
+src/ColabKit/utils.py
+src/ColabKit/widget.py
+src/ColabKit.egg-info/PKG-INFO
+src/ColabKit.egg-info/SOURCES.txt
+src/ColabKit.egg-info/dependency_links.txt
+src/ColabKit.egg-info/requires.txt
+src/ColabKit.egg-info/top_level.txt
