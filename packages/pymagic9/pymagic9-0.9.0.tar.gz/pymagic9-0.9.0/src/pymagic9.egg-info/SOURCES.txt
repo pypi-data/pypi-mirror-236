@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/pymagic9/__init__.py
+src/pymagic9/py.typed
+src/pymagic9/pymagic9.py
+src/pymagic9/pymagic9.pyi
+src/pymagic9.egg-info/PKG-INFO
+src/pymagic9.egg-info/SOURCES.txt
+src/pymagic9.egg-info/dependency_links.txt
+src/pymagic9.egg-info/not-zip-safe
+src/pymagic9.egg-info/requires.txt
+src/pymagic9.egg-info/top_level.txt
+tests/test_pymagic.py

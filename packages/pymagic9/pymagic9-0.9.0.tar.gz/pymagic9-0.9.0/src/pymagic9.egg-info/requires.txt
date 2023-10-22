@@ -1,0 +1,14 @@
+multipledispatch==0.6.0
+
+[testing]
+six==1.13.0
+pytest==4.6.11
+pytest-cov==2.8.1
+coverage==5.2.1
+codecov==2.1.13
+pipenv==2023.7.11
+tox<4.0.0,>=3.24.3
+mypy==0.910
+flake8==3.9.2
+importlib_metadata<5,>=4.13.0
+pre-commit==2.21.0
