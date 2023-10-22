@@ -1,0 +1,13 @@
+translategram/__init__.py,sha256=0G86VhtZRxMtuDm5PkoxD34OzAMyLoolT2h5BMxJvfw,276
+translategram/python_telegram_bot_translator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+translategram/python_telegram_bot_translator/adapter.py,sha256=OMuyF9G1eOKyU7tsNP7GF8BgpUy0niW3rR6neEX0UL8,8398
+translategram/translategram/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+translategram/translategram/cache.py,sha256=j9dcdCfhqLhMT7onqq2FvhhUKHJB0cz3nlThCrezOpE,2639
+translategram/translategram/service_libs.py,sha256=s-9YKX1YdnijxLNhCTcoe7jt-_vmUavBVapzrzyXTcQ,69
+translategram/translategram/translator.py,sha256=pSW0DL_4jx_zccwRZbMxrC7eoppWTz_VP6ZdmnvkLk8,1786
+translategram/translategram/translator_services.py,sha256=k3tvx8Q8JsdbxIrGCrjHTHum9nld8RHmkTNykYFVR40,2155
+translategram-0.4.0.dist-info/LICENSE,sha256=XEHPEKoccJZtxDtEg0pP-XLx-BHkOAl-Cyms-fPAEQc,1069
+translategram-0.4.0.dist-info/METADATA,sha256=-O8b3CBwg0IMicAspXbPVHjhYLdy-qFC6s1NXDxMi-Y,3832
+translategram-0.4.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+translategram-0.4.0.dist-info/top_level.txt,sha256=bCpAx8DL30rBGuWvyr2w477gwIUKBdOt-03llziHI3s,14
+translategram-0.4.0.dist-info/RECORD,,
