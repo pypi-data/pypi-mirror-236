@@ -1,0 +1,12 @@
+layoutparser[layoutmodels,tesseract]
+python-multipart
+huggingface-hub
+opencv-python!=4.7.0.68
+onnx
+onnxruntime<1.16
+transformers>=4.25.1
+rapidfuzz
+
+[supergradients]
+super-gradients
+supervision
