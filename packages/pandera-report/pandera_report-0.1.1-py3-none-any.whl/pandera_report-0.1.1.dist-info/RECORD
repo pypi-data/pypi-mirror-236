@@ -1,0 +1,9 @@
+pandera_report/__init__.py,sha256=2tHHg_zSYc4I-w0LmP51S27AbrAdeMuqa1IwAkUegOU,568
+pandera_report/options.py,sha256=H6KONZCcP36I_fPqfrngoS2XQRjCjYWQ8JmY0oBN11U,1021
+pandera_report/parser.py,sha256=k4inbz30hBlXHMB50qTDGNSkSpzb2ArIml4k2WDOOZo,4995
+pandera_report/validator.py,sha256=s2qUxMrBnlvu-EOS9pmnS9xaKZ0t5r78iFaHn_tpt38,6722
+pandera_report/version.py,sha256=MmOvRl-51k0ubxXISlOi9oBnoAe5ZKVzymiH5j794b8,42
+pandera_report-0.1.1.dist-info/LICENSE.md,sha256=G1PDNlFhj7fnOP19k5ciEbHKs4bG8Ady6Sis_sT6JXs,1070
+pandera_report-0.1.1.dist-info/METADATA,sha256=VVXW-z4jaOJC2ARDKg7yiWmFcvXK2q0uzTHMx4QLLAk,6765
+pandera_report-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pandera_report-0.1.1.dist-info/RECORD,,
