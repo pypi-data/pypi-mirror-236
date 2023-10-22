@@ -1,0 +1,10 @@
+image_sorting_tool/__init__.py,sha256=0sMp9S5JNeB4TzDCu0ymU1tvYEw86x879VxHlajsMy8,48
+image_sorting_tool/__main__.py,sha256=GszWe05Rgw8GBiHYEezTwRHGV6blOnCI1_UtsT1kcJQ,1240
+image_sorting_tool/gui.py,sha256=gT81CkMoTOl4TfyGI6_LR_xsv8-KzLqwi8GOTGbNtI4,12505
+image_sorting_tool/image_sort.py,sha256=FNaE9K33jmwuHi6ABcz3-0c4hUhpHR26ntBYfhp0r_o,9891
+image_sorting_tool-0.2.0.dist-info/LICENSE,sha256=1Q1femiXoXy6I3EJPyvIOnv9CkC7nd3iAx4fYkQ5na4,1096
+image_sorting_tool-0.2.0.dist-info/METADATA,sha256=ERgRTQKTAWGccVykyic3SXhDkAs3EIolPkJuo7qSoEs,5164
+image_sorting_tool-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+image_sorting_tool-0.2.0.dist-info/entry_points.txt,sha256=OuWSpHr0idNsNHokbhsSivHHgN-suYXkf_h2AYCcbrc,67
+image_sorting_tool-0.2.0.dist-info/top_level.txt,sha256=cDRTMf8EdlDK-YHaUNdUJUHxmCp18IdLBaIOZmv_IVs,19
+image_sorting_tool-0.2.0.dist-info/RECORD,,
