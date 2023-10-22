@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fast_serial"
+version = "1.1"
+authors = [
+  { name="Mike Wilson", email="mail4mikew@gmail.com" },
+]
+description = "Fast serial terminal with macros and filtering"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  "pyserial>=3.5",
+  "pyqt5>=5.15",
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mj8w/fast_serial"
+"Bug Tracker" = "https://github.com/mj8w/fast_serial/issues"
