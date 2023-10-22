@@ -1,0 +1,50 @@
+[project]
+name = "framawarp"
+version = "0.1.2"
+description = "Image manipulation on steroids"
+authors = [
+    { name = "Mert Can Demir", email = "validatedev@gmail.com" },
+]
+dependencies = [
+    "numpy>=1.24.4",
+    "torch>=2.0.0",
+    "opencv-python>=4.8.1.78",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[tool.black]
+target-version = [
+    "py38",
+]
+line-length = 88
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-sugar>=0.9.7",
+    "pytest-cov>=4.1.0",
+    "pytest-instafail>=0.5.0",
+    "pytest-clarity>=1.0.1",
+    "pytest-xdist>=3.3.1",
+    "pytest-randomly>=3.15.0",
+]
+build = [
+    "pre-commit>=3.5.0",
+]
+style = [
+    "black>=23.10.0",
+    "flake8>=5.0.4",
+    "wemake-python-styleguide>=0.0.1",
+    "isort>=5.12.0",
+    "mypy>=1.6.1",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
