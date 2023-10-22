@@ -1,0 +1,8 @@
+setup.py
+phoneinfopy/__init__.py
+phoneinfopy/cli.py
+phoneinfopy.egg-info/PKG-INFO
+phoneinfopy.egg-info/SOURCES.txt
+phoneinfopy.egg-info/dependency_links.txt
+phoneinfopy.egg-info/requires.txt
+phoneinfopy.egg-info/top_level.txt
