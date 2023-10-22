@@ -1,0 +1,16 @@
+optim_cy/optim.cp39-win_amd64.pyd,sha256=b4XDJvzJykfVNtF2A8jrTshFHlkf5kWhmtUWOp7pNZc,184832
+optim_cy/optim.cpp,sha256=7XNqNZpsfbXkB4-PL3RATY_zY4JpmeyJOjqwrlJymAw,1237934
+optim_cy/optim.cpython-38-x86_64-linux-gnu.so,sha256=2l0JGJARTEPWfY9sTcyNzANVBpCzj1UgnLh_-SwNcvg,2106496
+rotspy/__init__.py,sha256=scdz60aEz51rM9rtdeGP02mPDyJDc-75Zfd9YSTykdI,108
+rotspy/__main__.py,sha256=4sH0AD4EDJ8G4J3v_JmZUQeqJBg4r6NXE3zFgHTtV_w,288
+rotspy/calculateOverlaps1.py,sha256=rw6Sc3l89BPMEyK5cEdc1ZyZCcBBjHaz72JDtRGp5o0,3101
+rotspy/calculateOverlaps2.py,sha256=0nt_e5e22-0uf8lSiKCCb9dIVX-auZS_TudCZ6QeGjs,2816
+rotspy/helpers.py,sha256=J8SBDSpg_C14ZObA2ieQVbn7hJ_ckMDp6E8Y1zhc9TY,10284
+rotspy/plot_rots.py,sha256=gG6j2l68hR31MUss-SDTcM7ntBH9dRCsv6NibfL3UGY,2382
+rotspy/rots.py,sha256=9wa0BDpNLIj20zIvfh8viZ3VfkrGHZDMRrGvnfpPbVg,11320
+rots_py-1.3.0.dist-info/LICENSE,sha256=MF8Q89m2nJ2QwaO4ZOCOKWM_C0A_SwbNXrhbx6gIFgw,1097
+rots_py-1.3.0.dist-info/METADATA,sha256=hjHjoYPuoeF-SUuGNEbUkBdd_wE-RRsNtG2r8tUkyPE,6672
+rots_py-1.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+rots_py-1.3.0.dist-info/entry_points.txt,sha256=Zckff-DqIRuoZcW3ub5eawi9hGZCnNpanjTBBVf8BZk,52
+rots_py-1.3.0.dist-info/top_level.txt,sha256=s81UICETYKR7ZMRr5kBgU-6f6GS_fnZXh17zisYZeMw,16
+rots_py-1.3.0.dist-info/RECORD,,
