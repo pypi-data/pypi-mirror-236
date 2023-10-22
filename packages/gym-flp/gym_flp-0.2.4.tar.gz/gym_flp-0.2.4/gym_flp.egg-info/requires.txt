@@ -1,0 +1,7 @@
+gym<0.26
+numpy
+anytree
+pygame
+Pillow
+argparse
+optuna
