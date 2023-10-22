@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gradienter
+Version: 0.15
+Summary: A package for gradients
+Home-page: https://github.com/ImsilverDev/gradienter
+Author: silvdev
+Author-email: vadimjohn82@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Gradienter is a Python library for using gradients in your ASCII text or just default text, you can find the usage for it on our GitHub: https://github.com/ImsilverDev/gradienter
+

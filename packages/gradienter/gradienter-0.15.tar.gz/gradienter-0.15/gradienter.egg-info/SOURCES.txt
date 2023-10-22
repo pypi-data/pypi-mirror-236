@@ -1,0 +1,6 @@
+setup.py
+gradienter/__init__.py
+gradienter.egg-info/PKG-INFO
+gradienter.egg-info/SOURCES.txt
+gradienter.egg-info/dependency_links.txt
+gradienter.egg-info/top_level.txt
