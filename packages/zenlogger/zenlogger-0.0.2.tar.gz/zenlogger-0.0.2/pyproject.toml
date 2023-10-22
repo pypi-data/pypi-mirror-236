@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "zenlogger"
+version = "0.0.2"
+description = "logging lib"
+authors = ["zenafey <zenafey@eugw.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+colorama= "^0.4.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
