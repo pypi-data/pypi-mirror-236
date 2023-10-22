@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+kiirastuli/__init__.py
+kiirastuli/__main__.py
+kiirastuli/cli.py
+kiirastuli/kiirastuli.py
+kiirastuli.egg-info/PKG-INFO
+kiirastuli.egg-info/SOURCES.txt
+kiirastuli.egg-info/dependency_links.txt
+kiirastuli.egg-info/entry_points.txt
+kiirastuli.egg-info/requires.txt
+kiirastuli.egg-info/top_level.txt
+test/test_cli.py
+test/test_kiirastuli.py
