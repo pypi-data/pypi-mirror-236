@@ -1,0 +1,10 @@
+grsq/__init__.py,sha256=eHBtjIzx-7Am3q8N6VEY91RxUVIdfsScIL22svc2cHM,163
+grsq/accel.py,sha256=cBUHKn56Ud6_kEMkxNPoET7iCjRsviaMPcipXow9WyE,1248
+grsq/damping.py,sha256=BrYr6qD5WdSg_R6boPaUgmnIzVincbj6C71JNQDzLP0,2230
+grsq/debye.py,sha256=Z-iuLLJbB3Qb3oVdbyz8f5ZL_QZ0Pdoy-Uum9ufRF6I,7676
+grsq/grsq.py,sha256=j-E7zGK13aKs63p8s2w-n5j8TGN5J_mLR3bf33ETFC8,19782
+grsq-1.1.0.dist-info/LICENSE,sha256=U8P-J9JvnYGrZzh3G2Ce_CHck-SSXKPk-iL6sDywKd8,1076
+grsq-1.1.0.dist-info/METADATA,sha256=heL2GJpo9xz1v75KKEO9i78CJhRgiaQ9NgKXKQaiGtg,7373
+grsq-1.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+grsq-1.1.0.dist-info/top_level.txt,sha256=5N41rrXjeMso6guhKr60VQ4pOdBE0r-mHEDuXgqHTlo,5
+grsq-1.1.0.dist-info/RECORD,,
