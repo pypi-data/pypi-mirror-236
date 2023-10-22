@@ -1,0 +1,11 @@
+complex_mathematics/__init__.py,sha256=7pnTIs286ngyGWdirlSaXxgVsG32SHYhgyIaWzxshHo,1619
+complex_mathematics/algebra.py,sha256=L-EAooLIiO7TkxCA3zODpNPsyDPR1323B-jh4ZEe_Rc,2276
+complex_mathematics/complex.py,sha256=xXgFGXRzMd1bFADnPOs6fVlpVQXY54LILlHq1RD5BF8,477
+complex_mathematics/linalg.py,sha256=5mOytUob99mGwyRSyfMkNYcjrpSi7ijzEW22UVqZynY,2289
+complex_mathematics/ml.py,sha256=mN-wSuFDqE8ugjBuIlWJ4qgZZjxQFwqyT5tZj0MgsKk,3680
+complex_mathematics/stats.py,sha256=7SvZ-zj4lVlzZWSk9ucsXYUr_mvCIYWb0fN7yPA-a74,906
+complex_mathematics-4.14.8.dist-info/LICENSE,sha256=VZxiRwAFeA0h-qzI3yEZ2_-YCmKBXadTAWZkJKDdqFg,1092
+complex_mathematics-4.14.8.dist-info/METADATA,sha256=lJ7SY3AYv6IMlmBb9dNdRFSxNuXZqhZ_65R0hhT7nNo,465
+complex_mathematics-4.14.8.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+complex_mathematics-4.14.8.dist-info/top_level.txt,sha256=Xjg5Z2zBpJX8qlQECp3iChotwQUOdWy_x8AtsIDeIwQ,20
+complex_mathematics-4.14.8.dist-info/RECORD,,
