@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+sweatDB/__init__.py
+sweatDB/sweatDB.py
+sweatDB.egg-info/PKG-INFO
+sweatDB.egg-info/SOURCES.txt
+sweatDB.egg-info/dependency_links.txt
+sweatDB.egg-info/top_level.txt

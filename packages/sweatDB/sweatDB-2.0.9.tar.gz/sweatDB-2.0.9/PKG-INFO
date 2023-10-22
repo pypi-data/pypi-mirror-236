@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sweatDB
+Version: 2.0.9
+Summary: A python3 DBMS
+Author: 0xsweat
+Author-email: <0x.sweat@tutanota.com>
+Keywords: python,python database management system,DBMS
+Description-Content-Type: text/markdown
+
+A database management system with an easier syntax than SQL
