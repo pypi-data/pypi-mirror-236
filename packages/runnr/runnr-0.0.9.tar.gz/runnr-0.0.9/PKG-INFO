@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: runnr
+Version: 0.0.9
+Summary: runnr is an open-source command line interface tool for building, compiling & executing different programs & files.
+Author: Aniket Biswas
+Author-email: Aniket Biswas <contact.aniket.biswas@gmail.com>
+Project-URL: Home Page, https://github.com/thesmartaniket/runnr
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/plain
+License-File: LICENSE
