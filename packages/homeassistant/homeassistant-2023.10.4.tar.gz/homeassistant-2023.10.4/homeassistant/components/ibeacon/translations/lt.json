@@ -1,0 +1,12 @@
+{
+    "entity": {
+        "sensor": {
+            "estimated_distance": {
+                "name": "Numatomas atstumas"
+            },
+            "power": {
+                "name": "Galia"
+            }
+        }
+    }
+}

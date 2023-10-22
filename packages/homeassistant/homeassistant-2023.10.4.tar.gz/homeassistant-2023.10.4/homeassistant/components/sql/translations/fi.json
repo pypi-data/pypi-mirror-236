@@ -1,0 +1,10 @@
+{
+    "selector": {
+        "device_class": {
+            "options": {
+                "carbon_dioxide": "Hiilidioksidi",
+                "carbon_monoxide": "H\u00e4k\u00e4"
+            }
+        }
+    }
+}

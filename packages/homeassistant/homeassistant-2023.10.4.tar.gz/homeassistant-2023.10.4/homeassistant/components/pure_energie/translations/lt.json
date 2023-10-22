@@ -1,0 +1,9 @@
+{
+    "config": {
+        "step": {
+            "zeroconf_confirm": {
+                "description": "Ar norite prid\u0117ti Pure Energie Meter (` {model} `) prie Home Assistant?"
+            }
+        }
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Konto har redan konfigurerats"
+        },
+        "create_entry": {
+            "default": "Autentiserats"
+        },
+        "error": {
+            "invalid_api_key": "Ogiltig API-nyckel"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "token": "API Token"
+                },
+                "description": "V\u00e4nligen ange din API-token fr\u00e5n din [Todoist Settings-sida]( {settings_url}"
+            }
+        }
+    },
+    "services": {
+        "new_task": {
+            "fields": {
+                "reminder_date": {
+                    "name": "P\u00e5minnelsedatum"
+                },
+                "reminder_date_string": {
+                    "description": "N\u00e4r ska anv\u00e4ndaren p\u00e5minnas om denna uppgift, p\u00e5 naturligt spr\u00e5k.",
+                    "name": "Datumstr\u00e4ng f\u00f6r p\u00e5minnelse"
+                }
+            },
+            "name": "Ny uppgift"
+        }
+    }
+}
