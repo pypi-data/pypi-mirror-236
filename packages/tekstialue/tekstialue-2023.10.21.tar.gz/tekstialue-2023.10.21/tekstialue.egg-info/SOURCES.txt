@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+tekstialue/__init__.py
+tekstialue/__main__.py
+tekstialue/cli.py
+tekstialue/tekstialue.py
+tekstialue.egg-info/PKG-INFO
+tekstialue.egg-info/SOURCES.txt
+tekstialue.egg-info/dependency_links.txt
+tekstialue.egg-info/entry_points.txt
+tekstialue.egg-info/requires.txt
+tekstialue.egg-info/top_level.txt
+test/test_cli.py
+test/test_tekstialue.py

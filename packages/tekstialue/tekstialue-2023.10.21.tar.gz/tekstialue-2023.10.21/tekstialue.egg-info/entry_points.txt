@@ -1,0 +1,2 @@
+[console_scripts]
+tekstialue = tekstialue.cli:main
