@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/dotalib_parsers.egg-info/PKG-INFO
+src/dotalib_parsers.egg-info/SOURCES.txt
+src/dotalib_parsers.egg-info/dependency_links.txt
+src/dotalib_parsers.egg-info/requires.txt
+src/dotalib_parsers.egg-info/top_level.txt
+src/parsers/__init__.py
+src/parsers/base.py
+src/parsers/cyberscore.py
+src/parsers/dotabuff.py
+src/parsers/hawk/__init__.py
+src/parsers/hawk/livematches.py
+src/parsers/hawk/match.py
+src/parsers/hawk/odds.py

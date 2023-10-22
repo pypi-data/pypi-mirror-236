@@ -1,0 +1,2 @@
+dotalib
+beautifulsoup4
