@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: releases1c
+Version: 0.2.0
+Summary: Package manager for releases.1c.ru
+License: GPLv3
+Author: Serg Repin
+Requires-Python: >=3.11,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: args (>=0.1.0,<0.2.0)
+Requires-Dist: beautifulsoup4 (>=4.12.2,<5.0.0)
+Requires-Dist: bumpver (>=2023.1127,<2024.0)
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: clint (>=0.5.1,<0.6.0)
+Requires-Dist: html5lib (>=1.1,<2.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# releases1c
+Package manager for release.1c.ru, ver: 0.2.0
+
+# Installation
+
+## Install package
+
+```
+pip install --upgrade agent1c_metrics
+```
+
+# Usage
+
+## Get info
+
+### Get list of available packages 
+```
+python -m releases1c info
+```
+
+### Get info about versions for package
+
+```
+python -m releases1c info Platform83
+```
+
+### Get list of files for provided version and package
+
+```
+python -m releases1c info Platform83 8.3.23.1912
+```
+
+### Get list of mirrors for provided package, version and filetype
+
+```
+python -m releases1c info Platform83 8.3.23.1912 setuptc.rar
+```
+
+# Contribution
+
+## Install package in editable mode
+
+```
+pip install -e .
+```
+
+## Change version (major/minor/patch)
+
+```
+bumpver update --patch
+```
+
+## Build and publish the package
+
+```
+poetry publish --build
+```

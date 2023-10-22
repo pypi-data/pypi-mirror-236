@@ -1,0 +1,12 @@
+releases1c/__init__.py,sha256=l-5NLzJJl6n-YrQR1fY4v6f6Quh7sumRLx0y9hTclYU,46
+releases1c/__main__.py,sha256=ZRb5qGPE7whXfTtPCj8dOn9DUdAfWuCV5e9fAk9TomY,48
+releases1c/downloader.py,sha256=myl4ow_fQ1PRGnXRUJv2XCWbc9M8wFrMzJf-b-tIDMA,3109
+releases1c/parsing.py,sha256=JlqvJOicZt_ayeDg5WhqfsBgUvsrR5DdmrfQiasVOtk,2806
+releases1c/progress.py,sha256=sOHspjCt8yF_vA7VuZ7ZA6YcMvhloo13KBEJCkt-Q60,1088
+releases1c/request1c.py,sha256=5Mp-WxRhWIaaz-zMwqUcD7DKKumbU-KPckChfeswnpU,5890
+releases1c/secrets.py,sha256=OoOCvgfThb3oR8ulKeiMhnQ_Rl-mWdSrO47mF_KVB-w,373
+releases1c/shell_commands.py,sha256=f0tvwQqqS7AEp4l-MlwIoGBi-Dz86On1hY1rUVZi1SM,3396
+releases1c-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+releases1c-0.2.0.dist-info/METADATA,sha256=fm0MFpSqyhuNXL7VXZdm7FCfVYJYe5N4RWxL-NDtyhk,1425
+releases1c-0.2.0.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+releases1c-0.2.0.dist-info/RECORD,,
