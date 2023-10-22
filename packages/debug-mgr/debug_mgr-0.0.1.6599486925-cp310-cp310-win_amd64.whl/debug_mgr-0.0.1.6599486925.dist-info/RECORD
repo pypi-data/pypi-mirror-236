@@ -1,0 +1,9 @@
+debug_mgr/__init__.py,sha256=i6lHZrV9WfzJrtfY6vW_WLdNnu-IZsMRAn5FbIy8jKc,518
+debug_mgr/core.cp310-win_amd64.exp,sha256=9NSbMWCPAk55Dv-i32ZHAdN5BPqg2uT-q385XxkTukc,743
+debug_mgr/core.cp310-win_amd64.lib,sha256=CPqs4ACrfO0rGWZ7ZmfsYE7VkoDWoCieFT7ZZYKMf1I,1960
+debug_mgr/core.cp310-win_amd64.pyd,sha256=VtDSwp5qa5CFnqEvpJ19yse6d4UAAtVAiBIaerzTXkM,56320
+debug_mgr-0.0.1.6599486925.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+debug_mgr-0.0.1.6599486925.dist-info/METADATA,sha256=gMKxerrQVkjeYorN5pSSlaZcbcgab5w995GwIQTP4L4,386
+debug_mgr-0.0.1.6599486925.dist-info/WHEEL,sha256=yrvteVAZzxQvtDnzdCRh4dP01sPIxYhLXIXplC7o50E,102
+debug_mgr-0.0.1.6599486925.dist-info/top_level.txt,sha256=4aCPJHIcuX0iZ2C4XI_MAKgxObFLaj_8gmKyysli1ns,10
+debug_mgr-0.0.1.6599486925.dist-info/RECORD,,
