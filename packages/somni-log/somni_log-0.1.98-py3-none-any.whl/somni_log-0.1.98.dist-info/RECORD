@@ -1,0 +1,10 @@
+somni_log/__init__.py,sha256=F1V8t7e7CUu-2L2EWRQh2Bjz0NdfTYkwVFewzw7qtks,3148
+somni_log/constants.py,sha256=u9c_UfrFJPqSjc-aJJzRspKuSPsq_-MZN78HstUzHc4,604
+somni_log/level_filter.py,sha256=R2K2-zulQxrzsxdHpRwFhD6RzJfBK0j3lqjshB24m8k,334
+unittests/__init__.py,sha256=9RUca10_jt_RaJgJOJwLVyM8yCY8ZjTmC08v8DgZw7w,50
+unittests/test_loglevel.py,sha256=apU_3XNWkVXw973S489RaAifiB19ulCcI12XDMV12tU,849
+somni_log-0.1.98.dist-info/LICENSE,sha256=Xtrrp_qapc262AbBYeiyMlf4ixmJkDObaEq0Ggriqwk,1066
+somni_log-0.1.98.dist-info/METADATA,sha256=nMNVbsl-A82LIcOd_f0ZggMl5ieZ37lRftSWagSjqVQ,541
+somni_log-0.1.98.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+somni_log-0.1.98.dist-info/top_level.txt,sha256=0EzSNwwcTPXUAW9W2s1lwhoVEDsd__IEx3ZV4Ux0luQ,20
+somni_log-0.1.98.dist-info/RECORD,,
