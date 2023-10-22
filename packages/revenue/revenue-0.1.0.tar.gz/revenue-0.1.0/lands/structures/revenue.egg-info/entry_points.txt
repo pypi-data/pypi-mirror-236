@@ -1,0 +1,2 @@
+[console_scripts]
+revenue = revenue.clique:start

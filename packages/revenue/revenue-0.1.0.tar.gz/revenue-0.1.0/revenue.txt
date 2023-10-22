@@ -1,0 +1,29 @@
+
+
+<h1>revenue</h1>
+<p>online academy building resources</p>
+
+<code>
+	[tcsh] pip install revenue
+</code>
+
+
+Started from the shell, 
+"revenue" presents files in the 
+current working directory (cwd) 
+that have extension "r.html".
+
+<code>
+	[tcsh] revenue
+</code>
+
+
+<code>
+	<pre>
+		<h1>This is an example html file.</h1>
+		<p>It really only needs the "pre" tag to look like a reflection of its contents in a browser.</p>
+		<p>Tags like "html" and "body" are actually not necessary for rendering HTML in modern browsers.</p>
+	
+		<p>for text to wrap, instead of extending off the page, style "white-space: pre-wrap" can be utilized.</p>
+	</pre>
+</code>
