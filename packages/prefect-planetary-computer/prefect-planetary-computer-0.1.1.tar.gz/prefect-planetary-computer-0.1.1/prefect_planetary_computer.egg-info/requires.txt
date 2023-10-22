@@ -1,0 +1,27 @@
+prefect>=2.0.0
+prefect-dask
+planetary-computer
+dask-gateway
+pystac-client
+
+[dev]
+pytest
+black
+flake8
+mypy
+mkdocs
+mkdocs-material
+mkdocstrings[python]
+isort
+pre-commit
+pytest-asyncio
+mkdocs-gen-files
+interrogate
+coverage
+pillow
+requests_mock
+importlib_resources
+numpy
+
+[dev:python_version < "3.8"]
+mock
