@@ -1,0 +1,3555 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# balping <balping314@gmail.com>, 2020.
+# Peter Donka <peter.donka@gmail.com>, 2021, 2022, 2023.
+# -- <eneremen@gmail.com>, 2021.
+# f3rr31 <5920873@disroot.org>, 2021.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-25 18:55+0000\n"
+"PO-Revision-Date: 2023-08-28 17:27+0000\n"
+"Last-Translator: Peter Donka <peter.donka@gmail.com>\n"
+"Language-Team: Hungarian <https://hosted.weblate.org/projects/gnu-mailman/"
+"postorius/hu/>\n"
+"Language: hu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.0.1-dev\n"
+
+#: forms/domain_forms.py:34
+#, python-format
+msgid ""
+"The domain from which you want the web UI to be served from. This can be "
+"same or different from the Mail Host. You can edit the list of available web "
+"hosts <a href=\"%s\">here</a>."
+msgstr ""
+"A domain amelyről a web UI-t kiszolgáljuk. Ez lehet azonos vagy eltérő a "
+"Mail hoszt-tól. Az elérhető web hosztok listáját <a href=\"%s\">itt</a> "
+"tudod szerkeszteni."
+
+#: forms/domain_forms.py:46 forms/list_forms.py:100
+#: templates/postorius/domain/index.html:21
+msgid "Mail Host"
+msgstr "Mail hoszt"
+
+#: forms/domain_forms.py:48 forms/domain_forms.py:69
+msgid "Please enter a domain name"
+msgstr "Írjon be egy domain nevet"
+
+#: forms/domain_forms.py:49 forms/domain_forms.py:70
+msgid "Please enter a valid domain name."
+msgstr "Írjon be egy érvényes domain nevet."
+
+#: forms/domain_forms.py:53
+msgid ""
+"The domain for your mailing lists. For example when you want lists like "
+"testing@example.com, enter example.com here."
+msgstr ""
+"A levelezőlista domainje. Például ha egy teszt@példa.hu levelezőlistát "
+"szeretne, a példa.hu-t kell beírnia."
+
+#: forms/domain_forms.py:57 templates/postorius/domain/index.html:22
+#: templates/postorius/index.html:88
+msgid "Description"
+msgstr "Leírás"
+
+#: forms/domain_forms.py:59 templates/postorius/domain/index.html:23
+msgid "Alias Domain"
+msgstr "Domain álnév"
+
+#: forms/domain_forms.py:61 forms/domain_forms.py:93
+msgid "Please enter a valid domain name or nothing."
+msgstr "Írjon be egy érvényes domain nevet vagy semmit."
+
+#: forms/domain_forms.py:64
+msgid "Normally empty.  Used only for unusual Postfix configs."
+msgstr ""
+"Alap esetben üres.  Nem szokványos Postfix beállítás esetén használandó."
+
+#: forms/domain_forms.py:67 templates/postorius/domain/index.html:24
+msgid "Web Host"
+msgstr "Web hoszt"
+
+#: forms/domain_forms.py:83
+msgid "Please enter a valid domain name"
+msgstr "Írjon be egy érvényes domain nevet"
+
+#: forms/domain_forms.py:111
+msgid "Owner's Email"
+msgstr "Tulajdonos e-mail"
+
+#: forms/fields.py:36
+msgid "Regular"
+msgstr "Szabályos"
+
+#: forms/fields.py:37
+msgid "Plain Text Digests"
+msgstr "Szöveges kivonatok"
+
+#: forms/fields.py:38
+msgid "MIME Digests"
+msgstr "Mime kivonatok"
+
+#: forms/fields.py:39
+msgid "Summary Digests"
+msgstr "Összefoglaló kivonatok"
+
+#: forms/fields.py:44 forms/list_forms.py:164
+msgid "Enabled"
+msgstr "Engedélyezve"
+
+#: forms/fields.py:45 forms/list_forms.py:165
+msgid "Disabled"
+msgstr "Letiltva"
+
+#: forms/fields.py:46
+msgid "Disabled by Owner"
+msgstr "Tulajdonos által letiltva"
+
+#: forms/fields.py:47
+msgid "Disabled by Bounces"
+msgstr "Visszapattanások miatt letiltva"
+
+#: forms/fields.py:51
+msgid "Hold for moderation"
+msgstr "Tartás"
+
+#: forms/fields.py:52
+msgid "Reject (with notification)"
+msgstr "Elutasítás (üzenettel)"
+
+#: forms/fields.py:53
+msgid "Discard (no notification)"
+msgstr "Eldobás (nincs üzenet)"
+
+#: forms/fields.py:54
+msgid "Accept immediately (bypass other rules)"
+msgstr "Elfogad (további szabályok átugrása)"
+
+#: forms/fields.py:55
+msgid "Default processing"
+msgstr "Alapértelmezett feldolgozás"
+
+#: forms/fields.py:138
+msgid "Make at least one selection"
+msgstr "Legalább egyet válasszon ki"
+
+#: forms/fields.py:149 templates/postorius/lists/summary.html:54
+msgid "Delivery mode"
+msgstr "Kézbesítési mód"
+
+#: forms/fields.py:151
+msgid ""
+"If you select digests , you'll get posts bundled together (usually one per "
+"day but possibly more on busy lists), instead of singly when they're sent. "
+"Your mail reader may or may not support MIME digests. In general MIME "
+"digests are preferred, but if you have a problem reading them, select plain "
+"text digests. Summary Digests are currently equivalent to MIME Digests."
+msgstr ""
+"Ha a kivonatokat választja, akkor a bejegyzéseket összecsomagoljuk "
+"(általában naponta egyet, de valószínűleg többet a forgalmas listákon), "
+"ahelyett, hogy egyesével küldenénk őket. A levélolvasója nem biztos, hogy "
+"támogatja a MIME kivonatolást. Általában a MIME kivonatok vannak előnyben "
+"részesítve, de ha problémája van ezek olvasásával akkor válassza a "
+"hagyományos szöveges kivonatolást. Összesített kivonatok egyenértékűek a "
+"MIME kivonatokkal."
+
+#: forms/fields.py:173 templates/postorius/lists/summary.html:53
+msgid "Delivery status"
+msgstr "Kézbesítés állapota"
+
+#: forms/fields.py:175
+msgid ""
+"Set this option to Enabled to receive messages posted to this mailing list. "
+"Set it to Disabled if you want to stay subscribed, but don't want mail "
+"delivered to you for a while (e.g. you're going on vacation). If you disable "
+"mail delivery, don't forget to re-enable it when you come back; it will not "
+"be automatically re-enabled."
+msgstr ""
+"Állítsa ezt a beállítást \"engedélyezve\" a levelezési listára küldött "
+"üzenetek fogadásához. Állítsa \"letiltva\", ha továbbra is előfizetett "
+"szeretne maradni, de egy ideig nem szeretne e-mailt kapni (pl. nyaralni "
+"megy). Ha letiltja a levelek kézbesítését, ne felejtse el újra engedélyezni, "
+"amikor visszatér; nem lesz automatikusan újra engedélyezve."
+
+#: forms/fields.py:188
+msgid "Moderation"
+msgstr "Moderálás"
+
+#: forms/fields.py:190 forms/list_forms.py:1292
+#: templatetags/membership_helpers.py:84
+msgid "List default"
+msgstr "Lista alapértelmezés"
+
+#: forms/fields.py:192
+msgid ""
+"Default action to take when this member posts to the list. \n"
+"List default -- follow the list's default member action. \n"
+"Hold -- This holds the message for approval by the list moderators. \n"
+"Reject -- this automatically rejects the message by sending a bounce notice "
+"to the post's author. The text of the bounce notice can be configured by "
+"you. \n"
+"Discard -- this simply discards the message, with no notice sent to the "
+"post's author. \n"
+"Accept -- accepts any postings without any further checks. \n"
+"Default Processing -- run additional checks and accept the message. \n"
+msgstr ""
+"Az alapértelmezett művelet, amelyet akkor kell végrehajtani, amikor ez a tag "
+"bejegyzést tesz közzé a listán. \n"
+"Lista alapértelmezett - kövesse a lista alapértelmezett tagműveletét. \n"
+"Tartás – Ez visszatartja az üzenetet a lista moderátorok általi "
+"jóváhagyásra. \n"
+"Elutasítás – ez automatikusan visszautasítja az üzenetet azáltal, hogy "
+"visszafordulást küld a bejegyzés szerzőjének. A visszafordulási értesítés "
+"szövegét Ön konfigurálhatja. \n"
+"Dobja el - ez egyszerűen elveti az üzenetet, és nem küld értesítést a "
+"bejegyzés szerzőjének. \n"
+"Fogadja el - elfogadja a beküldést további ellenőrzések nélkül. \n"
+"Alapértelmezett feldolgozás - futtasson további ellenőrzéseket, és fogadja "
+"el az üzenetet. \n"
+
+#: forms/list_forms.py:43
+msgid "Daily"
+msgstr "Napi"
+
+#: forms/list_forms.py:44
+msgid "Weekly"
+msgstr "Heti"
+
+#: forms/list_forms.py:45
+msgid "Quarterly"
+msgstr "Negyedéventi"
+
+#: forms/list_forms.py:46
+msgid "Monthly"
+msgstr "Havi"
+
+#: forms/list_forms.py:47
+msgid "Yearly"
+msgstr "Éves"
+
+#: forms/list_forms.py:51
+msgid "Only mailinglist administrators"
+msgstr "Csak levelezőlista adminisztrátorok"
+
+#: forms/list_forms.py:52
+msgid "Mailinglist administrators and members"
+msgstr "Levelezőlista adminisztrátorok és tagok"
+
+#: forms/list_forms.py:53
+msgid "Anyone"
+msgstr "Bárki"
+
+#: forms/list_forms.py:68 templates/postorius/user/subscriptions.html:22
+msgid "List Name"
+msgstr "Lista neve"
+
+#: forms/list_forms.py:71
+msgid "Please enter a name for your list."
+msgstr "Írjon be egy nevet a listájának."
+
+#: forms/list_forms.py:72
+msgid "Please enter a valid list name."
+msgstr "Írjon be egy érvényes listanevet."
+
+#: forms/list_forms.py:77
+msgid "Initial list owner address"
+msgstr "Kezdeti listatulajdonos címe"
+
+#: forms/list_forms.py:79
+msgid "Please enter the list owner's email address."
+msgstr "Adja meg a lista tulajdonosának e-mail címét."
+
+#: forms/list_forms.py:85
+msgid "Advertise this list?"
+msgstr "Hirdesse ezt a listát?"
+
+#: forms/list_forms.py:86
+msgid "Please choose a list type."
+msgstr "Válassza ki a lista típusát."
+
+#: forms/list_forms.py:89
+msgid "Advertise this list in list index"
+msgstr "Hirdesse a listát a listaindexben"
+
+#: forms/list_forms.py:90
+msgid "Hide this list in list index"
+msgstr "Rejtse el a listát a listaindexben"
+
+#: forms/list_forms.py:94 forms/list_forms.py:1138
+msgid "Short Description"
+msgstr "Rövid leírás"
+
+#: forms/list_forms.py:104
+msgid "Choose an existing Domain."
+msgstr "Válasszon egy létező domaint."
+
+#: forms/list_forms.py:105
+msgid "Choose a valid Mail Host"
+msgstr "Válasszon egy létező Mail hosztot"
+
+#: forms/list_forms.py:110
+msgid "List Style"
+msgstr "Listastílus"
+
+#: forms/list_forms.py:114
+msgid "Choose a List Style."
+msgstr "Válasszon egy listastílust."
+
+#: forms/list_forms.py:115
+msgid "Choose a valid List Style."
+msgstr "Válasszon egy érvényes listastílust."
+
+#: forms/list_forms.py:120
+msgid "Site admin has not created any domains"
+msgstr "A oldal adminisztrátora még nem hozott létre egyetlen domaint sem"
+
+#: forms/list_forms.py:134
+msgid "Please enter a valid listname"
+msgstr "Kérlek adj meg egy valós listanevet"
+
+#: forms/list_forms.py:169 forms/list_forms.py:207
+msgid "Your email address"
+msgstr "Az e-mail címe"
+
+#: forms/list_forms.py:175
+msgid ""
+"Subscribing via \"Primary Address\" will change subscription address when "
+"you change your primary address."
+msgstr ""
+"Az \"Elsődleges Cím\"-en keresztüli feliratkozás megváltoztatja a "
+"feliratkozási címet is ha az elsődleges címet módosítod."
+
+#: forms/list_forms.py:179 forms/list_forms.py:210 forms/member_forms.py:30
+#: forms/system.py:38
+msgid "Please enter an email address."
+msgstr "Írjon be egy e-mail címet."
+
+#: forms/list_forms.py:180 forms/list_forms.py:211 forms/member_forms.py:31
+#: forms/system.py:39
+msgid "Please enter a valid email address."
+msgstr "Írjon be egy érvényes e-mail címet."
+
+#: forms/list_forms.py:185 forms/list_forms.py:216
+msgid "Your name (optional)"
+msgstr "Neve (nem kötelező)"
+
+#: forms/list_forms.py:198 forms/list_forms.py:1419 views/list.py:546
+msgid "Primary Address ({})"
+msgstr "Eldősleges Cím ({})"
+
+#: forms/list_forms.py:233
+msgid "Open"
+msgstr "Nyitott"
+
+#: forms/list_forms.py:234 templates/postorius/domain/template_delete.html:27
+#: templates/postorius/lists/template_delete.html:24
+msgid "Confirm"
+msgstr "Megerősít"
+
+#: forms/list_forms.py:235
+msgid "Moderate"
+msgstr "Moderál"
+
+#: forms/list_forms.py:236
+msgid "Confirm, then moderate"
+msgstr "Megerősítés majd moderálás"
+
+#: forms/list_forms.py:246
+msgid "Subscription Policy"
+msgstr "Feliratkozási szabály"
+
+#: forms/list_forms.py:249
+msgid ""
+"Open: Subscriptions are added automatically\n"
+"Confirm: Subscribers need to confirm the subscription using an email sent to "
+"them\n"
+"Moderate: Moderators will have to authorize each subscription manually.\n"
+"Confirm then Moderate: First subscribers have to confirm, then a moderator "
+"needs to authorize."
+msgstr ""
+"Nyitott: A feliratkozások automatikus hozzáadódnak.\n"
+"Megerősítés: A feliratkozónak meg kell erősíteni a szándékukat egy a címükre "
+"küldött emailben.\n"
+"Moderálás: A moderátornak minden egyes feliratkozást egyenként engedélyeznie "
+"kell.\n"
+"Megerősítés majd moderálás: Először a feliratkozóknak kell megerősítenie, "
+"majd a moderátornak jóváhagynia."
+
+#: forms/list_forms.py:260
+msgid "Un-Subscription Policy"
+msgstr "Leiratkozási szabály"
+
+#: forms/list_forms.py:263
+msgid ""
+"Open: Un-Subscriptions happen automatically\n"
+"Confirm: Subscribers need to confirm the un-subscription using an email sent "
+"to them\n"
+"Moderate: Moderators will have to authorize each un-subscription manually.\n"
+"Confirm then Moderate: First subscribers have to confirm, then a moderator "
+"needs to authorize."
+msgstr ""
+"Nyitott: A leiratkozások automatikusan megtörténnek.\n"
+"Megerősítés: A feliratkozónak meg kell erősíteni a leiratkozási szándékukat "
+"egy a címükre küldött emailben.\n"
+"Moderálás: A moderátornak minden egyes leiratkozást egyenként engedélyeznie "
+"kell.\n"
+"Megerősítés majd moderálás: Először a feliratkozóknak kell megerősítenie, "
+"majd a moderátornak jóváhagynia."
+
+#: forms/list_forms.py:278 forms/list_forms.py:777
+#: templates/postorius/lists/held_messages.html:30
+#: templates/postorius/lists/held_messages.html:117
+#: templates/postorius/lists/pending_confirmations.html:37
+#: templates/postorius/lists/subscription_requests.html:37
+msgid "Discard"
+msgstr "Elvetés"
+
+#: forms/list_forms.py:279
+msgid "List Admins"
+msgstr "Lista adminok"
+
+#: forms/list_forms.py:280
+msgid "Site Admin"
+msgstr "Oldal adminisztrátor"
+
+#: forms/list_forms.py:284 forms/list_forms.py:316 forms/list_forms.py:327
+#: forms/list_forms.py:338 forms/list_forms.py:467 forms/list_forms.py:477
+#: forms/list_forms.py:526 forms/list_forms.py:657 forms/list_forms.py:664
+#: forms/list_forms.py:717 forms/list_forms.py:807 forms/list_forms.py:818
+#: forms/list_forms.py:838 forms/list_forms.py:858 forms/list_forms.py:922
+#: forms/list_forms.py:961 forms/list_forms.py:978 forms/list_forms.py:1056
+#: forms/list_forms.py:1067 forms/list_forms.py:1081 forms/list_forms.py:1093
+#: forms/list_forms.py:1107 forms/list_forms.py:1130 forms/list_forms.py:1179
+#: forms/list_forms.py:1188 forms/list_forms.py:1212 forms/list_forms.py:1290
+#: forms/user_forms.py:63
+msgid "Yes"
+msgstr "Igen"
+
+#: forms/list_forms.py:284 forms/list_forms.py:316 forms/list_forms.py:327
+#: forms/list_forms.py:338 forms/list_forms.py:467 forms/list_forms.py:477
+#: forms/list_forms.py:526 forms/list_forms.py:657 forms/list_forms.py:664
+#: forms/list_forms.py:717 forms/list_forms.py:807 forms/list_forms.py:818
+#: forms/list_forms.py:838 forms/list_forms.py:858 forms/list_forms.py:922
+#: forms/list_forms.py:961 forms/list_forms.py:978 forms/list_forms.py:1056
+#: forms/list_forms.py:1067 forms/list_forms.py:1081 forms/list_forms.py:1093
+#: forms/list_forms.py:1107 forms/list_forms.py:1130 forms/list_forms.py:1179
+#: forms/list_forms.py:1188 forms/list_forms.py:1212 forms/list_forms.py:1291
+#: forms/user_forms.py:63
+msgid "No"
+msgstr "Nem"
+
+#: forms/list_forms.py:286
+msgid "Process Bounces"
+msgstr "Visszapattanások kezelése"
+
+#: forms/list_forms.py:288
+msgid ""
+"Specifies whether or not this list should do automatic bounce processing."
+msgstr ""
+"Megadja, hogy ennek a listának el kell-e végeznie az automatikus "
+"visszapattanás feldolgozást."
+
+#: forms/list_forms.py:295
+msgid "Bounce score threshold"
+msgstr "Visszapattanási ponthatár"
+
+#: forms/list_forms.py:298
+msgid ""
+"This is the bounce score above which a member's subscription  will be "
+"automatically disabled. When the subscription is  re-enabled, their bounce "
+"score will be reset to zero."
+msgstr ""
+"Az a tag akinek a visszapattanási ponthatára efelett az érték felett van "
+"automatikusan letiltásra kerül. Ha a feliratkozás újra engedélyezve lesz ez "
+"az érték nullára áll vissza."
+
+#: forms/list_forms.py:305
+msgid "Bounce info stale after"
+msgstr "A visszapattanási információ elévül ezután"
+
+#: forms/list_forms.py:308
+msgid ""
+"The number of days after which a member's bounce information is considered "
+"stale. If no new bounces have been received in the interim, the bounce score "
+"is reset to zero. This value must be an integer. "
+msgstr ""
+"A napok száma amely után a tagok visszapattanási információját elévültnek "
+"vesszük. Ha nem érkezik visszapattanás az intervallumon belül az érték "
+"nullára áll vissza. Ez az érték egész szám kell legyen. "
+
+#: forms/list_forms.py:318
+msgid "Notify owner on bounce increment"
+msgstr "A tulajdonos értesítése a többszörös visszapattanásokról"
+
+#: forms/list_forms.py:320
+msgid ""
+"This option controls whether or not the list owner is notified when a "
+"member's bounce score is incremented, but to a value less than their bounce "
+"threshold. "
+msgstr ""
+"Ez az opció szabályozza, hogy a lista tulajdonosa értesítve legyen e ha egy "
+"tag pontszáma emelkedett de kevesebb mint a visszapattanási ponthatár. "
+
+#: forms/list_forms.py:329
+msgid "Notify owner on disable"
+msgstr "A tulajdonos értesítése a letiltásról"
+
+#: forms/list_forms.py:331
+msgid ""
+"This option controls whether or not the list owner is notified when a "
+"member's subscription is automatically disabled due to their bounce "
+"threshold being reached. "
+msgstr ""
+"Ez az opció megadja, hogy a lista tulajdonosa értesítve legyen e ha egy tag "
+"feliratkozása automatikusan letiltásra került a visszapattanási ponthatár "
+"elérése miatt. "
+
+#: forms/list_forms.py:340
+msgid "Notify owner on removal"
+msgstr "A tulajdonos értesítése a törlésről"
+
+#: forms/list_forms.py:342
+msgid ""
+"This option controls whether or not the list owner is notified when a member "
+"is removed from the list after their disabled notifications have been "
+"exhausted. "
+msgstr ""
+"Ez a beállítás azt szabályozza, hogy a lista tulajdonosa értesítést kapjon-"
+"e, ha egy tagot eltávolítanak a listáról, miután a letiltott értesítések "
+"kimerültek. "
+
+#: forms/list_forms.py:351
+msgid "Forward unrecognized bounces"
+msgstr "Ismeretlen visszapattanások továbbítása"
+
+#: forms/list_forms.py:353
+msgid ""
+"Discard: Unrecognized bounces will be discarded\n"
+"List Admins: Send to the list owners and moderators\n"
+"Site Admin: Send to the site's configured site_owner"
+msgstr ""
+"Elvetés: Ismeretlen visszapattanások eldobódnak\n"
+"Lista Adminok: Küldés a lista tulajdonosoknak és moderátoroknak\n"
+"Oldal Admin: Küldés a beállított oldal adminnak"
+
+#: forms/list_forms.py:360
+msgid "Bounce disabled warnings interval"
+msgstr "Visszapattanás letiltási figyelmeztetés intervalluma"
+
+#: forms/list_forms.py:362
+msgid "The number of days between each disabled notification."
+msgstr "A letiltott értesítések közben eltelt napok száma."
+
+#: forms/list_forms.py:367
+msgid "Bounce disable warnings"
+msgstr "Visszapattanás letiltás figyelmeztetés"
+
+#: forms/list_forms.py:370
+msgid ""
+"The number of notices a disabled member will receive before their address is "
+"removed from the mailing list's roster. Set this to 0 to immediately remove "
+"an address from the list once their bounce score exceeds the threshold. This "
+"value must be an integer. "
+msgstr ""
+"Az értesítések száma amely után a letiltott tag törlésre kerül a lista "
+"névsorából. Állítsd 0-ra, hogy a cím azonnal törlésre kerüljön miután a "
+"visszapattanási ponthatárt elérte. Ez az érték egész szám kell legyen. "
+
+#: forms/list_forms.py:387
+msgid "Public archives"
+msgstr "Publikus archívumok"
+
+#: forms/list_forms.py:388
+msgid "Private archives"
+msgstr "Privát archívumok"
+
+#: forms/list_forms.py:389
+msgid "Do not archive this list"
+msgstr "Ne archiválja a listát"
+
+#: forms/list_forms.py:393
+msgid "Plain text"
+msgstr "Egyszerű szöveg"
+
+#: forms/list_forms.py:394
+msgid "Markdown text"
+msgstr "Csökkentet szöveg"
+
+#: forms/list_forms.py:400
+msgid "Archive policy"
+msgstr "Archiválási szabály"
+
+#: forms/list_forms.py:401
+msgid "Policy for archiving messages for this list"
+msgstr "A lista archiválási szabálya"
+
+#: forms/list_forms.py:406
+msgid "Active archivers"
+msgstr "Aktív archiválók"
+
+#: forms/list_forms.py:414
+msgid "Archive Rendering mode"
+msgstr "Archívum renderelési mód"
+
+#: forms/list_forms.py:416
+msgid ""
+"This option enables rendering of emails in archiver as rich text with "
+"formatting based on markup in the email.\n"
+"Currently, this option is only supported by Hyperkitty."
+msgstr ""
+"Ez az opció lehetővé teszi az archiválóban lévő e-mailek richtext-ként "
+"történő formázását az e-mail jelölése alapján.\n"
+"Jelenleg ezt a lehetőséget csak a Hyperkitty támogatja."
+
+#: forms/list_forms.py:453
+msgid "Acceptable aliases"
+msgstr "Elfogadott álnevek"
+
+#: forms/list_forms.py:456
+msgid ""
+"This is a list, one per line, of addresses and regexps matching addresses "
+"that are acceptable in To: or Cc: in lieu of the list posting address when "
+"`require_explicit_destination' is enabled.  Entries are either email "
+"addresses or regexps matching email addresses.  Regexps are entries "
+"beginning with `^' and are matched against every recipient address in the "
+"message. The matching is performed with Python's re.match() function, "
+"meaning they are anchored to the start of the string."
+msgstr ""
+"Ez egy lista, soronként egy, azon címekről és regexp-ekről amelyek "
+"elfogadhatóak a To: vagy a Cc: mezőben amikor a "
+"`require_explicit_destination' be van kapcsolva. Ezek lehet email címek vagy "
+"regexp változók amelyek illeszkednek email cím(ek)re. A regexp bejegyzések "
+"amelyek`^' karakterrel kezdődnek minden címzettre illeszkednek az üzenetben. "
+"Az illeszkedés a Python re.match() függvénnyel történik, tehát rögzíthető a "
+"kezdő karakterre."
+
+#: forms/list_forms.py:469
+msgid "Require Explicit Destination"
+msgstr "Konkrét címzés szükséges"
+
+#: forms/list_forms.py:471
+msgid ""
+"This checks to ensure that the list posting address or an acceptable alias "
+"explicitly appears in a To: or Cc: header in the post."
+msgstr ""
+"Ez a teszt ellenőrzi, hogy a lista posztoló címe vagy egy elfogadott álneve "
+"konkrétan szerepel e a To: vagy a Cc: fejlécben."
+
+#: forms/list_forms.py:479
+msgid "Administrivia"
+msgstr "Adminisztráció"
+
+#: forms/list_forms.py:481
+msgid ""
+"Administrivia tests will check postings to see whether it's really meant as "
+"an administrative request (like subscribe, unsubscribe, etc), and will add "
+"it to the administrative requests queue, notifying the administrator of the "
+"new request, in the process."
+msgstr ""
+"Az adminisztrációs tesztek ellenőrzik a bejegyzéseket, hogy valóban "
+"adminisztratív kérésnek szánták-e (például előfizetés, leiratkozás stb.), és "
+"hozzáadják az adminisztrációs kérések sorához, értesítve a rendszergazdát az "
+"új kérésről."
+
+#: forms/list_forms.py:490
+msgid "Default action to take when a member posts to the list"
+msgstr "Alapértelmezett művelet amikor egy tag ír a listára"
+
+#: forms/list_forms.py:492
+msgid "Please choose a default member action."
+msgstr "Kérlek válaszd ki az alapértelmezett tagi tevékenységet."
+
+#: forms/list_forms.py:497
+msgid ""
+"Default action to take when a member posts to the list.\n"
+"Hold: This holds the message for approval by the list moderators.\n"
+"Reject: this automatically rejects the message by sending a bounce notice to "
+"the post's author. The text of the bounce notice can be configured by you.\n"
+"Discard: this simply discards the message, with no notice sent to the post's "
+"author.\n"
+"Accept: accepts any postings without any further checks.\n"
+"Default Processing: run additional checks and accept the message."
+msgstr ""
+"Alapértelmezés amikor egy tag ír a listára.\n"
+"Tartás: Az üzenetet visszatartja az adminisztrátor jóváhagyásáig.\n"
+"Elutasítás: Automatikusan elutasítja az üzenetet és egy visszapattanót küld "
+"a szerzőnek. A visszapattanó üzenet szövege testreszabható.\n"
+"Eldobás: Egyszerűen eldobja az üzenetet, a szerző nem kap értesítést.\n"
+"Elfogadás: Minden posztolást elfogad további ellenőrzés nélkül.\n"
+"Alapértelmezett feldolgozás: További ellenőrzések futtatása és az üzenet "
+"elfogadása."
+
+#: forms/list_forms.py:512
+msgid "Default action to take when a non-member posts to the list"
+msgstr "Alapértelmezett művelet amikor egy külsős beküldő ír a listára"
+
+#: forms/list_forms.py:514
+msgid "Please choose a default non-member action."
+msgstr "Kérlek válaszd ki az alapértelmezett küsős beküldő műveletet."
+
+#: forms/list_forms.py:519
+msgid ""
+"When a post from a non-member is received, the message's sender is matched "
+"against the list of explicitly accepted, held, rejected (bounced), and "
+"discarded addresses. If no match is found, then this action is taken."
+msgstr ""
+"Amikor egy külsős beküldő ír a listára, a feladó címe össze lesz hasonlítva "
+"a kizárólagosan elfogadott, visszatartott, elutasított (visszapattanó), és "
+"eldobandó címekkel. Ha nincs egyezés akkor ez a művelet kerül végrehajtásra."
+
+#: forms/list_forms.py:528
+msgid "Emergency Moderation"
+msgstr "Vészhelyzeti moderálás"
+
+#: forms/list_forms.py:530
+msgid ""
+"When this option is enabled, all list traffic is emergency moderated, i.e. "
+"held for moderation. Turn this option on when your list is experiencing a "
+"flamewar and you want a cooling off period. "
+msgstr ""
+"Amikor ez az opció be van jelölve minden forgalom vészhelyzeti moderálás alá "
+"kerül, azaz visszatartva moderálásra. Kapcsold be ezt az opciót ha túl nagy "
+"mennyiségű forgalmat tapasztalsz a tagok részéről. "
+
+#: forms/list_forms.py:538
+msgid "Maximum message size"
+msgstr "Maximális üzenet méret"
+
+#: forms/list_forms.py:541
+msgid ""
+"The maximum allowed message size in KB. This can be used to prevent emails "
+"with large attachments. A size of 0 disables the check."
+msgstr ""
+"A maximálisan megengedett üzenet méret KB-ban. Ezzel elkerülhető a nagy "
+"méretű mellékletek küldése. A 0 érték kikapcsolja ezt az ellenőrzést."
+
+#: forms/list_forms.py:548
+msgid "Maximum number of recipients"
+msgstr "A címzettek maximális száma"
+
+#: forms/list_forms.py:551
+msgid ""
+"If a post has this many or more explicit recipients (To: and Cc:), the post "
+"will be held for moderation. This can be used to prevent mass mailings from "
+"being accepted. A value of 0 disables the check."
+msgstr ""
+"Ha egy hozzászólásnak ennyi vagy több egyértelmű címzettje van (Címzett: és "
+"Cc:), a hozzászólás moderálásra kerül. Ezzel elkerülhető a tömeges emailek "
+"elfogadása. A 0 érték kikapcsolja ezt az ellenőrzést."
+
+#: forms/list_forms.py:568
+msgid "Accept these non-members"
+msgstr "Az alábbi külsős beküldők elfogadása"
+
+#: forms/list_forms.py:571
+msgid ""
+"This is a list, one per line, of regexps matching addresses that are allowed "
+"to post to this mailing list without subscribing to the list. Entries are "
+"regexps beginning with `^' and are matched against the sender addresses in "
+"the message. While non-regexp addresses can be entered here, it is preferred "
+"to add the address as a nonmember and set the nonmember's Moderation to "
+"Default Processing."
+msgstr ""
+"Ez egy lista, soronként egy, olyan regexp-ekről amelyek címekre "
+"illeszkednek, melyek megadják kik írhatnak a listára feliratkozás nélkül is. "
+"A bejegyzések amelyek `^' karakterrel kezdődnek illeszkednek a beküldő email "
+"címére. Nem regexp cím is megadható de javasolt ilyen esetben a címet külsős "
+"beküldőként hozzáadni a külsős beküldő moderálási feldolgozáshoz."
+
+#: forms/list_forms.py:583
+msgid "Hold these non-members"
+msgstr "Az alábbi külsős beküldők visszatartása"
+
+#: forms/list_forms.py:586
+msgid ""
+"This is a list, one per line, of regexps matching nonmember addresses, posts "
+"from which are held automatically. Entries are regexps beginning with `^' "
+"and are matched against the sender addresses in the message. While non-"
+"regexp addresses can be entered here, it is preferred to add the address as "
+"a nonmember and set the nonmember's Moderation to Hold."
+msgstr ""
+"Ez egy lista, soronként egy, olyan regexp értékekkel amelyek a külsős "
+"beküldőkre illeszkednek, amelyektől érkező posztok automatikusan tartásba "
+"kerülnek. A regexp bejegyzések amelyik `^' karakterrel kezdődnek "
+"illeszkednek a feladó címére. Nem regexp érték is használható, azonban "
+"javasolt ez esetben a címet mint külsős beküldő hozzáadni a moderált tartási "
+"listához."
+
+#: forms/list_forms.py:597
+msgid "Reject these non-members"
+msgstr "Az alábbi külsős beküldők elutasítása"
+
+#: forms/list_forms.py:600
+msgid ""
+"This is a list, one per line, of regexps matching nonmember addresses, posts "
+"from which are rejected with notice to the sender. Entries are regexps "
+"beginning with `^' and are matched against the sender addresses in the "
+"message. While non-regexp addresses can be entered here, it is preferred to "
+"add the address as a nonmember and set the nonmember's Moderation to Reject."
+msgstr ""
+"Ez egy lista, soronként egy, olyan regexp értékekkel amelyek a külsős "
+"beküldőkre illeszkednek, amelyektől érkező posztok automatikusan "
+"elutasításra kerülnek. A regexp bejegyzések amelyik `^' karakterrel "
+"kezdődnek illeszkednek a feladó címére. Nem regexp érték is használható, "
+"azonban javasolt ez esetben a címet mint külsős beküldő hozzáadni a moderált "
+"elutasítási listához."
+
+#: forms/list_forms.py:612
+msgid "Discard these non-members"
+msgstr "Az alábbi külsős beküldők eldobása"
+
+#: forms/list_forms.py:615
+msgid ""
+"This is a list, one per line, of regexps matching nonmember addresses, posts "
+"from which are discarded automatically. Entries are regexps beginning with "
+"`^' and are matched against the sender addresses in the message. While non-"
+"regexp addresses can be entered here, it is preferred to add the address as "
+"a nonmember and set the nonmember's Moderation to Discard."
+msgstr ""
+"Ez egy lista, soronként egy, olyan regexp értékekkel amelyek a külsős "
+"beküldőkre illeszkednek, amelyektől érkező posztok automatikusan eldobásra "
+"kerülnek. A regexp bejegyzések amelyik `^' karakterrel kezdődnek "
+"illeszkednek a feladó címére. Nem regexp érték is használható, azonban "
+"javasolt ez esetben a címet mint külsős beküldő hozzáadni a moderált "
+"eldobási listához."
+
+#: forms/list_forms.py:639
+msgid "Invalid alias regexp: {}: {}"
+msgstr "Érvénytelen álnév regexp: {}: {}"
+
+#: forms/list_forms.py:646
+msgid "Invalid alias email: {}"
+msgstr "Érvénytelen email álnév: {}"
+
+#: forms/list_forms.py:660
+msgid "Enable Digests"
+msgstr "Kivonatok engedélyezése"
+
+#: forms/list_forms.py:661
+msgid "Should Mailman enable digests for this MailingList?"
+msgstr "A mailman engedélyezze a kivonatokat ennek a levelező listának?"
+
+#: forms/list_forms.py:667
+msgid "Send Digest Periodically"
+msgstr "Kivonatok időszakos küldése"
+
+#: forms/list_forms.py:668
+msgid "Should Mailman send out digests periodically?"
+msgstr "A mailman küldjön ki időszakos kivonatokat?"
+
+#: forms/list_forms.py:674
+msgid "Digest Volume Frequency"
+msgstr "Kivonatok gyakorisága"
+
+#: forms/list_forms.py:676
+msgid ""
+"At what frequency should Mailman increment the digest volume number and "
+"reset the issue number?"
+msgstr ""
+"Milyen gyakorisággal növelje a Mailman a kivonatok számát és állítsa "
+"alaphelyzetbe a kiadások számát?"
+
+#: forms/list_forms.py:681
+msgid "Digest size threshold"
+msgstr "Kivonat méret korlát"
+
+#: forms/list_forms.py:683
+msgid "How big in Kb should a digest be before it gets sent out?"
+msgstr "Milyen nagy legyen egy kivonat Kb-ban mielőtt kiküldésre kerül?"
+
+#: forms/list_forms.py:694
+msgid "DMARC mitigation action"
+msgstr "DMARC enyhítés"
+
+#: forms/list_forms.py:698
+msgid "Please choose a DMARC mitigation action."
+msgstr "Kérlek válassz egy DMARC enyhítési műveletet."
+
+#: forms/list_forms.py:701
+msgid "No DMARC mitigations"
+msgstr "Nincs DMARC enyhítés"
+
+#: forms/list_forms.py:702
+msgid "Replace From: with list address"
+msgstr "A beküldő lecserélése a lista címével"
+
+#: forms/list_forms.py:705
+msgid "Wrap the message in an outer message From: the list."
+msgstr ""
+"Az üzenetet ágyazza be egy külső üzenetbe amely a lista címéről érkezik."
+
+#: forms/list_forms.py:707
+msgid "Reject the message"
+msgstr "Üzenet elutasítása"
+
+#: forms/list_forms.py:708
+msgid "Discard the message"
+msgstr "Üzenet eldobása"
+
+#: forms/list_forms.py:711
+msgid ""
+"The action to apply to messages From: a domain publishing a DMARC policy of "
+"reject or quarantine or to all messages if DMARC Mitigate unconditionally is "
+"True."
+msgstr ""
+"Az üzenetekre alkalmazandó művelet: elutasított vagy karanténba helyező "
+"DMARC-házirendet közzéteendő tartomány, vagy ha a DMARC-mérséklés feltétel "
+"nélkül érvényben van."
+
+#: forms/list_forms.py:720
+msgid "DMARC Mitigate unconditionally"
+msgstr "DMARC feltétel nélküli enyhítése"
+
+#: forms/list_forms.py:722
+msgid ""
+"If DMARC mitigation action is munge_from or wrap_message, should it apply to "
+"all messages regardless of the DMARC policy of the From: domain."
+msgstr ""
+"Ha a DMARC-kockázatcsökkentési művelet munge_from vagy wrap_message, az a "
+"From: tartomány DMARC-házirendjétől függetlenül az összes üzenetre "
+"vonatkozik."
+
+#: forms/list_forms.py:728
+#, fuzzy
+#| msgid "Addresses"
+msgid "DMARC Addresses"
+msgstr "Címek"
+
+#: forms/list_forms.py:731
+msgid ""
+"Email addresses and regexps matching email addresses, one per line. Regexps "
+"begin with '^' as in '^.*@example\\.com'. DMARC mitigation action will apply "
+"to posts From: an address matching, case insensitevely, one of these "
+"addresses or patterns regardless of the From: domain's DMARC policy."
+msgstr ""
+
+#: forms/list_forms.py:739
+msgid "DMARC rejection notice"
+msgstr "DMARC elutasítási értesítés"
+
+#: forms/list_forms.py:743
+msgid ""
+"Text to replace the default reason in any rejection notice to be sent when "
+"DMARC mitigation action of reject applies."
+msgstr ""
+"A DMARC elutasítási műveletének alkalmazásakor küldendő elutasítási "
+"értesítés alapértelmezett okát helyettesítő szöveg."
+
+#: forms/list_forms.py:748
+msgid "DMARC wrapped message text"
+msgstr "DMARC burkolt üzenet szövege"
+
+#: forms/list_forms.py:752
+msgid ""
+"Text to be added as a separate text/plain MIME part preceding the original "
+"message part in the wrapped message when DMARC mitigation action of wrap "
+"message applies."
+msgstr ""
+"A tördelt üzenet eredeti üzenetrészét megelőző külön szövegként/egyszerű "
+"MIME-részként hozzáadandó szöveg, amikor a DMARC-féle művelet a burkolt "
+"üzenetre vonatkozik."
+
+#: forms/list_forms.py:760 templates/postorius/lists/summary.html:146
+#: templates/postorius/lists/summary.html:155
+#: templatetags/membership_helpers.py:78
+msgid "None"
+msgstr "Nincs"
+
+#: forms/list_forms.py:761
+msgid "Individual"
+msgstr "Egyéni"
+
+#: forms/list_forms.py:762
+msgid "Full"
+msgstr "Teljes"
+
+#: forms/list_forms.py:766
+msgid ""
+"\n"
+"    None: No personalization.\n"
+"\n"
+"    Individual: Everyone gets a unique copy of the message, and there are "
+"a           few more substitution variables, but no headers are modified.\n"
+"\n"
+"    Full: All of the 'individual' personalization plus recipient "
+"header           modification. "
+msgstr ""
+"\n"
+"    Nincs: Személyre szabás nélkül.\n"
+"\n"
+"    Egyéni: Mindenki kap egy egyedi másolatot az üzenetről, van még néhány "
+"helyettesítő változó, de a fejlécek nem módosulnak.\n"
+"\n"
+"    Teljes: Az összes \"egyéni\" személyre szabott és a címzett fejlécének "
+"módosítása. "
+
+#: forms/list_forms.py:778 templates/postorius/lists/held_messages.html:29
+#: templates/postorius/lists/held_messages.html:116
+#: templates/postorius/lists/subscription_requests.html:40
+msgid "Reject"
+msgstr "Elutasítás"
+
+#: forms/list_forms.py:779
+msgid "Forward"
+msgstr "Továbbítás"
+
+#: forms/list_forms.py:780
+msgid "Preserve"
+msgstr "Megőrzés"
+
+#: forms/list_forms.py:784
+msgid ""
+"Action to take on messages which have no content\n"
+"after filtering.\n"
+" Discard = silently discard the message.\n"
+" Reject = discard the message and notify the sender.\n"
+" Forward = forward the message to the list owner(s).\n"
+" Preserve = save the message in qfiles/bad.\n"
+msgstr ""
+"A tartalom nélküli üzenetek végrehajtása\n"
+"szűrés után.\n"
+" Elvetés = eldobja az üzenetet.\n"
+" Elutasítás = dobja el az üzenetet és értesítse a feladót.\n"
+" Továbbítás = továbbítja az üzenetet a lista tulajdonosának.\n"
+" Megőrzés = mentse az üzenetet a qfiles / bad fájlba.\n"
+
+#: forms/list_forms.py:803
+msgid "Personalize"
+msgstr "Személyre szabás"
+
+#: forms/list_forms.py:810
+msgid "Anonymous list"
+msgstr "Névtelen lista"
+
+#: forms/list_forms.py:812
+msgid ""
+"Hide the sender of a message, replacing it with the list address (Removes "
+"From, Sender and Reply-To fields)"
+msgstr ""
+"Az üzenet feladójának elrejtése a listacímre való lecseréléssel (Eltávolítás "
+"feladója, Feladó és Válasz mező)"
+
+#: forms/list_forms.py:821
+msgid "Include RFC2369 headers"
+msgstr "Tartalmazza az RFC2369 fejléceket"
+
+#: forms/list_forms.py:823
+msgid ""
+"Yes is highly recommended. RFC 2369 defines a set of List-* headers that are "
+"normally added to every message sent to the list membership. These greatly "
+"aid end-users who are using standards compliant mail readers. They should "
+"normally always be enabled. However, not all mail readers are standards "
+"compliant yet, and if you have a large number of members who are using non-"
+"compliant mail readers, they may be annoyed at these headers. You should "
+"first try to educate your members as to why these headers exist, and how to "
+"hide them in their mail clients. As a last resort you can disable these "
+"headers, but this is not recommended (and in fact, your ability to disable "
+"these headers may eventually go away)."
+msgstr ""
+"Igen erősen ajánlott. Az RFC 2369 lista-* fejléceket határoz meg, amelyek "
+"általában hozzá adódnak a lista tagoknak küldött minden üzenethez. Ezek "
+"nagyban segítik azokat a végfelhasználókat, akik szabványnak megfelelő "
+"levélolvasókat használnak. Ezeket általában mindig engedélyezni kell. "
+"Azonban még nem minden levélolvasó felel meg a szabványoknak, és ha "
+"nagyszámú tagja van, akik nem megfelelő levélolvasókat használnak, akkor "
+"ezek a fejlécek bosszanthatják őket. Először meg kell próbálnia "
+"elmagyaráznia a tagoknak, hogy miért léteznek ezek a fejlécek, és hogyan "
+"lehet elrejteni őket a levelező kliensekben. Végső megoldásként letilthatja "
+"ezeket a fejléceket, de ez nem ajánlott (és valójában a fejlécek "
+"letiltásának lehetősége végül eltűnhet)."
+
+#: forms/list_forms.py:841
+msgid "Include the list post header"
+msgstr "Tartalmazza a lista bejegyzés fejlécét"
+
+#: forms/list_forms.py:843
+msgid ""
+"This can be set to no for announce lists that do not wish to include the "
+"List-Post header because posting to the list is discouraged."
+msgstr ""
+"Ezt be lehet állítani azokra a bejelentési listákra, amelyek nem kívánják "
+"felvenni a List-Post fejlécet, mert a listára való feladás nem ajánlott."
+
+#: forms/list_forms.py:849
+msgid "Explicit reply-to address"
+msgstr "Egyéni \"reply-to\" cím"
+
+#: forms/list_forms.py:852
+msgid ""
+"This option allows admins to set an explicit Reply-to address. It is only "
+"used if the reply-to is set to use an explicitly set header"
+msgstr ""
+"Ez az opció lehetővé teszi az adminisztrátorok számára, hogy egyéni \"Reply-"
+"to\" címet állítsanak be. Csak akkor használható, ha a \"reply-to\" "
+"egyénileg beállított fejlécet használ"
+
+#: forms/list_forms.py:862
+msgid ""
+"Should any existing Reply-To: header found in the original message be "
+"stripped? If so, this will be done regardless of whether an explict Reply-"
+"To: header is added by Mailman or not."
+msgstr ""
+"Le kell-e venni az eredeti üzenetben található Válasz: fejlécet? Ha igen, ez "
+"attól függetlenül történik, hogy a Mailman hozzáadja-e a Válasz: fejlécet."
+
+#: forms/list_forms.py:868 forms/list_forms.py:874
+msgid "Reply goes to list"
+msgstr "Válasz megy a listára"
+
+#: forms/list_forms.py:871
+msgid "Please choose a reply-to action."
+msgstr "Válasszon válaszlehetőséget."
+
+#: forms/list_forms.py:873
+msgid "No Munging"
+msgstr "Válaszra válaszolni nincs mód"
+
+#: forms/list_forms.py:875
+msgid "Explicit Reply-to header set"
+msgstr "Egyéni \"Reply-to\" fejléc beállítás"
+
+#: forms/list_forms.py:876
+msgid "Explicit Reply-to set; no Cc added"
+msgstr "Egyéni \"Reply-to\" küldés beállítása; nincs Cc hozzá"
+
+#: forms/list_forms.py:879
+msgid ""
+"Where are replies to list messages directed? No Munging is strongly "
+"recommended for most mailing lists. \n"
+"This option controls what Mailman does to the Reply-To: header in messages "
+"flowing through this mailing list. When set to No Munging, no Reply-To: "
+"header is added by Mailman, although if one is present in the original "
+"message, it is not stripped. Setting this value to either Reply to List, "
+"Explicit Reply, or Reply Only causes Mailman to insert a specific Reply-To: "
+"header in all messages, overriding the header in the original message if "
+"necessary (Explicit Reply inserts the value of reply_to_address). Explicit "
+"Reply-to set; no Cc added is useful forannounce-only lists where you want to "
+"avoid someone replying to the list address. There are many reasons not to "
+"introduce or override the Reply-To: header. One is that some posters depend "
+"on their own Reply-To: settings to convey their valid return address. "
+"Another is that modifying Reply-To: makes it much more difficult to send "
+"private replies. See <a href=\"http://marc.merlins.org/netrants/reply-to-"
+"harmful.html\">`Reply-To' Munging Considered Harmful</a> for a general "
+"discussion of this issue. See <a href=\"http://marc.merlins.org/netrants/"
+"reply-to-useful.html\">`Reply-To' Munging Considered Useful</a> for a "
+"dissenting opinion. Some mailing lists have restricted posting privileges, "
+"with a parallel list devoted to discussions. Examples are `patches' or "
+"`checkin' lists, where software changes are posted by a revision control "
+"system, but discussion about the changes occurs on a developers mailing "
+"list. To support these types of mailing lists, select Explicit Reply and set "
+"the Reply-To: address option to point to the parallel list."
+msgstr ""
+"Hová irányítják a listás üzenetekre adott válaszokat? A legtöbb "
+"levelezőlistához erősen ajánlott a \"Válaszra válaszolni nincs mód\" "
+"használata.\n"
+"Ez az opció szabályozza, hogy a Mailman mit csináljon a \"Reply-to:\" "
+"fejléccel a levelezőlistán átfolyó üzenetekben. Válaszra válaszolni nincs "
+"mód: A Mailman nem készít \"Reply-to:\" fejlécet, bár ha van ilyen az "
+"eredeti üzenetben, akkor nem törli le. Válasz megy a listára, vagy egyéni "
+"\"Reply-to:\" fejléc esetén a Mailman egy adott Reply-To: fejlécet illeszt "
+"be az összes üzenetbe, ha szükséges, felülírja az eredeti üzenet fejlécét "
+"(az egyéni válasz beszúrja a answer_to_address értékét). Egyéni Reply-to; a "
+"hozzá nem adott másolat csak a nem bejelentett listáknál hasznos, ahol el "
+"akarja kerülni, hogy valaki válaszoljon a lista címére. Sok oka van annak, "
+"hogy ne vezesse be vagy ne írja felül a Reply-to: fejlécet. Az egyik az, "
+"hogy egyes plakátok a saját Reply-To: beállításaitól függenek, hogy "
+"továbbítsák érvényes visszaküldési címüket. A másik az, hogy a Reply-to "
+"módosítása: sokkal nehezebbé teszi a privát válaszok küldését. Lásd a <a "
+"href=\"http://marc.merlins.org/netrants/reply-to-harmful.html\"> `Reply-to' "
+"No Munging ártalmasnak tartott </a> a kérdés általános megvitatásához. "
+"Különvéleményt lásd <a href=\"http://marc.merlins.org/netrants/reply-to-"
+"useful.html\"> `Reply-to' No Munging hasznosnak tartott </a>. Egyes "
+"levelezőlisták korlátozzák a kiküldés jogosultságait, párhuzamos listával "
+"foglalkoznak a megbeszélések. Ilyenek például a \"javítások\" vagy a "
+"\"bejelentkezési listák\", ahol a szoftver-módosításokat egy felülvizsgálat-"
+"ellenőrző rendszer teszi közzé, de a változásokról a fejlesztők "
+"levelezőlistáján folyik a vita. Az ilyen típusú levelezőlisták támogatásához "
+"válassza az explicit válasz lehetőséget, és állítsa a Reply-to: cím opciót a "
+"párhuzamos listára."
+
+#: forms/list_forms.py:913
+msgid "Pipeline"
+msgstr "Csővezeték"
+
+#: forms/list_forms.py:919
+msgid "Type of pipeline you want to use for this mailing list"
+msgstr "A levelezési listához használni kívánt csővezeték típusa"
+
+#: forms/list_forms.py:925
+msgid "Filter content"
+msgstr "Tartalom szűrése"
+
+#: forms/list_forms.py:927
+msgid ""
+"Should Mailman filter the content of list traffic according to the settings "
+"below?\n"
+"<b>None of the settings below have any effect if this is No.</b>"
+msgstr ""
+"A Mailman szűri a listaforgalom tartalmát az alábbi beállítások szerint?\n"
+"<b> Az alábbi beállítások egyike sem befolyásolja, ha ez nem.</b>"
+
+#: forms/list_forms.py:933
+msgid "Filter types"
+msgstr "Szűrőtípusok"
+
+#: forms/list_forms.py:936
+msgid ""
+"MIME types to filter from the incoming posts. A list of common types can be "
+"found <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Basics_of_HTTP/MIME_types/Common_types\">here </a>"
+msgstr ""
+"MIMETypes a bejövő bejegyzések szűréséhez. A gyakori típusok listája itt "
+"található <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Basics_of_HTTP/MIME_types/Common_types\"></a>"
+
+#: forms/list_forms.py:942
+msgid "Filter extensions"
+msgstr "Szűrőbővítmények"
+
+#: forms/list_forms.py:944
+msgid "Extensions to filter from the incoming posts."
+msgstr "Kiterjesztések a bejövő bejegyzések ből való szűréshez."
+
+#: forms/list_forms.py:947
+msgid "Pass types"
+msgstr "Pass típusok"
+
+#: forms/list_forms.py:950
+msgid ""
+"MIME types to allow in the incoming posts. A list of common types can be "
+"found <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Basics_of_HTTP/MIME_types/Common_types\">here </a>"
+msgstr ""
+"MIMETypes a bejövő posztok engedélyezéséhez. A gyakori típusok listája itt "
+"található <a href=\"https://developer.mozilla.org/en-US/docs/Web/HTTP/"
+"Basics_of_HTTP/MIME_types/Common_types\"></a>"
+
+#: forms/list_forms.py:956
+msgid "Pass extensions"
+msgstr "Pass kiterjesztések"
+
+#: forms/list_forms.py:958
+msgid "Extensions to allow in the incoming posts."
+msgstr "Bővítmények a bejövő bejegyzések engedélyezéséhez."
+
+#: forms/list_forms.py:964
+msgid "Collapse alternatives"
+msgstr "Az alternatívák összecsukása"
+
+#: forms/list_forms.py:966
+msgid ""
+"Should Mailman collapse multipart/alternative to its first part content?"
+msgstr ""
+"A Mailman csuka össze a multipart/alternative részt az üzenet első feléhez?"
+
+#: forms/list_forms.py:974
+msgid "Filter Action"
+msgstr "Szűrőművelet"
+
+#: forms/list_forms.py:981
+msgid "Convert html to plaintext"
+msgstr "A HTML konvertálása egyszerű szöveggé"
+
+#: forms/list_forms.py:983
+msgid ""
+"Should Mailman convert text/html parts to plain text? This conversion "
+"happens after MIME attachments have been stripped."
+msgstr ""
+"A Mailman a text/html részeket egyszerű szöveggé alakítsa át? Ez az "
+"átalakítás a MIME-mellékletek lecsupaszítása után történik."
+
+#: forms/list_forms.py:996
+msgid "Respond and continue processing"
+msgstr "Válaszoljon és folytassa a feldolgozást"
+
+#: forms/list_forms.py:997
+msgid "Respond and discard message"
+msgstr "Válaszoljon és dobja el az üzenetet"
+
+#: forms/list_forms.py:998
+msgid "No automatic response"
+msgstr "Nincs automatikus válasz"
+
+#: forms/list_forms.py:1003
+msgid "Autorespond to list owner"
+msgstr "Automatikus válasz az -owner címére érkező emailekre"
+
+#: forms/list_forms.py:1005
+msgid ""
+"Should Mailman send an auto-response to emails sent to the -owner address?"
+msgstr ""
+"A Mailman küldjön automatikus választ az -owner címére küldött e-mailekre?"
+
+#: forms/list_forms.py:1010
+msgid "Autoresponse owner text"
+msgstr "Az -owner-nek küldött üzenetekre adott automatikus válasz"
+
+#: forms/list_forms.py:1013
+msgid "Auto-response text to send to -owner emails."
+msgstr "Automatikus válasz szöveg a tulajdonos címére küldött üzeneteknél."
+
+#: forms/list_forms.py:1018
+msgid "Autorespond postings"
+msgstr "Automatikus válaszadás"
+
+#: forms/list_forms.py:1020
+msgid "Should Mailman send an auto-response to mailing list posters?"
+msgstr "A Mailman küldjön automatikus választ a levelezőlista szerzőinek?"
+
+#: forms/list_forms.py:1024
+msgid "Autoresponse postings text"
+msgstr "A szerzői üzenetek automatikus válasz szövege"
+
+#: forms/list_forms.py:1027
+msgid "Auto-response text to send to mailing list posters."
+msgstr "A levelező lista szerzőinek küldött automatikus válasz."
+
+#: forms/list_forms.py:1032
+msgid "Autorespond requests"
+msgstr "Automatikus válaszkérések"
+
+#: forms/list_forms.py:1034
+msgid ""
+"Should Mailman send an auto-response to emails sent to the -request address? "
+"If you choose yes, decide whether you want Mailman to discard the original "
+"email, or forward it on to the system as a normal mail command."
+msgstr ""
+"A Mailman automatikus választ küldjön a -request címre küldött e-mailekre? "
+"Ha az igen lehetőséget választja, döntse el, hogy a Mailman elveti-e az "
+"eredeti e-mailt, vagy küldje tovább a rendszerbe normál e-mail parancsként."
+
+#: forms/list_forms.py:1041
+msgid "Autoresponse request text"
+msgstr "Automatikus válaszkérés szövege"
+
+#: forms/list_forms.py:1044
+msgid "Auto-response text to send to -request emails."
+msgstr "Automatikus válasz szöveg a -request címére küldött üzeneteknél."
+
+#: forms/list_forms.py:1047
+msgid "Autoresponse grace period"
+msgstr "Automatikus válasz türelmi ideje"
+
+#: forms/list_forms.py:1049
+msgid ""
+"Number of days between auto-responses to either the mailing list or -"
+"request/-owner address from the same poster. Set to zero (or negative) for "
+"no grace period (i.e. auto-respond to every message)."
+msgstr ""
+"Napok száma a levelezési listára vagy a -request/owner címre adott "
+"automatikus válaszok között ugyanattól a beküldőtől. Állítsa nullára (vagy "
+"negatívra) türelmi idő nélkül (azaz automatikusan válaszoljon minden "
+"üzenetre)."
+
+#: forms/list_forms.py:1059
+msgid "Notify users of held messages"
+msgstr "Értesítse a felhasználókat a visszatartott üzenetekről"
+
+#: forms/list_forms.py:1061
+msgid ""
+"Should Mailman notify users about their messages held for approval. If you "
+"say 'No', no notifications will be sent to users about the pending approval "
+"on their messages."
+msgstr ""
+"A Mailman értesíte a felhasználókat a jóváhagyásra tartott üzeneteikről. Ha "
+"nemet mond, a rendszer nem küld értesítést a felhasználóknak az üzeneteik "
+"függőben lévő jóváhagyásáról."
+
+#: forms/list_forms.py:1070 forms/list_forms.py:1297
+msgid "Send welcome message"
+msgstr "Üdvözlő üzenet küldése"
+
+#: forms/list_forms.py:1072
+msgid ""
+"Send welcome message to newly subscribed members? Turn this off only if you "
+"plan on subscribing people manually and don't want them to know that you did "
+"so. Setting this to No is most useful for transparently migrating lists from "
+"some other mailing list manager to Mailman.\n"
+"The text of Welcome message can be set via the Templates tab."
+msgstr ""
+"Küldjön üdvözlő üzenetet az újonnan feliratkozott tagoknak? Ezt csak akkor "
+"kapcsold ki, ha manuálisan szeretnéd felírni az embereket, és nem szeretnéd, "
+"hogy tudják, hogy ezt tetted. Ha a Nem beállítást használod azzal egyszerűen "
+"migrálhatóak más levelezési listakezelőből a listák ebbe a Mailman "
+"rendszerbe.\n"
+"Az üdvözlőüzenet szövege a Sablonok lapon állítható be."
+
+#: forms/list_forms.py:1084
+msgid "Send goodbye message"
+msgstr "Kilépő üzenet küldése"
+
+#: forms/list_forms.py:1086
+msgid ""
+"Send goodbye message to newly unsubscribed members? Turn this off only if "
+"you plan on unsubscribing people manually and don't want them to know that "
+"you did so.\n"
+"The text of Goodbye message can be set via the Templates tab."
+msgstr ""
+"Küldjön távozó üzenetet az újonnan kilépett tagoknak? Ezt csak akkor "
+"kapcsold ki, ha manuálisan szeretnéd kiléptetni az embereket, és nem "
+"szeretnéd, hogy tudják, hogy ezt tetted.\n"
+"Az kilépőüzenet szövege a Sablonok lapon állítható be."
+
+#: forms/list_forms.py:1095
+msgid "Admin immed notify"
+msgstr "Az adminisztrátort azonnal értesíti"
+
+#: forms/list_forms.py:1097
+msgid ""
+"Should the list moderators get immediate notice of new requests, as well as "
+"daily notices about collected ones? List moderators (and list "
+"administrators) are sent daily reminders of requests pending approval, like "
+"subscriptions to a moderated list, or postings that are being held for one "
+"reason or another. Setting this option causes notices to be sent immediately "
+"on the arrival of new requests as well. "
+msgstr ""
+"A listamoderátorok azonnal értesítést kapjanak az új kérésekről, valamint az "
+"összegyűjtött kérésekről szóló napi értesítésekről? A listamoderátorok (és a "
+"listaadminisztrátorok) napi emlékeztetőt kapnak a jóváhagyásra váró "
+"kérelmekről, például a moderált listára való előfizetésekről, vagy az ilyen-"
+"olyan okok miatt tárolt bejegyzésekről. Ha ezt az opciót választja, az új "
+"kérések érkezésekor azonnal értesítést kell küldeni. "
+
+#: forms/list_forms.py:1109
+msgid "Notify admin of membership changes"
+msgstr "Értesítse az adminisztrátort a tagság változásáról"
+
+#: forms/list_forms.py:1111
+msgid "Should administrator get notices of subscribes and unsubscribes?"
+msgstr "Az adminisztrátornak értesítést kell kapnia a fel/leiratkozásról?"
+
+#: forms/list_forms.py:1118
+msgid "Not Moderated"
+msgstr "Nem moderált"
+
+#: forms/list_forms.py:1119
+msgid "Moderated but allows for open posting"
+msgstr "Moderált, de nyílt küldést tesz lehetővé"
+
+#: forms/list_forms.py:1120
+msgid "Moderated"
+msgstr "Moderált"
+
+#: forms/list_forms.py:1132
+msgid "Show list on index page"
+msgstr "Lista megjelenítése az index oldalon"
+
+#: forms/list_forms.py:1134
+msgid "Choose whether to include this list on the list of all lists"
+msgstr "Válassza ki, hogy felveszi-e ezt a listát az összes lista listájába"
+
+#: forms/list_forms.py:1141
+msgid ""
+"This description is used when the mailing list is listed with other mailing "
+"lists, or in headers, and so forth. It should be as succinct as you can get "
+"it, while still identifying what the list is."
+msgstr ""
+"A levelezési lista rövid leírása. Törekedjen arra, hogy rövid tömör legyen, "
+"de jellemezze a listát."
+
+#: forms/list_forms.py:1148
+msgid "Long Description"
+msgstr "Hosszú leírás"
+
+#: forms/list_forms.py:1149
+msgid "A longer description of this mailing list."
+msgstr "A levelezőlista hosszabb leírása."
+
+#: forms/list_forms.py:1154
+msgid "Display name"
+msgstr "Megjelenítendő név"
+
+#: forms/list_forms.py:1156
+msgid "Display name is the name shown in the web interface."
+msgstr "A webes felületen megjelenő megjelenített név."
+
+#: forms/list_forms.py:1159
+msgid "Subject prefix"
+msgstr "Tárgy előtagja"
+
+#: forms/list_forms.py:1164
+msgid "Preferred Language"
+msgstr "Előnyben részesített nyelv"
+
+#: forms/list_forms.py:1170
+msgid "Members List Visibility"
+msgstr "A tagok listájának láthatósága"
+
+#: forms/list_forms.py:1175
+msgid "Who is allowed to see members list for this MailingList?"
+msgstr "Ki láthatja a levelezési lista taglistáját?"
+
+#: forms/list_forms.py:1181
+msgid "Gateway to mail"
+msgstr "Levélátjáró"
+
+#: forms/list_forms.py:1183
+msgid ""
+"Flag indicating that posts to the linked newsgroup should be gated to the "
+"list"
+msgstr ""
+"Jelölés, amely jelzi, hogy a linkelt hírcsoportba tartozó bejegyzéseknek a "
+"listára kell kerülniük"
+
+#: forms/list_forms.py:1190
+msgid "Gateway to news"
+msgstr "Átjáró a hírekhez"
+
+#: forms/list_forms.py:1192
+msgid ""
+"Flag indicating that posts to the list should be gated to the linked "
+"newsgroup."
+msgstr "A listára kerülő bejegyzéseket a csatolt hírcsoporthoz kell kötni."
+
+#: forms/list_forms.py:1197
+msgid "Linked Newsgroup"
+msgstr "Csatolt hírcsoport"
+
+#: forms/list_forms.py:1199
+msgid "The name of the linked newsgroup."
+msgstr "A csatolt hírcsoport neve."
+
+#: forms/list_forms.py:1202
+msgid "Newsgroup moderation"
+msgstr "Hírcsoport moderálása"
+
+#: forms/list_forms.py:1207
+msgid "The moderation policy for the linked newsgroup, if there is one."
+msgstr "A csatolt hírcsoport moderálási házirendje, ha van ilyen."
+
+#: forms/list_forms.py:1214
+msgid "NNTP Include subject prefix "
+msgstr "NNTP Tárgy előtagot tartalmaz "
+
+#: forms/list_forms.py:1216
+msgid ""
+"Flag indicating whether the list's \"Subject Prefix\" should be included in "
+"posts gated to usenet."
+msgstr ""
+"A usenet-hez rendelt bejegyzésekben feltüntetendő a lista \"Tárgyelőtag\" "
+"megjelölése."
+
+#: forms/list_forms.py:1232
+msgid "Emails to mass subscribe"
+msgstr "Tömeges feliratkozáshoz küldött e-mailek"
+
+#: forms/list_forms.py:1234
+msgid ""
+"The following formats are accepted:\n"
+"jdoe@example.com\n"
+"&lt;jdoe@example.com&gt;\n"
+"John Doe &lt;jdoe@example.com&gt;\n"
+"\"John Doe\" &lt;jdoe@example.com&gt;\n"
+"jdoe@example.com (John Doe)\n"
+"Use the last three to associate a display name with the address\n"
+msgstr ""
+"A következő formátumokat fogadjuk el:\n"
+"jdoe@example.com\n"
+"&lt; jdoe@example.com &gt;\n"
+"John Doe &lt; jdoe@example.com &gt;\n"
+"\"John Doe\" &lt; jdoe@example.com &gt;\n"
+"jdoe@example.com (John Doe)\n"
+"Az utolsó három segítségével társíthatja a megjelenített nevet a címmel\n"
+
+#: forms/list_forms.py:1245
+msgid "Pre confirm"
+msgstr "Előzetes megerősítés"
+
+#: forms/list_forms.py:1249
+msgid "If checked, users will not have to confirm their subscription."
+msgstr ""
+"Ha be van jelölve, a felhasználóknak nem kell megerősíteniük a "
+"feliratkozásokat."
+
+#: forms/list_forms.py:1255
+msgid "Pre approved"
+msgstr "Előzetesen jóváhagyott"
+
+#: forms/list_forms.py:1259
+msgid ""
+"If checked, moderators will not have to approve the subscription request."
+msgstr ""
+"Ha be van jelölve, a moderátoroknak nem kell jóváhagyniuk a feliratkozási "
+"kérelmet."
+
+#: forms/list_forms.py:1266
+msgid "Pre Verified"
+msgstr "Előzetesen ellenőrizve"
+
+#: forms/list_forms.py:1270
+msgid ""
+"If checked, users will not have to verify that their email address is valid."
+msgstr ""
+"Ha be van jelölve, a felhasználóknak nem kell ellenőrizniük, hogy az e-mail "
+"címük érvényes-e."
+
+#: forms/list_forms.py:1277
+msgid "Invitation"
+msgstr "Meghívás"
+
+#: forms/list_forms.py:1281
+msgid ""
+"If checked, the other checkboxes are ignored and the users will be sent an "
+"invitation to join the list and will be subscribed upon acceptance thereof."
+msgstr ""
+"Ha be van jelölve, a többi jelölőnégyzet figyelmen kívül marad, és a "
+"felhasználók meghívást kapnak, hogy csatlakozzanak a listához, és azok "
+"elfogadásakor feliratkoznak."
+
+#: forms/list_forms.py:1299
+msgid ""
+"If set to \"Yes\" or \"No\", List's default setting of send_welcome_message "
+"will be ignored for these subscribers and a welcome message will be sent or "
+"not sent based on the choice."
+msgstr ""
+"\"Igen\" vagy \"Nem\" érték esetén, a lista alapértelmezett "
+"send_welcome_message beállítását figyelmen kívül hagyja ezeknek a "
+"feliratkozóknak, és üdvözlő üzenetet küld ezen választás alapján."
+
+#: forms/list_forms.py:1320
+msgid "Emails to Unsubscribe"
+msgstr "E-mailek a leiratkozáshoz"
+
+#: forms/list_forms.py:1321
+msgid "Add one email address on each line"
+msgstr "Adjon hozzá egy e-mail címet minden sorhoz"
+
+#: forms/list_forms.py:1337
+msgid "Default antispam action"
+msgstr "Alapértelmezett levélszemét-elhárító művelet"
+
+#: forms/list_forms.py:1342
+msgid "Header"
+msgstr "Fejléc"
+
+#: forms/list_forms.py:1343
+msgid "Email header to filter on (case-insensitive)."
+msgstr ""
+"E-mail fejléc a szűréshez (nem különbözteti meg a kis- és nagybetűket)."
+
+#: forms/list_forms.py:1345
+msgid "Please enter a header."
+msgstr "Írjon be egy fejlécet."
+
+#: forms/list_forms.py:1346
+msgid "Please enter a valid header."
+msgstr "Kérjük, adjon meg egy érvényes fejlécet."
+
+#: forms/list_forms.py:1350
+msgid "Pattern"
+msgstr "Mintázat"
+
+#: forms/list_forms.py:1352
+#, fuzzy
+#| msgid "Regular expression matching the header's value."
+msgid "Regular expression matching the header's value (case-insensitive)."
+msgstr "A fejléc értékének megfelelő reguláris kifejezés."
+
+#: forms/list_forms.py:1356
+msgid "Please enter a pattern."
+msgstr "Kérjük, adjon meg egy mintát."
+
+#: forms/list_forms.py:1357
+msgid "Please enter a valid pattern."
+msgstr "Kérjük, adjon meg egy érvényes mintát."
+
+#: forms/list_forms.py:1361 templates/postorius/domain/index.html:26
+msgid "Action"
+msgstr "Művelet"
+
+#: forms/list_forms.py:1362
+msgid "Please enter a valid action."
+msgstr "Kérjük, adjon meg egy érvényes műveletet."
+
+#: forms/list_forms.py:1365
+msgid "Action to take when a header matches"
+msgstr "Végrehajtandó művelet, ha egy fejléc egyezik"
+
+#: forms/list_forms.py:1400
+msgid "Select Email"
+msgstr "E-mail kiválasztása"
+
+#: forms/list_forms.py:1426
+msgid "Data"
+msgstr "Adat"
+
+#: forms/member_forms.py:28
+msgid "Email Address"
+msgstr "E-mail-cím"
+
+#: forms/member_forms.py:35 forms/user_forms.py:341
+msgid "Display Name"
+msgstr "Megjelenítendő név"
+
+#: forms/member_forms.py:37
+msgid "Please enter a display name."
+msgstr "Adjon meg egy megjelenítendő nevet."
+
+#: forms/system.py:32
+msgid "Add ban"
+msgstr "Új tiltás"
+
+#: forms/system.py:34
+msgid ""
+"You can ban a single email address or use a regular expression to match "
+"similar email addresses."
+msgstr ""
+"Kitilthat egyetlen e-mail címet, vagy használhat reguláris kifejezést a "
+"hasonló e-mail címek egyeztetéséhez."
+
+#: forms/user_forms.py:70
+msgid "Receive own postings"
+msgstr "Saját hozzászólások fogadása"
+
+#: forms/user_forms.py:72
+msgid ""
+"Ordinarily, you will get a copy of every message you post to the list. If "
+"you don't want to receive this copy, set this option to No."
+msgstr ""
+"Általában kap egy másolatot minden üzenetetről, amit a listára küld. Ha nem "
+"szeretné megkapni ezt a példányt, állítsa ezt a beállítást Nem (Nem) "
+"beállításra."
+
+#: forms/user_forms.py:80
+msgid "Acknowledge posts"
+msgstr "Hozzászólások nyugtázása"
+
+#: forms/user_forms.py:82
+msgid "Receive acknowledgement mail when you send mail to the list?"
+msgstr "Kapjon nyugtázó levelet, amikor e-mailt küld a listára?"
+
+#: forms/user_forms.py:88
+msgid "Hide address"
+msgstr "Cím elrejtése"
+
+#: forms/user_forms.py:90
+msgid ""
+"When other members allowed to view the list membership, your email address "
+"is normally shown. If you do not want your email address to show up on this "
+"membership roster, select Yes for this option."
+msgstr ""
+"Amikor más tagok számára engedélyezik a listatagság megtekintését, az Ön e-"
+"mail címe általában megjelenik. Ha nem szeretné, hogy az e-mail címe "
+"megjelenjen ezen a taglistán, válassza az Igen lehetőséget."
+
+#: forms/user_forms.py:99
+msgid "Receive list copies (possible duplicates)"
+msgstr "Listapéldányok fogadása (lehetséges ismétlődések)"
+
+#: forms/user_forms.py:101
+msgid ""
+"When you are listed explicitly in the To: or Cc: headers of a list message, "
+"you can opt to not receive another copy from the mailing list. Select Yes to "
+"receive copies. Select No to avoid receiving copies from the mailing list"
+msgstr ""
+"Ha explicit módon szerepel a listaüzenetek Címzett: vagy Másolatot kap: "
+"fejlécében, dönthet úgy, hogy nem kap egy újabb példányt a levelezési "
+"listából. A másolatok fogadásához válassza az Igen lehetőséget. Válassza a "
+"Nem lehetőséget, ha el szeretné kerülni a levelek másolatát a levelezési "
+"listából"
+
+#: forms/user_forms.py:112
+msgid "Preferred language"
+msgstr "Előnyben részesített nyelv"
+
+#: forms/user_forms.py:114
+msgid ""
+"Preferred language for your interactions with Mailman. When this is set, it "
+"will override the MailingList's preferred language. This affects which "
+"language is used for your email notifications and such."
+msgstr ""
+"Előnyben részesített nyelv a Mailmannal folytatott interakcióihoz. Ha ez be "
+"van állítva, akkor felülírja a MailingList preferált nyelvét. Ez "
+"befolyásolja az e-mailes értesítésekhez használt nyelvet és így tovább."
+
+#: forms/user_forms.py:170
+msgid "Cannot set delivery_status to {}"
+msgstr "A delivery_status nem állítható be {} értékre"
+
+#: forms/user_forms.py:268
+msgid "Verified"
+msgstr "Ellenőrzött"
+
+#: forms/user_forms.py:269
+msgid "Specifies whether or not this email address is verified"
+msgstr "Meghatározza, hogy ez az e-mail cím ellenőrzött-e vagy sem"
+
+#: forms/validators.py:39
+#, python-brace-format
+msgid "Invalid: \"{0}\" should be either email or UUID"
+msgstr "Érvénytelen: a \"{0}\" e-mail vagy UUID lehet"
+
+#: models.py:43
+msgid ""
+"Note: Do not add any secret content in templates as they are publicly "
+"accessible.\n"
+"You can use these variables in the templates. \n"
+"$hyperkitty_url: Permalink to archived message in Hyperkitty\n"
+"$listname: Name of the Mailing List e.g. ant@example.com \n"
+"$list_id: The List-ID header e.g. ant.example.com \n"
+"$display_name: Display name of the mailing list e.g. Ant \n"
+"$short_listname: Local part of the listname e.g. ant \n"
+"$domain: The domain part of the listname e.g. example.com \n"
+"$info: The mailing list's longer descriptive text \n"
+"$request_email: The email address for -request address \n"
+"$owner_email: The email address for -owner address \n"
+"$site_email: The email address to reach the owners of the site \n"
+"$language: The two letter language code for list's preferred language e.g. "
+"fr, en, de \n"
+msgstr ""
+"Megjegyzés: Ne adjon hozzá titkos tartalmat a sablonokhoz, mivel azok "
+"nyilvánosan hozzáférhetők.\n"
+"Ezeket a változókat használhatja a sablonokban. \n"
+"$hyperkitty_url: Permalink az archivált üzenethez a Hyperkitty-ben\n"
+"$listname: A levelezési lista neve, pl. ant@example.com \n"
+"$list_id: A Listaazonosító fejléce, pl. ant.example.com \n"
+"$display_neve: A levelezési lista megjelenítendő neve pl. Hangya \n"
+"$short_listname: A listanév helyi része, pl. hangya \n"
+"$domain: A listanév domain része, pl. example.com \n"
+"$info: A levelezési lista hosszabb leíró szövege \n"
+"$request_email: A kérés címének e-mail címe \n"
+"$owner_email: A -owner cím e-mail címe \n"
+"$site_email: Az e-mail cím, hogy elérje a tulajdonosok az oldalon \n"
+"$language: A lista által előnyben részesített nyelv kétbetűs nyelvkódja, pl. "
+"fr, en, de \n"
+
+#: models.py:75
+msgid "owner"
+msgstr "tulajdonos"
+
+#: models.py:76
+msgid "member"
+msgstr "tag"
+
+#: models.py:77
+msgid "nonmember"
+msgstr "nem tag"
+
+#: models.py:78
+msgid "moderator"
+msgstr "moderátor"
+
+#: models.py:256
+msgid "Choose the template you want to customize."
+msgstr "Válassza ki a testreszabni kívánt sablont."
+
+#: models.py:266
+msgid ""
+"Language for the template, this should be the list's preferred language."
+msgstr "A sablon nyelve, ez lehetőleg a lista által preferált nyelv legyen."
+
+#: template_list.py:28
+msgid ""
+"Sent to the list administrators when moderator approval for a posting is "
+"required."
+msgstr ""
+"Elküldve a lista adminisztrátorainak, ha a közzétételhez moderátori "
+"jóváhagyására van szükség."
+
+#: template_list.py:34
+msgid ""
+"Sent to the list administrators when moderator approval for a subscription "
+"request is required."
+msgstr ""
+"Elküldve a lista rendszergazdáinak, ha az feliratkozási kérelem moderátori "
+"jóváhagyása szükséges."
+
+#: template_list.py:40
+msgid ""
+"Sent to the list administrators when moderator approval for an "
+"unsubscription request is required."
+msgstr ""
+"Elküldve a lista rendszergazdáinak, ha a moderátor jóváhagyása egy "
+"leiratkozási kérelemhez szükséges."
+
+#: template_list.py:46
+msgid ""
+"Sent to the list administrators to notify them when a new member has been "
+"subscribed."
+msgstr ""
+"Elküldve a lista rendszergazdáinak, hogy értesítsék őket, ha egy új tag "
+"előfizetett."
+
+#: template_list.py:52
+msgid ""
+"Sent to the list administrators when a bounce message in an unrecognized "
+"format has been received."
+msgstr ""
+"Ismeretlen formátumú visszapattanó üzenet érkezésekor elküldve a lista "
+"rendszergazdáinak."
+
+#: template_list.py:58
+msgid "Sent to the list administrators from the 'mailman notify' command."
+msgstr ""
+"A 'mailman notify' parancs által a lista adminisztrátorainak küldött üzenet."
+
+#: template_list.py:64
+msgid ""
+"Sent to the list administrators to notify them when a member's bounce score "
+"is incremented."
+msgstr ""
+"A lista adminisztrátorainak küldött értesítés, amikor egy tag "
+"visszapattanási pontszáma növekszik."
+
+#: template_list.py:70
+msgid ""
+"Sent to the list administrators to notify them when a member's delivery is "
+"disabled due to excessive bounces."
+msgstr ""
+"Elküldve a lista rendszergazdáinak, hogy értesítsék őket, ha egy tag "
+"kézbesítése le van tiltva a túlzott visszafordulások miatt."
+
+#: template_list.py:76
+msgid ""
+"Sent to the list administrators to notify them when a member has been "
+"unsubscribed."
+msgstr ""
+"Elküldve a lista adminisztrátorainak, hogy értesítsék őket, ha egy tag "
+"leiratkozott."
+
+#: template_list.py:79
+msgid "The footer for a digest message."
+msgstr "A kivonatolt üzenet lábléce."
+
+#: template_list.py:80
+msgid "The header for a digest message."
+msgstr "A kivonatolt üzenet fejléce."
+
+#: template_list.py:84
+msgid ""
+"The digest “masthead”; i.e. a common introduction for all digest messages."
+msgstr ""
+"Az kivonatolt \"csoportos fejléc\"; azaz az összes kivonatolt üzenet "
+"felvezetése."
+
+#: template_list.py:89
+msgid "The footer for a regular (non-digest) message."
+msgstr "A szabályos (nem kivonatoló) üzenet lábléce."
+
+#: template_list.py:93
+msgid "The header for a regular (non-digest) message."
+msgstr "A rendszeres (nem kivonatoló) üzenet fejléce."
+
+#: template_list.py:98
+msgid ""
+"The message sent to subscribers when a subscription confirmation is required."
+msgstr ""
+"Az előfizetőknek küldött üzenet, ha előfizetés megerősítésre van szükség."
+
+#: template_list.py:104
+msgid ""
+"The message sent to subscribers when an unsubscription confirmation is "
+"required."
+msgstr ""
+"Az az üzenet, amelyet az előfizetőknek küldenek, ha a leiratkozás "
+"megerősítésére van szükség."
+
+#: template_list.py:110
+msgid "The message sent to subscribers when they are invited to join a list."
+msgstr "Az előfizetőknek küldött üzenet, amikor meghívást kapnak egy listára."
+
+#: template_list.py:116
+msgid "The notice sent to a member when they unsubscribe from a mailing list."
+msgstr "A tagoknak küldött értesítés, amikor leiratkoznak a levelezőlistáról."
+
+#: template_list.py:122
+msgid ""
+"The notice sent to a poster when their message is being held for moderator "
+"approval."
+msgstr ""
+"A beküldőnek küldött értesítés, amikor az üzenetüket moderátori jóváhagyásra "
+"visszatartják."
+
+#: template_list.py:128
+msgid ""
+"Sent to a user when the maximum number of autoresponses has been reached for "
+"that day."
+msgstr ""
+"Elküldve a felhasználónak, ha elérte az adott napra vonatkozó automatikus "
+"válaszok maximális számát."
+
+#: template_list.py:134
+msgid ""
+"Notice sent to a poster when their message has been received by the mailing "
+"list."
+msgstr ""
+"Értesítés, amelyet akkor küldenek a beküldőnek, ha az üzenetük a levelezési "
+"lista által megérkezett."
+
+#: template_list.py:140
+msgid ""
+"A bounce probe sent to a member when their subscription has been disabled "
+"due to bounces."
+msgstr ""
+"Visszapattanó próba, amelyet akkor küldünk egy tagnak, amikor előfizetésüket "
+"visszapattanások miatt letiltották."
+
+#: template_list.py:146
+msgid ""
+"Notice sent to a poster when their message has been rejected by the list’s "
+"moderator."
+msgstr ""
+"Értesítés küldése a beküldőnek, ha a lista moderátora elutasította az "
+"üzenetet."
+
+#: template_list.py:152
+msgid ""
+"Notice sent to a poster when their message has been rejected automatically."
+msgstr ""
+"Értesítés a beküldőnek, ha az üzenetük automatikusan elutasításra került."
+
+#: template_list.py:158
+msgid ""
+"The notice sent to a member when they are subscribed to the mailing list."
+msgstr "A tagnak küldött értesítés, amikor feliratkoztak a levelezőlistára."
+
+#: template_list.py:164
+msgid ""
+"The notice sent to a member when their membership has been disabled due to "
+"excessive bounces."
+msgstr ""
+"A tagnak küldött értesítés, ha tagságát a túlzott visszafordulások miatt "
+"letiltották."
+
+#: templates/403.html:5
+msgid "Forbidden"
+msgstr "Tiltva"
+
+#: templates/403.html:6
+msgid "You do not have permissions to visit this page."
+msgstr "Nincs engedélye az oldal felkeresésére."
+
+#: templates/404.html:5
+msgid "Page not found"
+msgstr "Az oldal nem található"
+
+#: templates/404.html:6
+msgid "This page either doesn't exist, or it moved somewhere else."
+msgstr "Ez az oldal vagy nem létezik, vagy máshová költözött."
+
+#: templates/500.html:18
+msgid "Server error"
+msgstr "Kiszolgálói hiba"
+
+#: templates/500.html:19
+msgid "An error occurred while processing your request."
+msgstr "Hiba történt a kérése feldolgozása során."
+
+#: templates/postorius/bans.html:5 templates/postorius/bans.html:10
+msgid "Global Bans"
+msgstr "Globális kitiltások"
+
+#: templates/postorius/base.html:28
+msgid "Mailman logo"
+msgstr "Mailman logó"
+
+#: templates/postorius/base.html:34 templates/postorius/base.html:117
+#: templates/postorius/lists/summary.html:110
+msgid "Sign In"
+msgstr "Bejelentkezés"
+
+#: templates/postorius/base.html:38 templates/postorius/base.html:121
+msgid "Sign Up"
+msgstr "Regisztráció"
+
+#: templates/postorius/base.html:53 templates/postorius/base.html:130
+#: templates/postorius/base.html:158
+msgid "Account"
+msgstr "Fiók"
+
+#: templates/postorius/base.html:57 templates/postorius/base.html:134
+#: templates/postorius/base.html:162
+msgid "Mailman settings"
+msgstr "Mailman beállítások"
+
+#: templates/postorius/base.html:62 templates/postorius/base.html:139
+#: templates/postorius/base.html:167
+msgid "Posting activity"
+msgstr "Feladási tevékenység"
+
+#: templates/postorius/base.html:68 templates/postorius/base.html:144
+#: templates/postorius/base.html:173
+msgid "Sign Out"
+msgstr "Kijelentkezés"
+
+#: templates/postorius/base.html:78
+msgid "Lists"
+msgstr "Listák"
+
+#: templates/postorius/base.html:84 templates/postorius/domain/index.html:5
+#: templates/postorius/domain/index.html:11
+msgid "Domains"
+msgstr "Domain-ek"
+
+#: templates/postorius/base.html:90
+msgid "Bans"
+msgstr "Tiltások"
+
+#: templates/postorius/base.html:96
+msgid "System Information"
+msgstr "Rendszerinformáció"
+
+#: templates/postorius/base.html:102 templates/postorius/menu/list_nav.html:51
+#: templates/postorius/user/all.html:8 templates/postorius/user/all.html:13
+msgid "Users"
+msgstr "Felhasználók"
+
+#: templates/postorius/base.html:109 templates/postorius/lists/summary.html:33
+msgid "Archives"
+msgstr "Archívumok"
+
+#: templates/postorius/base.html:197
+msgid "Postorius Documentation"
+msgstr "Postorius dokumentáció"
+
+#: templates/postorius/base.html:201
+msgid "Postorius Version"
+msgstr "Postorius verzió"
+
+#: templates/postorius/base.html:204
+msgid "Happy Mailman Day!"
+msgstr "Boldog Mailman napot!"
+
+#: templates/postorius/domain/confirm_delete.html:5
+msgid "Confirm domain removal"
+msgstr "A domain eltávolításának megerősítése"
+
+#: templates/postorius/domain/confirm_delete.html:13
+msgid "Confirm deletion"
+msgstr "Törlés megerősítése"
+
+#: templates/postorius/domain/confirm_delete.html:17
+msgid "Are you sure you want to permanently delete"
+msgstr "Biztosan véglegesen törli a"
+
+#: templates/postorius/domain/confirm_delete.html:21
+#, python-format
+msgid ""
+"\n"
+"        This would delete %(size)s lists, some of which are:\n"
+"      "
+msgstr ""
+"\n"
+"        Ezzel törölné a %(size)s listákat, amelyek közül néhány a "
+"következő:\n"
+"      "
+
+#: templates/postorius/domain/confirm_delete.html:33
+#: templates/postorius/domain/index.html:59
+#: templates/postorius/domain/template_index.html:35
+#: templates/postorius/lists/confirm_delete.html:5
+#: templates/postorius/lists/members.html:159
+#: templates/postorius/lists/members.html:170
+#: templates/postorius/lists/template_list.html:33
+#: templates/postorius/menu/list_nav.html:89
+msgid "Delete"
+msgstr "Törlés"
+
+#: templates/postorius/domain/confirm_delete.html:34
+#: templates/postorius/domain/template_delete.html:28
+#: templates/postorius/lists/confirm_delete.html:25
+#: templates/postorius/lists/confirm_remove_role.html:23
+#: templates/postorius/lists/confirm_removeall_subscribers.html:22
+#: templates/postorius/lists/template_delete.html:25
+#: templates/postorius/user/confirm_delete.html:23
+msgid "Cancel"
+msgstr "Mégse"
+
+#: templates/postorius/domain/edit.html:6
+#: templates/postorius/domain/edit.html:12
+msgid "Edit domain"
+msgstr "Domain szerkesztése"
+
+#: templates/postorius/domain/edit.html:17
+#: templates/postorius/lists/template_update.html:20
+#: templates/postorius/user/manage.html:16
+#: templates/postorius/user/manage.html:46
+#: templates/postorius/user/manage.html:82
+msgid "Update"
+msgstr "Frissítés"
+
+#: templates/postorius/domain/index.html:14
+msgid "Add Domain"
+msgstr "Domain hozzáadása"
+
+#: templates/postorius/domain/index.html:25
+#: templates/postorius/menu/list_nav.html:57
+#: templates/postorius/menu/list_nav.html:63
+msgid "Owners"
+msgstr "Tulajdonosok"
+
+#: templates/postorius/domain/index.html:38
+#: templates/postorius/domain/index.html:58
+#: templates/postorius/domain/template_index.html:34
+#: templates/postorius/lists/template_list.html:32
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: templates/postorius/domain/index.html:50
+msgid "remove"
+msgstr "eltávolítás"
+
+#: templates/postorius/domain/index.html:54
+msgid "Add"
+msgstr "Hozzáadás"
+
+#: templates/postorius/domain/index.html:57
+#: templates/postorius/domain/template_add.html:6
+#: templates/postorius/domain/template_delete.html:6
+#: templates/postorius/domain/template_index.html:6
+#: templates/postorius/domain/template_index.html:11
+#: templates/postorius/lists/template_add.html:7
+#: templates/postorius/lists/template_delete.html:7
+#: templates/postorius/lists/template_list.html:7
+#: templates/postorius/lists/template_update.html:7
+#: templates/postorius/menu/list_nav.html:71 templatetags/nav_helpers.py:39
+msgid "Templates"
+msgstr "Sablonok"
+
+#: templates/postorius/domain/index.html:67
+msgid "No domains yet."
+msgstr "Még nincsenek domainek."
+
+#: templates/postorius/domain/new.html:6
+msgid "Add domain"
+msgstr "Domain hozzáadása"
+
+#: templates/postorius/domain/new.html:12
+msgid "Add a new domain"
+msgstr "Új domain hozzáadása"
+
+#: templates/postorius/domain/new.html:17
+msgid "Create domain"
+msgstr "Domain létrehozása"
+
+#: templates/postorius/domain/owners.html:6
+msgid "Add domain owner "
+msgstr "Domain tulajdonosának hozzáadása "
+
+#: templates/postorius/domain/owners.html:12
+msgid "Add a new owner to"
+msgstr "Új tulajdonos hozzáadása a"
+
+#: templates/postorius/domain/template_add.html:17
+#: templates/postorius/domain/template_delete.html:16
+#: templates/postorius/lists/template_delete.html:13
+#: templates/postorius/lists/template_update.html:13
+#, python-format
+msgid "Template '%(name)s'"
+msgstr "Sablon '%(name)s'"
+
+#: templates/postorius/domain/template_add.html:25
+#: templates/postorius/lists/template_add.html:16
+#: templates/postorius/user/address_preferences.html:64
+#: templates/postorius/user/subscription_preferences.html:75
+msgid "Save"
+msgstr "Mentés"
+
+#: templates/postorius/domain/template_delete.html:11
+msgid "Delete Template"
+msgstr "Sablon törlése"
+
+#: templates/postorius/domain/template_delete.html:22
+#, python-format
+msgid ""
+"\n"
+"           Are you sure you want to delete the \"%(name)s\" template\n"
+"           for domain \"%(identifier)s\"?\n"
+"           "
+msgstr ""
+"\n"
+"           Biztosan törli a \"%(name)s\" sablont\n"
+"           a \"%(identifier)s\" domainhez?\n"
+"           "
+
+#: templates/postorius/domain/template_index.html:16
+#: templates/postorius/lists/template_list.html:15
+msgid "New Template"
+msgstr "Új sablon"
+
+#: templates/postorius/domain/template_index.html:25
+#: templates/postorius/lists/template_list.html:24
+msgid "Template Name"
+msgstr "Sablon neve"
+
+#: templates/postorius/domain/template_index.html:45
+#: templates/postorius/lists/template_list.html:41
+msgid "No Templates."
+msgstr "Nincsenek sablonok."
+
+#: templates/postorius/errors/generic.html:5
+msgid "Something went wrong"
+msgstr "Valami elromlott"
+
+#: templates/postorius/fragments/bans.html:14
+msgid "Ban email"
+msgstr "E-mail tiltása"
+
+#: templates/postorius/fragments/bans.html:22
+msgid "Currently banned addresses"
+msgstr "Jelenleg tiltott címek"
+
+#: templates/postorius/fragments/bans.html:35
+msgid "Un-ban this address"
+msgstr "Törölje a cím letiltását"
+
+#: templates/postorius/fragments/bans.html:46
+msgid "No addresses are currently banned."
+msgstr "Jelenleg egyetlen cím sem tiltott."
+
+#: templates/postorius/index.html:6
+msgid "List Index"
+msgstr "Lista indexe"
+
+#: templates/postorius/index.html:12
+msgid "Mailing Lists"
+msgstr "Levelezőlisták"
+
+#: templates/postorius/index.html:20
+msgid "Role: "
+msgstr "Szerep: "
+
+#: templates/postorius/index.html:41
+msgid "Owner"
+msgstr "Tulajdonos"
+
+#: templates/postorius/index.html:46
+msgid "Moderator"
+msgstr "Moderátor"
+
+#: templates/postorius/index.html:51
+msgid "Member"
+msgstr "Tag"
+
+#: templates/postorius/index.html:56
+msgid "Non-member"
+msgstr "Nem tag"
+
+#: templates/postorius/index.html:59
+msgid "All"
+msgstr "Összes"
+
+#: templates/postorius/index.html:72
+msgid "Create New Domain"
+msgstr "Új domain létrehozása"
+
+#: templates/postorius/index.html:74
+msgid "Create New List"
+msgstr "Új lista létrehozása"
+
+#: templates/postorius/index.html:86
+msgid "List name"
+msgstr "Lista neve"
+
+#: templates/postorius/index.html:87
+msgid "Post address"
+msgstr "Posta cím"
+
+#: templates/postorius/index.html:98
+msgid "unadvertised"
+msgstr "hirdetetlenül"
+
+#: templates/postorius/index.html:110
+msgid ""
+"Only lists that you are owner, moderator or subscriber for are shown here. "
+"Click to <a href=\"?all-lists\"> see all lists</a>."
+msgstr ""
+"Itt csak azok a listák jelennek meg, amelyeknek Ön a tulajdonosa, moderátora "
+"vagy előfizetője. Kattintson ide az összes lista <a href=\"?all-lists\"> "
+"megtekintéséhez</a>."
+
+#: templates/postorius/index.html:114
+msgid "Only admins see unadvertised lists in the list index."
+msgstr "Csak a rendszergazdák látják a nem indexelt listákat a listaindexben."
+
+#: templates/postorius/index.html:120
+msgid "There are currently no mailing lists."
+msgstr "Jelenleg nincsenek levelezőlisták."
+
+#: templates/postorius/lists/bans.html:8
+msgid "Banned addresses"
+msgstr "Tiltott címek"
+
+#: templates/postorius/lists/confirm_delete.html:13
+msgid "Are you sure you want to permanently delete this list?"
+msgstr "Biztosan véglegesen törli ezt a listát?"
+
+#: templates/postorius/lists/confirm_delete.html:14
+msgid "All settings and membership data will be lost!"
+msgstr "Minden beállítás és tagsági adat elvész!"
+
+#: templates/postorius/lists/confirm_delete.html:20
+#, python-format
+msgid ""
+"\n"
+"                Delete %(listname)s\n"
+"                "
+msgstr ""
+"\n"
+"                Törlés %(listname)s\n"
+"                "
+
+#: templates/postorius/lists/confirm_remove_role.html:5
+msgid "Confirm remove role"
+msgstr "Erősítse meg a szerepkör eltávolítását"
+
+#: templates/postorius/lists/confirm_remove_role.html:15
+#, python-format
+msgid "Remove %(address)s as %(role_translated)s?"
+msgstr "%(address)s eltávolítása %(role_translated)s-ként?"
+
+#: templates/postorius/lists/confirm_remove_role.html:19
+msgid "Are you sure?"
+msgstr "Biztos vagy benne?"
+
+#: templates/postorius/lists/confirm_remove_role.html:22
+#, python-format
+msgid " Remove %(role_translated)s"
+msgstr " %(role_translated)s eltávolítása"
+
+#: templates/postorius/lists/confirm_removeall_subscribers.html:6
+msgid "Unsubscribe all members"
+msgstr "Minden tag leiratkozása"
+
+#: templates/postorius/lists/confirm_removeall_subscribers.html:14
+#, python-format
+msgid ""
+"\n"
+"        Warning! This will remove every member from %(listname)s!\n"
+"    "
+msgstr ""
+"\n"
+"        Figyelem! Ez minden tagot eltávolít a %(listname)s oldalról !\n"
+"    "
+
+#: templates/postorius/lists/confirm_removeall_subscribers.html:21
+#: templates/postorius/lists/mass_removal.html:17
+#: templates/postorius/lists/members.html:63
+msgid "Remove ALL members"
+msgstr "MINDEN tag eltávolítása"
+
+#: templates/postorius/lists/confirm_token.html:12
+#, python-format
+msgid ""
+"\n"
+"    Confirm subscription of %(addr)s to %(name)s(%(listid)s):\n"
+"    "
+msgstr ""
+"\n"
+"    Erősítse meg a %(addr)s - %(name)s (%(listid)s) feliratkozását:\n"
+"    "
+
+#: templates/postorius/lists/confirm_token.html:16
+#, python-format
+msgid ""
+"\n"
+"    Confirm unsubscription of %(addr)s from %(name)s(%(listid)s):\n"
+"    "
+msgstr ""
+"\n"
+"    Erősítse meg a %(addr)s - %(name)s (%(listid)s) leiratkozását:\n"
+"    "
+
+#: templates/postorius/lists/confirm_token.html:20
+#, python-format
+msgid ""
+"\n"
+"    Confirm token %(token)s:\n"
+"    "
+msgstr ""
+"\n"
+"    Token megerősítése %(token)s:\n"
+"    "
+
+#: templates/postorius/lists/header_matches.html:7
+#: templates/postorius/menu/list_nav.html:88
+msgid "Header filters"
+msgstr "Fejlécszűrők"
+
+#: templates/postorius/lists/header_matches.html:68
+#: templates/postorius/lists/memberoptions.html:20
+#: templates/postorius/lists/memberoptions.html:28
+#: templates/postorius/lists/settings.html:30
+#: templates/postorius/user/list_options.html:28
+#: templates/postorius/user/mailman_settings.html:23
+msgid "Save changes"
+msgstr "Változtatások mentése"
+
+#: templates/postorius/lists/header_matches.html:70
+msgid "Changes pending, click on the button to save them."
+msgstr "Függőben lévő változások, kattintson a gombra a mentéshez."
+
+#: templates/postorius/lists/held_messages.html:10
+#: templates/postorius/menu/list_nav.html:42
+msgid "Held messages"
+msgstr "Tartott üzenetek"
+
+#: templates/postorius/lists/held_messages.html:26
+msgid "Perform action on selected messages"
+msgstr "Művelet végrehajtása a kijelölt üzeneteken"
+
+#: templates/postorius/lists/held_messages.html:28
+#: templates/postorius/lists/held_messages.html:115
+#: templates/postorius/lists/subscription_requests.html:36
+msgid "Accept"
+msgstr "Elfogadás"
+
+#: templates/postorius/lists/held_messages.html:38
+msgid "Subject"
+msgstr "Tárgy"
+
+#: templates/postorius/lists/held_messages.html:39
+msgid "Sender"
+msgstr "Feladó"
+
+#: templates/postorius/lists/held_messages.html:40
+msgid "Reason"
+msgstr "Ok"
+
+#: templates/postorius/lists/held_messages.html:41
+msgid "Hold Date"
+msgstr "Visszatartás dátuma"
+
+#: templates/postorius/lists/held_messages.html:53
+#: templates/postorius/lists/held_messages.html:61
+msgid "No Subject"
+msgstr "Nincs tárgy"
+
+#: templates/postorius/lists/held_messages.html:90
+msgid "Attachments"
+msgstr "Csatolmányok"
+
+#: templates/postorius/lists/held_messages.html:101
+msgid "Set member moderation"
+msgstr "A tag moderálásának beállítása"
+
+#: templates/postorius/lists/held_messages.html:107
+msgid "Rejection reason:"
+msgstr "Elutasítás oka:"
+
+#: templates/postorius/lists/held_messages.html:110
+msgid ""
+"Reason sent to the sender for message rejection. For other actions, this is "
+"ignored."
+msgstr ""
+"A feladónak küldött ok az üzenet elutasítása miatt. Más műveletek esetén ezt "
+"a program figyelmen kívül hagyja."
+
+#: templates/postorius/lists/held_messages.html:124
+msgid "Show Headers"
+msgstr "Fejlécek megjelenítése"
+
+#: templates/postorius/lists/held_messages.html:132
+msgid "There are currently no held messages."
+msgstr "Jelenleg nincsenek visszatartott üzenetek."
+
+#: templates/postorius/lists/held_messages.html:139
+msgid "Message could not be retrieved"
+msgstr "Az üzenet nem olvasható be"
+
+#: templates/postorius/lists/mass_removal.html:14
+msgid "Remove listed users"
+msgstr "Listázott felhasználók eltávolítása"
+
+#: templates/postorius/lists/mass_subscribe.html:7
+#: templates/postorius/menu/list_nav.html:79
+#: templates/postorius/menu/list_nav.html:83
+msgid "Mass subscribe"
+msgstr "Tömeges feliratkozás"
+
+#: templates/postorius/lists/mass_subscribe.html:16
+msgid "Subscribe users"
+msgstr "Felhasználók feliratkozása"
+
+#: templates/postorius/lists/memberoptions.html:7
+#: templates/postorius/user/list_options.html:7
+msgid "Member options"
+msgstr "Tag opciók"
+
+#: templates/postorius/lists/memberoptions.html:15
+msgid "No Preferences Available"
+msgstr "Nincs elérhető beállítás"
+
+#: templates/postorius/lists/memberoptions.html:16
+msgid "You are not the owner for this list"
+msgstr "Nem Ön a lista tulajdonosa"
+
+#: templates/postorius/lists/members.html:8
+msgid "List members"
+msgstr "A tagok listája"
+
+#: templates/postorius/lists/members.html:44
+msgid "Search members..."
+msgstr "Tagok keresése..."
+
+#: templates/postorius/lists/members.html:60
+msgid "CSV Export"
+msgstr "CSV exportálása"
+
+#: templates/postorius/lists/members.html:62
+msgid "Remove Selected"
+msgstr "Kiválasztott eltávolítása"
+
+#: templates/postorius/lists/members.html:78
+#: templates/postorius/user/address_preferences.html:32
+#: templates/postorius/user/manage.html:61
+msgid "Address"
+msgstr "Cím"
+
+#: templates/postorius/lists/members.html:82
+#: templates/postorius/user/subscriptions.html:24
+msgid "Delivery Mode"
+msgstr "Kézbesítési mód"
+
+#: templates/postorius/lists/members.html:85
+msgid "Moderation Action"
+msgstr "Moderálási művelet"
+
+#: templates/postorius/lists/members.html:90
+msgid "Bounce Score"
+msgstr "Visszapattanási pontszám"
+
+#: templates/postorius/lists/members.html:116
+msgid "Masked per the user request"
+msgstr "A felhasználó kérésére maszkolt"
+
+#: templates/postorius/lists/new.html:6 templates/postorius/lists/new.html:17
+msgid "Create list"
+msgstr "Lista létrehozása"
+
+#: templates/postorius/lists/new.html:12
+msgid "Create a new list"
+msgstr "Új lista létrehozása"
+
+#: templates/postorius/lists/pending_confirmations.html:19
+#: templates/postorius/lists/subscription_requests.html:19
+msgid "E-Mail Address"
+msgstr "E-mail-cím"
+
+#: templates/postorius/lists/pending_confirmations.html:20
+#: templates/postorius/lists/subscription_requests.html:20
+msgid "Actions"
+msgstr "Műveletek"
+
+#: templates/postorius/lists/pending_confirmations.html:38
+#: templates/postorius/lists/subscription_requests.html:38
+msgid "Ban"
+msgstr "Tiltás"
+
+#: templates/postorius/lists/pending_confirmations.html:48
+#: templates/postorius/lists/subscription_requests.html:51
+msgid "There are currently no subscription requests for this list."
+msgstr "Jelenleg nincs feliratkozási kérelem ehhez a listához."
+
+#: templates/postorius/lists/settings.html:7
+#: templates/postorius/menu/list_nav.html:72
+msgid "Settings"
+msgstr "Beállítások"
+
+#: templates/postorius/lists/subscription_requests.html:39
+msgid "Rejection reason"
+msgstr "Elutasítás oka"
+
+#: templates/postorius/lists/summary.html:10
+#: templates/postorius/menu/list_nav.html:10
+msgid "Info"
+msgstr "Információ"
+
+#: templates/postorius/lists/summary.html:23
+msgid "To contact the list owners, use the following email address:"
+msgstr ""
+"A listatulajdonosokkal való kapcsolatfelvételhez használja az alábbi e-mail "
+"címet:"
+
+#: templates/postorius/lists/summary.html:29
+msgid "You have to sign in to visit the archives of this list."
+msgstr "Be kell jelentkeznie, hogy láthassa a lista archívumait."
+
+#: templates/postorius/lists/summary.html:35
+#, python-format
+msgid ""
+"\n"
+"            <a class=\"btn btn-primary\" href=\"%(hyperkitty_list_url)s"
+"\">Archives</a>\n"
+"          "
+msgstr ""
+"\n"
+"            <a class=\"btn btn-primary\" href=\"%(hyperkitty_list_url)s"
+"\">Archívum</a>\n"
+"          "
+
+#: templates/postorius/lists/summary.html:47
+#: templates/postorius/lists/summary.html:104
+msgid "Subscription / Unsubscription"
+msgstr "Feliratkozás / Leiratkozás"
+
+#: templates/postorius/lists/summary.html:52
+#: templates/postorius/user/subscriptions.html:23
+msgid "Subscription Address"
+msgstr "Feliratkozási cím"
+
+#: templates/postorius/lists/summary.html:55
+#: templates/postorius/user/all.html:37
+msgid "Manage"
+msgstr "Kezelés"
+
+#: templates/postorius/lists/summary.html:56
+#: templates/postorius/lists/summary.html:77
+msgid "Unsubscribe"
+msgstr "Leiratkozás"
+
+#: templates/postorius/lists/summary.html:63
+#: templates/postorius/user/subscription_preferences.html:49
+msgid "Primary Address"
+msgstr "Elsődleges cím"
+
+#: templates/postorius/lists/summary.html:71
+msgid "Manage Subscription"
+msgstr "Feliratkozás kezelése"
+
+#: templates/postorius/lists/summary.html:86
+msgid "Subscribe to this list"
+msgstr "Feliratkozás erre a listára"
+
+#: templates/postorius/lists/summary.html:88
+#, python-format
+msgid ""
+"\n"
+"                To subscribe you can send an email with 'subscribe' in the "
+"subject to\n"
+"                <a href=\"mailto:%(address)s?subject=Subscribe\">"
+"%(address)s</a>\n"
+"                or use the form below:\n"
+"            "
+msgstr ""
+"\n"
+"                A feliratkozáshoz küldhet egy e-mailt \"Subscribe\" tárggyal "
+"a\n"
+"                  <a href=\"mailto:%(address)s?subject=Subscribe\"> "
+"%(address)s </a>\n"
+"                  címre vagy használja az alábbi űrlapot:\n"
+"            "
+
+#: templates/postorius/lists/summary.html:96
+#: templates/postorius/lists/summary.html:124
+msgid "Subscribe"
+msgstr "Feliratkozás"
+
+#: templates/postorius/lists/summary.html:100
+msgid ""
+"You have a subscription request pending. If you don't hear back soon, please "
+"contact the list owners."
+msgstr ""
+"Előfizetési kérelme függőben van. Ha hamarosan nem érkezik visszajelzés, "
+"kérjük, lépjen kapcsolatba a lista tulajdonosával."
+
+#: templates/postorius/lists/summary.html:105
+msgid ""
+"\n"
+"        To subscribe or unsubscribe from this list, please sign in first.\n"
+"        If you have not previously signed in, you may need to set up an "
+"account\n"
+"        with the appropriate email address.\n"
+"        "
+msgstr ""
+"\n"
+"        Ahhoz, hogy feliratkozzon vagy lemondjon a listáról, először írjon "
+"alá.\n"
+"Ha korábban nem írta alá, előfordulhat, hogy fiókot kell létrehoznia\n"
+"megfelelő e-mail címmel.\n"
+".\n"
+"        "
+
+#: templates/postorius/lists/summary.html:116
+msgid ""
+"\n"
+"          You can also subscribe without creating an account.\n"
+"          If you wish to do so, please use the form below.\n"
+"          "
+msgstr ""
+"\n"
+"          Feliratkozhat fiók létrehozása nélkül is.\n"
+"Ha ezt akarod, használd az alábbi formát.\n"
+".\n"
+"          "
+
+#: templates/postorius/lists/summary.html:134
+msgid "List metrics"
+msgstr "Lista metrikák"
+
+#: templates/postorius/lists/summary.html:136
+msgid "Created at"
+msgstr "Létrehozva ekkor"
+
+#: templates/postorius/lists/summary.html:141
+msgid "Last post at"
+msgstr "Utolsó hozzászólás"
+
+#: templates/postorius/lists/summary.html:150
+msgid "Digest last sent at"
+msgstr "Utoljára küldött kivonat"
+
+#: templates/postorius/lists/summary.html:159
+msgid "Volume"
+msgstr "Kötet"
+
+#: templates/postorius/lists/template_delete.html:19
+#, python-format
+msgid ""
+"\n"
+"     Are you sure you want to delete the \"%(name)s\" template\n"
+"     from list \"%(identifier)s\"?\n"
+"     "
+msgstr ""
+"\n"
+"     Biztosan törli a \"%(name)s\" sablont?\n"
+"     a \"%(identifier)s\"-listából?\n"
+"     "
+
+#: templates/postorius/menu/list_nav.html:14
+msgid "Subscription requests"
+msgstr "Feliratkozási kérelmek"
+
+#: templates/postorius/menu/list_nav.html:19
+#: templates/postorius/menu/list_nav.html:30
+msgid "Pending Approval"
+msgstr "Jóváhagyásra vár"
+
+#: templates/postorius/menu/list_nav.html:22
+#: templates/postorius/menu/list_nav.html:33
+msgid "Pending Confirmation"
+msgstr "Megerősítésre vár"
+
+#: templates/postorius/menu/list_nav.html:25
+#: templates/postorius/menu/list_nav.html:36
+msgid "Unsubscription Requests"
+msgstr "Leiratkozási kérelmek"
+
+#: templates/postorius/menu/list_nav.html:54
+#: templates/postorius/menu/list_nav.html:60
+#: templates/postorius/menu/list_nav.html:67
+msgid "Members"
+msgstr "Tagok"
+
+#: templates/postorius/menu/list_nav.html:55
+#: templates/postorius/menu/list_nav.html:61
+msgid "Non-Members"
+msgstr "Nem tagok"
+
+#: templates/postorius/menu/list_nav.html:56
+#: templates/postorius/menu/list_nav.html:62
+msgid "Moderators"
+msgstr "Moderátorok"
+
+#: templates/postorius/menu/list_nav.html:76
+msgid "Mass operations"
+msgstr "Tömeges műveletek"
+
+#: templates/postorius/menu/list_nav.html:80
+#: templates/postorius/menu/list_nav.html:84
+msgid "Mass removal"
+msgstr "Tömeges eltávolítás"
+
+#: templates/postorius/menu/list_nav.html:87
+msgid "Ban List"
+msgstr "Tiltólista"
+
+#: templates/postorius/menu/user_nav.html:4
+msgid "Mailman Settings"
+msgstr "Mailman beállítások"
+
+#: templates/postorius/menu/user_nav.html:7
+#: templates/postorius/user/manage.html:49
+#: templates/postorius/user/subscriptions.html:8 templatetags/nav_helpers.py:43
+msgid "Subscriptions"
+msgstr "Feliratkozások"
+
+#: templates/postorius/menu/user_nav.html:8
+msgid "Global Mailman preferences"
+msgstr "Globális Mailman-beállítások"
+
+#: templates/postorius/menu/user_nav.html:9
+msgid "Address-based preferences"
+msgstr "Címalapú beállítások"
+
+#: templates/postorius/menu/user_nav.html:10
+msgid "List-based preferences"
+msgstr "Listaalapú beállítások"
+
+#: templates/postorius/system_information.html:6
+msgid "System Configuration"
+msgstr "Rendszerbeállítások"
+
+#: templates/postorius/system_information.html:11
+msgid "Mailman System"
+msgstr "Mailman rendszer"
+
+#: templates/postorius/system_information.html:23
+msgid "Queues"
+msgstr "Várólisták"
+
+#: templates/postorius/user/address_preferences.html:8
+#: templates/postorius/user/subscription_preferences.html:7
+msgid "Subscription preferences"
+msgstr "Feliratkozási beállítások"
+
+#: templates/postorius/user/address_preferences.html:17
+#: templates/postorius/user/mailman_settings.html:17
+#: templates/postorius/user/subscription_preferences.html:17
+msgid "No preferences available"
+msgstr "Nincs elérhető beállítás"
+
+#: templates/postorius/user/address_preferences.html:18
+#: templates/postorius/user/mailman_settings.html:19
+#: templates/postorius/user/subscription_preferences.html:19
+msgid ""
+"You are not yet subscribed to any lists, so you have no Mailman preferences."
+msgstr ""
+"Még nem iratkozott fel egyetlen listára sem, ezért nincsenek Mailman "
+"beállításai."
+
+#: templates/postorius/user/address_preferences.html:20
+msgid "Each email address can have specific Mailman preferences."
+msgstr "Minden e-mail cím hez speciális Mailman-beállítások vonatkozhatnak."
+
+#: templates/postorius/user/address_preferences.html:21
+msgid ""
+"Any options showing as not set here inherit at runtime from your global "
+"preferences (viewable on other tab)"
+msgstr ""
+"Minden olyan lehetőség, amely azt mutatja, hogy nem hozta létre az örökséget "
+"a globális preferenciáiból (más fülön látható)"
+
+#: templates/postorius/user/all.html:20
+msgid "Search"
+msgstr "Keresés"
+
+#: templates/postorius/user/all.html:35
+msgid "User"
+msgstr "Felhasználó"
+
+#: templates/postorius/user/all.html:36
+msgid "Created"
+msgstr "Létrehozva"
+
+#: templates/postorius/user/confirm_delete.html:9
+#: templates/postorius/user/confirm_delete.html:13
+#: templates/postorius/user/confirm_delete.html:22
+#: templates/postorius/user/manage.html:115
+msgid "Delete Account"
+msgstr "Fiók törlése"
+
+#: templates/postorius/user/confirm_delete.html:17
+msgid ""
+"Are you sure you want to delete this account? This will remove the account "
+"along with all its subscriptions."
+msgstr ""
+"Biztos, hogy törölni szeretné ezt a fiókot? Ez a fiókot az összes "
+"előfizetésével együtt törli."
+
+#: templates/postorius/user/list_options.html:14
+msgid "Subscription options for"
+msgstr "Feliratkozási lehetőségek a következőre"
+
+#: templates/postorius/user/list_options.html:15
+#: templates/postorius/user/subscription_preferences.html:22
+msgid ""
+"Any options showing as not set inherit at runtime from your global or "
+"address specific preferences (viewable on other tabs)"
+msgstr ""
+"A nem beállítottként jelölt opciók futás közben öröklik a globális vagy a "
+"címspecifikus beállításokat (más lapokon megtekinthetők)"
+
+#: templates/postorius/user/list_options.html:19
+msgid "Use this form to change the email used for this subscription"
+msgstr "Ezzel az űrlappal módosíthatja az előfizetéshez használt e-mailt"
+
+#: templates/postorius/user/list_options.html:23
+msgid "Change email used for subscription"
+msgstr "A feliratkozáshoz használt e-mail cím megváltoztatása"
+
+#: templates/postorius/user/mailman_settings.html:7
+msgid "Subscription settings"
+msgstr "Feliratkozás beállításai"
+
+#: templates/postorius/user/manage.html:8
+msgid "Manage user"
+msgstr "Felhasználó kezelése"
+
+#: templates/postorius/user/manage.html:18
+msgid "Addresses"
+msgstr "Címek"
+
+#: templates/postorius/user/manage.html:28
+msgid "Email"
+msgstr "E-mail"
+
+#: templates/postorius/user/manage.html:60
+msgid "List"
+msgstr "Lista"
+
+#: templates/postorius/user/manage.html:62
+#: templates/postorius/user/subscriptions.html:25
+msgid "Role"
+msgstr "Szerepkör"
+
+#: templates/postorius/user/manage.html:85
+msgid "User has no subscriptions."
+msgstr "A felhasználónak nincs feliratkozása."
+
+#: templates/postorius/user/manage.html:89
+msgid "Web Account"
+msgstr "Web Fiók"
+
+#: templates/postorius/user/manage.html:92
+msgid "Username"
+msgstr "Felhasználónév"
+
+#: templates/postorius/user/manage.html:96
+msgid "Superuser"
+msgstr "Szuperfelhasználó"
+
+#: templates/postorius/user/manage.html:100
+msgid "Last login"
+msgstr "Utolsó bejelentkezés"
+
+#: templates/postorius/user/manage.html:104
+msgid "Date joined"
+msgstr "Csatlakozás dátuma"
+
+#: templates/postorius/user/manage.html:109
+#: templates/postorius/user/manage.html:112
+msgid "Change password"
+msgstr "Jelszó módosítása"
+
+#: templates/postorius/user/subscription_preferences.html:21
+msgid "Each list subscription can have specific Mailman preferences."
+msgstr ""
+"Minden lista feliratkozáshoz speciális Mailman-beállítások vonatkozhatnak."
+
+#: templates/postorius/user/subscription_preferences.html:32
+msgid "Subscription"
+msgstr "Feliratkozás"
+
+#: templates/postorius/user/subscriptions.html:17
+msgid "You are subscribed to the following mailing lists:"
+msgstr "Feliratkozott a következő levelezőlistákra:"
+
+#: templates/postorius/user/subscriptions.html:41
+msgid "You are not yet subscribed to any lists."
+msgstr "Még nem iratkozott fel egyetlen listára sem."
+
+#: templatetags/nav_helpers.py:27
+msgid "Header Filters"
+msgstr "Fejlécszűrők"
+
+#: templatetags/nav_helpers.py:28
+msgid "Banned Addresses"
+msgstr "Tiltott címek"
+
+#: templatetags/nav_helpers.py:29
+msgid "Delete List"
+msgstr "Lista törlése"
+
+#: templatetags/nav_helpers.py:30
+msgid "Held Messages"
+msgstr "Visszatartott üzenetek"
+
+#: templatetags/nav_helpers.py:31
+msgid "Mass Removal"
+msgstr "Tömeges eltávolítás"
+
+#: templatetags/nav_helpers.py:32
+msgid "Mass Subscription"
+msgstr "Tömeges feliratkozás"
+
+#: templatetags/nav_helpers.py:33
+msgid "Subscription Options"
+msgstr "Feliratkozási beállítások"
+
+#: templatetags/nav_helpers.py:34
+msgid "List Settings"
+msgstr "Lista beállításai"
+
+#: templatetags/nav_helpers.py:35
+msgid "Summary"
+msgstr "Összegzés"
+
+#: templatetags/nav_helpers.py:37
+msgid "Confirm Removal of All Members"
+msgstr "Az összes tag eltávolításának megerősítése"
+
+#: templatetags/nav_helpers.py:40
+msgid "Address-based Settings"
+msgstr "Címalapú beállítások"
+
+#: templatetags/nav_helpers.py:41
+msgid "Subscription Settings"
+msgstr "Feliratkozás beállításai"
+
+#: templatetags/nav_helpers.py:42
+msgid "Global Settings"
+msgstr "Általános beállítások"
+
+#: utils.py:41
+msgid "Mailman REST API not available. Please start Mailman core."
+msgstr "A Mailman REST API nem érhető el. Indítsa el a Mailman magot."
+
+#: views/domain.py:86
+msgid "New Domain registered"
+msgstr "Új domain regisztrálva"
+
+#: views/domain.py:127
+#, python-format
+msgid "Domain %s updated"
+msgstr "A %s domain frissítve"
+
+#: views/domain.py:130 views/list.py:1032
+msgid "Please check the errors below"
+msgstr "Kérjük, ellenőrizze az alábbi hibákat"
+
+#: views/domain.py:154
+#, python-format
+msgid "The domain %s has been deleted."
+msgstr "A %s domain törölve lett."
+
+#: views/domain.py:160
+#, python-format
+msgid "The domain could not be deleted: %s"
+msgstr "A domain nem törölhető: %s"
+
+#: views/domain.py:182
+msgid "Added {} as an owner for {}"
+msgstr "{} hozzáadva a(z) {} tulajdonosaként"
+
+#: views/domain.py:217
+msgid "{} is not an owner for {}"
+msgstr "{} nem tulajdonosa a következőnek: {}"
+
+#: views/domain.py:227
+msgid "Removed {} as an owner for {}"
+msgstr "{} eltávolítása a(z) {} tulajdonosaként"
+
+#: views/generic.py:116
+msgid "The email {} has been banned."
+msgstr "A (z) {} e-mailt letiltottuk."
+
+#: views/generic.py:122 views/generic.py:137 views/list.py:1572
+#, python-format
+msgid "An error occurred: %s"
+msgstr "Hiba történt: %s"
+
+#: views/generic.py:125 views/generic.py:139
+#, python-format
+msgid "Invalid data: %s"
+msgstr "Érvénytelen adatok: %s"
+
+#: views/generic.py:132
+msgid "The email {} has been un-banned"
+msgstr "A(z) {} e-mail cím tiltását feloldottuk"
+
+#: views/list.py:151
+msgid "List {}s"
+msgstr "{}s lista"
+
+#: views/list.py:168
+msgid "Add {}"
+msgstr "{} hozzáadása"
+
+#: views/list.py:171
+msgid "No {}s were found matching the search."
+msgstr "Nem található {}s, amely megfelelne a keresésnek."
+
+#: views/list.py:174
+msgid "List has no {}s"
+msgstr "A listának nincs {}s"
+
+#: views/list.py:186
+msgid "The selected members have been unsubscribed"
+msgstr "A kiválasztott tagok leiratkoztak"
+
+#: views/list.py:207
+#, python-brace-format
+msgid "{email} has been added with the role {role}"
+msgstr "{email} hozzáadva a {role} szerepkörhöz"
+
+#: views/list.py:257
+msgid "Member does not exist"
+msgstr "A tag nem létezik"
+
+#: views/list.py:283
+msgid "The member's preferences have been updated."
+msgstr "A tag preferenciái frissültek."
+
+#: views/list.py:293
+msgid "No change to the member's moderation."
+msgstr "Nincs változás a tag moderálásában."
+
+#: views/list.py:309
+msgid "The member's moderation settings have been updated."
+msgstr "A tag moderálási beállításai frissültek."
+
+#: views/list.py:524
+msgid "You are not subscribed to {}."
+msgstr "Ön nincs feliratkozva {}."
+
+#: views/list.py:539
+msgid "You are already subscribed"
+msgstr "Már feliratkoztál"
+
+#: views/list.py:551
+msgid "Subscription changed to {}"
+msgstr "Az előfizetés módosítva erre: {}"
+
+#: views/list.py:556
+msgid "Something went wrong. Please try again. {} {}"
+msgstr "Valami hiba történt. Próbálja meg újra később. {} {}"
+
+#: views/list.py:610
+msgid ""
+"Your subscription request has been submitted and is waiting for moderator "
+"approval."
+msgstr "Előfizetési kérelmét elküldtük, és a moderátor jóváhagyására vár."
+
+#: views/list.py:618
+#, python-format
+msgid "You are subscribed to %s."
+msgstr "Feliratkozott a %s -ra."
+
+#: views/list.py:623 views/list.py:659
+msgid "Something went wrong. Please try again."
+msgstr "Valami hiba történt. Próbálja meg újra később."
+
+#: views/list.py:655
+msgid "Please check your inbox for further instructions"
+msgstr "Kérjük, ellenőrizze a postaládáját további utasításokért"
+
+#: views/list.py:679
+msgid "You can only unsubscribe yourself."
+msgstr "Csak magadat tudod leiratkozni."
+
+#: views/list.py:685
+msgid ""
+"You have a pending unsubscription request waiting for moderator approval."
+msgstr "Egy függőben lévő leiratkozási kérésed moderátori jóváhagyásra vár."
+
+#: views/list.py:696
+msgid ""
+"Your unsubscription request has been submitted and is waiting for moderator "
+"approval."
+msgstr "A leiratkozási kérelmedet elküldtük, és a moderátor jóváhagyására vár."
+
+#: views/list.py:704
+#, python-format
+msgid "%s has been unsubscribed from this list."
+msgstr "%s leiratkoztatva a listáról."
+
+#: views/list.py:741
+#, python-format
+msgid "The address %(address)s has been invited to %(list)s."
+msgstr "A %(address)s címet meghívták a %(list)s címre."
+
+#: views/list.py:746
+#, python-format
+msgid "The address %(address)s has been subscribed to %(list)s."
+msgstr "A cím %(address)s feliratkoztatva ide: %(list)s."
+
+#: views/list.py:751
+msgid ""
+" Subscription may be pending address verification, confirmation or approval "
+"as appropriate."
+msgstr ""
+" A feliratkozás a cím ellenőrzésére, megerősítésére vagy jóváhagyására "
+"várhat."
+
+#: views/list.py:769 views/list.py:839
+#, python-format
+msgid "The email address %s is not valid."
+msgstr "Az email cím %s nem valós."
+
+#: views/list.py:808
+msgid "Please fill out the form correctly."
+msgstr "Kérjük, töltsd ki helyesen az űrlapot."
+
+#: views/list.py:826
+#, python-brace-format
+msgid "These addresses {address} have been unsubscribed from {list}."
+msgstr "Ezeket a címeket {address} a {list}-ből törölték."
+
+#: views/list.py:861
+msgid "The selected messages were accepted"
+msgstr "A kiválasztott üzeneteket elfogadva"
+
+#: views/list.py:866
+msgid "The selected messages were rejected"
+msgstr "A kiválasztott üzenetek elutasítva"
+
+#: views/list.py:871
+msgid "The selected messages were discarded"
+msgstr "A kijelölt üzenetek eldobásra kerültek"
+
+#: views/list.py:874
+msgid "Message could not be found"
+msgstr "Az üzenet nem található"
+
+#: views/list.py:905
+msgid "The message was accepted"
+msgstr "Az üzenetet elfogadták"
+
+#: views/list.py:908
+msgid "The message was rejected"
+msgstr "Az üzenetet elutasították"
+
+#: views/list.py:911
+msgid "The message was discarded"
+msgstr "Az üzenetet elvetették"
+
+#: views/list.py:914
+msgid "Held message was not found."
+msgstr "A tárolt üzenet nem található."
+
+#: views/list.py:928
+msgid "Moderation action for {} set to {}"
+msgstr "Moderálási művelet {} beállításához {}"
+
+#: views/list.py:936
+msgid "Failed to set moderation action for {}"
+msgstr "Nem sikerült beállítani a moderációs műveletet a következőnél: {}"
+
+#: views/list.py:988
+msgid "Choose a Domain"
+msgstr "Válassz egy domaint"
+
+#: views/list.py:1012
+msgid "List created"
+msgstr "Lista létrehozva"
+
+#: views/list.py:1024
+msgid "Mailing List already exists."
+msgstr "A levelezőlista már létezik."
+
+#: views/list.py:1204
+msgid "Subscriptions pending user confirmation"
+msgstr "Előfizetések a felhasználó megerősítésére várnak"
+
+#: views/list.py:1217
+msgid "Subscriptions pending approval"
+msgstr "Előfizetések jóváhagyásra várnak"
+
+#: views/list.py:1230
+msgid "Un-subscriptions pending approval"
+msgstr "Jóváhagyásra váró leiratkozások"
+
+#: views/list.py:1279
+msgid "The request has been accepted."
+msgstr "A kérést elfogadták."
+
+#: views/list.py:1280
+msgid "The request has been rejected."
+msgstr "A kérelmet elutasították."
+
+#: views/list.py:1281
+msgid "The request has been discarded."
+msgstr "A kérést elvetették."
+
+#: views/list.py:1282
+msgid "The request has been defered."
+msgstr "A kérést elhalasztották."
+
+#: views/list.py:1302
+#, python-format
+msgid "The request was already moderated: %s"
+msgstr "A kérés már moderálva lett: %s"
+
+#: views/list.py:1306
+#, python-format
+msgid "The request could not be moderated: %s"
+msgstr "A kérés nem volt moderálható: %s"
+
+#: views/list.py:1320
+msgid "List Identity"
+msgstr "Lista identitás"
+
+#: views/list.py:1321
+msgid "Automatic Responses"
+msgstr "Automatikus válaszok"
+
+#: views/list.py:1322
+msgid "Alter Messages"
+msgstr "Üzenetek módosítása"
+
+#: views/list.py:1323
+msgid "DMARC Mitigations"
+msgstr "DMARC-enyhítések"
+
+#: views/list.py:1324
+msgid "Digest"
+msgstr "Kivonatok"
+
+#: views/list.py:1325
+msgid "Message Acceptance"
+msgstr "Üzenet fogadási szabályok"
+
+#: views/list.py:1326
+msgid "Archiving"
+msgstr "Archiválás"
+
+#: views/list.py:1327
+msgid "Member Policy"
+msgstr "Tagsági szabályzat"
+
+#: views/list.py:1328
+msgid "Bounce Processing"
+msgstr "Visszapattanások feldolgozása"
+
+#: views/list.py:1395
+msgid "The settings have been updated."
+msgstr "A beállítások frissítve lettek."
+
+#: views/list.py:1398
+msgid "An error occurred: "
+msgstr "Hiba történt: "
+
+#: views/list.py:1432
+#, python-format
+msgid "The user %(email)s is not in the %(role)s group"
+msgstr "A felhasználó %(email)s nincs benne a %(role)s csoportban"
+
+#: views/list.py:1439
+msgid "Removing the last owner is impossible"
+msgstr "Az utolsó tulajdonost nem lehet kitörölni"
+
+#: views/list.py:1457
+#, python-format
+msgid "The user could not be removed: %(msg)s"
+msgstr "A felhasználót nem lehetett törölni: %(msg)s"
+
+#: views/list.py:1463
+#, python-format
+msgid "The user %(address)s has been removed from the %(role)s group."
+msgstr "A felhasználó %(address)s ki lett szedve a %(role)s csoportból."
+
+#: views/list.py:1484
+msgid "No member is subscribed to the list currently."
+msgstr "Jelenleg senki sincs feliratkozva a listára."
+
+#: views/list.py:1497
+msgid "All members have been unsubscribed from the list."
+msgstr "Az összes tag leiratkoztatva a listáról."
+
+#: views/list.py:1576
+msgid "The header matches were successfully modified."
+msgstr "A fejlécegyezések módosítása sikeresen megtörtént."
+
+#: views/list.py:1583
+msgid "New header"
+msgstr "Új fejléc"
+
+#: views/list.py:1584
+msgid "New pattern"
+msgstr "Új sablon"
+
+#: views/list.py:1616
+msgid "Invalid confirmation token"
+msgstr "Érvénytelen megerősítési token"
+
+#: views/list.py:1626 views/list.py:1642
+msgid "Token expired or invalid."
+msgstr "A token lejárt vagy érvénytelen."
+
+#: views/rest.py:59
+msgid "Message does not exist"
+msgstr "Az üzenet nem létezik"
+
+#: views/rest.py:106
+msgid "Attachment does not exist"
+msgstr "A csatolmány nem létezik"
+
+#: views/system.py:31
+msgid "Mailman Core Version"
+msgstr "Mailman Core verzió"
+
+#: views/system.py:32
+msgid "Mailman Core API Version"
+msgstr "Mailman Core API verzió"
+
+#: views/system.py:33
+msgid "Mailman Core Python Version"
+msgstr "Mailman Core Python verzió"
+
+#: views/user.py:103
+msgid "Your preferences have been updated."
+msgstr "A tulajdonságaid frissítve lettek."
+
+#: views/user.py:106
+msgid "Your preferences did not change."
+msgstr "A tulajdonságaid nem változtak."
+
+#: views/user.py:229
+msgid "Subscription does not exist"
+msgstr "Az előfizetés nem létezik"
+
+#: views/user.py:452
+msgid "Successfully updated addresses {}"
+msgstr "Sikeresen frissített címek {}"
+
+#: views/user.py:466
+msgid "Successfully updated memberships for {}"
+msgstr "A (z) {} tagságok sikeresen frissítve"
+
+#: views/user.py:475
+msgid "Successfully updated user."
+msgstr "A felhasználó sikeresen frissítve."
+
+#: views/user.py:485
+msgid "Password updated successfully"
+msgstr "A jelszó sikeresen frissítve"
+
+#: views/user.py:522
+msgid "Successfully deleted account"
+msgstr "A fiók sikeresen törölve"
+
+#~ msgid "Logout"
+#~ msgstr "Kijelentkezés"
+
+#~ msgid "Log In"
+#~ msgstr "Belépés"
+
+#~ msgid "Login"
+#~ msgstr "Bejelentkezés"
+
+#~ msgid "Only mailinglist members"
+#~ msgstr "Csak levelezőlista tagok"
+
+#~ msgid "Unsubscribe All"
+#~ msgstr "Összes leiratkozása"
+
+#~ msgid "Unsubscribe users"
+#~ msgstr "Felhasználók leiratkozása"
+
+#~ msgid "Unsubscribe Selected"
+#~ msgstr "Kiválasztott leiratkozása"
+
+#~ msgid "Filter by Role"
+#~ msgstr "Szűrés szerepkör szerint"
+
+#~ msgid "Remove"
+#~ msgstr "Töröl"
+
+#~ msgid "Information"
+#~ msgstr "Információ"
+
+#~ msgid "You are subscribed to this list with the following address:"
+#~ msgstr "Ön feliratkozott erre a listára a következő címmel:"
+
+#~ msgid "Member Options"
+#~ msgstr "Tag opciók"
+
+#~ msgid "Non-member Options"
+#~ msgstr "Külső beküldők opciók"
