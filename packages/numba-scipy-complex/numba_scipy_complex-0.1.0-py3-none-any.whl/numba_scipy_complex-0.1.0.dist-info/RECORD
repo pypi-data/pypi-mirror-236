@@ -1,0 +1,13 @@
+numba_scipy_complex/__init__.py,sha256=sgusO3prygzldAB_iq9ifgj3s_6fZWFbriQTmbZ_VFQ,90
+numba_scipy_complex/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numba_scipy_complex/src/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numba_scipy_complex/src/functions/gamma.py,sha256=SsgTq2843jRz-08B2pSbVnztbQhxoz5Vu-uRd4RePM4,859
+numba_scipy_complex/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numba_scipy_complex/tests/test_utils.py,sha256=9CPyjeRIH7mE49_83SgM9TrxDV-2sjnCwfN6jxmv04Q,1527
+numba_scipy_complex/tests/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+numba_scipy_complex/tests/functions/gamma.py,sha256=ScQWvPNXkh4CGtGD5gMK0QjaCOK4ISq_0YTt-Hig-KI,1461
+numba_scipy_complex-0.1.0.dist-info/LICENSE,sha256=wE30Qt11zAr9o2nz4xRN_YkOXKUyzLJmsj-6CcGMPNw,1091
+numba_scipy_complex-0.1.0.dist-info/METADATA,sha256=oQFI_WPiKrQBACEOPz_xll4CNGVRseg5uyFdglHuGNs,915
+numba_scipy_complex-0.1.0.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+numba_scipy_complex-0.1.0.dist-info/top_level.txt,sha256=xsArzMuB9cxDrZi_pQtWadwf-dT5XgSyDvyi216WHJ0,20
+numba_scipy_complex-0.1.0.dist-info/RECORD,,
