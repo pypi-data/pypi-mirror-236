@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+opthub_evaluator/__init__.py
+opthub_evaluator/main.py
+opthub_evaluator.egg-info/PKG-INFO
+opthub_evaluator.egg-info/SOURCES.txt
+opthub_evaluator.egg-info/dependency_links.txt
+opthub_evaluator.egg-info/entry_points.txt
+opthub_evaluator.egg-info/not-zip-safe
+opthub_evaluator.egg-info/requires.txt
+opthub_evaluator.egg-info/top_level.txt
