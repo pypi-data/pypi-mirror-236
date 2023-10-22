@@ -1,0 +1,2 @@
+[prefect.collections]
+prefect_earthdata = prefect_earthdata
