@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pymulsim
+Version: 0.1.1
+Summary: A package for computing pairwise node similarities between multilayer networks, based on embeddings from Graph Neural Networks.
+Home-page: https://github.com/pietrocinaglia/pymulsim
+Author: Pietro Cinaglia
+Author-email: cinaglia@unicz.it
+License: MIT
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: numpy >=1.23.2
+Requires-Dist: networkx >=2.8.6
+Requires-Dist: torch >=2.0.1
+Requires-Dist: torch-geometric >=2.3.1
+
