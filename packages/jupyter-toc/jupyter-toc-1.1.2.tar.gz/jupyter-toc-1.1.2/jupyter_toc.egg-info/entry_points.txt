@@ -1,0 +1,3 @@
+[console_scripts]
+jupyter-toc = jupyter_toc.cli:main
+
