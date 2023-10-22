@@ -1,0 +1,9 @@
+/*
+    See the JupyterLab Developer Guide for useful CSS Patterns:
+
+    https://jupyterlab.readthedocs.io/en/stable/developer/css.html
+*/
+
+.jp-Toolbar-item-BoxDrive .jp-ToolbarButtonComponent {
+    width: 8em;
+}

@@ -1,0 +1,32 @@
+import { Contents, ServerConnection } from '@jupyterlab/services';
+import { ISignal } from '@lumino/signaling';
+export declare const DRIVE_NAME = "Box";
+export declare class BoxDrive implements Contents.IDrive {
+    get isDisposed(): boolean;
+    dispose(): void;
+    set accessToken(accessToken: string);
+    get name(): string;
+    get serverSettings(): ServerConnection.ISettings;
+    get fileChanged(): ISignal<this, Contents.IChangedArgs>;
+    get(path: string, options?: Contents.IFetchOptions): Promise<Contents.IModel>;
+    getDownloadUrl(path: string): Promise<string>;
+    newUntitled(options?: Contents.ICreateOptions): Promise<Contents.IModel>;
+    delete(path: string): Promise<void>;
+    rename(path: string, newPath: string): Promise<Contents.IModel>;
+    save(path: string, options?: Partial<Contents.IModel>): Promise<Contents.IModel>;
+    copy(path: string, toLocalDir: string): Promise<Contents.IModel>;
+    createCheckpoint(path: string): Promise<Contents.ICheckpointModel>;
+    listCheckpoints(path: string): Promise<Contents.ICheckpointModel[]>;
+    restoreCheckpoint(path: string, checkpointID: string): Promise<void>;
+    deleteCheckpoint(path: string, checkpointID: string): Promise<void>;
+    private get_file_content;
+    private upload_file_content;
+    private get_file_id;
+    private get_abspath_and_set_to_map;
+    private delete_from_map;
+    private get_file_name;
+    private _isDisposed;
+    private _fileChanged;
+    private _boxAbsPathMap;
+    private _accessToken;
+}
