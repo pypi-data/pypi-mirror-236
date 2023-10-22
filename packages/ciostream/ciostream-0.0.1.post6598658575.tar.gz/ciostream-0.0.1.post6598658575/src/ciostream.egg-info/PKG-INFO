@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ciostream
+Version: 0.0.1.post6598658575
+Summary: Provides C++ iostream Cython wrappers
+Author: Matthew Ballance
+Author-email: matt.ballance@gmail.com
+License-File: LICENSE
