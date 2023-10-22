@@ -1,0 +1,55 @@
+[tool.poetry]
+name = "graphus"
+version = "0.1.2"
+description = "Graphus is a dynamic GraphQL client that generates its API objects and methods dynamically by parsing GraphQL Schemas."
+authors = ["Ionesio Junior <ionesiojr@gmail.com>"]
+readme = "README.md"
+license = "Apache-2.0"
+homepage = "https://github.com/IonesioJunior/Graphus"
+repository = "https://github.com/IonesioJunior/Graphus"
+documentation = "https://ionesiojunior.github.io/Graphus/"
+
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+graphql-core = "^3.2.3"
+
+[tool.poetry.extras]
+test = ["pytest", "pytest-cov", "pytest-env"]
+
+[tool.poetry.scripts]
+start_tst_server = "scripts.test_server:start_server"
+stop_tst_server = "scripts.test_server:stop"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.7.0"
+flake8 = "^6.1.0"
+isort = "^5.12.0"
+pre-commit = "^3.3.3"
+mypy = "^1.5.1"
+pytest = "^7.4.0"
+pytest-cov = "^4.1.0"
+pytest-env = "^0.8.2"
+autoflake = "^2.2.0"
+docformatter = "^1.7.5"
+mkdocs = "^1.5.2"
+mkdocs-material = "^9.2.3"
+mkdocs-material-extensions = "^1.1.1"
+mkdocstrings = "^0.22.0"
+mkdocstrings-python = "^1.5.1"
+mkdocs-autorefs = "^0.5.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 79
+
+[tool.isort]
+profile = "black"
+line_length = 79
