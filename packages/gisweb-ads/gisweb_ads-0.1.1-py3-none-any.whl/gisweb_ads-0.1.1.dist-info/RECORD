@@ -1,0 +1,10 @@
+gisweb_ads/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gisweb_ads/protocollo.py,sha256=06kOr4Hs0n5EpD9CD5iYwebLqMz672SzvI60OY6PTAE,5263
+gisweb_ads/schema.py,sha256=CJNomZ0D-Adr0W5VzMZJOOvWciBaRt5C7AehyBUJdKE,1872
+gisweb_ads/soap_attachments.py,sha256=aIn1BRA6sGoonfZbzRckKd6gPaZUhiUHU17eFQGF2xM,3745
+gisweb_ads/templates/segnatura_e.xml,sha256=2EPwbTL1W17eLkA0qgWHTNDaEoPXIw7HfbT9dL1KmRo,2949
+gisweb_ads/templates/segnatura_ok.xml,sha256=p1jd4NDKU_JQbYKyOhJTVdhX0jqMC6g03tW_zF3r53M,4600
+gisweb_ads-0.1.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+gisweb_ads-0.1.1.dist-info/METADATA,sha256=lBMXu4w7tO5uMLJ02MRK8cfMBGZeLhQ9wLbMnMPj2CA,701
+gisweb_ads-0.1.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+gisweb_ads-0.1.1.dist-info/RECORD,,
