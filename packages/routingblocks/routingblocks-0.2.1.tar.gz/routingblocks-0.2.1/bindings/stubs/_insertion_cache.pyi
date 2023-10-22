@@ -1,0 +1,36 @@
+class InsertionMove:
+    vertex_id: VertexID
+    after_node: NodeLocation
+    delta_cost: float
+
+    def __init__(self, vertex_id: VertexID, after_node_location: NodeLocation, delta_cost: float) -> None:
+        """
+        :param vertex_id: The vertex to be inserted.
+        :param after_node: The node after which the vertex should be inserted.
+        :param delta_cost: The change in cost incurred from inserting the vertex at the specified position.
+        """
+        ...
+
+    def __eq__(self, other: InsertionMove) -> bool: ...
+
+
+class InsertionCache:
+    def __init__(self, instance: Instance) -> None: ...
+
+    def clear(self) -> None: ...
+
+    def get_best_insertions_for_vertex(self, vertex_id: VertexID) -> List[InsertionMove]: ...
+
+    def invalidate_route(self, route: Route, route_index: int) -> None: ...
+
+    def rebuild(self, evaluation: Evaluation, solution: Solution, vertex_ids: List[VertexID]) -> None: ...
+
+    def stop_tracking(self, vertex_id: VertexID) -> None: ...
+
+    def tracks_vertex(self, vertex_id: VertexID) -> bool: ...
+
+    @property
+    def moves_in_order(self) -> List[InsertionMove]: ...
+
+    @property
+    def tracked_vertices(self) -> List[VertexID]: ...
