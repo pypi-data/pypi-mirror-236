@@ -1,0 +1,10 @@
+productanalyzer/__init__.py,sha256=-sNwgkguMZXc9juL2Klcp0Pi1tXHGlMLDwie7jUTns0,99
+productanalyzer/indicators.py,sha256=FvOEkuADKYIiY1-TpsETC_PMEAmI9X4iisaj1J-buiU,8702
+productanalyzer/manager.py,sha256=bWqur_tLidQzIUZgFXX_G3In-IuteybAttVkhB3pWIU,4431
+productanalyzer/object.py,sha256=D1Z1Hww1jG5mQmaAd-HmxpTHiBYPULZX9kIfqWxrCqM,1015
+productanalyzer/product.py,sha256=FE6ftgJYbtxVysi_LqdhX4NeVRc3EqniFiuuohXA-MM,14068
+productanalyzer/score.py,sha256=J_0d9_pMZ72TZnl3OPClk8R_vKR0fgxb-66zz4Zjaio,4697
+productanalyzer/util.py,sha256=eY3ciTYD2Kh1sqvt2039IFZNwitOoo5u9F5N4dnh7i4,615
+productanalyzer-0.1.0.dist-info/METADATA,sha256=rqSGpR80qvyAZGJ357ZxBRMzcrs279TkVnPdbCBza4U,626
+productanalyzer-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+productanalyzer-0.1.0.dist-info/RECORD,,
