@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: versionCompare
+Version: 0.1.1
+Summary: A library to check if a number is greater, equal or less than the other.
+Author: Keyur Patel
+Author-email: kj8patel@uwaterloo.ca
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Laguage: Python
+
+
+
+Function: Library
+
+
+
+Name: versionCompare
+
+
+
+A python library that takes 2 digits as input and then checks if one is greater, equal or less than the other. Example output; 5 is greater than 1
+
+
+
+Usage
+
+
+
+Import versionComparison from class versionComparison
+
+
+
+Create an instance of versionComparison and supply it with the 2 strings as expected in its constructor.
+
+
+
+Call compare_versions on the instance, and it will give appropriate result.
+
+-> 1 if version1 > version2
+
+-> 0 if version1 == version2
+
+-> -1 if version1 < version2
+
