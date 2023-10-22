@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: feedback-context-analysis
+Version: 1.0.0
+Summary: identify whether a piece of text is contextual enough as a feedback or not
+
