@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+quiktools/__init__.py
+quiktools.egg-info/PKG-INFO
+quiktools.egg-info/SOURCES.txt
+quiktools.egg-info/dependency_links.txt
+quiktools.egg-info/top_level.txt
