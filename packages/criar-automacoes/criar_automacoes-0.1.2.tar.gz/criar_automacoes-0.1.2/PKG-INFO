@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: criar-automacoes
+Version: 0.1.2
+Summary: 
+Author: leomoraesguitar
+Author-email: 123950901+leomoraesguitar@users.noreply.github.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyautogui (>=0.9.54,<0.10.0)
+Requires-Dist: pysimplegui (>=4.60.5,<5.0.0)
+Description-Content-Type: text/markdown
+
+# pacote para criacao de automacoes
+
+Para importar: from criar_automacoes import Automatization, pyautogui, sg
