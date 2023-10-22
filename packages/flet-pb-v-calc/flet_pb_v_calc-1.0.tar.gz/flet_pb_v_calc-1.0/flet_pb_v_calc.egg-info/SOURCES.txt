@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+flet_pb_v_calc/__init__.py
+flet_pb_v_calc.egg-info/PKG-INFO
+flet_pb_v_calc.egg-info/SOURCES.txt
+flet_pb_v_calc.egg-info/dependency_links.txt
+flet_pb_v_calc.egg-info/top_level.txt
