@@ -1,0 +1,2 @@
+[console_scripts]
+sammen = sammen.cli:main

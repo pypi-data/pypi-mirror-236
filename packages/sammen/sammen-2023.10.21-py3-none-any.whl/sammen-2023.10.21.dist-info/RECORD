@@ -1,0 +1,10 @@
+sammen/__init__.py,sha256=ioqhPj1_AYjusH6vyGWNaanYD_H_LmIrGT42gg09RvM,2105
+sammen/__main__.py,sha256=T671uDP_V7ho9dGEjcFaY3GNP1n48OtEHf6bk-XiK4I,121
+sammen/cli.py,sha256=OYt-lvA4Z7BxPx_7x9dH8hOX288nvYnljeNMAg83Jco,2164
+sammen/sammen.py,sha256=jIhAqz6LY5X0GJImcmN8JlDiARj7Y-2k7e-JXTdLlSE,4030
+sammen-2023.10.21.dist-info/LICENSE,sha256=a9GBBsUGDvTGs1rmHMujUJiPhEY6vtKCdGlW6XmWoTw,1069
+sammen-2023.10.21.dist-info/METADATA,sha256=pNQoau5pBUZZG36G3qpM3hH_WWfzrk9HvZX2bK8lTjw,3891
+sammen-2023.10.21.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sammen-2023.10.21.dist-info/entry_points.txt,sha256=9evIuSU6R2rUiC2LibQc-UHg6JlpdMx_fvLFXlsMqKo,43
+sammen-2023.10.21.dist-info/top_level.txt,sha256=vWIhxqRr4Dn7BH_5FP_otuBEQcnD_WAt2y0z99ZWTJQ,7
+sammen-2023.10.21.dist-info/RECORD,,
