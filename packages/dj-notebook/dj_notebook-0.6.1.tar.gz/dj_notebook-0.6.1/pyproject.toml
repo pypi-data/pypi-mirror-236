@@ -1,0 +1,123 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dj_notebook"
+version = "0.6.1"
+description = "A Jupyter notebook with access to objects from the Django ORM is a powerful tool to introspect data and run ad-hoc queries."
+readme = "README.md"
+authors = [
+  {name = "Daniel Roy Greenfeld", email = "daniel@feldroy.com"},
+  {name = "Anna Zhydko", email = "anna.zhydko@krakentechnologies.ltd"}
+]
+maintainers = [
+  {name = "Daniel Roy Greenfeld", email = "daniel@feldroy.com"},
+  {name = "Anna Zhydko", email = "anna.zhydko@krakentechnologies.ltd"}
+]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Framework :: Django :: 4.0",
+  "Framework :: Django :: 4.1",
+  "Framework :: Django :: 4.2",
+  "Framework :: Django :: 5.0",
+  "Framework :: Jupyter",
+  "License :: OSI Approved :: GNU General Public License (GPL)",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12"
+]
+license = {text = "GNU General Public License v3"}
+dependencies = [
+  "django",
+  "django-extensions",
+  "django-pandas",
+  "django-schema-graph",
+  "ipython",
+  "jupyter",
+  "pandas",
+  "rich",
+  "python-dotenv"
+]
+
+[project.optional-dependencies]
+test = [
+    "django",
+    "django-extensions",
+    "ipython",  
+    "black",  # code auto-formatting
+    "black[jupyter]",
+    "coverage",  # testing
+    "mypy",  # linting
+    "pytest",  # testing
+    "ruff"  # linting
+]
+docs = [
+  "mkdocs-material",
+  "mkdocs-jupyter"
+]
+
+[project.urls]
+
+bugs = "https://github.com/pydanny/dj-notebook/issues"
+changelog = "https://github.com/pydanny/dj-notebook/blob/master/CHANGELOG.md"
+homepage = "https://github.com/pydanny/dj-notebook"
+documentation = "https://dj-notebook.readthedocs.io/"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+
+# Mypy
+# ----
+
+[tool.mypy]
+files = "."
+exclude = [
+  "tests/*"
+]
+
+# Use strict defaults
+strict = true
+warn_unreachable = true
+warn_no_return = true
+
+[[tool.mypy.overrides]]
+# Don't require test functions to include types
+module = "tests.*"
+allow_untyped_defs = true
+disable_error_code = "attr-defined"
+
+# Ruff
+# ----
+
+[tool.ruff]
+select = [
+    "E",  # pycodestyle
+    "F",  # pyflakes
+    "I",  # isort
+]
+ignore = [
+    "E501",  # line too long - black takes care of this for us
+]
+
+[tool.ruff.per-file-ignores]
+# Allow unused imports in __init__ files as these are convenience imports
+"**/__init__.py" = [ "F401" ]
+
+[tool.ruff.isort]
+lines-after-imports = 2
+section-order = [
+    "future",
+    "standard-library",
+    "third-party",
+    "first-party",
+    "project",
+    "local-folder",
+]
+
+[tool.ruff.isort.sections]
+"project" = [
+    "src",
+    "tests",
+]
