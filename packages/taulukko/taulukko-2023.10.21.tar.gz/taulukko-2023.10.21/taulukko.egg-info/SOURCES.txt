@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+taulukko/__init__.py
+taulukko/__main__.py
+taulukko/cli.py
+taulukko/taulukko.py
+taulukko.egg-info/PKG-INFO
+taulukko.egg-info/SOURCES.txt
+taulukko.egg-info/dependency_links.txt
+taulukko.egg-info/entry_points.txt
+taulukko.egg-info/requires.txt
+taulukko.egg-info/top_level.txt
+test/test_cli.py
+test/test_taulukko.py
