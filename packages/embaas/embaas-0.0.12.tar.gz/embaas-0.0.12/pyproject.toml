@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+homepage = "https://embaas.io"
+repository = "https://github.com/Embaas/embaas_py"
+
+[tool.poetry]
+name = "embaas"
+version = "0.0.12"
+description = "embaas Python SDK"
+authors = ["Julius Lipp <julius@embaas.io>", "embaas <info@embaas.io>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["embaas", "embeddings", "document_extraction"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pydantic = "^2.4.2"
+httpx = "^0.25.0"
