@@ -1,0 +1,8 @@
+README.md
+setup.py
+amazon_scraper_products_extractor.egg-info/PKG-INFO
+amazon_scraper_products_extractor.egg-info/SOURCES.txt
+amazon_scraper_products_extractor.egg-info/dependency_links.txt
+amazon_scraper_products_extractor.egg-info/entry_points.txt
+amazon_scraper_products_extractor.egg-info/requires.txt
+amazon_scraper_products_extractor.egg-info/top_level.txt
