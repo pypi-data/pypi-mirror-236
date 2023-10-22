@@ -1,0 +1,4 @@
+[console_scripts]
+markdown-gettext=markdown_gettext.cli:main
+md-gettext=markdown_gettext.cli:main
+
