@@ -1,0 +1,7 @@
+tgw
+tgw\cert
+tgw\common_linux_lib64
+tgw\linux_py36_x64_package
+tgw\linux_py38_x64_package
+tgw\win_py36_x64_package
+tgw\win_py38_x64_package
