@@ -1,0 +1,13 @@
+physipandas/__init__.py,sha256=Y3OWYt-n0g04b_mExjbHurTXmu6uEbvBa79oi-Nzxio,165
+physipandas/_version.py,sha256=6alQVcPnL9Kb7eMypI8Q7tFmCghvnkbIAIkB0p15JUQ,70
+physipandas/dataframe.py,sha256=FTf5c2kQj6ZSEqxDEWViEbc_ErqAwOYSC6LSQb_yeNw,2219
+physipandas/extension.py,sha256=ZHEO6tTt7pr3PV3A-Pd0q6FY4mK6ShBZZg_d5Eajphc,42868
+physipandas/series.py,sha256=xy7ShO4DXwwseCAAnif8gh1IQuyiXVRv-U916ZRTTgg,2718
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_extension_array.py,sha256=0eBTiqwBRrd2Oh9_m92uHv3kMwzq8t9XhbkISzhrXcI,4607
+test/test_extension_dtype.py,sha256=2_IoZWhG0Q2YulR8D48Y8hJqS-5gVcLt-keikLM_XaY,4261
+physipandas-0.1.0.dist-info/LICENSE,sha256=h6O5mEJlDSFBN3iORT5VTgi28mG2WZ8ZsCZtgGOhUEQ,1063
+physipandas-0.1.0.dist-info/METADATA,sha256=cq-JHw4I_cjPrJ1mWxDgIDWsW3VZHH6SH3v1fYsg6xU,840
+physipandas-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+physipandas-0.1.0.dist-info/top_level.txt,sha256=APPKwOfOyAdN6XJCyw792F-3E6gEwcF-XkUOdrI1ugs,17
+physipandas-0.1.0.dist-info/RECORD,,
