@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: bookshelf-cli
+Version: 0.1.0
+Summary: 📚 A CLI tool for tracking your stories in the SDLC.
+Home-page: https://bookshelf.docs.joss.dev/
+Author: Joss Moffatt
+Project-URL: Issue Tracker, https://github.com/jossmoff/bookshelf/issues
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rich >=13.6.0
+Requires-Dist: rich-click >=1.7.0
+
+<h1 align="center">
+  <br>
+  <img src="docs/src/assets/bookshelf.png" width="200px"/>
+  <br>
+  bookshelf
+  <br>
+</h1>
+
+<h4 align="center">
+   📚 A CLI tool for tracking your stories in the SDLC
+</h4>
+
+
+<p align="center">
+
+  <a href="https://codecov.io/gh/jossmoff/bookshelf">
+    <img src="https://codecov.io/gh/jossmoff/bookshelf/branch/main/graph/badge.svg" />
+  </a>
+
+  <a href="https://github.com/jossmoff/bookshelf/issues">
+    <img src="https://img.shields.io/github/issues/jossmoff/bookshelf.svg">
+  </a>
+
+  <a href="https://github.com/jossmoff/bookshelf/pulls">
+    <img src="https://img.shields.io/github/issues-pr/jossmoff/bookshelf.svg">
+  </a>
+
+  <a href="https://github.com/tronprotocol/jossmoff/bookshelf/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/jossmoff/bookshelf.svg">
+  </a>
+
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/jossmoff/bookshelf.svg">
+  </a>
+</p>
