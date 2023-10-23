@@ -1,0 +1,12 @@
+angola/__init__.py,sha256=9JaQdyMLm86t2fQaUKsWinVKvl8RLsEZYO3gtkc0UUY,492
+angola/database.py,sha256=BldWRkSZsHftSNfACVhFMRx9fPoGAn_K0koH7PBInqM,64947
+angola/dict_mutator.py,sha256=8Mjzo_oLf4Hux_PAFZITZ5BmdgzH5NHrGifZkrDWF0A,13607
+angola/dict_query.py,sha256=Fbm2DGBSr6sXaH2ZIa5HHcRmcxXD_JmBK0xUFhLznkc,18847
+angola/lib.py,sha256=OUcypLwzfIrubeZKKS53svsxpu3BEBqPq5Hqk-8EIXU,20379
+angola/lib_dict.py,sha256=9DhmXGj-mKEUf8tzmREGhIVhFrdT2eX-xsNd4-SqWA4,12696
+angola/lib_xql.py,sha256=EZGMdjKBgpNJarpyBP6C2Nbj9ZKIsVehQFqSjoLaMPE,20077
+angola-0.17.0.dist-info/LICENSE,sha256=FlO4lqkNlJdbPgtHza40qj8DzcjNOobIguGwPt-pFtc,1084
+angola-0.17.0.dist-info/METADATA,sha256=zkpsoTYaoTIbCh4GQQwT82C5yX0ZdoWnerjLygJBgLc,1447
+angola-0.17.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+angola-0.17.0.dist-info/top_level.txt,sha256=O9hEVtjkRYtZSbj7VQTHAL88LEZNAkrM5OrZM8TQMw0,7
+angola-0.17.0.dist-info/RECORD,,
