@@ -1,0 +1,120 @@
+2023-10-22 00:43:45 - main.py - INFO - Run program with: info
+2023-10-22 00:43:45 - core.py - ERROR - No previous RJ id available, please first run a command with Rj id
+2023-10-22 00:43:53 - main.py - INFO - Run program with: tui
+2023-10-22 00:44:14 - main.py - INFO - Run program with: query
+2023-10-22 00:44:16 - main.py - INFO - Run program with: query 1
+2023-10-22 00:44:43 - main.py - INFO - Run program with: dl get 400900
+2023-10-22 00:45:06 - main.py - INFO - Run program with: info 400900
+2023-10-22 00:45:06 - info.py - INFO - RJ400900 not exists, try getting from web
+2023-10-22 00:45:31 - main.py - INFO - Run program with: info 1102584
+2023-10-22 00:45:31 - info.py - INFO - RJ1102584 not exists, try getting from web
+2023-10-22 00:45:36 - main.py - INFO - Run program with: dl get
+2023-10-22 00:45:36 - core.py - INFO - previous RJ id is 1102584
+2023-10-22 00:45:37 - spider.py - INFO - Downloading /tmp/RJ1102584/購入特典イラストダウンロード方法について.txt
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c42b450>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/04　SE無し(mp3)/01_目はつむったままだよ、眠れなくなっちゃうから….mp3
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/04　SE無し(mp3)/02_おっぱい出しちゃった…見たらいけないからね….mp3
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/04　SE無し(mp3)/03_脱ぎたてのほかほかパンツで包んであげる….mp3
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/04　SE無し(mp3)/04_赤ちゃん返りしちゃうママ寝かしつけパイズリ.mp3
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/04　SE無し(mp3)/05_布団の中で蒸れ蒸れぬくぬく密着いちゃいちゃオホ声スローセックス.mp3
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/04　SE無し(mp3)/EX_朝まで寝かせないお下品全開セックス.mp3
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/02　通常(mp3)/01_目はつむったままだよ、眠れなくなっちゃうから….mp3
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c42b410>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/02　通常(mp3)/02_おっぱい出しちゃった…見たらいけないからね….mp3
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c435d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/02　通常(mp3)/03_脱ぎたてのほかほかパンツで包んであげる….mp3
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c4482d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/02　通常(mp3)/04_赤ちゃん返りしちゃうママ寝かしつけパイズリ.mp3
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c44a890>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/02　通常(mp3)/05_布団の中で蒸れ蒸れぬくぬく密着いちゃいちゃオホ声スローセックス.mp3
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c437cd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/02　通常(mp3)/EX_朝まで寝かせないお下品全開セックス.mp3
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c435b90>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/01　通常(wav)/01_目はつむったままだよ、眠れなくなっちゃうから….wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/01　通常(wav)/02_おっぱい出しちゃった…見たらいけないからね….wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/01　通常(wav)/03_脱ぎたてのほかほかパンツで包んであげる….wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/01　通常(wav)/04_赤ちゃん返りしちゃうママ寝かしつけパイズリ.wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/01　通常(wav)/05_布団の中で蒸れ蒸れぬくぬく密着いちゃいちゃオホ声スローセックス.wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/01　通常(wav)/EX_朝まで寝かせないお下品全開セックス.wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/03　SE無し(wav)/01_目はつむったままだよ、眠れなくなっちゃうから….wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/03　SE無し(wav)/02_おっぱい出しちゃった…見たらいけないからね….wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/03　SE無し(wav)/03_脱ぎたてのほかほかパンツで包んであげる….wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/03　SE無し(wav)/04_赤ちゃん返りしちゃうママ寝かしつけパイズリ.wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/03　SE無し(wav)/05_布団の中で蒸れ蒸れぬくぬく密着いちゃいちゃオホ声スローセックス.wav
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/03　SE無し(wav)/EX_朝まで寝かせないお下品全開セックス.wav
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/01.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c42b8d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/02.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c449650>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/03.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c451190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/04.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c428f50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/05.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c4497d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/06.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c4354d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/07.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c4517d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/08.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c435310>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/09.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c435c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/01 密着ぬくぬく太ももコキ/10.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c44b610>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/02 ぬくぬくいちゃらぶ正常位種付け/01.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c448050>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/02 ぬくぬくいちゃらぶ正常位種付け/02.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c452c10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/02 ぬくぬくいちゃらぶ正常位種付け/03.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c44a490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/02 ぬくぬくいちゃらぶ正常位種付け/04.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c44b990>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/02 ぬくぬくいちゃらぶ正常位種付け/05.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c434250>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/02 ぬくぬくいちゃらぶ正常位種付け/06.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c452450>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/02 ぬくぬくいちゃらぶ正常位種付け/07.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c4379d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/02 ぬくぬくいちゃらぶ正常位種付け/08.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c434190>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/01.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c44b490>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/02.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c4486d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/03.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c453d10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/04.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c449610>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/05.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172cb17bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/06.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c435bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/07.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c437b50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/08.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c437e10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/09.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c436450>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/02 密着ぬくぬく太ももコキ 全裸Ver/10.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c44a8d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/01 もっとオホ声お下品種付けセックス/01.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c781890>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/01 もっとオホ声お下品種付けセックス/02.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c456450>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/01 もっとオホ声お下品種付けセックス/03.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c44b410>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/01 もっとオホ声お下品種付けセックス/04.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c42bc50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/01 もっとオホ声お下品種付けセックス/05.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c4366d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/01 もっとオホ声お下品種付けセックス/06.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c454d50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/01 もっとオホ声お下品種付けセックス/07.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c436bd0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/05　特典CG集/03 7日間限定特典CG集/01 もっとオホ声お下品種付けセックス/08.jpg
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c434750>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - Downloading /tmp/RJ1102584/06　おまけ安眠耳かき/安眠耳かき（mp3）.mp3
+2023-10-22 00:45:38 - spider.py - ERROR - Unknow download error: HTTPConnectionPool(host='localhost', port=6800): Max retries exceeded with url: /jsonrpc (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f172c44ae10>: Failed to establish a new connection: [Errno 111] Connection refused'))
+2023-10-22 00:45:38 - spider.py - INFO - filter file /tmp/RJ1102584/06　おまけ安眠耳かき/安眠耳かき（wav）.wav
+2023-10-22 00:45:38 - manage.py - INFO - successfully committed
