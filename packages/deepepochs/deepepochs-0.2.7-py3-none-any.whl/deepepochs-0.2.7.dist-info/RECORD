@@ -1,0 +1,13 @@
+deepepochs/__init__.py,sha256=4T-Xuh82R3qhgJpXL8-aKQFFrp8hMFMu7X6uRRQkNZA,135
+deepepochs/loops.py,sha256=WREYCIUCi_RjLZc4PyOIPXQ9ZKaAhnHWorg6TCvZo94,30882
+deepepochs/trainer.py,sha256=uD8GDSDMM_YqEO_Ne6cYwur9IcyHe8_eZXGuJBidEBk,1626
+deepepochs/utils.py,sha256=RgWtEUQlVbJ04XMZGsSnArJBzU6z05cO-JmiSlNpTzk,6578
+deepepochs/learner/__init__.py,sha256=tfZuy9k-GZE5ywdWeWcYdjd3KKCZ8OvNzD4OJ_gjZIQ,177
+deepepochs/learner/callbacks.py,sha256=4GEor0xefc5PpXo5TiHIX5W5pCtywPIDa6lSf2gG-tc,8982
+deepepochs/learner/learner_base.py,sha256=QFzJrlKY4CO87BMXFzdP_uZWJq5rggzB8PwSPLNK76E,7609
+deepepochs/learner/learner_default.py,sha256=zUduWqFQr5i_UqQVsi27fv0wg6rCC1PDw07O4N9C7GM,1494
+deepepochs-0.2.7.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+deepepochs-0.2.7.dist-info/METADATA,sha256=f9RbMymYGxpADN4VYXaD4kA-L1fyC8vbqaUkn06TY6g,3490
+deepepochs-0.2.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deepepochs-0.2.7.dist-info/top_level.txt,sha256=j976ROcH3JrQdIruL1TcLvu7mtPrpfxLmgQDGTgRY_0,11
+deepepochs-0.2.7.dist-info/RECORD,,
