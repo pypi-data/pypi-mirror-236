@@ -1,0 +1,2 @@
+[console_scripts]
+amn = AMN.main:main
