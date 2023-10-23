@@ -1,0 +1,5 @@
+theguardian
+requests
+openai
+bs4
+langchain
