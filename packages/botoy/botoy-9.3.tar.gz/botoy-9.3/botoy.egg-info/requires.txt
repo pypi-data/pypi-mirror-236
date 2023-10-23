@@ -1,0 +1,10 @@
+httpx
+websockets
+loguru
+click
+prettytable
+apscheduler
+pydantic<2.0
+colorama
+fastapi
+uvicorn
