@@ -1,0 +1,11 @@
+requests>=2.23.1
+progressbar2>=3.53.1
+area>=1.1.1
+tenacity>=8.0.1
+pandas>=2.1.1
+
+[:platform_system != "Windows"]
+pyproj>=1.9.5.1
+shapely>=1.7.1
+fiona>=1.8.20
+geopandas>=0.9.0

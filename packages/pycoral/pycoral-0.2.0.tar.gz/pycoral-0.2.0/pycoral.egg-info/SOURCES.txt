@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pycoral/__init__.py
+pycoral/pycoral.py
+pycoral.egg-info/PKG-INFO
+pycoral.egg-info/SOURCES.txt
+pycoral.egg-info/dependency_links.txt
+pycoral.egg-info/entry_points.txt
+pycoral.egg-info/requires.txt
+pycoral.egg-info/top_level.txt
