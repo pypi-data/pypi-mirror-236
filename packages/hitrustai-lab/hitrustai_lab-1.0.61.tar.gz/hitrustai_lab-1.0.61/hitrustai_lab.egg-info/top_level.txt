@@ -1,0 +1,17 @@
+hitrustai_lab\algorithm
+hitrustai_lab\analysis
+hitrustai_lab\deepstream
+hitrustai_lab\elk
+hitrustai_lab\knoweloge_base
+hitrustai_lab\matrix
+hitrustai_lab\model_train
+hitrustai_lab\model_train\core
+hitrustai_lab\mysql
+hitrustai_lab\orm
+hitrustai_lab\orm\Tables
+hitrustai_lab\service
+hitrustai_lab\service\apollo
+hitrustai_lab\service\database
+hitrustai_lab\service\datasync
+hitrustai_lab\service\log
+hitrustai_lab\service\otel
