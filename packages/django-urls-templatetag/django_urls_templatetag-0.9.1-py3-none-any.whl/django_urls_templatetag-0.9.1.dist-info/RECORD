@@ -1,0 +1,9 @@
+django_urls_templatetag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_urls_templatetag/utils.py,sha256=drWfIHuYPC38ZBh6d0ITWYq2vEIYJgOzOrn0tJZvTOs,2320
+django_urls_templatetag/templates/django_urls_templatetag/urls_js.html,sha256=cMFUu2t-MVc1VHddsd3SiMAFf-ufIAyT6ocgelpzvT0,767
+django_urls_templatetag/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_urls_templatetag/templatetags/django_urls.py,sha256=_aGdQTLFRTwf0P-q7OL6viDXuhhIjr5Lz37sMQRiiyA,307
+django_urls_templatetag-0.9.1.dist-info/METADATA,sha256=hYN3NpNGuXZW8xWNPiHrGL0xkNYgzu_5Fx956HWJ5kk,2494
+django_urls_templatetag-0.9.1.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+django_urls_templatetag-0.9.1.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+django_urls_templatetag-0.9.1.dist-info/RECORD,,
