@@ -1,0 +1,96 @@
+[tool.poetry]
+name = "nb-clean"
+version = "3.1.0"
+description = "Clean Jupyter notebooks for versioning"
+authors = ["Scott Stevenson <scott@stevenson.io>"]
+license = "ISC"
+readme = "README.md"
+homepage = "https://github.com/srstevenson/nb-clean"
+repository = "https://github.com/srstevenson/nb-clean"
+keywords = ["jupyter", "notebook", "clean", "filter", "git"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Natural Language :: English",
+]
+include = ["images/nb-clean.png"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<4.0"
+nbformat = ">=5.9.2"
+
+[tool.poetry.scripts]
+nb-clean = "nb_clean.cli:main"
+
+[tool.poetry.group.dev.dependencies]
+black = {extras = ["jupyter"], version = ">=23.3"}
+mypy = ">=1.4"
+poethepoet = ">=0.22.0"
+pytest = ">=7.2.1"
+pytest-cov = ">=4.1.0"
+pytest-lazy-fixture = ">=0.6.3"
+pytest-mock = ">=3.11.1"
+ruff = ">=0.0.285"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+skip-magic-trailing-comma = true
+
+[tool.coverage.report]
+exclude_also = [
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+]
+
+[tool.mypy]
+check_untyped_defs = true
+disallow_any_unimported = true
+disallow_untyped_defs = true
+no_implicit_optional = true
+show_error_codes = true
+strict = true
+warn_no_return = true
+warn_redundant_casts = true
+warn_return_any = true
+warn_unreachable = true
+warn_unused_configs = true
+warn_unused_ignores = true
+
+[tool.poe.tasks]
+_ruff_fix = "ruff --fix ."
+_black = "black ."
+fmt = ["_ruff_fix", "_black"]
+
+_black_check = "black --check ."
+_ruff = "ruff ."
+_mypy = "mypy ."
+lint = ["_black_check", "_ruff", "_mypy"]
+
+test = "pytest tests"
+check = ["lint", "test"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=nb_clean --cov-report=term-missing"
+
+[tool.ruff]
+target-version = "py38"
+select = ["ALL"]
+ignore = [
+  "C901",
+  "COM812",
+  "D203",
+  "D213",
+  "E501",
+  "INP001",
+  "PLR0912",
+  "PLR0913",
+  "PLR2004",
+  "RET504",
+  "S101",
+  "S603",
+  "S607",
+  "T201",
+]
