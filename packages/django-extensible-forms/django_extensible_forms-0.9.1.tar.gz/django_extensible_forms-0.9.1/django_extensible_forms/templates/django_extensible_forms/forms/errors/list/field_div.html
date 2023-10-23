@@ -1,0 +1,5 @@
+{% spaceless %}
+	<div id="{{ field.id_for_label }}Feedback"{% if error_class %} class="{{ error_class }}"{% endif %}{% if not errors %} style="display: none;"{% endif %}>
+		{% for error in errors %}{{ error }}{% if not forloop.last %}<br>{% endif %}{% endfor %}
+	</div>
+{% endspaceless %}

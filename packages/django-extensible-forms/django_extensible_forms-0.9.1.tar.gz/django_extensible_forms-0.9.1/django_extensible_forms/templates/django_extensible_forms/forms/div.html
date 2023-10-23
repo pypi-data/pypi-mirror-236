@@ -1,0 +1,20 @@
+{{ errors }}
+{% if errors and not fields %}
+	<div>{% for field in hidden_fields %}{{ field }}{% endfor %}</div>
+{% endif %}
+{% for field, errors in fields %}
+	<div{% if field.separator_attrs %}{% with attrs=field.separator_attrs %}{% include 'django/forms/attrs.html' %}{% endwith %}{% endif %}>
+		{# support django < 5 by checking if as_field_group exists #}
+		{% if field.as_field_group %}
+			{{ field.as_field_group }}
+		{% else %}
+			{% include 'django_extensible_forms/forms/field.html' %}
+		{% endif %}
+		{% if forloop.last %}
+			{% for field in hidden_fields %}{{ field }}{% endfor %}
+		{% endif %}
+	</div>
+{% endfor %}
+{% if not fields and not errors %}
+	{% for field in hidden_fields %}{{ field }}{% endfor %}
+{% endif %}

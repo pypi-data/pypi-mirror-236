@@ -1,0 +1,6 @@
+{% load extensible_forms %}
+<div class="input-group">
+	{% if prepend %}{% for text in prepend %}<span class="input-group-text">{{ text }}</span>{% endif %}{% endif %}
+	{% include templates|pop %}
+	{% if append %}{% for text in append %}<span class="input-group-text">{{ text }}</span>{% endif %}{% endif %}
+</div>

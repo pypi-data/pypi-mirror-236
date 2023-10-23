@@ -1,0 +1,5 @@
+{% load extensible_forms %}
+{% include templates|pop %}
+<datalist id="{{ widget.attrs.id }}Options">
+	{% for item in widget.datalist %}<option value="{{ item }}">{% endfor %}
+</datalist>
