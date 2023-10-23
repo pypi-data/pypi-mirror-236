@@ -1,0 +1,6 @@
+requests
+bs4
+yt-dlp
+loguru
+typingdict
+click
