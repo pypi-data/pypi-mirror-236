@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "currywrap"
+version = "0.1.0"
+description = ""
+authors = ["idorrington92 <idorrington92@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+cachetools = "*"
+numba = "*"
+numpy = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
