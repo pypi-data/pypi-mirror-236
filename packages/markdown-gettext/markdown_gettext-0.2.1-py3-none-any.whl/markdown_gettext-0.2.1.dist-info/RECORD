@@ -1,0 +1,11 @@
+markdown_gettext/__init__.py,sha256=JYaCVnZoDI0CvyHHQZFt5YcuyL2ipbOPq-wYb2-tLUI,117
+markdown_gettext/cli.py,sha256=UMGaJlEOl55m_06jFTpUxUxjJU4aJf7f_UiYtww9mVg,4718
+markdown_gettext/domain_extraction.py,sha256=GXD2w_a2a0nXXZSHHApMMrZJ9EE_mNEp3xlnS1oHzpc,2923
+markdown_gettext/domain_generation.py,sha256=WjIMvwrfV4KkDueO8J6K4x_RO-ApvVKqEVViPYe_rRw,1964
+markdown_gettext-0.2.1.dist-info/entry_points.txt,sha256=VcFIfD8b2NlWsDRBCNhTw__o7h8UJ6ypSXF5trubxQU,99
+markdown_gettext-0.2.1.dist-info/LICENSES/CC-BY-SA-4.0.txt,sha256=zeeIO5BQoRBPSsGaFXKq_W5dcyO2g1Gq9R-_S-ulSWY,18375
+markdown_gettext-0.2.1.dist-info/LICENSES/LGPL-2.1-or-later.txt,sha256=-m82Ywux4MVx00srvfGI0ISVydv1jyjKwRLzA_wfWPs,25967
+markdown_gettext-0.2.1.dist-info/LICENSES/CC0-1.0.txt,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+markdown_gettext-0.2.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+markdown_gettext-0.2.1.dist-info/METADATA,sha256=8B6vFPkjMoBioBiQjQMlE4BPN1amMbFB_3UQK-aJjqA,2786
+markdown_gettext-0.2.1.dist-info/RECORD,,
