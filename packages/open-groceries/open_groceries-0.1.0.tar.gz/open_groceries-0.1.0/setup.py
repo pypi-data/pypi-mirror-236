@@ -1,0 +1,30 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['open_groceries', 'open_groceries.adapters', 'open_groceries.models']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['bs4>=0.0.1,<0.0.2', 'esprima>=4.0.1,<5.0.0', 'requests>=2.31.0,<3.0.0']
+
+setup_kwargs = {
+    'name': 'open-groceries',
+    'version': '0.1.0',
+    'description': 'Unified data acquisition across multiple grocery store sites',
+    'long_description': '# open-groceries\n\nUnified data acquisition across multiple grocery store sites\n\n## Installation\n\n```bash\npython3 -m pip install open-groceries\n```\n\n## Example Usage\n\n```python\nfrom open_groceries import OpenGrocery\n\n# Initialize adapter clients\nclient = OpenGrocery()\n\n# Print locations near Times Square\nprint(client.locations("Times Square NYC"))\n\n# Print search results for "beans"\nprint(client.search("beans"))\n\n# Print search suggestions for "pot"\nprint(client.suggest("pot"))\n```\n\n## API Documentation\n\n**OpenGrocery:**\n\nThe OpenGrocery class is an aggregator for all included adapters. Function/constructor signatures are as follows:\n\n- `OpenGrocery(features = ..., user_agent = ..., adapter_kwargs = ...)`\n\n  - `features`: Optional `str[]`, list of adapter names to initialize.\n  - `user_agent`: Optional `str`, user-agent string to pass to APIs.\n  - `adapter_kwargs`: Optional `{str: {str: any}}`, mapping of `adapter:{kwargs}` for individual adapter kwargs\n- `OpenGrocery().locations(near, include = ...) -> Location[]`: Fetches locations near an address\n\n  - `near`: Required `str`, address to query.\n    - Example formats: `"14620"`, `"Times Square NYC"`, `"Rochester Institute of Technology"`\n  - `include`: Optional `str[]`, list of adapters to query. Skips any that aren\'t initialized\n  - Returns `Location[]` in order of distance to specified address\n- `OpenGrocery().set_nearest_stores(near, include = ...) -> None`: Sets each adapter to its nearest store\n\n  - `near`: Required `str`, address to query.\n    - Example formats: `"14620"`, `"Times Square NYC"`, `"Rochester Institute of Technology"`\n  - `include`: Optional `str[]`, list of adapters to query. Skips any that aren\'t initialized\n- `OpenGrocery().set_locations(locations) -> None`: Sets each adapter to a specific store\n\n  - `locations`: Required `{str: Location}`, mapping of adapter name to desired location. This function does not check whether the input location is valid for that adapter.\n- `OpenGrocery().search(query, include = ...) -> GroceryItem[]`: Searches adapters for a search query\n\n  - `query`: Required `str`, search term to look for\n  - `include`: Optional `str[]`, list of adapters to query. Skips any that aren\'t initialized\n  - Returns `GroceryItem[]` in order of similarity to the search term\n- `OpenGrocery().adapter(adapter) -> GroceryAdapter | None`: Utility function to return an initialized adapter\n\n  - `adapter`: Required `str`, name of adapter to get\n  - Returns specified `GroceryAdapter` if found, or `None` if not\n- `OpenGrocery().suggest(term, include = ...) -> str[]`: Gets autocompletion suggestions to search term\n\n  - `term`: Required `str`, search term to suggest for\n  - `include`: Optional `str[]`, list of adapters to query. Skips any that aren\'t initialized\n  - Returns `str[]` in order of similarity to search term\n\n**GroceryAdapter:**\n\nThe GroceryAdapter class is the abstract parent of all included Adapters. It shoul not be initialized itself, but should instead be subclassed to create Adapters.\n\n- `GroceryAdapter(user_agent = ...)`\n\n  - `user_agent`: Optional `str`, user agent header to send to APIs\n- `GroceryAdapter().search_groceries(search) -> GroceryItem[]`: Search for groceries\n\n  - `search`: Required `str`, search term to look for\n  - Returns `GroceryItem[]` in the order returned by the website\n- `GroceryAdapter().get_grocery_item(id) -> GroceryItem`: Gets a specific grocery item by ID\n\n  - `id`: Required `str`, item ID to return\n  - Returns `GroceryItem` returned by the website\n- `GroceryAdapter().get_locations(near) -> Location[]`: Gets store locations near an address\n\n  - `near`: Required `str`, address to query.\n    - Example formats: `"14620"`, `"Times Square NYC"`, `"Rochester Institute of Technology"`\n  - Returns `Location[]` in the order returned by the website\n- `GroceryAdapter().set_location(location) -> None`: Sets preferred store location\n\n  - `location`: Required `Location`, location to set\n- `GroceryAdapter().suggest(search) -> str[]`: Gets autocomplete suggestions for a search term\n\n  - `term`: Required `str`, search term to suggest for\n  - Returns `str[]` in order returned by the website\n\n## Supported Stores\n\n| Store   | Item Search                                 | Item Retrieval                              | Location Search                                   | Location Filtering       | Autocomplete                                      |\n| ------- | ------------------------------------------- | ------------------------------------------- | ------------------------------------------------- | ------------------------ | ------------------------------------------------- |\n| Wegmans | Full support [Long Term/Versioned API]      | Full support [Long Term/Versioned API]      | Full support [Medium Term/External Versioned API] | Full Support [Long Term] | Full support [Medium Term/External Versioned API] |\n| Costco  | Adequate support [Medium Term/Site Parsing] | Adequate support [Medium Term/Site Parsing] | Full support [Medium Term/External Versioned API] | Full Support [Long Term] | Full support [Long Term/Versioned API]            |\n',
+    'author': 'Dax Harris',
+    'author_email': 'matteovh@gmail.com',
+    'maintainer': 'None',
+    'maintainer_email': 'None',
+    'url': 'https://github.com/iTecAI/open-groceries',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'python_requires': '>=3.11,<4.0',
+}
+
+
+setup(**setup_kwargs)
