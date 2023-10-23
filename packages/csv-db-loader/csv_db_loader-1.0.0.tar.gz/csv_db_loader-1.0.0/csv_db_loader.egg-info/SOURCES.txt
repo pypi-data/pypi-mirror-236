@@ -1,0 +1,15 @@
+README.md
+setup.py
+csv_db_loader.egg-info/PKG-INFO
+csv_db_loader.egg-info/SOURCES.txt
+csv_db_loader.egg-info/dependency_links.txt
+csv_db_loader.egg-info/requires.txt
+csv_db_loader.egg-info/top_level.txt
+db_loader/__init__.py
+db_loader/migration.py
+db_loader/mysql_connector/__init__.py
+db_loader/mysql_connector/db_connector.py
+db_loader/structs/__init__.py
+db_loader/structs/migration.py
+db_loader/structs/struct_strategy.py
+db_loader/structs/structure.py
