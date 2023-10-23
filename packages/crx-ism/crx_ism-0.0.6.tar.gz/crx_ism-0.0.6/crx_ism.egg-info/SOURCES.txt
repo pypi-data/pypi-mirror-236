@@ -1,0 +1,9 @@
+setup.py
+crx_ism/__init__.py
+crx_ism/evaluate.py
+crx_ism/quality_metrics.py
+crx_ism.egg-info/PKG-INFO
+crx_ism.egg-info/SOURCES.txt
+crx_ism.egg-info/dependency_links.txt
+crx_ism.egg-info/requires.txt
+crx_ism.egg-info/top_level.txt
