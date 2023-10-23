@@ -1,0 +1,8 @@
+fastapi
+lyricsgenius
+matplotlib
+nltk
+pandas
+requests
+seaborn
+uvicorn
