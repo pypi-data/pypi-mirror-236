@@ -1,0 +1,113 @@
+varnames = []
+varvalues = []
+arnames = []
+arvalues = []
+
+# set array
+def set_array(name, value):
+    # reference to global variables
+    global arnames
+    global arvalues
+    # check if the array exist or declare a new, get the correct index name.
+    if name in arnames:
+        index = arnames.index(name)
+    else:
+        index = len(arnames)
+        arnames[index] = name
+    # use the correct index to store the value.
+    arvalues[index] = value
+
+# set array element
+def set_array_element(name, index, value):
+    # reference to global variables
+    global arnames
+    global arvalues
+    # check if the array element exist or declare a new, get the correct index name.
+    if name not in arnames:
+        set_array(name, None)
+    # use the correct index to store the value.
+    arvalues[arnames.index(name)][index] = value
+
+# get array, if it does not exist, it will be created.
+def get_array(name):
+    # reference to global variables
+    global arnames
+    global arvalues
+    # check if the array exist and return a reference if it does.
+    if name not in arnames:
+        set_array(name, None)
+    return arvalues[arnames.index(name)]
+
+
+# get array element
+def get_array_element(name):
+    # reference to global variables
+    global arnames
+    global arvalues
+     # check if the array element exist and return a reference if it does.
+    if name not in arnames:
+        set_array(name, None)
+     
+    if name not in arnames:
+        set_array(name, None)
+
+    index = arnames.index(name)
+    return arvalues[index]
+    
+# clear array
+def clear_array(name):
+    # reference to global variables
+    global arnames
+    global arvalues
+    # check if the array exist or declare a new, get the correct index name.
+    if name in arnames:
+        index = arnames.index(name)
+    else:
+        index = len(arnames)
+        arnames[index] = name
+    # use the correct index to remove the array.
+    arvalues[index] = None
+
+# clear array element
+def clear_array_element(name, index):
+    # reference to global variables
+    global arnames
+    global arvalues
+    # check if the array element exist or declare a new, get the correct index name.
+    if name in arnames:
+        element_index = arnames.index(name)
+    else:
+        element_index = len(arnames)
+        arnames[element_index] = name
+    # use the correct index to remove the element.
+    arvalues[element_index][index] = None
+
+# delete array
+def delete_array_(name):
+    # reference to global variables
+    global arnames
+    global arvalues
+    # check if the array exist or declare a new, get the correct index name.
+    if name in arnames:
+        index = arnames.index(name)
+        # delete the array name and values
+        del arnames[index]
+        del arvalues[index]
+
+# delete array element
+def delete_array_element(name, index):
+    # reference to global variables
+    global arnames
+    global arvalues
+    # check if the array exist, get the correct index name.
+    if name in arnames:
+        element_index = arnames.index(name)
+        # check if the element index is valid
+        if 0 <= index < len(arvalues[element_index]):
+            # delete the element from the array
+            del arvalues[element_index][index]
+
+# set array
+def calculate(integer1, integer2):
+    return integer1 + integer2
+    
