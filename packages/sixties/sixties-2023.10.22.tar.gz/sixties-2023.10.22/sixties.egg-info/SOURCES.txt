@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+sixties/__init__.py
+sixties/__main__.py
+sixties/cli.py
+sixties.egg-info/PKG-INFO
+sixties.egg-info/SOURCES.txt
+sixties.egg-info/dependency_links.txt
+sixties.egg-info/entry_points.txt
+sixties.egg-info/requires.txt
+sixties.egg-info/top_level.txt
+test/test_cli.py
+test/test_sixties.py
