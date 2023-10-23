@@ -1,0 +1,21 @@
+[project]
+name = "leesung02.github.io"
+version = "0.2.0"
+description = "lllll"
+authors = [
+    { name = "LEESUNG02", email = "leesung02@naver.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool]
