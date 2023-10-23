@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: EnigmaGame
+Version: 1.0.3
+Summary: A game as difficult as the Rubik’s cube
+Author-email: Michael Hodel <info@adiuvaris.ch>
+License: MIT License
+        
+        Copyright (c) 2018 Real Python
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/adiuvaris/EnigmaGame
+Keywords: Puzzle,Rubick,Turning,Game
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: arcade ==2.6.17
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: bumpver ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# EnigmaGame
+
+*A game as difficult as the Rubik’s cube*
+
+* **category**    Game, Program
+* **version**     1.0.3
+* **author**      Michael Hodel <info@adiuvaris.ch>
+* **copyright**   2023 Michael Hodel - Adiuvaris
+* **license**     http://www.gnu.org/copyleft/lesser.html GNU-LGPL v3 (see LICENSE.TXT)
+* **link**        https://adiuvaris.ch
+* **source**      https://github.com/adiuvaris/EnigmaGame
+
+
+## Description
+
+This puzzle was invented by Douglas A. Engel and it consists of two intersecting disks in a plastic holder.
+This program is a computer version of this puzzle that I wrote in Python.
+
+
+![image](https://github.com/adiuvaris/EnigmaGame/raw/master/EnigmaGame.png)
+
+
+## Install
+
+Via PyPi
+
+``` bash
+$ pip install EnigmaGame
+```
+
+## Usage
+
+``` python
+python -m EnigmaGame
+```
+
+Start a game and turn the upper and lower disk. The goal is to reset the pattern to the example in the right corner.
+
+The rotations can be initiated with an intuitive mouse movement (or on a touch screen with a finger gesture). 
+This requires a mouse click on the appropriate disk and then a mouse move while holding the mouse button pressed. 
+When you release the mouse button, the rotation is executed. With a touch screen you can do that with the finger.
+It is also possible to turn the disks with the left and right cursor keys. 
+If you additionally hold the shift key the upper disk will be rotated.
+
+On the screen you see the actual playing area. It consists of two circular disks that are intersecting each other. 
+On each disk, there are six stones alternating with six bones. The stones look like overweight triangles, 
+the bones as malnourished rectangles. Since the disks are intersecting, they share two stones and a bone. If a disk, 
+let’s say the upper one, is rotated by 60 degrees, then one stone and one bone that had previously also belonged 
+to the lower disk are replaced by a new stone and new bone.
+
+
+
+## License
+
+GNU LESSER GENERAL PUBLIC LICENSE. Please see [License File](LICENSE) for more information.
