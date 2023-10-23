@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RUDS
+Version: 0.0.1
+Summary: Randomly-Updated Data Structures (RUDS) provides non-deterministic behaviour to Python classes when their methods are called.
+Project-URL: Homepage, https://github.com/galenseilis/RUDS/tree/main
+Project-URL: Bug Tracker, https://github.com/galenseilis/RUDS/issues
+Author-email: Galen Seilis <galen.seilis@seilis.ca>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# RUDS
+Randomly-Updated Data Structures (RUDS) provides non-deterministic behaviour to Python classes when their methods are called.
