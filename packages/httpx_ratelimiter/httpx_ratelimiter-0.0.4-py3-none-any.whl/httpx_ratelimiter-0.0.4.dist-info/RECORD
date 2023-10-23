@@ -1,0 +1,6 @@
+httpx_ratelimiter/__init__.py,sha256=c9suYehKjKhwfre4kg9Fig_XhFLtQ4JA_2UZqygytwU,485
+httpx_ratelimiter/httpx_ratelimiter.py,sha256=Rmir3hlCvlD3XSvX31FiJri3MijLTb8iyYn4T_S76WE,8138
+httpx_ratelimiter-0.0.4.dist-info/LICENSE,sha256=eHEL5ocOvpbcpg7ExRJTWAr3ZrTGXeof-a_RHjnFEKw,1069
+httpx_ratelimiter-0.0.4.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+httpx_ratelimiter-0.0.4.dist-info/METADATA,sha256=nb7FM1YHdS4H-4reX-kiwzzlkBrFPOx0rp94g55K3g4,2199
+httpx_ratelimiter-0.0.4.dist-info/RECORD,,
