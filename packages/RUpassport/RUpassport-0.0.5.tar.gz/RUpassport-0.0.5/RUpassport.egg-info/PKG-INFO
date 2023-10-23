@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: RUpassport
+Version: 0.0.5
+Summary: Recognizes data from Russian passports and returns them
+Home-page: https://github.com/Filin153/RUpassport
+Author: @GusGus153
+Author-email: dimons2006@yandex.ru
+Project-URL: GitHub, https://github.com/Filin153/RUpassport
+Keywords: ru rus RU RUS passport RUpassport recognition
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: ultralytics==8.0.200
+Requires-Dist: easyocr==1.7.1
+Requires-Dist: opencv-python==4.8.1.78
+
+# RUpassport #
+
+## What is this? ##
+Library to recognizes data from Russian passports and returns them
+
+## Quick Guide ##
+    pip install RUpassport
+####
+    from RUpassport.RUpassport import Pasport
+    
+    p = Pasport()
+    pasport_info = p.recognize_pasport("img.png", "123")
+    print(pasport_info)
