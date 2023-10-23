@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: sypy
+Version: 0.0.1
+Summary: fastapi rip-off
+Author-email: "Ivan \"Spaceginner\"" <ivan.demian2009@gmail.com>
+License: sypy - python http api server
+        Copyright (C) 2023  Ivan "Spaceginner"
+        
+        This program is free software; you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation; version 2 of the License.
+        
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.
+        
+        You should have received a copy of the GNU General Public License along
+        with this program; if not, write to the Free Software Foundation, Inc.,
+        51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+        
+Project-URL: Homepage, https://github.com/Spaceginner/sypy
+Project-URL: Bug Tracker, https://github.com/Spaceginner/sypy/issues
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Typing :: Typed
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+
+# sypy.
+
+the barely working fastapi-inspired HTTP API server!1
+
+## why?
+
+~~why not?~~ i wanted to learn some stuff, and also i kinda didnt like the overhead of fastapi either (come on, 25
+function calls to get to the callback? i know in my case it aint better really, the packet goes through... 3 queues
+iirc? and also, `wrk` reports that in 1% of cases latency is like 1s :skull: and sometimes server doesnt even
+respond(???))
+
+## why dont you use xxx builtin lib or smth
+
+i wanted to be (1) dependency-free (2) written in (as much as it goes) pure python from complete scratch
+
+## ps
+
+it is still in very WIP state, codebase is a mess, documentation is basically non-existant (only `example.py` lmfao) and
+it may break sometimes
+
+## license
+
+its [gpl2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.txt)
