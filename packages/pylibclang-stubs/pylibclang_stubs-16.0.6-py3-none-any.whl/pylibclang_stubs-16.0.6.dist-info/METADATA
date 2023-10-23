@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pylibclang-stubs
+Version: 16.0.6
+Summary: Python stubs for pylibclang
+License: MIT
+Project-URL: Homepage, https://github.com/edimetia3d/pylibclang
+Project-URL: Documentation, https://github.com/edimetia3d/pylibclang
+Project-URL: Repository, https://github.com/edimetia3d/pylibclang
+Project-URL: Changelog, https://github.com/edimetia3d/pylibclang/releases
+Keywords: pybind11,libclang,python,stubs
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Compilers
+
