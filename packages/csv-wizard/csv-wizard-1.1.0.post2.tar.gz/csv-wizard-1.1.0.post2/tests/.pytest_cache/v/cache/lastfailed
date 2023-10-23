@@ -1,0 +1,10 @@
+{
+  "test_divide.py": true,
+  "test_encoding.py": true,
+  "test_find_common_rows.py": true,
+  "test_find_different_rows.py": true,
+  "test_get_dialect.py": true,
+  "test_get_headers.py": true,
+  "test_misc.py": true,
+  "test_slice.py": true
+}
