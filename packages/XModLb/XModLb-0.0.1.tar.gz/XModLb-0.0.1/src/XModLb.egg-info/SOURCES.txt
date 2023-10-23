@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/XModLb.py
+src/XModLb.egg-info/PKG-INFO
+src/XModLb.egg-info/SOURCES.txt
+src/XModLb.egg-info/dependency_links.txt
+src/XModLb.egg-info/requires.txt
+src/XModLb.egg-info/top_level.txt
