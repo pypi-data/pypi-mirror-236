@@ -1,0 +1,18 @@
+[metadata]
+icon = "mdi:graph-outline"
+
+[[requirements.extension."pymdownx.superfences".custom_fences]]
+name = "mermaid"
+class = "mermaid"
+format = "pymdownx.superfences.fence_code_format"
+
+[examples."Regular"]
+jinja = """
+{{ ["1", "2", "3"] | MkDiagram(connections=[("1", "2"), ("2", "3")]) }}
+"""
+
+[examples."Direction"]
+jinja = """
+{{ ["1", "2", "3"] | MkDiagram(connections=[("1", "2"), ("2", "3", "comment")], direction="LR") }}
+"""
+
