@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: simple-github
+Version: 0.1.0
+Summary: A simple Github client that only provides auth and access to the REST and GraphQL APIs.
+License: MPL-2.0
+Author: Mozilla Release Engineering
+Author-email: release@mozilla.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp[speedups] (>=3.8.6,<4.0.0)
+Requires-Dist: gql (>=3.4.1,<4.0.0)
+Requires-Dist: pyjwt[crypto] (>=2.8.0,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+[![Task Status](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-releng/simple-github-client/main/badge.svg)](https://firefox-ci-tc.services.mozilla.com/api/github/v1/repository/mozilla-releng/simple-github-client/main/latest)
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/mozilla-releng/simple-github-client/main.svg)](https://results.pre-commit.ci/latest/github/mozilla-releng/simple-github-client/main)
+[![Code Coverage](https://codecov.io/gh/mozilla-releng/simple-github-client/branch/main/graph/badge.svg?token=GJIV52ZQNP)](https://codecov.io/gh/mozilla-releng/simple-github-client)
+[![Documentation Status](https://readthedocs.org/projects/simple-github-client/badge/?version=latest)](https://simple-github-client.readthedocs.io/en/latest/?badge=latest)
+[![License](https://img.shields.io/badge/license-MPL%202.0-orange.svg)](http://mozilla.org/MPL/2.0)
+
+# simple-github-client
+
+A simple Github client that only provides auth and access to the REST and GraphQL APIs.
+
