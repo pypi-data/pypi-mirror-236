@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/nbmetaclean/__init__.py
+src/nbmetaclean/version.py
+src/nbmetaclean.egg-info/PKG-INFO
+src/nbmetaclean.egg-info/SOURCES.txt
+src/nbmetaclean.egg-info/dependency_links.txt
+src/nbmetaclean.egg-info/requires.txt
+src/nbmetaclean.egg-info/top_level.txt
