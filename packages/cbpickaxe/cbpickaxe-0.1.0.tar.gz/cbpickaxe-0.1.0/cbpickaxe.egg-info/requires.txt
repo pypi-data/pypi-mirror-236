@@ -1,0 +1,10 @@
+godot_parser
+smaz-py3
+Jinja2
+Pillow
+
+[test]
+black
+mypy
+pylint
+pytest

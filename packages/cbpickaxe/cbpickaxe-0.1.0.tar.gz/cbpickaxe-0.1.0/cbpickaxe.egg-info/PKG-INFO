@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: cbpickaxe
+Version: 0.1.0
+Summary: A Python library and scripts for data mining the game Cassette Beasts.
+Author: ExcaliburZero
+License: MIT License
+Project-URL: Changelog, https://github.com/ExcaliburZero/cbpickaxe/blob/master/CHANGELOG.md
+Project-URL: Documentation, https://cbpickaxe.readthedocs.io/en/latest/
+Project-URL: Homepage, https://github.com/ExcaliburZero/cbpickaxe
+Project-URL: Issues, https://github.com/ExcaliburZero/cbpickaxe/issues
+Project-URL: Repository, https://github.com/ExcaliburZero/cbpickaxe.git
+Keywords: Cassette Beasts
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Typing :: Typed
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: godot_parser
+Requires-Dist: smaz-py3
+Requires-Dist: Jinja2
+Requires-Dist: Pillow
+Provides-Extra: test
+Requires-Dist: black; extra == "test"
+Requires-Dist: mypy; extra == "test"
+Requires-Dist: pylint; extra == "test"
+Requires-Dist: pytest; extra == "test"
+
+# cbpickaxe [![Python library](https://github.com/ExcaliburZero/cbpickaxe/actions/workflows/python-library.yml/badge.svg)](https://github.com/ExcaliburZero/cbpickaxe/actions/workflows/python-library.yml) [![Documentation Status](https://readthedocs.org/projects/cbpickaxe/badge/?version=latest)](https://cbpickaxe.readthedocs.io/en/latest/?badge=latest)
+A Python library and set of scripts for data mining the game Cassette Beasts.
+
+```python
+import cbpickaxe as cbp
+
+hoylake = cbp.Hoylake()
+hoylake.load_root("cassette_beasts", "Cassette Beasts")
+
+for monster_form in hoylake.load_monster_forms("res://data/monster_forms/").values():
+    monster_name = hoylake.translate(monster_form.name)
+    print(path, monster_name, monster_form)
+```
+
+## Installation
+```bash
+git clone https://github.com/ExcaliburZero/cbpickaxe.git
+cd cbpickaxe
+pip install -e .
+```
+
+## Scripts
+| Script        | Description |
+| ------------- | ----------- |
+| [generate_docs](https://cbpickaxe.readthedocs.io/en/latest/generate_docs/intro.html) | Generates HTML pages that document monsters, moves, items, etc. added by a mod. |
+| [extract_translation](https://cbpickaxe.readthedocs.io/en/latest/other_scripts/extract_translation_strings.html) | Extracts the translations of given in-game text |
+| [get_move_users](https://cbpickaxe.readthedocs.io/en/latest/other_scripts/get_move_users.html) | Finds all of the monster species that can use given moves. |
+| [generate_monster_animations](https://cbpickaxe.readthedocs.io/en/latest/other_scripts/generate_monster_animations.html) | Creates animated gifs of monster battle animations. |
