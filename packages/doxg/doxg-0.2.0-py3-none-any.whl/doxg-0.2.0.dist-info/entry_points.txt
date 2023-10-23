@@ -1,0 +1,5 @@
+[console_scripts]
+doxg-imp = doxg.app:imp
+doxg-pic = doxg.app:pic
+doxg-who = doxg.app:who
+
