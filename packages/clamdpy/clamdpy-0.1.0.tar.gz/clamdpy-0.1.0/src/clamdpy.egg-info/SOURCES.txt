@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+src/clamdpy/__init__.py
+src/clamdpy/exceptions.py
+src/clamdpy/models.py
+src/clamdpy/py.typed
+src/clamdpy/sockets.py
+src/clamdpy/typing.py
+src/clamdpy.egg-info/PKG-INFO
+src/clamdpy.egg-info/SOURCES.txt
+src/clamdpy.egg-info/dependency_links.txt
+src/clamdpy.egg-info/top_level.txt
+tests/test_sockets.py
