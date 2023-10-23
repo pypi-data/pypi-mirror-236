@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: anova-ble
+Version: 0.1.4
+Summary: 
+Author: ninjawarrior1337
+Author-email: me@treelar.xyz
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: bleak (>=0.21.1,<0.22.0)
+Requires-Dist: bleak-retry-connector (>=3.2.1,<4.0.0)
+Description-Content-Type: text/markdown
+
+# Anova BLE API
+
+## Built for use with Home Assistant / Bleak
