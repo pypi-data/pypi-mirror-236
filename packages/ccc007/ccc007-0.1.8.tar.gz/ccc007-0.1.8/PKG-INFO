@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ccc007
+Version: 0.1.8
+Summary: ccc007的工具
+Home-page: https://github.com/1492949083/repo
+Author: ccc007
+Author-email: mengchao704653@gmail.com
+License-File: LICENSE
+Requires-Dist: pywin32
+Requires-Dist: numpy
+Requires-Dist: Pillow
+
+# ccc007
+
+[![PyPI 版本](https://badge.fury.io/py/ccc007.svg)](https://pypi.org/project/ccc007/)
+[![许可证：GPL 3.0](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/GPL-3.0)
+
+这是我的工具合集
+
+## 安装
+
+使用软件包管理器 [pip](https://pip.pypa.io/en/stable/) 安装您的包名称。
