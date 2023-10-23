@@ -1,0 +1,5 @@
+[console_scripts]
+git2appsurify=testbrain.bin.git2appsurify:cli
+git2testbrain=testbrain.bin.git2testbrain:cli
+testbrain=testbrain.__main__:cli
+
