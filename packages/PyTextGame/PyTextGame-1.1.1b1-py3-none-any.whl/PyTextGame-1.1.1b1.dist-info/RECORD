@@ -1,0 +1,15 @@
+pytextgame.py,sha256=x_Za9H37kbZBNCsxT0HJHJg3BLfcPKxwyEOagqna_g4,52
+pytextgame/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pytextgame/main.py,sha256=I-zk3cygAwCrVYBDUsb1ERjcmnqfHbqx6cKC9UUWTUA,1046
+pytextgame/pytextgame_w.pyw,sha256=SUKJOdjbLlXh-mMdCyc75yFEiCszpFArDwhdNQdny14,1303
+pytextgame/components/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytextgame/components/compartments.py,sha256=CjAQVx7GOGZBFkKuT3ICqQI0faixdZ_GY_8lmLFmFKI,1658
+pytextgame/components/dat.py,sha256=tlkmqosn3Ij24pBxxNDRRc2FEfv2OPwFfzDgB8553BE,567
+pytextgame/components/errors.py,sha256=33aICheHeLQOLgwL3uQa52aFxtI-wTErNprjzgRKxOI,298
+pytextgame/components/frames.py,sha256=M4Hte95T79WGIj9oFiaY2pdrA2_y75onqqTKIEy7UeA,1362
+PyTextGame-1.1.1b1.dist-info/LICENSE.txt,sha256=x82I1sCn1uxfRzouoKHOAS6gr1MksaZRi3nRHsmtULc,33020
+PyTextGame-1.1.1b1.dist-info/METADATA,sha256=9SxOuLV31MONYRXla0E5BcUDH1gFjBGrFQStHp7f44I,3692
+PyTextGame-1.1.1b1.dist-info/NOTICE.txt,sha256=OMmbRsg1mXxhKnB91XqT2y5jsCBYjybg_X8G43S-ags,1077
+PyTextGame-1.1.1b1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+PyTextGame-1.1.1b1.dist-info/top_level.txt,sha256=CH5-UxPODjdMwZluhow6-krEgnGmYQ1H952IZRrTPU4,11
+PyTextGame-1.1.1b1.dist-info/RECORD,,
