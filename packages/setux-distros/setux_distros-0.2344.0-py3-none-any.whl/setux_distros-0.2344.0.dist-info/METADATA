@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: setux-distros
+Version: 0.2344.0
+Summary: System deployment
+Author-email: Louis RIVIERE <louis@riviere.xyz>
+License: MIT
+Project-URL: pypi, https://pypi.org/project/setux-distros
+Project-URL: repository, https://framagit.org/louis-riviere-xyz/setux_distros
+Keywords: utility
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: setux-core >=0.2343.0
+Requires-Dist: setux-managers >=0.2343.0
+
+# Setux Distros
+
+[Setux] OS support
+
+[PyPI] - [Repo] - [Doc]
+
+
+[PyPI]: https://pypi.org/project/setux_distros
+[Repo]: https://framagit.org/louis-riviere-xyz/setux_distros
+[Doc]: https://setux-distros.readthedocs.io/en/latest
+[Setux]: https://setux.readthedocs.io/en/latest
