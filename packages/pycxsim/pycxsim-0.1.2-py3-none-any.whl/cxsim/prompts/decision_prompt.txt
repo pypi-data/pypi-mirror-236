@@ -1,0 +1,18 @@
+[decision prompt]
+CURRENT STEP: {current_step}
+
+INVENTORY:
+{inventory}
+
+Last Action: {history}
+
+RESULT OF ACTION: {observation}
+
+Marketplace: {marketplace}
+
+Parameters: {parameters}
+
+Goal: {goal}
+
+Think step by step to decide which action best furthers your goal.
+What action do you take?
