@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pause_transformer/__init__.py
+pause_transformer/pause_transformer.py
+pause_transformer.egg-info/PKG-INFO
+pause_transformer.egg-info/SOURCES.txt
+pause_transformer.egg-info/dependency_links.txt
+pause_transformer.egg-info/requires.txt
+pause_transformer.egg-info/top_level.txt
