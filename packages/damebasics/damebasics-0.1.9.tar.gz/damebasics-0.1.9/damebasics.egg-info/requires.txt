@@ -1,0 +1,7 @@
+markdown
+
+[dev]
+check-manifest
+
+[test]
+coverage
