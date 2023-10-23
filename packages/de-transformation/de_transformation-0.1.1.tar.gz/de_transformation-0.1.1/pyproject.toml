@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "de-transformation"
+version = "0.1.1"
+description = ""
+authors = ["arnasbar <arnapickis@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.10, <3.13"
+numpy = "^1.26.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
