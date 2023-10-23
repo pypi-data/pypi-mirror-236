@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+os_dev/__init__.py
+os_dev/os_dev.py
+os_dev.egg-info/PKG-INFO
+os_dev.egg-info/SOURCES.txt
+os_dev.egg-info/dependency_links.txt
+os_dev.egg-info/top_level.txt
