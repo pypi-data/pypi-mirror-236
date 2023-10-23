@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: causy
+Version: 0.0.9
+Summary: 
+Author: Sofia Faltenbacher
+Author-email: faltenbacher.sofia@gmail.com
+Requires-Python: >=3.11,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: matplotlib (>=3.8.0,<4.0.0)
+Requires-Dist: networkx (>=3.1,<4.0)
+Requires-Dist: pre-commit (>=3.4.0,<4.0.0)
+Requires-Dist: scipy (>=1.11.2,<2.0.0)
+Requires-Dist: sympy (>=1.12,<2.0)
+Requires-Dist: torch (>=2.1.0,<3.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# causy
+
+Causal discovery made easy.
+
+## Dev usage
+
+### Setup
+We recommend using poetry to manage the dependencies. To install poetry follow the instructions on https://python-poetry.org/docs/#installation.
+
+Install dependencies
+```bash
+poetry install
+```
+
+Execute tests
+```bash
+poetry run python -m unittest discover -s tests
+```
+
+### Usage via CLI
+
+Run causy with one of the default algorithms
+```bash
+poetry run causy execute --help
+poetry run causy execute tests/fixtures/toy_data_larger.json --algorithm PC
+```
+
+Customize your causy pipeline by ejecting and modifying the pipeline file.
+```bash
+poetry run causy eject PC pc.json
+# edit pc.json
+poetry run causy execute tests/fixtures/toy_data_larger.json --pipeline pc.json
+```
+
+
+### Usage via Code
+
+Use a default algorithm
+
+```python
+from causy.algorithms import PC
+from causy.utils import retrieve_edges
+
+model = PC()
+model.create_graph_from_data(
+    [
+        {"a": 1, "b": 0.3},
+        {"a": 0.5, "b": 0.2}
+    ]
+)
+model.create_all_possible_edges()
+model.execute_pipeline_steps()
+edges = retrieve_edges(model.graph)
+
+for edge in edges:
+    print(
+        f"{edge[0].name} -> {edge[1].name}: {model.graph.edges[edge[0]][edge[1]]}"
+    )
+
+```
+
