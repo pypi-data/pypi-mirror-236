@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: iamai-adapter-apscheduler
+Version: 3.2.4
+Summary: APScheduler adapter for iamai.
+Keywords: bot chatbot scheduling apscheduler
+Home-page: https://retrofor.space/
+Author-Email: 简律纯 <i@jyunko.cn>
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Communications :: Chat
+Project-URL: Homepage, https://retrofor.space/
+Project-URL: Repository, https://github.com/retrofor/iamai
+Project-URL: Documentation, https://iamai.retrofor.space/
+Requires-Python: <4.0,>=3.8
+Requires-Dist: iamai>=3.2
+Requires-Dist: apscheduler<4.0,>=3.7
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <a href="https://docs.iamai.dev/"><img src="https://raw.githubusercontent.com/retrofor/iamai/master/docs/public/logo.png" width="200" height="200" alt="logo"></a>
+
+# iamai-Adapter-Apscheduler
+
+**Apscheduler 协议适配**
+
+</div>
