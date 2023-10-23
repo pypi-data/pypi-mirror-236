@@ -1,0 +1,3 @@
+[console_scripts]
+codemodpydanticv1=codemodpydanticv1.cli:cli
+
