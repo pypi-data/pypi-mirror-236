@@ -1,0 +1,12 @@
+pandas
+numpy
+numba
+matplotlib
+plotly
+quandl
+scikit-learn
+arch
+scipy
+statsmodels
+seaborn
+pandas_datareader
