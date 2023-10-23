@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: mlflow-emissions-sdk
+Version: 0.8
+Summary: tracks carbon emissions and logs it to mlfow
+License: MIT
+License-File: LICENSE
+Requires-Dist: codecarbon
+Requires-Dist: mlflow
+Requires-Dist: torch==2.1.0
+Requires-Dist: torchvision==0.16.0
+Requires-Dist: tornado==6.3.3
+Requires-Dist: psutil==5.9.5
+Requires-Dist: ptyprocess==0.7.0
+Requires-Dist: pure-eval==0.2.2
+Requires-Dist: py-cpuinfo==9.0.0
+Requires-Dist: pyarrow==13.0.0
+Requires-Dist: Pygments==2.16.1
+Requires-Dist: PyJWT==2.8.0
+Requires-Dist: pynvml==11.5.0
+Requires-Dist: pyparsing==3.1.1
