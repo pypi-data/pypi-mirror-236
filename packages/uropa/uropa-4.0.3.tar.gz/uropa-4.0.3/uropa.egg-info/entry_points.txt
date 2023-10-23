@@ -1,0 +1,2 @@
+[console_scripts]
+uropa = uropa.uropa:main

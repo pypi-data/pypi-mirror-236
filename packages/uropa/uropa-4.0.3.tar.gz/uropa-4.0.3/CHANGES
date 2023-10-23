@@ -1,0 +1,185 @@
+## 4.0.3 (2023-10-22)
+- Fix issue with filter_attribute given as list (#21)
+- Fix false filtering of any rows with "NA" within summary plot script (#22)
+- Fix tabix index of large chromosomes - UROPA now checks for maximum length to decide between tbi/csi index.
+
+## 4.0.2 (2021-07-12)
+- Fix of bug (introduced in 4.0.1) causing show_attributes to be empty when given by commandline.
+
+## 4.0.1 (2021-05-18)
+- Fix of bug causing peaks to be named ("peak_xxx") only within chunks - adjusted to global naming
+- Fixed faulty reading of "show.attributes" from individual queries
+
+## 4.0.0 (2020-11-17)
+- Requirement of install is python>=3.2 - python 2.x is no longer supported!
+- Added dynamic regulation of multiprocessing jobs based on memory usage (set via hidden --target-mem)
+- Added multiprocessing logger
+- Improved error handling from multiprocessing jobs
+
+## 3.5.3 (2020-10-09)
+- fixed bug causing wrong downstream/upstream location 
+- updated documentation regarding internals
+
+## 3.5.2 (2020-07-13)
+- made numpy install version dependent on python version
+
+## 3.5.1 (2020-07-10)
+- fixed bug related to slow/interrupted file writing 
+
+## 3.5.0 (2020-01-27)
+- changed internal setup to allow annotation of large input files (through queue file writing)
+- added command-line option "--chunk" to control the number of lines per chunk for multiprocessing (default 1000)
+- added internal "annotate_single_peak" for easy integration into other tools
+
+## 3.4.0 (2019-09-05)
+- fixed improper handling of feature attributes with multiple tag:value pairs using identical tags. The values will now be written as comma-separated lists per tag.
+- added +/- options for --strand (as addition to same/opposite)
+- fixed creation of output folder to follow config input
+
+## 3.3.4 (2019-07-01)
+- removed the upper x-limit for "distance to feature" plots in the UROPA summary script (bug)
+- made small changes to pie-charts as ggplot does not fill the circle 100%
+
+## 3.3.3 (2019-06-06)
+- fixed a bug in the UROPA summary script. The script was updated to reflect changes in query numbering. 
+
+## 3.3.2 (2019-05-22)
+- fixed confusion of feat_ovl_peak and peak_ovl_feat. The functionality is now as stated in the documentation, which is: feat_ovl_peak == 1.0 == PeakInsideFeature and peak_ovl_feat == 1.0 == FeatureInsidePeak. 
+- rounding of small numbers will now print as many decimal places as needed to show fraction
+
+## 3.3.1 (2019-05-21)
+- fixed bug in subset_gtf not taking into account comments when subetting gtfs with header
+
+## 3.3.0 (2019-04-28)
+- added '--output-by-query' to allow for output .txt/.bed files per query (split from allhits results). This option can also be given in the config as "output_by_query".
+- changed all underscores in input arguments to dashes to conform with standard CLI options. This change is backwards compatible, e.g. --feature_anchor can still be used for --feature-anchor'.
+
+## 3.2.0 (2019-04-17)
+- added functionality to view all available gtf-attributes in output files. Set by show_attributes = all.
+
+## 3.1.4 (2019-04-13)
+- fixed error due to insufficient handling of "chr"-prefix of both bed and gtf
+
+## 3.1.3 (2019-04-09)
+- fixed bug in calculation of 'relative location' occuring for peaks overlapping feature start/end but with anchor=center
+- fixed py2 compatibility issues including:
+  - changed import from "from uropa.utils import *" to "from .utils import *"
+  - removed 'encoding' keys from read statements
+  - forced float division
+
+## 3.1.0 (2019-03-31)
+- fixed missing sorting of gtf
+- added handling of comment lines in gtf
+- fixed insufficient backwards functionality for feature.anchor -> feature_anchor and other keys
+- internal speed-up of priority queries by fetching hits from queries separately
+- keys such as threads and prefix can now be given via config file
+- re-added --summary
+
+## 3.0.0 (2019-03-18)
+- revision of functionality to fix several bugs and to simplify future problems
+- new functionality: 
+  - bed/gtf and single query annotation specification can be given via command line
+  - show_attributes outside of query specification
+  - additional name information per query
+  - summary is always produced automatically
+  - final and allhits are available in txt and bed format
+
+## 2.0.4 (2019-01-30)
+- fixed split command line call: should now work on different linux versions
+
+## 2.0.3 (2019-01-10)
+- fixed critical features bug, now empty or multiple features in config are possible
+
+
+## 2.0.2 (2019-01-09)
+
+- remove feature print
+- finalhits additionally in bed format available
+
+## 2.0.2-alpha (2018-01-16)
+
+- added summary file for invalid annotations
+- added proper magic line and file encodings for python source files
+
+## 2.0.0-alpha (2017-11-08)
+
+- update uropa to python 3 format with the aid of python 2to3
+
+## 1.2.1 (2017-09-07)
+
+- Rearranged package structure towards a full Pypi packages
+- Renamed summary.R to utils/uropa_summary.R
+- Renamed reformat_output.R to utils/uropa_reformat_output.R
+- Reflected changes in documentation
+
+## 1.2.0 (2017-09-05)
+
+- Added an UpSetR plot to summary.R to cancel the need for Vennerable R package
+- Added proper help to uropa2gtf.R script
+- Reflected changes in documentations
+
+## 1.1.2 (2017-09-04)
+
+- Added proper help for axillary R scripts (exit code 0)
+- Made call to reformat_output.R multi-threaded
+- Cleaned some code, added citation
+
+## 1.1.1 (2017-03-08)
+
+- Bug fix for possible older versions of GNU sort, the order of results may have changed now
+- Added protection against empty GTF files
+- Clarified Tabix warning messages with proper genome coordinates.
+
+## 1.1 (2017-01-30)
+
+- Introduced parameter -p/--prefix, replaces -o/--output
+- Replaced parameter --no-comment by --add-comments
+- Renamed output files to prefix_allhits.txt, prefix_finalhits.txt and prefix_besthits.txt
+- Updated summary script for new gridExtra requirements (rows=NULL instead of show.rownames=FALSE)
+- Fixed bug in log file handling
+- Fixed bug in internals features, now works for distances larger than default distance
+- Removed summary config after usage, removed split_peaks subdirectory in case of multi threading
+
+## 1.0 (2016-11-22)
+
+- Fixed bug for log files in subdirectories
+- Added new parameter --no-comments to skip comments in output tables
+- Moved reduced annotation to output folder
+- Minor changes in parameter descriptions
+
+## 0.3 (2016-10-10)
+
+- Changed function "valid_fsa" to check for strand[ignore,same,opposite]+filter.attributes + hit.feature//mk
+- Added new parameters debug, log and threads.
+- Added config file help as epilog.
+- Parsing queries now accounts for empty ("") values.
+- Invalid features result in a Warning, not in a program stop.
+- Invalid queries (with more than one attribute.filter or more than two distances) are deleted, program continues on other queries.
+- Annotation logic is moved out of main script
+- Multiprocess splitting of peaks is save against peak loss now
+- Multiprocessing falls back to one thread if split did not work
+- Cleaned up some code lints, reformatted with autopep8
+
+## 0.2 (2016-10-09)
+
+- When Priority = True but no hit validates query No.1 , the queries No 2,3 if existent, will be read for finding a valid hit.
+- The command line arguments -i, -o are flexible in position "
+- The non overlapping peaks are saved in All_hits and in Best_hits table.
+- All and Best hits will contain all peaks, with NAs in Best_tab when hit is in D > config "distance".
+- Query column shown only if more than 1 query given.
+- Check for all keys not to have EMPTY values.
+- Check distance of p.center -gene.center,start,end  for valid_dist of hit.
+- Fix cases of checking peak columns(make 3 'if's for diff sizes).Also read strand and replace to None if strand == ".".
+- Extract attribute value one by one from all queries and give "not.found" if key doesn't exist.(get_hit_attribute)
+- When correct_dir but best_hit or All_hits already written, just "continue", no NAs bcs it overwrites best hit of same peak,or keeps NA while there is also hit.
+- Hits from all queries are visible in All_hits, per query, and in Best Hits the best per Query. BestBest hits table has the best of all queries.
+- Features of gtf are extracted and replaced as default if no key given. If wrong feat_value given ->Error proposing gtf features.
+- Fix NAs when pr=True and quer>1
+- Add genomic_location, min_pos of the Dmin, overlap ratio, in the output tables.Remove internal_features key, but Find 'inside' or 'includefeature'(genom_location)
+- Add 'filter.attribute' &  attribute.value' as extra keys in config for validating a hit.
+- Add possibility of keeping different cut-off distance for Upstream and Downstream direction of peak when Distance = [x,y]
+- Call script for Summary graphs and create file after creation of tables.
+
+## 0.1
+
+- Initial version
