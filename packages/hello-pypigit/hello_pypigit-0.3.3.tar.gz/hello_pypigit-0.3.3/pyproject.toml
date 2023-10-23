@@ -1,0 +1,28 @@
+[project]
+name = "hello-pypigit"
+version = "0.3.3"
+authors = [
+    { name = "assomdevgit", email = "assomggm@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+hello-pypigit-pic = "hello_pypigit.pic:pic"
+hello-pypigit-who = "hello_pypigit.who:who"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]
