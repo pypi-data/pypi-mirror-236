@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+parse_aria_control_file/__init__.py
+parse_aria_control_file/__version__.py
+parse_aria_control_file/aria2_parser.py
+parse_aria_control_file.egg-info/PKG-INFO
+parse_aria_control_file.egg-info/SOURCES.txt
+parse_aria_control_file.egg-info/dependency_links.txt
+parse_aria_control_file.egg-info/requires.txt
+parse_aria_control_file.egg-info/top_level.txt
