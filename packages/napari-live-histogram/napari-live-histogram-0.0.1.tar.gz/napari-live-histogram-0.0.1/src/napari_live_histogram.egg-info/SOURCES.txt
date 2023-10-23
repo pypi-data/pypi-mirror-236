@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/napari_live_histogram/__init__.py
+src/napari_live_histogram/_widget.py
+src/napari_live_histogram/napari.yaml
+src/napari_live_histogram.egg-info/PKG-INFO
+src/napari_live_histogram.egg-info/SOURCES.txt
+src/napari_live_histogram.egg-info/dependency_links.txt
+src/napari_live_histogram.egg-info/entry_points.txt
+src/napari_live_histogram.egg-info/requires.txt
+src/napari_live_histogram.egg-info/top_level.txt
+src/napari_live_histogram/_tests/__init__.py
