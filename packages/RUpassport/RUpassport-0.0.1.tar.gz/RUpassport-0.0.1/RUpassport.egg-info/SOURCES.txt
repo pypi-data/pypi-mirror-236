@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+RUpassport.egg-info/PKG-INFO
+RUpassport.egg-info/SOURCES.txt
+RUpassport.egg-info/dependency_links.txt
+RUpassport.egg-info/requires.txt
+RUpassport.egg-info/top_level.txt
