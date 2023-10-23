@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: uun-livecam
+Version: 0.5.10
+Summary: Connect to ONVIF IP webcam, take snapshots and send them to uuApp.
+Home-page: https://uuapp.plus4u.net/uu-bookkit-maing01/4fa478cb275f4eff9c2c3386660452fd/book/page?code=home
+Author: (UUN) Tomáš Faikl
+Author-email: tomas.faikl@unicornuniversity.net
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+License-File: LICENSE.md
+Requires-Dist: uun-iot >=0.10.1
+Requires-Dist: onvif-zeep
+
