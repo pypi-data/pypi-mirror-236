@@ -1,0 +1,10 @@
+dig_ini_editor/__init__.py,sha256=OU0kFyF_UG4LCff9ARIOsjxhxc4nlNKy_28s1-MP0D0,454
+dig_ini_editor/__main__.py,sha256=Vdhw8YA1K3wPMlbJQYL5WqvRzAKVeZ16mZQFO9VRmCo,62
+dig_ini_editor/arguments.py,sha256=m_GflZ7c7ydRzBACd2c6ll1EglUoZbDe-Fos_f3Cohw,5345
+dig_ini_editor/editor.py,sha256=SjhjcpnU3QZ7hs5ed7-Qnu2LySk5FiyIu3iwbLDmVsU,1453
+dig_ini_editor/main.py,sha256=IhIRmHwEiPFtJV7aO5r72Fo-qLOm7gV0PXeb18f4ucM,2694
+dig_ini_editor-1.0.0.dist-info/METADATA,sha256=r04hwBq7UC-5YMiR1ZXqwtdoaFFYbEoi2jGmQE8BXM4,4303
+dig_ini_editor-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dig_ini_editor-1.0.0.dist-info/entry_points.txt,sha256=kYSjJ1VhuwLEpq-FE9OsgrcUtzZKqlMbJZOaQiY13c0,56
+dig_ini_editor-1.0.0.dist-info/top_level.txt,sha256=iBMIrM2veICVx8MWeqtoKtRuxjkIFSs78aOeyq3PE9g,15
+dig_ini_editor-1.0.0.dist-info/RECORD,,
