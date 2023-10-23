@@ -1,0 +1,3 @@
+[console_scripts]
+kurde=kurde.__main__:main
+
