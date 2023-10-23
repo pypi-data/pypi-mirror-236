@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "fretraj"
+version = "0.2.10"
+description = "Predicting FRET with accessible-contact volumes"
+authors = [
+    "Fabio Steffen <fabio.steffen@chem.uzh.ch>", 
+    "Roland K.O. Sigel <roland.sigel@chem.uzh.ch>", 
+    "Richard Börner <richard.boerner@hs-mittweida.de>"]
+maintainers = ["Fabio Steffen <fabio.steffen@chem.uzh.ch>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://rna-fretools.github.io/"
+repository = "https://github.com/RNA-FRETools/fretraj"
+documentation = "https://rna-fretools.github.io/fretraj/"
+keywords = ["FRET", "single-molecule", "molecular dynamics", "PDB", "structure prediction"]
+classifiers = [
+    "Programming Language :: Python",
+    "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+    "Operating System :: OS Independent",
+    "Framework :: Jupyter",
+    "Topic :: Scientific/Engineering :: Bio-Informatics"
+]
+include = [{path = "src/fretraj/*.so", format=["wheel"]},
+           {path = "src/fretraj/*.pyd", format=["wheel"]},
+           {path = "src/fretraj/*.cpp", format=["sdist"]}]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+numba = ">=0.57.0"
+pandas = ">=1.2"
+mdtraj = "^1.9.7"
+tqdm = "^4.64.0"
+jsonschema = "^4.9.1"
+importlib-metadata = "^6.8.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+pytest-cov = "^2.11.1"
+pytest-mock = "^3.6.1"
+
+
+[tool.poetry.scripts]
+fretraj = "fretraj.console:main"
+fretraj_gui = "fretraj.fretraj_gui:main"
+pymol_vis = "fretraj.console:pymol_vis"
+vmd_vis = "fretraj.console:vmd_vis"
+
+
+[tool.poetry.build]
+generate-setup-file = true
+script = "build.py"
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0a9", "pybind11>=2.6.2", "setuptools"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+line-length = 120
