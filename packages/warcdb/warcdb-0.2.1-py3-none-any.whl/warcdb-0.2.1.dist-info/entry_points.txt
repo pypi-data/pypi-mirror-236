@@ -1,0 +1,3 @@
+[console_scripts]
+warcdb=warcdb:warcdb_cli
+
