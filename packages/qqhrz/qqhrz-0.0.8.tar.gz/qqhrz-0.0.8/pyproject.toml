@@ -1,0 +1,18 @@
+[project]
+name = "qqhrz"
+version = "0.0.8"
+authors = [
+  { name="zkj", email="zhkaij@foxmail.com" },
+]
+description = "解决了运行速度慢的问题，原因是其中有些张量是在cpu上的，导致在cpu上计算，速度慢。"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
