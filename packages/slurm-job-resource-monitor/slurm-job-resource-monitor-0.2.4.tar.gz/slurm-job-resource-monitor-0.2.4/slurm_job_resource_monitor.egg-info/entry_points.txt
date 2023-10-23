@@ -1,0 +1,2 @@
+[console_scripts]
+slurm_job_monitor = slurm_job_resource_monitor.job_monitor:cli_entry

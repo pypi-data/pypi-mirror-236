@@ -1,0 +1,91 @@
+[build-system]
+requires = ["setuptools>=61.0", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "slurm-job-resource-monitor"
+dynamic = ["version", "readme", "dependencies"]
+authors = [
+  { name="Tobias Schanz", email="tobias.machnitzki@hereon.de" },
+]
+description = "Command line tool for monitoring slurm jobs on a linux system."
+requires-python = ">=3.9"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Operating System :: POSIX :: Linux",
+]
+
+
+[project.urls]
+"Homepage" = "https://github.com/tmachnitzki/slurm_job_resource_monitor"
+"Bug Tracker" = "https://github.com/tmachnitzki/slurm_job_resource_monitor/issues"
+
+
+[project.scripts]
+slurm_job_monitor = "slurm_job_resource_monitor.job_monitor:cli_entry"
+
+
+[tool.setuptools]
+packages = ["slurm_job_resource_monitor"]
+
+
+[tool.setuptools_scm]
+write_to = "slurm_job_resource_monitor/_version.py"
+
+
+[tool.setuptools.dynamic]
+readme = {file = ["README.md"]}
+dependencies = {file = ["requirements.txt"]}
+
+[tool.vulture]
+exclude = ["conf/", "data/", "docs/", "notebooks/", "output*/", "logs/", "tests/"]
+make_whitelist = false
+min_confidence = 80
+paths = ["slurm_job_resource_monitor/"]
+sort_by_size = true
+verbose = false
+ignore_names = ["args", "kwargs"]
+
+
+[tool.pylint]
+max-line-length = 120
+exclude-protected = ["_asdict", "_fields", "_replace", "_source", "_make", "_target_"]
+logging-format-style = "new"
+disable=[
+    "logging-fstring-interpolation",
+    "too-many-branches",
+    "too-many-statements",
+    "logging-fstring-interpolation",
+    "too-many-locals",
+    "unspecified-encoding",
+    "too-many-ancestors",
+    "too-many-instance-attributes",
+    "too-many-public-methods",
+    "too-many-arguments",
+    "missing-module-docstring",  # docstrings are handled by interrogate, so we don't need pylint to check them again
+    "missing-class-docstring",
+    "missing-function-docstring",
+    "eval-used",
+    "no-member",
+    "use-dict-literal",
+    "anomalous-backslash-in-string",
+    "too-many-lines",
+    "too-few-public-methods",
+    "invalid-name",
+    "duplicate-code",
+]
+good-names=["lr", "i", "j", "k", "t0", "df", "p", "q", "register_kl", "kl_divergence", "f"]
+generated-members=["torch.*"]
+ignore = ["tests", "_version.py", "docs", "notebooks", "data", "conf", "output*", "logs", "build"]
+
+
+[tool.isort]
+profile = "black"
+src_paths = ["slurm_job_resource_monitor", "tests"]
+line_length = 120
+force_alphabetical_sort_within_sections = true
+
+
+[tool.black]
+line-length = 120
+target-version = ['py37']
