@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: basictest
+Version: 0.0.1
+Summary: A test Python Package
+Home-page: https://github.com/agnivomallick/basictest
+Author: Agnivo Mallick
+Author-email: agnivomallick@gmail.com
+Project-URL: Bug Tracker, https://github.com/agnivomallick/basictest/issues
+Project-URL: repository, https://github.com/agnivomallick/basictest
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# basictest
+
+This is a test package made with Python.
+
+You can install it with `pip`.
+
+# Installation
+
+Type `pip install basictest` in a terminal. That will install the package onto your computer.
+
+You can also download the `.whl` file in the Releases page and type `pip install 'name of .whl file'`
