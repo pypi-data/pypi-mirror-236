@@ -1,0 +1,19 @@
+attrs
+click
+ffmpeg-python
+more-itertools
+numpy
+openai-whisper
+pyaudio
+pydantic
+pydub
+pynput
+requests
+rich
+speechrecognition
+tdqm
+torch
+transformers
+
+[:python_version > "3.9"]
+importlib-metadata
