@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "jmpcba_pulumi_common"
+version = "0.1.1"
+description = ""
+authors = ["manu-caylent <manuel.palacios@caylent.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pulumi = "^3.89.0"
+pulumi-aws = "^6.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
