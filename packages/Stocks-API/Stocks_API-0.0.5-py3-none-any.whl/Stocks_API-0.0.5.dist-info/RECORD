@@ -1,0 +1,8 @@
+stocks_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stocks_api/config.py,sha256=NBqjoRMa8IJlM6ObgBA5Ns-E0c_kl6BdkcFR5K0PdLw,183
+stocks_api/delay.py,sha256=6EhHTTil2wjvrTrOkOZRi9NpFjRYWhQ6KLGWmVTcg10,1542
+stocks_api/stocks.py,sha256=wsuDgaoemPyKR8FAQZqmkMX6ScMBjfJr4dkD4Is2XDM,8797
+Stocks_API-0.0.5.dist-info/METADATA,sha256=Ij7bafozEyRD7JJQ_oH8RP5MM7YDsGCHjOtDrKkvkzQ,770
+Stocks_API-0.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+Stocks_API-0.0.5.dist-info/top_level.txt,sha256=0QqAWmv_KuNNt8L3_PLmMWKmLHRX43FuXk2mZzn4IwE,11
+Stocks_API-0.0.5.dist-info/RECORD,,
