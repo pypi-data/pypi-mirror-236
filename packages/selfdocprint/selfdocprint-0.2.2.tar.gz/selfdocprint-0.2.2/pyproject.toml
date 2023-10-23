@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "selfdocprint"
+version = "0.2.2"
+description = "A self-documenting, auto-layout print() function."
+license = "GPL-3.0-only"
+authors = ["Marcel de Croock <marcel.decroock@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/marcelloDC/selfdocprint"
+keywords = ["print", "pretty", "self-documenting", "layout", "format"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Software Development",
+]
+exclude = ["selfdocprint/_try.py"]
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^6.1.0"
+pytest = "^7.4.0"
+black = "^23.7.0"
+jupyter = "^1.0.0"
+ruamel-yaml = "^0.17.32"
+numpy = "^1.25.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
