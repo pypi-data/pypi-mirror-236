@@ -1,0 +1,11 @@
+[console_scripts]
+ra=robotframework_airtest.cli:main
+
+[robotframework_airtest.device.connect_strategy]
+android=robotframework_airtest.device.connects.impl.android:AndroidConnectStrategy
+unity=robotframework_airtest.device.connects.impl.unity:UnityConnectStrategy
+windows=robotframework_airtest.device.connects.impl.windows:WindowsConnectStrategy
+
+[robotframework_airtest.vmg.generator]
+unity=robotframework_airtest.vmg.generators.unity:generate
+
