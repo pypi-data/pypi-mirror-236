@@ -1,0 +1,14 @@
+PyMuPDF
+Pillow
+qrcode
+tqdm
+qreader
+termcolor
+typing_extensions
+customtkinter
+CTkMessageBox
+
+[dev]
+pytest
+bumpver
+setuptools
