@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: imputing
+Version: 0.1.0
+Summary: Tools to identify type of missingness and appropriate imputation methods.
+Home-page: https://github.com/samsonq/imputing
+Author: Samson Qian
+Author-email: samsonqian@gmail.com
+License: MIT
+Keywords: missing missingness data imputation impute imputation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# imputing
+Tools to identify type of missingness and appropriate imputation methods.
