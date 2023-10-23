@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "chat-cli"
+version = "0.3.3"
+description = "Command line interaction with ChatGPT with chat history saved locally"
+authors = ["Robert Gingras"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+openai = "^0.28.1"
+python-dotenv = "^1.0.0"
+uuid6 = "^2023.5.2"
+typing-extensions = "^4.8.0"
+argparse = "^1.4.0"
+pyperclip = "^1.8.2"
+platformdirs = "^3.11.0"
+tiktoken = "^0.5.1"
+
+[tool.poetry.scripts]
+chat = "chat_cli:main"
+
+[tool.poetry.group.dev.dependencies]
+pylint = "^3.0.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
