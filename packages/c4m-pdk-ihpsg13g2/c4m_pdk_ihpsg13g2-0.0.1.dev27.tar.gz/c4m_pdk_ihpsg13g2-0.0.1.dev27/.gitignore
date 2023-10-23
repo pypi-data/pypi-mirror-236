@@ -1,0 +1,11 @@
+/open_pdk
+/drc
+
+/tarballs
+
+__pycache__
+/build
+/dist
+c4m_pdk_ihpsg13g2.egg-info
+
+.doit.db*

@@ -1,0 +1,4 @@
+setuptools
+PDKMaster~=0.10.0
+c4m-flexcell~=0.4.1
+c4m-flexio~=0.4.0
