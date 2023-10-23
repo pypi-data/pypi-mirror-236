@@ -1,0 +1,2 @@
+apache-airflow>=2.0
+lakefs_sdk>=0.113.0.2
