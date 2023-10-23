@@ -1,0 +1,8 @@
+autowired/__init__.py,sha256=4HxQOYwB7SpqftfykKMPS6hPFqLcJblXtj0bLK0B4WA,14660
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_autowired.py,sha256=zseWINCeEiGU5q3WgeKRdM3sw6wAg--klk6p5N3QfRE,10466
+autowired-0.1.5.dist-info/LICENSE,sha256=dvvw3K_-B6A0BYQSmNOf3x46-I3cViHz9LMBRU4Mbn4,1071
+autowired-0.1.5.dist-info/METADATA,sha256=1irA38rgfuJleBDtu_LEBKcUcWwdls38ujJ6mrBA3Tw,14960
+autowired-0.1.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+autowired-0.1.5.dist-info/top_level.txt,sha256=_pPbtpfQ4pxjF4OwfLuNTSfipJtvSqlDwBe3oc8h7h0,16
+autowired-0.1.5.dist-info/RECORD,,
