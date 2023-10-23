@@ -1,0 +1,4 @@
+[console_scripts]
+sushi-batch=sushi_batch.__main__:main
+sushi_batch=sushi_batch.__main__:main
+
