@@ -1,0 +1,11 @@
+iautil/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iautil/citations.py,sha256=rFooINzORpjZrvlcqEaY6V8XtjZTPFqFXRabIyxr60g,6043
+iautil/log.py,sha256=6unv1aFwAPxQ-Hr5Rv_dsG8CAa16hPTsyNfvl68FeSI,2159
+iautil/oops.py,sha256=PUOMLejD3HEBMuxsJBUg4gVtJqR5-9OzvkewAaCfuIM,107
+iautil/predicates.py,sha256=LEKPLVPrGs_XU0wMFCuazU6o4_n047mKvmVeEfTJD6U,644
+iautil/version.py,sha256=OuMmXZ-ZVxtBk2ZpkenOmsAgzOyjJV07tWYf7_NMQwo,59
+iautil-0.0.16.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+iautil-0.0.16.dist-info/METADATA,sha256=OMys9B39DI6HLn2EXrPcXo2Ed0ezi6CJKXNVo9JO0JY,2818
+iautil-0.0.16.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+iautil-0.0.16.dist-info/top_level.txt,sha256=nlb54BcZSwjzBMbsT1vRkTxRhv5_IaHUnq1AuuzBHkE,7
+iautil-0.0.16.dist-info/RECORD,,
