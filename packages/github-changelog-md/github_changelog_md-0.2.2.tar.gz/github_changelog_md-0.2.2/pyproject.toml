@@ -1,0 +1,145 @@
+[tool.poetry]
+name = "github-changelog-md"
+version = "0.2.2"
+description = "Generate a Markdown Changelog from your Github repository."
+authors = ["Grant Ramsay <seapagan@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+
+packages = [{ include = "github_changelog_md" }]
+
+homepage = "https://changelog.seapagan.net"
+repository = "https://github.com/seapagan/github-changelog-md"
+
+[tool.poetry.urls]
+"Pull Requests" = "https://github.com/seapagan/github-changelog-md/pulls"
+"Bug Tracker" = "https://github.com/seapagan/github-changelog-md/issues"
+"Changelog" = "https://github.com/seapagan/github-changelog-md/blob/main/CHANGELOG.md"
+
+[tool.poetry.scripts]
+github-changelog-md = "github_changelog_md.main:app"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pygithub = ">=1.59.1,<3.0.0"
+pydantic = "^2.3.0"
+rtoml = "^0.9.0"
+simple-toml-settings = "^0.3.0"
+typer = "^0.9.0"
+rich = "^13.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+# linting, type-checking and security checks
+black = "^23.7.0"
+isort = "^5.12.0"
+pre-commit = "^3.3.3"
+pydocstyle = "^6.3.0"
+pymarkdownlnt = "^0.9.12"
+mypy = "^1.4.1"
+ruff = "^0.1.1"
+
+# task runner
+poethepoet = ">=0.21.1,<0.23.0"
+
+# testing
+faker = "^19.2.0"
+mock = "^5.1.0"
+pyfakefs = "^5.3.0"
+pytest = "^7.4.0"
+pytest-cov = "^4.0.0"
+pytest-xdist = "^3.2.1"
+pytest-sugar = "^0.9.7"
+pytest-randomly = "^3.13.0"
+pytest-reverse = "^1.7.0"
+pytest-asyncio = "^0.21.1"
+pytest-mock = "^3.11.1"
+
+# documentation
+mkdocs = "^1.4.3"
+mkdocs-autorefs = "^0.5.0"
+mkdocs-material = "^9.1.19"
+mkdocs-minify-plugin = "^0.7.0"
+mkdocs-git-revision-date-localized-plugin = "^1.2.0"
+pymdown-extensions = "^10.1"
+pygments = "^2.15.1"
+
+# setup PoeThePoet tasks
+[tool.poe.tasks]
+pre = "pre-commit run --all-files"
+mypy = "mypy **/*.py"
+black = "black **/*.py"
+markdown = "pymarkdown scan **/*.md"
+ruff = "ruff check ."
+lint = ["black", "ruff", "mypy"]
+
+"docs:publish" = "mkdocs gh-deploy"
+"docs:build" = "mkdocs build"
+"docs:serve" = "mkdocs serve -w TODO.md -w CHANGELOG.md -w CONTRIBUTING.md"
+"docs:serve:all" = "mkdocs serve -w TODO.md -w CHANGELOG.md -w CONTRIBUTING.md -a 0.0.0.0:9000"
+
+changelog = "github-changelog-md"
+
+# configure assorted tools and linters
+[tool.isort]
+profile = "black"
+
+[tool.black]
+line-length = 80
+exclude = '''
+/(
+    \.git
+  | \.mypy_cache
+  | \.tox
+  | venv
+  | \.venv
+  | _build
+  | build
+  | dist
+)/
+'''
+
+[tool.pydocstyle]
+add-ignore = ["D104"]
+
+[tool.pymarkdown]
+plugins.md014.enabled = false
+plugins.md036.enabled = false
+
+[tool.pytest.ini_options]
+addopts = ["--cov", "--cov-report", "term-missing", "--cov-report", "html"]
+filterwarnings = []
+mock_use_standalone_module = true
+pythonpath = ["github_changelog_md"]
+
+[tool.coverage.run]
+source = ["github_changelog_md"]
+omit = ["*/tests/*"]
+
+[tool.ruff]
+line-length = 80
+select = ["ALL"]              # we are being very strict!
+ignore = ["ANN101", "PGH003"] # These rules are too strict even for us 😝
+src = ["github_changelog_md"]
+target-version = "py39"       # minimum python version supported
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.ruff.extend-per-file-ignores]
+"tests/**/*.py" = [
+  "S101",   # we can (and MUST!) use 'assert' in test files.
+  "ANN001", # annotations for fixtures are sometimes a pain for test files.
+]
+"github_changelog_md/main.py" = [
+  "UP007",
+] # Typer is not compatible with that syntax
+
+[tool.ruff.isort]
+known-local-folder = ["github_changelog_md"]
+
+[tool.ruff.pyupgrade]
+keep-runtime-typing = true
