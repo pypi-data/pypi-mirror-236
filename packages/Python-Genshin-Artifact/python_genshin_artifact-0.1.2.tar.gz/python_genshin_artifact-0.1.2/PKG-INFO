@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: Python-Genshin-Artifact
+Version: 0.1.2
+Summary: A Python library that binds to Genshin Artifact damage calculation and analysis engine.
+License: MIT
+Author: luoshuijs
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=1.10.7,<2.0.0)
+Description-Content-Type: text/markdown
+
+# Python-Genshin-Aartifact
+
+A Python library that binds to 
+[Genshin Artifact](https://github.com/wormtql/genshin_artifact)
+damage calculation and analysis engine.
+
