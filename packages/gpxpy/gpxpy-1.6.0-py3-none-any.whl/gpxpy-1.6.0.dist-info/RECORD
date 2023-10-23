@@ -1,0 +1,15 @@
+gpxpy/__init__.py,sha256=68dX3Vxg6NTSalEIFYcr6TyAlnLEoRWEUtZnWefFdE0,1328
+gpxpy/geo.py,sha256=OteUVIjV9B5b8hQp555FoOwpRBGopollmNSw_Cv4LnQ,15409
+gpxpy/gpx.py,sha256=t16fSjhNSteR_JK0jHpIqb7KL2VR-mDwiuEa1-R-QZA,104852
+gpxpy/gpxfield.py,sha256=lU426Szl-W5CbFhX0XFBYaqRsvrI4R3orI9Mo5LuFJw,22732
+gpxpy/gpxxml.py,sha256=UBFk4UPJvoY4CnROLFkBTvgssQxYFQJTvK3M1f-ZZrI,2133
+gpxpy/parser.py,sha256=X6FMzkdlUPumJOVmXe41E2PVpiRu8Cmbqx2jJA_BxvM,5511
+gpxpy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gpxpy/utils.py,sha256=FG6IPttw5QAfwV_OjhaiT9H6Ed-jD4Wua-gVh8I046w,2558
+gpxpy-1.6.0.data/scripts/gpxinfo,sha256=zq3olXoWbcxnv0PQKS60yUxfGutmz7Db8INF5IlMwPE,5062
+gpxpy-1.6.0.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+gpxpy-1.6.0.dist-info/METADATA,sha256=m4Y8wK8Xkrm9-6tphD0AdPmOfQdOEZfO3USX2RQewI0,5856
+gpxpy-1.6.0.dist-info/NOTICE.txt,sha256=13qC3RHOHvd4ZnnMrZmBJA15OG6T8FBTXfr5L8HXhdc,1179
+gpxpy-1.6.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gpxpy-1.6.0.dist-info/top_level.txt,sha256=zjZKfZtCLH6T0GRUqVMPOsyaf5ppv2BOX1PNo1KfOkE,6
+gpxpy-1.6.0.dist-info/RECORD,,
