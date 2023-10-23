@@ -1,0 +1,127 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "isocountry"
+description = "ISO country, subdivision, language, currency and script definitions and their translations"
+readme = "README.md"
+requires-python = ">=3.8"
+license-files = { paths = ["LICENSE"] }
+authors = [
+        { name = "Yasser Tahiri", email = "hello@yezz.me" },
+        { name = "Christian Theune", email = "ct@flyingcircus.io" },
+]
+keywords = [
+        "country",
+        "subdivision",
+        "language",
+        "currency",
+        "iso",
+        "3166",
+        "639",
+        "4217",
+        "15924",
+        "3166-2"
+]
+classifiers = [
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Developers",
+        "Intended Audience :: Information Technology",
+        "License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+        "Programming Language :: Python :: 3 :: Only",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+        "Topic :: Software Development :: Internationalization",
+        "Topic :: Software Development :: Localization",
+        "Typing :: Typed",
+]
+
+dependencies = [
+        "typing-extensions >=3.7.4,<4.8.0",
+        "importlib-resources >=5.4.0,<6.0.0",
+]
+
+dynamic = ["version"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project.urls]
+Homepage = "https://github.com/yezz123/isocountry"
+Documentation = "https://github.com/yezz123/isocountry/blob/main/README.md"
+
+[project.optional-dependencies]
+lint = [
+    "pre-commit==3.3.3",
+]
+test = [
+    "pytest==7.4.0",
+    "pytest-asyncio == 0.21.1",
+    "pytest-cov==4.1.0",
+    "python-decouple",
+    "pytest-pretty==1.2.0"
+]
+
+[tool.hatch.version]
+path = "isocountry/__init__.py"
+
+[tool.isort]
+profile = "black"
+known_third_party = ["typing_extensions"]
+
+[tool.ruff]
+select = [
+    "E",  # pycodestyle errors
+    "W",  # pycodestyle warnings
+    "F",  # pyflakes
+    "I",  # isort
+    "C",  # flake8-comprehensions
+    "B",  # flake8-bugbear
+]
+ignore = [
+    "C901", # `search_fuzzy` is too complex (15 > 10)
+    "B020", # Loop control variable `v` overrides iterable it iterates
+]
+
+[tool.ruff.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[tool.ruff.isort]
+known-third-party = ["typing_extensions"]
+
+[tool.coverage.run]
+source = ["isocountry"]
+branch = true
+context = '${CONTEXT}'
+
+[tool.coverage.paths]
+source = [
+    "isocountry",
+]
+
+[tool.coverage.report]
+precision = 2
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "raise NotImplemented",
+    "@overload",
+    "if TYPE_CHECKING:",
+    "if __name__ == .__main__.:",
+]
+
+[tool.pytest.ini_options]
+testpaths = 'tests'
+log_cli = "1"
+log_cli_level = "INFO"
+log_cli_format = "%(asctime)s [%(levelname)8s] %(message)s (%(filename)s:%(lineno)s)"
+log_cli_date_format= "%Y-%m-%d %H:%M:%S"
+asyncio_mode= "auto"
