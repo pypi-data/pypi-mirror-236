@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: wlr-layout-ui
+Version: 1.1.2
+Summary: A tiny GUI to configure screen layouts on wayland
+Home-page: https://github.com/fdev31/wlr-layout-ui
+Author: fdev31
+Author-email: fdev31@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pyglet (>=2.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Wlr layout UI
+
+An experimental GUI to setup the screens layout on wlroots based systems.
+
+## Requires
+
+- wlr-randr
+
+## Usage
+
+```
+wlrlui
+```
+
+## Limitations
+
+Only allows to change screen positions, not the mode yet.
+
