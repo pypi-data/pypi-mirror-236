@@ -1,0 +1,4 @@
+[venv_management.driver]
+pyenv-virtualenv = venv_management.ext.drivers.pyenv_virtualenv:Driver
+virtualenv-sh = venv_management.ext.drivers.virtualenv_sh:Driver
+virtualenvwrapper = venv_management.ext.drivers.virtualenvwrapper:Driver
