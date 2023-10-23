@@ -1,0 +1,13 @@
+autoparis/__init__.py,sha256=SUGk4aE8EQ383DBIKyJnCAT9jAoVfV6BHgNqG9qpoGw,34
+autoparis/detectron_predict.py,sha256=rpL1n_RzUsbJQx22MJBdW8uTKdoz3EXXUQ9hHJ_CigI,4742
+autoparis/dzi_writer.py,sha256=bDBgy_2vykLrX2f_dYDbWIF55sW4zAngYZ4jw_0l8uE,3032
+autoparis/extract_predict.py,sha256=fOfMp1jetQUyhqaq8HS2U4v8L75aZp26bVtNgMx3ABw,17676
+autoparis/generate_sif_scores.py,sha256=OAluxYh01tH2Y1_5NNRI6YBMYux8ekx_Ezu2dsNWb94,7020
+autoparis/refine_detectron.py,sha256=u3lObWcu_5jCCK4UHg8chGi0mbxXiUYmCy1vmR-8KA0,3172
+autoparis-0.1.data/scripts/install_apx_dependencies.sh,sha256=g_GhZQ8SdBeUUJDWdsPU7wUO6KlCsS3-s2OiA1CnlWg,78
+autoparis-0.1.dist-info/LICENSE,sha256=K2K1_qalqFLYgrspswioLJOBZL3dSlQtGCbxytiflBI,35195
+autoparis-0.1.dist-info/METADATA,sha256=wwRqIOGm3ySd1-Q_g5RygwKInLfbLon4am02S0gV0MI,986
+autoparis-0.1.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+autoparis-0.1.dist-info/entry_points.txt,sha256=S73uoDnFIpQsL8j3Q4pY9EM79cIT9k56TbblUmEsVaA,100
+autoparis-0.1.dist-info/top_level.txt,sha256=PUqKUQ-0vJsLZtCi095SOC13nB8l6QfXaH7LKAv-47E,10
+autoparis-0.1.dist-info/RECORD,,

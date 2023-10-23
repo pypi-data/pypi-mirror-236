@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: autoparis
+Version: 0.1
+Summary: Python package for Autoparis Workflow.
+Home-page: https://github.com/jlevy44/autoparisx
+Author: Joshua Levy
+Author-email: joshualevy44@berkeley.edu
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fill-voids (==2.0.5)
+Requires-Dist: fire (==0.5.0)
+Requires-Dist: glymur (==0.12.8)
+Requires-Dist: gpustat (==1.1.1)
+Requires-Dist: GPUtil (==1.4.0)
+Requires-Dist: h5py (==3.9.0)
+Requires-Dist: matplotlib (>=3.7.0)
+Requires-Dist: numpy (>=1.22.4)
+Requires-Dist: pandas (>=1.5.3)
+Requires-Dist: Pillow (==10.0.0)
+Requires-Dist: sauth (==1.1.0)
+Requires-Dist: scikit-learn (>=1.2.2)
+Requires-Dist: scipy (==1.11.2)
+Requires-Dist: setuptools (==68.0.0)
+Requires-Dist: pathpretrain (==0.1.2)
+Requires-Dist: ninja
+Requires-Dist: torchvision (==0.10.1)
+Provides-Extra: gpu
+Requires-Dist: cucim (==23.8.0) ; extra == 'gpu'
+Requires-Dist: cupy-cuda11x (==12.2.0) ; extra == 'gpu'
+
+# AutoParisX
+ 
