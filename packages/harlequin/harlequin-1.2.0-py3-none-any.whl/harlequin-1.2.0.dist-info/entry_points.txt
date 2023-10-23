@@ -1,0 +1,6 @@
+[console_scripts]
+harlequin=harlequin.cli:harlequin
+
+[harlequin.adapter]
+duckdb=harlequin_duckdb:DuckDbAdapter
+
