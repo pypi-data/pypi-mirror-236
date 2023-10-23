@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: shmaxg_gen
+Version: 1.0.0
+Summary: A version of genetic algorithm.
+Author: Maksim Shirobokov
+Author-email: shmaxg@gmail.com
+Keywords: genetic algorithm,optimization
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+
+A version of genetic algorithm.

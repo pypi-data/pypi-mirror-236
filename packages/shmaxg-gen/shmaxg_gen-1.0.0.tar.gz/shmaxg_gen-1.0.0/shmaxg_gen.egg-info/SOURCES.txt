@@ -1,0 +1,6 @@
+README.md
+setup.py
+shmaxg_gen.egg-info/PKG-INFO
+shmaxg_gen.egg-info/SOURCES.txt
+shmaxg_gen.egg-info/dependency_links.txt
+shmaxg_gen.egg-info/top_level.txt
