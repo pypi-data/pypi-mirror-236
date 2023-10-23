@@ -1,0 +1,12 @@
+db_loader/__init__.py,sha256=rrmVQkpkaqCIZiM3epBarsZNJMvq71LmFBIKV8S6HKA,183
+db_loader/migration.py,sha256=d-PwXstFhK0Yqou_Yn_kw5y91xV-yp6ywJg43uP5dEo,1954
+db_loader/mysql_connector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+db_loader/mysql_connector/db_connector.py,sha256=FNkP1-qICtkkFcMTYJO625HrydDpWpKvqQUlfb2DRrA,6758
+db_loader/structs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+db_loader/structs/migration.py,sha256=uoRKmeU0t_04JrcDKY3q2rR-B2uxw5Fx2IwdLGD06rs,2102
+db_loader/structs/struct_strategy.py,sha256=5Pry2yhdvbo896qFzo-yuYjCsWZAv7bQQTjmfsHCiBU,3374
+db_loader/structs/structure.py,sha256=JfGjTrVj7PuWYhfPoovmXKTD6ZlITP61J-CBt9B3Has,1491
+csv_db_loader-1.0.0.dist-info/METADATA,sha256=Cz1SZL5basln1I_VN1FTThh5xtDIgL9bFqX7UNhVKk8,6648
+csv_db_loader-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+csv_db_loader-1.0.0.dist-info/top_level.txt,sha256=bF1j-nD4Xj2xa9hbh8g2EwubnFXsmaK6eLiUSnYFpKc,10
+csv_db_loader-1.0.0.dist-info/RECORD,,
