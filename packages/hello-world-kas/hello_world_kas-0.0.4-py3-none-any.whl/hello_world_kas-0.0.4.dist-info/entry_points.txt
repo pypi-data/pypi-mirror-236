@@ -1,0 +1,2 @@
+[console_scripts]
+greeting = hello_world_kas.main:greeting
