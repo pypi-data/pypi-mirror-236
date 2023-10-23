@@ -1,0 +1,31 @@
+<script type="text/javascript">
+	'use strict';
+	
+	var djangoUrlPatterns = {{ url_templates_obj|safe }};
+	
+	function reverse_url(name, kwargs) {
+		if (typeof(name) !== 'string') {
+			throw new Error("TypeError: 'name' must be a string.");
+		}
+		if (!!kwargs && typeof(kwargs) !== 'object') {
+			throw new Error("TypeError: 'kwargs' must be an object.");
+		}
+		if (!djangoUrlPatterns.hasOwnProperty(name)) {
+			throw new Error(`KeyError: ${name} not in 'djangoUrlPatterns'.`);
+		}
+		
+		try {
+			let pattern = djangoUrlPatterns[name];
+			if (!!kwargs) {
+				for (const kwarg in kwargs) {
+					pattern = pattern.replace('{' + kwarg + '}', kwargs[kwarg]);
+				}
+				return pattern;
+			} else {
+				return pattern;
+			}
+		} catch (e) {
+			console.error(e)
+		}
+	}
+</script>

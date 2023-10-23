@@ -1,0 +1,28 @@
+[build-system]
+requires = ["hatchling", "django", "flatdict"]
+build-backend = "hatchling.build"
+
+[project]
+name = "django-urls-templatetag"
+version = "0.9.1"
+authors = [
+  { name="naggafin", email="nevincoutu@gmail.com" },
+]
+description = "Reverse django URLs within JavaScript."
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Framework :: Django",
+]
+dependencies = [
+	"django >= 3.2",
+	"flatdict",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/naggafin/django-urls-templatetag"
+"Bug Tracker" = "https://github.com/naggafin/django-urls-templatetag/issues"
