@@ -1,0 +1,8 @@
+chck
+nchr
+nlit
+pfmt
+pstr
+idfunc
+
+[dev]
