@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0", "requests>=2.31.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[metadata]
+name = "bleu-api"
+version = "1.0.1"
+description = "API for Blue"
+author = "Jahanzaib Malik"
+author_email = "jzmalik123@gmail.com"
+url = "https://github.com/jzmalik123/bleu-api"
+license = "MIT"
+
+[project]
+name = "bleu_api"
+version = "1.0.1"
+authors = [
+  { name="Jahanzaib Malik", email="jzmalik123@gmail.com" },
+]
+description = "API for Bleu"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jzmalik123/bleu-api"
+"Bug Tracker" = "https://github.com/jzmalik123/bleu-api/issues"
