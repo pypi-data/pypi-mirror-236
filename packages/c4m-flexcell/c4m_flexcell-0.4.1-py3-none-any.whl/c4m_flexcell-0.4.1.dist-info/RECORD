@@ -1,0 +1,13 @@
+c4m/__init__.py,sha256=pzSBKtHjyGt7th440xmejvIOtmBL4IJM_GI68IoRZ4E,149
+c4m/cell_canvas.ipynb,sha256=6EUsmM3LtK3XfChV4UVaB4twOCers2gjxZNEXHsCNk8,2247
+c4m/flexcell/__init__.py,sha256=GzXaaQQaYCXPmNCpzMweG8Ty7pnoYYAQRZ4qn8TfTNE,129
+c4m/flexcell/_waiters.py,sha256=COOEFccGp_vwVAHRfDmKjTEFCL4_iAfKU9Q0BnMBetE,3724
+c4m/flexcell/activecolumnscell.py,sha256=pRsL5_vjpnxKigcclCQ9tKINF-rgllw8ZDSAb8G8gGc,89923
+c4m/flexcell/canvas.py,sha256=DpW03Abbu5BhNKnV3cxrc10CvR-Q6U_OO9HFlkv8mmI,13873
+c4m/flexcell/cell.py,sha256=uB7JnecZjLFEuwvYBX2vRzjSd_X_sd0aWaWXcw3rNDg,4297
+c4m/flexcell/factory.py,sha256=DfgItK616D_Ltx4PNxW_-SWLkxgfH5ZxTC9BA7wAze8,132100
+c4m_flexcell-0.4.1.dist-info/LICENSE.md,sha256=FUQTmhfDE79wU3U4Q3y_1A4hkGzAienKyTWpnAgdxv0,782
+c4m_flexcell-0.4.1.dist-info/METADATA,sha256=ipV7VYFdJgHtpsp_1KwZtu4az9dzdSVcZfs08ysp8q8,4895
+c4m_flexcell-0.4.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+c4m_flexcell-0.4.1.dist-info/top_level.txt,sha256=rwsscmrPhblhsY8BXBBAgsXrnjsrBphkOHEG6SBIvLE,4
+c4m_flexcell-0.4.1.dist-info/RECORD,,
