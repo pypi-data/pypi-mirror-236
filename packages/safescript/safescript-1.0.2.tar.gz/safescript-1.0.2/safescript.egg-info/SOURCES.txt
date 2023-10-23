@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+safescript/__init__.py
+safescript.egg-info/PKG-INFO
+safescript.egg-info/SOURCES.txt
+safescript.egg-info/dependency_links.txt
+safescript.egg-info/top_level.txt
