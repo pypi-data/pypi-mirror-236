@@ -1,0 +1,38 @@
+[project]
+name = "yppm"
+version = "0.0.8"
+authors = [
+  { name="yingshaoxo", email="yingshaoxo@gmail.com" },
+]
+description = "Yingshaoxo Python Package Manager"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+  #'auto_everything==3.30',
+  #'pyinstaller==5.13.0',
+  #'Nuitka==1.8.4'
+]
+
+[tool.setuptools]
+py-modules = [
+    'yppm'
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+mypkg = ["*.sh", "*.md"]
+
+[project.urls]
+"Homepage" = "https://gitlab.com/yingshaoxo/yppm"
+"Bug Tracker" = "https://gitlab.com/yingshaoxo/yppm/issues"
+
+[build-system]
+requires = ["setuptools>=68.1.2"]
+build-backend = "setuptools.build_meta"
