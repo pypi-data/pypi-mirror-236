@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: rokkket
+Version: 1.0.0
+Summary: An awesome package that only allows you to create rockets
+Home-page: http://pypi.python.org/pypi/rocket
+Author: DJEBARRA Rabah Abderrazak
+Author-email: djebarra.ra@gmail.com
+License: LICENSE.txt
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# package_name
+
+`rocket` is a Python library for going to space without root
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `rocket`.
+
+```bash
+pip install rocket
+```
+
+## Usage
+
+```python
+import rocket
+
+# returns distance between two rockets
+rocket.get_distance(<another Rocket Object>)
+
+# returns moves the rocket in the y axis
+package_name.move_rocket( y= 10)
+
+
+
+```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

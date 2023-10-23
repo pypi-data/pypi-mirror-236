@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+rokkket/__init__.py
+rokkket/rocket.py
+rokkket.egg-info/PKG-INFO
+rokkket.egg-info/SOURCES.txt
+rokkket.egg-info/dependency_links.txt
+rokkket.egg-info/top_level.txt
