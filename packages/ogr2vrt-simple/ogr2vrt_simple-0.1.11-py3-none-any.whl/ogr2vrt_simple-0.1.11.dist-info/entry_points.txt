@@ -1,0 +1,3 @@
+[console_scripts]
+ogr2vrt_cli=ogr2vrt_simple.cli:cli
+

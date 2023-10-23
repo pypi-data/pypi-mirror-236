@@ -1,0 +1,14 @@
+ogr2vrt_simple/__init__.py,sha256=tuhzqJtDu9pZX77phyrsAWbZdUaUBMMjwQwRPlRaKc0,165
+ogr2vrt_simple/cli.py,sha256=Xq469ufSNV0TuhIyj4ncOeMAJKWjxYeA0lIS493EeGA,3423
+ogr2vrt_simple/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ogr2vrt_simple/templates/vrt.j2,sha256=SVJ3WvYSe01l_Y0VY9De5i80Uag3FR_aTC1lP6eadU8,602
+ogr2vrt_simple/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ogr2vrt_simple/utils/data_structures.py,sha256=M3bboCQ24nGdj2UQkCfQVKugev_5tJMN55akfjV9vSM,1352
+ogr2vrt_simple/utils/io_utils.py,sha256=MGGNQ98xRNFyec45_nf8C-CQWJsHPhPnaB7Ku7QQCog,6996
+ogr2vrt_simple/utils/ogr_utils.py,sha256=uYKd8vjO_cZNXgOakZbg3ZVbmDBnKVjb6A0CyK0ThK0,10322
+ogr2vrt_simple/utils/string_utils.py,sha256=s3sIUUxSaTLBdSzryek3yKtwOHrwLJzYyiqCb1xoL1s,341
+ogr2vrt_simple-0.1.11.dist-info/LICENSE,sha256=2olZH52ZPrUXu6tg6OoKL7Bj5yrl3ifa_TJSMspFwMA,1069
+ogr2vrt_simple-0.1.11.dist-info/METADATA,sha256=OA3qZviRkm5Ud4TX7t7nPx4XIHXQXI7yEFZeftq-p60,4193
+ogr2vrt_simple-0.1.11.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+ogr2vrt_simple-0.1.11.dist-info/entry_points.txt,sha256=VQBRh6peUVLu1juMJXlDR7TRq6e6we0LqC1ktiZWsbw,54
+ogr2vrt_simple-0.1.11.dist-info/RECORD,,
