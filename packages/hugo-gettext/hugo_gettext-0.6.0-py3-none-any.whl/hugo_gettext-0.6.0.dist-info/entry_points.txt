@@ -1,0 +1,4 @@
+[console_scripts]
+hugo-gettext=hugo_gettext.cli:main
+hugo-i18n=hugo_gettext.cli:main
+
