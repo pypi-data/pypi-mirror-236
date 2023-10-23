@@ -1,0 +1,152 @@
+//- No Comment --- Comment any resource on the web!
+//- Copyright © 2023 Bioneland
+//-
+//- This program is free software: you can redistribute it and/or modify
+//- it under the terms of the GNU Affero General Public License as
+//- published by the Free Software Foundation, either version 3 of the
+//- License, or (at your option) any later version.
+//-
+//- This program is distributed in the hope that it will be useful,
+//- but WITHOUT ANY WARRANTY; without even the implied warranty of
+//- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+//- GNU Affero General Public License for more details.
+//-
+//- You should have received a copy of the GNU Affero General Public License
+//- along with this program. If not, see <http://www.gnu.org/licenses/>.
+
+extends layout
+
+block links
+    link(rel="alternate" type="application/rss+xml" title="RSS feed" href=url_for("streams.display", stream_id=stream.id, format="rss"))
+    link(rel="alternate" type="application/atom+xml" title="ATOM feed" href=url_for("streams.display", stream_id=stream.id, format="atom"))
+    link(rel="alternate" type="application/feed+json" title="JSON feed" href=url_for("streams.display", stream_id=stream.id, format="json"))
+
+block title
+  title #{stream.title} | NoComment
+
+block content
+  section.section
+    .container
+
+  section.section
+    .container
+      .buttons.is-pulled-right
+        if filter
+          figure.image.is-48x48.is-pulled-right(style="padding: 4px")
+            a(
+              href=url_for("streams.display", stream_id=stream.id)
+              title="Remove filter"
+            )
+              img(width="48px" src=url_for("static", filename="img/filter-off.svg") alt="Filter")
+        else
+          figure.image.is-48x48.is-pulled-right(style="padding: 4px")
+            img(width="48px" src=url_for("static", filename="img/filter.svg") title="No filter applied")
+
+        figure.image.is-48x48.is-pulled-right
+          a(href=url_for("streams.display", stream_id=stream.id, format="atom"))
+            img(width="48px" src=url_for("static", filename="img/feed.svg") alt="Feed")
+
+      h1.title.is-1
+        | #{stream.title} 
+        span.is-size-6.is-italic.has-text-grey by #{stream.author}
+      h2.subtitle= stream.description
+
+  section.section
+    .container
+      if user
+        .buttons.is-pulled-right
+          a.button.is-danger(href=url_for("auth.logout")) Log out
+
+        h2.title.is-4 Add a comment
+
+        #form
+          block form
+            form(
+              method="POST"
+              action=""
+              hx-post=""
+              hx-target="#form"
+            )
+              if filter
+                input(type="hidden" id="url" name="url" value=filter)
+              else
+                .field
+                  label.label(for="url") URL
+                  .control
+                    input.input(
+                      type="url"
+                      id="url"
+                      name="url"
+                      value="#{url}"
+                      placeholder="The URL of the resource to comment"
+                    )
+              .field
+                label.label(for="text")
+                  | Text 
+                  span.is-size-7 (max. #{text_max_length})
+                .control
+                  textarea.textarea(type="text" id="text" name="text" value=text maxlength=text_max_length)
+              .field.is-expended
+                .control
+                  button.button.is-link.is-fullwidth(_="on click add .is-loading")
+                    | Comment
+
+              if comment_id
+                article.message.is-success
+                  .message-body Comment added!
+
+              if error
+                article.message.is-danger
+                  .message-body= error
+      else
+        article.message.is-info
+          .message-body.has-text-centered
+            a.button.is-info(href=url_for("auth.login")) Log in
+
+  section.section
+    .container
+      h2.title.is-4 Past comments
+
+      if comments|length == 0:
+        article.message.is-info(_="on commentAdded from body remove me")
+          .message-body No comment on this stream yet!
+
+      #comments.comments(hx-get="" hx-trigger="commentAdded from:body")
+        block comments
+          mixin comment_content(comment)
+            .card-content
+              .is-pulled-right
+                img.icon(src=url_for("static", filename="img/clock.svg") title=comment.created_at)
+              .text !{comment.text}
+              if not filter
+                .card-footer
+                  p
+                    a.url(href="?url=#{comment.url}")
+                      img.icon(src=url_for("static", filename="img/filter.svg") title="Only display comments about this URL.")
+                    a.url(href=comment.url)= comment.url
+
+          each comment in comments
+            if loop.last
+              .comment.card.mb-2(
+                hx-get=pager.next
+                hx-trigger="revealed"
+                hx-swap="beforeend"
+                hx-target="#comments"
+                hx-indicator="#indicator"
+              )
+                +comment_content(comment)
+            else
+              .comment.card.mb-2
+                +comment_content(comment)
+
+      #indicator.buttons.is-centered.mt-3.htmx-indicator.is-hidden(_="on load remove .is-hidden")
+        button.button.is-white.is-loading Loading indicator
+
+      if pager.previous or pager.next:
+        .buttons.is-centered.mt-3(_="on load remove me")
+          if pager.previous:
+            a#previous-page.button.is-link(href=pager.previous)
+              span Previous
+          if pager.next and comments|length >= pager.PAGE_SIZE:
+            a#next-page.button.is-link(href=pager.next)
+              span Next
