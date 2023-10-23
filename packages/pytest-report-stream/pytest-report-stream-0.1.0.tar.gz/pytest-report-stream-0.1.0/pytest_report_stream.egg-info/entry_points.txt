@@ -1,0 +1,3 @@
+[pytest11]
+report-stream = pytest_report_stream
+
