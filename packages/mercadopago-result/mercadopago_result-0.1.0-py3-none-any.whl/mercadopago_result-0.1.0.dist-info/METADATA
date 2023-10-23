@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mercadopago-result
+Version: 0.1.0
+Summary: An API to make the MercadoPago RESTFUL requests into python objects.
+Author: Luiz Guilherme Monoo Pereira Barbosa
+Author-email: luizmonoo@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: httpx (>=0.25.0,<0.26.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: result (>=0.13.1,<0.14.0)
+Description-Content-Type: text/markdown
+
+TODO
