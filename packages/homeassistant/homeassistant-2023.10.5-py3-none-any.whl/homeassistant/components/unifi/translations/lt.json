@@ -1,0 +1,16 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Slapta\u017eodis"
+                }
+            }
+        }
+    },
+    "options": {
+        "abort": {
+            "integration_not_setup": "UniFi integracija nenustatyta"
+        }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "services": {
+        "set_desk_db": {
+            "fields": {
+                "db_value": {
+                    "name": "DB vert\u0117"
+                }
+            }
+        },
+        "set_high_hz": {
+            "name": "Nustatykite auk\u0161t\u0105 herc\u0105"
+        },
+        "set_mode": {
+            "fields": {
+                "sub_polarity": {
+                    "name": "\u017dem\u0173j\u0173 da\u017eni\u0173 garsiakalbio poli\u0161kumas"
+                },
+                "wall_mode": {
+                    "description": "Sienos re\u017eimas.",
+                    "name": "Sienos re\u017eimas"
+                }
+            },
+            "name": "Nustatyti re\u017eim\u0105"
+        },
+        "set_sub_db": {
+            "name": "Nustato \u017eem\u0173j\u0173 da\u017eni\u0173 garsiakalb\u012f dB"
+        },
+        "update_dsp": {
+            "description": "Atnaujina visus DSP nustatymus.",
+            "name": "Atnaujinkite DSP"
+        }
+    }
+}

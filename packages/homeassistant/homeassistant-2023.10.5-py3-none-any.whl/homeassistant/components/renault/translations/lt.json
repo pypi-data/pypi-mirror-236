@@ -1,0 +1,94 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "data": {
+                    "password": "Slapta\u017eodis",
+                    "username": "El. pa\u0161tas"
+                }
+            }
+        }
+    },
+    "entity": {
+        "binary_sensor": {
+            "driver_door_status": {
+                "name": "Vairuotojo durys"
+            },
+            "hatch_status": {
+                "name": "Liukas"
+            },
+            "hvac_status": {
+                "name": "HVAC"
+            },
+            "passenger_door_status": {
+                "name": "Keleivio durys"
+            },
+            "rear_left_door_status": {
+                "name": "Galin\u0117s kair\u0117s durys"
+            },
+            "rear_right_door_status": {
+                "name": "Galin\u0117s de\u0161in\u0117s durys"
+            }
+        },
+        "button": {
+            "start_air_conditioner": {
+                "name": "Paleiskite oro kondicionieri\u0173"
+            },
+            "start_charge": {
+                "name": "Prad\u0117ti \u012fkrovim\u0105"
+            },
+            "stop_charge": {
+                "name": "Sustabdyti \u012fkrovim\u0105"
+            }
+        },
+        "select": {
+            "charge_mode": {
+                "state": {
+                    "always": "Momentinis",
+                    "schedule_mode": "Planuotojas"
+                }
+            }
+        },
+        "sensor": {
+            "charge_state": {
+                "state": {
+                    "charge_ended": "Mokestis baig\u0117si",
+                    "charge_error": "Ne\u012fkraunamas arba neprijungtas",
+                    "charge_in_progress": "\u012ekrovimas",
+                    "not_in_charge": "Nekraunama",
+                    "unavailable": "Nepasiekiamas"
+                }
+            },
+            "hvac_soc_threshold": {
+                "name": "HVAC SoC riba"
+            },
+            "location_last_activity": {
+                "name": "Paskutin\u0117 vietos veikla"
+            },
+            "mileage": {
+                "name": "Rida"
+            },
+            "outside_temperature": {
+                "name": "Lauko temperat\u016bra"
+            },
+            "plug_state": {
+                "name": "Ki\u0161tuko b\u016bsena"
+            },
+            "res_state": {
+                "name": "Nuotolinis variklio paleidimas"
+            },
+            "res_state_code": {
+                "name": "Nuotolinio variklio u\u017evedimo kodas"
+            }
+        }
+    },
+    "services": {
+        "charge_set_schedules": {
+            "fields": {
+                "vehicle": {
+                    "name": "Transporto priemon\u0117"
+                }
+            }
+        }
+    }
+}

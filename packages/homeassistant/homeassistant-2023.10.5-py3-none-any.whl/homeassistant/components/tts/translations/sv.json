@@ -1,0 +1,37 @@
+{
+    "services": {
+        "clear_cache": {
+            "description": "Tar bort alla cachade text-till-tal-filer och rensar minnet.",
+            "name": "Rensa TTS-cache"
+        },
+        "say": {
+            "fields": {
+                "language": {
+                    "name": "Spr\u00e5k"
+                },
+                "message": {
+                    "name": "Meddelande"
+                },
+                "options": {
+                    "description": "En ordlista som inneh\u00e5ller integrationsspecifika alternativ.",
+                    "name": "Alternativ"
+                }
+            }
+        },
+        "speak": {
+            "fields": {
+                "language": {
+                    "name": "Spr\u00e5k"
+                },
+                "message": {
+                    "name": "Meddelande"
+                },
+                "options": {
+                    "description": "En ordlista som inneh\u00e5ller integrationsspecifika alternativ.",
+                    "name": "Alternativ"
+                }
+            },
+            "name": "Tala"
+        }
+    }
+}

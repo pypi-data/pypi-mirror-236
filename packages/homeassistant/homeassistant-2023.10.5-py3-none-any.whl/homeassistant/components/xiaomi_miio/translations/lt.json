@@ -1,0 +1,37 @@
+{
+    "entity": {
+        "select": {
+            "led_brightness": {
+                "state": {
+                    "off": "I\u0161jungta"
+                }
+            }
+        }
+    },
+    "services": {
+        "vacuum_clean_zone": {
+            "fields": {
+                "zone": {
+                    "name": "Zona"
+                }
+            },
+            "name": "Dulki\u0173 valymo zona"
+        },
+        "vacuum_goto": {
+            "description": "Eikite \u012f nurodytas koordinates.",
+            "fields": {
+                "x_coord": {
+                    "description": "X-koordinat\u0117.",
+                    "name": "X koordinat\u0117"
+                },
+                "y_coord": {
+                    "description": "Y-koordinat\u0117.",
+                    "name": "Y koordinat\u0117"
+                }
+            }
+        },
+        "vacuum_remote_control_move": {
+            "description": "Nuotoliniu b\u016bdu valdomas dulki\u0173 siurblys. Pirmiausia \u012fsitikinkite, kad j\u012f nustat\u0117te nuotolinio valdymo re\u017eimu naudodami \u201eremote_control_start\u201c."
+        }
+    }
+}
