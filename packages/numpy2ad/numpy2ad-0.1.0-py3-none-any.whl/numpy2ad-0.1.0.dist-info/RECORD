@@ -1,0 +1,11 @@
+numpy2ad/__init__.py,sha256=FuToET9yRgYFWEc0hfQvcu1imNPguT76840RvSiqWA0,163
+numpy2ad/ast_traversal.py,sha256=TL5rCBt-s-88wN7kJbwXtwAxSDP41c1y8nQNWYb1sx8,7043
+numpy2ad/base_transformer.py,sha256=p0X4MVgGVHRW6ymMQ0Tc4gz8FFb6Dd-wj4oGU0YCbvE,15466
+numpy2ad/derivatives.py,sha256=K6Enol5G53PKGbrEWzlVmI8FygVftSLC1t8KG73OlYs,5317
+numpy2ad/expr_transformer.py,sha256=Df9BhXk7UGfIjC6k6NhvMS8FPh1E3a6DEPeRY1MIuH4,3042
+numpy2ad/func_transformer.py,sha256=z80b4-Tny1sk5QoMOSztNdbr6N03CkfVOCJsYzXj8tw,10057
+numpy2ad-0.1.0.dist-info/LICENSE.txt,sha256=T2yFEqLWagfrDjaUD28bL_oEPH-wtlCngzeJVa2jKZY,1060
+numpy2ad-0.1.0.dist-info/METADATA,sha256=06z0yZ1lKAOyv36Sw9HWT3YymPZuuvR6RrU7TyJtAe0,5174
+numpy2ad-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+numpy2ad-0.1.0.dist-info/top_level.txt,sha256=MQ-3JsYMD1cCbvJKePobIS6DpJtJnW6WSkRxqJts6I4,9
+numpy2ad-0.1.0.dist-info/RECORD,,
