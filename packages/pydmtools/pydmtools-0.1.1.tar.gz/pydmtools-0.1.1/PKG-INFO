@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pydmtools
+Version: 0.1.1
+Summary: A Software Package for Accessing and Manipulating DM Files
+Home-page: https://github.com/ZhouQiangwei/pydmtools.git
+Download-URL: 
+Author: momocoding
+Author-email: 
+Keywords: bioinformatics,DNA methylation,DM,dmtools
+Provides-Extra: numpy input
+License-File: LICENSE.txt
