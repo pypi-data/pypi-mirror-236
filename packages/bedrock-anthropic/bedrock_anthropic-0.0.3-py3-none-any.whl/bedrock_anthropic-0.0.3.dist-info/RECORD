@@ -1,0 +1,8 @@
+bedrock_anthropic/__init__.py,sha256=95QDOjirk2lnEVOTcchQzaz3muBScnQPS7dRzN5lQ1s,84
+bedrock_anthropic/async_client.py,sha256=FRLVs1_VSTGe9bzYWVAHrpIFlUyfjpSXNpaKfjNrKwA,5237
+bedrock_anthropic/client.py,sha256=1sM1spUR-3diLoM3WTJqu4NXP3ZMSfr6fboRI2lWVzA,11014
+bedrock_anthropic-0.0.3.dist-info/LICENSE,sha256=gEMvqcu_n1Te9Ko01hZMxyIHnXq_BQ94m4vH_VyxrqA,1075
+bedrock_anthropic-0.0.3.dist-info/METADATA,sha256=VViriAmJmBtAoW4MKe-ZYCWwWj54pOWrcG-qsRPNnaw,4319
+bedrock_anthropic-0.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bedrock_anthropic-0.0.3.dist-info/top_level.txt,sha256=m-IPlS5G6O7nw8ka56FGc8DeJdHJBrYTZq2jWbjzDv4,18
+bedrock_anthropic-0.0.3.dist-info/RECORD,,
