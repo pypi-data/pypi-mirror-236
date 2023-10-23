@@ -1,0 +1,16 @@
+numpy
+magicgui
+qtpy
+opencv-python-headless
+tensorflow
+scikit-image
+napari
+focal_loss
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
