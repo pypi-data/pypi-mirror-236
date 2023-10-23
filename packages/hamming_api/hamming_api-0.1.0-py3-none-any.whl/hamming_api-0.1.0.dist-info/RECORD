@@ -1,0 +1,12 @@
+hamming_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hamming_api/app.py,sha256=18nj40NfixXYDRS_Ydi7-C5KSoPhN6Saea4VEc2RFWg,6630
+hamming_api/data.py,sha256=r_VjwhrFP-yBuge73febWoK_vGv_MpQCesOFF5CChs4,3660
+hamming_api/templates/upload-failure.html,sha256=JUPSBYBsosk763uzrskLrEA2kLHP2cDPvN0mOxiI13Y,236
+hamming_api/templates/upload-success.html,sha256=m6-qFgSTzofEi0CvntlYgXAjhwgHGV_l5vlQJL6MX3U,218
+hamming_api/templates/upload.html,sha256=ddOUksd4i1LXL87-xa--6Gg4dMjewyXZIiYrSFEN8KQ,399
+hamming_api/utils.py,sha256=zOxCl9_QjZrHuuQIcOwYHIDwTpRHFCXjS8g8o9ZIFCE,2345
+hamming_api-0.1.0.dist-info/LICENSE,sha256=DT6k_6hGEWayeOAVc4-F7Lm0bl-3omyOsf8jznBHKY8,581
+hamming_api-0.1.0.dist-info/METADATA,sha256=eejgHU8U_0n-gbvEcqolUCWzaQSFtKo4pUnPGoF-IAs,4249
+hamming_api-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+hamming_api-0.1.0.dist-info/entry_points.txt,sha256=_bHiSrR1JeX3ppNo7np3W5Y80ol8xALBqzrpPvI8yU4,52
+hamming_api-0.1.0.dist-info/RECORD,,
