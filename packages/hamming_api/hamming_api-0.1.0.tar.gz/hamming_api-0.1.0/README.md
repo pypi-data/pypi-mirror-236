@@ -1,0 +1,84 @@
+# hamming-api
+
+[![Release](https://img.shields.io/github/v/release/kenibrewer/hamming-api)](https://img.shields.io/github/v/release/kenibrewer/hamming-api)
+[![Build status](https://img.shields.io/github/actions/workflow/status/kenibrewer/hamming-api/main.yml?branch=main)](https://github.com/kenibrewer/hamming-api/actions/workflows/main.yml?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/kenibrewer/hamming-api/branch/main/graph/badge.svg)](https://codecov.io/gh/kenibrewer/hamming-api)
+[![Commit activity](https://img.shields.io/github/commit-activity/m/kenibrewer/hamming-api)](https://img.shields.io/github/commit-activity/m/kenibrewer/hamming-api)
+[![License](https://img.shields.io/github/license/kenibrewer/hamming-api)](https://img.shields.io/github/license/kenibrewer/hamming-api)
+
+[IN DEVELOPMENT] A pyspark deployment of an api for querying a sequence database for sequences within a certain hamming distance of a query
+
+- **Github repository**: <https://github.com/kenibrewer/hamming-api/>
+- **Documentation** <https://kenibrewer.github.io/hamming-api/>
+
+## Purpose
+
+Sequence hamming distance queries have wide applications in bioinformatics.
+Some examples include:
+
+- DNA-encoded chemical libraries
+- High-throughput screening of protein variants
+
+This project aims to provide a fast, scalable, and easy-to-use API for querying a sequence database for sequences within a certain hamming distance of a query.
+
+## Development
+
+This project includes a VSCode devcontainer for easy development and testing.
+The easiest way to launch it is using [codespaces](https://github.com/features/codespaces) with the button below:
+
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/kenibrewer/hamming-api)
+
+To launch the devcontainer locally , you must have [Docker](https://www.docker.com/) installed and follow the instructions below:
+
+- Clone the repo:
+  ```bash
+  git clone https://github.com/kenibrewer/hamming-api.git
+  ```
+- Open the command palette (Ctrl+Shift+P) and select `Remote-Containers: Reopen in Container`.
+- Wait for the devcontainer to build.
+- Open a terminal in VSCode (Ctrl+Shift+`).
+
+## Usage
+
+Start the app with:
+
+```bash
+  hamming-api run --debug
+```
+
+For more details on available flags see the documentation.
+
+### Database Upload
+
+When the app is started, it creates an upload endpoint at `http://localhost:8080/`.
+Navigate to this endpoint in your browser to upload a database.
+The database must be a fasta.gz file under 1 MB in size.
+The fasta headers should contain the standard refseq header format, e.g.:
+
+```
+>lcl|NC_004828.1_cds_NP_852780.1_1 [gene=Rep] [locus_tag=AavAV865gp1] [db_xref=GeneID:1482924] [protein=rep protein] [protein_id=NP_852780.1] [location=244..2232] [gbkey=CDS]`
+```
+
+### Querying
+
+Once the database is uploaded, you can query it at `http://localhost:8080/hamming-matches`.
+The query should be a JSON object with the following format:
+
+```json
+{
+  "sequence": "ATCG",
+  "distance": 1 //Optional, defaults to 1
+}
+```
+
+An example query using curl:
+
+```bash
+curl -X POST http://localhost:8080/hamming-matches \
+    -H 'Content-Type: application/json' \
+    -d '{"sequence":"ACGT"}'
+```
+
+---
+
+Repository initiated with [fpgmaas/cookiecutter-poetry](https://github.com/fpgmaas/cookiecutter-poetry).
