@@ -1,0 +1,2 @@
+[console_scripts]
+tpu_mlir_test_get_resource = tpu_mlir_test:cp_from_package_root
