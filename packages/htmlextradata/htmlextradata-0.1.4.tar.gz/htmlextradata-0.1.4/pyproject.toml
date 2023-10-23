@@ -1,0 +1,71 @@
+[tool.poetry]
+name = "htmlextradata"
+version = "0.1.4"
+description = "MkDocs Plugin"
+authors = ["Alexandr Starovoytov <stalex.info@yandex.ru>"]
+repository = "https://github.com/stalexsm/mkdocs-htmlextradata-plugin"
+readme = "README.md"
+license = "MIT"
+keywords = [
+    "mkdocs", "mkdocs-plugin",
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/stalexsm/mkdocs-htmlextradata-plugin"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs = "^1.4.0"
+pyyaml = "^6.0"
+
+[tool.poetry.plugins."mkdocs.plugins"]
+htmlextradata = "htmlextradata:HtmlExtraDataPlugin"
+
+[tool.poetry.dev-dependencies]
+pytest = "7.2.2"
+black = "23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+profile = "black"
+line_length = 88
+combine_as_imports = true
+skip_gitignore= true
+extra_standard_library = ["typing_extensions"]
+skip=[".gitignore",".dockerignore",".env", "env.example", ".venv"]
+
+[tool.black]
+line-length = 88
+include = '\.pyi?$'
+extend-exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | \.env
+  | _build
+  | buck-out
+  | build
+  | dist
+  | tests/.*/setup.py
+)/
+'''
+
+[tool.ruff]
+ignore = ["E501"]
+
+[tool.ruff.per-file-ignores]
+# "__init__.py" = ["E402"]
+"scripts/permissions.py" = ["E402"]
+"scripts/styles.py" = ["E402"]
