@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+readme.md
+esrapgra/__init__.py
+esrapgra.egg-info/PKG-INFO
+esrapgra.egg-info/SOURCES.txt
+esrapgra.egg-info/dependency_links.txt
+esrapgra.egg-info/top_level.txt
+test/test_esrapgra.py
