@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: tgbotzero
+Version: 0.0.2
+Summary: A zero-boilerplate simple telegram bots
+Home-page: https://github.com/ShashkovS/tgbotzero
+Author: Sergey Shashkov
+Author-email: sh57@yandex.ru
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Russian
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyTelegramBotAPI
+
+
+<p align="center">
+<a href="https://pypi.org/project/tgbotzero/" target="_blank">
+<img alt="PyPI" src="https://img.shields.io/pypi/v/tgbotzero">
+</a>
+<img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/tgbotzero">
+<img alt="GitHub" src="https://img.shields.io/github/license/ShashkovS/tgbotzero">
+</p>
+
+# TgBotZero
+Телеграм-боты в пару строчек кода.
+Простые телеграм-боты должно быть очень просто делать!
+
+
+## Примеры
+
+### Бот, показывающий твоё сообщение:
+
+``` python
+import tgbotzero
+
+TOKEN = '123123123:tokenFromBotFatherInTelegram'
+
+def on_message(msg: str):
+    return "Твоё сообщение: " + msg
+```
+
+<img alt="echobot" src="https://github.com/ShashkovS/tgbotzero/raw/main/docs/echobot.png" width="417">
+
+
+### Бот с кнопками:
+
+``` python
+from tgbotzero import *
+
+TOKEN = '123:tokenHereFromBotFatherInTelegram'
+
+def on_message(msg: str):
+    return [
+        "Твоё сообщение: " + msg,
+        Button('Кнопка', 'btn'),
+    ]
+
+def on_button_btn(data):
+    return 'Нажата кнопка. Отправьте любое сообщение для продолжения'
+
+run_bot()
+```
+
+<img alt="echobot" src="https://github.com/ShashkovS/tgbotzero/raw/main/docs/buttonbot.png" width="600">
+
+
+# Установка
+
+Введите в терминале:
+```shell
+pip install tgbotzero --upgrade --user
+```
+
+
+Или запустите эту программу:
+
+```python
+import os, sys
+python = sys.executable
+user = '--user' if 'venv' not in python and 'envs' not in python else ''
+cmd = f'"{python}" -m pip install tgbotzero --upgrade {user}'
+os.system(cmd)
+```
+
+# [Contributing](CONTRIBUTING.md) 

@@ -1,0 +1,26 @@
+import unittest
+import pathlib
+import shutil
+import re
+
+from tgbotzero import copy_examples
+
+example_file_mask = re.compile(r'\b\d\d_\w+\.py|\b\w+\.png|\b__\w+__\b')
+
+
+class CopyExamplesTest(unittest.TestCase):
+    def test_copy_examples(self):
+        copy_examples()
+        examples = []
+        examples_dir = pathlib.Path('./examples')
+        for obj in examples_dir.rglob('*'):
+            if obj.suffix == '.py':
+                examples.append(str(obj))
+        self.assertGreater(len(examples), 2, 'There must be at least 2 example files...')
+        self.assertTrue(all(example_file_mask.search(name) for name in examples))
+        if all(example_file_mask.search(name) for name in examples):
+            shutil.rmtree(examples_dir)
+
+
+if __name__ == "__main__":
+    unittest.main()
