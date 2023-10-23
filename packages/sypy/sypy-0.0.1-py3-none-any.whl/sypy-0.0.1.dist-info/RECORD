@@ -1,0 +1,17 @@
+sypy/__init__.py,sha256=IupxFOW2G8lqm8mqB8Q4lzXScbUT0_QAApHLTFjVbSo,9744
+sypy/_utils.py,sha256=FTg2iIP2FTCUpKW5d4l_3Gp7jWQ8DA9_OIngpRh-xXA,582
+sypy/parameters.py,sha256=guZjJzStn3uCkQ32dJA0VMdluM8O4IPpG3_3WtxYGAU,294
+sypy/_dispatcher/__init__.py,sha256=REGry1r9laAnwMxJZQMDXbCzNixI8iZkKG6HPh1-so0,1730
+sypy/_dispatcher/callback.py,sha256=LKnB_Jx3hDB4ILbzDwXRiMwC78KUlT7mh2PqbVpboUA,5393
+sypy/http/__init__.py,sha256=vAN0ywLjH94bhH4iEB89vWf_sZpA5-haAn7eFUrMLWc,223
+sypy/http/_errors.py,sha256=Zx4gsiaBHlvBdGYWXTNU0SB6MOLnpfTz4Ss1RF6F9Js,1679
+sypy/http/_frames.py,sha256=FWx_jObelaOtWLG0dN9QFytybH85Mo17dkRt9C-IvTc,2732
+sypy/http/_method.py,sha256=NLYQQJhx_2OlJRfy57Oc5K0rzm2iweRByj-vyXkAVdM,268
+sypy/http/_status.py,sha256=REqvUwqIPrPBc7VqYoE7EUzWU3THlP_Wz92XV6kjL8c,4817
+sypy/http/path/__init__.py,sha256=xVR7UD5UwlJVNZtKR0xVAmoPmx0Pl9j6Vu-UzY4OB_E,1001
+sypy/http/path/characters.py,sha256=m4FvjWhtE4cAV9R12y6N7tPm6GWM8U-YpF0RzM4KDnM,106
+sypy/http/path/encoder.py,sha256=UoRDn9wQMCkqBgV2tdNGV-yqNNVsPIDDYu-BpDLrteo,1662
+sypy-0.0.1.dist-info/METADATA,sha256=CpjZvahdtgQ52Wrfr8DFSoeiE4wpgAG5WhojIf4bOWs,2492
+sypy-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sypy-0.0.1.dist-info/top_level.txt,sha256=Cwa9xFGuSXrkolEMB8FzbY-aQjFStIep-cEUOJhqpcY,5
+sypy-0.0.1.dist-info/RECORD,,
