@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: multiarmedbandits
+Version: 0.1.0
+Summary: Multi-Armed Bandits algorithms
+Home-page: https://github.com/samsonq/multiarmedbandits
+Author: Samson Qian
+Author-email: samsonqian@gmail.com
+License: MIT
+Keywords: mab deep_mab deep_mab reinforcement-learning
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# multiarmedbandits
