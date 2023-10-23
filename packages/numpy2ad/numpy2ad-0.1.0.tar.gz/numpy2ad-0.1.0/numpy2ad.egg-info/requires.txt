@@ -1,0 +1,10 @@
+numpy
+
+[demo]
+ipykernel
+
+[graph]
+graphviz
+
+[tests]
+pytest
