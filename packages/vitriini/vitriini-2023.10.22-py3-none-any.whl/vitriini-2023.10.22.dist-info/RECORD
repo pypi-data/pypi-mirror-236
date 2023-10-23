@@ -1,0 +1,12 @@
+vitriini/__init__.py,sha256=v_MdR0kvD41KrmPrKyz5QZ_kH5Oh6Do0OQB14_xTxCo,2759
+vitriini/__main__.py,sha256=2tyuetwAbdhh-mJF2RCRSneVUVPE-QuVZZ4JYsx4ihE,121
+vitriini/api.py,sha256=B1Ky3cT-sWhJ0YF4Jk-xVGCY48kL1aN_APVkZhQ1_jU,1037
+vitriini/cli.py,sha256=8Q1k71Nu5i6MIs6xi85xAE1GKg8IpIN2HChpfMyikbs,1471
+vitriini/processor.py,sha256=TmS_zxK-Nn8f5nPQfyfvIfWDebGqZWGA0BtbFoUCLd4,6879
+vitriini/showcase.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vitriini-2023.10.22.dist-info/LICENSE,sha256=a9GBBsUGDvTGs1rmHMujUJiPhEY6vtKCdGlW6XmWoTw,1069
+vitriini-2023.10.22.dist-info/METADATA,sha256=t3Up_ECdzjO4SqxgaSOprR6YlkNQaTi5W_0Qk8WAEnY,3959
+vitriini-2023.10.22.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vitriini-2023.10.22.dist-info/entry_points.txt,sha256=HzBidb1OCeeNKhAd2oHngAfgEiO2cC8LYPqm44Q5ooE,46
+vitriini-2023.10.22.dist-info/top_level.txt,sha256=YqDNhYbXcMWmebLvuO3HyzOfBOzEPM9LoTY4gAd3u6w,9
+vitriini-2023.10.22.dist-info/RECORD,,
