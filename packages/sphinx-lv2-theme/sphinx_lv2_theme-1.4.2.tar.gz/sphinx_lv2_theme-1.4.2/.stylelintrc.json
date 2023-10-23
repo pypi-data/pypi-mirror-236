@@ -1,0 +1,9 @@
+{
+  "extends": "/usr/lib/node_modules/stylelint-config-standard",
+  "rules": {
+    "color-hex-case": "upper",
+    "no-descending-specificity": null,
+    "property-no-vendor-prefix": null,
+    "selector-list-comma-newline-after": "always-multi-line"
+  }
+}
