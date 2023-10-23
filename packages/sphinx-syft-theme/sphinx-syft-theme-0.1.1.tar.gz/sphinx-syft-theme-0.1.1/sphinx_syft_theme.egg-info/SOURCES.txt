@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+sphinx_syft_theme.egg-info/PKG-INFO
+sphinx_syft_theme.egg-info/SOURCES.txt
+sphinx_syft_theme.egg-info/dependency_links.txt
+sphinx_syft_theme.egg-info/entry_points.txt
+sphinx_syft_theme.egg-info/requires.txt
+sphinx_syft_theme.egg-info/top_level.txt
+sphinx_syft_theme.egg-info/zip-safe
