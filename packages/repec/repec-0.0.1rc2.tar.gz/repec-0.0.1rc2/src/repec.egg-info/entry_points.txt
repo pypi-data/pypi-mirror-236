@@ -1,0 +1,2 @@
+[console_scripts]
+repec = repec.main:main
