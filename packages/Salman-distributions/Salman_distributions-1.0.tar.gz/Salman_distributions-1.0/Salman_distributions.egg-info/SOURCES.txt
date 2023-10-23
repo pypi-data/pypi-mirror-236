@@ -1,0 +1,10 @@
+setup.py
+Salman_distributions/Binomialdistribution.py
+Salman_distributions/Gaussiandistribution.py
+Salman_distributions/Generaldistribution.py
+Salman_distributions/__init__.py
+Salman_distributions.egg-info/PKG-INFO
+Salman_distributions.egg-info/SOURCES.txt
+Salman_distributions.egg-info/dependency_links.txt
+Salman_distributions.egg-info/not-zip-safe
+Salman_distributions.egg-info/top_level.txt
