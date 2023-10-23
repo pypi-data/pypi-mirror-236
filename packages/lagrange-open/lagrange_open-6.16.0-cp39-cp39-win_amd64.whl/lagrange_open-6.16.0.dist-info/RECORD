@@ -1,0 +1,16 @@
+lagrange/__init__.py,sha256=eRlM9NO2phTqq22slQDKzRTbihWYjBoQu4jsoSmTPSc,730
+lagrange/_logging.py,sha256=GMDL3O9z3mT60mRHoN2BU1Dc77YE_Qj-iURQw4dvuIQ,1865
+lagrange/lagrange/__init__.pyi,sha256=EG73Fyh7YiKKVP8U3HAS73-3twA6CI-xr_4FnoEsl6k,104
+lagrange/lagrange/core.pyi,sha256=UEC3O5CJI-2TfpNIuJRvU0CllQfnArNgvIwBJdnfjoU,39965
+lagrange/lagrange/io.pyi,sha256=Cv2nckzwm4HB__8irIpQ1yNuRDQwl_f-_Yn5VB7KVXM,4117
+lagrange/lagrange/scene.pyi,sha256=DLkk9k_2Rcg_V6XkdBPxfMNNuaZTLSt4tirXXUhbtqc,2496
+lagrange/lagrange.cp39-win_amd64.pyd,sha256=FqgBy8tDLGCF7OswPFCsAIjkSLPiavxnFEAETBXMVv0,6336512
+lagrange/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lagrange/tbb12.dll,sha256=kQoS4bPB3T_w5240EHwHZVLplKJZJq9HZwJSZPT3sis,309248
+lagrange/tbb12.lib,sha256=zqeVnuHc8Ij5QueB4_VupLegrty-N-LnkI8O9EW_BgE,44060
+lagrange_open-6.16.0.dist-info/METADATA,sha256=NWO4Wh0qv05j2jJGXBZHfP8EoP5i8QkTR2QBfuKyAkU,1961
+lagrange_open-6.16.0.dist-info/WHEEL,sha256=3aOdWM_7KOPfqQ-5vTX1Ct3p3DIlvh8-W8IK1a7zxP8,103
+lagrange_open-6.16.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lagrange_open-6.16.0.dist-info/licenses/LICENSE,sha256=V68Rm9DzW5gnETrkzOSlPFnXRlBwms0AlKuaB1AJxPw,11536
+lagrange_open-6.16.0.dist-info/licenses/NOTICE.txt,sha256=sjR8qjhWiWVRqy1Zx3-yABL8bCilvvOvyF31qe6welQ,11739
+lagrange_open-6.16.0.dist-info/RECORD,,
