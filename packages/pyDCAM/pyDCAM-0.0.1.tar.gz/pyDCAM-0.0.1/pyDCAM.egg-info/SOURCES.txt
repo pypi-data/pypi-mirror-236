@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+pyDCAM/__init__.py
+pyDCAM/_util.py
+pyDCAM/dcamapi.py
+pyDCAM/dcamapi_enum.py
+pyDCAM/dcamapi_struct.py
+pyDCAM/dcamprop.py
+pyDCAM.egg-info/PKG-INFO
+pyDCAM.egg-info/SOURCES.txt
+pyDCAM.egg-info/dependency_links.txt
+pyDCAM.egg-info/requires.txt
+pyDCAM.egg-info/top_level.txt
+tests/test_dcamapi.py
