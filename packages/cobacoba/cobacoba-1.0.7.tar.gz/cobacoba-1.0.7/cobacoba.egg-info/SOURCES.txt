@@ -1,0 +1,9 @@
+README.md
+setup.py
+cobacoba/Stem.py
+cobacoba/__init__.py
+cobacoba/lemma.py
+cobacoba.egg-info/PKG-INFO
+cobacoba.egg-info/SOURCES.txt
+cobacoba.egg-info/dependency_links.txt
+cobacoba.egg-info/top_level.txt
