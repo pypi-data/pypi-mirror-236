@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jupyterhub-forwardbasespawner
+Version: 0.0.4.dev2
+Summary: JupyterHub BaseSpawner class. Enables remote single-user server.
+Author-email: Tim Kreuzer <t.kreuzer@fz-juelich.de>, Alice Grosch <a.grosch@fz-juelich.de>
+License-File: LICENSE
+Keywords: jupyterhub,spawner
+Requires-Python: >=3.9
+Requires-Dist: escapism
+Requires-Dist: jinja2
+Requires-Dist: jupyterhub>=4.0.0
+Requires-Dist: kubernetes
+Requires-Dist: traitlets
+Requires-Dist: urllib3
+Description-Content-Type: text/markdown
+
+# ForwardBaseSpawner
+Todo
