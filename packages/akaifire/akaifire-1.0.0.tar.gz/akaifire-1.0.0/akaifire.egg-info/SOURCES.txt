@@ -1,0 +1,9 @@
+LICENSE
+README.md
+akaifire.py
+pyproject.toml
+akaifire.egg-info/PKG-INFO
+akaifire.egg-info/SOURCES.txt
+akaifire.egg-info/dependency_links.txt
+akaifire.egg-info/requires.txt
+akaifire.egg-info/top_level.txt
