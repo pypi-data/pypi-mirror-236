@@ -1,0 +1,17 @@
+lagrange_open-6.16.0.dist-info/RECORD,,
+lagrange_open-6.16.0.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lagrange_open-6.16.0.dist-info/WHEEL,sha256=vSIEUxQ9sJdRwV1jvsDgNPoW3wfc7Hv4NnXuj5rf654,151
+lagrange_open-6.16.0.dist-info/METADATA,sha256=NWO4Wh0qv05j2jJGXBZHfP8EoP5i8QkTR2QBfuKyAkU,1961
+lagrange_open-6.16.0.dist-info/licenses/LICENSE,sha256=hr3V2vq3dFEES2_W0u-rI-NBDOZY6wl_BMBPT1Su1i8,11335
+lagrange_open-6.16.0.dist-info/licenses/NOTICE.txt,sha256=_g9l7GrUGmfu_bWrnY9j5qXcivcwz8XCKzDulvKu95A,11488
+lagrange/libtbb.so.12,sha256=Y5R6nozRKYmJ1V3ADQzXYtFLOjEQZNuLVN9uOUmVo8I,293048
+lagrange/libtbb.so.12.10,sha256=Y5R6nozRKYmJ1V3ADQzXYtFLOjEQZNuLVN9uOUmVo8I,293048
+lagrange/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lagrange/_logging.py,sha256=udlHCqNb8tf9DUVnuT9Q4M-DfCBBnnQWxVCsamIM11g,1816
+lagrange/lagrange.cpython-38-x86_64-linux-gnu.so,sha256=vaqwkfEQmgSSwIAyVg6hZ97VA7EyiEP3e9eWTA30f10,17434680
+lagrange/libtbb.so,sha256=Y5R6nozRKYmJ1V3ADQzXYtFLOjEQZNuLVN9uOUmVo8I,293048
+lagrange/__init__.py,sha256=ShpiAgX3BU91TQDPxwvyDOTI_lacXpfURAQFJnMHj4o,714
+lagrange/lagrange/__init__.pyi,sha256=o5iJEW3r1252vRkbzsD7CuJL9GlMI9xYWjZx71JXgog,100
+lagrange/lagrange/core.pyi,sha256=8mipn-LfwIrf1pZm-PpbVc2czo3WdUYvWCjnJ1qeOuM,37562
+lagrange/lagrange/io.pyi,sha256=Qg6d0_FOMKuZCqJLA_ojRHN5qpEOdPKjyA8U21FI--E,4034
+lagrange/lagrange/scene.pyi,sha256=ds6_A3IVCkvRNdSdCbBTsJ3JmOexSnrXol-SyWAxvGg,2392
