@@ -1,0 +1,9 @@
+pycalf/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pycalf/metrics.py,sha256=F34a5VMAO6egmDAH8rj-9_rvL3pzKZUlVOmEJbGacdY,7507
+pycalf/propensity.py,sha256=cJqT4ul1dyoe8qLrwaLLVVm-1hr-SHUxsB0sUGzaLKc,13404
+pycalf/uplift.py,sha256=x8gojqJJCWCzsC0Rcoq2i-E3gDVwiDpYu1KTx8xVxGk,4071
+pycalf/visualize.py,sha256=nNoP-oTvIDGWud59RTbF-tIK5onjK7d7HGFxTfbExd8,5486
+pycalf-0.2.11.dist-info/LICENSE,sha256=7j1GgZaRseSFSHC5fjUASCHnYOQuWuFaYEWvyI-k-rQ,1067
+pycalf-0.2.11.dist-info/METADATA,sha256=WSZpAG5Fat4NwgOcSZAaV9nwKXAFTeE_8MEjsddCFlA,3648
+pycalf-0.2.11.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pycalf-0.2.11.dist-info/RECORD,,
