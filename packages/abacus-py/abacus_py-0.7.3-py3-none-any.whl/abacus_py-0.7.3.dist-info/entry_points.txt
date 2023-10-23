@@ -1,0 +1,6 @@
+[console_scripts]
+abacus=abacus.cli.main:abacus
+bx=abacus.api:main
+cx=abacus.experimental.cx:main
+ex=abacus.cli.ex:cli
+
