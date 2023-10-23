@@ -1,0 +1,17 @@
+AUTHORS
+LICENSE
+README.md
+pyproject.toml
+requirements.txt
+setup.cfg
+setup.py
+ptfuzzmenu.egg-info/PKG-INFO
+ptfuzzmenu.egg-info/SOURCES.txt
+ptfuzzmenu.egg-info/dependency_links.txt
+ptfuzzmenu.egg-info/requires.txt
+ptfuzzmenu.egg-info/top_level.txt
+src/bin/ptfuzzmenu-man
+src/ptfuzzmenu/__init__.py
+src/ptfuzzmenu/fuzzmenu.py
+src/ptfuzzmenu/vmenu.py
+tests/test_basic.py
