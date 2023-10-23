@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "parchmint"
+version = "0.3.5"
+description = "Parchmint is data interchange standard for representing microfluidic designs. Check out https://parchmint.org for more information."
+authors = ["Radhakrishna Sanka"]
+license = "BSD-3-Clause"
+packages = [
+    { include = "parchmint/*.py"}
+]
+
+include = [
+    "schemas/*",
+]
+
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+networkx = "^3.0"
+jsonschema = "^3.2.0"
+argparse = "^1.4.0"
+numpy = "^1.22.4"
+tabulate = "^0.8.9"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^3.8.4"
+black = "22.3.0"
+mypy = "^1.1.1"
+rope = "^0.18.0"
+Sphinx = "^3.4.3"
+sphinx-rtd-theme = "^0.5.1"
+sphinxcontrib-napoleon = "^0.7"
+isort = "^5.10.1"
+pytest = "^7.1.2"
+pylint = "^2.13.9"
+pip = "^23.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.dephell.main]
+from = {format = "poetry", path = "pyproject.toml"}
+to = {format = "setuppy", path = "setup.py"}
+
+[tool.poetry.scripts]
+parchmint-validate = "parchmint.cmdline:validate_V1"
+test = "scripts:test"
+validate_dir = "scripts:validate_dir_V1_2"
+
+[tool.poetry.extras]
+docs = ["sphinx"]
+
+[tool.isort]
+profile = "black"
+
+[flake8]
+max-line-length = 120
+
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+testpaths = [
+    "./tests/"
+]
