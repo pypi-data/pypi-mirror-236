@@ -1,0 +1,14 @@
+
+cff-version: 1.2.0
+message: "If you use LibRapid in a paper, please consider citing it as below."
+authors:
+- family-names: "Davis"
+  given-names: "Toby"
+title: "LibRapid: Optimised Mathematics for C++"
+version: 0.7.5
+date-released: "2023-10-22"
+type: software
+url: "https://github.com/LibRapid/librapid"
+license: MIT
+license-url: "https://github.com/LibRapid/librapid/blob/master/LICENSE.md"
+repository-code: "https://github.com/LibRapid/librapid"
