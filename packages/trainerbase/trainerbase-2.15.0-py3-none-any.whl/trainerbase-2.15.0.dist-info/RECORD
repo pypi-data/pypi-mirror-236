@@ -1,0 +1,14 @@
+fasm/FASM.EXE,sha256=4vZbiqlkSXAOMdR4dN-MpwR64vsrbli4FY-vS6toauE,117248
+trainerbase/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trainerbase/codeinjection.py,sha256=7ZvPMapgJVbLmvCRB-UuUaYUZcVnMcfXTZzPKc510Cs,5432
+trainerbase/common.py,sha256=aSbBUJ23CaaaNELKOQqwdqXNCeaSCgC6sO0Xm6TGXhA,4379
+trainerbase/config.py,sha256=J9demRkg1EP1wIPLGCjc_48tfcwP4cq5YfEpAWdBVAQ,237
+trainerbase/gameobject.py,sha256=fzEJ5Qyn4b3V8QXR_TNt_1OrIqJN2tRRr4c2rfUfjz4,3809
+trainerbase/gui.py,sha256=pkul0MNGpQ6-msFPlNLSKlRqIoEGmV5vU3slngKTmO4,7654
+trainerbase/memory.py,sha256=EBCKr0BbkW0YBpf9siIQU8j2RvkNsiGU0Uz0ShMmdDM,3755
+trainerbase/scriptengine.py,sha256=xwO2gzeW6TVI18wRQtgB8MmzVDK9x0FrKP_yt_aJb2U,2748
+trainerbase/tts.py,sha256=VCCDtmI0GOP3Ovr0fZwd2NMMpdGP2x6ZV3vPB0hrnlg,626
+trainerbase-2.15.0.dist-info/LICENSE,sha256=YLKOfScJoLKtEuxtvdGKlKt2uPRZGz1NI8DIykR59pI,1103
+trainerbase-2.15.0.dist-info/METADATA,sha256=S2JWSojCtKMFkjG9VCoWvwrOIeFSz2tVoixow50p2Ak,1209
+trainerbase-2.15.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+trainerbase-2.15.0.dist-info/RECORD,,
