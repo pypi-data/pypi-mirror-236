@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pygame_simple_core
+Version: 0.0.11
+Summary: Basic tools for use with pygame.
+Home-page: UNKNOWN
+Author: Vinicius Putti Morais
+Author-email: viniputtim@gmail.com
+License: MIT license
+Keywords: pygame
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Pygame Simple Core
+
+## Instalation
+
+```shell
+pip install pygame_simple_core
+```
+
+
