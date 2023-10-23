@@ -1,0 +1,7 @@
+fastapi_htmx/__init__.py,sha256=AWquoZJ40nyiSIOKeKcEbPmth6JvP96dTwsdXWMPAhs,170
+fastapi_htmx/headers.py,sha256=hxMjSrWeoFA-s3HCq9SaZtHg7vFFFSgyoiOZwzAHZqw,668
+fastapi_htmx/htmx.py,sha256=25KgYLbkli-2AF0Kn0imey3CW017ica2mEEC3XNNoMI,4875
+fastapi_htmx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fastapi_htmx-0.2.3.dist-info/METADATA,sha256=KnRy_woWiKrAPDsZXoHFpHW1OUQkAcr8jzAT6LiXVvM,10385
+fastapi_htmx-0.2.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+fastapi_htmx-0.2.3.dist-info/RECORD,,
