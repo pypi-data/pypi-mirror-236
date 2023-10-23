@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "relax-py"
+version = "0.1.0"
+description = ""
+authors = ["crpier <crpier42@gmail.com>"]
+readme = "README.md"
+packages = [
+  {include = "relax"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+beautifulsoup4 = "^4.12.2"
+starlette = "^0.31.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
