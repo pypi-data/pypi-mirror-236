@@ -1,0 +1,10 @@
+speechkitty/__init__.py,sha256=jzXxpXV_WlSOTczbLgSHidnjYWWLh_4QNRaK13w-dII,154
+speechkitty/directory.py,sha256=8-oDDK8le94Rm1d28naiEJWaFRo5AR5n1H4_oBVmNx0,1334
+speechkitty/parser.py,sha256=wbq-Z6vjJWNKdUmBsOr9EFA_3wwjNQ_ysbjSl1AZTeA,2499
+speechkitty/result_parser.py,sha256=0O8-wFYtXrLb24ilSTboeAbkkRXeMojp0WbMorL2pwE,2990
+speechkitty/transcriber.py,sha256=G_qiDkg6J3jqcrRXJJBnUeeZXhqBf0SVMO3golQHJLQ,3528
+speechkitty-0.1.5.dist-info/LICENSE,sha256=cDdMiGg668VDIokcZ1bZDzFsU5yzDqbH_-VcNPAXleA,558
+speechkitty-0.1.5.dist-info/METADATA,sha256=jN8vMjo5XREiknvIe884UtuJ_WjYylQXJD4YDHIokDU,4418
+speechkitty-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+speechkitty-0.1.5.dist-info/top_level.txt,sha256=0pz2cwtyux-L3QqFlAn2fX9ABJUpWzj-kWiLcUGXhVM,12
+speechkitty-0.1.5.dist-info/RECORD,,
