@@ -1,0 +1,10 @@
+{% if field.use_fieldset %}
+  <fieldset>
+  {% if field.label %}{{ field.legend_tag }}{% endif %}
+{% else %}
+  {% if field.label %}{{ field.label_tag }}{% endif %}
+{% endif %}
+{{ field }}
+{{ field.errors }}
+<div id="{{ field.id_for_label }}Help"{% with attrs=field.help_text_attrs %}{% if attrs %}{% include 'django/forms/attrs.html' %}{% endif %}{% endwith %}{% if field.errors %} style="display: none;"{% endif %}>{{ field.help_text|safe }}</div>
+{% if field.use_fieldset %}</fieldset>{% endif %}

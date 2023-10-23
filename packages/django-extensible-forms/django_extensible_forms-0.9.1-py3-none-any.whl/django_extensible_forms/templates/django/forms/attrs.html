@@ -1,0 +1,1 @@
+{% if attrs %}{% for name, value in attrs.items %}{% if value is not False %} {{ name }}{% if value is not True %}="{{ value|stringformat:'s'|safe }}"{% endif %}{% endif %}{% endfor %}{% endif %}

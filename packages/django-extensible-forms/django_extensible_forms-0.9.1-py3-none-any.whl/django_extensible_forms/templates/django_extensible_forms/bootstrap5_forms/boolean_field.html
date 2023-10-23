@@ -1,0 +1,7 @@
+<div class="form-check form-switch">
+	{% if field.label %}{{ field.label_tag }}{% endif %}
+	{{ field }}
+</div>
+{% if field.help_text %}
+<div id="{{ field.id_for_label }}Help"{% with attrs=field.help_text_attrs %}{% if attrs %}{% include 'django/forms/attrs.html' %}{% endif %}{% endwith %}>{{ field.help_text|safe }}</div>
+{% endif %}

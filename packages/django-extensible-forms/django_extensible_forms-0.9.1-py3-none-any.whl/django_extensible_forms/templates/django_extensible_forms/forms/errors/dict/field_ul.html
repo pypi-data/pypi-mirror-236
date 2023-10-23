@@ -1,0 +1,7 @@
+{% spaceless %}
+{% if errors %}
+	<ul id="{{ field.id_for_label }}Feedback"{% if error_class %} class="{{ error_class }}"{% endif %}>
+		{% for field, error in errors %}<li>{{ field }}{{ error }}</li>{% endfor %}
+	</ul>
+{% endif %}
+{% endspaceless %}
