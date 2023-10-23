@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ai-workshop"
+version = "0.1.0"
+description = ""
+authors = ["Amar <amar439412@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ai_workshop"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
