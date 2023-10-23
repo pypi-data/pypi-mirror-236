@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: codemodpydanticv1
+Version: 0.1.10
+Summary: 
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: libcst (>=1.1.0,<2.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# codemodpydanticv1
+
+[![CI](https://github.com/Peter554/codemodpydanticv1/actions/workflows/ci.yml/badge.svg)](https://github.com/Peter554/codemodpydanticv1/actions/workflows/ci.yml)
+
+A small codemod tool to upgrade pydantic from V1 to V2, but still use the V1 API.
+Pydantic V2 exposes the V1 API. By using the V1 API we can be sure nothing
+is being broken by the package upgrade, and usage can then gradually be migrated
+across to the V2 API. 
+
+```sh
+pip install codemodpydanticv1
+
+codemodpydanticv1 <file>
+```
+
