@@ -1,0 +1,32 @@
+# the default setting can be overwriten in platform profiles
+code_repo: "https://github.com/virt-s1/os-tests"
+# save debug log to this dir
+results_dir: "/tmp/os_tests_result"
+# max boot up time in seconds
+max_boot_time: 40
+# pkg_reinstall to determine install it again or not when pkg exists already, set it to True to install latest version in each run
+pkg_reinstall: False
+# public server for ping connection test
+ping_server: 8.8.8.8
+# max disk utils accepted, used in test_iostat_x
+disk_utils: 30
+# max cpu utils accepted, used in test_check_cpuusage_exception
+cpu_utils: 20
+# max mem utils accepted, used in test_check_memusage_exception
+mem_utils: 30
+# if you want to run os-tests in master-slave mode, please specify below options.
+# All tests are running in slave node including some reboot operations.
+# remote_nodes specify remote ip
+remote_nodes: []
+# default node to run the test on, it is the first node in remote_nodes
+remote_node: 
+# open port for ssh connection
+remote_port: 22
+# remote_user: user to login remote
+remote_user: ec2-user
+# ssh key file location for remote access
+remote_keyfile: 
+# or password for remote access
+remote_password:
+subscription_username:
+subscription_password:
