@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: fenics-beat
+Version: 0.0.1
+Summary: Library to run cardiac EP simulations
+Author-email: Henrik Finsberg <henriknf@simula.no>
+License: MIT
+Project-URL: Homepage, https://computationalphysiology.github.io/fenics-beat
+Project-URL: Documentation, https://computationalphysiology.github.io/fenics-beat
+Project-URL: Source, https://github.com/ComputationalPhysiology/fenics-beat
+Project-URL: Tracker, https://github.com/ComputationalPhysiology/fenics-beat/issues
+Keywords: cardiac,electrophysiology
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-cov; extra == "test"
+Provides-Extra: dev
+Requires-Dist: pdbpp; extra == "dev"
+Requires-Dist: ipython; extra == "dev"
+Requires-Dist: bump2version; extra == "dev"
+Requires-Dist: pre-commit; extra == "dev"
+Provides-Extra: pypi
+Requires-Dist: twine; extra == "pypi"
+Requires-Dist: build; extra == "pypi"
+Provides-Extra: demos
+Requires-Dist: cardiac-geometries; extra == "demos"
+Provides-Extra: docs
+Requires-Dist: jupyter-book; extra == "docs"
+Requires-Dist: fenics-beat[demos]; extra == "docs"
+Provides-Extra: all
+Requires-Dist: fenics-beat[test]; extra == "all"
+Requires-Dist: fenics-beat[docs]; extra == "all"
+Requires-Dist: fenics-beat[pypi]; extra == "all"
+Requires-Dist: fenics-beat[dev]; extra == "all"
+Requires-Dist: fenics-beat[demos]; extra == "all"
+
+# Beat
+
+A simplified version of `cbcbeat`
+
+
+
+
+# Codegeneration for cellmodel
+```
+gotran2py beeler_reuter_1977.ode --solvers.explicit_euler.generate=1 --solvers.generalized_rush_larsen.generate=1 --code.body.use_enum=1 --namespace=np
+```
