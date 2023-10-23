@@ -1,0 +1,12 @@
+bamdash/__init__.py,sha256=lXigim8pUXnlGsP299V3Ru54w8B7sL66oOYmtodKH-Q,91
+bamdash/__main__.py,sha256=GlMXDqj1oE9e2zrf6P3UmCkVFJ_kNYbUjjTWsrTsCKs,98
+bamdash/command.py,sha256=71eIjbHamRmWKePdvUc54TWqNQu2mjPidJChyZ6DUTE,10282
+bamdash/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bamdash/scripts/config.py,sha256=xyhnmbDmXo74lWK_Z-k4H0V-zBH-i0qAJOHa5KJc-VM,1227
+bamdash/scripts/data.py,sha256=vXjVvNHZltH0VHLBV-tS66Wnl_wcFUh6QfDKr-mCMwg,19499
+bamdash/scripts/plotting.py,sha256=FTtZl9pzJj72ppPchVCwEWxz5nXk_srdicEVlWrvhqc,11446
+bamdash-0.2.dist-info/METADATA,sha256=PRKoeEr1OqDACBkCMkilyDwSHaMs1mhiVjeb9xc7Cu8,7046
+bamdash-0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+bamdash-0.2.dist-info/entry_points.txt,sha256=Uga504XRp4CLEDHvlcpudc_oEX67jvAyoYd_TTT_eJk,49
+bamdash-0.2.dist-info/top_level.txt,sha256=VaCmb35FXxEXFqmVLpPVp4dE7-R6--CB154Au3yTwzg,8
+bamdash-0.2.dist-info/RECORD,,
