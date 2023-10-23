@@ -1,0 +1,17 @@
+easyofd/__init__.py,sha256=cWSqclCfGyG01iYfWyogLQTHvVgzupsHqpuFkX9ehic,41
+easyofd/main.py,sha256=Ddx-gN8wkeuHPpSXF6wawIN8mVsmJV-2AvqTZIlzDnM,1053
+easyofd/ofd.py,sha256=Jx-vEqXefyw-YyXMNthljkDa3uxn2M-UWZ5EYysg0Ag,2607
+easyofd/draw/__init__.py,sha256=exsC97UNbXjwE54qBWOhhK92BwC2ChETgIS0kfRzg5Y,460
+easyofd/draw/draw_ofd.py,sha256=Is9lO61toA68L-GQLNrMTU4hnFrNYEKaveSTPcv73Rg,14
+easyofd/draw/draw_pdf.py,sha256=TH0_lXXOWoMd0hgGTqM3-yubPtiWe2QMi75tPBs9pw0,10116
+easyofd/draw/font_tools.py,sha256=Z2oC0lYxqwibghbWqeNJGXQoPrxidfANzz02fvvMfpI,2652
+easyofd/parser_ofd/__init__.py,sha256=3u13TwJIyNPCke1znrYCtuYIhdjUyPKuz_0Wi0kywWE,1021
+easyofd/parser_ofd/file_deal.py,sha256=5FX8Q5Q3herxfqeqc9Z93_kZifB_dTvG-8B3PW3VDSM,2618
+easyofd/parser_ofd/file_parser.py,sha256=Rww2iWZ9xGU8adahOLOHZqOj422ZUBTphcHSFnxZDMM,9236
+easyofd/parser_ofd/ofd_parser.py,sha256=aEH3Mb_ao_tZ-UxcQdLOSmUWOG8kCD_CJGgkBhxRdUE,7976
+easyofd/parser_ofd/ofdparser.py,sha256=BgS7D6C0vCkqsfY6aCtTxYxUhNb4cPr1d2AluTek8b8,62991
+easyofd-0.0.10.4.dist-info/LICENSE,sha256=qYp1tl-v25zxqu6UW67ZU0SRHZeNwaOHlZizeWvPYEU,11550
+easyofd-0.0.10.4.dist-info/METADATA,sha256=CRpJAak92ciFnaN6bLF4CEK67YuZJKY_hYhxmM9SFW0,2689
+easyofd-0.0.10.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+easyofd-0.0.10.4.dist-info/top_level.txt,sha256=59lIU_LtaNSMUidMnpSnMPKYQz5-qlSm6PYlnQS56Mc,8
+easyofd-0.0.10.4.dist-info/RECORD,,
