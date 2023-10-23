@@ -1,0 +1,183 @@
+Metadata-Version: 2.1
+Name: BMCToolkit
+Version: 0.8.1
+Summary: Simulate and analyze trajectories of Block Markov Chains.
+Author: Jaron Sanders
+Author-email: jaron.sanders@tue.nl
+Project-URL: Source, https://gitlab.tue.nl/acss/public/detection-and-evaluation-of-clusters-within-sequential-data
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Python: >=3.9.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy >=1.23.1
+
+This Python package provides tools to simulate and analyze trajectories of Block Markov Chains (BMCs).
+
+## Contents
+
+This Python module distributes a Dynamic-Link Library (DLL) written in C++. 
+Among other functionalities, the DLL is able 
+to calculate both projected and lifted variants of the equilibrium distribution, frequency matrix, and transition matrix of a BMC;
+to compute the difference between two clusters and the spectral norm;
+to estimate the parameters of a BMC from a sample path;
+to execute the spectral clustering algorithm and the cluster improvement algorithm;
+to generate sample paths and trimmed frequency matrices;
+and to relabel clusters according to the size or the equilibrium probability of a cluster.
+The package includes an easy-to-use Python interface to the DLL, and stubs for it.
+
+## Related literature
+
+This module was introduced in the following scientific article:
+
+1. Alexander Van Werde, Albert Senen-Cerda, Gianluca Kosmella, Jaron Sanders (2022). *Detection and Evaluation of Clusters within Sequential Data.* Preprint. Preprint available at [ArXiv 2210.01679](https://arxiv.org/abs/2210.01679).
+
+The module also relates to the following scientific articles:
+
+2. Jaron Sanders, Alexandre Proutiere, Se-Young Yun (2019). *Clustering in Block Markov Chains.* Annals of Statistics. Preprint available at [ArXiv 1712.09232v3.](https://arxiv.org/abs/1712.09232v3) 
+3. Jaron Sanders, Albert Senen-Cerda (2021). *Spectral norm bounds for block Markov chain random matrices.* Stochastic Processes and their Applications. Preprint available at [ArXiv 2111.06201](https://arxiv.org/abs/2111.06201).
+4. Jaron Sanders, Alexander Van Werde (2022). *Singular value distribution of dense random matrices with block Markovian dependence.* Stochastic Processes and their Applications. Preprint available at [ArXiv 2204.13534.](https://arxiv.org/abs/2204.13534) 
+5. Alexander Van Werde, Jaron Sanders (2023). *Matrix concentration inequalities with dependent summands and sharp leading-order terms.* Preprint. Preprint available at [ArXiv 2307.11632](https://arxiv.org/abs/2307.11632).
+
+## Python3 compatibility
+
+As of version 0.8.0, BMCToolkit works with several versions of Python. 
+However, please be warned that BMCToolkit has not been extensively tested for every different combination of Python version and/or numpy version.
+
+Specifically, using [vcpkg](https://vcpkg.io), BMCToolkit is compiled against the following Python3 ports: 
+
+| vcpkg's builtin-baseline | Python3 version |
+| :---: | :---: | 
+| 2815578f4a3486cec24c9b07d17e18e03bbaf667 | 3.11.5#0 |
+| f84c18b6a5fb31983853b0d481b9de0263d6fc6c | 3.10.7#7
+| 2ed5383f7b88b23975f9cfd325f6451fd8716fb2 | 3.9.7#2 |
+
+## Related libraries
+
+The DLL utilizes the following C++ libraries / interfaces, in unmodified form:
+
+- [NVIDIA CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit)
+- [Eigen](https://eigen.tuxfamily.org/)
+- [OpenMP](https://www.openmp.org/)
+- [Pybind11](https://pybind11.readocs.io/)
+- [Sparse Eigenvalue Computation Toolkit as a Redesigned ARPACK (SPECTRA)](https://spectralib.org/)
+
+The C++ library was originally tested using Microsoft's Unit Testing Framework.
+These C++ tests were later migrated to [Google's Testing and Mocking Framework](https://github.com/google/googletest).
+The Python module is tested for a bit with [Pytest](https://pytest.org).
+
+## Example 
+
+Here is an example that shows how to use BMCToolkit:
+
+```python
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at https://mozilla.org/MPL/2.0/.
+
+import random
+import matplotlib.pyplot as plt
+import numpy as np
+import BMCToolkit as BMCToolkit
+
+if __name__ == "__main__":
+
+    transition_matrix = [[0.3, 0.7], [0.2,0.8]]
+    rel_sizes = [[0.4], [0.6]]
+    num_clusters = 2
+
+    num_states = 300
+    trajectory_length = 150000
+
+    print("Generating a trajectory from a BMC...")
+    trajectory = BMCToolkit.generate_sample_path(transition_matrix, rel_sizes, num_states, trajectory_length, 1234)
+    print(trajectory)
+
+    print("Generating a (nontrimmed) frequency matrix from a BMC...")
+    frequency_matrix = BMCToolkit.generate_trimmed_matrix(transition_matrix, rel_sizes, num_states, trajectory_length, 0, 1234)
+    print(frequency_matrix)    
+
+    print("Testing matrix trimming...")
+    trimmed_matrix = BMCToolkit.trim_frequency_matrix(frequency_matrix,5)
+    print(trimmed_matrix)
+
+    time.sleep(3) # Pause for a few seconds.
+
+    print("Testing compute_clusters_from_trajectory, by default via CPU...")
+    clustering1 = BMCToolkit.compute_clusters_from_trajectory( trajectory, num_states, num_clusters, preferred_hardware = BMCToolkit.PreferredHardware.CPU )
+    print(clustering1)
+
+    print("Testing compute_clusters_from_trajectory via GPU instead...")
+    clustering1 = BMCToolkit.compute_clusters_from_trajectory( trajectory, num_states, num_clusters, preferred_hardware = BMCToolkit.PreferredHardware.GPU )
+    print(clustering1)
+
+    time.sleep(6) # Pause for a few seconds.
+
+    print("Testing compute_cluster_improvement...")
+    clustering2 = BMCToolkit.compute_cluster_improvement(frequency_matrix, clustering1, 10)
+    print(clustering2)
+    
+    time.sleep(3) # Pause for a few seconds.
+
+    print("Testing compute_bmc_parameters...")
+    print( BMCToolkit.compute_bmcs_parameters(frequency_matrix, clustering2))
+
+    print("Testing compute_k_means...")
+    clustering3 = BMCToolkit.compute_k_means(frequency_matrix, num_clusters, preferred_hardware = BMCToolkit.PreferredHardware.CPU)
+    print(clustering3)   
+
+    print("Testing compute_spectral_clustering...")
+    spectral_clustering = BMCToolkit.compute_spectral_clustering(frequency_matrix, num_clusters)
+    print(spectral_clustering)
+
+    print("Testing compute_spectral_clustering with full arguments...")
+    improved_clustering = BMCToolkit.compute_spectral_clustering(frequency_matrix, num_clusters, 1987, 10000, 1000, 0, 10, False)
+    print(improved_clustering)
+
+    print("Testing compute_spectral_clustering with a negative argument...")
+    improved_clustering = BMCToolkit.compute_spectral_clustering(frequency_matrix, num_clusters, 1987, 10000, 1000, 0, -1, False)
+    print(improved_clustering)    
+
+    print("Testing compute_cluster_improvement...")
+    improved_clustering = BMCToolkit.compute_cluster_improvement(frequency_matrix, spectral_clustering, 10)
+    print(improved_clustering)
+    
+    print("Testing compute_spectral_norm...")
+    print(BMCToolkit.compute_spectral_norm(frequency_matrix, BMCToolkit.SingularValueCalculationMethod.VIA_BDCSVD))
+    print(BMCToolkit.compute_spectral_norm(frequency_matrix, BMCToolkit.SingularValueCalculationMethod.VIA_HERMITIZATION))
+    print(BMCToolkit.compute_spectral_norm(frequency_matrix, BMCToolkit.SingularValueCalculationMethod.VIA_MATRIX_PRODUCT))
+
+
+    improv_alpha = BMCToolkit.compute_bmcs_parameters(frequency_matrix,improved_clustering)[:,0]
+    improv_pi = BMCToolkit.compute_bmcs_parameters(frequency_matrix,improved_clustering)[:,1] 
+    improv_p = BMCToolkit.compute_bmcs_parameters(frequency_matrix,improved_clustering)[:,2:]
+    spectral_alpha = BMCToolkit.compute_bmcs_parameters(frequency_matrix,spectral_clustering)[:,0]
+    spectral_pi = BMCToolkit.compute_bmcs_parameters(frequency_matrix,spectral_clustering)[:,1] 
+    spectral_p = BMCToolkit.compute_bmcs_parameters(frequency_matrix,spectral_clustering)[:,2:]
+
+    model_P = np.array( [ [ improv_p[improved_clustering[i],improved_clustering[j]] / (num_states * improv_alpha[improved_clustering[j]] ) for j in range(0,num_states) ] for i in range(0,num_states) ] )
+    model_Q = np.array( [ [ spectral_p[spectral_clustering[i],spectral_clustering[j]] / (num_states * spectral_alpha[spectral_clustering[j]] ) for j in range(0,num_states) ] for i in range(0,num_states) ] )
+
+    plt.figure()
+    output = BMCToolkit.KL_divergence_rate_difference_between_models(model_P, model_Q, trajectory, 0.1, 0.95, 50)
+    x_data = list(output.keys())
+    y_data = [ value[0] for value in output.values() ]
+    y_err = [ value[1] for value in output.values() ]
+    print(x_data)
+    print(y_data)
+    print(y_err)
+    plt.errorbar(x_data, y_data, y_err)
+
+    pplot = plt.matshow(model_P)  
+    plt.colorbar(pplot)
+    pplot = plt.matshow(model_Q)  
+    plt.colorbar(pplot)
+
+    plt.show()
+```
