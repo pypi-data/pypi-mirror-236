@@ -1,0 +1,12 @@
+exclude *.yaml
+exclude .git-blame-ignore-revs
+include tox.ini
+include docs/source/spelling_wordlist
+include docs/Makefile
+include docs/make.bat
+include docs/source/conf.py
+recursive-include docs *.rst
+recursive-include tests *.crt
+recursive-include tests *.key
+recursive-include tests *.py
+recursive-include tests *.torrent
