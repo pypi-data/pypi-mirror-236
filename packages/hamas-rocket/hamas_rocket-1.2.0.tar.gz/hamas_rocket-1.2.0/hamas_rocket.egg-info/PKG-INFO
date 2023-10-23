@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: hamas-rocket
+Version: 1.2.0
+Summary: An awesome package that does something
+Home-page: http://pypi.python.org/pypi/hamas_rocket/
+Author: Kassam
+Author-email: ca.atallah@esi-sba.dz
+License: LICENSE.txt
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+🚀 This is rocket 🚀
+
+# package_name
+
+`package_name` is a Python library for ..........
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install `package_name`.
+
+```bash
+pip install package_name
+```
+
+## Usage
+
+```python
+import package_name
+
+# returns 'words'
+package_name.module_name('word')
+
+# returns 'geese'
+package_name.module_name('goose')
+
+# returns 'phenomenon'
+package_name.module_name('phenomena')
+```
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+

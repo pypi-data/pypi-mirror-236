@@ -1,0 +1,1 @@
+import hamas_rocket

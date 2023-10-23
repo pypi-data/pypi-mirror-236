@@ -1,0 +1,9 @@
+README.md
+setup.py
+hamas_rocket/__init__.py
+hamas_rocket/hamas_rocket.py
+hamas_rocket.egg-info/PKG-INFO
+hamas_rocket.egg-info/SOURCES.txt
+hamas_rocket.egg-info/dependency_links.txt
+hamas_rocket.egg-info/requires.txt
+hamas_rocket.egg-info/top_level.txt
