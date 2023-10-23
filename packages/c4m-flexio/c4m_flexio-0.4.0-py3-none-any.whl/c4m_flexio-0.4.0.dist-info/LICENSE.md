@@ -1,0 +1,1 @@
+The code in this repository is dual licensed. The code can be distributed under the [GNU General Public License V2.0](LICENSES/GPL-2.0.txt) or any later version (GPL-2.0-or-later) or under the [CERN Open Hardware Licence Version 2 - Strongly Reciprocal](LICENSES/cern_ohl_s_v2.txt) (CERN-OHL-S-2.0) or any later version of the license.
