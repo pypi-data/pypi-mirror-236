@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+NoteRecognition/NoteRecognition.pyd
+NoteRecognition/NoteRecognitionF.pyd
+NoteRecognition/NoteRecognitionResultUi.pyd
+NoteRecognition/NoteRecognitionUi.pyd
+NoteRecognition/__init__.py
+NoteRecognition.egg-info/PKG-INFO
+NoteRecognition.egg-info/SOURCES.txt
+NoteRecognition.egg-info/dependency_links.txt
+NoteRecognition.egg-info/top_level.txt
