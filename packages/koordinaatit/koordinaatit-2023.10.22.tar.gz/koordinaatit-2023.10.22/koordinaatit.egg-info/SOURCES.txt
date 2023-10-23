@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+koordinaatit/__init__.py
+koordinaatit/__main__.py
+koordinaatit/cli.py
+koordinaatit/koordinaatit.py
+koordinaatit.egg-info/PKG-INFO
+koordinaatit.egg-info/SOURCES.txt
+koordinaatit.egg-info/dependency_links.txt
+koordinaatit.egg-info/entry_points.txt
+koordinaatit.egg-info/requires.txt
+koordinaatit.egg-info/top_level.txt
+test/test_cli.py
+test/test_koordinaatit.py
