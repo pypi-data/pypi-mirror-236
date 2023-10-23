@@ -1,0 +1,13 @@
+jsonschema>=4.19.1
+typer>=0.9.0
+xmlschema>=2.5.0
+
+[dev]
+black
+coverage
+hypothesis
+mypy
+pytest
+pytest-cov
+pytest-flake8
+ruff

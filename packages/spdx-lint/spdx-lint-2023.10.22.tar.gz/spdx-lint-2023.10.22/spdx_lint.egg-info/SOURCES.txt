@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+spdx_lint/__init__.py
+spdx_lint/__main__.py
+spdx_lint/cli.py
+spdx_lint/lint.py
+spdx_lint.egg-info/PKG-INFO
+spdx_lint.egg-info/SOURCES.txt
+spdx_lint.egg-info/dependency_links.txt
+spdx_lint.egg-info/entry_points.txt
+spdx_lint.egg-info/requires.txt
+spdx_lint.egg-info/top_level.txt
+test/test_cli.py
+test/test_lint.py
