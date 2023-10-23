@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+kodegenerering/__cli__.py
+kodegenerering/__init__.py
+kodegenerering/__main__.py
+kodegenerering/kodegenerering.py
+kodegenerering.egg-info/PKG-INFO
+kodegenerering.egg-info/SOURCES.txt
+kodegenerering.egg-info/dependency_links.txt
+kodegenerering.egg-info/entry_points.txt
+kodegenerering.egg-info/requires.txt
+kodegenerering.egg-info/top_level.txt
