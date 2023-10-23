@@ -1,0 +1,25 @@
+[project]
+name = "jiughan.github.io"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "jiughan", email = "wldnd4081@gmail.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]
