@@ -1,0 +1,2 @@
+[distutils.commands]
+build_ext = karellen.clang_build_ext:ClangBuildExt
