@@ -1,0 +1,11 @@
+bradleystevenson2015_webscraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bradleystevenson2015_webscraper/common_webscraper_functions.py,sha256=XVSqbfyJiIpLe1rsJti7dBz1dHcGAZBwwJ5-PqGlk-w,4234
+bradleystevenson2015_webscraper/field_parser.py,sha256=8V9rKIbBN3JNt-DGnwKh1BQzHjml0LRSD2SP1CunR60,2686
+bradleystevenson2015_webscraper/object_fetcher.py,sha256=GONT8GCaBoATDXwI0hNfAQpwQXHnehmVnWNBN-TDS9Q,2615
+bradleystevenson2015_webscraper/parser.py,sha256=8rYgpvIKVmgrV4iU1cU5NhztR1q3QgePcUk8p3CR6vE,5156
+bradleystevenson2015_webscraper/url_generator.py,sha256=z3-_9s7j-dlx_UxTQyovqqr0h5gxTrfxV_9edrfxf-c,2258
+bradleystevenson2015_webscraper/webscraper_object.py,sha256=FmLwn03HVLBYIUeFzTgfUnRWgBG7ilu2YvSb0w0hNhw,5464
+bradleystevenson2015_webscraper-0.1.20.dist-info/METADATA,sha256=iwvHNEZeJuz3kvALSJUB-H8Z5Yr9SBuVPkDSOvGR-3o,709
+bradleystevenson2015_webscraper-0.1.20.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+bradleystevenson2015_webscraper-0.1.20.dist-info/licenses/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+bradleystevenson2015_webscraper-0.1.20.dist-info/RECORD,,
