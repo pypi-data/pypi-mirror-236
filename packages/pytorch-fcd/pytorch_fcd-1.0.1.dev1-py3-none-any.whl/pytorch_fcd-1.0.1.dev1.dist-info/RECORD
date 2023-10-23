@@ -1,0 +1,9 @@
+pytorch_fcd/__init__.py,sha256=p9ASR1ltZxaosgtmdYptxCYXaINqjgkwfjM_yhpnq2Q,26
+pytorch_fcd/__main__.py,sha256=bc78tfvE4GAa63sr-aKky42G0XwUDhChk1_733cZAPQ,17
+pytorch_fcd/fcd_score.py,sha256=_5nKgHidoApbrgMBkKgkflRXh6gfCMuC-_Ljghcvldc,7356
+pytorch_fcd-1.0.1.dev1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytorch_fcd-1.0.1.dev1.dist-info/METADATA,sha256=8wgc4yg1L2psqfWv46pUurOclyj8cVWeEyUyKWIitx8,1694
+pytorch_fcd-1.0.1.dev1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pytorch_fcd-1.0.1.dev1.dist-info/entry_points.txt,sha256=V1RaZWYRsGAKXjUP-4cmow0Yh8cX-FBYvDjMHbD4SjI,59
+pytorch_fcd-1.0.1.dev1.dist-info/top_level.txt,sha256=YyxqzLlttmrMLcHGaSatT_fTyhrHpm8KST_tbc2-_DA,12
+pytorch_fcd-1.0.1.dev1.dist-info/RECORD,,

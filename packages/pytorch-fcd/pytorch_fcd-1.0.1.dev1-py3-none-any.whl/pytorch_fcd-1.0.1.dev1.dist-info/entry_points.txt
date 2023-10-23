@@ -1,0 +1,2 @@
+[console_scripts]
+pytorch-fcd = pytorch_fcd.fcd_score:main
