@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: jax-scipy-spatial
+Version: 0.1.0
+Summary: Scipy spatial API for JAX
+Author-email: Chris Flesher <chris.flesher@gmail.com>
+Project-URL: Homepage, https://github.com/chrisflesher/jax-scipy-spatial
+Project-URL: Bug Tracker, https://github.com/chrisflesher/jax-scipy-spatial/issues
+Keywords: jax,scipy,spatial,rotation
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: jax
+Requires-Dist: jaxlib
+Provides-Extra: dev
+Requires-Dist: tox; extra == "dev"
+
+# jax-scipy-spatial
+
+This package implements `scipy.spatial` API for JAX.
+
+Currently the following functions / classes are implemented:
+
+- `scipy.spatial.transform.Rotation`
+- `scipy.spatial.transform.Slerp`
+
+Note that much of the code in this module may be too difficult to implement
+properly in JAX, (e.g. nearest neighbor search). We request any submissions to
+this repo be fully compatible with both `vmap` and `grad`.
+
+## Install
+```
+pip install .
+```
+
+## Usage
+```
+import jax.numpy as jnp
+import jax_scipy_spatial.transform as jtr
+
+rotation = jtr.Rotation.from_euler('xyz', jnp.array([0., 0., 180.]), degrees=True)
+print(rotation)
+```
+
+## Documentation
+Please refer to scipy documentation.
