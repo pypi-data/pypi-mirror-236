@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: always-list-field
+Version: 1.0.0
+Summary: Ensure that your schema field will be a list
+Home-page: https://github.com/szymansd/marshmallow-always-list-field
+Author: Dominik Szymanski
+Author-email: Dominik Szymanski <info@realpython.com>
+License: MIT License
+        
+        Copyright (c) 2023 Dominik Szymanski
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/szymansd/marshmallow-always-list-field
+Keywords: marshmallow,list,fields
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# marshmallow-always-list-field
+This is a small package that will ensure that your marshmallow will alway contain list.
+
+Some times you want to ensure that your marshmallow schema will always return a list, even if the input is a single item. Just to make an API response consistent.
+
+## Installation
+```bash
+pip install marshmallow-always-list-field
+```
+
+## Usage
+```python
+from marshmallow_always_list_field import AlwaysListField
+
+class MySchema(Schema):
+    my_list = AlwaysListField(fields.String())
+```
+
+If input is:
+```python
+{
+    "my_list": "foo"
+}
+```
+
+it will result with:
+```python
+{
+    "my_list": ["foo"]
+}
+```
+
+This will work with nested fields as well.
+
+If nested field is:
+```python
+class NestedSchema(Schema):
+    my_list = AlwaysListField(fields.String())
+
+class MySchema(Schema):
+    nested = fields.Nested(NestedSchema)
+```
+
+and input is:
+```python
+{
+    "nested": {
+        "my_list": "foo"
+    }
+}
+```
+
+result will be:
+```python
+{
+    "nested": {
+        "my_list": ["foo"]
+    }
+}
+```
+
+Additionally you can do something like this:
+
+```python
+class NestedSchema(Schema):
+    data = fields.String()
+
+class SampleSchema(Schema):
+    nested = AlwaysListField(fields.Nested(NestedSchema))
+
+assert result == {"nested": [{"data": "hello"}]}
+```
+
+and input is:
+```python
+{
+    "nested": {
+        "data": "hello"
+    }
+}
+```
+
+result will be:
+```python
+{
+    "nested": [{"data": "hello"}]
+}
+```
+
+## Development
+```bash
+pip install -r requirements.txt
+```
+
+## Testing
+```bash
+pytest
+```
+
+## License
+MIT
+
+## Author
+Dominik Szymanski

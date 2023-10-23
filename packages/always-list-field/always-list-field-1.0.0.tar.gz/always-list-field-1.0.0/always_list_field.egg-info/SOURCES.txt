@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+always_list_field.egg-info/PKG-INFO
+always_list_field.egg-info/SOURCES.txt
+always_list_field.egg-info/dependency_links.txt
+always_list_field.egg-info/requires.txt
+always_list_field.egg-info/top_level.txt
+src/__init__.py
+src/always_list_field.py
+src/test_always_list_nested_field.py

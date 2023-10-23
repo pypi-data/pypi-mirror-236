@@ -1,0 +1,27 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "always-list-field"
+version = "1.0.0"
+description = "Ensure that your schema field will be a list"
+readme = "README.md"
+authors = [{ name = "Dominik Szymanski", email = "info@realpython.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["marshmallow", "list", "fields"]
+dependencies = [
+    "marshmallow",
+]
+requires-python = ">=3.9"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest", "marshmallow"]
+
+[project.urls]
+Homepage = "https://github.com/szymansd/marshmallow-always-list-field"
