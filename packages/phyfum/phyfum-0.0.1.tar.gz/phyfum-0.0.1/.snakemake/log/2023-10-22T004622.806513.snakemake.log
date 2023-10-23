@@ -1,0 +1,25 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job                    count    min threads    max threads
+-------------------  -------  -------------  -------------
+all                        1              1              1
+beast_nosingularity        6              1              1
+getXML                     6              1              1
+readIDAT                   1              1              1
+select_cpgs                1              1              1
+split_flucpgs              1              1              1
+total                     16              1              1
+
+Select jobs to execute...
+
+[Sun Oct 22 00:46:23 2023]
+rule readIDAT:
+    input: /mnt/d/Lab/Estancia/Phyllogenomics/package/data
+    output: idat_processed
+    jobid: 5
+    reason: Missing output files: idat_processed
+    resources: tmpdir=/tmp
+
