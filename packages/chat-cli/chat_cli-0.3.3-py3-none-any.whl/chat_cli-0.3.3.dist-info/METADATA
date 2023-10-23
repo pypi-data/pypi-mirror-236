@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: chat-cli
+Version: 0.3.3
+Summary: Command line interaction with ChatGPT with chat history saved locally
+Author: Robert Gingras
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: argparse (>=1.4.0,<2.0.0)
+Requires-Dist: openai (>=0.28.1,<0.29.0)
+Requires-Dist: platformdirs (>=3.11.0,<4.0.0)
+Requires-Dist: pyperclip (>=1.8.2,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: tiktoken (>=0.5.1,<0.6.0)
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Requires-Dist: uuid6 (>=2023.5.2,<2024.0.0)
+Description-Content-Type: text/markdown
+
+# Installation
+
+I recommend using `pipx` for installation. Follow [pipx's documentation](https://pypa.github.io/pipx/) to install it, then run `pipx install chat-cli`.
+
+# Building
+
+Chat uses the `poetry` build tool.
+
+1. [Install poetry](https://python-poetry.org/docs/#installation)
+2. Clone the chat project repo
+3. Run `poetry build` in the project root
+4. The wheel and sdist will be built in the `dist/` directory
+
+# Usage
+
+`chat [-h] [--apikey APIKEY] [--prompt PROMPT] [--save] [-f CONFIG] [-m MODEL] [--resume] [-s SEARCH]`
+
+## Options
+
+### `-h`, `--help`
+
+show these options and exit
+
+### `--apikey`
+
+Specify the API key to use when connection to OpenAI
+
+### `--prompt`
+
+Change the prompt that is displayed for input. The sequences %t and %T can be used to display the current token and max token count for the model, respectively. Default prompt is '%t/%T > '
+
+### `--save`
+
+If specified with --apikey and/or --prompt, save them to the config file
+
+### `-f`, `--config` 
+
+Specify an alternate file to load the configuration from (Default: $XDG_CONFIG_HOME/Chat/chat.json)
+
+### `-m`, `--model`
+
+Specify the model to use, refer to https://platform.openai.com/docs/models for list
+
+### `--resume`
+
+Resumes last conversation
+
+### `-s`, `--search`
+
+Search your chat history for a given regex
+
+## Commands
+
+When chating, the following commands perform special actions
+
+### `.redo`
+
+Regenerates the previous response. Removes the old response from the history
+
+### `.copy`
+
+Copies the first code block in the previous response to the system clipboard. Print's whats been copied
+
+### `.exit`
+
+Exits the application and saves the chat history. Same as encountering `EOF`. Prints the chat log location.
+
+
