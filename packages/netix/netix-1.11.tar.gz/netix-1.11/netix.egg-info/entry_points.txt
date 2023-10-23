@@ -1,0 +1,2 @@
+[console_scripts]
+netix = netix.script:main
