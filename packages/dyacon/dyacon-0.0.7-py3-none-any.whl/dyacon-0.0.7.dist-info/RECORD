@@ -1,0 +1,10 @@
+dyacon/__init__.py,sha256=E18HW3-qTmZiCvzl7OYldHbj8AdxDM9F-iEdT_N3vec,118
+dyacon/read.py,sha256=Hg5yLZ9MIHcS935v0xyXpyUaFQuEGvctXQTqgXRzefM,2335
+dyacon/loaders/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dyacon/loaders/external.py,sha256=S6Bg2_Dus_ghMBI6Z4huLiBAExqYxy46Qkxv40NWlWc,3051
+dyacon/loaders/loaders.py,sha256=wOP2NqHWGGxnxY_S4KtYzx-Vgofps9kxw8kXcrUc8mI,2801
+dyacon-0.0.7.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+dyacon-0.0.7.dist-info/METADATA,sha256=V4NXRz_UZF_Z2egNyrGZjqBm-uOQ_kFodABT2oc9xQw,730
+dyacon-0.0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dyacon-0.0.7.dist-info/top_level.txt,sha256=XVSGVmm7ZFUpqJELRMku28vTDiS9md8qp2RT1nqf-rQ,7
+dyacon-0.0.7.dist-info/RECORD,,
