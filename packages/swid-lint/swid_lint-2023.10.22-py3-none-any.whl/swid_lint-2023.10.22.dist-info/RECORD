@@ -1,0 +1,10 @@
+swid_lint/__init__.py,sha256=-8hOjlGV9ccgeSZwltnojGQfquA8nRJn67CBYhoiXNg,276
+swid_lint/__main__.py,sha256=p7VP2vCLAHeTmZJ4uANJV8pSQEZDxsxTsrUXSq4w5c0,148
+swid_lint/cli.py,sha256=68wUSxu4mJfELRFEQEGxdrZKKiVWocwRqAuKJ7ZzOKg,308
+swid_lint/lint.py,sha256=MENN7UAClzs5Zni0FFNk4C5h5gV0IfPrSpsp9tTgi5E,105
+swid_lint-2023.10.22.dist-info/LICENSE,sha256=a9GBBsUGDvTGs1rmHMujUJiPhEY6vtKCdGlW6XmWoTw,1069
+swid_lint-2023.10.22.dist-info/METADATA,sha256=G_SYCkSbTuuAyQqQgurNJacpZp7sfI8HH5PDhg5jxCM,4034
+swid_lint-2023.10.22.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+swid_lint-2023.10.22.dist-info/entry_points.txt,sha256=6xyTqHnA26qs18Hy8ib5FJut-4ZP6-o1N0NmpFXcVkw,48
+swid_lint-2023.10.22.dist-info/top_level.txt,sha256=ckSBEag0Fp77ySTJ7nXerMouo5V4gOwcu4pspKOKZCw,10
+swid_lint-2023.10.22.dist-info/RECORD,,
