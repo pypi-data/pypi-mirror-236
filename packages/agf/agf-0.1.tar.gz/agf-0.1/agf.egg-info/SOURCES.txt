@@ -1,0 +1,8 @@
+setup.py
+agf/ArticleGenerator.py
+agf/__init__.py
+agf.egg-info/PKG-INFO
+agf.egg-info/SOURCES.txt
+agf.egg-info/dependency_links.txt
+agf.egg-info/requires.txt
+agf.egg-info/top_level.txt
