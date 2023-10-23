@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+KGIapi/Package.dll
+KGIapi/PushClient.dll
+KGIapi/QuoteCom.dll
+KGIapi/TradeCom.dll
+KGIapi/__init__.py
+KGIapi/quotecomPy.py
+KGIapi/tradecomPy.py
+KGIapi.egg-info/PKG-INFO
+KGIapi.egg-info/SOURCES.txt
+KGIapi.egg-info/dependency_links.txt
+KGIapi.egg-info/requires.txt
+KGIapi.egg-info/top_level.txt
