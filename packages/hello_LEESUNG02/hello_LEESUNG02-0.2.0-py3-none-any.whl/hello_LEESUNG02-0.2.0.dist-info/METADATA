@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: hello-LEESUNG02
+Version: 0.2.0
+Summary: TRUE
+Author-email: LEESUNG02 <leesung02@naver.com>
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# hello-LEESUNG02
+
+```bash
+$ pip install hello-LEESUNG02
+```
