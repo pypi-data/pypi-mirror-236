@@ -1,0 +1,14 @@
+odoo/addons/ssi_elearning/README.rst,sha256=y3giDW8pR7256NSXeYILpg8uVBMfI6pvVyyDItmLHLU,1197
+odoo/addons/ssi_elearning/__init__.py,sha256=u6cxhood7AOsBIPdZ6XBF2ATx72b74cLVbwLdh3IrGE,198
+odoo/addons/ssi_elearning/__manifest__.py,sha256=xDf2uqPxhT9p8Tgj9TvdcrlYj7ohfCPVE0ljwRM_cuo,566
+odoo/addons/ssi_elearning/controllers/__init__.py,sha256=yMV3IyAFUBGKjg_0JwmnbkL15OSJgTBWKm8UwloqjJA,179
+odoo/addons/ssi_elearning/controllers/main.py,sha256=Mz4fEjQpqo2QF9hKYSjIuE47TfIhB_Y4q8_TOopV3s0,2154
+odoo/addons/ssi_elearning/models/__init__.py,sha256=0zmbzy_PGybZxy3alLZjOk56tEjndRF0ofiJ6PstVDg,188
+odoo/addons/ssi_elearning/models/slide_channel.py,sha256=45NapimKaJrUaOFlzJ4wVuhYxRt9CQdcjkYSmFAh41o,491
+odoo/addons/ssi_elearning/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_elearning/views/slide_channel_views.xml,sha256=OUBapju4NwyI1CSWEaeHXRn1ByhG0o_iKVmSmRdZGg0,825
+odoo/addons/ssi_elearning/views/website_slides_templates_course.xml,sha256=kVlH01HQc_ened_7DbtFwgd_29ZCh-Ty_bgR5AC5-PM,5442
+odoo14_addon_ssi_elearning-14.0.1.1.0.dist-info/METADATA,sha256=91t5VS_aaweJXYOFHWyPDtj7MLo881otwbxovgso8Ok,1687
+odoo14_addon_ssi_elearning-14.0.1.1.0.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+odoo14_addon_ssi_elearning-14.0.1.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_elearning-14.0.1.1.0.dist-info/RECORD,,
