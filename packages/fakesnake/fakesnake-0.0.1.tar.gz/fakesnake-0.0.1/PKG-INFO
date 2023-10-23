@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fakesnake
+Version: 0.0.1
+Summary: generate fake data
+Home-page: https://github.com/Vin-Cento/fakesnake
+Author: Vincent Liu
+Author-email: vincentliu362@gmail.com
+Requires-Dist: click
+Requires-Dist: faker
+Requires-Dist: geopy
+Requires-Dist: shapely
+Requires-Dist: numpy
+Requires-Dist: pandas

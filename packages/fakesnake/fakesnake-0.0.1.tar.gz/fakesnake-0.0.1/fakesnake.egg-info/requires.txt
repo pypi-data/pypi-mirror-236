@@ -1,0 +1,6 @@
+click
+faker
+geopy
+shapely
+numpy
+pandas
