@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/napari_woggle_opacity/__init__.py
+src/napari_woggle_opacity/_widget.py
+src/napari_woggle_opacity/napari.yaml
+src/napari_woggle_opacity.egg-info/PKG-INFO
+src/napari_woggle_opacity.egg-info/SOURCES.txt
+src/napari_woggle_opacity.egg-info/dependency_links.txt
+src/napari_woggle_opacity.egg-info/entry_points.txt
+src/napari_woggle_opacity.egg-info/requires.txt
+src/napari_woggle_opacity.egg-info/top_level.txt
+src/napari_woggle_opacity/_tests/__init__.py
