@@ -1,0 +1,10 @@
+deepepochs/__init__.py,sha256=L3moNTwnAhF1UEo8dafYyP06WRUhZ0LM3vWidGFkZZ8,138
+deepepochs/callbacks.py,sha256=nnL6D_9aopFdXqKnMp7cPThyKwlW_xbX-AF83d_1gGU,9357
+deepepochs/loops.py,sha256=qs6sRJwkx_TLEpBMaOt11sqHEDHaDCRoiUy0RL1_a7Q,23297
+deepepochs/trainer.py,sha256=n5C8RVN2se612dKE2pRPS7gL1sRSE8C2MScc9FUPqrs,9329
+deepepochs/utils.py,sha256=RgWtEUQlVbJ04XMZGsSnArJBzU6z05cO-JmiSlNpTzk,6578
+deepepochs-0.2.10.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+deepepochs-0.2.10.dist-info/METADATA,sha256=rzTGHuZuT8DWMJtVkhVwwSecjdUpWEjNKqRx5FrhaXE,3460
+deepepochs-0.2.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deepepochs-0.2.10.dist-info/top_level.txt,sha256=j976ROcH3JrQdIruL1TcLvu7mtPrpfxLmgQDGTgRY_0,11
+deepepochs-0.2.10.dist-info/RECORD,,
