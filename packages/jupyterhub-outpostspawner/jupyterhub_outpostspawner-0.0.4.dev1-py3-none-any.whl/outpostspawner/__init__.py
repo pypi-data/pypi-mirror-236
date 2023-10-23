@@ -1,0 +1,1 @@
+from .outpostspawner import OutpostSpawner
