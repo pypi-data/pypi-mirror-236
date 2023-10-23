@@ -1,0 +1,14 @@
+dubSplitter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dubSplitter/constants.py,sha256=5_JgT7DWyZ3ZEtMmdELggyDgmjchveoIzOFYHGPTK0A,1766
+dubSplitter/dubSplitter.py,sha256=uL6X75XhFmpt-oWgBLi4e0LWeoi2d8caGVg2ER23_3Y,6675
+dubSplitter/functions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dubSplitter/functions/exitWithInfo.py,sha256=C2Rz-n-Fzg-7uxp1SUbkYnrBOnGTAW3S7hmWy8_qvws,130
+dubSplitter/functions/path.py,sha256=b6--4jeYRvC8rseetaPcTx9kbwzmU0oX8x_izSXPb7o,928
+dubSplitter/functions/slicer.py,sha256=FUOUqB1DtOKV-NMJDHm_qCy1CwEkFQWBLBUqyVZruH0,4004
+dubSplitter/functions/stringEx.py,sha256=NmDhAFM1eZR6a5tFR7s8iXFN2SNVYkkdBD3eQY4uoy8,445
+dubSplitter/functions/voiceRecognition.py,sha256=BdPDYvPuMuvtHhjDYw1F8NAYCpm4GU-vRHDOrVvE0BM,3478
+DubSplitter-0.5.0.dist-info/METADATA,sha256=No-K5LMlYHa9Tne23pvz1tmoVkjOVKkf8dKNLgNfCzE,9486
+DubSplitter-0.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+DubSplitter-0.5.0.dist-info/entry_points.txt,sha256=8CSxoPZ-mIdAShgPbMxhp5vFDjOC3uS16dcx4qnlSKA,61
+DubSplitter-0.5.0.dist-info/top_level.txt,sha256=2hrgf4MEAENMHs2FHlRHBdRyfNc1TCYKNiCtpCJ4ln8,12
+DubSplitter-0.5.0.dist-info/RECORD,,
