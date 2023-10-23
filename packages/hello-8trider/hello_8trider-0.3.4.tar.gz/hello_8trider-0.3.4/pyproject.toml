@@ -1,0 +1,35 @@
+[project]
+name = "hello-8trider"
+version = "0.3.4"
+description = ""
+authors = [
+    { name = "opeth8", email = "8trider@naver.com" },
+    { name = "8trider", email = "8trider@naver.com" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/8trider/hello"
+"Bug Tracker" = "https://github.com/8trider/hello/issues"
+
+[project.scripts]
+8pic = "hello_8trider.my:pic"
+8name = "hello_8trider.who:my_name"
+lotto = "hello_8trider.who:lotto"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+test = [
+    "pytest>=7.4.2",
+    "pytest-cov>=4.1.0",
+]
