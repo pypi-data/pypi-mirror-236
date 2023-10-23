@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: qiskit-pqcee-provider
+Version: 0.1.0
+Summary: A qiskit provider on the blockchain.
+Home-page: https://github.com/sdcioc/qiskit-pqcee-provider
+Author: Stefan-Dan Ciocirlan (sdcioc)
+Author-email: stefan_dan@xn--ciocirlan-o2a.ro
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: py-solc-x
+Requires-Dist: qiskit[visualization]
+Requires-Dist: web3[tester]
+
+# qiskit-pqcee-provider
+The Qiskit provider for pQCee blockchain quantum simulator
+
+# Install
+```
+pip install qiskit-pqcee-provider
+```
+
+# Usage
+```python
+import qiskit
+from qiskit_pqcee_provider import PqceeProvider
+
+provider = PqceeProvider()
+backend = provider.get_backend('pqcee_simulator')
+
+qc = qiskit.QuantumCircuit(2)
+qc.h(0)
+qc.cx(0, 1)
+qc.measure_all()
+
+job = backend.run(qc, shots=10)
+result = job.result()
+print(result.get_counts())
+```
+
+
