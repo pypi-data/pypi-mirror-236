@@ -1,0 +1,7 @@
+README.md
+setup.py
+crx_isc_pack.egg-info/PKG-INFO
+crx_isc_pack.egg-info/SOURCES.txt
+crx_isc_pack.egg-info/dependency_links.txt
+crx_isc_pack.egg-info/requires.txt
+crx_isc_pack.egg-info/top_level.txt
