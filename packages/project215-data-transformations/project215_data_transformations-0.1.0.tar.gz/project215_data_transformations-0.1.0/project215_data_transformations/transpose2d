@@ -1,0 +1,14 @@
+def transpose2d(input_matrix):
+    # Check if the input matrix is empty or not a list of lists
+    if not input_matrix or not all(isinstance(row, list) for row in input_matrix):
+        raise ValueError("Input matrix must be a non-empty list of lists of real numbers.")
+
+    # Check if all rows have the same number of columns
+    num_columns = len(input_matrix[0])
+    if not all(len(row) == num_columns for row in input_matrix):
+        raise ValueError("All rows must have the same number of columns for transposition.")
+
+    # Transpose the matrix
+    transposed_matrix = [[row[i] for row in input_matrix] for i in range(num_columns)]
+
+    return transposed_matrix
