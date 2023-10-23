@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: systembridgeconnector
+Version: 3.9.0.dev0
+Summary: System Bridge Connector
+Home-page: https://github.com/timmo001/system-bridge-connector
+Author: Aidan Timson (Timmo)
+Author-email: aidan@timmo.dev
+License: MIT
+Keywords: system-bridge
+License-File: LICENSE
+Requires-Dist: incremental >=22.10.0
+Requires-Dist: pydantic >=1.10.13
+Requires-Dist: aiohttp >=3.8.6 ; python_version < "3.12"
+Requires-Dist: aiohttp >=3.9.0b0 ; python_version >= "3.12"
+
