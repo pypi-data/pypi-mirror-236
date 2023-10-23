@@ -1,0 +1,8 @@
+license.txt
+setup.py
+unisearch/__init__.py
+unisearch/search.py
+unisearch.egg-info/PKG-INFO
+unisearch.egg-info/SOURCES.txt
+unisearch.egg-info/dependency_links.txt
+unisearch.egg-info/top_level.txt
