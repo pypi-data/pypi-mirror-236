@@ -1,0 +1,2 @@
+setux_core>=0.2343.0
+setux_managers>=0.2343.0
