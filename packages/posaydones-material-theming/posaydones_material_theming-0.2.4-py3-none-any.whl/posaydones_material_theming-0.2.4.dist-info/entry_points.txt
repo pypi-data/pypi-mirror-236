@@ -1,0 +1,3 @@
+[console_scripts]
+pmt=posaydones_material_theming.__main__:main
+
