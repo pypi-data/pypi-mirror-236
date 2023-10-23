@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: XModLb
+Version: 0.0.1
+Summary: This library was created to shorten the process of creating Python scripts.
+Home-page: https://github.com/XMod-04/XModLb
+Author: Rizky Nurahman
+License: UNKNOWN
+Keywords: python,short
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: beautifulsoup4
+Requires-Dist: requests
+
+UNKNOWN
+
