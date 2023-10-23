@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+clang_build_ext.egg-info/PKG-INFO
+clang_build_ext.egg-info/SOURCES.txt
+clang_build_ext.egg-info/dependency_links.txt
+clang_build_ext.egg-info/entry_points.txt
+clang_build_ext.egg-info/namespace_packages.txt
+clang_build_ext.egg-info/top_level.txt
+clang_build_ext.egg-info/zip-safe
+karellen/clang_build_ext/LICENSE
+karellen/clang_build_ext/__init__.py
