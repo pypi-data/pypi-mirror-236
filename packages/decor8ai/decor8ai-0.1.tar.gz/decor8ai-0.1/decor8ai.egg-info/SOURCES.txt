@@ -1,0 +1,6 @@
+setup.py
+decor8ai.egg-info/PKG-INFO
+decor8ai.egg-info/SOURCES.txt
+decor8ai.egg-info/dependency_links.txt
+decor8ai.egg-info/requires.txt
+decor8ai.egg-info/top_level.txt
