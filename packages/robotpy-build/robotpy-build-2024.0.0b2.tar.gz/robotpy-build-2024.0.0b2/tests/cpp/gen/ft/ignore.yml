@@ -1,0 +1,74 @@
+---
+enums:
+  IgnoredEnum:
+    ignore: true
+  EnumWithIgnored:
+    values:
+      Ignored:
+        ignore: true
+functions:
+  fnIgnore:
+    ignore: true
+  fnIgnoredParam:
+    param_override:
+      x:
+        ignore: true
+    # ignoring the param requires inline cpp
+    cpp_code: |
+      []() {
+        return fnIgnoredParam(3);
+      }
+
+classes:
+  IgnoredClass:
+    ignore: true
+  IgnoredTemplatedClass:
+    ignore: true
+  IgnoredClassWithEnum:
+    ignore: true
+  ClassWithIgnored:
+    attributes:
+      ignoredProp:
+        ignore: true
+    enums:
+      IgnoredInnerEnum:
+        ignore: true
+      InnerEnumWithIgnored:
+        values:
+          Param1:
+            ignore: true
+    methods:
+      ClassWithIgnored:
+        cpp_code: |
+          [](py::args) {
+            return std::make_shared<ClassWithIgnored>(1);
+          }
+        keepalive: []
+        param_override:
+          y:
+            ignore: true
+      fnIgnore:
+        ignore: true
+      fnIgnoredParam:
+        param_override:
+          x:
+            ignore: true
+        # ignoring the param requires inline cpp
+        cpp_code: |
+          [](ClassWithIgnored * self, int y) {
+            return self->fnIgnoredParam(42, y);
+          }
+      fnParamPack:
+        overloads:
+          int, T&&...:
+            ignore: true
+          "":
+            ignore: true
+  ClassWithIgnoredBase:
+    ignored_bases:
+    - IgnoredClass
+    force_no_trampoline: true
+  ClassWithIgnoredTemplateBase:
+    ignored_bases:
+    - IgnoredTemplatedClass<std::vector<int>>
+    force_no_trampoline: true
