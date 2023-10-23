@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aiosmartoilgauge
+Version: 1.0.0
+Summary: Provides ability to query the Connected Consumer Smart Oil Gauge REST API.
+Home-page: https://github.com/dcmeglio/aiosmartoilgauge
+Author: Dominick Meglio
+Author-email: dmeglio@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pyjwt
+Requires-Dist: httpx
+
+Asynchronous interface to the Connected Consumer Smart Oil Gauge REST API.

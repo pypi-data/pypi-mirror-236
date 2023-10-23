@@ -1,0 +1,1 @@
+Asynchronous interface to the Connected Consumer Smart Oil Gauge REST API.
