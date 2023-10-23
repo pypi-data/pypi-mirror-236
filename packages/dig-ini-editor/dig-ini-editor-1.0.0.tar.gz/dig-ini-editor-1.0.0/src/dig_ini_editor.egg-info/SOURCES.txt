@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.cfg
+src/dig_ini_editor/__init__.py
+src/dig_ini_editor/__main__.py
+src/dig_ini_editor/arguments.py
+src/dig_ini_editor/editor.py
+src/dig_ini_editor/main.py
+src/dig_ini_editor.egg-info/PKG-INFO
+src/dig_ini_editor.egg-info/SOURCES.txt
+src/dig_ini_editor.egg-info/dependency_links.txt
+src/dig_ini_editor.egg-info/entry_points.txt
+src/dig_ini_editor.egg-info/top_level.txt
+tests/test_00_editor.py

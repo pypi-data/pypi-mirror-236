@@ -1,0 +1,2 @@
+[console_scripts]
+ini-editor = dig_ini_editor.main:main
