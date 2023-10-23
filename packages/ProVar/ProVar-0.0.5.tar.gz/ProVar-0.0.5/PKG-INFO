@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: ProVar
+Version: 0.0.5
+Summary: procedural variable system
+Home-page: 
+Author: Alexander Eriksen
+Author-email: Alex.eriksen@live.no
+License: Privat Lisence
+Keywords: procedural variable
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+This package provides tools for working with probabilistic variants in genomics data.

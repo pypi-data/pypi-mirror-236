@@ -1,0 +1,3 @@
+include ProVar/__init__.py
+include ProVar/*.py
+include *.txt
