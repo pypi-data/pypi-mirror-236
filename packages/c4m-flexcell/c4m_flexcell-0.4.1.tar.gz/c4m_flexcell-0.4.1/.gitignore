@@ -1,0 +1,10 @@
+*.pyc
+.coverage
+/build
+/c4m_flexcell.egg-info
+/dist
+/.eggs
+/.doit.*
+
+.vscode
+.ipynb_checkpoints
