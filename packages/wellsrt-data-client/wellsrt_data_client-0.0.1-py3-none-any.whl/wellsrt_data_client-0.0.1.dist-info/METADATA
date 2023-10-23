@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: wellsrt-data-client
+Version: 0.0.1
+Summary: WellsRT Data Client Library
+Home-page: 
+Author-email: 
+Keywords: WellsRT Data Client
+Requires-Dist: urllib3
+Requires-Dist: requests
+Requires-Dist: pyyaml
+Requires-Dist: python-decouple
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+Requires-Dist: StrEnum
+
+    WellsRT Data Client Library  # noqa: E501
+    
