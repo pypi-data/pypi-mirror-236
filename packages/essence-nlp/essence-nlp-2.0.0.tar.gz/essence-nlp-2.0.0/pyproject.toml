@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools-rust"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "essence-nlp"
+version = "2.0.0"
+authors = [
+  { name="Jash Dubal", email="jsd9393@gmail.com" },
+]
+description = "String processing library for advanced NLP and keyword extraction"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jashdubal/essence"
+"Bug Tracker" = "https://github.com/jashdubal/essence/issues"
