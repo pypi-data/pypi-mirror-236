@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: fcw-core
+Version: 0.7.0
+Summary: Early collision warning Network Application for Transportation use case - core part
+Home-page: https://github.com/5G-ERA/CollisionWarningService
+Author: Petr Kleparnik
+Author-email: pkleparnik@cognitechna.cz
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fcw-core-utils (>=0.7.0,<0.8.0)
+Requires-Dist: filterpy (>=1.4.5)
+Requires-Dist: gitpython (>=3.1.30)
+Requires-Dist: matplotlib (<=3.7.2)
+Requires-Dist: more-itertools (>=9.1.0)
+Requires-Dist: opencv-python (>=4.6)
+Requires-Dist: pandas (>=2.0.0)
+Requires-Dist: psutil (>=5.9.4)
+Requires-Dist: pyyaml (>=6.0)
+Requires-Dist: requests (>=2.28.2)
+Requires-Dist: seaborn (>=0.12.2)
+Requires-Dist: shapely (>=2.0.1)
+Requires-Dist: torch (>=2.0.1,<3.0.0)
+Requires-Dist: torchaudio (>=2.0.1,<3.0.0)
+Requires-Dist: torchvision (>=0.15.1,<0.16.0)
+Requires-Dist: tqdm (>=4.65.0)
+Requires-Dist: ultralytics (>=8.0.136)
+Project-URL: Repository, https://github.com/5G-ERA/CollisionWarningService
+Description-Content-Type: text/markdown
+
+# Forward Collision Warning - core part
+
+Early collision warning Network Application for Transportation use case - core part.
+The package contains core modules for Forward Collision Warning, including object detector,
+image tracker, visualisation and standalone example (fcw_example). It requires fcw-core-utils.
+
+
