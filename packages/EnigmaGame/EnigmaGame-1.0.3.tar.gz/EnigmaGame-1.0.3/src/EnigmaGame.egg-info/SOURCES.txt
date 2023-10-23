@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/EnigmaGame/__init__.py
+src/EnigmaGame/__main__.py
+src/EnigmaGame/block.py
+src/EnigmaGame/blocks.py
+src/EnigmaGame/board.py
+src/EnigmaGame/const.py
+src/EnigmaGame/figure.py
+src/EnigmaGame/gpath.py
+src/EnigmaGame.egg-info/PKG-INFO
+src/EnigmaGame.egg-info/SOURCES.txt
+src/EnigmaGame.egg-info/dependency_links.txt
+src/EnigmaGame.egg-info/requires.txt
+src/EnigmaGame.egg-info/top_level.txt

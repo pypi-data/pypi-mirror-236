@@ -1,0 +1,10 @@
+arcade==2.6.17
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+pytest
+build
+twine
