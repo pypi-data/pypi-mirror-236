@@ -1,0 +1,3 @@
+[console_scripts]
+jiug_hello-pic = jiug_hello.my:pic
+

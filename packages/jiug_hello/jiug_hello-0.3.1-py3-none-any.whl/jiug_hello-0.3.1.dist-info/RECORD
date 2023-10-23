@@ -1,0 +1,6 @@
+example_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example_package/jiug_hello.py,sha256=buJgDlV-1gYoiqGPEFu3zWmUkOGicdZ5trZSMUNJEDU,495
+jiug_hello-0.3.1.dist-info/METADATA,sha256=ENthDRdLoY6r0y22f6v-qFw9r0asZ2PY2y8F1hHEHuI,383
+jiug_hello-0.3.1.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+jiug_hello-0.3.1.dist-info/entry_points.txt,sha256=0rp2yUnDWO4tab8-1sdLJqwiMSjl2q_t8JITV6imwNg,54
+jiug_hello-0.3.1.dist-info/RECORD,,
