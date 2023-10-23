@@ -1,0 +1,8 @@
+atyp
+regsyn
+ispec
+pstr
+chck
+urllib3
+
+[dev]
