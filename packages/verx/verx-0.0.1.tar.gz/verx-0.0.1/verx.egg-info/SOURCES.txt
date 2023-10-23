@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+verx/__init__.py
+verx/_modidx.py
+verx/cons.py
+verx/util.py
+verx/verx.py
+verx.egg-info/PKG-INFO
+verx.egg-info/SOURCES.txt
+verx.egg-info/dependency_links.txt
+verx.egg-info/entry_points.txt
+verx.egg-info/not-zip-safe
+verx.egg-info/requires.txt
+verx.egg-info/top_level.txt
