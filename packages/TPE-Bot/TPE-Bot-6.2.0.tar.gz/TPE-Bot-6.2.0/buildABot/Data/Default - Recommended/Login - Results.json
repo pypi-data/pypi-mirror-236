@@ -1,0 +1,46 @@
+{
+    "id": "e8e4affa-c06b-45d5-b249-5bd29d641f11",
+    "name": "Login - Results",
+    "auto": true,
+    "contexts": [
+      "loggedIn"
+    ],
+    "responses": [
+      {
+        "resetContexts": false,
+        "action": "",
+        "affectedContexts": [
+          {
+            "name": "loggedIn",
+            "lifespan": 10
+          }
+        ],
+        "parameters": [
+          {
+            "id": "729c9eb6-facc-46a0-8212-81ed680722d8",
+            "name": "loginID",
+            "required": false,
+            "dataType": "@LoginID",
+            "value": "#loggedIn.loginID",
+            "defaultValue": "",
+            "isList": false,
+            "prompts": [],
+            "promptMessages": [],
+            "noMatchPromptMessages": [],
+            "noInputPromptMessages": [],
+            "outputDialogContexts": []
+          }
+        ],
+        "messages": [],
+        "speech": []
+      }
+    ],
+    "priority": 500000,
+    "webhookUsed": true,
+    "webhookForSlotFilling": false,
+    "fallbackIntent": false,
+    "events": [],
+    "conditionalResponses": [],
+    "condition": "",
+    "conditionalFollowupEvents": []
+  }
