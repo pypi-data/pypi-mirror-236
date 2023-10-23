@@ -1,0 +1,9 @@
+README.md
+setup.py
+linearregressiondina/LinearRegression.py
+linearregressiondina/__init__.py
+linearregressiondina.egg-info/PKG-INFO
+linearregressiondina.egg-info/SOURCES.txt
+linearregressiondina.egg-info/dependency_links.txt
+linearregressiondina.egg-info/requires.txt
+linearregressiondina.egg-info/top_level.txt
