@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bahila-extractor
+Version: 0.2
+Summary: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: theguardian
+Requires-Dist: requests
+Requires-Dist: openai
+Requires-Dist: bs4
+Requires-Dist: langchain
+
+UNKNOWN
+
