@@ -1,0 +1,7 @@
+pyproject.toml
+pylibclang-stubs/_C.pyi
+pylibclang_stubs.egg-info/PKG-INFO
+pylibclang_stubs.egg-info/SOURCES.txt
+pylibclang_stubs.egg-info/dependency_links.txt
+pylibclang_stubs.egg-info/not-zip-safe
+pylibclang_stubs.egg-info/top_level.txt
