@@ -1,0 +1,6 @@
+setup.py
+tiger_Age.egg-info/PKG-INFO
+tiger_Age.egg-info/SOURCES.txt
+tiger_Age.egg-info/dependency_links.txt
+tiger_Age.egg-info/requires.txt
+tiger_Age.egg-info/top_level.txt
