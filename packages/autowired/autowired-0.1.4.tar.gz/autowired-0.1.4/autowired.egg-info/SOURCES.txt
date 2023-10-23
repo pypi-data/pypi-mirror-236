@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+autowired/__init__.py
+autowired.egg-info/PKG-INFO
+autowired.egg-info/SOURCES.txt
+autowired.egg-info/dependency_links.txt
+autowired.egg-info/top_level.txt
+tests/test_autowired.py
