@@ -1,0 +1,15 @@
+pylettes/__init__.py,sha256=xZ2-MAbTRImyI6r0QsKgUHN3Q38Ux6x8LLE-1aykhQ0,241
+pylettes/base.py,sha256=yjGm9l-CGBW188W8p2jQX0yHKvftWPS4lNFMmqKyhwE,2901
+pylettes/dracula/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylettes/dracula/dracula.py,sha256=DYgZ07vWKX0E4wCzshdSSkoLOcKLmb8oy6yZ3VuMiAs,1346
+pylettes/one_dark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylettes/one_dark/one_dark.py,sha256=1MuAK46eY6x_LUUT2TvRJUPjLNaoon8qKRykmX4qO5s,1132
+pylettes/tokyo_night/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylettes/tokyo_night/tokyo_night.py,sha256=Kzdv0PQ32rEmNyYW7iC3C01_vTHbRgRgoBbpqoO-OoE,1808
+pylettes/tokyo_night/tokyo_night_light.py,sha256=SECWXAjD8JAwi0WfOSz08OCB9fGqu6GcfCXGGC686SA,1727
+pylettes/tokyo_night/tokyo_night_storm.py,sha256=aH-scAzkKIdX4CtRvzeeFLF146Q77sPOgt5avzCAM-w,1821
+vscode_pylettes-0.0.2.dist-info/LICENSE,sha256=Xa-MHza1xZGDcqSaTK9JUpyEvJjI--gMHZGuMvNlRHY,1071
+vscode_pylettes-0.0.2.dist-info/METADATA,sha256=fd3MFpFhsBD5VhjdSUXautewHk7dxOqWqx-umJ4uH5U,883
+vscode_pylettes-0.0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vscode_pylettes-0.0.2.dist-info/top_level.txt,sha256=I-OOwVPV1ZkIsApRDXwP2QmmBIaT1-k-ehBWiZxD8p8,9
+vscode_pylettes-0.0.2.dist-info/RECORD,,
