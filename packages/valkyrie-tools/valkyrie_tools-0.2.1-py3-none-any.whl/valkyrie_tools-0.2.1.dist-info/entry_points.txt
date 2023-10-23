@@ -1,0 +1,3 @@
+[console_scripts]
+valkyrie=valkyrie_tools.__main__:main
+
