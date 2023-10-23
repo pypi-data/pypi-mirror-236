@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: systembridgeshared
+Version: 3.9.0
+Summary: System Bridge Shared
+Home-page: https://github.com/timmo001/system-bridge
+Author: Aidan Timson (Timmo)
+Author-email: aidan@timmo.dev
+License: MIT
+Keywords: system bridge shared
+License-File: LICENSE
+Requires-Dist: aiohttp==3.9.0b0; python_version >= "3.12"
+Requires-Dist: aiohttp==3.8.6; python_version < "3.12"
+Requires-Dist: appdirs==1.4.4
+Requires-Dist: colorlog==6.7.0
+Requires-Dist: cryptography==41.0.4
+Requires-Dist: incremental==22.10.0
+Requires-Dist: pandas==2.1.1
+Requires-Dist: pydantic==1.10.13
+Requires-Dist: sqlmodel==0.0.8
