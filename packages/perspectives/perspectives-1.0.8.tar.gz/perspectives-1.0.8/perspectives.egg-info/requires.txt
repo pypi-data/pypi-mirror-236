@@ -1,0 +1,6 @@
+hatchling
+transformers
+sentence-transformers
+tqdm
+pydot
+graphviz
