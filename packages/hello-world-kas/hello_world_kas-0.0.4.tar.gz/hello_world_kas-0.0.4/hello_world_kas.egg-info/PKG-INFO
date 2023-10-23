@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: hello-world-kas
+Version: 0.0.4
+Summary: Very useful code
+Author: Andrii Kuriachyi
+Author-email: flyingcircus@example.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
