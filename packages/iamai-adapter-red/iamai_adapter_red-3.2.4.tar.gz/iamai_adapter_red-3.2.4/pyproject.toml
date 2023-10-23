@@ -1,0 +1,56 @@
+[tool.pdm.dev-dependencies]
+dev = [
+    "iamai @ ",
+]
+
+[tool.pdm.build]
+includes = [
+    "iamai",
+]
+excludes = [
+    "iamai/__init__.py",
+    "iamai/adapter/__init__.py",
+]
+
+[project]
+name = "iamai-adapter-red"
+version = "3.2.4"
+description = "Red adapter for iamai."
+authors = [
+    { name = "简律纯", email = "i@jyunko.cn" },
+]
+dependencies = [
+    "iamai>=3.2",
+    "typing-extensions>=4.7.0",
+]
+requires-python = ">=3.8"
+readme = "README.md"
+keywords = [
+    "bot",
+    "chatbot",
+    "red",
+]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Framework :: AsyncIO",
+    "Framework :: Robot Framework",
+    "Framework :: Robot Framework :: Library",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Topic :: Communications :: Chat",
+]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+homepage = "https://retrofor.space/"
+repository = "https://github.com/retrofor/iamai"
+documentation = "https://iamai.retrofor.space/"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
