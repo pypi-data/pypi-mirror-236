@@ -1,0 +1,17 @@
+cligames/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cligames/main.py,sha256=MFhThgxmfONEPbAIJxKFbyMkjoXuCDgTAlPjKideK8Y,4928
+cligames/version.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+cligames/boards/__init__.py,sha256=27WwVkHXl49HtJV1s9kqRACjYqJ4TyAr4yUwY_iV_3s,64
+cligames/boards/board.py,sha256=c25kokZaYIIMTSI_ycTNOCKLKhHfq5smcJhKhsVEizM,22
+cligames/boards/connect4.py,sha256=8TkfvuhTLgWuxUIEgskEEJCjLgUxfMLsLjbXPXB2Efs,7544
+cligames/boards/tictactoe.py,sha256=0F6db5PiA3nrYKOp_qBkLpJliTRz69ETcK2ZAvDWO8E,4678
+cligames/players/__init__.py,sha256=GRJZZHq-RQBFQaw_hRQKiWIExlnCcMk0DcHbhNSpIPQ,56
+cligames/players/computer.py,sha256=YSs2CsAEPa_SR4zMgfeGY32MVJo_SpCO_6BgPMC6SNE,2718
+cligames/players/human.py,sha256=fyAUOBPSuGMMAEoXbqG7cAcc5QZks5spTw7jLbX_svA,385
+cligames/players/player.py,sha256=sRBHrJ5xqIf_yD6J1BkmuP-o09g9oOUD3umgW8J7qLE,189
+cligames-0.1.0.dist-info/LICENSE,sha256=3pYJHw34GDlA0vQ4YAZQEEkU2nixP_p4ozxsTtfoJUY,1069
+cligames-0.1.0.dist-info/METADATA,sha256=0eA5lPgt633quiDaArxOTbj5rmgEArGMtJx_JimvjFU,802
+cligames-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+cligames-0.1.0.dist-info/entry_points.txt,sha256=0k7xqGmzFBYojIV7-Mg6YogixWZVIx6aqhPtQKyWAYM,47
+cligames-0.1.0.dist-info/top_level.txt,sha256=dzWHYliVVyJ9ZD9Puni7l9Abdbon4o_jwI3kBrMdfIk,9
+cligames-0.1.0.dist-info/RECORD,,
