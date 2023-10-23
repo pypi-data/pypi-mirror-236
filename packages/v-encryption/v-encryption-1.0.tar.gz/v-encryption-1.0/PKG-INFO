@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: v-encryption
+Version: 1.0
+Summary: (De)cryption software. Allows you to encrypt or decrypt text based on different encryption keys.
+Home-page: https://encryption.nexcord.pro/
+Author: V / Lou du Poitou
+License: ISC
+Requires-Python: >=3.9.7
