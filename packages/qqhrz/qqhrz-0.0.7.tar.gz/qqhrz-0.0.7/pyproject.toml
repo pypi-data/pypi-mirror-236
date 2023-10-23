@@ -1,0 +1,18 @@
+[project]
+name = "qqhrz"
+version = "0.0.7"
+authors = [
+  { name="zkj", email="zhkaij@foxmail.com" },
+]
+description = "加入BERT模型的实现和数据的处理。"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/sampleproject"
+"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
