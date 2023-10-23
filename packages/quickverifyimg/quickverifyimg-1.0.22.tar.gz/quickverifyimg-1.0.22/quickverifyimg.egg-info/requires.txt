@@ -1,0 +1,5 @@
+aircv==1.4.6
+natsort
+numpy
+opencv-python>=4.5.3.56
+matplotlib
