@@ -1,0 +1,16 @@
+typing-extensions
+
+[adaptix]
+adaptix
+
+[orjson]
+orjson
+
+[rabbitmq]
+aiormq
+yarl
+
+[test]
+pytest
+pytest-cov
+pytest-asyncio
