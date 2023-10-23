@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: sentence-models
+Version: 0.1.0
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: scikit-learn
+Requires-Dist: spacy
+Requires-Dist: lazylines
+Requires-Dist: embetter[sentence-tfm]
+Requires-Dist: skops
+Requires-Dist: rich
+
