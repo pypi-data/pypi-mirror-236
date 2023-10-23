@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: gym-flp
+Version: 0.2.10
+Summary: Implementation of facility layout problems in OpenAI Gym
+Home-page: https://github.com/BTHeinbach/gym-flp
+Author: Benjamin Heinbach
+Author-email: benjamin.heinbach@uni-siegen.de
+License: MIT
+License-File: LICENSE
+Requires-Dist: gym <0.26
+Requires-Dist: numpy
+Requires-Dist: anytree
+Requires-Dist: pygame
+Requires-Dist: Pillow
+Requires-Dist: argparse
+Requires-Dist: optuna
+Requires-Dist: stable-baselines3
+Requires-Dist: matplotlib
+Requires-Dist: imageio
+
+Implementation of facility layout problems in OpenAI Gym
