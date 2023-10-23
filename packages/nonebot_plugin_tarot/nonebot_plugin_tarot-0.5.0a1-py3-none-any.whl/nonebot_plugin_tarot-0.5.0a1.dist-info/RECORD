@@ -1,0 +1,9 @@
+nonebot_plugin_tarot/__init__.py,sha256=6OaZOqqHlfOfVoQcf_xerxlD01o1W0qdMekJ3WaXhGE,2728
+nonebot_plugin_tarot/config.py,sha256=WWm5ACiyIIQ06qUDZvbEyq8cquM0lQJX9Z1KvuZUhik,3607
+nonebot_plugin_tarot/data_source.py,sha256=QG5MoZnQ0Kkn9Kbc1qHjZ5jM6hvAq4LrAdIRsoti0lg,9655
+nonebot_plugin_tarot/tarot.json,sha256=goHHYsJw74Jz-6-dNitmFxsKRG-g6Uf7wl7Z89F36p0,26659
+nonebot_plugin_tarot/test.py,sha256=1Is9Tr_0GYr7tlJ1MZvYxEJoUUQHQrPmPQ8ewc3tkwQ,196
+nonebot_plugin_tarot-0.5.0a1.dist-info/LICENSE,sha256=aHhX9so28tCgkKmNzL5jtZdjzSzN2eYBBjr15v2qSD8,1068
+nonebot_plugin_tarot-0.5.0a1.dist-info/METADATA,sha256=2ytCt7wrQOXyl9cSufzfUgGbRIYzG_Kv-jIOwxORxEg,7590
+nonebot_plugin_tarot-0.5.0a1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+nonebot_plugin_tarot-0.5.0a1.dist-info/RECORD,,
