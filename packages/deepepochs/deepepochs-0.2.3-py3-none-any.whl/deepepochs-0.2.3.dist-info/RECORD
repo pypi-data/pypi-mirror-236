@@ -1,0 +1,14 @@
+deepepochs/__init__.py,sha256=pmtL82LMyLINGiOyRRmX5Ouk9Bh3xkYfRItQaNzx-h4,135
+deepepochs/loops.py,sha256=JDfFk50zqEAdQ1XhYDPwsycC0yzvj1pVPItFVKW1TIU,27594
+deepepochs/metrics.py,sha256=3LZeGksXfCuxvGO3e9rS7Oo9P65-TV0fMHuNwWpT7zQ,5394
+deepepochs/trainer.py,sha256=uD8GDSDMM_YqEO_Ne6cYwur9IcyHe8_eZXGuJBidEBk,1626
+deepepochs/utils.py,sha256=RgWtEUQlVbJ04XMZGsSnArJBzU6z05cO-JmiSlNpTzk,6578
+deepepochs/learner/__init__.py,sha256=tfZuy9k-GZE5ywdWeWcYdjd3KKCZ8OvNzD4OJ_gjZIQ,177
+deepepochs/learner/callbacks.py,sha256=oyvggL-I1ZMG1opEF7TEyfXkaBhckuwCih0S1prot4Y,8759
+deepepochs/learner/learner_base.py,sha256=7QhbxAgj48hsU_vIWXQpg6gECzPWNxnm7atMzu-5Cso,7409
+deepepochs/learner/learner_default.py,sha256=zUduWqFQr5i_UqQVsi27fv0wg6rCC1PDw07O4N9C7GM,1494
+deepepochs-0.2.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+deepepochs-0.2.3.dist-info/METADATA,sha256=XnMdU0JwCzAePMFq_6I4CIe7uRqThVh1Nh6crInthmM,3490
+deepepochs-0.2.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+deepepochs-0.2.3.dist-info/top_level.txt,sha256=j976ROcH3JrQdIruL1TcLvu7mtPrpfxLmgQDGTgRY_0,11
+deepepochs-0.2.3.dist-info/RECORD,,
