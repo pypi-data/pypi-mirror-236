@@ -1,0 +1,11 @@
+numpy
+matplotlib
+opencv-python
+pandas
+tqdm
+termcolor
+gdown
+bnunicodenormalizer
+flask
+flask_cors
+streamlit
