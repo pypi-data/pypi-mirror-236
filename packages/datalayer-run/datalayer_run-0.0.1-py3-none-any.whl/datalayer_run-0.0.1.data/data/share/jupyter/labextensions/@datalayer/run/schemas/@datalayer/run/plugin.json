@@ -1,0 +1,8 @@
+{
+  "jupyter.lab.shortcuts": [],
+  "title": "Datalayer Run",
+  "description": "Datalayer Run settings.",
+  "type": "object",
+  "properties": {},
+  "additionalProperties": false
+}
