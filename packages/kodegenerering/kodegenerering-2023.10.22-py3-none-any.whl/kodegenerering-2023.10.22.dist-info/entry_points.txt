@@ -1,0 +1,2 @@
+[console_scripts]
+kodegenerering = kodegenerering.cli:app
