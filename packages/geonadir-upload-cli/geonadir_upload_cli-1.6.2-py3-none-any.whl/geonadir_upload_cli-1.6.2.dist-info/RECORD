@@ -1,0 +1,13 @@
+geonadir_upload_cli/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+geonadir_upload_cli/__main__.py,sha256=Huz0dExiaH0XTMLhfe3skkFD9-VH7ZUiWMbDR_J8TIY,28
+geonadir_upload_cli/__version__.py,sha256=ay9A4GSmtr3NioHirRgXvWfXtjwRjzXIO_WPuFobCoI,411
+geonadir_upload_cli/cli.py,sha256=lzktIPzG0JlMZ9nO8Caa0ZgFBwsTf7xVcbBRshqJNes,6527
+geonadir_upload_cli/dataset.py,sha256=XBx-sfe-nUuuTLjaomadOfwvZDiEm_lkANR8AHI9NPU,15088
+geonadir_upload_cli/parallel.py,sha256=wcEjn9z4n2aOgHAleFP5Vs_sEGpXXLNRzaqCJGOJQ7o,6273
+geonadir_upload_cli/upload.py,sha256=8Oi2dmSWU23Ot0cEq9kZCy0zVEiXcGRVeTCrVfh4vWY,4052
+geonadir_upload_cli-1.6.2.dist-info/LICENSE,sha256=2LuEPwVQX4xRr60D5zeZQsoKDjMN_vOYKKX_bvE1plA,1094
+geonadir_upload_cli-1.6.2.dist-info/METADATA,sha256=o1to6uWzUC6kHjW-4nEXVJGehUd7oSnZVQ4q8-c9iZg,9995
+geonadir_upload_cli-1.6.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+geonadir_upload_cli-1.6.2.dist-info/entry_points.txt,sha256=ZfoLkQExabUdJxcWDP-seqbhRfKRUaKQ0bMtP-bJm3c,61
+geonadir_upload_cli-1.6.2.dist-info/top_level.txt,sha256=ihZuW9WdoO0Uy7wY_uFwFBEn9sFQfaut8Z0CvnZuSPw,20
+geonadir_upload_cli-1.6.2.dist-info/RECORD,,
