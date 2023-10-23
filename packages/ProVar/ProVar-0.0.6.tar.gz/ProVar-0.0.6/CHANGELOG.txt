@@ -1,0 +1,26 @@
+Change Log:
+===========
+
+0.0.1 (10.21.2023)
+-------------------
+- First release
+
+0.0.2 (10.22.2023)
+-------------------
+- fixed distribution error
+
+0.0.3 (10.22.2023)
+-------------------
+- fixed distribution error
+
+0.0.4 (10.22.2023)
+-------------------
+- fixed distribution error
+
+0.0.5 (10.22.2023)
+-------------------
+- fixed distribution error
+
+0.0.6 (10.22.2023)
+-------------------
+- fixed distribution error
