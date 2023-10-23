@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+# project metadata
+[project]
+name = "sphinx-syft-theme"
+description = "A configurable sidebar-enabled Sphinx theme"
+version = "0.1.0"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Callis Ezenwaka", email = "callis@openmined.org"},
+]
+maintainers = [
+  {name = "The Syft Developers", email = "info@openmined.org"}
+]
+keywords = ["sphinx", "theme", "jupyter", "notebook", "syft"]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Environment :: Web Environment",
+  "Framework :: Sphinx",
+  "Framework :: Sphinx :: Theme",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: Apache Software License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python :: 3",
+  "Topic :: Documentation",
+  "Topic :: Software Development :: Documentation",
+]
+
+dependencies = ["sphinx-book-theme"]
+
+# dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://sphinx-syft-theme.readthedocs.io/"
+Documentation = "https://sphinx-syft-theme.readthedocs.io/"
+Repository = "https://github.com/callezenwaka/sphinx-syft-theme"
+Changelog = "https://sphinx-syft-theme.readthedocs.io/en/latest/changelog.html"
+
+[project.entry-points."sphinx.html_themes"]
+sphinx_syft_theme = 'sphinx_syft_theme'
