@@ -1,0 +1,21 @@
+{
+    "config": {
+        "step": {
+            "reauth_confirm": {
+                "description": "Nor\u0117dami i\u0161 naujo autentifikuoti naudodami PVOutput, tur\u0117site gauti API rakt\u0105 adresu {account_url} ."
+            },
+            "user": {
+                "data": {
+                    "system_id": "Sistemos ID"
+                }
+            }
+        }
+    },
+    "entity": {
+        "sensor": {
+            "power_generation": {
+                "name": "Sukurta galia"
+            }
+        }
+    }
+}

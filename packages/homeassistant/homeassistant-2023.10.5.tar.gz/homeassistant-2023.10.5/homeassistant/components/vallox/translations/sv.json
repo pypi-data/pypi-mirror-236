@@ -1,0 +1,60 @@
+{
+    "config": {
+        "abort": {
+            "already_configured": "Tj\u00e4nsten \u00e4r redan konfigurerad",
+            "cannot_connect": "Det gick inte att ansluta.",
+            "invalid_host": "Ogiltigt v\u00e4rdnamn eller IP-adress",
+            "unknown": "Ov\u00e4ntat fel"
+        },
+        "error": {
+            "cannot_connect": "Det gick inte att ansluta.",
+            "invalid_host": "Ogiltigt v\u00e4rdnamn eller IP-adress",
+            "unknown": "Ov\u00e4ntat fel"
+        },
+        "step": {
+            "user": {
+                "data": {
+                    "host": "V\u00e4rd"
+                }
+            }
+        }
+    },
+    "entity": {
+        "number": {
+            "supply_air_target_away": {
+                "name": "Tilluftstemperatur (Borta)"
+            },
+            "supply_air_target_boost": {
+                "name": "Tilluftstemperatur (Boost)"
+            },
+            "supply_air_target_home": {
+                "name": "Tilluftstemperatur (Hemma)"
+            }
+        }
+    },
+    "services": {
+        "set_profile_fan_speed_away": {
+            "fields": {
+                "fan_speed": {
+                    "description": "Fl\u00e4kthastighet."
+                }
+            }
+        },
+        "set_profile_fan_speed_boost": {
+            "fields": {
+                "fan_speed": {
+                    "description": "Fl\u00e4kthastighet.",
+                    "name": "Fl\u00e4kthastighet"
+                }
+            }
+        },
+        "set_profile_fan_speed_home": {
+            "fields": {
+                "fan_speed": {
+                    "description": "Fl\u00e4kthastighet.",
+                    "name": "Fl\u00e4kthastighet"
+                }
+            }
+        }
+    }
+}

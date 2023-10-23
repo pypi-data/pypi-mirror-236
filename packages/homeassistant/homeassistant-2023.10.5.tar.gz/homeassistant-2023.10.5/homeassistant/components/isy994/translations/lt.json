@@ -1,0 +1,55 @@
+{
+    "config": {
+        "step": {
+            "reauth_confirm": {
+                "description": "{host} kredencialai nebegalioja.",
+                "title": "I\u0161 naujo autentifikuokite savo ISY"
+            },
+            "user": {
+                "data": {
+                    "password": "Slapta\u017eodis"
+                }
+            }
+        }
+    },
+    "services": {
+        "rename_node": {
+            "fields": {
+                "name": {
+                    "name": "Naujas Vardas"
+                }
+            }
+        },
+        "send_program_command": {
+            "fields": {
+                "address": {
+                    "name": "Adresas"
+                },
+                "isy": {
+                    "name": "ISY"
+                }
+            }
+        },
+        "send_raw_node_command": {
+            "fields": {
+                "command": {
+                    "name": "Komanda"
+                }
+            }
+        },
+        "set_zwave_lock_user_code": {
+            "fields": {
+                "user_num": {
+                    "name": "Vartotojo numeris"
+                }
+            }
+        },
+        "set_zwave_parameter": {
+            "fields": {
+                "size": {
+                    "name": "Dydis"
+                }
+            }
+        }
+    }
+}
