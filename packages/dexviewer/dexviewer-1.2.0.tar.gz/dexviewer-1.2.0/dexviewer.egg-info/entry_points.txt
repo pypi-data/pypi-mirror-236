@@ -1,0 +1,2 @@
+[console_scripts]
+dexviewer = dexviewer.__main__:main
