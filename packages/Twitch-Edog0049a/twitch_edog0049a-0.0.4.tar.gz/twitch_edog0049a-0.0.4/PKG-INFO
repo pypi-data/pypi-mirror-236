@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: Twitch_Edog0049a
+Version: 0.0.4
+Summary: Twitch library for chat, api, pubs, and eventsub
+Project-URL: Source code, https://github.com/eli-reid/twitch
+Author-email: Eli Reid <Elir@elireid.com>
+License-Expression: Apache-2.0 OR MIT
+License-File: LICENSE.txt
+Requires-Python: >=3.11
+Requires-Dist: aiohttp-cors>=0.7.0
+Requires-Dist: aiohttp-jinja2>=1.4.2
+Requires-Dist: aiohttp-oauth>=0.4.0
+Requires-Dist: aiohttp-session>=2.9.0
+Requires-Dist: aiohttp-socks>=0.6.0
+Requires-Dist: aiohttp>=3.7.4.post0
+Requires-Dist: eventhandling>=0.0.8
+Requires-Dist: requests>=2.26.0
+Requires-Dist: websockets>=10.0
+Description-Content-Type: text/markdown
+
+# `Twitch`
+
+api wrraper with chat pubsub and event connectors
