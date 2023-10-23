@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+test/test_cli.py
+test/test_uhkamalli.py
+uhkamalli/__init__.py
+uhkamalli/__main__.py
+uhkamalli/cli.py
+uhkamalli/uhkamalli.py
+uhkamalli.egg-info/PKG-INFO
+uhkamalli.egg-info/SOURCES.txt
+uhkamalli.egg-info/dependency_links.txt
+uhkamalli.egg-info/entry_points.txt
+uhkamalli.egg-info/requires.txt
+uhkamalli.egg-info/top_level.txt
