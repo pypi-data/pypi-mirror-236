@@ -1,0 +1,6 @@
+binascii
+gzip
+zlib
+base64
+marshal
+functools
