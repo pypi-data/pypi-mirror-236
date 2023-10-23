@@ -1,0 +1,10 @@
+napari_live_histogram/__init__.py,sha256=EuBSdvjf6WSlaItf3b40M6b3F4OU-neN4Cu2f-Jq1q4,37
+napari_live_histogram/_widget.py,sha256=Ih2uvsAaDcs_HD7gn-yaEaNJi9m4NS82emhUjqMsyOs,4632
+napari_live_histogram/napari.yaml,sha256=tYxg-5xgTyoMSJPvi9MlBnhU61TilCpO7BtCAAppJHc,288
+napari_live_histogram/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_live_histogram-0.0.1.dist-info/LICENSE,sha256=ovaGlv7znXct6TEbklmvg1xDHzSk6yKxyHoWRxx8QpM,1490
+napari_live_histogram-0.0.1.dist-info/METADATA,sha256=G4Nra2tfXnbrInyPPXXsDsxJihhIK2mby3_dWsefIqE,3147
+napari_live_histogram-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+napari_live_histogram-0.0.1.dist-info/entry_points.txt,sha256=rWr0qr5UsGRNJqueEFoomNupNG5EiQHPQ3SGt84R81o,76
+napari_live_histogram-0.0.1.dist-info/top_level.txt,sha256=JVfAvkfGCfAKmUcsgTk6BAhzDeZxAMSbFil1njfb3_I,22
+napari_live_histogram-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-live-histogram = napari_live_histogram:napari.yaml
