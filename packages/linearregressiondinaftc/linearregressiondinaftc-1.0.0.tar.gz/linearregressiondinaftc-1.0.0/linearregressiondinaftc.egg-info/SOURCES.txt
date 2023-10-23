@@ -1,0 +1,9 @@
+README.md
+setup.py
+linearregressiondinaftc/__init__.py
+linearregressiondinaftc/lineartrydina.py
+linearregressiondinaftc.egg-info/PKG-INFO
+linearregressiondinaftc.egg-info/SOURCES.txt
+linearregressiondinaftc.egg-info/dependency_links.txt
+linearregressiondinaftc.egg-info/requires.txt
+linearregressiondinaftc.egg-info/top_level.txt
