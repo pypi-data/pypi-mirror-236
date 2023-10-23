@@ -1,0 +1,9 @@
+setup.py
+bahila_extractor/__init__.py
+bahila_extractor/extractor.py
+bahila_extractor/theguardian_content.py
+bahila_extractor.egg-info/PKG-INFO
+bahila_extractor.egg-info/SOURCES.txt
+bahila_extractor.egg-info/dependency_links.txt
+bahila_extractor.egg-info/requires.txt
+bahila_extractor.egg-info/top_level.txt
