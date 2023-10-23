@@ -1,0 +1,10 @@
+gpflib/__init__.py,sha256=fj8VYjL8CHN4GMUDiF2dJp0weIbMjjARwsayLLasnuo,23
+gpflib/__version__.py,sha256=Jw_D2czBflJ1yIyTJ0bltsnacO9M9cdi_rDZ14enWxk,66
+gpflib/config.txt,sha256=-etAPxXwSp8Pr9NAbGJQe1sI6aGDx233Xy-GAJBWfzk,1112
+gpflib/gpflib.dll,sha256=-viGRQrBD0GAtIaaCN0S-xPbxz6YBfiAHPaUoxDIA34,1179136
+gpflib/gpflib.py,sha256=y4kc1h1L-lvD98RYCFFeZcbmyx6IkYwLPYaO4XG7-BI,18447
+gpflib-1.0.3.dist-info/LICENSE,sha256=NqTlefKost5lRhF9Oa_pSjPpR9zbV8yBQVvEgNol5_o,1058
+gpflib-1.0.3.dist-info/METADATA,sha256=mybZCh_abqNp498O4fmBk7lg1obQasKZo0SIi8OuE8M,1680
+gpflib-1.0.3.dist-info/WHEEL,sha256=nNsUzh1WmP_SJ0w9BtmcWoJ5zFMuD9TAo5jnsi5d6sQ,98
+gpflib-1.0.3.dist-info/top_level.txt,sha256=zOOAF-uFl6qliW3I6k7SHYnyPX3wwm9n9vl5PYxcBT4,7
+gpflib-1.0.3.dist-info/RECORD,,
