@@ -1,0 +1,15 @@
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+modern_sphinx_version_warning.egg-info/PKG-INFO
+modern_sphinx_version_warning.egg-info/SOURCES.txt
+modern_sphinx_version_warning.egg-info/dependency_links.txt
+modern_sphinx_version_warning.egg-info/not-zip-safe
+modern_sphinx_version_warning.egg-info/requires.txt
+modern_sphinx_version_warning.egg-info/top_level.txt
+versionwarning/__init__.py
+versionwarning/extension.py
+versionwarning/signals.py
+versionwarning/_static/js/versionwarning.js
