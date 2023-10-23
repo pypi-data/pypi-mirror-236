@@ -1,0 +1,12 @@
+moeximporter/MoexCandlePeriods.py,sha256=3RgCO-4DWbXQCQedeQ_i5FG8ZVVX_SgmoQDIgLJHSlI,555
+moeximporter/MoexImporter.py,sha256=01crV8ZB220e7Rd3NJvfbo7iID-53WpcEkyP0XtIqkY,22518
+moeximporter/MoexRequests.py,sha256=SR7I3bLNkUAcgTNY6TCiPSrIn8Awwe7KU1myeEgVP1s,302
+moeximporter/MoexSecurity.py,sha256=13jsTwTHWZTIV06gW4Jp3gVKZW4PoT8_-GJgukjgdMc,15116
+moeximporter/MoexSessions.py,sha256=QhboN5lgiYyvgp33fzbYN8j1hQersw5O3rdjsDUciEY,376
+moeximporter/_MoexRequests.py,sha256=SR7I3bLNkUAcgTNY6TCiPSrIn8Awwe7KU1myeEgVP1s,302
+moeximporter/__init__.py,sha256=YtvB-mYoIqd6QYyrxZj5Dt0-hISscEMGy77H7Gj1uO0,266
+moeximporter-0.2.4.dist-info/LICENSE.txt,sha256=yH4Gph1ox9zltls5W589TxYQlHJf2PmKLbrPWNWKrw8,1064
+moeximporter-0.2.4.dist-info/METADATA,sha256=MSnPOGWkksPHW24NDks395FDTiBAbQgf-kfi-L0pXfQ,3303
+moeximporter-0.2.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+moeximporter-0.2.4.dist-info/top_level.txt,sha256=D6jHd-rvifSdn3QGKgTqJrg2SmhcGUWeTWWI7FgYL3I,13
+moeximporter-0.2.4.dist-info/RECORD,,
