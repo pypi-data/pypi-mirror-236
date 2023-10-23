@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: cobacoba
+Version: 1.0.6
+Summary: Library for stemming Madurese text
+Description-Content-Type: text/markdown
+
+Deskripsi singkat proyek Python yang luar biasa.
+
+## Instalation
+
+```bash
+pip install mecs
+```
+
+## Examplae Usage
+
+```python
+# import package
+from mecs import Stem
+
+# Create stemmer
+st = Stem.Stemmer()
+
+# stem
+term = "romana"
+st.stemming(term)
+
+print("kata Dasar : ", st.lemma)
+# roma'
+
+print("awalan : ", st.prefix)
+# None
+
+print("akhiran : ", st.suffix)
+# na
+
+print("nasal : ", st.nasal)
+# None
+
+```
+
+## Demo
+
+Live demo : [live demo](https://www.demo.com)
