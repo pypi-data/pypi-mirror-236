@@ -1,0 +1,9 @@
+chck
+nlit
+nchr
+pfmt
+atyp
+regsyn
+ispec
+
+[dev]
