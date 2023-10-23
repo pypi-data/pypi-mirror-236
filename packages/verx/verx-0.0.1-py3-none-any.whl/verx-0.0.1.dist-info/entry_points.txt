@@ -1,0 +1,2 @@
+[nbdev]
+verx = verx._modidx:d

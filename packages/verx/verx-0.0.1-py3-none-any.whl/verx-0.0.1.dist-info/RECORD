@@ -1,0 +1,11 @@
+verx/__init__.py,sha256=t9JoWvik4rYhAARRL3nycIAcD05l_A3KetSM5_nOV5Y,382
+verx/_modidx.py,sha256=kvp_LkcdjBPTJpPmfHnvSyH5SsT75mO2BZ4Nux8_f-4,2059
+verx/cons.py,sha256=A7jhdtI3ShC1fBaoq7AeVWyKnDH7GBNifFffyLAR0vM,923
+verx/util.py,sha256=Rdm3NTCqkQPEyX8kKUTdkbAB5W3NYJ43qgYLjC0sqkg,2344
+verx/verx.py,sha256=beM_AogvYkIf-TbE8J5Oo2wdr6UIbHanF3rOUnL7dW4,1827
+verx-0.0.1.dist-info/LICENSE,sha256=xV8xoN4VOL0uw9X8RSs2IMuD_Ss_a9yAbtGNeBWZwnw,11337
+verx-0.0.1.dist-info/METADATA,sha256=tjRhQZ-W8YJGuSaxaen0GAlTl1c-9S-rUjgeDzMyNGg,2080
+verx-0.0.1.dist-info/WHEEL,sha256=5sUXSg9e4bi7lTLOHcm6QEYwO5TIF1TNbTSVFVjcJcc,92
+verx-0.0.1.dist-info/entry_points.txt,sha256=T5qq4NVrluzla22HrftWVz7iqjeeNYm56UxPn3Qy2Bo,30
+verx-0.0.1.dist-info/top_level.txt,sha256=WAw2yY9gV0FEybxoFfQuiFcW1XtpH9ruTwqh4aaxO68,5
+verx-0.0.1.dist-info/RECORD,,
