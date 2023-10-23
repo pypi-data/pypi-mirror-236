@@ -1,0 +1,9 @@
+pylettes/__init__.py,sha256=gaPtmhQ3suG_ULd7CVzf4J7NoK1FtFh2MJZRA6F5zZY,36
+pylettes/base.py,sha256=yjGm9l-CGBW188W8p2jQX0yHKvftWPS4lNFMmqKyhwE,2901
+pylettes/dracula/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylettes/dracula/dracula.py,sha256=AU8uj58M-ZsWRiwyyPNNUHpqukg1AgytYYE2WlfbyO8,326
+vscode_pylettes-0.0.1.dist-info/LICENSE,sha256=Xa-MHza1xZGDcqSaTK9JUpyEvJjI--gMHZGuMvNlRHY,1071
+vscode_pylettes-0.0.1.dist-info/METADATA,sha256=4s69bnd52X_DFlYUBk3ezd6jqYCBrZMq5ddyF1VDD4w,883
+vscode_pylettes-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vscode_pylettes-0.0.1.dist-info/top_level.txt,sha256=I-OOwVPV1ZkIsApRDXwP2QmmBIaT1-k-ehBWiZxD8p8,9
+vscode_pylettes-0.0.1.dist-info/RECORD,,
