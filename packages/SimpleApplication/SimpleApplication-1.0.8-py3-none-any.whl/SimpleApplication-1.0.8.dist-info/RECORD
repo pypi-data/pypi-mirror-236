@@ -1,0 +1,7 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/integration_test.py,sha256=uRR17I9xr71A5-x_vpvQ4fGcdVQWyvFy7PHpradBhUA,291
+tests/unit_test.py,sha256=KRpfOOmfG7uNmvXNDSpNiVhBbQ6rItlAfRaFbTG5TIc,352
+SimpleApplication-1.0.8.dist-info/METADATA,sha256=DMZqZVc-WlHJyTRFAEZpP4jLzNBM7N6y0RSm_cgfdKQ,2114
+SimpleApplication-1.0.8.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+SimpleApplication-1.0.8.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+SimpleApplication-1.0.8.dist-info/RECORD,,
