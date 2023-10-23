@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+mod77/__init__.py
+mod77/a11.py
+mod77/a22.py
+pylibr.egg-info/PKG-INFO
+pylibr.egg-info/SOURCES.txt
+pylibr.egg-info/dependency_links.txt
+pylibr.egg-info/top_level.txt
