@@ -1,0 +1,2 @@
+[console_scripts]
+bing-chat = BingChat.main:main
