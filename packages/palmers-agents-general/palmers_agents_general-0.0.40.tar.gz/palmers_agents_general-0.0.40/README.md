@@ -1,0 +1,1 @@
+streamtwine upload dist/*
