@@ -1,0 +1,11 @@
+latex_formatter/__init__.py,sha256=AQtqlwAEsBdyKah1UC61Tqu5-0xEF3g854uzlgQqv8U,77
+latex_formatter/test.py,sha256=9FU6-I2G_haUGi4eEY5L5Qf4KpMOOWZ5VsvH_LmTx8s,71
+latex_formatter/converter/__init__.py,sha256=kpFAQ81Z9AmdIpAwa21CgczA6B1HpgpqFt8Ovp0tm_w,32
+latex_formatter/converter/converter.py,sha256=TQIPpViYdlaezK70FnLShaqGZrp2pHpATQmCjuNKL6g,295
+latex_formatter/utils/__init__.py,sha256=6u24GJrE95I0K_Sq1CbfUmtwwYSbiBUCv74HP8EF07U,47
+latex_formatter/utils/text_to_latex.py,sha256=9SYbpJnUjFz2umUXsOJ27e3hCObtHZw_sKT96QhY0LE,16116
+latex_formatter/utils/transfer.py,sha256=2qAQ1VSFx7JX_YdWISNry7heItPbNLvUY477J8Hx_C8,178
+latex_formatter-0.1.dist-info/METADATA,sha256=ockPcPOM2pj951Yv5Xi1iiyPBA4kTHu6Sdth0EVTHUY,165
+latex_formatter-0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+latex_formatter-0.1.dist-info/top_level.txt,sha256=eO3mRYj5Xqbd9l-b4fA3FwfMoIBZvgG4BwtjfqYhBdw,16
+latex_formatter-0.1.dist-info/RECORD,,

@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: latex-formatter
+Version: 0.1
+Summary: global use
+Author: starlight
+Author-email: mylifcc@gmail.com
+Requires-Dist: ujson >=5.8.0
+
