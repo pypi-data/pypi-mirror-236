@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+/build
+/c4m_flexio.egg-info
+/dist
+/.eggs
+
+.doit*
+
+.vscode
+.ipynb_checkpoints

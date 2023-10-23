@@ -1,0 +1,22 @@
+# Flexible, scalable, IO library
+
+A IO library is a collection of cells that allows to do the input and output from on-chip signals to outside the chip. Typically these libraries with a fixed set of cells with a fixed layout and functionality and provided by the foundry or a third party.
+
+Purpose of c4m-flexio library is to have a library that is easily scalable between different technologies using the [PDKMaster](https://gitlab.com/Chips4Makers/PDKMaster) framework. It will also be configurable to adapt the cells to one's needs.
+
+## Release history
+
+* v0.4.0:
+  started implemented a new layout where no bond pad is present in the IO cell layout. This is for a
+  new IO library for the IHP SG13g2 process. This new layout is still considered WIP but the old
+  layout with a bond pad included should still be available.  
+  This release was made to allow to release a new Sky130 library with latest state of the IO cells
+  and updated for the latest version of PDKMaster and c4m-flexcell.
+* v0.3.1: no code change; mark IO cell code compatible with dev v0.4.0 of c4m-flexcell
+* v0.3.0: Update for [release v0.9.0 of PDKMaster](https://gitlab.com/Chips4Makers/PDKMaster/-/blob/v0.9.0/ReleaseNotes/v0.9.0.md)
+* no notes for older releases
+
+## Status
+
+This repository is currently considered experimental code with no backwards compatibility guarantees whatsoever. The library now progresses at the need of tape-outs.
+If interested head over to [gitter](https://gitter.im/Chips4Makers/community) for further discussion.
