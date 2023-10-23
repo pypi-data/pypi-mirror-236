@@ -1,0 +1,10 @@
+gym==0.21
+numpy
+anytree
+pygame
+Pillow
+argparse
+optuna
+stable-baselines3
+matplotlib
+imageio
