@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "galgen"
+version = "0.1.0"
+description = "Simple gallery generator."
+authors = ["Grzegorz  Krason"]
+license = "MIT"
+readme = "README.md"
+include = ["galgen/index.html.j2"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyyaml = "^6.0.1"
+jinja2 = "^3.1.2"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.poetry.scripts]
+galgen = "galgen.__main__:main"
