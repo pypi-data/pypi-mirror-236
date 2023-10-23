@@ -1,0 +1,7 @@
+pytest_html_report_merger/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+pytest_html_report_merger/__main__.py,sha256=AMib_o4mI8ywbEJz2DH3vPFVDWdOSX6q3WIy51rgX1Y,7962
+pytest_html_report_merger-0.1.2.dist-info/LICENSE,sha256=4u6YxpOE62uvQo2F_b0JCbEapO-z0o8L02X1eLP7Wig,1072
+pytest_html_report_merger-0.1.2.dist-info/METADATA,sha256=uNTJqfcvvJo5j7nOdaGjSiWCuBWg3Sb3PKc9kpEXchY,559
+pytest_html_report_merger-0.1.2.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+pytest_html_report_merger-0.1.2.dist-info/entry_points.txt,sha256=aSsmn6GSGAVg3Qp-DEqkCJamv-c00xgK6ZVwcPpQ5Uo,84
+pytest_html_report_merger-0.1.2.dist-info/RECORD,,
