@@ -1,0 +1,3 @@
+[console_scripts]
+ninepatch = ninepatch.commands.ninepatch:main
+ninepatch-viewer = ninepatch.commands.ninepatch_viewer:main
