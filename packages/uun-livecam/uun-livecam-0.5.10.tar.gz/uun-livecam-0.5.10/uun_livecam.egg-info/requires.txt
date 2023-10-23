@@ -1,0 +1,2 @@
+uun-iot>=0.10.1
+onvif-zeep

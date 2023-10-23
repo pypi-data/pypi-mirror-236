@@ -1,0 +1,59 @@
+{
+    "gateway": {
+        "moduleTimers": {
+            "heartbeat": 60,
+            "config": 600,
+            "snapCam": 120
+        },
+        "moduleBackupStorage": {
+            "snapCam": "backup/snapCam.json"
+        },
+        "snapCam": {
+            "meltemi001": {
+                "onvif": {
+                    "user": "xxx",
+                    "password": "xxx",
+                    "ip": "192.168.1.10",
+                    "port": 80,
+                    "connectionTimeout": 5
+                },
+                "tour": [
+                    {
+                        "x": 0,
+                        "y": 1,
+                        "zoom": 0
+                    },
+                    {
+                        "x": -0.05,
+                        "y": 0.1,
+                        "zoom": 1
+                    }
+                ]
+            }
+        }
+    },
+    "uuThing": {
+        "uuIdentity": "xxx",
+        "accessCode1": "xxx",
+        "accessCode2": "xxx"
+    },
+    "uuApp": {
+        "gateway": "uuappg01-eu-w-1.plus4u.net",
+        "uuAppName": "ucl-livecam-maing01",
+        "awid": "xxx",
+        "uuCmdList": {
+            "snapshotCreate": "snapshot/create",
+            "gatewayGetConfiguration": "gateway/getConfiguration",
+            "gatewayHeartbeat": "gateway/heartbeat"
+        }
+    },
+    "oidcGrantToken": {
+        "gateway": "uuidentity.plus4u.net",
+        "uuAppName": "uu-oidc-maing02",
+        "awid": "xxx",
+        "clientId": "a43df39dd908492eb205755aa5f5e780",
+        "clientSecret": "156D0207&7437x0$1nPh8ES5@231K1%_j%hs3REHucD3uYMPR-te94KHa!$&1G4e",
+        "uuCmd": "oidc/grantToken",
+        "tokenPath": "./oidc-token"
+    }
+}

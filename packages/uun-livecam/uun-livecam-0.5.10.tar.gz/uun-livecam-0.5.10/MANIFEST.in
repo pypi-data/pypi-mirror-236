@@ -1,0 +1,5 @@
+graft uun_livecam/data
+graft uun_livecam/data/camera-manual
+graft uun_livecam/data/camera-manual/wsdl
+graft uun_livecam/data/camera-manual/snapshots
+graft uun_livecam/wsdl
