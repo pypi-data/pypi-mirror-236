@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "async_faceit_api"
+version = "0.1.4"
+authors = [
+  { name="Stuart", email="stuart.the.yellow.one@gmail.com" },
+]
+description = "Async wrapper for the faceit API"
+documentation = "https://async-faceit-api.readthedocs.io/en/latest/index.html"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+  'aiohttp < 3.8.3',
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/StuartTheYellowOne/async_faceit_api"
+"Bug Tracker" = "https://github.com/StuartTheYellowOne/async_faceit_api/issues"
+
