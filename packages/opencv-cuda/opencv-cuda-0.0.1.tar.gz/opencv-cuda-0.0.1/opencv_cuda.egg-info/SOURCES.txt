@@ -1,0 +1,10 @@
+README.md
+setup.py
+opencv_cuda/__init__.py
+opencv_cuda/install_script.py
+opencv_cuda.egg-info/PKG-INFO
+opencv_cuda.egg-info/SOURCES.txt
+opencv_cuda.egg-info/dependency_links.txt
+opencv_cuda.egg-info/entry_points.txt
+opencv_cuda.egg-info/requires.txt
+opencv_cuda.egg-info/top_level.txt
