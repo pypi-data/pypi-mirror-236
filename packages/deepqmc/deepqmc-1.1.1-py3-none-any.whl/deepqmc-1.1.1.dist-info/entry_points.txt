@@ -1,0 +1,2 @@
+[console_scripts]
+deepqmc = deepqmc.app:cli
