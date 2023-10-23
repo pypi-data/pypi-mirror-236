@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: fretraj
+Version: 0.2.10
+Summary: Predicting FRET with accessible-contact volumes
+Home-page: https://rna-fretools.github.io/
+License: GPL-3.0-or-later
+Keywords: FRET,single-molecule,molecular dynamics,PDB,structure prediction
+Author: Fabio Steffen
+Author-email: fabio.steffen@chem.uzh.ch
+Maintainer: Fabio Steffen
+Maintainer-email: fabio.steffen@chem.uzh.ch
+Requires-Python: >=3.8
+Classifier: Framework :: Jupyter
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: importlib-metadata (>=6.8.0,<7.0.0)
+Requires-Dist: jsonschema (>=4.9.1,<5.0.0)
+Requires-Dist: mdtraj (>=1.9.7,<2.0.0)
+Requires-Dist: numba (>=0.57.0)
+Requires-Dist: pandas (>=1.2)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Project-URL: Documentation, https://rna-fretools.github.io/fretraj/
+Project-URL: Repository, https://github.com/RNA-FRETools/fretraj
+Description-Content-Type: text/markdown
+
+<img src="https://raw.githubusercontent.com/fdsteffen/fretraj/master/docs/images/fretraj_logo_readme.png">
+
+[![Build Status](https://github.com/fdsteffen/fretraj/workflows/FRETraj%20test/badge.svg)](https://github.com/fdsteffen/fretraj/actions)
+[![Docs Status](https://github.com/fdsteffen/fretraj/workflows/FRETraj%20docs/badge.svg)](https://github.com/fdsteffen/fretraj/actions)
+[![PyPI](https://img.shields.io/pypi/v/fretraj)](https://pypi.org/project/fretraj/)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/fretraj.svg)](https://anaconda.org/conda-forge/fretraj)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+*FRETraj* is a Python module for **predicting FRET efficiencies** by calculating multiple accessible-contact volumes (multi-ACV) to estimate donor and acceptor dye dynamics. The package features a user-friendly **PyMOL plugin**<sup>[1](#pymol)</sup> for for FRET-assisted, integrative structural modeling. It interfaces with the [*LabelLib*](https://github.com/Fluorescence-Tools/LabelLib) library for fast computation of ACVs. 
+Specifically, *FRETraj* is designed to:
+- plan (single-molecule) FRET experiments by optimizing **labeling positions**
+- interpret FRET-based **distance measurements** on a biomolecule
+- integrate FRET experiments with **molecular dynamics** simulations
+
+<img src="https://raw.githubusercontent.com/fdsteffen/fretraj/master/docs/images/graphical_abstract.png">
+
+## Installation and Documentation
+Follow the instructions for your platform [here](https://rna-fretools.github.io/fretraj/getting_started/installation)
+
+## References
+If you use **FRETraj** in your work please refer to the following paper:
+
+- F.D. Steffen, R.K.O. Sigel, R. Börner, *Bioinformatics* **2021**. [![](https://img.shields.io/badge/DOI-10.1093/bioinformatics/btab615-blue.svg)](https://doi.org/10.1093/bioinformatics/btab615)
+
+### Additional readings
+- F.D. Steffen, R.K.O. Sigel, R. Börner, *Phys. Chem. Chem. Phys.* **2016**, *18*, 29045-29055.
+- S. Kalinin, T. Peulen, C.A.M. Seidel et al. *Nat. Methods*, **2012**, *9*, 1218-1225.
+- T. Eilert, M. Beckers, F. Drechsler, J. Michaelis, *Comput. Phys. Commun.*, **2017**, *219*, 377–389.
+- M. Dimura, T. Peulen, C.A.M. Seidel et al. *Curr. Opin. Struct. Biol.* **2016**, *40*, 163-185.
+- M. Dimura, T. Peulen, C.A.M Seidel et al. *Nat. Commun.* **2020**, *11*, 5394.
+
+---
+
+<sup><a name="pymol">1</a></sup> PyMOL was developed by WarrenDeLano and is maintained by Schrödinger, LLC.
+
