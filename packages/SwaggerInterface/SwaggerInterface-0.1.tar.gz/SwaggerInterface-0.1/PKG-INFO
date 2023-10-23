@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: SwaggerInterface
+Version: 0.1
+Summary: Create SwaggerInterfaceDocument
+Home-page: 
+Author: zhaozl1123
+Author-email: 545362989@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7.0
+Description-Content-Type: text/markdown
+
+Create SwaggerInterfaceDocument
