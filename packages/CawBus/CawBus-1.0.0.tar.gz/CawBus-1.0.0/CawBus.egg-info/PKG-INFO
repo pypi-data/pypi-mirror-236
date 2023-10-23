@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: CawBus
+Version: 1.0.0
+Summary: Robot Communication Bus
+Author: fakerick
+Author-email: rick@guaik.io
+Project-URL: Documentation, https://caw.guaik.io/
+Project-URL: Code, https://github.com/fake-rick/caw-bus-python
+Project-URL: Issue tracker, https://github.com/fake-rick/caw-bus-python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# CawBUS
+
+## Project Website URL
+
+https://github.com/fake-rick/caw-drive
+
+https://github.com/fake-rick/caw-foc
