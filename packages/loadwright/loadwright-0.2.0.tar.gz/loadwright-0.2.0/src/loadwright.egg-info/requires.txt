@@ -1,0 +1,15 @@
+bokeh
+panel
+hvplot
+holoviews
+pandas
+playwright
+
+[dev]
+awesome-panel-cli[dev]
+pytest-playwright
+pytest-async
+
+[examples]
+awesome-panel-cli
+notebook
