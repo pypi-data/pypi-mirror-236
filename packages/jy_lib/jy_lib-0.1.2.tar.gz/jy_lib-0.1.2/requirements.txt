@@ -1,0 +1,4 @@
+-i https://pypi.doubanio.com/simple
+loguru
+pysmb
+websockets
