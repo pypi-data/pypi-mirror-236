@@ -1,0 +1,53 @@
+[package]
+name = "jsonpath-rs"
+version = "0.1.5"
+edition = "2021"
+license = "MIT"
+homepage = "https://github.com/nazerpanahi/jsonpath-rs"
+repository = "https://github.com/nazerpanahi/jsonpath-rs"
+readme = "README.md"
+include = [
+    "/pyproject.toml",
+    "/README.md",
+    "/LICENSE",
+    "/Makefile",
+    "/build.rs",
+    "/rust-toolchain",
+    "/src",
+    "/.cargo",
+    "!__pycache__",
+    "!tests/.hypothesis",
+    "!tests/.pytest_cache",
+    "!*.so",
+]
+
+[dependencies]
+pyo3 = { version = "0.20.0", features = ["generate-import-lib"] }
+serde_json = "1.0.107"
+jsonpath-rust = "0.3.2"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "jsonpath_rs"
+crate-type = ["cdylib", "rlib"]
+
+[features]
+# must be enabled when building with `cargo build`, maturin enables this automatically
+extension-module = ["pyo3/extension-module"]
+
+[profile.release]
+lto = "fat"
+codegen-units = 1
+strip = true
+
+[profile.bench]
+debug = true
+strip = false
+
+[dev-dependencies]
+pyo3 = { version = "0.20.0", features = ["auto-initialize"] }
+
+[build-dependencies]
+version_check = "0.9.4"
+# used where logic has to be version/distribution specific, e.g. pypy
+pyo3-build-config = { version = "0.20.0" }
