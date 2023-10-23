@@ -1,0 +1,12 @@
+LICENSE.md
+LICENSE.txt
+README.md
+setup.py
+CD_HTTP.egg-info/PKG-INFO
+CD_HTTP.egg-info/SOURCES.txt
+CD_HTTP.egg-info/dependency_links.txt
+CD_HTTP.egg-info/requires.txt
+CD_HTTP.egg-info/top_level.txt
+HTTP/__init__.py
+HTTP/reqhttp.py
+HTTP/version.py
