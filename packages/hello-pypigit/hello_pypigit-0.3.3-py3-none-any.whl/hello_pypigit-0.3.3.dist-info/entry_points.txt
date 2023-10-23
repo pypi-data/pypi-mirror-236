@@ -1,0 +1,4 @@
+[console_scripts]
+hello-pypigit-pic = hello_pypigit.pic:pic
+hello-pypigit-who = hello_pypigit.who:who
+
