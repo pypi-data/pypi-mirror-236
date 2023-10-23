@@ -1,0 +1,10 @@
+napari_woggle_opacity/__init__.py,sha256=9X4IHwYJNnksJGQnj74JeinkU8C9PPHPhklZbvESMNg,41
+napari_woggle_opacity/_widget.py,sha256=GFqjNRzaplFlJ9v6y-vg_Lfi_o96wBL0O_fX5cTaL4k,4153
+napari_woggle_opacity/napari.yaml,sha256=APbrhVCZIUKw_1Gyrk5MwuP6rhMJoA8m_Wl9daxhcd8,308
+napari_woggle_opacity/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_woggle_opacity-0.0.1.dist-info/LICENSE,sha256=ovaGlv7znXct6TEbklmvg1xDHzSk6yKxyHoWRxx8QpM,1490
+napari_woggle_opacity-0.0.1.dist-info/METADATA,sha256=IZG6mHkqTgek0FiqEiUirGAmg-vwxpohVdplTg0RF90,3188
+napari_woggle_opacity-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+napari_woggle_opacity-0.0.1.dist-info/entry_points.txt,sha256=vqpyti35VM1S5IahJw0RRBEpDs7mFUAv82U73tOxpnk,76
+napari_woggle_opacity-0.0.1.dist-info/top_level.txt,sha256=aENIB3rHe_5H2Z4vbxQ5fnTjvEN_2PK5rAtSI-kPpNQ,22
+napari_woggle_opacity-0.0.1.dist-info/RECORD,,

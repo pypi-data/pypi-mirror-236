@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-woggle-opacity = napari_woggle_opacity:napari.yaml
