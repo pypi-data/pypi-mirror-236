@@ -1,0 +1,12 @@
+apsisocr/__init__.py,sha256=ZFdk98-s_dpT-yW_XbvUHMj3UZWhMZM6iVbqDehS7nw,155
+apsisocr/apsisnet.py,sha256=K5L0p5d2Qlbcvm4mfWbE75HMnBPW6w92QEC-Q2mL0qk,6050
+apsisocr/densenet121bnencls.py,sha256=ckx_9OmMj0rmHEeQOtpz_QWLordBQ3otu4INnd6sa04,4206
+apsisocr/modules.py,sha256=Lbu_btFIVtDr2SPpOqKKXaVUKLTGu83C2CBoSzpKg_I,891
+apsisocr/ocr.py,sha256=uyYnccKbAJEuETLc_7qBKkm8n4ZiK3k6LBdQ84HhQWY,8136
+apsisocr/paddledbnet.py,sha256=_8V_OWVYuqxH7MZYOWsjDJh_s4SvME7nfQaPwb4QTn0,8190
+apsisocr/paddlesvtr.py,sha256=tEsetkrkV-yeWFFBW-kjZa56GRCJOrIGJmCY1Apzq_I,3309
+apsisocr/utils.py,sha256=38wcuB8Q8IvGkvrCw2nsMqTuDhINXXI12AmVcxGSJtg,9509
+apsisocr-0.0.2.dist-info/METADATA,sha256=ETe7Pxwn_2okf_BUT2fDKik5rtRb7uZ_fmRh5_rAlQ0,7211
+apsisocr-0.0.2.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+apsisocr-0.0.2.dist-info/top_level.txt,sha256=3k-91gECozpqEShITF0PnOhBtzR1MMBwzH-tXjcG-i8,9
+apsisocr-0.0.2.dist-info/RECORD,,
