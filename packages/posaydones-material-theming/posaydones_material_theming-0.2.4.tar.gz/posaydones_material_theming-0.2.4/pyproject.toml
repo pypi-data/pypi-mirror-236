@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "posaydones-material-theming"
+version = "0.2.4"
+description = ""
+authors = ["posaydone <poseaydone@ya.ru>"]
+readme = "README.md"
+include = ["data/pmt.ui"]
+packages = [{include = "posaydones_material_theming"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+toml = "*"
+material-color-utilities-python = "*"
+chevron = "*"
+pygobject = "*"
+colorthief = "*"
+
+[tool.poetry.scripts]
+pmt = 'posaydones_material_theming.__main__:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
