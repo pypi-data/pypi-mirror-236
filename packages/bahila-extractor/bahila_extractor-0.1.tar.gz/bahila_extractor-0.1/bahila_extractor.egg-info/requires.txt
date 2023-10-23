@@ -1,0 +1,5 @@
+theguardian-api-python
+requests
+openai
+bs4
+langchain
