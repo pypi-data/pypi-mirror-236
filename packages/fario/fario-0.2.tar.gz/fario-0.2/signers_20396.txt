@@ -1,0 +1,30 @@
+=== New Signer approved.
+Tx: 0xe1aada6bfa2ee0c6ea7d89d380b82ab47d0a0e13340b0095e123d25c7342a173
+User Fid: 20396
+App Fid: 20396
+Signer private key: 0x472cea1fca6d67bea0baf4b314d36e1a53222aa97e7bd3f3c3808ea202cad810
+Signer public key: 3613d0bac4f3c009c54b1fa05063b5feb52a47fa58b20ab5ad731f725f08a592
+
+=== New Signer approved.
+Tx: 0xb5969ceed842b8f5898d51251ef0098791c5595e321e34044e8de68d742e6da3
+User Fid: 20396
+App Fid: 20396
+Signer private key: 0xe532ef7a4bde60296d5d0b9a736ecc399882dd1d267148a7f324f3cc6134891a
+Signer public key: 0e26a3744c942e8e1a0dbbb555a288298ebccc0663cd714a1e506489329639d9
+
+
+=== New Signer approved =====================
+Tx: 0xad99cc7f86d83d05a1f0735a6c002c8070e128a6417cd8ee4b22fcade41f3e48
+User Fid: 20396
+App Fid: 20396
+Signer public key: 7a31bea73f497d945a392394e755d778cf3c28cf2c0fab8de81007d546fdd6aa
+Signer private key: 0xfdc9ef87e6f53e66534ce391199496c517327378eed6156c3301e3d70d107cc5
+=== MAKE SURE YOU SAVE THE PRIVATE KEY!!! ===
+
+=== New Signer approved =====================
+Tx: 0x6d3573c145e6a6ffae730f1234d7840d7f6e41fe464cd7ae4925be8996dfd491
+User Fid: 20396
+App Fid: 20396
+Signer public key: ac1d3462008ee8ae7dab3e8eb81398b9293142f0a4adaebd1a1a828ada83957a
+Signer private key: 0x67067f1126fd96f5ed4d4823528fe764f556b24be0b63ccefaa1ed013e308bd1
+=== MAKE SURE YOU SAVE THE PRIVATE KEY!!! ===
