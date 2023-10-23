@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: systembridgewindowssensors
+Version: 3.9.0
+Summary: System Bridge Windows Sensors
+Home-page: https://github.com/timmo001/system-bridge-windows-sensors
+Author: Aidan Timson (Timmo)
+Author-email: aidan@timmo.dev
+License: MIT
+Keywords: system-bridge windows
+License-File: LICENSE
+Requires-Dist: incremental==22.10.0
