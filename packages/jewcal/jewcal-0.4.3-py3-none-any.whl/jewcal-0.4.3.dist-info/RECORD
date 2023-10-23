@@ -1,0 +1,10 @@
+jewcal/__init__.py,sha256=lPKPFnYzrkBakGDG0NOdDx_rnPwvzkBU1I7l7tNCjB0,69
+jewcal/constants.py,sha256=D9hIdEzq2WHceTiyWvzBJT6B9pC3ES1KtTYYqSXkFiw,3995
+jewcal/core.py,sha256=s2YpV5G--n6E-vt1e8C9qB2br8aeOOIT3gV2HYDby_o,2352
+jewcal/utils/__init__.py,sha256=yBFm7AVNd4wsNHi7bvsO2ewOfifC8PClyONxJYVwAz8,28
+jewcal/utils/calculations.py,sha256=bp6a386jWt6wXT7KBz_J2u_tabSTOHhA32VkNY3Ye5o,9873
+jewcal-0.4.3.dist-info/LICENSE,sha256=4UaFv-3ooxPOhz5FJz2S_8sAiC37FdvV7TfD30ZLBdo,1066
+jewcal-0.4.3.dist-info/METADATA,sha256=RZQ7yUoS4NP5tO_9PGpj8loqApQ2LM072PIYcRR33Nk,615
+jewcal-0.4.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+jewcal-0.4.3.dist-info/top_level.txt,sha256=lfiwSPaYchQQEGwfW_bKwgDUS-VS_lp-gtGh5qd-QI4,7
+jewcal-0.4.3.dist-info/RECORD,,

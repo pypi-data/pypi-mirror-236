@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jewcal
+Version: 0.4.3
+Summary: Convert Gregorian to Jewish dates and get Shabbos / Yom Tov details for Diaspora and Israel.
+Author-email: essel-dev <info@essel.dev>
+License: MIT
+Project-URL: Homepage, https://github.com/essel-dev/jewcal
+Project-URL: Bug Tracker, https://github.com/essel-dev/jewcal/issues
+Project-URL: Changelog, https://github.com/essel-dev/jewcal/releases
+Keywords: jewish calendar
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: dev
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+
