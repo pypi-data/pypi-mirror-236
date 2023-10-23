@@ -1,0 +1,28 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+iso20275/Cleaned - ISO-20275 - 2017-11-30.csv
+iso20275/Cleaned - ISO-20275 - 2019-11-06.csv
+iso20275/Cleaned - ISO-20275 - 2020-06-10.csv
+iso20275/Cleaned - ISO-20275 - 2020-11-19.csv
+iso20275/Cleaned - ISO-20275 - 2021-09-23.csv
+iso20275/Cleaned - ISO-20275 - 2023-09-28.csv
+iso20275/Cleaned - with additional - ISO-20275 - 2019-11-06.csv
+iso20275/Cleaned - with additional - ISO-20275 - 2020-11-19.csv
+iso20275/Cleaned - with additional - ISO-20275 - 2021-09-23.csv
+iso20275/Cleaned - with additional - ISO-20275 - 2023-09-28.csv
+iso20275/ISO-20275 - 2017-11-30.csv
+iso20275/ISO-20275 - 2019-11-06.csv
+iso20275/ISO-20275 - 2020-06-10.csv
+iso20275/ISO-20275 - 2020-11-19.csv
+iso20275/ISO-20275 - 2021-09-23.csv
+iso20275/ISO-20275 - 2023-09-28.csv
+iso20275/__init__.py
+iso_20275.egg-info/PKG-INFO
+iso_20275.egg-info/SOURCES.txt
+iso_20275.egg-info/dependency_links.txt
+iso_20275.egg-info/requires.txt
+iso_20275.egg-info/top_level.txt
+tests/__init__.py
+tests/test_iso20275.py
