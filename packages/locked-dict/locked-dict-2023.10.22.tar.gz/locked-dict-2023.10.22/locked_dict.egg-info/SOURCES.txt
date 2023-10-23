@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+locked_dict/__init__.py
+locked_dict/locked_dict.py
+locked_dict.egg-info/PKG-INFO
+locked_dict.egg-info/SOURCES.txt
+locked_dict.egg-info/dependency_links.txt
+locked_dict.egg-info/requires.txt
+locked_dict.egg-info/top_level.txt
+test/test_locked_dict.py
