@@ -1,0 +1,2 @@
+numpy
+f90wrap
