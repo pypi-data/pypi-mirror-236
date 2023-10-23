@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tiger-Age
+Version: 0.1
+Author: Kaina
+Author-email: b10930027@gapps.ntust.edu.tw
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: opencv-python
+Requires-Dist: nibabel
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: tensorflow
+Requires-Dist: keras
+
