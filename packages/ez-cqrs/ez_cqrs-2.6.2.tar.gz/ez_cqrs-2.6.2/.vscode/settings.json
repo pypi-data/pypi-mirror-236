@@ -1,0 +1,39 @@
+{
+    "editor.minimap.enabled": true,
+    "editor.renderWhitespace": "all",
+    "editor.rulers": [
+        88,
+        100
+    ],
+    "python.testing.pytestArgs": [
+        "tests",
+        // https://github.com/microsoft/vscode-python/issues/693#issuecomment-367856613
+        "--no-cov"
+    ],
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": false,
+        "editor.wordBasedSuggestions": false
+    },
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.extraCommitChars": false,
+    "python.analysis.inlayHints.callArgumentNames": false,
+    "python.analysis.inlayHints.pytestParameters": false,
+    "python.analysis.inlayHints.functionReturnTypes": false,
+    "python.analysis.inlayHints.variableTypes": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.userFileIndexingLimit": 200,
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "[toml]": {"editor.formatOnSave": true},
+    "json.format.enable": true,
+    "[json]": {
+        "editor.quickSuggestions": {
+            "strings": true
+        },
+        "editor.suggest.insertMode": "replace",
+        "editor.formatOnSave": true
+    },
+    "python.analysis.enablePytestSupport": false
+}
