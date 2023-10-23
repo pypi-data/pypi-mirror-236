@@ -1,0 +1,3 @@
+[console_scripts]
+homeassistant2xlsx=homeassistant2xlsx:main
+
