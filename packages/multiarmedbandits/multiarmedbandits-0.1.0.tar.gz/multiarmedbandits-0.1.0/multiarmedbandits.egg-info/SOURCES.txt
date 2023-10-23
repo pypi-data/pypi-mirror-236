@@ -1,0 +1,12 @@
+Dockerfile
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+multiarmedbandits/__init__.py
+multiarmedbandits.egg-info/PKG-INFO
+multiarmedbandits.egg-info/SOURCES.txt
+multiarmedbandits.egg-info/dependency_links.txt
+multiarmedbandits.egg-info/top_level.txt
