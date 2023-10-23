@@ -1,0 +1,64 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "maintainability"
+version = "0.4.1"
+description = "Codebase Maintainability Analyzer"
+authors = ["voynow <voynow99@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+include = ["maintainability/cli/**/*"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+click = "*"
+pathspec = "*"
+supabase = "*"
+llm_blocks = "0.3.7"
+fastapi = "*"
+uvicorn = "*"
+requests = "*"
+pytest = "*"
+pytz = "*"
+python-jose = "*"
+bcrypt = "*"
+python-multipart = "*"
+passlib = "*"
+pyJWT = "*"
+
+[tool.poetry.scripts]
+maintainability = "maintainability.cli.main:cli_runner"
+
+[tool.turbo_docs]
+ignore = [
+    "__pycache__",
+    "venv",
+    "build",
+    "dist",
+    "*.egg-info",
+    ".git",
+    ".env",
+    "poetry.lock",
+    "LICENSE",
+    ".gitignore",
+    "config.py",
+    "README.md",
+    ".pytest_cache",
+    ".vercel",
+    ".github",
+    "maintainability/api",
+    "webapp",
+    "tests",
+    "integration_tests.sh",
+    "pyproject.toml",
+    "node_modules",
+    "package-lock.json",
+    # "package.json",
+    # "webapp/.env*",
+    # "axiosConfig.js",
+    # "ErrorBoundary.js",
+    # "theme.js",
+    "docs",
+]
