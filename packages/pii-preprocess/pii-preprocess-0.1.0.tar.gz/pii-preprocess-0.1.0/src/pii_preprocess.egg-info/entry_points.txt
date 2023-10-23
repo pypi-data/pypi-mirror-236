@@ -1,0 +1,4 @@
+[console_scripts]
+pii-doc = pii_preprocess.app.doc:main
+pii-prep-csv = pii_preprocess.app.csvdoc:main
+pii-prep-text = pii_preprocess.app.textdoc:main

@@ -1,0 +1,8 @@
+PyYaml<7.0,>=6.0
+pii-data<1.0.0,>=0.2.0
+python-docx<1.0.0,>=0.8.11
+
+[test]
+pytest
+nose
+coverage
