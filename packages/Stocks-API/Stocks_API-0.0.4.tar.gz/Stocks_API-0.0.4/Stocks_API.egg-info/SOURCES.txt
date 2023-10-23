@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Stocks_API.egg-info/PKG-INFO
+Stocks_API.egg-info/SOURCES.txt
+Stocks_API.egg-info/dependency_links.txt
+Stocks_API.egg-info/requires.txt
+Stocks_API.egg-info/top_level.txt
+stocks_api/__init__.py
+stocks_api/delay.py
+stocks_api/sample_config.py
+stocks_api/stocks.py
