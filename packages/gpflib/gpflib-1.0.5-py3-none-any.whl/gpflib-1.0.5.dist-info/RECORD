@@ -1,0 +1,11 @@
+gpflib/__init__.py,sha256=fj8VYjL8CHN4GMUDiF2dJp0weIbMjjARwsayLLasnuo,23
+gpflib/__version__.py,sha256=o9eZ3XpZXqlzFbb0F0m9yKyP93omJCI9jJ-6donqu8I,66
+gpflib/config.txt,sha256=-etAPxXwSp8Pr9NAbGJQe1sI6aGDx233Xy-GAJBWfzk,1112
+gpflib/gpflib.dll,sha256=-viGRQrBD0GAtIaaCN0S-xPbxz6YBfiAHPaUoxDIA34,1179136
+gpflib/gpflib.py,sha256=PW0D4hXUHSyczAuKSIfaAqrbkxJINsVoOEUckMT_WTM,18587
+gpflib/libgpflib.so,sha256=5gsZsU4JffEcWLS4LKQ8-wAluF6OL97ULiXre6BeOCA,5893568
+gpflib-1.0.5.dist-info/LICENSE,sha256=NqTlefKost5lRhF9Oa_pSjPpR9zbV8yBQVvEgNol5_o,1058
+gpflib-1.0.5.dist-info/METADATA,sha256=KZ5REprjiWhCHuceHAksjQ9DJuHR17wM_9kB6FBWjjM,2140
+gpflib-1.0.5.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+gpflib-1.0.5.dist-info/top_level.txt,sha256=zOOAF-uFl6qliW3I6k7SHYnyPX3wwm9n9vl5PYxcBT4,7
+gpflib-1.0.5.dist-info/RECORD,,
