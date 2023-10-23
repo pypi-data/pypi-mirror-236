@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+geotriangulate/__init__.py
+geotriangulate/geotriangulate.py
+geotriangulate.egg-info/PKG-INFO
+geotriangulate.egg-info/SOURCES.txt
+geotriangulate.egg-info/dependency_links.txt
+geotriangulate.egg-info/requires.txt
+geotriangulate.egg-info/top_level.txt
