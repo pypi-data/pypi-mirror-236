@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+wdonate/__init__.py
+wdonate/wdonate.py
+wdonate/wdonate_exception.py
+wdonate.egg-info/PKG-INFO
+wdonate.egg-info/SOURCES.txt
+wdonate.egg-info/dependency_links.txt
+wdonate.egg-info/top_level.txt
