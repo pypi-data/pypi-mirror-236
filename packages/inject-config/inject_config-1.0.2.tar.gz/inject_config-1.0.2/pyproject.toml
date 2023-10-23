@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "inject-config"
+version = "1.0.2"
+description = "Small Config Injection package"
+authors = ["ahartlba <sorry@nomail.com>"]
+license = "LICENCE"
+readme = "README.md"
+packages = [{include = "inject_config", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+pyyaml = "^6.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest-cov = "^4.1.0"
+flake8 = "^6.1.0"
+black = "^23.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
