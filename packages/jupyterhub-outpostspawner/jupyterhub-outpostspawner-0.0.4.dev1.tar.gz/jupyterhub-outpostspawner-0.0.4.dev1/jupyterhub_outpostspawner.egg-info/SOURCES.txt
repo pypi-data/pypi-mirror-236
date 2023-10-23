@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+jupyterhub_outpostspawner.egg-info/PKG-INFO
+jupyterhub_outpostspawner.egg-info/SOURCES.txt
+jupyterhub_outpostspawner.egg-info/dependency_links.txt
+jupyterhub_outpostspawner.egg-info/requires.txt
+jupyterhub_outpostspawner.egg-info/top_level.txt
+outpostspawner/__init__.py
+outpostspawner/outpostspawner.py
