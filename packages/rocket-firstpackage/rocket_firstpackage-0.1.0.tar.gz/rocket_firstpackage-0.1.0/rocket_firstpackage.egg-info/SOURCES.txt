@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+rocket_firstpackage/__init__.py
+rocket_firstpackage/rocket_firstpackage.py
+rocket_firstpackage.egg-info/PKG-INFO
+rocket_firstpackage.egg-info/SOURCES.txt
+rocket_firstpackage.egg-info/dependency_links.txt
+rocket_firstpackage.egg-info/requires.txt
+rocket_firstpackage.egg-info/top_level.txt
