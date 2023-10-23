@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+versioneer.py
+src/med_diagnostics/__init__.py
+src/med_diagnostics/_version.py
+src/med_diagnostics/data.py
+src/med_diagnostics/diagnostics.py
+src/med_diagnostics/session.py
+src/med_diagnostics/ui.py
+src/med_diagnostics.egg-info/PKG-INFO
+src/med_diagnostics.egg-info/SOURCES.txt
+src/med_diagnostics.egg-info/dependency_links.txt
+src/med_diagnostics.egg-info/requires.txt
+src/med_diagnostics.egg-info/top_level.txt
