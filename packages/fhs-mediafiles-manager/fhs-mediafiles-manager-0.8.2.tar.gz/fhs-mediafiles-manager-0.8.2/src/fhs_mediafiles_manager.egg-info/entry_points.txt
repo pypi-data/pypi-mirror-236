@@ -1,0 +1,2 @@
+[console_scripts]
+fhs-mediafiles-manager = fhs_mediafiles_manager.cli:main
