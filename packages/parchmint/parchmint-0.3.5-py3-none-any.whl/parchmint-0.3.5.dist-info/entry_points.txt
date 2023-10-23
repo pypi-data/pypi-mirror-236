@@ -1,0 +1,5 @@
+[console_scripts]
+parchmint-validate=parchmint.cmdline:validate_V1
+test=scripts:test
+validate_dir=scripts:validate_dir_V1_2
+
