@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+lolclient/__init__.py
+lolclient/champselect.py
+lolclient/client.py
+lolclient/lobby.py
+lolclient/lockfile.py
+lolclient/request.py
+lolclient_lib.egg-info/PKG-INFO
+lolclient_lib.egg-info/SOURCES.txt
+lolclient_lib.egg-info/dependency_links.txt
+lolclient_lib.egg-info/requires.txt
+lolclient_lib.egg-info/top_level.txt

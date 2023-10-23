@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lolclient-lib
+Version: 0.0.3
+Summary: Basic package to send and receive requests from the League of Legends client with added functionalities to make requests easier
+Home-page: https://github.com/olivialba
+Author: Albaq (Alberto Olivi)
+Author-email: olivialberto02@gmail.com
+License: MIT
+Keywords: python,league of legends,lol,client,lcu,riot
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+
+# lolclient_lib
+Basic package to send and receive requests to the League of Legends client
