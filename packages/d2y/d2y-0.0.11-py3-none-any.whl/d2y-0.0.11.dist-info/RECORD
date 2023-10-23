@@ -1,0 +1,11 @@
+d2y/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+d2y/enums.py,sha256=zfdBmbUOMeP6dWCN9GS054vAfNOLIHHU-2ikMsSQU6A,1314
+d2y/formulas.py,sha256=853qh7xdILBv1-JGYDR4yGiQGIa9OOmgHLUvbzKKREo,8938
+d2y/models.py,sha256=L2d372yhxdW-P6_nqQ3JI_FDX2CwNPGXrWYWx6mhBQU,14407
+d2y/sdk.py,sha256=YBW2M4R4o00EEeSmghxgsifBzLFvQsBPqnYGXmVVVGU,28440
+d2y/structured_data.py,sha256=BuM_AKRXuD3BNmaQr9ZBv45OrXY7MrlzigGwxeoHRsc,1693
+d2y/utils.py,sha256=XPrJefdEyFtZUA5RwtIsOF4wAiN_xcqenI_29KUYC7Q,1199
+d2y-0.0.11.dist-info/METADATA,sha256=1NojKNePpt__wbleXg_uJ_b2jK-NOCkfMlYXYGG4PHY,2268
+d2y-0.0.11.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+d2y-0.0.11.dist-info/top_level.txt,sha256=hUj8OGDLh0Kax5o2n-cQ2T1wAE6YRxTKIbNjRbVyuzU,4
+d2y-0.0.11.dist-info/RECORD,,
