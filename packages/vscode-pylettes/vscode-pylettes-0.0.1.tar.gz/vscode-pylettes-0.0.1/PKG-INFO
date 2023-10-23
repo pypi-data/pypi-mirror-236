@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vscode-pylettes
+Version: 0.0.1
+Summary: VSCode Pylettes is a collections of the palettes from the most popular VSCode themes. The goal of this package is to make easier the use of those color palettes in a variety of python projects.
+Author-email: UMDQ <unmoldequimica@gmail.com>
+Maintainer-email: UMDQ <unmoldequimica@gmail.com>
+Project-URL: Source, https://github.com/UnMolDeQuimica/vscode-pylettes
+Project-URL: Issue tracker, https://github.com/UnMolDeQuimica/vscode-pylettes/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# vscode-pylettes
+Color Palettes from VSCode most famous themes made available in RGB and HEX. 

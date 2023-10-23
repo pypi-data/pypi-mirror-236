@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+test.py
+.github/workflows/python-publish.yml
+src/pylettes/__init__.py
+src/pylettes/base.py
+src/pylettes/dracula/__init__.py
+src/pylettes/dracula/dracula.py
+src/vscode_pylettes.egg-info/PKG-INFO
+src/vscode_pylettes.egg-info/SOURCES.txt
+src/vscode_pylettes.egg-info/dependency_links.txt
+src/vscode_pylettes.egg-info/top_level.txt

@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools", "wheel", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vscode-pylettes"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+]
+description = "VSCode Pylettes is a collections of the palettes from the most popular VSCode themes. The goal of this package is to make easier the use of those color palettes in a variety of python projects."
+dependencies = []
+license = {file = "LICENSE.md"}
+readme = "README.md"
+requires-python = ">= 3.10"
+
+authors = [
+    { name = "UMDQ", email = "unmoldequimica@gmail.com" }
+]
+
+maintainers = [
+    { name = "UMDQ", email = "unmoldequimica@gmail.com" }
+]
+
+dynamic = ["version"]
+
+[project.urls]
+Source = "https://github.com/UnMolDeQuimica/vscode-pylettes"
+"Issue tracker" = "https://github.com/UnMolDeQuimica/vscode-pylettes/issues"
+
+[tools.setuptools.dynamic]
+version = {attr = "vscode_pylettes.__version__"}
+readme = {file = ["README.md"]}
+
+[tools.setuptools.packages.find]
+where = ["src"]
+include = ["pylettes"]
+
+[tool.setuptools_scm]
+
+[tool.pytest.ini_options]
+log_cli = true
+log_cli_level = "WARNING"
+log_file_level = "INFO"
+
