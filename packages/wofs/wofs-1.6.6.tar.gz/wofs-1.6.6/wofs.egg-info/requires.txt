@@ -1,0 +1,13 @@
+datacube
+scipy
+ephem
+xarray>=0.14.1
+
+[test]
+pytest
+pytest-cov
+mock
+pylint
+hypothesis
+compliance-checker
+black
