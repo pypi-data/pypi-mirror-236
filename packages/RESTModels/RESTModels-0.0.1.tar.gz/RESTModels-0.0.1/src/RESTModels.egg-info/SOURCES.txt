@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/APIClient/__init__.py
+src/APIClient/clients.py
+src/APIClient/resources.py
+src/RESTModels.egg-info/PKG-INFO
+src/RESTModels.egg-info/SOURCES.txt
+src/RESTModels.egg-info/dependency_links.txt
+src/RESTModels.egg-info/requires.txt
+src/RESTModels.egg-info/top_level.txt
+tests/test_resources.py

@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: RESTModels
+Version: 0.0.1
+Summary: API client by resource models for RESTful API over JSON
+Author-email: Sequew <kryseyt@gmail.com>
+Project-URL: Homepage, https://github.com/KrySeyt/APIClient
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Simple sync/async client for REST API
