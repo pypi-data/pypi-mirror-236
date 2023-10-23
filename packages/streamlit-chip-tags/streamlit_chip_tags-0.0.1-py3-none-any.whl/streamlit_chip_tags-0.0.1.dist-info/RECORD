@@ -1,0 +1,15 @@
+chip_tag_component/__init__.py,sha256=jGNjmNL_rEogvZv9rY3OVHQLBM-NKsqxy-MVT69lC1I,866
+chip_tag_component/example.py,sha256=yob-uUb36lRz1kbiO2IzjjhPp_cD2uyy62tKSKHZA5U,168
+chip_tag_component/frontend/build/asset-manifest.json,sha256=hfuswHUk3wLsPY5Uhyab6TSljIo9GCtPZu09_Ua2EbA,374
+chip_tag_component/frontend/build/bootstrap.min.css,sha256=X9ITP3t3djkRs4SffIkA1Q2WMy-oYl6au5HFYTVShe0,206960
+chip_tag_component/frontend/build/index.html,sha256=uWbapzaT1Z1lCqM5qx7qKCCXqHwTa8v3P94-mqgFm7c,553
+chip_tag_component/frontend/build/static/css/main.27110cb1.css,sha256=KzYTFBQnJQhHD-Tzz0gUesM2lRYnfAw9fq0IGFBGzQQ,424
+chip_tag_component/frontend/build/static/css/main.27110cb1.css.map,sha256=EdGR5YW4dXU0X6eVJFvduX0bqOFKjQNWf6d2d6lxsK0,888
+chip_tag_component/frontend/build/static/js/main.bd9b44c4.js,sha256=G4enfWFklmpS_eX41X1KJ_aGCY56ZytZDdq7jF71rck,478180
+chip_tag_component/frontend/build/static/js/main.bd9b44c4.js.LICENSE.txt,sha256=8tyfsdh5yE38iDbXq8ZTN-0m8fo195V8buKYjNqSbP8,1609
+chip_tag_component/frontend/build/static/js/main.bd9b44c4.js.map,sha256=Nb4jGUQwhP6FUi2BuDrzavc5Rx3hBR45RTsVWYyrtJU,1836462
+streamlit_chip_tags-0.0.1.dist-info/LICENSE,sha256=SHkHX-qiNZt-ACArrZP67jppVYPvF8xuUDRjJw_E3L0,1082
+streamlit_chip_tags-0.0.1.dist-info/METADATA,sha256=pl3A-Bdesi8SiW-BqeXzBv3EU3sDKCja9lkqWRBgNz8,957
+streamlit_chip_tags-0.0.1.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+streamlit_chip_tags-0.0.1.dist-info/top_level.txt,sha256=SHrRlnSusyabOey_-UNVQqKRKJ3HuAFLBHoKuR7vrxw,19
+streamlit_chip_tags-0.0.1.dist-info/RECORD,,
