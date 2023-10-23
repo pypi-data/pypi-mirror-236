@@ -1,0 +1,201 @@
+[project]
+name = "iamai"
+version = "3.2.4"
+description = "A bot Framework."
+authors = [
+    { name = "简律纯", email = "i@jyunko.cn" },
+]
+readme = "README.md"
+keywords = [
+    "bot",
+    "red",
+    "kook",
+    "onebot11",
+    "dingtalk",
+    "console",
+    "apscheduler",
+    "bilibili",
+    "bilibili-live",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: Robot Framework",
+    "Framework :: Robot Framework :: Library",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "tomli>=2.0.0,<3.0.0;python_version<'3.11'",
+    "pydantic>=1.10.0,<3.0.0",
+    "aiohttp>=3.8.0,<4.0.0",
+    "loguru>=0.7.0,<0.8.0",
+    "typing-extensions>=4.5.0",
+    "packages>=0.1.1",
+    "watchfiles>=0.20.0",
+    "httpimport>=1.3.1",
+    "scikit-learn>=1.3.1",
+    "flask>=2.0.3",
+    "pylint-pydantic>=0.2.4",
+    "qrcode>=7.4.2",
+    "requests>=2.31.0",
+]
+
+[project.license]
+text = "MIT"
+
+[project.optional-dependencies]
+bililive = [
+    "iamai-adapter-bililive",
+]
+cokook = [
+    "iamai-adapter-kook",
+]
+console = [
+    "iamai-adapter-console",
+]
+onebot11 = [
+    "iamai-adapter-onebot11",
+]
+dingtalk = [
+    "iamai-adapter-dingtalk",
+]
+apscheduler = [
+    "iamai-adapter-apscheduler",
+]
+red = [
+    "iamai-adapter-red",
+]
+hot_reload = [
+    "watchfiles",
+]
+all = [
+    "iamai-adapter-bililive",
+    "iamai-adapter-console",
+    "iamai-adapter-kook",
+    "iamai-adapter-dingtalk",
+    "iamai-adapter-apscheduler",
+    "iamai-adapter-red",
+    "watchfiles",
+]
+
+[project.urls]
+Homepage = "https://retrofor.space/"
+Repository = "https://github.com/retrofor/iamai"
+Documentation = "https://iamai.retrofor.space/"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "-e iamai-adapter-console @ {root:uri}/packages/iamai-adapter-console",
+    "-e iamai-adapter-bililive @ {root:uri}/packages/iamai-adapter-bililive",
+    "-e iamai-adapter-kook @ {root:uri}/packages/iamai-adapter-kook",
+    "-e iamai-adapter-dingtalk @ {root:uri}/packages/iamai-adapter-dingtalk",
+    "-e iamai-adapter-apscheduler @ {root:uri}/packages/iamai-adapter-apscheduler",
+    "-e iamai-adapter-red @ {root:uri}/packages/iamai-adapter-red",
+    "-e iamai-adapter-onebot11 @ {root:uri}/packages/iamai-adapter-onebot11",
+]
+typing = [
+    "watchfiles",
+    "trio>=0.22.2",
+]
+lint = [
+    "black",
+    "pylint",
+    "pylint-pydantic",
+]
+docs = [
+    "sophia-doc~=0.1.4",
+    "tomlkit",
+]
+
+[tool.pylint.main]
+disable = [
+    "arguments-differ",
+    "broad-exception-caught",
+    "import-outside-toplevel",
+    "line-too-long",
+    "too-many-lines",
+    "duplicate-code",
+    "too-few-public-methods",
+    "too-many-arguments",
+    "too-many-boolean-expressions",
+    "too-many-branches",
+    "too-many-instance-attributes",
+    "too-many-nested-blocks",
+    "too-many-public-methods",
+]
+load-plugins = [
+    "pylint_pydantic",
+]
+source-roots = [
+    ".",
+]
+
+[tool.pylint.basic]
+good-names = [
+    "i",
+    "j",
+    "k",
+    "ex",
+    "Run",
+    "_",
+    "e",
+    "f",
+    "ws",
+    "cm",
+    "at",
+]
+
+[tool.pylint.variables]
+allowed-redefined-builtins = [
+    "id",
+    "type",
+]
+
+[tool.black]
+target-version = [
+    "py38",
+    "py39",
+    "py310",
+    "py311",
+]
+
+[tool.isort]
+profile = "black"
+length_sort = true
+skip_gitignore = true
+force_sort_within_sections = true
+src_paths = [
+    "iamai",
+    "tests",
+]
+extra_standard_library = [
+    "typing_extensions",
+]
+
+[tool.pyright]
+exclude = [
+    "tests",
+]
+pythonVersion = "3.8"
+pythonPlatform = "All"
+typeCheckingMode = "strict"
+reportImportCycles = false
+reportIncompatibleMethodOverride = false
+reportMissingTypeArgument = false
+reportMissingTypeStubs = false
+reportUnknownArgumentType = false
+reportUnknownLambdaType = false
+reportUnknownMemberType = false
+reportUnknownParameterType = false
+reportUnknownVariableType = false
+reportUnnecessaryIsInstance = false
+
+[tool.pydantic-pycharm-plugin]
+ignore-init-method-arguments = true
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
