@@ -1,0 +1,116 @@
+{% init can_edit = False %}
+{% init edit_token = "" %}
+{% init show_draft_edit = False %}
+
+<!-- 解析CSV依赖 -->
+<script type="text/javascript" src="{{_server_home}}/_static/lib/csv.js/csv.js"></script>
+<!-- 代码高亮highlight依赖 -->
+<link rel="stylesheet" href="{{_server_home}}/_static/lib/highlight.js/11.6.0/styles/default.min.css">
+<link rel="stylesheet" href="{{_server_home}}/_static/lib/highlight.js/11.7.0/styles/a11y-dark.min.css">
+<script src="{{_server_home}}/_static/lib/highlight.js/11.6.0/highlight.min.js"></script>
+
+<div class="card">
+    {% include "note/component/view_header.html" %}
+</div>
+
+<div class="card">
+    {% include note/component/note_path.html %}
+</div>
+
+<div class="card btn-line-height">
+    {% include note/component/view_header_tag.html %}
+</div>
+
+{% if show_draft_edit %}
+<div class="card btn-line-height">
+    <span>发现未提交的草稿</span>
+    <a href="{{_server_home}}/note/edit?id={{file.id}}&is_iframe={{is_iframe}}&load_draft=true">前往编辑</a>
+</div>
+{% end %}
+
+<div class="card col-md-12">
+    {% if file.content == "" %}
+        {% include common/text/empty_text.html %}
+    {% end %}
+    
+    <div class="row">
+        <div id="markdown-input-div" class="col-md-6 hide">
+            <textarea id="markdown-input" class="form-control" name="content" rows=50>{{file.content}}</textarea>
+        </div>
+
+        <div id="markdown-output-div" class="col-md-12 markdown-output-div">
+
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    $(function () {
+
+        function trimText(text) {
+            text = text.trimLeft();
+            if (text.indexOf("<ul>") >= 0) {
+                return text.split("<ul>")[0];
+            }
+            if (text.indexOf("<ol>") >= 0) {
+                return text.split("<ol>")[0];
+            }
+            return text;
+        }
+
+        function convertTextToNew(text) {
+            var newText = text;
+            if (newText.startsWith("[]")) {
+                return "[x]" + newText.substring(2);
+            }
+            if (newText.startsWith("[x]") || newText.startsWith("[X]")) {
+                return "[]" + newText.substring(3);
+            }
+            return newText;
+        }
+        
+        function onCheckboxClicked(e) {
+            // 按下单选项的行为
+            var text = $(e.target).attr("data-text");
+            console.log("onCheckboxClicked", text);
+            text = trimText(text);
+            var params = {};
+            var newText = convertTextToNew(text);
+
+            var oldContent = $("#markdown-input").val();
+            if (oldContent.indexOf(text) < 0) {
+                console.log("text not match:", text);
+                xnote.alert("标记任务失败，请刷新后重试");
+                return;
+            }
+
+            // console.log("text:", text, "newText:", newText);
+
+            // TODO: 先简单用replace处理一下
+            newContent = oldContent.replace(text, newText);
+            params.id = "{{file.id}}";
+            params.content = newContent;
+            params.resp_type = "json";
+            params.edit_token = "{{edit_token}}";
+            params.version = "{{file.version}}";
+
+            console.log("newContent:", newContent);
+
+            xnote.http.post("/note/update", params, function (resp) {
+                if (resp.code == "success") {                    
+                    xnote.toast("更新成功，正在刷新页面");
+                    window.location.reload();
+                } else {
+                    xnote.toast("更新失败:" + resp.message);
+                }
+            });
+        }
+
+        var input = $("#markdown-input").val();
+
+        // 扩展选项
+        var options = {};
+        options.onCheckboxClicked = onCheckboxClicked;
+        marked.parseAndRender(input, "#markdown-output-div", options);
+    });
+</script>
