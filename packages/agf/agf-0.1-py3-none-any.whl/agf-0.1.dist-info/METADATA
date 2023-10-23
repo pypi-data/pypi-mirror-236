@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: agf
+Version: 0.1
+Summary: Article Generation Framework
+Author: Fauzaan Gasim
+Author-email: hello@fauzaanu.com
+Requires-Dist: openai ==0.27.6
+Requires-Dist: python-dotenv ==1.0.0
+
+
+# Article Generation Framework
+
+This is a framework for generating articles using OpenAI's GPT-3 API.
