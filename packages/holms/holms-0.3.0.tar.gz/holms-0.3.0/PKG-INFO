@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: holms
+Version: 0.3.0
+Summary: Text to Unicode code points breakdown
+Project-URL: Homepage, https://github.com/es7s/holms
+Project-URL: Bug Tracker, https://github.com/es7s/holms/issues
+Project-URL: Changelog, https://github.com/es7s/holms/blob/master/CHANGES.md
+Author-email: Aleksandr Shavykin <0.delameter@gmail.com>
+License-Expression: LGPL-3.0
+Keywords: analyzer,breakdown,console,terminal,text,unicode
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Utilities
+Requires-Python: >=3.10
+Requires-Dist: click==8.1.7
+Requires-Dist: es7s-commons==1.1.2
+Requires-Dist: pytermor==2.106.4.dev0
+Description-Content-Type: text/markdown
+
+WIP
+
+# Install
+
+    pipx install holms
