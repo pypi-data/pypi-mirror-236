@@ -1,0 +1,76 @@
+image: python:3.6
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  PYPI_INDEX: "https://gitlab-ci-token:${CI_JOB_TOKEN}@gitlab.com/api/v4/groups/${CI_PROJECT_NAMESPACE}/-/packages/pypi/simple"
+cache:
+  paths:
+    - .cache/pip
+
+before_script:
+  - python --version  # For debugging
+  - python -m pip install --upgrade pip setuptools
+  - pip config set global.index-url "${PYPI_INDEX}"
+  - pip install pyinotify # needed for doit and does not have binary
+  - pip install --only-binary ":all:" -r dev-requirements.txt
+  - pip install --only-binary ":all:" -r ci-requirements.txt
+
+dist:
+  only:
+    - main
+  variables:
+    TWINE_PASSWORD: '${CI_JOB_TOKEN}'
+    TWINE_USERNAME: 'gitlab-ci-token'
+    TWINE_REPOSITORY_URL: 'https://gitlab.com/api/v4/projects/${CI_PROJECT_ID}/packages/pypi'
+  script:
+    # Need to fetch tags
+    - git fetch --prune --unshallow
+    - git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+    - doit dist
+    - python -m twine check --strict dist/*
+    - python -m twine upload --verbose dist/*
+
+dist-test:
+  except:
+    - main
+  script:
+    # Need to fetch tags
+    - git fetch --prune --unshallow
+    - git fetch --depth=1 origin +refs/tags/*:refs/tags/*
+    - doit dist
+    - python -m twine check --strict dist/*
+
+install:
+  script:
+    - doit install
+
+test:
+  script:
+    - doit unittest
+    - cat test/cover_report.log # Get coverage
+
+pages:
+  only:
+    - main
+  script:
+    - doit docs
+    - mv docs/html/ public/
+  artifacts:
+    paths:
+    - public
+
+license:
+  image: docker:latest
+  services:
+    - name: "docker:dind"
+  before_script: [] # We don't need to install our dependencies for this
+  script:
+    # Use Google's `addlicence` to check for SPDX-License-Identifier header
+    # See: https://github.com/google/addlicense
+    - docker run --platform=linux/amd64 -v ${PWD}:/src ghcr.io/google/addlicense -v -check -s=only pdkmaster test docs/src
+    # Check if license header has right format
+    - grep -r SPDX-License-Identifier pdkmaster test docs/src | if grep -q -v "AGPL-3.0-or-later OR GPL-2.0-or-later OR CERN-OHL-S-2.0+ OR Apache-2.0"; then echo "wrong SPDX header"; exit 20; fi
+
+dco:
+  script:
+    - python3 .ci/check-dco.py
