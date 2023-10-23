@@ -1,0 +1,16 @@
+myanmar_words/__init__.py,sha256=vu6G4Mkjz2Lg2ochLKWdzhpNEmqsGFB4JEBCgQlSx4Q,320
+myanmar_words/main.py,sha256=I9YDbwBRkb_kkOE5L2na9lK6zQ43lW7Y8DcGWf2OAlI,1318
+myanmar_words/data/adjectives.json,sha256=yxFmpPVxhGQOowVOGfEh8MRIfOms24BCVPL7dImB6A8,30924
+myanmar_words/data/adverbs.json,sha256=iKidW5-HT7PQdg96XVzfenPQ2TLdsOKBOm2ZCGWoZ6k,88328
+myanmar_words/data/all.json,sha256=puwY9QDCleZu7aUmunXvdwbkhTE6vmthV8AGG1WNLWo,864085
+myanmar_words/data/conjunctions.json,sha256=R4T4cqqLYVfLO52SeVwM8zznj4vAMX25gHXKyN4DLIs,4407
+myanmar_words/data/nouns.json,sha256=V1j9KlmazgJ4nWxOpVXx76q-MPXqouVRwAhPmQ9YGVE,528268
+myanmar_words/data/particles.json,sha256=JQDzKJls5JFshPM9heiwKpViPlf-C54XoVMNbDt-0NE,2310
+myanmar_words/data/postpositions.json,sha256=BqQpOUsmRZh0aEgiAYIheZw3QDPzn96KLu5Acf4_sMw,1964
+myanmar_words/data/pronouns.json,sha256=isf0RIqOHlvffjgrRbwTcoi6GWQSk8A4mn9lj95UlhM,2861
+myanmar_words/data/verbs.json,sha256=uVvxWuLgxzrKDXqg5irqggKFWmSO8HEQHE8gbbqxelA,245093
+myanmar_words-1.0.0.dist-info/LICENCE,sha256=Aee5U6hKdcORp8ghnA3NxIcGrhnQzWl7wu_boNC4u30,1099
+myanmar_words-1.0.0.dist-info/METADATA,sha256=9nn25tI_qakVedrOof3AvrO52YzBuqck9nmJR8TsI5w,2191
+myanmar_words-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+myanmar_words-1.0.0.dist-info/top_level.txt,sha256=gkk99Y-wmaviDli9dYmKIwaokTXxYg8gnf9T9JLbEf4,14
+myanmar_words-1.0.0.dist-info/RECORD,,
