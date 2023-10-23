@@ -1,0 +1,14 @@
+pyyaml
+ipydex
+colorama
+rdflib
+addict
+networkx
+nxv
+rdflib
+jinja2
+gitpython
+pydantic
+
+[:python_version < "3.11"]
+tomli>=1.1.0
