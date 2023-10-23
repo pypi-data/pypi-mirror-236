@@ -1,0 +1,12 @@
+errors/__init__.py,sha256=2sX9-zWCSf79CGJwOLLzdxrT1xr_keuofF3mfulFMh4,315
+errors/__main__.py,sha256=_FzTBqrWPS1iF4iAjBNLydHK1V2_Bf82INJrQI9VmjU,380
+errors/base.py,sha256=pyqZxQDmrUcNVTXqvgTjYzn1V3Qje0hy3UMuTIG8E1U,3022
+errors/cli.py,sha256=R5LtzBYpSrt3ARIEOzHPiTwx3m1egSjQBFv_A5eiPdQ,844
+errors/data_classes.py,sha256=J8Gp0oLDx6BXpD2IUX-U30v5_rfqQjkXYHe2jGeMM0w,1627
+errors/error.py,sha256=9VcOCv18m_lJivkEGpwtT6kFOm1vNFLez2_B-bFmcSE,1964
+errors/settings.py,sha256=oEO13MMhPFubwzgHXPk-oyn08dORfczoli60J5c8Lbg,401
+error_manager-1.3.1.dist-info/LICENSE,sha256=q88uRrC18XK55YsLjWs-_hbXeiHhj4hU-sukryF9vwY,43710
+error_manager-1.3.1.dist-info/METADATA,sha256=3PsE6bbboMh05BWHyAiFzQxHiSebLpYvEVF9pJWXqVI,414
+error_manager-1.3.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+error_manager-1.3.1.dist-info/top_level.txt,sha256=-faFb0nzS6Z57ipYdQq5ZNGvg1JQqD5XUIharWfpR7g,7
+error_manager-1.3.1.dist-info/RECORD,,
