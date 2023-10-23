@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: spelltest
+Version: 0.0.1
+Project-URL: Bug Reports, https://github.com/artas728/spelltest/issues
+Project-URL: Source, https://github.com/artas728/spelltest/
+Keywords: testing,large language models,synthetic users
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: ==3.10.*
+License-File: LICENSE
