@@ -1,0 +1,10 @@
+README.md
+setup.py
+mbedmgr/__init__.py
+mbedmgr/embeddings_manager.py
+mbedmgr/website_source.py
+mbedmgr.egg-info/PKG-INFO
+mbedmgr.egg-info/SOURCES.txt
+mbedmgr.egg-info/dependency_links.txt
+mbedmgr.egg-info/requires.txt
+mbedmgr.egg-info/top_level.txt
