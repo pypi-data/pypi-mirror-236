@@ -1,0 +1,6 @@
+scikit-learn
+spacy
+lazylines
+embetter[sentence-tfm]
+skops
+rich

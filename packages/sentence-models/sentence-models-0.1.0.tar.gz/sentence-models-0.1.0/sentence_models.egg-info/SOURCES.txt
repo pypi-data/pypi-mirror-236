@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+sentence_models/__init__.py
+sentence_models/types.py
+sentence_models/util.py
+sentence_models.egg-info/PKG-INFO
+sentence_models.egg-info/SOURCES.txt
+sentence_models.egg-info/dependency_links.txt
+sentence_models.egg-info/requires.txt
+sentence_models.egg-info/top_level.txt
+tests/test_basics.py
