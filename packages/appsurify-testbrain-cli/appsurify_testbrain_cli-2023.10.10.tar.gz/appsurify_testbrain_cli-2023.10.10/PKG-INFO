@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: appsurify-testbrain-cli
+Version: 2023.10.10
+Summary: Command Line Interface for Appsurify Testbrain.
+Home-page: https://appsurify.com
+License: MIT
+Keywords: appsurify,testbrain,cli
+Author: James Farrier
+Author-email: jamesfarrier@appsurify.com
+Maintainer: James Farrier
+Maintainer-email: jamesfarrier@appsurify.com
+Requires-Python: >=3.7,<4
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: requests-toolbelt (>=1.0.0,<2.0.0)
+Requires-Dist: urllib3 (<2.0.0)
+Project-URL: Repository, https://github.com/Appsurify/appsurify-testbrain-cli
+Description-Content-Type: text/markdown
+
+# Testbrain CLI
+
+
