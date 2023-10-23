@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cryptodo
+Version: 3.2
+Summary: A Python library for text encryption and decryption
+Home-page: UNKNOWN
+Author: k.a.ishan oshada
+Author-email: ic31908@gmail.com
+License: UNKNOWN
+Description: Cryptodo is a Python library that provides various methods for text encryption and decryption. It includes features like Caesar cipher, substitution cipher, and more. This library is designed to be easy to use and can be integrated into your Python projects for secure data handling.
+Keywords: text encryption,text decryption,Caesar cipher,substitution cipher,rail fence cipher
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
