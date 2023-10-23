@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  {% for root in roots %}
+  <div class="row justify-content-center mt-4" style="text-align: center;">
+    <h2 id="{{ root.name }}">{{ root.name }}</h2>
+  </div>
+  {% if root.items_o|length > 0 %}
+  <div class="row table-responsive">
+    <h3 id="{{ root.name }}_items">Items</h3>
+    <table class="table" data-toggle="table">
+      <thead>
+        <tr>
+          <th style="white-space: nowrap; width: 32px;" scope="col" data-sortable="true">Icon</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Name</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Category</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for item in root.items_o %}
+        <tr>
+          <td style="white-space: nowrap; text-align: center; width: 32px;"><a href="{{ item.link }}"><img
+                src="{{ item.icon }}" style="width: 16px;"></img></a></td>
+          <td style="white-space: nowrap;"><a href="{{ item.link }}">{{ item.name }}</a></td>
+          <td style="white-space: nowrap;">{{ item.category }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+  {% if root.monsters|length > 0 %}
+  <div class="row table-responsive">
+    <h3 id="{{ root.name }}_monsters">Monsters</h3>
+    <table class="table" data-toggle="table">
+      <thead>
+        <tr>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Species</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Num</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for monster in root.monsters %}
+        <tr>
+          <td style="white-space: nowrap;"><a href="{{ monster.link }}">{{ monster.name }}</a></td>
+          <td style="white-space: nowrap;">{{ monster.bestiary_index }}</td>
+          <td style="white-space: nowrap;">{{ monster.type }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+  {% if root.moves|length > 0 %}
+  <div class="row table-responsive">
+    <h3 id="{{ root.name }}_moves">Moves</h3>
+    <table class="table" data-toggle="table">
+      <thead>
+        <tr>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Name</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Type</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Category</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Power</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Accuracy</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Use Cost</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for move in root.moves %}
+        <tr>
+          <td style="white-space: nowrap;"><a href="{{ move.link }}">{{ move.name }}</a></td>
+          <td style="white-space: nowrap;">{{ move.type }}</td>
+          <td style="white-space: nowrap;">{{ move.category }}</td>
+          <td style="white-space: nowrap;">{{ move.power }}</td>
+          <td style="white-space: nowrap;">{{ move.accuracy }}</td>
+          <td style="white-space: nowrap;">{{ move.cost }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endif %}
+  {% endfor %}
+</div>
+{% endblock %}

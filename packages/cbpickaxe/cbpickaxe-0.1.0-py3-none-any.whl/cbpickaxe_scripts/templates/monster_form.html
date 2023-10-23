@@ -1,0 +1,146 @@
+{% extends "base.html" %}
+{% block navbar %}
+<div class="row mt-4 navbar">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{{ monster_root_link }}">{{ monster_root }}</a></li>
+      <li class="breadcrumb-item"><a href="{{ monster_root_link }}_monsters">Monsters</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ name }}</li>
+    </ol>
+  </nav>
+</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row justify-content-center mt-4" style="text-align: center;">
+    <h1>{{ name }} (#{{ bestiary_index }})</h1>
+    <p>"{{ description }}"</p>
+  </div>
+  {% if monster_sprite_path != "" %}
+  <div class="row justify-content-center">
+    <img src="{{ monster_sprite_path }}" alt="Sprite of {{ name }}"
+      style="image-rendering: pixelated; max-width: 200px; max-height: 200px; display: block; margin-left: auto; margin-right: auto;">
+  </div>
+  {% endif %}
+  <div class="row justify-content-center">
+    <table class="table" style="max-width: 250px;">
+      <tr>
+        <th>
+          Type
+        </th>
+        <td>
+          {{ elemental_type }}
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="row">
+    <h2>In-Game Bio</h2>
+    <p>{{ bestiary_bio_1 }}</p>
+    <p>{{ bestiary_bio_2 }}</p>
+  </div>
+  <div class="row justify-content-center">
+    <h2>Stats</h2>
+    <table class="table" style="max-width: 250px;">
+      <tr>
+        <th>
+          Max HP
+        </th>
+        <td>
+          {{ max_hp }}
+        </td>
+      </tr>
+      <tr>
+        <th>
+          M. Atk
+        </th>
+        <td>
+          {{ melee_attack }}
+        </td>
+      </tr>
+      <tr>
+        <th>
+          M. Def
+        </th>
+        <td>
+          {{ melee_defense }}
+        </td>
+      </tr>
+      <tr>
+        <th>
+          R. Atk
+        </th>
+        <td>
+          {{ ranged_attack }}
+        </td>
+      </tr>
+      <tr>
+        <th>
+          R. Def
+        </th>
+        <td>
+          {{ ranged_defense }}
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Speed
+        </th>
+        <td>
+          {{ speed }}
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Total
+        </th>
+        <td>
+          {{ stat_total }}
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Max AP
+        </th>
+        <td>
+          {{ max_ap }}
+        </td>
+      </tr>
+      <tr>
+        <th>
+          Move Slots
+        </th>
+        <td>
+          {{ move_slots }}
+        </td>
+      </tr>
+    </table>
+  </div>
+  <div class="row table-responsive">
+    <h2>Moves</h2>
+    <table class="table" data-toggle="table">
+      <thead>
+        <tr>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Name</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Type</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Category</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Power</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Accuracy</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Use Cost</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for move in compatible_moves %}
+        <tr>
+          <td style="white-space: nowrap;"><a href="{{ move.link }}">{{ move.name }}</a></td>
+          <td style="white-space: nowrap;">{{ move.type }}</td>
+          <td style="white-space: nowrap;">{{ move.category }}</td>
+          <td style="white-space: nowrap;">{{ move.power }}</td>
+          <td style="white-space: nowrap;">{{ move.accuracy }}</td>
+          <td style="white-space: nowrap;">{{ move.cost }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+  {% endblock %}

@@ -1,0 +1,127 @@
+{% extends "base.html" %}
+{% block navbar %}
+<div class="row mt-4 navbar">
+  <nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a href="{{ move_root_link }}">{{ move_root }}</a></li>
+      <li class="breadcrumb-item"><a href="{{ move_root_link }}_moves">Moves</a></li>
+      <li class="breadcrumb-item active" aria-current="page">{{ name }}</li>
+    </ol>
+  </nav>
+</div>
+{% endblock %}
+{% block content %}
+<div class="container">
+  <div class="row justify-content-center mt-4" style="text-align: center;">
+    <h1>{{ name }}</h1>
+    <p>{{ category }}</p>
+  </div>
+  <div class="row justify-content-center">
+    <table class="table" style="max-width: 250px;">
+      <tr>
+        <th>
+          Type
+        </th>
+        <td>
+          {{ elemental_type }}
+        </td>
+      </tr>
+      {% if power %}
+      <tr>
+        <th>
+          Power
+        </th>
+        <td>
+          {{ power }}
+        </td>
+      </tr>
+      {% endif %}
+      {% if accuracy %}
+      <tr>
+        <th>
+          Accuracy
+        </th>
+        <td>
+          {{ accuracy }}
+        </td>
+      </tr>
+      {% endif %}
+      {% if targets %}
+      <tr>
+        <th>
+          Targets
+        </th>
+        <td>
+          {{ targets }}
+        </td>
+      </tr>
+      {% endif %}
+      {% if num_hits %}
+      <tr>
+        <th>
+          Num Hits
+        </th>
+        <td>
+          {{ num_hits }}
+        </td>
+      </tr>
+      {% endif %}
+      {% if use_cost %}
+      <tr>
+        <th>
+          Use Cost
+        </th>
+        <td>
+          {{ use_cost }}
+        </td>
+      </tr>
+      {% endif %}
+      {% if copyable %}
+      <tr>
+        <th>
+          Copyable
+        </th>
+        <td>
+          {{ copyable }}
+        </td>
+      </tr>
+      {% endif %}
+      {% if priority %}
+      <tr>
+        <th>
+          Priority
+        </th>
+        <td>
+          {{ priority }}
+        </td>
+      </tr>
+      {% endif %}
+    </table>
+  </div>
+  <div class="row">
+    <h2>Description</h2>
+    <p>{{ description }}</p>
+  </div>
+  <div class="row table-responsive">
+    <h2>Monsters</h2>
+    <table class="table" data-toggle="table">
+      <thead>
+        <tr>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Species</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Num</th>
+          <th style="white-space: nowrap;" scope="col" data-sortable="true">Type</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for monster in compatible_monsters %}
+        <tr>
+          <td style="white-space: nowrap;"><a href="{{ monster.link }}">{{ monster.name }}</a></td>
+          <td style="white-space: nowrap;">{{ monster.bestiary_index }}</td>
+          <td style="white-space: nowrap;">{{ monster.type }}</td>
+        </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
+</div>
+{% endblock %}
