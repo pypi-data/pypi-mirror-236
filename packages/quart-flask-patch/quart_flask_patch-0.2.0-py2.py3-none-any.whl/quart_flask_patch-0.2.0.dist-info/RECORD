@@ -1,0 +1,12 @@
+quart_flask_patch/__init__.py,sha256=cARm7Gpt3d2ImCw6jhgDxl97dTIJDqXBcVbJf2hom5Q,2725
+quart_flask_patch/_patch.py,sha256=1lr1bLRtT7KRhRWYUv7CdDBHR7N4dr5T5b1GiHkL8rs,4154
+quart_flask_patch/_synchronise.py,sha256=S751wU2GikwHKApItTteC3h_5A9sdd-5L1RlTcIMvso,747
+quart_flask_patch/app.py,sha256=o_otgzx8-iXkTVATflJKYpv7zCwebcv5MCk0GWP8W9k,1975
+quart_flask_patch/cli.py,sha256=JICfx7G2BVgi1gzj-jcBSiqBWWMzMhMS66eS7BhLLLw,215
+quart_flask_patch/globals.py,sha256=DA0lL_UOKWVG1VA2dpBs1kGmCqEq7qczkk0IlH_fYNo,1498
+quart_flask_patch/helpers.py,sha256=Wxnnyw2jQEK86mIaEms54e_lKMvEMATRO-H2nvz9u0U,1152
+quart_flask_patch/testing.py,sha256=xq8toJhZ55wyr9Lky8xuh8i-LMSg13P4rZ943U0pfwA,129
+quart_flask_patch-0.2.0.dist-info/LICENSE,sha256=oWFUJhSLiCk8xPMWjp8IQIl2Vd_Pr2rw5CQeOHUGhFo,1050
+quart_flask_patch-0.2.0.dist-info/METADATA,sha256=ZyMrg1yAIU58sLHuExtx1R8X2ng7Mj_CehA4rlV0ES0,6139
+quart_flask_patch-0.2.0.dist-info/WHEEL,sha256=RsNcXn1ku1cI7LVkdbiD4HxFH-ZNt6-iSezWxkqUYi4,92
+quart_flask_patch-0.2.0.dist-info/RECORD,,
