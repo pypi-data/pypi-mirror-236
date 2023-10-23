@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mercadopago-result"
+version = "0.1.1"
+description = "An API to make the MercadoPago RESTFUL requests into python objects."
+authors = ["Luiz Guilherme Monoo Pereira Barbosa <luizmonoo@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mercadopago_result"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+result = "^0.13.1"
+pydantic = "^2.4.2"
+httpx = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
