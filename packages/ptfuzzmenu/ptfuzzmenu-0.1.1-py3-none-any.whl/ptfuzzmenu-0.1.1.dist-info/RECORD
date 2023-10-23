@@ -1,0 +1,12 @@
+ptfuzzmenu/__init__.py,sha256=Ur48sO3px2H1OHUxRT5XOvUsTIM4lwdG07R1IztcFco,273
+ptfuzzmenu/fuzzmenu.py,sha256=KlARqkSlobKbKO_jNqWa6Z_fYLj5FZ8Vn7sG2kdf8AI,2307
+ptfuzzmenu/vmenu.py,sha256=bs-8M0Lapj-rfapgiKlkYGxpKgzwkpFKWFWacmV_yjc,5781
+ptfuzzmenu-0.1.1.data/data/share/doc/python-ptfuzzmenu/AUTHORS,sha256=8hDmqHd1E3IyuYsYeY7rSZfj8mX0zJmpNlF-_Vrw4Bo,38
+ptfuzzmenu-0.1.1.data/data/share/doc/python-ptfuzzmenu/LICENSE,sha256=Wx-NTXWME5-nUqN5s_wxMWpLsDRxo0i3sSUBM7petr8,1076
+ptfuzzmenu-0.1.1.data/data/share/doc/python-ptfuzzmenu/README.md,sha256=nPshyLtH58jtRmgzIV-gT-D1qgVRkDbrLkx8jcNrQSc,1629
+ptfuzzmenu-0.1.1.data/scripts/ptfuzzmenu-man,sha256=i9Al7iP1364fZk69BaMtvnOUAvqNPhjcFS03Uwm6WWo,3797
+ptfuzzmenu-0.1.1.dist-info/LICENSE,sha256=Wx-NTXWME5-nUqN5s_wxMWpLsDRxo0i3sSUBM7petr8,1076
+ptfuzzmenu-0.1.1.dist-info/METADATA,sha256=JcOCdy_IDq24L112MIxCOo536aI2Von0b9YnmExnr0E,2313
+ptfuzzmenu-0.1.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+ptfuzzmenu-0.1.1.dist-info/top_level.txt,sha256=sLGi8rB8rl4oq8gk19QF6GBgU2VldTCepgLHPwpC4CY,11
+ptfuzzmenu-0.1.1.dist-info/RECORD,,
