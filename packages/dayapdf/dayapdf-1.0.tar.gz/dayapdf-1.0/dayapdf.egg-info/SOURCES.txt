@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dayapdf/__init__.py
+dayapdf/pdf2image.py
+dayapdf/pdf2text.py
+dayapdf.egg-info/PKG-INFO
+dayapdf.egg-info/SOURCES.txt
+dayapdf.egg-info/dependency_links.txt
+dayapdf.egg-info/top_level.txt
