@@ -1,0 +1,2 @@
+requests>=2.19.1
+NorrisUtils>=0.5.2
