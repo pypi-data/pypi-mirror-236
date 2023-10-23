@@ -1,0 +1,5 @@
+[console_scripts]
+8name = hello_8trider.who:my_name
+8pic = hello_8trider.my:pic
+lotto = hello_8trider.who:lotto
+
