@@ -1,0 +1,8 @@
+src/__init__.py,sha256=T1YViE2LC2RMCjH4TmzJ_n6-CDIceNy6QSoxXw-ptuo,66
+src/always_list_field.py,sha256=zmdLcRkPVOcW-43hI6QmbkMWNgFjG9OJcHPhnCBV-a0,2337
+src/test_always_list_nested_field.py,sha256=WriWtM1Jo3uL2YZBAMfiM31klixDxsnPd_67HPGnfzE,1382
+always_list_field-1.0.0.dist-info/LICENSE,sha256=O61PfMdoMJ_k4LDjLZmud62gdutrjxekbVTtgIk-cOc,1074
+always_list_field-1.0.0.dist-info/METADATA,sha256=0C1HiC2ncmLUkC_U3Vc97QaP8YhfavIiVSHl7Bau0Ig,3693
+always_list_field-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+always_list_field-1.0.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+always_list_field-1.0.0.dist-info/RECORD,,
