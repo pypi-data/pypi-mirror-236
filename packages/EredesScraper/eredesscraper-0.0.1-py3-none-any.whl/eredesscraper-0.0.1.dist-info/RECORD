@@ -1,0 +1,13 @@
+EredesScraper/.pytest_cache/.gitignore,sha256=x5QzJfbvpB5Y6cX__7Qk7djMOx0_rZnouhYQOsMkLWA,39
+EredesScraper/.pytest_cache/CACHEDIR.TAG,sha256=N9yI75oKvt2-gQU6bdj9-xOvthMEXqHrSlyBWnSjveQ,191
+EredesScraper/.pytest_cache/README.md,sha256=Qg6AjXmmwl082grzO8R4IxShSUmGZoLGjOgUnom2a3A,310
+EredesScraper/__init__.py,sha256=raRIUrMDZoCaq2rHJEHdBMZpTvdl1tKNjVmc0y5eNfs,139
+EredesScraper/_version.py,sha256=CwQ2nU-kS11MotGNpXITsXBGKdrvG0ocHbQuJJHd72s,2977
+EredesScraper/db_clients.py,sha256=lE7XVtNxp0u0h3YqbI8RocWeUV4UtrbY6yPrk_7cbeg,6817
+EredesScraper/eredes_scraper.py,sha256=UN8FMIN8Q52J95kxqISdfq-_X24v-GXKCMyunDNg7CY,7219
+EredesScraper/run.py,sha256=7Ug4bk3REmWXZ_fLZgGBAcQOv23YoNLZ_bb1ya0vUfg,633
+EredesScraper/utils.py,sha256=IETP6dbaVU6xrfhjYSRHiefp0UtM5K6Zkhu4HUfgfHc,4986
+eredesscraper-0.0.1.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+eredesscraper-0.0.1.dist-info/METADATA,sha256=eldNW_u1NHYwKj2CdQ0pxib_t88tEizBXXKxZ4rUSDM,754
+eredesscraper-0.0.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+eredesscraper-0.0.1.dist-info/RECORD,,
