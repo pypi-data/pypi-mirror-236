@@ -1,0 +1,12 @@
+typedparser/__init__.py,sha256=7y4f2EFYJbliD8KuyXjQNChMAa6YLju6KeHW8Pg93xA,455
+typedparser/_typedattr.py,sha256=K6OkbpHBYxmLAi5Ul5O2ufPc5mpa9ZWKdoDyHnkIYxc,13336
+typedparser/_typedparser.py,sha256=eFvrZfgcradAW1--fdA2P-JfalsUgH1UCt-XPTMH70M,3597
+typedparser/custom_format.py,sha256=E0Ggejae_hYmo-V2-zlhD5mDcv78ReC6RB9H3xQ-WLo,2356
+typedparser/funcs.py,sha256=fni2fD4KGzfcJlcALkIcG6ubBaxzz9pUeLU9uJc85xc,5447
+typedparser/objects.py,sha256=bDLxQzqJsnTrH2Ce2wDyp-V3-nNOeKrjKqs0pGrF4Qk,9896
+typedparser-0.3.4.dist-info/LICENSE,sha256=LYghLc_68nnra4mdQKJWTd0oum3TyGMXM8RkDTPOVUo,11336
+typedparser-0.3.4.dist-info/METADATA,sha256=FJ0msAJ4G2-Xw8IWnroJ-LqlVO9tUEUFpbF16u3-g5k,5955
+typedparser-0.3.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+typedparser-0.3.4.dist-info/top_level.txt,sha256=EHk4vdx3Mnts9xnmFCLZ7q6TYBBcLixZJ2vTfssFtJk,12
+typedparser-0.3.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+typedparser-0.3.4.dist-info/RECORD,,
