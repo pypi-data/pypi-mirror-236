@@ -1,0 +1,7 @@
+oci_core/__init__.py,sha256=w_-Uw6VZnUDcu2x2r_FD4t3EvCrY95YMcGkTzSWgbmY,784
+oci_core/bucket.py,sha256=ABesz_exdCvFH7YCXDGEl8IJz6cXNhe33sKoKrDRMH4,12864
+oci_core/main.py,sha256=hRYHGDSHsyo9IG0eo_6v_Jbb3P12L5J5k9W6B3ABsP8,30172
+oci_core-0.0.79.dist-info/METADATA,sha256=eDkgeTcMluCqPhf-GVobRP92_6vJJ_pyXq-Rta7PmF0,384
+oci_core-0.0.79.dist-info/WHEEL,sha256=k3vXr0c0OitO0k9eCWBlI2yTYnpb_n_I2SGzrrfY7HY,110
+oci_core-0.0.79.dist-info/top_level.txt,sha256=GdVwfZH-2rExoIxTOj3VcLW1gp3r3BOStUUlNQ0b5Kc,9
+oci_core-0.0.79.dist-info/RECORD,,
