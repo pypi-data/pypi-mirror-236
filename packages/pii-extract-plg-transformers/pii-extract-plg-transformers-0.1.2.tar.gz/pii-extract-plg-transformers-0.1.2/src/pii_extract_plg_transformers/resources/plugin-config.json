@@ -1,0 +1,28 @@
+{
+  "format": "piisa:config:pii-extract-plg-transformers:main:v1",
+  "task_config": {
+    "reuse_engine": true,
+    "aggregation": "max",
+    "models": [
+      {"lang_code": "en", "model": "Babelscape/wikineural-multilingual-ner"},
+      {"lang_code": "es", "model": "Babelscape/wikineural-multilingual-ner"},
+      {"lang_code": "fr", "model": "Babelscape/wikineural-multilingual-ner"}
+    ]
+  },
+  "pii_list": [
+    {
+      "type": "PERSON",
+      "lang": ["en", "es", "fr"],
+      "method": "model",
+      "extra": {"map": "PER"}
+    },
+    {
+      "type": "LOCATION",
+      "lang": ["en", "es", "fr"],
+      "method": "model",
+      "extra": {"map": "LOC"}
+    }
+  ]
+}
+
+      

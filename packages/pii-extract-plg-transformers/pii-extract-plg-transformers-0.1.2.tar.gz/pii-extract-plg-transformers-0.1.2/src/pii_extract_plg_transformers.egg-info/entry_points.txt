@@ -1,0 +1,6 @@
+[console_scripts]
+pii-extract-transformers-detect = pii_extract_plg_transformers.app.detect:main
+pii-extract-transformers-info = pii_extract_plg_transformers.app.info:main
+
+[pii_extract.plugins]
+piisa-detectors-transformers = pii_extract_plg_transformers.plugin_loader:PiiExtractPluginLoader
