@@ -1,0 +1,2 @@
+[console_scripts]
+sampleloader = loader.__main__:main
