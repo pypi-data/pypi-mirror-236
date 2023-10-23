@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lesscode-test
+Version: 0.0.1
+Summary: lesscode_test是低代码测试框架
+Home-page: https://gitee.com/navysummer/lesscode_test
+Author: navysummer
+Author-email: navysummer@yeah.net
+Platform: python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: APScheduler >=3.9.1
+Requires-Dist: PyYAML >=6.0.1
+Requires-Dist: gevent >=22.10.2
+Requires-Dist: httpx >=0.24.1
+Requires-Dist: lesscode-options >=0.0.0
+
+# lesscode_test
+
+#### 介绍
+
+低代码测试框架
+
+
