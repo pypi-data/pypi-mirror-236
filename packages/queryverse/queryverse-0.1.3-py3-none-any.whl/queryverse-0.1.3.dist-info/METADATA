@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: queryverse
+Version: 0.1.3
+Summary: A lightweight prompting library
+Author-Email: temiloluwa <temilolu74@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: openai>=0.28.1
+Description-Content-Type: text/markdown
+
+# Queryverse Library
+
+Queryverse is a very lightweight prompting Python library
+
+## Installation
+
+You can install queryverse using pip:
+
+```
+pip install queryverse 
+```
+
+## Build Tool
+
+- tool name: [PDM](https://pdm.fming.dev/latest/)
+- minimum version: python 3.9
+- dependencies: `pdm add openai `
+
