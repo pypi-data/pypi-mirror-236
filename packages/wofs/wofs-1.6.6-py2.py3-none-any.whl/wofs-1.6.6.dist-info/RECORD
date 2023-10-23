@@ -1,0 +1,17 @@
+wofs/__init__.py,sha256=EVaHi3aiCbhX8uKPE0I9_9tm-IxbvR8whY6XS7rU8Pc,197
+wofs/_version.py,sha256=Nz1l8vGPOAOAlxWDepNu28nfH9fOKk0GnGSnVyZJsFE,411
+wofs/boilerplate.py,sha256=D_gKZnOwce-wRtcJ-2Bfn4p01KGRSdlfFePMOvirUfA,381
+wofs/classifier.py,sha256=oClQSzqbRGqZPDbSZsnx_qCWWAyV9fPv6tWLpeiztPQ,7791
+wofs/constants.py,sha256=eUtKMLE0awao5gWToIPnmPRpAsmhcoCNYOr7JV6ioGo,2297
+wofs/filters.py,sha256=ppIURsTZz3SHG45c47zB74C5ROhkpxasq3c9jR7fgpM,5768
+wofs/terrain.py,sha256=-wXG6rSjLZk0E5-0U9gGdXEDcNW3XD0uaw2w0sDD9R8,6073
+wofs/virtualproduct.py,sha256=Rca07tQccstguJ1C_JkovLlxEEQz4hKTcwE723Scv4w,4860
+wofs/wofls.py,sha256=yZ90SJgUa8hVnGDwjeiOczQkUlsUyDRV3r1SXfc7rlw,3598
+wofs/wofs_app.py,sha256=VwnIDcAqir0MTdQr3i2y7KEwRR7eLTXYokt86Sl2Tfc,27583
+wofs-1.6.6.data/data/wofs/config/wofs_albers.yaml,sha256=X-2SpzVWrIAPf6BIBDaivxYrtlYD1Lx8dQDBoJt5gpY,5434
+wofs-1.6.6.data/data/wofs/config/wofs_modified_albers.yaml,sha256=ZxTrEDPv2ZJplK2-EwXt2V2WJn8LXYeJEIrOz9pV2EM,6041
+wofs-1.6.6.dist-info/METADATA,sha256=N_VLtW1euGrnnRRLUTRiEOuOd_cJlXxv3xaVDACuBRI,9181
+wofs-1.6.6.dist-info/WHEEL,sha256=iYlv5fX357PQyRT2o6tw1bN-YcKFFHKqB_LwHO5wP-g,110
+wofs-1.6.6.dist-info/entry_points.txt,sha256=iYR2XBdND00iJVgYBHLOCmKD_HiEXucD9-iaOHa-O0Q,52
+wofs-1.6.6.dist-info/top_level.txt,sha256=pTkPa_qbw14ta4zK1n28xkfivx1HS8RFQjT6rMtImZE,5
+wofs-1.6.6.dist-info/RECORD,,

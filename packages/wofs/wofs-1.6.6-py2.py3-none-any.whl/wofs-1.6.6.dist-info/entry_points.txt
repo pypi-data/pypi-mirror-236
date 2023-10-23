@@ -1,0 +1,2 @@
+[console_scripts]
+datacube-wofs = wofs.wofs_app:cli
