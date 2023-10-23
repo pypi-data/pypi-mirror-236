@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+rokcetshipy/__init__.py
+rokcetshipy/rocket.py
+rokcetshipy.egg-info/PKG-INFO
+rokcetshipy.egg-info/SOURCES.txt
+rokcetshipy.egg-info/dependency_links.txt
+rokcetshipy.egg-info/requires.txt
+rokcetshipy.egg-info/top_level.txt
