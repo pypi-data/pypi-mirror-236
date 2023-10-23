@@ -1,0 +1,8 @@
+relax/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+relax/app.py,sha256=YiVojIlpvwU24h6s8ZI04H8aWtsSdyUsSnNO9P6bPes,5364
+relax/html.py,sha256=9avG1ppWibq72PJrIL1NyCpkvLPK-aqkF-D7jr3nUB8,11874
+relax/injection.py,sha256=YV5OBHINg9WPne8ktRY9NrZ8NZH6HgW0r0Z3KVM2RDg,3110
+relax/injection.pyi,sha256=3XmtW-3V9t4aQxdDoJJJI7rTiculgkvjUTIWhdevJAI,329
+relax_py-0.1.0.dist-info/METADATA,sha256=CJzhxHAYqcsc1Vgh2a68qXM0bbzuUhj8aMTrxYGy8vA,490
+relax_py-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+relax_py-0.1.0.dist-info/RECORD,,
