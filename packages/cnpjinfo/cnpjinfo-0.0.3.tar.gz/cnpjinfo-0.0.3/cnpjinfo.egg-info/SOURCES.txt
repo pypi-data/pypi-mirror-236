@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+cnpjinfo/__init__.py
+cnpjinfo.egg-info/PKG-INFO
+cnpjinfo.egg-info/SOURCES.txt
+cnpjinfo.egg-info/dependency_links.txt
+cnpjinfo.egg-info/not-zip-safe
+cnpjinfo.egg-info/requires.txt
+cnpjinfo.egg-info/top_level.txt
