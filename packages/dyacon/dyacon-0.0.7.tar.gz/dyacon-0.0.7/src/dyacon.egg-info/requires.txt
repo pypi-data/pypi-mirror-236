@@ -1,0 +1,11 @@
+python-dotenv
+pyyaml
+
+[google]
+google-cloud-secret-manager
+
+[lint]
+black
+
+[test]
+pytest
