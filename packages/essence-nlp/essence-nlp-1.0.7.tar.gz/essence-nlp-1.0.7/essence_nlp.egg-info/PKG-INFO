@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: essence-nlp
+Version: 1.0.7
+Summary: A small example package
+Author-email: Jash Dubal <jsd9393@gmail.com>
+Project-URL: Homepage, https://github.com/jashdubal/essence
+Project-URL: Bug Tracker, https://github.com/jashdubal/essence/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# essence
+ Blazingly fast, memory-safe string processing library for advanced NLP and precise keyword extraction, powered by Rust bridged to Python
