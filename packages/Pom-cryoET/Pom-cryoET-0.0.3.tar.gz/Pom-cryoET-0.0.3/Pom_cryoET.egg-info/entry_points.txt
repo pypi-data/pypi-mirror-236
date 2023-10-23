@@ -1,0 +1,3 @@
+[console_scripts]
+pom = scNodes.main:main
+
