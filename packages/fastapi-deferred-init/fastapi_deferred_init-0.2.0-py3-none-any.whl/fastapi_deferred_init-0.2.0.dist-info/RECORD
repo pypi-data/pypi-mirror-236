@@ -1,0 +1,7 @@
+fastapi_deferred_init-0.2.0.dist-info/METADATA,sha256=g0PHCiKivbKbMuJjquJPXZfWHexbBYO-fNIqwadDlFo,885
+fastapi_deferred_init-0.2.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+fastapi_deferred_init-0.2.0.dist-info/licenses/LICENSE,sha256=8_mwV7-FNHVaJ7A_5t-dJMJxOYEyXdiUeZbb5HSbB-k,1068
+fastapi_deferred_init/__init__.py,sha256=h-Czu1C8ssuqI4HXEow8dSuVXR1mm_SLE5AYePfEWYM,114
+fastapi_deferred_init/lib.py,sha256=tmKLchdEMEZ7wcn0rdQQhZYZYrqQHEr92t1BmygERlY,1015
+fastapi_deferred_init/routing.py,sha256=M_hyRK_KsBWDTtG9aNIJ1HQ1PVDyQ-QQNo_Ops0ft4E,10198
+fastapi_deferred_init-0.2.0.dist-info/RECORD,,
