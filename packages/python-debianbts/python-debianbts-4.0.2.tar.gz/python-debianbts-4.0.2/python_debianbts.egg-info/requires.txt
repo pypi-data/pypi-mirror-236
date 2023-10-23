@@ -1,0 +1,12 @@
+pysimplesoap
+
+[dev]
+build
+sphinx
+pytest
+pytest-cov
+pytest-xdist
+flake8
+wheel
+twine
+mypy
