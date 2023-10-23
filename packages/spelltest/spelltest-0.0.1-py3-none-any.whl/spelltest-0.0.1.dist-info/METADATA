@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: spelltest
+Version: 0.0.1
+Project-URL: Bug Reports, https://github.com/artas728/spelltest/issues
+Project-URL: Source, https://github.com/artas728/spelltest/
+Keywords: testing,large language models,synthetic users
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: ==3.10.*
+License-File: LICENSE
+Requires-Dist: tiktoken ==0.4.0
+Requires-Dist: langchain ==0.0.230
+Requires-Dist: bokeh ==2.4.3
+Requires-Dist: contourpy ==1.1.0
+Requires-Dist: fpdf ==1.7.2
+Requires-Dist: streamlit ==1.27.2
+Requires-Dist: streamlit-bokeh-events ==0.1.2
+Requires-Dist: xyzservices ==2023.5.0
+Requires-Dist: streamlit-echarts ==0.4.0
+Requires-Dist: pyecharts ==2.0.3
+Requires-Dist: streamlit-aggrid ==0.3.4.post3
+Requires-Dist: extra-streamlit-components ==0.1.56
+Requires-Dist: google-search-results ==2.4.2
+Requires-Dist: streamlit-chat ==0.1.1
+Requires-Dist: openai ==0.27.8
+Requires-Dist: matplotlib ==3.7.2
+Requires-Dist: uniplot ==0.10.0
+Requires-Dist: pytest-asyncio ==0.21.1
+Requires-Dist: seaborn ==0.13.0
+
