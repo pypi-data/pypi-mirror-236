@@ -1,0 +1,17 @@
+beat/__init__.py,sha256=undnGt7Iro0Sd1nsL-pfJbfCqgdoDfP3skZUx9Rwku8,513
+beat/base_model.py,sha256=nbFtaKQAAbagpvL2DawWWZC2uaQT0OhCKPVPrCMTiKA,9635
+beat/bidomain_model.py,sha256=GY1IvWLMqs1Dupps-SM6AF5pmIZ63KieRHFVEQp3U6w,5528
+beat/ecg.py,sha256=FcifB8HbadrvXpR9fAJsjSMOTTqgtRCX4VnV0REmOag,3529
+beat/monodomain_model.py,sha256=Bgl9JPZqurCbOE2m8YYvKPV91RdpkmGr90BnmOXQo2A,2888
+beat/monodomain_solver.py,sha256=lr9oUDOINNuvPPyHXo7xyy_UqxfPmBaI7YNjqn-dbt8,1753
+beat/odesolver.py,sha256=QP6PJuGMNgyCdbJwi5Wknlxs2o9xPGIqBPYAYRs9No0,2407
+beat/cellmodels/__init__.py,sha256=RtJqwgQ1rLbBU8mGU4EKwgQtxCcDvBMnODUhIkkAMSM,286
+beat/cellmodels/beeler_reuter.py,sha256=tMLI1M2ZcW3r3jcHN5sL6oC6LYTPjahTPqWnDWFhLHs,14596
+beat/cellmodels/fitzhughnagumo.py,sha256=0CiHwCvX6BoqQLGSxHxsrTmrVxfPdhX1G-GGKdbYVoQ,8723
+beat/cellmodels/tentusscher_panfilov_2006_M_cell.py,sha256=ur6gVstfQjIv8ZUCiDmoyQq78r1RCYewvqS4flb4tj0,70034
+beat/cellmodels/tentusscher_panfilov_2006_epi_cell.py,sha256=iuNDdHtKOu7Ga_I0O-e4DfV-9wgt9elMNOrQ4BSEajc,70699
+fenics_beat-0.0.1.dist-info/LICENSE,sha256=Yh51vKE5ez3_-y9cWOHL_2d6RIcYMFDo1Zr6ZH5XNWk,1072
+fenics_beat-0.0.1.dist-info/METADATA,sha256=90LlHowEHA58GCFP8m8DAOD_qaIURPdNrIksI4SYGT0,1740
+fenics_beat-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+fenics_beat-0.0.1.dist-info/top_level.txt,sha256=SzrB-_FjflhGetufdbtVP8aetqTmBoYdShQ4oBcPg5k,5
+fenics_beat-0.0.1.dist-info/RECORD,,
