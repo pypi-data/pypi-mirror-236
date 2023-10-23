@@ -1,0 +1,23 @@
+[metadata]
+icon = "mdi:image"
+status = "new"
+
+[examples."With caption"]
+jinja = """
+{{ "mdi:file" | MkIcon | MkReprRawRendered }}
+"""
+
+[examples."Colored"]
+jinja = """
+{{ "mdi:file" | MkIcon(color="red") | MkReprRawRendered }}
+"""
+
+[examples."Rotated"]
+jinja = """
+{{ "mdi:file" | MkIcon(rotate=90) | MkReprRawRendered }}
+"""
+
+[examples."Sized"]
+jinja = """
+{{ "noto:wrench" | MkIcon(height=100, width=100) | MkReprRawRendered }}
+"""
