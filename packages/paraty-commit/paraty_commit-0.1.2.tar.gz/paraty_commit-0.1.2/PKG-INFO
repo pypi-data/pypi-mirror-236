@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: paraty_commit
+Version: 0.1.2
+Summary: Una biblioteca personalizada
+Author: José Luis Villada
+Author-email: jlvillada@paratytech.com
+License-File: LICENSE
+Requires-Dist: colorama
