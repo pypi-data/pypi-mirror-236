@@ -1,0 +1,18 @@
+# python cache files
+__pycache__/
+*.pyc
+
+# venv
+.venv
+
+# build artifacts
+build/
+dist/
+geometry_to_spatialite.egg-info/
+
+# test coverage
+.coverage
+coverage.xml
+
+# built docs
+docs/build

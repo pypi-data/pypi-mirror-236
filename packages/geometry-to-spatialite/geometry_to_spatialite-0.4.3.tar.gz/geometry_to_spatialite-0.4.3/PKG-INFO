@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: geometry-to-spatialite
+Version: 0.4.3
+Summary: Import geographic and spatial data from files into a SpatiaLite DB
+Author: chris48s
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: sqlite-utils>=2.1,<4.0
+Requires-Dist: Shapely>=1.6.4,<3.0.0
+Requires-Dist: pyshp>=2.1.0,<3.0.0
+Requires-Dist: flit==3.9.0 ; extra == "dev"
+Requires-Dist: isort==5.12.0 ; extra == "dev"
+Requires-Dist: flake8==6.1.0 ; extra == "dev"
+Requires-Dist: black==23.10.0 ; extra == "dev"
+Requires-Dist: coverage==7.3.2 ; extra == "dev"
+Requires-Dist: sphinx==7.1.2 ; extra == "dev"
+Requires-Dist: sphinx_rtd_theme==1.3.0 ; extra == "dev"
+Requires-Dist: myst-parser==2.0.0 ; extra == "dev"
+Requires-Dist: ghp-import==2.1.0 ; extra == "dev"
+Project-URL: Documentation, https://chris48s.github.io/geometry-to-spatialite
+Project-URL: Home, https://github.com/chris48s/geometry-to-spatialite
+Project-URL: Source, https://github.com/chris48s/geometry-to-spatialite
+Provides-Extra: dev
+
+# geometry-to-spatialite
+
+[![Run tests](https://github.com/chris48s/geometry-to-spatialite/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/chris48s/geometry-to-spatialite/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/chris48s/geometry-to-spatialite/branch/master/graph/badge.svg?token=Y15Y63PPM4)](https://codecov.io/gh/chris48s/geometry-to-spatialite)
+[![PyPI Version](https://img.shields.io/pypi/v/geometry-to-spatialite.svg)](https://pypi.org/project/geometry-to-spatialite/)
+![License](https://img.shields.io/pypi/l/geometry-to-spatialite.svg)
+![Python Compatibility](https://img.shields.io/badge/dynamic/json?query=info.requires_python&label=python&url=https%3A%2F%2Fpypi.org%2Fpypi%2Fgeometry-to-spatialite%2Fjson)
+![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)
+
+Import geographic and spatial data from files into a SpatiaLite DB.
+
+## 📚 [Documentation](https://chris48s.github.io/geometry-to-spatialite)
+* [Installation](https://chris48s.github.io/geometry-to-spatialite/installation.html)
+* [Usage](https://chris48s.github.io/geometry-to-spatialite/usage.html)
+* [Troubleshooting](https://chris48s.github.io/geometry-to-spatialite/troubleshooting.html)
+

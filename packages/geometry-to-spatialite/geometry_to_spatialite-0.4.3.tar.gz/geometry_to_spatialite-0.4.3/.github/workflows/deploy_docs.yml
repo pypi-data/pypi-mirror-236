@@ -1,0 +1,38 @@
+name: Deploy docs
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/master' }}
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+
+      - name: Checkout master
+        uses: actions/checkout@v4
+        with:
+          ref: master
+
+      - name: Get python versions
+        uses: chris48s/satisfying-python@main
+        id: python-versions
+
+      - name: Set up Python ${{ steps.python-versions.outputs.min }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: '${{ steps.python-versions.outputs.min }}'
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get -qq update
+          sudo apt-get install -y libgeos-dev
+          pip install flit
+          make install
+
+      - name: Deploy docs
+        run: |
+          make build-docs
+          make deploy-docs
