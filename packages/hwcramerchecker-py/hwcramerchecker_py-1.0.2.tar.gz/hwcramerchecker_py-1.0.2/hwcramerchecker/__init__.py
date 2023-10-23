@@ -1,0 +1,1 @@
+from .hwcramerchecke import my_check_DZ_1
