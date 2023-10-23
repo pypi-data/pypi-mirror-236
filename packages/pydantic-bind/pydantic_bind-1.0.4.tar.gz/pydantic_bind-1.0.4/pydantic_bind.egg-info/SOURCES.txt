@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pydantic_bind/__init__.py
+pydantic_bind/base.py
+pydantic_bind/cpp_generator.py
+pydantic_bind.egg-info/PKG-INFO
+pydantic_bind.egg-info/SOURCES.txt
+pydantic_bind.egg-info/dependency_links.txt
+pydantic_bind.egg-info/requires.txt
+pydantic_bind.egg-info/top_level.txt
+pydantic_bind/include/msgpack/msgpack.h
