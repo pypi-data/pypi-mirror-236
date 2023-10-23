@@ -1,0 +1,109 @@
+[build-system]
+requires = ["maturin>=0.14,<0.15", "hatchling"]
+build-backend = "maturin"
+
+[project]
+name = "redis-rs"
+dynamic = ["version"]
+requires-python = ">=3.8"
+license = {file = "LICENSE"}
+description = "Python wrapper for redis-rs"
+readme =  {"file" = "README.rst", "content-type" = "text/x-rst"}
+authors = [
+    { name = "Alexander Malev", email = "yttrium@somedev.ru" },
+]
+keywords = [
+    "redis",
+    "redis-cluster",
+    "rust",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+    "Framework :: AsyncIO",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+
+[project.urls]
+"Source Code" = "https://github.com/aamalev/redis-rs-py"
+Issues = "https://github.com/aamalev/redis-rs-py/issues"
+Documentation = "https://github.com/aamalev/redis-rs-py#using"
+Changelog = "https://github.com/aamalev/redis-rs-py/releases"
+
+[tool.mypy]
+warn_redundant_casts = true
+check_untyped_defs = true
+ignore_missing_imports = true
+
+[tool.black]
+line-length = 120
+target-version = [
+    "py38",
+    "py39",
+    "py310",
+    "py311",
+    "py312",
+]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+markers = [
+    "redis",
+]
+asyncio_mode = "auto"
+testpaths = [
+    "redis_rs",
+    "tests",
+]
+
+[tool.hatch.version]
+path = "Cargo.toml"
+
+[tool.hatch.envs.default]
+dependencies = [
+    "maturin",
+    "mypy",
+        "black",
+    "ruff",
+    "isort",
+    "pytest-asyncio",
+]
+
+[tool.hatch.envs.default.scripts]
+build = [
+    "maturin develop",
+]
+check = [
+    "ruff redis_rs tests",
+    "mypy redis_rs tests",
+    "cargo clippy",
+]
+fmt = [
+    "cargo fmt",
+    "isort redis_rs tests",
+    "black redis_rs tests",
+]
+test = [
+    "check",
+    "cargo test",
+    "pytest",
+]
+
+[[tool.hatch.envs.all.matrix]]
+python = [
+    "3.8",
+    "3.9",
+    "3.10",
+    "3.11",
+    "3.12",
+]
