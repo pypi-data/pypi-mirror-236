@@ -1,0 +1,414 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.16.0 -->
+<interface>
+  <!-- interface-name window.ui -->
+  <requires lib="gtk" version="4.6"/>
+  <object class="GtkWindow" id="main_window">
+    <property name="default-height">800</property>
+    <property name="default-width">1200</property>
+    <property name="maximized">True</property>
+    <property name="titlebar">
+      <object class="GtkHeaderBar" id="header-bar">
+        <property name="title-widget">
+          <object class="GtkLabel">
+            <property name="css-classes">titlelabel</property>
+            <property name="css-name">titlelabel</property>
+            <property name="justify">fill</property>
+            <property name="label">Cashflex Money Manager</property>
+          </object>
+        </property>
+      </object>
+    </property>
+    <child>
+      <object class="GtkBox" id="main_box">
+        <property name="hexpand">True</property>
+        <property name="orientation">vertical</property>
+        <property name="vexpand">True</property>
+        <child>
+          <object class="GtkStackSwitcher" id="page-switcher">
+            <property name="halign">start</property>
+            <property name="name">page-switcher</property>
+            <property name="stack">main-stack</property>
+            <property name="valign">start</property>
+          </object>
+        </child>
+        <child>
+          <object class="GtkStack" id="main-stack">
+            <child>
+              <object class="GtkStackPage" id="pockets-stack-page">
+                <property name="child">
+                  <object class="GtkBox" id="pockets-page">
+                    <property name="css-classes">pagebox</property>
+                    <property name="hexpand">True</property>
+                    <property name="name">pockets-page</property>
+                    <property name="vexpand">True</property>
+                    <child>
+                      <object class="GtkGrid">
+                        <property name="hexpand">True</property>
+                        <property name="orientation">vertical</property>
+                        <property name="vexpand">True</property>
+                        <child>
+                          <object class="GtkPaned">
+                            <property name="end-child">
+                              <object class="GtkGrid">
+                                <property name="orientation">vertical</property>
+                                <child>
+                                  <object class="GtkStackSwitcher" id="component-switcher">
+                                    <property name="halign">start</property>
+                                    <property name="name">component-switcher</property>
+                                    <property name="stack">components-stack</property>
+                                    <layout>
+                                      <property name="column">0</property>
+                                      <property name="row">0</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkStack" id="components-stack">
+                                    <property name="hexpand">True</property>
+                                    <property name="tooltip-text">Income Components</property>
+                                    <property name="vexpand">True</property>
+                                    <child>
+                                      <object class="GtkStackPage">
+                                        <property name="child">
+                                          <object class="GtkBox" id="income-page">
+                                            <property name="hexpand">True</property>
+                                            <property name="name">income-page</property>
+                                            <property name="vexpand">True</property>
+                                            <child>
+                                              <object class="GtkGrid">
+                                                <property name="hexpand">True</property>
+                                                <property name="orientation">vertical</property>
+                                                <child>
+                                                  <object class="GtkButton" id="pocket-income-add-button">
+                                                    <property name="css-classes">btn-add</property>
+                                                    <property name="halign">end</property>
+                                                    <property name="height-request">32</property>
+                                                    <property name="hexpand">True</property>
+                                                    <property name="icon-name">document-new-symbolic</property>
+                                                    <property name="name">pocket-income-add-button</property>
+                                                    <property name="tooltip-text">Add Income</property>
+                                                    <property name="valign">start</property>
+                                                    <property name="width-request">32</property>
+                                                    <layout>
+                                                      <property name="column">0</property>
+                                                      <property name="row">1</property>
+                                                    </layout>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="GtkScrolledWindow" id="pocket-income-container">
+                                                    <property name="has-frame">True</property>
+                                                    <property name="hexpand">True</property>
+                                                    <property name="name">pocket-income-container</property>
+                                                    <property name="overlay-scrolling">False</property>
+                                                    <property name="vexpand">True</property>
+                                                    <property name="vscrollbar-policy">always</property>
+                                                    <layout>
+                                                      <property name="column">0</property>
+                                                      <property name="row">0</property>
+                                                    </layout>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </property>
+                                        <property name="title">INCOME</property>
+                                      </object>
+                                    </child>
+                                    <child>
+                                      <object class="GtkStackPage">
+                                        <property name="child">
+                                          <object class="GtkBox" id="payments-page">
+                                            <property name="name">payments-page</property>
+                                            <child>
+                                              <object class="GtkGrid">
+                                                <property name="hexpand">True</property>
+                                                <property name="orientation">vertical</property>
+                                                <child>
+                                                  <object class="GtkButton" id="pocket-payment-add-button">
+                                                    <property name="css-classes">btn-add</property>
+                                                    <property name="halign">end</property>
+                                                    <property name="height-request">32</property>
+                                                    <property name="icon-name">document-new-symbolic</property>
+                                                    <property name="name">pocket-payment-add-button</property>
+                                                    <property name="tooltip-text">Add Payment</property>
+                                                    <property name="valign">start</property>
+                                                    <property name="width-request">32</property>
+                                                    <layout>
+                                                      <property name="column">0</property>
+                                                      <property name="row">1</property>
+                                                    </layout>
+                                                  </object>
+                                                </child>
+                                                <child>
+                                                  <object class="GtkScrolledWindow" id="pocket-payments-container">
+                                                    <property name="has-frame">True</property>
+                                                    <property name="hexpand">True</property>
+                                                    <property name="name">pocket-payments-container</property>
+                                                    <property name="overlay-scrolling">False</property>
+                                                    <property name="vexpand">True</property>
+                                                    <property name="vscrollbar-policy">always</property>
+                                                    <layout>
+                                                      <property name="column">0</property>
+                                                      <property name="row">0</property>
+                                                    </layout>
+                                                  </object>
+                                                </child>
+                                              </object>
+                                            </child>
+                                          </object>
+                                        </property>
+                                        <property name="title">PAYMENTS</property>
+                                      </object>
+                                    </child>
+                                    <layout>
+                                      <property name="column">0</property>
+                                      <property name="row">1</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                              </object>
+                            </property>
+                            <property name="orientation">vertical</property>
+                            <property name="position">298</property>
+                            <property name="shrink-end-child">False</property>
+                            <property name="start-child">
+                              <object class="GtkGrid">
+                                <property name="hexpand">True</property>
+                                <property name="orientation">vertical</property>
+                                <property name="vexpand">True</property>
+                                <child>
+                                  <object class="GtkScrolledWindow" id="pockets-container">
+                                    <property name="hexpand">True</property>
+                                    <property name="name">pockets-container</property>
+                                    <property name="overlay-scrolling">False</property>
+                                    <property name="vexpand">True</property>
+                                    <layout>
+                                      <property name="column">0</property>
+                                      <property name="row">0</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkButton" id="pocket-add-button">
+                                    <property name="css-classes">btn-add</property>install_requires=[
+        'PyYAML',
+        'pandas==0.23.3',
+        'numpy>=1.14.5',
+        'matplotlib>=2.2.0,,
+        'jupyter'
+    ],
+                                    <property name="halign">end</property>
+                                    <property name="height-request">32</property>
+                                    <property name="icon-name">document-new-symbolic</property>
+                                    <property name="name">pocket-add-button</property>
+                                    <property name="tooltip-text">Add Pocket</property>
+                                    <property name="valign">start</property>
+                                    <property name="width-request">32</property>
+                                    <layout>
+                                      <property name="column">0</property>
+                                      <property name="row">1</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                              </object>
+                            </property>
+                            <property name="vexpand">True</property>
+                            <property name="wide-handle">True</property>
+                            <layout>
+                              <property name="column">0</property>
+                              <property name="row">1</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="name">pockets-page</property>
+                <property name="title">POCKETS</property>
+              </object>
+            </child>
+            <child>
+              <object class="GtkStackPage" id="forecast-stack-page">
+                <property name="child">
+                  <object class="GtkBox" id="forecast-page">
+                    <property name="css-classes">
+</property>
+                    <property name="name">forecast-page</property>
+                    <property name="orientation">vertical</property>
+                    <property name="vexpand">True</property>
+                    <child>
+                      <object class="GtkGrid">
+                        <property name="hexpand">True</property>
+                        <property name="orientation">vertical</property>
+                        <property name="vexpand">True</property>
+                        <child>
+                          <object class="GtkScrolledWindow" id="plot-window">
+                            <property name="has-frame">True</property>
+                            <property name="hexpand">True</property>
+                            <property name="overlay-scrolling">False</property>
+                            <property name="propagate-natural-height">True</property>
+                            <property name="propagate-natural-width">True</property>
+                            <property name="vexpand">True</property>
+                            <layout>
+                              <property name="column">1</property>
+                              <property name="row">0</property>
+                            </layout>
+                          </object>
+                        </child>
+                        <child>
+                          <object class="GtkGrid" id="forecast-controls-box">
+                            <property name="halign">start</property>
+                            <property name="hexpand-set">True</property>
+                            <property name="name">forecast-controls-box</property>
+                            <property name="valign">start</property>
+                            <child>
+                              <object class="GtkLabel" id="select-pockets-title">
+                                <property name="label">Select Pockets</property>
+                                <property name="name">select-pockets-title</property>
+                                <property name="valign">start</property>
+                                <property name="xalign">0.0</property>
+                                <layout>
+                                  <property name="column">0</property>
+                                  <property name="row">0</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkScrolledWindow" id="select-pockets-container">
+                                <property name="has-frame">True</property>
+                                <property name="hexpand">True</property>
+                                <property name="hexpand-set">True</property>
+                                <property name="name">select-pockets-container</property>
+                                <property name="overlay-scrolling">False</property>
+                                <property name="propagate-natural-height">True</property>
+                                <property name="valign">start</property>
+                                <layout>
+                                  <property name="column">0</property>
+                                  <property name="row">1</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkGrid" id="forecast-timescale-box">
+                                <property name="column-spacing">10</property>
+                                <property name="name">forecast-timescale-box</property>
+                                <child>
+                                  <object class="GtkLabel" id="inflation-label">
+                                    <property name="halign">start</property>
+                                    <property name="hexpand">True</property>
+                                    <property name="hexpand-set">True</property>
+                                    <property name="label">Inflation</property>
+                                    <property name="name">inflation-label</property>
+                                    <layout>
+                                      <property name="column">0</property>
+                                      <property name="row">1</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkBox" id="inflation-number-container">
+                                    <property name="name">inflation-number-container</property>
+                                    <layout>
+                                      <property name="column">1</property>
+                                      <property name="row">1</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel" id="inflation-percent">
+                                    <property name="halign">start</property>
+                                    <property name="label">%</property>
+                                    <property name="name">inflation-percent</property>
+                                    <layout>
+                                      <property name="column">2</property>
+                                      <property name="row">1</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkLabel" id="timescale-label">
+                                    <property name="hexpand">True</property>
+                                    <property name="hexpand-set">True</property>
+                                    <property name="label">Timescale</property>
+                                    <property name="name">timescale-label</property>
+                                    <property name="xalign">0.0</property>
+                                    <layout>
+                                      <property name="column">0</property>
+                                      <property name="row">0</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkBox" id="timescale-number-container">
+                                    <property name="name">timescale-number-container</property>
+                                    <layout>
+                                      <property name="column">1</property>
+                                      <property name="row">0</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkBox" id="timescale-container">
+                                    <property name="name">timescale-container</property>
+                                    <layout>
+                                      <property name="column">2</property>
+                                      <property name="row">0</property>
+                                    </layout>
+                                  </object>
+                                </child>
+                                <layout>
+                                  <property name="column">0</property>
+                                  <property name="row">2</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <child>
+                              <object class="GtkBox" id="forecast-buttons-box">
+                                <property name="hexpand">True</property>
+                                <property name="homogeneous">True</property>
+                                <property name="name">forecast-buttons-box</property>
+                                <property name="spacing">4</property>
+                                <child>
+                                  <object class="GtkButton" id="transactions-button">
+                                    <property name="hexpand">True</property>
+                                    <property name="label">Process Transactions</property>
+                                    <property name="name">transactions-button</property>
+                                  </object>
+                                </child>
+                                <child>
+                                  <object class="GtkButton" id="run-forecast-button">
+                                    <property name="hexpand">True</property>
+                                    <property name="label">Run Forecast</property>
+                                    <property name="name">run-forecast-button</property>
+                                  </object>
+                                </child>
+                                <layout>
+                                  <property name="column">0</property>
+                                  <property name="row">3</property>
+                                </layout>
+                              </object>
+                            </child>
+                            <layout>
+                              <property name="column">0</property>
+                              <property name="row">0</property>
+                            </layout>
+                          </object>
+                        </child>
+                      </object>
+                    </child>
+                  </object>
+                </property>
+                <property name="name">forecast-page</property>
+                <property name="title">FORECAST</property>
+              </object>
+            </child>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
