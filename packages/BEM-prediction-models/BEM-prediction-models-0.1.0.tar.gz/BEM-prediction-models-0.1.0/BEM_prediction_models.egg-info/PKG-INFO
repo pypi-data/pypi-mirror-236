@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: BEM-prediction-models
+Version: 0.1.0
+Summary: package implementing BEM prediction models
+Home-page: https://github.com/NREL/BEM-prediction-models/
+Author: vchinde, Alex Chapin, rchintala13
+Author-email: venkatesh.chinde@nrel.gov
+Maintainer: NREL
+Maintainer-email: venkatesh.chinde@nrel.gov
+License: UNKNOWN
+Keywords: prediction models
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE.md
+
+UNKNOWN
+
