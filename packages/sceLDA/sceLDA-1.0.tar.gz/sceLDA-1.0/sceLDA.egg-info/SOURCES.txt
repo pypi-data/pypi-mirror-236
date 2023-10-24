@@ -1,0 +1,7 @@
+README.md
+setup.py
+sceLDA.egg-info/PKG-INFO
+sceLDA.egg-info/SOURCES.txt
+sceLDA.egg-info/dependency_links.txt
+sceLDA.egg-info/requires.txt
+sceLDA.egg-info/top_level.txt
