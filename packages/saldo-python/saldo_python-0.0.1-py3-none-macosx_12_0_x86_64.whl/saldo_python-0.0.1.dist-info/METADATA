@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: saldo-python
+Version: 0.0.1
+Summary: Python access to Swedish SALDO inflection paradigms
+Author-email: Théo Friberg <theo.friberg@kielikone.fi>
+Project-URL: Homepage, https://github.com/kielikone/saldo-inflector
+Project-URL: Bug Tracker, https://github.com/kielikone/saldo-inflector
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: cffi
+
