@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: exsource-tools
+Version: 0.0.4
+Summary: Python tools for using Exsource files
+Home-page: https://gitlab.com/gitbuilding/exsource-tools
+Author: Julian Stirling
+Author-email: julian@julianstirling.co.uk
+License: LGPLv3
+Project-URL: Bug Tracker, https://gitlab.com/gitbuilding/exsource-tools/issues
+Project-URL: Source Code, https://gitlab.com/gitbuilding/exsource-tools
+Keywords: Documentation,Hardware
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: argparse
+Requires-Dist: pyyaml >=5.1
+Requires-Dist: jsonschema
+Provides-Extra: dev
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# ExSource-Tools
+
+An experimental Python library for validating and using the [ExSource Specification](https://gitlab.com/gitbuilding/exsourcespec) which is in the early stage of development.
+
+This packages adds the following command:
+
+    exsource-make exsource.yml
+
+This will attempt to process `exsource.yml` to create inputs. The first instance of this proof of principle implementation supports OpenSCAD and some FreeCAD files. FreeCAD exporter will expect there to be a PartDesign Body called `Body`, it can export this to STEP and/or STL.
