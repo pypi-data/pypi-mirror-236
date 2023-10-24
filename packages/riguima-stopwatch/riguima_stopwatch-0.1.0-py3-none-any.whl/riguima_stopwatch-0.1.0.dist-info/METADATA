@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: riguima-stopwatch
+Version: 0.1.0
+Summary: Crônometro feito do repositório app ideas: https://github.com/florinpop17/app-ideas
+Author: Richard
+Author-email: richard.alexsander.guima@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: textual (>=0.40.0,<0.41.0)
+Description-Content-Type: text/markdown
+
+# Stopwatch
+
+Aplicação de crônometro em TUI desenvolvida a partir do repositório [app ideas](https://github.com/florinpop17/app-ideas/blob/master/Projects/1-Beginner/Stopwatch-App.md)
+
+## Instalação
+
+Instale usando pip ou pipx (recomendado)
+
+```
+$ pip install riguima-stopwatch
+```
+
+```
+$ pipx install riguima-stopwatch
+```
+
+Rode com o comando `stopwatch`
+

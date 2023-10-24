@@ -1,0 +1,3 @@
+[console_scripts]
+stopwatch=riguima_stopwatch.main:main
+
