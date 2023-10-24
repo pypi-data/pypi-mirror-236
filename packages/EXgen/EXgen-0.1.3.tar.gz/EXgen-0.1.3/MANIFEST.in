@@ -1,0 +1,5 @@
+include README.md
+include EXgen/templates/*.tex
+include EXgen/templates/figures/*.pdf
+include EXgen/templates/figures/*.png
+include EXgen/templates/figures/*.eps
