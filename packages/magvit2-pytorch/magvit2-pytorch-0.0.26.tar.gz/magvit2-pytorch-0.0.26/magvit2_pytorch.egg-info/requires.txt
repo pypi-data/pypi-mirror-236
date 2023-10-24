@@ -1,0 +1,7 @@
+accelerate
+beartype
+einops>=0.7.0
+kornia
+vector-quantize-pytorch>=1.9.18
+torch
+torchvision
