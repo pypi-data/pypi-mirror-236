@@ -1,0 +1,3 @@
+[console_scripts]
+sysom_cmd=sysom_cmd.main:app
+
