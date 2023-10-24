@@ -1,0 +1,5 @@
+include whl/*
+include XEdu/hub/none.jpg
+prune XEdu/examples/*
+include install_requires.txt
+include XEdu/examples/demo.py
