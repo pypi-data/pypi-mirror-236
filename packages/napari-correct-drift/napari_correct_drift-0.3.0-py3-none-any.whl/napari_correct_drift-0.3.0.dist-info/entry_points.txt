@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-correct-drift = napari_correct_drift:napari.yaml
