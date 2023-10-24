@@ -1,0 +1,12 @@
+localstack-core>=2.2.0.dev
+moto-ext
+
+[dev]
+black==23.10.0
+coverage[toml]>=5.0.0
+localstack-core[runtime]>=2.2.0.dev
+plux>=1.3.1
+pyproject-flake8>=6.0.0.post1
+pytest>=7.0
+python-minifier>=2.8.0
+ruff==0.1.0
