@@ -1,0 +1,69 @@
+name: Run Tests
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'functime/**'
+      - 'pyproject.toml'
+      - "tests/**"
+      - '.github/workflows/test.yml'
+  pull_request:
+    types: [ review_requested ]
+jobs:
+  test:
+    strategy:
+      matrix:
+        python-version: ["3.8", "3.9", "3.10", "3.11"]
+    runs-on: ubuntu-latest-4-cores
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python 3
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Create LFS file list
+        run: git lfs ls-files --long | cut -d ' ' -f1 | sort > .lfs-assets-id
+
+      - name: LFS Cache
+        uses: actions/cache@v3
+        with:
+          path: .git/lfs/objects
+          key: ${{ runner.os }}-lfs-${{ hashFiles('.lfs-assets-id') }}
+          restore-keys: |
+            ${{ runner.os }}-lfs-
+
+      - name: Git LFS Pull
+        run: git lfs pull
+
+      - name: Set up Rust
+        run: rustup show
+
+      - name: Cache Rust
+        uses: Swatinem/rust-cache@v2
+
+      - name: Create virtual environment
+        run: python3 -m venv venv
+
+      - name: Install functime
+        env:
+          RUSTFLAGS: -C debuginfo=0  # Do not produce debug symbols to keep memory usage down
+        run: |
+          source venv/bin/activate
+          python3 -m pip install --upgrade pip
+          python3 -m pip install maturin
+          maturin develop --extras=test,cat,xgb,lgb
+
+      - name: Install extra dependencies
+        run: |
+          source venv/bin/activate
+          python3 -m pip install --upgrade pip
+          python3 -m pip install scikit-learn-intelex
+
+      - name: Test
+        env:
+          FUNCTIME__TEST_MODE: "true"
+        run: |
+          source venv/bin/activate
+          pytest tests -vv --benchmark-disable -k "not test_benchmarks"
