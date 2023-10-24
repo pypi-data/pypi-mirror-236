@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: forecast-solar-plants-calgary
+Version: 0.1.0
+Summary: Forecast produccion energia solar fotovoltaica
+Author: Julio Martinez del Pino
+Author-email: juliomdp92@gmail.com
+Requires-Python: >=3.10,<3.13
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastapi (>=0.104.0,<0.105.0)
+Requires-Dist: pandas (>=2.1.1,<3.0.0)
+Description-Content-Type: text/markdown
+
+
