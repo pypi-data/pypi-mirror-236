@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+drf_generic_contact/__init__.py
+drf_generic_contact.egg-info/PKG-INFO
+drf_generic_contact.egg-info/SOURCES.txt
+drf_generic_contact.egg-info/dependency_links.txt
+drf_generic_contact.egg-info/top_level.txt
+drf_generic_contact/rest/__init__.py
+drf_generic_contact/rest/serializers.py
+drf_generic_contact/rest/views.py
