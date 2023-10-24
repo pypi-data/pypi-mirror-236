@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+PAMM/__init__.py
+PAMM.egg-info/PKG-INFO
+PAMM.egg-info/SOURCES.txt
+PAMM.egg-info/dependency_links.txt
+PAMM.egg-info/not-zip-safe
+PAMM.egg-info/top_level.txt
