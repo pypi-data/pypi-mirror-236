@@ -1,0 +1,8 @@
+assets
+coq-tactician
+datasets
+pytact
+src
+tests
+theories
+wheelhouse

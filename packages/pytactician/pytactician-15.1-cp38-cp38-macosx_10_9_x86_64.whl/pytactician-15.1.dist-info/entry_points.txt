@@ -1,0 +1,7 @@
+[console_scripts]
+pytact-check = pytact.graph_sanity_check:main
+pytact-fake-coq = pytact.fake_coq_client:main
+pytact-oracle = pytact.oracle_server:main
+pytact-prover = pytact.prover:main
+pytact-server = pytact.fake_python_server:main
+pytact-visualize = pytact.visualisation_webserver:main
