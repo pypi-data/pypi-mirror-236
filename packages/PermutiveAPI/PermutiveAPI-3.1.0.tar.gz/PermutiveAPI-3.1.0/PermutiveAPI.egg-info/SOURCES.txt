@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+PermutiveAPI/APIRequestHandler.py
+PermutiveAPI/Utils.py
+PermutiveAPI/__init__.py
+PermutiveAPI.egg-info/PKG-INFO
+PermutiveAPI.egg-info/SOURCES.txt
+PermutiveAPI.egg-info/dependency_links.txt
+PermutiveAPI.egg-info/top_level.txt
