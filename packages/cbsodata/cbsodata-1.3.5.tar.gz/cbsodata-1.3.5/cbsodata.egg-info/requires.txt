@@ -1,0 +1,7 @@
+requests
+
+[lint]
+ruff
+
+[test]
+pytest
