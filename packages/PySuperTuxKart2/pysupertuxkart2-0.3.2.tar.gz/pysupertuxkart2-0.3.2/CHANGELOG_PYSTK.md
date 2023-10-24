@@ -1,0 +1,29 @@
+# Changelog
+
+This file documents notable changes to PySTK2 across versions since its inception.
+
+## Version 0.3.2
+
+- New kart information: skidding factor
+- Fix bug when no player exists (i.e. supertuxkart has never been launched)
+
+## Version 0.3.1
+
+- Bug fix (crash with some races)
+- List tracks with a given mode
+
+## Version 0.3.0
+
+- Fix bug when the controlled kart is not the first
+- Breaking change: quaternion is now [w, x, y, z] (and not the non standard [x, y, z, w])
+- Use numpy arrays rather than python lists
+
+## Version 0.2.0
+
+- Fix with cameras: now set to the number of controlled players
+- Includes world state phase to detect when the race starts
+- Prevents graphic driver initialization when running in no graphics mode
+
+## Version 0.1.0
+
+- Initial release based on a (manual) merge of PySTK and STK branch 1.4
