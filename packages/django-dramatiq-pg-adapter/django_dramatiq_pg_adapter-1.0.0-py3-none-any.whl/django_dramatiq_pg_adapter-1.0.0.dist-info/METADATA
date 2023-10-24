@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: django_dramatiq_pg_adapter
+Version: 1.0.0
+Summary: Tiny package that help integrate dramatiq_pg and django_dramatiq
+Home-page: https://github.com/trollknurr/django_dramatiq_pg_adapter
+License: MIT
+Author: Anton Shtarev
+Author-email: a.o.shtarev@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: django (>=4.0)
+Requires-Dist: dramatiq-pg (==0.11.0)
+Description-Content-Type: text/markdown
+
+# django_dramatiq_pg_adapter
+Tiny package that help integrate `dramatiq_pg` and `django_dramatiq`
+
+# How to use
