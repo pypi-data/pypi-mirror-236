@@ -1,0 +1,7 @@
+kolibri>=0.15
+mozilla-django-oidc==1.2.4
+
+[dev]
+setuptools
+twine
+wheel>=0.34.1
