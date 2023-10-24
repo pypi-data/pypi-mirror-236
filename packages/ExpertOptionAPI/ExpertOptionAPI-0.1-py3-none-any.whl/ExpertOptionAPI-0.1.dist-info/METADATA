@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ExpertOptionAPI
+Version: 0.1
+Requires-Dist: urllib
+Requires-Dist: websocket
+Requires-Dist: simplejson
+
