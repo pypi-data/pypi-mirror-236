@@ -1,0 +1,14 @@
+waze_logger/__init__.py,sha256=QTYqXqSTHFRkM9TEgpDFcHvwLbvqHDqvqfQ9EiXkcAM,23
+waze_logger/__main__.py,sha256=AlQJ4i7ssgPMkVP-OkV_ZqHfuGd8oYMPVsoVUKoslvU,3287
+waze_logger/location.py,sha256=w06kyDWx5D8gpDq-u52tvm4aStplxKCyIl0I-Sbvgxg,1460
+waze_logger/route.py,sha256=3SD3aACfJP-Zq6d51ktUGMrXJGmBQj3YRzgb9l8mC5o,1846
+waze_logger/waze_api.py,sha256=oTjMY2bqkoWjojQ59wxKZaEnrMEPIU2zXvZaaDYqRMQ,1163
+waze_logger/database/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waze_logger/database/create.py,sha256=d_cD2UFMUTfeTaf02VOSd-2kQ8__P6dH9HoOoj54Ukk,3982
+waze_logger/database/engine.py,sha256=n8jUSnUHQOLxf6GvrdOYOUdcpP2ojeITyGBIqReSqYs,1440
+waze_logger-0.1.0.dist-info/LICENSE,sha256=4G-5hWKpriyxTqJ-IZV4O48n2IRczETwIGGm5WIkFIQ,1090
+waze_logger-0.1.0.dist-info/METADATA,sha256=LoxrX9x_S6VcOfpyZQTPcCqrSrf0whRaxZy6DKciOBw,2359
+waze_logger-0.1.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+waze_logger-0.1.0.dist-info/entry_points.txt,sha256=YM_5OtHXB8v-2ZlEy9UjPvYwSSvp6o2x2eT0hvcaatk,58
+waze_logger-0.1.0.dist-info/top_level.txt,sha256=RqKp5ajZSbThxvHX4lQ2pevT3L-yu9bM8Dyi0PbX_eo,12
+waze_logger-0.1.0.dist-info/RECORD,,

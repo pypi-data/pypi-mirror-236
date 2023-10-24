@@ -1,0 +1,2 @@
+[console_scripts]
+waze_logger = waze_logger.__main__:main
