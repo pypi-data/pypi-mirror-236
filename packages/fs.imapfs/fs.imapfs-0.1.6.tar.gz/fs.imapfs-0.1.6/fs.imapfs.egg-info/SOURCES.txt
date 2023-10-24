@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+fs.imapfs.egg-info/PKG-INFO
+fs.imapfs.egg-info/SOURCES.txt
+fs.imapfs.egg-info/dependency_links.txt
+fs.imapfs.egg-info/requires.txt
+fs.imapfs.egg-info/top_level.txt
+fs.imapfs.egg-info/zip-safe
+fs/imapfs/__init__.py
+fs/imapfs/imapfs.py
+tests/Test_imapfs.py
