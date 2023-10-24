@@ -1,0 +1,4 @@
+python-settings
+flask
+apscheduler
+python-dotenv

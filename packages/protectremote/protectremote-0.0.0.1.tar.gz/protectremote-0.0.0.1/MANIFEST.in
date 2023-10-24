@@ -1,0 +1,3 @@
+include *.md
+recursive-include protectremote *.html
+recursive-include protectremote *.css

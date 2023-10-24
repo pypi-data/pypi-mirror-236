@@ -1,0 +1,66 @@
+<html>
+<head>
+    <title>Protect Remote Access Denied</title>
+</head>
+<body class="protect-remote-access-denied-bd">
+<div class="container text-center">
+    <p>
+        <svg version="1.1" id="L4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+             y="0px" viewBox="0 10 40 80" style="width:400px; height:100px; display:inline-block;" xml:space="preserve"> <circle
+                fill="#000" stroke="none" cx="6" cy="50" r="6"> <animate attributeName="opacity" dur="1s" values="0;1;0"
+                                                                         repeatCount="indefinite" begin="0.1"></animate> </circle>
+            <circle fill="#000" stroke="none" cx="26" cy="50" r="6"> <animate attributeName="opacity" dur="1s"
+                                                                              values="0;1;0" repeatCount="indefinite"
+                                                                              begin="0.2"></animate> </circle>
+            <circle fill="#000" stroke="none" cx="46" cy="50" r="6"> <animate attributeName="opacity" dur="1s"
+                                                                              values="0;1;0" repeatCount="indefinite"
+                                                                              begin="0.3"></animate></circle> </svg>
+    </p>
+    <h1 class="protect-remote-access-denied">Access Denied</h1>
+    <p>
+        This site is protected by <a href="https://protectremote.com/product/integrations/wordpress">Protect Remote</a>.
+        Your IP address does not have permission to connect to this address.<br><br>When you have permission, you will
+        automatically be directed to the login page.</p>
+    <p style="margin-top:30px;">
+        <img src="https://protectremote.com/assets/imgs/logos/email-template-protectremote-logo.png" width="250px">
+    </p>
+</div>
+</body>
+</html>
+<script>
+    function Ping() {
+
+        fetch(window.location.href)
+            .then((response) => {
+              debugger
+                if (response?.status !== 401 && !response?.data?.contains("protect-remote-access-denied-bd")) {
+                    window.location.reload();
+                }
+            })
+            .catch((err) => {
+                console.log(err);
+            })
+    }
+
+    Ping();
+    setInterval(Ping, 5000);
+</script>
+<style>
+    .container {
+        width: 80%;
+        margin: auto;
+        padding-top: 15%;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .protect-remote-access-denied {
+        margin-top: -30px;
+        margin-bottom: 30px;
+    }
+    .protect-remote-access-denied-bd{
+        
+    }
+</style>';
