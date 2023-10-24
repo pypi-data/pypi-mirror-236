@@ -1,0 +1,4 @@
+You did not execute textsplitter.breakdown() before calling this function.
+As such, we could not display any decisions for document
+TestExportDecisions_b
+

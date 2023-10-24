@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../../TextPart/huisstijl.css">
+<link rel="stylesheet" type="text/css" href="../../TextPart/Styling.css">
+<title> TextExtraction_001 </title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+window.onload = function() {
+// Vind het eerste img element in body
+var img = document.body.querySelector("img:first-child");
+// Vind het element dat direct volgt op de afbeelding
+var nextElement = img.nextElementSibling;
+if (img && nextElement) {
+    // Bereken de hoogte van de afbeelding
+    var imgHeight = img.offsetHeight;
+    // Pas de bovenmarge van het volgende element aan
+    nextElement.style.marginTop = imgHeight + "px";
+}
+};
+window.onresize = function() {
+// Vind het eerste img element in body
+var img = document.body.querySelector("img:first-child");
+// Vind het element dat direct volgt op de afbeelding
+var nextElement = img.nextElementSibling;
+if (img && nextElement) {
+    // Bereken de nieuwe hoogte van de afbeelding
+    var imgHeight = img.offsetHeight;
+    // Pas de bovenmarge van het volgende element aan
+    nextElement.style.marginTop = imgHeight + "px";
+}
+};
+</script>
+</head>
+<img src="../../TextPart/Logo.png" alt="Hipster" width=800 />
+<body>
+<h2 class="Structure_element-link texttype_headlines-link chapter-link"><table class="bannertable-standalone" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+Pag.
+</td>
+<td width = "5%">
+Struct.
+</td>
+<td width = "5%">
+Links.
+</td>
+<td width = "5%">
+Diepte.
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+Titel:
+</td>
+</tr>
+</tbody>
+</table>
+</h2><hr class="Title-horline">
+<h1 class="fold-link Structure_element-link texttype_title-link title-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+TextExtraction_001</td>
+</tr>
+</tbody>
+</table>
+</h1>
+<div class="unfolded Structure_element texttype_title title">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+<h2 class="fold-link doc_metadata-link texttype_title-link title-link">
+Document meta-data: <br />
+(wat er beschikbaar is) <br />
+</h2>
+<div class="unfolded doc_metadata texttype_title title">
+<b> <i> Created on: </i> </b>15 March 2023 <br />
+<b> <i> Last modified on: </i> </b>15 March 2023 <br />
+<b> <i> Author: </i> </b> <br />
+<b> <i> Created with: </i> </b>pdfTeX-1.40.18 <br />
+<b> <i> Official subject: </i> </b> <br />
+<b> <i> Official title: </i> </b>None <br />
+</div>
+</td>
+<td width = "40%">
+<h2 class="fold-link Summary-link texttype_title-link title-link">
+Samenvatting over 10 woorden: <br />
+1x reductie; 10 woorden; ca. 1 min.
+</h2>
+<div class="unfolded Summary texttype_title title">
+1. Introduction This is a small test for text extraction. 
+</div>
+</td>
+<td width = "40%">
+<h2 class="fold-link Source-link texttype_title-link title-link">
+Onderliggende Tekst: <br />
+10 woorden; ca. 1 min.
+</h2>
+<div class="folded Source texttype_title title">
+<br />
+<br />
+1. Introduction This is a small test for text extraction. 
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 class="fold-link Structure_element-link texttype_enumeration-link bullet1-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "15%">
+<i>
+Geen interne structuur.
+</i>
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+1. Introduction </td>
+</tr>
+</tbody>
+</table>
+</h2>
+<div class="folded Structure_element texttype_enumeration bullet1">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h3 class="fold-link Summary-link texttype_enumeration-link bullet1-link">
+Samenvatting over 10 woorden: <br />
+1x reductie; 10 woorden; ca. 1 min.
+</h3>
+<div class="unfolded Summary texttype_enumeration bullet1">
+1. Introduction This is a small test for text extraction. 
+</div>
+</td>
+<td width = "40%">
+<h3 class="fold-link Source-link texttype_enumeration-link bullet1-link">
+Onderliggende Tekst: <br />
+10 woorden; ca. 1 min.
+</h3>
+<div class="folded Source texttype_enumeration bullet1">
+1. Introduction
+This is a small test for text extraction.
+
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="bullet1-horline">
+</div>
+<hr class="title-horline">
+</div>
+<script>
+$(document).ready(function() {
+// Hide all of the folded sections
+$(".folded").hide();
+// Add click handlers to the folded links
+$(".fold-link").click(function() {
+// Find the next sibling div and toggle its visibility
+$(this).next("div").toggle();
+});
+});
+</script>
+</body>
+</html>

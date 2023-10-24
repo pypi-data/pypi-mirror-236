@@ -1,0 +1,7 @@
+
+The number of counted calls = 0
+The total costs for the document are: 0.0 euro's
+We had to accept 0 incorrect summaries due to the while-limit.
+We use language-option English.
+We use language model gpt-3.5-turbo.
+==> ATTENTION: We used the textsplitter in dummy-mode. So the logging information is meaningless!!!

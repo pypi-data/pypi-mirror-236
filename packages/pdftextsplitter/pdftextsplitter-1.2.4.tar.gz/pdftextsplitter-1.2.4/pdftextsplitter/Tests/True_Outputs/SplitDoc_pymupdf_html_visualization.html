@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href=https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="../../TextPart/huisstijl.css">
+<link rel="stylesheet" type="text/css" href="../../TextPart/Styling.css">
+<title> SplitDoc </title>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+window.onload = function() {
+// Vind het eerste img element in body
+var img = document.body.querySelector("img:first-child");
+// Vind het element dat direct volgt op de afbeelding
+var nextElement = img.nextElementSibling;
+if (img && nextElement) {
+    // Bereken de hoogte van de afbeelding
+    var imgHeight = img.offsetHeight;
+    // Pas de bovenmarge van het volgende element aan
+    nextElement.style.marginTop = imgHeight + "px";
+}
+};
+window.onresize = function() {
+// Vind het eerste img element in body
+var img = document.body.querySelector("img:first-child");
+// Vind het element dat direct volgt op de afbeelding
+var nextElement = img.nextElementSibling;
+if (img && nextElement) {
+    // Bereken de nieuwe hoogte van de afbeelding
+    var imgHeight = img.offsetHeight;
+    // Pas de bovenmarge van het volgende element aan
+    nextElement.style.marginTop = imgHeight + "px";
+}
+};
+</script>
+</head>
+<img src="../../TextPart/Logo.png" alt="Hipster" width=800 />
+<body>
+<h2 class="Structure_element-link texttype_headlines-link chapter-link"><table class="bannertable-standalone" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+Pag.
+</td>
+<td width = "5%">
+Struct.
+</td>
+<td width = "5%">
+Links.
+</td>
+<td width = "5%">
+Diepte.
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+Titel:
+</td>
+</tr>
+</tbody>
+</table>
+</h2><hr class="Title-horline">
+<h1 class="fold-link Structure_element-link texttype_title-link title-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+4
+</td>
+<td width = "5%">
+13
+</td>
+<td width = "5%">
+5
+</td>
+<td width = "5%">
+3
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+SplitDoc</td>
+</tr>
+</tbody>
+</table>
+</h1>
+<div class="unfolded Structure_element texttype_title title">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+<h2 class="fold-link doc_metadata-link texttype_title-link title-link">
+Document meta-data: <br />
+(wat er beschikbaar is) <br />
+</h2>
+<div class="unfolded doc_metadata texttype_title title">
+<b> <i> Created on: </i> </b>20 March 2023 <br />
+<b> <i> Last modified on: </i> </b>20 March 2023 <br />
+<b> <i> Created with: </i> </b>pdfTeX-1.40.18 <br />
+</div>
+</td>
+<td width = "40%">
+<h2 class="fold-link Summary-link texttype_title-link title-link">
+Samenvatting over 300 woorden: <br />
+3x reductie; 100 woorden; ca. 1 min.
+</h2>
+<div class="unfolded Summary texttype_title title">
+1 Let’s kick-of test-driven development 2 1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2 Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.3 Methods again . . . . . . . . . . . . . . . 
+</div>
+</td>
+<td width = "40%">
+<h2 class="fold-link Source-link texttype_title-link title-link">
+Onderliggende Tekst: <br />
+168 woorden; ca. 1 min.
+</h2>
+<div class="folded Source texttype_title title">
+<br />
+<br />
+1 Let’s kick-of test-driven development 2 1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2 Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.3 Methods again . . . . . . . . . . . . . . . 
+<br />
+<br />
+We start with some general text about the chapter. with a line-break embedded in it. This is a small test for text extraction. And here is some more text. With a line break and other stuf. Lets add some whitespaces: And some text. With some text... 
+<br />
+<br />
+Now comes some extra text. With a line break. Lets give a splendid additional story. with a beautiful subsection embedded in it. 
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<h2 class="fold-link Structure_element-link texttype_headlines-link chapter-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "15%">
+<i>
+Geen interne structuur.
+</i>
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+Contents</td>
+</tr>
+</tbody>
+</table>
+</h2>
+<div class="folded Structure_element texttype_headlines chapter">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h3 class="fold-link Summary-link texttype_headlines-link chapter-link">
+Samenvatting over 232 woorden: <br />
+3x reductie; 100 woorden; ca. 1 min.
+</h3>
+<div class="unfolded Summary texttype_headlines chapter">
+1 Let’s kick-of test-driven development 2 1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.2 Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 2 1.3 Methods again . . . . . . . . . . . . . . . 
+</div>
+</td>
+<td width = "40%">
+<h3 class="fold-link Source-link texttype_headlines-link chapter-link">
+Onderliggende Tekst: <br />
+232 woorden; ca. 2 min.
+</h3>
+<div class="folded Source texttype_headlines chapter">
+1 Let’s kick-of test-driven development
+2
+1.1 Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.2 Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.3 Methods again
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+2
+1.4 One more section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+2 A new chapter starts now
+4
+2.1 A new section . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+2.1.1 Nice subsection . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+4
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="chapter-horline">
+</div>
+<h2 class="fold-link Structure_element-link texttype_headlines-link chapter-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+2
+</td>
+<td width = "5%">
+4
+</td>
+<td width = "5%">
+4
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+1 Let’s kick-of test-driven development</td>
+</tr>
+</tbody>
+</table>
+</h2>
+<div class="folded Structure_element texttype_headlines chapter">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h3 class="fold-link Summary-link texttype_headlines-link chapter-link">
+Samenvatting over 46 woorden: <br />
+1x reductie; 46 woorden; ca. 1 min.
+</h3>
+<div class="unfolded Summary texttype_headlines chapter">
+We start with some general text about the chapter. with a line-break embedded in it. This is a small test for text extraction. And here is some more text. With a line break and other stuf. Lets add some whitespaces: And some text. With some text... 
+</div>
+</td>
+<td width = "40%">
+<h3 class="fold-link Source-link texttype_headlines-link chapter-link">
+Onderliggende Tekst: <br />
+46 woorden; ca. 1 min.
+</h3>
+<div class="folded Source texttype_headlines chapter">
+We start with some general text about the chapter.
+with a line-break embedded in it.
+<br />
+<br />
+This is a small test for text extraction. 
+<br />
+<br />
+And here is some more text. With a line break and other stuf. 
+<br />
+<br />
+Lets add some whitespaces: And some text. 
+<br />
+<br />
+With some text... 
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 class="fold-link Structure_element-link texttype_headlines-link section-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "15%">
+<i>
+Geen interne structuur.
+</i>
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+1.1 Introduction</td>
+</tr>
+</tbody>
+</table>
+</h3>
+<div class="folded Structure_element texttype_headlines section">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h4 class="fold-link Summary-link texttype_headlines-link section-link">
+Samenvatting over 8 woorden: <br />
+1x reductie; 8 woorden; ca. 1 min.
+</h4>
+<div class="unfolded Summary texttype_headlines section">
+This is a small test for text extraction. 
+</div>
+</td>
+<td width = "40%">
+<h4 class="fold-link Source-link texttype_headlines-link section-link">
+Onderliggende Tekst: <br />
+8 woorden; ca. 1 min.
+</h4>
+<div class="folded Source texttype_headlines section">
+This is a small test for text extraction.
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="section-horline">
+</div>
+<h3 class="fold-link Structure_element-link texttype_headlines-link section-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "15%">
+<i>
+Geen interne structuur.
+</i>
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+1.2 Methods</td>
+</tr>
+</tbody>
+</table>
+</h3>
+<div class="folded Structure_element texttype_headlines section">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h4 class="fold-link Summary-link texttype_headlines-link section-link">
+Samenvatting over 13 woorden: <br />
+1x reductie; 13 woorden; ca. 1 min.
+</h4>
+<div class="unfolded Summary texttype_headlines section">
+And here is some more text. With a line break and other stuf. 
+</div>
+</td>
+<td width = "40%">
+<h4 class="fold-link Source-link texttype_headlines-link section-link">
+Onderliggende Tekst: <br />
+13 woorden; ca. 1 min.
+</h4>
+<div class="folded Source texttype_headlines section">
+And here is some more text.
+With a line break and other stuf.
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="section-horline">
+</div>
+<h3 class="fold-link Structure_element-link texttype_headlines-link section-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "15%">
+<i>
+Geen interne structuur.
+</i>
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+1.3 Methods again</td>
+</tr>
+</tbody>
+</table>
+</h3>
+<div class="folded Structure_element texttype_headlines section">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h4 class="fold-link Summary-link texttype_headlines-link section-link">
+Samenvatting over 7 woorden: <br />
+1x reductie; 7 woorden; ca. 1 min.
+</h4>
+<div class="unfolded Summary texttype_headlines section">
+Lets add some whitespaces: And some text. 
+</div>
+</td>
+<td width = "40%">
+<h4 class="fold-link Source-link texttype_headlines-link section-link">
+Onderliggende Tekst: <br />
+7 woorden; ca. 1 min.
+</h4>
+<div class="folded Source texttype_headlines section">
+Lets add some whitespaces:
+And some text.
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="section-horline">
+</div>
+<h3 class="fold-link Structure_element-link texttype_headlines-link section-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "15%">
+<i>
+Geen interne structuur.
+</i>
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+1.4 One more section</td>
+</tr>
+</tbody>
+</table>
+</h3>
+<div class="folded Structure_element texttype_headlines section">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h4 class="fold-link Summary-link texttype_headlines-link section-link">
+Samenvatting over 3 woorden: <br />
+1x reductie; 3 woorden; ca. 1 min.
+</h4>
+<div class="unfolded Summary texttype_headlines section">
+With some text... 
+</div>
+</td>
+<td width = "40%">
+<h4 class="fold-link Source-link texttype_headlines-link section-link">
+Onderliggende Tekst: <br />
+3 woorden; ca. 1 min.
+</h4>
+<div class="folded Source texttype_headlines section">
+With some text...
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="section-horline">
+</div>
+<hr class="chapter-horline">
+</div>
+<h2 class="fold-link Structure_element-link texttype_headlines-link chapter-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+2
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "5%">
+2
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+2 A new chapter starts now</td>
+</tr>
+</tbody>
+</table>
+</h2>
+<div class="folded Structure_element texttype_headlines chapter">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h3 class="fold-link Summary-link texttype_headlines-link chapter-link">
+Samenvatting over 22 woorden: <br />
+1x reductie; 22 woorden; ca. 1 min.
+</h3>
+<div class="unfolded Summary texttype_headlines chapter">
+Now comes some extra text. With a line break. Lets give a splendid additional story. with a beautiful subsection embedded in it. 
+</div>
+</td>
+<td width = "40%">
+<h3 class="fold-link Source-link texttype_headlines-link chapter-link">
+Onderliggende Tekst: <br />
+22 woorden; ca. 1 min.
+</h3>
+<div class="folded Source texttype_headlines chapter">
+Now comes some extra text.
+With a line break.
+<br />
+<br />
+Lets give a splendid additional story. with a beautiful subsection embedded in it. 
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<h3 class="fold-link Structure_element-link texttype_headlines-link section-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "5%">
+1
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+2.1 A new section</td>
+</tr>
+</tbody>
+</table>
+</h3>
+<div class="folded Structure_element texttype_headlines section">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h4 class="fold-link Summary-link texttype_headlines-link section-link">
+Samenvatting over 13 woorden: <br />
+1x reductie; 13 woorden; ca. 1 min.
+</h4>
+<div class="unfolded Summary texttype_headlines section">
+Lets give a splendid additional story. with a beautiful subsection embedded in it. 
+</div>
+</td>
+<td width = "40%">
+<h4 class="fold-link Source-link texttype_headlines-link section-link">
+Onderliggende Tekst: <br />
+13 woorden; ca. 1 min.
+</h4>
+<div class="folded Source texttype_headlines section">
+Lets give a splendid additional story.
+<br />
+<br />
+with a beautiful subsection embedded in it. 
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<h4 class="fold-link Structure_element-link texttype_headlines-link subsection-link"><table class="headertable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "4%">
+1
+</td>
+<td width = "15%">
+<i>
+Geen interne structuur.
+</i>
+</td>
+<td width = "1%">
+
+</td>
+<td width = "80%">
+2.1.1 Nice subsection</td>
+</tr>
+</tbody>
+</table>
+</h4>
+<div class="folded Structure_element texttype_headlines subsection">
+<table class="summarytable" width = "100%">
+<tbody>
+<tr valign="top">
+<td width = "20%">
+</td>
+<td width = "40%">
+<h5 class="fold-link Summary-link texttype_headlines-link subsection-link">
+Samenvatting over 7 woorden: <br />
+1x reductie; 7 woorden; ca. 1 min.
+</h5>
+<div class="unfolded Summary texttype_headlines subsection">
+with a beautiful subsection embedded in it. 
+</div>
+</td>
+<td width = "40%">
+<h5 class="fold-link Source-link texttype_headlines-link subsection-link">
+Onderliggende Tekst: <br />
+7 woorden; ca. 1 min.
+</h5>
+<div class="folded Source texttype_headlines subsection">
+with a beautiful subsection embedded in it.
+<br />
+<br />
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<hr class="subsection-horline">
+</div>
+<hr class="section-horline">
+</div>
+<hr class="chapter-horline">
+</div>
+<hr class="title-horline">
+</div>
+<script>
+$(document).ready(function() {
+// Hide all of the folded sections
+$(".folded").hide();
+// Add click handlers to the folded links
+$(".fold-link").click(function() {
+// Find the next sibling div and toggle its visibility
+$(this).next("div").toggle();
+});
+});
+</script>
+</body>
+</html>

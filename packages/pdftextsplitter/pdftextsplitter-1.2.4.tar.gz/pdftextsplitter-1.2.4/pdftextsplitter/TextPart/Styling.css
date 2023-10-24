@@ -1,0 +1,323 @@
+body > img {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.body {
+    margin: 0px;
+    line-height: 1.5;  /* hiermee wordt de regelhoogte 1.5 keer de grootte van het lettertype */
+}
+
+/* Header-classes */
+.texttype_headlines-link {
+    color: #99bee5;
+    font-size: 1.20vw; /* Was 1.35vw */
+    font-weight: 500;
+}
+
+.title-link {
+    color: #00007b;
+    font-weight: 900;
+    font-size: 2.5vw; /* Was 5vw */
+}
+
+.chapter-link {
+    color: #005dbd;
+    font-weight: 800;
+    font-size: 1.40vw; /* Was 2vw */
+}
+
+.section-link {
+    color: #337dca;
+    font-size: 1.3vw; /* Was 1.65vw */
+    font-weight: 700;
+}
+
+.subsection-link {
+    color: #669ed7;
+    font-size: 1.25vw; /* Was 1.4vw */
+    font-weight: 600;
+}
+
+.subsubsection-link {
+    color: #99bee5;
+    font-size: 1.20vw; /* Was 1.35vw */
+    font-weight: 500;
+}
+
+.bullet1-link {
+    color: #007b5f;
+    font-size: 1.15vw; /* Was 1.3vw */
+    font-weight: 700;
+}
+
+.bullet2-link {
+    color: #1a886f;
+    font-size: 1.10vw; /* Was 1.25vw */
+    font-weight: 650;
+}
+
+.bullet3-link {
+    color: #33957f;
+    font-size: 1.05vw; /* Was 1.2vw */
+    font-weight: 600;
+}
+
+.bullet4-link {
+    color: #4da38f;
+    font-size: 1.0vw; /* Was 1.15vw */
+    font-weight: 550;
+}
+
+.bullet5-link {
+    color: #66b09f;
+    font-size: 0.95vw; /* Was 1.1vw */
+    font-weight: 500;
+}
+
+.bullet6-link {
+    color: #80bdaf;
+    font-size: 0.9vw; /* Was 1.05vw */
+    font-weight: 450;
+}
+
+.summarytable{
+        color: #000000;
+        font-size: 1.2vw;
+        line-height: 150%;
+        background-color: #e6f7ff;  /* lichtblauwe kleur */
+        border-radius: 10px;  /* ronde hoeken */
+        padding: 20px;  /* binnenruimte rond de inhoud */
+        margin-bottom: 20px;  /* buitenruimte onder het element */
+        border:none !important; /* geen rand */
+        margin-left: 20px;
+        width: 97.818%
+}
+
+.headertable{
+        background-color: #ebebeb;  /* lichtgrijze kleur */
+        border-radius: 2px;  /* ronde hoeken */
+        border:none !important; /* geen rand */
+        margin-left: 20px;
+        width: 97.818%
+}
+
+.bannertable-standalone{
+        background-color: #bdbdbd;  /* donkergrijze kleur */
+        border-radius: 2px;  /* ronde hoeken */
+        border:none !important; /* geen rand */
+        position: fixed;
+        margin-top: 170px;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        margin-left: 20px;
+        width: 97.818%
+}
+
+.bannertable-django{
+        background-color: #bdbdbd;  /* donkergrijze kleur */
+        border-radius: 2px;  /* ronde hoeken */
+        border:none !important; /* geen rand */
+        position: fixed;
+        margin-top: 250px;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+        margin-left: 20px;
+        width: 97.818%
+}
+
+.Summary-link {
+    color: #4fa61a;
+    font-family: system-ui;
+    font-size: 1vw;
+    line-height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid #4fa61a;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.Summary {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.Summary-link:hover {
+    background-color: #4fa61a;
+    color: white;
+}
+
+.doc_metadata-link {
+    color: #eb9902;
+    font-family: system-ui;
+    font-size: 1vw;
+    line-height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid #eb9902;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.doc_metadata-link:hover {
+    background-color: #eb9902;
+    color: white;
+}
+
+.doc_metadata {
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+.Source-link {
+    color: #b90000;
+    font-family: system-ui;
+    font-size: 1vw;
+    line-height: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border: 2px solid #b90000;
+    padding: 10px 20px;
+    background-color: white;
+    border-radius: 15px;
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.Source {
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+.Source-link:hover {
+    background-color: #b90000;
+    color: white;
+}
+
+.Empty_element-link {
+    color: #8a8a8a;
+}
+
+/* Horizontal bars: */
+hr.title-horline {
+  border: none;
+  border-radius: 7px;
+  background: #00007b;
+  height: 17px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.chapter-horline {
+  border: none;
+  border-radius: 5px;
+  background: #005dbd;
+  height: 12px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.section-horline {
+  border: none;
+  border-radius: 3px;
+  background: #337dca;
+  height: 10px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.subsection-horline {
+  border: none;
+  border-radius: 3px;
+  background: #669ed7;
+  height: 8px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.subsubsection-horline {
+  border: none;
+  border-radius: 3px;
+  background: #99bee5;
+  height: 7px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.bullet1-horline {
+  border: none;
+  border-radius: 2px;
+  background: #007b5f;
+  height: 7px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.bullet2-horline {
+  border: none;
+  border-radius: 2px;
+  background: #1a886f;
+  height: 6px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.bullet3-horline {
+  border: none;
+  border-radius: 2px;
+  background: #33957f;
+  height: 5px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.bullet4-horline {
+  border: none;
+  border-radius: 2px;
+  background: #4da38f;
+  height: 4px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.bullet5-horline {
+  border: none;
+  border-radius: 2px;
+  background: #66b09f;
+  height: 3px;
+  margin-left: 20px;
+  width: 97.818%
+}
+
+hr.bullet6-horline {
+  border: none;
+  border-radius: 2px;
+  background: #80bdaf;
+  height: 2px;
+  margin-left: 20px;
+  width: 97.818%
+}

@@ -1,0 +1,1108 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Plan_Velo_FR] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Plan_Velo_FR
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1er Comité interministériel DOSSIER DE PRESSE 5 MAI 2023 Nous avons une ambition : donner à chaque Français accès à une mobilité propre. La moitié des déplacements en voiture font moins de 5 kilomètres : le vélo doit donc jouer un rôle essentiel. Le quinquennat précédent a constitué une première étape impor- tante. Nous avons lancé un premier plan vélo, qui a débouché sur des résultats concrets. Je retiens en particulier les 17 000 kilomètres de pistes cyclables et voies vertes construites et l’augmentation de 33% de la fréquenta- tion des infrastructures vélos par rapport à 2019. Pour accélérer cette 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Élisabeth Borne Première ministre
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1er Comité interministériel DOSSIER DE PRESSE 5 MAI 2023 Nous avons une ambition : donner à chaque Français accès à une mobilité propre. La moitié des déplacements en voiture font moins de 5 kilomètres : le vélo doit donc jouer un rôle essentiel. Le quinquennat précédent a constitué une première étape impor- tante. Nous avons lancé un premier plan vélo, qui a débouché sur des résultats concrets. Je retiens en particulier les 17 000 kilomètres de pistes cyclables et voies vertes construites et l’augmentation de 33% de la fréquenta- tion des infrastructures vélos par rapport à 2019. Pour accélérer cette 
+
+ [ALINEA-CONTENT]:
+1er Comité interministériel
+DOSSIER DE PRESSE
+5 MAI 2023
+
+          ***          [--- more alinea content ---]        ***          
+
+le calendrier ou le contenu des mesures du plan.
+Pour atteindre la neutralité carbone, nous devons décarboner les transports tout en
+offrant des solutions accessibles aux Français. Le vélo a tout son rôle à jouer.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Christophe Béchu Ministre de la Transition écologique et de la Cohésion des territoires
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+14 septembre 2018 c’est à Angers, ville précurseure en matière de mobilités douces, qu’avait été annoncé par le Premier ministre, le 1er plan vélo et mobilités actives. C’était l’engagement, plus que tenu, de mobiliser chaque année 50 millions d’euros pour accélérer le développement de l’usage de « la petite reine » dans notre pays. Pistes cyclables, aides à l’achat, les réalisations ont été nombreuses, et plébiscitées par les usagers. 4 ans plus tard, la Première ministre, Elisabeth Borne, annonçait le deuxième Plan vélo et mobilités actives qui s’inscrit dans la continuité, mais avec un changement de braquet décisif et une 
+
+ [ALINEA-CONTENT]:
+14 septembre 2018 c’est à Angers, ville précurseure en matière de
+mobilités douces, qu’avait été annoncé par le Premier ministre, le
+1er plan vélo et mobilités actives.
+
+          ***          [--- more alinea content ---]        ***          
+
+faire du vélo l’un des premiers modes de déplacement du quotidien en France.
+C’est un impératif pour la planète, un impératif qui permet aussi, très concrè-
+tement, d’améliorer la santé et la qualité de vie des Françaises et des Français.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Clément Beaune Ministre délégué chargé des Transports
+ nativeID=3 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Atteindre les objectifs ambitieux que nous nous sommes fixés en matière de décarbonation implique d’accentuer la réduction des gaz à effet de serre sur l’ensemble du territoire national. Pour relever ce défi, il est fondamental de transformer nos modes de transports et d’orienter nos pratiques vers des mobilités propres, dès que cela est possible. C’est notamment le cas pour tous les trajets les plus courts. Aujourd’hui, près la moitié de nos déplacements en voiture font moins de 5 km. C’est un potentiel immense pour encourager le vélo et la marche ! Depuis 4 ans et le premier « Plan vélo 
+
+ [ALINEA-CONTENT]:
+Atteindre les objectifs ambitieux que nous nous sommes fixés en
+matière de décarbonation implique d’accentuer la réduction des
+gaz à effet de serre sur l’ensemble du territoire national.
+
+          ***          [--- more alinea content ---]        ***          
+
+les âges de la vie.
+Amis du vélo, collectivités, associations, entreprises et start-up, ce plan ne se réalise-
+ra pas sans vous. Alors ensemble, on accélère !
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = LE VÉLO ET LA MARCHE : DES MOBILITÉS D’AVENIR
+ nativeID=4 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Atteindre la neutralité carbone à l’horizon 2050 implique de poursuivre et d’accentuer la réduc- tion des gaz à effet de serre sur l’ensemble du territoire national. Si nous sommes sur la bonne voie, cet objectif demande chaque jour des efforts supplémentaires et nécessite de trans- former nos modes de vie, de consommation et de production. Il suppose aussi de révolutionner le secteur des transports et de décarboner nos mobilités. Dès 2018 avec la loi d’orientation des mobilités (LOM) puis le Plan vélo et mobilités actives, le Gouvernement a amorcé un travail pour faire du vélo un moyen de transport à 
+
+ [ALINEA-CONTENT]:
+Atteindre la neutralité carbone à l’horizon 2050
+implique de poursuivre et d’accentuer la réduc-
+tion des gaz à effet de serre sur l’ensemble du
+
+          ***          [--- more alinea content ---]        ***          
+
+voulons redoubler d’efforts pour continuer à
+rendre le vélo accessible à chaque Français, en
+ville comme dans tous les territoires.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • 410 millions d’euros
+ nativeID=5 parentID=4 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+c’est le montant investi dans le fonds mo- bilités actives pour accélérer les projets de création de pistes cyclables et des places de stationnement sécurisées pour les vélos dans toutes les gares. 
+
+ [ALINEA-CONTENT]:
+c’est le montant investi dans le fonds mo-
+bilités actives pour accélérer les projets de
+création de pistes cyclables et des places de
+
+          ***          [--- more alinea content ---]        ***          
+
+stationnement sécurisées pour les vélos dans
+toutes les gares.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • 28 000 km
+ nativeID=6 parentID=4 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+c’est la longueur total des aménagements cyclables qui ont été créés, dont 17 000 km de pistes et de voies vertes sur l’ensemble du territoire (+40 % depuis 2017). 
+
+ [ALINEA-CONTENT]:
+c’est la longueur total des aménagements
+cyclables qui ont été créés, dont 17 000 km
+de pistes et de voies vertes sur l’ensemble du
+
+          ***          [--- more alinea content ---]        ***          
+
+territoire (+40 % depuis 2017).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • 4 millions
+ nativeID=7 parentID=4 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+c’est le nombre de vélos qui ont été inscrits dans le nouveau registre national d’immatri- culation, grâce au marquage obligatoire des vélos qui permet de lutter contre le vol et de restituer les vélos à leurs propriétaires lors- qu’ils sont retrouvés. 
+
+ [ALINEA-CONTENT]:
+c’est le nombre de vélos qui ont été inscrits
+dans le nouveau registre national d’immatri-
+culation, grâce au marquage obligatoire des
+
+          ***          [--- more alinea content ---]        ***          
+
+vélos qui permet de lutter contre le vol et de
+restituer les vélos à leurs propriétaires lors-
+qu’ils sont retrouvés.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • 200 000
+ nativeID=8 parentID=4 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+c’est le nombre d’enfants autonomes sur la route, formés depuis 2019 grâce au pro- gramme Savoir rouler à vélo. Il permet à tous les enfants entrant au collège de maîtriser la pratique du vélo. 
+
+ [ALINEA-CONTENT]:
+c’est le nombre d’enfants autonomes sur
+la route, formés depuis 2019 grâce au pro-
+gramme Savoir rouler à vélo. Il permet à tous
+
+          ***          [--- more alinea content ---]        ***          
+
+les enfants entrant au collège de maîtriser la
+pratique du vélo.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • 65 millions d’euros
+ nativeID=9 parentID=4 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+c’est le montant d’aides versées à l’achat de vélos électriques, pour soutenir les ventes et la transition vers des mobilités propres. Le Plan vélo et mobilités actives a ainsi permis d’instaurer une véritable culture du vélo et d’en faire un mode de déplacement à part entière : 
+
+ [ALINEA-CONTENT]:
+c’est le montant d’aides versées à l’achat de
+vélos électriques, pour soutenir les ventes et
+la transition vers des mobilités propres.
+
+          ***          [--- more alinea content ---]        ***          
+
+Le Plan vélo et mobilités actives a ainsi permis
+d’instaurer une véritable culture du vélo et d’en
+faire un mode de déplacement à part entière :
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • 52%
+ nativeID=10 parentID=4 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+c’est l’augmentation de la fréquentation des itinéraires à vélos par rapport à 2017 ; 
+
+ [ALINEA-CONTENT]:
+c’est l’augmentation de la fréquentation des
+itinéraires à vélos par rapport à 2017 ;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = • 17 millions
+ nativeID=11 parentID=4 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+c’est le nombre de vélos vendus depuis 2017, dont 2,9 millions à assistance électrique. Depuis le lancement du Plan vélo et marche, la dynamique en faveur du vélo est donc très po- sitive et reçoit l’adhésion d’un nombre croissant de Français. Pour accélérer ses effets tant sur le plan écono- mique, social, qu’environnemental, la Première ministre a lancé en septembre 2022 un acte II du plan, dédié à la période 2023-2027. À cette occasion, elle a annoncé un nouveau fonds pour le vélo, doté de 250 millions d’euros en 2023 et le lancement d’un comité interministériel. 
+
+ [ALINEA-CONTENT]:
+c’est le nombre de vélos vendus depuis 2017,
+dont 2,9 millions à assistance électrique.
+Depuis le lancement du Plan vélo et marche, la
+
+          ***          [--- more alinea content ---]        ***          
+
+occasion, elle a annoncé un nouveau fonds pour
+le vélo, doté de 250 millions d’euros en 2023 et
+le lancement d’un comité interministériel.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2 0 2 3 - 2 0 2 7
+ nativeID=12 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1er Comité interministériel Conformément aux engagements de la Première ministre lors du lancement du Plan vélo et marche 2023-2027, le premier comité interministériel vélo et marche s’est tenu le 5 mai 2023, sous l’autorité de la Première ministre. Le Plan vélo et marche 2023-2027 a fixé trois ambitions pour inscrire le vélo et la marche dans le quotidien de tous les Français. Le comité du 5 mai 2023 a établi des mesures prioritaires pour concrétiser ces ambitions. Au total, c’est un montant inédit de 2 milliards d’euros qui sera investi par l’État avec l’en- semble des dispositifs de soutien sur 
+
+ [ALINEA-CONTENT]:
+1er Comité interministériel
+Conformément aux engagements de la
+Première ministre lors du lancement du Plan
+
+          ***          [--- more alinea content ---]        ***          
+
+qui seront investis sur la période pour le déve-
+loppement des infrastructures favorisant les
+mobilités actives.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3 A M B I T I O N S
+ nativeID=13 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = M E S U R E S P H A R E S
+ nativeID=14 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1.
+ nativeID=15 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2.
+ nativeID=16 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3.
+ nativeID=17 parentID=0 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Rendre le vélo accessible à toutes et tous, dès le plus jeune âge et tout au long de la vie. Faire du vélo et de la marche une alternative attractive à la voiture individuelle pour les déplace- ments de proximité et combinée aux transports collectifs pour les déplacements de plus longues distances. Faire du vélo un levier pour notre économie en accompagnant les acteurs français de la filière. 
+
+ [ALINEA-CONTENT]:
+Rendre le vélo accessible à toutes
+et tous, dès le plus jeune âge et
+tout au long de la vie.
+
+          ***          [--- more alinea content ---]        ***          
+
+Faire du vélo un levier pour notre
+économie en accompagnant les
+acteurs français de la filière.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1.
+ nativeID=18 parentID=0 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2.
+ nativeID=19 parentID=0 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3.
+ nativeID=20 parentID=0 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1,5 milliard d’euros pour dévelop- per les infrastructures cyclables partout en France et ainsi doubler notre réseau cyclable d’ici 2030. Prolongation des aides à l’achat jusqu’à la fin du plan vélo et marche, en 2027, ainsi que l’ou- verture de ces aides aux vélos d’occasion vendus par des profes- sionnels. Formation de l’ensemble d’une classe d’âge au « Savoir Rouler à Vélo », soit 850 000 enfants en 2027. 
+
+ [ALINEA-CONTENT]:
+1,5 milliard d’euros pour dévelop-
+per les infrastructures cyclables
+partout en France et ainsi doubler
+
+          ***          [--- more alinea content ---]        ***          
+
+classe d’âge au « Savoir Rouler à
+Vélo », soit 850 000 enfants en
+2027.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1.
+ nativeID=21 parentID=0 & horizontal_ordering=10
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = RENDRE LE VÉLO ACCESSIBLE À TOUTES ET TOUS, DÈS LE PLUS JEUNE ÂGE ET TOUT AU LONG DE LA VIE
+ nativeID=22 parentID=0 & horizontal_ordering=11
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Donner aux enfants la capacité de se déplacer de manière active et du- rable est essentiel à l’heure où la sédentarité fait courir des risques sani- taires majeurs. Après 4 ans d’action avec les partenaires de ce programme, de nombreux progrès ont été obtenus et plus de 200 000 enfants ont déjà été formés. Nous sommes pleinement mobilisés pour atteindre un objectif ambitieux : former 850 000 enfants chaque année à partir 2027, comme l’a annoncé la Première ministre. À travers le Plan vélo et marche 2023-2027, le Gouvernement réaffirme sa volonté de géné- raliser le dispositif Savoir rouler à 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Amélie Oudéa Castéra Ministre des Sports et des Jeux olympiques et paralympiques
+ nativeID=23 parentID=22 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Donner aux enfants la capacité de se déplacer de manière active et du- rable est essentiel à l’heure où la sédentarité fait courir des risques sani- taires majeurs. Après 4 ans d’action avec les partenaires de ce programme, de nombreux progrès ont été obtenus et plus de 200 000 enfants ont déjà été formés. Nous sommes pleinement mobilisés pour atteindre un objectif ambitieux : former 850 000 enfants chaque année à partir 2027, comme l’a annoncé la Première ministre. 
+
+ [ALINEA-CONTENT]:
+Donner aux enfants la capacité de se déplacer de manière active et du-
+rable est essentiel à l’heure où la sédentarité fait courir des risques sani-
+taires majeurs. Après 4 ans d’action avec les partenaires de ce programme,
+
+          ***          [--- more alinea content ---]        ***          
+
+été formés. Nous sommes pleinement mobilisés pour atteindre un objectif
+ambitieux : former 850 000 enfants chaque année à partir 2027, comme l’a
+annoncé la Première ministre.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Le vélo dès le plus jeune âge
+ nativeID=24 parentID=22 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+À travers le Plan vélo et marche 2023-2027, le Gouvernement réaffirme sa volonté de géné- raliser le dispositif Savoir rouler à vélo, pour que chaque enfant entre 6 et 11 ans apprenne à circuler à vélo en sécurité, avec un compor- tement responsable et citoyen. Il vise aussi à leur transmettre la « culture du vélo », pour favoriser un mode de transport favorable à leur santé et à l’environnement. Depuis 2019, 200 000 enfants ont été formés au dispositif Savoir rouler à vélo. Pour la seule année 2023, 200 000 enfants supplémentaires bénéficieront du pro- gramme. Progressivement, ce sont 
+
+ [ALINEA-CONTENT]:
+À travers le Plan vélo et marche 2023-2027, le
+Gouvernement réaffirme sa volonté de géné-
+raliser le dispositif Savoir rouler à vélo, pour
+
+          ***          [--- more alinea content ---]        ***          
+
+favoriser un meilleur partage de la route et un
+meilleur respect de l’ensemble des usagers de
+la route.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Le vélo tout au long de la vie
+ nativeID=25 parentID=22 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Au-delà des bénéfices environnementaux, les mobilités actives constituent un enjeu quoti- dien de santé publique. Il s’agit d’un moyen préventif pour se maintenir chaque jour en bonne santé et lutter contre la sédentarité. Main dans la main avec les professionnels de santé, les collectivités ou encore les employeurs, le Gouvernement veut dé- velopper les mobilités actives comme un véritable outil de prévention et de promo- tion de la santé. • En intégrant le vélo et la marche dans les rendez-vous de prévention aux âges clés. • En élaborant un support pédagogique sur les mobilités actives à l’attention des pro- fessionnels 
+
+ [ALINEA-CONTENT]:
+Au-delà des bénéfices environnementaux, les
+mobilités actives constituent un enjeu quoti-
+dien de santé publique. Il s’agit d’un moyen
+
+          ***          [--- more alinea content ---]        ***          
+
+velopper les mobilités actives comme un
+véritable outil de prévention et de promo-
+tion de la santé.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = • En intégrant le vélo et ...
+ nativeID=26 parentID=25 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• En intégrant le vélo et la marche dans les rendez-vous de prévention aux âges clés. 
+
+ [ALINEA-CONTENT]:
+• En intégrant le vélo et la marche dans les
+rendez-vous de prévention aux âges clés.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = • En élaborant un support pédagogique ...
+ nativeID=27 parentID=25 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• En élaborant un support pédagogique sur les mobilités actives à l’attention des pro- fessionnels de santé. 
+
+ [ALINEA-CONTENT]:
+• En élaborant un support pédagogique sur
+les mobilités actives à l’attention des pro-
+fessionnels de santé.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = • En complétant les chartes du ...
+ nativeID=28 parentID=25 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• En complétant les chartes du Programme 
+
+ [ALINEA-CONTENT]:
+• En complétant les chartes du Programme
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Le vélo au travail
+ nativeID=29 parentID=22 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+national nutrition santé avec un volet sur la pratique du vélo et de la marche. Présentes sur l’ensemble du territoire, les Maisons sport-santé ont pour rôle d’accueil- lir, d’informer et d’accompagner toutes les personnes ayant besoin de conseils et d’aides pour reprendre ou démarrer une activité phy- sique, notamment en portant une attention particulière aux personnes isolées, atteintes de pathologies ou éloignées de la pratique. Les Maisons sport-santé seront mobilisées pour proposer des activités en lien avec la marche et le vélo pour diversifier leur offre de service et accompagner un plus grand nombre d’usagers vers les mobilités actives. Dans 
+
+ [ALINEA-CONTENT]:
+national nutrition santé avec un volet sur la
+pratique du vélo et de la marche.
+Présentes sur l’ensemble du territoire, les
+
+          ***          [--- more alinea content ---]        ***          
+
+Créé en 2021 à l’initiative de la FUB et de l’Ade-
+me, ce label récompense les employeurs enga-
+gés : plus de 40 sites sont déjà labellisés.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = • Augmentation du forfait mobilités durables 
+ nativeID=30 parentID=29 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Augmentation du forfait mobilités durables pour la fonction publique de 200 à 300 euros. Le plafond des 100 jours a également été assoupli et il est désormais possible de le cumuler avec d’autres titres de trans- ports. 
+
+ [ALINEA-CONTENT]:
+• Augmentation du forfait mobilités durables
+pour la fonction publique de 200 à 300
+euros. Le plafond des 100 jours a également
+
+          ***          [--- more alinea content ---]        ***          
+
+été assoupli et il est désormais possible de
+le cumuler avec d’autres titres de trans-
+ports.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = • Généralisation des espaces de stationne- 
+ nativeID=31 parentID=29 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Généralisation des espaces de stationne- ment vélo sécurisés dans les bâtiments des services publics et développement du vélo cargo dans la commande publique affirmés dans une circulaire du 10 novembre 2022. 
+
+ [ALINEA-CONTENT]:
+• Généralisation des espaces de stationne-
+ment vélo sécurisés dans les bâtiments des
+services publics et développement du vélo
+
+          ***          [--- more alinea content ---]        ***          
+
+cargo dans la commande publique affirmés
+dans une circulaire du 10 novembre 2022.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Le vélo accessible à toutes et tous
+ nativeID=32 parentID=22 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Les aides à l’achat (bonus vélo et prime à la conversion vélo) ont été bonifiées en août 2022. En plus des personnes morales, les aides bénéficient à 50 % des ménages français aux revenus les plus modestes et sont bonifiées pour les 20 % des ménages aux revenus très modestes. Sur la période 2017-2022 ce sont ainsi 67 mil- lions d’euros d’aides à l’achat d’un vélo qui ont été versées à plus de 300 000 Français. Le Gouvernement annonce aujourd’hui la pro- longation de ces aides jusqu’à la fin du plan vélo et marche, en 2027, ainsi que l’ouverture de 
+
+ [ALINEA-CONTENT]:
+Les aides à l’achat (bonus vélo et prime à la
+conversion vélo) ont été bonifiées en août
+2022. En plus des personnes morales, les aides
+
+          ***          [--- more alinea content ---]        ***          
+
+situation de précarité. Porté par la FUB, ce pro-
+gramme est financé par des certificats d’écono-
+mies d’énergie à hauteur de 20 millions d’euros.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = L e s a i d e s
+ nativeID=33 parentID=0 & horizontal_ordering=12
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = à l ’ a c h a t
+ nativeID=34 parentID=0 & horizontal_ordering=13
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = d ’ u n v é l o
+ nativeID=35 parentID=0 & horizontal_ordering=14
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2.
+ nativeID=36 parentID=0 & horizontal_ordering=15
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = FAIRE DU VÉLO ET DE LA MARCHE DES ALTERNATIVES ATTRACTIVES À LA VOITURE INDIVIDUELLE POUR LES DÉPLACEMENTS DE PROXIMITÉ ET COMBINÉE AUX TRANSPORTS COLLECTIFS POUR LES DÉPLACEMENTS DE PLUS LONGUE DISTANCE
+ nativeID=37 parentID=0 & horizontal_ordering=16
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Priorité au développement des infrastruc- tures cyclables Le 20 septembre 2022, la Première ministre a annoncé la reconduction du fonds mobilités actives augmenté à 250 millions d’euros pour l’année 2023 dont 200 millions d’euros dédiés aux infrastructures. Sur la durée du plan, le fonds mobilités ac- tives sera pérennisé à hauteur de 1,25 milliard d’euros, soit 250 millions d’euros par an, pour accélérer le développement des aménage- ments cyclables partout en France. C’est un effort sans précédent et inédit de l’État. Le réseau des véloroutes constitue le réseau structurant au niveau national et régional. Permettant le déplacement sécurisé sur de 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Développer un réseau cyclable adapté et sécurisé
+ nativeID=38 parentID=37 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Priorité au développement des infrastruc- tures cyclables Le 20 septembre 2022, la Première ministre a annoncé la reconduction du fonds mobilités actives augmenté à 250 millions d’euros pour l’année 2023 dont 200 millions d’euros dédiés aux infrastructures. Sur la durée du plan, le fonds mobilités ac- tives sera pérennisé à hauteur de 1,25 milliard d’euros, soit 250 millions d’euros par an, pour accélérer le développement des aménage- ments cyclables partout en France. C’est un effort sans précédent et inédit de l’État. Le réseau des véloroutes constitue le réseau structurant au niveau national et régional. Permettant le déplacement sécurisé sur de 
+
+ [ALINEA-CONTENT]:
+Priorité au développement des infrastruc-
+tures cyclables
+Le 20 septembre 2022, la Première ministre a
+
+          ***          [--- more alinea content ---]        ***          
+
+clables sécurisés sont déployés sur le terri-
+toire. L’objectif est d’atteindre 80 000 km
+en 2027 et 100 000 km en 2030.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = • Le 21 janvier, le Gouvernement ...
+ nativeID=39 parentID=38 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Le 21 janvier, le Gouvernement a lancé le nouvel appel à projets fonds mobilités actives - aménagements cyclables, doté d’une enveloppe de 100 millions d’euros pour financer des projets d’aménagements cyclables sécurisés. 610 dossiers ont été re- çus à la clôture de l’appel à projets fin avril, témoignant de la forte attente des collec- tivités pour cet appel. Les lauréats seront annoncés en septembre. 
+
+ [ALINEA-CONTENT]:
+• Le 21 janvier, le Gouvernement a lancé le
+nouvel appel à projets fonds mobilités
+actives - aménagements cyclables, doté
+
+          ***          [--- more alinea content ---]        ***          
+
+témoignant de la forte attente des collec-
+tivités pour cet appel. Les lauréats seront
+annoncés en septembre.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = • Un appel à territoires cyclables ...
+ nativeID=40 parentID=38 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• Un appel à territoires cyclables sera lancé sous forme expérimentale dans les pro- chains jours pour accompagner dans la durée des territoires peu ou moyennement denses et accélérer la mise en œuvre de leur schéma cyclable, pour un montant de 100 millions d’euros. 
+
+ [ALINEA-CONTENT]:
+• Un appel à territoires cyclables sera lancé
+sous forme expérimentale dans les pro-
+chains jours pour accompagner dans la
+
+          ***          [--- more alinea content ---]        ***          
+
+denses et accélérer la mise en œuvre de leur
+schéma cyclable, pour un montant de 100
+millions d’euros.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Soutenir les villes et collectivités engagées dans le développement
+ nativeID=41 parentID=37 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = de la marche et du vélo
+ nativeID=42 parentID=37 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le programme ID-Marche – initiative pour le développement de la marche –, lancé en 2023, est le premier programme national de soutien aux mobilités piétonnes. Son objectif est d’intensifier l’appui aux collectivités pour favoriser la politique de la marche des villes et villages, pendant une durée de 4 ans. Pour accompagner les politiques locales, 4 millions d’euros sont investis sur 4 ans par le ministère des Transports, le Cerema et l’Ademe qui pilo- teront ce programme. Le fonds d’accélération de la transition écolo- gique des territoires, aussi appelé Fonds vert, vise notamment à accompagner le déploie- ment des zones à 
+
+ [ALINEA-CONTENT]:
+Le programme ID-Marche – initiative pour
+le développement de la marche –, lancé en
+2023, est le premier programme national de
+
+          ***          [--- more alinea content ---]        ***          
+
+l’investissement de l’Ademe soulignent l’im-
+portance accordée pour rendre l’intégralité du
+territoire national cyclable.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Renforcer la sécurité des cyclistes et des piétons par la sensibilisation
+ nativeID=43 parentID=42 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le nombre d’accidents à vélo croît avec le développement des usages. Si en aggloméra- tion la croissance semble contenue au regard de la très forte croissance des pratiques, hors agglomération la situation est plus préoccu- pante avec un nombre important de chutes de cyclistes seuls. En parallèle du développement des aménage- ments cyclables, il est nécessaire de renforcer la sécurité des cyclistes par une meilleure sensibilisation. L’incitation au port permanent du casque et au port du gilet haute visibilité afin d’améliorer leur visibilité surtout la nuit et dans des environnements mal éclairés sera renforcée. La convention État-assureurs permettra une implication 
+
+ [ALINEA-CONTENT]:
+Le nombre d’accidents à vélo croît avec le
+développement des usages. Si en aggloméra-
+tion la croissance semble contenue au regard
+
+          ***          [--- more alinea content ---]        ***          
+
+vulnérables, adaptée à l’accidentalité et à
+l’évolution des pratiques, sera lancée chaque
+printemps.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Renforcer la sécurité des cyclistes et des piétons
+ nativeID=44 parentID=42 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = par l’adaptation du code de la route
+ nativeID=45 parentID=37 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Deux expérimentations visant à faciliter l’arrêt et le redémarrage des cyclistes au feu rouge seront conduites. D’une part, en lien avec les collectivités gestionnaires de voirie, il est proposé d’installer des repose-pieds en bord de chaussée afin de permettre aux cyclistes de s’arrêter au feu sans avoir à descendre de selle. D’autre part, un décalage du passage au vert pour les cyclistes sera expérimenté afin de leur permettre d’évacuer le sas et de retrouver une vitesse suffisante avant le dé- part des autres véhicules, sécurisant ainsi leur départ au moment du passage du feu au vert. Pour que le cycliste 
+
+ [ALINEA-CONTENT]:
+Deux expérimentations visant à faciliter l’arrêt
+et le redémarrage des cyclistes au feu rouge
+seront conduites. D’une part, en lien avec
+
+          ***          [--- more alinea content ---]        ***          
+
+dence qui doit accompagner cette pratique.
+Le doublement d’un véhicule équipé d’un
+autocollant Angle mort demeurera interdit.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Intensifier la lutte contre le vol
+ nativeID=46 parentID=45 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = et développer le stationnement vélo sécurisé
+ nativeID=47 parentID=37 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Depuis 2021, l’ensemble des vélos vendus en France doivent être identifiés. Le fichier na- tional unique des cycles identifiés constitué en 2021 répertorie aujourd’hui 4 millions de vélos. Le dispositif de marquage a déjà permis, sur les 20 000 signalements de vols sur le fi- chier, de restituer près de 10 % des vélos volés à leur propriétaire. non résidentielles, neuves ou faisant l’objet de travaux de rénovation. À l’issue des négo- ciations européennes et une fois la directive publiée, la France la transposera dès que pos- sible, ce qui viendra compléter des évolutions déjà portées au code de la 
+
+ [ALINEA-CONTENT]:
+Depuis 2021, l’ensemble des vélos vendus en
+France doivent être identifiés. Le fichier na-
+tional unique des cycles identifiés constitué
+
+          ***          [--- more alinea content ---]        ***          
+
+tées. L’objectif est de tripler le nombre de
+places par rapport à 2022 et d’atteindre
+90 000 emplacements sécurisés en 2027.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3.
+ nativeID=48 parentID=0 & horizontal_ordering=17
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = FAIRE DU VÉLO UN LEVIER POUR NOTRE ÉCONOMIE EN ACCOMPAGNANT L’ÉCOSYSTÈME DES ACTEURS FRANÇAIS DE LA FILIÈRE
+ nativeID=49 parentID=0 & horizontal_ordering=18
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le plan 2023-2027 a plusieurs objectifs, dont celui de faire du vélo un levier pour notre économie en accompagnant les acteurs français. Il faut que l’on puisse faire du vélo sur des pistes cyclables en France avec des vélos fabriqués en France. Nous annonçons aujourd’hui le lancement pro- chain d’un appel à projets pour renforcer la filière industrielle française du vélo et faire revenir une industrie du quotidien dans nos territoires. Les sites olympiques et paralympiques pour les jeux de Paris seront accessibles à vélo et des stationnements y seront dis- ponibles. Un réseau cyclable olympique et des stationnements seront 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Roland Lescure Ministre délégué auprès du ministre de l’Économie, des Finances et de la Souveraineté industrielle et numérique, chargé de l’Industrie
+ nativeID=50 parentID=49 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le plan 2023-2027 a plusieurs objectifs, dont celui de faire du vélo un levier pour notre économie en accompagnant les acteurs français. Il faut que l’on puisse faire du vélo sur des pistes cyclables en France avec des vélos fabriqués en France. Nous annonçons aujourd’hui le lancement pro- chain d’un appel à projets pour renforcer la filière industrielle française du vélo et faire revenir une industrie du quotidien dans nos territoires. 
+
+ [ALINEA-CONTENT]:
+Le plan 2023-2027 a plusieurs objectifs, dont celui de faire du vélo un
+levier pour notre économie en accompagnant les acteurs français. Il faut
+que l’on puisse faire du vélo sur des pistes cyclables en France avec des
+
+          ***          [--- more alinea content ---]        ***          
+
+vélos fabriqués en France. Nous annonçons aujourd’hui le lancement pro-
+chain d’un appel à projets pour renforcer la filière industrielle française du
+vélo et faire revenir une industrie du quotidien dans nos territoires.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Structurer une filière économique
+ nativeID=51 parentID=49 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+À la suite des États généraux accueillis au ministère de l’Industrie, la filière économique du vélo poursuit activement ses travaux pour définir, avec les acteurs qui la composent, une structure, une gouvernance et des projets qui porteront les engagements de la filière. Un contrat de filière, reprenant les ambitions pré- sentées aux États généraux, sera signé à l’issue de ces travaux avec l’État en 2023. Pour accompagner la réindustrialisation et les innovations françaises dans le secteur du cy- cle en France, un appel à projets sera lancé en 2023. Cet appel doit encourager les acteurs industriels à innover, à relocaliser 
+
+ [ALINEA-CONTENT]:
+À la suite des États généraux accueillis au
+ministère de l’Industrie, la filière économique
+du vélo poursuit activement ses travaux pour
+
+          ***          [--- more alinea content ---]        ***          
+
+dans des usines françaises. L’objectif est de
+dépasser 1,4 million en 2027 et atteindre 2
+millions en 2030.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Développer les filières françaises du vélo reconditionné
+ nativeID=52 parentID=49 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+100 millions de plus sur les 5 prochaines années avec les filières à responsabilité élar- gie des producteurs (REP) pour redonner du pouvoir d’achat aux Français en finançant la réparation des vélos : • plus de vélos reconditionnés à un meilleur prix ; • augmentation des bonus de réparation pour les élargir aux vélos électriques, aux pièces d’entretien et aux repair’cafés. 
+
+ [ALINEA-CONTENT]:
+100 millions de plus sur les 5 prochaines
+années avec les filières à responsabilité élar-
+gie des producteurs (REP) pour redonner du
+
+          ***          [--- more alinea content ---]        ***          
+
+pouvoir d’achat aux Français en finançant la
+réparation des vélos :
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = • plus de vélos reconditionnés à ...
+ nativeID=53 parentID=52 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• plus de vélos reconditionnés à un meilleur prix ; 
+
+ [ALINEA-CONTENT]:
+• plus de vélos reconditionnés à un meilleur
+prix ;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = • augmentation des bonus de réparation 
+ nativeID=54 parentID=52 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SIGNMARK
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+• augmentation des bonus de réparation pour les élargir aux vélos électriques, aux pièces d’entretien et aux repair’cafés. 
+
+ [ALINEA-CONTENT]:
+• augmentation des bonus de réparation
+pour les élargir aux vélos électriques, aux
+pièces d’entretien et aux repair’cafés.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Développer le vélotourisme
+ nativeID=55 parentID=49 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Pour faire de la France la première destination touristique cyclable du monde en 2030, il est nécessaire d’élaborer une stratégie nationale du vélotourisme. Un travail de concertation avec les acteurs de la filière, animé par Vélo & Territoires est en cours et aboutira à la remise d’un livre blanc à la ministre chargée du Tou- risme. Sur la base de ces recommandations, la stratégie sera pilotée par l’État, en association avec les associations, les collectivités et les acteurs économiques. 
+
+ [ALINEA-CONTENT]:
+Pour faire de la France la première destination
+touristique cyclable du monde en 2030, il est
+nécessaire d’élaborer une stratégie nationale
+
+          ***          [--- more alinea content ---]        ***          
+
+stratégie sera pilotée par l’État, en association
+avec les associations, les collectivités et les
+acteurs économiques.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Développer la cyclologistique
+ nativeID=56 parentID=49 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = Olivia Grégoire Ministre déléguée chargée des Pe- tites et Moyennes Entreprises, du Commerce, de l’Artisanat et du Tourisme
+ nativeID=57 parentID=49 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Pour conforter la transition vers une logistique du dernier kilomètre décarbonée, la TVA sur l’achat, la location et la maintenance de vé- los-cargos dont les caractéristiques techniques les destinent au transport de marchandises est déductible dans les conditions de droit commun, au même titre que la taxe sur les véhicules utilitaires légers. Il en est ainsi lorsque les vélo-cargos sont dépourvus de dispositifs prévus par la réglementation pour le transport d’enfants (siège passager et, selon les cas, cour- roies ou poignées et repose pieds). Le programme Cyclo-cargologie, pour aider à la structuration des PME de la cyclogistique, sera lancé prochainement. 
+
+ [ALINEA-CONTENT]:
+Pour conforter la transition vers une logistique
+du dernier kilomètre décarbonée, la TVA sur
+l’achat, la location et la maintenance de vé-
+
+          ***          [--- more alinea content ---]        ***          
+
+miques. Notre pays a les moyens de ses
+ambitions, à nous de les mettre en œuvre
+pour atteindre nos objectifs.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Des Jeux olympiques et paralympiques 2024 cyclables en héritage
+ nativeID=58 parentID=49 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Les sites olympiques et paralympiques pour les jeux de Paris seront accessibles à vélo et des stationnements y seront dis- ponibles. Un réseau cyclable olympique et des stationnements seront réalisés et mis en place, sous forme définitive ou tempo- raire. Il constituera à la fois une invitation pour les visiteurs à pro- fiter de la capitale et de ses alentours à la vitesse du vélo et un héritage pour les Franciliens. 12 millions d’euros supplémentaires sont engagés, en plus de 14 millions d’euros déjà affectés en 2022, pour aider les collectivités locales et Paris2024 à faire de cet évènement les 
+
+ [ALINEA-CONTENT]:
+Les sites olympiques et paralympiques pour les jeux de Paris
+seront accessibles à vélo et des stationnements y seront dis-
+ponibles. Un réseau cyclable olympique et des stationnements
+
+          ***          [--- more alinea content ---]        ***          
+
+cet évènement les premiers Jeux olympiques et paralympiques
+cyclables de l’histoire. Le réseau cyclable olympique bénéficiera
+à l’ensemble des Franciliens après les jeux, comme pendant.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = au développement du vélo
+ nativeID=59 parentID=49 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+La France a signé la Déclaration du vélo avec qua- torze autres pays européens (Autriche, Belgique, Croatie, Danemark, Espagne, Estonie, Grèce, Hongrie, Irlande, Lituanie, Luxembourg, Pays-Bas, Slovaquie, Slovénie). Le Parlement européen a adopté en février une résolution visant à élaborer une stratégie euro- péenne du vélo. Avec les pays signataires et le Parle- ment européen, la France invite ainsi la Commission européenne à proposer une stratégie européenne du vélo et à faire de l’année 2024 l’Année européenne du vélo. 
+
+ [ALINEA-CONTENT]:
+La France a signé la Déclaration du vélo avec qua-
+torze autres pays européens (Autriche, Belgique,
+Croatie, Danemark, Espagne, Estonie, Grèce, Hongrie,
+
+          ***          [--- more alinea content ---]        ***          
+
+européenne à proposer une stratégie européenne du
+vélo et à faire de l’année 2024 l’Année européenne du
+vélo.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Comité de suivi du Plan vélo et marche
+ nativeID=60 parentID=49 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Le Plan vélo et marche s’appuie sur l’ensemble des acteurs des mobilités actives pour faire de la France un grand pays du vélo et de la marche. Conçu en lien régulier avec les associations de collectivités et d’usagers, les acteurs économiques et les industriels, cette démarche sera poursuivie et renforcée. Dans les suites du précédent Plan vélo et marche, un comité de suivi sera mis en place pour disposer d’un espace de dialogue avec les partenaires ministériels et l’ensemble des parties prenantes. Ce comité se réunira avant chaque comité inter- ministériel afin de faire un bilan de l’avancement des mesures 
+
+ [ALINEA-CONTENT]:
+Le Plan vélo et marche s’appuie sur l’ensemble des acteurs des
+mobilités actives pour faire de la France un grand pays du vélo
+et de la marche. Conçu en lien régulier avec les associations
+
+          ***          [--- more alinea content ---]        ***          
+
+et continuer à enrichir le plan. Cette démarche partenariale
+permettra de répondre aux enjeux, dans une logique d’amélio-
+ration continue et collaborative.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Fêter Mai à vélo
+ nativeID=61 parentID=49 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Initié en 2020 par le ministère de la Transition écologique et le ministère chargé des Sports avec tous les acteurs nationaux du vélo, Mai à vélo est un événement d’ampleur nationale de promotion et d’animation autour du vélo et des mobilités durables. Cette fête, qui dure un mois, a vocation à ce que le vélo soit utilisé et adopté partout en France, par le plus grand nombre, tout le reste de l’année. Après deux premières édi- tions réussies – près de 3 000 évènements en 2022 – Mai à vélo revient en 2023 pour rassembler de manière festive toutes les 
+
+ [ALINEA-CONTENT]:
+Initié en 2020 par le ministère de la Transition écologique et le ministère chargé des
+Sports avec tous les acteurs nationaux du vélo, Mai à vélo est un événement d’ampleur
+nationale de promotion et d’animation autour du vélo et des mobilités durables. Cette
+
+          ***          [--- more alinea content ---]        ***          
+
+et tous les organismes qui le veulent à se mobiliser pour que tous les Français puissent
+avoir à proximité de chez eux un évènement qui leur donne envie de faire du vélo pour
+se promener, se déplacer ou faire du sport.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = CONTACTS PRESSE
+ nativeID=62 parentID=0 & horizontal_ordering=19
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Service presse d’Élisabeth Borne, Première ministre, Tél : 01 42 75 50 78/79 Mél : communication@pm.gouv.fr Service presse de Christophe Béchu, ministre de la Transition écologique et de la Cohésion des territoires Tél : 01 40 8I 78 31 Mél : communication.mtect@ecologie-territoires.gouv.fr Service presse de Clément Beaune, ministre délégué auprès du ministre de la Transition écologique et de la Cohésion des territoires, chargé des Transports Tél : 01 40 81 12 28 Mél : presse.mt@transports.gouv.fr 
+
+ [ALINEA-CONTENT]:
+Service presse d’Élisabeth Borne,
+Première ministre,
+Tél : 01 42 75 50 78/79
+
+          ***          [--- more alinea content ---]        ***          
+
+des territoires, chargé des Transports
+Tél : 01 40 81 12 28
+Mél : presse.mt@transports.gouv.fr
+
+---------------------------------------------------------------------------------

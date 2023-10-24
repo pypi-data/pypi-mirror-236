@@ -1,0 +1,2244 @@
+EUROPESE
+COMMISSIE
+Brussel, 14.7.2021
+COM(2021) 559 final
+2021/0223 (COD)
+Voorstel voor een
+VERORDENING VAN HET EUROPEES PARLEMENT EN DE RAAD
+betreffende de uitrol van infrastructuur voor alternatieve brandstoffen en tot intrekking
+van Richtlijn 2014/94/EU van het Europees Parlement en de Raad
+(Voor de EER relevante tekst)
+{SEC(2021) 560 final} - {SWD(2021) 631 final} - {SWD(2021) 632 final} -
+{SWD(2021) 637 final} - {SWD(2021) 638 final}
+NL
+NL
+TOELICHTING
+1. ACHTERGROND VAN HET VOORSTEL
+Dit voorstel betreft de vaststelling van een nieuwe verordening voor de uitrol van
+infrastructuur voor alternatieve brandstoffen. De nieuwe verordening impliceert dat
+Richtlijn 2014/94/EU1 van het Europees Parlement en de Raad betreffende de uitrol van
+infrastructuur voor alternatieve brandstoffen zal worden ingetrokken.
+1.1. Motivering en doel van het voorstel
+Mobiliteit en vervoer zijn essentieel voor iedere Europese burger en voor onze hele
+economie. Vrij verkeer van personen en goederen over de binnengrenzen van de Europese
+Unie is een van de fundamentele vrijheden van de EU en haar interne markt. Mobiliteit
+biedt Europese burgers en bedrijven talrijke sociaaleconomische voordelen maar heeft ook
+een steeds grotere impact op het milieu, onder meer in de vorm van een toename van de
+uitstoot van broeikasgassen en plaatselijke luchtverontreiniging, die de gezondheid en het
+welzijn van de mens aantasten.
+In december 2019 heeft de Commissie de mededeling2 over de Europese Green Deal
+aangenomen. In de Europese Green Deal wordt opgeroepen de uitstoot van
+broeikasgasemissies door vervoer met 90 % te verminderen. Het is de bedoeling de
+economie van de EU tegen 2050 klimaatneutraal te maken en de verontreiniging tegelijk tot
+nul te herleiden. In september 2020 heeft de Commissie haar voorstel voor een Europese
+klimaatwet aangenomen. Daarin is bepaald dat de netto-uitstoot van broeikasgassen tegen
+2030 ten minste 55 % lager moet liggen dan in 1990 en dat Europa een verantwoorde koers
+moet varen om tegen 20503 klimaatneutraal te worden. In de mededeling4 een ambitieuzere
+klimaatdoelstelling voor Europa voor 2030 wordt gewezen op het belang van een
+holistische benadering van grootschalige en lokale infrastructuurplanning en op de behoefte
+aan een passende uitrol van infrastructuur voor alternatieve brandstoffen om de transitie
+naar een nagenoeg emissievrij wagenpark tegen 2050 te ondersteunen. Op 21 april 2021
+bereikten de Raad en het Parlement een voorlopig politiek akkoord over de Europese
+klimaatwet.
+In december 2020 heeft de Commissie de mededeling5 “Strategie voor duurzame en slimme
+mobiliteit” aangenomen. Die legt de basis voor de manier waarop die transformatie van het
+EU-vervoerssysteem kan worden bewerkstelligd en bevat concrete mijlpalen om het
+vervoerssysteem op koers te houden naar een slimme en duurzame toekomst. De
+vervoerssector is nog steeds sterk afhankelijk van fossiele brandstoffen. Voor alle
+vervoerswijzen is het bevorderen van het gebruik van emissievrije en emissiearme
+voertuigen, vaartuigen en luchtvaartuigen en van hernieuwbare en koolstofarme
+brandstoffen een prioritaire doelstelling om de hele vervoerssector duurzamer te maken.
+Het toenemende aanbod en gebruik van hernieuwbare en koolstofarme brandstoffen moet
+hand in hand gaan met de uitrol van een billijk geografisch gespreid omvattend netwerk van
+laad- en tankinfrastructuur om grootschalig gebruik van emissiearme en emissievrije
+voertuigen in alle vervoerswijzen mogelijk te maken. Met name op de markten voor
+personenauto’s zullen consumenten pas op grote schaal voor emissievrije voertuigen kiezen
+als zij er zeker van zijn dat zij hun voertuig overal in de EU en kunnen bijladen of tanken
+1 PB L 307 van 28.10.2014, blz. 1.
+2 COM(2019) 640 final.
+3 COM(2020) 563 final.
+4 COM(2020) 562 final.
+5 COM(2020) 789 final.
+NL 1 NL
+en als dat even gemakkelijk wordt als voor voertuigen op conventionele brandstoffen. Het
+is belangrijk dat geen enkele regio of gebied van de Unie achterblijft en dat regionale
+verschillen in de uitrol van infrastructuur voor alternatieve brandstoffen adequaat worden
+aangepakt bij de opstelling en uitvoering van nationale beleidskaders.
+Richtlijn 2014/94/EU betreffende de uitrol van infrastructuur voor alternatieve brandstoffen
+(“de richtlijn”) voorziet in een kader met gemeenschappelijke maatregelen voor de uitrol
+van dergelijke infrastructuur in de EU. De lidstaten moeten nationale beleidskaders
+ontwikkelen om markten voor alternatieve brandstoffen te creëren en ervoor zorgen dat er
+voldoende openbaar toegankelijke laad- en tankpunten komen, met name om het vrije
+grensoverschrijdende verkeer van dergelijke voertuigen en vaartuigen op het TEN-T-
+netwerk mogelijk te maken. In haar recente verslag over de toepassing van Richtlijn
+2014/94/EU betreffende de uitrol van infrastructuur voor alternatieve brandstoffen
+constateert de Commissie dat enige vooruitgang is geboekt bij de uitvoering6 van de
+richtlijn. De tekortkomingen van het huidige beleidskader zijn echter ook duidelijk
+zichtbaar: aangezien er voor de lidstaten geen gedetailleerde en bindende methode bestaat
+om streefcijfers te berekenen en maatregelen vast te stellen, loopt het ambitieniveau bij de
+vaststelling van streefcijfers en de ondersteuning van het bestaande beleid sterk uiteen. In
+het verslag wordt echter geconcludeerd dat er nog geen sprake is van een uitgebreid en
+volledig infrastructuurnetwerk voor alternatieve brandstoffen in de Unie als geheel. Evenzo
+heeft de Europese Rekenkamer in haar speciaal verslag over laadinfrastructuur opgemerkt
+dat er grote belemmeringen blijven bestaan voor het reizen in de EU met elektrische
+voertuigen en dat de uitrol van oplaadinfrastructuur in de Unie moet worden versneld7.
+De Commissie heeft een ex-postevaluatie van deze richtlijn8 uitgevoerd. Daaruit is
+gebleken dat de richtlijn niet het adequate instrument is om de verhoogde klimaatambitie
+voor 2030 te verwezenlijken. Een van de belangrijkste problemen is dat de
+infrastructuurplanning van de lidstaten doorgaans onvoldoende ambitieus, consistent en
+coherent is, waardoor de infrastructuur ontoereikend blijft of ongelijk is gespreid. Er zijn
+nog steeds problemen met de interoperabiliteit van de fysieke aansluitingen, terwijl er
+nieuwe problemen op het gebied van communicatienormen zijn ontstaan, onder meer
+inzake de uitwisseling van gegevens tussen de verschillende actoren in het ecosysteem voor
+elektromobiliteit. Ten slotte ontbreekt het aan transparante consumenteninformatie en
+gemeenschappelijke betalingssystemen, wat de acceptatie door gebruikers beperkt. Zonder
+verdere EU-maatregelen zal dit gebrek aan interoperabele, gemakkelijk te gebruiken
+oplaad- en tankinfrastructuur wellicht een belemmering worden voor de noodzakelijke
+marktgroei van emissiearme en emissievrije voertuigen, vaartuigen en — in de toekomst —
+luchtvaartuigen.
+Dit voorstel maakt deel uit van het algemeen pakket gerelateerde beleidsinitiatieven in het
+kader van het “Fit for 55”-pakket. Deze beleidsinitiatieven stemmen overeen met de
+maatregelen die in alle sectoren van de economie nodig zijn in aanvulling op de nationale
+inspanningen om de verhoogde klimaatambitie voor 2030 te verwezenlijken, zoals
+beschreven in het werkprogramma 20219 van de Commissie.
+Met dit initiatief wil de Commissie de beschikbaarheid en bruikbaarheid van een fijnmazig
+en omvattend netwerk van infrastructuur voor alternatieve brandstoffen in de hele EU
+6 COM(2021) 103 final
+7 Europese Rekenkamer (2021): Speciaal verslag 05/2021: Infrastructuur voor het opladen van
+elektrische voertuigen: meer oplaadstations, maar ongelijkmatige uitrol compliceert reizen door de
+EU.
+8 SWD(2021) 637: Evaluation of Directive 2014/94/EU of the European Parliament and of the Council
+on the deployment of alternative fuels infrastructure.
+9 COM(2020) 690 final.
+NL 2 NL
+waarborgen. Alle gebruikers van voertuigen op alternatieve brandstof (met inbegrip van
+schepen en luchtvaartuigen) moeten zich in de hele Unie gemakkelijk kunnen verplaatsen
+dankzij essentiële infrastructuur zoals snelwegen, havens en luchthavens. De specifieke
+doelstellingen zijn: i) in alle lidstaten de beschikbaarheid van minimuminfrastructuur
+waarborgen om het beoogde gebruik van voertuigen op alternatieve brandstof voor alle
+vervoerswijzen te ondersteunen om de klimaatdoelstellingen van de EU te halen; ii) de
+volledige interoperabiliteit van de infrastructuur waarborgen; en iii) zorgen voor volledige
+gebruikersinformatie en adequate betalingsopties.
+Om de doelstelling van de Europese Green Deal inzake de reductie van de
+broeikasgasemissies door vervoer te halen en in de EU een gemeenschappelijke
+vervoersmarkt te ontwikkelen, moet het Europese vervoersnetwerk emissiearme en
+emissievrije voertuigen, vaartuigen en luchtvaartuigen volledige connectiviteit en een
+naadloze gebruikerservaring bieden. Dat vereist op zijn beurt voldoende kwantiteit en
+volledige interoperabiliteit van de infrastructuur over de grenzen heen. Die doelstellingen
+kunnen alleen worden bereikt met een gemeenschappelijk Europees regelgevingskader. Dit
+initiatief zal bijdragen tot een coherente en consistente ontwikkeling en uitrol van
+wagenparken, laad- en tankinfrastructuur en gebruikersinformatie en -diensten.
+1.2. Verenigbaarheid met bestaande bepalingen op het beleidsterrein
+Dit initiatief spoort met de andere beleidsinitiatieven van het “Fit for 55”-pakket. Het vormt
+met name een aanvulling op: i) de verordeningen tot vaststelling van CO2-emissienormen
+voor nieuwe personenauto’s10, nieuwe lichte bedrijfsvoertuigen11 en zware
+bedrijfsvoertuigen; en ii) het wetgevingsvoorstel voor de vaststelling van nieuwe CO2-
+emissienormen voor nieuwe auto’s en nieuwe lichte bedrijfsvoertuigen na 2020, die
+eveneens deel uitmaken van het “Fit for 55”-pakket12. De CO2-emissienormen vormen een
+sterke stimulans voor de uitrol van emissiearme en emissievrije voertuigen, waardoor er
+ook vraag naar infrastructuur voor alternatieve brandstoffen wordt gecreëerd. Dit initiatief
+zal die transitie mogelijk maken door te waarborgen dat er voldoende openbare laad- en
+tankinfrastructuur voor lichte en zware wegvoertuigen beschikbaar is.
+Er bestaat ook een sterke synergie tussen dit initiatief en de herziening van de richtlijn
+hernieuwbare energie13, het voorstel voor een verordening van het Europees Parlement en
+de Raad inzake het waarborgen van een gelijk speelveld voor duurzaam luchtvervoer
+(RefuelEU Luchtvaart)14 en het voorstel voor een verordening van het Europees Parlement
+en de Raad betreffende het gebruik van hernieuwbare en koolstofarme brandstoffen in de
+zeevaart (FuelEU Zeevaart)15, waarin verplichtingen worden vastgesteld met betrekking tot
+10 Verordening (EU) 2019/631 van het Europees Parlement en de Raad tot vaststelling van CO2-
+emissienormen voor nieuwe personenauto's en nieuwe lichte bedrijfsvoertuigen, en tot intrekking van
+Verordeningen (EG) nr. 443/2009 en (EU) nr. 510/2011 (PB L 111 van 25.4.2019, blz. 13).
+11 Verordening (EU) 2019/1242 van het Europees Parlement en de Raad tot vaststelling van CO2-
+emissienormen voor nieuwe zware bedrijfsvoertuigen en tot wijziging van Verordeningen (EG) nr.
+595/2009 en (EU) 2018/956 van het Europees Parlement en de Raad en Richtlijn 96/53/EG van de Raad
+(PB L 198 van 25.7.2019, blz. 202).
+12 COM (2021) 556. Voorstel voor een verordening van het Europees Parlement en de Raad tot wijziging
+van Verordening (EU) 2019/631 wat betreft de aanscherping van de CO2-emissienormen voor nieuwe
+personenauto’s en nieuwe lichte bedrijfsvoertuigen overeenkomstig de verhoogde klimaatambitie van
+de Unie.
+13 Richtlijn (EU) 2018/2001.
+14 COM (2021) 561, voorstel voor een verordening van het Europees Parlement en de Raad inzake het
+waarborgen van een gelijk speelveld voor duurzaam luchtvervoer.
+15 COM (2021) 562, voorstel voor een verordening van het Europees Parlement en de Raad betreffende
+het gebruik van hernieuwbare en koolstofarme brandstoffen in de zeevaart.
+NL 3 NL
+het aanbod van en de vraag naar hernieuwbare en koolstofarme vervoersbrandstoffen. Elk
+van die instrumenten bevordert een toename van het aanbod van of de vraag naar duurzame
+alternatieve brandstoffen in één of meer vervoerswijzen.
+Voor vervoer over water beantwoordt dit initiatief aan de duidelijke eis van de Europese
+Green Deal om aangemeerde schepen te verplichten walstroom te gebruiken. Het is volledig
+complementair met het initiatief FuelEU-Zeevaart en zal ervoor zorgen dat er in havens
+voldoende walstroomvoorzieningen worden geïnstalleerd om elektriciteit te leveren voor
+aangemeerde passagiersschepen (o.a. ro-ro-passagiersschepen,
+hogesnelheidspassagiersvaartuigen en cruiseschepen) en containerschepen, en dat wordt
+ingespeeld op de vraag naar koolstofvrije gassen (d.w.z. bio-LNG en synthetische
+gasvormige brandstoffen (e-gas). Bij passagiersschepen varieert de stroombehoefte op de
+ligplaats naargelang de scheepscategorie, waardoor ook de investeringsbehoeften in havens
+verschillen. Een en ander moet worden afgestemd op de verschillende operationele
+kenmerken van havens, waaronder de indeling van terminals. Daarom wordt ten opzichte
+van het initiatief FuelEU Zeevaart een verder onderscheid gemaakt tussen categorieën
+passagiersschepen, namelijk tussen ro-ro-passagiersschepen en
+hogesnelheidspassagiersschepen enerzijds en cruiseschepen anderzijds. Samen met FuelEU
+Zeevaart wordt hiermee een antwoord geboden op het huidige “kip of het ei"-dilemma,
+waarbij de zeer geringe vraag van scheepsexploitanten naar een elektriciteitsaansluiting op
+de ligplaats het voor havens minder aantrekkelijk maakt om in walstroom te investeren. De
+beperkte uitrol van walstroom (On-shore power supply- OPS) in havens dreigt de
+concurrentie tussen havens te verstoren, met name voor vroege investeerders. Het gevaar
+bestaat dat reders van schepen die niet voor OPS zijn uitgerust, voor andere havens zullen
+kiezen. Daarom is het belangrijk dat er minimumeisen worden vastgesteld voor zeehavens
+op het hele TEN-T-netwerk.
+Het initiatief vormt ook een aanvulling op het initiatief ReFuelEU Luchtvaart. In aanvulling
+op het initiatief voor duurzame luchtvaartbrandstoffen waarvoor slechts beperkte aparte
+tankinfrastructuur vereist is, worden regels vastgesteld voor de elektriciteitsvoorziening voor
+stilstaande luchtvaartuigen, ter ondersteuning van de transitie naar een koolstofvrije
+luchtvaart.
+Naast het wetgevingsvoorstel zal de Commissie inspelen op de behoefte aan aanvullende
+onderzoeks- en innovatieactiviteiten (O&I), met name via het gezamenlijk geprogrammeerde
+partnerschap voor emissievrij vervoer over water dat is voorgesteld door het Waterborne
+Technology Platform in het kader van Horizon Europa, de Gemeenschappelijke
+Onderneming Clean Sky 2 en de Gemeenschappelijke Onderneming Schone waterstof, dat in
+synergie met deze twee vervoerspartnerschappen werkt.
+Dit initiatief spoort tevens met de herziening van de richtlijn hernieuwbare energie. Het
+doel is ervoor te zorgen dat het gebrek aan laad- en tankinfrastructuur, als er afzonderlijke
+infrastructuur vereist is, geen belemmering vormt voor de algemene omslag naar
+hernieuwbare en koolstofarme brandstoffen in de vervoerssector. Op EU-niveau is er geen
+beleidsinstrument dat gelijkwaardig is aan de richtlijn betreffende de uitrol van
+infrastructuur voor alternatieve brandstoffen dat de uitrol van openbaar toegankelijke laad-
+en tankinfrastructuur voor alle vervoerswijzen op equivalente wijze kan waarborgen. Dit
+initiatief houdt ook nauw verband met het geplande voorstel tot herziening van de
+verordening betreffende de richtsnoeren voor het trans-Europees vervoersnetwerk16. De
+geplande herziening van die verordening zal voortbouwen op en een aanvulling vormen op
+de infrastructuur voor alternatieve brandstoffen die reeds is aangelegd via afzonderlijke
+projecten op de TEN-T-netwerkcorridors. Door consequent naar de bepalingen van dit
+16 Verordening (EU) nr. 1315/2013.
+NL 4 NL
+initiatief te verwijzen zal de herziening van die verordening een toereikende dekking van
+het TEN-T-kernnetwerk en het uitgebreide netwerk waarborgen.
+Dit initiatief zal de beschikbaarheid van de nodige infrastructuur voor emissievrije en
+emissiearme voertuigen en vaartuigen waarborgen en vormt daarmee ook een aanvulling op
+een reeks andere beleidsinitiatieven in het kader van het “Fit for 55”-pakket die de vraag
+naar dergelijke voertuigen stimuleren middels prijssignalen die rekening houden met de
+externe klimaat- en milieueffecten van fossiele brandstoffen, zoals de herziening van het
+emissiehandelssysteem17 en de herziening van de energiebelastingrichtlijn18 van de EU.
+1.3. Verenigbaarheid met andere beleidsterreinen van de Unie
+Dit initiatief moet in synergie werken met de richtlijn energieprestatie van gebouwen19
+(EPBD), die betrekking heeft op particuliere laadinfrastructuur en voorziet in voorschriften
+voor de uitrol van laadinfrastructuur in gebouwen. In de effectbeoordeling ter
+ondersteuning van dit beleidsinitiatief is uitvoerig ingegaan op de wisselwerking tussen
+openbare en particuliere laadinfrastructuur.
+Door ervoor te zorgen dat de nodige infrastructuur voor emissievrije en emissiearme
+voertuigen en vaartuigen beschikbaar is, vormt dit initiatief ook een aanvulling op de
+beleidsinspanningen op het gebied van tolheffing, die ook tot doel hebben de vraag naar
+schonere voertuigen te stimuleren. De Eurovignet-richtlijn20 wordt eveneens herzien om de
+externe klimaat- en milieu-effecten van fossiele brandstoffen beter in aanmerking te nemen.
+Ook de richtlijn schone voertuigen21 is erop gericht de uitrol van emissiearme en
+emissievrije voertuigen te versnellen. Een bredere beschikbaarheid van infrastructuur en
+een snellere uitrol van emissievrije en emissiearme voertuigen zullen de uitrol van schone
+voertuigen in openbare wagenparken indirect faciliteren. Openbare wagenparken (met
+name bussen) maken doorgaans echter gebruik van eigen laad- en tankpunten in plaats van
+openbaar toegankelijke infrastructuur. De interactie met de richtlijn bestaat er vooral in dat
+via normalisatie de interoperabiliteit wordt gewaarborgd.
+De uitrol van meer elektrische waterstof- en batterijvoertuigen in het wagenpark van de EU
+is ook een belangrijk onderdeel van de waterstofstrategie22 en de strategie van de
+Commissie voor de slimme integratie van energiesystemen23. Een te beperkte
+beschikbaarheid van de overeenkomstige infrastructuur voor voertuigen kan deze ambities
+in gevaar brengen.
+Door de invoering van steeds meer emissievrije en emissiearme voertuigen te
+vergemakkelijken, draagt dit initiatief ook bij aan de ambitie van de Europese Green Deal
+om de vervuiling tot nul terug te brengen, als aanvulling op de Euro 6-emissienormen (voor
+auto’s en bestelwagens)24 en Euro VI (voor bussen en vrachtwagens)25, waarin voor alle
+voertuigen emissiegrenswaarden zijn vastgesteld.
+Tot slot hangt dit initiatief samen met de richtlijn intelligente vervoerssystemen 26, waarvoor
+de Commissie voornemens is later dit jaar een voorstel tot herziening in te dienen, en met
+de gedelegeerde handelingen daarvan, met name de gedelegeerde verordening betreffende
+17 Richtlijn 2003/87/EG.
+18 Richtlijn 2003/96/EG.
+19 Richtlijn 2010/31/EU.
+20 Richtlijn 1999/62/EG.
+21 Richtlijn (EU) 2019/1161.
+22 COM(2020) 301 final.
+23 COM(2020) 299.
+24 Verordening (EG) nr. 715/2007.
+25 Verordening (EG) nr. 595/2009.
+26 Richtlijn 2010/40/EU.
+NL 5 NL
+EU-wijde realtimeverkeersinformatiediensten27. Gezien de snel veranderende dataomgeving
+voor alternatieve brandstoffen moet in dit initiatief worden gespecificeerd welke relevante
+soorten gegevens beschikbaar moeten worden gesteld, in synergie met het algemene kader
+dat is vastgesteld in de ITS-richtlijn.
+Horizon Europa is het nieuwe belangrijkste EU-financieringsprogramma voor onderzoek en
+innovatie28. Het focust op klimaatverandering, draagt bij tot de verwezenlijking van de
+duurzameontwikkelingsdoelstellingen van de VN en stimuleert het concurrentievermogen
+en de groei van de EU. Cluster 5: Klimaat, energie en mobiliteit, heeft tot doel de
+klimaatverandering te bestrijden door de energie- en vervoersector klimaat- en
+milieuvriendelijker, efficiënter en concurrerender, slimmer, veiliger en veerkrachtiger te
+maken. Europees onderzoek en innovatie kunnen de transformatieve Green Deal-agenda
+aansturen, focussen en versnellen door de richting te bepalen, oplossingen te testen en te
+demonstreren, afwegingen te maken en ervoor te zorgen dat het beleid coherent,
+innovatievriendelijk en empirisch onderbouwd is. De partnerschappen inzake emissievrij
+wegvervoer (2Zero), geconnecteerde, coöperatieve en geautomatiseerde mobiliteit
+(CCAM), de Europese waardeketen voor industriële batterijen (Batt4EU), schone waterstof,
+de overgang naar schone energie en de stedelijke transitie voor een duurzame toekomst
+zullen een belangrijke rol spelen bij de omslag naar een klimaatneutrale en
+milieuvriendelijke mobiliteit. De missie voor klimaatneutrale en slimme steden van
+Horizon Europa29 heeft tot doel 100 Europese steden tegen 2030 te ondersteunen en te
+promoten bij hun systemische transformatie naar klimaatneutraliteit.
+Het cohesiebeleid zal een centrale rol spelen bij het helpen van alle regio’s bij hun transitie
+naar een groener, klimaatneutraal Europa. Het Europees Fonds voor Regionale
+Ontwikkeling en het Cohesiefonds zijn beschikbaar om investeringen in innovatie en uitrol
+te ondersteunen, met name in achtergestelde lidstaten en regio’s. Het cohesiebeleid zal
+steun bieden voor een duurzaam, slim en veerkrachtig vervoerssysteem dat alle
+vervoerswijzen en alle niveaus van het vervoerssysteem bestrijkt, conform de specifieke in
+de nationale en regionale programma’s vastgestelde eisen en prioriteiten.
+2. RECHTSGRONDSLAG, SUBSIDIARITEIT EN EVENREDIGHEID
+2.1. Rechtsgrondslag
+Om de goede werking van de interne markt te waarborgen, is de Unie bij het Verdrag
+betreffende de werking van de Europese Unie (VWEU) gemachtigd bepalingen vast te
+stellen inzake het gemeenschappelijk vervoerbeleid, titel VI (artikelen 90-91), en de trans-
+Europese netwerken, titel XVI (artikelen 170-171). Met dit rechtskader in gedachten biedt
+een optreden op EU-niveau de mogelijkheid de gelijkmatige en algemene uitrol van
+infrastructuur voor alternatieve brandstoffen beter te coördineren dan wanneer de lidstaten
+die opdracht alleen zouden moeten vervullen. Dit maakt het zowel voor particuliere
+gebruikers als voor bedrijven gemakkelijker om zich met een voertuig op alternatieve
+brandstoffen in de Unie te verplaatsen. Het helpt ook om te voorkomen dat een gebrek aan
+of een versnipperde uitrol van infrastructuur voor alternatieve brandstoffen een potentiële
+belemmering voor de voltooiing van de interne markt zou worden en de productie van
+emissiearme en emissievrije voertuigen door de automobielindustrie zou ontmoedigen.
+27 Gedelegeerde Verordening (EU) 2015/962.
+28 https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-
+and-open-calls/horizon-europe/european-partnerships-horizon-europe_en.
+29 https://ec.europa.eu/info/research-and-innovation/funding/funding-opportunities/funding-programmes-
+and-open-calls/horizon-europe/missions-horizon-europe/climate-neutral-and-smart-cities_en.
+NL 6 NL
+Om in de Europese Green Deal voor vervoer vastgestelde emissiereductiedoelstellingen te
+halen (zoals bekrachtigd door de strategie voor duurzame en slimme mobiliteit), moet het
+marktaandeel van emissiearme en emissievrije voertuigen en vaartuigen aanzienlijk
+toenemen. Dit zal niet gebeuren zonder de uitrol van een samenhangend en omvattend
+netwerk van volledig interoperabele infrastructuur voor alternatieve brandstoffen die het
+mogelijk maakt om met een voertuig op alternatieve brandstof door de Unie te reizen. Zoals
+bij de vaststelling van de huidige richtlijn is opgemerkt, kan een dergelijk netwerk niet op
+adequate wijze door de lidstaten afzonderlijk worden ontwikkeld en is het derhalve
+noodzakelijk dat de Unie initiatief neemt.
+2.2. Subsidiariteit (bij niet-exclusieve bevoegdheid)
+De toegevoegde waarde van dit EU-initiatief in termen van doeltreffendheid, efficiëntie en
+synergieën wordt benadrukt in de evaluatie van de huidige richtlijn, in samenhang met de
+beoordeling van de door de lidstaten ingediende nationale uitvoeringsverslagen. Uit de
+evaluatie is gebleken dat de ontwikkeling van een gemeenschappelijk EU-kader in zekere
+mate heeft geholpen om versnippering te voorkomen. Dat kader heeft de ontwikkeling van
+nationaal beleid voor de ontwikkeling van infrastructuur voor alternatieve brandstoffen in
+alle lidstaten en de totstandbrenging van een gelijker speelveld binnen de sector
+ondersteund. Door interoperabiliteit, relevante technische normen en de vaststelling van
+doelstellingen met vergelijkbare tijdschema’s aan te moedigen, heeft het beleid van de Unie
+voor besparingen en een betere prijs-kwaliteitsverhouding gezorgd. Dat gebeurde door
+schaalvoordelen te faciliteren, te vermijden dat naast elkaar werd gewerkt en door middelen
+uit te trekken voor de financiering van infrastructuur. De uitvoering van de richtlijn (en van
+de ondersteunende activiteiten in dat verband) heeft de samenwerking en de uitwisseling
+van informatie over alternatieve brandstoffen tussen de betrokken industrie en publieke
+actoren vergemakkelijkt. Zonder de richtlijn zou een dergelijke samenwerking wellicht niet
+tot stand zijn gekomen.
+Zonder optreden van de Unie zou het zeer onwaarschijnlijk zijn dat in alle lidstaten een
+samenhangend en volledig netwerk van volledig interoperabele infrastructuur voor
+alternatieve brandstoffen ontstaat, dat gebruikers in staat stelt met een voertuig op
+alternatieve brandstof door de Unie te reizen. Dit is op zijn beurt een voorwaarde voor de
+uitrol van dergelijke voertuigen in de hele Unie, wat voor de EU van vitaal belang is om
+haar verhoogde klimaatambitie voor 2030 te halen.
+2.3. Evenredigheid
+Overeenkomstig het evenredigheidsbeginsel gaat dit voorstel niet verder dan wat nodig is
+om de geformuleerde doelstellingen te verwezenlijken. Alle maatregelen worden geacht
+evenredig te zijn wat hun effect betreft, zoals blijkt uit de effectbeoordeling bij dit
+initiatief1. De voorgestelde maatregel voorziet in meer bindende voorschriften voor de
+lidstaten om te zorgen dat er in de hele Unie voldoende openbaar toegankelijke
+infrastructuur beschikbaar is voor het opladen en bijtanken van voertuigen op alternatieve
+brandstoffen. Dit is noodzakelijk voor de EU om haar aangescherpte klimaat- en
+energieambitie voor 2030 te verwezenlijken en te voldoen aan de algemene doelstelling om
+uiterlijk in 2050 klimaatneutraal te zijn, een doelstelling die onder meer tot uiting komt in
+de CO2-normen voor auto’s en bestelwagens, en om de grensoverschrijdende connectiviteit
+voor dergelijke voertuigen op het TEN-T-kernnetwerk en het uitgebreide netwerk te
+1 SWD(2021) 631: Impact Assessment accompanying the proposal for a regulation of the European
+Parliament and of the Council on the deployment of alternative fuels infrastructure, and repealing
+Directive 2014/94/EU.
+NL 7 NL
+waarborgen.
+Uit de ervaring met de uitvoering van de huidige richtlijn blijkt dat deze herziene maatregel
+noodzakelijk is. De uitvoering van de huidige richtlijn leidt tot een ongelijke spreiding van
+infrastructuur in de lidstaten, waardoor geen dicht en omvattend netwerk van infrastructuur
+voor alternatieve brandstoffen ontstaat. Dit is volledig aangetoond in het verslag van de
+Commissie aan het Europees Parlement en de Raad over de toepassing van Richtlijn
+2014/94/EU betreffende de uitrol van infrastructuur voor alternatieve brandstoffen2 en in de
+effectbeoordeling ter ondersteuning van het huidige initiatief. De aard en de omvang van
+het probleem zijn in alle lidstaten vergelijkbaar en er zijn aanwijzingen dat
+grensoverschrijdende connectiviteit voor voertuigen op alternatieve brandstoffen in de Unie
+noodzakelijk is en een meerwaarde biedt, en dat een optreden van de Unie dus
+gerechtvaardigd is.
+Dit initiatief zorgt voor een stabiel en transparant beleidskader om bij te dragen tot de
+ontwikkeling van open en concurrerende markten en zo investeringen in laad- en
+tankinfrastructuur voor alle vervoerswijzen te stimuleren. Er wordt een gemeenschappelijk
+minimum vastgesteld op basis waarvan markten de infrastructuur verder kunnen uitrollen
+om tegemoet te komen aan de marktvraag naar voertuigen, op basis van een mechanisme
+met duidelijke en transparante streefcijfers, dat in de hele Unie van toepassing is.
+2.4. Keuze van het instrument
+Hoewel een richtlijn in de effectbeoordeling als voorkeursoptie naar voren kwam, heeft de
+Commissie ervoor geopteerd een verordening voor te stellen. De keuze voor een
+verordening zorgt voor een snelle en coherente ontwikkeling van een dicht en omvattend
+netwerk van volledig interoperabele laadinfrastructuur in alle lidstaten. Het besluit is met
+name gerechtvaardigd in het licht van de noodzakelijke snelle en coherente uitvoering van
+de op het nationale wagenpark gebaseerde minimumstreefcijfers voor de uitrol op
+lidstaatniveau en van de verplichte op afstand gebaseerde streefcijfers voor het TEN-T-
+netwerk, aangezien de eerste voorgestelde doelstellingen reeds tegen 2025 zouden moeten
+worden bereikt. Gezien die tijdspanne is het van het grootste belang dat in de hele Unie een
+voldoende fijnmazig en omvattend netwerk van laad- en tankinfrastructuur voor
+emissievrije en emissiearme voertuigen wordt uitgerold aan hetzelfde tempo en onder
+dezelfde voorwaarden, om de hoognodige versnelde marktintroductie van emissiearme en
+emissievrije voertuigen te ondersteunen. Daartoe moeten de plannen en maatregelen van de
+lidstaten om de doelstellingen te verwezenlijken reeds vóór 2025 worden ontwikkeld. Een
+nieuwe verordening voorziet in duidelijk bindende en rechtstreeks toepasselijke
+verplichtingen voor de lidstaten en waarborgt tegelijk een coherente en tijdige toepassing
+en uitvoering daarvan in de hele EU. Ze voorkomt het risico op vertragingen en
+inconsistenties in de nationale omzettingsprocessen, waardoor ook een duidelijk gelijk
+speelveld voor de markten ontstaat, hetgeen zal bijdragen tot de uitrol van oplaad- en
+tankinfrastructuur in de hele Unie. De verordening voorziet in een robuuster
+governancemechanisme om de vooruitgang van de lidstaten bij de verwezenlijking van de
+doelstellingen te monitoren; dit mechanisme stelt de lidstaten in staat de juiste stimulansen
+te geven zodat concurrerende oplaadmarkten zich kunnen ontwikkelen. Duidelijke
+tijdschema’s voor het ontwerp en de ontwikkeling van de nationale beleidskaders van de
+lidstaten om de streefcijfers te halen, robuuste monitoring- en rapportagemechanismen,
+alsmede bepalingen voor corrigerende maatregelen van de lidstaten, creëren mogelijkheden
+voor een efficiënte algemene monitoring en sturing van de inspanningen van de lidstaten
+om de doelstellingen te bereiken. Dit initiatief garandeert een dergelijke aanpak.
+2 COM/2021/103 final.
+NL 8 NL
+3. EX-POSTEVALUATIE, RAADPLEGING VAN BELANGHEBBENDEN EN
+EFFECTBEOORDELING
+3.1. Evaluatie van de bestaande wetgeving en controle van de resultaatgerichtheid
+ervan
+Een REFIT-evaluatie ex post heeft aangetoond dat de richtlijn heeft bijgedragen tot de
+ontwikkeling van beleidslijnen en maatregelen voor de uitrol van infrastructuur voor
+alternatieve brandstoffen in de lidstaten, met name door de verplichting om nationale
+beleidskaders1 te ontwikkelen.
+De evaluatie heeft echter ook een aantal tekortkomingen in het huidige beleidskader aan het
+licht gebracht. Bovendien is de belangrijkste doelstelling van de richtlijn, namelijk een
+coherente ontwikkeling in de EU waarborgen, niet gehaald. De tekortkomingen situeren
+zich op de volgende drie gebieden: i) het ontbreken van een volledig infrastructuurnetwerk
+dat naadloos reizen in de hele EU mogelijk maakt; ii) de behoefte aan nadere
+gemeenschappelijke technische specificaties om de interoperabiliteit van opkomende
+technologieën te waarborgen; en iii) het ontbreken van volledige gebruikersinformatie,
+uniforme en gebruiksvriendelijke betalingsmethoden en volledige prijstransparantie in de
+hele Unie.
+De conclusie van de evaluatie luidde dat de algemene Europese markt voor infrastructuur
+voor alternatieve brandstoffen zich zes jaar na de vaststelling van de richtlijn nog in een vrij
+vroeg ontwikkelingsstadium bevindt, hoewel de markten in sommige delen van de EU
+maturiteit bereiken. Aangezien het in het algemeen van belang is om voor voldoende
+infrastructuur te zorgen om de vereiste introductie van voertuigen en vaartuigen te
+ondersteunen in het licht van de verhoogde klimaatambitie voor 2030, werd in de evaluatie
+van de richtlijn aanbevolen de regelgeving te herzien in plaats van ze te behouden.
+3.2. Raadpleging van belanghebbenden
+In het kader van de effectbeoordeling zijn de belanghebbenden op verschillende manieren
+geraadpleegd.
+Van 6 april tot 4 mei 2020 vond een openbare raadpleging plaats over de
+aanvangseffectbeoordeling (IIA)2 voor dit initiatief. De Commissie ontving 86 reacties,
+waarvan het merendeel (61) afkomstig was van bedrijven en ondernemersverenigingen.
+Ook ngo’s en burgers hebben op de IIA gereageerd, net als één netwerk van steden.
+Tussen 6 april 2020 en 29 juni 2020 organiseerde de Commissie een openbare raadpleging.
+In het kader daarvan werden alle burgers en organisaties uitgenodigd om te reageren op
+zowel de evaluatie als de effectbeoordeling3. In totaal ontving de Commissie 324 reacties.
+Tussen oktober 2020 en januari 2021 vonden gerichte interviews en enquêtes met
+belanghebbenden plaats. De Commissie voerde verkennende gesprekken met
+vertegenwoordigers van de belangrijkste belanghebbenden op EU-niveau, met name om de
+algemene probleemstelling en mogelijke beleidsopties te onderbouwen en te verfijnen. Er
+werden verdere interviews gehouden en er werd een online-enquête verspreid onder
+belanghebbende vertegenwoordigers van autoriteiten en overheidsinstanties (nationale,
+1 SWD(2021) 637.
+2 https://ec.europa.eu/info/law/better-regulation/have-your-say/initiatives/12251-Voertuigen-met-een-
+lage-uitstoot-meer-tank-en-oplaadstations-in-de-EU_nl.
+3 De input van de evaluatie is geanalyseerd in het verslag over de raadpleging van belanghebbenden ter
+onderbouwing van het eindverslag van de evaluatie.
+NL 9 NL
+regionale en lokale overheden, EU-organen), vertegenwoordigers van het bedrijfsleven
+(m.i.v. representatieve verenigingen) en het maatschappelijk middenveld (ngo’s,
+consumentenorganisaties).
+De consultant die belast is met de externe ondersteunende studie voor de effectbeoordeling
+organiseerde tussen december 2020 en februari 2021 een gerichte raadpleging van de
+belanghebbenden. Die omvatte gerichte enquêtes onder de belangrijkste belanghebbenden
+en gerichte interviews en verzoeken om specifieke gegevens, met name als input voor de
+ontwikkeling van een methode om te bepalen of er voldoende infrastructuur wordt voorzien
+en ter ondersteuning van de effectbeoordeling van mogelijke beleidsmaatregelen.
+3.3. Bijeenbrengen en gebruik van expertise
+Bij de voorbereiding van dit initiatief heeft de Commissie gebruikgemaakt van de
+bevindingen van de ex-postevaluatie4 van de richtlijn. De belanghebbenden hebben
+uitvoerige informatie verstrekt in het kader van de raadplegingsactiviteiten. Daarnaast
+ontving de Commissie extra informatie op ad-hocbasis. De effectbeoordeling is voor een
+groot deel gebaseerd op een begeleidende externe ondersteunende studie5, die door een
+consultant is uitgevoerd. De Commissie heeft ook gebruikgemaakt van een brede
+raadpleging van het Forum voor duurzaam vervoer, de deskundigengroep van de
+Commissie op het gebied van alternatieve brandstoffen. De raadpleging van het Forum
+voor duurzaam vervoer vond plaats van oktober 2018 tot november 2019 en focuste op de
+knelpunten en toekomstige beleidsbehoeften op het gebied van infrastructuur voor
+alternatieve brandstoffen6. In het algemeen werden in het kader van de effectbeoordeling
+een groot aantal bronnen geraadpleegd die grotendeels exhaustief en representatief waren
+voor de diverse groepen belanghebbenden.
+3.4. Effectbeoordeling
+De Raad voor regelgevingstoetsing heeft de ontwerpversie van het
+effectbeoordelingsverslag op 7 april 2021 ontvangen en op 7 mei 2021 een positief advies
+uitgebracht. De raad was van oordeel dat het verslag nog kon worden verbeterd door: a) het
+verschil tussen de opties en de wijze waarop deze verband houden met de vastgestelde
+problemen beter te omschrijven; en b) in het verslag een nuancering op te nemen om te
+verduidelijken of de verwachte effecten voortvloeien uit dit specifieke initiatief, uit ander
+beleid, dan wel uit een combinatie van beide.
+Het definitieve effectbeoordelingsverslag bevat een uitgebreide beschrijving en beoordeling
+van de toegevoegde waarde van het initiatief en het verband met andere beleidsinitiatieven.
+Die zijn opgenomen in de punten 1.3, 3.3 en 8.1 van het beoordelingsrapport. Een
+gedetailleerde beschrijving van de beleidsopties is opgenomen in punt 5, terwijl de effecten
+van alle opties uitvoerig zijn geanalyseerd in punt 6. De geanalyseerde beleidsopties
+kunnen als volgt worden samengevat:
+– Beleidsoptie 1: inhoudelijke wijzigingen van de richtlijn. De vaststelling van
+nationale streefcijfers en verslaglegging in het kader van de nationale beleidskaders
+zouden een belangrijke pijler blijven, versterkt door verplichte op de omvang van het
+wagenpark gebaseerde doelstellingen voor elektrische laadpunten voor lichte
+4 SWD(2021) 637.
+5 Eindrapport, studie ter onderbouwing van de effectbeoordeling: “Impact assessment on the revision of
+the Directive on the Deployment of Alternative Fuels Infrastructure (2014/94/EU)”, 2021.
+6 De bevindingen van deze exercitie zijn samengevat in een uitgebreid verslag van de plenaire
+vergadering van het Forum voor duurzaam vervoer van november 2019:
+https://ec.europa.eu/transport/sites/transport/files/2019-stf-consultation-analysis.pdf.
+NL 10 NL
+voertuigen (LDV’s). Voor zware bedrijfsvoertuigen zouden verplichte streefcijfers
+op basis van afstand worden ingevoerd voor elektrische laadpunten en
+waterstoftankpunten op het TEN-T-netwerk, aangevuld met beperkte regels voor
+waterstoftankpunten in stedelijke knooppunten. Er zouden ook verplichte
+streefcijfers worden ingevoerd voor stilstaande luchtvaartuigen en
+walstroomvoorzieningen in zee- en binnenhavens. Daarnaast zouden enkele
+kwaliteitsproblemen van de infrastructuur worden aangepakt om de interoperabiliteit
+en de gebruikersinformatie te verbeteren.
+– Beleidsoptie 2: een meer ingrijpende inhoudelijke wijziging van de richtlijn dan
+in optie 1. Bovenop de verplichte, op de omvang van het wagenpark gebaseerde
+streefcijfers voor elektrische laadpunten voor lichte voertuigen, zouden op afstand
+gebaseerde normen worden vastgesteld voor alle infrastructuur voor wegvoertuigen
+op het TEN-T-netwerk, ook voor zware bedrijfsvoertuigen in stedelijke
+knooppunten. Deze optie omvat ook meer gedetailleerde bepalingen voor havens en
+luchthavens op het TEN-T-netwerk en een sterkere harmonisatie van de
+betalingsopties, fysieke en communicatienormen en consumentenrechten inzake
+betaling. De bepalingen inzake prijstransparantie en andere gebruikersinformatie
+zouden worden aangescherpt, m.i.v. fysieke bewegwijzering van oplaad- en
+tankinfrastructuur.
+– Beleidsoptie 3: de richtlijn vervangen door een verordening (het meest
+ingrijpende bindende rechtsinstrument). Bovenop de verplichte vlootgerelateerde en
+op afstand gebaseerde streefcijfers in optie 2, worden in deze optie verdere
+locatiespecifieke streefcijfers voor elektrische lichte bedrijfsvoertuigen en
+streefcijfers voor zware bedrijfsvoertuigen toegevoegd. De optie zou ook een
+aanzienlijke ambitie voor haveninfrastructuur toevoegen en van verplichte
+terminalbetalingen bij nieuwe snelladers de enige betaaloptie maken.
+Omdat ze een optimaal evenwicht biedt tussen de bereikte doelstellingen en de
+uitvoeringskosten, is optie 2 als de beste beleidsoptie geselecteerd. Beleidsoptie 2 kan
+echter ook de vorm van een verordening aannemen, die een snellere impact heeft op de
+uitvoering van de regels. De effectbeoordeling omvat een gedetailleerde beschrijving van
+de regelgevende maatregelen die in de verschillende beleidsopties zijn opgenomen.
+3.5. Resultaatgerichtheid en vereenvoudiging
+Er moet veel meer ambitie aan de dag worden gelegd voor de uitrol van voldoende en
+volledig interoperabele laad- en tankinfrastructuur om de vereiste marktpenetratie van
+emissiearme en emissievrije voertuigen te ondersteunen, conform de algemene
+beleidsambitie van het “Fit for 55”-pakket en de bijbehorende beleidsinitiatieven. Gezonde
+regelgeving wordt bereikt door de vaststelling van de nodige minimumvereisten voor
+overheidsinstanties en marktdeelnemers. De daarmee gepaard gaande hogere kosten voor
+overheidsinstanties om de uitrol van infrastructuur te ondersteunen, met name op delen van
+het vervoersnetwerk waar de vraag laag is, moeten worden afgezet tegen de aanzienlijk
+gestegen vraag van de gebruikers en de grootschalige kansen voor marktgroei. De
+herziening van het beleid in het kader van “Fit for 55”-pakket zal de marktintroductie van
+emissievrije voertuigen en de afhandeling van schepen met walstroomvoorziening mogelijk
+maken. De effectbeoordeling bevat een gedetailleerde analyse van de kosten en baten,
+m.i.v. een samenvatting in bijlage 3.
+Hoewel de herziening de algemene beleidsambitie aanscherpt, voorziet zij ook in enkele
+NL 11 NL
+belangrijke vereenvoudigingen, die vooral exploitanten van laadpunten en aanbieders van
+mobiliteitsdiensten ten goede zullen komen. Het vaststellen van duidelijke en
+gemeenschappelijke minimumeisen die in alle lidstaten gelden, zal hun bedrijfsvoering
+vereenvoudigen. Door die eisen wordt het voor particuliere en zakelijke consumenten (die
+momenteel met een veelvoud aan gebruiksmethoden worden geconfronteerd) eenvoudiger
+om de infrastructuur te gebruiken en ontstaan kansen voor innovatie van de zakelijke
+dienstverlening. Het vertrouwen van de consument in de robuustheid van een pan-Europees
+netwerk van laad- en tankinfrastructuur zal toenemen, wat de algemene rendabiliteit van
+laad- en tankpunten zal bevorderen en bijdraagt tot een stabiele business case. Alle
+marktdeelnemers en gebruikersgroepen zullen profiteren van lagere informatiekosten en, in
+het geval van marktdeelnemers, lagere nalevingskosten op middellange termijn, die het
+resultaat zijn van een verdere harmonisering van de infrastructuureisen in het kader van de
+verordening. Overheidsinstanties kunnen ook profiteren van een coherent EU-kader dat de
+coördinatie met publieke en private marktdeelnemers zal vereenvoudigen.
+In de effectbeoordeling was geen sprake van aanzienlijke en onevenredige kosten van dit
+initiatief voor kmo’s ten opzichte van andere ondernemingen. Dit initiatief creëert
+marktzekerheid op lange termijn voor investeringen in laad- en tankinfrastructuur en legt de
+basis voor de ontwikkeling van een open data-ecosysteem dat ondernemingen kunnen
+gebruiken om nieuwe marktdiensten te ontwikkelen, wat innovatieve kmo’s ten goede zal
+komen. Het initiatief heeft over het algemeen een positief effect op het
+concurrentievermogen van ondernemingen die laad- en tankinfrastructuur installeren en
+exploiteren, en op het concurrentievermogen van de automobielsector. Dit komt doordat de
+beschikbaarheid van voldoende infrastructuur een impact heeft op de marktintroductie van
+emissievrije voertuigen, een belangrijk aspect voor het toekomstige concurrentievermogen
+van de automobielsector. Dit is nader toegelicht in de effectbeoordeling die ten grondslag
+ligt aan het voorstel tot herziening van de CO2-normen voor auto’s en bestelwagens7.
+3.6. Grondrechten
+Het voorstel heeft geen gevolgen voor de grondrechten.
+4. GEVOLGEN VOOR DE BEGROTING
+Het voorstel heeft geen gevolgen voor de begroting van de Europese Unie.
+5. OVERIGE ELEMENTEN
+5.1. Uitvoeringsplanning en regelingen betreffende controle, evaluatie en rapportage
+De uitvoering van de herziene verordening zal worden gemonitord aan de hand van
+indicatoren betreffende de fysieke uitrol van laad- en tankinfrastructuur in de EU. Er zullen
+beproefde monitoringinstrumenten worden gebruikt om de uitrol te monitoren.
+De lidstaten zullen een herzien nationaal beleidskader moeten vaststellen om de markt voor
+alternatieve brandstoffen in de vervoerssector te ontwikkelen en de relevante infrastructuur
+uit te rollen conform de voorgestelde aangescherpte regels. Dit zal hen in staat stellen op
+7 SWD(2021) 614, Effectbeoordeling bij het voorstel voor een verordening van het Europees Parlement
+en de Raad tot wijziging van Verordening (EU) 2019/631 wat betreft de aanscherping van de CO 2-
+emissienormen voor nieuwe personenauto’s en nieuwe lichte bedrijfsvoertuigen overeenkomstig de
+verhoogde klimaatambitie van de Unie.
+NL 12 NL
+coherente en consistente wijze aan de Commissie verslag uit te brengen over de uitvoering.
+Bij de gegevensverstrekking aan de nationale en gemeenschappelijke toegangspunten van
+de lidstaten worden gezamenlijk overeengekomen kwaliteitsnormen1 voor gegevens
+gehanteerd. Het Europees Waarnemingscentrum voor alternatieve brandstoffen zal voorts
+worden opgewaardeerd en blijft gegevens over de uitrol van voertuigen en infrastructuur in
+alle lidstaten2verzamelen en zal die regelmatig bijwerken. De Commissie zal ook blijven
+samenwerken met haar deskundigengroep, het Forum voor duurzaam vervoer (en zijn
+specifieke subgroepen), om de marktontwikkelingen te volgen en de daarmee
+samenhangende beleidsbehoeften te bepalen.
+Een volledige herziening van de verordening is gepland voor eind 2026 en moet eventuele
+tekortkomingen aan het licht brengen en een beeld geven van de toekomstige behoeften aan
+wetgevende maatregelen op het gebied van opkomende technologieën. Zie bijlage 9 bij het
+werkdocument van de diensten van de Commissie over de effectbeoordeling bij dit initiatief
+voor een overzicht van de operationele doelstellingen, indicatoren en gegevensbronnen.
+5.2. Artikelsgewijze toelichting
+Dit voorstel voorziet in een nieuwe verordening tot intrekking van Richtlijn 2014/94/EU
+betreffende de uitrol van infrastructuur voor alternatieve brandstoffen. De structuur van de
+nieuwe verordening is als volgt:
+– Artikel 1 omschrijft het onderwerp van de verordening en bevat specifieke maar geen
+inhoudelijke wijzigingen van het onderwerp van de huidige richtlijn.
+– Artikel 2 bevat een lijst van definities, voortbouwend op de lijst van definities van de
+huidige richtlijn: waar nodig worden die definities aangevuld in het licht van de
+algemene wijzigingen van het toepassingsgebied en de bepalingen van de nieuwe
+verordening.
+– De artikelen 3 tot en met 12 bevatten bepalingen inzake de uitrol van laad- en
+tankinfrastructuur voor lichte en zware wegvoertuigen, schepen en luchtvaartuigen.
+– Op grond van de artikelen 3 en 4 moeten de lidstaten op hun grondgebied, m.i.v. het
+TEN-T-kernnetwerk en het uitgebreide netwerk, voor een minimale dekking van
+openbaar toegankelijke laadpunten voor lichte en zware wegvoertuigen zorgen.
+– Artikel 5 bevat nadere bepalingen om de gebruiksvriendelijkheid van
+oplaadinfrastructuur te waarborgen. Het gaat onder meer om bepalingen over
+betalingsmogelijkheden, prijstransparantie en consumenteninformatie, niet-
+discriminerende praktijken, slim opladen en regels inzake de bewegwijzering van
+elektriciteitsvoorzieningen en laadpunten.
+– Artikel 6 bevat bepalingen op grond waarvan de lidstaten op hun grondgebied, m.i.v.
+het kernnetwerk en het uitgebreide netwerk van het TEN-T, voor een minimale
+dekking van openbaar toegankelijke waterstoftankpunten voor lichte en zware
+wegvoertuigen moeten zorgen.
+– Artikel 7 bevat nadere bepalingen om de gebruiksvriendelijkheid van de
+waterstoftankinfrastructuur te waarborgen, met onder meer minimumeisen inzake
+betaalmogelijkheden, prijstransparantie en contractuele keuze.
+1 Ontwikkelingen en aanbestedingen op het vlak van IT moeten vooraf worden goedgekeurd door de
+Raad voor Informatietechnologie en cyberbeveiliging van de Europese Commissie.
+2 www.eafo.eu.
+NL 13 NL
+– Artikel 8 bevat bepalingen op grond waarvan de lidstaten tot en met 1 januari 2025
+op het kernnetwerk en het uitgebreide netwerk van het TEN-T voor een
+minimumdekking van openbaar toegankelijke tankpunten voor vloeibaar aardgas
+voor zware bedrijfsvoertuigen moeten zorgen.
+– De artikelen 9 en 10 bevatten bepalingen inzake de installatie van minimale
+walstroomvoorzieningen voor bepaalde zeeschepen in zeehavens en voor
+binnenschepen. In deze artikelen worden ook de criteria voor de vrijstelling van
+bepaalde havens nader omschreven en worden eisen vastgesteld om een minimale
+walstroomvoorziening te waarborgen.
+– Op grond van artikel 11 moeten de lidstaten zorgen voor een passend aantal LNG-
+tankpunten in maritieme TEN-T-havens en in hun nationale beleidskaders relevante
+havens selecteren.
+– Artikel 12 heeft betrekking op minimumvoorzieningen voor de
+elektriciteitsaansluitingen voor alle stilstaande luchtvaartuigen op luchthavens op het
+TEN-T-kernnetwerk en het uitgebreide TEN-T.
+– In artikel 13 zijn de bepalingen inzake de nationale beleidskaders van de lidstaten
+geherformuleerd. Het voorziet in een iteratief proces tussen de lidstaten en de
+Commissie om een elementaire planning voor de uitrol van infrastructuur op te
+stellen en de in de verordening vastgestelde streefcijfers te halen. Het bevat ook
+nieuwe bepalingen over de ontwikkeling van een strategie voor de uitrol van
+alternatieve brandstoffen in andere vervoerswijzen, in samenwerking met belangrijke
+sectorale en regionale/lokale belanghebbenden. Het gaat om gevallen waarin in de
+verordening geen dwingende eisen zijn vastgesteld maar waarin een antwoord moet
+worden geformuleerd op nieuwe beleidsbehoeften in verband met de ontwikkeling
+van technologieën voor alternatieve brandstoffen.
+– In de artikelen 14, 15 en 16 wordt de governance-aanpak uiteengezet. Dit omvat
+rapportageverplichtingen overeenkomstig de bepalingen inzake de nationale
+beleidskaders en nationale voortgangsverslagen van de lidstaten, als onderdeel van
+een interactief proces met de Commissie. De artikelen bevatten ook voorschriften
+voor de Commissie om verslag uit te brengen over de nationale beleidskaders en
+voortgangsverslagen van de lidstaten.
+– Artikel 17 heeft betrekking op de eisen inzake gebruikersinformatie in de vorm van
+brandstoflabels en informatievereisten inzake de vergelijking van de
+brandstofprijzen.
+– In artikel 18 is bepaald aan welke gegevensvereisten exploitanten of eigenaars van
+openbaar toegankelijke laad- of tankpunten moeten voldoen met betrekking tot de
+beschikbaarheid en toegankelijkheid van bepaalde soorten statische en dynamische
+gegevens, m.i.v. de oprichting van een organisatie voor identificatieregistratie
+(IDRO) voor de afgifte van identificatiecodes. Dit artikel verleent de Commissie ook
+de bevoegdheid om gedelegeerde handelingen vast te stellen om nadere elementen te
+specificeren.
+– Artikel 19 bevat bepalingen voor gemeenschappelijke technische specificaties; de
+bestaande gemeenschappelijke technische specificaties worden aangevuld met een
+reeks nieuwe gebieden waarvoor de Commissie gedelegeerde handelingen kan
+vaststellen. Deze zullen, waar nodig, voortbouwen op normen die zijn ontwikkeld
+door de Europese normalisatieorganisaties (ENO’s).
+NL 14 NL
+– Artikel 20 heeft betrekking op de bevoegdheidsdelegatie inzake
+gegevensverstrekking en gemeenschappelijke technische specificaties.
+– Artikel 21 betreft de voortzetting van de comitéprocedure in het kader van de nieuwe
+verordening.
+– In de artikelen 22, 23 en 24 worden de voorwaarden voor herziening en
+inwerkingtreding van deze verordening vastgesteld.
+Het voorstel bevat bijlagen:
+– Bijlage I bevat gedetailleerde bepalingen over de nationale rapportage door de
+lidstaten. Die waarborgen een consistente en vergelijkbare verslaglegging om de
+uitvoering van deze verordening te ondersteunen.
+– Bijlage II betreft de lijst van gebieden waarvoor op de interne markt krachtens deze
+verordening gemeenschappelijke technische specificaties gelden waarvoor die op
+grond van deze verordening moeten worden vastgesteld door middel van
+gedelegeerde handelingen betreffende nieuwe technologische ontwikkelingen
+waarvoor gemeenschappelijke technische specificaties nodig zijn.
+– Bijlage III bevat categoriseringsvoorschriften voor de verslaglegging door de
+lidstaten over de uitrol van elektrische voertuigen en laadinfrastructuur.
+– De concordantietabel is opgenomen in bijlage IV.
+NL 15 NL
+2021/0223 (COD)
+Voorstel voor een
+VERORDENING VAN HET EUROPEES PARLEMENT EN DE RAAD
+betreffende de uitrol van infrastructuur voor alternatieve brandstoffen en tot intrekking
+van Richtlijn 2014/94/EU van het Europees Parlement en de Raad
+(Voor de EER relevante tekst)
+HET EUROPEES PARLEMENT EN DE RAAD VAN DE EUROPESE UNIE,
+Gezien het Verdrag betreffende de werking van de Europese Unie, en met name artikel 91,
+Gezien het voorstel van de Europese Commissie,
+Na toezending van het ontwerp van wetgevingshandeling aan de nationale parlementen,
+Gezien het advies van het Europees Economisch en Sociaal Comité3,
+Gezien het advies van het Comité van de Regio's4,
+Handelend volgens de gewone wetgevingsprocedure,
+Overwegende hetgeen volgt:
+(1) Bij Richtlijn 2014/94/EU5 van het Europees Parlement en de Raad van 22 oktober
+2014 heeft de EU een kader voor de uitrol van infrastructuur voor alternatieve
+brandstoffen vastgesteld. In haar mededeling over de toepassing van die richtlijn6 heeft
+de Commissie gewezen op de ongelijke uitrol van laad- en tankinfrastructuur in de
+Unie en op het gebrek aan interoperabiliteit en gebruikersvriendelijkheid. Voorts heeft
+ze opgemerkt dat het ambitieniveau bij de vaststelling van streefcijfers en
+ondersteunend beleid, door het ontbreken van een heldere gemeenschappelijke
+methode voor de vaststelling van streefcijfers en maatregelen in de op grond van
+Richtlijn 2014/94/EU vereiste nationale beleidskaders, sterk verschilt van lidstaat tot
+lidstaat.
+(2) In verschillende rechtsinstrumenten van de Unie zijn reeds streefcijfers voor
+hernieuwbare brandstoffen vastgesteld. In Richtlijn 2018/2001/EG7 van het Europees
+Parlement en de Raad is voor het marktaandeel van hernieuwbare energie in
+vervoersbrandstoffen een streefdoel van 14 % opgenomen.
+3 PB C van , blz. .
+4 PB C van , blz. .
+5 Richtlijn 2014/94/EU van het Europees Parlement en de Raad van 22 oktober 2014 betreffende de uitrol
+van infrastructuur voor alternatieve brandstoffen (PB L 307 van 28.10.2014, blz. 1).
+6 COM(2020) 789 final.
+7 Richtlijn (EU) 2018/2001 van het Europees Parlement en de Raad van 11 december 2018 ter
+bevordering van het gebruik van energie uit hernieuwbare bronnen (PB L 328 van 21.12.2018, blz. 82).
+NL 16 NL
+(3) Bij Verordening (EU) 2019/6318 van het Europees Parlement en de Raad en
+Verordening (EU) 2019/12429 van het Europees Parlement ende Raad zijn reeds CO2-
+emissienormen vastgesteld voor nieuwe personenauto’s, nieuwe lichte
+bedrijfsvoertuigen en bepaalde zware bedrijfsvoertuigen. Die instrumenten moeten de
+omslag naar met name emissievrije voertuigen versnellen en zo vraag naar laad- en
+tankinfrastructuur creëren.
+(4) De initiatieven ReFuelEU Luchtvaart10 en FuelEU Zeevaart11 moeten de productie en
+het gebruik van duurzame alternatieve brandstoffen in de lucht- en zeevaart een boost
+geven. Hoewel voor de eisen inzake het gebruik van duurzame luchtvaartbrandstoffen
+grotendeels gebruik kan worden gemaakt van de bestaande tankinfrastructuur, zijn
+investeringen nodig voor de elektriciteitsvoorziening van stilstaande luchtvaartuigen.
+In het kader van FuelEU Zeevaart worden met name eisen gesteld inzake het gebruik
+van walstroom, waaraan alleen kan worden voldaan als in TEN-T-havens een
+toereikende walstroomvoorziening wordt aangelegd. Die initiatieven bevatten echter
+geen bepalingen over de vereiste brandstofinfrastructuur, die een randvoorwaarde is
+om de doelstellingen te kunnen halen.
+(5) Daarom moet dit instrument op alle vervoerswijzen gericht zijn, rekening houdend met
+de verscheidenheid aan alternatieve brandstoffen. Het gebruik van emissievrije
+aandrijftechnologieën bevindt zich in de verschillende vervoerswijzen in verschillende
+stadia van ontwikkeling. Met name in het wegvervoer winnen elektrische voertuigen
+op batterijen en plug-in-hybride voertuigen snel terrein. Ook wegvoertuigen op
+waterstof zijn beschikbaar. Bovendien worden in het kader van verschillende projecten
+en eerste commerciële activiteiten momenteel compactere waterstof- en
+batterijschepen en waterstoftreinen geëxploiteerd; de volledige commerciële uitrol
+wordt de volgende jaren verwacht. De lucht- en scheepvaart blijven daarentegen
+afhankelijk van vloeibare en gasvormige brandstoffen, aangezien emissievrije en
+emissiearme aandrijfsystemen naar verwachting pas rond 2030, en in de
+luchtvaartsector zelfs nog later, op de markt zullen komen en de volledige
+commercialisering tijd vergt. Het gebruik van fossiele gasvormige of vloeibare
+brandstoffen is alleen mogelijk indien ingebed in een duidelijk decarbonisatietraject
+conform de langetermijndoelstelling van klimaatneutraliteit in de Unie, die een
+toename van de vermenging met of vervanging door hernieuwbare brandstoffen zoals
+biomethaan, geavanceerde biobrandstoffen of hernieuwbare en koolstofarme
+synthetische gasvormige en vloeibare brandstoffen vereist.
+(6) Dergelijke biobrandstoffen en synthetische brandstoffen ter vervanging van diesel,
+benzine en kerosine kunnen uit verschillende grondstoffen worden geproduceerd en in
+hoge bijmengpercentages in fossiele brandstoffen worden gemengd. Zij kunnen
+technisch worden gebruikt met de huidige voertuigtechnologie, die slechts in beperkte
+mate moet worden aangepast. Hernieuwbare methanol kan ook worden gebruikt voor
+de binnenvaart en de kustvaart. Synthetische en paraffinehoudende brandstoffen
+8 Verordening (EU) 2019/631 van het Europees Parlement en de Raad van 17 april 2019 tot vaststelling
+van CO2-emissienormen voor nieuwe personenauto's en nieuwe lichte bedrijfsvoertuigen, en tot
+intrekking van Verordeningen (EG) nr. 443/2009 en (EU) nr. 510/2011 (PB L 111 van 25.4.2019, blz.
+13).
+9 Verordening (EU) 2019/1242 van het Europees Parlement en de Raad van 20 juni 2019 tot vaststelling
+van CO2-emissienormen voor nieuwe zware bedrijfsvoertuigen en tot wijziging van Verordeningen
+(EG) nr. 595/2009 en (EU) 2018/956 van het Europees Parlement en de Raad en Richtlijn 96/53/EG van
+de Raad (PB L 198 van 25.7.2019, blz. 202).
+10 COM(2021) 561.
+11 COM(2021) 562.
+NL 17 NL
+bieden potentieel om het gebruik van fossiele brandstoffen voor de energievoorziening
+van de vervoerssector terug te dringen. Al deze brandstoffen kunnen worden
+gedistribueerd, opgeslagen en gebruikt met de bestaande infrastructuur of, indien
+nodig, met soortgelijke infrastructuur.
+(7) LNG zal waarschijnlijk een rol blijven spelen in de zeevaart, waarvoor momenteel nog
+geen economisch levensvatbare emissievrije aandrijftechnologie beschikbaar is.
+Volgens de mededeling over de strategie voor slimme en duurzame mobiliteit zouden
+emissievrije zeeschepen tegen 2030 klaar zijn voor marktintroductie. Gezien de lange
+levensduur van schepen, moet de omschakeling van de vloot stapsgewijs gebeuren. In
+vergelijking met de zeevaart, zijn de schepen en afstanden in de binnenvaart doorgaans
+kleiner en zouden emissievrije aandrijftechnologieën, zoals waterstof en elektriciteit,
+sneller op de markt kunnen komen. Men verwacht niet dat LNG in die sector nog een
+belangrijke rol zal spelen. Vervoersbrandstoffen zoals LNG moeten in toenemende
+mate koolstofvrij worden gemaakt door ze bijvoorbeeld te mengen met of te
+vervangen door vloeibaar biomethaan (bio-LNG) of hernieuwbare en koolstofarme
+synthetische gasvormige e-brandstoffen (e-gas). Die koolstofvrije brandstoffen kunnen
+in dezelfde infrastructuur worden gebruikt als gasvormige fossiele brandstoffen,
+waardoor geleidelijk kan worden overgeschakeld op koolstofvrije brandstoffen.
+(8) De technologie voor zware vrachtwagens op LNG is intussen helemaal matuur. De
+gemeenschappelijke scenario’s die aan de strategie voor duurzame en slimme
+mobiliteit en het klimaatdoelplan ten grondslag liggen, alsook de herziene Fit for 55-
+modelscenario’s wijzen op een beperkte rol van gasvormige brandstoffen, die in
+toenemende mate koolstofvrij zullen worden, voor zwaar wegvervoer over langere
+afstand. Voorts wordt verwacht dat voertuigen op LPG en CNG, waarvoor in de Unie
+reeds een toereikend infrastructuurnet bestaat, geleidelijk zullen worden vervangen
+door emissievrije voertuigen; daarom wordt geoordeeld dat de inspanningen voor de
+uitrol van LNG-infrastructuur die ook koolstofvrije brandstoffen kan leveren, beperkt
+kunnen blijven tot het wegwerken van de resterende leemten op de hoofdnetten.
+(9) De uitrol van openbaar toegankelijke laadinfrastructuur voor lichte elektrische
+voertuigen is in de Unie niet gelijk verlopen. Een aanhoudende ongelijke spreiding
+zou een belemmering vormen voor het gebruik van dergelijke voertuigen, waardoor de
+connectiviteit in de hele Unie zou worden beperkt. Aanhoudende verschillen in de
+beleidsambities en -benaderingen tussen de lidstaten staan haaks op de voor
+substantiële marktinvesteringen vereiste zekerheid op lange termijn. Verplichte
+nationale minimumstreefcijfers voor de lidstaten moeten daarom de beleidsrichting
+bepalen en de nationale beleidskaders aanvullen. In die aanpak moeten nationale
+streefcijfers op basis van de omvang van de vloot worden gecombineerd met op
+afstand gebaseerde doelstellingen voor het trans-Europese vervoersnetwerk (TEN-T).
+Nationale vlootstreefcijfers moeten ervoor zorgen dat de uitrol van voldoende
+openbaar toegankelijke laadinfrastructuur gelijke tred houdt met de toename van
+voertuigen in elke lidstaat. De op afstand gebaseerde doelstellingen voor het TEN-T-
+netwerk moeten een volledige dekking van de hoofdwegennetten van de Unie met
+elektrische laadpunten waarborgen en naadloos vervoer doorheen de Unie mogelijk
+maken.
+(10) Er moeten nationale streefcijfers op basis van het wagenpark worden vastgesteld op
+basis van het totale aantal ingeschreven elektrische voertuigen in die lidstaat, aan de
+hand van een gemeenschappelijke methode die rekening houdt met de technologische
+ontwikkelingen, zoals de grotere autonomie van elektrische voertuigen of de
+toenemende marktpenetratie van snelladers, waaraan een groter aantal voertuigen per
+NL 18 NL
+laadpunt kunnen laden dan bij een normaal laadpunt. Bij die methode moet ook
+rekening worden gehouden met het verschillende laadpatroon tussen batterij- en plug-
+in hybridevoertuigen. Een methode waarmee de nationale vloot wordt
+gestandaardiseerd op basis van het totale maximale laadvermogen van de openbaar
+toegankelijke laadinfrastructuur, moet ruimte bieden voor flexibiliteit bij de uitrol van
+verschillende laadtechnologieën in de lidstaten.
+(11) Bij de uitvoering door de lidstaten moet worden gezorgd voor voldoende openbaar
+toegankelijke laadpunten, met name bij openbaarvervoerstations, zoals
+passagiersterminals in havens, luchthavens of treinstations. Om het de consument
+gemakkelijker te maken, moeten voldoende openbaar toegankelijke snellaadpunten
+voor lichte voertuigen worden geïnstalleerd, met name op het TEN-T-netwerk,
+teneinde volledige grensoverschrijdende connectiviteit te waarborgen en het verkeer
+van elektrische voertuigen in de hele Unie mogelijk te maken.
+(12) Eigenaars van elektrische voertuigen moeten grotendeels gebruik maken van
+laadpunten in hun eigen gebouw of op collectieve parkeerplaatsen in residentiële en
+niet-residentiële gebouwen. Hoewel de uitrol van infrastructuur voor leidingen en
+laadpunten in die gebouwen geregeld is bij Richtlijn 2010/31/EU12 van het Europees
+Parlement en de Raad, moeten de lidstaten bij de uitrolplanning van openbaar
+toegankelijke laadpunten rekening houden met de beschikbaarheid van dergelijke
+particuliere infrastructuur.
+(13) Elektrische zware bedrijfsvoertuigen vergen andere laadinfrastructuur dan lichte
+voertuigen. Op dit moment is er echter bijna nergens in de Unie openbaar
+toegankelijke infrastructuur voor elektrische zware bedrijfsvoertuigen beschikbaar.
+Een aanpak met een combinatie van op afstand gebaseerde doelstellingen voor het
+TEN-T-netwerk, streefcijfers voor infrastructuur voor nachtelijk opladen en
+streefcijfers voor stedelijke knooppunten moet in de hele Unie zorgen voor een
+toereikende dekking van openbaar toegankelijke laadinfrastructuur voor elektrische
+zware bedrijfsvoertuigen om de verwachte marktpenetratie van zware
+bedrijfsvoertuigen op batterijen te ondersteunen.
+(14) Op het TEN-T-netwerk moeten voldoende openbaar toegankelijke snellaadpunten
+voor zware bedrijfsvoertuigen worden geïnstalleerd om de volledige
+grensoverschrijdende connectiviteit te waarborgen en naadloos verkeer van elektrische
+voertuigen in de hele Unie mogelijk te maken. Die infrastructuur moet over voldoende
+vermogen beschikken om het voertuig binnen de wettelijke rusttijd van de bestuurder
+te kunnen opladen. Om de elektrificatie van het langeafstandsvervoer te ondersteunen,
+moeten zware bedrijfsvoertuigen niet alleen gebruik kunnen maken van snelle
+laadpunten maar op het hoofdwegennet ook toegang hebben tot openbaar
+toegankelijke laadinfrastructuur voor nachtelijk opladen.
+(15) De laadinfrastructuur op het TEN-T-netwerk moet worden aangevuld met openbaar
+toegankelijke snellaadinfrastructuur in stedelijke knooppunten. Er is met name
+infrastructuur nodig om laadmogelijkheden te bieden voor distributievrachtwagens en
+om vrachtwagens die langeafstandsvervoer verrichten de kans te geven op hun
+bestemming te laden; het nationale streefcijfer op basis van het wagenpark moet ook
+in steden voorzien in laadpunten voor lichte bedrijfsvoertuigen.
+(16) De uitrol van laadinfrastructuur is even belangrijk op particuliere locaties, zoals in
+particuliere garages en in logistieke centra om laden tijdens de nacht en op de
+12 Richtlijn 2010/31/EU van het Europees Parlement en de Raad van 19 mei 2010 betreffende de
+energieprestatie van gebouwen (PB L 153 van 18.6.2010, blz. 13).
+NL 19 NL
+bestemming mogelijk te maken. Overheidsinstanties moeten in het kader van de
+ontwikkeling van hun herziene nationale beleidskaders maatregelen nemen om ervoor
+te zorgen dat er adequate infrastructuur om tijdens de nacht of op de bestemming te
+laden beschikbaar is.
+(17) Tot de openbaar toegankelijke laad- of tankpunten behoren bijvoorbeeld particuliere
+publiek toegankelijke laad- of tankpunten die zich op openbaar of privéterrein
+bevinden, zoals openbare parkeerplaatsen of parkeerplaatsen van supermarkten. Een
+laad- of tankpunt op privéterrein dat voor het grote publiek toegankelijk is, moet als
+openbaar toegankelijk worden beschouwd, zelfs als de toegang beperkt is tot een
+specifieke algemene groep gebruikers, bijvoorbeeld klanten. Laad- of tankpunten voor
+autodeelsystemen mogen alleen als openbaar toegankelijk worden beschouwd als zij
+uitdrukkelijk toegankelijk zijn voor derden. Laad- of tankpunten op privéterrein
+waarvan de toegang beperkt is tot een beperkte, specifieke groep personen, zoals
+parkeerplaatsen in kantoorgebouwen die alleen toegankelijk zijn voor werknemers of
+gemachtigde personen, mogen niet als openbaar toegankelijke laad- of tankpunten
+worden beschouwd.
+(18) Een laadstation is de enige fysieke installatie voor het opladen van elektrische
+voertuigen. Elk station heeft een theoretisch maximumvermogen, uitgedrukt in kW.
+Elk station omvat ten minste één laadpunt dat slechts één voertuig tegelijk kan
+bedienen. Het aantal laadpunten in een laadstation bepaalt hoeveel voertuigen op een
+bepaald moment in dat station kunnen worden opgeladen. Wanneer op een laadstation
+op een bepaald moment meer dan één voertuig wordt opgeladen, wordt het
+maximumvermogen over de verschillende laadpunten verdeeld, waardoor het op elk
+laadpunt geleverde vermogen lager is dan het laadvermogen van dat station. Een
+laadpool bestaat uit een of meer laadstations op één specifieke locatie, met inbegrip
+van, in voorkomend geval, de voor het laden bestemde parkeerplaatsen. Voor het
+behalen van de in deze verordening vastgestelde streefcijfers voor laadpools kan het
+minimale laadvermogen dat voor die pools vereist is, door een of meer laadstations
+worden geleverd.
+(19) De mogelijkheid om geavanceerde digitale diensten te ontwikkelen, met inbegrip van
+aan een contract gekoppelde betaaloplossingen, en om met digitale middelen
+transparante gebruikersinformatie te verstrekken, hangt af van de uitrol van digitaal
+geconnecteerde en slimme laadpunten die de ontwikkeling van een digitaal verbonden
+en interoperabele infrastructuur13 ondersteunen. Die slimme laadpunten moeten
+bepaalde fysieke kenmerken en technische specificaties (hard- en software) bezitten
+om gegevens in real time te kunnen verzenden en ontvangen, zodat informatie kan
+worden uitgewisseld tussen marktdeelnemers die van deze gegevens afhankelijk zijn
+voor de volledige ontwikkeling van de oplaadervaring, zoals exploitanten van
+laadpunten, aanbieders van mobiliteitsdiensten, e-roamingplatforms,
+distributiesysteembeheerders en uiteindelijk eindgebruikers.
+(20) Slimme metersystemen als gedefinieerd in Richtlijn (EU) 2019/944 van het Europees
+Parlement en de Raad14 leveren de realtimegegevens die nodig zijn om de stabiliteit
+van het net te garanderen en aan te zetten tot een rationeel gebruik van laaddiensten.
+Door in realtime nauwkeurige en transparante kostprijsinformatie te verstrekken,
+13 In overeenstemming met de beginselen van het Europees interoperabiliteitskader —
+Implementatiestrategie, COM/2017/0134 final.
+14 Richtlijn (EU) 2019/944 van het Europees Parlement en de Raad van 5 juni 2019 betreffende
+gemeenschappelijke regels voor de interne markt voor elektriciteit en tot wijziging van
+Richtlijn 2012/27/EU (PB L 158 van 14.6.2019, blz. 125).
+NL 20 NL
+moedigen zij de gebruiker, in combinatie met slimme laadpunten, aan op te laden op
+tijdstippen waarop de algemene elektriciteitsvraag en de energieprijzen laag zijn. Het
+gebruik van slimme metersystemen in combinatie met slimme laadpunten kan het
+laden optimaliseren, hetgeen voordelen biedt voor het elektriciteitssysteem en de
+eindgebruiker. De lidstaten moeten het gebruik van slimme metersystemen voor het
+opladen van elektrische voertuigen op openbaar toegankelijke laadpunten
+aanmoedigen, voor zover dit technisch haalbaar en economisch redelijk is, en ervoor
+zorgen dat die systemen voldoen aan de eisen van artikel 20 van Richtlijn (EU)
+2019/944.
+(21) Om in te spelen om de behoeften van het toenemende aantal elektrische voertuigen in
+onder meer het wegvervoer, bij het spoor en in de zeevaart zal het oplaadproces
+moeten worden geoptimaliseerd en beheerd op een manier die geen congestie
+veroorzaakt en waarbij de beschikbaarheid van hernieuwbare elektriciteit en lage
+elektriciteitsprijzen in het systeem optimaal worden benut. Met name slim opladen,
+waarbij gebruik wordt gemaakt van aggregatie en vraagrespons op basis van de prijs,
+kan de integratie van elektrische voertuigen in het elektriciteitssysteem verder
+faciliteren. Systeemintegratie kan verder worden vergemakkelijkt door bidirectioneel
+laden (tussen voertuig en net). Slim laden moet daarom worden ondersteund door alle
+normale laadpunten waarop geparkeerde voertuigen gewoonlijk voor een langere
+periode worden aangesloten.
+(22) De ontwikkeling van infrastructuur voor elektrische voertuigen, de interactie van die
+infrastructuur met het elektriciteitssysteem en de aan de verschillende actoren op de
+markt voor elektrische mobiliteit toegekende rechten en verantwoordelijkheden
+moeten in overeenstemming zijn met de beginselen van Richtlijn (EU) 2019/944. In
+die zin moeten distributiesysteembeheerders op niet-discriminerende basis
+samenwerken met iedereen die een openbaar toegankelijk laadpunt installeert of
+exploiteert, en de lidstaten moeten ervoor zorgen dat voor de elektriciteitsvoorziening
+van een laadpunt een contract kan worden gesloten met een andere leverancier dan de
+entiteit die elektriciteit levert aan het huishouden of het gebouw waar dat laadpunt zich
+bevindt. De toegang van EU-elektriciteitsleveranciers tot laadpunten mag geen afbreuk
+doen aan de ontheffingen uit hoofde van artikel 66 van Richtlijn (EU) 2019/944.
+(23) De installatie en het beheer van laadpunten voor elektrische voertuigen moeten op
+basis van een concurrerende marktwerking worden ontwikkeld, waarbij die markt vrij
+toegankelijk moet zijn voor alle partijen die laadinfrastructuur willen aanleggen of
+beheren. Gezien de beperkte alternatieve locaties op de snelwegen vormen de
+bestaande snelwegconcessies, bijvoorbeeld voor conventionele tankstations of
+rustplaatsen, een bijzonder punt van zorg, aangezien die concessies soms een zeer
+lange looptijd hebben en in sommige gevallen zelfs geen exacte einddatum hebben.
+Voor laadstations op of in de buurt van bestaande rustplaatsen op de snelwegen
+moeten de lidstaten ernaar streven om, voor zover mogelijk en in overeenstemming
+met Richtlijn 2014/23/EU15 van het Europees Parlement en de Raad, nieuwe
+concessies te gunnen teneinde de uitrolkosten te beperken en kansen te bieden aan
+nieuwkomers op de markt.
+(24) Prijstransparantie is van cruciaal belang voor naadloos en eenvoudig opladen en
+bijtanken. Gebruikers van voertuigen op alternatieve brandstof moeten vóór het begin
+van de laad- of tankbeurt nauwkeurige prijsinformatie krijgen. De prijs moet op een
+15 Richtlijn 2014/23/EU van het Europees Parlement en de Raad van 26 februari 2014 betreffende het
+plaatsen van concessieovereenkomsten (PB L 94 van 28.3.2014, blz. 1).
+NL 21 NL
+duidelijk gestructureerde wijze worden meegedeeld zodat eindgebruikers inzicht
+krijgen in de verschillende kostencomponenten.
+(25) Er ontstaan nieuwe diensten die het gebruik van elektrische voertuigen ondersteunen.
+Entiteiten die deze diensten aanbieden, zoals aanbieders van mobiliteitsdiensten,
+moeten onder eerlijke marktvoorwaarden kunnen werken. Exploitanten van
+laadpunten mogen dergelijke dienstverleners geen ongeoorloofde
+voorkeursbehandeling geven, bijvoorbeeld door ongerechtvaardigde prijsdifferentiatie
+die de concurrentie kan belemmeren en uiteindelijk kan leiden tot hogere
+consumentenprijzen. De Commissie moet toezicht houden op de ontwikkeling van de
+oplaadmarkt. Bij de herziening van de verordening zal de Commissie maatregelen
+nemen wanneer marktontwikkelingen dit vereisen, bijvoorbeeld als er sprake zou zijn
+van beperkingen van diensten voor eindgebruikers of handelspraktijken die de
+mededinging kunnen beperken.
+(26) Het marktaandeel van motorvoertuigen op waterstof is momenteel zeer klein. De uitrol
+van toereikende infrastructuur voor het tanken van waterstof is echter essentieel om
+een grootschalige uitrol van motorvoertuigen op waterstof mogelijk te maken, zoals
+beoogd in de waterstofstrategie van de Commissie voor een klimaatneutraal Europa 16.
+Momenteel zijn er slechts in enkele lidstaten waterstoftankpunten en zijn de meeste
+daarvan niet geschikt voor zware bedrijfsvoertuigen, waardoor waterstofvoertuigen
+niet in de hele Unie kunnen rijden. Bindende streefcijfers voor de uitrol van openbaar
+toegankelijke waterstoftankpunten moeten ervoor zorgen dat op het TEN-T-
+kernnetwerk een voldoende dicht netwerk van waterstoftankpunten wordt uitgerold
+om in de hele Unie naadloos vervoer met lichte en zware bedrijfsvoertuigen op
+waterstof mogelijk te maken.
+(27) Voertuigen op waterstof moeten kunnen tanken op of dichtbij hun bestemming, die
+gewoonlijk in een stedelijk gebied ligt. Om ervoor te zorgen dat er op zijn minst in de
+belangrijkste steden openbaar toegankelijke tankpunten zijn, moeten er
+waterstoftankstations komen in alle stedelijke knooppunten zoals gedefinieerd in
+Verordening (EU) nr. 1315/201317 van het Europees Parlement en de Raad.
+Overheden moeten onderzoeken of die stations in stedelijke knooppunten kunnen
+worden voorzien in multimodale goederenterminals, aangezien dat niet alleen typische
+bestemmingen zijn voor zware bedrijfsvoertuigen zijn, maar ook andere
+vervoerswijzen, zoals het spoor en de binnenvaart, daar waterstof zouden kunnen
+tanken.
+(28) In een vroeg stadium van marktintroductie bestaat er nog steeds een zekere mate van
+onzekerheid over het soort voertuigen dat op de markt zal komen en over het soort
+technologieën dat op grote schaal zal worden gebruikt. Zoals uiteengezet in de
+mededeling van de Commissie “Een waterstofstrategie voor een klimaatneutraal
+Europa”18 werd het segment van de zware bedrijfsvoertuigen aangemerkt als het meest
+kansrijke segment voor een snelle grootschalige uitrol van waterstofvoertuigen.
+Daarom moet de infrastructuur voor het tanken van waterstof voorlopig op dat
+segment focussen en moeten lichte voertuigen ook gebruik kunnen maken van
+openbaar toegankelijke waterstoftankstations. Met het oog op de interoperabiliteit
+moeten alle openbaar toegankelijke waterstofstations een druk van ten minste 700 bar
+16COM(2020) 301 final.
+17 Verordening (EU) Nr. 1315/2013 van het Europees Parlement en de Raad van 11 december 2013
+betreffende richtsnoeren van de Unie voor de ontwikkeling van het trans-Europees vervoersnetwerk en
+tot intrekking van Besluit nr. 661/2010/EU (PB L 348 van 20.12.2013, blz. 1).
+18 COM(2020) 301 final
+NL 22 NL
+leveren. Bij de uitrol van infrastructuur moet ook rekening worden gehouden met de
+opkomst van nieuwe technologieën, zoals vloeibare waterstof, die zware
+bedrijfsvoertuigen een grotere autonomie bieden en die de voorkeur genieten van
+sommige voertuigfabrikanten. Daartoe moet bij een minimumaantal
+waterstoftankstations vloeibaar waterstof kunnen worden getankt met een druk van
+700 bar.
+(29) De Unie beschikt over een aantal LNG-tankpunten, die een ruggengraat vormen voor
+het verkeer van zware bedrijfsvoertuigen op LNG. Het TEN-T-kernnetwerk moet de
+basis blijven voor de uitrol van LNG-infrastructuur en geleidelijk aan voor bio-LNG,
+aangezien het de belangrijkste verkeersstromen verwerkt en grensoverschrijdende
+verbindingen in de hele Unie mogelijk maakt. In Richtlijn 2014/94/EU werd
+aanbevolen dat dergelijke tankpunten om de 400 km op het TEN-T-kernnetwerk
+zouden worden geïnstalleerd, maar het netwerk vertoont nog enkele kleine lacunes om
+die doelstelling te bereiken. De lidstaten moeten die doelstelling uiterlijk in 2025
+bereiken en de resterende leemten opvullen, waarna de doelstelling vervalt.
+(30) Gebruikers van voertuigen op alternatieve brandstoffen moeten vlot en gemakkelijk
+kunnen betalen bij alle openbaar toegankelijke laad- en tankpunten, zonder de
+verplichting een contract te sluiten met de exploitant van het laad- of tankpunt of een
+aanbieder van mobiliteitsdiensten. Daarom moeten alle openbaar toegankelijke laad-
+en tankpunten op ad-hocbasis de in de Unie gangbare betaalmiddelen aanvaarden, met
+name elektronische betalingen via terminals en apparatuur voor betalingsdiensten. Die
+ad-hocbetalingsmethode moet altijd beschikbaar zijn voor consumenten, zelfs als bij
+het laad- of tankpunt op basis van een contract kan worden betaald.
+(31) De vervoersinfrastructuur moet alle gebruikers naadloze mobiliteit en toegankelijkheid
+bieden, ook aan personen met een handicap en ouderen. In beginsel moeten de plaats
+van alle laad- en tankstations en die stations zelf zodanig worden ontworpen dat zij
+door zoveel mogelijk mensen kunnen worden gebruikt, ook door ouderen, personen
+met beperkte mobiliteit en personen met een handicap. Er moet bijvoorbeeld
+voldoende ruimte worden voorzien rond de parkeerplaats, het laadstation moet zonder
+drempel bereikbaar zijn, de knoppen en het scherm van het laadstation moeten op een
+passende hoogte staan en de laad- en tankkabels mogen niet te zwaar zijn zodat ze ook
+hanteerbaar zijn voor mensen met beperkte spierkracht. Bovendien moet de
+gebruikersinterface van de laadpunten toegankelijk zijn. In die zin moeten de
+toegankelijkheidseisen van de bijlagen I en III bij Richtlijn 2019/88219 van toepassing
+zijn op laad- en tankinfrastructuur.
+(32) Walstroomvoorzieningen kunnen schone stroom leveren aan de zee- en binnenvaart en
+helpen om de milieu-impact van zee- en binnenschepen te beperken. In het kader van
+FuelEU Zeevaart worden exploitanten van container- en passagiersschepen verplicht
+de emissies op de ligplaats te verminderen. Bindende uitrolstreefcijfers moeten ervoor
+zorgen dat in de zeehavens van het kernnetwerk en uitgebreid netwerk van het TEN-T
+voldoende walstroomvoorzieningen komen om de sector in staat te stellen zijn
+verplichtingen na te leven. De toepassing van deze doelstellingen op alle TEN-T-
+zeehavens moet zorgen voor een gelijk speelveld tussen havens.
+(33) Containerschepen en passagiersschepen, de twee categorieën schepen die op de
+ligplaats de meeste emissies per schip veroorzaken, moeten bij voorrang van
+walstroom worden voorzien. Om rekening te houden met de kenmerken van de
+19 Richtlijn 2019/882 van het Europees Parlement en de Raad van 17 april 2019 betreffende de
+toegankelijkheidsvoorschriften voor producten en diensten (PB L 151 van 7.6.2019, blz. 70).
+NL 23 NL
+elektriciteitsbehoeften van verschillende passagiersschepen op de ligplaats en met de
+operationele kenmerken van de haven, moet voor passagiersschepen een onderscheid
+worden gemaakt tussen de eisen voor enerzijds ro-ro-passagiersschepen en
+hogesnelheidspassagiersschepen en anderzijds de overige types passagiersschepen.
+(34) In de streefcijfers moet rekening worden gehouden met de soorten schepen die van
+stroom worden voorzien en met hun respectieve verkeersvolumes. Zeehavens met een
+bescheiden verkeersvolume van bepaalde scheepscategorieën moeten op basis van een
+minimumverkeersvolume worden vrijgesteld van de verplichte eisen voor de
+overeenkomstige categorieën, om te voorkomen dat capaciteit wordt geïnstalleerd die
+daarna onderbenut blijft. Evenzo mogen de verplichte streefcijfers niet gericht zijn op
+de maximale vraag, maar op een voldoende hoog volume, om een onderbenutting van
+de capaciteit te voorkomen en rekening te houden met de operationele kenmerken van
+de haven. Zeevervoer is belangrijk voor de cohesie en de economische ontwikkeling
+van eilanden in de Unie. De energieproductiecapaciteit op die eilanden is niet altijd
+toereikend om tegemoet te komen aan de vraag naar energie die met de levering van
+walstroom gepaard gaat. In dergelijke gevallen moeten eilanden van die eis worden
+vrijgesteld, tenzij en totdat een elektrische verbinding met het vasteland is gerealiseerd
+of tot er ter plaatse voldoende productiecapaciteit uit schone energiebronnen
+beschikbaar is.
+(35) Tegen 2025 moet in de zeehavens een kernnetwerk van LNG-tankpunten beschikbaar
+zijn. LNG-tankpunten bestaan uit terminals, tanks en mobiele containers voor LNG, en
+LNG-bunkerstations en -bunkerschepen.
+(36) De elektriciteitsvoorziening aan stilstaande luchtvaartuigen op luchthavens moet het
+verbruik van vloeibare brandstof vervangen door een schonere energiebron voor
+luchtvaartuigen (gebruik van hulpaggregaten) of grondgroepen (GPU’s). Dit moet het
+lawaai en de uitstoot van verontreinigende stoffen verminderen, de luchtkwaliteit
+verbeteren en de impact op de klimaatverandering beperken. Daarom moet voor alle
+commerciële vluchtuitvoeringen gebruik kunnen worden gemaakt van externe
+stroomvoorzieningen als het toestel op een TEN-T-luchthaven geparkeerd is bij de
+gates of op een buitenstandplaats.
+(37) Overeenkomstig artikel 3 van Richtlijn 2014/94/EU hebben de lidstaten nationale
+beleidskaders vastgesteld met hun plannen en doelstellingen om te waarborgen dat die
+doelstellingen worden bereikt. Zowel uit de beoordeling van het nationale
+beleidskader als uit de evaluatie van Richtlijn 2014/94/EU is gebleken dat er behoefte
+is aan meer ambitie en een beter gecoördineerde aanpak over de lidstaatgrenzen heen
+om de verwachte groei van het gebruik van voertuigen op alternatieve brandstoffen,
+met name elektrische voertuigen, op te vangen. Bovendien zullen voor alle
+vervoerswijzen alternatieven voor fossiele brandstoffen nodig zijn om de ambities van
+de Europese Green Deal te verwezenlijken. De bestaande nationale beleidskaders
+moeten worden herzien om duidelijk aan te geven hoe de lidstaten zullen voldoen aan
+de veel grotere behoefte aan openbaar toegankelijke laad- en tankinfrastructuur, zoals
+uitgedrukt in de bindende streefcijfers. De herziene kaders moeten in gelijke mate
+betrekking hebben op alle vervoerswijzen, m.i.v. de vervoerswijzen waarvoor geen
+bindende uitrolstreefcijfers zijn vastgesteld.
+(38) In de herziene nationale beleidskaders van de lidstaten moeten ondersteunende acties
+worden opgenomen om de markt voor alternatieve brandstoffen te ontwikkelen, met
+inbegrip van de uitrol van de nodige infrastructuur, in nauwe samenwerking met de
+regionale en lokale autoriteiten en de betrokken sectoren, en met inachtneming van de
+NL 24 NL
+behoeften van kleine en middelgrote ondernemingen. Daarnaast moeten in de herziene
+kaders het algemene nationale kader voor de planning, vergunningverlening en
+aanbesteding van die infrastructuur worden beschreven, met inbegrip van de
+vastgestelde belemmeringen en maatregelen om die weg te nemen, zodat de
+infrastructuur sneller kan worden uitgerold.
+(39) De Commissie moet de ontwikkeling en implementatie van de herziene nationale
+beleidskaders van de lidstaten faciliteren door middel van de uitwisseling van
+informatie en beste praktijken tussen de lidstaten.
+(40) Om alternatieve brandstoffen te promoten en de relevante infrastructuur te
+ontwikkelen, moeten de nationale beleidskaders bestaan uit gedetailleerde strategieën
+om het gebruik die brandstoffen te bevorderen in sectoren die moeilijk koolstofvrij
+kunnen worden gemaakt, zoals de luchtvaart, de zee- en binnenvaart en het
+spoorvervoer over lijnen die niet kunnen worden geëlektrificeerd. De lidstaten moeten
+met name duidelijke strategieën ontwikkelen om de binnenvaart over de TEN-T-
+waterwegen koolstofvrij te maken, in nauwe samenwerking met de andere betrokken
+lidstaten. Er moeten ook langetermijnstrategieën voor decarbonisatie worden
+ontwikkeld voor TEN-T-havens en -luchthavens, met bijzondere aandacht voor de
+uitrol van infrastructuur voor emissiearme en emissievrije schepen en luchtvaartuigen
+en voor spoorlijnen die niet worden geëlektrificeerd. Op basis van die strategieën moet
+de Commissie deze verordening herzien teneinde voor die sectoren meer bindende
+doelstellingen vast te stellen.
+(41) De lidstaten moeten gebruikmaken van een breed scala aan regelgevende en niet-
+regelgevende stimulansen en maatregelen om de bindende streefcijfers te halen en hun
+nationale beleidskaders uit te voeren; dat moet gebeuren in nauwe samenwerking met
+actoren uit de particuliere sector, die een sleutelrol moeten spelen bij de ondersteuning
+van de ontwikkeling van infrastructuur voor alternatieve brandstoffen.
+(42) Overeenkomstig Richtlijn 2009/33/EG20 van het Europees Parlement en de Raad zijn
+nationale minimumstreefcijfers vastgesteld voor overheidsaankopen van schone en
+emissievrije bussen, d.w.z. schone bussen die alternatieve brandstoffen gebruiken
+zoals gedefinieerd in artikel 2, punt 3), van deze verordening. Nu steeds meer OV-
+autoriteiten en -exploitanten overschakelen op schone en emissievrije bussen om die
+doelstellingen te halen, moeten de lidstaten de gerichte bevordering en ontwikkeling
+van de noodzakelijke infrastructuur voor bussen als essentieel onderdeel opnemen in
+hun nationale beleidskaders. Zij moeten passende instrumenten invoeren en in stand
+houden om ook voor eigen wagenparken de uitrol van laad- en tankinfrastructuur te
+bevorderen en met name voor schone en emissievrije stads- en streekbussen.
+(43) In het licht van de toenemende diversiteit van de soorten brandstof voor
+motorvoertuigen, in combinatie met de nog steeds groeiende wegmobiliteit van
+burgers in de hele Unie, moeten voertuiggebruikers op een duidelijke en gemakkelijk
+te begrijpen manier worden geïnformeerd over de brandstoffen die bij tankstations te
+koop zijn en over de compatibiliteit van hun voertuigen met de verschillende
+brandstoffen of laadpunten op de EU-markt. De lidstaten moeten kunnen besluiten
+deze informatiemaatregelen ook in te voeren ten aanzien van voertuigen die vóór 18
+november 2016 op de markt gebracht zijn.
+(44) Eenvoudige en gemakkelijk te vergelijken informatie over de prijzen van verschillende
+brandstoffen kan voor de voertuiggebruikers van belang zijn om de relatieve kosten
+20 Richtlijn 2009/33/EG van het Europees Parlement en de Raad van 23 april 2009 inzake de bevordering
+van schone en energiezuinige wegvoertuigen (PB L 120 van 15.5.2009, blz. 5).
+NL 25 NL
+van de in de handel verkrijgbare brandstoffen beter te kunnen beoordelen. Daarom
+moet in alle relevante tankstations ter informatie een vergelijking van eenheidsprijzen
+van bepaalde alternatieve brandstoffen en conventionele brandstoffen, uitgedrukt als
+“brandstofprijs per 100 km”, worden getoond.
+(45) Consumenten moeten voldoende informatie krijgen over de geografische ligging,
+kenmerken en diensten die worden aangeboden bij openbaar toegankelijke laad- en
+tankpunten voor alternatieve brandstoffen die onder deze verordening vallen. Daarom
+moeten de lidstaten exploitanten of eigenaars van openbaar toegankelijke laad- en
+tankpunten verplichten relevante statische en dynamische gegevens beschikbaar te
+stellen. Er moeten eisen worden vastgesteld met betrekking tot de beschikbaarheid en
+toegankelijkheid van relevante laad- en tankgegevens, voortbouwend op de resultaten
+van de programmaondersteunende actie inzake “Gegevensvergaring met betrekking tot
+laad- en tankpunten voor alternatieve brandstoffen en unieke identificatiecodes voor e-
+mobiliteitsactoren” (“IDACS”).
+(46) Gegevens moeten een fundamentele rol spelen bij de goede werking van de laad- en
+tankinfrastructuur. Het formaat, de frequentie en de kwaliteit waarin de gegevens
+beschikbaar en toegankelijk moeten worden gemaakt, moeten bepalend zijn voor de
+algemene kwaliteit van een infrastructuurecosysteem voor alternatieve brandstoffen
+dat aan de behoeften van de gebruikers beantwoordt. Bovendien moeten die gegevens
+in alle lidstaten op coherente wijze toegankelijk zijn. Daarom moeten de gegevens
+worden verstrekt overeenkomstig de in Richtlijn 2010/40/EU21 van het Europees
+Parlement en de Raad voor nationale toegangspunten (NAP's) vastgestelde regels.
+(47) Het is van cruciaal belang dat alle actoren in het ecosysteem voor elektrische
+mobiliteit vlot met digitale middelen kunnen interageren zodat ze de eindgebruiker een
+optimale dienstverlening kunnen bieden. Dit vereist unieke identificatiecodes van de
+relevante actoren in de waardeketen. Daartoe moeten de lidstaten een organisatie voor
+de identificatie van registraties (IDRO) aanwijzen, die belast wordt met de afgifte en
+het beheer van unieke identificatiecodes (ID's) om, ten minste, exploitanten van
+laadpunten en aanbieders van mobiliteitsdiensten te identificeren. De IDRO moet
+informatie verzamelen over e-mobiliteitsidentificatiecodes die reeds worden gebruikt
+in de betrokken lidstaat; waar nodig, nieuwe e-mobiliteitscodes toekennen aan
+exploitanten van laadpunten en aanbieders van mobiliteitsdiensten conform een voor
+de hele Unie vastgestelde gemeenschappelijke logica voor de formattering van
+elektronische mobiliteitsidentificatiecodes; en ervoor zorgen dat die e-mobiliteitscodes
+kunnen worden uitgewisseld en geverifieerd via een mogelijk toekomstig
+gemeenschappelijk register van identificatiegegevens (IDRR). De Commissie moet
+technische richtsnoeren opstellen voor de oprichting van een dergelijke organisatie,
+voortbouwend op de programmaondersteunende actie inzake “Gegevensvergaring met
+betrekking tot laad- en tankpunten voor alternatieve brandstoffen en unieke
+identificatiecodes voor e-mobiliteitsactoren” (IDACS).
+(48) Om de toegang tot de markt van alternatieve brandstoffen te vergemakkelijken en te
+consolideren, moeten voor de zee- en binnenvaart nieuwe normen worden vastgesteld
+met betrekking tot de elektriciteitsvoorziening en het bunkeren van waterstof,
+methanol en ammoniak, naast normen voor de communicatie tussen schepen en
+infrastructuur.
+21 Richtlijn 2010/40/EU van het Europees Parlement en de Raad van 7 juli 2010 betreffende het kader
+voor het invoeren van intelligente vervoerssystemen op het gebied van wegvervoer en voor interfaces
+met andere vervoerswijzen (PB L 207 van 6.8.2010, blz. 1).
+NL 26 NL
+(49) De Internationale Maritieme Organisatie (IMO) werkt aan uniforme en internationaal
+erkende veiligheids- en milieunormen voor vervoer over zee. Conflicten met
+internationale normen moeten worden voorkomen omdat vervoer over zee van nature
+een mondiale dimensie heeft. Daarom moet de Europese Unie ervoor zorgen dat
+technische specificaties voor vervoer over zee die op grond van deze verordening
+worden vastgesteld conform zijn met de internationale regels van de IMO.
+(50) De technische specificaties voor de interoperabiliteit van laad- en tankpunten moeten
+worden vastgesteld aan de hand van Europese of internationale normen. De Europese
+normalisatieorganisaties (ENO’s) moeten Europese normen vaststellen
+overeenkomstig artikel 10 van Verordening (EU) nr. 1025/201222 van het Europees
+Parlement en de Raad. Die normen moeten gebaseerd zijn op bestaande internationale
+normen of lopende internationale normalisatiewerkzaamheden, indien van toepassing.
+(51) De in bijlage II bij Richtlijn 2014/94/EU van het Europees Parlement en de Raad
+gespecificeerde technische specificaties moeten van toepassing blijven zoals
+gespecificeerd in die richtlijn.
+(52) Bij de toepassing van deze verordening moet de Commissie relevante
+deskundigengroepen raadplegen, met name het Forum voor duurzaam vervoer (STF)
+en het Europees Forum voor duurzame scheepvaart (ESSF). Deze raadpleging van
+deskundigen is uitermate belangrijk als de Commissie voornemens is gedelegeerde of
+uitvoeringshandelingen uit hoofde van deze verordening vast te stellen.
+(53) De ontwikkelingen op het gebied van infrastructuur voor alternatieve brandstoffen
+gaan snel. Het ontbreken van gemeenschappelijke technische specificaties vormt een
+belemmering voor de totstandbrenging van een interne markt voor infrastructuur voor
+alternatieve brandstoffen. Daarom moet aan de Commissie de bevoegdheid worden
+verleend om overeenkomstig artikel 290 VWEU technische specificaties vast te stellen
+met betrekking tot gebieden waarvoor nog geen technische specificaties bestaan maar
+wel nodig zijn. Het gaat onder meer om communicatie tussen elektrische voertuigen
+en de laadpunten, communicatie tussen laadpunten en het managementsysteem voor de
+laadsoftware (back-end); communicatie in verband met roaming door elektrische
+voertuigen en communicatie met het elektriciteitsnet. Voorts moet een passend
+governancekader worden gedefinieerd en moeten de rollen worden beschreven van de
+verschillende actoren die bij het ecosysteem voor communicatie tussen voertuigen en
+netten zijn betrokken. Bovendien moet rekening worden gehouden met opkomende
+technologische ontwikkelingen, zoals elektrische wegsystemen (ERS). Wat de
+verstrekking van gegevens betreft, moet worden voorzien in aanvullende soorten
+gegevens en technische specificaties met betrekking tot de frequentie waarmee en het
+formaat en de kwaliteit waarin die gegevens beschikbaar en toegankelijk moeten
+worden gemaakt.
+(54) De markt voor alternatieve brandstoffen en met name voor emissievrije brandstoffen
+bevindt zich nog in een pril ontwikkelingsstadium en de technologie evolueert snel.
+Dit zal waarschijnlijk van invloed zijn op de vraag naar alternatieve brandstoffen en
+bijgevolg op de infrastructuur voor alternatieve brandstoffen voor alle vervoerswijzen.
+Daarom moet de Commissie deze verordening uiterlijk eind 2026 herzien, met name
+22 Verordening (EU) nr. 1025/2012 van het Europees Parlement en de Raad van 25 oktober 2012
+betreffende Europese normalisatie, tot wijziging van de Richtlijnen 89/686/EEG en 93/15/EEG van de
+Raad alsmede de Richtlijnen 94/9/EG, 94/25/EG, 95/16/EG, 97/23/EG, 98/34/EG, 2004/22/EG,
+2007/23/EG, 2009/23/EG en 2009/105/EG van het Europees Parlement en de Raad en tot intrekking
+van Beschikking 87/95/EEG van de Raad en Besluit nr. 1673/2006/EG van het Europees Parlement en
+de Raad (PB L 316 van 14.11.2012, blz. 12).
+NL 27 NL
+wat betreft de streefcijfers voor elektrische laadpunten voor zware bedrijfsvoertuigen
+en de streefcijfers voor infrastructuur voor alternatieve brandstoffen voor emissievrije
+schepen en luchtvaartuigen.
+(55) Daar de doelstelling van deze verordening, namelijk een brede ontwikkeling van de
+markt voor alternatieve brandstoffen bevorderen, niet voldoende door de lidstaten kan
+worden verwezenlijkt maar, omdat er maatregelen nodig zijn om tegemoet te komen
+aan de vraag naar een kritische massa van voertuigen op alternatieve brandstof en naar
+kostenefficiënte ontwikkelingen door de Europese industrie, en om de mobiliteit van
+voertuigen op alternatieve brandstoffen in de hele Unie mogelijk te maken, beter door
+de Unie kan worden verwezenlijkt, kan de Unie maatregelen vaststellen
+overeenkomstig het subsidiariteitsbeginsel zoals vastgelegd in artikel 5 van het
+Verdrag betreffende de Europese Unie. Overeenkomstig het in hetzelfde artikel
+neergelegde evenredigheidsbeginsel gaat deze verordening niet verder dan nodig is om
+deze doelstelling te verwezenlijken,
+(56) Richtlijn 2014/94/EU moet daarom worden ingetrokken,
+HEBBEN DE VOLGENDE VERORDENING VASTGESTELD:
+Artikel 1
+Onderwerp
+1. Bij deze verordening worden bindende nationale streefcijfers vastgesteld voor de
+EU-brede uitrol van voldoende infrastructuur voor alternatieve brandstoffen voor
+wegvoertuigen, vaartuigen en stilstaande luchtvaartuigen. Er worden
+gemeenschappelijke technische specificaties en eisen vastgesteld inzake de
+gebruikersinformatie, gegevensverstrekking en betalingsmodaliteiten voor
+infrastructuur voor alternatieve brandstoffen.
+2. Deze verordening bevat regels voor de nationale beleidskaders die de lidstaten
+dienen vast te stellen, met inbegrip van de uitrol van infrastructuur voor alternatieve
+brandstoffen in gebieden waarvoor geen bindende EU-doelstellingen zijn vastgesteld,
+en inzake de verslaglegging over de uitrol van die infrastructuur.
+3. Bij deze verordening wordt een rapportagemechanisme ingesteld om samenwerking
+te stimuleren en een degelijke monitoring van de voortgang te waarborgen. Dat
+mechanisme voorziet in een gestructureerd, transparant en iteratief proces tussen de
+Commissie en de lidstaten dat gericht is op de ontwikkeling van de nationale
+beleidskaders, op de daaropvolgende uitvoering daarvan en op de overeenkomstige
+maatregelen van de Commissie.
+Artikel 2
+Definities
+Voor de toepassing van deze verordening wordt verstaan onder:
+NL 28 NL
+(1) “toegankelijkheid van de gegevens”: de mogelijkheid om de gegevens te allen tijde
+in een machineleesbaar formaat op te vragen en te verkrijgen, als gedefinieerd in
+artikel 2, punt 5, van Gedelegeerde Verordening (EU) 2015/96223 van de Commissie;
+(2) “ad-hocprijs”: de prijs die een exploitant van een laad- of tankpunt aan een
+eindgebruiker aanrekent om op ad-hocbasis te laden of te tanken;
+(3) “alternatieve brandstoffen”: brandstoffen of energiebronnen die, althans gedeeltelijk,
+dienen als vervanging van fossiele oliebronnen in de energievoorziening voor
+vervoer en die kunnen bijdragen tot de decarbonisatie van de energievoorziening en
+tot betere milieuprestaties van de vervoerssector, met inbegrip van:
+(a) “alternatieve brandstoffen voor emissievrije voertuigen”:
+– elektriciteit,
+– waterstof,
+– ammoniak,
+(b) “hernieuwbare brandstoffen”: biomassabrandstoffen en biobrandstoffen als
+gedefinieerd in artikel 2, punten 27 en 33, van Richtlijn (EU) 2018/2001, uit
+hernieuwbare energiebronnen geproduceerde synthetische en
+paraffinehoudende brandstoffen, waaronder ammoniak,
+–
+–
+(c) “alternatieve fossiele brandstoffen” voor een overgangsfase:
+– aardgas, in gasvorm (Compressed Natural Gas — CNG) en in vloeibare vorm
+(Liquefied Natural Gas — LNG),
+– vloeibaar gemaakt petroleumgas (LPG), en
+– uit niet-hernieuwbare energiebronnen geproduceerde synthetische en
+paraffinehoudende brandstoffen;
+(4) “luchthaven van het TEN-T-kernnetwerk en het uitgebreide TEN-T-netwerk”: een
+luchthaven als genoemd en gecategoriseerd in bijlage II bij Verordening (EU) nr.
+1315/2013;
+(5) “luchthavenbeheerder”: als gedefinieerd in artikel 2, punt 2, van Richtlijn
+2009/12/EG24 van het Europees Parlement en de Raad;
+(6) “automatische authenticatie”: de authenticatie van een voertuig bij een laadpunt via
+de laadconnector of telematica;
+(7) “beschikbaarheid van gegevens”: het bestaan van gegevens in een digitaal
+machineleesbaar formaat;
+(8) “batterijvoertuig”: een elektrisch voertuig dat uitsluitend op de elektromotor rijdt,
+zonder secundaire voortstuwingsbron;
+23 Gedelegeerde Verordening (EU) 2015/962 van de Commissie van 18 december 2014 ter aanvulling van
+Richtlijn 2010/40/EU van het Europees Parlement en de Raad wat de verlening van EU-wijde
+realtimeverkeersinformatiediensten betreft (PB L 157 van 23.6.2015, blz. 21).
+24 Richtlijn 2009/12/EG van het Europees Parlement en de Raad van 11 maart 2009 inzake
+luchthavengelden (PB L 70 van 14.3.2009, blz. 11).
+NL 29 NL
+(9) “bidirectioneel laden”: een slim laadproces waarbij de richting van de
+elektriciteitsstroom kan worden omgekeerd, waardoor elektriciteit ook van de batterij
+naar het laadpunt waarop zij is aangesloten kan stromen;
+(10) “connector”: de fysieke interface tussen het laadpunt en het elektrische voertuig via
+dewelke de elektrische energie wordt uitgewisseld;
+(11) “commercieel luchtvervoer”: luchtvervoer als gedefinieerd in artikel 3, punt 24), van
+Verordening (EU) 2018/113925 van het Europees Parlement en de Raad;
+(12) “containerschip”: een schip dat uitsluitend is ontworpen voor het vervoer van
+containers in ruimen en op het dek;
+(13) “betaling op basis van een contract”: een betaling door de eindgebruiker van een
+laad- of tankdienst aan een aanbieder van mobiliteitsdiensten op basis van een
+contract tussen de eindgebruiker en de aanbieder van mobiliteitsdiensten;
+(14) “digitaal verbonden laadpunt”: een laadpunt dat in realtime informatie kan verzenden
+en ontvangen, dat in twee richtingen met het elektriciteitsnet en met het elektrisch
+voertuig kan communiceren, en dat op afstand kan worden gemonitord en beheerd,
+onder meer om de laadsessie te starten en te stoppen en om de elektriciteitsstromen te
+meten;
+(15) “distributiesysteembeheerder”: een beheerder als gedefinieerd in artikel 2, punt 29,
+van Richtlijn (EU) 2019/944;
+(16) “dynamische gegevens”: gegevens die vaak of op regelmatige basis wijzigen;
+(17) “elektrisch wegsysteem”: een fysieke installatie op een weg waarmee elektriciteit
+kan worden verstrekt aan een rijdend elektrisch voertuig;
+(18) “elektrisch voertuig”: een motorvoertuig, uitgerust met een aandrijving die bestaat uit
+ten minste één niet-perifere elektromotor als energieomzetter met een elektrisch
+oplaadbaar energieopslagsysteem, dat extern kan worden opgeladen;
+(19) “elektriciteitsvoorziening aan stilstaande luchtvaartuigen”: de levering van
+elektriciteit via een gestandaardiseerde vaste of mobiele interface aan luchtvaartuigen
+die aan de gate of op een buitenstandplaats van een luchthaven zijn geparkeerd;
+(20) “eindgebruiker”: een natuurlijke of rechtspersoon die alternatieve brandstof koopt
+voor direct gebruik in een voertuig;
+(21) “e-roaming”: de uitwisseling van gegevens en betalingen tussen de exploitant van
+een laad- of tankpunt en een aanbieder van mobiliteitsdiensten van wie een
+eindgebruiker een laaddienst koopt;
+(22) “elektronisch roamingplatform”: een platform dat marktspelers, met name aanbieders
+van mobiliteitsdiensten en exploitanten van laad- of tankpunten, met elkaar verbindt
+om hen in staat te stellen aan elkaar diensten te verlenen, met inbegrip van e-
+roaming;
+25 Verordening (EU) 2018/1139 van het Europees Parlement en de Raad van 4 juli 2018 inzake
+gemeenschappelijke regels op het gebied van burgerluchtvaart en tot oprichting van een Agentschap
+van de Europese Unie voor de veiligheid van de luchtvaart, en tot wijziging van de Verordeningen (EG)
+nr. 2111/2005, (EG) nr. 1008/2008, (EU) nr. 996/2010, (EU) nr. 376/2014 en de Richtlijnen
+2014/30/EU en 2014/53/EU van het Europees Parlement en de Raad, en tot intrekking van de
+Verordeningen (EG) nr. 552/2004 en (EG) nr. 216/2008 van het Europees Parlement en de Raad en
+Verordening (EEG) nr. 3922/91 van de Raad (PB L 212 van 22.8.2018, blz. 1).
+NL 30 NL
+(23) “Europese norm”: een Europese norm als gedefinieerd in artikel 2, punt 1, c), van
+Verordening (EU) nr. 1025/2012;
+(24) “goederenterminal”: een goederenterminal als gedefinieerd in artikel 3, punt s), van
+Verordening (EU) nr. 1315/2013;
+(25) “brutotonnage (GT)”: brutotonnage als gedefinieerd in artikel 3, punt e), van
+Verordening (EU) 2015/75726 van het Europees Parlement en de Raad;
+(26) “zwaar bedrijfsvoertuig”: een motorvoertuig van de categorieën M2, M3, N2 of N3
+zoals gedefinieerd in bijlage II bij Richtlijn 2007/46/EG27;
+(27) “laadpunt voor hoog vermogen”: een laadpunt met een vermogen van meer dan
+22 kW waarmee elektriciteit kan worden verstrekt aan een elektrisch voertuig;
+(28) “hogesnelheidspassagiersvaartuig”: een vaartuig als omschreven in hoofdstuk X,
+voorschrift 1, van het SOLAS-verdrag van 1974, en dat bestemd is voor het vervoer
+van meer dan twaalf passagiers;
+(29) “licht voertuig”: een motorvoertuig van de categorieën M1 of N1 zoals gedefinieerd
+in bijlage II bij Richtlijn 2007/46/EG;
+(30) “aanbieder van mobiliteitsdiensten”: een rechtspersoon die tegen vergoeding
+diensten verleent aan eindgebruikers, met inbegrip van de verkoop van laaddiensten;
+(31) “laadpunt voor normaal vermogen”: een laadpunt met een vermogen van maximaal
+22 kW waarmee elektriciteit kan worden overgebracht naar een elektrisch voertuig;s
+(32) “nationaal toegangspunt”: een digitale interface waarbij bepaalde statische en
+dynamische gegevens toegankelijk worden gemaakt voor hergebruik door
+gebruikers, zoals door de lidstaten geïmplementeerd in overeenstemming met artikel
+3 van Gedelegeerde Verordening (EU) 2015/962 van de Commissie;
+(33) “exploitant van een laadpunt”: de entiteit die verantwoordelijk is voor het beheer en
+de exploitatie van een laadpunt dat een laaddienst levert aan eindgebruikers, onder
+meer namens en voor rekening van een aanbieder van mobiliteitsdiensten;
+(34) “exploitant van een tankpunt”: de entiteit die verantwoordelijk is voor het beheer en
+de werking van een tankpunt dat een tankdienst levert aan eindgebruikers, onder
+meer namens en voor rekening van een aanbieder van mobiliteitsdiensten;
+(35) “passagiersschip”: een schip dat meer dan 12 passagiers vervoert, met inbegrip van
+cruiseschepen, hogesnelheidspassagiersvaartuigen en schepen met voorzieningen om
+weg- of spoorvoertuigen in staat te stellen op en van het schip te rijden (“ro-ro-
+passagiersschepen”);
+(36) “plug-in hybride voertuig”: elektrisch voertuig waarbij een conventionele
+verbrandingsmotor wordt gecombineerd met een elektrisch aandrijfsysteem, dat via
+een externe elektrische energiebron kan worden opgeladen;
+(37) “laadvermogen”: het theoretische maximumvermogen, uitgedrukt in kW, dat door
+een laadpunt, -station, -pool of walstroomvoorziening kan worden geleverd aan een
+26 Verordening (EU) 2015/757 van het Europees Parlement en de Raad van 29 april 2015 betreffende de
+monitoring, de rapportage en de verificatie van kooldioxide-emissies door maritiem vervoer en tot
+wijziging van Richtlijn 2009/16/EG (PB L 123 van 19.5.2015, blz. 55).
+27 Richtlijn 2007/46/EG van het Europees Parlement en de Raad van 5 september 2007 tot vaststelling van
+een kader voor de goedkeuring van motorvoertuigen en aanhangwagens daarvan en van systemen,
+onderdelen en technische eenheden die voor dergelijke voertuigen zijn bestemd (Kaderrichtlijn)
+(PB L 263 van 9.10.2007, blz. 1).
+NL 31 NL
+voertuig of vaartuig dat is aangesloten op dat punt, dat station, die pool of die
+voorziening;
+(38) “openbaar toegankelijke infrastructuur voor alternatieve brandstoffen”: infrastructuur
+voor alternatieve brandstoffen op een locatie of in een ruimte die toegankelijk is voor
+het grote publiek, ongeacht of die infrastructuur zich op een openbaar dan wel op een
+privéterrein bevindt, ongeacht de eventuele beperkingen of voorwaarden voor de
+toegang tot de locatie of ruimte en ongeacht de gebruiksvoorwaarden van die
+infrastructuur;
+(39) “Quick-responscode (QR-code)”: een ISO 18004-conforme codering en visualisatie
+van gegevens;
+(40) “adhoc-laadbeurt”: een door een eindgebruiker aangekochte laaddienst waarvoor hij
+niet verplicht is zich te registreren, een schriftelijke overeenkomst te sluiten of een
+commerciële relatie met de exploitant van een laadpunt aan te gaan voor een langere
+periode dan de aankoop van de dienst;
+(41) “laadpunt”: een vaste of mobiele interface die het mogelijk maakt elektriciteit over te
+brengen naar een elektrisch voertuig en dat weliswaar over een of meer connectoren
+voor verschillende types stekker kan beschikken maar waaraan slechts één elektrisch
+voertuig tegelijk kan opladen, met uitzondering van apparaten met een
+uitgangsvermogen van ten hoogste 3,7 kW die niet in de eerste plaats voor het
+opladen van elektrische voertuigen zijn bestemd;
+(42) “laadpunt, -station of -pool voor lichte voertuigen”: een laadpunt, -station of -pool
+dat of die bestemd is voor het opladen van lichte voertuigen, hetzij vanwege het
+specifieke ontwerp van de connectoren/stekkers, hetzij vanwege de inrichting van de
+parkeerplaats naast het laadpunt, het station en/of de pool;
+(43) “laadpunt, station of pool voor zware bedrijfsvoertuigen”: een laadpunt, station of
+pool dat of die bestemd is voor het opladen van zware bedrijfsvoertuigen, hetzij
+vanwege het specifieke ontwerp van de connectoren/stekkers, hetzij vanwege het
+ontwerp van de parkeerplaats naast het laadpunt, het station en/of de pool;
+(44) “laadpool”: een of meer laadstations op een specifieke locatie;
+(45) “laadstation”: een enkele fysieke installatie op een specifieke locatie, bestaande uit
+een of meer laadpunten;
+(46) “laaddienst”: de verkoop of levering van elektriciteit, met inbegrip van aanverwante
+diensten, via een openbaar toegankelijk laadpunt;
+(47) “laadsessie”: het volledige proces van het opladen van een voertuig op een openbaar
+toegankelijk laadpunt vanaf het moment waarop het voertuig wordt aangesloten tot
+het moment waarop het wordt losgekoppeld;
+(48) “ad-hoctankbeurt”: een door een eindgebruiker aangekochte tankdienst waarvoor hij
+niet verplicht is zich te registreren, een schriftelijke overeenkomst te sluiten of een
+commerciële relatie met de exploitant van dat tankpunt aan te gaan voor een langere
+periode dan de aankoop van de dienst;
+(49) “tankpunt”: een tankfaciliteit voor de levering van een vloeibare of gasvormige
+alternatieve brandstof via een vaste of mobiele installatie, waaraan slechts één
+voertuig tegelijk kan worden bijgetankt;
+(50) “tankdienst”: de verkoop of levering van een vloeibare of gasvormige alternatieve
+brandstof via een openbaar toegankelijk tankpunt;
+NL 32 NL
+(51) “tanksessie”: het volledige proces van het tanken van een voertuig op een openbaar
+toegankelijk tankpunt vanaf het moment waarop het voertuig wordt aangesloten tot
+het moment waarop het wordt losgekoppeld;
+(52) “tankstation”: één fysieke installatie op een specifieke locatie, bestaande uit een of
+meer tankpunten;
+(53) "regulerende instantie": de door elke lidstaat krachtens artikel 57, lid 1, van Richtlijn
+(EU) 2019/944 aangewezen regulerende instantie;
+(54) “hernieuwbare energie”: energie uit hernieuwbare niet-fossiele bronnen als
+gedefinieerd in artikel 2, punt 1, van Richtlijn (EU) 2018/2001;
+(55) “ro-ro-passagiersschip”: een schip dat over de nodige voorzieningen beschikt om
+weg- of spoorvoertuigen het vaartuig op en af te laten rijden en dat bestemd is voor
+het vervoer van meer dan twaalf passagiers;
+(56) “veilig en beveiligd parkeerterrein”: een parkeer- en rustplaats als bedoeld in
+artikel 17, lid 1, punt b), die bestemd is voor nachtelijk parkeren van zware
+bedrijfsvoertuigen;
+(57) “schip op zijn ligplaats”: een schip op zijn ligplaats als gedefinieerd in artikel 3,
+punt 1, c), van Verordening (EU) 2015/757;
+(58) “walstroomvoorziening”: de voorziening van walstroom aan zeeschepen of
+binnenschepen die op de ligplaats liggen door middel van een gestandaardiseerde
+aansluiting;
+(59) “slim opladen”: een laadbeurt waarbij de intensiteit van de aan de batterij geleverde
+elektriciteit in realtime wordt aangepast op basis van via elektronische communicatie
+ontvangen informatie;
+(60) “statische gegevens”: gegevens die niet vaak of niet op regelmatige basis wijzigen;
+(61) “uitgebreid TEN-T-netwerk”: een netwerk als gedefinieerd in artikel 9 van
+Verordening (EU) nr. 1315/2013;
+(62) “TEN-T-kernnetwerk”: een netwerk als gedefinieerd in artikel 38 van Verordening
+(EU) nr. 1315/2013;
+(63) “binnenhaven op het TEN-T-kernnetwerk en op het uitgebreide TEN-T-netwerk”:
+een binnenhaven van het TEN-T-kernnetwerk of uitgebreide TEN-T-netwerk, als
+genoemd en gecategoriseerd in bijlage II bij Verordening (EU) nr. 1315/2013;
+(64) “zeehaven op het TEN-T-kernnetwerk en op het uitgebreide TEN-T-netwerk”: een
+zeehaven van het TEN-T-kernnetwerk of uitgebreide TEN-T-netwerk, als genoemd
+en gecategoriseerd in bijlage II bij Verordening (EU) nr. 1315/2013;
+(65) “transmissiesysteembeheerder”: een systeembeheerder als gedefinieerd in artikel 2,
+punt 35, van Richtlijn (EU) 2019/944;
+(66) “stedelijk knooppunt”: een stedelijk knooppunt als gedefinieerd in artikel 3, punt p),
+van Verordening (EU) nr. 1315/2013.
+NL 33 NL
+Artikel 3
+Streefcijfers voor laadinfrastructuur voor lichte elektrische voertuigen
+1. De lidstaten zien er op toe dat:
+– de uitrol van openbaar toegankelijke laadstations voor lichte voertuigen gelijke
+tred houdt met de toename van het aantal elektrische lichte voertuigen;
+– dat de op hun grondgebied geïnstalleerde openbaar toegankelijke laadstations
+voor lichte voertuigen voldoende vermogen leveren voor die voertuigen.
+Daartoe zorgen de lidstaten ervoor dat aan het einde van elk jaar, met ingang van het
+in artikel 24 bedoelde jaar, de volgende streefcijfers voor het beschikbare
+laadvermogen cumulatief worden gehaald:
+(a) voor elk op hun grondgebied ingeschreven licht batterijvoertuig wordt via
+openbaar toegankelijke laadstations een totaal laadvermogen geleverd van ten
+minste 1 kW; en
+(b) voor elk op hun grondgebied ingeschreven licht plug-in hybride voertuig wordt
+via openbaar toegankelijke laadstations een totaal laadvermogen geleverd van
+ten minste 0,66 kW.
+2. De lidstaten zorgen op hun wegennet voor een minimumdekking van openbaar
+toegankelijke laadpunten voor lichte voertuigen. Met het oog daarop zorgen de
+lidstaten ervoor dat:
+(a) op het TEN-T-kernnetwerk in elke rijrichting op onderlinge afstanden van
+maximaal 60 km openbaar toegankelijke laadpools voor lichte voertuigen
+worden geïnstalleerd die voldoen aan de volgende eisen:
+i) uiterlijk op 31 december 2025 levert elke laadpool een
+laadvermogen van ten minste 300 kW en omvat hij ten minste één
+laadstation met een individueel laadvermogen van ten minste
+150 kW;
+ii) uiterlijk op 31 december 2030 levert elke laadpool een
+laadvermogen van ten minste 600 kW en omvat hij ten minste twee
+laadstations met een individueel laadvermogen van ten minste
+150 kW;
+(b) op het uitgebreide TEN-T-netwerk in elke rijrichting op onderlinge afstanden
+van maximaal 60 km openbaar toegankelijke laadpools voor lichte voertuigen
+worden geïnstalleerd die voldoen aan de volgende eisen:
+i) uiterlijk op 31 december 2030 levert elke laadpool een vermogen
+van ten minste 300 kW en omvat hij ten minste één laadstation met
+een individueel vermogen van ten minste 150 kW;
+ii) uiterlijk op 31 december 2035 levert elke laadpool een
+laadvermogen van ten minste 600 kW en omvat hij ten minste twee
+laadstations met een individueel laadvermogen van ten minste
+150 kW;
+3. Naburige lidstaten zorgen ervoor dat de in de punten a) en b) bedoelde
+maximumafstanden op grensoverschrijdende wegen van het TEN-T-kernnetwerk en
+het uitgebreide TEN-T-netwerk niet worden overschreden.
+NL 34 NL
+Artikel 4
+Streefcijfers voor laadinfrastructuur voor zware elektrische bedrijfsvoertuigen
+1. De lidstaten zorgen op hun grondgebied voor een minimumdekking van openbaar
+toegankelijke laadpunten voor zware bedrijfsvoertuigen. Met het oog daarop zorgen
+de lidstaten ervoor dat:
+(a) op het TEN-T-kernnetwerk in elke rijrichting op onderlinge afstanden van
+maximaal 60 km openbaar toegankelijke laadpools voor zware
+bedrijfsvoertuigen worden geïnstalleerd die voldoen aan de volgende eisen:
+i) uiterlijk op 31 december 2025 levert elke laadpool een
+laadvermogen van ten minste 1400 kW en omvat hij ten minste één
+laadstation met een individueel laadvermogen van ten minste
+350 kW;
+ii) uiterlijk op 31 december 2030 levert elke laadpool een
+laadvermogen van ten minste 3500 kW en omvat hij ten minste
+twee laadstations met een individueel vermogen van ten minste
+350 kW;
+(b) op het uitgebreide TEN-T-netwerk worden in elke rijrichting op onderlinge
+afstanden van maximaal 100 km openbaar toegankelijke laadpools voor zware
+bedrijfsvoertuigen geïnstalleerd die voldoen aan de volgende eisen:
+i) uiterlijk op 31 december 2030 levert elke laadpool een
+laadvermogen van ten minste 1400 kW en omvat hij ten minste één
+laadstation met een individueel laadvermogen van ten minste
+350 kW;
+ii) uiterlijk op 31 december 2035 levert elke laadpool een
+laadvermogen van ten minste 3500 kW en omvat hij ten minste
+twee laadstations met een individueel laadvermogen van ten minste
+350 kW;
+(c) elk veilig en beveiligd parkeerterrein uiterlijk op 31 december 2030 is uitgerust
+met ten minste één laadstation voor zware bedrijfsvoertuigen met een
+laadvermogen van ten minste 100 kW;
+(d) elk stedelijk knooppunt uiterlijk op 31 december 2025 beschikt over openbaar
+toegankelijke laadpunten voor zware bedrijfsvoertuigen met een totaal
+laadvermogen van ten minste 600 kW, geleverd door laadstations met een
+individueel laadvermogen van ten minste 150 kW;
+(e) elk stedelijk knooppunt uiterlijk op 31 december 2030 beschikt over openbaar
+toegankelijke laadpunten voor zware bedrijfsvoertuigen met een totaal
+laadvermogen van ten minste 1 200 kW, geleverd door laadstations met een
+individueel laadvermogen van ten minste 150 kW.
+2. Naburige lidstaten zorgen ervoor dat de onder a) en b) bedoelde maximumafstanden
+op grensoverschrijdende wegen van het TEN-T-kernnetwerk en het uitgebreide TEN-
+T-netwerk niet worden overschreden.
+NL 35 NL
+Artikel 5
+Laadinfrastructuur
+1. Exploitanten van openbaar toegankelijke laadstations kunnen kiezen van welke
+elektriciteitsleverancier uit de Unie zij elektriciteit afnemen, mits de leverancier
+daarmee instemt.
+2. Exploitanten van laadpunten bieden eindgebruikers op de door hen geëxploiteerde
+openbaar toegankelijke laadpunten de mogelijkheid om hun elektrisch voertuig op
+ad-hocbasis te herladen met behulp van een in de Unie gangbaar betaalinstrument.
+Daartoe:
+(a) aanvaarden exploitanten van laadpunten in openbaar toegankelijke laadstations
+met een laadvermogen van minder dan 50 kW die vanaf de in artikel 24
+bedoelde datum worden geïnstalleerd, elektronische betalingen via terminals en
+apparatuur die voor betalingsdiensten worden gebruikt, met inbegrip van ten
+minste een van de volgende elementen:
+i) betaalkaartlezers;
+ii) apparatuur voor contactloos betalen die ten minste in staat is
+betaalkaarten te lezen;
+iii) apparaten met een internetverbinding, die bijvoorbeeld een specifieke
+QR-code kunnen genereren die voor de betaaltransactie kan worden
+gebruikt;
+(b) aanvaarden exploitanten van laadpunten in openbaar toegankelijke laadstations
+met een laadvermogen van 50 kW of meer die vanaf de in artikel 24 bedoelde
+datum worden geïnstalleerd, elektronische betalingen via terminals en
+apparatuur die voor betalingsdiensten worden gebruikt, met inbegrip van ten
+minste een van de volgende elementen:
+i) betaalkaartlezers;
+ii) apparatuur voor contactloos betalen die ten minste in staat is
+betaalkaarten te lezen.
+Met ingang van 1 januari 2027 zorgen exploitanten van laadpunten ervoor dat alle
+door hen geëxploiteerde openbaar toegankelijke laadstations met een laadvermogen
+van 50 kW of meer voldoen aan de eis van punt b).
+De in de punten a) en b) vastgestelde eisen zijn niet van toepassing op openbaar
+toegankelijke laadpunten waarbij de laaddienst gratis wordt verleend.
+3. Wanneer exploitanten van laadpunten op een door hen geëxploiteerd openbaar
+toegankelijk laadpunt automatische authenticatie aanbieden, dienen zij
+eindgebruikers de mogelijkheid te bieden geen gebruik te maken van de
+automatische authenticatie; in dat geval moeten eindgebruikers de mogelijkheid
+krijgen hun voertuig op ad-hocbasis op te laden, zoals bepaald in lid 3, of gebruik te
+maken van een andere contractuele laadoplossing die op dat laadpunt wordt
+aangeboden. Op elk openbaar toegankelijk laadpunt dat zij exploiteren en waar zij
+automatische authenticatie beschikbaar stellen, duiden exploitanten van laadpunten
+op transparante wijze aan dat die optie beschikbaar is en bieden zij deze op een
+handige manier aan de eindgebruiker aan.
+NL 36 NL
+4. De prijzen die exploitanten van openbaar toegankelijke laadpunten in rekening
+brengen, moeten redelijk, gemakkelijk en duidelijk vergelijkbaar, transparant en niet-
+discriminerend zijn. Exploitanten van openbaar toegankelijke laadpunten mogen
+geen onderscheid maken tussen de prijzen die worden aangerekend aan
+eindgebruikers en aan aanbieders van mobiliteitsdiensten, noch tussen de prijzen die
+aan verschillende aanbieders van mobiliteitsdiensten worden aangerekend. In
+voorkomend geval mag het prijsniveau alleen op evenredige wijze worden
+gedifferentieerd, op basis van een objectieve rechtvaardiging.
+5. Exploitanten van laadpunten vermelden de ad-hocprijs en alle componenten daarvan
+duidelijk op alle door hen geëxploiteerde openbaar toegankelijke laadpunten, zodat
+de eindgebruikers die tarieven kennen alvorens zij een laadsessie beginnen. Ten
+minste de volgende prijscomponenten, indien van toepassing op het laadstation,
+moeten duidelijk worden weergegeven:
+– de prijs per sessie,
+– de prijs per minuut,
+– de prijs per kWh.
+6. De prijzen die aanbieders van mobiliteitsdiensten aan eindgebruikers in rekening
+brengen, moeten redelijk, transparant en niet-discriminerend zijn. Aanbieders van
+mobiliteitsdiensten stellen eindgebruikers vóór het begin van een laadsessie via vrij
+toegankelijke, breed ondersteunde elektronische middelen alle prijsinformatie ter
+beschikking die op hun geplande laadsessie van toepassing is; daarbij wordt duidelijk
+onderscheid gemaakt tussen de prijscomponenten die de exploitant van het laadpunt
+in rekening brengt, de toepasselijke e-roamingkosten en andere door de aanbieder
+van mobiliteitsdiensten aangerekende vergoedingen of kosten. De vergoedingen
+moeten redelijk, transparant en niet-discriminerend zijn. Er mogen geen extra kosten
+voor grensoverschrijdende e-roaming worden aangerekend.
+7. Vanaf de in artikel 24 bedoelde datum zorgen exploitanten van laadpunten ervoor dat
+alle door hen geëxploiteerde openbaar toegankelijke laadpunten digitaal
+geconnecteerd zijn.
+8. Vanaf de in artikel 24 bedoelde datum zorgen exploitanten van laadpunten ervoor dat
+alle door hen geëxploiteerde openbaar toegankelijke laadpunten voor normaal
+vermogen uitgerust zijn om slim te kunnen laden.
+9. De lidstaten nemen de nodige maatregelen om ervoor te zorgen dat op parkeer- en
+rustplaatsen op het TEN-T-wegennet waar infrastructuur voor alternatieve
+brandstoffen is geïnstalleerd passende bewegwijzering wordt aangebracht, zodat
+gebruikers de exacte plaats van de infrastructuur voor alternatieve brandstoffen
+gemakkelijk kunnen vinden.
+10. Exploitanten van openbaar toegankelijke laadpunten zorgen ervoor dat alle door hen
+geëxploiteerde openbaar toegankelijke laadpunten met gelijkstroom (DC) uitgerust
+zijn met een vaste laadkabel.
+11. Als de exploitant van een laadpunt niet de eigenaar is van dat punt, stelt de eigenaar
+de exploitant, overeenkomstig de tussen beide getroffen regelingen, een laadpunt ter
+beschikking waarvan de technische kenmerken hem in staat stellen te voldoen aan de
+in de leden 1, 3, 7, 8 en 10 vastgestelde eisen.
+NL 37 NL
+Artikel 6
+Streefcijfers voor waterstoftankinfrastructuur voor wegvoertuigen
+1. De lidstaten zorgen ervoor dat op hun grondgebied uiterlijk op 31 december 2030
+een minimumaantal openbaar toegankelijke waterstoftankstations zijn geïnstalleerd.
+Daartoe zorgen de lidstaten ervoor dat het TEN-T-kernnetwerk en het uitgebreide
+TEN-T-netwerk uiterlijk op 31 december 2030 worden uitgerust met openbaar
+toegankelijke waterstoftankstations met een minimumcapaciteit van 2 t/dag en met
+een dispenser van ten minste 700 bar; de onderlinge afstand tussen die tankstations
+bedraagt maximaal 150 km. Vloeibare waterstof moet beschikbaar worden gesteld in
+openbaar toegankelijke tankstations, waartussen de onderlinge afstand maximaal
+450 km bedraagt.
+Zij zorgen ervoor dat uiterlijk op 31 december 2030 in elk stedelijk knooppunt ten
+minste één openbaar toegankelijk waterstoftankstation beschikbaar is. Voor de
+installatie van die tankstations wordt een analyse gemaakt van de beste locatie,
+rekening houdend met de uitrol van dergelijke stations in multimodale knooppunten
+waar ook waterstof aan andere vervoerswijzen kan worden geleverd.
+2. Naburige lidstaten zorgen ervoor dat de in de in lid 1, tweede alinea, bedoelde
+maximumafstand op grensoverschrijdende wegen van het TEN-T-kernnetwerk en het
+uitgebreide TEN-T-netwerk niet wordt overschreden.
+3. De exploitant van een openbaar toegankelijk tankstation of, indien hij niet de
+eigenaar is, de eigenaar van dat tankstation zorgt er, overeenkomstig regelingen
+tussen beide, voor dat het station kan worden gebruikt door zowel lichte voertuigen
+als zware bedrijfsvoertuigen. In goederenterminals zorgen de exploitanten of
+eigenaars van openbaar toegankelijke waterstoftankstations ervoor dat in die stations
+ook vloeibare waterstof kan worden getankt.
+Artikel 7
+Infrastructuur voor het tanken van waterstof
+1. Vanaf de in artikel 24 bedoelde datum bieden alle exploitanten van openbaar
+toegankelijke waterstoftankstations eindgebruikers in de door hen geëxploiteerde
+stations de mogelijkheid om op ad-hocbasis te tanken middels een in de Unie
+gangbaar betaalinstrument. Daartoe zorgen exploitanten van waterstoftankstations
+ervoor dat in alle door hen geëxploiteerde waterstoftankstations elektronisch kan
+worden betaald via terminals en apparatuur voor betaaldiensten, waaronder ten
+minste een van de volgende:
+(a) betaalkaartlezers;
+(b) apparatuur voor contactloos betalen die ten minste in staat is
+betaalkaarten te lezen;
+Indien de exploitant van het waterstoftankpunt niet de eigenaar is van dat punt, stelt
+de eigenaar de exploitant, overeenkomstig de tussen beide getroffen regelingen,
+waterstoftankpunten ter beschikking waarvan de technische kenmerken de exploitant
+in staat stellen te voldoen aan de in dit lid vastgestelde verplichting.
+NL 38 NL
+2. De prijzen die exploitanten van openbaar toegankelijke waterstoftankpunten in
+rekening brengen, moeten redelijk, gemakkelijk en duidelijk vergelijkbaar,
+transparant en niet-discriminerend zijn. Exploitanten van openbaar toegankelijke
+waterstoftankpunten mogen geen onderscheid maken tussen de prijzen die aan
+eindgebruikers en aan aanbieders van mobiliteitsdiensten worden aangerekend, noch
+tussen de prijzen die aan de verschillende aanbieders van mobiliteitsdiensten worden
+aangerekend. In voorkomend geval mag het prijsniveau alleen worden
+gedifferentieerd op basis van een objectieve rechtvaardiging.
+3. Exploitanten van waterstoftankpunten stellen prijsinformatie beschikbaar vóór het
+begin van een tankbeurt in de door hen geëxploiteerde tankstations.
+4. Exploitanten van openbaar toegankelijke tankstations kunnen op contractbasis
+waterstoftankdiensten verlenen aan klanten, onder meer namens en voor rekening
+van andere aanbieders van mobiliteitsdiensten. Aanbieders van mobiliteitsdiensten
+rekenen aan eindgebruikers redelijke, transparante en niet-discriminerende prijzen
+aan. Aanbieders van mobiliteitsdiensten stellen eindgebruikers vóór het begin van de
+tankbeurt via vrij toegankelijke, breed ondersteunde elektronische middelen alle op
+hun geplande tankbeurt toepasselijke prijsinformatie ter beschikking; daarbij wordt
+een duidelijk onderscheid gemaakt tussen de prijscomponenten die de exploitant van
+het waterstoftankpunt in rekening brengt, de toepasselijke e-roamingkosten en andere
+door de aanbieder van mobiliteitsdiensten aangerekende vergoedingen of kosten.
+Artikel 8
+LNG-infrastructuur voor wegvoertuigen
+Tot 1 januari 2025 zien de lidstaten erop toe dat er minstens op het TEN-T-kernnetwerk een
+passend aantal openbaar toegankelijke LNG-tankpunten beschikbaar zijn om ervoor te zorgen
+dat zware bedrijfsvoertuigen op LNG in de hele Unie kunnen rijden, voor zover daar vraag
+naar is en tenzij de kosten buitensporig zijn ten opzichte van de baten, waaronder de
+voordelen voor het milieu.
+Artikel 9
+Streefcijfers voor walstroomvoorzieningen in zeehavens
+1. De lidstaten zorgen ervoor dat in zeehavens minimale walstroomvoorzieningen voor
+zeeschepen voor container- of passagiersvervoer beschikbaar zijn. De lidstaten
+nemen de nodige maatregelen om ervoor te zorgen dat uiterlijk 1 januari 2030:
+(a) de zeehavens van het TEN-T-kernnetwerk en uitgebreide TEN-T-netwerk die
+de jongste drie jaar gemiddeld door meer dan 50 containerzeeschepen van meer
+dan 5 000 brutoton werden aangedaan over voldoende vermogen aan
+walstroom beschikken om aan ten minste 90 % van de vraag van die schepen te
+voldoen;
+(b) de zeehavens van het TEN-T-kernnetwerk en uitgebreide TEN-T-netwerk die
+de jongste drie jaar gemiddeld door meer van 40 ro-ro-passagierszeeschepen en
+hogesnelheidspassagiersvaartuigen van meer dan 5 000 brutoton werden
+NL 39 NL
+aangedaan over voldoende vermogen aan walstroom beschikken om aan ten
+minste 90 % van de vraag van die schepen te voldoen;
+(c) de zeehavens van het TEN-T-kernnetwerk en uitgebreide TEN-T-netwerk die
+de jongste drie jaar gemiddeld door meer van 25 passagiersschepen van andere
+types dan ro-ro-passagiersschepen en hogesnelheidspassagiersvaartuigen van
+meer dan 5 000 brutoton werden aangedaan over voldoende vermogen aan
+walstroom beschikken om aan ten minste 90 % van de vraag van die schepen te
+voldoen.
+2. Voor de bepaling van het aantal havenaanlopen wordt geen rekening gehouden met:
+(a) schepen die minder dan twee uur aangelegd blijven, berekend op basis van het
+uur van vertrek en aankomst dat wordt gemonitord overeenkomstig artikel 14
+van het voorstel voor een verordening COM (2021)562;
+(b) havenaanlopen door schepen die emissievrije technologieën gebruiken, zoals
+gespecificeerd in bijlage III bij het voorstel voor een verordening
+COM(2021)562;
+(c) niet-geplande havenaanlopen om veiligheidsredenen of om mensenlevens op
+zee te redden.
+3. Wanneer de zeehaven van het TEN-T-kernnetwerk en het uitgebreide TEN-T-
+netwerk gelegen zijn op een eiland dat niet rechtstreeks op het elektriciteitsnet is
+aangesloten, is lid 1 niet van toepassing tot een dergelijke verbinding tot stand is
+gebracht of tot er ter plaatse voldoende vermogen uit schone energiebronnen kan
+worden opgewekt.
+Artikel 10
+Streefcijfers voor walstroomvoorzieningen in binnenhavens
+De lidstaten zien er op toe dat:
+(a) uiterlijk 1 januari 2025 ten minste één walstroominstallatie voor binnenschepen
+beschikbaar is in alle binnenhavens van het TEN-T-kernnetwerk;
+(b) uiterlijk 1 januari 2030 ten minste één walstroominstallatie voor binnenschepen
+beschikbaar is in alle binnenhavens van het uitgebreide TEN-T-netwerk.
+Artikel 11
+Streefcijfers voor de levering van LNG in zeehavens
+1. De lidstaten zorgen ervoor dat in de in lid 2 bedoelde zeehavens van het TEN-T-
+kernnetwerk een passend aantal LNG-tankpunten wordt geïnstalleerd, zodat
+zeeschepen uiterlijk 1 januari 2025 over het volledige TEN-T-kernnetwerk kunnen
+varen. Indien nodig werken lidstaten met naburige lidstaten samen om een adequate
+dekking van het TEN-T-kernnetwerk te waarborgen.
+2. De lidstaten wijzen in hun nationale beleidskaders de zeehavens van het TEN-T-
+kernnetwerk aan waar de LNG-tankpunten als bedoeld in lid 1 beschikbaar zullen
+zijn, rekening houdend met werkelijke marktbehoeften en ontwikkelingen.
+NL 40 NL
+Artikel 12
+Streefcijfers voor de levering van elektriciteit aan stilstaande luchtvaartuigen
+1. De lidstaten zien erop toe dat beheerders van luchthavens van het TEN-T-
+kernnetwerk en het uitgebreide TEN-T-netwerk ervoor zorgen dat elektriciteit kan
+worden geleverd aan stilstaande luchtvaartuigen:
+(a) tegen 1 januari 2025: aan alle voor commerciële vluchtuitvoeringen
+gebruikte gates;
+(b) tegen 1 januari 2030: op alle voor commerciële vluchtuitvoeringen
+gebruikte buitenstandplaatsen.
+2. Uiterlijk 1 januari 2030 nemen de lidstaten de nodige maatregelen om ervoor te
+zorgen dat de overeenkomstig lid 1 geleverde elektriciteit afkomstig is van het
+elektriciteitsnet of ter plaatse uit hernieuwbare energie wordt opgewekt.
+Artikel 13
+Nationale beleidskaders
+1. Tegen 1 januari 2024 stellen de lidstaten een ontwerp van nationaal beleidskader op
+voor de ontwikkeling van de markt van alternatieve brandstoffen in de vervoerssector
+en de uitrol van de betreffende infrastructuur en dienen zij dat ontwerp in bij de
+Commissie.
+De nationale beleidskaders omvatten minstens de volgende elementen:
+(a) een beoordeling van de huidige stand en de toekomstige ontwikkeling van de
+markt voor alternatieve brandstoffen in de vervoerssector, en van de
+ontwikkeling van de infrastructuur voor alternatieve brandstoffen, rekening
+houdend met de intermodale toegang tot die infrastructuur en, desgevallend, de
+grensoverschrijdende continuïteit;
+(b) de nationale streefcijfers en doelstellingen overeenkomstig de artikelen 3, 4, 6,
+8, 9, 10, 11 en 12, waarvoor in deze verordening bindende nationale
+streefcijfers zijn vastgesteld;
+(c) de nationale streefcijfers en doelstellingen voor de uitrol van infrastructuur
+voor alternatieve brandstoffen met betrekking tot de punten l), m), n), o) en p)
+van dit lid, waarvoor in deze verordening geen bindende streefcijfers zijn
+vastgesteld;
+(d) de beleidslijnen en maatregelen die nodig zijn om ervoor te zorgen dat de
+onder b) en c) van dit lid bedoelde bindende streefcijfers en doelstellingen
+worden bereikt;
+(e) maatregelen ter bevordering van de uitrol van infrastructuur voor alternatieve
+brandstoffen voor wagenparken die bijzonder geschikt zijn voor de invoering
+van dergelijke brandstoffen, met name elektrische laad- en
+waterstoftankstations voor OV-bussen en elektrische laadpunten voor
+deelauto's;
+NL 41 NL
+(f) maatregelen om de uitrol van laadpunten voor lichte en zware
+bedrijfsvoertuigen op particuliere niet voor het publiek toegankelijke locaties
+aan te moedigen en te faciliteren;
+(g) maatregelen om de uitrol van infrastructuur voor alternatieve brandstoffen, met
+name openbaar toegankelijke laadpunten, te bevorderen in stedelijke
+knooppunten;
+(h) maatregelen om een voldoende aantal openbaar toegankelijke laadpunten voor
+hoog vermogen te bevorderen;
+(i) de nodige maatregelen om ervoor te zorgen dat de uitrol en het beheer van
+laadpunten, met inbegrip van de geografische spreiding van
+tweerichtingslaadpunten, bijdragen tot de flexibiliteit van het energiesysteem
+en tot de penetratie van hernieuwbare elektriciteit in het elektriciteitssysteem;
+(j) maatregelen om ervoor te zorgen dat openbaar toegankelijke laad- en
+tankpunten toegankelijk zijn voor ouderen, personen met beperkte mobiliteit en
+personen met een handicap, overeenkomstig de toegankelijkheidseisen van de
+bijlagen I en III van Richtlijn 2019/882;
+(k) maatregelen om mogelijke belemmeringen voor de planning, de afgifte van
+vergunningen en de aanschaf van infrastructuur voor alternatieve brandstoffen
+weg te nemen;
+(l) een plan voor de uitrol van infrastructuur voor alternatieve brandstoffen op
+luchthavens voor andere doelen dan de elektriciteitsvoorziening van stilstaande
+luchtvaartuigen, met name om luchtvaartuigen op te laden met elektriciteit of
+bij te tanken met waterstof;
+(m) een plan voor de uitrol van infrastructuur voor alternatieve brandstoffen in
+zeehavens, met name voor elektriciteit en waterstof, voor havendiensten als
+gedefinieerd in Verordening (EU) 2017/35228 van het Europees Parlement en
+de Raad;
+(n) een plan voor de uitrol van infrastructuur voor alternatieve brandstoffen in
+zeehavens voor andere energie dan LNG of walstroom, met name om
+zeeschepen te voorzien van waterstof, ammoniak en elektriciteit;
+(o) een plan voor de uitrol van alternatieve brandstoffen in de binnenvaart, met
+name voor de levering van waterstof en elektriciteit;
+(p) een plan voor de introductie van waterstof- of batterijtreinen op lijnen die niet
+zullen worden geëlektrificeerd, met vermelding van de streefcijfers, mijlpalen
+en vereiste financiering.
+2. De lidstaten zorgen ervoor dat in de nationale beleidskaders rekening wordt
+gehouden met de behoeften van de verschillende vervoerswijzen op hun
+grondgebied, onder meer die waarvoor beperkte alternatieven voor fossiele
+brandstoffen beschikbaar zijn.
+3. De lidstaten zorgen ervoor dat in de nationale beleidskaders in voorkomend geval
+rekening wordt gehouden met de belangen van regionale en lokale autoriteiten, met
+28 Verordening (EU) 2017/352 van het Europees Parlement en de Raad van 15 februari 2017 tot
+vaststelling van een kader voor het verrichten van havendiensten en gemeenschappelijke regels inzake
+de financiële transparantie van havens (PB L 57 van 3.3.2017, blz. 1).
+NL 42 NL
+name wat betreft laad- en tankinfrastructuur voor het openbaar vervoer, alsook met
+die van de betrokken belanghebbenden.
+4. De lidstaten werken waar nodig door middel van overleg of gezamenlijke
+beleidskaders samen om te waarborgen dat de maatregelen voor de verwezenlijking
+van de doelstellingen van deze verordening coherent en gecoördineerd zijn. De
+lidstaten werken met name samen aan de strategieën voor het gebruik van
+alternatieve brandstoffen en de uitrol van de bijbehorende infrastructuur in het
+vervoer over water. De Commissie ondersteunt de lidstaten bij dat
+samenwerkingsproces.
+5. Steunmaatregelen voor infrastructuur voor alternatieve brandstoffen moeten in
+overeenstemming zijn met de desbetreffende staatssteunregels van het VWEU.
+6. Elke lidstaat maakt zijn ontwerp van nationaal beleidskader bekend en zorgt ervoor
+dat het publiek in een vroeg stadium reële inspraak krijgt bij de ontwikkeling van het
+ontwerp van nationaal beleidskader.
+7. De Commissie beoordeelt de ontwerpen van nationale beleidskaders en kan uiterlijk
+zes maanden nadat een lidstaat zijn ontwerp van nationaal beleidskader als bedoeld
+in lid 1 heeft ingediend aanbevelingen doen aan die lidstaat. In deze aanbevelingen
+kan met name het volgende aan bod komen:
+(a) het ambitieniveau van de streefcijfers en doelstellingen om te voldoen
+aan de verplichtingen van de artikelen 3, 4, 6, 8, 9, 10, 11 en 12;
+(b) de beleidslijnen en maatregelen met betrekking tot de doelstellingen en
+streefcijfers van de lidstaten.
+8. De lidstaten houden in hun nationale beleidskader rekening met de eventuele
+aanbevelingen van de Commissie. Een lidstaat die besluit geen gevolg te geven aan
+een aanbeveling of een aanzienlijk deel daarvan, dient de Commissie schriftelijk in
+kennis te stellen van de redenen die aan dat besluit ten grondslag liggen.
+9. Uiterlijk 1 januari 2025 stelt elke lidstaat de Commissie in kennis van zijn definitieve
+nationale beleidskader.
+Artikel 14
+Rapportage
+1. Elke lidstaat dient uiterlijk 1 januari 2027 en vervolgens om de twee jaar een
+individueel voortgangsverslag in bij de Commissie over de uitvoering van zijn
+nationale beleidskader.
+2. Die voortgangsverslagen bevatten de in bijlage I bedoelde informatie en, in
+voorkomend geval, een motivering betreffende mate waarin de in artikel 13 bedoelde
+nationale streefcijfers en doelen zijn verwezenlijkt.
+3. Uiterlijk op 30 juni 2024 en vervolgens om de drie jaar beoordelen de regulerende
+instanties van de lidstaten hoe de uitrol en exploitatie van laadpunten elektrische
+voertuigen in staat zouden kunnen stellen een grotere bijdrage te leveren aan de
+flexibiliteit van het energiesysteem, onder meer door hun deelname aan de
+balanceringsmarkt, en aan de verdere absorptie van hernieuwbare elektriciteit. In die
+beoordeling wordt rekening gehouden met alle types openbare en particuliere
+laadpunten en worden aanbevelingen gedaan in termen van type, ondersteunende
+NL 43 NL
+technologie en geografische spreiding om de gebruikers beter in staat te stellen hun
+elektrische voertuigen in het systeem te integreren. Die informatie wordt openbaar
+gemaakt. Op basis van de resultaten van die beoordeling nemen de lidstaten zo nodig
+passende maatregelen voor de uitrol van extra laadpunten en vermelden zij die
+maatregelen in hun voortgangsverslag als bedoeld in lid 1. De systeembeheerders
+houden rekening met de beoordeling en de maatregelen in de in artikel 32, lid 3, en
+artikel 51 van Richtlijn (EU) 2019/944 bedoelde netontwikkelingsplannen.
+4. Op basis van de input van transmissie- en distributiesysteembeheerders beoordeelt de
+regulerende instantie van een lidstaat uiterlijk op 30 juni 2024 en vervolgens om de
+drie jaar de potentiële bijdrage van bidirectioneel laden aan de integratie van
+hernieuwbare elektriciteit in het elektriciteitssysteem. Die beoordeling wordt
+openbaar gemaakt. Op basis van de resultaten van die beoordeling nemen de lidstaten
+zo nodig passende maatregelen om de beschikbaarheid en geografische spreiding van
+bidirectionele laadpunten op zowel openbare als particuliere plaatsen bij te sturen en
+nemen zij die maatregelen op in hun voortgangsverslag als bedoeld in lid 1.
+5. De Commissie stelt richtsnoeren en modellen vast met betrekking tot de inhoud,
+structuur en het formaat van de nationale beleidskaders en de inhoud van de
+nationale voortgangsverslagen die de lidstaten zes maanden na de in artikel 24
+bedoelde datum overeenkomstig artikel 13, lid 1, moeten indienen. De Commissie
+kan richtsnoeren en modellen vaststellen om de doeltreffende toepassing van alle
+andere bepalingen van deze verordening in de Unie te faciliteren.
+Artikel 15
+Beoordeling van de nationale beleidskaders en voortgangsverslagen
+1. Uiterlijk 1 januari 2026 beoordeelt de Commissie de door de lidstaten
+overeenkomstig artikel 13, lid 9, ingediende nationale beleidskaders en dient zij bij
+het Europees Parlement en de Raad een verslag in over de beoordeling van de
+nationale beleidskaders en de samenhang daarvan op het niveau van de Unie,
+inclusief een evaluatie van de mate waarin de in artikel 13, lid 1, bedoelde nationale
+streefcijfers en doelen zijn verwezenlijkt.
+2. De Commissie beoordeelt de door de lidstaten overeenkomstig artikel 14, lid 1,
+ingediende voortgangsverslagen en doet in voorkomend geval aanbevelingen aan de
+lidstaten om ervoor te zorgen dat de in deze verordening vastgestelde doelstellingen
+en verplichtingen worden verwezenlijkt. Uiterlijk zes maanden na die aanbevelingen
+van de Commissie dienen de lidstaten bij de Commissie een actualisering van hun
+voortgangsverslag in.
+3. De Commissie dient één jaar na de indiening van de nationale voortgangsverslagen
+door de lidstaten bij het Europees Parlement en de Raad een verslag in over haar
+beoordeling van de voortgangsverslagen overeenkomstig artikel 14, lid 1. Daarin
+worden de volgende aspecten beoordeeld:
+(a) de vooruitgang die de lidstaten hebben geboekt bij de verwezenlijking van de
+streefcijfers en doelstellingen;
+(b) de samenhang van de ontwikkeling op EU-niveau.
+NL 44 NL
+4. Op basis van de door de lidstaten overeenkomstig artikel 13, lid 1, en artikel 14, lid
+1, ingediende nationale beleidskaders en nationale voortgangsverslagen, publiceert
+en actualiseert de Commissie regelmatig informatie over de door de lidstaten
+meegedeelde nationale streefcijfers en doelstellingen met betrekking tot:
+(a) het aantal openbaar toegankelijke laadpunten en -stations, uitgesplitst in
+laadpunten voor lichte voertuigen en laadpunten voor zware bedrijfsvoertuigen,
+en overeenkomstig de categorisering in bijlage III;
+(b) het aantal openbaar toegankelijke waterstoftankpunten;
+(c) de infrastructuur voor walstroomvoorziening in zee- en binnenhavens van het
+TEN-T-kernnetwerk en het uitgebreide TEN-T-netwerk;
+(d) de infrastructuur voor elektriciteitsvoorziening voor stilstaande luchtvaartuigen
+op luchthavens van het TEN-T-kernnetwerk en het uitgebreide TEN-T-
+netwerk;
+(e) het aantal LNG-tankpunten in zee- en binnenhavens van het TEN-T-
+kernnetwerk en het uitgebreide TEN-T-netwerk;
+(f) het aantal openbaar toegankelijke LNG-tankpunten voor motorvoertuigen;
+(g) het aantal openbaar toegankelijke CNG-tankpunten voor motorvoertuigen;
+(h) de tank- en laadpunten voor andere alternatieve brandstoffen in zee- en
+binnenhavens van het TEN-T-kernnetwerk en het uitgebreide TEN-T-netwerk;
+(i) de tank- en laadinfrastructuur voor andere alternatieve brandstoffen in
+luchthavens van het TEN-T-kernnetwerk en het uitgebreide TEN-T-netwerk;
+(j) tank- en laadpunten voor treinen.
+Artikel 16
+Voortgangsbewaking
+1. Uiterlijk op 28 februari van het jaar na de inwerkingtreding van deze verordening en
+vervolgens jaarlijks uiterlijk op dezelfde datum brengen de lidstaten aan de
+Commissie verslag uit over het totale laadvermogen, het aantal openbaar
+toegankelijke laadpunten en het aantal geregistreerde plug-in hybride- en
+batterijvoertuigen die op 31 december van het voorgaande jaar op hun grondgebied
+in gebruik waren, overeenkomstig de voorschriften van bijlage III.
+2. Wanneer uit het in lid 1 van dit artikel bedoelde verslag of uit informatie waarover de
+Commissie beschikt, blijkt dat het risico bestaat dat een lidstaat zijn nationale
+streefcijfers als bedoeld in artikel 3, lid 1, niet haalt, kan de Commissie een
+bevinding in die zin formuleren en de betrokken lidstaat verzoeken corrigerende
+maatregelen te nemen om de nationale streefcijfers alsnog te halen. Binnen drie
+maanden na ontvangst van de bevindingen van de Commissie stelt de betrokken
+lidstaat de Commissie in kennis van de corrigerende maatregelen die hij voornemens
+is uit te voeren om de in artikel 3, lid 1, vastgestelde streefcijfers te halen. De
+corrigerende maatregelen omvatten aanvullende maatregelen die de lidstaat zal
+uitvoeren om de in artikel 3, lid 1, vastgestelde streefcijfers te halen, en een duidelijk
+tijdschema voor maatregelen waaraan de jaarlijkse voortgang bij het behalen van die
+NL 45 NL
+doelstellingen kan worden getoetst. Indien de Commissie de corrigerende
+maatregelen toereikend acht, actualiseert de betrokken lidstaat zijn laatste
+voortgangsverslag als bedoeld in artikel 14 met de corrigerende maatregelen en stelt
+hij de Commissie daarvan in kennis.
+Artikel 17
+Informatie voor gebruikers
+1. Er moet relevante, coherente en duidelijke informatie beschikbaar worden gesteld
+met betrekking tot motorvoertuigen die kunnen rijden op specifieke brandstoffen die
+in de handel worden gebracht of die op laadpunten kunnen worden opgeladen. Die
+informatie moet worden meegedeeld in de motorvoertuighandleidingen, bij de tank-
+en laadpunten, op de motorvoertuigen en bij de verkopers van motorvoertuigen. Deze
+eis geldt voor alle motorvoertuigen en de bijbehorende handleidingen die na
+18 november 2016 op de markt worden gebracht.
+2. De identificatie van de compatibiliteit tussen voertuigen en infrastructuur alsmede de
+identificatie van de compatibiliteit tussen brandstoffen en voertuigen, als bedoeld in
+lid 1, moeten voldoen aan de in bijlage II, punten 9.1 en 9.2, bedoelde technische
+specificaties. Indien deze normen betrekking hebben op de grafische weergave,
+m.i.v. kleurcodes, moet die weergave eenvoudig en gemakkelijk te begrijpen zijn en
+op een duidelijk zichtbare manier worden aangebracht:
+(a) op de overeenkomstige pompen en hun vulpistolen bij alle tankpunten, vanaf
+de datum waarop de brandstoffen op de markt worden gebracht; of
+(b) in de onmiddellijke nabijheid van de brandstoftankkleppen van de
+motorvoertuigen die aanbevolen zijn voor en compatibel zijn met de
+desbetreffende brandstof, en in handleidingen van motorvoertuigen, als die
+motorvoertuigen na 18 november 2016 op de markt zijn gebracht.
+3. Wanneer de brandstofprijzen in een tankstation worden weergegeven, wordt in
+voorkomend geval een vergelijking tussen de relevante eenheidsprijzen getoond en
+wordt, met name voor elektriciteit en waterstof, ter informatie de in bijlage II, punt
+9.3, bedoelde gemeenschappelijke methodologie voor prijsvergelijking per eenheid
+voor alternatieve brandstoffen meegedeeld.
+4. Als in de Europese normen tot vaststelling van technische specificaties van een
+brandstof geen etiketteringsvoorschriften voor de naleving van de betrokken normen
+zijn opgenomen, als er in de etiketteringsvoorschriften geen sprake is van een
+grafische weergave met kleurcodes, of als de etiketteringsvoorschriften niet geschikt
+zijn om de doelstellingen van deze verordening te verwezenlijken, kan de Commissie
+met het oog op de uniforme toepassing van de leden 1 en 2:
+(a) de ENO’s de opdracht geven specificaties voor compatibiliteitsetikettering te
+ontwikkelen;
+(b) uitvoeringshandelingen vaststellen tot bepaling van de grafische weergave, met
+inbegrip van kleurcodes, betreffende de compatibiliteit van brandstoffen die op
+de EU-markt worden gebracht en die volgens de analyse van de Commissie
+minstens 1 % van het totale verkoopvolume in meer dan één lidstaat
+vertegenwoordigen.
+NL 46 NL
+5. Als de etiketteringsvoorschriften van de respectieve Europese normen worden
+geactualiseerd, als uitvoeringshandelingen betreffende etikettering worden
+vastgesteld of als nieuwe Europese normen voor alternatieve brandstoffen worden
+ontwikkeld, zijn de overeenkomstige etiketteringseisen 24 maanden na de datum van
+vaststelling of actualisering van toepassing op alle tank- en laadpunten en op alle
+motorvoertuigen die op het grondgebied van de lidstaten zijn ingeschreven
+Artikel 18
+Gegevensverstrekking
+1. De lidstaten wijzen een organisatie voor identificatieregistratie (IDRO) aan. Uiterlijk
+één jaar na de in artikel 24 bedoelde datum verleent de IDRO unieke
+identificatiecodes (ID's) voor de identificatie van ten minste de exploitanten van
+laadpunten en aanbieders van mobiliteitsdiensten.
+2. Exploitanten van openbaar toegankelijke laad- en tankpunten of, overeenkomstig de
+tussen beide partijen getroffen regelingen, eigenaars van dergelijke punten zorgen
+ervoor dat statische en dynamische gegevens over de door hen geëxploiteerde
+infrastructuur voor alternatieve brandstoffen beschikbaar is en dat die gegevens
+kosteloos toegankelijk zijn via de nationale toegangspunten. De volgende types
+gegevens worden beschikbaar gesteld:
+(a) statische gegevens over de door hen geëxploiteerde openbaar toegankelijke
+laad- en tankpunten:
+i) de geografische locatie van het laad- of tankpunt,
+ii) het aantal connectoren,
+iii) het aantal parkeerplaatsen voor personen met een handicap,
+iv) contactgegevens van de eigenaar en de exploitant van het laad- en
+tankstation.
+(b) aanvullende statische gegevens over de door hen geëxploiteerde openbaar
+toegankelijke laad- en tankpunten:
+i) identificatiecodes (ID), ten minste van de exploitant van het laadpunt en
+van de aanbieders van mobiliteitsdiensten die op dat laadpunt diensten
+aanbieden, zoals bedoeld in lid 1,
+ii) type connector,
+iii) stroomtype (AC/DC),
+iv) laadvermogen (kW),
+(c) dynamische gegevens over de door hen geëxploiteerde openbaar toegankelijke
+laad- en tankpunten:
+i) operationele status (in of buiten werking),
+ii) beschikbaarheid (in gebruik/niet in gebruik),
+iii) ad-hocprijs.
+NL 47 NL
+3. De lidstaten zorgen ervoor dat gegevens overeenkomstig Richtlijn 2010/40/EU29 van
+het Europees Parlement en de Raad via hun nationale toegangspunt op open en niet-
+discriminerende basis toegankelijk zijn voor alle belanghebbenden.
+4. De Commissie is bevoegd om overeenkomstig artikel 17 gedelegeerde handelingen
+vast te stellen teneinde:
+(a) aanvullende types gegevens toe te voegen aan de in lid 2 gespecificeerde types
+gegevens;
+(b) de elementen te specificeren met betrekking tot het formaat, de frequentie en
+de kwaliteit waarin deze gegevens beschikbaar worden gesteld;
+(c) gedetailleerde procedures vast te stellen voor het verstrekken en uitwisselen
+van de krachtens lid 2 vereiste gegevens.
+Artikel 19
+Gemeenschappelijke technische specificaties
+1. Laadpunten met normaal vermogen voor elektrische voertuigen, met uitzondering
+van draadloze of inductieve eenheden, die met ingang van de in artikel 24 bedoelde
+datum worden geïnstalleerd of vernieuwd, moeten ten minste voldoen aan de
+technische specificaties van punt 1.1 van bijlage II.
+2. Laadpunten met hoog vermogen voor elektrische voertuigen, met uitzondering van
+draadloze of inductieve eenheden, die met ingang van de in artikel 24 bedoelde
+datum worden geïnstalleerd of vernieuwd, moeten ten minste voldoen aan de
+technische specificaties van punt 1.2 van bijlage II.
+3. Openbaar toegankelijke waterstoftankpunten die met ingang van de in artikel 24
+bedoelde datum worden geïnstalleerd of vernieuwd, moeten voldoen aan de
+technische specificaties van de punten 3.1, 3.2, 3.3 en 3.4 van bijlage II.
+4. Walstroominstallaties voor de zeevaart die met ingang van de in artikel 24 bedoelde
+datum worden geïnstalleerd of vernieuwd, moeten voldoen aan de technische
+specificaties van de punten 4.1 en 4.2 van bijlage II.
+5. CNG-tankpunten voor motorvoertuigen die met ingang van de in artikel 24 bedoelde
+datum worden geïnstalleerd of vernieuwd, moeten voldoen aan de technische
+specificaties van punt 8 van bijlage II.
+6. Overeenkomstig artikel 10 van Verordening (EU) nr. 1025/2012 kan de Commissie
+Europese normalisatieorganisaties verzoeken Europese normen op te stellen ter
+bepaling van technische specificaties betreffende de in bijlage II bij deze verordening
+vermelde gebieden waarvoor de Commissie geen gemeenschappelijke technische
+specificaties heeft vastgesteld.
+7. De Commissie is overeenkomstig artikel 17 bevoegd om gedelegeerde handelingen
+vast te stellen teneinde:
+(a) dit artikel aan te vullen met gemeenschappelijke technische specificaties
+om volledige technische interoperabiliteit van de laad- en
+tankinfrastructuur mogelijk te maken op het gebied van fysieke
+29 Richtlijn 2010/40/EU van het Europees Parlement en de Raad van 7 juli 2010 betreffende het kader
+voor het invoeren van intelligente vervoerssystemen op het gebied van wegvervoer en voor interfaces
+met andere vervoerswijzen (PB L 207 van 6.8.2010, blz. 1).
+NL 48 NL
+aansluitingen en communicatie betreffende de in bijlage II genoemde
+gebieden;
+(b) bijlage II te wijzigen door de verwijzingen naar de normen in de
+technische specificaties in die bijlage bij te werken.
+Artikel 20
+Uitoefening van de bevoegdheidsdelegatie
+1. De bevoegdheid om gedelegeerde handelingen vast te stellen, wordt aan de
+Commissie toegekend onder de in dit artikel neergelegde voorwaarden.
+2. De in de artikelen 18 en 19 bedoelde bevoegdheid om gedelegeerde handelingen vast
+te stellen, wordt aan de Commissie toegekend voor een termijn van vijf jaar met
+ingang van de in artikel 24 bedoelde datum. De Commissie stelt uiterlijk negen
+maanden voor het einde van de termijn van vijf jaar een verslag op over de
+bevoegdheidsdelegatie. De bevoegdheidsdelegatie wordt stilzwijgend met termijnen
+van dezelfde duur verlengd, tenzij het Europees Parlement of de Raad zich uiterlijk
+drie maanden voor het einde van elke termijn tegen deze verlenging verzet.
+3. Het Europees Parlement of de Raad kan de in de artikelen 18 en 19 bedoelde
+bevoegdheidsdelegatie te allen tijde intrekken. Het besluit tot intrekking beëindigt de
+delegatie van de in dat besluit genoemde bevoegdheid. Het wordt van kracht op de
+dag na die van de bekendmaking ervan in het Publicatieblad van de Europese Unie of
+op een daarin genoemde latere datum. Het laat de geldigheid van de reeds van kracht
+zijnde gedelegeerde handelingen onverlet.
+4. Zodra de Commissie een gedelegeerde handeling heeft vastgesteld, doet zij daarvan
+gelijktijdig kennisgeving aan het Europees Parlement en de Raad.
+5. Een overeenkomstig de artikelen 18 en 19 vastgestelde gedelegeerde handeling treedt
+alleen in werking indien het Europees Parlement noch de Raad daartegen binnen een
+termijn van twee maanden na de kennisgeving van de handeling aan het Europees
+Parlement en de Raad bezwaar heeft gemaakt, of indien zowel het Europees
+Parlement als de Raad voor het verstrijken van die termijn de Commissie hebben
+meegedeeld dat zij daartegen geen bezwaar zullen maken. Die termijn wordt op
+initiatief van het Europees Parlement of de Raad met drie maanden verlengd.
+Artikel 21
+Comitéprocedure
+1. De Commissie wordt bijgestaan door een comité. Dat comité is een comité in de zin
+van Verordening (EU) nr. 182/2011.
+2. Wanneer naar dit lid wordt verwezen, is artikel 5 van Verordening (EU) nr. 182/2011
+van toepassing. Indien door het comité geen advies wordt uitgebracht, neemt de
+Commissie de ontwerpuitvoeringshandeling niet aan en is artikel 5, lid 4, derde
+alinea, van Verordening (EU) nr. 182/2011 van toepassing.
+3. Wanneer het advies van het comité via de schriftelijke procedure moet worden
+verkregen, wordt die procedure zonder gevolg beëindigd indien, binnen de termijn
+voor het uitbrengen van het advies, door de voorzitter van het comité daartoe wordt
+NL 49 NL
+besloten of door een eenvoudige meerderheid van de leden van het comité daarom
+wordt verzocht.
+Artikel 22
+Evaluatie
+Uiterlijk op 31 december 2026 evalueert de Commissie deze verordening en dient zij, in
+voorkomend geval, een voorstel in tot wijziging daarvan.
+Artikel 23 Intrekking
+1. Richtlijn 2014/94/EG wordt met ingang van de in artikel 24 bedoelde datum
+ingetrokken.
+2. Verwijzingen naar de Richtlijn 2014/94/EG gelden als verwijzingen naar deze
+verordening en worden gelezen volgens de in bijlage IV opgenomen
+concordantietabel.
+Artikel 24
+Inwerkingtreding
+Deze verordening treedt in werking op de twintigste dag na die van de bekendmaking ervan in
+het Publicatieblad van de Europese Unie.
+Deze verordening is verbindend in al haar onderdelen en is rechtstreeks toepasselijk in elke
+lidstaat.
+Gedaan te Brussel,
+Voor het Europees Parlement Voor de Raad
+De voorzitter De voorzitter
+NL 50 NL

@@ -1,0 +1,3091 @@
+################################################################
+### [TEXTSPLITTER CLASS] #######################################
+### [Breakdown results for document Christiaan PhD Thesis] ###
+################################################################
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=0
+ [TITLE] = Christiaan PhD Thesis
+ nativeID=0 parentID=-1 & horizontal_ordering=0
+ texttype=texttype.TITLE & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1 Introduction 1 1.1 Nuclear Physics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 1.2 Fermi and Gamow-Teller transitions . . . . . . . . . . . . . . . . . . . . 2 1.3 The nuclear many-body problem . . . . . . . . . . . . . . . . . . . . . . 3 1.4 Neutrino Physics . . . . 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Contents
+ nativeID=1 parentID=0 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1 Introduction 1 1.1 Nuclear Physics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1 1.2 Fermi and Gamow-Teller transitions . . . . . . . . . . . . . . . . . . . . 2 1.3 The nuclear many-body problem . . . . . . . . . . . . . . . . . . . . . . 3 1.4 Neutrino Physics . . . . 
+
+ [ALINEA-CONTENT]:
+1 Introduction
+1
+1.1 Nuclear Physics . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 1
+
+          ***          [--- more alinea content ---]        ***          
+
+182
+187
+189
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Abstract
+ nativeID=2 parentID=0 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+This thesis consists of three separate topics. The ﬁrst topic is the measurement of the Gamow-teller states in the 116,122Sn(3He, t)116,122Sb charge-exchange reactions. Measurements were done with the Grand Raiden spectrometer. The Gamow-Teller strengths were extracted from the data by a Multipole Decomposition Analysis. For 116Sb, 38 ± 7% of the Ikeda sum-rule was measured below an excitation energy 28 MeV. For 122Sb, this was 48 ± 6%. These results are in agreement with the quench- ing phenomenon of Gamow-teller strength (generally around 50%) and with previous results (though with an improved accuracy). Diﬀerent contributions of the quasi-free charge-exchange background 
+
+ [ALINEA-CONTENT]:
+This thesis consists of three separate topics. The ﬁrst topic is the measurement of
+the Gamow-teller states in the 116,122Sn(3He, t)116,122Sb charge-exchange reactions.
+Measurements were done with the Grand Raiden spectrometer. The Gamow-Teller
+
+          ***          [--- more alinea content ---]        ***          
+
+optimal design of the detector has been established, our simulations show that the
+use of a VETO detector is not advantageous, unless the scattering chamber and its
+adjacent beam pipe contain air.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1 Introduction
+ nativeID=3 parentID=0 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In 1911, Ernest Rutherford proposed the existence of a positively charged atomic nucleus [1]. Subsequently, James Chadwick discovered the existence of neutrons in 1932. Based on these discoveries, Dmitri Ivanenko suggested that the nucleus was entirely composed of only protons and neutrons and he even published the ﬁrst version of a nuclear shell model [2]. Shortly after, Yukawa proposed his famous pion-exchange model in 1935 [1]. Yukawa’s model was the ﬁrst attempt to describe the so-called strong nuclear force: the force that was proposed as an explanation to why nuclei do not disintegrate under their Coulomb repulsion. Today, it is 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.1 Nuclear Physics
+ nativeID=4 parentID=3 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In 1911, Ernest Rutherford proposed the existence of a positively charged atomic nucleus [1]. Subsequently, James Chadwick discovered the existence of neutrons in 1932. Based on these discoveries, Dmitri Ivanenko suggested that the nucleus was entirely composed of only protons and neutrons and he even published the ﬁrst version of a nuclear shell model [2]. Shortly after, Yukawa proposed his famous pion-exchange model in 1935 [1]. Yukawa’s model was the ﬁrst attempt to describe the so-called strong nuclear force: the force that was proposed as an explanation to why nuclei do not disintegrate under their Coulomb repulsion. Today, it is 
+
+ [ALINEA-CONTENT]:
+In 1911, Ernest Rutherford proposed the existence of a positively charged atomic
+nucleus [1]. Subsequently, James Chadwick discovered the existence of neutrons in
+1932. Based on these discoveries, Dmitri Ivanenko suggested that the nucleus was
+
+          ***          [--- more alinea content ---]        ***          
+
+transitions in Section 1.2. Subsequently, we will discuss the reasons for studying
+Gamow-Teller transitions in Sections 1.3 - 1.5. Finally, we will discuss the rest of the
+layout of this thesis in Section 1.6.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.2 Fermi and Gamow-Teller transitions
+ nativeID=5 parentID=3 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+When calculating observables related to nuclear decays or reactions where the weak force mediates the transition, the size of the weak coupling constant allows the use of perturbation theory. Since, in nuclear physics, the momenta of the particles involved are usually much smaller than the masses of the W and Z bosons, only the lowest- order approximation of the perturbation is relevant. This reduces the calculation to a nuclear structure problem. When the nuclear states are assumed to be eigenstates of angular momentum, parity and isospin, this nuclear structure problem can be subdivided into diﬀerent contributions by means of a 
+
+ [ALINEA-CONTENT]:
+When calculating observables related to nuclear decays or reactions where the weak
+force mediates the transition, the size of the weak coupling constant allows the use of
+perturbation theory. Since, in nuclear physics, the momenta of the particles involved
+
+          ***          [--- more alinea content ---]        ***          
+
+Teller transitions: the nuclear many-body problem, neutrino physics and nucleosyn-
+thesis. These three arguments will be discussed in the following sections in more
+detail.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.3 The nuclear many-body problem
+ nativeID=6 parentID=3 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Formally, the nuclear many-body problem is deﬁned as solving the Schr¨odinger equa- tion for a system of A strongly interacting nucleons [14]. Tremendous progress has been made in this area during recent years [12], but the nuclear many-body problem still remains challenging (see Section 1.1). When measuring Gamow-Teller transitions, the observable of interest is the so-called B(GT ) value. This is a dimensionless number that describes the strength of the transition. Quantum mechanically, it is deﬁned as the absolute square of the transition matrix element, reduced in angular momentum (see equation (2.1)). The B(GT ) value can be extracted from 
+
+ [ALINEA-CONTENT]:
+Formally, the nuclear many-body problem is deﬁned as solving the Schr¨odinger equa-
+tion for a system of A strongly interacting nucleons [14]. Tremendous progress has
+been made in this area during recent years [12], but the nuclear many-body problem
+
+          ***          [--- more alinea content ---]        ***          
+
+After all, these nuclear wave functions appear in the matrix element. Therefore,
+measurements of B(GT ) values can help us to test, guide and constrain the theoretical
+approaches to solving the nuclear many-body problem [7, 12].
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.4 Neutrino Physics
+ nativeID=7 parentID=3 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A very important process within the ﬁeld of neutrino physics is the so-called neutrino- less double-beta decay [15]. A double-beta decay process means that a nucleus un- dergoes two beta decay processes simultaneously, and, therefore, changes its atomic number by 2. This can either be done by emitting 2 real neutrinos (the so-called two-neutrino double-beta decay, or 2νββ-decay), or by exchanging one virtual neu- trino internally and emitting no neutrinos (the neutrino-less double-beta decay, or 0νββ-decay) [16]. The 2νββ-decay has been observed in a number of nuclei [16], but the 0νββ-decay has not yet been observed. Even a single observation 
+
+ [ALINEA-CONTENT]:
+A very important process within the ﬁeld of neutrino physics is the so-called neutrino-
+less double-beta decay [15]. A double-beta decay process means that a nucleus un-
+dergoes two beta decay processes simultaneously, and, therefore, changes its atomic
+
+          ***          [--- more alinea content ---]        ***          
+
+matrix elements is important for the theoretical understanding of 0νββ-decay and
+for the detection of solar neutrinos. Both of these ﬁelds have the potential to answer
+many important questions in physics.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.5 Nucleosynthesis
+ nativeID=8 parentID=3 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Nucleosynthesis is the generation of diﬀerent chemical elements through nuclear re- actions. The issue of how this nucleosynthesis has happened and happens today still has many open questions. Nevertheless, the current understanding of nucleosynthesis is that light elements up to iron are produced within stars through fusion reactions [7, 12]. Since up to iron, the binding energy per nucleon roughly increases with the atomic number [21], the production of these elements is energetically favourable and powers the star. However, the generation of elements heavier than iron is not energetically favourable. Yet, these elements are known to exist in nature as 
+
+ [ALINEA-CONTENT]:
+Nucleosynthesis is the generation of diﬀerent chemical elements through nuclear re-
+actions. The issue of how this nucleosynthesis has happened and happens today still
+has many open questions. Nevertheless, the current understanding of nucleosynthesis
+
+          ***          [--- more alinea content ---]        ***          
+
+and to have data at multiple bombarding energies. Hence, we chose to complement
+the measurements in Ref. [28] by measuring B(GT ) values at 140 MeV/u and with a
+better energy resolution.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 1.6 Thesis layout
+ nativeID=9 parentID=3 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As discussed in Section 1.5, this thesis is divided into three diﬀerent topics. The ﬁrst topic is the measurement of the B(GT ) values of the 116,122Sn → 116,122Sb Gamow- Teller transitions by using the (3He, t) charge-exchange reaction. Chapters 2 − 5 are devoted to this topic. In Chapter 2, the theory to extract B(GT ) from the measured data is discussed. Subsequently, the experimental setup used for the measurements is discussed in Chapter 3. The analysis techniques that were used to extract the diﬀerential cross sections and, subsequently, the B(GT ) values, were discussed in Chapter 4. Finally, 
+
+ [ALINEA-CONTENT]:
+As discussed in Section 1.5, this thesis is divided into three diﬀerent topics. The ﬁrst
+topic is the measurement of the B(GT ) values of the 116,122Sn → 116,122Sb Gamow-
+Teller transitions by using the (3He, t) charge-exchange reaction. Chapters 2 − 5 are
+
+          ***          [--- more alinea content ---]        ***          
+
+the eﬀectiveness of such a VETO detector are discussed.
+Finally, the thesis is concluded in Chapter 8. A Dutch summary is included at the
+end of the thesis.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2 Theoretical models for the diﬀerential cross sections
+ nativeID=10 parentID=0 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As explained in Chapter 1, the goal of our experiment is to measure the strength of the Gamow-Teller transitions in 116Sn → 116Sb and 122Sn → 122Sb at a bombarding energy of 140 MeV/u. The strength of Gamow-Teller transitions is characterized by a so-called B(GT ) value. A B(GT ) value is a dimensionless number and its deﬁnition is given by [13], [31]: B(GT±) = 1 2Ji + 1 (cid:12) (cid:12) (cid:12) (cid:12) (cid:12) (cid:12) (cid:104)Ψf (cid:107) (cid:88) (cid:12) (cid:12) (cid:12) σjτ ±,j(cid:107)Ψi(cid:105) (cid:12) (cid:12) (cid:12) , (2.1) where Ji is the total angular momentum quantum number of the parent 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.1 Characterization of Gamow-Teller strength
+ nativeID=11 parentID=10 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As explained in Chapter 1, the goal of our experiment is to measure the strength of the Gamow-Teller transitions in 116Sn → 116Sb and 122Sn → 122Sb at a bombarding energy of 140 MeV/u. The strength of Gamow-Teller transitions is characterized by a so-called B(GT ) value. A B(GT ) value is a dimensionless number and its deﬁnition is given by [13], [31]: B(GT±) = 1 2Ji + 1 (cid:12) (cid:12) (cid:12) (cid:12) (cid:12) (cid:12) (cid:104)Ψf (cid:107) (cid:88) (cid:12) (cid:12) (cid:12) σjτ ±,j(cid:107)Ψi(cid:105) (cid:12) (cid:12) (cid:12) , (2.1) where Ji is the total angular momentum quantum number of the parent 
+
+ [ALINEA-CONTENT]:
+As explained in Chapter 1, the goal of our experiment is to measure the strength of
+the Gamow-Teller transitions in 116Sn → 116Sb and 122Sn → 122Sb at a bombarding
+energy of 140 MeV/u. The strength of Gamow-Teller transitions is characterized by
+
+          ***          [--- more alinea content ---]        ***          
+
+much less likely to fall in the range of statistical errors for this Fermi transition. This
+is the reason why a Fermi transition was chosen in Tables 4.2 and 4.3 instead of a
+Gamow-Teller transition.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.2 The nuclear shell model
+ nativeID=12 parentID=10 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+To fully describe the internal structure of a nucleus, one would have to solve the Schr¨odinger equation for a system of A strongly interacting nucleons [14]. Solving this equation is known as the nuclear many-body problem [39]. This problem presents a formidable task [39] because the interaction potential between two nucleons is very complicated [4, 39, 40] and because the total potential of a system of A nucleons is not a simple sum of the interaction potentials of each pair of nucleons [39]. There is experimental evidence that the so-called three-nucleon force should also be included [41–43]. Moreover, solving such 
+
+ [ALINEA-CONTENT]:
+To fully describe the internal structure of a nucleus, one would have to solve the
+Schr¨odinger equation for a system of A strongly interacting nucleons [14]. Solving this
+equation is known as the nuclear many-body problem [39]. This problem presents a
+
+          ***          [--- more alinea content ---]        ***          
+
+wave functions that are in a suﬃciently bound state as inputs. Therefore, we need to
+make sure that the WSAW-module does not produce wave functions that will not be
+accepted in subsequent steps of the calculation.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.3 Normal-modes calculation
+ nativeID=13 parentID=10 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In this section, we will use the method of Section 2.2 to construct the full nuclear wave functions of all nuclei involved in the present experiment using the (3He, t) charge-exchange reaction. Prior to the reaction, the target nucleus is in its ground state, which can be described by ﬁlling the levels of Figure 2.1 (calculated with OXBASH, see previous section) from the bottom. Once it is known which energy levels are occupied by the nucleons, the full nuclear wave function for the ground-state can be constructed as an antisymmetrized direct product of the single-particle wave functions of the A 
+
+ [ALINEA-CONTENT]:
+In this section, we will use the method of Section 2.2 to construct the full nuclear
+wave functions of all nuclei involved in the present experiment using the (3He, t)
+charge-exchange reaction.
+
+          ***          [--- more alinea content ---]        ***          
+
+a diﬀerential cross section corresponding to 100% of the sum rule. This diﬀerential
+cross section can then be normalized to the experimental data, so that the B(GT )
+values for the populated level can be deduced.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.4 Calculation of the form factor
+ nativeID=14 parentID=10 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Now that the full nuclear wave functions for all nuclei in the (3He, t) charge-exchange reaction have been constructed as outlined in Section 2.3, we can construct the in- teraction potential of the reaction. This is done by double folding the interaction potential between individual nucleons over all nuclei involved [35]. To model the interaction potential between two individual nucleons, the Love and Franey nucleon-nucleon potential with tensor interaction and with the zero-range ex- change approximation was used [4, 40]. The double folding is now done by projecting this potential on the full nuclear wave functions involved in the reaction 
+
+ [ALINEA-CONTENT]:
+Now that the full nuclear wave functions for all nuclei in the (3He, t) charge-exchange
+reaction have been constructed as outlined in Section 2.3, we can construct the in-
+teraction potential of the reaction. This is done by double folding the interaction
+
+          ***          [--- more alinea content ---]        ***          
+
+involves the wave function |Ψrecoil(cid:105), which was constructed from the transition opera-
+tor ˆO through the normal-modes formalism, diﬀerent transition types will all require
+a computation of their own form factor.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.5 The Distorted-Wave Born Approximation
+ nativeID=15 parentID=10 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The simplest method to compute the diﬀerential cross section from the form factor F ((cid:126)r) is the Plane-Wave Born Approximation (PWBA) [45]. In the PWBA, the form factor F ((cid:126)r) is projected onto an incoming and an outgoing plane wave to compute the transfer matrix element T . The transfer matrix element is deﬁned as: [5, 45]. T = (cid:104)φf ((cid:126)kf , (cid:126)r)|F ((cid:126)r)|φi((cid:126)ki, (cid:126)r)(cid:105) , (2.11) where φi and φf are plane waves describing the incoming beam nucleus and the outgoing ejectile, respectively. Their expressions are given by: φi((cid:126)ki, (cid:126)r) = ei(cid:126)ki·(cid:126)r, φf ((cid:126)kf , (cid:126)r) = ei(cid:126)kf ·(cid:126)r, 
+
+ [ALINEA-CONTENT]:
+The simplest method to compute the diﬀerential cross section from the form factor
+F ((cid:126)r) is the Plane-Wave Born Approximation (PWBA) [45]. In the PWBA, the form
+factor F ((cid:126)r) is projected onto an incoming and an outgoing plane wave to compute
+
+          ***          [--- more alinea content ---]        ***          
+
+and the sum of the Q-value of the ground state (which only depends on the masses
+of the nuclei involved) and the excitation energy E∗ of the recoil nucleus. Outcomes
+of the DWBA calculation will be illustrated in Figure 2.5 of the next section.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.6 Smearing
+ nativeID=16 parentID=10 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+From the DWBA calculation of Section 2.5, the diﬀerential cross section dσ/dΩ versus the scattering angle α is obtained. However, the eﬀects of a detector will ‘blur’ the outcomes of the DWBA calculation. In this section, we discuss how this eﬀect should be taken into account. Mathematically, any detector output is a convolution of the physical signal with the characteristics of the detector. In our situation, the physical signal is the diﬀerential cross section as computed in DWBA and the characteristics of the detector are rep- resented by an angular resolution. Since the diﬀerential cross section represents the count rate 
+
+ [ALINEA-CONTENT]:
+From the DWBA calculation of Section 2.5, the diﬀerential cross section dσ/dΩ versus
+the scattering angle α is obtained. However, the eﬀects of a detector will ‘blur’ the
+outcomes of the DWBA calculation. In this section, we discuss how this eﬀect should
+
+          ***          [--- more alinea content ---]        ***          
+
+Figure 2.5: Diﬀerential cross sections near 0◦ for various transition types in the
+red lines indicate the result of the DWBA method without any smearing and the blue
+lines indicate the result with a smearing of σ = 0.20◦.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 2.7 Extrapolation to q = 0
+ nativeID=17 parentID=10 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As mentioned in Section 2.1, the experimental cross sections need to be extrapolated to α = 0 and q = 0. After the smeared result of the DWBA calculation is ﬁtted to the experimental data through an overall normalization parameter (in the centre-of- mass frame), the diﬀerential cross section can be evaluated at α = 0. Let us denote this cross section by dσ/dΩ|ﬁtted(α = 0). Moreover, let us denote the pure DWBA (cid:12) outcome (after the smearing) as dσ (cid:12)smeared (α = 0). As indicated in Section 2.5, both the scattering angle α and the sum of the Q-value 
+
+ [ALINEA-CONTENT]:
+As mentioned in Section 2.1, the experimental cross sections need to be extrapolated
+to α = 0 and q = 0. After the smeared result of the DWBA calculation is ﬁtted to
+the experimental data through an overall normalization parameter (in the centre-of-
+
+          ***          [--- more alinea content ---]        ***          
+
+Teller B(GT ) values can now be calculated from the diﬀerential cross sections. For
+this, we now need to have experimental diﬀerential cross sections (see Chapters 3 and
+4).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3 Experimental Methods
+ nativeID=18 parentID=0 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As indicated in Section 2.1, the purpose of our experiment is to extract the B(GT )- values of the Gamow-Teller transitions in the 116,122Sn(3He, t)116,122Sb charge-exchange reactions. To induce the charge-exchange reaction, a 3He beam was impinged on a ﬁxed target of the Sn-isotope of interest. The 3He beam was given a dispersive proﬁle (see Section 3.4) and a mean energy of 140 MeV/u. The 116Sn target areal density was 1.87 ± 0.01 mg/cm2 and the 122Sn target areal density was 1.75 ± 0.01 mg/cm2. The isotope enrichment of both targets was above 95% [63]. The charge-exchange reaction produced a 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.1 Overview of the Experiment
+ nativeID=19 parentID=18 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As indicated in Section 2.1, the purpose of our experiment is to extract the B(GT )- values of the Gamow-Teller transitions in the 116,122Sn(3He, t)116,122Sb charge-exchange reactions. To induce the charge-exchange reaction, a 3He beam was impinged on a ﬁxed target of the Sn-isotope of interest. The 3He beam was given a dispersive proﬁle (see Section 3.4) and a mean energy of 140 MeV/u. The 116Sn target areal density was 1.87 ± 0.01 mg/cm2 and the 122Sn target areal density was 1.75 ± 0.01 mg/cm2. The isotope enrichment of both targets was above 95% [63]. The charge-exchange reaction produced a 
+
+ [ALINEA-CONTENT]:
+As indicated in Section 2.1, the purpose of our experiment is to extract the B(GT )-
+values of the Gamow-Teller transitions in the 116,122Sn(3He, t)116,122Sb charge-exchange
+reactions. To induce the charge-exchange reaction, a 3He beam was impinged on a
+
+          ***          [--- more alinea content ---]        ***          
+
+the optical properties of Grand Raiden are discussed in Section 3.5 and the data-
+acquisition system is discussed in Section 3.6. Finally, the conversion to a ROOT
+data format is discussed in Section 3.7.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.2 The Grand Raiden Spectrometer
+ nativeID=20 parentID=18 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A schematic overview of the Grand Raiden Spectrometer [64] at the RCNP facility [65] in Osaka, Japan, is displayed in Figure 3.1. The 3He-beam at an energy of 140 MeV/u, indicated in the ﬁgure by ‘Primary beam’, is produced by the AVF and RING cyclotrons [65, 66] and transported to the Grand Raiden Spectrometer through the high-resolution beam line [67, 68]. This high-resolution beam line (called ‘WS course’) is specially designed to apply the lateral and angular dispersion-matching technique to the primary beam. These techniques are discussed in Section 3.4. A schematic overview of the facility and the beam lines 
+
+ [ALINEA-CONTENT]:
+A schematic overview of the Grand Raiden Spectrometer [64] at the RCNP facility
+[65] in Osaka, Japan, is displayed in Figure 3.1. The 3He-beam at an energy of
+140 MeV/u, indicated in the ﬁgure by ‘Primary beam’, is produced by the AVF and
+
+          ***          [--- more alinea content ---]        ***          
+
+Momentum resolution p/∆p = 37076
+Horizontal angular acceptance ±20 mrad
+Vertical angular acceptance ±70 mrad
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.3 Focal-Plane Readout system
+ nativeID=21 parentID=18 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The focal-plane readout system consists in our experiment of two parts: the standard focal-plane wire chambers called MWDC1 and MWDC2 (see below) and the two plastic scintillator counters called PS1 and PS2. The purpose of the scintillators PS1 and PS2 is to provide a trigger signal for the MWDCs (see Section 3.6). However, the data obtained by PS1 and PS2 were also stored for further analysis (the main usage of these data is particle Z-identiﬁcation). The scintillators PS1 and PS2 were located downstream of the MWDCs [66, 73, 74]. The two identical Multi-wire Drift Chamber (MWDC) detectors are the most 
+
+ [ALINEA-CONTENT]:
+The focal-plane readout system consists in our experiment of two parts: the standard
+focal-plane wire chambers called MWDC1 and MWDC2 (see below) and the two
+plastic scintillator counters called PS1 and PS2. The purpose of the scintillators PS1
+
+          ***          [--- more alinea content ---]        ***          
+
+trigger (see Section 3.6) [73, 74]. An aluminum plate with a thickness of 10 mm was
+placed between the two scintillators PS1 and PS2. This was done to prevent that the
+secondary electrons from one scintillator would ﬁre the other one.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.4 Design of the beam proﬁle
+ nativeID=22 parentID=18 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+From the AVF and RING cyclotron settings, the primary beam is identiﬁed as 3He2+ and known to have a mean energy of 140 MeV/u. Classically, this primary beam is focused so that it has the smallest possible spatial radius at the target. This is called achromatic focus [70]. However, this type of focus limits the energy resolution of the spectrometer due to the energy spread in the beam. After the beam tuning was done, this energy spread was measured to be about σ = 57 keV. This number was obtained by rotating Grand Raiden to 8◦ to observe elastic scattering 
+
+ [ALINEA-CONTENT]:
+From the AVF and RING cyclotron settings, the primary beam is identiﬁed as 3He2+
+and known to have a mean energy of 140 MeV/u. Classically, this primary beam is
+focused so that it has the smallest possible spatial radius at the target. This is called
+
+          ***          [--- more alinea content ---]        ***          
+
+uncertainty translates into a signiﬁcant contribution to the triton energy resolution.
+To reduce this contribution as much as possible, we decided to use thin targets (see
+Section 3.1).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.5 Optical properties of the Spectrometer
+ nativeID=23 parentID=18 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As discussed in Section 3.4, accurate knowledge of the triton scattering angle at the target is required to select ∆L = 0 states. This selection, in turn, is necessary to identify the Gamow-Teller states that we are after (see Section 3.1). The purpose of this section is to explain how the triton scattering angle at the target can be obtained from the measured position and angle of incidence at the focal plane. As discussed in Section 3.3, these data are obtained with the MWDCs. To obtain the triton scattering angle from the incident angle and position at the focal plane, 
+
+ [ALINEA-CONTENT]:
+As discussed in Section 3.4, accurate knowledge of the triton scattering angle at the
+target is required to select ∆L = 0 states. This selection, in turn, is necessary to
+identify the Gamow-Teller states that we are after (see Section 3.1). The purpose of
+
+          ***          [--- more alinea content ---]        ***          
+
+good sensitivity to the vertical scattering angle at the target.
+Figure 3.7: Impression of the three diﬀerent focal modes of Grand Raiden. Figure is
+based on Ref. [80] and used with permission.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.6 Trigger signal and Data-Acquisition System
+ nativeID=24 parentID=18 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The trigger signal is actually nothing more than a coincidence signal from the PS1 and PS2 scintillator counters. If all four photomultipliers of these scintillators ﬁre in coincidence (with the time diﬀerences between the photomultipliers at diﬀerent endpoints taken into account), a trigger signal is generated and the outputs from the MWDCs and PS1 and PS2 are saved. A map of the trigger system used in our experiment is shown in Figures 3.8 and 3.9. As discussed in Section 3.3, a signal from a photomultiplier is ﬁrst split in two [73, 74]. ADC data are obtained from the ﬁrst branch 
+
+ [ALINEA-CONTENT]:
+The trigger signal is actually nothing more than a coincidence signal from the PS1
+and PS2 scintillator counters. If all four photomultipliers of these scintillators ﬁre
+in coincidence (with the time diﬀerences between the photomultipliers at diﬀerent
+
+          ***          [--- more alinea content ---]        ***          
+
+itized by diﬀerent modules, requiring diﬀerent native formats. After the experiment,
+the data were transported through the internet to a personal computer. All software
+operations on the data were performed after this transportation.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.7 Conversion of the data to ROOT
+ nativeID=25 parentID=18 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The analysis of the data in Chapter 4 was performed with ROOT [87] version 5.34. Hence, the recorded data had to be converted from its native .gr and .gv formats to a format that can be handled by ROOT. This conversion consists of two steps: the event building and the unpacking. The event building is actually nothing more than merging the content of the .gr-ﬁle, the .gv-ﬁle and the .blp-ﬁle of a single run. As an intermediate step, a .grb-ﬁle is generated. The ﬁnal results are stored in a .bld-ﬁle. This merging is a matter of bookkeeping. All data were 
+
+ [ALINEA-CONTENT]:
+The analysis of the data in Chapter 4 was performed with ROOT [87] version 5.34.
+Hence, the recorded data had to be converted from its native .gr and .gv formats to
+a format that can be handled by ROOT. This conversion consists of two steps: the
+
+          ***          [--- more alinea content ---]        ***          
+
+the triton track through the focal plane detectors. This procedure works slightly
+diﬀerently than the one that is described in Chapter 4 (and that was used in this
+work), but we will show that the outputs are almost identical.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 4 Data Analysis
+ nativeID=26 parentID=0 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In this chapter, the analysis of the raw TDC, ADC and channel-number data obtained according to the procedures of Chapter 3 will be discussed. The ﬁrst step in this anal- ysis is the merging of the diﬀerent experimental runs, which is discussed in Section 4.1. Following that, the triton tracks (modelled as 3D lines) through the focal-plane detec- tion system were reconstructed from the raw TDC, ADC and channel-number data. This procedure is discussed in Section 4.2. Subsequently, these tracks were traced back to the target according to the procedure of Section 3.5. The application of this procedure to the 
+
+ [ALINEA-CONTENT]:
+In this chapter, the analysis of the raw TDC, ADC and channel-number data obtained
+according to the procedures of Chapter 3 will be discussed. The ﬁrst step in this anal-
+ysis is the merging of the diﬀerent experimental runs, which is discussed in Section 4.1.
+
+          ***          [--- more alinea content ---]        ***          
+
+in Section 4.5 is discussed how the procedures of Chapter 2 were applied to extract
+B(GT ) for various Gamow-Teller states in the excitation-energy spectrum of the recoil
+nucleus. The ﬁnal results are presented in Chapter 5.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.1 Merging of the runs
+ nativeID=27 parentID=26 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+For each experimental run, the analyser program (see Section 3.7) produced a separate ROOT-ﬁle. As the ﬁrst step in the data analysis, these ROOT-ﬁles were merged together into one single ROOT-ﬁle per target material. During this merging, each event was labelled with the number of the experimental run in which it was measured. During the merging, several conditions were also imposed on the data. As a ﬁrst condition, it was required that no errors were made during the data taking. If data are saved for one of the MWDC signal wires, both the TDC value and the channel number identifying 
+
+ [ALINEA-CONTENT]:
+For each experimental run, the analyser program (see Section 3.7) produced a separate
+ROOT-ﬁle. As the ﬁrst step in the data analysis, these ROOT-ﬁles were merged
+together into one single ROOT-ﬁle per target material. During this merging, each
+
+          ***          [--- more alinea content ---]        ***          
+
+distribution exactly equal to the distance between subsequent TDC or ADC values
+(the width of a single channel in the digital conversion), the experimental resolution
+of the measurements was preserved.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.2 Track reconstruction
+ nativeID=28 parentID=26 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+After merging the data of the individual experimental runs, the next step in the analysis is the reconstruction of the triton tracks through the focal plane detector system. This reconstruction utilized the data obtained with the MWDCs and followed the same methodology as used in Ref. [73]. This reconstruction consists of two steps. The ﬁrst step is to obtain the position at which the triton track passed through the wire plane for each of the 4 wire planes (see Section 3.3). The second step is to translate these positions into a description of a 3D line. As explained in Section 
+
+ [ALINEA-CONTENT]:
+After merging the data of the individual experimental runs, the next step in the
+analysis is the reconstruction of the triton tracks through the focal plane detector
+system. This reconstruction utilized the data obtained with the MWDCs and followed
+
+          ***          [--- more alinea content ---]        ***          
+
+program introduced in Section 3.7 in the situation where both methods could be
+applied. Since both methods were developed independently, this is a good indication
+that the track-reconstruction method developed for the present data is reliable.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.3 Sieve-slit analysis
+ nativeID=29 parentID=26 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The next step in our data analysis is to trace the triton tracks {xfp, yfp, θfp, φfp} back to the target. We chose to describe a triton track at the target with the following parameters: {Et, θt, φt}. The subscript t shows that this track is described at the target, immediately after the reaction. Et is the kinetic energy of the triton and θ and φ are the horizontal and vertical scattering angles. In Section 3.5, it was discussed how the relation between triton tracks in the focal plane and triton tracks at the target could be measured. In this 
+
+ [ALINEA-CONTENT]:
+The next step in our data analysis is to trace the triton tracks {xfp, yfp, θfp, φfp} back
+to the target. We chose to describe a triton track at the target with the following
+parameters: {Et, θt, φt}. The subscript t shows that this track is described at the
+
+          ***          [--- more alinea content ---]        ***          
+
+be used to test and verify our analysis procedures. This is the reason why Fermi
+transitions also had to be considered in Section 2.1 and why the IAS was selected in
+Tables 4.2 and 4.3 to test the dependence on the parameters in the theoretical model.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.4 Computation of the diﬀerential cross sections
+ nativeID=30 parentID=26 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In this section, we discuss how the diﬀerential cross section as a function of the scattering angle α was extracted for various states (peaks) in the excitation-energy spectrum (Figures 4.6e and 4.6f). As a ﬁrst step, we will derive a formula to compute this diﬀerential cross section in Subsection 4.4.1. Subsequently, it will be discussed in Subsection 4.4.2 how the various quantities in this formula can be extracted from the data. The actual computation of the cross section is then treated in Subsection 4.4.3. The procedure that we followed is derived from the deﬁnition of the diﬀerential cross section [44]: 
+
+ [ALINEA-CONTENT]:
+In this section, we discuss how the diﬀerential cross section as a function of the
+scattering angle α was extracted for various states (peaks) in the excitation-energy
+spectrum (Figures 4.6e and 4.6f). As a ﬁrst step, we will derive a formula to compute
+
+          ***          [--- more alinea content ---]        ***          
+
+in Subsection 4.4.2 how the various quantities in this formula can be extracted from
+the data. The actual computation of the cross section is then treated in Subsection
+4.4.3.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.4.1 Relevant formulas for the extraction of the cross sections
+ nativeID=31 parentID=30 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The procedure that we followed is derived from the deﬁnition of the diﬀerential cross section [44]: dR dΩ = dσ dΩ · t · I, (4.2) where dR/dΩ is the rate at which a certain reaction occurs in number of particles per time and per solid angle, t is the areal density of the target in number of particles per area, I is the beam intensity in number of particles per time and dσ/dΩ is the diﬀerential cross section in area per solid angle. However, if a reaction rate were measured over an inﬁnitesimal time interval dτ and/or an inﬁnitesimal 
+
+ [ALINEA-CONTENT]:
+The procedure that we followed is derived from the deﬁnition of the diﬀerential cross
+section [44]:
+dR
+
+          ***          [--- more alinea content ---]        ***          
+
+cross section for various states in the excitation-energy spectra. Hence, the next task
+is to discuss how the various quantities in Equation (4.6) can be extracted from our
+data.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.4.2 Extraction of peaks, acceptance and eﬃciency
+ nativeID=32 parentID=30 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+For our measurements, tn was extracted by carefully weighting the targets after preparation and by measuring their dimensions. Only one 116Sn target was used for all experimental runs measuring 116Sn(3He, t)116Sb. Likewise, only one 122Sn tar- get was used for all experimental runs measuring 122Sn(3He, t)122Sb and only one target areal density was 1.87 ± 0.01 mg/cm2 and the 122Sn target areal density was 1.75 ± 0.01 mg/cm2. Extracting tn is then simply a matter of dividing the areal density by the atomic mass. Qn was extracted from the measurements of the Faraday Cups D1FC and Q1FC (see Section 3.2). 
+
+ [ALINEA-CONTENT]:
+For our measurements, tn was extracted by carefully weighting the targets after
+preparation and by measuring their dimensions. Only one 116Sn target was used
+for all experimental runs measuring 116Sn(3He, t)116Sb. Likewise, only one 122Sn tar-
+
+          ***          [--- more alinea content ---]        ***          
+
+reason why the beam was given a dispersive beam proﬁle (see Section 3.4). Without
+it, it would not have been possible to resolve the individual Gamow-Teller states in
+the excitation-energy spectra [21, 63].
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4.4.3 Cross-section results
+ nativeID=33 parentID=30 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Now that all individual components in Equation (4.6) have been discussed and ob- tained for each run, the diﬀerential cross section for each individual peak in the excitation-energy spectra in Figures 4.6e and 4.6f can be obtained. The results are illustrated for the IAS of both nuclei in Figure 4.10. In these ﬁgures, the black curves show the outcome of Equation (4.6). The other curves show the diﬀerential cross sec- tions when Equation (4.6) is limited to individual experimental runs (meaning that there is no summing over individual runs). The coloured numbers are the numbers used to label these individual 
+
+ [ALINEA-CONTENT]:
+Now that all individual components in Equation (4.6) have been discussed and ob-
+tained for each run, the diﬀerential cross section for each individual peak in the
+excitation-energy spectra in Figures 4.6e and 4.6f can be obtained. The results are
+
+          ***          [--- more alinea content ---]        ***          
+
+The ﬁtting of the outcomes from Section 2.6 to the measured cross section (computed
+with Equation (4.6)) and the extraction of B(GT ) or B(F ) is discussed in the next
+section.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 4.5 Multipole decomposition analysis
+ nativeID=34 parentID=26 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+To determine the quantum numbers ∆L, ∆S and ∆J of a speciﬁc transition, the diﬀerential cross section of that speciﬁc state in the excitation-energy spectrum can be ﬁtted by DWBA calculations assuming a theoretical model (see Figure 2.5 for an illustration). In the present case, these quantum numbers were determined by comparing the experimental data to DWBA calculations displayed in Figure 2.5 and to the known excited states listed in Ref. [21]. For the IAS, the comparison is straightforward, since it is a Fermi transition with ∆L = ∆S = ∆J = 0. Hence, only one option in Figure 2.5 
+
+ [ALINEA-CONTENT]:
+To determine the quantum numbers ∆L, ∆S and ∆J of a speciﬁc transition, the
+diﬀerential cross section of that speciﬁc state in the excitation-energy spectrum can
+be ﬁtted by DWBA calculations assuming a theoretical model (see Figure 2.5 for
+
+          ***          [--- more alinea content ---]        ***          
+
+Now that all procedures to extract the B(GT ) values have been discussed and have
+been tested on the IAS, we can move on to presenting the ﬁnal results and discussing
+them. This will be done in Chapter 5.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 5 Results and Discussion
+ nativeID=35 parentID=0 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As indicated in Section 4.5, B(GT ) values were computed for individual states in the lower region of the excitation-energy spectrum, while the ‘full MDA’-technique was employed to analyze the region of higher energies. To eﬃciently present the computed B(GT ) values for these individual states, we will ﬁrst display the excitation-energy spectra again for labeling purposes. For the 116Sn(3He, t)116Sb reaction, this labeling is given in Figures 5.1a and 5.1c. The labeling of the states in the spectrum of the 122Sn(3He, t)122Sb reaction is shown in Figures 5.1b and 5.1d. We would like to emphasize that, contrary to Figures 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 5.1 Results
+ nativeID=36 parentID=35 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As indicated in Section 4.5, B(GT ) values were computed for individual states in the lower region of the excitation-energy spectrum, while the ‘full MDA’-technique was employed to analyze the region of higher energies. To eﬃciently present the computed B(GT ) values for these individual states, we will ﬁrst display the excitation-energy spectra again for labeling purposes. For the 116Sn(3He, t)116Sb reaction, this labeling is given in Figures 5.1a and 5.1c. The labeling of the states in the spectrum of the 122Sn(3He, t)122Sb reaction is shown in Figures 5.1b and 5.1d. We would like to emphasize that, contrary to Figures 
+
+ [ALINEA-CONTENT]:
+As indicated in Section 4.5, B(GT ) values were computed for individual states in the
+lower region of the excitation-energy spectrum, while the ‘full MDA’-technique was
+employed to analyze the region of higher energies. To eﬃciently present the computed
+
+          ***          [--- more alinea content ---]        ***          
+
+Figure 5.6: Illustration of the diﬀerent multipolarity contributions in the ‘full MDA’
+technique to the total diﬀerential cross section. Results are shown for the yellow
+situation where the quasi-free charge-exchange background is not subtracted.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 5.2 Comparison to previous results
+ nativeID=37 parentID=35 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In this section, we will compare our results to the results of Ref. [28], which contains a detailed study of the Gamow-Teller cross sections of multiple Sn-isotopes. Since Ref. [28] only contains measured cross sections, several steps have to be taken before the data of Ref. [28] can be compared to our extracted B(GT ) values. As a ﬁrst step, the measured cross sections in Ref. [28] have to be extrapolated to α = 0 and q = 0. This will be discussed in Subsection 5.2.1. As a second step, the Gamow-Teller unit cross sections at 67 MeV/u have to 
+
+ [ALINEA-CONTENT]:
+In this section, we will compare our results to the results of Ref. [28], which contains
+a detailed study of the Gamow-Teller cross sections of multiple Sn-isotopes. Since
+Ref. [28] only contains measured cross sections, several steps have to be taken before
+
+          ***          [--- more alinea content ---]        ***          
+
+extracted from the data published in Ref. [28]. These B(GT ) values can then be
+compared to our own obtained B(GT ) values (see previous section). This will be
+done in Subsection 5.2.3.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 5.2.1 Extrapolation to α = 0 and q = 0
+ nativeID=38 parentID=37 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+To extract the Gamow-Teller cross sections, the Gamow-Teller states in the excitation- energy spectrum were subdivided in ﬁve broad resonances in Ref. [28]. To determine the cross sections of these resonances, the excitation-energy spectrum was ﬁtted to a sum of Gaussians. This ﬁtting procedure is illustrated in Figure 5.7. Five Gaussians were used to ﬁt the Gamow-Teller resonances, a sixth was added to ﬁt the IAS and a seventh was added to ﬁt the broad dipole resonance [28], which is due to the excita- tion of the IsoVector Giant Dipole Resonance (IVGDR) and the IsoVector Spin Giant Dipole Resonance (IVSGDR) 
+
+ [ALINEA-CONTENT]:
+To extract the Gamow-Teller cross sections, the Gamow-Teller states in the excitation-
+energy spectrum were subdivided in ﬁve broad resonances in Ref. [28]. To determine
+the cross sections of these resonances, the excitation-energy spectrum was ﬁtted to a
+
+          ***          [--- more alinea content ---]        ***          
+
+was not done in Ref. [28], so we will do this ourselves. This means that we will
+have to come up with reasonable estimates of the Gamow-Teller unit cross sections
+at 67 MeV/u. This is the topic of the next subsection.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 5.2.2 Determination of the Gamow-Teller unit cross sections
+ nativeID=39 parentID=37 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As discussed in Section 2.1, the only way to determine a Gamow-Teller unit cross section without resorting to possibly inaccurate nuclear structure models, is to extract it from the lifetime of the recoil nucleus. However, this can only be done if the ground state of the recoil nucleus can undergo Gamow-Teller decay. Hence, our strategy for obtaining the Gamow-Teller unit cross sections for 116Sn and 122Sn at 67 MeV/u will be to ﬁrst determine the unit cross sections for the isotopes of Sn that do have a recoil nucleus with a ground state that can undergo Gamow-Teller decay and then 
+
+ [ALINEA-CONTENT]:
+As discussed in Section 2.1, the only way to determine a Gamow-Teller unit cross
+section without resorting to possibly inaccurate nuclear structure models, is to extract
+it from the lifetime of the recoil nucleus. However, this can only be done if the ground
+
+          ***          [--- more alinea content ---]        ***          
+
+to have an uncertainty of only 10%, as they were determined from the measured IAS
+in Ref. [28]. Hence, they only carry statistical uncertainty from the IAS measurement
+and a small systematic uncertainty from the extrapolation to α = 0 and q = 0.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 5.2.3 Comparison to Ref. [28]
+ nativeID=40 parentID=37 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+With Equations (5.2) and (5.3), the B(GT )-values corresponding to Tables 5.6 and 5.7 can be computed (by applying Equation (2.2)). The results are displayed in Tables 5.8 and 5.9 for the 116Sn and 122Sn targets, respectively. Table 5.8: B(F ) and B(GT ) values for 116Sn(3He, t)116Sb obtained through various methods. The ﬁrst column shows the state labels as in Figure 5.7. The second column shows the B values obtained from Table 5.6 (at a beam energy of 67 MeV/u). The third column shows the B values from Table 5.7 (at a beam energy of 140 MeV/u). The fourth 
+
+ [ALINEA-CONTENT]:
+With Equations (5.2) and (5.3), the B(GT )-values corresponding to Tables 5.6 and
+5.7 can be computed (by applying Equation (2.2)). The results are displayed in Tables
+5.8 and 5.9 for the 116Sn and 122Sn targets, respectively.
+
+          ***          [--- more alinea content ---]        ***          
+
+comparison and to obtain agreement when the same analysis procedure was followed
+as in Ref. [28]. This procedure subtracts the quasi-free charge-exchange background,
+but does not subtract the higher multipolarity contributions.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 5.3 Comparison to the Gamow-Teller sum rule
+ nativeID=41 parentID=35 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The total Gamow-Teller strength, listed in the Σ(B(GT )) column in Tables 5.8 and 5.9, can be compared to the Gamow-Teller sum rule (see Equation 2.9), also known as the Ikeda sum rule [92]: (cid:88) BE∗ (GT, n → p) − (cid:88) BE∗ (GT, p → n) = 3|N − Z| (5.4) In the (3He, t) charge-exchange reaction, the p → n contribution in medium-heavy and heavy nuclei is relatively small due to Pauli-blocking [94]. With the program NORMOD (see Section 2.3), it was determined that the total absolute B(GT ) strength associated with p → n transitions is about 
+
+ [ALINEA-CONTENT]:
+The total Gamow-Teller strength, listed in the Σ(B(GT )) column in Tables 5.8 and
+5.9, can be compared to the Gamow-Teller sum rule (see Equation 2.9), also known
+as the Ikeda sum rule [92]:
+
+          ***          [--- more alinea content ---]        ***          
+
+duced unit cross sections). Moreover, these values also provide agreement between
+our data and the data of Ref. [28] (see previous section), so we conclude that these
+values are reliable.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 5.4 Error analysis
+ nativeID=42 parentID=35 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In this section, we would like to give a short overview of all the possible sources of uncertainty that can arise when diﬀerential cross sections are translated into B(GT ) values. These sources of uncertainty are: The uncertainty from source 1) was removed from our own data by using the ‘full MDA’ technique. Figure 5.6 illustrates the removal of the higher multipolarity con- tributions and from Figure 5.11, we know that this technique introduced a systematic error of about 6% of the Ikeda sum rule for 116Sn and 5% for 122Sn. However, since Ref. [28] does not contain suﬃcient information 
+
+ [ALINEA-CONTENT]:
+In this section, we would like to give a short overview of all the possible sources of
+uncertainty that can arise when diﬀerential cross sections are translated into B(GT )
+values. These sources of uncertainty are:
+
+          ***          [--- more alinea content ---]        ***          
+
+porated in the errors of Tables 5.8 and 5.9 for both the data from Ref. [28] and for
+our own data. Hence, the numbers of 5% (140 MeV/u) and 20% (67 MeV/u) are
+the uncertainties of source 4).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 1. Higher multipolarity contributions; 
+ nativeID=43 parentID=42 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1. Higher multipolarity contributions; 
+
+ [ALINEA-CONTENT]:
+1. Higher multipolarity contributions;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 2. Extrapolation to q = 0 ...
+ nativeID=44 parentID=42 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2. Extrapolation to q = 0 fm−1 and α = 0◦; 
+
+ [ALINEA-CONTENT]:
+2. Extrapolation to q = 0 fm−1 and α = 0◦;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 3. The quasi-free charge-exchange background; 
+ nativeID=45 parentID=42 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+3. The quasi-free charge-exchange background; 
+
+ [ALINEA-CONTENT]:
+3. The quasi-free charge-exchange background;
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 4. The overall normalization. 
+ nativeID=46 parentID=42 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.DIGIT
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+4. The overall normalization. 
+
+ [ALINEA-CONTENT]:
+4. The overall normalization.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 5.5 Comparison to QRPA+QPVC calculations
+ nativeID=47 parentID=35 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The yellow B(GT ) spectra of Figure 5.4 could also be compared to theoretical calcu- lations using the Quasi-particle Random-Phase Approximation (QRPA) plus Quasi- Particle Vibration Coupling (QPVC). These calculations were done according to the procedure outlined in Ref. [102] and were done using the QRPA+QPVC formalism with the Skyrme interaction SkM∗ [103]. Before discussing this comparison, let us ﬁrst give a brief overview of how the QRPA+QPVC method can be used to compute B(GT ) values. We shall limit ourselves to a brief outline of this method and refer to Refs. [94, 102] for further details. In the Random-Phase 
+
+ [ALINEA-CONTENT]:
+The yellow B(GT ) spectra of Figure 5.4 could also be compared to theoretical calcu-
+lations using the Quasi-particle Random-Phase Approximation (QRPA) plus Quasi-
+Particle Vibration Coupling (QPVC). These calculations were done according to the
+
+          ***          [--- more alinea content ---]        ***          
+
+energies. This would also require one to either include the quasi-free charge-exchange
+background in the calculation, or limit it to Gamow-Teller states that can decay by
+proton emission.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 6 Passive Cooling Veriﬁcation for the X-slit system
+ nativeID=48 parentID=0 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The Facility for Antiproton and Ion Research (FAIR) will be one of the largest and most complex accelerator facilities in the world [29, 107]. FAIR is, at this moment, under construction. The civil construction of the buildings started in the summer of 2017. It is expected to ﬁnish in 2022. The full opening of the facility is planned for 2025 [107]. FAIR is designed as a major upgrade of the present nuclear accelerator facility GSI (Helmholtzzentrum f¨ur SchwerIonenforschung) located near Darmstadt in Germany. The center of the FAIR facility will be a synchrotron accelerator with a circumference of 1100 m 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6.1 The Super Fragment Separator
+ nativeID=49 parentID=48 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The Facility for Antiproton and Ion Research (FAIR) will be one of the largest and most complex accelerator facilities in the world [29, 107]. FAIR is, at this moment, under construction. The civil construction of the buildings started in the summer of 2017. It is expected to ﬁnish in 2022. The full opening of the facility is planned for 2025 [107]. FAIR is designed as a major upgrade of the present nuclear accelerator facility GSI (Helmholtzzentrum f¨ur SchwerIonenforschung) located near Darmstadt in Germany. The center of the FAIR facility will be a synchrotron accelerator with a circumference of 1100 m 
+
+ [ALINEA-CONTENT]:
+The Facility for Antiproton and Ion Research (FAIR) will be one of the largest and
+most complex accelerator facilities in the world [29, 107]. FAIR is, at this moment,
+under construction. The civil construction of the buildings started in the summer of
+
+          ***          [--- more alinea content ---]        ***          
+
+this high power. Moreover, the cooling system should be suitable for handling with
+robots. In this chapter, we will discuss the possibilities for such a cooling system and
+their eﬀectiveness.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6.2 The X- and Y-slit systems
+ nativeID=50 parentID=48 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The X- and Y-slit systems are designed and produced by KVI-CART, University of Groningen, Netherlands, as part of a contract with GSI, Darmstadt, Germany. The computer drawings of the X- and Y-slits are displayed in Figures 6.3 and 6.4. Figure 6.3: Computer drawing of the X-slit sys- tem designed at KVI-CART; ﬁgure used with permission [111]. Figure 6.4: Computer drawing of the Y-slit system designed at KVI- CART [112]. The X- and Y-slit systems use two solid Densimet blocks to stop the unwanted nuclei. Densimet is a metal alloy containing 97% Tungsten, 2% Nickel and 1% Iron [111]. The dimensions 
+
+ [ALINEA-CONTENT]:
+The X- and Y-slit systems are designed and produced by KVI-CART, University of
+Groningen, Netherlands, as part of a contract with GSI, Darmstadt, Germany. The
+computer drawings of the X- and Y-slits are displayed in Figures 6.3 and 6.4.
+
+          ***          [--- more alinea content ---]        ***          
+
+original Densimet blocks in case of a malfunction. The Densimet blocks are the most
+expensive parts of the X- and Y-slit systems and no malfunction is possible there as
+these components are made of solid metal blocks.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6.3 Cooling options
+ nativeID=51 parentID=48 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Three diﬀerent possibilities exist to handle the thermal stress on the ﬁrst X-slit system: No cooling, active cooling and passive cooling [111]. No cooling means that we verify that the X-slit system can handle the thermal stress without any additional cooling. Active cooling means that cooling water (or a diﬀerent ﬂuid) is used to reduce the temperature suﬃciently. Passive cooling means that the design of the X-slit system is changed to maximize the infrared emission. With the increased infrared emission, the X-slit system should then be able to handle the thermal stress without active cooling. To explore the three diﬀerent 
+
+ [ALINEA-CONTENT]:
+Three diﬀerent possibilities exist to handle the thermal stress on the ﬁrst X-slit system:
+No cooling, active cooling and passive cooling [111]. No cooling means that we verify
+that the X-slit system can handle the thermal stress without any additional cooling.
+
+          ***          [--- more alinea content ---]        ***          
+
+increases the infrared emissivity of the Densimet blocks. Since Densimet is expected
+to have an emissivity of about (cid:15) ≈ 0.07 [111], passive cooling is expected to reduce
+the Densimet temperature signiﬁcantly.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6.4 Passive cooling by stainless steel ribs
+ nativeID=52 parentID=48 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+For the present design, it is proposed to mount small ribs of stainless steel on the top and bottom plates of the Densimet blocks (see Figure 6.5) to increase the infrared emission [111]. A thermal simulation performed with NX shows that the stainless steel ribs reduce the maximum temperature of the Densimet blocks from 700 ◦C to 550 ◦C and that the temperature of the top ﬂange of the vacuum chamber is reduced from 100 ◦C to 35 ◦C. The steady-state result of this simulation is shown in Figure 6.6. For the convection of the air on the outside of 
+
+ [ALINEA-CONTENT]:
+For the present design, it is proposed to mount small ribs of stainless steel on the top
+and bottom plates of the Densimet blocks (see Figure 6.5) to increase the infrared
+emission [111]. A thermal simulation performed with NX shows that the stainless
+
+          ***          [--- more alinea content ---]        ***          
+
+so far, we therefore conclude that no additional cooling is needed for the second
+collimator. For subsequent collimators, the thermal stress will obviously be even less.
+Hence, for all subsequent collimators no additional cooling system is required.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6.5 Simulation veriﬁcation
+ nativeID=53 parentID=48 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In order to test the NX simulation procedure of Section 6.4, this procedure was com- pared to COMSOL [116] and Matlab [117] simulations. All three computer programs were given the same test case: a single Densimet block (with the dimensions of the X-slit system blocks) hanging in vacuum. A 500 W 238U92+ beam with a transverse Gaussian proﬁle (σ = 5 mm) and an energy of 1.5 GeV/u was used to bombard this block at a distance of 60 mm from the slit-side. This scenario was explored in [111]. Note that this beam energy is a little diﬀerent from the 
+
+ [ALINEA-CONTENT]:
+In order to test the NX simulation procedure of Section 6.4, this procedure was com-
+pared to COMSOL [116] and Matlab [117] simulations. All three computer programs
+were given the same test case: a single Densimet block (with the dimensions of the
+
+          ***          [--- more alinea content ---]        ***          
+
+pre-separator. However, no simulation matches reality exactly. Therefore, it was
+decided also to verify the temperatures of the X-slit system experimentally. This is
+discussed in the next sections.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6.6 Experimental veriﬁcation with AGOR
+ nativeID=54 parentID=48 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Since FAIR is still under construction (see Section 6.1), a 500 W 238U92+ beam of 1.3 GeV/u is not yet available to us to directly verify our predictions in Section 6.4. Therefore, two alternatives are available for experimental veriﬁcation. The ﬁrst option is to impinge a beam with lower power on a smaller test-version of the X-slit system and use our simulation procedure of Section 6.4 to reproduce the measurements. The second option is to apply the thermal load of 500 W to the X-slit system by a diﬀerent mean than an ion beam. Both of these options will tell 
+
+ [ALINEA-CONTENT]:
+Since FAIR is still under construction (see Section 6.1), a 500 W 238U92+ beam of
+1.3 GeV/u is not yet available to us to directly verify our predictions in Section 6.4.
+Therefore, two alternatives are available for experimental veriﬁcation. The ﬁrst option
+
+          ***          [--- more alinea content ---]        ***          
+
+used in Section 6.4 does not endanger our claim of 55 ◦C, since a higher Densimet
+emissivity would only improve the passive cooling of the blocks and of the top plate
+of the vacuum chamber wall.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6.7 Experimental veriﬁcation with heating elements
+ nativeID=55 parentID=48 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As a second experimental veriﬁcation, a thermal load with suﬃcient power was applied to the prototype of the ﬁrst X-slit system itself. This procedure is discussed in detail in Ref. [115], so we shall only brieﬂy summarize the results here. For this procedure, a 12 mm copper plate was put between the Densimet blocks of the X-slit system (see Figure 6.3). The copper plate was equipped with small heating elements. Together, these heating elements could generate a power of up to 1300 W. The entire X-slit system was equipped with 14 K-type thermocouples for accurate temperature measurements on diﬀerent places. 
+
+ [ALINEA-CONTENT]:
+As a second experimental veriﬁcation, a thermal load with suﬃcient power was applied
+to the prototype of the ﬁrst X-slit system itself. This procedure is discussed in detail
+in Ref. [115], so we shall only brieﬂy summarize the results here.
+
+          ***          [--- more alinea content ---]        ***          
+
+motors and electronics to operate without malfunctions [115]. Therefore, we con-
+clude that the X-slit system can safely take the maximum heat load of 500 W it can
+experience from the beam load inside the Super-FRS.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 6.8 Conclusion
+ nativeID=56 parentID=48 & horizontal_ordering=7
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+When operating the slit systems with the Super-FRS beams, the main problem to deal with is that the electronics and stepping motors of the ﬁrst X-slit system inside the pre-separator might not be able to handle the thermal stress caused by the secondary beam. To solve this problem, the Densimet blocks of the ﬁrst X-slit system in the pre-separator were equipped with small stainless steel ribs to provide passive cooling. Two experiments (Sections 6.6 and 6.7) conﬁrm that due to this passive cooling the temperature of the top ﬂange of the vacuum chamber will stay below 55 ◦C during operation. 
+
+ [ALINEA-CONTENT]:
+When operating the slit systems with the Super-FRS beams, the main problem to deal
+with is that the electronics and stepping motors of the ﬁrst X-slit system inside the
+pre-separator might not be able to handle the thermal stress caused by the secondary
+
+          ***          [--- more alinea content ---]        ***          
+
+operation. Since the electronics and stepping motors can operate safely up to a
+temperature of 80 ◦C, we conclude that with the passive cooling by stainless steel
+ribs, the X-slit system can safely be used inside the pre-separator.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 7 Design of the VETO detector for NeuLAND
+ nativeID=57 parentID=0 & horizontal_ordering=8
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The R3B experiment is a versatile experimental setup for nuclear physics research. The goal of this experiment is to obtain kinematically complete reconstructions of nuclear Reactions with Relativistic Radioactive Beams (R3B [10]. These reactions are an important tool to explore nuclear structure properties far from the valley of stability. The R3B setup will be located at the high-energy branch of the Super-FRS at the FAIR-facility (see Chapter 6, Figure 6.2). Therefore, the setup has access to high quality (in terms of intensity and purity) secondary beams of all (rare) isotopes up to Uranium [30]. In particular, secondary beams of very 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 7.1 Overview of the R3B experiment
+ nativeID=58 parentID=57 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The R3B experiment is a versatile experimental setup for nuclear physics research. The goal of this experiment is to obtain kinematically complete reconstructions of nuclear Reactions with Relativistic Radioactive Beams (R3B [10]. These reactions are an important tool to explore nuclear structure properties far from the valley of stability. The R3B setup will be located at the high-energy branch of the Super-FRS at the FAIR-facility (see Chapter 6, Figure 6.2). Therefore, the setup has access to high quality (in terms of intensity and purity) secondary beams of all (rare) isotopes up to Uranium [30]. In particular, secondary beams of very 
+
+ [ALINEA-CONTENT]:
+The R3B experiment is a versatile experimental setup for nuclear physics research.
+The goal of this experiment is to obtain kinematically complete reconstructions of
+nuclear Reactions with Relativistic Radioactive Beams (R3B [10]. These reactions
+
+          ***          [--- more alinea content ---]        ***          
+
+However, it should be noted that higher granularities and better time resolutions
+are required when the beam energy goes up, because this means that the reaction
+products will have a larger boost in the forward direction.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 7.2 The R3B setup and the role of the VETO de- tector
+ nativeID=59 parentID=57 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+An overview of the full R3B setup is presented in Figure 7.1. This conﬁguration will be used during the ﬁrst R3B experiments at phase-0 of FAIR [133, 134]. Both before and immediately after the target, the beam encounters double-sided mi- crostrip silicon detectors and position sensitive silicon strip detectors [125]. The pur- pose of these detectors is to measure the starting time and position for Time-of-Flight measurements of the other R3B detectors and to perform the charge identiﬁcation of the incoming beam. The target is surrounded by a proton silicon tracking system [127] and a gamma spectrometer called CALIFA [128]. 
+
+ [ALINEA-CONTENT]:
+An overview of the full R3B setup is presented in Figure 7.1. This conﬁguration will
+be used during the ﬁrst R3B experiments at phase-0 of FAIR [133, 134].
+Both before and immediately after the target, the beam encounters double-sided mi-
+
+          ***          [--- more alinea content ---]        ***          
+
+marked against experimental data in Section 7.4. The detector design itself is then
+discussed in Section 7.5. The overall eﬃciency of the designed VETO detector is
+explored in Section 7.6 for various reactions.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 7.3 Simulation procedure
+ nativeID=60 parentID=57 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+This Chapter contains two sets of simulations: simulations used to design the VETO (discussed in Section 7.5) and simulations used to evaluate the performance of the VETO (discussed in Section 7.6). Both simulation procedures are mostly identical, but there are some important diﬀerences in geometry and physics list, which will be explained in detail. Both sets of simulations were performed with R3BRoot [137, 138]. R3BRoot is an integrated simulation framework that uses the Geant4 [139] simulation toolkit to Figure 7.2: Overview of the NeuLAND simulation/analysis procedure in R3BRoot [137, 138]. perform the Monte Carlo simulations. The previous version of Geant4, 
+
+ [ALINEA-CONTENT]:
+This Chapter contains two sets of simulations: simulations used to design the VETO
+(discussed in Section 7.5) and simulations used to evaluate the performance of the
+VETO (discussed in Section 7.6). Both simulation procedures are mostly identical,
+
+          ***          [--- more alinea content ---]        ***          
+
+that its production point is somewhere else (in which case it also contributes to the
+background). It is now our goal in the upcoming sections to design and evaluate a
+VETO detector that can correctly identify these background contributions.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 7.4 Choice of the Geant4 Physics List
+ nativeID=61 parentID=57 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The Geant4 physics list used in the simulations to evaluate the performance of the VETO was constructed with a physics list builder [145]. The basis of this physics list is the Bertini cascade model and the quark gluon string model [146]. This model was chosen because the energy range of our simulations is between 0 and 1.5 GeV/u, the Super-FRS energy range [30]. The IonINCL++ module was added to our physics list to simulate the required nucleus-nucleus interactions [138, 146]. Furthermore, the Geant4 Low Energy QED module, the Geant4 particle decay module, the Geant4 Gamma-nuclear module [145] and the Geant4 
+
+ [ALINEA-CONTENT]:
+The Geant4 physics list used in the simulations to evaluate the performance of the
+VETO was constructed with a physics list builder [145]. The basis of this physics
+list is the Bertini cascade model and the quark gluon string model [146]. This model
+
+          ***          [--- more alinea content ---]        ***          
+
+simulated with reasonable accuracy, we conclude that our physics list can be used
+to evaluate the performance of the VETO detector in Section 7.6, if we use similar
+reactions for this.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 7.5 The Detector Design
+ nativeID=62 parentID=57 & horizontal_ordering=4
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The design of the veto detector is based on a single wall of non-overlapping thin scintillator bars [135]. We will ﬁrst optimize this design and justify the choice for a scintillator wall it in the end of this section. As discussed in Section 7.2, the VETO detector should give a signal for each charged particle entering NeuLAND’s volume (see Figure 7.7) and should give no signal for neutrons [135, 144]. Therefore, it is easy to understand that the VETO scintillator wall should cover the entire front area of NeuLAND. To design the veto scintillator wall, we take inspiration from the 
+
+ [ALINEA-CONTENT]:
+The design of the veto detector is based on a single wall of non-overlapping thin
+scintillator bars [135]. We will ﬁrst optimize this design and justify the choice for a
+scintillator wall it in the end of this section.
+
+          ***          [--- more alinea content ---]        ***          
+
+The parameters that should be optimized in the design are the scintillator thickness,
+the total number of bars in the wall and the distance of the wall to the front of
+NeuLAND. These parameters will be optimized one at a time [135].
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 7.5.1 The optimal distance between the VETO and NeuLAND
+ nativeID=63 parentID=62 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The ﬁrst parameter that was optimized is the distance between the VETO wall and NeuLAND. If the wall is too far away from NeuLAND, charged particles may cir- cumvent it. However, if the VETO is too close to NeuLAND, back-scattered charged particles from an interaction between NeuLAND and a neutron might ﬁre the VETO detector. This will in turn cause the neutron to be wrongly eliminated. To ﬁnd the optimal distance, particles with an energy of 1000 ± 1 MeV were ﬁred onto NeuLAND for diﬀerent VETO-detector distances according to the procedure of Figure 7.3. We simulated 25000 events per 
+
+ [ALINEA-CONTENT]:
+The ﬁrst parameter that was optimized is the distance between the VETO wall and
+NeuLAND. If the wall is too far away from NeuLAND, charged particles may cir-
+cumvent it. However, if the VETO is too close to NeuLAND, back-scattered charged
+
+          ***          [--- more alinea content ---]        ***          
+
+1000 MeV as well.
+Therefore, we conclude that with a typical time resolution of 300 ps, the ideal distance
+between NeuLAND and the VETO wall would be 30 cm [135].
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 7.5.2 The optimal bar thickness
+ nativeID=64 parentID=62 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The second parameter that was optimized was the thickness of the scintillator bars. From the previous discussion, it is evident that the VETO wall should be as thin as possible under the restriction that it can detect all charged particles. In order to ﬁnd this thickness, 1000 MeV protons and electrons were ﬁred onto NeuLAND for diﬀerent VETO-wall thickness according to the procedure of Figure 7.3. We simulated 25000 events per run and 1 particle per event. The results are displayed in Figure 7.13. Figure 7.13: Simulation results for varying the VETO-wall thickness; ﬁgure used with permission [135]. Figure 7.13 
+
+ [ALINEA-CONTENT]:
+The second parameter that was optimized was the thickness of the scintillator bars.
+From the previous discussion, it is evident that the VETO wall should be as thin as
+possible under the restriction that it can detect all charged particles. In order to ﬁnd
+
+          ***          [--- more alinea content ---]        ***          
+
+1000 MeV.
+In short, a thickness of 1.3 cm is the optimal VETO-detector thickness. This corre-
+sponds to an active scintillator thickness of 1.1 cm [135].
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 7.5.3 The optimal number of scintillator bars
+ nativeID=65 parentID=62 & horizontal_ordering=2
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+The last parameter that was optimized is the number of individual scintillator bars in the VETO wall. For this parameter, it is important to notice that for single parti- cle events, 30 cm distance, 1.1 cm active scintillator thickness and a TOF condition already give a nearly perfect result. We discussed that the remaining elimination of 2% of the neutrons is unavoidable. Our simulations also show that this result (for simulations of 1 particle per event) is almost independent of the number of bars in the VETO wall. This was shown by repeating the simulations of Figure 7.12a for diﬀerent 
+
+ [ALINEA-CONTENT]:
+The last parameter that was optimized is the number of individual scintillator bars
+in the VETO wall. For this parameter, it is important to notice that for single parti-
+cle events, 30 cm distance, 1.1 cm active scintillator thickness and a TOF condition
+
+          ***          [--- more alinea content ---]        ***          
+
+to drop at the right of the optima.
+Figure 7.14: Simulations for the optimization of the number of bars in the VETO
+detector; ﬁgure based on Ref. [135]
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = 7.5.4 Other options for a VETO detector
+ nativeID=66 parentID=62 & horizontal_ordering=3
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In this section, we will discuss why we chose to design our VETO detector as a single wall of non-overlapping thin scintillators. It was shown in Subsection 7.5.1 that a time resolution for the VETO detector of σ = 300 ps and a distance between NeuLAND and the VETO detector of 30 cm are required to accurately distinguish back-scattering from incoming particles. This distinction could, in theory, also be made with a worse time resolution, but that would require a larger distance between NeuLAND and the VETO wall. However, such a large distance is unacceptable, be- cause this would allow 
+
+ [ALINEA-CONTENT]:
+In this section, we will discuss why we chose to design our VETO detector as a
+single wall of non-overlapping thin scintillators. It was shown in Subsection 7.5.1
+that a time resolution for the VETO detector of σ = 300 ps and a distance between
+
+          ***          [--- more alinea content ---]        ***          
+
+thickness of 1.1 cm and a distance to NeuLAND of 30 cm. The wall should consist of
+16 distinct scintillators with a time resolution better than σ = 300 ps and an energy
+deposition threshold of 1 MeV.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 7.6 Eﬃciency of the VETO detector
+ nativeID=67 parentID=57 & horizontal_ordering=5
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+In this section, the eﬃciency of the VETO designed in Section 7.5 will be evaluated for some realistic situations. The simulations will be performed according to Figure 7.4 with the Geant4 physics list discussed in Section 7.4. The reaction of a 48Ca- beam on a 4.4 mm thick carbon target was selected, because for this case our physics list has proven to simulate the production ratio of charged and unchanged particles with reasonable accuracy. Moreover, this reaction produces a lot of target neutrons. Hence, less CPU time is needed to gather enough statistics. We simulated one million events. A slightly 
+
+ [ALINEA-CONTENT]:
+In this section, the eﬃciency of the VETO designed in Section 7.5 will be evaluated
+for some realistic situations. The simulations will be performed according to Figure
+7.4 with the Geant4 physics list discussed in Section 7.4. The reaction of a 48Ca-
+
+          ***          [--- more alinea content ---]        ***          
+
+ﬁrst hits 3n 7037 673 1776 0 34%
+4n 6189 685 1374 0 29%
+5n 8461 943 1415 0 20%
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 7.7 Conclusion
+ nativeID=68 parentID=57 & horizontal_ordering=6
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Our simulations show that the best VETO for NeuLAND is a single wall of thin verti- cally oriented non-overlapping scintillator bars made of light plastic (like NeuLAND’s scintillators). The entire VETO wall should have a size of 2.5 m × 2.5 m. The opti- mal distance between NeuLAND and the VETO wall is 30 cm for a time resolution of σ = 300 ps. In order to successfully eliminate the back-scattering, the VETO time resolution should not be larger than 300 ps. The required active scintillator thickness is 1.1 cm for an energy deposition threshold of 1 MeV. The optimal 
+
+ [ALINEA-CONTENT]:
+Our simulations show that the best VETO for NeuLAND is a single wall of thin verti-
+cally oriented non-overlapping scintillator bars made of light plastic (like NeuLAND’s
+scintillators). The entire VETO wall should have a size of 2.5 m × 2.5 m. The opti-
+
+          ***          [--- more alinea content ---]        ***          
+
+The source code for all simulations performed in this Chapter is available in the
+GitHub Veto-branch of the R3BRoot source code [138]. The Veto-branch can be
+accessed through [154].
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 8 Conclusions and Outlook
+ nativeID=69 parentID=0 & horizontal_ordering=9
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+This thesis was divided into three separate topics. The ﬁrst topic was the study of the Gamow-Teller strength distributions in the 116,122Sn → 116,122Sb transitions using the (3He, t) charge-exchange reaction at 140 MeV/u. The measurements performed for this study were given in Tables 5.1 and 5.2 for the individual states in the re- gion of low excitation energy. The results for higher excitation energies were given in Figure 5.4. We discussed in Section 5.2 that our data agrees to the previous mea- surements of Ref. [28] when the same analysis procedure is followed. However, this procedure includes the subtraction 
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 8.1 The topics of this work
+ nativeID=70 parentID=69 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+This thesis was divided into three separate topics. The ﬁrst topic was the study of the Gamow-Teller strength distributions in the 116,122Sn → 116,122Sb transitions using the (3He, t) charge-exchange reaction at 140 MeV/u. The measurements performed for this study were given in Tables 5.1 and 5.2 for the individual states in the re- gion of low excitation energy. The results for higher excitation energies were given in Figure 5.4. We discussed in Section 5.2 that our data agrees to the previous mea- surements of Ref. [28] when the same analysis procedure is followed. However, this procedure includes the subtraction 
+
+ [ALINEA-CONTENT]:
+This thesis was divided into three separate topics. The ﬁrst topic was the study of
+the Gamow-Teller strength distributions in the 116,122Sn → 116,122Sb transitions using
+the (3He, t) charge-exchange reaction at 140 MeV/u. The measurements performed
+
+          ***          [--- more alinea content ---]        ***          
+
+thesis, we can state that we have successfully taken three important steps towards the
+study of one of the important giant resonances in nature, namely the Gamow-Teller
+resonance.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 8.2 Suggestions for follow-up experiments
+ nativeID=71 parentID=69 & horizontal_ordering=1
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+As explained in Chapter 1, it is important to have a thorough knowledge of B(GT ) values for many diﬀerent nuclei (especially if one is interested in understanding nucle- osynthesis). Moreover, we have also indicated the need for additional measurements where the quasi-free charge-exchange background is suppressed. Hence, our exper- iment will probably not be the last to measure B(GT ) values. For this reason, we discuss, in this section, some of the problems we encountered during our experiment and the subsequent data analysis so that these problems can be avoided in the future. The main limitation that we encountered 
+
+ [ALINEA-CONTENT]:
+As explained in Chapter 1, it is important to have a thorough knowledge of B(GT )
+values for many diﬀerent nuclei (especially if one is interested in understanding nucle-
+osynthesis). Moreover, we have also indicated the need for additional measurements
+
+          ***          [--- more alinea content ---]        ***          
+
+We, therefore, recommend that for future experiments, the angular spread of the
+beam proﬁle is kept constant during the entire experiment and that it is kept as small
+as possible.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Nederlandse Samenvatting
+ nativeID=72 parentID=0 & horizontal_ordering=10
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = True
+
+ [ALINEA-SUMMARY]:
+
+
+ [ALINEA-CONTENT]:
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 1 Inleiding
+ nativeID=73 parentID=0 & horizontal_ordering=11
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De toegestane β-overgangen in atoomkernen bestaan uit twee klassen: Fermi over- gangen en Gamow-Teller overgangen. Beide types overgangen worden gekenmerkt door een isospin verandering ∆Tz = 1 en een impulsmoment verandering ∆L = 0. Een Fermi overgang heeft echter een verandering in de kernspin van ∆S = 0, terwijl een Gamow-Teller overgang gekenmerkt wordt door ∆S = 1. Het berekenen van meetbare eigenschappen van Fermi overgangen is daardoor eenvoudig, terwijl zulke berekening- en voor Gamow-Teller veranderingen vandaag de dag nog altijd problematisch zijn [12]. Een nauwkeurige beschrijving van Gamow-Teller overgangen is echter zeer belangrijk voor diverse subdisciplines in de natuurkunde. 
+
+ [ALINEA-CONTENT]:
+De toegestane β-overgangen in atoomkernen bestaan uit twee klassen: Fermi over-
+gangen en Gamow-Teller overgangen. Beide types overgangen worden gekenmerkt
+door een isospin verandering ∆Tz = 1 en een impulsmoment verandering ∆L = 0. Een
+
+          ***          [--- more alinea content ---]        ***          
+
+in (zeer) instabiele atoomkernen [10]. Onze bijdrages aan het X-slit systeem en aan
+de VETO detector kunnen dus gebruikt worden om in de toekomst Gamow-Teller
+overgangen in (zeer) instabiele atoomkernen te meten.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 2 Bepaling van de Gamow-Teller overgangen in Sn- isotopen
+ nativeID=74 parentID=0 & horizontal_ordering=12
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+De waarschijnlijkheid van een Gamow-Teller overgang wordt beschreven door een enkel dimensieloos getal: een zogenaamde B(GT )-waarde [11]. Een B(GT )-waarde is formeel gedeﬁnieerd als (2j + 1) · B(GT ) = | (cid:104)Ψf |στ |Ψi(cid:105) |2. Hier is j het kwant- um getal van het totale impulsmoment van de nucleus voor de overgang. Ψi (Ψf ) is de golﬀunctie die de toestand van de atoomkern beschrijft voor (na) de overgang. στ is de Gamow-Teller operator (opgeteld over alle nucleonen in de atoomkern). De waarschijnlijkheid van elke Gamow-Teller toestand in het energiespectrum van de desbetreﬀende atoomkern wordt beschreven door zijn 
+
+ [ALINEA-CONTENT]:
+De waarschijnlijkheid van een Gamow-Teller overgang wordt beschreven door een
+enkel dimensieloos getal: een zogenaamde B(GT )-waarde [11]. Een B(GT )-waarde
+is formeel gedeﬁnieerd als (2j + 1) · B(GT ) = | (cid:104)Ψf |στ |Ψi(cid:105) |2. Hier is j het kwant-
+
+          ***          [--- more alinea content ---]        ***          
+
+Teller transities is verbeterd voor de gemeten isotopen. Daarnaast hebben onze meet-
+resultaten geholpen bij het verﬁjnen van het QRPA model van Ref. [102], wat ons kan
+helpen om Gamow-Teller transities beter te begrijpen.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 3 Controle van de passieve koeling van het X-slit systeem
+ nativeID=75 parentID=0 & horizontal_ordering=13
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Het X-slit systeem (zie Figuur 9.2) is een collimator gemaakt van twee blokken Den- simet. Densimet is en legering van 97% wolfraam, 2% nikkel and 1% ijzer [111]. In totaal bevat de Super-FRS 6 van zulke collimators in de verticale richting en 11 in de horizontale richting. De collimator waar wij in ge¨ınteresseerd zijn, het X-slit sys- teem, is de eerste collimator (een horizontale) waar de bundel doorheen gaat. Het X-slit systeem bevindt zich in de zogenaamde pre-separator van de Super-FRS [30]. In het gebied van de pre-separator wordt het materiaal van de collimators dusdanig geactiveerd door de bundel dat 
+
+ [ALINEA-CONTENT]:
+Het X-slit systeem (zie Figuur 9.2) is een collimator gemaakt van twee blokken Den-
+simet. Densimet is en legering van 97% wolfraam, 2% nikkel and 1% ijzer [111]. In
+totaal bevat de Super-FRS 6 van zulke collimators in de verticale richting en 11 in
+
+          ***          [--- more alinea content ---]        ***          
+
+temperatuur die de motoren en de elektronica kunnen verdragen ongeveer 80 ◦C is
+[115], kunnen we concluderen dat het X-slit systeem veilig in de pre-separator kan
+worden gebruikt.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = 4 Het ontwerp van de NeuLAND VETO detector
+ nativeID=76 parentID=0 & horizontal_ordering=14
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+NeuLAND bestaat uit 3000 plastic scintillatoren. Elke scintillator is uitgerust met twee photomultipliers aan de uiteinden. De scintillatoren zijn gerangschikt in 60 vlakken van elk 50 parallelle scintillatoren. Deze vlakken hebben afwisselend een horizontale en verticale ori¨entatie. De afmetingen van NeuLAND zijn 2.5 m × 2.5 m × 3 m. Wanneer een neutron NeuLAND binnen vliegt, is er een waarschijnlijkheid dat dit neutron hadronische interacties ondergaat met het scintillatormateriaal en daarbij geladen deeltjes produceert. Deze geladen deeltjes kunnen dan worden gemeten via hun scintillatielicht [126]. Elk neutron zal signalen in (veel) verschillende scintillatoren produceren. Met behulp van een oﬄine analyse 
+
+ [ALINEA-CONTENT]:
+NeuLAND bestaat uit 3000 plastic scintillatoren. Elke scintillator is uitgerust met
+twee photomultipliers aan de uiteinden. De scintillatoren zijn gerangschikt in 60
+vlakken van elk 50 parallelle scintillatoren. Deze vlakken hebben afwisselend een
+
+          ***          [--- more alinea content ---]        ***          
+
+deeltjes in NeuLAND te reduceren. Wanneer er echter geen vacu¨um heerst in de R3B
+meetopstelling, is een VETO detector wel noodzakelijk ter verbetering van de anders
+zeer slechte signaal-achtergrond verhouding.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Acknowledgements
+ nativeID=77 parentID=0 & horizontal_ordering=15
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+I would like to thank prof. dr. N. Kalantar-Nayestanaki for supervising this PhD thesis. I learned a lot from you on many diﬀerent physics topics and on how the funding of science works. Thank you for all of your time and for sharing your expertise! I also would like to thank prof. dr. M. N. Harakeh for all the time he has invested in guiding me though the data analysis of the Gamow-Teller states and for sharing his experience with me about optical potentials. The contribution of dr. C. E. Rigollet to this thesis should not be overlooked. For 4 
+
+ [ALINEA-CONTENT]:
+I would like to thank prof. dr. N. Kalantar-Nayestanaki for supervising this PhD
+thesis. I learned a lot from you on many diﬀerent physics topics and on how the
+funding of science works. Thank you for all of your time and for sharing your expertise!
+
+          ***          [--- more alinea content ---]        ***          
+
+in some of their experiments. I learned a lot from those experiences!
+Finally, I would like to thank my wife and family for supporting me through the 4
+years of my PhD thesis.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = List of Figures
+ nativeID=78 parentID=0 & horizontal_ordering=16
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+1.1 Overview of the known processes today that are responsible for the generation of nuclei beyond iron [7]; ﬁgure used with permission. . . . 5 2.1 Illustration of the energy levels in the nuclear shell model when a ra- dial harmonic-oscillator potential plus a strong attractive spin-orbit coupling is considered as the mean ﬁeld; ﬁgure used with permission [14]. 13 2.2 Comparison of a Woods-Saxon potential with a harmonic-oscillator po- tential as a nuclear mean ﬁeld; ﬁgure based on information from Ref. [46]. 14 2.3 Illustration of a 1p1h-transition in the 122Sn(3He, t)122Sb charge-exchange reaction. . . . . 
+
+ [ALINEA-CONTENT]:
+1.1 Overview of the known processes today that are responsible for the
+generation of nuclei beyond iron [7]; ﬁgure used with permission. . . . 5
+2.1 Illustration of the energy levels in the nuclear shell model when a ra-
+
+          ***          [--- more alinea content ---]        ***          
+
+9.2 Computermodel van het X-slit systeem [111]; ﬁguur gebruikt met per-
+missie. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 176
+9.3 Siemens NX simulatieresultaat [111]; ﬁguur gebruikt met permissie. . . 176
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = (d) were produced by M. F. ...
+ nativeID=79 parentID=78 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+(d) were produced by M. F. Lindemulder and are used with permission. 121 6.10 Coated Densimet block after irradiation of the coating. . . . . . . . . . 122 6.11 Temperature results on the small test setup for the X-slit system [120]. 122 6.12 NX simulated and experimental temperatures on the top face of one of the Densimet blocks during the application of a thermal load to the X-slit system prototype; ﬁgure used with permission [115]. . . . . . . 126 6.13 NX simulated and experimental temperatures on the top ﬂange (in air) of the 
+
+ [ALINEA-CONTENT]:
+(d) were produced by M. F. Lindemulder and are used with permission. 121
+6.10 Coated Densimet block after irradiation of the coating. . . . . . . . . . 122
+6.11 Temperature results on the small test setup for the X-slit system [120]. 122
+
+          ***          [--- more alinea content ---]        ***          
+
+of the vacuum chamber during the application of a thermal load to the
+X-slit system prototype. 100% convection was assumed on the air-side
+of the plate; ﬁgure used with permission [115]. . . . . . . . . . . . . . . 126
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = List of Tables
+ nativeID=80 parentID=0 & horizontal_ordering=17
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+2.1 Occupation numbers for the highest non-empty neutron shell-model levels in 116Sn and 122Sn [58]. . . . . . . . . . . . . . . . . . . . . . . . 18 2.2 Optical-potential parameters for various nuclei; used with permission [60, 61]. rC = 1.25 fm in all cases. . . . . . . . . . . . . . . . . . . . . 23 4.1 Number of events (in millions) for which a triton track could be recon- structed. ‘Success type’ refers to the number of 
+
+ [ALINEA-CONTENT]:
+2.1 Occupation numbers for the highest non-empty neutron shell-model
+levels in 116Sn and 122Sn [58]. . . . . . . . . . . . . . . . . . . . . . . . 18
+2.2 Optical-potential parameters for various nuclei; used with permission
+
+          ***          [--- more alinea content ---]        ***          
+
+[60, 61]. rC = 1.25 fm in all cases. . . . . . . . . . . . . . . . . . . . . 23
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = 3.1 Design parameters of Grand Raiden; table used with permission [64]. . 33
+ nativeID=81 parentID=80 & horizontal_ordering=0
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+4.1 Number of events (in millions) for which a triton track could be recon- structed. ‘Success type’ refers to the number of successfully obtained position coordinates that were used to reconstruct the track (no particle identiﬁcation of any kind was applied to obtain these numbers). . . . . 51 4.2 Eﬀects on the ﬁnal B(F ) values and on the ﬁt quality for certain param- eter changes in the theoretical model for the diﬀerential cross section of the IAS of the 116Sn(3He, t)116Sb reaction. The Number of Degrees of Freedom (NDF) is 13 for all ﬁts in this table. 
+
+ [ALINEA-CONTENT]:
+4.1 Number of events (in millions) for which a triton track could be recon-
+structed. ‘Success type’ refers to the number of successfully obtained
+position coordinates that were used to reconstruct the track (no particle
+
+          ***          [--- more alinea content ---]        ***          
+
+VETO condition was applied. Part of this table comes from Ref. [144].
+The middle group of rows is duplicated from Table 7.2 for comparison
+purposes. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 163
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=1
+ [TITLE] = Bibliography
+ nativeID=82 parentID=0 & horizontal_ordering=18
+ texttype=texttype.HEADLINES & enumeration-type=enum_type.UNKNOWN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+[1] K. S. Krane, Introductory Nuclear Physics. John Wiley & Sons Inc., 1988. [2] G. Sardanashvily, “In memoriam: Dmitri Ivanenko (1904-1994),” Science Newsletter, vol. 16, 2014. [3] S. Wong, Introductory Nuclear Physics. Wiley-VCH Verlag GmbH and Co. KGaA, 2004. [4] W. G. Love and M. A. Franey, “Nucleon-nucleon t-matrix interaction for scat- tering at intermediate energies,” Physical Review C, vol. 31, pp. 488–498, 1985. [5] R. G. T. Zegers, Search for isovector giant monopole resonances. PhD thesis, University of Groningen, 1999. [6] S. Bagchi, Study of Compression Modes in 56Ni using an Active Target. PhD thesis, University of Groningen, 2015. 
+
+ [ALINEA-CONTENT]:
+[1] K. S. Krane, Introductory Nuclear Physics. John Wiley & Sons Inc., 1988.
+[2] G. Sardanashvily, “In memoriam: Dmitri Ivanenko (1904-1994),” Science
+Newsletter, vol. 16, 2014.
+
+          ***          [--- more alinea content ---]        ***          
+
+onenforschung, 2017.
+[154] C. A. Douma, “NeuLAND VETO simulation source code.”
+https://github.com/ChristiaanAlwin/R3BRoot.git
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = B. Messer, B. A. Brown, E. ...
+ nativeID=83 parentID=82 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+B. Messer, B. A. Brown, E. F. Brown, C. R. Brune, A. E. Champagne, A. Chieﬃ, A. J. Couture, P. Danielewicz, R. Diehl, M. El-Eid, J. E. Escher, B. D. Fields, C. Fr¨ohlich, F. Herwig, W. R. Hix, C. Iliadis, W. G. Lynch, G. 
+
+ [ALINEA-CONTENT]:
+B. Messer, B. A. Brown, E. F. Brown, C. R. Brune, A. E. Champagne, A.
+Chieﬃ, A. J. Couture, P. Danielewicz, R. Diehl, M. El-Eid, J. E. Escher, B.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = D. Fields, C. Fr¨ohlich, F. Herwig, ...
+ nativeID=84 parentID=83 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+D. Fields, C. Fr¨ohlich, F. Herwig, W. R. Hix, C. Iliadis, W. G. Lynch, G. 
+
+ [ALINEA-CONTENT]:
+D. Fields, C. Fr¨ohlich, F. Herwig, W. R. Hix, C. Iliadis, W. G. Lynch, G.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = C. McLaughlin, B. S. Meyer, A. ...
+ nativeID=85 parentID=82 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+C. McLaughlin, B. S. Meyer, A. Mezzacappa, F. Nunes, B. W. O?Shea, M. Prakash, B. Pritychenko, S. Reddy, E. Rehm, G. Rogachev, R. E. Rutledge, 
+
+ [ALINEA-CONTENT]:
+C. McLaughlin, B. S. Meyer, A. Mezzacappa, F. Nunes, B. W. O?Shea, M.
+Prakash, B. Pritychenko, S. Reddy, E. Rehm, G. Rogachev, R. E. Rutledge,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = H. Schatz, M. S. Smith, I. ...
+ nativeID=86 parentID=82 & horizontal_ordering=2
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. Schatz, M. S. Smith, I. H. Stairs, A. W. Steiner, T. E. Strohmayer, F. X. Timmes, D. M. Townsley, M. Wiescher, R. G.T. Zegers and M. Zingale, “White paper on nuclear astrophysics and low energy nuclear physics Part 1: Nuclear astrophysics,” Progress in Particle and Nuclear Physics, vol. 94, pp. 1–67, 2017. 
+
+ [ALINEA-CONTENT]:
+H. Schatz, M. S. Smith, I. H. Stairs, A. W. Steiner, T. E. Strohmayer, F. X.
+Timmes, D. M. Townsley, M. Wiescher, R. G.T. Zegers and M. Zingale, “White
+paper on nuclear astrophysics and low energy nuclear physics Part 1: Nuclear
+
+          ***          [--- more alinea content ---]        ***          
+
+astrophysics,” Progress in Particle and Nuclear Physics, vol. 94, pp. 1–67, 2017.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = G. Hagen, A. C. Hayes, D. ...
+ nativeID=87 parentID=82 & horizontal_ordering=3
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+G. Hagen, A. C. Hayes, D. W. Higinbotham, C. R. Howell, C. J. Horowitz, K. L. Jones, F. G. Kondev, S. Lapi, A. Macchiavelli, E. A. McCutchen, J. Natowitz, 
+
+ [ALINEA-CONTENT]:
+G. Hagen, A. C. Hayes, D. W. Higinbotham, C. R. Howell, C. J. Horowitz, K. L.
+Jones, F. G. Kondev, S. Lapi, A. Macchiavelli, E. A. McCutchen, J. Natowitz,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = W. Nazarewicz, T. Papenbrock, S. Reddy, ...
+ nativeID=88 parentID=82 & horizontal_ordering=4
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+W. Nazarewicz, T. Papenbrock, S. Reddy, M. A. Riley, M. J. Savage, G. Savard, 
+
+ [ALINEA-CONTENT]:
+W. Nazarewicz, T. Papenbrock, S. Reddy, M. A. Riley, M. J. Savage, G. Savard,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = B. M. Sherrill, L. G. Sobotka, ...
+ nativeID=89 parentID=82 & horizontal_ordering=5
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+B. M. Sherrill, L. G. Sobotka, M. A. Stoyer, M. B. Tsang, K. Vetter, I. Wieden- hoever, A. H. Wuosmaa, S. Yennello, “White paper on nuclear astrophysics and low-energy nuclear physics, Part 2: Low-energy nuclear physics,” Progress in Particle and Nuclear Physics, vol. 94, pp. 68–124, 2017. 
+
+ [ALINEA-CONTENT]:
+B. M. Sherrill, L. G. Sobotka, M. A. Stoyer, M. B. Tsang, K. Vetter, I. Wieden-
+hoever, A. H. Wuosmaa, S. Yennello, “White paper on nuclear astrophysics and
+low-energy nuclear physics, Part 2: Low-energy nuclear physics,” Progress in
+
+          ***          [--- more alinea content ---]        ***          
+
+Particle and Nuclear Physics, vol. 94, pp. 68–124, 2017.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A. Gade, D. Galaviz, G. F. ...
+ nativeID=90 parentID=82 & horizontal_ordering=6
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A. Gade, D. Galaviz, G. F. Grinyer, C. J. Guess, C. Herlitzius, G. W. Hitt, M. E. Howard, R. Meharchand, S. Noji, H. Sakai, Y. Shimbara, E. E. Smith, C. Tur, “Gamow-Teller unit cross sections for (t,3 He) and (3He, t) reactions,” Physical Review C, vol. 83, p. 054614, 2011. 
+
+ [ALINEA-CONTENT]:
+A. Gade, D. Galaviz, G. F. Grinyer, C. J. Guess, C. Herlitzius, G. W. Hitt, M. E.
+Howard, R. Meharchand, S. Noji, H. Sakai, Y. Shimbara, E. E. Smith, C. Tur,
+“Gamow-Teller unit cross sections for (t,3 He) and (3He, t) reactions,” Physical
+
+          ***          [--- more alinea content ---]        ***          
+
+Review C, vol. 83, p. 054614, 2011.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = H. Fujimura, Y. Fujita, C. D. ...
+ nativeID=91 parentID=82 & horizontal_ordering=7
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. Fujimura, Y. Fujita, C. D. Goodman, K. Hara, M. N. Harakeh, F. Ihara, T. Ishikawa, J. J¨anecke, T. Kawabata, R. S. Raghavan, K. Schwarz, M. Tanaka, 
+
+ [ALINEA-CONTENT]:
+H. Fujimura, Y. Fujita, C. D. Goodman, K. Hara, M. N. Harakeh, F. Ihara, T.
+Ishikawa, J. J¨anecke, T. Kawabata, R. S. Raghavan, K. Schwarz, M. Tanaka,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = T. Yamanaka, M. Yosoi and R. ...
+ nativeID=92 parentID=82 & horizontal_ordering=8
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+T. Yamanaka, M. Yosoi and R. G. T. Zegers, “Gamow-Teller Strengths of the Inverse Beta Transition 176Yb → 176Lu for Spectroscopy of Proton-Proton and Other Sub-MeV Solar Neutrinos,” Physical Review Letters, vol. 85, pp. 4442– 4445, 2000. D. Kasen, T. W.-S. Holoien, J. A. Kollmeier, D. D. Kelson, D. A. Coulter, R. 
+
+ [ALINEA-CONTENT]:
+T. Yamanaka, M. Yosoi and R. G. T. Zegers, “Gamow-Teller Strengths of the
+Inverse Beta Transition 176Yb → 176Lu for Spectroscopy of Proton-Proton and
+Other Sub-MeV Solar Neutrinos,” Physical Review Letters, vol. 85, pp. 4442–
+
+          ***          [--- more alinea content ---]        ***          
+
+4445, 2000.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = D. Kasen, T. W.-S. Holoien, J. ...
+ nativeID=93 parentID=92 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+D. Kasen, T. W.-S. Holoien, J. A. Kollmeier, D. D. Kelson, D. A. Coulter, R. 
+
+ [ALINEA-CONTENT]:
+D. Kasen, T. W.-S. Holoien, J. A. Kollmeier, D. D. Kelson, D. A. Coulter, R.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = J. Foley, C. D. Kilpatrick, M. ...
+ nativeID=94 parentID=82 & horizontal_ordering=9
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+J. Foley, C. D. Kilpatrick, M. R. Siebert, B. F. Madore, A. Murguia-Berthier, 
+
+ [ALINEA-CONTENT]:
+J. Foley, C. D. Kilpatrick, M. R. Siebert, B. F. Madore, A. Murguia-Berthier,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = E. Ba˜nados, J. Baughman, R. A. ...
+ nativeID=95 parentID=82 & horizontal_ordering=10
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+E. Ba˜nados, J. Baughman, R. A. Bernstein, T. Bitsakis, K. Boutsia, J. R. Bravo, F. Di Mille, C. R. Higgs, A. P. Ji, G. Maravelias, J. L. Marshall, V. M. Placco, G. Prieto, Z. Wan, “Early spectra of the gravitational wave source GW170817: Evolution of a neutron star merger,” Sience, pp. 1574–1578, 2017. Science10.1126/science.aaq0186. 
+
+ [ALINEA-CONTENT]:
+E. Ba˜nados, J. Baughman, R. A. Bernstein, T. Bitsakis, K. Boutsia, J. R.
+Bravo, F. Di Mille, C. R. Higgs, A. P. Ji, G. Maravelias, J. L. Marshall, V.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Placco, G. Prieto, Z. Wan, ...
+ nativeID=96 parentID=95 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Placco, G. Prieto, Z. Wan, “Early spectra of the gravitational wave source GW170817: Evolution of a neutron star merger,” Sience, pp. 1574–1578, 2017. Science10.1126/science.aaq0186. 
+
+ [ALINEA-CONTENT]:
+M. Placco, G. Prieto, Z. Wan, “Early spectra of the gravitational wave source
+GW170817: Evolution of a neutron star merger,” Sience, pp. 1574–1578, 2017.
+Science10.1126/science.aaq0186.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = P. Shuai, C. Y. Fu, X. ...
+ nativeID=97 parentID=82 & horizontal_ordering=11
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+P. Shuai, C. Y. Fu, X. L. Yan, W. J. Huang, X. Xu, X. D. Tang, H. S. Xu, T. Bao, X. C. Chen, B. S. Gao, J. J. He, Y. H. Lam, H. F. Li, J. H. Liu, X. W. Ma, R. S. Mao, M. Si, M. Z. Sun, X. L. Tu, Q. Wang, J. C. Yang, Y. J. Yuan, Q. Zeng, P. Zhang, X. Zhou, W. L. Zhan, S. Litvinov, G. Audi, T. Uesaka, Y. Yamaguchi, 
+
+ [ALINEA-CONTENT]:
+P. Shuai, C. Y. Fu, X. L. Yan, W. J. Huang, X. Xu, X. D. Tang, H. S. Xu, T. Bao,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = X. C. Chen, B. S. Gao, ...
+ nativeID=98 parentID=97 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+X. C. Chen, B. S. Gao, J. J. He, Y. H. Lam, H. F. Li, J. H. Liu, X. W. Ma, R. S. Mao, M. Si, M. Z. Sun, X. L. Tu, Q. Wang, J. C. Yang, Y. J. Yuan, Q. Zeng, P. Zhang, X. Zhou, W. L. Zhan, S. Litvinov, G. Audi, T. Uesaka, Y. Yamaguchi, 
+
+ [ALINEA-CONTENT]:
+X. C. Chen, B. S. Gao, J. J. He, Y. H. Lam, H. F. Li, J. H. Liu, X. W. Ma, R. S.
+Mao, M. Si, M. Z. Sun, X. L. Tu, Q. Wang, J. C. Yang, Y. J. Yuan, Q. Zeng, P.
+Zhang, X. Zhou, W. L. Zhan, S. Litvinov, G. Audi, T. Uesaka, Y. Yamaguchi,
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = T. Yamaguchi, A. Ozawa, C. Fr¨ohlich, ...
+ nativeID=99 parentID=82 & horizontal_ordering=12
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+T. Yamaguchi, A. Ozawa, C. Fr¨ohlich, T. Rauscher, F.-K. Thielemann, B. H. Sun, Y. Sun, A. C. Dai and F. R. Xu, “”Mass measurements of neutron-deﬁcient Y, Zr, and Nb isotopes and their impact on rp and p nucleosynthesis processes,” Physics Letters B, vol. 781, pp. 358–363, 2018. 
+
+ [ALINEA-CONTENT]:
+T. Yamaguchi, A. Ozawa, C. Fr¨ohlich, T. Rauscher, F.-K. Thielemann, B. H.
+Sun, Y. Sun, A. C. Dai and F. R. Xu, “”Mass measurements of neutron-deﬁcient
+Y, Zr, and Nb isotopes and their impact on rp and p nucleosynthesis processes,”
+
+          ***          [--- more alinea content ---]        ***          
+
+Physics Letters B, vol. 781, pp. 358–363, 2018.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = T. Rauscher, F.-K. Thielemann and M. ...
+ nativeID=100 parentID=82 & horizontal_ordering=13
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+T. Rauscher, F.-K. Thielemann and M. Wiescher, “End Point of the rp Process on Accreting Neutron Stars,” Physical Review Letters, vol. 86, pp. 3471–3474, 2001. 
+
+ [ALINEA-CONTENT]:
+T. Rauscher, F.-K. Thielemann and M. Wiescher, “End Point of the rp Process
+on Accreting Neutron Stars,” Physical Review Letters, vol. 86, pp. 3471–3474,
+2001.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = R. Gernh¨auser, M. G´orska, A. Gottardo, ...
+ nativeID=101 parentID=82 & horizontal_ordering=14
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+R. Gernh¨auser, M. G´orska, A. Gottardo, H. Grawe, J. L. Gr¸ebosz, R. Kr¨ucken, 
+
+ [ALINEA-CONTENT]:
+R. Gernh¨auser, M. G´orska, A. Gottardo, H. Grawe, J. L. Gr¸ebosz, R. Kr¨ucken,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = N. Kurz, Z. Liu, L. Maier, ...
+ nativeID=102 parentID=82 & horizontal_ordering=15
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+N. Kurz, Z. Liu, L. Maier, F. Nowacki, S. Pietri, Zs. Podoly´ak, K. Sieja, K. Steiger, K. Straub , H. Weick, H.-J. Wollersheim, P. J. Woods, N. Al-Dahan, N. Alkhomashi, A. Ata¸c, A. Blazhev, N. F. Braun, I. T. ˘Celikovi´c, T. Davinson, I. Dillmann, C. Domingo-Pardo, P. C. Doornenbal, G. de France, G. F. Farrelly, 
+
+ [ALINEA-CONTENT]:
+N. Kurz, Z. Liu, L. Maier, F. Nowacki, S. Pietri, Zs. Podoly´ak, K. Sieja, K.
+Steiger, K. Straub , H. Weick, H.-J. Wollersheim, P. J. Woods, N. Al-Dahan, N.
+Alkhomashi, A. Ata¸c, A. Blazhev, N. F. Braun, I. T. ˘Celikovi´c, T. Davinson, I.
+
+          ***          [--- more alinea content ---]        ***          
+
+Dillmann, C. Domingo-Pardo, P. C. Doornenbal, G. de France, G. F. Farrelly,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = F. Farinon, N. Goel, T. C. ...
+ nativeID=103 parentID=82 & horizontal_ordering=16
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+F. Farinon, N. Goel, T. C. Habermann, R. Hoischen, R. Janik, M. Karny, A. Ka¸ska¸s, I. M. Kojouharov, Th. Kr¨oll, Y. Litvinov, S. Myalski, F. Nebel, S. Nishimura, C. Nociforo, J. Nyberg, A. R. Parikh, A. Proch´azka, P. H. Regan, C. Rigollet, H. Schaﬀner, C. Scheidenberger, S. Schwertel, P.-A. S¨oderstr¨om, 
+
+ [ALINEA-CONTENT]:
+F. Farinon, N. Goel, T. C. Habermann, R. Hoischen, R. Janik, M. Karny, A.
+Ka¸ska¸s, I. M. Kojouharov, Th. Kr¨oll, Y. Litvinov, S. Myalski, F. Nebel, S.
+Nishimura, C. Nociforo, J. Nyberg, A. R. Parikh, A. Proch´azka, P. H. Regan,
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = C. Rigollet, H. Schaﬀner, C. Scheidenberger, ...
+ nativeID=104 parentID=103 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+C. Rigollet, H. Schaﬀner, C. Scheidenberger, S. Schwertel, P.-A. S¨oderstr¨om, 
+
+ [ALINEA-CONTENT]:
+C. Rigollet, H. Schaﬀner, C. Scheidenberger, S. Schwertel, P.-A. S¨oderstr¨om,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = S. J. Steer, A. Stolz and ...
+ nativeID=105 parentID=82 & horizontal_ordering=17
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+S. J. Steer, A. Stolz and P. Strme˘n, “Superallowed Gamow-Teller decay of the doubly magic nucleus 100Sn,” Nature, vol. 486, pp. 341–345, 2012. 
+
+ [ALINEA-CONTENT]:
+S. J. Steer, A. Stolz and P. Strme˘n, “Superallowed Gamow-Teller decay of the
+doubly magic nucleus 100Sn,” Nature, vol. 486, pp. 341–345, 2012.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = J. Hakala, A. Jokinen, I. D. ...
+ nativeID=106 parentID=82 & horizontal_ordering=18
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+J. Hakala, A. Jokinen, I. D. Moore, Yu. N. Novikov, H. Penttil¨a, A. Popov, S. Rahaman, J. Rissanen, A. Saastamoinen, H. Schatz, D. M. Seliverstov, C. Weber and J. ¨Ayst¨o, “Quenching of the SnSbTe Cycle in the rp Process,” Physical Review Letters, vol. 102, p. 252501, 2009. 
+
+ [ALINEA-CONTENT]:
+J. Hakala, A. Jokinen, I. D. Moore, Yu. N. Novikov, H. Penttil¨a, A. Popov, S.
+Rahaman, J. Rissanen, A. Saastamoinen, H. Schatz, D. M. Seliverstov, C. Weber
+and J. ¨Ayst¨o, “Quenching of the SnSbTe Cycle in the rp Process,” Physical
+
+          ***          [--- more alinea content ---]        ***          
+
+Review Letters, vol. 102, p. 252501, 2009.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = G. T. Zegers, “Production and β ...
+ nativeID=107 parentID=82 & horizontal_ordering=19
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+G. T. Zegers, “Production and β Decay of rp-Process Nuclei 96Cd, 98In, and 
+
+ [ALINEA-CONTENT]:
+G. T. Zegers, “Production and β Decay of rp-Process Nuclei 96Cd, 98In, and
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = B. A. Brown, Y. Fujita, M. ...
+ nativeID=108 parentID=82 & horizontal_ordering=20
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+B. A. Brown, Y. Fujita, M. Fujiwara, S. Gal`es, C. J. Guess, M. N. Harakeh, 
+
+ [ALINEA-CONTENT]:
+B. A. Brown, Y. Fujita, M. Fujiwara, S. Gal`es, C. J. Guess, M. N. Harakeh,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = H. Hashimoto, K. Hatanaka, R. Hayami, ...
+ nativeID=109 parentID=82 & horizontal_ordering=21
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. Hashimoto, K. Hatanaka, R. Hayami, G. W. Hitt, M. E. Howard, M. Itoh, T. Kawabata, K. Kawase, M. Kinoshita, M. Matsubara, K. Nakanishi, 
+
+ [ALINEA-CONTENT]:
+H. Hashimoto, K. Hatanaka, R. Hayami, G. W. Hitt, M. E. Howard, M.
+Itoh, T. Kawabata, K. Kawase, M. Kinoshita, M. Matsubara, K. Nakanishi,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = S. Nakayama, S. Okumura, T. Ohta, ...
+ nativeID=110 parentID=82 & horizontal_ordering=22
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+S. Nakayama, S. Okumura, T. Ohta, Y. Sakemi, Y. Shimbara, Y. Shimizu, C. Scholl, C. Simenel, Y. Tameshige, A. Tamii, M. Uchida, T. Yamagata, M. Yosoi, “Extraction of Weak Transition Strengths via the (3He, t) Reaction at 420 MeV,” Physical Review Letters, vol. 99, p. 202501, 2007. 
+
+ [ALINEA-CONTENT]:
+S. Nakayama, S. Okumura, T. Ohta, Y. Sakemi, Y. Shimbara, Y. Shimizu,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = C. Scholl, C. Simenel, Y. Tameshige, ...
+ nativeID=111 parentID=110 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+C. Scholl, C. Simenel, Y. Tameshige, A. Tamii, M. Uchida, T. Yamagata, M. Yosoi, “Extraction of Weak Transition Strengths via the (3He, t) Reaction at 420 MeV,” Physical Review Letters, vol. 99, p. 202501, 2007. 
+
+ [ALINEA-CONTENT]:
+C. Scholl, C. Simenel, Y. Tameshige, A. Tamii, M. Uchida, T. Yamagata, M.
+Yosoi, “Extraction of Weak Transition Strengths via the (3He, t) Reaction at
+420 MeV,” Physical Review Letters, vol. 99, p. 202501, 2007.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = P. A. Berg, B. A. Brown, ...
+ nativeID=112 parentID=82 & horizontal_ordering=23
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+P. A. Berg, B. A. Brown, J. Brown, A. L. Cole, I. Daito, Y. Fujita, M. Fujiwara, 
+
+ [ALINEA-CONTENT]:
+P. A. Berg, B. A. Brown, J. Brown, A. L. Cole, I. Daito, Y. Fujita, M. Fujiwara,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = S. Gal`es, M. N. Harakeh, H. ...
+ nativeID=113 parentID=82 & horizontal_ordering=24
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+S. Gal`es, M. N. Harakeh, H. Hashimoto, R. Hayami, G. W. Hitt, M. E. Howard, M. Itoh, J. J¨anecke, T. Kawabata, K. Kawase, M. Kinoshita, T. Nakamura, K. Nakanishi, S. Nakayama, S. Okumura, W. A. Richter, D. A. Roberts, B. M. Sherrill, Y. Shimbara, M. Steiner, M. Uchida, H. Ueno, T. Yamagata and M. Yosoi, “The (t,3 He) and (3He, t) reactions as probes of Gamow-Teller strength,” Physical Review C, vol. 74, p. 024309, 2006. [37] G. W. Hitt, R. G. T. Zegers, S. M. Austin, D. Bazin, A. Gade, D. Galaviz, C. 
+
+ [ALINEA-CONTENT]:
+S. Gal`es, M. N. Harakeh, H. Hashimoto, R. Hayami, G. W. Hitt, M. E. Howard,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Itoh, J. J¨anecke, T. Kawabata, ...
+ nativeID=114 parentID=113 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Itoh, J. J¨anecke, T. Kawabata, K. Kawase, M. Kinoshita, T. Nakamura, K. Nakanishi, S. Nakayama, S. Okumura, W. A. Richter, D. A. Roberts, B. M. Sherrill, Y. Shimbara, M. Steiner, M. Uchida, H. Ueno, T. Yamagata and M. Yosoi, “The (t,3 He) and (3He, t) reactions as probes of Gamow-Teller strength,” Physical Review C, vol. 74, p. 024309, 2006. [37] G. W. Hitt, R. G. T. Zegers, S. M. Austin, D. Bazin, A. Gade, D. Galaviz, C. 
+
+ [ALINEA-CONTENT]:
+M. Itoh, J. J¨anecke, T. Kawabata, K. Kawase, M. Kinoshita, T. Nakamura, K.
+Nakanishi, S. Nakayama, S. Okumura, W. A. Richter, D. A. Roberts, B. M.
+Sherrill, Y. Shimbara, M. Steiner, M. Uchida, H. Ueno, T. Yamagata and M.
+
+          ***          [--- more alinea content ---]        ***          
+
+Yosoi, “The (t,3 He) and (3He, t) reactions as probes of Gamow-Teller strength,”
+Physical Review C, vol. 74, p. 024309, 2006.
+[37] G. W. Hitt, R. G. T. Zegers, S. M. Austin, D. Bazin, A. Gade, D. Galaviz, C.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = J. Guess, M. Horoi, M. E. ...
+ nativeID=115 parentID=82 & horizontal_ordering=25
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+J. Guess, M. Horoi, M. E. Howard, W. D. M. Rae, Y. Shimbara, E. E. Smith and C. Tur, “Gamow-Teller transitions to 64Cu measured with the 64Zn(t,3 He) reaction,” Physical Review C, vol. 80, p. 014313, 2009. 
+
+ [ALINEA-CONTENT]:
+J. Guess, M. Horoi, M. E. Howard, W. D. M. Rae, Y. Shimbara, E. E. Smith
+and C. Tur, “Gamow-Teller transitions to 64Cu measured with the 64Zn(t,3 He)
+reaction,” Physical Review C, vol. 80, p. 014313, 2009.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = W. Gl¨ockle, J. Golak, C. Grosshauser, ...
+ nativeID=116 parentID=82 & horizontal_ordering=26
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+W. Gl¨ockle, J. Golak, C. Grosshauser, R. J. Holt, C. E. Jones, H. Kamada, E. 
+
+ [ALINEA-CONTENT]:
+W. Gl¨ockle, J. Golak, C. Grosshauser, R. J. Holt, C. E. Jones, H. Kamada, E.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = R. Kinney, M. A. Miller, W. ...
+ nativeID=117 parentID=82 & horizontal_ordering=27
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+R. Kinney, M. A. Miller, W. Nagengast, A. Nogga, B. R. Owen, K. Rith, F. Schmidt, E. C. Schulte, J. Sowinski, F. Sperisen, E. L. Thorsland, R. Tobey, J. Wilbert, and H. Witala, “Experimental approach to three nucleon forces via few nucleon systems,” IOP Science, Journal of Physics: Conference Series, vol. 86, no. 6, p. 012001, 2001. 
+
+ [ALINEA-CONTENT]:
+R. Kinney, M. A. Miller, W. Nagengast, A. Nogga, B. R. Owen, K. Rith, F.
+Schmidt, E. C. Schulte, J. Sowinski, F. Sperisen, E. L. Thorsland, R. Tobey, J.
+Wilbert, and H. Witala, “Experimental approach to three nucleon forces via few
+
+          ***          [--- more alinea content ---]        ***          
+
+nucleon systems,” IOP Science, Journal of Physics: Conference Series, vol. 86,
+no. 6, p. 012001, 2001.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = R. Ophel and C. L. Woods, ...
+ nativeID=118 parentID=82 & horizontal_ordering=28
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+R. Ophel and C. L. Woods, “16O(7Li,7Be)16N reaction at 50 mev,” Physical Review C, vol. 30, pp. 1538–1544, 1984. 
+
+ [ALINEA-CONTENT]:
+R. Ophel and C. L. Woods, “16O(7Li,7Be)16N reaction at 50 mev,” Physical
+Review C, vol. 30, pp. 1538–1544, 1984.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = N. Harakeh, P. den Heijer, C. ...
+ nativeID=119 parentID=82 & horizontal_ordering=29
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+N. Harakeh, P. den Heijer, C. W. de Jager, H. Langevin-Joliot, S. Micheletti, M. Morlet, M. Pignanelli, J. M. Schippers, H. de Vries, A. Willis and A. van der Woude, “Localized 1(cid:126)ω particle-hole strength in nuclei,” Nuclear Physics A, vol. 588, pp. 729–766, 1995. 
+
+ [ALINEA-CONTENT]:
+N. Harakeh, P. den Heijer, C. W. de Jager, H. Langevin-Joliot, S. Micheletti,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Morlet, M. Pignanelli, J. M. ...
+ nativeID=120 parentID=119 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Morlet, M. Pignanelli, J. M. Schippers, H. de Vries, A. Willis and A. van der Woude, “Localized 1(cid:126)ω particle-hole strength in nuclei,” Nuclear Physics A, vol. 588, pp. 729–766, 1995. 
+
+ [ALINEA-CONTENT]:
+M. Morlet, M. Pignanelli, J. M. Schippers, H. de Vries, A. Willis and A. van
+der Woude, “Localized 1(cid:126)ω particle-hole strength in nuclei,” Nuclear Physics
+A, vol. 588, pp. 729–766, 1995.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = P. Haefner, M.N. Harakeh, M. Hunyadi, ...
+ nativeID=121 parentID=82 & horizontal_ordering=30
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+P. Haefner, M.N. Harakeh, M. Hunyadi, M. de Huu, B.C. Junk, E. Rich, N. Van Giai, S.Y. van der Werf and H.J. W¨ortche, “Investigation of Isovector Excitations via the (t,3 He) reaction at Et = 43MeV/u on 58Ni and 48Ca targets: microscopic interpretation,” Nuclear Physics A, vol. 752, pp. 349–352, 2005. Proceedings of the 22nd International Nuclear Physics Conference (Part 2). 
+
+ [ALINEA-CONTENT]:
+P. Haefner, M.N. Harakeh, M. Hunyadi, M. de Huu, B.C. Junk, E. Rich, N.
+Van Giai, S.Y. van der Werf and H.J. W¨ortche, “Investigation of Isovector
+Excitations via the (t,3 He) reaction at Et = 43MeV/u on 58Ni and 48Ca targets:
+
+          ***          [--- more alinea content ---]        ***          
+
+microscopic interpretation,” Nuclear Physics A, vol. 752, pp. 349–352, 2005.
+Proceedings of the 22nd International Nuclear Physics Conference (Part 2).
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Y. Fujita, M. Fujiwara, E. Ganioglu, ...
+ nativeID=122 parentID=82 & horizontal_ordering=31
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Y. Fujita, M. Fujiwara, E. Ganioglu, E.-W. Grewe, K. Hatanaka, R. Hodak, C. Iwamoto, N. T. Khai, A. Okamoto, H. Okamura, P. P. Povinec, G. Susoy, T. Suzuki, A. Tamii, J. H. Thies, and M. Yosoi, “High resolution (3He, t) exper- iment on the double-β decaying nuclei 128Te and 130Te,” Physical Review C, vol. 86, p. 044603, 2012. 
+
+ [ALINEA-CONTENT]:
+Y. Fujita, M. Fujiwara, E. Ganioglu, E.-W. Grewe, K. Hatanaka, R. Hodak, C.
+Iwamoto, N. T. Khai, A. Okamoto, H. Okamura, P. P. Povinec, G. Susoy, T.
+Suzuki, A. Tamii, J. H. Thies, and M. Yosoi, “High resolution (3He, t) exper-
+
+          ***          [--- more alinea content ---]        ***          
+
+iment on the double-β decaying nuclei 128Te and 130Te,” Physical Review C,
+vol. 86, p. 044603, 2012.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Y. Fujita, K. Katori, M. Inoue, ...
+ nativeID=123 parentID=82 & horizontal_ordering=32
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Y. Fujita, K. Katori, M. Inoue, M. Fujiwara and H. Ogata, “Elastic scattering 
+
+ [ALINEA-CONTENT]:
+Y. Fujita, K. Katori, M. Inoue, M. Fujiwara and H. Ogata, “Elastic scattering
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = H. Sakaguchi, N. Sakamoto, Y. Sakemi, ...
+ nativeID=124 parentID=82 & horizontal_ordering=33
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. Sakaguchi, N. Sakamoto, Y. Sakemi, Y. Shimbara, Y. Shimizu, S. Terashima, M. Uchida, T. Wakasa, Y. Yasuda, H. P. Yoshida and M. Yosoi, “Cross section and induced polarization in 3He elastic scattering at 443 MeV,” Physical Review C, vol. 67, p. 064612, 2003. M. Itoh, J. Kamiya, T. Kawabata, K. Nagayama, T. Noro, H. Sakaguchi, Y. Shimbara, H. Takeda, K. Tamura, H. Ueno, M. Uchida, M. Uraki and M. Yosoi., “High resolution beam line for the Grand Raiden spectrometer,” Nuclear Instru- ments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, vol. 482, no. 1?2, 
+
+ [ALINEA-CONTENT]:
+H. Sakaguchi, N. Sakamoto, Y. Sakemi, Y. Shimbara, Y. Shimizu, S. Terashima,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Uchida, T. Wakasa, Y. Yasuda, ...
+ nativeID=125 parentID=124 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Uchida, T. Wakasa, Y. Yasuda, H. P. Yoshida and M. Yosoi, “Cross section and induced polarization in 3He elastic scattering at 443 MeV,” Physical Review C, vol. 67, p. 064612, 2003. 
+
+ [ALINEA-CONTENT]:
+M. Uchida, T. Wakasa, Y. Yasuda, H. P. Yoshida and M. Yosoi, “Cross section
+and induced polarization in 3He elastic scattering at 443 MeV,” Physical Review
+C, vol. 67, p. 064612, 2003.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Itoh, J. Kamiya, T. Kawabata, ...
+ nativeID=126 parentID=124 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Itoh, J. Kamiya, T. Kawabata, K. Nagayama, T. Noro, H. Sakaguchi, Y. Shimbara, H. Takeda, K. Tamura, H. Ueno, M. Uchida, M. Uraki and M. Yosoi., “High resolution beam line for the Grand Raiden spectrometer,” Nuclear Instru- ments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, vol. 482, no. 1?2, pp. 79–93, 2002. 
+
+ [ALINEA-CONTENT]:
+M. Itoh, J. Kamiya, T. Kawabata, K. Nagayama, T. Noro, H. Sakaguchi, Y.
+Shimbara, H. Takeda, K. Tamura, H. Ueno, M. Uchida, M. Uraki and M. Yosoi.,
+“High resolution beam line for the Grand Raiden spectrometer,” Nuclear Instru-
+
+          ***          [--- more alinea content ---]        ***          
+
+ments and Methods in Physics Research Section A: Accelerators, Spectrometers,
+Detectors and Associated Equipment, vol. 482, no. 1?2, pp. 79–93, 2002.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = T. Noro, M. Sato, K. Tamura ...
+ nativeID=127 parentID=82 & horizontal_ordering=34
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+T. Noro, M. Sato, K. Tamura and H. Ueno, “Matching of a beam line and a spectrometer New beam line project at RCNP,” Nuclear Instruments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, vol. 126, no. 1, pp. 274–278, 1997. 
+
+ [ALINEA-CONTENT]:
+T. Noro, M. Sato, K. Tamura and H. Ueno, “Matching of a beam line and
+a spectrometer New beam line project at RCNP,” Nuclear Instruments and
+Methods in Physics Research Section B: Beam Interactions with Materials and
+
+          ***          [--- more alinea content ---]        ***          
+
+Atoms, vol. 126, no. 1, pp. 274–278, 1997.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = E. J. Stephenson, H. Ueno and ...
+ nativeID=128 parentID=82 & horizontal_ordering=35
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+E. J. Stephenson, H. Ueno and M. Yosoi, “Realization of matching condi- tions for high-resolution spectrometers,” Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Asso- ciated Equipment, vol. 484, no. 1?3, pp. 17–26, 2002. 
+
+ [ALINEA-CONTENT]:
+E. J. Stephenson, H. Ueno and M. Yosoi, “Realization of matching condi-
+tions for high-resolution spectrometers,” Nuclear Instruments and Methods in
+Physics Research Section A: Accelerators, Spectrometers, Detectors and Asso-
+
+          ***          [--- more alinea content ---]        ***          
+
+ciated Equipment, vol. 484, no. 1?3, pp. 17–26, 2002.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = H. Matsubara, K. Nakanishi, T. Ohta, ...
+ nativeID=129 parentID=82 & horizontal_ordering=36
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. Matsubara, K. Nakanishi, T. Ohta, H. Okamura, Y. Sakemi, Y. Shimbara, 
+
+ [ALINEA-CONTENT]:
+H. Matsubara, K. Nakanishi, T. Ohta, H. Okamura, Y. Sakemi, Y. Shimbara,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Y. Shimizu, C. Scholl, A. Signoracci, ...
+ nativeID=130 parentID=82 & horizontal_ordering=37
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Y. Shimizu, C. Scholl, A. Signoracci, Y. Tameshige, A. Tamii, M. Yosoi, “Spec- troscopy of 24Al and extraction of Gamow-Teller strengths with the 24Mg(3He, t) reaction at 420 MeV,” Physical Review C, vol. 78, p. 014314, 2008. M. Uchida, H. Ueno, T. Yamagata and M. Yosoi., “Gamow-Teller strength for the analog transitions to the ﬁrst T = 1/2, J π = 3/2− states in 13C and 13N and the implications for Type Ia supernovae.,” Physical Reviews C, vol. 77, p. 024307, 2008. 
+
+ [ALINEA-CONTENT]:
+Y. Shimizu, C. Scholl, A. Signoracci, Y. Tameshige, A. Tamii, M. Yosoi, “Spec-
+troscopy of 24Al and extraction of Gamow-Teller strengths with the 24Mg(3He, t)
+reaction at 420 MeV,” Physical Review C, vol. 78, p. 014314, 2008.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Uchida, H. Ueno, T. Yamagata ...
+ nativeID=131 parentID=130 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Uchida, H. Ueno, T. Yamagata and M. Yosoi., “Gamow-Teller strength for the analog transitions to the ﬁrst T = 1/2, J π = 3/2− states in 13C and 13N and the implications for Type Ia supernovae.,” Physical Reviews C, vol. 77, p. 024307, 2008. 
+
+ [ALINEA-CONTENT]:
+M. Uchida, H. Ueno, T. Yamagata and M. Yosoi., “Gamow-Teller strength for
+the analog transitions to the ﬁrst T = 1/2, J π = 3/2− states in 13C and 13N
+and the implications for Type Ia supernovae.,” Physical Reviews C, vol. 77,
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = p. 024307, 2008. 
+ nativeID=132 parentID=131 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+p. 024307, 2008. 
+
+ [ALINEA-CONTENT]:
+p. 024307, 2008.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = N. Harakeh, F. Ihara, T. Inomata, ...
+ nativeID=133 parentID=82 & horizontal_ordering=38
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+N. Harakeh, F. Ihara, T. Inomata, K. Ishibashi, T. Ishikawa, T. Kawabata, 
+
+ [ALINEA-CONTENT]:
+N. Harakeh, F. Ihara, T. Inomata, K. Ishibashi, T. Ishikawa, T. Kawabata,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A. Tamii, M. Tanaka, H. Toyokawa, ...
+ nativeID=134 parentID=82 & horizontal_ordering=39
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A. Tamii, M. Tanaka, H. Toyokawa, T. Yamanaka and M. Yosoi., “Nuclear structure of the spin-isospin excited states in 13N studied via the (3(He), t) and (3(He), tp) reactions 450 MeV,” Physical Review C, vol. 69, p. 064327, 2004. D. Frekers, T. Agodi, M. Alanssari, D. Carbono, M. Cavallaro, F. Diel, H. Fujita, 
+
+ [ALINEA-CONTENT]:
+A. Tamii, M. Tanaka, H. Toyokawa, T. Yamanaka and M. Yosoi., “Nuclear
+structure of the spin-isospin excited states in 13N studied via the (3(He), t) and
+(3(He), tp) reactions 450 MeV,” Physical Review C, vol. 69, p. 064327, 2004.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = D. Frekers, T. Agodi, M. Alanssari, ...
+ nativeID=135 parentID=134 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+D. Frekers, T. Agodi, M. Alanssari, D. Carbono, M. Cavallaro, F. Diel, H. Fujita, 
+
+ [ALINEA-CONTENT]:
+D. Frekers, T. Agodi, M. Alanssari, D. Carbono, M. Cavallaro, F. Diel, H. Fujita,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Y. Fujita, M. Fujiwara, G. Gey, ...
+ nativeID=136 parentID=82 & horizontal_ordering=40
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Y. Fujita, M. Fujiwara, G. Gey, F. Hattori, K. Hatanaka, K. Heguri, M. Holl, A. Inoue, P. Puppe, P. Ries, A. Tamii, V. Wemer and K. Zuber, Measurement of the Gamow-Teller strength in 116Sn and 122Sn in the S452 experiment, vol. 2016 of RCNP Annual Report. Osaka, Japan: Osaka University, 2016. 
+
+ [ALINEA-CONTENT]:
+Y. Fujita, M. Fujiwara, G. Gey, F. Hattori, K. Hatanaka, K. Heguri, M. Holl, A.
+Inoue, P. Puppe, P. Ries, A. Tamii, V. Wemer and K. Zuber, Measurement of
+the Gamow-Teller strength in 116Sn and 122Sn in the S452 experiment, vol. 2016
+
+          ***          [--- more alinea content ---]        ***          
+
+of RCNP Annual Report. Osaka, Japan: Osaka University, 2016.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A. Brown, C. Caesar, J. M. ...
+ nativeID=137 parentID=82 & horizontal_ordering=41
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A. Brown, C. Caesar, J. M. Deaven, H. Ejiri, E. Estevez, D. Fang, A. Faessler, D. Frekers, H. Fujita, Y. Fujita, M. Fujiwara, G. F. Grinyer, M. N. Harakeh, 
+
+ [ALINEA-CONTENT]:
+A. Brown, C. Caesar, J. M. Deaven, H. Ejiri, E. Estevez, D. Fang, A. Faessler,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = D. Frekers, H. Fujita, Y. Fujita, ...
+ nativeID=138 parentID=137 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+D. Frekers, H. Fujita, Y. Fujita, M. Fujiwara, G. F. Grinyer, M. N. Harakeh, 
+
+ [ALINEA-CONTENT]:
+D. Frekers, H. Fujita, Y. Fujita, M. Fujiwara, G. F. Grinyer, M. N. Harakeh,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = K. Hatanaka, C. Herlitzius, K. Hirota, ...
+ nativeID=139 parentID=82 & horizontal_ordering=42
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+K. Hatanaka, C. Herlitzius, K. Hirota, G. W. Hitt, D. Ishikawa, H. Matsub- ara, R. Meharchand, F. Molina, H. Okamura, H. J. Ong, G. Perdikakis, V. Rodin, B. Rubio, Y. Shimbara, G. S¨usoy, T. Suzuki, A. Tamii, J. H. Thies, C. Tur, N. Verhanovitz, M. Yosoi, J. Yurkon, R. G. T. Zegers and J. Zenihiro, “The 150Nd(3He, t) and 150Sm(t,3 He) reactions with applications to ββ decay of 150textrmN d,” Physical Review C, vol. 83, p. 064318, 2011. C. C. Foster, H. V. Klapdor and K. Grotz, “Gamow-Teller strength in the 1992, 1989. 
+
+ [ALINEA-CONTENT]:
+K. Hatanaka, C. Herlitzius, K. Hirota, G. W. Hitt, D. Ishikawa, H. Matsub-
+ara, R. Meharchand, F. Molina, H. Okamura, H. J. Ong, G. Perdikakis, V.
+Rodin, B. Rubio, Y. Shimbara, G. S¨usoy, T. Suzuki, A. Tamii, J. H. Thies,
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = C. Tur, N. Verhanovitz, M. Yosoi, ...
+ nativeID=140 parentID=139 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+C. Tur, N. Verhanovitz, M. Yosoi, J. Yurkon, R. G. T. Zegers and J. Zenihiro, “The 150Nd(3He, t) and 150Sm(t,3 He) reactions with applications to ββ decay of 150textrmN d,” Physical Review C, vol. 83, p. 064318, 2011. 
+
+ [ALINEA-CONTENT]:
+C. Tur, N. Verhanovitz, M. Yosoi, J. Yurkon, R. G. T. Zegers and J. Zenihiro,
+“The 150Nd(3He, t) and 150Sm(t,3 He) reactions with applications to ββ decay
+of 150textrmN d,” Physical Review C, vol. 83, p. 064318, 2011.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = C. C. Foster, H. V. Klapdor ...
+ nativeID=141 parentID=139 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+C. C. Foster, H. V. Klapdor and K. Grotz, “Gamow-Teller strength in the 1992, 1989. 
+
+ [ALINEA-CONTENT]:
+C. C. Foster, H. V. Klapdor and K. Grotz, “Gamow-Teller strength in the
+1992, 1989.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = B. Greenﬁeld, Y. Hagihara, K. Hatanaka, ...
+ nativeID=142 parentID=82 & horizontal_ordering=43
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+B. Greenﬁeld, Y. Hagihara, K. Hatanaka, T. Kawabata, H. Kuboki, Y. Maeda, 
+
+ [ALINEA-CONTENT]:
+B. Greenﬁeld, Y. Hagihara, K. Hatanaka, T. Kawabata, H. Kuboki, Y. Maeda,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = H. Okamura, T. Saito, Y. Sakemi, ...
+ nativeID=143 parentID=82 & horizontal_ordering=44
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+H. Okamura, T. Saito, Y. Sakemi, K. Sekiguchi, Y. Shimizu, Y. Takahashi, 
+
+ [ALINEA-CONTENT]:
+H. Okamura, T. Saito, Y. Sakemi, K. Sekiguchi, Y. Shimizu, Y. Takahashi,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Y. Tameshige and A. Tamii, “Gamow-Teller ...
+ nativeID=144 parentID=82 & horizontal_ordering=45
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Y. Tameshige and A. Tamii, “Gamow-Teller unit cross sections of the (p, n) reaction at 198 and 297 MeV on medium-heavy nuclei,” Physical Review C, vol. 79, p. 024602, 2009. 
+
+ [ALINEA-CONTENT]:
+Y. Tameshige and A. Tamii, “Gamow-Teller unit cross sections of the (p, n)
+reaction at 198 and 297 MeV on medium-heavy nuclei,” Physical Review C,
+vol. 79, p. 024602, 2009.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A. J. Krasznahorkay, T. Kubo, Y. ...
+ nativeID=145 parentID=82 & horizontal_ordering=46
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A. J. Krasznahorkay, T. Kubo, Y. Kubota, M. Kurata-Nishimura, C. S. Lee, J. 
+
+ [ALINEA-CONTENT]:
+A. J. Krasznahorkay, T. Kubo, Y. Kubota, M. Kurata-Nishimura, C. S. Lee, J.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = W. Lee, Y. Matsuda, E. Milman, ...
+ nativeID=146 parentID=82 & horizontal_ordering=47
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+W. Lee, Y. Matsuda, E. Milman, S. Michimasa, T. Motobayashi, D. Muecher, 
+
+ [ALINEA-CONTENT]:
+W. Lee, Y. Matsuda, E. Milman, S. Michimasa, T. Motobayashi, D. Muecher,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = T. Murakami, T. Nakamura, N. Nakatsuka, ...
+ nativeID=147 parentID=82 & horizontal_ordering=48
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+T. Murakami, T. Nakamura, N. Nakatsuka, S. Ota, H. Otsu, V. Panin, W. Powell, S. Reichert, S. Sakaguchi, H. Sakai, M. Sako, H. Sato, Y. Shimizu, M. Shikata, S. Shimoura, L. Stuhl, T. Sumikama, H. Suzuki, S. Tangwancharoen, M. Takaki, H. Takeda, T. Tako, Y. Togano, H. Tokieda, J. Tsubota, T. Uesaka, 
+
+ [ALINEA-CONTENT]:
+T. Murakami, T. Nakamura, N. Nakatsuka, S. Ota, H. Otsu, V. Panin, W.
+Powell, S. Reichert, S. Sakaguchi, H. Sakai, M. Sako, H. Sato, Y. Shimizu, M.
+Shikata, S. Shimoura, L. Stuhl, T. Sumikama, H. Suzuki, S. Tangwancharoen,
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Takaki, H. Takeda, T. Tako, ...
+ nativeID=148 parentID=147 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Takaki, H. Takeda, T. Tako, Y. Togano, H. Tokieda, J. Tsubota, T. Uesaka, 
+
+ [ALINEA-CONTENT]:
+M. Takaki, H. Takeda, T. Tako, Y. Togano, H. Tokieda, J. Tsubota, T. Uesaka,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = T. Wakasa, K. Yako, K. Yoneda, ...
+ nativeID=149 parentID=82 & horizontal_ordering=49
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+T. Wakasa, K. Yako, K. Yoneda, J. Zenihiro, J., “Extraction of the Landau- Migdal Parameter from the Gamow-Teller Giant Resonance in 132Sn,” Physical Review Letters, vol. 121, p. 132501, September 2018. 
+
+ [ALINEA-CONTENT]:
+T. Wakasa, K. Yako, K. Yoneda, J. Zenihiro, J., “Extraction of the Landau-
+Migdal Parameter from the Gamow-Teller Giant Resonance in 132Sn,” Physical
+Review Letters, vol. 121, p. 132501, September 2018.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = P. Cabanelas, E. Casarejos, M. Carmona ...
+ nativeID=150 parentID=82 & horizontal_ordering=50
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+P. Cabanelas, E. Casarejos, M. Carmona Gallardo, J. Cederkall, L. Chulkov, M. Dierigl, D. Di Julio, I. Duran, E. Fiori, A. Fomichev, D. Galaviz, M. Gascon, 
+
+ [ALINEA-CONTENT]:
+P. Cabanelas, E. Casarejos, M. Carmona Gallardo, J. Cederkall, L. Chulkov, M.
+Dierigl, D. Di Julio, I. Duran, E. Fiori, A. Fomichev, D. Galaviz, M. Gascon,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = R. Gernhauser, J. Gerl, P. Golubev, ...
+ nativeID=151 parentID=82 & horizontal_ordering=51
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+R. Gernhauser, J. Gerl, P. Golubev, M. Golovkov, D. Gonzalez, A. Gorshkov, 
+
+ [ALINEA-CONTENT]:
+R. Gernhauser, J. Gerl, P. Golubev, M. Golovkov, D. Gonzalez, A. Gorshkov,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A. Heinz, M. Heil, W. Henning, ...
+ nativeID=152 parentID=82 & horizontal_ordering=52
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A. Heinz, M. Heil, W. Henning, G. Ickert, A. Ignatov, B. Jakobsson, H.T. Jo- hansson, Th. Kroll, R. Krucken, S. Krupko, N. Kurz, T. Le Bleis, B. Loher, E. Nacher, T. Nilsson, C. Parrilla, A. Perea, N. Pietralla, B. Pietras, R. Reifarth, 
+
+ [ALINEA-CONTENT]:
+A. Heinz, M. Heil, W. Henning, G. Ickert, A. Ignatov, B. Jakobsson, H.T. Jo-
+hansson, Th. Kroll, R. Krucken, S. Krupko, N. Kurz, T. Le Bleis, B. Loher, E.
+Nacher, T. Nilsson, C. Parrilla, A. Perea, N. Pietralla, B. Pietras, R. Reifarth,
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = J. Sanchez del Rio, D. Savran, ...
+ nativeID=153 parentID=82 & horizontal_ordering=53
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+J. Sanchez del Rio, D. Savran, S. Sidorchuk, H. Simon, L. Schnorrenberger, 
+
+ [ALINEA-CONTENT]:
+J. Sanchez del Rio, D. Savran, S. Sidorchuk, H. Simon, L. Schnorrenberger,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = O. Tengblad, P. Teubig, R. Thies, ...
+ nativeID=154 parentID=82 & horizontal_ordering=54
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+O. Tengblad, P. Teubig, R. Thies, J.A. Vilan, M. von Schmid, M. Winkel, S. Winkler, F. Wamers and P. Yanez, “CALIFA, a Dedicated Calorimeter for the R3B/FAIR,” Nuclear Data Sheets, vol. 120, pp. 99–101, 2014. 
+
+ [ALINEA-CONTENT]:
+O. Tengblad, P. Teubig, R. Thies, J.A. Vilan, M. von Schmid, M. Winkel, S.
+Winkler, F. Wamers and P. Yanez, “CALIFA, a Dedicated Calorimeter for the
+R3B/FAIR,” Nuclear Data Sheets, vol. 120, pp. 99–101, 2014.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = W. G. Lynch, T. Motobayashi, T. ...
+ nativeID=155 parentID=82 & horizontal_ordering=55
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+W. G. Lynch, T. Motobayashi, T. Murakami, T. Nakamura, M. Kurata- Nishimura, V. Panin, H. Sato, Y. Shimizu, H. Sakurai, M. B. Tsang, K. Yoneda and H. Wang, “SAMURAI in its operating phase for RIBF users,” Nuclear In- struments and Methods in Physics Research Section B: Beam Interactions with Materials and Atoms, vol. 376, pp. 175–179, 2016. 
+
+ [ALINEA-CONTENT]:
+W. G. Lynch, T. Motobayashi, T. Murakami, T. Nakamura, M. Kurata-
+Nishimura, V. Panin, H. Sato, Y. Shimizu, H. Sakurai, M. B. Tsang, K. Yoneda
+and H. Wang, “SAMURAI in its operating phase for RIBF users,” Nuclear In-
+
+          ***          [--- more alinea content ---]        ***          
+
+struments and Methods in Physics Research Section B: Beam Interactions with
+Materials and Atoms, vol. 376, pp. 175–179, 2016.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = J. Mayer and C. Rigollet, for ...
+ nativeID=156 parentID=82 & horizontal_ordering=56
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+J. Mayer and C. Rigollet, for the R3B collaboration, “Design studies for the NeuLAND VETO detector,” Journal of Physics: Conference Series, vol. 1024, no. 1, p. 012027, 2018. p. 032036, 2011. D. Axen, S. Banerjee, G. Barrand, F. Behner, L. Bellagamba, J. Boudreau, L. Broglia, A. Brunengo, H. Burkhardt, S. Chauvie, J. Chuma, R. Chytracek, G. Cooperman, G. Cosmo, P. Degtyarenko, A. Dell’Acqua, G. Depaola, D. Diet- rich, R. Enami, A. Feliciello, C. Ferguson, H. Fesefeldt, G. Folger, F. Foppiano, 
+
+ [ALINEA-CONTENT]:
+J. Mayer and C. Rigollet, for the R3B collaboration, “Design studies for the
+NeuLAND VETO detector,” Journal of Physics: Conference Series, vol. 1024,
+no. 1, p. 012027, 2018.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=4
+ [TITLE] = p. 032036, 2011. 
+ nativeID=157 parentID=156 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.SMALLLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+p. 032036, 2011. 
+
+ [ALINEA-CONTENT]:
+p. 032036, 2011.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = D. Axen, S. Banerjee, G. Barrand, ...
+ nativeID=158 parentID=156 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+D. Axen, S. Banerjee, G. Barrand, F. Behner, L. Bellagamba, J. Boudreau, L. Broglia, A. Brunengo, H. Burkhardt, S. Chauvie, J. Chuma, R. Chytracek, G. Cooperman, G. Cosmo, P. Degtyarenko, A. Dell’Acqua, G. Depaola, D. Diet- rich, R. Enami, A. Feliciello, C. Ferguson, H. Fesefeldt, G. Folger, F. Foppiano, 
+
+ [ALINEA-CONTENT]:
+D. Axen, S. Banerjee, G. Barrand, F. Behner, L. Bellagamba, J. Boudreau, L.
+Broglia, A. Brunengo, H. Burkhardt, S. Chauvie, J. Chuma, R. Chytracek, G.
+Cooperman, G. Cosmo, P. Degtyarenko, A. Dell’Acqua, G. Depaola, D. Diet-
+
+          ***          [--- more alinea content ---]        ***          
+
+rich, R. Enami, A. Feliciello, C. Ferguson, H. Fesefeldt, G. Folger, F. Foppiano,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A. Forti, S. Garelli, S. Giani, ...
+ nativeID=159 parentID=82 & horizontal_ordering=57
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A. Forti, S. Garelli, S. Giani, R. Giannitrapani, D. Gibin, J.J. Gmez Cadenas, I. Gonzlez, G. Gracia Abril, G. Greeniaus, W. Greiner, V. Grichine, A. Grossheim, 
+
+ [ALINEA-CONTENT]:
+A. Forti, S. Garelli, S. Giani, R. Giannitrapani, D. Gibin, J.J. Gmez Cadenas, I.
+Gonzlez, G. Gracia Abril, G. Greeniaus, W. Greiner, V. Grichine, A. Grossheim,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = S. Guatelli, P. Gumplinger, R. Hamatsu, ...
+ nativeID=160 parentID=82 & horizontal_ordering=58
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+S. Guatelli, P. Gumplinger, R. Hamatsu, K. Hashimoto, H. Hasui, A. Heikkinen, 
+
+ [ALINEA-CONTENT]:
+S. Guatelli, P. Gumplinger, R. Hamatsu, K. Hashimoto, H. Hasui, A. Heikkinen,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A. Howard, V. Ivanchenko, A. Johnson, ...
+ nativeID=161 parentID=82 & horizontal_ordering=59
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A. Howard, V. Ivanchenko, A. Johnson, F.W. Jones, J. Kallenbach, N. Kanaya, M. Kawabata, Y. Kawabata, M. Kawaguti, S. Kelner, P. Kent, A. Kimura, T. Kodama, R. Kokoulin, M. Kossov, H. Kurashige, E. Lamanna, T. Lampn, V. Lara, V. Lefebure, F. Lei, M. Liendl, W. Lockman, F. Longo, S. Magni, M. Maire, E. Medernach, K. Minamimoto, P. Mora de Freitas, Y. Morita, K. Mu- rakami, M. Nagamatu, R. Nartallo, P. Nieminen, T. Nishimura, K. Ohtsubo, M. Okamura, S. O’Neale, Y. Oohata, K. Paech, J. Perl, A. Pfeiﬀer, M.G. Pia, 
+
+ [ALINEA-CONTENT]:
+A. Howard, V. Ivanchenko, A. Johnson, F.W. Jones, J. Kallenbach, N. Kanaya,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Kawabata, Y. Kawabata, M. Kawaguti, ...
+ nativeID=162 parentID=161 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Kawabata, Y. Kawabata, M. Kawaguti, S. Kelner, P. Kent, A. Kimura, T. Kodama, R. Kokoulin, M. Kossov, H. Kurashige, E. Lamanna, T. Lampn, V. Lara, V. Lefebure, F. Lei, M. Liendl, W. Lockman, F. Longo, S. Magni, M. Maire, E. Medernach, K. Minamimoto, P. Mora de Freitas, Y. Morita, K. Mu- rakami, M. Nagamatu, R. Nartallo, P. Nieminen, T. Nishimura, K. Ohtsubo, 
+
+ [ALINEA-CONTENT]:
+M. Kawabata, Y. Kawabata, M. Kawaguti, S. Kelner, P. Kent, A. Kimura, T.
+Kodama, R. Kokoulin, M. Kossov, H. Kurashige, E. Lamanna, T. Lampn, V.
+Lara, V. Lefebure, F. Lei, M. Liendl, W. Lockman, F. Longo, S. Magni, M.
+
+          ***          [--- more alinea content ---]        ***          
+
+Maire, E. Medernach, K. Minamimoto, P. Mora de Freitas, Y. Morita, K. Mu-
+rakami, M. Nagamatu, R. Nartallo, P. Nieminen, T. Nishimura, K. Ohtsubo,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Okamura, S. O’Neale, Y. Oohata, ...
+ nativeID=163 parentID=161 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Okamura, S. O’Neale, Y. Oohata, K. Paech, J. Perl, A. Pfeiﬀer, M.G. Pia, 
+
+ [ALINEA-CONTENT]:
+M. Okamura, S. O’Neale, Y. Oohata, K. Paech, J. Perl, A. Pfeiﬀer, M.G. Pia,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = F. Ranjard, A. Rybin, S. Sadilov, ...
+ nativeID=164 parentID=82 & horizontal_ordering=60
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+F. Ranjard, A. Rybin, S. Sadilov, E. Di Salvo, G. Santin, T. Sasaki, N. Savvas, 
+
+ [ALINEA-CONTENT]:
+F. Ranjard, A. Rybin, S. Sadilov, E. Di Salvo, G. Santin, T. Sasaki, N. Savvas,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = Y. Sawada, S. Scherer, S. Sei, ...
+ nativeID=165 parentID=82 & horizontal_ordering=61
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+Y. Sawada, S. Scherer, S. Sei, V. Sirotenko, D. Smith, N. Starkov, H. Stoecker, 
+
+ [ALINEA-CONTENT]:
+Y. Sawada, S. Scherer, S. Sei, V. Sirotenko, D. Smith, N. Starkov, H. Stoecker,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = J. Sulkimo, M. Takahata, S. Tanaka, ...
+ nativeID=166 parentID=82 & horizontal_ordering=62
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+J. Sulkimo, M. Takahata, S. Tanaka, E. Tcherniaev, E. Safai Tehrani, M. Tro- peano, P. Truscott, H. Uno, L. Urban, P. Urban, M. Verderi, A. Walkden, W. Wander, H. Weber, J.P. Wellisch, T. Wenaus, D.C. Williams, D. Wright, T. Yamada, H. Yoshida, D. Zschiesche, “Geant4, A simulation toolkit,” Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spec- trometers, Detectors and Associated Equipment, vol. 506, no. 3, pp. 250–303, 2003. 
+
+ [ALINEA-CONTENT]:
+J. Sulkimo, M. Takahata, S. Tanaka, E. Tcherniaev, E. Safai Tehrani, M. Tro-
+peano, P. Truscott, H. Uno, L. Urban, P. Urban, M. Verderi, A. Walkden, W.
+Wander, H. Weber, J.P. Wellisch, T. Wenaus, D.C. Williams, D. Wright, T.
+
+          ***          [--- more alinea content ---]        ***          
+
+Instruments and Methods in Physics Research Section A: Accelerators, Spec-
+trometers, Detectors and Associated Equipment, vol. 506, no. 3, pp. 250–303,
+2003.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = E. Wajda, H.J. Wollersheim, M. Zinser ...
+ nativeID=167 parentID=82 & horizontal_ordering=63
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+E. Wajda, H.J. Wollersheim, M. Zinser and E. Zude, “A large area detector for high-energy neutrons,” Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment, D. Bertini, A. Blanco, C. Caesar, T.E. Cowan, G. Dentinger, Z. Elekes, A. Endres, P. Fonte, D. Galaviz, I. Gasparic, St. Gohl, V.L. Golovtsov, T. Heftrich, M. Heil, M. Heine, A. Heinz, M. Holl, A. Horvat, A. Horvath, H. Johansson, J. Kahlbow, A. Kelic-Heil, R. Kissel, D. K¨orper, D. Kresan, A.G. Krivshich, V. Kuznetsov, S. Lindberg, L. Lopes, J. Machado, J. Mayer, K. Miki, L. Netterdon, 
+
+ [ALINEA-CONTENT]:
+E. Wajda, H.J. Wollersheim, M. Zinser and E. Zude, “A large area detector for
+high-energy neutrons,” Nuclear Instruments and Methods in Physics Research
+Section A: Accelerators, Spectrometers, Detectors and Associated Equipment,
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = D. Bertini, A. Blanco, C. Caesar, ...
+ nativeID=168 parentID=167 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+D. Bertini, A. Blanco, C. Caesar, T.E. Cowan, G. Dentinger, Z. Elekes, A. Endres, P. Fonte, D. Galaviz, I. Gasparic, St. Gohl, V.L. Golovtsov, T. Heftrich, 
+
+ [ALINEA-CONTENT]:
+D. Bertini, A. Blanco, C. Caesar, T.E. Cowan, G. Dentinger, Z. Elekes, A.
+Endres, P. Fonte, D. Galaviz, I. Gasparic, St. Gohl, V.L. Golovtsov, T. Heftrich,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Heil, M. Heine, A. Heinz, ...
+ nativeID=169 parentID=167 & horizontal_ordering=1
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Heil, M. Heine, A. Heinz, M. Holl, A. Horvat, A. Horvath, H. Johansson, J. Kahlbow, A. Kelic-Heil, R. Kissel, D. K¨orper, D. Kresan, A.G. Krivshich, V. Kuznetsov, S. Lindberg, L. Lopes, J. Machado, J. Mayer, K. Miki, L. Netterdon, 
+
+ [ALINEA-CONTENT]:
+M. Heil, M. Heine, A. Heinz, M. Holl, A. Horvat, A. Horvath, H. Johansson, J.
+Kahlbow, A. Kelic-Heil, R. Kissel, D. K¨orper, D. Kresan, A.G. Krivshich, V.
+Kuznetsov, S. Lindberg, L. Lopes, J. Machado, J. Mayer, K. Miki, L. Netterdon,
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = T. Nilsson, E.M. Orischin, S.G. Pickstone, ...
+ nativeID=170 parentID=82 & horizontal_ordering=64
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+T. Nilsson, E.M. Orischin, S.G. Pickstone, R. Plag, M. Pohl, R. Reifarth, T.P. Reinhardt, S. Reinicke, M. R¨oder, D. Rossi, H. Scheit, F. Schindler, H. Simon, M. Sobiella, K. Sonnabend, D. Stach, P. Teubig, R. Thies, H. Toernqvist, L.N. Uvarov, V.V. Vikhrov, S.S. Volkov, A. Wagner, A.A. Zhdanov, A. Zilges, K. Zuber, the R3B collaboration, and the FAIR@GSI division, NeuLAND - from double-planes to the demonstrator, vol. 2015-1 of GSI Report. Darmstadt: GSI Helmholtzzentrum f¨ur Schwerionenforschung, 2015. 
+
+ [ALINEA-CONTENT]:
+T. Nilsson, E.M. Orischin, S.G. Pickstone, R. Plag, M. Pohl, R. Reifarth, T.P.
+Reinhardt, S. Reinicke, M. R¨oder, D. Rossi, H. Scheit, F. Schindler, H. Simon,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = M. Sobiella, K. Sonnabend, D. Stach, ...
+ nativeID=171 parentID=170 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+M. Sobiella, K. Sonnabend, D. Stach, P. Teubig, R. Thies, H. Toernqvist, L.N. Uvarov, V.V. Vikhrov, S.S. Volkov, A. Wagner, A.A. Zhdanov, A. Zilges, K. Zuber, the R3B collaboration, and the FAIR@GSI division, NeuLAND - from double-planes to the demonstrator, vol. 2015-1 of GSI Report. Darmstadt: GSI Helmholtzzentrum f¨ur Schwerionenforschung, 2015. 
+
+ [ALINEA-CONTENT]:
+M. Sobiella, K. Sonnabend, D. Stach, P. Teubig, R. Thies, H. Toernqvist, L.N.
+Uvarov, V.V. Vikhrov, S.S. Volkov, A. Wagner, A.A. Zhdanov, A. Zilges, K.
+Zuber, the R3B collaboration, and the FAIR@GSI division, NeuLAND - from
+
+          ***          [--- more alinea content ---]        ***          
+
+double-planes to the demonstrator, vol. 2015-1 of GSI Report. Darmstadt: GSI
+Helmholtzzentrum f¨ur Schwerionenforschung, 2015.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = T. Cowan, Z. Elekes, M. Elvers, ...
+ nativeID=172 parentID=82 & horizontal_ordering=65
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+T. Cowan, Z. Elekes, M. Elvers, D. Gonzales-Diaz, R. Hannaske, J. Hehner, M. Heil, M. Kempe, V. Maroussov, O. Nusair, H. Simon, M. Sobiella, D. Stach, 
+
+ [ALINEA-CONTENT]:
+T. Cowan, Z. Elekes, M. Elvers, D. Gonzales-Diaz, R. Hannaske, J. Hehner, M.
+Heil, M. Kempe, V. Maroussov, O. Nusair, H. Simon, M. Sobiella, D. Stach,
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=2
+ [TITLE] = A. Wagner and A. Zilges, “Prototyping ...
+ nativeID=173 parentID=82 & horizontal_ordering=66
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGLETTER
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+A. Wagner and A. Zilges, “Prototyping and tests for an MRPC-based time- of-ﬂight detector for 1 GeV neutrons,” Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Asso- ciated Equipment, vol. 654, pp. 79–87, 2011. C. Rigollet, I. Gasparic, and the NeuLAND working group., Eﬃciency study of the NeuLAND VETO wall, vol. 2017-1 of GSI Report. Darmstadt: GSI Helmholtzzentrum f¨ur Schwerionenforschung, 2017. 
+
+ [ALINEA-CONTENT]:
+A. Wagner and A. Zilges, “Prototyping and tests for an MRPC-based time-
+of-ﬂight detector for 1 GeV neutrons,” Nuclear Instruments and Methods in
+Physics Research Section A: Accelerators, Spectrometers, Detectors and Asso-
+
+          ***          [--- more alinea content ---]        ***          
+
+ciated Equipment, vol. 654, pp. 79–87, 2011.
+
+---------------------------------------------------------------------------------
+ [ALINEA-TITLE] Cascade-level=3
+ [TITLE] = C. Rigollet, I. Gasparic, and the ...
+ nativeID=174 parentID=173 & horizontal_ordering=0
+ texttype=texttype.ENUMERATION & enumeration-type=enum_type.BIGROMAN
+ Summary Flag = False
+
+ [ALINEA-SUMMARY]:
+C. Rigollet, I. Gasparic, and the NeuLAND working group., Eﬃciency study of the NeuLAND VETO wall, vol. 2017-1 of GSI Report. Darmstadt: GSI Helmholtzzentrum f¨ur Schwerionenforschung, 2017. 
+
+ [ALINEA-CONTENT]:
+C. Rigollet, I. Gasparic, and the NeuLAND working group., Eﬃciency study
+of the NeuLAND VETO wall, vol. 2017-1 of GSI Report. Darmstadt: GSI
+Helmholtzzentrum f¨ur Schwerionenforschung, 2017.
+
+          ***          [--- more alinea content ---]        ***          
+
+
+---------------------------------------------------------------------------------

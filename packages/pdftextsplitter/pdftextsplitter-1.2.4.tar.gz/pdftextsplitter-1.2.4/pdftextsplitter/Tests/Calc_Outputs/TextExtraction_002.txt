@@ -1,0 +1,5 @@
+1. Introduction
+This is a small test for text extraction.
+2. Methods
+And here is some more text.
+With a line break and other stuf.
