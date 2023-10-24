@@ -1,0 +1,14 @@
+1. pyroject에서 버전을 바꾼다.  *** 동일한 버전은 허락하지 않는다. ***
+   README의 내용도 바꿔준다.    *** 버전 변경 내용을 기록한다. ***
+
+2. 명령 프롬프트를 열고 해당 디렉토리으로 이동한다. D:\gram\Desktop\h4q>
+
+
+3. py -m build                      	- 필요하면,   py -m pip install --upgrade build
+				- 폴더 disk에 파일 2 개 생성 확인.
+
+4. dist에 저장된 예전 파일들은 모두 삭제
+				-. 특히 예전 파일 size 비교...
+
+
+5. twine upload dist/*		- 필요하면,  py -m pip install --upgrade twine
