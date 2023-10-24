@@ -1,0 +1,12 @@
+pyprediktormapclient/__init__.py,sha256=i7QKaNUGi-mkapt4IiAi5-7f2Mi5qBJhu4wWz84C16M,694
+pyprediktormapclient/analytics_helper.py,sha256=5KA3l4JP2sskt6qpUHnGUJ5oEIityI5UXd9d1zEw_dM,9903
+pyprediktormapclient/auth_client.py,sha256=0jG_2aEHBhwoMFXzrc6nyf3Jddsm8KYlc_KhN6tim_o,4548
+pyprediktormapclient/dwh.py,sha256=F8PjJKEDHuGYxKYUhSbYH0qKMqNSrre0Bn-QE3jV0e8,6108
+pyprediktormapclient/model_index.py,sha256=SSez49Ny6kJoUgwmdBBOML8x5fAcQE3ksW6IgCBcXxo,3898
+pyprediktormapclient/opc_ua.py,sha256=q6NYGuphngue1y9JElXB-i1BKmBTSk7ihIeom2LGi98,30297
+pyprediktormapclient/shared.py,sha256=EQASkoE42fJnS0SnNgb91WG6UpNSX_EgCKoW5_H_plA,1236
+pyPrediktorMapClient-0.6.0.dist-info/LICENSE.txt,sha256=cRtotvpmSEBT9F0BNgNf8rmXQQUi3NsuYc8xLteqDJM,1076
+pyPrediktorMapClient-0.6.0.dist-info/METADATA,sha256=yeunmu0xs4ipBEM4ps9ZBufnLSGlWlh1Jayw6AR0yJg,1815
+pyPrediktorMapClient-0.6.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyPrediktorMapClient-0.6.0.dist-info/top_level.txt,sha256=whaLrbzy-ojNTcUv0k5fZvrXIKIDQL7n2RDDyQFiAXA,21
+pyPrediktorMapClient-0.6.0.dist-info/RECORD,,
