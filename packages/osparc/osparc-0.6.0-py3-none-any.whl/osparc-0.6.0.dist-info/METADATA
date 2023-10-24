@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: osparc
+Version: 0.6.0
+Summary: osparc.io web API
+Home-page: https://itisfoundation.github.io/osparc-simcore-clients/
+Author: pcrespov, bisgaard-itis
+Author-email: support@osparc.io
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Requires-Dist: osparc-client ==0.6.0
+Requires-Dist: httpx
+Requires-Dist: tqdm
+Requires-Dist: nest-asyncio
+
+osparc client
