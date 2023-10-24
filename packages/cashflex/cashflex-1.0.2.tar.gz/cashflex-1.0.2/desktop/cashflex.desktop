@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=Cashflex
+Comment=Cashflex Money Manager
+Path=~/cashflex-1.0
+Exec=python3 cashflex
+Terminal=false
+Type=Application
+Icon=~/cashflex-1.0/icons/64x64/uk.co.contrelec.cashflex.svg
+Categories=GNOME;Financial;
+StartupNotify=false
+StartupWMClass=cashflex
+Name[en_US]=Cashflex Money Manager
+Categories=GNOME;GTK;Utility;Core;
