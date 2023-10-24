@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+spreadsheet_wrangler.py
+spreadsheet_wrangler.egg-info/PKG-INFO
+spreadsheet_wrangler.egg-info/SOURCES.txt
+spreadsheet_wrangler.egg-info/dependency_links.txt
+spreadsheet_wrangler.egg-info/entry_points.txt
+spreadsheet_wrangler.egg-info/requires.txt
+spreadsheet_wrangler.egg-info/top_level.txt
+spreadsheet_wrangler.egg-info/zip-safe
+tests/__init__.py
+tests/test_spreadsheet_wrangler.py
