@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: LangSpeak
+Version: 0.0.0
+Summary: Description of my package
+Home-page: https://github.com/mypackage.git
+Author: Author Name
+Author-email: author@gmail.com
+Requires-Dist: numpy >=1.11.1
+Requires-Dist: matplotlib >=1.5.1
+
