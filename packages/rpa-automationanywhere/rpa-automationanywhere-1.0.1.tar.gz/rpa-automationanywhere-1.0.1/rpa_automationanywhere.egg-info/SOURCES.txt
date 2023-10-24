@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+rpa_automationanywhere/__init__.py
+rpa_automationanywhere.egg-info/PKG-INFO
+rpa_automationanywhere.egg-info/SOURCES.txt
+rpa_automationanywhere.egg-info/dependency_links.txt
+rpa_automationanywhere.egg-info/requires.txt
+rpa_automationanywhere.egg-info/top_level.txt
+rpa_automationanywhere/Bots/__init__.py
+rpa_automationanywhere/Logs/__init__.py
+rpa_automationanywhere/Schedule/__init__.py
+rpa_automationanywhere/Vault/Vault.py
+rpa_automationanywhere/Vault/__init__.py
+tests/test_Vault.py
