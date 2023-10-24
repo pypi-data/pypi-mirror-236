@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: polyhedral-gravity
+Version: 2.1
+Summary: Package to compute full gravity tensor of a given constant density polyhedron for arbitrary points
+Author: Jonas Schuhmacher
+Author-email: jonas.schuhmacher@tum.de
+License: GPLv3
+Requires-Python: >=3.6
+License-File: LICENSE
+
+
+        The package polyhedral_gravity provides a simple to use interface for the evaluation of the full gravity
+        tensor of a constant density polyhedron at given computation points. It is based on a fast, parallelized
+        backbone in C++ capable of evaluating the gravity at thousands of computation points in the fraction of a second.
+    
