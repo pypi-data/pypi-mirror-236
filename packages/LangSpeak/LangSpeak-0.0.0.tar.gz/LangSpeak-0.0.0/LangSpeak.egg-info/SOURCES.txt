@@ -1,0 +1,6 @@
+setup.py
+LangSpeak.egg-info/PKG-INFO
+LangSpeak.egg-info/SOURCES.txt
+LangSpeak.egg-info/dependency_links.txt
+LangSpeak.egg-info/requires.txt
+LangSpeak.egg-info/top_level.txt
