@@ -1,0 +1,37 @@
+{
+  "status": "done",
+  "assets": {
+    "kolibri_oidc_client_plugin.openid_login_item0.3.2.css": {
+      "name": "kolibri_oidc_client_plugin.openid_login_item0.3.2.css",
+      "path": "/datos/le/mio/kolibri-oidc-client-plugin/kolibri_oidc_client_plugin/static/kolibri_oidc_client_plugin.openid_login_item/kolibri_oidc_client_plugin.openid_login_item0.3.2.css"
+    },
+    "kolibri_oidc_client_plugin.openid_login_item-0.3.2.js": {
+      "name": "kolibri_oidc_client_plugin.openid_login_item-0.3.2.js",
+      "path": "/datos/le/mio/kolibri-oidc-client-plugin/kolibri_oidc_client_plugin/static/kolibri_oidc_client_plugin.openid_login_item/kolibri_oidc_client_plugin.openid_login_item-0.3.2.js"
+    },
+    "kolibri_oidc_client_plugin.openid_login_item0.3.2.rtl.css": {
+      "name": "kolibri_oidc_client_plugin.openid_login_item0.3.2.rtl.css",
+      "path": "/datos/le/mio/kolibri-oidc-client-plugin/kolibri_oidc_client_plugin/static/kolibri_oidc_client_plugin.openid_login_item/kolibri_oidc_client_plugin.openid_login_item0.3.2.rtl.css"
+    },
+    "kolibri_oidc_client_plugin.openid_login_item-0.3.2.js.map": {
+      "name": "kolibri_oidc_client_plugin.openid_login_item-0.3.2.js.map",
+      "path": "/datos/le/mio/kolibri-oidc-client-plugin/kolibri_oidc_client_plugin/static/kolibri_oidc_client_plugin.openid_login_item/kolibri_oidc_client_plugin.openid_login_item-0.3.2.js.map"
+    }
+  },
+  "chunks": {
+    "kolibri_oidc_client_plugin.openid_login_item": [
+      {
+        "name": "kolibri_oidc_client_plugin.openid_login_item0.3.2.css",
+        "path": "/datos/le/mio/kolibri-oidc-client-plugin/kolibri_oidc_client_plugin/static/kolibri_oidc_client_plugin.openid_login_item/kolibri_oidc_client_plugin.openid_login_item0.3.2.css"
+      },
+      {
+        "name": "kolibri_oidc_client_plugin.openid_login_item-0.3.2.js",
+        "path": "/datos/le/mio/kolibri-oidc-client-plugin/kolibri_oidc_client_plugin/static/kolibri_oidc_client_plugin.openid_login_item/kolibri_oidc_client_plugin.openid_login_item-0.3.2.js"
+      },
+      {
+        "name": "kolibri_oidc_client_plugin.openid_login_item0.3.2.rtl.css",
+        "path": "/datos/le/mio/kolibri-oidc-client-plugin/kolibri_oidc_client_plugin/static/kolibri_oidc_client_plugin.openid_login_item/kolibri_oidc_client_plugin.openid_login_item0.3.2.rtl.css"
+      }
+    ]
+  }
+}
