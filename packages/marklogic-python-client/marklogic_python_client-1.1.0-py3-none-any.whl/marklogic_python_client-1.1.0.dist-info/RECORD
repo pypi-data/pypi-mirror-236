@@ -1,0 +1,12 @@
+marklogic/__init__.py,sha256=U17WMwiO-P842myIrgXMppII0Tvz3lq5Ff0KUoKpyZw,36
+marklogic/client.py,sha256=fhbB2Cj7RQY49xPNytymg_MVjZY0FQOfVTptMi9lMYM,6119
+marklogic/cloud_auth.py,sha256=JyUBB-ZENgbiXvMjWl10fNH7LlvWOCfsNXzzXvo9AUM,2962
+marklogic/documents.py,sha256=jXnL6JJW14nZmGKBy3pV3SKicaj5gGPDbkElcCJY_6Y,19158
+marklogic/internal/eval.py,sha256=5GBaEwHjR5l_Jr7okCHrKFz4Q7VHVBMCfDVvIlu2X8E,2297
+marklogic/internal/util.py,sha256=4H-Y_IBuJoOZBRc-CaU_QaxRT9f8pBWAY4DbCZBlH2o,146
+marklogic/rows.py,sha256=BK-hJPse5zg3I29nChML4twlxryM-EX4Bk73AOlLZFI,5099
+marklogic/transactions.py,sha256=1Dh3mZhvgPbLBAE_Zj6x59jATEhtZn_vlVM3F3s5h-E,4234
+marklogic_python_client-1.1.0.dist-info/LICENSE,sha256=Q0ZD8jJUE6rmJbEyg2AtixAXaxjAZXijESVEpb9lc_w,10892
+marklogic_python_client-1.1.0.dist-info/METADATA,sha256=PvGyr4YlKB_jLIRWtIXBAy2tVgEd_m-ywyYvGNCI21w,2035
+marklogic_python_client-1.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+marklogic_python_client-1.1.0.dist-info/RECORD,,
