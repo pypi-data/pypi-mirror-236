@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: trustedtwin-utils
+Version: 0.1.20231023105849
+Summary: Trusted Twin utils library
+Home-page: https://gitlab.com/trustedtwinpublic/trusted-twin-utils
+Author: Trusted Twin
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic <3,>=2
+Requires-Dist: setuptools
+Requires-Dist: twine
+Requires-Dist: wheel
+Requires-Dist: pip
+
+Trusted Twin utils
+===
+
+Module contains code and solutions that improves user experience of TT API.

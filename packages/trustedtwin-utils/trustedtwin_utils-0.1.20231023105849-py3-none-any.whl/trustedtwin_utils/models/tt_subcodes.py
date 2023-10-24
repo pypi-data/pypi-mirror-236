@@ -1,0 +1,29 @@
+"""Exception subcodes in Trusted Twin"""
+from enum import Enum
+
+
+class SubCodes(int, Enum):  # must inherit from int to be json serializable, int must be first
+    """Definition of sub-codes used by Exceptions across the system"""
+
+    GENERAL = 500000
+    ASSERT = 500001
+
+    UNAUTHORIZED = 401000
+    INVALID_CHARACTERS = 400314
+    QUOTA_VIOLATION = 400141
+    NOT_A_VALID_JSON = 400415
+
+    RESPONSE_TIMEOUT = 500159
+    AUTH_TIMEOUT = 501159
+    REQUEST_TIMEOUT = 502159
+    PROCESSING_TIMEOUT = 503159
+
+    OPERATION_ORDER_VIOLATION = 400592
+    NOT_FOUND = 404653
+    ACCESS_FORBIDDEN = 403535
+    IDEMPOTENCY_VIOLATION = 400358
+    REQUEST_FORMAT = 400589
+    OPERATION_NOT_ALLOWED = 400897
+    SERVICE_DISABLED = 400979
+    CORRUPTED_REQUEST = 400793
+    SERVICES_DATABASE_NO_CONNECTION = 500314
