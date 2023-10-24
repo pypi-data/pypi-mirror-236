@@ -1,0 +1,2 @@
+[console_scripts]
+bhmsh = bhmsh.bhmsh:main
