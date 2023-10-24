@@ -1,0 +1,5 @@
+pydantic<3,>=2
+setuptools
+twine
+wheel
+pip
