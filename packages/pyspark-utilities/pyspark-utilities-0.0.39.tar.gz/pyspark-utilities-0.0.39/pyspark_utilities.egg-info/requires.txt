@@ -1,0 +1,5 @@
+bda-service-utils
+pyspark
+alida-arg-parser
+redis
+PyArrow>=0.8.0
