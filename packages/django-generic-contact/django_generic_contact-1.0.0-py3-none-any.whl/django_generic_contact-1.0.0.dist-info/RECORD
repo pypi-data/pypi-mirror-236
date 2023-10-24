@@ -1,0 +1,14 @@
+django_generic_contact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_generic_contact/admin.py,sha256=gjDz5wzIBLo9lyboTtxu5T8U7-e8rXe8Jjilkofh3-Q,665
+django_generic_contact/apps.py,sha256=o-jwzKssn8Kgqqf1sln8rPxt_Hty8svZv7dWpzKsu68,174
+django_generic_contact/models.py,sha256=lquk2g5bV-jKuEtbHStrBeNjqsh2x3hHP-G3vrHcqpM,665
+django_generic_contact/utils.py,sha256=w8y4hzN6At_xSjmo3XApXLJ_JqUSjXnFsEqxV90DkMw,426
+django_generic_contact/validators.py,sha256=5wEhKmuilpdhMglA_fCxJMNTvV4np1ddDnsPHwbTHbQ,445
+django_generic_contact/migrations/0001_initial.py,sha256=-efo700oY5ynxhbbAegBgqaWud4Wo0Q8Ypdy-kGzPo8,1121
+django_generic_contact/migrations/0002_alter_contact_message.py,sha256=8z4Ohulb9i8q6yMG_2r_HQ_Gotivv-3vijtSc-6qiNQ,412
+django_generic_contact/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_generic_contact-1.0.0.dist-info/LICENSE,sha256=0eEwRRA3gYVtOtGnIysoL2GkNcgbd6nM1Ykpw2a32jQ,1100
+django_generic_contact-1.0.0.dist-info/METADATA,sha256=WfuCXbO_lxkgVZHMNK_jLjpgZnnomyf3xCL8OH-ZNJM,4143
+django_generic_contact-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+django_generic_contact-1.0.0.dist-info/top_level.txt,sha256=gg5zBV8y14DDWuLtoJQNnAKj381ixxvbkjhvE-4dy1w,23
+django_generic_contact-1.0.0.dist-info/RECORD,,
