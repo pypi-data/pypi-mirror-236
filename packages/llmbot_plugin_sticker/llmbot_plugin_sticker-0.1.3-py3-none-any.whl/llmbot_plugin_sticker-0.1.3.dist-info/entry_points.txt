@@ -1,0 +1,3 @@
+[llmkira.extra.plugin]
+sticker=llmbot_plugin_sticker
+
