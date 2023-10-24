@@ -1,0 +1,10 @@
+vectorshift/__init__.py,sha256=rKaLYMCDG6jcTGrSCBxpPweZxvHeXmSpXnVhdH-ooq0,214
+vectorshift/consts.py,sha256=UOTWnCdIXUA3Rs5tfOACSpZPPOXnhRMXu9NSgC3od-c,1633
+vectorshift/deploy.py,sha256=RB-NELyHJwS-jCikw-26oeUMhmcol1b6HFNbOBrQiqE,1299
+vectorshift/node.py,sha256=rZWuP76SfiOkPMrg8ducO32Un-PuptXcgwwl-9U_E-0,53070
+vectorshift/pipeline.py,sha256=UepAki4mce6155pjnIH_2TXtM5EjO_e2_IAuY-OtznY,13446
+vectorshift/test.py,sha256=aDxYEver7N5rBrwr0CRMwZHrgTF6Gtb7xXESIaVO490,2965
+vectorshift-0.0.14.dist-info/METADATA,sha256=FswDpb7efwSlJrwWnopizOoVFUPDMwobopD34uFTMEo,362
+vectorshift-0.0.14.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+vectorshift-0.0.14.dist-info/top_level.txt,sha256=UU6Ui0FD3zjwhO9greqVTtdtv7rNDBKzaIjc226B_Lk,12
+vectorshift-0.0.14.dist-info/RECORD,,
