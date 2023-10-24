@@ -1,0 +1,80 @@
+[tool.poetry]
+name = "labelmerge"
+version = "0.4.6"
+description = "Snakebids app for merging multiple label maps."
+authors = [
+    "Jason Kai <tkai@uwo.ca>",
+    "Tristan Kuehn",
+    "Bradley Karat",
+    "Alaa Taha",
+    "Arun Thurairajah",
+    "Jonathan C. Lau",
+    "Ali R. Khan"
+]
+readme = "README.md"
+packages = [
+    { include = "labelmerge" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.12"
+snakebids = "^0.9.0"
+nibabel = "^3.2.2"
+numpy = "^1.22.3"
+xarray = "^2022.11.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest-console-scripts = "1.2"
+pytest = "^7.0.1"
+black = "^22.1.0"
+pylint = "^2.12.2"
+isort = "^5.10.1"
+poethepoet = "^0.13.1"
+pre-commit = "^2.17.0"
+snakefmt = "^0.6.1"
+yamlfix = "^1.1.0"
+mypy = "^0.991"
+ruff = "^0.0.290"
+
+[tool.poetry.scripts]
+labelmerge = 'labelmerge.run:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poe.tasks]
+setup = "pre-commit install"
+yamlfix = { shell = "find . -type f \\( -iname \\*.yaml -o -iname \\*.yml ! -iname snakemake* ! -iname snakebids* \\) -exec yamlfix {} \\;" }
+yamlfix-check = { shell = "find . -type f \\( -iname \\*.yaml -o -iname \\*.yml ! -iname snakemake* ! -iname snakebids* \\) -exec yamlfix --check {} \\;" }
+isort = "isort labelmerge"
+isort-check = "isort -c labelmerge"
+black = "black labelmerge"
+black-check = "black --check labelmerge"
+ruff = "ruff --fix labelmerge"
+ruff-check = "ruff labelmerge"
+snakefmt = "snakefmt labelmerge"
+snakefmt-check = "snakefmt --check labelmerge"
+quality = ["yamlfix", "ruff", "isort", "black", "snakefmt"]
+quality-check = [
+    "yamlfix-check",
+    "ruff-check",
+    "isort-check",
+    "black-check",
+    "snakefmt-check",
+]
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.black]
+line-length = 79
+
+[tool.snakefmt]
+line_length = 79
+include = '\.smk$|^Snakefile'
+
+[tool.ruff]
+line-length = 79
+builtins = [ "snakemake" ]
