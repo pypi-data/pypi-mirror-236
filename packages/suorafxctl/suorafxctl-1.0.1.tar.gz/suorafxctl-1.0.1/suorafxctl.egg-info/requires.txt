@@ -1,0 +1,7 @@
+libusb1>=2.0.0
+setuptools
+
+[dev]
+nox
+flake8
+black

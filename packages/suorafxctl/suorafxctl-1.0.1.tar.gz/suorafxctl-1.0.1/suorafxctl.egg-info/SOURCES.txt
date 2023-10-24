@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.py
+suorafxctl.py
+suorafxctl.egg-info/PKG-INFO
+suorafxctl.egg-info/SOURCES.txt
+suorafxctl.egg-info/dependency_links.txt
+suorafxctl.egg-info/entry_points.txt
+suorafxctl.egg-info/requires.txt
+suorafxctl.egg-info/top_level.txt
