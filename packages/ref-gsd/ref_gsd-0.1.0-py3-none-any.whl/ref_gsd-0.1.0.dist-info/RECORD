@@ -1,0 +1,9 @@
+gsd/__init__.py,sha256=ctj0EotzGfNj83OOvxNbiLWVxlpC1xcx8xsZVPftvyc,225
+gsd/__main__.py,sha256=A-lU1olLA6KusuWQwXHUs3R78h0-EqZeD2AM4jcy2hk,393
+gsd/fit.py,sha256=ugW2ChsCsABRDnvI7z31-p63MIlsUJ-UG7yvlLtTlQU,4292
+gsd/gsd.py,sha256=JbFf3fZcQlsb9-XJGw7jIE-BG18EvV3uKtRfP6l9YE8,3484
+gsd/ref_prob.py,sha256=KFUg_sjWJM39dKwOg_z5MNh0cHQjPff4Z0lfcYHQ3JU,2412
+ref_gsd-0.1.0.dist-info/METADATA,sha256=88p63OEYw39R49N0gZ3YbbsvtguUeBm_wkSs0k0xXrI,16081
+ref_gsd-0.1.0.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+ref_gsd-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ref_gsd-0.1.0.dist-info/RECORD,,
