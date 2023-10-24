@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: aicosmodelzoo
+Version: 0.0.7
+Summary: A Model Zoo package for FhP AICOS
+Author-email: Jorge Vieira <jorge.vieira@aicos.fraunhofer.pt>
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
