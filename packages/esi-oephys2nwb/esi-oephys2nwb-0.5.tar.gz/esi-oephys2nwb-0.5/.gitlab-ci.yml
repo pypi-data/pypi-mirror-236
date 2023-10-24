@@ -1,0 +1,61 @@
+#
+# Copyright © 2023 Ernst Strüngmann Institute (ESI) for Neuroscience
+# in Cooperation with Max Planck Society
+#
+# SPDX-License-Identifier: BSD-3-Clause
+#
+
+stages:
+    - upload
+    - deploy
+
+pypitest:
+    stage: upload
+    only:
+    - "0.5"
+    - "0.6"
+    - tags
+    tags:
+    - deploy
+    variables:
+        GIT_FETCH_EXTRA_FLAGS: --tags
+    script:
+    - source $HOME/miniconda/etc/profile.d/conda.sh
+    - conda update --yes conda
+    - conda env update -f oephys2nwb.yml --prune
+    - conda activate oephys2nwb
+    - conda install --yes twine keyring rfc3986
+    - conda update --yes twine keyring rfc3986
+    - rm -rf dist/ build/ esi_oephys2nwb.egg-info/
+    - python setup.py sdist bdist_wheel
+    - tarname="$(basename -- $(ls dist/*.tar.gz) .tar.gz)"
+    - version=$(sed -e 's/esi-oephys2nwb-\(.*\)/\1/' <<< "$tarname")
+    - twine upload --repository testpypi --config-file=~/.esipypirc dist/*
+    - sleep 300
+    - conda create --yes --name piptest python=3.11
+    - conda activate piptest
+    - conda install --yes pip
+    - pip --no-cache-dir install --extra-index-url https://test.pypi.org/simple esi-oephys2nwb==$version
+    - python -c "from oephys2nwb import export2nwb"
+    - conda deactivate
+    - conda remove --yes --name piptest --all
+
+pypideploy:
+    stage: deploy
+    when: manual
+    only:
+    - tags
+    tags:
+    - deploy
+    variables:
+        GIT_FETCH_EXTRA_FLAGS: --tags
+    script:
+    - source $HOME/miniconda/etc/profile.d/conda.sh
+    - conda update --yes conda
+    - conda env update -f oephys2nwb.yml --prune
+    - conda activate oephys2nwb
+    - conda install --yes twine keyring rfc3986
+    - conda update --yes twine keyring rfc3986
+    - rm -rf dist/ build/ esi_oephys2nwb.egg-info/
+    - python setup.py sdist bdist_wheel
+    - twine upload --config-file=~/.esipypirc dist/*
