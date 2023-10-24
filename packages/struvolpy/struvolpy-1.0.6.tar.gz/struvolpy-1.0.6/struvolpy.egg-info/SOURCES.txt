@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+./README.md
+struvolpy/Structure.py
+struvolpy/Volume.py
+struvolpy/__init__.py
+struvolpy.egg-info/PKG-INFO
+struvolpy.egg-info/SOURCES.txt
+struvolpy.egg-info/dependency_links.txt
+struvolpy.egg-info/requires.txt
+struvolpy.egg-info/top_level.txt
+struvolpy/wrappers/__init__.py
+struvolpy/wrappers/wrappers.py
+tests/test_structure.py
+tests/test_volume.py
