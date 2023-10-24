@@ -1,0 +1,14 @@
+osparc/__init__.py,sha256=_WsZ2QVXMZWYOXHsLS72tVopCN2rj_RSyvoEJTYYzT8,1842
+osparc/_files_api.py,sha256=fVfF5Cqgkx1dPPh_nDQa4YUk4XpsjtFE1UqLtW21pXQ,7518
+osparc/_http_client.py,sha256=XpE7_MWnb7c2JcXqiEDY1OtyVO8vdbx0yziWoMVQWqk,1502
+osparc/_info.py,sha256=h7Q8mxlesXV_YzOoKkBSn3TtX9Mymry6o6OI6rD6Fuo,303
+osparc/_solvers_api.py,sha256=JrlljzHy2yfRxt5R87nfOCzZQZ3zGjYVi5KvvDUbQOQ,2581
+osparc/_utils.py,sha256=ZC3xITP-QFe3pVZUVxWmwA_OkZkqJyU1ONgRbpAwyIs,3331
+osparc/_warnings_and_errors.py,sha256=TJ2jOS9xXb8AMeH4zoJ27KwQPHeVRhG5LdirSYaX_Pc,256
+osparc/api.py,sha256=YQ70ABi5g-Pii01Wgr7tCBoT_TZ06GqyvOYfP-05Gxo,562
+osparc/models.py,sha256=WSeyNWJjpnoFOST365Pe0NfYioqch5nAz5lAbocDjmU,1109
+osparc/data/openapi.json,sha256=IpI_9VZNSUlBDVqD2TPW9LbiGKi93b6p5jS595ciCP0,107673
+osparc-0.6.1.dist-info/METADATA,sha256=JjdTWtB3HpDlSnlxGYm1VX9QE6TJiB8QyzQw5UB8KW8,728
+osparc-0.6.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+osparc-0.6.1.dist-info/top_level.txt,sha256=N4EQYi-wbygZALCiiGIcn-8pv3_zdttXWpYh9NFtInA,7
+osparc-0.6.1.dist-info/RECORD,,
