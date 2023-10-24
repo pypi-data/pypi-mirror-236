@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: fermioniq
+Version: 1.1.1
+Summary: Python client library for the OpenAI API
+Home-page: https://github.com/fermioniq/fermioniq-client
+Author: Fermioniq
+Author-email: support@fermioniq.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests >=2.31.0
+Requires-Dist: websockets >=9.0
+Requires-Dist: pyyaml >=6.0.1
+Requires-Dist: pydantic ==1.10.7
+Requires-Dist: numpy >=1.23.5
+Requires-Dist: rich >=13.5.2
+Provides-Extra: dev
+Requires-Dist: black >=22.12.0 ; extra == 'dev'
+Requires-Dist: isort >=5.12.0 ; extra == 'dev'
+Requires-Dist: mypy >=0.991 ; extra == 'dev'
+Requires-Dist: pytest >=7.2.0 ; extra == 'dev'
+Requires-Dist: pytest-mock >=3.11.1 ; extra == 'dev'
+Requires-Dist: pytest-cov >=4.1.0 ; extra == 'dev'
+Requires-Dist: pre-commit >=2.20.0 ; extra == 'dev'
+Requires-Dist: qiskit ; extra == 'dev'
+Requires-Dist: cirq ; extra == 'dev'
+
+# Fermioniq client for pure state emulation
+
+## Pre-requisites
+
+- Python3.10
+
+## Installation
+
+### For Production
+
+In a production environment, you can download the latest version with
+`pip install fermioniq`.
+
+The repository can be found here:
+[https://pypi.org/project/fermioniq/](https://pypi.org/project/fermioniq/)
+
+The test versions are upload to pypi-test:
+[https://test.pypi.org/project/fermioniq/](https://test.pypi.org/project/fermioniq/).
+
+### For Development
+
+To develop the client locally, it is best to install it together with
+all development packages. We recommend to first create a
+virtualenv and source it.
+
+Install dependencies: `pip install -e .[dev]`
+
+The `-e` flag installs the project with pip (just like a regular
+module) but uses the current directory as location. This way, you can
+easily import the client in your projects or notebooks while at the
+same time updating its code.
+
+#### Install fermioniq_common
+
+The `fermioniq_common` submodule shares common code with the
+Emulator. This should make sure that the data exchange is working
+properly between client and emulator.
+
+To checkout the `fermioniq_common` submodule, run:
+
+`git submodule update --init --remote`.
+
+The `--init` flag will download the submodule. The `--remote` flag
+will make sure that it tracks the remote repository. This way you can
+easily pull the latest changes.
+
+#### Pre-Commit Hook
+
+It is best practice to run the pre-commit before committing to
+Github. To enforce this, please run `pre-commit install` once.
+
+#### Unit Tests
+
+In the project directory. Run `pytest`.
+
+#### Github Actions
+
+There are three Github actions in place right now.
+
+1. Integration Tests
+
+   This Action runs whenever a PR to master or develop is made (or
+   being pushed to).
+
+   It will run the linter, unit tests and pypi packager and check
+   whether everything is in good order.
+
+2. Public to PyPi and Test-PyPi
+
+   This Actions are being run whenever a tag is begin pushed. For
+   Test-PyPi, any tag works. For PyPi itself, the tag must start with a
+   `v` and end with `-release`.
+
+   Please make sure to update `fermioniq/version.py` accordingly, as
+   the script will use it to set the PyPi version. If the version
+   already exists on PyPi, it will fail.
+
+## Setup:
+
+Sending jobs to the emulator requires a user-specific 'access_token_id' and
+'access_token_secret'. They are tied to your Fermioniq user
+account.
+
+You can either define them as environment variables
+
+    - export FERMIONIQ_ACCESS_TOKEN_ID=""
+    - export FERMIONIQ_ACCESS_TOKEN_SECRET=""
+
+Or alternatively provide them as input arguments to the fermioniq.Client constructor.
