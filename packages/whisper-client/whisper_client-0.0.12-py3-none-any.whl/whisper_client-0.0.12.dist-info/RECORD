@@ -1,0 +1,9 @@
+whisper_client/__about__.py,sha256=F9Gc6mRi2cwZzykI3d9Z_QBDO5rcP6rub-QkgOLBXLI,124
+whisper_client/__init__.py,sha256=vIPxnDuUP63xR1jxlmgIdqxE94BlxJq2gOJ8aFwwA_g,191
+whisper_client/cli.py,sha256=dj6kH1ZrlAJcKqDwDiUETqE-wUepBL47TBQCfYanFvo,4272
+whisper_client/main.py,sha256=q8HjR2Rg8s-37l_VM-_P5FuXZMh0FIQBsMrXa2LHihI,10478
+whisper_client-0.0.12.dist-info/METADATA,sha256=NKOlU5YKmHqVWh9suFfoYTKTlXM-XcQwI4NbFKQ0pwU,1538
+whisper_client-0.0.12.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+whisper_client-0.0.12.dist-info/entry_points.txt,sha256=0bXEC5BvjMHK6jzeDAcxhjFjb9KgtWCDDqjDFC6yaaw,58
+whisper_client-0.0.12.dist-info/licenses/LICENSE.txt,sha256=nrXDQjVWNalbUNXoxDgb-I8m6pcQb394TVPyqm6ZT-4,34561
+whisper_client-0.0.12.dist-info/RECORD,,
