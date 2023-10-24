@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: SweepLine
+Version: 1.4
+Summary: a package that will find intersection points of Polygons using sweep line algorithm
+Author: Radin Sign Factory
+Requires-Python: >=3.9
+
