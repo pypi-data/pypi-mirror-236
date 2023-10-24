@@ -1,0 +1,15 @@
+annexremote
+datalad>=0.18.4
+humanize
+
+[devel]
+cheroot
+coverage
+pytest
+pytest-cov
+webdavclient3
+wsgidav
+
+[httpsupport]
+requests
+requests_toolbelt
