@@ -1,0 +1,13 @@
+og_proto/agent_server_pb2.py,sha256=TRTTgbQXchYCT8HvSzGzcbTu3_XWdks1WdEtR9asmH8,6941
+og_proto/agent_server_pb2.pyi,sha256=lhr7KO5-n07YbKTZcABoFUvfJ0pTo5wXWmShF81YW_U,9391
+og_proto/agent_server_pb2_grpc.py,sha256=UO3kkBaG4Mpywjalx2ubKiZDup2uOB2cxqH6d4DHVEM,8589
+og_proto/common_pb2.py,sha256=5OORVQnSq6XXiabq8mLn83pRWHaBrbG6bfs4lAr4emI,1380
+og_proto/common_pb2.pyi,sha256=a3BEPNIErLzBPgP8k4J-domsHqVd8yt07RqieS0BkLM,886
+og_proto/common_pb2_grpc.py,sha256=1oboBPFxaTEXt9Aw7EAj8gXHDCNMhZD2VXqocC9l_gk,159
+og_proto/kernel_server_pb2.py,sha256=FqMIdqeCkwnSFoi6LO6UqIxvITkJzcJlGBh7YPTj6RY,4098
+og_proto/kernel_server_pb2.pyi,sha256=Ab3pIFG15gOCv7LZzYsj_Z0VONXImw7aQWaz5e0dJa4,3536
+og_proto/kernel_server_pb2_grpc.py,sha256=2lja1dw7hXqV4Vd9XugCclETlop2d9OlccVMQSOzEs4,10314
+og_proto-0.5.0.dist-info/METADATA,sha256=cCeXHipL5Cz2E_JabH6PpUWJUYtnv5JfMqoE_LHkFzg,623
+og_proto-0.5.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+og_proto-0.5.0.dist-info/top_level.txt,sha256=esNJFv4H16uoMohkNeLvc0sNiDaDqJiQgyTN-HcoHqs,9
+og_proto-0.5.0.dist-info/RECORD,,
