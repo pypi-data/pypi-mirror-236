@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!-- Created with Cambalache 0.14.0 -->
+<interface>
+  <!-- interface-name delete.ui -->
+  <requires lib="gtk" version="4.6"/>
+  <object class="GtkDialog" id="alert_dialog">
+    <property name="default-height">200</property>
+    <property name="default-width">400</property>
+    <property name="destroy-with-parent">True</property>
+    <property name="modal">True</property>
+    <property name="resizable">False</property>
+    <property name="title">Alert</property>
+    <child>
+      <object class="GtkGrid">
+        <property name="hexpand">True</property>
+        <property name="orientation">vertical</property>
+        <child>
+          <object class="GtkLabel" id="alert_label">
+            <property name="halign">center</property>
+            <property name="hexpand">True</property>
+            <property name="justify">center</property>
+            <property name="label">Are you sure you want to delete this item?
+This operation can not be reversed.</property>
+            <property name="lines">2</property>
+            <property name="margin-bottom">20</property>
+            <property name="margin-end">20</property>
+            <property name="margin-start">20</property>
+            <property name="margin-top">20</property>
+            <property name="vexpand">True</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="row">0</property>
+            </layout>
+          </object>
+        </child>
+        <child>
+          <object class="GtkButton" id="ok-button">
+            <property name="label">OK</property>
+            <property name="name">ok-button</property>
+            <property name="margin-bottom">20</property>
+            <property name="margin-end">10</property>
+            <property name="margin-start">10</property>
+            <layout>
+              <property name="column">0</property>
+              <property name="column-span">1</property>
+              <property name="row">1</property>
+              <property name="row-span">1</property>
+            </layout>
+          </object>
+        </child>
+      </object>
+    </child>
+  </object>
+</interface>
