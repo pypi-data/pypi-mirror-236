@@ -1,0 +1,16 @@
+bondzai.davinsy_py-0.0.8-py3.10-nspkg.pth,sha256=GaUdUWunJyFVhGgJl0Nf0QYV1Zlch9NCqd-3J3CkhTo,544
+bondzai/davinsy_py/__init__.py,sha256=1nalAYQjtofOt8FJ6uIcJSAtN2ShuLjupKwEr4MzJB8,24
+bondzai/davinsy_py/davinsy.py,sha256=qNF2GZnndzt_of4BHOjPqsfip25f18B-mco0MyBCfSs,4317
+bondzai/davinsy_py/enums.py,sha256=y-rSqQzuF9OrRmr_mTRpJkoUj-8atI2EzCPlLnbRAeY,8966
+bondzai/davinsy_py/logger.py,sha256=WVYp3m7AhX52y5ydFrDA54nW1vqxQizYt_GAkxDbLM0,332
+bondzai/davinsy_py/model.py,sha256=hKRqKDQepf5WUnoY5_k7piusHblqy7kCthEphkyZ8Co,21854
+bondzai/davinsy_py/operations.py,sha256=F2o428T2rFVfkGQ2kfNiJR8W7OrJixQVynF5vxO_JHc,38613
+bondzai/davinsy_py/preproc.py,sha256=p1xO0KVpdalF-NUeo5psequRyrxhfXSVd6eYuijC_Qo,3188
+bondzai/davinsy_py/utils.py,sha256=pj8VH-6k65isG02VgLVPeWUhQeP4TLMKHO1OdgAGU84,1034
+bondzai.davinsy_py-0.0.8.dist-info/METADATA,sha256=tbpezQd0-l5KicH0leDjqiVflRUV6V_JyFD0b8LgWpM,553
+bondzai.davinsy_py-0.0.8.dist-info/NOTICE,sha256=q3CdcSfXg878kQj9Br6aDZOeE6nCnmTpJOeg-RmkFfU,547
+bondzai.davinsy_py-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+bondzai.davinsy_py-0.0.8.dist-info/namespace_packages.txt,sha256=MnOdBENZHj1WBT4-FWCMGpbukfxq9cc0OjvfBXZDWI4,8
+bondzai.davinsy_py-0.0.8.dist-info/top_level.txt,sha256=MnOdBENZHj1WBT4-FWCMGpbukfxq9cc0OjvfBXZDWI4,8
+bondzai.davinsy_py-0.0.8.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+bondzai.davinsy_py-0.0.8.dist-info/RECORD,,
