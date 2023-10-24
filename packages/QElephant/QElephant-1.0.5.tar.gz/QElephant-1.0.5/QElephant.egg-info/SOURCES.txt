@@ -1,0 +1,9 @@
+README.md
+setup.py
+QElephant/Matrix.py
+QElephant/QuBit.py
+QElephant/__init__.py
+QElephant.egg-info/PKG-INFO
+QElephant.egg-info/SOURCES.txt
+QElephant.egg-info/dependency_links.txt
+QElephant.egg-info/top_level.txt
