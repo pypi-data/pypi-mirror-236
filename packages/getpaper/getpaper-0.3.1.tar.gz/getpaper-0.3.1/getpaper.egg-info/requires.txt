@@ -1,0 +1,11 @@
+pycomfort
+click
+unstructured
+unstructured-inference
+unstructured[local-inference]
+unstructured.PaddleOCR
+scidownl
+Deprecated
+semanticscholar
+pdfminer.six
+langchain
