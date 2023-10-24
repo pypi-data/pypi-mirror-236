@@ -1,0 +1,66 @@
+pre[class*="language-python"] {
+    background: --background;
+}
+
+.Token {
+    color: --punctuator;
+}
+
+.Token.ID {
+    color: --variant;
+}
+
+.Token.BraceDepth-0 {
+    color: --brace1;
+}
+
+.Token.BraceDepth-1 {
+    color: --brace2;
+}
+
+.Token.BraceDepth-2 {
+    color: --brace3;
+}
+
+.Token.COMMA,
+.Token.COLON {
+    color: --punctuator;
+}
+
+.Token.UnaryOp,
+.Token.NUMBER {
+    color: --number;
+}
+
+.Token.STR {
+    color: --string;
+}
+
+.Token.COMMENT {
+    color: --comment;
+}
+
+
+.Token.IF,
+.Token.ELSE,
+.Token.FOR,
+.Token.WHILE,
+.Token.ELIF,
+.Token.RETURN,
+.Token.BREAK, .Token.IN {
+    color: --define;
+}
+
+.Token.NONE,
+.Token.TRUE,
+.Token.FALSE,
+.Token.RAISE,
+.Token.AND,
+.Token.OR {
+    color: --type;
+}
+
+.Token.CLASS,
+.Token.DEF {
+    color: --type;
+}
