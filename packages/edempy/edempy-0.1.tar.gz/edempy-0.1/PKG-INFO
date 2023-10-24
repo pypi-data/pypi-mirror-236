@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: edempy
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: edem-dev
+Author-email: edem-dev@altair.com
+License: Apache-2.0
+Description: UNKNOWN
+Keywords: DEM
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
