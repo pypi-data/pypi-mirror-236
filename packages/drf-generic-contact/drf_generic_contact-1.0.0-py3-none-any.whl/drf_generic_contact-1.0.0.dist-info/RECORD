@@ -1,0 +1,9 @@
+drf_generic_contact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_generic_contact/rest/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+drf_generic_contact/rest/serializers.py,sha256=6BYPkKDzjPudVIRDv1_zIqsDxtaMCLTNsyB3rmPksvQ,510
+drf_generic_contact/rest/views.py,sha256=3_WI836vkT6BWIldRUNG2bTHaJfeEbMXHhD2_7gPR_c,384
+drf_generic_contact-1.0.0.dist-info/LICENSE,sha256=0eEwRRA3gYVtOtGnIysoL2GkNcgbd6nM1Ykpw2a32jQ,1100
+drf_generic_contact-1.0.0.dist-info/METADATA,sha256=skItuqBWZUyNJDfaasu9q5zvCVtA7DvjSFNskP70xcU,3152
+drf_generic_contact-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+drf_generic_contact-1.0.0.dist-info/top_level.txt,sha256=ShDfG17QeJ6gGh1IrOaiVglTtShK4eKxrFBJ9m_ez5M,20
+drf_generic_contact-1.0.0.dist-info/RECORD,,
