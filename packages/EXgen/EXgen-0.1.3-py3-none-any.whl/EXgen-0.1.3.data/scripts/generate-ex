@@ -1,0 +1,16 @@
+#!python
+
+import argparse
+from EXgen import EXgen
+
+# Make parser : 
+parser = argparse.ArgumentParser(description='Parsing generator command line input.')
+
+# Add arguments : 
+parser.add_argument('config_file', metavar='cfg', type=str, help='Configuration file name.')
+
+# Parse and call generator : 
+args = parser.parse_args()
+
+myGen = EXgen(args)
+myGen.generate()
