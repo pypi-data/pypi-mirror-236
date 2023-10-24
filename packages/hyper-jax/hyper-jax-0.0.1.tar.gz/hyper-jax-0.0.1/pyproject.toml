@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hyper-jax"
+version = "0.0.1"
+description = "Hyperdimensional computing with Jax"
+readme = "README.md"
+authors = [{ name = "marklar", email = "ddillon@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["hyperdimensional computing", "jax", "vector symbolic architecture"]
+dependencies = [
+    "jax>=0.4.19",
+]
+requires-python = ">=3.10"

@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+hyper_jax.egg-info/PKG-INFO
+hyper_jax.egg-info/SOURCES.txt
+hyper_jax.egg-info/dependency_links.txt
+hyper_jax.egg-info/requires.txt
+hyper_jax.egg-info/top_level.txt
+hyperjax/__init__.py
+hyperjax/generator.py
+hyperjax/operation.py
