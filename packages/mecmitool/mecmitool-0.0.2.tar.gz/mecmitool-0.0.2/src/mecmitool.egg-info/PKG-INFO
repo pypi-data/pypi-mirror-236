@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mecmitool
+Version: 0.0.2
+Summary: some repetitive wheels
+Author-email: mechermit <mechermit@outlook.com>
+Project-URL: Homepage, https://github.com/
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+this project just used for migrating environment, which too frequency.
