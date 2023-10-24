@@ -1,0 +1,14 @@
+numpy
+qtpy
+pandas
+scikit-image
+scipy
+dask
+
+[testing]
+tox
+pytest
+pytest-cov
+pytest-qt
+napari
+pyqt5
