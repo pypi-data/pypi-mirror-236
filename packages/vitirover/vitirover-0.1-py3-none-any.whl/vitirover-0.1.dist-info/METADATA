@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: vitirover
+Version: 0.1
+Summary: Commande du robot Vitirover avec le clavier.
+Home-page: https://github.com/votreusername/vitirover
+Author: Jorand Gallou
+Author-email: info@vitirover.com
+License: MIT
+Keywords: vitirover robot control pygame
+Requires-Dist: pygame
+Requires-Dist: protobuf
+Requires-Dist: socket
+Requires-Dist: math
+Requires-Dist: time
+Requires-Dist: random
+
