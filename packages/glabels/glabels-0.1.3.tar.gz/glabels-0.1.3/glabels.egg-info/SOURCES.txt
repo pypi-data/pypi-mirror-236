@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+glabels/__init__.py
+glabels/_base.py
+glabels/glabels_3.py
+glabels/glabels_qt.py
+glabels.egg-info/PKG-INFO
+glabels.egg-info/SOURCES.txt
+glabels.egg-info/dependency_links.txt
+glabels.egg-info/top_level.txt
