@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/unoaiinterface.py
+src/unoaiinterface.egg-info/PKG-INFO
+src/unoaiinterface.egg-info/SOURCES.txt
+src/unoaiinterface.egg-info/dependency_links.txt
+src/unoaiinterface.egg-info/top_level.txt

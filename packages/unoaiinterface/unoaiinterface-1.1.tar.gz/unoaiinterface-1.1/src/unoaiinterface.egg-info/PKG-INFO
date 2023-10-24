@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: unoaiinterface
+Version: 1.1
+Summary: An uno interface to use with training an AI or playing a local game of uno
+Author: Edward Baker
+Project-URL: Homepage, https://github.com/Iridum-png/unointerface
+Project-URL: Bug Tracker, https://github.com/Iridum-png/unointerface/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Uno Interface
+An uno interface to use with training an AI or playing a local game of uno
