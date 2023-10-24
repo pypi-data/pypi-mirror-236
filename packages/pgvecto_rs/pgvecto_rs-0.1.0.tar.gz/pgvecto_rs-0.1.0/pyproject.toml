@@ -1,0 +1,48 @@
+[project]
+name = "pgvecto_rs"
+version = "0.1.0"
+description = "Python binding for pgvecto.rs"
+authors = [
+    { name = "盐粒 Yanli", email = "mail@yanli.one" },
+]
+dependencies = [
+    "numpy>=1.23",
+    "toml>=0.10",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+
+[project.license]
+text = "Apache-2.0"
+
+[project.optional-dependencies]
+lint = [
+    "black>=23.10.0",
+    "ruff>=0.1.1",
+]
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "SQLAlchemy>=2",
+    "pytest>=7.4",
+    "psycopg[binary]>=3.1",
+]
+
+[tool.pdm.scripts]
+test = "pytest tests/"
+format = "black ."
+
+[tool.pdm.scripts.check]
+composite = [
+    "black --check .",
+    "ruff check .",
+]
+
+[tool.pytest.ini_options]
+addopts = "-r aR"
