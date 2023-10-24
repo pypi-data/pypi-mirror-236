@@ -1,0 +1,13 @@
+httpx
+pydantic
+peewee
+typer[all]
+cryptography
+pyyaml
+InquirerPy
+litellm
+python-dotenv
+websockets
+termcolor
+watchdog
+readerwriterlock
