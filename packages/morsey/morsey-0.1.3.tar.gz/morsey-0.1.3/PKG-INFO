@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: morsey
+Version: 0.1.3
+Summary: Contains methods to translate morse code and english str objects.
+Project-URL: Homepage, https://github.com/AHarnishPM/morsey
+Project-URL: Bug Tracker, https://github.com/AHarnishPM/morsey/issues
+Author-email: Aaron Harnish <aaronjharnish@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# morsey
+Contains methods to translate between morse code and english in both text and audio forms.
+
+Uploaded as a package to PyPI. I'm currently implementing a method to read a .wav file and use an RNN model to extract morse code from it.
+
+Runs on Python 3.9
