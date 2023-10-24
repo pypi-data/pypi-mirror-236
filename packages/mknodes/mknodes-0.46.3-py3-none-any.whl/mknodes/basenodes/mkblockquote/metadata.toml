@@ -1,0 +1,14 @@
+[metadata]
+icon = "mdi:cube"
+status = "new"
+
+[examples."Regular"]
+jinja = """
+{{ "Some text" | MkBlockQuote | MkReprRawRendered }}
+"""
+
+[examples."Nested"]
+jinja = """
+We can also nest blocks, they will adjust their delimiters automatically.
+{{ "Nested!" | MkBlockQuote | MkBlockQuote | MkReprRawRendered}}
+"""
