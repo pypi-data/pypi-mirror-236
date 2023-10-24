@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: qianqiuvideo
+Version: 0.0.6
+Summary: Easily cut the video by moviepy
+Home-page: https://github.com/chunleili/cut_video
+Author: chunlei li
+Author-email: li_cl@foxmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
