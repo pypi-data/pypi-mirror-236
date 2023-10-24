@@ -1,0 +1,12 @@
+mudlark/__init__.py,sha256=uJrZIuI-Vy_HW0VSaAeWiZ5vIJrNAKgcZcAedYKulkc,49
+mudlark/__main__.py,sha256=6OSkbsDfJ_KK79-TomjHh-EHdKo10CXR8YVm_ypEQCE,32
+mudlark/dictionaries/mwo_corrections.csv,sha256=j4ECdwiCcBgSl3PqF_3TgSHPkiow_qrNQDRzBFtApes,4504
+mudlark/logger.py,sha256=p2omULt5MujGtK2cCSM3BppQSbfkh__hEW0AIar7Crs,203
+mudlark/main.py,sha256=ckOLA4KXxG9n5GdXTfwspuehPoDhtwSzsToKLqqXR5U,6799
+mudlark/normalisation.py,sha256=8k0z8i0jymdfyJbHGX_z7hHQYBrQ3UplRHJ8A89cRz4,11648
+mudlark/utils.py,sha256=l7xx7nhE6s8SXxBcvxHklsbomSCS4RdLIugeE4Ul3jY,4414
+mudlark-0.1.14.dist-info/entry_points.txt,sha256=mj6rNJQG1rVs9nnmhVGGrelFit4fthkBlpofEXzjKbE,44
+mudlark-0.1.14.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mudlark-0.1.14.dist-info/METADATA,sha256=9ZuLZrqmKoRBd2zNIhzgCVatEmuEoxAFyy3mML9zLYY,7759
+mudlark-0.1.14.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+mudlark-0.1.14.dist-info/RECORD,,
