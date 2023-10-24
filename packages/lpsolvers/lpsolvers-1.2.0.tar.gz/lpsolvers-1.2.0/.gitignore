@@ -1,0 +1,10 @@
+*.pyc
+*.pyo
+.coverage
+.ropeproject
+.tox
+MANIFEST
+build/
+dist/
+examples/lpsolvers
+lpsolvers.egg-info

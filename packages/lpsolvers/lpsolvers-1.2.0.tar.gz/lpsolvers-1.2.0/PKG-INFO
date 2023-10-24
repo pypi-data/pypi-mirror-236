@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: lpsolvers
+Version: 1.2.0
+Summary: Linear programming solvers in Python with a unified API.
+Keywords: linear programming,solver,numerical optimization
+Author-email: Stéphane Caron <stephane.caron@normalesup.org>
+Maintainer-email: Stéphane Caron <stephane.caron@normalesup.org>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Requires-Dist: scipy >=1.2.0
+Requires-Dist: cvxopt >=1.2.6 ; extra == "solvers"
+Requires-Dist: cvxpy >=1.1.11 ; extra == "solvers"
+Requires-Dist: proxsuite >=0.4.0 ; extra == "solvers"
+Requires-Dist: pycddlib >=2.1.4 ; extra == "solvers"
+Project-URL: Changelog, https://github.com/stephane-caron/lpsolvers/blob/main/CHANGELOG.md
+Project-URL: Documentation, https://scaron.info/doc/lpsolvers/
+Project-URL: Source, https://github.com/stephane-caron/lpsolvers
+Project-URL: Tracker, https://github.com/stephane-caron/lpsolvers/issues
+Provides-Extra: solvers
+
+# LP Solvers for Python
+
+[![CI](https://img.shields.io/github/actions/workflow/status/stephane-caron/lpsolvers/test.yml?branch=main)](https://github.com/stephane-caron/lpsolvers/actions)
+[![Coverage](https://coveralls.io/repos/github/stephane-caron/lpsolvers/badge.svg?branch=main)](https://coveralls.io/github/stephane-caron/lpsolvers?branch=main)
+[![Documentation](https://img.shields.io/badge/docs-online-brightgreen?logo=read-the-docs&style=flat)](https://scaron.info/doc/lpsolvers/)
+[![PyPI version](https://img.shields.io/pypi/v/lpsolvers)](https://pypi.org/project/lpsolvers/)
+![Status](https://img.shields.io/pypi/status/lpsolvers)
+
+Wrapper around Linear Programming (LP) solvers in Python, with a unified interface.
+
+## Installation
+
+To install the library and all open source LP solvers at the same time:
+
+```console
+$ pip install lpsolvers[solvers]
+```
+
+To install the library only, assuming LP solvers are installed separately: ``pip install lpsolvers``.
+
+## Usage
+
+The function [`solve_lp`](https://scaron.info/doc/lpsolvers/linear-programming.html#lpsolvers.solve_lp) is called with the ``solver`` keyword argument to select the backend solver. The linear program it solves is, in standard form:
+
+$$
+\begin{split}
+\begin{array}{ll}
+    \mbox{minimize} &
+        c^T x \\
+    \mbox{subject to}
+        & G x \leq h \\
+        & A x = b
+\end{array}
+\end{split}
+$$
+
+Vector inequalities are taken coordinate by coordinate.
+
+## Example
+
+To solve a linear program, build the matrices that define it and call the ``solve_lp`` function:
+
+```python
+from numpy import array
+from lpsolvers import solve_lp
+
+c = array([1., 2., 3.])
+G = array([[1., 2., -1.], [2., 0., 1.], [1., 2., 1.], [-1., -1., -1.]])
+h = array([4., 1., 3., 2.])
+
+print "LP solution:", solve_lp(c, G, h)
+```
+
+This example outputs the solution ``[2.2, -0.8, -3.4]``.
+
+## Solvers
+
+The list of supported solvers currently includes:
+
+- [CVXOPT](http://cvxopt.org/)
+- [CVXPY](https://www.cvxpy.org/) (interface)
+- [cdd](https://github.com/mcmtroffaes/pycddlib)
+

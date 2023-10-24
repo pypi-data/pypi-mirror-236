@@ -1,0 +1,70 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "lpsolvers"
+readme = "README.md"
+license = {file = "LICENSE"}
+authors = [
+    {name = "Stéphane Caron", email = "stephane.caron@normalesup.org"},
+]
+maintainers = [
+    {name = "Stéphane Caron", email = "stephane.caron@normalesup.org"},
+]
+dynamic = ['version', 'description']
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "scipy >=1.2.0",
+]
+keywords = ["linear programming", "solver", "numerical optimization"]
+
+[project.optional-dependencies]
+solvers = [
+    "cvxopt >=1.2.6",
+    "cvxpy >=1.1.11",
+    "proxsuite >=0.4.0",
+    "pycddlib >=2.1.4",
+]
+
+[project.urls]
+Documentation = "https://scaron.info/doc/lpsolvers/"
+Source = "https://github.com/stephane-caron/lpsolvers"
+Tracker = "https://github.com/stephane-caron/lpsolvers/issues"
+Changelog = "https://github.com/stephane-caron/lpsolvers/blob/main/CHANGELOG.md"
+
+[tool.black]
+line-length = 79
+
+[tool.ruff]
+line-length = 79
+select = [
+    # pyflakes
+    "F",
+    # pycodestyle
+    "E",
+    "W",
+    # isort
+    "I001",
+    # pydocstyle
+    "D"
+]
+ignore = [
+    "D401",  # good for methods but not for class docstrings
+    "D405",  # British-style section names are also "proper"!
+]
+
+[tool.ruff.pydocstyle]
+convention = "numpy"
