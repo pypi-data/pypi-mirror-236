@@ -1,0 +1,10 @@
+docdb_import_export/.env.example,sha256=Xr1qqeqIubJr-4IA36gglCwhy7ClJwZg3a4S-Zn4I5Q,432
+docdb_import_export/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+docdb_import_export/__main__.py,sha256=vO87lzX7pLQXfzBWaM5Md8JINPD3AtoxVU9nEaYVKLU,5893
+docdb_import_export/docdb_client.py,sha256=lHt9394uoIdc2Je1bpDI1d24_nNXWwRe7UfuVXMG_ps,3501
+docdb_import_export/docdb_json_importer.py,sha256=CkM6bKFruSoj9DRxy-v647UuYXBn4LSi4_jYPfNbMgQ,3459
+docdb_import_export/utils.py,sha256=ttoxsiDnFHwvW5pUAHBdfdAgQQNjvOphDZvLbucvOfc,857
+docdb_import_export-0.4.3.dist-info/METADATA,sha256=gRgRwrJVLtwJGbTcUCVWSfbFXGaEfJO7nUUzgQJN4vY,5987
+docdb_import_export-0.4.3.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+docdb_import_export-0.4.3.dist-info/licenses/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+docdb_import_export-0.4.3.dist-info/RECORD,,
