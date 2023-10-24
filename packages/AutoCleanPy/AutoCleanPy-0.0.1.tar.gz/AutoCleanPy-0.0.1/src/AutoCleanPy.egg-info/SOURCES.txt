@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/AutoCleanPy/AutoDataClean.py
+src/AutoCleanPy/__init__.py
+src/AutoCleanPy.egg-info/PKG-INFO
+src/AutoCleanPy.egg-info/SOURCES.txt
+src/AutoCleanPy.egg-info/dependency_links.txt
+src/AutoCleanPy.egg-info/top_level.txt
