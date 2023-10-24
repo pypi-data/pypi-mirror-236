@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyrule34/__init__.py
+pyrule34/async_rule34.py
+pyrule34/objects.py
+pyrule34.egg-info/PKG-INFO
+pyrule34.egg-info/SOURCES.txt
+pyrule34.egg-info/dependency_links.txt
+pyrule34.egg-info/requires.txt
+pyrule34.egg-info/top_level.txt
