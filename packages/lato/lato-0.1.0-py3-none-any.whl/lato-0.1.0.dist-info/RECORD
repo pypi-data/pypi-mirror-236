@@ -1,0 +1,10 @@
+lato/__init__.py,sha256=BoQ_VHfJDAUerWcHm9GHB8vkpgZN0tm5hnhgGFJIAEk,134
+lato/application.py,sha256=BSXGdU3HNwdidku9KkaUEMULpvxZTMtUNPUEC5xg7Gw,2961
+lato/application_module.py,sha256=G2dpoLduwBlhhv0mf1vf9YicL_0oUVncMLklBWFyeTg,276
+lato/dependency_provider.py,sha256=frXtEBuzDdlEF3JeyYK9rKTaYZczGNL1EVRUEQNUI0U,6492
+lato/transaction_context.py,sha256=4FWMaMM2j74o5cZf167XF_uzrb0f1WQvXnokq2n9RL0,2447
+lato/utils.py,sha256=O-BiDFXpWUhU4F6TvFOC3wLvFIU27kMZe4U7m26rN_A,363
+lato-0.1.0.dist-info/LICENSE,sha256=ssSvwugjTbaThDJ94IEaBBV1PwW8JVpg0t8u1JU0jQA,1077
+lato-0.1.0.dist-info/METADATA,sha256=g2n8Ruh3EyOmHmbEeEklXvp9fuI2Jv1dt-WohLKjjag,348
+lato-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+lato-0.1.0.dist-info/RECORD,,
