@@ -1,0 +1,3 @@
+[console_scripts]
+download = getpaper.download:app
+parse = getpaper.parse:app
