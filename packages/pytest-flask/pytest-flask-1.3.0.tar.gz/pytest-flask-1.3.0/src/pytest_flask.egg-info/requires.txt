@@ -1,0 +1,9 @@
+pytest>=5.2
+Flask
+Werkzeug
+
+[docs]
+Sphinx
+sphinx_rtd_theme
+
+[tests]
