@@ -1,0 +1,3 @@
+[console_scripts]
+tunneller = tunneller.tunnel:main
+
