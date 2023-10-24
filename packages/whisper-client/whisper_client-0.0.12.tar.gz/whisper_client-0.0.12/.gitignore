@@ -1,0 +1,5 @@
+/venv/
+/.idea/
+*.wav
+credentials*
+/dist/
