@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: osmilepipdemo
+Version: 0.0.1
+Summary: a pip upload bag
+Author-email: OSmile <whghcyx@outlook.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 这是一个可以上传到pypi的例程
+
+# pypi网站
+[https://pypi.org/](https://pypi.org/)
+
+# 操作流程
+## 安装需要的包
+```
+python -m pip install --upgrade build
+python -m pip install --upgrade twine
+```
+## 编译包
+```
+python -m build
+```
+
+## 上传包
+```
+python -m twine upload --repository testpypi dist/*
+```

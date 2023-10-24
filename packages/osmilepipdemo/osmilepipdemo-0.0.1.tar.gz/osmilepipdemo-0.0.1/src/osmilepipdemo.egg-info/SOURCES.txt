@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/osmilepipdemo/__init__.py
+src/osmilepipdemo/example.py
+src/osmilepipdemo.egg-info/PKG-INFO
+src/osmilepipdemo.egg-info/SOURCES.txt
+src/osmilepipdemo.egg-info/dependency_links.txt
+src/osmilepipdemo.egg-info/top_level.txt
+src/pipdemo/__init__.py
+src/pipdemo/example.py
+tests/testmain.py
