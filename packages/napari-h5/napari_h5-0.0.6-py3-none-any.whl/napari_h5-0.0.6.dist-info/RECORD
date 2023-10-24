@@ -1,0 +1,13 @@
+napari_h5/__init__.py,sha256=ABaq-BN3lzHfciMjUAEjXm0u1TLFtOz13oTXdryX90M,216
+napari_h5/_reader.py,sha256=iJRF2e6_TsD0QeQ4C8amPWDbmx3xMtyPtl6KOuFpCaQ,3796
+napari_h5/_writer.py,sha256=Ex4NNfIqhOLd47vFphrTh6M0JKtfF02GcoGDJTmjnBc,2110
+napari_h5/napari.yaml,sha256=UWX5fDLHydKKgF026D9f9LI6Z9W-2NltKVvEOIoz5rw,868
+napari_h5/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_h5/_tests/test_reader.py,sha256=SKuNwNI6Q5vBvRKV98aLT8I2JchbmAAnD47RMMU43qo,1052
+napari_h5/_tests/test_writer.py,sha256=FO5tgSDp7zKaufa9ZW1BXqqGODmCLOo3GUoz-6YC3x0,1664
+napari_h5-0.0.6.dist-info/LICENSE,sha256=ILFVyE-dUVB6kn2w45KEAPo7yRjaTbs6T5n1owgCsbA,11560
+napari_h5-0.0.6.dist-info/METADATA,sha256=KBr1TYP8jHBGMHlg4YqQl9RzQ432YqX5ZIm4vPM_eeE,3890
+napari_h5-0.0.6.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+napari_h5-0.0.6.dist-info/entry_points.txt,sha256=TgXJT5YOZ3VYEw5wD56hCAG37mErqVSWmy-sUwP-83E,52
+napari_h5-0.0.6.dist-info/top_level.txt,sha256=Vx-oBU-SmBmoFBJsMKSpqot_hP9T97SwRm6b7lTdol4,10
+napari_h5-0.0.6.dist-info/RECORD,,

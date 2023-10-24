@@ -1,0 +1,2 @@
+[napari.manifest]
+napari-h5 = napari_h5:napari.yaml
