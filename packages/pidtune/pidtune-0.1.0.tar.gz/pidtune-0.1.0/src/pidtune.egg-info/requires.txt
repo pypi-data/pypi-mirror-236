@@ -1,0 +1,7 @@
+typeguard
+numpy
+sympy==1.5.1
+pillow
+control
+openpyxl
+pandas

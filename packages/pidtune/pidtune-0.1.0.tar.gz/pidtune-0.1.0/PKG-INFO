@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pidtune
+Version: 0.1.0
+Summary: PID tuning server for factorial order models.
+Home-page: https://github.com/jeancahu/pidtune
+Author: Jeancarlo Hidalgo
+Author-email: jeancahu@gmail.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: typeguard
+Requires-Dist: numpy
+Requires-Dist: sympy==1.5.1
+Requires-Dist: pillow
+Requires-Dist: control
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+
+
+# PID tuning tool
+
+It includes some useful rules for PID controllers tuning and process identification, also it returns the close-loop simulations when the process incorporates delay/dead-time.
+
+## Developer enviroment
+
+### Install
+
+```bash
+virtualenv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+```
+
+### Run tests
+
+```bash
+## Alfaro123c an FOM validation tests
+pytest test/test.py
+```
