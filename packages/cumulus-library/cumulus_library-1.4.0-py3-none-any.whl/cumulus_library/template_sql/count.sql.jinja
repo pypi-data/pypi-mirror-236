@@ -1,0 +1,100 @@
+-- noqa: disable=LT02
+{# LT02 is a indentation rule that overfires in the where clause construction;
+it simultaneously asks for indentation of 4 and 8 spaces.
+
+TODO: revisit on sqlfluff upgrade #}
+CREATE TABLE {{ table_name }} AS (
+    WITH 
+    {%- if filter_resource %}
+    filtered_table AS (
+        SELECT
+            subject_ref,
+            {%- if fhir_resource=='condition' %}
+            condition_ref,
+            {%- elif fhir_resource=='document' %}
+            document_ref,
+            {%- elif fhir_resource=='encounter' %}
+            encounter_ref,
+            {%- elif fhir_resource=='observation' %}
+            observation_ref,
+            {%- endif -%}
+            {% for col in table_cols %}
+            "{{ col }}"
+            {%- if not loop.last -%}
+            , 
+            {%- endif -%}
+            {%- endfor %}
+        FROM {{ source_table }}
+        {%- if fhir_resource=='document' and filter_resource %}
+        WHERE (status = 'current')
+        AND d.docStatus IN (null, 'final', 'amended')
+        {%- elif fhir_resource=='encounter' and filter_resource %}
+        WHERE status = 'finished'
+        {%- elif fhir_resource=='observation' and filter_resource %}
+        WHERE (status = 'final' OR status= 'amended')
+        {%- endif %}
+    ),
+    {% endif %}
+    powerset AS (
+        SELECT
+            count(DISTINCT subject_ref) AS cnt_subject,
+            {%- if fhir_resource=='condition' %}
+            count(DISTINCT condition_ref) AS cnt_condition,
+            {%- elif fhir_resource=='document' %}
+            count(DISTINCT document_ref) AS cnt_document,
+            {%- elif fhir_resource=='encounter' %}
+            count(DISTINCT encounter_ref) AS cnt_encounter,
+            {%- elif fhir_resource=='observation' %}
+            count(DISTINCT observation_ref) AS cnt_observation,
+            {%- endif -%}
+            {% for col in table_cols %}
+            "{{ col }}"
+            {%- if not loop.last -%}
+            , 
+            {%- endif -%}
+            {%- endfor %}
+        {%- if filter_resource %}
+        FROM filtered_table
+        {%- else  %}
+        FROM {{ source_table }}
+        {% endif %}
+        GROUP BY
+            cube( 
+                {%- for col in table_cols %}
+                "{{ col }}"
+                {%- if not loop.last -%}
+                , 
+                {%- endif -%}
+                {%- endfor %}
+            )
+    )
+
+    SELECT
+        {%- if fhir_resource=='condition' %}
+        cnt_condition
+        {%- elif fhir_resource=='document' %}
+        cnt_document
+        {%- elif fhir_resource=='encounter' %}
+        cnt_encounter
+        {%- elif fhir_resource=='observation' %}
+        cnt_observation
+        {%- else %}
+        cnt_subject
+        {%- endif %} AS cnt,
+        {%- for col in table_cols %}
+        "{{ col }}"
+        {%- if not loop.last -%}
+        , 
+        {%- endif -%}
+        {%- endfor %}
+    FROM powerset
+    {%- if where_clauses %}
+    WHERE
+        {% for clause in where_clauses %}{{ clause }}
+        {% if not loop.last %}AND {% endif %}
+        {%- endfor -%}
+    {% else %}
+    WHERE 
+        cnt_subject >= {{ min_subject }}
+    {%- endif %}
+);
