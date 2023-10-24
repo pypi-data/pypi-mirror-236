@@ -1,0 +1,2 @@
+[console_scripts]
+rabbit = rabbit.__main__:cli
