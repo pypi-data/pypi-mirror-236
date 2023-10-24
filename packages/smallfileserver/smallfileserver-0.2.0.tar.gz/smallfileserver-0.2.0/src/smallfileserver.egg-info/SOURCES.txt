@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/smallfileserver/__init__.py
+src/smallfileserver/__main__.py
+src/smallfileserver/fileserver.py
+src/smallfileserver/versions.py
+src/smallfileserver.egg-info/PKG-INFO
+src/smallfileserver.egg-info/SOURCES.txt
+src/smallfileserver.egg-info/dependency_links.txt
+src/smallfileserver.egg-info/top_level.txt
+tests/testmain.py
