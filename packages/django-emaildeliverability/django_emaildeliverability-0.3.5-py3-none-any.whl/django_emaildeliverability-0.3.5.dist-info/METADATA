@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: django-emaildeliverability
+Version: 0.3.5
+Summary: A Django app to ensure that emails reach their intended destination
+Home-page: https://github.com/tamoeinnovation/django-emaildeliverability
+Author: Tamoe Innovation
+Author-email: info@tamoe.es
+License: GPL-3.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django >=3.2
+Requires-Dist: imap-tools ==1.4.0
+Requires-Dist: loguru ==0.7.2
+
+# Emaildeliverability
+
+A Django app that help monitoring systems to ensure that emails reach their intended destination.
+
+## Installation
+
+Use the package manager pip to install Emaildeliverability.
+
+```
+pip install django-emaildeliverability
+```
+
+## Quick start
+
+1. Set the following variables in your settings.py (replace the values with your own):
+
+```
+EMAIL_DELIVERABILITY = {
+    'USER': 'email@example.com',
+    'PASSWORD': 'mysecretpassword',
+    'SERVER': 'mail.example.com' # Imap server,
+    'TIMEOUT': 45 # Optional. Time, in seconds, during which the app will try to verify that the email has reached its destination
+    'INTERVAL': 5 # Optional. Retry interval
+}
+```
+
+1. Add "emaildeliverability" to your INSTALLED_APPS setting like this:
+
+```
+    INSTALLED_APPS = [
+        ...,
+        "emaildeliverability",
+    ]
+```
+
+2. Include the emaildeliverability URLconf in your project urls.py like this:
+
+```
+    path("emaildeliverability/", include("emaildeliverability.urls")),
+```
+
+3. Point your prefered monitoring tool to http://localhost:8000/emaildeliverability/check (replace localhost:8000 with your host:port). The request will return the text 'OK' and a status of 200 if the email reached the destination mailbox before TIMEOUT seconds, or 'KO' and a status of 400 otherwise.
+
+
+
