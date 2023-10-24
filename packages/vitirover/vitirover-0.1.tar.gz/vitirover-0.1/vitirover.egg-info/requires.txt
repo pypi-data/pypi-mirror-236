@@ -1,0 +1,6 @@
+pygame
+protobuf
+socket
+math
+time
+random
