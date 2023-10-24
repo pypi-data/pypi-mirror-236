@@ -1,0 +1,9 @@
+quantum-blackbird==0.5.0
+
+[:python_version >= "3.7"]
+numpy>=1.19.5
+scipy>=1.5.4
+theboss==2.0.3
+
+[tensorflow]
+tensorflow
