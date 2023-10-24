@@ -1,0 +1,9 @@
+seaborn
+tksheet
+matplotlib
+scipy
+pandas
+numpy
+
+[:python_version < "3.8"]
+importlib_metadata

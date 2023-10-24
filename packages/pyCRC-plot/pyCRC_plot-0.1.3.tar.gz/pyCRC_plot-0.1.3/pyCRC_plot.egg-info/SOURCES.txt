@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+pyCRC_plot/CRC.py
+pyCRC_plot/__init__.py
+pyCRC_plot/gui.py
+pyCRC_plot/show_results.py
+pyCRC_plot.egg-info/PKG-INFO
+pyCRC_plot.egg-info/SOURCES.txt
+pyCRC_plot.egg-info/dependency_links.txt
+pyCRC_plot.egg-info/entry_points.txt
+pyCRC_plot.egg-info/requires.txt
+pyCRC_plot.egg-info/top_level.txt
