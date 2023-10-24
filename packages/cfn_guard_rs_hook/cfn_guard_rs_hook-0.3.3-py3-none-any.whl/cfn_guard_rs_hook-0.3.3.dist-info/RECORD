@@ -1,0 +1,6 @@
+cfn_guard_rs_hook/__init__.py,sha256=fKydPUjrxllpYGHPlKxKS6lb-ihXlpRIv1VC-HoE8vc,361
+cfn_guard_rs_hook/guard_hook.py,sha256=0CycqC_dFLxXPVXGrwmtR1QlQ4khZNjIY3Tjc4hHSMU,11369
+cfn_guard_rs_hook/types.py,sha256=jPFgk1jgufk5nEpjvF9BVNxX36NeeQM5496MnUM5WPc,553
+cfn_guard_rs_hook-0.3.3.dist-info/METADATA,sha256=HK05WkfK_5M2P9-sYaIiJvDdLm8Ezw7nYyAe6Pgwufo,788
+cfn_guard_rs_hook-0.3.3.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+cfn_guard_rs_hook-0.3.3.dist-info/RECORD,,
