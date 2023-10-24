@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "mermaid-py"
+version = "0.1.4"
+description = "my description of the package"
+authors = ["ouhammmourachid <rachidouhammou21@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mermaid"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+uuid = "^1.30"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

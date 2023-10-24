@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mermaid-py
+Version: 0.1.4
+Summary: my description of the package
+Author: ouhammmourachid
+Author-email: rachidouhammou21@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: uuid (>=1.30,<2.0)
+Description-Content-Type: text/markdown
+
+
