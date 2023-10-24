@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: PenPen-AI
+Version: 0.0.10
+Summary: A Python package for standardizing prompts for LLMs.
+Home-page: https://github.com/qurami/PenPen
+Author: Ufirst S.r.l.
+License: MIT
+Keywords: LLM,GPT,prompting,ufirst
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tiktoken ==0.4.0
+Requires-Dist: openai ==0.28.1
+
+# 🐧 ペンペン (PenPen)
+
+## Developer guide
+
+### Install
+
+To install PenPen from pypi use
+
+```
+pip install PenPen-AI
+```
+
+To install PenPen from a local copy in editable mode (to perform changes) use
+
+```
+pip install -e {path_to_local_copy}
+```
+
+
+### Deploy
+
+steps to deploy on pypi:
+
+```
+// install setuptools wheel and twine
+pip install setuptools wheel twine 
+
+// package the project
+python setup.py sdist bdist_wheel
+
+// deploy (make sure to have credentials in ~/.pypirc or to pass as argument)
+twine upload dist/*
+```
+
+## CLI User Guide
+
+### Install
+
+```
+pip install PenPen-AI
+```
+
+### Run
+
+```
+// run a prompt
+prompt-runner run -p {path_to_prompt} -t {path_to_task}
+
+// get usage
+prompt-runner --help
+```
+
+### Prompt folder structure and some details
+
+PromptRunner is a cli that allows you to run prompt for testing purposes.
+It accepts the following arguments:
+
+`-p --prompt`: the folder of the prompt to run
+`-t --task`: the task to run for the given prompt, task specific files must be in the prompt directory
+`-o --output-dir`: the output directory where to write the response, the response is otherwise saved in the output folder of the executed task
+
+#### Folder structure:
+
+```
+{prompt_folder}/
+  - openai.json # contains the openai client configuration
+  - persona.md # contains the persona prompt
+  - task_template.md # contains the task template prompt
+  - functions.py # (optional) contains the functions to be used for this prompt
+  - {task}/ # folder of a task
+    - facts.json (optional) # array of fact items, contains the facts specific to this task
+    - facts_filter.json (optional) # array of fact tag ids to be filtered
+    - task_parameter_1.md (optional) # contains the task parameters  to be populated in the template
+    ...
+    - task_paramteer_n.md (optional) # n-th task parameter
+```
+
+#### Info on the files 
+
+##### openai.json
+
+Contains the openai arguments used for this specific call, all fields are optional except the `model` field:
+
+```
+{
+    "model": "gpt-3.5-turbo-0613" // one of "gpt-3.5-turbo-0613", "gpt-3.5-turbo-0613", "gpt-4-0613"
+    "max_tokens": 1000 // max tokens for the response
+    "stream": true // stream the response or not
+    "temperature": 0.3 // temperature to be used
+    "top_p": null // omit it when using temperature
+    "n": 1 // right now only 1 is supported, so can be omitted
+    "max_retries_after_openai_error": 5 // how many times to retry after an openai error before failing
+    "retry_delay_seconds": 15 // how many seconds to wait before retrying
+}
+```
+
+##### persona.md
+A markdown template that holds the persona prompt
+
+##### task_template.md
+A markdown template that holds the task prompt, to add `task_parameters` use the template syntax `{task_parameter_name}` (check examples for more details).
+
+##### functions.py
+A python file containing functions to be used to parse the prompt, check examples for more details, but it is important that the variables: `function_wrappers`, `function_call`, `max_consecutive_function_calls` are defined.
+
+##### {task}/facts.json and {task}/facts_filter.json
+`{task}/facts.json` is a json file containing an array of facts to be used for this task, each fact is an object with the following fields:
+
+```
+{
+    "tag": "fact_id", // a unique id for the fact
+    "content": "fact content", // the fact content
+}
+```
+
+`{task}/facts_filter.json` is a json file containing an array of fact ids to be filtered, if this file is not present all facts will be used, otherwise only the facts with the ids in the filter will be used.
+
+##### {task}/{task_parameter_name}.md
+If there are task parameters in the task template, there must be a file for each task parameter, the file name must be the same as the task parameter name, the file must be a markdown file and it must contain the task parameter content.
+
+
+### Chain
+
+With the chain command it is possible to chain two prompt run execution, the output of the n-th prompt run will be appended to the task_template of the n+1-th prompt run.
+
+```
+prompt-runner chain -p {prompt_path1},{task_name1} {prompt_path2},{task_name2} ... {prompt_pathn},{task_n} -o {output_path}
+``` 
+
+The output for each chain execution will be stored in the folder chain_{timestamp} of the working directory, unless an output directory is specified with the `-o` argument.
