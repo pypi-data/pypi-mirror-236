@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pochi
+Version: 0.0.2
+Summary: A tool that allows a user to create, build, deploy, and test Snowflake native applications
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: snowflake_connector_python==3.2.1
+Requires-Dist: toml==0.10.2
+
+Pochi is a Command Line Interface (CLI) tool that allows a user to create, build, deploy, and test Snowflake native applications with simple commands.
