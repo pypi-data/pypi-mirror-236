@@ -1,0 +1,16 @@
+celery_sqlalchemy/__init__.py,sha256=5j83q0ntmoDjoQ3kb7wLLkNzBIu1I-lpDlOsRRR-iHU,1103
+celery_sqlalchemy/errors.py,sha256=8Tvu18Kbha9YpEajhE0Om4aZ9I9OLcru_ghPlO_PZHI,411
+celery_sqlalchemy/json/__init__.py,sha256=29emLyYfYay9rgCCU9dCqg1RaTtAocK-snxeCNosgSI,15502
+celery_sqlalchemy/json/postgresql.py,sha256=_v49-iJrUbvtWQX5bPAfT-V9djNpWr-Ot3fuoLbtoQE,11146
+celery_sqlalchemy/json/sqlalchemy.py,sha256=_3gKOUWetL-Wdm38IUZXivMQFqSidgHS8u21MnqSKAA,7302
+celery_sqlalchemy/model/__init__.py,sha256=mN_Jb4KjCkTyWMJgbSfNiWzhs8fzGso_Zq0eNtukzb4,3822
+celery_sqlalchemy/model/postgresql_1_4.py,sha256=LsdMLhwp5IRMylcqbq1zu8V_uyZztXhCZG3pwxYRbKk,6568
+celery_sqlalchemy/model/postgresql_2_0.py,sha256=3HQNUOYlQDmWTZJQUwsZL_cTiPP6HKGUVuMFS4wnIvw,4282
+celery_sqlalchemy/model/sqlalchemy_1_4.py,sha256=G8pg4iQ8RRvHQ5tcu9BiIvoTu8Fbj2Sc2bBC_dn_sRg,2808
+celery_sqlalchemy/model/sqlalchemy_2_0.py,sha256=SzGBam0lDKK0yPaY7zQh44Q53dIP-JpqmmakQn_bQsU,682
+celery_sqlalchemy/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+celery_sqlalchemy/schema.py,sha256=44EH8QXAM-x_XBowTfU8TmX7W4ZZqtSkegtN9fDuaq0,747
+celery_sqlalchemy-0.1.5.dist-info/LICENSE,sha256=8gJcKmTJTfpfX3PliGTO28e1LGg7O88gaDikkIFAd1E,1496
+celery_sqlalchemy-0.1.5.dist-info/METADATA,sha256=CPGDCDYH85EL4ynTDdYbQojP3bQaJqHLtlLxTUrzdrs,3765
+celery_sqlalchemy-0.1.5.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+celery_sqlalchemy-0.1.5.dist-info/RECORD,,
