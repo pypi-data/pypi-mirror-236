@@ -1,0 +1,8 @@
+rpaframework>=26.0.0
+
+[dev]
+black
+bumpver
+isort
+pip-tools
+unitest

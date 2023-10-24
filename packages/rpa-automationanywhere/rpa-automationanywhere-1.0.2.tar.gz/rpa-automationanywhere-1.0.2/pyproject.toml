@@ -1,0 +1,32 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=63.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tools.setuptools]
+packages = ["rpa_automationanywhere"]
+
+[project]
+name = "rpa-automationanywhere"
+version = "1.0.2"
+description = "Automation Anywhere A360 API implementation"
+readme = "README.md"
+authors = [{ name = "Grzegorz Ziolo", email = "grzegorz.ziolo@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["rpa", "A360", "Automation Anywhere"]
+dependencies = [
+    "rpaframework >= 26.0.0"
+]
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "unitest"]
+
+[project.urls]
+Homepage = "https://github.com/21010/rpa-automationanywhere"
