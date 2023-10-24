@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: mnnlib
+Version: 0.1
+Summary: Minejerik Machine Learning library
+Home-page: https://github.com/Minejerik/mnnlibv2
+Author: minejerik
+Author-email: dev@minejerik.dev
+License: MIT
+Download-URL: https://github.com/Minejerik/mnnlibv2/archive/refs/tags/alpha.tar.gz
+Description: UNKNOWN
+Keywords: Minejerik,Ai,Neural Network
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
