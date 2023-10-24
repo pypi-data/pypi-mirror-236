@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+python_simple_log.egg-info/PKG-INFO
+python_simple_log.egg-info/SOURCES.txt
+python_simple_log.egg-info/dependency_links.txt
+python_simple_log.egg-info/requires.txt
+python_simple_log.egg-info/top_level.txt
+simplelog/__init__.py
+simplelog/config.py
+simplelog/const.py
+simplelog/log.py

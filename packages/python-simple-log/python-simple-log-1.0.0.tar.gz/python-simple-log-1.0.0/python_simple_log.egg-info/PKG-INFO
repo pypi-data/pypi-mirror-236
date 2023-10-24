@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-simple-log
+Version: 1.0.0
+Summary: Simple log helper library.
+Home-page: https://github.com/MarcinOrlowski/python-simple-log/
+Author: Marcin Orlowski
+Author-email: mail@marcinOrlowski.com
+License: MIT License
+Project-URL: Bug Tracker, https://github.com/MarcinOrlowski/python-simple-log/issues/
+Project-URL: Documentation, https://github.com/MarcinOrlowski/python-simple-log/
+Project-URL: Source Code, https://github.com/MarcinOrlowski/python-simple-log/
+Keywords: simple log helper library
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: argparse>=1.4.0
+
+### Python Simple Log Helper Library ###
