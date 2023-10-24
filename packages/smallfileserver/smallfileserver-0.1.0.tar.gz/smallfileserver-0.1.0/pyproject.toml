@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smallfileserver"
+version = "0.1.0"
+authors = [
+  { name="OSmile", email="whghcyx@outlook.com" },
+]
+description = "A webpage that supports file upload and download"
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/WHG555/smallfileserver"
+"Bug Tracker" = "https://github.com/WHG555/smallfileserver/issues"
