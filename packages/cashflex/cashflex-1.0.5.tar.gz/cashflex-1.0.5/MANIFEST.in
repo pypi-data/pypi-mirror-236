@@ -1,0 +1,7 @@
+include cashflex/*.py
+include cashflex/ui/*
+include cashflex/css/*
+include cashflex/db/*
+include images/*
+include desktop/*
+include icons/*/*
