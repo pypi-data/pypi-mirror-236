@@ -1,0 +1,10 @@
+lpsolvers/__init__.py,sha256=34BmBd8-wpodmCFk0ZQbatNZd00qmzBUyDzyQP9QGSA,5205
+lpsolvers/cdd_.py,sha256=S_JQcR7-QxIw6KePkfMkVOpo43fPJM9l0F0uR5iO80M,2519
+lpsolvers/cvxopt_.py,sha256=wFE8Ewrf4l2XAOxahD605FrPAjKIBaX-pF69cnV5EgM,3521
+lpsolvers/cvxpy_.py,sha256=wjVpVtbh0EurzvOnv77K9tjjLxKPOgpqAMyd53JMDWw,2668
+lpsolvers/exceptions.py,sha256=pL3f6YV5b8LQXCJwby8W2kZN8i_jFpMfmITbrcrUg1E,1103
+lpsolvers/proxqp_.py,sha256=a6k932z2VgwZfyaIVeui6vWF20tm9fFS1QRfT6BYrdI,4176
+lpsolvers-1.2.0.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+lpsolvers-1.2.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+lpsolvers-1.2.0.dist-info/METADATA,sha256=uc-SrNcSbtMlC331jp964W8B4RjTPf05Oy-x7yPnno4,3491
+lpsolvers-1.2.0.dist-info/RECORD,,
