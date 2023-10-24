@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "hwcramerchecker-py"
+version = "1.0.4"
+description = "my_check_DZ_1('file_name.ipynb')"
+authors = ["Simon_lob <simonlobgromov@gmail.com>"]
+readme = "README.md"
+packages = [{include = "hwcramerchecker"}]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
