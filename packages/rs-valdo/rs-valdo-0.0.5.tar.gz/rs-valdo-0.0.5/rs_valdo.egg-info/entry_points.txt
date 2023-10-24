@@ -1,0 +1,2 @@
+[console_scripts]
+valdo.refine = valdo.commandline.refine:main
