@@ -1,0 +1,15 @@
+faker_food/__init__.py,sha256=e52uDI-tzuTd3A_8nsI8ulwruKX0andWSlBXgDmd4ZY,1445
+faker_food/categories.py,sha256=rqhDwZEtO4WvtP90eGcxj0m-Fqv8mKKQKJJlR7EnwKY,386
+faker_food/dish_descriptions.py,sha256=lcjJvD_7MXR_b_ld9CaDYfa3taAzmV3_GWnQ3tEGkDc,1896
+faker_food/dishes.py,sha256=mMAJBmPyCbiXogQk37iMx1F0Sli9Lt2uCjXgcLuEcOo,909
+faker_food/ethnic_categories.py,sha256=S7RXoAEW6_dEdHgUSbIuPhazxTk6hUWiMQPsUGJ9Xto,2011
+faker_food/fruits.py,sha256=4odRcUcWMZEa6YwSjyK4pvcz3tMcxPf_2RT7O9XWxfw,1184
+faker_food/ingredients.py,sha256=55LV-5nGIm-QGKqRUjpIQP47FiXhVwRAOqYuQpM6h3w,8687
+faker_food/measurements.py,sha256=EHamyncIAhgNKR6JAvFPjiftQpJ-zg4bF784YyMkioA,208
+faker_food/spices.py,sha256=aIYPBX7M6iXskg1YV_1y18dgP_9kx-pD-dRHo6sC8z4,3912
+faker_food/sushi.py,sha256=c7GeqQlZc1hA9DRaJmMGjhZt_3Q3yMBLLPkp__sPOvw,749
+faker_food/vegetables.py,sha256=K56AwB7t6qp3pqfbUuih2X4ozR-8es3Yn2x9-0ZsFtU,1144
+faker_food-0.3.0.dist-info/LICENSE,sha256=FtPTameJ-cTYVZKRLfSsTyRVcAaYdxys6W7ZkpwRd9c,1067
+faker_food-0.3.0.dist-info/METADATA,sha256=4EU6D002mhdCx2oEHPj049Q6OZ9G190FKA3D4sVoxhc,2230
+faker_food-0.3.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+faker_food-0.3.0.dist-info/RECORD,,
