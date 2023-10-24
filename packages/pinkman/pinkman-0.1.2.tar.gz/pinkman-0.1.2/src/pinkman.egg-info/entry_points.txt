@@ -1,0 +1,2 @@
+[console_scripts]
+pinkman = pinkman.cli:main

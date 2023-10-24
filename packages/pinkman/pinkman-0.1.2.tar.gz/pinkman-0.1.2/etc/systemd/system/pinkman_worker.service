@@ -1,0 +1,14 @@
+[Unit]
+Description=Pinkman Worker
+After=multi-user.target
+StartLimitIntervalSec=500
+StartLimitBurst=5
+
+[Service]
+Restart=on-failure
+RestartSec=5s
+ExecStart=pinkman worker run -c /etc/config.pinkman.prod.yml
+
+[Install]
+WantedBy=multi-user.target
+

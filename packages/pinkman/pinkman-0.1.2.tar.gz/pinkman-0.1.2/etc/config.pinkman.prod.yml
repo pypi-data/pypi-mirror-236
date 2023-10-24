@@ -1,0 +1,13 @@
+server:
+  hostname: localhost
+  port: 1025
+
+cache:
+  type: sqlite
+  path: /etc/pinkman.prod.db
+
+backend:
+  type: http
+  method: post
+  url: https://pinkman.free.beeceptor.com
+  apikey: 5ab99869-f403-4481-bed6-da7c8aad7521
