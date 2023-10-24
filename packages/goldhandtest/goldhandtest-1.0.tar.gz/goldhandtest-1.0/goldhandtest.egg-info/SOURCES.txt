@@ -1,0 +1,8 @@
+README.md
+setup.py
+goldhandtest/__init__.py
+goldhandtest/main.py
+goldhandtest.egg-info/PKG-INFO
+goldhandtest.egg-info/SOURCES.txt
+goldhandtest.egg-info/dependency_links.txt
+goldhandtest.egg-info/top_level.txt
