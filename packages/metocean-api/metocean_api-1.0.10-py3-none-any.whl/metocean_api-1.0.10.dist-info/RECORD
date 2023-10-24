@@ -1,0 +1,16 @@
+metocean_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metocean_api/ts/__init__.py,sha256=BJgQEsUxxzXUWsFb26vHIFBQGb_XMDqTIO_y3cDeth0,531
+metocean_api/ts/aux_funcs.py,sha256=s-wjmTeMpzAi8cBj8K4gCaBFmmOeSZBGrZhbcR4r6QU,8465
+metocean_api/ts/read_ec.py,sha256=y6r5oEJcGVhOvMRrG3vUZXro2ksGCsL2b2e7KQ6wEcU,2658
+metocean_api/ts/read_metno.py,sha256=rnK3TtQv86TwP8laNUijQCNGeoY70HRcP2E-shTUJxA,8532
+metocean_api/ts/ts_mod.py,sha256=mwV3bpD_VYw5i3KvQQCM0CEhUwd8A6K4mB855j0FHG4,4141
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_combine_data.py,sha256=SieUyqF2gfeQqOfr7VReAZP_5pqzSCVzuRuHisO-vrc,479
+tests/test_extract_data.py,sha256=LDY-52CvpTj0R4L9d9o20WF4pxQUU2UTfwjlnmZG9YU,1605
+tests/data/NORA3_atm_sub_lon1.32_lat53.324_20210101_20210331.csv,sha256=TxPuA7_Fds2QI8QoHCIRtM58WK2Usf7SfzfItDFQZC4,134459
+tests/data/NORA3_wind_sub_lon1.32_lat53.324_20210101_20210131.csv,sha256=w_5cBPXgiGREjL3yMfLo7Vb5SMYE8tfbrE0GIfmb2zs,73812
+metocean_api-1.0.10.dist-info/LICENSE.txt,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+metocean_api-1.0.10.dist-info/METADATA,sha256=LFhSRfNdyShunoBKqqyG0PlQwAj1tbs4MRvbvLfKEEA,576
+metocean_api-1.0.10.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+metocean_api-1.0.10.dist-info/top_level.txt,sha256=a3QbQi4w_yIR1WDKmfGgEq6PIB0OSB-54h5FtMbf58o,19
+metocean_api-1.0.10.dist-info/RECORD,,
