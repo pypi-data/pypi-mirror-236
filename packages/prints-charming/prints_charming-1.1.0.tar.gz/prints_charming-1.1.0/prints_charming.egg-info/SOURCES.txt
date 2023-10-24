@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+prints_charming/__init__.py
+prints_charming/prints_charming.py
+prints_charming.egg-info/PKG-INFO
+prints_charming.egg-info/SOURCES.txt
+prints_charming.egg-info/dependency_links.txt
+prints_charming.egg-info/top_level.txt
