@@ -1,0 +1,9 @@
+smallfileserver/__init__.py,sha256=XNOw0LN2tXux29n66y_0h-K3hp9r31oOW0dtoJI9Eec,82
+smallfileserver/__main__.py,sha256=mzwiBUu99hicazwIO9LZDHSjNMLv7u0d2zx-JNxW8OI,1133
+smallfileserver/fileserver.py,sha256=sr_0y9yPMBPRbglKMKU-ZJ7rg4EHFXTBEPd07Zx6-wU,3507
+smallfileserver/versions.py,sha256=9e_K23mXuotspr7_Vza6xnPsdOGD_TboPIGszT_pjhE,17
+smallfileserver-0.2.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+smallfileserver-0.2.0.dist-info/METADATA,sha256=cS6JzHJLSx6ce7GN88AR4x50NMg1mmrl09nML1xQkmc,760
+smallfileserver-0.2.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+smallfileserver-0.2.0.dist-info/top_level.txt,sha256=DfM9T5CPqvS98-rmXMeWQv7jwU1v5bJrJ_DrWXlpPVI,16
+smallfileserver-0.2.0.dist-info/RECORD,,
