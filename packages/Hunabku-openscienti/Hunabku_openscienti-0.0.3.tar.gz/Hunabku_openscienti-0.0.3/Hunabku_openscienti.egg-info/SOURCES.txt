@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+Hunabku_openscienti.egg-info/PKG-INFO
+Hunabku_openscienti.egg-info/SOURCES.txt
+Hunabku_openscienti.egg-info/dependency_links.txt
+Hunabku_openscienti.egg-info/requires.txt
+Hunabku_openscienti.egg-info/top_level.txt
+hunabku_openscienti/__init__.py
+hunabku_openscienti/_version.py
+hunabku_openscienti/endpoints/OpenScienti.py
