@@ -1,0 +1,11 @@
+faqbot/__init__.py,sha256=gAFH0K7Lc47M-MOOu8RwacNohjSV1L4xVsCfhE0mw2k,163
+faqbot/__main__.py,sha256=jnS-6WwRISbeD3pKF50m2tLVz25oRKTdJindS36A11k,64
+faqbot/hooks.py,sha256=SeEo6HZkhlBrqp4DQLokDpBgxT12XoLcY6M7byGCWj8,5839
+faqbot/orm.py,sha256=pLArnWjsC7ukIHVx-ABWIIQ9jrP0bChxvQPCdbrOtfA,1229
+faqbot/utils.py,sha256=Zo6g-u5gwqzfeeM5gltjyRScaunQtnRDMy9x2uyg4hY,1063
+deltachat_faqbot-0.3.0.dist-info/LICENSE.txt,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+deltachat_faqbot-0.3.0.dist-info/METADATA,sha256=nc26TtlCNC4oBQw3qkKSSE7CGax6EPqFqL0oES7LQGw,41918
+deltachat_faqbot-0.3.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+deltachat_faqbot-0.3.0.dist-info/entry_points.txt,sha256=LPihtLfVtOY_74CMHDuB2b-o-S4mxY8J32JNubC7uVc,39
+deltachat_faqbot-0.3.0.dist-info/top_level.txt,sha256=owc81PC21g6sHQ1ESOzXn8ZV_85OmuEq4RplpAErzd8,7
+deltachat_faqbot-0.3.0.dist-info/RECORD,,
