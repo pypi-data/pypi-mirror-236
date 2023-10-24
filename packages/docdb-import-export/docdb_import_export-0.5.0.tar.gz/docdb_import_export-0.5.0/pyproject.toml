@@ -1,0 +1,26 @@
+[project]
+name = "docdb-import-export"
+version = "0.5.0"
+authors = [
+  { name="Mahesh Sankhala", email="maheshsainni@gmail.com" },
+]
+description = "A simple utility package to import json files to document db and export data from document db collections."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+dependencies = [
+    "pymongo>=4.5.0",
+    "python-dotenv>=1.0.0"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/msankhala/docdb-import-export"
+"Bug Tracker" = "https://github.com/msankhala/docdb-import-export/issues"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
