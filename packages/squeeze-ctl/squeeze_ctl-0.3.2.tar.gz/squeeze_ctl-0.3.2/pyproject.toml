@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "squeeze-ctl"
+version = "0.3.2"
+license = "MIT"
+description = "Control your SqueezeBox from the terminal"
+authors = ["Simon Redding <s1m0n.r3dd1ng@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+requests = "^2.31.0"
+#tui_toolkit = { path = "../tui-toolkit/", develop = true }
+tui-toolkit = "^0.2.1"
+squeeze-jrpc = "^0.1.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2"
+pytest-watch = "^4.2.0"
+flake8 = "^6.1.0"
+bandit = "^1.7.5"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.scripts]
+squeeze-ctl = "squeeze_ctl:cli_main"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

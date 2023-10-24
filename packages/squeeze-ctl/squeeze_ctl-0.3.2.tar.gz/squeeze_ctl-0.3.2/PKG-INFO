@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: squeeze-ctl
+Version: 0.3.2
+Summary: Control your SqueezeBox from the terminal
+License: MIT
+Author: Simon Redding
+Author-email: s1m0n.r3dd1ng@gmail.com
+Requires-Python: >=3.11,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: click (>=8.1.7,<9.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: squeeze-jrpc (>=0.1.0,<0.2.0)
+Requires-Dist: tui-toolkit (>=0.2.1,<0.3.0)
+Description-Content-Type: text/markdown
+
+# squeezex-ctl [![pipeline status](https://gitlab.com/OldIronHorse/squeeze-ctl/badges/master/pipeline.svg)](https://gitlab.com/OldIronHorse/squeeze-ctl/-/commits/master) [![coverage report](https://gitlab.com/OldIronHorse/squeeze-ctl/badges/master/coverage.svg)](https://gitlab.com/OldIronHorse/squeeze-ctl/-/commits/master)  [![Latest Release](https://gitlab.com/OldIronHorse/squeeze-ctl/-/badges/release.svg)](https://gitlab.com/OldIronHorse/squeeze-ctl/-/releases) 
+
+
+A command line interface to control Logitech Squeezebox players.
+
+
