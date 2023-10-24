@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: LDVisualization
+Version: 0.0.3
+Summary: This package helps visualize lightning datasets inside of a mapbox. Import and use it in jupyter notebook.
+Project-URL: Homepage, https://github.com/Alan1321/GHRCCLOUD-5331_JupyterNotebook_for_LD
+Project-URL: Bug Tracker, https://github.com/Alan1321/GHRCCLOUD-5331_JupyterNotebook_for_LD
+Author-email: GHRC <support-ghrc@earthdata.nasa.gov>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
