@@ -1,0 +1,15 @@
+
+[dev]
+black
+build
+commitizen
+coverage[toml]
+isort
+mypy
+pre-commit
+pytest
+pytest-cov
+pydocstyle
+ruff
+setuptools
+twine
