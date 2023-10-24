@@ -1,0 +1,7 @@
+squeeze_jrpc/__init__.py,sha256=r8KCzrKqWuIW2d4YsvbDmUsGWFXkzUu1AvunqC_FvSI,68
+squeeze_jrpc/commands.py,sha256=K8-QxlPJ3TTeVJgFY3YSn6VB-npZIkA0-ilarD8d08Y,2468
+squeeze_jrpc/protocol/slim.py,sha256=GjU78l4lndGlQAx596jW0Gi_URMmG54QJ7IH6sVMr7U,1412
+squeeze_jrpc/queries.py,sha256=pg7x6pdk7-SqGAN1yFYXUtja9rZVpul3PqfA8AueLKw,703
+squeeze_jrpc-0.1.0.dist-info/METADATA,sha256=vVh5G1NH3hugJhrqnZwopTkR18Za4UadWAzWp7nGCMU,556
+squeeze_jrpc-0.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+squeeze_jrpc-0.1.0.dist-info/RECORD,,
