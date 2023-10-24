@@ -1,0 +1,210 @@
+Metadata-Version: 2.1
+Name: osparc-client
+Version: 0.6.0
+Summary: osparc.io web API (dev)
+Home-page: https://itisfoundation.github.io/osparc-simcore-clients/
+Author: pcrespov, bisgaard-itis
+Author-email: support@osparc.io
+License: MIT
+Keywords: OpenAPI,OpenAPI-Generator,osparc.io web API (dev)
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+Requires-Dist: urllib3 >=1.15
+Requires-Dist: six >=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+![test](https://github.com/ITISFoundation/osparc-simcore-clients/workflows/test/badge.svg)
+[![PyPI](https://img.shields.io/pypi/v/osparc)](https://pypi.org/project/osparc/)
+[![](https://img.shields.io/pypi/status/osparc)](https://pypi.org/project/osparc/)
+[![](https://img.shields.io/pypi/l/osparc)](https://pypi.org/project/osparc/)
+
+Python client for osparc-simcore public web API
+
+- API version: 0.4.5-dev
+- Package version: 0.6.0
+
+## Requirements.
+
+Python 3.6+
+
+## Installation & Usage
+### pip install
+
+To install run
+
+```sh
+pip install osparc_client
+```
+(you may need to run `pip` with root permission)
+
+Then import the package:
+
+```python
+import osparc_client
+```
+
+### Setuptools
+
+Install via [Setuptools](http://pypi.python.org/pypi/setuptools).
+
+```sh
+python setup.py install --user
+```
+(or `sudo python setup.py install` to install the package for all users)
+
+Then import the package:
+
+```python
+import osparc_client
+```
+
+## Getting Started
+
+Please follow the [installation procedure](#installation--usage) and then run the following:
+
+
+```python
+from __future__ import print_function
+import time
+import osparc_client
+from osparc_client.rest import ApiException
+from pprint import pprint
+
+configuration = osparc_client.Configuration()
+# Configure HTTP basic authorization: HTTPBasic
+configuration.username = 'YOUR_API_KEY_HERE'
+configuration.password = 'YOUR_API_SECRET_HERE'
+
+# Enter a context with an instance of the API client
+with osparc_client.ApiClient(configuration) as api_client:
+    # Create an instance of the API class
+    api_instance = osparc_client.FilesApi(api_client)
+    file_id = 'file_id_example' # str | 
+body_abort_multipart_upload_v0_files_file_id_abort_post = osparc_client.BodyAbortMultipartUploadV0FilesFileIdAbortPost() # BodyAbortMultipartUploadV0FilesFileIdAbortPost | 
+
+    try:
+        # Abort Multipart Upload
+        api_response = api_instance.abort_multipart_upload(file_id, body_abort_multipart_upload_v0_files_file_id_abort_post)
+        pprint(api_response)
+    except ApiException as e:
+        print("Exception when calling FilesApi->abort_multipart_upload: %s\n" % e)
+    
+```
+
+## Documentation for API Classes
+
+All URIs are relative to *https://api.osparc.io*
+
+Class | Method | HTTP request | Description
+------------ | ------------- | ------------- | -------------
+*FilesApi* | [**abort_multipart_upload**](docs/FilesApi.md#abort_multipart_upload) | **POST** /v0/files/{file_id}:abort | Abort Multipart Upload
+*FilesApi* | [**complete_multipart_upload**](docs/FilesApi.md#complete_multipart_upload) | **POST** /v0/files/{file_id}:complete | Complete Multipart Upload
+*FilesApi* | [**delete_file**](docs/FilesApi.md#delete_file) | **DELETE** /v0/files/{file_id} | Delete File
+*FilesApi* | [**download_file**](docs/FilesApi.md#download_file) | **GET** /v0/files/{file_id}/content | Download File
+*FilesApi* | [**get_file**](docs/FilesApi.md#get_file) | **GET** /v0/files/{file_id} | Get File
+*FilesApi* | [**get_files_page**](docs/FilesApi.md#get_files_page) | **GET** /v0/files/page | Get Files Page
+*FilesApi* | [**get_upload_links**](docs/FilesApi.md#get_upload_links) | **POST** /v0/files/content | Get Upload Links
+*FilesApi* | [**list_files**](docs/FilesApi.md#list_files) | **GET** /v0/files | List Files
+*FilesApi* | [**search_files_page**](docs/FilesApi.md#search_files_page) | **GET** /v0/files:search | Search Files Page
+*FilesApi* | [**upload_file**](docs/FilesApi.md#upload_file) | **PUT** /v0/files/content | Upload File
+*MetaApi* | [**get_service_metadata**](docs/MetaApi.md#get_service_metadata) | **GET** /v0/meta | Get Service Metadata
+*SolversApi* | [**create_job**](docs/SolversApi.md#create_job) | **POST** /v0/solvers/{solver_key}/releases/{version}/jobs | Create Job
+*SolversApi* | [**delete_job**](docs/SolversApi.md#delete_job) | **DELETE** /v0/solvers/{solver_key}/releases/{version}/jobs/{job_id} | Delete Job
+*SolversApi* | [**get_job**](docs/SolversApi.md#get_job) | **GET** /v0/solvers/{solver_key}/releases/{version}/jobs/{job_id} | Get Job
+*SolversApi* | [**get_job_custom_metadata**](docs/SolversApi.md#get_job_custom_metadata) | **GET** /v0/solvers/{solver_key}/releases/{version}/jobs/{job_id}/metadata | Get Job Custom Metadata
+*SolversApi* | [**get_job_output_logfile**](docs/SolversApi.md#get_job_output_logfile) | **GET** /v0/solvers/{solver_key}/releases/{version}/jobs/{job_id}/outputs/logfile | Get Job Output Logfile
+*SolversApi* | [**get_job_outputs**](docs/SolversApi.md#get_job_outputs) | **GET** /v0/solvers/{solver_key}/releases/{version}/jobs/{job_id}/outputs | Get Job Outputs
+*SolversApi* | [**get_jobs_page**](docs/SolversApi.md#get_jobs_page) | **GET** /v0/solvers/{solver_key}/releases/{version}/jobs/page | Get Jobs Page
+*SolversApi* | [**get_solver**](docs/SolversApi.md#get_solver) | **GET** /v0/solvers/{solver_key}/latest | Get Latest Release of a Solver
+*SolversApi* | [**get_solver_release**](docs/SolversApi.md#get_solver_release) | **GET** /v0/solvers/{solver_key}/releases/{version} | Get Solver Release
+*SolversApi* | [**get_solver_releases_page**](docs/SolversApi.md#get_solver_releases_page) | **GET** /v0/solvers/{solver_key}/releases/page | Get Solver Releases Page
+*SolversApi* | [**get_solvers_page**](docs/SolversApi.md#get_solvers_page) | **GET** /v0/solvers/page | Get Solvers Page
+*SolversApi* | [**get_solvers_releases_page**](docs/SolversApi.md#get_solvers_releases_page) | **GET** /v0/solvers/releases/page | Get Solvers Releases Page
+*SolversApi* | [**inspect_job**](docs/SolversApi.md#inspect_job) | **POST** /v0/solvers/{solver_key}/releases/{version}/jobs/{job_id}:inspect | Inspect Job
+*SolversApi* | [**list_jobs**](docs/SolversApi.md#list_jobs) | **GET** /v0/solvers/{solver_key}/releases/{version}/jobs | List Jobs
+*SolversApi* | [**list_solver_ports**](docs/SolversApi.md#list_solver_ports) | **GET** /v0/solvers/{solver_key}/releases/{version}/ports | List Solver Ports
+*SolversApi* | [**list_solver_releases**](docs/SolversApi.md#list_solver_releases) | **GET** /v0/solvers/{solver_key}/releases | List Solver Releases
+*SolversApi* | [**list_solvers**](docs/SolversApi.md#list_solvers) | **GET** /v0/solvers | List Solvers
+*SolversApi* | [**list_solvers_releases**](docs/SolversApi.md#list_solvers_releases) | **GET** /v0/solvers/releases | Lists All Releases
+*SolversApi* | [**replace_job_custom_metadata**](docs/SolversApi.md#replace_job_custom_metadata) | **PATCH** /v0/solvers/{solver_key}/releases/{version}/jobs/{job_id}/metadata | Replace Job Custom Metadata
+*SolversApi* | [**start_job**](docs/SolversApi.md#start_job) | **POST** /v0/solvers/{solver_key}/releases/{version}/jobs/{job_id}:start | Start Job
+*SolversApi* | [**stop_job**](docs/SolversApi.md#stop_job) | **POST** /v0/solvers/{solver_key}/releases/{version}/jobs/{job_id}:stop | Stop Job
+*StudiesApi* | [**clone_study**](docs/StudiesApi.md#clone_study) | **POST** /v0/studies/{study_id}:clone | Clone Study
+*StudiesApi* | [**create_study_job**](docs/StudiesApi.md#create_study_job) | **POST** /v0/studies/{study_id}/jobs | Create Study Job
+*StudiesApi* | [**delete_study_job**](docs/StudiesApi.md#delete_study_job) | **DELETE** /v0/studies/{study_id}/jobs/{job_id} | Delete Study Job
+*StudiesApi* | [**get_study**](docs/StudiesApi.md#get_study) | **GET** /v0/studies/{study_id} | Get Study
+*StudiesApi* | [**get_study_job**](docs/StudiesApi.md#get_study_job) | **GET** /v0/studies/{study_id}/jobs/{job_id} | Get Study Job
+*StudiesApi* | [**get_study_job_custom_metadata**](docs/StudiesApi.md#get_study_job_custom_metadata) | **GET** /v0/studies/{study_id}/jobs/{job_id}/metadata | Get Study Job Custom Metadata
+*StudiesApi* | [**get_study_job_output_logfile**](docs/StudiesApi.md#get_study_job_output_logfile) | **POST** /v0/studies/{study_id}/jobs/{job_id}/outputs/logfile | Get Study Job Output Logfile
+*StudiesApi* | [**get_study_job_outputs**](docs/StudiesApi.md#get_study_job_outputs) | **POST** /v0/studies/{study_id}/jobs/{job_id}/outputs | Get Study Job Outputs
+*StudiesApi* | [**inspect_study_job**](docs/StudiesApi.md#inspect_study_job) | **POST** /v0/studies/{study_id}/jobs/{job_id}:inspect | Inspect Study Job
+*StudiesApi* | [**list_studies**](docs/StudiesApi.md#list_studies) | **GET** /v0/studies | List Studies
+*StudiesApi* | [**list_study_jobs**](docs/StudiesApi.md#list_study_jobs) | **GET** /v0/studies/{study_id}/jobs | List Study Jobs
+*StudiesApi* | [**list_study_ports**](docs/StudiesApi.md#list_study_ports) | **GET** /v0/studies/{study_id}/ports | List Study Ports
+*StudiesApi* | [**replace_study_job_custom_metadata**](docs/StudiesApi.md#replace_study_job_custom_metadata) | **PUT** /v0/studies/{study_id}/jobs/{job_id}/metadata | Replace Study Job Custom Metadata
+*StudiesApi* | [**start_study_job**](docs/StudiesApi.md#start_study_job) | **POST** /v0/studies/{study_id}/jobs/{job_id}:start | Start Study Job
+*StudiesApi* | [**stop_study_job**](docs/StudiesApi.md#stop_study_job) | **POST** /v0/studies/{study_id}/jobs/{job_id}:stop | Stop Study Job
+*UsersApi* | [**get_my_profile**](docs/UsersApi.md#get_my_profile) | **GET** /v0/me | Get My Profile
+*UsersApi* | [**update_my_profile**](docs/UsersApi.md#update_my_profile) | **PUT** /v0/me | Update My Profile
+
+
+## Documentation For Models
+
+ - [BodyAbortMultipartUploadV0FilesFileIdAbortPost](docs/BodyAbortMultipartUploadV0FilesFileIdAbortPost.md)
+ - [BodyCompleteMultipartUploadV0FilesFileIdCompletePost](docs/BodyCompleteMultipartUploadV0FilesFileIdCompletePost.md)
+ - [BodyUploadFileV0FilesContentPut](docs/BodyUploadFileV0FilesContentPut.md)
+ - [ClientFile](docs/ClientFile.md)
+ - [ClientFileUploadData](docs/ClientFileUploadData.md)
+ - [ErrorGet](docs/ErrorGet.md)
+ - [File](docs/File.md)
+ - [FileUploadCompletionBody](docs/FileUploadCompletionBody.md)
+ - [FileUploadData](docs/FileUploadData.md)
+ - [Groups](docs/Groups.md)
+ - [HTTPValidationError](docs/HTTPValidationError.md)
+ - [Job](docs/Job.md)
+ - [JobInputs](docs/JobInputs.md)
+ - [JobMetadata](docs/JobMetadata.md)
+ - [JobMetadataUpdate](docs/JobMetadataUpdate.md)
+ - [JobOutputs](docs/JobOutputs.md)
+ - [JobStatus](docs/JobStatus.md)
+ - [Links](docs/Links.md)
+ - [Meta](docs/Meta.md)
+ - [OnePageSolverPort](docs/OnePageSolverPort.md)
+ - [OnePageStudyPort](docs/OnePageStudyPort.md)
+ - [PageFile](docs/PageFile.md)
+ - [PageJob](docs/PageJob.md)
+ - [PageSolver](docs/PageSolver.md)
+ - [PageStudy](docs/PageStudy.md)
+ - [Profile](docs/Profile.md)
+ - [ProfileUpdate](docs/ProfileUpdate.md)
+ - [RunningState](docs/RunningState.md)
+ - [Solver](docs/Solver.md)
+ - [SolverPort](docs/SolverPort.md)
+ - [Study](docs/Study.md)
+ - [StudyPort](docs/StudyPort.md)
+ - [UploadLinks](docs/UploadLinks.md)
+ - [UploadedPart](docs/UploadedPart.md)
+ - [UserRoleEnum](docs/UserRoleEnum.md)
+ - [UsersGroup](docs/UsersGroup.md)
+ - [ValidationError](docs/ValidationError.md)
+
+
+## Documentation For Authorization
+
+
+## HTTPBasic
+
+- **Type**: HTTP basic authentication
+
+
+## Author
+
+<p align="center">
+<image src="../../../../docs/_media/mwl.png" alt="made with love at z43" width="20%" />
+</p>
+
