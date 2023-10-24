@@ -1,0 +1,9 @@
+toolforge_builds_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolforge_builds_cli/build.py,sha256=EtVRSQ5GE4jhX3hruGPmT1_HhI9y_8KEhR7fbb7VDUY,2593
+toolforge_builds_cli/cli.py,sha256=xD6Yd0Ava1OHwWUw6BFH6TFDL_qYKWJOEXzV1Uoq8ks,12077
+toolforge_builds_cli/config.py,sha256=G9DhXzNgCcFgiDbofz1Aa8FRsPo0rtekM72Q1lup3wg,1434
+toolforge_builds_cli-0.0.4.dist-info/LICENSE,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+toolforge_builds_cli-0.0.4.dist-info/METADATA,sha256=nteV720fMCVffsu-hp3D5IWq4ECCvVoT_SwWaC-o9A8,912
+toolforge_builds_cli-0.0.4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+toolforge_builds_cli-0.0.4.dist-info/entry_points.txt,sha256=3J1u9zArofwfsRn4-6QprA2hxIOHh6lV8kfGlVTjiLU,65
+toolforge_builds_cli-0.0.4.dist-info/RECORD,,
