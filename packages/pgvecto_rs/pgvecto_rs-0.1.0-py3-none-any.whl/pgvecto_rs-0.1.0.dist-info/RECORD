@@ -1,0 +1,9 @@
+pgvecto_rs-0.1.0.dist-info/METADATA,sha256=HwSrGnLpV2_ZkD3Oo8FTqPMrOcGTiK1ODYhV31HMsxM,3000
+pgvecto_rs-0.1.0.dist-info/WHEEL,sha256=C8f_gqhOWmHrh81n3Ukx5iURrqMhsHla81fuY1yuwvs,90
+pgvecto_rs-0.1.0.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pgvecto_rs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgvecto_rs/sqlalchemy/__init__.py,sha256=bdbPzDdF8YetkjexD30NstN_To2Fe4A5gsyVRvonWGg,1148
+pgvecto_rs/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pgvecto_rs/utils/decorators.py,sha256=Mj-sCd_XULfwiwByjmxEgdMz4bQAnUN689Ru0RieeYw,1360
+pgvecto_rs/utils/serializer.py,sha256=77FJdQ0zfIXpg5xZk7J_35JyAaZW_Fn8udOV9kyeZbw,613
+pgvecto_rs-0.1.0.dist-info/RECORD,,
