@@ -1,0 +1,17 @@
+pystk2.cpython-311-darwin.so,sha256=xggH2UCRzh5CXPjDVbKfbczm-yRNUcYT7nxgd57cbu4,39423376
+pysupertuxkart2-0.3.2.dist-info/RECORD,,
+pysupertuxkart2-0.3.2.dist-info/WHEEL,sha256=8n3NXKb6nOSlESM9qsvryjYLOAmGAhsH53WEEToI9fA,118
+pysupertuxkart2-0.3.2.dist-info/entry_points.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysupertuxkart2-0.3.2.dist-info/METADATA,sha256=a3Kn-gPWirBRctxCjDV2acVsS7XFFVNVplzKbzdnng8,4579
+pysupertuxkart2-0.3.2.dist-info/licenses/COPYING,sha256=0nIHpSE_dGqsU4k-nswYRW6VldP_pmK9HsnrEHh8IUo,35245
+pysupertuxkart2.dylibs/libpng16.16.38.0.dylib,sha256=NH1Rp7rkV-X5TjGmvdw_HCm2u9XmzaZPPk-Si8yK1AA,676464
+pysupertuxkart2.dylibs/libz.1.2.12.dylib,sha256=wm9pxFbaSh_RrXtWFVH27-hfZc6ISor-dUEH4ETu24U,372608
+pysupertuxkart2.dylibs/libSDL2.dylib,sha256=p3pnY_4XC9MHVJwsgKBN_BNAkdsA0xxfbO-_O3xLnks,3152800
+pysupertuxkart2.dylibs/libfreetype.6.18.3.dylib,sha256=js8fSemvFuYTNxRli7665FOGQuG6zIvRudBIPCq7Chg,2110304
+pysupertuxkart2.dylibs/libmbedcrypto.3.2.1.dylib,sha256=KesWZQCnl8dF6MBSMjVcAgtm0J49fRr1vwXLaZYOA9U,1436784
+pysupertuxkart2.dylibs/libastcenc.dylib,sha256=4vr-Zizf0_5cz04yYPURZbSc8e6GquoWNud1l4PuCdA,554944
+pysupertuxkart2.dylibs/libmbedtls.3.2.1.dylib,sha256=euE4zre5ojdzbxhPcN-ZKvzq0yB-1X5gnbJY0q4euG4,613200
+pysupertuxkart2.dylibs/libcurl.dylib,sha256=y2qYQQD7q07A0kcjB9Yu9ROBqAAYxkGxnL0QOuhIgBo,1204592
+pysupertuxkart2.dylibs/libharfbuzz.dylib,sha256=W3fDBQNa9RD5_yCwnm6u3PRhCFd_mIXcmRUCypsED0Y,12750336
+pysupertuxkart2.dylibs/libmbedx509.3.2.1.dylib,sha256=vQ-ntynxBjyEqgwoNm9iCJKrgf5as2XWNuZYTaVVxE0,295840
+pysupertuxkart2.dylibs/libjpeg.62.3.0.dylib,sha256=hqAddFtnzwIh_NzMncoEBWV9Uwt2BKrgWKf4uzALDLg,1194960
