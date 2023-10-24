@@ -1,0 +1,3 @@
+wagtail>=5.1.2
+django-filter
+wagtailmedia>=0.14.4
