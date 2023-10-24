@@ -1,0 +1,5 @@
+numpy
+psutil
+scipy
+seamm
+tabulate
