@@ -1,0 +1,37 @@
+{% load static i18n thumbnail %}
+<div class="event item">
+
+	<a class="ui large fluid image djangocms-event-modal-trigger" href="#"
+	   hx-get="{% url 'djangocms_events:event_detail' pk=event.pk %}"
+	   hx-target="#djangocms-event-detail"
+	   style="text-align: center;"
+	>
+		{% if corner_labels %}
+			<div class="ui right corner label"
+			     style="border-color: {{ event.calendar.colour }};">
+			</div>
+		{% endif %}
+		{% if event.get_picture %}
+			<img alt="{% trans 'event' %}"
+			     class="event-picture"
+			     src="{{ event.get_picture|thumbnail_url:'event-list' }}"
+			/>
+		{% else %}
+			<i class="ui huge grey calendar alternate outline icon"></i>
+			</a>
+		{% endif %}
+
+	<div class="content">
+		<a class="header djangocms-event-modal-trigger" href="#"
+		   hx-get="{% url 'djangocms_events:event_detail' pk=event.pk %}"
+		   hx-target="#djangocms-event-detail">
+			{{ event.name }}
+		</a>
+		<div class="meta">
+			{{ event.calendar.name }}
+		</div>
+		<div class="content">
+			{% include "./date_time.html" %}
+		</div>
+	</div>
+</div>
