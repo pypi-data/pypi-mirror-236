@@ -1,0 +1,11 @@
+requests>=2.28.1
+SQLAlchemy>=2.0.22
+mysql-connector-python>=8.1.0
+
+[dev]
+pylint
+radon
+autopep8
+debugpy
+build
+coverage
