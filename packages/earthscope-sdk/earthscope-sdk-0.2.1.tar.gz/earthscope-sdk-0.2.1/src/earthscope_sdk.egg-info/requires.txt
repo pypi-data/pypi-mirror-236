@@ -1,0 +1,10 @@
+pyjwt>=2.4.0
+requests>=2.27.1
+
+[dev]
+black
+bumpver
+build
+pytest
+twine
+pip-tools
