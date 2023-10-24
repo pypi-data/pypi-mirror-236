@@ -1,0 +1,7 @@
+setup.py
+qianqiuvideo/__init__.py
+qianqiuvideo/test.py
+qianqiuvideo.egg-info/PKG-INFO
+qianqiuvideo.egg-info/SOURCES.txt
+qianqiuvideo.egg-info/dependency_links.txt
+qianqiuvideo.egg-info/top_level.txt
