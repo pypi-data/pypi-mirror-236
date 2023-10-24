@@ -1,0 +1,5 @@
+pyproject.toml
+structures/modules/emf.egg-info/PKG-INFO
+structures/modules/emf.egg-info/SOURCES.txt
+structures/modules/emf.egg-info/dependency_links.txt
+structures/modules/emf.egg-info/top_level.txt
