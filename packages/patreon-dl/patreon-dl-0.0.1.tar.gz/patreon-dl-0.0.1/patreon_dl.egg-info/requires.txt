@@ -1,0 +1,10 @@
+aiohttp
+click
+yt_dlp
+
+[dev]
+build
+mypy
+pyright
+twine
+vermin

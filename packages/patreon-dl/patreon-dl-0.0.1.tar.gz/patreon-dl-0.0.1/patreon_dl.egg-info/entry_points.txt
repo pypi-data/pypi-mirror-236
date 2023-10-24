@@ -1,0 +1,2 @@
+[console_scripts]
+patreon-dl = patreon_dl.cli:cli

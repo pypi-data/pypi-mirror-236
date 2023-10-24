@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patreon-dl"
+version = "0.0.1"
+authors = [{ name="Ivan Habunek", email="ivan@habunek.com" }]
+description = "Download and sync content from Patreon"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.10"
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+]
+
+dependencies = [
+    "aiohttp",
+    "click",
+    "yt_dlp",
+]
+
+[project.optional-dependencies]
+dev = [
+    "build",
+    "mypy",
+    "pyright",
+    "twine",
+    "vermin",
+]
+
+[project.urls]
+"Homepage" = "https://git.sr.ht/~ihabunek/patreon-dl"
+
+[project.scripts]
+patreon-dl = "patreon_dl.cli:cli"
+
+[tool.setuptools.packages.find]
+include = ["patreon_dl"]
+
+[tool.pyright]
+include = ["patreon_dl"]
+typeCheckingMode = "strict"
