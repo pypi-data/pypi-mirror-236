@@ -1,0 +1,17 @@
+quimeraps/__init__.py,sha256=DxA-biUCbipKGBPFIiERahDwv0eHGwgb83jIK-xmjJA,204
+quimeraps/entry_points.py,sha256=CRykfWSVZRhHAlpufwUWSyEWHgUQKAOZAARVzIX1sLM,1468
+quimeraps/client_gui/__init__.py,sha256=gtAnuOA0Fi61CGKU6y6onX2tHY6FmBSeYQ6BjTOFC18,22
+quimeraps/client_gui/main_window.py,sha256=-zYBNly8hyaTuwnAPH-pKqL8RRsb-Xkas4eYE2J5lxw,12586
+quimeraps/client_gui/main_window.ui,sha256=NCuSnmLlN4pKgTcw9C4Ig1ASkB49g_A3tn5hr4p6yKc,4009
+quimeraps/json_srv/SMWinservice.py,sha256=sVXwRxqCzAqGV97PEOtRTfzE-bFr8aGjRcB9HttRw6A,2958
+quimeraps/json_srv/__init__.py,sha256=KmuIUpsl37fAPQ_ChiYIL8kwkEiq_Vrp8JxfdqX4Af0,28
+quimeraps/json_srv/daemon_functions.py,sha256=hVxCDncVHFlvzaONY6PC17XTznRC_QupF6yAE4Xdhjs,2265
+quimeraps/json_srv/data.py,sha256=Ellhhejd59fhwCUIOd34on87rgzLuUbjCmmpvfl4y9Q,1854
+quimeraps/json_srv/logging.py,sha256=n7t90A0YDbJItBc1jRgNWTmFJhO7tP7YQNh-mHm2EcI,1011
+quimeraps/json_srv/main_service.py,sha256=PrWvA9lK6dLDWAhoTsxSje22vUO8V4_QvUXu_Qi-_64,18128
+quimeraps-0.84.dist-info/LICENSE.gplv3,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+quimeraps-0.84.dist-info/METADATA,sha256=xB3qWuvA2ThF3p4NakuHGHn4Fg4gDPtd-aJPu9T0uX8,3532
+quimeraps-0.84.dist-info/WHEEL,sha256=AtBG6SXL3KF_v0NxLf0ehyVOh0cold-JbJYXNGorC6Q,92
+quimeraps-0.84.dist-info/entry_points.txt,sha256=v1iYhNh_nSBIhChePTAKhBEbKv5DyjBquSCfUeqrIoM,189
+quimeraps-0.84.dist-info/top_level.txt,sha256=_YDBzCxyb36YBHWNtxsJAtCDzvDCboCdQ4cWavnQnfU,10
+quimeraps-0.84.dist-info/RECORD,,
