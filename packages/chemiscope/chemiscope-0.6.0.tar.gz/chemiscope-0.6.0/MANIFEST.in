@@ -1,0 +1,4 @@
+include pyproject.toml
+
+recursive-include python/jupyter *.js
+recursive-include python/jupyter *.json
