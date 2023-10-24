@@ -1,0 +1,7 @@
+LICENSE
+pyproject.toml
+setup.py
+mujoco_dev.egg-info/PKG-INFO
+mujoco_dev.egg-info/SOURCES.txt
+mujoco_dev.egg-info/dependency_links.txt
+mujoco_dev.egg-info/top_level.txt

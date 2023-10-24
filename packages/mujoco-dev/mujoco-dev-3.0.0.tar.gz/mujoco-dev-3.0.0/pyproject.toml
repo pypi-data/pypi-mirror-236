@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mujoco-dev"
+version = "3.0.0"
+authors = [
+    {name = "Google DeepMind", email = "mujoco@deepmind.com"},
+]
+description = "MuJoCo Physics Simulator (unstable dev build) [DEPRECATED - DO NOT USE]"
+requires-python = ">=3.8"
+license = {text = "Apache License 2.0"}
