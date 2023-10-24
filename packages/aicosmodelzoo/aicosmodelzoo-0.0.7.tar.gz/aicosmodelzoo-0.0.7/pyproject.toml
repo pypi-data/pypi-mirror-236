@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aicosmodelzoo"
+version = "0.0.7"
+authors = [
+  { name="Jorge Vieira", email="jorge.vieira@aicos.fraunhofer.pt" },
+]
+description = "A Model Zoo package for FhP AICOS"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
