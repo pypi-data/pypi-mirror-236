@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: pinkman
+Version: 0.1.2
+Summary: An SMTP Server to forward Messages into A Backend System.
+Home-page: https://github.com/Clivern/Pinkman/
+Author: Clivern
+Author-email: hello@clivern.com
+License: MIT
+Project-URL: Documentation, https://github.com/Clivern/Pinkman/
+Project-URL: Source, https://github.com/Clivern/Pinkman/
+Project-URL: Changelog, https://github.com/Clivern/Pinkman/blob/main/CHANGELOG.rst
+Project-URL: Tracker, https://github.com/Clivern/Pinkman/issues
+Project-URL: Download, https://pypi.org/project/Pinkman/#files
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: click <=8.1.7
+Requires-Dist: PyYAML <=6.0.1
+Requires-Dist: requests <=2.31.0
+Requires-Dist: importlib-metadata <=6.8.0 ; python_version < "3.8"
+
+.. image:: https://img.shields.io/pypi/v/Pinkman.svg
+    :alt: PyPI-Server
+    :target: https://pypi.org/project/Pinkman/
+.. image:: https://github.com/Norwik/Pinkman/actions/workflows/ci.yml/badge.svg
+    :alt: Build Status
+    :target: https://github.com/Norwik/Pinkman/actions/workflows/ci.yml
+
+|
+
+=======
+Pinkman
+=======
+
+To use pinkman, follow the following steps:
+
+1. Create a python virtual environment or use system wide environment
+
+.. code-block::
+
+    $ python3 -m venv venv
+    $ source venv/bin/activate
+
+
+2. Install pinkman package with pip.
+
+.. code-block::
+
+    $ pip install pinkman
+
+
+3. Create the config file.
+
+.. code-block::
+
+    server:
+      hostname: localhost
+      port: 1025
+
+    cache:
+      type: sqlite
+      path: /tmp/pinkman.db
+
+    backend:
+      type: http
+      method: post
+      url: https://pinkman.free.beeceptor.com
+      apikey: 5ab99869-f403-4481-bed6-da7c8aad7521
+
+
+4. Run the pinkman server.
+
+.. code-block::
+
+    $ pinkman server run -c /etc/config.prod.yml
+
+
+5. Run the pinkman worker.
+
+.. code-block::
+
+    $ pinkman worker run -c /etc/config.prod.yml
