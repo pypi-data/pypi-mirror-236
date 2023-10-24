@@ -1,0 +1,13 @@
+{
+  "nodeInfo": {
+    "region": "r4",
+    "hostname": "10.0.0.4",
+    "verticles": [
+      {
+        "id": 9004,
+        "type": "STORAGE",
+        "port": 9004
+      }
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+name type x_pos y_pos host memoryGB
+9001, storage, 0, 0, host1, 8
+9002, storage, 1, 0, host1, 8
+9003, storage, 3, 0, host2, 8
+ap1, ap, 0, 1, ap1, 8
+ap2, ap, 3, 1, ap2, 8

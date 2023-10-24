@@ -1,0 +1,2 @@
+[console_scripts]
+dml = dml.client:entry_point

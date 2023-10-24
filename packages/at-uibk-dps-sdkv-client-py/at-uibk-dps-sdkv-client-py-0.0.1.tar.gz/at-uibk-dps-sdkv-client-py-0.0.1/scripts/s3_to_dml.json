@@ -1,0 +1,27 @@
+{
+  "bucket": "epigenomicsuibk",
+  "keys": [
+    "code/fastqSplit.pl",
+    "code/libcrypt.so.1",
+    "code/libcrypt.so.1.1.0",
+    "code/libowcrypt.so.1",
+    "code/libstdc++.so.5",
+    "code/libstdc++.so.5.0.7",
+    "code/maq",
+    "code/maqindex",
+    "code/solexaFilterContams.pl",
+    "code/wrap_maq_fastq2bfq.pl",
+    "code/wrap_maq_map.pl",
+    "code/wrap_maq_mapmerge.pl",
+    "code/wrap_maq_pileup.pl",
+    "code/wrap_maq_sol2sanger.pl",
+    "code/wrap_maqindex.pl",
+
+    "input/080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_1_sequence_small.sfq",
+    "input/080603_ILMN-GA001_0003_205WWAAXX_TAQ1_s_2_sequence_small.sfq",
+    "input/chr21.BS.bfa",
+    "input/chr21.BSnull.bfa"
+  ],
+  "dmlHostname": "localhost",
+  "dmlPort": 9000
+}

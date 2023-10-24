@@ -1,0 +1,5 @@
+rootProject.name = 'dml'
+include 'node'
+include 'client'
+include 'cli'
+

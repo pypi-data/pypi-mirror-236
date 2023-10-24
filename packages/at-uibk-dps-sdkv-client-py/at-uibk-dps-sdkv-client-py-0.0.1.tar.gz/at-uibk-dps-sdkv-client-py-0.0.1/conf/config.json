@@ -1,0 +1,35 @@
+{
+  "nodeInfo": {
+    "region": "local",
+    "hostname": "localhost",
+    "defaultNumReplicas": 1,
+    "allowReplicasOnTheSameNode": false,
+    "verticles": [
+      {
+        "id": 9000,
+        "type": "METADATA",
+        "port": 9000
+      },
+      {
+        "id": 9001,
+        "type": "STORAGE",
+        "port": 9001
+      },
+      {
+        "id": 9002,
+        "type": "STORAGE",
+        "port": 9002
+      },
+      {
+        "id": 9003,
+        "type": "STORAGE",
+        "port": 9003
+      },
+      {
+        "id": 9004,
+        "type": "STORAGE",
+        "port": 9004
+      }
+    ]
+  }
+}

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+## Install Java
+sudo apt install default-jdk
+
+## Clone SDML and create fat jar
+cd distributed-data-layer
+sudo pip install -e client-py/
+
+chmod +x gradlew
+./gradlew shadowJar
+cp node/build/libs/node-1.0-SNAPSHOT-all.jar experiments/dml-node.jar
+
+## Redis
+sudo amazon-linux-extras install epel -y
+sudo yum update
+sudo yum install redis
+redis-server --port 9001 --protected-mode no

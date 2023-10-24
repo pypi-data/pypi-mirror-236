@@ -1,0 +1,18 @@
+{
+  "nodeInfo": {
+    "region": "r1",
+    "hostname": "10.0.0.1",
+    "verticles": [
+      {
+        "id": 9000,
+        "type": "METADATA",
+        "port": 9000
+      },
+      {
+        "id": 9001,
+        "type": "STORAGE",
+        "port": 9001
+      }
+    ]
+  }
+}

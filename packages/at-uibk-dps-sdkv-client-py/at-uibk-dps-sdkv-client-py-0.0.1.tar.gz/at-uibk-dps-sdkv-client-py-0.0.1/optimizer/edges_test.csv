@@ -1,0 +1,5 @@
+node1 node2 latency bandwidth
+9001, ap1, 1, 500
+9002, ap1, 1, 500
+ap1, ap2, 5, 500
+ap2, 9003, 1, 500

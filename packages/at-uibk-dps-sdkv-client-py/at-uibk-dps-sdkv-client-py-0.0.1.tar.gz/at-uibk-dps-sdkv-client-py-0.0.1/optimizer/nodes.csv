@@ -1,0 +1,10 @@
+name type x_pos y_pos host memoryGB, region
+9001, storage, 0, 0, host1, 8, r1
+9002, storage, 0, 4, host2, 8, r1
+9003, storage, 2, 0, host3, 8, r1
+9004, storage, 2, 4, host4, 8, r1
+ap1, ap, 0, 1, ap1, 8, r1
+ap2, ap, 0, 3, ap2, 8, r1
+ap3, ap, 2, 1, ap3, 8, r1
+ap4, ap, 2, 3, ap4, 8, r1
+switch1, switch, 1, 2, switch1, 8, r1
