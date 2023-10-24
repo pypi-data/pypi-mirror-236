@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python_bebop
+Version: 1.0.6
+Summary: bebop runtime bindings for Python
+Home-page: https://github.com/liquidiert/bebop
+Author: Korbinian Habereder
+Author-email: korbinian.habereder@gmail.com
+Project-URL: Bug Tracker, https://github.com/liquidiert/bebop
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Python bebop
+
+Bebop is a schema-based binary serialization technology, similar to Protocol Buffers or MessagePack. In particular, Bebop tries to be a good fit for client–server or distributed web apps that need something faster, more concise, and more type-safe than JSON or MessagePack, while also avoiding some of the complexity of Protocol Buffers, FlatBuffers and the like.
