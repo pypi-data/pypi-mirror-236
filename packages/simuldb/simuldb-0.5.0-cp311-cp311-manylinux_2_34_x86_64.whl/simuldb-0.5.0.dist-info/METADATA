@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: simuldb
+Version: 0.5.0
+Summary: Database with backend and format agnostic data storage for simulation results coupled with metadata
+Author: Daniel Hauck <mail@dhauck.eu>
+Author-email: Daniel Hauck <mail@dhauck.eu>
+License: MIT OR Apache-2.0
+Project-URL: Source Code, https://gitlab.com/solidtux-rust/simuldb
