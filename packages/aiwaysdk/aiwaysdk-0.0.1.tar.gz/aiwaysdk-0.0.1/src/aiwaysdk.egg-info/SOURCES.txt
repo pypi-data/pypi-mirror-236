@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/aiway/__init__.py
+src/aiway/test.py
+src/aiwaysdk.egg-info/PKG-INFO
+src/aiwaysdk.egg-info/SOURCES.txt
+src/aiwaysdk.egg-info/dependency_links.txt
+src/aiwaysdk.egg-info/top_level.txt
