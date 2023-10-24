@@ -1,0 +1,12 @@
+protectremote/__init__.py,sha256=UF06NcNrNtSWM_t71wdZzf-U9IQXtGFEJfrOYNDhDiU,939
+protectremote/job.py,sha256=stwWiUi9Cvebc2o5hdxjQ2XOiqfosGv9pB_qlqQZi4Q,348
+protectremote/main.py,sha256=MkO5HMsi-rRXPDGJITLBnQ-eT9VpYmIDhdfmLEQngT4,2546
+protectremote/middleware.py,sha256=E9tr2axuE2XXCW21VUDLvLDN18NZySbb-gY_tYu3SVA,1384
+protectremote/settings.py,sha256=tjAfCARP7Wtf-_NVkcsMomGAtUZ32X30x4YMkHS8m-k,232
+protectremote/version.py,sha256=_CHkvFN2RXdxWAV9ZibodpEg34gpwzkqwWF_cx75PY4,19
+protectremote/templates/Forbidden403Page.html,sha256=VUdV1pion_wMo9C6PhXSVj4uJp-b04wxXiONZSQfJPE,2677
+protectremote-0.0.0.1.dist-info/LICENSE.txt,sha256=lEjfVP9pyv7E9S6kRAY4vYbc3485gE9iNcSwX-8Bu6Y,1087
+protectremote-0.0.0.1.dist-info/METADATA,sha256=hOQiYqGSUBhgG1ZsPKAxoFEHW6bqH0oonvKzSm6u7gU,1184
+protectremote-0.0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+protectremote-0.0.0.1.dist-info/top_level.txt,sha256=MDEawEHQEQu7jTuhvCcO4OEMg69TAioFHayEcAiQtpI,14
+protectremote-0.0.0.1.dist-info/RECORD,,
