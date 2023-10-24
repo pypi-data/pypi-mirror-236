@@ -1,0 +1,8 @@
+requests
+urllib3
+
+[lint]
+ruff
+
+[test]
+pytest
