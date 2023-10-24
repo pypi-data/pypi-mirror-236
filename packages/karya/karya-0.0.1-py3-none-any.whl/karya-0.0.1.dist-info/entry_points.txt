@@ -1,0 +1,2 @@
+[console_scripts]
+karya = karya.__main__:cli
