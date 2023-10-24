@@ -1,0 +1,3 @@
+[console_scripts]
+labelmerge=labelmerge.run:main
+
