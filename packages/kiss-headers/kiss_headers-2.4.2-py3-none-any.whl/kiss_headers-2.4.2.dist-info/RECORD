@@ -1,0 +1,13 @@
+kiss_headers/__init__.py,sha256=ThhtLua3feFqEJI2_Lqu6bAimH2R96XU__-DEl_vxko,3516
+kiss_headers/api.py,sha256=TtWPX_vZZ9L-1C1AwzRYNoharKuGieIlPw37OxQkQx8,6982
+kiss_headers/builder.py,sha256=0rAvkP29CiD5JUtce9wNWWP_5XhJ4p9Q3ua3wHJcK2o,57400
+kiss_headers/models.py,sha256=e6XenKlzTK5NHVYZhCvoMkS-NJQ_cU-5YDN_AVteGPU,52748
+kiss_headers/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+kiss_headers/serializer.py,sha256=7sSS_avipFIv4gI4gI6QmBgjotEfOaBQwzBE3nUbxn8,2086
+kiss_headers/structures.py,sha256=7TNqHVw0bhKzynwErou1punQ2vfcTe5vnO_kWxZHZCI,3014
+kiss_headers/utils.py,sha256=TKiROva1YQu4b3PkOIY_Wmx12sdJ5XFQj1NIgZRfzF4,15001
+kiss_headers/version.py,sha256=2MCePBpXLHHFfKLLZKi2U_TCMTNpm4PSsOANffmEt18,79
+kiss_headers-2.4.2.dist-info/METADATA,sha256=v3v21Ee7qqUbZde-Nm3DElkLSn5YXdrFhvIdFqXzMcw,13676
+kiss_headers-2.4.2.dist-info/WHEEL,sha256=9QBuHhg6FNW7lppboF2vKVbCGTVzsFykgRQjjlajrhA,87
+kiss_headers-2.4.2.dist-info/licenses/LICENSE,sha256=eu9DoD3oHYBHOqPe8FMDWExW8wplK187POQ2eIfXi7E,1070
+kiss_headers-2.4.2.dist-info/RECORD,,
