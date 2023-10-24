@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tai-alphi
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/triplealpha-innovation/tai-python-modules
+Author: MateoSaezMata
+Author-email: msaez@triplealpha.in
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/triplealpha-innovation/tai-python-modules
+Description-Content-Type: text/markdown
+
+
