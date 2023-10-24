@@ -1,0 +1,14 @@
+todolist/__init__.py,sha256=7e8njwE5LuoeV6RL4f9Et0IqqHoGKGI-vXcK1SYPrGY,134
+todolist/exceptions/__init__.py,sha256=fniYXeue0__k25P0DJhStMq4Du6qux-tdB0ACOnXDvI,77
+todolist/exceptions/task_exceptions.py,sha256=N0Fll7UOzQBAe3T3leIE1BoiTUIBTtX1lLZ1bst_l4U,268
+todolist/models/__init__.py,sha256=PqOJFBsy7e8LzKAo1qeP9ZeYph9staxeUsHT4B1Fe7U,63
+todolist/models/task.py,sha256=dFm4eBupp_fu6h9a4CDq4QKeie4zkl2GFXloWOn497w,1062
+todolist/models/task_list.py,sha256=8N7qvsyAptc-5UYNw40mc1tu-Cx_cag8NPKNPuT65NQ,1942
+todolist/models/user.py,sha256=NazUdCegruNfOGIow5WdXOh_rt24tB9iBYGl9zjS-aQ,625
+todolist/tests/__init__.py,sha256=QPpMVV6Hs6QAQTIWhxP2Olm-iQV-o5b1p5tZ38WUqYQ,69
+todolist/tests/test_task.py,sha256=hDGV2tej8_YBIrsRmA_yVl_3GJnbc_9iKV1u3FYCyro,356
+todolist/tests/test_task_list.py,sha256=FBA3d1bQDPPdhaKZntZb5cxTsznQmp60LD49uOw0QVo,1336
+todolist_Telecom-1.0.7.dist-info/METADATA,sha256=Fpdgnub9JurNFQTHJDJogt-6Xlz0DdtlMF5fWPV7Og4,2976
+todolist_Telecom-1.0.7.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+todolist_Telecom-1.0.7.dist-info/top_level.txt,sha256=jxiSqeiYTyaGCF2TLNyq6RN0Ywcehl5wKVl9248LNqc,9
+todolist_Telecom-1.0.7.dist-info/RECORD,,
