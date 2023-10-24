@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyspark-utilities
+Version: 0.0.39
+Summary: Spark utilities to be used by the Analytics BDA
+Home-page: UNKNOWN
+Author: ENG ALIDA TEAM
+Author-email: engineering-alida-lab@eng.it
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: bda-service-utils
+Requires-Dist: pyspark
+Requires-Dist: alida-arg-parser
+Requires-Dist: redis
+Requires-Dist: PyArrow (>=0.8.0)
+
+UNKNOWN
+
+
